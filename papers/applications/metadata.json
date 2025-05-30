@@ -351,7 +351,71 @@
       "subject_classification": "applications",
       "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 5)",
       "paper_id": "6dd963be5887714929773f696df6273d"
+    },
+    {
+      "title": "Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems",
+      "authors": [
+        "Christopher Ormerod"
+      ],
+      "abstract": "arXiv:2505.22771v1 Announce Type: new \nAbstract: This study illustrates how incorporating feedback-oriented annotations into the scoring pipeline can enhance the accuracy of automated essay scoring (AES). This approach is demonstrated with the Persuasive Essays for Rating, Selecting, and Understanding Argumentative and Discourse Elements (PERSUADE) corpus. We integrate two types of feedback-driven annotations: those that identify spelling and grammatical errors, and those that highlight argumentative components. To illustrate how this method could be applied in real-world scenarios, we employ two LLMs to generate annotations -- a generative language model used for spell-correction and an encoder-based token classifier trained to identify and mark argumentative elements. By incorporating annotations into the scoring process, we demonstrate improvements in performance using encoder-based large language models fine-tuned as classifiers.",
+      "url": "https://arxiv.org/abs/2505.22771",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 75,
+      "innovation_score": 65,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "annotations",
+        "scoring",
+        "argumentative",
+        "automated",
+        "feedback",
+        "incorporating",
+        "annotations scoring",
+        "automated essay",
+        "based",
+        "elements"
+      ],
+      "subject_classification": "applications",
+      "justification": "The paper addresses a relevant problem in educational technology \u2013 improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.",
+      "paper_id": "1d97e0242cd43b7d43ec31379fa3ce89"
+    },
+    {
+      "title": "Towards a More Generalized Approach in Open Relation Extraction",
+      "authors": [
+        "Qing Wang, Yuepei Li, Qiao Qiao, Kang Zhou, Qi Li"
+      ],
+      "abstract": "arXiv:2505.22801v1 Announce Type: new \nAbstract: Open Relation Extraction (OpenRE) seeks to identify and extract novel relational facts between named entities from unlabeled data without pre-defined relation schemas. Traditional OpenRE methods typically assume that the unlabeled data consists solely of novel relations or is pre-divided into known and novel instances. However, in real-world scenarios, novel relations are arbitrarily distributed. In this paper, we propose a generalized OpenRE setting that considers unlabeled data as a mixture of both known and novel instances. To address this, we propose MixORE, a two-phase framework that integrates relation classification and clustering to jointly learn known and novel relations. Experiments on three benchmark datasets demonstrate that MixORE consistently outperforms competitive baselines in known relation classification and novel relation clustering. Our findings contribute to the advancement of generalized OpenRE research and real-world applications.",
+      "url": "https://arxiv.org/abs/2505.22801",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 75,
+      "innovation_score": 70,
+      "impact_score": 72,
+      "sentiment_score": 80,
+      "keywords": [
+        "novel",
+        "relation",
+        "known",
+        "openre",
+        "data",
+        "generalized",
+        "known novel",
+        "novel relations",
+        "relations",
+        "unlabeled"
+      ],
+      "subject_classification": "applications",
+      "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
+      "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.494639"
+  "last_updated": "2025-05-30T13:44:12.549334"
 }

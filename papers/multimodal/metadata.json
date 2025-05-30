@@ -319,7 +319,71 @@
       "subject_classification": "multimodal",
       "justification": "Contains key LLM terms (bonus: 10)",
       "paper_id": "fe48af221481590ede16e6c1febba56b"
+    },
+    {
+      "title": "StressTest: Can YOUR Speech LM Handle the Stress?",
+      "authors": [
+        "Iddo Yosha, Gallil Maimon, Yossi Adi"
+      ],
+      "abstract": "arXiv:2505.22765v1 Announce Type: new \nAbstract: Sentence stress refers to emphasis, placed on specific words within a spoken utterance to highlight or contrast an idea, or to introduce new information. It is often used to imply an underlying intention that is not explicitly stated. Recent advances in speech-aware language models (SLMs) have enabled direct processing of audio, allowing models to bypass transcription and access the full richness of the speech signal and perform audio reasoning tasks such as spoken question answering. Despite the crucial role of sentence stress in shaping meaning and speaker intent, it remains largely overlooked in evaluation and development of such models. In this work, we address this gap by introducing StressTest, a benchmark specifically designed to evaluate a model's ability to distinguish between interpretations of spoken sentences based on the stress pattern. We assess the performance of several leading SLMs and find that, despite their overall capabilities, they perform poorly on such tasks. To overcome this limitation, we propose a novel synthetic data generation pipeline, and create Stress17k, a training set that simulates change of meaning implied by stress variation. Then, we empirically show that optimizing models with this synthetic dataset aligns well with real-world recordings and enables effective finetuning of SLMs. Results suggest, that our finetuned model, StresSLM, significantly outperforms existing models on both sentence stress reasoning and detection tasks. Code, models, data, and audio samples - pages.cs.huji.ac.il/adiyoss-lab/stresstest.",
+      "url": "https://arxiv.org/abs/2505.22765",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "stress",
+        "audio",
+        "sentence",
+        "sentence stress",
+        "slms",
+        "speech",
+        "spoken",
+        "stresstest",
+        "tasks"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial, yet often overlooked, aspect of speech understanding \u2013 sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.",
+      "paper_id": "365b2cf7b09dc05260354b107db1cc13"
+    },
+    {
+      "title": "Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages",
+      "authors": [
+        "Kaja Dobrovoljc"
+      ],
+      "abstract": "arXiv:2505.22774v1 Announce Type: new \nAbstract: This paper presents a novel treebank-driven approach to comparing syntactic structures in speech and writing using dependency-parsed corpora. Adopting a fully inductive, bottom-up method, we define syntactic structures as delexicalized dependency (sub)trees and extract them from spoken and written Universal Dependencies (UD) treebanks in two syntactically distinct languages, English and Slovenian. For each corpus, we analyze the size, diversity, and distribution of syntactic inventories, their overlap across modalities, and the structures most characteristic of speech. Results show that, across both languages, spoken corpora contain fewer and less diverse syntactic structures than their written counterparts, with consistent cross-linguistic preferences for certain structural types across modalities. Strikingly, the overlap between spoken and written syntactic inventories is very limited: most structures attested in speech do not occur in writing, pointing to modality-specific preferences in syntactic organization that reflect the distinct demands of real-time interaction and elaborated writing. This contrast is further supported by a keyness analysis of the most frequent speech-specific structures, which highlights patterns associated with interactivity, context-grounding, and economy of expression. We argue that this scalable, language-independent framework offers a useful general method for systematically studying syntactic variation across corpora, laying the groundwork for more comprehensive data-driven theories of grammar in use.",
+      "url": "https://arxiv.org/abs/2505.22774",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 75,
+      "innovation_score": 65,
+      "impact_score": 60,
+      "sentiment_score": 80,
+      "keywords": [
+        "syntactic",
+        "structures",
+        "speech",
+        "writing",
+        "corpora",
+        "driven",
+        "languages",
+        "spoken",
+        "syntactic structures",
+        "written"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
+      "paper_id": "c835662b34dfbf99859be3bb249390e7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.491034"
+  "last_updated": "2025-05-30T13:44:12.548323"
 }

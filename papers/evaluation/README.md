@@ -2,7 +2,29 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Can Large Language Models Match the Conclusions of Systematic Reviews?
+
+**Score:** 92.0 | **Published:** 2025-05-30 | **Authors:** Christopher Polzak, Alejandro Lozano, Min Woo Sun, James Burgess, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy
+
+arXiv:2505.22787v1 Announce Type: new 
+Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators
+
+**Score:** 88.0 | **Published:** 2025-05-30 | **Authors:** John Mendon\c{c}a, Alon Lavie, Isabel Trancoso
+
+arXiv:2505.22777v1 Announce Type: new 
+Abstract: As the capabilities of chatbots and their underlying LLMs continue to dramatically improve, evaluating their performance has increasingly become a majo...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22777) | [📝 Analysis](d72fcac8f7812b7b34df451ca768d0bd.md)
+
+---
 
 ### ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering
 
@@ -148,4 +170,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-30 13:44:12 UTC*

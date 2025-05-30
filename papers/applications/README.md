@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (11 total)
+## Papers (13 total)
+
+### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
+
+**Score:** 75.0 | **Published:** 2025-05-30 | **Authors:** Christopher Ormerod
+
+arXiv:2505.22771v1 Announce Type: new 
+Abstract: This study illustrates how incorporating feedback-oriented annotations into the scoring pipeline can enhance the accuracy of automated essay scoring (A...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22771) | [📝 Analysis](1d97e0242cd43b7d43ec31379fa3ce89.md)
+
+---
+
+### Towards a More Generalized Approach in Open Relation Extraction
+
+**Score:** 75.0 | **Published:** 2025-05-30 | **Authors:** Qing Wang, Yuepei Li, Qiao Qiao, Kang Zhou, Qi Li
+
+arXiv:2505.22801v1 Announce Type: new 
+Abstract: Open Relation Extraction (OpenRE) seeks to identify and extract novel relational facts between named entities from unlabeled data without pre-defined r...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22801) | [📝 Analysis](b702bce377bd40a6577bf64dd1b7e482.md)
+
+---
 
 ### Data-efficient Meta-models for Evaluation of Context-based Questions and Answers in LLMs
 
@@ -126,4 +148,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-30 13:44:12 UTC*

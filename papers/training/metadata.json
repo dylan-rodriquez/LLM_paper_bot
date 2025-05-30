@@ -1599,7 +1599,71 @@
       "subject_classification": "training",
       "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 5)",
       "paper_id": "5cd4de52b77b2810e4b93b77ed4fef53"
+    },
+    {
+      "title": "FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian",
+      "authors": [
+        "Sara Papi, Marco Gaido, Luisa Bentivogli, Alessio Brutti, Mauro Cettolo, Roberto Gretter, Marco Matassoni, Mohamed Nabih, Matteo Negri"
+      ],
+      "abstract": "arXiv:2505.22759v1 Announce Type: new \nAbstract: The development of speech foundation models (SFMs) like Whisper and SeamlessM4T has significantly advanced the field of speech processing. However, their closed nature--with inaccessible training data and code--poses major reproducibility and fair evaluation challenges. While other domains have made substantial progress toward open science by developing fully transparent models trained on open-source (OS) code and data, similar efforts in speech remain limited. To fill this gap, we introduce FAMA, the first family of open science SFMs for English and Italian, trained on 150k+ hours of OS speech data. Moreover, we present a new dataset containing 16k hours of cleaned and pseudo-labeled speech for both languages. Results show that FAMA achieves competitive performance compared to existing SFMs while being up to 8 times faster. All artifacts, including code, datasets, and models, are released under OS-compliant licenses, promoting openness in speech technology research.",
+      "url": "https://arxiv.org/abs/2505.22759",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "open",
+        "code",
+        "data",
+        "fama",
+        "models",
+        "open science",
+        "os",
+        "science",
+        "sfms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial issue in speech processing \u2013 the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.",
+      "paper_id": "74333fe2ba40ec72bc67df7168bdac35"
+    },
+    {
+      "title": "Pre-Training Curriculum for Multi-Token Prediction in Language Models",
+      "authors": [
+        "Ansar Aynetdinov, Alan Akbik"
+      ],
+      "abstract": "arXiv:2505.22757v1 Announce Type: new \nAbstract: Multi-token prediction (MTP) is a recently proposed pre-training objective for language models. Rather than predicting only the next token (NTP), MTP predicts the next $k$ tokens at each prediction step, using multiple prediction heads. MTP has shown promise in improving downstream performance, inference speed, and training efficiency, particularly for large models. However, prior work has shown that smaller language models (SLMs) struggle with the MTP objective. To address this, we propose a curriculum learning strategy for MTP training, exploring two variants: a forward curriculum, which gradually increases the complexity of the pre-training objective from NTP to MTP, and a reverse curriculum, which does the opposite. Our experiments show that the forward curriculum enables SLMs to better leverage the MTP objective during pre-training, improving downstream NTP performance and generative output quality, while retaining the benefits of self-speculative decoding. The reverse curriculum achieves stronger NTP performance and output quality, but fails to provide any self-speculative decoding benefits.",
+      "url": "https://arxiv.org/abs/2505.22757",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 75,
+      "innovation_score": 65,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "mtp",
+        "curriculum",
+        "training",
+        "models",
+        "ntp",
+        "objective",
+        "pre",
+        "pre training",
+        "prediction",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
+      "paper_id": "12ab24bf09f2216240eb4013cc457122"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.483064"
+  "last_updated": "2025-05-30T13:44:12.546088"
 }

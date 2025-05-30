@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (10 total)
+## Papers (12 total)
+
+### StressTest: Can YOUR Speech LM Handle the Stress?
+
+**Score:** 85.0 | **Published:** 2025-05-30 | **Authors:** Iddo Yosha, Gallil Maimon, Yossi Adi
+
+arXiv:2505.22765v1 Announce Type: new 
+Abstract: Sentence stress refers to emphasis, placed on specific words within a spoken utterance to highlight or contrast an idea, or to introduce new informatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22765) | [📝 Analysis](365b2cf7b09dc05260354b107db1cc13.md)
+
+---
+
+### Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages
+
+**Score:** 75.0 | **Published:** 2025-05-30 | **Authors:** Kaja Dobrovoljc
+
+arXiv:2505.22774v1 Announce Type: new 
+Abstract: This paper presents a novel treebank-driven approach to comparing syntactic structures in speech and writing using dependency-parsed corpora. Adopting ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22774) | [📝 Analysis](c835662b34dfbf99859be3bb249390e7.md)
+
+---
 
 ### Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models
 
@@ -115,4 +137,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-30 13:44:12 UTC*
