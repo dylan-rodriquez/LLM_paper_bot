@@ -1,0 +1,79 @@
+name: LLM Paper Curation
+
+on:
+  schedule:
+    # Run daily at 9 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: 'Number of days to look back for papers'
+        required: false
+        default: '1'
+        type: string
+      min_score:
+        description: 'Minimum significance score (0-100)'
+        required: false
+        default: '70'
+        type: string
+
+jobs:
+  curate-papers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 feedparser nltk scikit-learn pandas numpy python-dateutil markdown
+        python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('vader_lexicon')"
+    
+    - name: Run paper curation script
+      env:
+        DAYS_BACK: ${{ github.event.inputs.days_back || '1' }}
+        MIN_SCORE: ${{ github.event.inputs.min_score || '70' }}
+      run: python .github/scripts/curate_papers.py
+    
+    - name: Check for changes
+      id: check-changes
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "Files changed:"
+          git status --porcelain
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
+        fi
+    
+    - name: Create Pull Request
+      if: steps.check-changes.outputs.changes == 'true'
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: |
+          🤖 Daily LLM paper curation - $(date +'%Y-%m-%d')
+          
+          Auto-curated papers based on significance analysis
+        title: "📚 LLM Papers Update - $(date +'%Y-%m-%d')"
+        body-path: .github/pr_body.md
+        branch: llm-papers-$(date +'%Y%m%d')
+        delete-branch: true
+        labels: |
+          automated
+          papers
+          llm
+        assignees: ${{ github.actor }}
+        draft: false
