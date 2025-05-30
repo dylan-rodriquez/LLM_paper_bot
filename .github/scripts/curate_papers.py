@@ -159,6 +159,8 @@ class PaperCurator:
                 feed = feedparser.parse(feed_url)
                 for entry in feed.entries:
                     published = date_parser.parse(entry.published)
+                    if published.tzinfo is not None:
+                        published = published.replace(tzinfo=None)
                     if published >= start_date:
                         all_papers.append({
                             'title': entry.title,
