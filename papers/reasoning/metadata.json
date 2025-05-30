@@ -383,7 +383,39 @@
       "subject_classification": "reasoning",
       "justification": "Contains key LLM terms (bonus: 10)",
       "paper_id": "2963a6b5177fa0020b210c2c9a946b17"
+    },
+    {
+      "title": "Climate Finance Bench",
+      "authors": [
+        "Rafik Mankour, Yassine Chafai, Hamada Saleh, Ghassen Ben Hassine, Thibaud Barreau, Peter Tankov"
+      ],
+      "abstract": "arXiv:2505.22752v1 Announce Type: new \nAbstract: Climate Finance Bench introduces an open benchmark that targets question-answering over corporate climate disclosures using Large Language Models. We curate 33 recent sustainability reports in English drawn from companies across all 11 GICS sectors and annotate 330 expert-validated question-answer pairs that span pure extraction, numerical reasoning, and logical reasoning. Building on this dataset, we propose a comparison of RAG (retrieval-augmented generation) approaches. We show that the retriever's ability to locate passages that actually contain the answer is the chief performance bottleneck. We further argue for transparent carbon reporting in AI-for-climate applications, highlighting advantages of techniques such as Weight Quantization.",
+      "url": "https://arxiv.org/abs/2505.22752",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "climate",
+        "answer",
+        "bench",
+        "climate finance",
+        "finance",
+        "finance bench",
+        "question",
+        "reasoning",
+        "11",
+        "11 gics"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
+      "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.497908"
+  "last_updated": "2025-05-30T13:44:12.544520"
 }

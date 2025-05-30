@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (50 total)
+## Papers (52 total)
+
+### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
+
+**Score:** 80.0 | **Published:** 2025-05-30 | **Authors:** Sara Papi, Marco Gaido, Luisa Bentivogli, Alessio Brutti, Mauro Cettolo, Roberto Gretter, Marco Matassoni, Mohamed Nabih, Matteo Negri
+
+arXiv:2505.22759v1 Announce Type: new 
+Abstract: The development of speech foundation models (SFMs) like Whisper and SeamlessM4T has significantly advanced the field of speech processing. However, the...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22759) | [📝 Analysis](74333fe2ba40ec72bc67df7168bdac35.md)
+
+---
+
+### Pre-Training Curriculum for Multi-Token Prediction in Language Models
+
+**Score:** 75.0 | **Published:** 2025-05-30 | **Authors:** Ansar Aynetdinov, Alan Akbik
+
+arXiv:2505.22757v1 Announce Type: new 
+Abstract: Multi-token prediction (MTP) is a recently proposed pre-training objective for language models. Rather than predicting only the next token (NTP), MTP p...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22757) | [📝 Analysis](12ab24bf09f2216240eb4013cc457122.md)
+
+---
 
 ### LLM-ODDR: A Large Language Model Framework for Joint Order Dispatching and Driver Repositioning
 
@@ -555,4 +577,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-30 13:44:12 UTC*

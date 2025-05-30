@@ -415,7 +415,71 @@
       "subject_classification": "evaluation",
       "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "787f4b4374ea95f22732eefe21e1582d"
+    },
+    {
+      "title": "Can Large Language Models Match the Conclusions of Systematic Reviews?",
+      "authors": [
+        "Christopher Polzak, Alejandro Lozano, Min Woo Sun, James Burgess, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
+      ],
+      "abstract": "arXiv:2505.22787v1 Announce Type: new \nAbstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a cornerstone for evidence-based clinical decision-making, research, and policy. Given the exponential growth of scientific articles, there is growing interest in using large language models (LLMs) to automate SR generation. However, the ability of LLMs to critically assess evidence and reason across multiple documents to provide recommendations at the same proficiency as domain experts remains poorly characterized. We therefore ask: Can LLMs match the conclusions of systematic reviews written by clinical experts when given access to the same studies? To explore this question, we present MedEvidence, a benchmark pairing findings from 100 SRs with the studies they are based on. We benchmark 24 LLMs on MedEvidence, including reasoning, non-reasoning, medical specialist, and models across varying sizes (from 7B-700B). Through our systematic evaluation, we find that reasoning does not necessarily improve performance, larger models do not consistently yield greater gains, and knowledge-based fine-tuning degrades accuracy on MedEvidence. Instead, most models exhibit similar behavior: performance tends to degrade as token length increases, their responses show overconfidence, and, contrary to human experts, all models show a lack of scientific skepticism toward low-quality findings. These results suggest that more work is still required before LLMs can reliably match the observations from expert-conducted SRs, even though these systems are already deployed and being used by clinicians. We release our codebase and benchmark to the broader research community to further investigate LLM-based SR systems.",
+      "url": "https://arxiv.org/abs/2505.22787",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "llms",
+        "based",
+        "experts",
+        "systematic",
+        "benchmark",
+        "evidence",
+        "match",
+        "medevidence",
+        "reasoning"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and important problem \u2013 automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.",
+      "paper_id": "71d4f123cc5164cd589c7f8354936f1d"
+    },
+    {
+      "title": "MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators",
+      "authors": [
+        "John Mendon\\c{c}a, Alon Lavie, Isabel Trancoso"
+      ],
+      "abstract": "arXiv:2505.22777v1 Announce Type: new \nAbstract: As the capabilities of chatbots and their underlying LLMs continue to dramatically improve, evaluating their performance has increasingly become a major blocker to their further development. A major challenge is the available benchmarking datasets, which are largely static, outdated, and lacking in multilingual coverage, limiting their ability to capture subtle linguistic and cultural variations. This paper introduces MEDAL, an automated multi-agent framework for generating, evaluating, and curating more representative and diverse open-domain dialogue evaluation benchmarks. Our approach leverages several state-of-the-art LLMs to generate user-chatbot multilingual dialogues, conditioned on varied seed contexts. A strong LLM (GPT-4.1) is then used for a multidimensional analysis of the performance of the chatbots, uncovering noticeable cross-lingual performance differences. Guided by this large-scale evaluation, we curate a new meta-evaluation multilingual benchmark and human-annotate samples with nuanced quality judgments. This benchmark is then used to assess the ability of several reasoning and non-reasoning LLMs to act as evaluators of open-domain dialogues. We find that current LLMs struggle to detect nuanced issues, particularly those involving empathy and reasoning.",
+      "url": "https://arxiv.org/abs/2505.22777",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 88,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "multilingual",
+        "chatbots",
+        "domain",
+        "evaluation",
+        "open",
+        "open domain",
+        "performance",
+        "reasoning",
+        "ability"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
+      "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.492895"
+  "last_updated": "2025-05-30T13:44:12.550357"
 }

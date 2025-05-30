@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Climate Finance Bench
+
+**Score:** 85.0 | **Published:** 2025-05-30 | **Authors:** Rafik Mankour, Yassine Chafai, Hamada Saleh, Ghassen Ben Hassine, Thibaud Barreau, Peter Tankov
+
+arXiv:2505.22752v1 Announce Type: new 
+Abstract: Climate Finance Bench introduces an open benchmark that targets question-answering over corporate climate disclosures using Large Language Models. We c...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22752) | [📝 Analysis](0d8848f8c2dc0ea72124b2968bef073b.md)
+
+---
 
 ### Probability-Consistent Preference Optimization for Enhanced LLM Reasoning
 
@@ -137,4 +148,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-30 13:44:12 UTC*
