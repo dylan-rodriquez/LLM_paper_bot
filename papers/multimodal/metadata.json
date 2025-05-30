@@ -1,0 +1,325 @@
+{
+  "papers": [
+    {
+      "title": "Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models",
+      "authors": [
+        "Zeyu Liu, Yuhang Liu, Guanghao Zhu, Congkai Xie, Zhen Li, Jianbo Yuan, Xinyao Wang, Qing Li, Shing-Chi Cheung, Shengyu Zhang, Fei Wu, Hongxia Yang"
+      ],
+      "abstract": "arXiv:2505.23091v1 Announce Type: cross \nAbstract: Recent advancements in large language models (LLMs) have demonstrated substantial progress in reasoning capabilities, such as DeepSeek-R1, which leverages rule-based reinforcement learning to enhance logical reasoning significantly. However, extending these achievements to multimodal large language models (MLLMs) presents critical challenges, which are frequently more pronounced for Multimodal Small Language Models (MSLMs) given their typically weaker foundational reasoning abilities: (1) the scarcity of high-quality multimodal reasoning datasets, (2) the degradation of reasoning capabilities due to the integration of visual processing, and (3) the risk that direct application of reinforcement learning may produce complex yet incorrect reasoning processes. To address these challenges, we design a novel framework Infi-MMR to systematically unlock the reasoning potential of MSLMs through a curriculum of three carefully structured phases and propose our multimodal reasoning model Infi-MMR-3B. The first phase, Foundational Reasoning Activation, leverages high-quality textual reasoning datasets to activate and strengthen the model's logical reasoning capabilities. The second phase, Cross-Modal Reasoning Adaptation, utilizes caption-augmented multimodal data to facilitate the progressive transfer of reasoning skills to multimodal contexts. The third phase, Multimodal Reasoning Enhancement, employs curated, caption-free multimodal data to mitigate linguistic biases and promote robust cross-modal reasoning. Infi-MMR-3B achieves both state-of-the-art multimodal math reasoning ability (43.68% on MathVerse testmini, 27.04% on MathVision test, and 21.33% on OlympiadBench) and general reasoning ability (67.2% on MathVista testmini).",
+      "url": "https://arxiv.org/abs/2505.23091",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 39.34,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 52.95,
+      "keywords": [
+        "reasoning",
+        "multimodal",
+        "infi",
+        "infi mmr",
+        "language",
+        "language models",
+        "mmr",
+        "models",
+        "multimodal reasoning",
+        "capabilities"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "05ce0e52026665c736d0e3a0bb9a788e"
+    },
+    {
+      "title": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence",
+      "authors": [
+        "Diankun Wu, Fangfu Liu, Yi-Hsin Hung, Yueqi Duan"
+      ],
+      "abstract": "arXiv:2505.23747v1 Announce Type: cross \nAbstract: Recent advancements in Multimodal Large Language Models (MLLMs) have significantly enhanced performance on 2D visual tasks. However, improving their spatial intelligence remains a challenge. Existing 3D MLLMs always rely on additional 3D or 2.5D data to incorporate spatial awareness, restricting their utility in scenarios with only 2D inputs, such as images or videos. In this paper, we present Spatial-MLLM, a novel framework for visual-based spatial reasoning from purely 2D observations. Unlike conventional video MLLMs which rely on CLIP-based visual encoders optimized for semantic understanding, our key insight is to unleash the strong structure prior from the feed-forward visual geometry foundation model. Specifically, we propose a dual-encoder architecture: a pretrained 2D visual encoder to extract semantic features, and a spatial encoder-initialized from the backbone of the visual geometry model-to extract 3D structure features. A connector then integrates both features into unified visual tokens for enhanced spatial understanding. Furthermore, we propose a space-aware frame sampling strategy at inference time, which selects the spatially informative frames of a video sequence, ensuring that even under limited token length, the model focuses on frames critical for spatial reasoning. Beyond architecture improvements, we construct the Spatial-MLLM-120k dataset and train the model on it using supervised fine-tuning and GRPO. Extensive experiments on various real-world datasets demonstrate that our spatial-MLLM achieves state-of-the-art performance in a wide range of visual-based spatial understanding and reasoning tasks. Project page: https://diankun-wu.github.io/Spatial-MLLM/.",
+      "url": "https://arxiv.org/abs/2505.23747",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 38.41,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 53.3,
+      "keywords": [
+        "spatial",
+        "visual",
+        "mllm",
+        "spatial mllm",
+        "2d",
+        "based",
+        "model",
+        "3d",
+        "based spatial",
+        "encoder"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "2417f664e7b087e0ddffe2e058fdcd38"
+    },
+    {
+      "title": "Large Language Models for Depression Recognition in Spoken Language Integrating Psychological Knowledge",
+      "authors": [
+        "Yupei Li, Shuaijie Shao, Manuel Milling, Bj\\\"orn W. Schuller"
+      ],
+      "abstract": "arXiv:2505.22863v1 Announce Type: cross \nAbstract: Depression is a growing concern gaining attention in both public discourse and AI research. While deep neural networks (DNNs) have been used for recognition, they still lack real-world effectiveness. Large language models (LLMs) show strong potential but require domain-specific fine-tuning and struggle with non-textual cues. Since depression is often expressed through vocal tone and behaviour rather than explicit text, relying on language alone is insufficient. Diagnostic accuracy also suffers without incorporating psychological expertise. To address these limitations, we present, to the best of our knowledge, the first application of LLMs to multimodal depression detection using the DAIC-WOZ dataset. We extract the audio features using the pre-trained model Wav2Vec, and mapped it to text-based LLMs for further processing. We also propose a novel strategy for incorporating psychological knowledge into LLMs to enhance diagnostic performance, specifically using a question and answer set to grant authorised knowledge to LLMs. Our approach yields a notable improvement in both Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) compared to a base score proposed by the related original paper. The codes are available at https://github.com/myxp-lyp/Depression-detection.git",
+      "url": "https://arxiv.org/abs/2505.22863",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 38.2,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 48.5,
+      "keywords": [
+        "depression",
+        "llms",
+        "knowledge",
+        "language",
+        "psychological",
+        "using",
+        "depression detection",
+        "detection",
+        "diagnostic",
+        "error"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "8a4b0a6960fb13dafacbf2d2ba9d50a3"
+    },
+    {
+      "title": "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation",
+      "authors": [
+        "Peiqi Liu, Zhanqiu Guo, Mohit Warke, Soumith Chintala, Chris Paxton, Nur Muhammad Mahi Shafiullah, Lerrel Pinto"
+      ],
+      "abstract": "arXiv:2411.04999v2 Announce Type: replace-cross \nAbstract: Significant progress has been made in open-vocabulary mobile manipulation, where the goal is for a robot to perform tasks in any environment given a natural language description. However, most current systems assume a static environment, which limits the system's applicability in real-world scenarios where environments frequently change due to human intervention or the robot's own actions. In this work, we present DynaMem, a new approach to open-world mobile manipulation that uses a dynamic spatio-semantic memory to represent a robot's environment. DynaMem constructs a 3D data structure to maintain a dynamic memory of point clouds, and answers open-vocabulary object localization queries using multimodal LLMs or open-vocabulary features generated by state-of-the-art vision-language models. Powered by DynaMem, our robots can explore novel environments, search for objects not found in memory, and continuously update the memory as objects move, appear, or disappear in the scene. We run extensive experiments on the Stretch SE3 robots in three real and nine offline scenes, and achieve an average pick-and-drop success rate of 70% on non-stationary objects, which is more than a 2x improvement over state-of-the-art static systems. Our code as well as our experiment and deployment videos are open sourced and can be found on our project website: https://dynamem.github.io/",
+      "url": "https://arxiv.org/abs/2411.04999",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.RO"
+      ],
+      "significance_score": 36.480000000000004,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 53.65,
+      "keywords": [
+        "open",
+        "dynamem",
+        "memory",
+        "dynamic",
+        "environment",
+        "manipulation",
+        "mobile",
+        "mobile manipulation",
+        "objects",
+        "open vocabulary"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
+      "paper_id": "3f09e21e9fe79f9ac2e445d02b80316a"
+    },
+    {
+      "title": "Evaluating AI capabilities in detecting conspiracy theories on YouTube",
+      "authors": [
+        "Leonardo La Rocca, Francesco Corso, Francesco Pierri"
+      ],
+      "abstract": "arXiv:2505.23570v1 Announce Type: new \nAbstract: As a leading online platform with a vast global audience, YouTube's extensive reach also makes it susceptible to hosting harmful content, including disinformation and conspiracy theories. This study explores the use of open-weight Large Language Models (LLMs), both text-only and multimodal, for identifying conspiracy theory videos shared on YouTube. Leveraging a labeled dataset of thousands of videos, we evaluate a variety of LLMs in a zero-shot setting and compare their performance to a fine-tuned RoBERTa baseline. Results show that text-based LLMs achieve high recall but lower precision, leading to increased false positives. Multimodal models lag behind their text-only counterparts, indicating limited benefits from visual data integration. To assess real-world applicability, we evaluate the most accurate models on an unlabeled dataset, finding that RoBERTa achieves performance close to LLMs with a larger number of parameters. Our work highlights the strengths and limitations of current LLM-based approaches for online harmful content detection, emphasizing the need for more precise and robust systems.",
+      "url": "https://arxiv.org/abs/2505.23570",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.27,
+      "innovation_score": 10,
+      "impact_score": 16,
+      "sentiment_score": 52.6,
+      "keywords": [
+        "llms",
+        "conspiracy",
+        "models",
+        "text",
+        "youtube",
+        "based",
+        "conspiracy theories",
+        "content",
+        "dataset",
+        "evaluate"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "c9216cbf489839931de472622f20568c"
+    },
+    {
+      "title": "DREAM: Drafting with Refined Target Features and Entropy-Adaptive Cross-Attention Fusion for Multimodal Speculative Decoding",
+      "authors": [
+        "Yunhai Hu, Tianhua Xia, Zining Liu, Rahul Raman, Xingyu Liu, Bo Bao, Eric Sather, Vithursan Thangarasa, Sai Qian Zhang"
+      ],
+      "abstract": "arXiv:2505.19201v2 Announce Type: replace \nAbstract: Speculative decoding (SD) has emerged as a powerful method for accelerating autoregressive generation in large language models (LLMs), yet its integration into vision-language models (VLMs) remains underexplored. We introduce DREAM, a novel speculative decoding framework tailored for VLMs that combines three key innovations: (1) a cross-attention-based mechanism to inject intermediate features from the target model into the draft model for improved alignment, (2) adaptive intermediate feature selection based on attention entropy to guide efficient draft model training, and (3) visual token compression to reduce draft model latency. DREAM enables efficient, accurate, and parallel multimodal decoding with significant throughput improvement. Experiments across a diverse set of recent popular VLMs, including LLaVA, Pixtral, SmolVLM and Gemma3, demonstrate up to 3.6x speedup over conventional decoding and significantly outperform prior SD baselines in both inference throughput and speculative draft acceptance length across a broad range of multimodal benchmarks. The code is publicly available at: https://github.com/SAI-Lab-NYU/DREAM.git",
+      "url": "https://arxiv.org/abs/2505.19201",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.67,
+      "innovation_score": 10,
+      "impact_score": 8,
+      "sentiment_score": 59.6,
+      "keywords": [
+        "decoding",
+        "draft",
+        "dream",
+        "model",
+        "speculative",
+        "attention",
+        "draft model",
+        "multimodal",
+        "speculative decoding",
+        "vlms"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "d6fe1f25d73e5303ee51477332d31ac3"
+    },
+    {
+      "title": "Multimodal Inverse Attention Network with Intrinsic Discriminant Feature Exploitation for Fake News Detection",
+      "authors": [
+        "Tianlin Zhang, En Yu, Yi Shao, Jiande Sun"
+      ],
+      "abstract": "arXiv:2502.01699v2 Announce Type: replace-cross \nAbstract: Multimodal fake news detection has garnered significant attention due to its profound implications for social security. While existing approaches have contributed to understanding cross-modal consistency, they often fail to leverage modal-specific representations and explicit discrepant features. To address these limitations, we propose a Multimodal Inverse Attention Network (MIAN), a novel framework that explores intrinsic discriminative features based on news content to advance fake news detection. Specifically, MIAN introduces a hierarchical learning module that captures diverse intra-modal relationships through local-to-global and local-to-local interactions, thereby generating enhanced unimodal representations to improve the identification of fake news at the intra-modal level. Additionally, a cross-modal interaction module employs a co-attention mechanism to establish and model dependencies between the refined unimodal representations, facilitating seamless semantic integration across modalities. To explicitly extract inconsistency features, we propose an inverse attention mechanism that effectively highlights the conflicting patterns and semantic deviations introduced by fake news in both intra- and inter-modality. Extensive experiments on benchmark datasets demonstrate that MIAN significantly outperforms state-of-the-art methods, underscoring its pivotal contribution to advancing social security through enhanced multimodal fake news detection.",
+      "url": "https://arxiv.org/abs/2502.01699",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 35.65,
+      "innovation_score": 40,
+      "impact_score": 16,
+      "sentiment_score": 48.25,
+      "keywords": [
+        "news",
+        "fake",
+        "fake news",
+        "attention",
+        "modal",
+        "detection",
+        "multimodal",
+        "news detection",
+        "cross",
+        "features"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 5)",
+      "paper_id": "016168cb999774a40b95b80a17913841"
+    },
+    {
+      "title": "NegVQA: Can Vision Language Models Understand Negation?",
+      "authors": [
+        "Yuhui Zhang, Yuchang Su, Yiming Liu, Serena Yeung-Levy"
+      ],
+      "abstract": "arXiv:2505.22946v1 Announce Type: new \nAbstract: Negation is a fundamental linguistic phenomenon that can entirely reverse the meaning of a sentence. As vision language models (VLMs) continue to advance and are deployed in high-stakes applications, assessing their ability to comprehend negation becomes essential. To address this, we introduce NegVQA, a visual question answering (VQA) benchmark consisting of 7,379 two-choice questions covering diverse negation scenarios and image-question distributions. We construct NegVQA by leveraging large language models to generate negated versions of questions from existing VQA datasets. Evaluating 20 state-of-the-art VLMs across seven model families, we find that these models struggle significantly with negation, exhibiting a substantial performance drop compared to their responses to the original questions. Furthermore, we uncover a U-shaped scaling trend, where increasing model size initially degrades performance on NegVQA before leading to improvements. Our benchmark reveals critical gaps in VLMs' negation understanding and offers insights into future VLM development. Project page available at https://yuhui-zh15.github.io/NegVQA/.",
+      "url": "https://arxiv.org/abs/2505.22946",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.38,
+      "innovation_score": 30,
+      "impact_score": 40,
+      "sentiment_score": 50.65,
+      "keywords": [
+        "negation",
+        "negvqa",
+        "models",
+        "language",
+        "language models",
+        "questions",
+        "vlms",
+        "benchmark",
+        "model",
+        "performance"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 40); Contains key LLM terms (bonus: 5)",
+      "paper_id": "890ce665496dddcb50490905d7df1ed3"
+    },
+    {
+      "title": "ChatHuman: Chatting about 3D Humans with Tools",
+      "authors": [
+        "Jing Lin, Yao Feng, Weiyang Liu, Michael J. Black"
+      ],
+      "abstract": "arXiv:2405.04533v2 Announce Type: replace-cross \nAbstract: Numerous methods have been proposed to detect, estimate, and analyze properties of people in images, including 3D pose, shape, contact, human-object interaction, and emotion. While widely applicable in vision and other areas, such methods require expert knowledge to select, use, and interpret the results. To address this, we introduce ChatHuman, a language-driven system that integrates the capabilities of specialized methods into a unified framework. ChatHuman functions as an assistant proficient in utilizing, analyzing, and interacting with tools specific to 3D human tasks, adeptly discussing and resolving related challenges. Built on a Large Language Model (LLM) framework, ChatHuman is trained to autonomously select, apply, and interpret a diverse set of tools in response to user inputs. Our approach overcomes significant hurdles in adapting LLMs to 3D human tasks, including the need for domain-specific knowledge and the ability to interpret complex 3D outputs. The innovations of ChatHuman include leveraging academic publications to instruct the LLM on tool usage, employing a retrieval-augmented generation model to create in-context learning examples for managing new tools, and effectively discriminating between and integrating tool results by transforming specialized 3D outputs into comprehensible formats. Experiments demonstrate that ChatHuman surpasses existing models in both tool selection accuracy and overall performance across various 3D human tasks, and it supports interactive chatting with users. ChatHuman represents a significant step toward consolidating diverse analytical methods into a unified, robust system for 3D human tasks.",
+      "url": "https://arxiv.org/abs/2405.04533",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 35.35,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 55.5,
+      "keywords": [
+        "3d",
+        "chathuman",
+        "human",
+        "3d human",
+        "human tasks",
+        "methods",
+        "tasks",
+        "tools",
+        "interpret",
+        "tool"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "1a6242ce1941abf7469289cf8661872c"
+    },
+    {
+      "title": "SNS-Bench-VL: Benchmarking Multimodal Large Language Models in Social Networking Services",
+      "authors": [
+        "Hongcheng Guo, Zheyong Xie, Shaosheng Cao, Boyang Wang, Weiting Liu, Anjie Le, Lei Li, Zhoujun Li"
+      ],
+      "abstract": "arXiv:2505.23065v1 Announce Type: new \nAbstract: With the increasing integration of visual and textual content in Social Networking Services (SNS), evaluating the multimodal capabilities of Large Language Models (LLMs) is crucial for enhancing user experience, content understanding, and platform intelligence. Existing benchmarks primarily focus on text-centric tasks, lacking coverage of the multimodal contexts prevalent in modern SNS ecosystems. In this paper, we introduce SNS-Bench-VL, a comprehensive multimodal benchmark designed to assess the performance of Vision-Language LLMs in real-world social media scenarios. SNS-Bench-VL incorporates images and text across 8 multimodal tasks, including note comprehension, user engagement analysis, information retrieval, and personalized recommendation. It comprises 4,001 carefully curated multimodal question-answer pairs, covering single-choice, multiple-choice, and open-ended tasks. We evaluate over 25 state-of-the-art multimodal LLMs, analyzing their performance across tasks. Our findings highlight persistent challenges in multimodal social context comprehension. We hope SNS-Bench-VL will inspire future research towards robust, context-aware, and human-aligned multimodal intelligence for next-generation social networking services.",
+      "url": "https://arxiv.org/abs/2505.23065",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.26,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 57.55,
+      "keywords": [
+        "multimodal",
+        "sns",
+        "social",
+        "bench",
+        "bench vl",
+        "sns bench",
+        "tasks",
+        "vl",
+        "language",
+        "llms"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "fe48af221481590ede16e6c1febba56b"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.491034"
+}

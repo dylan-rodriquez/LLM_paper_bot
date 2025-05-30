@@ -1,0 +1,709 @@
+{
+  "papers": [
+    {
+      "title": "The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text",
+      "authors": [
+        "Maged S. Al-Shaibani, Moataz Ahmed"
+      ],
+      "abstract": "arXiv:2505.23276v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have achieved unprecedented capabilities in generating human-like text, posing subtle yet significant challenges for information integrity across critical domains, including education, social media, and academia, enabling sophisticated misinformation campaigns, compromising healthcare guidance, and facilitating targeted propaganda. This challenge becomes severe, particularly in under-explored and low-resource languages like Arabic. This paper presents a comprehensive investigation of Arabic machine-generated text, examining multiple generation strategies (generation from the title only, content-aware generation, and text refinement) across diverse model architectures (ALLaM, Jais, Llama, and GPT-4) in academic, and social media domains. Our stylometric analysis reveals distinctive linguistic patterns differentiating human-written from machine-generated Arabic text across these varied contexts. Despite their human-like qualities, we demonstrate that LLMs produce detectable signatures in their Arabic outputs, with domain-specific characteristics that vary significantly between different contexts. Based on these insights, we developed BERT-based detection models that achieved exceptional performance in formal contexts (up to 99.9\\% F1-score) with strong precision across model architectures. Our cross-domain analysis confirms generalization challenges previously reported in the literature. To the best of our knowledge, this work represents the most comprehensive investigation of Arabic machine-generated text to date, uniquely combining multiple prompt generation methods, diverse model architectures, and in-depth stylometric analysis across varied textual domains, establishing a foundation for developing robust, linguistically-informed detection systems essential for preserving information integrity in Arabic-language contexts.",
+      "url": "https://arxiv.org/abs/2505.23276",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 49.13,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 54.4,
+      "keywords": [
+        "arabic",
+        "text",
+        "analysis",
+        "contexts",
+        "generation",
+        "architectures",
+        "detection",
+        "domains",
+        "generated",
+        "human"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 20)",
+      "paper_id": "b855778cc1e57e6b232456f290cac7d9"
+    },
+    {
+      "title": "LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding",
+      "authors": [
+        "Junlong Tong, Jinlan Fu, Zixuan Lin, Yingqi Fan, Anhao Zhao, Hui Su, Xiaoyu Shen"
+      ],
+      "abstract": "arXiv:2505.16983v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) are primarily designed for batch processing. Existing methods for adapting LLMs to streaming rely either on expensive re-encoding or specialized architectures with limited scalability. This work identifies three key mismatches in adapting batch-oriented LLMs to streaming: (1) input-attention, (2) output-attention, and (3) position-ID mismatches. While it is commonly assumed that the latter two mismatches require frequent re-encoding, our analysis reveals that only the input-attention mismatch significantly impacts performance, indicating re-encoding outputs is largely unnecessary. To better understand this discrepancy with the common assumption, we provide the first comprehensive analysis of the impact of position encoding on LLMs in streaming, showing that preserving relative positions within source and target contexts is more critical than maintaining absolute order. Motivated by the above analysis, we introduce a group position encoding paradigm built on batch architectures to enhance consistency between streaming and batch modes. Extensive experiments on cross-lingual and cross-modal tasks demonstrate that our method outperforms existing approaches. Our method requires no architectural modifications, exhibits strong generalization in both streaming and batch modes. The code is available at repository https://github.com/EIT-NLP/StreamingLLM.",
+      "url": "https://arxiv.org/abs/2505.16983",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 45.480000000000004,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 51.15,
+      "keywords": [
+        "streaming",
+        "batch",
+        "encoding",
+        "llms",
+        "mismatches",
+        "position",
+        "analysis",
+        "attention",
+        "llms streaming",
+        "position encoding"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 15)",
+      "paper_id": "d38b20877b20ec0877451767892bc8dc"
+    },
+    {
+      "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+      "authors": [
+        "Jang-Hyun Kim, Jinuk Kim, Sangwoo Kwon, Jae W. Lee, Sangdoo Yun, Hyun Oh Song"
+      ],
+      "abstract": "arXiv:2505.23416v1 Announce Type: cross \nAbstract: Transformer-based large language models (LLMs) cache context as key-value (KV) pairs during inference. As context length grows, KV cache sizes expand, leading to substantial memory overhead and increased attention latency. This paper introduces KVzip, a query-agnostic KV cache eviction method enabling effective reuse of compressed KV caches across diverse queries. KVzip quantifies the importance of a KV pair using the underlying LLM to reconstruct original contexts from cached KV pairs, subsequently evicting pairs with lower importance. Extensive empirical evaluations demonstrate that KVzip reduces KV cache size by 3-4$\\times$ and FlashAttention decoding latency by approximately 2$\\times$, with negligible performance loss in question-answering, retrieval, reasoning, and code comprehension tasks. Evaluations include various models such as LLaMA3.1-8B, Qwen2.5-14B, and Gemma3-12B, with context lengths reaching up to 170K tokens. KVzip significantly outperforms existing query-aware KV eviction methods, which suffer from performance degradation even at a 90% cache budget ratio under multi-query scenarios.",
+      "url": "https://arxiv.org/abs/2505.23416",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DB"
+      ],
+      "significance_score": 44.56,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 50.3,
+      "keywords": [
+        "kv",
+        "cache",
+        "kvzip",
+        "context",
+        "kv cache",
+        "query",
+        "pairs",
+        "agnostic",
+        "agnostic kv",
+        "evaluations"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 20)",
+      "paper_id": "355ba89a3f0c38eba4c59e1d6511f1d7"
+    },
+    {
+      "title": "Does Machine Unlearning Truly Remove Model Knowledge? A Framework for Auditing Unlearning in LLMs",
+      "authors": [
+        "Haokun Chen, Yueqi Zhang, Yuan Bi, Yao Zhang, Tong Liu, Jinhe Bi, Jian Lan, Jindong Gu, Claudia Grosser, Denis Krompass, Nassir Navab, Volker Tresp"
+      ],
+      "abstract": "arXiv:2505.23270v1 Announce Type: cross \nAbstract: In recent years, Large Language Models (LLMs) have achieved remarkable advancements, drawing significant attention from the research community. Their capabilities are largely attributed to large-scale architectures, which require extensive training on massive datasets. However, such datasets often contain sensitive or copyrighted content sourced from the public internet, raising concerns about data privacy and ownership. Regulatory frameworks, such as the General Data Protection Regulation (GDPR), grant individuals the right to request the removal of such sensitive information. This has motivated the development of machine unlearning algorithms that aim to remove specific knowledge from models without the need for costly retraining. Despite these advancements, evaluating the efficacy of unlearning algorithms remains a challenge due to the inherent complexity and generative nature of LLMs. In this work, we introduce a comprehensive auditing framework for unlearning evaluation, comprising three benchmark datasets, six unlearning algorithms, and five prompt-based auditing methods. By using various auditing algorithms, we evaluate the effectiveness and robustness of different unlearning strategies. To explore alternatives beyond prompt-based auditing, we propose a novel technique that leverages intermediate activation perturbations, addressing the limitations of auditing methods that rely solely on model inputs and outputs.",
+      "url": "https://arxiv.org/abs/2505.23270",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 44.25,
+      "innovation_score": 10,
+      "impact_score": 32,
+      "sentiment_score": 53.75,
+      "keywords": [
+        "unlearning",
+        "auditing",
+        "algorithms",
+        "datasets",
+        "llms",
+        "unlearning algorithms",
+        "advancements",
+        "auditing methods",
+        "based",
+        "based auditing"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 15)",
+      "paper_id": "1b390a98d820309b6afbd79cc847a13d"
+    },
+    {
+      "title": "How Transformers Learn Regular Language Recognition: A Theoretical Study on Training Dynamics and Implicit Bias",
+      "authors": [
+        "Ruiquan Huang, Yingbin Liang, Jing Yang"
+      ],
+      "abstract": "arXiv:2505.00926v3 Announce Type: replace-cross \nAbstract: Language recognition tasks are fundamental in natural language processing (NLP) and have been widely used to benchmark the performance of large language models (LLMs). These tasks also play a crucial role in explaining the working mechanisms of transformers. In this work, we focus on two representative tasks in the category of regular language recognition, known as `even pairs' and `parity check', the aim of which is to determine whether the occurrences of certain subsequences in a given sequence are even. Our goal is to explore how a one-layer transformer, consisting of an attention layer followed by a linear layer, learns to solve these tasks by theoretically analyzing its training dynamics under gradient descent. While even pairs can be solved directly by a one-layer transformer, parity check need to be solved by integrating Chain-of-Thought (CoT), either into the inference stage of a transformer well-trained for the even pairs task, or into the training of a one-layer transformer. For both problems, our analysis shows that the joint training of attention and linear layers exhibits two distinct phases. In the first phase, the attention layer grows rapidly, mapping data sequences into separable vectors. In the second phase, the attention layer becomes stable, while the linear layer grows logarithmically and approaches in direction to a max-margin hyperplane that correctly separates the attention layer outputs into positive and negative samples, and the loss decreases at a rate of $O(1/t)$. Our experiments validate those theoretical results.",
+      "url": "https://arxiv.org/abs/2505.00926",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 40.58,
+      "innovation_score": 10,
+      "impact_score": 8,
+      "sentiment_score": 52.9,
+      "keywords": [
+        "layer",
+        "attention",
+        "language",
+        "attention layer",
+        "tasks",
+        "training",
+        "transformer",
+        "language recognition",
+        "layer transformer",
+        "linear"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 20)",
+      "paper_id": "63063fee022c60b0bf24b0b022029b1b"
+    },
+    {
+      "title": "GrokFormer: Graph Fourier Kolmogorov-Arnold Transformers",
+      "authors": [
+        "Guoguo Ai, Guansong Pang, Hezhe Qiao, Yuan Gao, Hui Yan"
+      ],
+      "abstract": "arXiv:2411.17296v3 Announce Type: replace-cross \nAbstract: Graph Transformers (GTs) have demonstrated remarkable performance in graph representation learning over popular graph neural networks (GNNs). However, self--attention, the core module of GTs, preserves only low-frequency signals in graph features, leading to ineffectiveness in capturing other important signals like high-frequency ones. Some recent GT models help alleviate this issue, but their flexibility and expressiveness are still limited since the filters they learn are fixed on predefined graph spectrum or spectral order. To tackle this challenge, we propose a Graph Fourier Kolmogorov-Arnold Transformer (GrokFormer), a novel GT model that learns highly expressive spectral filters with adaptive graph spectrum and spectral order through a Fourier series modeling over learnable activation functions. We demonstrate theoretically and empirically that the proposed GrokFormer filter offers better expressiveness than other spectral methods. Comprehensive experiments on 10 real-world node classification datasets across various domains, scales, and graph properties, as well as 5 graph classification datasets, show that GrokFormer outperforms state-of-the-art GTs and GNNs. Our code is available at https://github.com/GGA23/GrokFormer",
+      "url": "https://arxiv.org/abs/2411.17296",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 40.17,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 57.1,
+      "keywords": [
+        "graph",
+        "grokformer",
+        "spectral",
+        "fourier",
+        "gts",
+        "arnold",
+        "classification",
+        "classification datasets",
+        "datasets",
+        "expressiveness"
+      ],
+      "subject_classification": "architectures",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "936c7e26a861cf5b6b3fa112f77ea756"
+    },
+    {
+      "title": "Computational Algebra with Attention: Transformer Oracles for Border Basis Algorithms",
+      "authors": [
+        "Hiroshi Kera, Nico Pelleriti, Yuki Ishihara, Max Zimmer, Sebastian Pokutta"
+      ],
+      "abstract": "arXiv:2505.23696v1 Announce Type: new \nAbstract: Solving systems of polynomial equations, particularly those with finitely many solutions, is a crucial challenge across many scientific fields. Traditional methods like Gr\\\"obner and Border bases are fundamental but suffer from high computational costs, which have motivated recent Deep Learning approaches to improve efficiency, albeit at the expense of output correctness. In this work, we introduce the Oracle Border Basis Algorithm, the first Deep Learning approach that accelerates Border basis computation while maintaining output guarantees. To this end, we design and train a Transformer-based oracle that identifies and eliminates computationally expensive reduction steps, which we find to dominate the algorithm's runtime. By selectively invoking this oracle during critical phases of computation, we achieve substantial speedup factors of up to 3.5x compared to the base algorithm, without compromising the correctness of results. To generate the training data, we develop a sampling method and provide the first sampling theorem for border bases. We construct a tokenization and embedding scheme tailored to monomial-centered algebraic computations, resulting in a compact and expressive input representation, which reduces the number of tokens to encode an $n$-variate polynomial by a factor of $O(n)$. Our learning approach is data efficient, stable, and a practical enhancement to traditional computer algebra algorithms and symbolic computation.",
+      "url": "https://arxiv.org/abs/2505.23696",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 39.79,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 53.95,
+      "keywords": [
+        "border",
+        "algorithm",
+        "basis",
+        "border basis",
+        "computation",
+        "learning",
+        "oracle",
+        "algebra",
+        "algorithms",
+        "approach"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "09aca18e4dab5c732feff2bc70889178"
+    },
+    {
+      "title": "REOrdering Patches Improves Vision Models",
+      "authors": [
+        "Declan Kutscher, David M. Chan, Yutong Bai, Trevor Darrell, Ritwik Gupta"
+      ],
+      "abstract": "arXiv:2505.23751v1 Announce Type: cross \nAbstract: Sequence models such as transformers require inputs to be represented as one-dimensional sequences. In vision, this typically involves flattening images using a fixed row-major (raster-scan) order. While full self-attention is permutation-equivariant, modern long-sequence transformers increasingly rely on architectural approximations that break this invariance and introduce sensitivity to patch ordering. We show that patch order significantly affects model performance in such settings, with simple alternatives like column-major or Hilbert curves yielding notable accuracy shifts. Motivated by this, we propose REOrder, a two-stage framework for discovering task-optimal patch orderings. First, we derive an information-theoretic prior by evaluating the compressibility of various patch sequences. Then, we learn a policy over permutations by optimizing a Plackett-Luce policy using REINFORCE. This approach enables efficient learning in a combinatorial permutation space. REOrder improves top-1 accuracy over row-major ordering on ImageNet-1K by up to 3.01% and Functional Map of the World by 13.35%.",
+      "url": "https://arxiv.org/abs/2505.23751",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 39.78,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 55.15,
+      "keywords": [
+        "patch",
+        "major",
+        "accuracy",
+        "improves",
+        "models",
+        "order",
+        "ordering",
+        "permutation",
+        "policy",
+        "reorder"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "8f372b4d0b07540b80bd028051801e7f"
+    },
+    {
+      "title": "Personality-Guided Code Generation Using Large Language Models",
+      "authors": [
+        "Yaoqi Guo, Zhenpeng Chen, Jie M. Zhang, Yang Liu, Yun Ma"
+      ],
+      "abstract": "arXiv:2411.00006v2 Announce Type: replace-cross \nAbstract: Code generation, the automatic creation of source code from natural language descriptions, has garnered significant attention due to its potential to streamline software development. Inspired by research that links task-personality alignment with improved development outcomes, we conduct an empirical study on personality-guided code generation using large language models (LLMs). Specifically, we investigate how emulating personality traits appropriate to the coding tasks affects LLM performance. We extensively evaluate this approach using seven widely adopted LLMs across four representative datasets. Our results show that personality guidance significantly enhances code generation accuracy, with improved pass rates in 23 out of 28 LLM-dataset combinations. Notably, in 11 cases, the improvement exceeds 5%, and in 5 instances, it surpasses 10%, with the highest gain reaching 12.9%. Additionally, personality guidance can be easily integrated with other prompting strategies to further boost performance. We open-source our code and data at https://github.com/IanWalls/Persona-Code.",
+      "url": "https://arxiv.org/abs/2411.00006",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 39.25,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 58.75,
+      "keywords": [
+        "code",
+        "personality",
+        "code generation",
+        "generation",
+        "language",
+        "using",
+        "development",
+        "generation using",
+        "guidance",
+        "guided"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "04200f843d0cda9ada7dde59c5f81488"
+    },
+    {
+      "title": "AnchorAttention: Difference-Aware Sparse Attention with Stripe Granularity",
+      "authors": [
+        "Yu Zhang, Dong Guo, Fang Wu, Guoliang Zhu, Dian Ding, Yiming Zhang"
+      ],
+      "abstract": "arXiv:2505.23520v1 Announce Type: new \nAbstract: Large Language Models (LLMs) with extended context lengths face significant computational challenges during the pre-filling phase, primarily due to the quadratic complexity of self-attention. Existing methods typically employ dynamic pattern matching and block-sparse low-level implementations. However, their reliance on local information for pattern identification fails to capture global contexts, and the coarse granularity of blocks leads to persistent internal sparsity, resulting in suboptimal accuracy and efficiency. To address these limitations, we propose \\textbf{AnchorAttention}, a difference-aware, dynamic sparse attention mechanism that efficiently identifies critical attention regions at a finer stripe granularity while adapting to global contextual information, achieving superior speed and accuracy. AnchorAttention comprises three key components: (1) \\textbf{Pattern-based Anchor Computation}, leveraging the commonalities present across all inputs to rapidly compute a set of near-maximum scores as the anchor; (2) \\textbf{Difference-aware Stripe Sparsity Identification}, performing difference-aware comparisons with the anchor to quickly obtain discrete coordinates of significant regions in a stripe-like sparsity pattern; (3) \\textbf{Fine-grained Sparse Computation}, replacing the traditional contiguous KV block loading approach with simultaneous discrete KV position loading to maximize sparsity rates while preserving full hardware computational potential. With its finer-grained sparsity strategy, \\textbf{AnchorAttention} achieves higher sparsity rates at the same recall level, significantly reducing computation time. Compared to previous state-of-the-art methods, at a text length of 128k, it achieves a speedup of 1.44$\\times$ while maintaining higher recall rates.",
+      "url": "https://arxiv.org/abs/2505.23520",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 39.120000000000005,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 51.85,
+      "keywords": [
+        "sparsity",
+        "textbf",
+        "anchorattention",
+        "attention",
+        "aware",
+        "difference",
+        "difference aware",
+        "pattern",
+        "sparse",
+        "stripe"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "d99d24daaf1f9912919e1e855d821be3"
+    },
+    {
+      "title": "Tensor Product Attention Is All You Need",
+      "authors": [
+        "Yifan Zhang, Yifeng Liu, Huizhuo Yuan, Zhen Qin, Yang Yuan, Quanquan Gu, Andrew C Yao"
+      ],
+      "abstract": "arXiv:2501.06425v4 Announce Type: replace \nAbstract: Scaling language models to handle longer input sequences typically necessitates large key-value (KV) caches, resulting in substantial memory overhead during inference. In this paper, we propose Tensor Product Attention (TPA), a novel attention mechanism that uses tensor decompositions to represent queries, keys, and values compactly, substantially shrinking the KV cache size at inference time. By factorizing these representations into contextual low-rank components and seamlessly integrating with Rotary Position Embedding (RoPE), TPA achieves improved model quality alongside memory efficiency. Based on TPA, we introduce the Tensor Product Attention Transformer,(T6), a new model architecture for sequence modeling. Through extensive empirical evaluation on language modeling tasks, we demonstrate that T6 surpasses or matches the performance of standard Transformer baselines, including Multi-Head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), and Multi-Head Latent Attention (MLA) across various metrics, including perplexity and a range of established evaluation benchmarks. Notably, TPA's memory efficiency and computational efficiency at the decoding stage enable processing longer sequences under fixed resource constraints, addressing a critical scalability challenge in modern language models. The code is available at https://github.com/tensorgi/T6.",
+      "url": "https://arxiv.org/abs/2501.06425",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.36,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 54.3,
+      "keywords": [
+        "attention",
+        "tensor",
+        "tpa",
+        "efficiency",
+        "language",
+        "memory",
+        "multi",
+        "product",
+        "product attention",
+        "t6"
+      ],
+      "subject_classification": "architectures",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "c74e875e64bea325c07fcd12d29ead49"
+    },
+    {
+      "title": "Beyond the Permutation Symmetry of Transformers: The Role of Rotation for Model Fusion",
+      "authors": [
+        "Binchi Zhang, Zaiyi Zheng, Zhengzhang Chen, Jundong Li"
+      ],
+      "abstract": "arXiv:2502.00264v2 Announce Type: replace \nAbstract: Symmetry in the parameter space of deep neural networks (DNNs) has proven beneficial for various deep learning applications. A well-known example is the permutation symmetry in Multi-Layer Perceptrons (MLPs), where permuting the rows of weight matrices in one layer and applying the inverse permutation to adjacent layers yields a functionally equivalent model. While permutation symmetry fully characterizes the equivalence set for MLPs, its discrete nature limits its utility for transformers. In this paper, we introduce rotation symmetry, a novel form of parameter space symmetry for transformers that generalizes permutation symmetry by rotating parameter matrices in self-attention layers. Unlike permutation symmetry, rotation symmetry operates in a continuous domain, thereby significantly expanding the equivalence set for transformers. Based on this property, we propose a theoretically optimal parameter matching algorithm as a plug-and-play module to enhance model fusion. We evaluate our approach using pre-trained transformers across diverse natural language and vision tasks. Experimental results demonstrate that our rotation symmetry-based matching algorithm substantially improves model fusion, highlighting the potential of parameter space symmetry to facilitate model fusion. Our code is available on https://github.com/zhengzaiyi/RotationSymmetry.",
+      "url": "https://arxiv.org/abs/2502.00264",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 37.82,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 54.1,
+      "keywords": [
+        "symmetry",
+        "permutation",
+        "model",
+        "parameter",
+        "permutation symmetry",
+        "transformers",
+        "fusion",
+        "model fusion",
+        "rotation",
+        "parameter space"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "d37098dedde8670907bdd4de84e61afd"
+    },
+    {
+      "title": "Improving Multilingual Social Media Insights: Aspect-based Comment Analysis",
+      "authors": [
+        "Longyin Zhang, Bowei Zou, Ai Ti Aw"
+      ],
+      "abstract": "arXiv:2505.23037v1 Announce Type: new \nAbstract: The inherent nature of social media posts, characterized by the freedom of language use with a disjointed array of diverse opinions and topics, poses significant challenges to downstream NLP tasks such as comment clustering, comment summarization, and social media opinion analysis. To address this, we propose a granular level of identifying and generating aspect terms from individual comments to guide model attention. Specifically, we leverage multilingual large language models with supervised fine-tuning for comment aspect term generation (CAT-G), further aligning the model's predictions with human expectations through DPO. We demonstrate the effectiveness of our method in enhancing the comprehension of social media discourse on two NLP tasks. Moreover, this paper contributes the first multilingual CAT-G test set on English, Chinese, Malay, and Bahasa Indonesian. As LLM capabilities vary among languages, this test set allows for a comparative analysis of performance across languages with varying levels of LLM proficiency.",
+      "url": "https://arxiv.org/abs/2505.23037",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.07,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 51.6,
+      "keywords": [
+        "comment",
+        "media",
+        "social",
+        "social media",
+        "analysis",
+        "aspect",
+        "multilingual",
+        "cat",
+        "language",
+        "languages"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "95b114f69718f6bf63b550ffa41db1bb"
+    },
+    {
+      "title": "A Bayesian Model Selection Criterion for Selecting Pretraining Checkpoints",
+      "authors": [
+        "Michael Munn, Susan Wei"
+      ],
+      "abstract": "arXiv:2410.05612v2 Announce Type: replace \nAbstract: Recent advances in artificial intelligence have been fueled by the development of foundation models such as BERT, GPT, T5, and Vision Transformers. These models are first pretrained on vast and diverse datasets and then adapted to specific downstream tasks, often with significantly less data. However, the mechanisms behind the success of this ubiquitous pretrain-then-adapt paradigm remain underexplored, particularly the characteristics of pretraining checkpoints that enhance downstream adaptation. We introduce a Bayesian model selection criterion, called the downstream free energy, which quantifies a checkpoint's adaptability by measuring the concentration of nearby favorable parameters for the downstream task. We demonstrate that this Bayesian model selection criterion can be effectively implemented without access to the downstream data or prior knowledge of the downstream task. Furthermore, we provide empirical evidence that the criterion reliably correlates with improved finetuning performance, offering a principled approach to predicting model adaptability.",
+      "url": "https://arxiv.org/abs/2410.05612",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.95,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 57.25,
+      "keywords": [
+        "downstream",
+        "criterion",
+        "model",
+        "bayesian",
+        "bayesian model",
+        "model selection",
+        "selection",
+        "selection criterion",
+        "adaptability",
+        "checkpoints"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "949539f7eaa9816b91ecd8af8521980c"
+    },
+    {
+      "title": "Let's Reason Formally: Natural-Formal Hybrid Reasoning Enhances LLM's Math Capability",
+      "authors": [
+        "Ruida Wang (May), Yuxin Li (May), Yi R. (May),  Fung, Tong Zhang"
+      ],
+      "abstract": "arXiv:2505.23703v1 Announce Type: new \nAbstract: Enhancing the mathematical reasoning capabilities of LLMs has garnered significant attention in both the mathematical and computer science communities. Recent works have made substantial progress in both Natural Language (NL) reasoning and Formal Language (FL) reasoning by leveraging the potential of pure Reinforcement Learning (RL) methods on base models. However, RL approaches struggle to impart new capabilities not presented in the base model, highlighting the need to integrate more knowledge like FL into NL math reasoning effectively. Yet, this integration is challenging due to inherent disparities in problem structure and reasoning format between NL and FL. To address these challenges, we introduce **NL-FL HybridReasoning**, an end-to-end framework designed to incorporate the FL expert into NL math problem-solving. To bridge the NL and FL input format gap, we propose the *NL-FL Problem Alignment* method, which reformulates the Question-Answering (QA) problems in NL as existence theorems in FL. Subsequently, the *Mixed Problem Input* technique we provide enables the FL reasoner to handle both QA and existence problems concurrently. Lastly, we mitigate the NL and FL output format gap in reasoning through an LLM-based *Answer Extraction* mechanism. Comprehensive experiments demonstrate that the **HybridReasoning** framework achieves **89.80%** and **84.34%** accuracy rates on the MATH-500 and the AMC benchmarks, surpassing the NL baseline by 4.60% and 4.82%, respectively. Notably, some problems resolved by our framework remain unsolved by the NL baseline model even under a larger number of trials.",
+      "url": "https://arxiv.org/abs/2505.23703",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 36.74,
+      "innovation_score": 10,
+      "impact_score": 24,
+      "sentiment_score": 51.2,
+      "keywords": [
+        "nl",
+        "fl",
+        "reasoning",
+        "nl fl",
+        "math",
+        "problem",
+        "format",
+        "framework",
+        "problems",
+        "base"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "f4f260a36f5e4033fc5b8849c012cc07"
+    },
+    {
+      "title": "Exploring the Limitations of Mamba in COPY and CoT Reasoning",
+      "authors": [
+        "Ruifeng Ren, Zhicong Li, Yong Liu"
+      ],
+      "abstract": "arXiv:2410.03810v3 Announce Type: replace-cross \nAbstract: Transformers have become the backbone of modern Large Language Models (LLMs); however, their inference overhead grows linearly with the sequence length, posing challenges for modeling long sequences. In light of this, Mamba has attracted attention for maintaining a constant inference size, with empirical evidence demonstrating that it can match Transformer performance in sequence modeling while significantly reducing computational costs. However, an open question remains: can Mamba always bring savings while achieving performance comparable to Transformers? In this paper, we focus on analyzing the expressive ability of Mamba to perform our defined COPY operation and Chain of Thought (CoT) reasoning. First, inspired by the connection between Mamba and linear attention, we show that constant-sized Mamba may struggle to perform COPY operations while Transformers can handle them more easily. However, when the size of Mamba grows linearly with the input sequence length, it can accurately perform COPY, but in this case, Mamba no longer provides overhead savings. Based on this observation, we further analyze Mamba's ability to tackle CoT tasks, which can be described by the Dynamic Programming (DP) problems. Our findings suggest that to solve arbitrary DP problems, the total cost of Mamba is still comparable to standard Transformers. However, similar to efficient Transformers, when facing DP problems with favorable properties such as locality, Mamba can provide savings in overhead. Our experiments on the copy and CoT tasks further demonstrate Mamba's limitations compared to Transformers in learning these tasks.",
+      "url": "https://arxiv.org/abs/2410.03810",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.620000000000005,
+      "innovation_score": 10,
+      "impact_score": 8,
+      "sentiment_score": 51.85,
+      "keywords": [
+        "mamba",
+        "transformers",
+        "copy",
+        "cot",
+        "dp",
+        "dp problems",
+        "overhead",
+        "perform",
+        "problems",
+        "savings"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 20)",
+      "paper_id": "6196614c151bc8e4636b2a34177e58d3"
+    },
+    {
+      "title": "Improving QA Efficiency with DistilBERT: Fine-Tuning and Inference on mobile Intel CPUs",
+      "authors": [
+        "Ngeyen Yinkfu"
+      ],
+      "abstract": "arXiv:2505.22937v1 Announce Type: new \nAbstract: This study presents an efficient transformer-based question-answering (QA) model optimized for deployment on a 13th Gen Intel i7-1355U CPU, using the Stanford Question Answering Dataset (SQuAD) v1.1. Leveraging exploratory data analysis, data augmentation, and fine-tuning of a DistilBERT architecture, the model achieves a validation F1 score of 0.6536 with an average inference time of 0.1208 seconds per question. Compared to a rule-based baseline (F1: 0.3124) and full BERT-based models, our approach offers a favorable trade-off between accuracy and computational efficiency. This makes it well-suited for real-time applications on resource-constrained systems. The study includes systematic evaluation of data augmentation strategies and hyperparameter configurations, providing practical insights into optimizing transformer models for CPU-based inference.",
+      "url": "https://arxiv.org/abs/2505.22937",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.44,
+      "innovation_score": 10,
+      "impact_score": 24,
+      "sentiment_score": 55.95,
+      "keywords": [
+        "based",
+        "data",
+        "inference",
+        "question",
+        "answering",
+        "augmentation",
+        "cpu",
+        "data augmentation",
+        "distilbert",
+        "efficiency"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "572bab2f9128491e9e4a177a5c1c05d3"
+    },
+    {
+      "title": "Bayesian Attention Mechanism: A Probabilistic Framework for Positional Encoding and Context Length Extrapolation",
+      "authors": [
+        "Arthur S. Bianchessi, Rodrigo C. Barros, Lucas S. Kupssinsk\\\"u"
+      ],
+      "abstract": "arXiv:2505.22842v1 Announce Type: new \nAbstract: Transformer-based language models rely on positional encoding (PE) to handle token order and support context length extrapolation. However, existing PE methods lack theoretical clarity and rely on limited evaluation metrics to substantiate their extrapolation claims. We propose the Bayesian Attention Mechanism (BAM), a theoretical framework that formulates positional encoding as a prior within a probabilistic model. BAM unifies existing methods (e.g., NoPE and ALiBi) and motivates a new Generalized Gaussian positional prior that substantially improves long-context generalization. Empirically, BAM enables accurate information retrieval at $500\\times$ the training context length, outperforming previous state-of-the-art context length generalization in long context retrieval accuracy while maintaining comparable perplexity and introducing minimal additional parameters.",
+      "url": "https://arxiv.org/abs/2505.22842",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.36,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 51.8,
+      "keywords": [
+        "context",
+        "context length",
+        "length",
+        "positional",
+        "bam",
+        "encoding",
+        "extrapolation",
+        "positional encoding",
+        "attention",
+        "attention mechanism"
+      ],
+      "subject_classification": "architectures",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "7d72b16152783e8b8a83ed34eabe1e0b"
+    },
+    {
+      "title": "Quartet: Native FP4 Training Can Be Optimal for Large Language Models",
+      "authors": [
+        "Roberto L. Castro, Andrei Panferov, Soroush Tabesh, Oliver Sieberling, Jiale Chen, Mahdi Nikdan, Saleh Ashkboos, Dan Alistarh"
+      ],
+      "abstract": "arXiv:2505.14669v2 Announce Type: replace \nAbstract: Training large language models (LLMs) models directly in low-precision offers a way to address computational costs by improving both throughput and energy efficiency. For those purposes, NVIDIA's recent Blackwell architecture facilitates very low-precision operations using FP4 variants. Yet, current algorithms for training LLMs in FP4 precision face significant accuracy degradation and often rely on mixed-precision fallbacks. In this paper, we investigate hardware-supported FP4 training and introduce a new approach for accurate, end-to-end FP4 training with all the major computations (i.e., linear layers) in low precision. Through extensive evaluations on Llama-type models, we reveal a new low-precision scaling law that quantifies performance trade-offs across bit-widths and training setups. Guided by this investigation, we design an \"optimal\" technique in terms of accuracy-vs-computation, called Quartet. We implement Quartet using optimized CUDA kernels tailored for Blackwell, demonstrating that fully FP4-based training is a competitive alternative to FP16 half-precision and to FP8 training. Our code is available at https://github.com/IST-DASLab/Quartet.",
+      "url": "https://arxiv.org/abs/2505.14669",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 35.76,
+      "innovation_score": 10,
+      "impact_score": 24,
+      "sentiment_score": 52.55,
+      "keywords": [
+        "training",
+        "precision",
+        "fp4",
+        "low",
+        "low precision",
+        "models",
+        "quartet",
+        "fp4 training",
+        "accuracy",
+        "blackwell"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "07b0527f0bbac8c63510ac58503a4881"
+    },
+    {
+      "title": "Exploring Scaling Laws for EHR Foundation Models",
+      "authors": [
+        "Sheng Zhang, Qin Liu, Naoto Usuyama, Cliff Wong, Tristan Naumann, Hoifung Poon"
+      ],
+      "abstract": "arXiv:2505.22964v1 Announce Type: new \nAbstract: The emergence of scaling laws has profoundly shaped the development of large language models (LLMs), enabling predictable performance gains through systematic increases in model size, dataset volume, and compute. Yet, these principles remain largely unexplored in the context of electronic health records (EHRs) -- a rich, sequential, and globally abundant data source that differs structurally from natural language. In this work, we present the first empirical investigation of scaling laws for EHR foundation models. By training transformer architectures on patient timeline data from the MIMIC-IV database across varying model sizes and compute budgets, we identify consistent scaling patterns, including parabolic IsoFLOPs curves and power-law relationships between compute, model parameters, data size, and clinical utility. These findings demonstrate that EHR models exhibit scaling behavior analogous to LLMs, offering predictive insights into resource-efficient training strategies. Our results lay the groundwork for developing powerful EHR foundation models capable of transforming clinical prediction tasks and advancing personalized healthcare.",
+      "url": "https://arxiv.org/abs/2505.22964",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.58,
+      "innovation_score": 20,
+      "impact_score": 0,
+      "sentiment_score": 54.15,
+      "keywords": [
+        "models",
+        "scaling",
+        "ehr",
+        "compute",
+        "data",
+        "ehr foundation",
+        "foundation",
+        "foundation models",
+        "laws",
+        "model"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "c1ee2cb9aff00f39d8a9db38e1a3d4a8"
+    },
+    {
+      "title": "CLaC at SemEval-2025 Task 6: A Multi-Architecture Approach for Corporate Environmental Promise Verification",
+      "authors": [
+        "Nawar Turk, Eeham Khan, Leila Kosseim"
+      ],
+      "abstract": "arXiv:2505.23538v1 Announce Type: new \nAbstract: This paper presents our approach to the SemEval-2025 Task~6 (PromiseEval), which focuses on verifying promises in corporate ESG (Environmental, Social, and Governance) reports. We explore three model architectures to address the four subtasks of promise identification, supporting evidence assessment, clarity evaluation, and verification timing. Our first model utilizes ESG-BERT with task-specific classifier heads, while our second model enhances this architecture with linguistic features tailored for each subtask. Our third approach implements a combined subtask model with attention-based sequence pooling, transformer representations augmented with document metadata, and multi-objective learning. Experiments on the English portion of the ML-Promise dataset demonstrate progressive improvement across our models, with our combined subtask approach achieving a leaderboard score of 0.5268, outperforming the provided baseline of 0.5227. Our work highlights the effectiveness of linguistic feature extraction, attention pooling, and multi-objective learning in promise verification tasks, despite challenges posed by class imbalance and limited training data.",
+      "url": "https://arxiv.org/abs/2505.23538",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.54,
+      "innovation_score": 20,
+      "impact_score": 0,
+      "sentiment_score": 53.95,
+      "keywords": [
+        "approach",
+        "model",
+        "promise",
+        "multi",
+        "subtask",
+        "task",
+        "verification",
+        "2025",
+        "2025 task",
+        "architecture"
+      ],
+      "subject_classification": "architectures",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "b695d69d039411bf0407628d2491642e"
+    },
+    {
+      "title": "Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning",
+      "authors": [
+        "Hao Dong, Ziyue Qiao, Zhiyuan Ning, Qi Hao, Yi Du, Pengyang Wang, Yuanchun Zhou"
+      ],
+      "abstract": "arXiv:2505.14020v2 Announce Type: replace \nAbstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge Graphs (KGs), incorporate the temporal feature to express the transience of knowledge by describing when facts occur. TKG extrapolation aims to infer possible future facts based on known history, which has garnered significant attention in recent years. Some existing methods treat TKG as a sequence of independent subgraphs to model temporal evolution patterns, demonstrating impressive reasoning performance. However, they still have limitations: 1) In modeling subgraph semantic evolution, they usually neglect the internal structural interactions between subgraphs, which are actually crucial for encoding TKGs. 2) They overlook the potential smooth features that do not lead to semantic changes, which should be distinguished from the semantic evolution process. Therefore, we propose a novel Disentangled Multi-span Evolutionary Network (DiMNet) for TKG reasoning. Specifically, we design a multi-span evolution strategy that captures local neighbor features while perceiving historical neighbor semantic information, thus enabling internal interactions between subgraphs during the evolution process. To maximize the capture of semantic change patterns, we design a disentangle component that adaptively separates nodes' active and stable features, used to dynamically control the influence of historical semantics on future evolution. Extensive experiments conducted on four real-world TKG datasets show that DiMNet demonstrates substantial performance in TKG reasoning, and outperforms the state-of-the-art up to 22.7% in MRR.",
+      "url": "https://arxiv.org/abs/2505.14020",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 35.2,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 53.5,
+      "keywords": [
+        "evolution",
+        "semantic",
+        "tkg",
+        "knowledge",
+        "reasoning",
+        "temporal",
+        "features",
+        "multi",
+        "multi span",
+        "span"
+      ],
+      "subject_classification": "architectures",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
+      "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.487175"
+}
