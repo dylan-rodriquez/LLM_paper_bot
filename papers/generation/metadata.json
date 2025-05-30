@@ -1,0 +1,101 @@
+{
+  "papers": [
+    {
+      "title": "Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency",
+      "authors": [
+        "Roman Vashurin, Maiya Goloburda, Albina Ilina, Aleksandr Rubashevskii, Preslav Nakov, Artem Shelmanov, Maxim Panov"
+      ],
+      "abstract": "arXiv:2502.04964v4 Announce Type: replace \nAbstract: Uncertainty quantification (UQ) methods for Large Language Models (LLMs) encompass a variety of approaches, with two major types being particularly prominent: information-based, which focus on model confidence expressed as token probabilities, and consistency-based, which assess the semantic relationship between multiple outputs generated using repeated sampling. Several recent methods have combined these two approaches to boost UQ performance. However, they sometimes fail to outperform much simpler baseline methods. Our work discusses the fundamental approach to constructing uncertainty measures that directly links uncertainty with the minimum Bayes risks achieved by LLM decoding. Building on these findings, we propose a novel approach to integrating model confidence with output consistency, resulting in a family of efficient and robust UQ methods. Our investigation reveals distinctive characteristics of LLMs as probabilistic models, which help to explain why these UQ methods underperform in certain tasks. Based on these findings, we propose a new way of synthesizing model confidence and output consistency, leading to a family of efficient and robust UQ methods. We evaluate our approach across various tasks such as question answering, abstractive summarization, and machine translation, demonstrating sizable improvements over state-of-the-art UQ approaches.",
+      "url": "https://arxiv.org/abs/2502.04964",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.77,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 55.1,
+      "keywords": [
+        "methods",
+        "uq",
+        "confidence",
+        "consistency",
+        "uncertainty",
+        "uq methods",
+        "approach",
+        "approaches",
+        "based",
+        "llms"
+      ],
+      "subject_classification": "generation",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "75beed468013cfdf0602c753dea81204"
+    },
+    {
+      "title": "SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation",
+      "authors": [
+        "Yuzheng Cai, Zhenyue Guo, Yiwen Pei, Wanrui Bian, Weiguo Zheng"
+      ],
+      "abstract": "arXiv:2412.15272v2 Announce Type: replace \nAbstract: Recent advancements in large language models (LLMs) have shown impressive versatility across various tasks. To eliminate their hallucinations, retrieval-augmented generation (RAG) has emerged as a powerful approach, leveraging external knowledge sources like knowledge graphs (KGs). In this paper, we study the task of KG-driven RAG and propose a novel Similar Graph Enhanced Retrieval-Augmented Generation (SimGRAG) method. It effectively addresses the challenge of aligning query texts and KG structures through a two-stage process: (1) query-to-pattern, which uses an LLM to transform queries into a desired graph pattern, and (2) pattern-to-subgraph, which quantifies the alignment between the pattern and candidate subgraphs using a graph semantic distance (GSD) metric. We also develop an optimized retrieval algorithm that efficiently identifies the top-k subgraphs within 1-second on a 10-million-scale KG. Extensive experiments show that SimGRAG outperforms state-of-the-art KG-driven RAG methods in both question answering and fact verification. Our code is available at https://github.com/YZ-Cai/SimGRAG.",
+      "url": "https://arxiv.org/abs/2412.15272",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.42,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 57.1,
+      "keywords": [
+        "kg",
+        "pattern",
+        "retrieval",
+        "simgrag",
+        "augmented",
+        "augmented generation",
+        "driven",
+        "generation",
+        "graph",
+        "knowledge"
+      ],
+      "subject_classification": "generation",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "6abc11d53cf1a21d1b0ec161313cf0c6"
+    },
+    {
+      "title": "Active Layer-Contrastive Decoding Reduces Hallucination in Large Language Model Generation",
+      "authors": [
+        "Hongxiang Zhang, Hao Chen, Tianyi Zhang, Muhao Chen"
+      ],
+      "abstract": "arXiv:2505.23657v1 Announce Type: new \nAbstract: Recent decoding methods improve the factuality of large language models~(LLMs) by refining how the next token is selected during generation. These methods typically operate at the token level, leveraging internal representations to suppress superficial patterns. Nevertheless, LLMs remain prone to hallucinations, especially over longer contexts. In this paper, we propose Active Layer-Contrastive Decoding (ActLCD), a novel decoding strategy that actively decides when to apply contrasting layers during generation. By casting decoding as a sequential decision-making problem, ActLCD employs a reinforcement learning policy guided by a reward-aware classifier to optimize factuality beyond the token level. Our experiments demonstrate that ActLCD surpasses state-of-the-art methods across five benchmarks, showcasing its effectiveness in mitigating hallucinations in diverse generation scenarios.",
+      "url": "https://arxiv.org/abs/2505.23657",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.35,
+      "innovation_score": 40,
+      "impact_score": 0,
+      "sentiment_score": 54.25,
+      "keywords": [
+        "decoding",
+        "generation",
+        "actlcd",
+        "methods",
+        "token",
+        "active",
+        "active layer",
+        "contrastive",
+        "contrastive decoding",
+        "factuality"
+      ],
+      "subject_classification": "generation",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.498808"
+}

@@ -1,0 +1,1605 @@
+{
+  "papers": [
+    {
+      "title": "LLM-ODDR: A Large Language Model Framework for Joint Order Dispatching and Driver Repositioning",
+      "authors": [
+        "Tengfei Lyu, Siyuan Feng, Hao Liu, Hai Yang"
+      ],
+      "abstract": "arXiv:2505.22695v1 Announce Type: new \nAbstract: Ride-hailing platforms face significant challenges in optimizing order dispatching and driver repositioning operations in dynamic urban environments. Traditional approaches based on combinatorial optimization, rule-based heuristics, and reinforcement learning often overlook driver income fairness, interpretability, and adaptability to real-world dynamics. To address these gaps, we propose LLM-ODDR, a novel framework leveraging Large Language Models (LLMs) for joint Order Dispatching and Driver Repositioning (ODDR) in ride-hailing services. LLM-ODDR framework comprises three key components: (1) Multi-objective-guided Order Value Refinement, which evaluates orders by considering multiple objectives to determine their overall value; (2) Fairness-aware Order Dispatching, which balances platform revenue with driver income fairness; and (3) Spatiotemporal Demand-Aware Driver Repositioning, which optimizes idle vehicle placement based on historical patterns and projected supply. We also develop JointDR-GPT, a fine-tuned model optimized for ODDR tasks with domain knowledge. Extensive experiments on real-world datasets from Manhattan taxi operations demonstrate that our framework significantly outperforms traditional methods in terms of effectiveness, adaptability to anomalous conditions, and decision interpretability. To our knowledge, this is the first exploration of LLMs as decision-making agents in ride-hailing ODDR tasks, establishing foundational insights for integrating advanced language models within intelligent transportation systems.",
+      "url": "https://arxiv.org/abs/2505.22695",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 52.07,
+      "innovation_score": 40,
+      "impact_score": 24,
+      "sentiment_score": 57.85,
+      "keywords": [
+        "driver",
+        "oddr",
+        "order",
+        "dispatching",
+        "driver repositioning",
+        "framework",
+        "order dispatching",
+        "repositioning",
+        "based",
+        "dispatching driver"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 24); Contains key LLM terms (bonus: 15)",
+      "paper_id": "0c431b9a76e90eabf1a8e1152bbaab40"
+    },
+    {
+      "title": "DeepTheorem: Advancing LLM Reasoning for Theorem Proving Through Natural Language and Reinforcement Learning",
+      "authors": [
+        "Ziyin Zhang, Jiahao Xu, Zhiwei He, Tian Liang, Qiuzhi Liu, Yansi Li, Linfeng Song, Zhengwen Liang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu"
+      ],
+      "abstract": "arXiv:2505.23754v1 Announce Type: new \nAbstract: Theorem proving serves as a major testbed for evaluating complex reasoning abilities in large language models (LLMs). However, traditional automated theorem proving (ATP) approaches rely heavily on formal proof systems that poorly align with LLMs' strength derived from informal, natural language knowledge acquired during pre-training. In this work, we propose DeepTheorem, a comprehensive informal theorem-proving framework exploiting natural language to enhance LLM mathematical reasoning. DeepTheorem includes a large-scale benchmark dataset consisting of 121K high-quality IMO-level informal theorems and proofs spanning diverse mathematical domains, rigorously annotated for correctness, difficulty, and topic categories, accompanied by systematically constructed verifiable theorem variants. We devise a novel reinforcement learning strategy (RL-Zero) explicitly tailored to informal theorem proving, leveraging the verified theorem variants to incentivize robust mathematical inference. Additionally, we propose comprehensive outcome and process evaluation metrics examining proof correctness and the quality of reasoning steps. Extensive experimental analyses demonstrate DeepTheorem significantly improves LLM theorem-proving performance compared to existing datasets and supervised fine-tuning protocols, achieving state-of-the-art accuracy and reasoning quality. Our findings highlight DeepTheorem's potential to fundamentally advance automated informal theorem proving and mathematical exploration.",
+      "url": "https://arxiv.org/abs/2505.23754",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 51.22,
+      "innovation_score": 40,
+      "impact_score": 48,
+      "sentiment_score": 54.85,
+      "keywords": [
+        "theorem",
+        "proving",
+        "theorem proving",
+        "deeptheorem",
+        "informal",
+        "reasoning",
+        "language",
+        "mathematical",
+        "informal theorem",
+        "llm"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 48); Contains key LLM terms (bonus: 10)",
+      "paper_id": "9640096705f6ab1a7b05e6acebada1c5"
+    },
+    {
+      "title": "cadrille: Multi-modal CAD Reconstruction with Online Reinforcement Learning",
+      "authors": [
+        "Maksim Kolodiazhnyi, Denis Tarasov, Dmitrii Zhemchuzhnikov, Alexander Nikulin, Ilya Zisman, Anna Vorontsova, Anton Konushin, Vladislav Kurenkov, Danila Rukhovich"
+      ],
+      "abstract": "arXiv:2505.22914v1 Announce Type: cross \nAbstract: Computer-Aided Design (CAD) plays a central role in engineering and manufacturing, making it possible to create precise and editable 3D models. Using a variety of sensor or user-provided data as inputs for CAD reconstruction can democratize access to design applications. However, existing methods typically focus on a single input modality, such as point clouds, images, or text, which limits their generalizability and robustness. Leveraging recent advances in vision-language models (VLM), we propose a multi-modal CAD reconstruction model that simultaneously processes all three input modalities. Inspired by large language model (LLM) training paradigms, we adopt a two-stage pipeline: supervised fine-tuning (SFT) on large-scale procedurally generated data, followed by reinforcement learning (RL) fine-tuning using online feedback, obtained programatically. Furthermore, we are the first to explore RL fine-tuning of LLMs for CAD tasks demonstrating that online RL algorithms such as Group Relative Preference Optimization (GRPO) outperform offline alternatives. In the DeepCAD benchmark, our SFT model outperforms existing single-modal approaches in all three input modalities simultaneously. More importantly, after RL fine-tuning, cadrille sets new state-of-the-art on three challenging datasets, including a real-world one.",
+      "url": "https://arxiv.org/abs/2505.22914",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 50.01,
+      "innovation_score": 50,
+      "impact_score": 32,
+      "sentiment_score": 53.8,
+      "keywords": [
+        "cad",
+        "fine",
+        "fine tuning",
+        "rl",
+        "tuning",
+        "cad reconstruction",
+        "input",
+        "modal",
+        "model",
+        "online"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 50); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "04693cd75574f88755c8fcc69d7444be"
+    },
+    {
+      "title": "LENSLLM: Unveiling Fine-Tuning Dynamics for LLM Selection",
+      "authors": [
+        "Xinyue Zeng, Haohui Wang, Junhong Lin, Jun Wu, Tyler Cody, Dawei Zhou"
+      ],
+      "abstract": "arXiv:2505.03793v2 Announce Type: replace-cross \nAbstract: The proliferation of open-sourced Large Language Models (LLMs) and diverse downstream tasks necessitates efficient model selection, given the impracticality of fine-tuning all candidates due to computational constraints. Despite the recent advances in LLM selection, a fundamental research question largely remains nascent: how can we model the dynamic behaviors of LLMs during fine-tuning, thereby enhancing our understanding of their generalization performance across diverse downstream tasks? In this work, we propose a novel theoretical framework that provides a proper lens to assess the generalization capabilities of LLMs, thereby enabling accurate and efficient LLM selection for downstream applications. In particular, we first derive a PAC-Bayesian Generalization Bound that unveils fine-tuning dynamics of LLMs and then introduce LENSLLM, a Neural Tangent Kernel (NTK)-based Rectified Scaling Model that enables accurate performance predictions across diverse tasks while maintaining computational efficiency. Extensive empirical results on 3 large-scale benchmarks demonstrate that our model achieves up to 91.1% accuracy and reduces up to 88.5% computational cost in LLM selection, outperforming 5 state-of-the-art methods. We open-source our proposed LENSLLM model and corresponding results at LensLLM.io.",
+      "url": "https://arxiv.org/abs/2505.03793",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 47.83,
+      "innovation_score": 40,
+      "impact_score": 40,
+      "sentiment_score": 54.15,
+      "keywords": [
+        "model",
+        "selection",
+        "fine",
+        "fine tuning",
+        "lensllm",
+        "llm",
+        "llm selection",
+        "llms",
+        "tuning",
+        "computational"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "b73448c562fcd30047a7d631e478d8a0"
+    },
+    {
+      "title": "Adaptive Federated LoRA in Heterogeneous Wireless Networks with Independent Sampling",
+      "authors": [
+        "Yanzhao Hou, Jiaxiang Geng, Boyu Li, Xiaofeng Tao, Juncheng Wang, Xiaodong Xu, Bing Luo"
+      ],
+      "abstract": "arXiv:2505.23555v1 Announce Type: new \nAbstract: Federated LoRA has emerged as a promising technique for efficiently fine-tuning large language models (LLMs) on distributed devices by reducing the number of trainable parameters. However, existing approaches often inadequately overlook the theoretical and practical implications of system and data heterogeneity, thereby failing to optimize the overall training efficiency, particularly in terms of wall-clock time. In this paper, we propose an adaptive federated LoRA strategy with independent client sampling to minimize the convergence wall-clock time of federated fine-tuning under both computation and communication heterogeneity. We first derive a new convergence bound for federated LoRA with arbitrary and independent client sampling, notably without requiring the stringent bounded gradient assumption. Then, we introduce an adaptive bandwidth allocation scheme that accounts for heterogeneous client resources and system bandwidth constraints. Based on the derived theory, we formulate and solve a non-convex optimization problem to jointly determine the LoRA sketching ratios and sampling probabilities, aiming to minimize wall-clock convergence time. An efficient and low-complexity algorithm is developed to approximate the solution. Finally, extensive experiments demonstrate that our approach significantly reduces wall-clock training time compared to state-of-the-art methods across various models and datasets.",
+      "url": "https://arxiv.org/abs/2505.23555",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 45.67,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 53.35,
+      "keywords": [
+        "federated",
+        "lora",
+        "clock",
+        "federated lora",
+        "sampling",
+        "time",
+        "wall",
+        "wall clock",
+        "adaptive",
+        "client"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "4ce6bbb3f3ab9976aa8b01c5ead9d707"
+    },
+    {
+      "title": "Highly Efficient and Effective LLMs with Multi-Boolean Architectures",
+      "authors": [
+        "Ba-Hien Tran, Van Minh Nguyen"
+      ],
+      "abstract": "arXiv:2505.22811v1 Announce Type: cross \nAbstract: Weight binarization has emerged as a promising strategy to drastically reduce the complexity of large language models (LLMs). It is mainly classified into two approaches: post-training binarization and finetuning with training-aware binarization methods. The first approach, while having low complexity, leads to significant loss of information from the original LLMs, resulting in poor performance. The second approach, on the other hand, relies heavily on full-precision latent weights for gradient approximation of binary weights, which not only remains suboptimal but also introduces substantial complexity. In this paper, we introduce a novel framework that effectively transforms LLMs into multi-kernel Boolean parameters, for the first time, finetunes them directly in the Boolean domain, eliminating the need for expensive latent weights. This significantly reduces complexity during both finetuning and inference. Through extensive and insightful experiments across a wide range of LLMs, we demonstrate that our method outperforms recent ultra low-bit quantization and binarization methods.",
+      "url": "https://arxiv.org/abs/2505.22811",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "stat.ML"
+      ],
+      "significance_score": 44.91,
+      "innovation_score": 40,
+      "impact_score": 24,
+      "sentiment_score": 53.3,
+      "keywords": [
+        "llms",
+        "binarization",
+        "complexity",
+        "boolean",
+        "weights",
+        "approach",
+        "binarization methods",
+        "finetuning",
+        "latent",
+        "latent weights"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "9a54abf3fef752d2d0c0d1b475799c07"
+    },
+    {
+      "title": "Scalable Parameter and Memory Efficient Pretraining for LLM: Recent Algorithmic Advances and Benchmarking",
+      "authors": [
+        "Athanasios Glentis, Jiaxiang Li, Qiulin Shang, Andi Han, Ioannis Tsaknakis, Quan Wei, Mingyi Hong"
+      ],
+      "abstract": "arXiv:2505.22922v1 Announce Type: cross \nAbstract: Fueled by their remarkable ability to tackle diverse tasks across multiple domains, large language models (LLMs) have grown at an unprecedented rate, with some recent models containing trillions of parameters. This growth is accompanied by substantial computational challenges, particularly regarding the memory and compute resources required for training and fine-tuning. Numerous approaches have been explored to address these issues, such as LoRA. While these methods are effective for fine-tuning, their application to pre-training is significantly more challenging due to the need to learn vast datasets. Motivated by this issue, we aim to address the following questions: Can parameter- or memory-efficient methods enhance pre-training efficiency while achieving performance comparable to full-model training? How can the performance gap be narrowed? To this end, the contributions of this work are the following. (1) We begin by conducting a comprehensive survey that summarizes state-of-the-art methods for efficient pre-training. (2) We perform a benchmark evaluation of several representative memory efficient pre-training approaches to comprehensively evaluate their performance across model sizes. We observe that with a proper choice of optimizer and hyperparameters, full-rank training delivers the best performance, as expected. We also notice that incorporating high-rank updates in low-rank approaches is the key to improving their performance. (3) Finally, we propose two practical techniques, namely weight refactorization and momentum reset, to enhance the performance of efficient pre-training methods. We observe that applying these techniques to the low-rank method (on a 1B model) can achieve a lower perplexity than popular memory efficient algorithms such as GaLore and Fira, while simultaneously using about 25% less memory.",
+      "url": "https://arxiv.org/abs/2505.22922",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 44.84,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 57.95,
+      "keywords": [
+        "training",
+        "efficient",
+        "memory",
+        "performance",
+        "pre",
+        "pre training",
+        "memory efficient",
+        "methods",
+        "rank",
+        "approaches"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "7e67a163277f46c9e3da1c0e53d5b62c"
+    },
+    {
+      "title": "EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models",
+      "authors": [
+        "Yuzhen Xiao, Jiahe Song, Yongxin Xu, Ruizhe Zhang, Yiqi Xiao, Xin Lu, Runchuan Zhu, Bowen Jiang, Junfeng Zhao"
+      ],
+      "abstract": "arXiv:2505.23038v1 Announce Type: new \nAbstract: In-Context Learning (ICL) technique based on Large Language Models (LLMs) has gained prominence in Named Entity Recognition (NER) tasks for its lower computing resource consumption, less manual labeling overhead, and stronger generalizability. Nevertheless, most ICL-based NER methods depend on large-parameter LLMs: the open-source models demand substantial computational resources for deployment and inference, while the closed-source ones incur high API costs, raise data-privacy concerns, and hinder community collaboration. To address this question, we propose an Ensemble Learning Method for Named Entity Recognition (EL4NER), which aims at aggregating the ICL outputs of multiple open-source, small-parameter LLMs to enhance overall performance in NER tasks at less deployment and inference cost. Specifically, our method comprises three key components. First, we design a task decomposition-based pipeline that facilitates deep, multi-stage ensemble learning. Second, we introduce a novel span-level sentence similarity algorithm to establish an ICL demonstration retrieval mechanism better suited for NER tasks. Third, we incorporate a self-validation mechanism to mitigate the noise introduced during the ensemble process. We evaluated EL4NER on multiple widely adopted NER datasets from diverse domains. Our experimental results indicate that EL4NER surpasses most closed-source, large-parameter LLM-based methods at a lower parameter cost and even attains state-of-the-art (SOTA) performance among ICL-based methods on certain datasets. These results show the parameter efficiency of EL4NER and underscore the feasibility of employing open-source, small-parameter LLMs within the ICL paradigm for NER tasks.",
+      "url": "https://arxiv.org/abs/2505.23038",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 44.56,
+      "innovation_score": 50,
+      "impact_score": 16,
+      "sentiment_score": 52.8,
+      "keywords": [
+        "parameter",
+        "icl",
+        "ner",
+        "based",
+        "el4ner",
+        "source",
+        "ensemble",
+        "large",
+        "learning",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 50); Contains key LLM terms (bonus: 10)",
+      "paper_id": "4944b7697582de3e7dd2f4ed75f2cb92"
+    },
+    {
+      "title": "Accelerating RLHF Training with Reward Variance Increase",
+      "authors": [
+        "Zonglin Yang, Zhexuan Gu, Houduo Qi, Yancheng Yuan"
+      ],
+      "abstract": "arXiv:2505.23247v1 Announce Type: cross \nAbstract: Reinforcement learning from human feedback (RLHF) is an essential technique for ensuring that large language models (LLMs) are aligned with human values and preferences during the post-training phase. As an effective RLHF approach, group relative policy optimization (GRPO) has demonstrated success in many LLM-based applications. However, efficient GRPO-based RLHF training remains a challenge. Recent studies reveal that a higher reward variance of the initial policy model leads to faster RLHF training. Inspired by this finding, we propose a practical reward adjustment model to accelerate RLHF training by provably increasing the reward variance and preserving the relative preferences and reward expectation. Our reward adjustment method inherently poses a nonconvex optimization problem, which is NP-hard to solve in general. To overcome the computational challenges, we design a novel $O(n \\log n)$ algorithm to find a global solution of the nonconvex reward adjustment model by explicitly characterizing the extreme points of the feasible set. As an important application, we naturally integrate this reward adjustment model into the GRPO algorithm, leading to a more efficient GRPO with reward variance increase (GRPOVI) algorithm for RLHF training. As an interesting byproduct, we provide an indirect explanation for the empirical effectiveness of GRPO with rule-based reward for RLHF training, as demonstrated in DeepSeek-R1. Experiment results demonstrate that the GRPOVI algorithm can significantly improve the RLHF training efficiency compared to the original GRPO algorithm.",
+      "url": "https://arxiv.org/abs/2505.23247",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 44.35,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 64.25,
+      "keywords": [
+        "reward",
+        "rlhf",
+        "training",
+        "rlhf training",
+        "grpo",
+        "algorithm",
+        "adjustment",
+        "model",
+        "reward adjustment",
+        "reward variance"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 32); Positive sentiment analysis (score: 64.2); Contains key LLM terms (bonus: 10)",
+      "paper_id": "a8af982fe6c32c4a656bb98c1f7df325"
+    },
+    {
+      "title": "BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model",
+      "authors": [
+        "Adibvafa Fallahpour, Andrew Magnuson, Purav Gupta, Shihao Ma, Jack Naimer, Arnav Shah, Haonan Duan, Omar Ibrahim, Hani Goodarzi, Chris J. Maddison, Bo Wang"
+      ],
+      "abstract": "arXiv:2505.23579v1 Announce Type: new \nAbstract: Unlocking deep, interpretable biological reasoning from complex genomic data is a major AI challenge hindering scientific discovery. Current DNA foundation models, despite strong sequence representation, struggle with multi-step reasoning and lack inherent transparent, biologically intuitive explanations. We introduce BioReason, a pioneering architecture that, for the first time, deeply integrates a DNA foundation model with a Large Language Model (LLM). This novel connection enables the LLM to directly process and reason with genomic information as a fundamental input, fostering a new form of multimodal biological understanding. BioReason's sophisticated multi-step reasoning is developed through supervised fine-tuning and targeted reinforcement learning, guiding the system to generate logical, biologically coherent deductions. On biological reasoning benchmarks including KEGG-based disease pathway prediction - where accuracy improves from 88% to 97% - and variant effect prediction, BioReason demonstrates an average 15% performance gain over strong single-modality baselines. BioReason reasons over unseen biological entities and articulates decision-making through interpretable, step-by-step biological traces, offering a transformative approach for AI in biology that enables deeper mechanistic insights and accelerates testable hypothesis generation from genomic data. Data, code, and checkpoints are publicly available at https://github.com/bowang-lab/BioReason",
+      "url": "https://arxiv.org/abs/2505.23579",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 44.19,
+      "innovation_score": 50,
+      "impact_score": 16,
+      "sentiment_score": 50.95,
+      "keywords": [
+        "biological",
+        "bioreason",
+        "reasoning",
+        "step",
+        "biological reasoning",
+        "data",
+        "dna",
+        "genomic",
+        "llm",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 50); Contains key LLM terms (bonus: 10)",
+      "paper_id": "5cc95452868e1558a4031987813d1178"
+    },
+    {
+      "title": "DeepChest: Dynamic Gradient-Free Task Weighting for Effective Multi-Task Learning in Chest X-ray Classification",
+      "authors": [
+        "Youssef Mohamed, Noran Mohamed, Khaled Abouhashad, Feilong Tang, Sara Atito, Shoaib Jameel, Imran Razzak, Ahmed B. Zaky"
+      ],
+      "abstract": "arXiv:2505.23595v1 Announce Type: cross \nAbstract: While Multi-Task Learning (MTL) offers inherent advantages in complex domains such as medical imaging by enabling shared representation learning, effectively balancing task contributions remains a significant challenge. This paper addresses this critical issue by introducing DeepChest, a novel, computationally efficient and effective dynamic task-weighting framework specifically designed for multi-label chest X-ray (CXR) classification. Unlike existing heuristic or gradient-based methods that often incur substantial overhead, DeepChest leverages a performance-driven weighting mechanism based on effective analysis of task-specific loss trends. Given a network architecture (e.g., ResNet18), our model-agnostic approach adaptively adjusts task importance without requiring gradient access, thereby significantly reducing memory usage and achieving a threefold increase in training speed. It can be easily applied to improve various state-of-the-art methods. Extensive experiments on a large-scale CXR dataset demonstrate that DeepChest not only outperforms state-of-the-art MTL methods by 7% in overall accuracy but also yields substantial reductions in individual task losses, indicating improved generalization and effective mitigation of negative transfer. The efficiency and performance gains of DeepChest pave the way for more practical and robust deployment of deep learning in critical medical diagnostic applications. The code is publicly available at https://github.com/youssefkhalil320/DeepChest-MTL",
+      "url": "https://arxiv.org/abs/2505.23595",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 43.870000000000005,
+      "innovation_score": 30,
+      "impact_score": 64,
+      "sentiment_score": 56.85,
+      "keywords": [
+        "task",
+        "deepchest",
+        "effective",
+        "learning",
+        "gradient",
+        "methods",
+        "mtl",
+        "multi",
+        "weighting",
+        "art"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 64)",
+      "paper_id": "36f2faf80d6f650bdd73a39143c64ecf"
+    },
+    {
+      "title": "Bounded Rationality for LLMs: Satisficing Alignment at Inference-Time",
+      "authors": [
+        "Mohamad Chehade, Soumya Suvra Ghosal, Souradip Chakraborty, Avinash Reddy, Dinesh Manocha, Hao Zhu, Amrit Singh Bedi"
+      ],
+      "abstract": "arXiv:2505.23729v1 Announce Type: new \nAbstract: Aligning large language models with humans is challenging due to the inherently multifaceted nature of preference feedback. While existing approaches typically frame this as a multi-objective optimization problem, they often overlook how humans actually make decisions. Research on bounded rationality suggests that human decision making follows satisficing strategies-optimizing primary objectives while ensuring others meet acceptable thresholds. To bridge this gap and operationalize the notion of satisficing alignment, we propose SITAlign: an inference time framework that addresses the multifaceted nature of alignment by maximizing a primary objective while satisfying threshold-based constraints on secondary criteria. We provide theoretical insights by deriving sub-optimality bounds of our satisficing based inference alignment approach. We empirically validate SITAlign's performance through extensive experimentation on multiple benchmarks. For instance, on the PKU-SafeRLHF dataset with the primary objective of maximizing helpfulness while ensuring a threshold on harmlessness, SITAlign outperforms the state-of-the-art multi objective decoding strategy by a margin of 22.3% in terms of GPT-4 win-tie rate for helpfulness reward while adhering to the threshold on harmlessness.",
+      "url": "https://arxiv.org/abs/2505.23729",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 43.68,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 57.15,
+      "keywords": [
+        "alignment",
+        "objective",
+        "satisficing",
+        "inference",
+        "primary",
+        "sitalign",
+        "threshold",
+        "based",
+        "bounded",
+        "bounded rationality"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "9f969e328ab973a5b3dab1aa61c429b3"
+    },
+    {
+      "title": "Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek",
+      "authors": [
+        "Xueyang Li, Jiahao Li, Yu Song, Yunzhong Lou, Xiangdong Zhou"
+      ],
+      "abstract": "arXiv:2505.17702v2 Announce Type: replace-cross \nAbstract: The advent of Computer-Aided Design (CAD) generative modeling will significantly transform the design of industrial products. The recent research endeavor has extended into the realm of Large Language Models (LLMs). In contrast to fine-tuning methods, training-free approaches typically utilize the advanced closed-source LLMs, thereby offering enhanced flexibility and efficiency in the development of AI agents for generating CAD parametric models. However, the substantial cost and limitations of local deployment of the top-tier closed-source LLMs pose challenges in practical applications. The Seek-CAD is the pioneer exploration of locally deployed open-source inference LLM DeepSeek-R1 for CAD parametric model generation with a training-free methodology. This study is the first investigation to incorporate both visual and Chain-of-Thought (CoT) feedback within the self-refinement mechanism for generating CAD models. Specifically, the initial generated parametric CAD model is rendered into a sequence of step-wise perspective images, which are subsequently processed by a Vision Language Model (VLM) alongside the corresponding CoTs derived from DeepSeek-R1 to assess the CAD model generation. Then, the feedback is utilized by DeepSeek-R1 to refine the initial generated model for the next round of generation. Moreover, we present an innovative 3D CAD model dataset structured around the SSR (Sketch, Sketch-based feature, and Refinements) triple design paradigm. This dataset encompasses a wide range of CAD commands, thereby aligning effectively with industrial application requirements and proving suitable for the generation of LLMs. Extensive experiments validate the effectiveness of Seek-CAD under various metrics.",
+      "url": "https://arxiv.org/abs/2505.17702",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 42.64,
+      "innovation_score": 20,
+      "impact_score": 48,
+      "sentiment_score": 54.45,
+      "keywords": [
+        "cad",
+        "model",
+        "deepseek",
+        "generation",
+        "llms",
+        "parametric",
+        "cad model",
+        "deepseek r1",
+        "design",
+        "models"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 48); Contains key LLM terms (bonus: 10)",
+      "paper_id": "ba288a17506b554dc57acf2f95c57bff"
+    },
+    {
+      "title": "GIVE: Structured Reasoning of Large Language Models with Knowledge Graph Inspired Veracity Extrapolation",
+      "authors": [
+        "Jiashu He, Mingyu Derek Ma, Jinxuan Fan, Dan Roth, Wei Wang, Alejandro Ribeiro"
+      ],
+      "abstract": "arXiv:2410.08475v3 Announce Type: replace-cross \nAbstract: Existing approaches based on context prompting or reinforcement learning (RL) to improve the reasoning capacities of large language models (LLMs) depend on the LLMs' internal knowledge to produce reliable Chain-Of-Thought (CoT). However, no matter the size of LLMs, certain problems cannot be resolved in a single forward pass. Meanwhile, agent-based reasoning systems require access to a comprehensive nonparametric knowledge base, which is often costly or not feasible for use in scientific and niche domains. We present Graph Inspired Veracity Extrapolation (GIVE), a novel reasoning method that merges parametric and non-parametric memories to improve accurate reasoning with minimal external input. GIVE guides the LLM agent to select the most pertinent expert data (observe), engage in query-specific divergent thinking (reflect), and then synthesize this information to produce the final output (speak). Extensive experiments demonstrated the following benefits of our framework: (1) GIVE boosts the performance of LLMs across various sizes. (2) In some scenarios, GIVE allows smaller LLMs to surpass larger, more sophisticated ones in scientific tasks (GPT3.5T + GIVE > GPT4). (3) GIVE is effective on scientific and open-domain assessments. (4) GIVE is a training-free method that enables LLMs to tackle new problems that extend beyond their training data (up to 43.5% -> 88.2%} accuracy improvement). (5) GIVE allows LLM agents to reason using both restricted (very small) and noisy (very large) knowledge sources, accommodating knowledge graphs (KG) ranging from 135 to more than 840k nodes. (6) The reasoning process involved in GIVE is fully interpretable.",
+      "url": "https://arxiv.org/abs/2410.08475",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 41.9,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 53.25,
+      "keywords": [
+        "llms",
+        "reasoning",
+        "knowledge",
+        "large",
+        "scientific",
+        "agent",
+        "allows",
+        "based",
+        "data",
+        "extrapolation"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "25672b819e63d4f28b1432b09cfd4689"
+    },
+    {
+      "title": "MoRE: A Mixture of Low-Rank Experts for Adaptive Multi-Task Learning",
+      "authors": [
+        "Dacao Zhang, Kun Zhang, Shimao Chu, Le Wu, Xin Li, Si Wei"
+      ],
+      "abstract": "arXiv:2505.22694v1 Announce Type: new \nAbstract: With the rapid development of Large Language Models (LLMs), Parameter-Efficient Fine-Tuning (PEFT) methods have gained significant attention, which aims to achieve efficient fine-tuning of LLMs with fewer parameters. As a representative PEFT method, Low-Rank Adaptation (LoRA) introduces low-rank matrices to approximate the incremental tuning parameters and achieves impressive performance over multiple scenarios. After that, plenty of improvements have been proposed for further improvement. However, these methods either focus on single-task scenarios or separately train multiple LoRA modules for multi-task scenarios, limiting the efficiency and effectiveness of LoRA in multi-task scenarios. To better adapt to multi-task fine-tuning, in this paper, we propose a novel Mixture of Low-Rank Experts (MoRE) for multi-task PEFT. Specifically, instead of using an individual LoRA for each task, we align different ranks of LoRA module with different tasks, which we named low-rank experts. Moreover, we design a novel adaptive rank selector to select the appropriate expert for each task. By jointly training low-rank experts, MoRE can enhance the adaptability and efficiency of LoRA in multi-task scenarios. Finally, we conduct extensive experiments over multiple multi-task benchmarks along with different LLMs to verify model performance. Experimental results demonstrate that compared to traditional LoRA and its variants, MoRE significantly improves the performance of LLMs in multi-task scenarios and incurs no additional inference cost. We also release the model and code to facilitate the community.",
+      "url": "https://arxiv.org/abs/2505.22694",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 41.68,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 55.9,
+      "keywords": [
+        "task",
+        "multi",
+        "multi task",
+        "lora",
+        "rank",
+        "low",
+        "low rank",
+        "scenarios",
+        "task scenarios",
+        "experts"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "832efeaf4de9661c058125dd0a3ffd22"
+    },
+    {
+      "title": "BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models",
+      "authors": [
+        "Yupeng Chang, Yi Chang, Yuan Wu"
+      ],
+      "abstract": "arXiv:2408.04556v5 Announce Type: replace \nAbstract: Large language models (LLMs) have demonstrated remarkable proficiency across various natural language processing (NLP) tasks. However, adapting LLMs to downstream applications requires computationally intensive and memory-demanding fine-tuning procedures. To alleviate these burdens, parameter-efficient fine-tuning (PEFT) techniques have emerged as a promising approach to tailor LLMs with minimal computational overhead. While PEFT methods offer substantial advantages, they do not fully address the pervasive issue of bias propagation from pre-training data. This work introduces Bias-Alleviating Low-Rank Adaptation (BA-LoRA), a novel PEFT method designed to counteract bias inheritance. BA-LoRA incorporates three distinct regularization terms: (1) a consistency regularizer, (2) a diversity regularizer, and (3) a singular value decomposition regularizer. These regularizers aim to enhance the models' consistency, diversity, and generalization capabilities during fine-tuning. We conduct extensive experiments on natural language understanding (NLU) and natural language generation (NLG) tasks using prominent LLMs such as LLaMA, Mistral, and Gemma. The results demonstrate that BA-LoRA outperforms LoRA and its state-of-the-art variants. Moreover, the extended experiments demonstrate that our method effectively mitigates the adverse effects of pre-training bias, leading to more reliable and robust model outputs. The code is available at https://github.com/cyp-jlu-ai/BA-LoRA.",
+      "url": "https://arxiv.org/abs/2408.04556",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 41.04,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 55.2,
+      "keywords": [
+        "lora",
+        "ba",
+        "ba lora",
+        "bias",
+        "language",
+        "llms",
+        "fine",
+        "fine tuning",
+        "models",
+        "natural"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "5ac5419a0a2df642aeb3e08f4192b853"
+    },
+    {
+      "title": "ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering",
+      "authors": [
+        "Zexi Liu, Jingyi Chai, Xinyu Zhu, Shuo Tang, Rui Ye, Bo Zhang, Lei Bai, Siheng Chen"
+      ],
+      "abstract": "arXiv:2505.23723v1 Announce Type: new \nAbstract: The emergence of large language model (LLM)-based agents has significantly advanced the development of autonomous machine learning (ML) engineering. However, most existing approaches rely heavily on manual prompt engineering, failing to adapt and optimize based on diverse experimental experiences. Focusing on this, for the first time, we explore the paradigm of learning-based agentic ML, where an LLM agent learns through interactive experimentation on ML tasks using online reinforcement learning (RL). To realize this, we propose a novel agentic ML training framework with three key components: (1) exploration-enriched fine-tuning, which enables LLM agents to generate diverse actions for enhanced RL exploration; (2) step-wise RL, which enables training on a single action step, accelerating experience collection and improving training efficiency; (3) an agentic ML-specific reward module, which unifies varied ML feedback signals into consistent rewards for RL optimization. Leveraging this framework, we train ML-Agent, driven by a 7B-sized Qwen-2.5 LLM for autonomous ML. Remarkably, despite being trained on merely 9 ML tasks, our 7B-sized ML-Agent outperforms the 671B-sized DeepSeek-R1 agent. Furthermore, it achieves continuous performance improvements and demonstrates exceptional cross-task generalization capabilities.",
+      "url": "https://arxiv.org/abs/2505.23723",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 40.15,
+      "innovation_score": 40,
+      "impact_score": 8,
+      "sentiment_score": 55.75,
+      "keywords": [
+        "ml",
+        "agent",
+        "llm",
+        "learning",
+        "rl",
+        "agentic",
+        "agentic ml",
+        "agents",
+        "autonomous",
+        "based"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "5c135a56f59b75e821427d17b16b3d30"
+    },
+    {
+      "title": "ToMAP: Training Opponent-Aware LLM Persuaders with Theory of Mind",
+      "authors": [
+        "Peixuan Han, Zijia Liu, Jiaxuan You"
+      ],
+      "abstract": "arXiv:2505.22961v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown promising potential in persuasion, but existing works on training LLM persuaders are still preliminary. Notably, while humans are skilled in modeling their opponent's thoughts and opinions proactively and dynamically, current LLMs struggle with such Theory of Mind (ToM) reasoning, resulting in limited diversity and opponent awareness. To address this limitation, we introduce Theory of Mind Augmented Persuader (ToMAP), a novel approach for building more flexible persuader agents by incorporating two theory of mind modules that enhance the persuader's awareness and analysis of the opponent's mental state. Specifically, we begin by prompting the persuader to consider possible objections to the target central claim, and then use a text encoder paired with a trained MLP classifier to predict the opponent's current stance on these counterclaims. Our carefully designed reinforcement learning schema enables the persuader learns how to analyze opponent-related information and utilize it to generate more effective arguments. Experiments show that the ToMAP persuader, while containing only 3B parameters, outperforms much larger baselines, like GPT-4o, with a relative gain of 39.4% across multiple persuadee models and diverse corpora. Notably, ToMAP exhibits complex reasoning chains and reduced repetition during training, which leads to more diverse and effective arguments. The opponent-aware feature of ToMAP also makes it suitable for long conversations and enables it to employ more logical and opponent-aware strategies. These results underscore our method's effectiveness and highlight its potential for developing more persuasive language agents. Code is available at: https://github.com/ulab-uiuc/ToMAP.",
+      "url": "https://arxiv.org/abs/2505.22961",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.58,
+      "innovation_score": 30,
+      "impact_score": 0,
+      "sentiment_score": 52.9,
+      "keywords": [
+        "opponent",
+        "persuader",
+        "tomap",
+        "mind",
+        "theory",
+        "theory mind",
+        "aware",
+        "opponent aware",
+        "training",
+        "agents"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "82072d540788df88d130d2cd9f01e8b7"
+    },
+    {
+      "title": "MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration",
+      "authors": [
+        "Zhitao He (May), Sandeep Polisetty (May), Zhiyuan Fan (May), Yuchen Huang (May), Shujin Wu (May), Yi R. (May),  Fung"
+      ],
+      "abstract": "arXiv:2505.23224v1 Announce Type: new \nAbstract: In recent years, multimodal large language models (MLLMs) have made significant progress but continue to face inherent challenges in multimodal reasoning, which requires multi-level (e.g., perception, reasoning) and multi-granular (e.g., multi-step reasoning chain) advanced inferencing. Prior work on estimating model confidence tends to focus on the overall response for training and calibration, but fails to assess confidence in each reasoning step, leading to undesirable hallucination snowballing. In this work, we present MMBoundary, a novel framework that advances the knowledge boundary awareness of MLLMs through reasoning step confidence calibration. To achieve this, we propose to incorporate complementary textual and cross-modal self-rewarding signals to estimate confidence at each step of the MLLM reasoning process. In addition to supervised fine-tuning MLLM on this set of self-rewarded confidence estimation signal for initial confidence expression warm-up, we introduce a reinforcement learning stage with multiple reward functions for further aligning model knowledge and calibrating confidence at each reasoning step, enhancing reasoning chain self-correction. Empirical results show that MMBoundary significantly outperforms existing methods across diverse domain datasets and metrics, achieving an average of 7.5% reduction in multimodal confidence calibration errors and up to 8.3% improvement in task performance.",
+      "url": "https://arxiv.org/abs/2505.23224",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.58,
+      "innovation_score": 40,
+      "impact_score": 8,
+      "sentiment_score": 59.15,
+      "keywords": [
+        "confidence",
+        "reasoning",
+        "step",
+        "calibration",
+        "reasoning step",
+        "confidence calibration",
+        "knowledge",
+        "mllm",
+        "mmboundary",
+        "multi"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "a309c7acc03c2b75328d55531ef0452b"
+    },
+    {
+      "title": "Reasoning-to-Defend: Safety-Aware Reasoning Can Defend Large Language Models from Jailbreaking",
+      "authors": [
+        "Junda Zhu, Lingyong Yan, Shuaiqiang Wang, Dawei Yin, Lei Sha"
+      ],
+      "abstract": "arXiv:2502.12970v2 Announce Type: replace \nAbstract: Large Reasoning Models (LRMs) have demonstrated impressive performances across diverse domains. However, how safety of Large Language Models (LLMs) benefits from enhanced reasoning capabilities against jailbreak queries remains unexplored. To bridge this gap, in this paper, we propose Reasoning-to-Defend (R2D), a novel training paradigm that integrates a safety-aware reasoning mechanism into LLMs' generation. This enables self-evaluation at each step of the reasoning process, forming safety pivot tokens as indicators of the safety status of responses. Furthermore, in order to improve the accuracy of predicting pivot tokens, we propose Contrastive Pivot Optimization (CPO), which enhances the model's perception of the safety status of given dialogues. LLMs dynamically adjust their response strategies during reasoning, significantly enhancing their safety capabilities defending jailbreak attacks. Extensive experiments demonstrate that R2D effectively mitigates various attacks and improves overall safety, while maintaining the original performances. This highlights the substantial potential of safety-aware reasoning in improving robustness of LRMs and LLMs against various jailbreaks.",
+      "url": "https://arxiv.org/abs/2502.12970",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.58,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 60.4,
+      "keywords": [
+        "reasoning",
+        "safety",
+        "llms",
+        "aware",
+        "aware reasoning",
+        "defend",
+        "large",
+        "models",
+        "pivot",
+        "reasoning defend"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Positive sentiment analysis (score: 60.4); Contains key LLM terms (bonus: 10)",
+      "paper_id": "5ea7b2fa56bf28c1c7b3ff5e0a451d1f"
+    },
+    {
+      "title": "EVOREFUSE: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal to Pseudo-Malicious Instructions",
+      "authors": [
+        "Xiaorui Wu, Xiaofeng Mao, Fei Li, Xin Zhang, Xiaolu Zhang, Jun Zhou, Yuxiang Peng, Li Zheng, Chong Teng, Donghong Ji, Zhuang Li"
+      ],
+      "abstract": "arXiv:2505.23473v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently refuse to respond to pseudo-malicious instructions: semantically harmless input queries triggering unnecessary LLM refusals due to conservative safety alignment, significantly impairing user experience. Collecting such instructions is crucial for evaluating and mitigating over-refusals, but existing instruction curation methods, like manual creation or instruction rewriting, either lack scalability or fail to produce sufficiently diverse and effective refusal-inducing prompts. To address these limitations, we introduce EVOREFUSE, a prompt optimization approach that generates diverse pseudo-malicious instructions consistently eliciting confident refusals across LLMs. EVOREFUSE employs an evolutionary algorithm exploring the instruction space in more diverse directions than existing methods via mutation strategies and recombination, and iteratively evolves seed instructions to maximize evidence lower bound on LLM refusal probability. Using EVOREFUSE, we create two novel datasets: EVOREFUSE-TEST, a benchmark of 582 pseudo-malicious instructions that outperforms the next-best benchmark with 140.41% higher average refusal triggering rate across 9 LLMs, 34.86% greater lexical diversity, and 40.03% improved LLM response confidence scores; and EVOREFUSE-ALIGN, which provides 3,000 pseudo-malicious instructions with responses for supervised and preference-based alignment training. LLAMA3.1-8B-INSTRUCT supervisedly fine-tuned on EVOREFUSE-ALIGN achieves up to 14.31% fewer over-refusals than models trained on the second-best alignment dataset, without compromising safety. Our analysis with EVOREFUSE-TEST reveals models trigger over-refusals by overly focusing on sensitive keywords while ignoring broader context.",
+      "url": "https://arxiv.org/abs/2505.23473",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 39.54,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 55.2,
+      "keywords": [
+        "evorefuse",
+        "instructions",
+        "malicious",
+        "malicious instructions",
+        "pseudo",
+        "pseudo malicious",
+        "refusals",
+        "llm",
+        "refusal",
+        "alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "80350614b95cbbda15dea8143fceaab8"
+    },
+    {
+      "title": "LoRA-MGPO: Mitigating Double Descent in Low-Rank Adaptation via Momentum-Guided Perturbation Optimization",
+      "authors": [
+        "Yupeng Chang, Chenlu Guo, Yi Chang, Yuan Wu"
+      ],
+      "abstract": "arXiv:2502.14538v2 Announce Type: replace \nAbstract: Parameter-efficient fine-tuning (PEFT) methods, such as Low-Rank Adaptation (LoRA), enable efficient adaptation of large language models (LLMs) via low-rank matrix optimization with frozen weights. However, LoRA typically exhibits \"double descent\" in training loss as rank increases, characterized by a three-phase dynamics: initial convergence, transient divergence, and eventual stabilization. This non-monotonic behavior delays convergence and impairs generalization through unstable gradients and attraction to sharp minima. To address these challenges, we propose LoRA-MGPO, a novel LoRA-based framework incorporating Momentum-Guided Perturbation Optimization (MGPO). First, MGPO eliminates Sharpness-Aware Minimization (SAM)'s dual gradient computations by reusing momentum vectors from optimizer states to guide perturbation directions. This retains SAM's training stability and flat minima preference with maintained efficiency. Second, MGPO incorporates adaptive perturbation normalization, scaling perturbation intensity via exponential moving average (EMA)-smoothed gradient magnitudes. Experiments on natural language understanding and generation benchmarks demonstrate that LoRA-MGPO outperforms LoRA and state-of-the-art PEFT methods. Further analysis confirms its ability to stabilize training and reduce sharp minima attraction, with smoother loss curves and improved convergence behavior. The code is available at https://github.com/llm172/LoRA-MGPO",
+      "url": "https://arxiv.org/abs/2502.14538",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.53,
+      "innovation_score": 40,
+      "impact_score": 0,
+      "sentiment_score": 56.4,
+      "keywords": [
+        "lora",
+        "mgpo",
+        "perturbation",
+        "lora mgpo",
+        "rank",
+        "adaptation",
+        "convergence",
+        "low",
+        "low rank",
+        "minima"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "30d7828d6b19fc3ebcd09b896ecdc8df"
+    },
+    {
+      "title": "Self-Critique and Refinement for Faithful Natural Language Explanations",
+      "authors": [
+        "Yingming Wang, Pepa Atanasova"
+      ],
+      "abstract": "arXiv:2505.22823v1 Announce Type: new \nAbstract: With the rapid development of large language models (LLMs), natural language explanations (NLEs) have become increasingly important for understanding model predictions. However, these explanations often fail to faithfully represent the model's actual reasoning process. While existing work has demonstrated that LLMs can self-critique and refine their initial outputs for various tasks, this capability remains unexplored for improving explanation faithfulness. To address this gap, we introduce Self-critique and Refinement for Natural Language Explanations (SR-NLE), a framework that enables models to improve the faithfulness of their own explanations -- specifically, post-hoc NLEs -- through an iterative critique and refinement process without external supervision. Our framework leverages different feedback mechanisms to guide the refinement process, including natural language self-feedback and, notably, a novel feedback approach based on feature attribution that highlights important input words. Our experiments across three datasets and four state-of-the-art LLMs demonstrate that SR-NLE significantly reduces unfaithfulness rates, with our best method achieving an average unfaithfulness rate of 36.02%, compared to 54.81% for baseline -- an absolute reduction of 18.79%. These findings reveal that the investigated LLMs can indeed refine their explanations to better reflect their actual reasoning process, requiring only appropriate guidance through feedback without additional training or fine-tuning.",
+      "url": "https://arxiv.org/abs/2505.22823",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.39,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 56.95,
+      "keywords": [
+        "explanations",
+        "language",
+        "critique",
+        "feedback",
+        "llms",
+        "natural",
+        "natural language",
+        "process",
+        "refinement",
+        "self"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "f6b823641d1991933f96caeb07194ba0"
+    },
+    {
+      "title": "Diversity-Aware Policy Optimization for Large Language Model Reasoning",
+      "authors": [
+        "Jian Yao, Ran Cheng, Xingyu Wu, Jibin Wu, Kay Chen Tan"
+      ],
+      "abstract": "arXiv:2505.23433v1 Announce Type: new \nAbstract: The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and Potential at k (a novel metric quantifying an LLM's reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically, we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5 percent average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions.",
+      "url": "https://arxiv.org/abs/2505.23433",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 38.74,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 59.95,
+      "keywords": [
+        "diversity",
+        "reasoning",
+        "rl",
+        "llm",
+        "llm reasoning",
+        "method",
+        "training",
+        "aware",
+        "aware policy",
+        "diversity aware"
+      ],
+      "subject_classification": "training",
+      "justification": "Technical sophistication (score: 35); Contains key LLM terms (bonus: 10)",
+      "paper_id": "0ac76938f849552863ae80d4f2e3eabc"
+    },
+    {
+      "title": "Daunce: Data Attribution through Uncertainty Estimation",
+      "authors": [
+        "Xingyuan Pan, Chenlu Ye, Joseph Melkonian, Jiaqi W. Ma, Tong Zhang"
+      ],
+      "abstract": "arXiv:2505.23223v1 Announce Type: new \nAbstract: Training data attribution (TDA) methods aim to identify which training examples influence a model's predictions on specific test data most. By quantifying these influences, TDA supports critical applications such as data debugging, curation, and valuation. Gradient-based TDA methods rely on gradients and second-order information, limiting their applicability at scale. While recent random projection-based methods improve scalability, they often suffer from degraded attribution accuracy. Motivated by connections between uncertainty and influence functions, we introduce Daunce - a simple yet effective data attribution approach through uncertainty estimation. Our method operates by fine-tuning a collection of perturbed models and computing the covariance of per-example losses across these models as the attribution score. Daunce is scalable to large language models (LLMs) and achieves more accurate attribution compared to existing TDA methods. We validate Daunce on tasks ranging from vision tasks to LLM fine-tuning, and further demonstrate its compatibility with black-box model access. Applied to OpenAI's GPT models, our method achieves, to our knowledge, the first instance of data attribution on proprietary LLMs.",
+      "url": "https://arxiv.org/abs/2505.23223",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 38.620000000000005,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 49.35,
+      "keywords": [
+        "attribution",
+        "data",
+        "data attribution",
+        "daunce",
+        "methods",
+        "models",
+        "tda",
+        "tda methods",
+        "uncertainty",
+        "achieves"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "89a8825dc084a28a41331cf62477f55a"
+    },
+    {
+      "title": "Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms",
+      "authors": [
+        "Rajvardhan Oak, Muhammad Haroon, Claire Jo, Magdalena Wojcieszak, Anshuman Chhabra"
+      ],
+      "abstract": "arXiv:2501.13977v3 Announce Type: replace \nAbstract: Social media platforms utilize Machine Learning (ML) and Artificial Intelligence (AI) powered recommendation algorithms to maximize user engagement, which can result in inadvertent exposure to harmful content. Current moderation efforts, reliant on classifiers trained with extensive human-annotated data, struggle with scalability and adapting to new forms of harm. To address these challenges, we propose a novel re-ranking approach using Large Language Models (LLMs) in zero-shot and few-shot settings. Our method dynamically assesses and re-ranks content sequences, effectively mitigating harmful content exposure without requiring extensive labeled data. Alongside traditional ranking metrics, we also introduce two new metrics to evaluate the effectiveness of re-ranking in reducing exposure to harmful content. Through experiments on three datasets, three models and across three configurations, we demonstrate that our LLM-based approach significantly outperforms existing proprietary moderation approaches, offering a scalable and adaptable solution for harm mitigation.",
+      "url": "https://arxiv.org/abs/2501.13977",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.6,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 53.0,
+      "keywords": [
+        "content",
+        "exposure",
+        "harmful",
+        "harmful content",
+        "ranking",
+        "exposure harmful",
+        "models",
+        "approach",
+        "data",
+        "extensive"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "a535681ba5f4ef65e8912046dd0d4d21"
+    },
+    {
+      "title": "Afterburner: Reinforcement Learning Facilitates Self-Improving Code Efficiency Optimization",
+      "authors": [
+        "Mingzhe Du, Luu Tuan Tuan, Yue Liu, Yuhao Qing, Dong Huang, Xinyi He, Qian Liu, Zejun Ma, See-kiong Ng"
+      ],
+      "abstract": "arXiv:2505.23387v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) generate functionally correct solutions but often fall short in code efficiency, a critical bottleneck for real-world deployment. In this paper, we introduce a novel test-time iterative optimization framework to address this, employing a closed-loop system where LLMs iteratively refine code based on empirical performance feedback from an execution sandbox. We explore three training strategies: Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Group Relative Policy Optimization~(GRPO). Experiments on our Venus dataset and the APPS benchmark show that SFT and DPO rapidly saturate in efficiency gains. In contrast, GRPO, using reinforcement learning (RL) with execution feedback, continuously optimizes code performance, significantly boosting both pass@1 (from 47% to 62%) and the likelihood of outperforming human submissions in efficiency (from 31% to 45%). Our work demonstrates effective test-time code efficiency improvement and critically reveals the power of RL in teaching LLMs to truly self-improve code efficiency.",
+      "url": "https://arxiv.org/abs/2505.23387",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 38.5,
+      "innovation_score": 10,
+      "impact_score": 32,
+      "sentiment_score": 62.5,
+      "keywords": [
+        "code",
+        "efficiency",
+        "code efficiency",
+        "optimization",
+        "llms",
+        "dpo",
+        "execution",
+        "feedback",
+        "grpo",
+        "learning"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 32); Positive sentiment analysis (score: 62.5); Contains key LLM terms (bonus: 10)",
+      "paper_id": "d716032d8dfabd73cc639366419369d7"
+    },
+    {
+      "title": "GSQ-Tuning: Group-Shared Exponents Integer in Fully Quantized Training for LLMs On-Device Fine-tuning",
+      "authors": [
+        "Sifan Zhou, Shuo Wang, Zhihang Yuan, Mingjia Shi, Yuzhang Shang, Dawei Yang"
+      ],
+      "abstract": "arXiv:2502.12913v3 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) fine-tuning technologies have achieved remarkable results. However, traditional LLM fine-tuning approaches face significant challenges: they require large Floating Point (FP) computation, raising privacy concerns when handling sensitive data, and are impractical for resource-constrained edge devices. While Parameter-Efficient Fine-Tuning (PEFT) techniques reduce trainable parameters, their reliance on floating-point arithmetic creates fundamental incompatibilities with edge hardware. In this work, we introduce a novel framework for on-device LLM fine-tuning that eliminates the need for floating-point operations in both inference and training, named GSQ-Tuning. At its core is the Group-Shared Exponents Integer format, which efficiently represents model parameters in integer format using shared exponents among parameter groups. When combined with LoRA-like adapters, this enables fully integer-based fine-tuning that is both memory and compute efficient. We demonstrate that our approach achieves accuracy comparable to BF16-based fine-tuning while significantly reducing 1.85x memory usage. Moreover, compared to FP8, our method can reduce 5x power consumption and 11x chip area with same performance, making large-scale model adaptation feasible on edge devices.",
+      "url": "https://arxiv.org/abs/2502.12913",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 38.29,
+      "innovation_score": 10,
+      "impact_score": 32,
+      "sentiment_score": 55.2,
+      "keywords": [
+        "tuning",
+        "fine",
+        "fine tuning",
+        "integer",
+        "edge",
+        "exponents",
+        "floating",
+        "floating point",
+        "large",
+        "point"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "5d21d180d1b1f09fa6c34131fe58d951"
+    },
+    {
+      "title": "Learning to Search for Vehicle Routing with Multiple Time Windows",
+      "authors": [
+        "Kuan Xu, Zhiguang Cao, Chenlong Zheng, Linong Liu"
+      ],
+      "abstract": "arXiv:2505.23098v1 Announce Type: new \nAbstract: In this study, we propose a reinforcement learning-based adaptive variable neighborhood search (RL-AVNS) method designed for effectively solving the Vehicle Routing Problem with Multiple Time Windows (VRPMTW). Unlike traditional adaptive approaches that rely solely on historical operator performance, our method integrates a reinforcement learning framework to dynamically select neighborhood operators based on real-time solution states and learned experience. We introduce a fitness metric that quantifies customers' temporal flexibility to improve the shaking phase, and employ a transformer-based neural policy network to intelligently guide operator selection during the local search. Extensive computational experiments are conducted on realistic scenarios derived from the replenishment of unmanned vending machines, characterized by multiple clustered replenishment windows. Results demonstrate that RL-AVNS significantly outperforms traditional variable neighborhood search (VNS), adaptive VNS (AVNS), and state-of-the-art learning-based heuristics, achieving substantial improvements in solution quality and computational efficiency across various instance scales and time window complexities. Particularly notable is the algorithm's capability to generalize effectively to problem instances not encountered during training, underscoring its practical utility for complex logistics scenarios.",
+      "url": "https://arxiv.org/abs/2505.23098",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 38.29,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 56.45,
+      "keywords": [
+        "based",
+        "learning",
+        "search",
+        "time",
+        "adaptive",
+        "avns",
+        "multiple",
+        "neighborhood",
+        "windows",
+        "computational"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
+      "paper_id": "152e928403042d375075fe2e0dbede15"
+    },
+    {
+      "title": "Fusing Bidirectional Chains of Thought and Reward Mechanisms A Method for Enhancing Question-Answering Capabilities of Large Language Models for Chinese Intangible Cultural Heritage",
+      "authors": [
+        "Ruilin Liu, Zhixiao Zhao, Jieqiong Li, Chang Liu, Dongbo Wang"
+      ],
+      "abstract": "arXiv:2505.08167v3 Announce Type: replace \nAbstract: The rapid development of large language models (LLMs) has provided significant support and opportunities for the advancement of domain-specific LLMs. However, fine-tuning these large models using Intangible Cultural Heritage (ICH) data inevitably faces challenges such as bias, incorrect knowledge inheritance, and catastrophic forgetting. To address these issues, we propose a novel training method that integrates a bidirectional chains of thought and a reward mechanism. This method is built upon ICH-Qwen, a large language model specifically designed for the field of intangible cultural heritage. The proposed method enables the model to not only perform forward reasoning but also enhances the accuracy of the generated answers by utilizing reverse questioning and reverse reasoning to activate the model's latent knowledge. Additionally, a reward mechanism is introduced during training to optimize the decision-making process. This mechanism improves the quality of the model's outputs through structural and content evaluations with different weighting schemes. We conduct comparative experiments on ICH-Qwen, with results demonstrating that our method outperforms 0-shot, step-by-step reasoning, knowledge distillation, and question augmentation methods in terms of accuracy, Bleu-4, and Rouge-L scores on the question-answering task. Furthermore, the paper highlights the effectiveness of combining the bidirectional chains of thought and reward mechanism through ablation experiments. In addition, a series of generalizability experiments are conducted, with results showing that the proposed method yields improvements on various domain-specific datasets and advanced models in areas such as Finance, Wikidata, and StrategyQA. This demonstrates that the method is adaptable to multiple domains and provides a valuable approach for model training in future applications across diverse fields.",
+      "url": "https://arxiv.org/abs/2505.08167",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.92,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 55.85,
+      "keywords": [
+        "method",
+        "model",
+        "large",
+        "mechanism",
+        "models",
+        "reward",
+        "bidirectional",
+        "bidirectional chains",
+        "chains",
+        "chains thought"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "32c66f9306233a120a40994fdd1eea1c"
+    },
+    {
+      "title": "One Trajectory, One Token: Grounded Video Tokenization via Panoptic Sub-object Trajectory",
+      "authors": [
+        "Chenhao Zheng, Jieyu Zhang, Mohammadreza Salehi, Ziqi Gao, Vishnu Iyengar, Norimasa Kobori, Quan Kong, Ranjay Krishna"
+      ],
+      "abstract": "arXiv:2505.23617v1 Announce Type: cross \nAbstract: Effective video tokenization is critical for scaling transformer models for long videos. Current approaches tokenize videos using space-time patches, leading to excessive tokens and computational inefficiencies. The best token reduction strategies degrade performance and barely reduce the number of tokens when the camera moves. We introduce grounded video tokenization, a paradigm that organizes tokens based on panoptic sub-object trajectories rather than fixed patches. Our method aligns with fundamental perceptual principles, ensuring that tokenization reflects scene complexity rather than video duration. We propose TrajViT, a video encoder that extracts object trajectories and converts them into semantically meaningful tokens, significantly reducing redundancy while maintaining temporal coherence. Trained with contrastive learning, TrajViT significantly outperforms space-time ViT (ViT3D) across multiple video understanding benchmarks, e.g., TrajViT outperforms ViT3D by a large margin of 6% top-5 recall in average at video-text retrieval task with 10x token deduction. We also show TrajViT as a stronger model than ViT3D for being the video encoder for modern VideoLLM, obtaining an average of 5.2% performance improvement across 6 VideoQA benchmarks while having 4x faster training time and 18x less inference FLOPs. TrajViT is the first efficient encoder to consistently outperform ViT3D across diverse video analysis tasks, making it a robust and scalable solution.",
+      "url": "https://arxiv.org/abs/2505.23617",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 37.83,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 54.15,
+      "keywords": [
+        "video",
+        "trajvit",
+        "tokenization",
+        "tokens",
+        "vit3d",
+        "encoder",
+        "object",
+        "time",
+        "token",
+        "video tokenization"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "1ce4060fdd455540f63666f099f64072"
+    },
+    {
+      "title": "Table-R1: Inference-Time Scaling for Table Reasoning",
+      "authors": [
+        "Zheyuan Yang, Lyuhao Chen, Arman Cohan, Yilun Zhao"
+      ],
+      "abstract": "arXiv:2505.23621v1 Announce Type: new \nAbstract: In this work, we present the first study to explore inference-time scaling on table reasoning tasks. We develop and evaluate two post-training strategies to enable inference-time scaling: distillation from frontier model reasoning traces and reinforcement learning with verifiable rewards (RLVR). For distillation, we introduce a large-scale dataset of reasoning traces generated by DeepSeek-R1, which we use to fine-tune LLMs into the Table-R1-SFT model. For RLVR, we propose task-specific verifiable reward functions and apply the GRPO algorithm to obtain the Table-R1-Zero model. We evaluate our Table-R1-series models across diverse table reasoning tasks, including short-form QA, fact verification, and free-form QA. Notably, the Table-R1-Zero model matches or exceeds the performance of GPT-4.1 and DeepSeek-R1, while using only a 7B-parameter LLM. It also demonstrates strong generalization to out-of-domain datasets. Extensive ablation and qualitative analyses reveal the benefits of instruction tuning, model architecture choices, and cross-task generalization, as well as emergence of essential table reasoning skills during RL training.",
+      "url": "https://arxiv.org/abs/2505.23621",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.63,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 54.4,
+      "keywords": [
+        "table",
+        "r1",
+        "reasoning",
+        "model",
+        "table r1",
+        "table reasoning",
+        "inference",
+        "inference time",
+        "scaling",
+        "time"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "d58df1a630c4f61d2b0d5b1501107184"
+    },
+    {
+      "title": "MCP Safety Training: Learning to Refuse Falsely Benign MCP Exploits using Improved Preference Alignment",
+      "authors": [
+        "John Halloran"
+      ],
+      "abstract": "arXiv:2505.23634v1 Announce Type: new \nAbstract: The model context protocol (MCP) has been widely adapted as an open standard enabling the seamless integration of generative AI agents. However, recent work has shown the MCP is susceptible to retrieval-based \"falsely benign\" attacks (FBAs), allowing malicious system access and credential theft, but requiring that users download compromised files directly to their systems. Herein, we show that the threat model of MCP-based attacks is significantly broader than previously thought, i.e., attackers need only post malicious content online to deceive MCP agents into carrying out their attacks on unsuspecting victims' systems.\n  To improve alignment guardrails against such attacks, we introduce a new MCP dataset of FBAs and (truly) benign samples to explore the effectiveness of direct preference optimization (DPO) for the refusal training of large language models (LLMs). While DPO improves model guardrails against such attacks, we show that the efficacy of refusal learning varies drastically depending on the model's original post-training alignment scheme--e.g., GRPO-based LLMs learn to refuse extremely poorly. Thus, to further improve FBA refusals, we introduce Retrieval Augmented Generation for Preference alignment (RAG-Pref), a novel preference alignment strategy based on RAG. We show that RAG-Pref significantly improves the ability of LLMs to refuse FBAs, particularly when combined with DPO alignment, thus drastically improving guardrails against MCP-based attacks.",
+      "url": "https://arxiv.org/abs/2505.23634",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 37.480000000000004,
+      "innovation_score": 40,
+      "impact_score": 8,
+      "sentiment_score": 48.65,
+      "keywords": [
+        "mcp",
+        "alignment",
+        "attacks",
+        "based",
+        "model",
+        "preference",
+        "benign",
+        "dpo",
+        "fbas",
+        "guardrails"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "c061cd2d2d923ce97f5a1eaf64064a51"
+    },
+    {
+      "title": "LLMs Can Achieve High-quality Simultaneous Machine Translation as Efficiently as Offline",
+      "authors": [
+        "Biao Fu, Minpeng Liao, Kai Fan, Chengxi Li, Liang Zhang, Yidong Chen, Xiaodong Shi"
+      ],
+      "abstract": "arXiv:2504.09570v2 Announce Type: replace \nAbstract: When the complete source sentence is provided, Large Language Models (LLMs) perform excellently in offline machine translation even with a simple prompt \"Translate the following sentence from [src lang] into [tgt lang]:\". However, in many real scenarios, the source tokens arrive in a streaming manner and simultaneous machine translation (SiMT) is required, then the efficiency and performance of decoder-only LLMs are significantly limited by their auto-regressive nature. To enable LLMs to achieve high-quality SiMT as efficiently as offline translation, we propose a novel paradigm that includes constructing supervised fine-tuning (SFT) data for SiMT, along with new training and inference strategies. To replicate the token input/output stream in SiMT, the source and target tokens are rearranged into an interleaved sequence, separated by special tokens according to varying latency requirements. This enables powerful LLMs to learn read and write operations adaptively, based on varying latency prompts, while still maintaining efficient auto-regressive decoding. Experimental results show that, even with limited SFT data, our approach achieves state-of-the-art performance across various SiMT benchmarks, and preserves the original abilities of offline translation. Moreover, our approach generalizes well to document-level SiMT setting without requiring specific fine-tuning, even beyond the offline translation model.",
+      "url": "https://arxiv.org/abs/2504.09570",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.38,
+      "innovation_score": 40,
+      "impact_score": 8,
+      "sentiment_score": 54.4,
+      "keywords": [
+        "simt",
+        "translation",
+        "llms",
+        "offline",
+        "machine",
+        "machine translation",
+        "offline translation",
+        "source",
+        "tokens",
+        "achieve"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "4afb85a0fc2b1142b810a3cc30b02f1b"
+    },
+    {
+      "title": "HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model",
+      "authors": [
+        "Haiyang Guo, Fanhu Zeng, Ziwei Xiang, Fei Zhu, Da-Han Wang, Xu-Yao Zhang, Cheng-Lin Liu"
+      ],
+      "abstract": "arXiv:2503.12941v2 Announce Type: replace \nAbstract: Instruction tuning is widely used to improve a pre-trained Multimodal Large Language Model (MLLM) by training it on curated task-specific datasets, enabling better comprehension of human instructions. However, it is infeasible to collect all possible instruction datasets simultaneously in real-world scenarios. Thus, enabling MLLM with continual instruction tuning is essential for maintaining their adaptability. However, existing methods often trade off memory efficiency for performance gains, significantly compromising overall efficiency. In this paper, we propose a task-specific expansion and task-general fusion framework based on the variations in Centered Kernel Alignment (CKA) similarity across different model layers when trained on diverse datasets. Furthermore, we analyze the information leakage present in the existing benchmark and propose a new and more challenging benchmark to rationally evaluate the performance of different methods. Comprehensive experiments showcase a significant performance improvement of our method compared to existing state-of-the-art methods. Code and dataset are released at https://github.com/Ghy0501/HiDe-LLaVA.",
+      "url": "https://arxiv.org/abs/2503.12941",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.09,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 56.7,
+      "keywords": [
+        "instruction",
+        "datasets",
+        "existing",
+        "instruction tuning",
+        "methods",
+        "model",
+        "performance",
+        "task",
+        "tuning",
+        "benchmark"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "47c2ce6cf6cfea1656e63dedb740e05b"
+    },
+    {
+      "title": "Structure-Enhanced Protein Instruction Tuning: Towards General-Purpose Protein Understanding with LLMs",
+      "authors": [
+        "Wei Wu, Chao Wang, Liyi Chen, Mingze Yin, Yiheng Zhu, Kun Fu, Jieping Ye, Hui Xiong, Zheng Wang"
+      ],
+      "abstract": "arXiv:2410.03553v3 Announce Type: replace \nAbstract: Proteins, as essential biomolecules, play a central role in biological processes, including metabolic reactions and DNA replication. Accurate prediction of their properties and functions is crucial in biological applications. Recent development of protein language models (pLMs) with supervised fine tuning provides a promising solution to this problem. However, the fine-tuned model is tailored for particular downstream prediction task, and achieving general-purpose protein understanding remains a challenge. In this paper, we introduce Structure-Enhanced Protein Instruction Tuning (SEPIT) framework to bridge this gap. Our approach incorporates a novel structure-aware module into pLMs to enrich their structural knowledge, and subsequently integrates these enhanced pLMs with large language models (LLMs) to advance protein understanding. In this framework, we propose a novel instruction tuning pipeline. First, we warm up the enhanced pLMs using contrastive learning and structure denoising. Then, caption-based instructions are used to establish a basic understanding of proteins. Finally, we refine this understanding by employing a mixture of experts (MoEs) to capture more complex properties and functional information with the same number of activated parameters. Moreover, we construct the largest and most comprehensive protein instruction dataset to date, which allows us to train and evaluate the general-purpose protein understanding model. Extensive experiments on both open-ended generation and closed-set answer tasks demonstrate the superior performance of SEPIT over both closed-source general LLMs and open-source LLMs trained with protein knowledge.",
+      "url": "https://arxiv.org/abs/2410.03553",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.65,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 54.5,
+      "keywords": [
+        "protein",
+        "understanding",
+        "enhanced",
+        "general",
+        "instruction",
+        "llms",
+        "plms",
+        "protein understanding",
+        "structure",
+        "tuning"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "3bf215c47f4a2b57da02ccf6bfebc2e1"
+    },
+    {
+      "title": "Pangu Embedded: An Efficient Dual-system LLM Reasoner with Metacognition",
+      "authors": [
+        "Hanting Chen (and Other Contributors), Yasheng Wang (and Other Contributors), Kai Han (and Other Contributors), Dong Li (and Other Contributors), Lin Li (and Other Contributors), Zhenni Bi (and Other Contributors), Jinpeng Li (and Other Contributors), Haoyu Wang (and Other Contributors), Fei Mi (and Other Contributors), Mingjian Zhu (and Other Contributors), Bin Wang (and Other Contributors), Kaikai Song (and Other Contributors), Yifei Fu (and Other Contributors), Xu He (and Other Contributors), Yu Luo (and Other Contributors), Chong Zhu (and Other Contributors), Quan He (and Other Contributors), Xueyu Wu (and Other Contributors), Wei He (and Other Contributors), Hailin Hu (and Other Contributors), Yehui Tang (and Other Contributors), Dacheng Tao (and Other Contributors), Xinghao Chen (and Other Contributors), Yunhe Wang (and Other Contributors)"
+      ],
+      "abstract": "arXiv:2505.22375v2 Announce Type: replace \nAbstract: This work presents Pangu Embedded, an efficient Large Language Model (LLM) reasoner developed on Ascend Neural Processing Units (NPUs), featuring flexible fast and slow thinking capabilities. Pangu Embedded addresses the significant computational costs and inference latency challenges prevalent in existing reasoning-optimized LLMs. We propose a two-stage training framework for its construction. In Stage 1, the model is finetuned via an iterative distillation process, incorporating inter-iteration model merging to effectively aggregate complementary knowledge. This is followed by reinforcement learning on Ascend clusters, optimized by a latency-tolerant scheduler that combines stale synchronous parallelism with prioritized data queues. The RL process is guided by a Multi-source Adaptive Reward System (MARS), which generates dynamic, task-specific reward signals using deterministic metrics and lightweight LLM evaluators for mathematics, coding, and general problem-solving tasks. Stage 2 introduces a dual-system framework, endowing Pangu Embedded with a \"fast\" mode for routine queries and a deeper \"slow\" mode for complex inference. This framework offers both manual mode switching for user control and an automatic, complexity-aware mode selection mechanism that dynamically allocates computational resources to balance latency and reasoning depth. Experimental results on benchmarks including AIME 2024, GPQA, and LiveCodeBench demonstrate that Pangu Embedded with 7B parameters, outperforms similar-size models like Qwen3-8B and GLM4-9B. It delivers rapid responses and state-of-the-art reasoning quality within a single, unified model architecture, highlighting a promising direction for developing powerful yet practically deployable LLM reasoners.",
+      "url": "https://arxiv.org/abs/2505.22375",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.49,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 57.45,
+      "keywords": [
+        "embedded",
+        "pangu",
+        "pangu embedded",
+        "llm",
+        "mode",
+        "model",
+        "framework",
+        "latency",
+        "reasoning",
+        "stage"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "b254c55ad321f5ae57cc8cc7a58ac851"
+    },
+    {
+      "title": "GraphEval: A Lightweight Graph-Based LLM Framework for Idea Evaluation",
+      "authors": [
+        "Tao Feng, Yihang Sun, Jiaxuan You"
+      ],
+      "abstract": "arXiv:2503.12600v2 Announce Type: replace \nAbstract: The powerful capabilities of Large Language Models (LLMs) have led to their growing use in evaluating human-generated content, particularly in evaluating research ideas within academic settings. Existing solutions primarily rely on prompt-based LLM methods or fine-tuned lightweight language models for idea evaluation. However, these methods are often unstable and struggle to comprehend the complex semantic information embedded in the ideas, impeding their ability to perform high-quality evaluations. To address the above challenges, we propose GraphEval, a lightweight graph-based LLM framework for idea evaluation. Our insight is that a complex idea can be broken down into comprehensible viewpoint nodes using prompts from small LLMs. These viewpoint nodes can then be linked together through edges created from LLM-based relation extraction and/or BERT similarity scores. The created viewpoint-graph can be used to conveniently propagate scores across view-nodes to improve the robustness of the idea evaluations. In particular, we propose two lightweight graph-based methods for idea evaluation: (1) GraphEval-LP: a training-free label propagation algorithm that propagates evaluation scores from known view-nodes to unknown nodes; (2) GraphEval-GNN: a Graph Neural Networks (GNN) that is trained to predict the evaluation scores given the observed graph with minimal computation resources. Moreover, to overcome LLM's limitation in objectively assessing the novelty of ideas, we further propose a novelty detection model to GraphEval-GNN to enhance its capability in judging idea novelty. Experiments on two datasets show GraphEval improves F1 scores by at least 14% with low computation and API costs. Additionally, GraphEval can effectively detect plagiarized ideas.",
+      "url": "https://arxiv.org/abs/2503.12600",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.38,
+      "innovation_score": 20,
+      "impact_score": 0,
+      "sentiment_score": 51.9,
+      "keywords": [
+        "grapheval",
+        "idea",
+        "evaluation",
+        "graph",
+        "based",
+        "llm",
+        "nodes",
+        "scores",
+        "idea evaluation",
+        "ideas"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "4e4156bee9b074c148fd55769165f374"
+    },
+    {
+      "title": "STeCa: Step-level Trajectory Calibration for LLM Agent Learning",
+      "authors": [
+        "Hanlin Wang, Jian Wang, Chak Tou Leong, Wenjie Li"
+      ],
+      "abstract": "arXiv:2502.14276v2 Announce Type: replace-cross \nAbstract: Large language model (LLM)-based agents have shown promise in tackling complex tasks by interacting dynamically with the environment. Existing work primarily focuses on behavior cloning from expert demonstrations or preference learning through exploratory trajectory sampling. However, these methods often struggle to address long-horizon tasks, where suboptimal actions accumulate step by step, causing agents to deviate from correct task trajectories. To address this, we highlight the importance of timely calibration and the need to automatically construct calibration trajectories for training agents. We propose Step-Level Trajectory Calibration (STeCa), a novel framework for LLM agent learning. Specifically, STeCa identifies suboptimal actions through a step-level reward comparison during exploration. It constructs calibrated trajectories using LLM-driven reflection, enabling agents to learn from improved decision-making processes. We finally leverage these calibrated trajectories with successful trajectories for reinforced training. Extensive experiments demonstrate that STeCa significantly outperforms existing methods. Further analysis highlights that timely calibration enables agents to complete tasks with greater robustness. Our code and data are available at https://github.com/WangHanLinHenry/STeCa.",
+      "url": "https://arxiv.org/abs/2502.14276",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.35,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 56.75,
+      "keywords": [
+        "agents",
+        "calibration",
+        "steca",
+        "step",
+        "trajectories",
+        "llm",
+        "learning",
+        "level",
+        "step level",
+        "tasks"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "f9ced87490a0bdc3245ff0e1c3337a65"
+    },
+    {
+      "title": "Sustainable Carbon-Aware and Water-Efficient LLM Scheduling in Geo-Distributed Cloud Datacenters",
+      "authors": [
+        "Hayden Moore, Sirui Qi, Ninad Hogade, Dejan Milojicic, Cullen Bash, Sudeep Pasricha"
+      ],
+      "abstract": "arXiv:2505.23554v1 Announce Type: cross \nAbstract: In recent years, Large Language Models (LLM) such as ChatGPT, CoPilot, and Gemini have been widely adopted in different areas. As the use of LLMs continues to grow, many efforts have focused on reducing the massive training overheads of these models. But it is the environmental impact of handling user requests to LLMs that is increasingly becoming a concern. Recent studies estimate that the costs of operating LLMs in their inference phase can exceed training costs by 25x per year. As LLMs are queried incessantly, the cumulative carbon footprint for the operational phase has been shown to far exceed the footprint during the training phase. Further, estimates indicate that 500 ml of fresh water is expended for every 20-50 requests to LLMs during inference. To address these important sustainability issues with LLMs, we propose a novel framework called SLIT to co-optimize LLM quality of service (time-to-first token), carbon emissions, water usage, and energy costs. The framework utilizes a machine learning (ML) based metaheuristic to enhance the sustainability of LLM hosting across geo-distributed cloud datacenters. Such a framework will become increasingly vital as LLMs proliferate.",
+      "url": "https://arxiv.org/abs/2505.23554",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DC"
+      ],
+      "significance_score": 36.29,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 53.95,
+      "keywords": [
+        "llms",
+        "llm",
+        "carbon",
+        "costs",
+        "framework",
+        "phase",
+        "training",
+        "water",
+        "cloud",
+        "cloud datacenters"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "b12abb24ec5b4b20376880a9f6e654ae"
+    },
+    {
+      "title": "Pseudo Multi-Source Domain Generalization: Bridging the Gap Between Single and Multi-Source Domain Generalization",
+      "authors": [
+        "Shohei Enomoto"
+      ],
+      "abstract": "arXiv:2505.23173v1 Announce Type: new \nAbstract: Deep learning models often struggle to maintain performance when deployed on data distributions different from their training data, particularly in real-world applications where environmental conditions frequently change. While Multi-source Domain Generalization (MDG) has shown promise in addressing this challenge by leveraging multiple source domains during training, its practical application is limited by the significant costs and difficulties associated with creating multi-domain datasets. To address this limitation, we propose Pseudo Multi-source Domain Generalization (PMDG), a novel framework that enables the application of sophisticated MDG algorithms in more practical Single-source Domain Generalization (SDG) settings. PMDG generates multiple pseudo-domains from a single source domain through style transfer and data augmentation techniques, creating a synthetic multi-domain dataset that can be used with existing MDG algorithms. Through extensive experiments with PseudoDomainBed, our modified version of the DomainBed benchmark, we analyze the effectiveness of PMDG across multiple datasets and architectures. Our analysis reveals several key findings, including a positive correlation between MDG and PMDG performance and the potential of pseudo-domains to match or exceed actual multi-domain performance with sufficient data. These comprehensive empirical results provide valuable insights for future research in domain generalization. Our code is available at https://github.com/s-enmt/PseudoDomainBed.",
+      "url": "https://arxiv.org/abs/2505.23173",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.230000000000004,
+      "innovation_score": 20,
+      "impact_score": 48,
+      "sentiment_score": 53.65,
+      "keywords": [
+        "domain",
+        "multi",
+        "source",
+        "domain generalization",
+        "generalization",
+        "source domain",
+        "data",
+        "mdg",
+        "multi source",
+        "pmdg"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 48)",
+      "paper_id": "07765244da5f2c68327780096280ac17"
+    },
+    {
+      "title": "Training Language Models to Generate Quality Code with Program Analysis Feedback",
+      "authors": [
+        "Feng Yao, Zilong Wang, Liyuan Liu, Junxia Cui, Li Zhong, Xiaohan Fu, Haohui Mai, Vish Krishnan, Jianfeng Gao, Jingbo Shang"
+      ],
+      "abstract": "arXiv:2505.22704v1 Announce Type: new \nAbstract: Code generation with large language models (LLMs), often termed vibe coding, is increasingly adopted in production but fails to ensure code quality, particularly in security (e.g., SQL injection vulnerabilities) and maintainability (e.g., missing type annotations). Existing methods, such as supervised fine-tuning and rule-based post-processing, rely on labor-intensive annotations or brittle heuristics, limiting their scalability and effectiveness. We propose REAL, a reinforcement learning framework that incentivizes LLMs to generate production-quality code using program analysis-guided feedback. Specifically, REAL integrates two automated signals: (1) program analysis detecting security or maintainability defects and (2) unit tests ensuring functional correctness. Unlike prior work, our framework is prompt-agnostic and reference-free, enabling scalable supervision without manual intervention. Experiments across multiple datasets and model scales demonstrate that REAL outperforms state-of-the-art methods in simultaneous assessments of functionality and code quality. Our work bridges the gap between rapid prototyping and production-ready code, enabling LLMs to deliver both speed and quality.",
+      "url": "https://arxiv.org/abs/2505.22704",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.18,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 50.9,
+      "keywords": [
+        "code",
+        "quality",
+        "analysis",
+        "llms",
+        "production",
+        "program",
+        "program analysis",
+        "real",
+        "annotations",
+        "code quality"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "d60e8e83eccd27feff7f306dc9043fcc"
+    },
+    {
+      "title": "Loss-Guided Model Sharing and Local Learning Correction in Decentralized Federated Learning for Crop Disease Classification",
+      "authors": [
+        "Denis Mamba Kabala, Adel Hafiane, Laurent Bobelin, Raphael Canals"
+      ],
+      "abstract": "arXiv:2505.23063v1 Announce Type: new \nAbstract: Crop disease detection and classification is a critical challenge in agriculture, with major implications for productivity, food security, and environmental sustainability. While deep learning models such as CNN and ViT have shown excellent performance in classifying plant diseases from images, their large-scale deployment is often limited by data privacy concerns. Federated Learning (FL) addresses this issue, but centralized FL remains vulnerable to single-point failures and scalability limits. In this paper, we introduce a novel Decentralized Federated Learning (DFL) framework that uses validation loss (Loss_val) both to guide model sharing between peers and to correct local training via an adaptive loss function controlled by weighting parameter. We conduct extensive experiments using PlantVillage datasets with three deep learning architectures (ResNet50, VGG16, and ViT_B16), analyzing the impact of weighting parameter, the number of shared models, the number of clients, and the use of Loss_val versus Loss_train of other clients. Results demonstrate that our DFL approach not only improves accuracy and convergence speed, but also ensures better generalization and robustness across heterogeneous data environments making it particularly well-suited for privacy-preserving agricultural applications.",
+      "url": "https://arxiv.org/abs/2505.23063",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.17,
+      "innovation_score": 30,
+      "impact_score": 48,
+      "sentiment_score": 50.85,
+      "keywords": [
+        "learning",
+        "federated",
+        "federated learning",
+        "loss",
+        "classification",
+        "clients",
+        "crop",
+        "crop disease",
+        "data",
+        "decentralized"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 48)",
+      "paper_id": "f844f00481555099df44cfd7c993422e"
+    },
+    {
+      "title": "Proximalized Preference Optimization for Diverse Feedback Types: A Decomposed Perspective on DPO",
+      "authors": [
+        "Kaiyang Guo, Yinchuan Li, Zhitang Chen"
+      ],
+      "abstract": "arXiv:2505.23316v1 Announce Type: new \nAbstract: Direct alignment methods typically optimize large language models (LLMs) by contrasting the likelihoods of preferred versus dispreferred responses. While effective in steering LLMs to match relative preference, these methods are frequently noted for decreasing the absolute likelihoods of example responses. As a result, aligned models tend to generate outputs that deviate from the expected patterns, exhibiting reward-hacking effect even without a reward model. This undesired consequence exposes a fundamental limitation in contrastive alignment, which we characterize as likelihood underdetermination. In this work, we revisit direct preference optimization (DPO) -- the seminal direct alignment method -- and demonstrate that its loss theoretically admits a decomposed reformulation. The reformulated loss not only broadens applicability to a wider range of feedback types, but also provides novel insights into the underlying cause of likelihood underdetermination. Specifically, the standard DPO implementation implicitly oversimplifies a regularizer in the reformulated loss, and reinstating its complete version effectively resolves the underdetermination issue. Leveraging these findings, we introduce PRoximalized PReference Optimization (PRO), a unified method to align with diverse feeback types, eliminating likelihood underdetermination through an efficient approximation of the complete regularizer. Comprehensive experiments show the superiority of PRO over existing methods in scenarios involving pairwise, binary and scalar feedback.",
+      "url": "https://arxiv.org/abs/2505.23316",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.01,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 55.05,
+      "keywords": [
+        "preference",
+        "underdetermination",
+        "alignment",
+        "direct",
+        "dpo",
+        "feedback",
+        "likelihood",
+        "likelihood underdetermination",
+        "loss",
+        "methods"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "a9ef727383e3a41c6198a924460f9647"
+    },
+    {
+      "title": "Detecting Stealthy Backdoor Samples based on Intra-class Distance for Large Language Models",
+      "authors": [
+        "Jinwen Chen, Hainan Zhang, Fei Sun, Qinnan Zhang, Sijia Wen, Ziwei Wang, Zhiming Zheng"
+      ],
+      "abstract": "arXiv:2505.23015v1 Announce Type: new \nAbstract: Fine-tuning LLMs with datasets containing stealthy backdoors from publishers poses security risks to downstream applications. Mainstream detection methods either identify poisoned samples by analyzing the prediction probability of poisoned classification models or rely on the rewriting model to eliminate the stealthy triggers. However, the former cannot be applied to generation tasks, while the latter may degrade generation performance and introduce new triggers. Therefore, efficiently eliminating stealthy poisoned samples for LLMs remains an urgent problem. We observe that after applying TF-IDF clustering to the sample response, there are notable differences in the intra-class distances between clean and poisoned samples. Poisoned samples tend to cluster closely because of their specific malicious outputs, whereas clean samples are more scattered due to their more varied responses. Thus, in this paper, we propose a stealthy backdoor sample detection method based on Reference-Filtration and Tfidf-Clustering mechanisms (RFTC). Specifically, we first compare the sample response with the reference model's outputs and consider the sample suspicious if there's a significant discrepancy. And then we perform TF-IDF clustering on these suspicious samples to identify the true poisoned samples based on the intra-class distance. Experiments on two machine translation datasets and one QA dataset demonstrate that RFTC outperforms baselines in backdoor detection and model performance. Further analysis of different reference models also confirms the effectiveness of our Reference-Filtration.",
+      "url": "https://arxiv.org/abs/2505.23015",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.980000000000004,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 46.15,
+      "keywords": [
+        "samples",
+        "poisoned",
+        "poisoned samples",
+        "stealthy",
+        "reference",
+        "sample",
+        "backdoor",
+        "based",
+        "class",
+        "clustering"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "88cf260905237993fa309d806bf125c4"
+    },
+    {
+      "title": "BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection",
+      "authors": [
+        "Shams Tarek, Dipayan Saha, Sujan Kumar Saha, Farimah Farahmandi"
+      ],
+      "abstract": "arXiv:2505.22878v1 Announce Type: cross \nAbstract: The current landscape of system-on-chips (SoCs) security verification faces challenges due to manual, labor-intensive, and inflexible methodologies. These issues limit the scalability and effectiveness of security protocols, making bug detection at the Register-Transfer Level (RTL) difficult. This paper proposes a new framework named BugWhisperer that utilizes a specialized, fine-tuned Large Language Model (LLM) to address these challenges. By enhancing the LLM's hardware security knowledge and leveraging its capabilities for text inference and knowledge transfer, this approach automates and improves the adaptability and reusability of the verification process. We introduce an open-source, fine-tuned LLM specifically designed for detecting security vulnerabilities in SoC designs. Our findings demonstrate that this tailored LLM effectively enhances the efficiency and flexibility of the security verification process. Additionally, we introduce a comprehensive hardware vulnerability database that supports this work and will further assist the research community in enhancing the security verification process.",
+      "url": "https://arxiv.org/abs/2505.22878",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 35.8,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 57.75,
+      "keywords": [
+        "security",
+        "llm",
+        "verification",
+        "fine",
+        "hardware",
+        "process",
+        "security verification",
+        "verification process",
+        "bugwhisperer",
+        "challenges"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "c5955174c7bc0641c184cd2dde999587"
+    },
+    {
+      "title": "Understanding Bias Reinforcement in LLM Agents Debate",
+      "authors": [
+        "Jihwan Oh, Minchan Jeong, Jongwoo Ko, Se-Young Yun"
+      ],
+      "abstract": "arXiv:2503.16814v2 Announce Type: replace-cross \nAbstract: Large Language Models $($LLMs$)$ solve complex problems using training-free methods like prompt engineering and in-context learning, yet ensuring reasoning correctness remains challenging. While self-correction methods such as self-consistency and self-refinement aim to improve reliability, they often reinforce biases due to the lack of effective feedback mechanisms. Multi-Agent Debate $($MAD$)$ has emerged as an alternative, but we identify two key limitations: bias reinforcement, where debate amplifies model biases instead of correcting them, and lack of perspective diversity, as all agents share the same model and reasoning patterns, limiting true debate effectiveness. To systematically evaluate these issues, we introduce $\\textit{MetaNIM Arena}$, a benchmark designed to assess LLMs in adversarial strategic decision-making, where dynamic interactions influence optimal decisions. To overcome MAD's limitations, we propose $\\textbf{DReaMAD}$ $($$\\textbf{D}$iverse $\\textbf{Rea}$soning via $\\textbf{M}$ulti-$\\textbf{A}$gent $\\textbf{D}$ebate with Refined Prompt$)$, a novel framework that $(1)$ refines LLM's strategic prior knowledge to improve reasoning quality and $(2)$ promotes diverse viewpoints within a single model by systematically modifying prompts, reducing bias. Empirical results show that $\\textbf{DReaMAD}$ significantly improves decision accuracy, reasoning diversity, and bias mitigation across multiple strategic tasks, establishing it as a more effective approach for LLM-based decision-making.",
+      "url": "https://arxiv.org/abs/2503.16814",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 35.45,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 56.0,
+      "keywords": [
+        "textbf",
+        "bias",
+        "debate",
+        "reasoning",
+        "decision",
+        "llm",
+        "model",
+        "self",
+        "strategic",
+        "agents"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "dbebedc999bbc077bc30a349365b87a3"
+    },
+    {
+      "title": "AgentAlign: Navigating Safety Alignment in the Shift from Informative to Agentic Large Language Models",
+      "authors": [
+        "Jinchuan Zhang, Lu Yin, Yan Zhou, Songlin Hu"
+      ],
+      "abstract": "arXiv:2505.23020v1 Announce Type: cross \nAbstract: The acquisition of agentic capabilities has transformed LLMs from \"knowledge providers\" to \"action executors\", a trend that while expanding LLMs' capability boundaries, significantly increases their susceptibility to malicious use. Previous work has shown that current LLM-based agents execute numerous malicious tasks even without being attacked, indicating a deficiency in agentic use safety alignment during the post-training phase. To address this gap, we propose AgentAlign, a novel framework that leverages abstract behavior chains as a medium for safety alignment data synthesis. By instantiating these behavior chains in simulated environments with diverse tool instances, our framework enables the generation of highly authentic and executable instructions while capturing complex multi-step dynamics. The framework further ensures model utility by proportionally synthesizing benign instructions through non-malicious interpretations of behavior chains, precisely calibrating the boundary between helpfulness and harmlessness. Evaluation results on AgentHarm demonstrate that fine-tuning three families of open-source models using our method substantially improves their safety (35.8% to 79.5% improvement) while minimally impacting or even positively enhancing their helpfulness, outperforming various prompting methods. The dataset and code have both been open-sourced.",
+      "url": "https://arxiv.org/abs/2505.23020",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 35.35,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 58.0,
+      "keywords": [
+        "safety",
+        "agentic",
+        "alignment",
+        "behavior",
+        "behavior chains",
+        "chains",
+        "framework",
+        "malicious",
+        "safety alignment",
+        "abstract"
+      ],
+      "subject_classification": "training",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "a5cc25f751a58324e60d01470506fb5e"
+    },
+    {
+      "title": "Length-Controlled Margin-Based Preference Optimization without Reference Model",
+      "authors": [
+        "Gengxu Li, Tingyu Xia, Yi Chang, Yuan Wu"
+      ],
+      "abstract": "arXiv:2502.14643v2 Announce Type: replace \nAbstract: Direct Preference Optimization (DPO) is a widely adopted offline algorithm for preference-based reinforcement learning from human feedback (RLHF), designed to improve training simplicity and stability by redefining reward functions. However, DPO is hindered by several limitations, including length bias, memory inefficiency, and probability degradation. To address these challenges, we propose Length-Controlled Margin-Based Preference Optimization (LMPO), a more efficient and robust alternative. LMPO introduces a uniform reference model as an upper bound for the DPO loss, enabling a more accurate approximation of the original optimization objective. Additionally, an average log-probability optimization strategy is employed to minimize discrepancies between training and inference phases. A key innovation of LMPO lies in its Length-Controlled Margin-Based loss function, integrated within the Bradley-Terry framework. This loss function regulates response length while simultaneously widening the margin between preferred and rejected outputs. By doing so, it mitigates probability degradation for both accepted and discarded responses, addressing a significant limitation of existing methods. We evaluate LMPO against state-of-the-art preference optimization techniques on two open-ended large language models, Mistral and LLaMA3, across six conditional benchmarks. Our experimental results demonstrate that LMPO effectively controls response length, reduces probability degradation, and outperforms existing approaches. The code is available at https://github.com/gengxuli/LMPO.",
+      "url": "https://arxiv.org/abs/2502.14643",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.07,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 51.6,
+      "keywords": [
+        "length",
+        "lmpo",
+        "optimization",
+        "preference",
+        "based",
+        "margin",
+        "preference optimization",
+        "probability",
+        "controlled",
+        "controlled margin"
+      ],
+      "subject_classification": "training",
+      "justification": "High innovation indicators (score: 30); Technical sophistication (score: 35); Contains key LLM terms (bonus: 5)",
+      "paper_id": "fcb19b58e28079feb1e2ec2d1a3dc409"
+    },
+    {
+      "title": "PGLearn -- An Open-Source Learning Toolkit for Optimal Power Flow",
+      "authors": [
+        "Michael Klamkin, Mathieu Tanneau, Pascal Van Hentenryck"
+      ],
+      "abstract": "arXiv:2505.22825v1 Announce Type: cross \nAbstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems have recently garnered significant attention, reflecting a broader trend of leveraging ML to approximate and/or accelerate the resolution of complex optimization problems. These developments are necessitated by the increased volatility and scale in energy production for modern and future grids. However, progress in ML for OPF is hindered by the lack of standardized datasets and evaluation metrics, from generating and solving OPF instances, to training and benchmarking machine learning models. To address this challenge, this paper introduces PGLearn, a comprehensive suite of standardized datasets and evaluation tools for ML and OPF. PGLearn provides datasets that are representative of real-life operating conditions, by explicitly capturing both global and local variability in the data generation, and by, for the first time, including time series data for several large-scale systems. In addition, it supports multiple OPF formulations, including AC, DC, and second-order cone formulations. Standardized datasets are made publicly available to democratize access to this field, reduce the burden of data generation, and enable the fair comparison of various methodologies. PGLearn also includes a robust toolkit for training, evaluating, and benchmarking machine learning models for OPF, with the goal of standardizing performance evaluation across the field. By promoting open, standardized datasets and evaluation metrics, PGLearn aims at democratizing and accelerating research and innovation in machine learning applications for optimal power flow problems. Datasets are available for download at https://www.huggingface.co/PGLearn.",
+      "url": "https://arxiv.org/abs/2505.22825",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 35.05,
+      "innovation_score": 10,
+      "impact_score": 40,
+      "sentiment_score": 54.0,
+      "keywords": [
+        "datasets",
+        "opf",
+        "pglearn",
+        "learning",
+        "evaluation",
+        "machine",
+        "machine learning",
+        "ml",
+        "standardized",
+        "standardized datasets"
+      ],
+      "subject_classification": "training",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 5)",
+      "paper_id": "5cd4de52b77b2810e4b93b77ed4fef53"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.483064"
+}

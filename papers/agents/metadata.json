@@ -1,0 +1,197 @@
+{
+  "papers": [
+    {
+      "title": "Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion",
+      "authors": [
+        "Chunlong Xie, Jialing He, Shangwei Guo, Jiacheng Wang, Shudong Zhang, Tianwei Zhang, Tao Xiang"
+      ],
+      "abstract": "arXiv:2505.23266v1 Announce Type: cross \nAbstract: We present Adversarial Object Fusion (AdvOF), a novel attack framework targeting vision-and-language navigation (VLN) agents in service-oriented environments by generating adversarial 3D objects. While foundational models like Large Language Models (LLMs) and Vision Language Models (VLMs) have enhanced service-oriented navigation systems through improved perception and decision-making, their integration introduces vulnerabilities in mission-critical service workflows. Existing adversarial attacks fail to address service computing contexts, where reliability and quality-of-service (QoS) are paramount. We utilize AdvOF to investigate and explore the impact of adversarial environments on the VLM-based perception module of VLN agents. In particular, AdvOF first precisely aggregates and aligns the victim object positions in both 2D and 3D space, defining and rendering adversarial objects. Then, we collaboratively optimize the adversarial object with regularization between the adversarial and victim object across physical properties and VLM perceptions. Through assigning importance weights to varying views, the optimization is processed stably and multi-viewedly by iterative fusions from local updates and justifications. Our extensive evaluations demonstrate AdvOF can effectively degrade agent performance under adversarial conditions while maintaining minimal interference with normal navigation tasks. This work advances the understanding of service security in VLM-powered navigation systems, providing computational foundations for robust service composition in physical-world deployments.",
+      "url": "https://arxiv.org/abs/2505.23266",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 39.49,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 47.45,
+      "keywords": [
+        "adversarial",
+        "service",
+        "navigation",
+        "object",
+        "advof",
+        "language",
+        "adversarial object",
+        "models",
+        "vision",
+        "vision language"
+      ],
+      "subject_classification": "agents",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "bf90ea4bd0391c81762110d38e017ffa"
+    },
+    {
+      "title": "WorkForceAgent-R1: Incentivizing Reasoning Capability in LLM-based Web Agents via Reinforcement Learning",
+      "authors": [
+        "Yuchen Zhuang, Di Jin, Jiaao Chen, Wenqi Shi, Hanrui Wang, Chao Zhang"
+      ],
+      "abstract": "arXiv:2505.22942v1 Announce Type: new \nAbstract: Large language models (LLMs)-empowered web agents enables automating complex, real-time web navigation tasks in enterprise environments. However, existing web agents relying on supervised fine-tuning (SFT) often struggle with generalization and robustness due to insufficient reasoning capabilities when handling the inherently dynamic nature of web interactions. In this study, we introduce WorkForceAgent-R1, an LLM-based web agent trained using a rule-based R1-style reinforcement learning framework designed explicitly to enhance single-step reasoning and planning for business-oriented web navigation tasks. We employ a structured reward function that evaluates both adherence to output formats and correctness of actions, enabling WorkForceAgent-R1 to implicitly learn robust intermediate reasoning without explicit annotations or extensive expert demonstrations. Extensive experiments on the WorkArena benchmark demonstrate that WorkForceAgent-R1 substantially outperforms SFT baselines by 10.26-16.59%, achieving competitive performance relative to proprietary LLM-based agents (gpt-4o) in workplace-oriented web navigation tasks.",
+      "url": "https://arxiv.org/abs/2505.22942",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.04,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 52.7,
+      "keywords": [
+        "web",
+        "r1",
+        "agents",
+        "based",
+        "reasoning",
+        "workforceagent",
+        "workforceagent r1",
+        "llm",
+        "llm based",
+        "navigation"
+      ],
+      "subject_classification": "agents",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "67fe3fbaf0e6a1e7cc35d3c46692e3c9"
+    },
+    {
+      "title": "KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search",
+      "authors": [
+        "Haoran Luo, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan"
+      ],
+      "abstract": "arXiv:2501.18922v3 Announce Type: replace \nAbstract: Knowledge Base Question Answering (KBQA) aims to answer natural language questions with a large-scale structured knowledge base (KB). Despite advancements with large language models (LLMs), KBQA still faces challenges in weak KB awareness, imbalance between effectiveness and efficiency, and high reliance on annotated data. To address these challenges, we propose KBQA-o1, a novel agentic KBQA method with Monte Carlo Tree Search (MCTS). It introduces a ReAct-based agent process for stepwise logical form generation with KB environment exploration. Moreover, it employs MCTS, a heuristic search method driven by policy and reward models, to balance agentic exploration's performance and search space. With heuristic exploration, KBQA-o1 generates high-quality annotations for further improvement by incremental fine-tuning. Experimental results show that KBQA-o1 outperforms previous low-resource KBQA methods with limited annotated data, boosting Llama-3.1-8B model's GrailQA F1 performance to 78.5% compared to 48.5% of the previous sota method with GPT-3.5-turbo. Our code is publicly available.",
+      "url": "https://arxiv.org/abs/2501.18922",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.59,
+      "innovation_score": 20,
+      "impact_score": 8,
+      "sentiment_score": 55.45,
+      "keywords": [
+        "kbqa",
+        "kbqa o1",
+        "o1",
+        "search",
+        "agentic",
+        "base",
+        "exploration",
+        "kb",
+        "knowledge",
+        "knowledge base"
+      ],
+      "subject_classification": "agents",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "bcf167ea92af1a939c0f9c5c0fcd4703"
+    },
+    {
+      "title": "MAPLE: A Mobile Assistant with Persistent Finite State Machines for Recovery Reasoning",
+      "authors": [
+        "Linqiang Guo (Peter), Wei Liu (Peter), Yi Wen Heng (Peter),  Tse-Hsun (Peter),  Chen, Yang Wang"
+      ],
+      "abstract": "arXiv:2505.23596v1 Announce Type: new \nAbstract: Mobile GUI agents aim to autonomously complete user-instructed tasks across mobile apps. Recent advances in Multimodal Large Language Models (MLLMs) enable these agents to interpret UI screens, identify actionable elements, and perform interactions such as tapping or typing. However, existing agents remain reactive: they reason only over the current screen and lack a structured model of app navigation flow, limiting their ability to understand context, detect unexpected outcomes, and recover from errors. We present MAPLE, a state-aware multi-agent framework that abstracts app interactions as a Finite State Machine (FSM). We computationally model each UI screen as a discrete state and user actions as transitions, allowing the FSM to provide a structured representation of the app execution. MAPLE consists of specialized agents responsible for four phases of task execution: planning, execution, verification, error recovery, and knowledge retention. These agents collaborate to dynamically construct FSMs in real time based on perception data extracted from the UI screen, allowing the GUI agents to track navigation progress and flow, validate action outcomes through pre- and post-conditions of the states, and recover from errors by rolling back to previously stable states. Our evaluation results on two challenging cross-app benchmarks, Mobile-Eval-E and SPA-Bench, show that MAPLE outperforms the state-of-the-art baseline, improving task success rate by up to 12%, recovery success by 13.8%, and action accuracy by 6.5%. Our results highlight the importance of structured state modeling in guiding mobile GUI agents during task execution. Moreover, our FSM representation can be integrated into future GUI agent architectures as a lightweight, model-agnostic memory layer to support structured planning, execution verification, and error recovery.",
+      "url": "https://arxiv.org/abs/2505.23596",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 36.480000000000004,
+      "innovation_score": 40,
+      "impact_score": 0,
+      "sentiment_score": 53.65,
+      "keywords": [
+        "agents",
+        "state",
+        "execution",
+        "mobile",
+        "app",
+        "gui",
+        "maple",
+        "recovery",
+        "structured",
+        "fsm"
+      ],
+      "subject_classification": "agents",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "cd4bff457135600bf118e3a6530726a9"
+    },
+    {
+      "title": "MINDSTORES: Memory-Informed Neural Decision Synthesis for Task-Oriented Reinforcement in Embodied Systems",
+      "authors": [
+        "Anirudh Chari, Suraj Reddy, Aditya Tiwari, Richard Lian, Brian Zhou"
+      ],
+      "abstract": "arXiv:2501.19318v3 Announce Type: replace \nAbstract: While large language models (LLMs) have shown promising capabilities as zero-shot planners for embodied agents, their inability to learn from experience and build persistent mental models limits their robustness in complex open-world environments like Minecraft. We introduce MINDSTORES, an experience-augmented planning framework that enables embodied agents to build and leverage mental models through natural interaction with their environment. Drawing inspiration from how humans construct and refine cognitive mental models, our approach extends existing zero-shot LLM planning by maintaining a database of past experiences that informs future planning iterations. The key innovation is representing accumulated experiences as natural language embeddings of (state, task, plan, outcome) tuples, which can then be efficiently retrieved and reasoned over by an LLM planner to generate insights and guide plan refinement for novel states and tasks. Through extensive experiments in the MineDojo environment, a simulation environment for agents in Minecraft that provides low-level controls for Minecraft, we find that MINDSTORES learns and applies its knowledge significantly better than existing memory-based LLM planners while maintaining the flexibility and generalization benefits of zero-shot approaches, representing an important step toward more capable embodied AI systems that can learn continuously through natural experience.",
+      "url": "https://arxiv.org/abs/2501.19318",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 35.59,
+      "innovation_score": 10,
+      "impact_score": 24,
+      "sentiment_score": 57.95,
+      "keywords": [
+        "embodied",
+        "models",
+        "agents",
+        "environment",
+        "experience",
+        "llm",
+        "mental",
+        "mental models",
+        "mindstores",
+        "minecraft"
+      ],
+      "subject_classification": "agents",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "17a1f1ca98195458726e6b5f775373f7"
+    },
+    {
+      "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+      "authors": [
+        "Jenny Zhang, Shengran Hu, Cong Lu, Robert Lange, Jeff Clune"
+      ],
+      "abstract": "arXiv:2505.22954v1 Announce Type: new \nAbstract: Today's AI systems have human-designed, fixed architectures and cannot autonomously and continuously improve themselves. The advance of AI could itself be automated. If done safely, that would accelerate AI development and allow us to reap its benefits much sooner. Meta-learning can automate the discovery of novel algorithms, but is limited by first-order improvements and the human design of a suitable search space. The G\\\"odel machine proposed a theoretical alternative: a self-improving AI that repeatedly modifies itself in a provably beneficial manner. Unfortunately, proving that most changes are net beneficial is impossible in practice. We introduce the Darwin G\\\"odel Machine (DGM), a self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks. Inspired by Darwinian evolution and open-endedness research, the DGM maintains an archive of generated coding agents. It grows the archive by sampling an agent from it and using a foundation model to create a new, interesting, version of the sampled agent. This open-ended exploration forms a growing tree of diverse, high-quality agents and allows the parallel exploration of many different paths through the search space. Empirically, the DGM automatically improves its coding capabilities (e.g., better code editing tools, long-context window management, peer-review mechanisms), increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%. Furthermore, the DGM significantly outperforms baselines without self-improvement or open-ended exploration. All experiments were done with safety precautions (e.g., sandboxing, human oversight). The DGM is a significant step toward self-improving AI, capable of gathering its own stepping stones along paths that unfold into endless innovation.",
+      "url": "https://arxiv.org/abs/2505.22954",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 35.28,
+      "innovation_score": 50,
+      "impact_score": 8,
+      "sentiment_score": 60.15,
+      "keywords": [
+        "ai",
+        "dgm",
+        "improving",
+        "self",
+        "open",
+        "self improving",
+        "agents",
+        "coding",
+        "ended",
+        "exploration"
+      ],
+      "subject_classification": "agents",
+      "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
+      "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.489617"
+}

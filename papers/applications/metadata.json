@@ -1,0 +1,357 @@
+{
+  "papers": [
+    {
+      "title": "Data-efficient Meta-models for Evaluation of Context-based Questions and Answers in LLMs",
+      "authors": [
+        "Julia Belikova, Konstantin Polev, Rauf Parchiev, Dmitry Simakov"
+      ],
+      "abstract": "arXiv:2505.23299v1 Announce Type: new \nAbstract: Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems are increasingly deployed in industry applications, yet their reliability remains hampered by challenges in detecting hallucinations. While supervised state-of-the-art (SOTA) methods that leverage LLM hidden states -- such as activation tracing and representation analysis -- show promise, their dependence on extensively annotated datasets limits scalability in real-world applications. This paper addresses the critical bottleneck of data annotation by investigating the feasibility of reducing training data requirements for two SOTA hallucination detection frameworks: Lookback Lens, which analyzes attention head dynamics, and probing-based approaches, which decode internal model representations. We propose a methodology combining efficient classification algorithms with dimensionality reduction techniques to minimize sample size demands while maintaining competitive performance. Evaluations on standardized question-answering RAG benchmarks show that our approach achieves performance comparable to strong proprietary LLM-based baselines with only 250 training samples. These results highlight the potential of lightweight, data-efficient paradigms for industrial deployment, particularly in annotation-constrained scenarios.",
+      "url": "https://arxiv.org/abs/2505.23299",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 53.79,
+      "innovation_score": 20,
+      "impact_score": 48,
+      "sentiment_score": 53.95,
+      "keywords": [
+        "data",
+        "based",
+        "efficient",
+        "annotation",
+        "applications",
+        "data efficient",
+        "llm",
+        "llms",
+        "models",
+        "performance"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 48); Technical sophistication (score: 40); Contains key LLM terms (bonus: 15)",
+      "paper_id": "c88e5b0cff0ff9ed803f286594783a99"
+    },
+    {
+      "title": "SlimLLM: Accurate Structured Pruning for Large Language Models",
+      "authors": [
+        "Jialong Guo, Xinghao Chen, Yehui Tang, Yunhe Wang"
+      ],
+      "abstract": "arXiv:2505.22689v1 Announce Type: new \nAbstract: Large language models(LLMs) have garnered significant attention and demonstrated impressive capabilities in a wide range of applications. However, due to their enormous computational costs, the deployment and application of LLMs are often severely limited. To address this issue, structured pruning is an effective solution to compress the parameters of LLMs. Determining the importance of each sub-module in LLMs and minimizing performance loss are critical issues that need to be carefully addressed in structured pruning. In this paper, we propose an effective and fast structured pruning method named SlimLLM for large language models. For channel and attention head pruning, we evaluate the importance based on the entire channel or head, rather than merely aggregating the importance of individual elements within a sub-module. This approach enables a more holistic consideration of the interdependence among elements within the sub-module. In addition, we design a simple linear regression strategy for the output matrix to quickly recover performance. We also propose layer-based importance ratio to determine the pruning ratio for each layer. Based on the LLaMA benchmark results, our SlimLLM outperforms other methods and achieves state-of-the-art performance.",
+      "url": "https://arxiv.org/abs/2505.22689",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 46.51,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 53.8,
+      "keywords": [
+        "pruning",
+        "importance",
+        "llms",
+        "structured",
+        "structured pruning",
+        "based",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "applications",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 15)",
+      "paper_id": "b88bca68a1cf443b1e30b455da638114"
+    },
+    {
+      "title": "Offline Learning for Combinatorial Multi-armed Bandits",
+      "authors": [
+        "Xutong Liu, Xiangxiang Dai, Jinhang Zuo, Siwei Wang, Carlee Joe-Wong, John C. S. Lui, Wei Chen"
+      ],
+      "abstract": "arXiv:2501.19300v2 Announce Type: replace \nAbstract: The combinatorial multi-armed bandit (CMAB) is a fundamental sequential decision-making framework, extensively studied over the past decade. However, existing work primarily focuses on the online setting, overlooking the substantial costs of online interactions and the readily available offline datasets. To overcome these limitations, we introduce Off-CMAB, the first offline learning framework for CMAB. Central to our framework is the combinatorial lower confidence bound (CLCB) algorithm, which combines pessimistic reward estimations with combinatorial solvers. To characterize the quality of offline datasets, we propose two novel data coverage conditions and prove that, under these conditions, CLCB achieves a near-optimal suboptimality gap, matching the theoretical lower bound up to a logarithmic factor. We validate Off-CMAB through practical applications, including learning to rank, large language model (LLM) caching, and social influence maximization, showing its ability to handle nonlinear reward functions, general feedback models, and out-of-distribution action samples that excludes optimal or even feasible actions. Extensive experiments on synthetic and real-world datasets further highlight the superior performance of CLCB.",
+      "url": "https://arxiv.org/abs/2501.19300",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 43.88,
+      "innovation_score": 20,
+      "impact_score": 48,
+      "sentiment_score": 54.4,
+      "keywords": [
+        "cmab",
+        "combinatorial",
+        "offline",
+        "clcb",
+        "datasets",
+        "framework",
+        "learning",
+        "armed",
+        "bound",
+        "combinatorial multi"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 48); Contains key LLM terms (bonus: 10)",
+      "paper_id": "c102fcd6d3acf1160a967ea43d2f0a06"
+    },
+    {
+      "title": "Firm or Fickle? Evaluating Large Language Models Consistency in Sequential Interactions",
+      "authors": [
+        "Yubo Li, Yidi Miao, Xueying Ding, Ramayya Krishnan, Rema Padman"
+      ],
+      "abstract": "arXiv:2503.22353v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have shown remarkable capabilities across various tasks, but their deployment in high-stake domains requires consistent performance across multiple interaction rounds. This paper introduces a comprehensive framework for evaluating and improving LLM response consistency, making three key contributions. First, we propose a novel Position-Weighted Consistency (PWC) score that captures both the importance of early-stage stability and recovery patterns in multi-turn interactions. Second, we present a carefully curated benchmark dataset spanning diverse domains and difficulty levels, specifically designed to evaluate LLM consistency under various challenging follow-up scenarios. Third, we introduce Confidence-Aware Response Generation (CARG), a framework that significantly improves response stability by incorporating model confidence signals into the generation process. Empirical results demonstrate that CARG significantly improves response stability without sacrificing accuracy, underscoring its potential for reliable LLM deployment in critical applications.",
+      "url": "https://arxiv.org/abs/2503.22353",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 43.02,
+      "innovation_score": 30,
+      "impact_score": 40,
+      "sentiment_score": 57.6,
+      "keywords": [
+        "consistency",
+        "response",
+        "llm",
+        "stability",
+        "carg",
+        "confidence",
+        "deployment",
+        "domains",
+        "evaluating",
+        "framework"
+      ],
+      "subject_classification": "applications",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "e5db119640754cb2ec64db833b93c795"
+    },
+    {
+      "title": "A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs",
+      "authors": [
+        "Chiwan Park, Wonjun Jang, Daeryong Kim, Aelim Ahn, Kichang Yang, Woosung Hwang, Jihyeon Roh, Hyerin Park, Hyosun Wang, Min Seok Kim, Jihoon Kang"
+      ],
+      "abstract": "arXiv:2505.23006v1 Announce Type: new \nAbstract: The advancement of Large Language Models (LLMs) has led to significant improvements in various service domains, including search, recommendation, and chatbot applications. However, applying state-of-the-art (SOTA) research to industrial settings presents challenges, as it requires maintaining flexible conversational abilities while also strictly complying with service-specific constraints. This can be seen as two conflicting requirements due to the probabilistic nature of LLMs. In this paper, we propose our approach to addressing this challenge and detail the strategies we employed to overcome their inherent limitations in real-world applications. We conduct a practical case study of a conversational agent designed for the e-commerce domain, detailing our implementation workflow and optimizations. Our findings provide insights into bridging the gap between academic research and real-world application, introducing a framework for developing scalable, controllable, and reliable AI-driven agents.",
+      "url": "https://arxiv.org/abs/2505.23006",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 41.7,
+      "innovation_score": 20,
+      "impact_score": 40,
+      "sentiment_score": 53.5,
+      "keywords": [
+        "conversational",
+        "agents",
+        "applications",
+        "approach",
+        "llms",
+        "practical",
+        "real",
+        "real world",
+        "research",
+        "service"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "cfee485585384ea65bc8e555cba8942c"
+    },
+    {
+      "title": "Domain-Aware Tensor Network Structure Search",
+      "authors": [
+        "Giorgos Iacovides, Wuyang Zhou, Chao Li, Qibin Zhao, Danilo Mandic"
+      ],
+      "abstract": "arXiv:2505.23537v1 Announce Type: cross \nAbstract: Tensor networks (TNs) provide efficient representations of high-dimensional data, yet identification of the optimal TN structures, the so called tensor network structure search (TN-SS) problem, remains a challenge. Current state-of-the-art (SOTA) algorithms are computationally expensive as they require extensive function evaluations, which is prohibitive for real-world applications. In addition, existing methods ignore valuable domain information inherent in real-world tensor data and lack transparency in their identified TN structures. To this end, we propose a novel TN-SS framework, termed the tnLLM, which incorporates domain information about the data and harnesses the reasoning capabilities of large language models (LLMs) to directly predict suitable TN structures. The proposed framework involves a domain-aware prompting pipeline which instructs the LLM to infer suitable TN structures based on the real-world relationships between tensor modes. In this way, our approach is capable of not only iteratively optimizing the objective function, but also generating domain-aware explanations for the identified structures. Experimental results demonstrate that tnLLM achieves comparable TN-SS objective function values with much fewer function evaluations compared to SOTA algorithms. Furthermore, we demonstrate that the LLM-enabled domain information can be used to find good initializations in the search space for sampling-based SOTA methods to accelerate their convergence while preserving theoretical performance guarantees.",
+      "url": "https://arxiv.org/abs/2505.23537",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 39.99,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 52.45,
+      "keywords": [
+        "tn",
+        "domain",
+        "structures",
+        "tensor",
+        "function",
+        "tn structures",
+        "aware",
+        "data",
+        "domain aware",
+        "domain information"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "3978d513cb8adbbae8e24e598975a290"
+    },
+    {
+      "title": "Reducing Tool Hallucination via Reliability Alignment",
+      "authors": [
+        "Hongshen Xu, Zichen Zhu, Lei Pan, Zihan Wang, Su Zhu, Da Ma, Ruisheng Cao, Lu Chen, Kai Yu"
+      ],
+      "abstract": "arXiv:2412.04141v3 Announce Type: replace \nAbstract: Large Language Models (LLMs) have expanded their capabilities beyond language generation to interact with external tools, enabling automation and real-world applications. However, tool hallucinations, where models either select inappropriate tools or misuse them, pose significant challenges, leading to erroneous task execution, increased computational costs, and reduced system reliability. To systematically address this issue, we define and categorize tool hallucinations into two main types, tool selection hallucination and tool usage hallucination. To evaluate and mitigate these issues, we introduce RelyToolBench, which integrates specialized test cases and novel metrics to assess hallucination-aware task success and efficiency. Finally, we propose Relign, a reliability alignment framework that expands the tool-use action space to include indecisive actions, allowing LLMs to defer tool use, seek clarification, or adjust tool selection dynamically. Through extensive experiments, we demonstrate that Relign significantly reduces tool hallucinations, improves task reliability, and enhances the efficiency of LLM tool interactions.",
+      "url": "https://arxiv.org/abs/2412.04141",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.69,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 54.7,
+      "keywords": [
+        "tool",
+        "hallucination",
+        "reliability",
+        "hallucinations",
+        "task",
+        "tool hallucinations",
+        "alignment",
+        "efficiency",
+        "language",
+        "llms"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "ba02c711f094188c5dd259056c6567c9"
+    },
+    {
+      "title": "Recovering Fairness Directly from Modularity: a New Way for Fair Community Partitioning",
+      "authors": [
+        "Yufeng Wang, Yiguang Bai, Tianqing Zhu, Ismail Ben Ayed, Jing Yuan"
+      ],
+      "abstract": "arXiv:2505.22684v1 Announce Type: cross \nAbstract: Community partitioning is crucial in network analysis, with modularity optimization being the prevailing technique. However, traditional modularity-based methods often overlook fairness, a critical aspect in real-world applications. To address this, we introduce protected group networks and propose a novel fairness-modularity metric. This metric extends traditional modularity by explicitly incorporating fairness, and we prove that minimizing it yields naturally fair partitions for protected groups while maintaining theoretical soundness. We develop a general optimization framework for fairness partitioning and design the efficient Fair Fast Newman (FairFN) algorithm, enhancing the Fast Newman (FN) method to optimize both modularity and fairness. Experiments show FairFN achieves significantly improved fairness and high-quality partitions compared to state-of-the-art methods, especially on unbalanced datasets.",
+      "url": "https://arxiv.org/abs/2505.22684",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SI"
+      ],
+      "significance_score": 37.68,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 59.65,
+      "keywords": [
+        "fairness",
+        "modularity",
+        "fair",
+        "partitioning",
+        "community",
+        "community partitioning",
+        "fairfn",
+        "fast",
+        "fast newman",
+        "methods"
+      ],
+      "subject_classification": "applications",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Technical sophistication (score: 35)",
+      "paper_id": "b91f30ba16569be32399f61f8792d91e"
+    },
+    {
+      "title": "Human-Readable Adversarial Prompts: An Investigation into LLM Vulnerabilities Using Situational Context",
+      "authors": [
+        "Nilanjana Das, Edward Raff, Aman Chadha, Manas Gaur"
+      ],
+      "abstract": "arXiv:2412.16359v3 Announce Type: replace \nAbstract: As the AI systems become deeply embedded in social media platforms, we've uncovered a concerning security vulnerability that goes beyond traditional adversarial attacks. It becomes important to assess the risks of LLMs before the general public use them on social media platforms to avoid any adverse impacts. Unlike obvious nonsensical text strings that safety systems can easily catch, our work reveals that human-readable situation-driven adversarial full-prompts that leverage situational context are effective but much harder to detect. We found that skilled attackers can exploit the vulnerabilities in open-source and proprietary LLMs to make a malicious user query safe for LLMs, resulting in generating a harmful response. This raises an important question about the vulnerabilities of LLMs. To measure the robustness against human-readable attacks, which now present a potent threat, our research makes three major contributions. First, we developed attacks that use movie scripts as situational contextual frameworks, creating natural-looking full-prompts that trick LLMs into generating harmful content. Second, we developed a method to transform gibberish adversarial text into readable, innocuous content that still exploits vulnerabilities when used within the full-prompts. Finally, we enhanced the AdvPrompter framework with p-nucleus sampling to generate diverse human-readable adversarial texts that significantly improve attack effectiveness against models like GPT-3.5-Turbo-0125 and Gemma-7b. Our findings show that these systems can be manipulated to operate beyond their intended ethical boundaries when presented with seemingly normal prompts that contain hidden adversarial elements. By identifying these vulnerabilities, we aim to drive the development of more robust safety mechanisms that can withstand sophisticated attacks in real-world applications.",
+      "url": "https://arxiv.org/abs/2412.16359",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.3,
+      "innovation_score": 10,
+      "impact_score": 40,
+      "sentiment_score": 46.5,
+      "keywords": [
+        "adversarial",
+        "llms",
+        "prompts",
+        "readable",
+        "vulnerabilities",
+        "attacks",
+        "human",
+        "human readable",
+        "situational",
+        "systems"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "88f05b46407aac3eb5417e4fc662bd28"
+    },
+    {
+      "title": "Improving Time Series Forecasting via Instance-aware Post-hoc Revision",
+      "authors": [
+        "Zhiding Liu, Mingyue Cheng, Guanhao Zhao, Jiqian Yang, Qi Liu, Enhong Chen"
+      ],
+      "abstract": "arXiv:2505.23583v1 Announce Type: new \nAbstract: Time series forecasting plays a vital role in various real-world applications and has attracted significant attention in recent decades. While recent methods have achieved remarkable accuracy by incorporating advanced inductive biases and training strategies, we observe that instance-level variations remain a significant challenge. These variations--stemming from distribution shifts, missing data, and long-tail patterns--often lead to suboptimal forecasts for specific instances, even when overall performance appears strong. To address this issue, we propose a model-agnostic framework, PIR, designed to enhance forecasting performance through Post-forecasting Identification and Revision. Specifically, PIR first identifies biased forecasting instances by estimating their accuracy. Based on this, the framework revises the forecasts using contextual information, including covariates and historical time series, from both local and global perspectives in a post-processing fashion. Extensive experiments on real-world datasets with mainstream forecasting models demonstrate that PIR effectively mitigates instance-level errors and significantly improves forecasting reliability.",
+      "url": "https://arxiv.org/abs/2505.23583",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.94,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 55.95,
+      "keywords": [
+        "forecasting",
+        "instance",
+        "pir",
+        "post",
+        "series",
+        "time",
+        "time series",
+        "accuracy",
+        "forecasts",
+        "framework"
+      ],
+      "subject_classification": "applications",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
+      "paper_id": "b666dbd2a9712e43666b415c3a10de5d"
+    },
+    {
+      "title": "MedRAX: Medical Reasoning Agent for Chest X-ray",
+      "authors": [
+        "Adibvafa Fallahpour, Jun Ma, Alif Munim, Hongwei Lyu, Bo Wang"
+      ],
+      "abstract": "arXiv:2502.02673v2 Announce Type: replace-cross \nAbstract: Chest X-rays (CXRs) play an integral role in driving critical decisions in disease management and patient care. While recent innovations have led to specialized models for various CXR interpretation tasks, these solutions often operate in isolation, limiting their practical utility in clinical practice. We present MedRAX, the first versatile AI agent that seamlessly integrates state-of-the-art CXR analysis tools and multimodal large language models into a unified framework. MedRAX dynamically leverages these models to address complex medical queries without requiring additional training. To rigorously evaluate its capabilities, we introduce ChestAgentBench, a comprehensive benchmark containing 2,500 complex medical queries across 7 diverse categories. Our experiments demonstrate that MedRAX achieves state-of-the-art performance compared to both open-source and proprietary models, representing a significant step toward the practical deployment of automated CXR interpretation systems. Data and code have been publicly available at https://github.com/bowang-lab/MedRAX",
+      "url": "https://arxiv.org/abs/2502.02673",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.65,
+      "innovation_score": 20,
+      "impact_score": 40,
+      "sentiment_score": 53.25,
+      "keywords": [
+        "medrax",
+        "models",
+        "cxr",
+        "medical",
+        "agent",
+        "art",
+        "chest",
+        "complex",
+        "complex medical",
+        "cxr interpretation"
+      ],
+      "subject_classification": "applications",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 5)",
+      "paper_id": "6dd963be5887714929773f696df6273d"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.494639"
+}

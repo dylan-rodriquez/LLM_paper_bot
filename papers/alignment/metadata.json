@@ -1,0 +1,165 @@
+{
+  "papers": [
+    {
+      "title": "SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents",
+      "authors": [
+        "Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, Yue Su, Haofei Yu, Jiaxuan You"
+      ],
+      "abstract": "arXiv:2505.23559v1 Announce Type: new \nAbstract: Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce \\textbf{SafeScientist}, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrate multiple defensive mechanisms, including prompt monitoring, agent-collaboration monitoring, tool-use monitoring, and an ethical reviewer component. Complementing SafeScientist, we propose \\textbf{SciSafetyBench}, a novel benchmark specifically designed to evaluate AI safety in scientific contexts, comprising 240 high-risk scientific tasks across 6 domains, alongside 30 specially designed scientific tools and 120 tool-related risk tasks. Extensive experiments demonstrate that SafeScientist significantly improves safety performance by 35\\% compared to traditional AI scientist frameworks, without compromising scientific output quality. Additionally, we rigorously validate the robustness of our safety pipeline against diverse adversarial attack methods, further confirming the effectiveness of our integrated approach. The code and data will be available at https://github.com/ulab-uiuc/SafeScientist. \\textcolor{red}{Warning: this paper contains example data that may be offensive or harmful.}",
+      "url": "https://arxiv.org/abs/2505.23559",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 47.59,
+      "innovation_score": 40,
+      "impact_score": 32,
+      "sentiment_score": 56.7,
+      "keywords": [
+        "safety",
+        "scientific",
+        "safescientist",
+        "ai",
+        "risk",
+        "designed",
+        "ethical",
+        "monitoring",
+        "tasks",
+        "agents"
+      ],
+      "subject_classification": "alignment",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "2e12e9f10c33e2a9dbcf638c4a54478f"
+    },
+    {
+      "title": "Adaptive Jailbreaking Strategies Based on the Semantic Understanding Capabilities of Large Language Models",
+      "authors": [
+        "Mingyu Yu, Wei Wang, Yanjie Wei, Sujuan Qin"
+      ],
+      "abstract": "arXiv:2505.23404v1 Announce Type: new \nAbstract: Adversarial attacks on Large Language Models (LLMs) via jailbreaking techniques-methods that circumvent their built-in safety and ethical constraints-have emerged as a critical challenge in AI security. These attacks compromise the reliability of LLMs by exploiting inherent weaknesses in their comprehension capabilities. This paper investigates the efficacy of jailbreaking strategies that are specifically adapted to the diverse levels of understanding exhibited by different LLMs. We propose the Adaptive Jailbreaking Strategies Based on the Semantic Understanding Capabilities of Large Language Models, a novel framework that classifies LLMs into Type I and Type II categories according to their semantic comprehension abilities. For each category, we design tailored jailbreaking strategies aimed at leveraging their vulnerabilities to facilitate successful attacks. Extensive experiments conducted on multiple LLMs demonstrate that our adaptive strategy markedly improves the success rate of jailbreaking. Notably, our approach achieves an exceptional 98.9% success rate in jailbreaking GPT-4o(29 May 2025 release)",
+      "url": "https://arxiv.org/abs/2505.23404",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 44.67,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 52.1,
+      "keywords": [
+        "jailbreaking",
+        "llms",
+        "jailbreaking strategies",
+        "strategies",
+        "adaptive",
+        "attacks",
+        "capabilities",
+        "language",
+        "language models",
+        "large"
+      ],
+      "subject_classification": "alignment",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "9eae0e3840c724306b1ddc667f7e7745"
+    },
+    {
+      "title": "DELMAN: Dynamic Defense Against Large Language Model Jailbreaking with Model Editing",
+      "authors": [
+        "Yi Wang, Fenghua Weng, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang"
+      ],
+      "abstract": "arXiv:2502.11647v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) are widely applied in decision making, but their deployment is threatened by jailbreak attacks, where adversarial users manipulate model behavior to bypass safety measures. Existing defense mechanisms, such as safety fine-tuning and model editing, either require extensive parameter modifications or lack precision, leading to performance degradation on general tasks, which is unsuitable to post-deployment safety alignment. To address these challenges, we propose DELMAN (Dynamic Editing for LLMs JAilbreak DefeNse), a novel approach leveraging direct model editing for precise, dynamic protection against jailbreak attacks. DELMAN directly updates a minimal set of relevant parameters to neutralize harmful behaviors while preserving the model's utility. To avoid triggering a safe response in benign context, we incorporate KL-divergence regularization to ensure the updated model remains consistent with the original model when processing benign queries. Experimental results demonstrate that DELMAN outperforms baseline methods in mitigating jailbreak attacks while preserving the model's utility, and adapts seamlessly to new attack instances, providing a practical and efficient solution for post-deployment model protection.",
+      "url": "https://arxiv.org/abs/2502.11647",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 42.21,
+      "innovation_score": 40,
+      "impact_score": 24,
+      "sentiment_score": 52.3,
+      "keywords": [
+        "model",
+        "delman",
+        "editing",
+        "jailbreak",
+        "attacks",
+        "defense",
+        "deployment",
+        "dynamic",
+        "jailbreak attacks",
+        "model editing"
+      ],
+      "subject_classification": "alignment",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "af885fd893f2d38a2a90b5039080b1d9"
+    },
+    {
+      "title": "Beyond Reward Hacking: Causal Rewards for Large Language Model Alignment",
+      "authors": [
+        "Chaoqi Wang, Zhuokai Zhao, Yibo Jiang, Zhaorun Chen, Chen Zhu, Yuxin Chen, Jiayi Liu, Lizhu Zhang, Xiangjun Fan, Hao Ma, Sinong Wang"
+      ],
+      "abstract": "arXiv:2501.09620v2 Announce Type: replace-cross \nAbstract: Recent advances in large language models (LLMs) have demonstrated significant progress in performing complex tasks. While Reinforcement Learning from Human Feedback (RLHF) has been effective in aligning LLMs with human preferences, it is susceptible to spurious correlations in reward modeling. Consequently, it often introduces biases-such as length bias, sycophancy, conceptual bias, and discrimination-that hinder the model's ability to capture true causal relationships. To address this, we propose a novel causal reward modeling approach that integrates causality to mitigate these spurious correlations. Our method enforces counterfactual invariance, ensuring reward predictions remain consistent when irrelevant variables are altered. Through experiments on both synthetic and real-world datasets, we show that our approach mitigates various types of spurious correlations effectively, resulting in more reliable and fair alignment of LLMs with human preferences. As a drop-in enhancement to the existing RLHF workflow, our causal reward modeling provides a practical way to improve the trustworthiness and fairness of LLM finetuning.",
+      "url": "https://arxiv.org/abs/2501.09620",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 37.93,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 60.900000000000006,
+      "keywords": [
+        "reward",
+        "causal",
+        "correlations",
+        "human",
+        "llms",
+        "modeling",
+        "reward modeling",
+        "spurious",
+        "spurious correlations",
+        "alignment"
+      ],
+      "subject_classification": "alignment",
+      "justification": "Strong impact potential (score: 24); Positive sentiment analysis (score: 60.9); Contains key LLM terms (bonus: 10)",
+      "paper_id": "68da58ccb4c0dd5177e46296777c2f85"
+    },
+    {
+      "title": "Dataset Cartography for Large Language Model Alignment: Mapping and Diagnosing Preference Data",
+      "authors": [
+        "Seohyeong Lee, Eunwon Kim, Hwaran Lee, Buru Chang"
+      ],
+      "abstract": "arXiv:2505.23114v1 Announce Type: new \nAbstract: Human preference data plays a critical role in aligning large language models (LLMs) with human values. However, collecting such data is often expensive and inefficient, posing a significant scalability challenge. To address this, we introduce Alignment Data Map, a GPT-4o-assisted tool for analyzing and diagnosing preference data. Using GPT-4o as a proxy for LLM alignment, we compute alignment scores for LLM-generated responses to instructions from existing preference datasets. These scores are then used to construct an Alignment Data Map based on their mean and variance. Our experiments show that using only 33 percent of the data, specifically samples in the high-mean, low-variance region, achieves performance comparable to or better than using the entire dataset. This finding suggests that the Alignment Data Map can significantly improve data collection efficiency by identifying high-quality samples for LLM alignment without requiring explicit annotations. Moreover, the Alignment Data Map can diagnose existing preference datasets. Our analysis shows that it effectively detects low-impact or potentially misannotated samples. Source code is available online.",
+      "url": "https://arxiv.org/abs/2505.23114",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.43,
+      "innovation_score": 10,
+      "impact_score": 16,
+      "sentiment_score": 54.65,
+      "keywords": [
+        "data",
+        "alignment",
+        "preference",
+        "alignment data",
+        "data map",
+        "map",
+        "llm",
+        "preference data",
+        "samples",
+        "using"
+      ],
+      "subject_classification": "alignment",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.496309"
+}

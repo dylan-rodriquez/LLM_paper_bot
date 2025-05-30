@@ -1,0 +1,389 @@
+{
+  "papers": [
+    {
+      "title": "Probability-Consistent Preference Optimization for Enhanced LLM Reasoning",
+      "authors": [
+        "Yunqiao Yang, Houxing Ren, Zimu Lu, Ke Wang, Weikang Shi, Aojun Zhou, Junting Pan, Mingjie Zhan, Hongsheng Li"
+      ],
+      "abstract": "arXiv:2505.23540v1 Announce Type: new \nAbstract: Recent advances in preference optimization have demonstrated significant potential for improving mathematical reasoning capabilities in large language models (LLMs). While current approaches leverage high-quality pairwise preference data through outcome-based criteria like answer correctness or consistency, they fundamentally neglect the internal logical coherence of responses. To overcome this, we propose Probability-Consistent Preference Optimization (PCPO), a novel framework that establishes dual quantitative metrics for preference selection: (1) surface-level answer correctness and (2) intrinsic token-level probability consistency across responses. Extensive experiments show that our PCPO consistently outperforms existing outcome-only criterion approaches across a diverse range of LLMs and benchmarks. Our code is publicly available at https://github.com/YunqiaoYang/PCPO.",
+      "url": "https://arxiv.org/abs/2505.23540",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 45.24,
+      "innovation_score": 40,
+      "impact_score": 24,
+      "sentiment_score": 54.95,
+      "keywords": [
+        "preference",
+        "optimization",
+        "pcpo",
+        "preference optimization",
+        "probability",
+        "answer",
+        "answer correctness",
+        "approaches",
+        "consistency",
+        "consistent"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "High innovation indicators (score: 40); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "4ef0de47aa53c17c7b8b3e013b11b1a4"
+    },
+    {
+      "title": "Threading the Needle: Reweaving Chain-of-Thought Reasoning to Explain Human Label Variation",
+      "authors": [
+        "Beiduo Chen, Yang Janet Liu, Anna Korhonen, Barbara Plank"
+      ],
+      "abstract": "arXiv:2505.23368v1 Announce Type: new \nAbstract: The recent rise of reasoning-tuned Large Language Models (LLMs)--which generate chains of thought (CoTs) before giving the final answer--has attracted significant attention and offers new opportunities for gaining insights into human label variation, which refers to plausible differences in how multiple annotators label the same data instance. Prior work has shown that LLM-generated explanations can help align model predictions with human label distributions, but typically adopt a reverse paradigm: producing explanations based on given answers. In contrast, CoTs provide a forward reasoning path that may implicitly embed rationales for each answer option, before generating the answers. We thus propose a novel LLM-based pipeline enriched with linguistically-grounded discourse segmenters to extract supporting and opposing statements for each answer option from CoTs with improved accuracy. We also propose a rank-based HLV evaluation framework that prioritizes the ranking of answers over exact scores, which instead favor direct comparison of label distributions. Our method outperforms a direct generation method as well as baselines on three datasets, and shows better alignment of ranking methods with humans, highlighting the effectiveness of our approach.",
+      "url": "https://arxiv.org/abs/2505.23368",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 42.7,
+      "innovation_score": 30,
+      "impact_score": 8,
+      "sentiment_score": 58.5,
+      "keywords": [
+        "label",
+        "answer",
+        "answers",
+        "based",
+        "cots",
+        "human",
+        "human label",
+        "reasoning",
+        "answer option",
+        "direct"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 15)",
+      "paper_id": "c4f6b86e81cc82db40d2a587542119c3"
+    },
+    {
+      "title": "BioProBench: Comprehensive Dataset and Benchmark in Biological Protocol Understanding and Reasoning",
+      "authors": [
+        "Yuyang Liu, Liuzhenghao Lv, Xiancheng Zhang, Li Yuan, Yonghong Tian"
+      ],
+      "abstract": "arXiv:2505.07889v2 Announce Type: replace \nAbstract: Biological protocols are fundamental to reproducibility and safety in life science research. While large language models (LLMs) perform well on general tasks, their systematic evaluation on these highly specialized, accuracy-critical, and inherently procedural texts remains limited. In this work, we present BioProBench, the first large-scale, multi-task benchmark for biological protocol understanding and reasoning. While there are several benchmark tasks involving protocol question answering, BioProBench provides a comprehensive suite of five core tasks: Protocol Question Answering, Step Ordering, Error Correction, Protocol Generation, and Protocol Reasoning, enabling a holistic evaluation of LLMs on procedural biological texts. Built upon 27K original protocols, it yields nearly 556K high-quality structured instances. We evaluate 12 mainstream open/closed-source LLMs. Experimental results reveal that some models perform well on basic understanding tasks (e.g., \\sim70% PQA-Acc., >64% ERR F1), but struggle significantly with deep reasoning and structured generation tasks like ordering and generation. Furthermore, model comparisons show diverse performance: certain open-source models approach closed-source levels on some tasks, yet bio-specific small models lag behind general LLMs, indicating limitations on complex procedural content. Overall, BioProBench, through its task design and experimental findings, systematically reveals the fundamental challenges for current LLMs in procedural knowledge understanding, deep adaptability to specific domains, reliability of structured reasoning, and handling of sophisticated precision and safety constraints, providing key directions for future AI in the field of scientific experiment automation. The code and data are available at: https://github.com/YuyangSunshine/bioprotocolbench and https://huggingface.co/datasets/BioProBench/BioProBench.",
+      "url": "https://arxiv.org/abs/2505.07889",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 40.33,
+      "innovation_score": 20,
+      "impact_score": 40,
+      "sentiment_score": 52.9,
+      "keywords": [
+        "bioprobench",
+        "protocol",
+        "tasks",
+        "llms",
+        "reasoning",
+        "biological",
+        "models",
+        "procedural",
+        "understanding",
+        "benchmark"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "d092cc52720e537c2bd49176801c65e0"
+    },
+    {
+      "title": "Case-Based Reasoning Enhances the Predictive Power of LLMs in Drug-Drug Interaction",
+      "authors": [
+        "Guangyi Liu, Yongqi Zhang, Xunyuan Liu, Quanming Yao"
+      ],
+      "abstract": "arXiv:2505.23034v1 Announce Type: new \nAbstract: Drug-drug interaction (DDI) prediction is critical for treatment safety. While large language models (LLMs) show promise in pharmaceutical tasks, their effectiveness in DDI prediction remains challenging. Inspired by the well-established clinical practice where physicians routinely reference similar historical cases to guide their decisions through case-based reasoning (CBR), we propose CBR-DDI, a novel framework that distills pharmacological principles from historical cases to improve LLM reasoning for DDI tasks. CBR-DDI constructs a knowledge repository by leveraging LLMs to extract pharmacological insights and graph neural networks (GNNs) to model drug associations. A hybrid retrieval mechanism and dual-layer knowledge-enhanced prompting allow LLMs to effectively retrieve and reuse relevant cases. We further introduce a representative sampling strategy for dynamic case refinement. Extensive experiments demonstrate that CBR-DDI achieves state-of-the-art performance, with a significant 28.7% accuracy improvement over both popular LLMs and CBR baseline, while maintaining high interpretability and flexibility.",
+      "url": "https://arxiv.org/abs/2505.23034",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 39.34,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 59.2,
+      "keywords": [
+        "ddi",
+        "cbr",
+        "drug",
+        "llms",
+        "case",
+        "cases",
+        "cbr ddi",
+        "reasoning",
+        "based",
+        "based reasoning"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "e993f59e40d8b39dd4e1ff1f2f052d0c"
+    },
+    {
+      "title": "From Chat Logs to Collective Insights: Aggregative Question Answering",
+      "authors": [
+        "Wentao Zhang, Woojeong Kim, Yuntian Deng"
+      ],
+      "abstract": "arXiv:2505.23765v1 Announce Type: new \nAbstract: Conversational agents powered by large language models (LLMs) are rapidly becoming integral to our daily interactions, generating unprecedented amounts of conversational data. Such datasets offer a powerful lens into societal interests, trending topics, and collective concerns. Yet, existing approaches typically treat these interactions as independent and miss critical insights that could emerge from aggregating and reasoning across large-scale conversation logs. In this paper, we introduce Aggregative Question Answering, a novel task requiring models to reason explicitly over thousands of user-chatbot interactions to answer aggregative queries, such as identifying emerging concerns among specific demographics. To enable research in this direction, we construct a benchmark, WildChat-AQA, comprising 6,027 aggregative questions derived from 182,330 real-world chatbot conversations. Experiments show that existing methods either struggle to reason effectively or incur prohibitive computational costs, underscoring the need for new approaches capable of extracting collective insights from large-scale conversational data.",
+      "url": "https://arxiv.org/abs/2505.23765",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 39.33,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 52.9,
+      "keywords": [
+        "aggregative",
+        "collective",
+        "conversational",
+        "insights",
+        "interactions",
+        "large",
+        "aggregative question",
+        "answering",
+        "approaches",
+        "chatbot"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "8f597a8c6da27433064a340fb0a16cd3"
+    },
+    {
+      "title": "System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts",
+      "authors": [
+        "Xiaoqiang Wang, Suyuchen Wang, Yun Zhu, Bang Liu"
+      ],
+      "abstract": "arXiv:2505.18962v2 Announce Type: replace \nAbstract: Chain-of-thought (CoT) reasoning enables large language models (LLMs) to move beyond fast System-1 responses and engage in deliberative System-2 reasoning. However, this comes at the cost of significant inefficiency due to verbose intermediate output. Recent latent-space reasoning methods improve efficiency by operating on hidden states without decoding into language, yet they treat all steps uniformly, failing to distinguish critical deductions from auxiliary steps and resulting in suboptimal use of computational resources. In this paper, we propose System-1.5 Reasoning, an adaptive reasoning framework that dynamically allocates computation across reasoning steps through shortcut paths in latent space. Specifically, System-1.5 Reasoning introduces two types of dynamic shortcuts. The model depth shortcut (DS) adaptively reasons along the vertical depth by early exiting non-critical tokens through lightweight adapter branches, while allowing critical tokens to continue through deeper Transformer layers. The step shortcut (SS) reuses hidden states across the decoding steps to skip trivial steps and reason horizontally in latent space. Training System-1.5 Reasoning involves a two-stage self-distillation process: first distilling natural language CoT into latent-space continuous thought, and then distilling full-path System-2 latent reasoning into adaptive shortcut paths (System-1.5 Reasoning). Experiments on reasoning tasks demonstrate the superior performance of our method. For example, on GSM8K, System-1.5 Reasoning achieves reasoning performance comparable to traditional CoT fine-tuning methods while accelerating inference by over 20x and reducing token generation by 92.31% on average.",
+      "url": "https://arxiv.org/abs/2505.18962",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.58,
+      "innovation_score": 10,
+      "impact_score": 16,
+      "sentiment_score": 52.9,
+      "keywords": [
+        "reasoning",
+        "latent",
+        "steps",
+        "language",
+        "latent space",
+        "shortcut",
+        "space",
+        "cot",
+        "critical",
+        "adaptive"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "fcd50946301c5e81c37e35101510904b"
+    },
+    {
+      "title": "SCORPIO: Serving the Right Requests at the Right Time for Heterogeneous SLOs in LLM Inference",
+      "authors": [
+        "Yinghao Tang, Tingfeng Lan, Xiuqi Huang, Hui Lu, Wei Chen"
+      ],
+      "abstract": "arXiv:2505.23022v1 Announce Type: new \nAbstract: Existing Large Language Model (LLM) serving systems prioritize maximum throughput. They often neglect Service Level Objectives (SLOs) such as Time to First Token (TTFT) and Time Per Output Token (TPOT), which leads to suboptimal SLO attainment. This paper introduces SCORPIO, an SLO-oriented LLM serving system designed to maximize system goodput and SLO attainment for workloads with heterogeneous SLOs. Our core insight is to exploit SLO heterogeneity for adaptive scheduling across admission control, queue management, and batch selection. SCORPIO features a TTFT Guard, which employs least-deadline-first reordering and rejects unattainable requests, and a TPOT Guard, which utilizes a VBS-based admission control and a novel credit-based batching mechanism. Both guards are supported by a predictive module. Evaluations demonstrate that SCORPIO improves system goodput by up to 14.4X and SLO adherence by up to 46.5% compared to state-of-the-art baselines.",
+      "url": "https://arxiv.org/abs/2505.23022",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 37.49,
+      "innovation_score": 50,
+      "impact_score": 0,
+      "sentiment_score": 49.95,
+      "keywords": [
+        "slo",
+        "scorpio",
+        "llm",
+        "serving",
+        "slos",
+        "time",
+        "admission",
+        "admission control",
+        "attainment",
+        "based"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "High innovation indicators (score: 50); Contains key LLM terms (bonus: 10)",
+      "paper_id": "385ff505893c9d597154bf1f6ba4bcfd"
+    },
+    {
+      "title": "SocialMaze: A Benchmark for Evaluating Social Reasoning in Large Language Models",
+      "authors": [
+        "Zixiang Xu, Yanbo Wang, Yue Huang, Jiayi Ye, Haomin Zhuang, Zirui Song, Lang Gao, Chenxi Wang, Zhaorun Chen, Yujun Zhou, Sixian Li, Wang Pan, Yue Zhao, Jieyu Zhao, Xiangliang Zhang, Xiuying Chen"
+      ],
+      "abstract": "arXiv:2505.23713v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly applied to socially grounded tasks, such as online community moderation, media content analysis, and social reasoning games. Success in these contexts depends on a model's social reasoning ability - the capacity to interpret social contexts, infer others' mental states, and assess the truthfulness of presented information. However, there is currently no systematic evaluation framework that comprehensively assesses the social reasoning capabilities of LLMs. Existing efforts often oversimplify real-world scenarios and consist of tasks that are too basic to challenge advanced models. To address this gap, we introduce SocialMaze, a new benchmark specifically designed to evaluate social reasoning. SocialMaze systematically incorporates three core challenges: deep reasoning, dynamic interaction, and information uncertainty. It provides six diverse tasks across three key settings: social reasoning games, daily-life interactions, and digital community platforms. Both automated and human validation are used to ensure data quality. Our evaluation reveals several key insights: models vary substantially in their ability to handle dynamic interactions and integrate temporally evolving information; models with strong chain-of-thought reasoning perform better on tasks requiring deeper inference beyond surface-level cues; and model reasoning degrades significantly under uncertainty. Furthermore, we show that targeted fine-tuning on curated reasoning examples can greatly improve model performance in complex social scenarios. The dataset is publicly available at: https://huggingface.co/datasets/MBZUAI/SocialMaze",
+      "url": "https://arxiv.org/abs/2505.23713",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.870000000000005,
+      "innovation_score": 10,
+      "impact_score": 32,
+      "sentiment_score": 54.35,
+      "keywords": [
+        "reasoning",
+        "social",
+        "social reasoning",
+        "models",
+        "socialmaze",
+        "tasks",
+        "information",
+        "model",
+        "ability",
+        "benchmark"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "cf5454592f5e5771e99eae3f4064bd80"
+    },
+    {
+      "title": "RULEBREAKERS: Challenging LLMs at the Crossroads between Formal Logic and Human-like Reasoning",
+      "authors": [
+        "Jason Chan, Robert Gaizauskas, Zhixue Zhao"
+      ],
+      "abstract": "arXiv:2410.16502v2 Announce Type: replace \nAbstract: Formal logic enables computers to reason in natural language by representing sentences in symbolic forms and applying rules to derive conclusions. However, in what our study characterizes as \"rulebreaker\" scenarios, this method can lead to conclusions that are typically not inferred or accepted by humans given their common sense and factual knowledge. Inspired by works in cognitive science, we create RULEBREAKERS, the first dataset for rigorously evaluating the ability of large language models (LLMs) to recognize and respond to rulebreakers (versus non-rulebreakers) in a human-like manner. Evaluating seven LLMs, we find that most models, including GPT-4o, achieve mediocre accuracy on RULEBREAKERS and exhibit some tendency to over-rigidly apply logical rules unlike what is expected from typical human reasoners. Further analysis suggests that this apparent failure is potentially associated with the models' poor utilization of their world knowledge and their attention distribution patterns. Whilst revealing a limitation of current LLMs, our study also provides a timely counterbalance to a growing body of recent works that propose methods relying on formal logic to improve LLMs' general reasoning capabilities, highlighting their risk of further increasing divergence between LLMs and human-like reasoning.",
+      "url": "https://arxiv.org/abs/2410.16502",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.84,
+      "innovation_score": 10,
+      "impact_score": 0,
+      "sentiment_score": 50.45,
+      "keywords": [
+        "llms",
+        "rulebreakers",
+        "human",
+        "formal",
+        "formal logic",
+        "human like",
+        "like",
+        "logic",
+        "models",
+        "reasoning"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Contains key LLM terms (bonus: 20)",
+      "paper_id": "798fdcece74db8c6bbb02800b1a44752"
+    },
+    {
+      "title": "K-Paths: Reasoning over Graph Paths for Drug Repurposing and Drug Interaction Prediction",
+      "authors": [
+        "Tassallah Abdullahi, Ioanna Gemou, Nihal V. Nayak, Ghulam Murtaza, Stephen H. Bach, Carsten Eickhoff, Ritambhara Singh"
+      ],
+      "abstract": "arXiv:2502.13344v3 Announce Type: replace-cross \nAbstract: Biomedical knowledge graphs (KGs) encode rich, structured information critical for drug discovery tasks, but extracting meaningful insights from large-scale KGs remains challenging due to their complex structure. Existing biomedical subgraph retrieval methods are tailored for graph neural networks (GNNs), limiting compatibility with other paradigms, including large language models (LLMs). We introduce K-Paths, a model-agnostic retrieval framework that extracts structured, diverse, and biologically meaningful multi-hop paths from dense biomedical KGs. These paths enable the prediction of unobserved drug-drug and drug-disease interactions, including those involving entities not seen during training, thus supporting inductive reasoning. K-Paths is training-free and employs a diversity-aware adaptation of Yen's algorithm to extract the K shortest loopless paths between entities in a query, prioritizing biologically relevant and relationally diverse connections. These paths serve as concise, interpretable reasoning chains that can be directly integrated with LLMs or GNNs to improve generalization, accuracy, and enable explainable inference. Experiments on benchmark datasets show that K-Paths improves zero-shot reasoning across state-of-the-art LLMs. For instance, Tx-Gemma 27B improves by 19.8 and 4.0 F1 points on interaction severity prediction and drug repurposing tasks, respectively. Llama 70B achieves gains of 8.5 and 6.2 points on the same tasks. K-Paths also boosts the training efficiency of EmerGNN, a state-of-the-art GNN, by reducing the KG size by 90% while maintaining predictive performance. Beyond efficiency, K-Paths bridges the gap between KGs and LLMs, enabling scalable and explainable LLM-augmented scientific discovery. We release our code and the retrieved paths as a benchmark for inductive reasoning.",
+      "url": "https://arxiv.org/abs/2502.13344",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.43,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 57.15,
+      "keywords": [
+        "paths",
+        "drug",
+        "reasoning",
+        "kgs",
+        "llms",
+        "biomedical",
+        "prediction",
+        "tasks",
+        "training",
+        "art"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "3994616479488ba46c4a756d96c179fa"
+    },
+    {
+      "title": "Revisiting Multi-Agent Debate as Test-Time Scaling: A Systematic Study of Conditional Effectiveness",
+      "authors": [
+        "Yongjin Yang, Euiin Yi, Jongwoo Ko, Kimin Lee, Zhijing Jin, Se-Young Yun"
+      ],
+      "abstract": "arXiv:2505.22960v1 Announce Type: new \nAbstract: The remarkable growth in large language model (LLM) capabilities has spurred exploration into multi-agent systems, with debate frameworks emerging as a promising avenue for enhanced problem-solving. These multi-agent debate (MAD) approaches, where agents collaboratively present, critique, and refine arguments, potentially offer improved reasoning, robustness, and diverse perspectives over monolithic models. Despite prior studies leveraging MAD, a systematic understanding of its effectiveness compared to self-agent methods, particularly under varying conditions, remains elusive. This paper seeks to fill this gap by conceptualizing MAD as a test-time computational scaling technique, distinguished by collaborative refinement and diverse exploration capabilities. We conduct a comprehensive empirical investigation comparing MAD with strong self-agent test-time scaling baselines on mathematical reasoning and safety-related tasks. Our study systematically examines the influence of task difficulty, model scale, and agent diversity on MAD's performance. Key findings reveal that, for mathematical reasoning, MAD offers limited advantages over self-agent scaling but becomes more effective with increased problem difficulty and decreased model capability, while agent diversity shows little benefit. Conversely, for safety tasks, MAD's collaborative refinement can increase vulnerability, but incorporating diverse agent configurations facilitates a gradual reduction in attack success through the collaborative refinement process. We believe our findings provide critical guidance for the future development of more effective and strategically deployed MAD systems.",
+      "url": "https://arxiv.org/abs/2505.22960",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 36.13,
+      "innovation_score": 10,
+      "impact_score": 16,
+      "sentiment_score": 51.9,
+      "keywords": [
+        "agent",
+        "mad",
+        "scaling",
+        "collaborative",
+        "collaborative refinement",
+        "debate",
+        "diverse",
+        "model",
+        "multi",
+        "multi agent"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Technical sophistication (score: 35); Contains key LLM terms (bonus: 10)",
+      "paper_id": "091561e0aa1e2420c9617e2db957cbef"
+    },
+    {
+      "title": "Revisiting Overthinking in Long Chain-of-Thought from the Perspective of Self-Doubt",
+      "authors": [
+        "Keqin Peng, Liang Ding, Yuanxin Ouyang, Meng Fang, Dacheng Tao"
+      ],
+      "abstract": "arXiv:2505.23480v1 Announce Type: new \nAbstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive performance on complex tasks, largely due to the adoption of Long Chain-of-Thought (Long CoT) reasoning. However, they often exhibit overthinking -- performing unnecessary reasoning steps even after arriving at the correct answer. Prior work has largely focused on qualitative analyses of overthinking through sample-based observations of long CoTs. In contrast, we present a quantitative analysis of overthinking from the perspective of self-doubt, characterized by excessive token usage devoted to re-verifying already-correct answer. We find that self-doubt significantly contributes to overthinking. In response, we introduce a simple and effective prompting method to reduce the model's over-reliance on input questions, thereby avoiding self-doubt. Specifically, we first prompt the model to question the validity of the input question, and then respond concisely based on the outcome of that evaluation. Experiments on three mathematical reasoning tasks and four datasets with missing premises demonstrate that our method substantially reduces answer length and yields significant improvements across nearly all datasets upon 4 widely-used RLLMs. Further analysis demonstrates that our method effectively minimizes the number of reasoning steps and reduces self-doubt.",
+      "url": "https://arxiv.org/abs/2505.23480",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.78,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 53.9,
+      "keywords": [
+        "doubt",
+        "overthinking",
+        "reasoning",
+        "self",
+        "self doubt",
+        "long",
+        "answer",
+        "method",
+        "analysis",
+        "based"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "2963a6b5177fa0020b210c2c9a946b17"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.497908"
+}

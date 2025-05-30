@@ -1,0 +1,165 @@
+{
+  "papers": [
+    {
+      "title": "DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration",
+      "authors": [
+        "Tianteng Gu, Bei Liu, Bo Xiao, Ke Zeng, Jiacheng Liu, Yanmin Qian"
+      ],
+      "abstract": "arXiv:2505.23049v1 Announce Type: cross \nAbstract: Pruning is a widely used technique to compress large language models (LLMs) by removing unimportant weights, but it often suffers from significant performance degradation - especially under semi-structured sparsity constraints. Existing pruning methods primarily focus on estimating the importance of individual weights, which limits their ability to preserve critical capabilities of the model. In this work, we propose a new perspective: rather than merely selecting which weights to prune, we first redistribute parameter importance to make the model inherently more amenable to pruning. By minimizing the information entropy of normalized importance scores, our approach concentrates importance onto a smaller subset of weights, thereby enhancing pruning robustness. We instantiate this idea through DenoiseRotator, which applies learnable orthogonal transformations to the model's weight matrices. Our method is model-agnostic and can be seamlessly integrated with existing pruning techniques such as Magnitude, SparseGPT, and Wanda. Evaluated on LLaMA3, Qwen2.5, and Mistral models under 50% unstructured and 2:4 semi-structured sparsity, DenoiseRotator consistently improves perplexity and zero-shot accuracy. For instance, on LLaMA3-70B pruned with SparseGPT at 2:4 semi-structured sparsity, DenoiseRotator reduces the perplexity gap to the dense model by 58%, narrowing the degradation from 8.1 to 3.4 points. Codes are available at https://github.com/Axel-gu/DenoiseRotator.",
+      "url": "https://arxiv.org/abs/2505.23049",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 45.18,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 50.9,
+      "keywords": [
+        "pruning",
+        "denoiserotator",
+        "importance",
+        "model",
+        "weights",
+        "semi",
+        "semi structured",
+        "sparsity",
+        "structured",
+        "structured sparsity"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 15)",
+      "paper_id": "3685d117c5da31e3837f8bffcdfa252d"
+    },
+    {
+      "title": "MuLoCo: Muon is a practical inner optimizer for DiLoCo",
+      "authors": [
+        "Benjamin Th\\'erien, Xiaolong Huang, Irina Rish, Eugene Belilovsky"
+      ],
+      "abstract": "arXiv:2505.23725v1 Announce Type: new \nAbstract: DiLoCo is a powerful framework for training large language models (LLMs) under networking constraints with advantages for increasing parallelism and accelerator utilization in data center settings. Despite significantly reducing communication frequency, however, DiLoCo's communication steps still involve all-reducing a complete copy of the model's parameters. While existing works have explored ways to reduce communication in DiLoCo, the role of error feedback accumulators and the effect of the inner-optimizer on compressibility remain under-explored. In this work, we investigate the effectiveness of standard compression methods including Top-k sparsification and quantization for reducing the communication overhead of DiLoCo when paired with two local optimizers (AdamW and Muon). Our experiments pre-training decoder-only transformer language models (LMs) reveal that leveraging Muon as the inner optimizer for DiLoCo along with an error-feedback accumulator allows to aggressively compress the communicated delta to 2-bits with next to no performance degradation. Crucially, MuLoCo (Muon inner optimizer DiLoCo) significantly outperforms DiLoCo while communicating 8X less and having identical memory complexity.",
+      "url": "https://arxiv.org/abs/2505.23725",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 38.9,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 50.75,
+      "keywords": [
+        "diloco",
+        "communication",
+        "inner",
+        "inner optimizer",
+        "muon",
+        "optimizer",
+        "optimizer diloco",
+        "reducing",
+        "error",
+        "error feedback"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "Contains key LLM terms (bonus: 15)",
+      "paper_id": "d7ca63bf2a24d9c79ad827785dcf6592"
+    },
+    {
+      "title": "Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?",
+      "authors": [
+        "Zichen Wen, Yifeng Gao, Weijia Li, Conghui He, Linfeng Zhang"
+      ],
+      "abstract": "arXiv:2502.11501v2 Announce Type: replace \nAbstract: Multimodal large language models (MLLMs) have shown remarkable performance for cross-modal understanding and generation, yet still suffer from severe inference costs. Recently, abundant works have been proposed to solve this problem with token pruning, which identifies the redundant tokens in MLLMs and then prunes them to reduce the computation and KV storage costs, leading to significant acceleration without training. While these methods claim efficiency gains, critical questions about their fundamental design and evaluation remain unanswered: Why do many existing approaches underperform even compared to naive random token selection? Are attention-based scoring sufficient for reliably identifying redundant tokens? Is language information really helpful during token pruning? What makes a good trade-off between token importance and duplication? Are current evaluation protocols comprehensive and unbiased? The ignorance of previous research on these problems hinders the long-term development of token pruning. In this paper, we answer these questions one by one, providing insights into the design of future token pruning methods.",
+      "url": "https://arxiv.org/abs/2502.11501",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.95,
+      "innovation_score": 0,
+      "impact_score": 32,
+      "sentiment_score": 51.0,
+      "keywords": [
+        "token",
+        "pruning",
+        "token pruning",
+        "language",
+        "costs",
+        "design",
+        "evaluation",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 15)",
+      "paper_id": "e1f5572d1b8f8047bc593c39e9661f8f"
+    },
+    {
+      "title": "SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression",
+      "authors": [
+        "Mohammad Mozaffari, Amir Yazdanbakhsh, Maryam Mehri Dehnavi"
+      ],
+      "abstract": "arXiv:2410.09615v3 Announce Type: replace-cross \nAbstract: Conventional model compression techniques for LLMs address high memory consumption and slow inference challenges but typically require computationally expensive retraining to preserve accuracy. In contrast, one-shot compression methods eliminate retraining cost, but struggle to achieve accuracy comparable to dense models. This paper presents SLIM, a new one-shot compression framework that holistically integrates hardware-friendly quantization, sparsity, and low-rank approximation into a unified process. First, we formulate the quantization process using a probabilistic approach (SLIM-Quant) that enables us to apply uniform quantization. Then, we use an existing one-shot pruning method to apply semi-structured sparsity on top of the quantized weights. Finally, to compensate for the introduced aggregated quantization and sparsity error, we use a novel saliency function with unique invertible and additive features that enables us to mathematically compute the value of low-rank adapters. SLIM improves model accuracy by up to 5.66% (LLaMA-2-7B) for 2:4 sparsity with 4-bit weight quantization, outperforming prior methods. Models compressed with SLIM achieve up to 4.3x and 3.8x on Nvidia RTX3060 and A100 GPUs, respectively. Additionally, they achieve up to 0.23x end-to-end memory reduction in comparison to their dense counterparts. We also propose an optional PEFT recipe that further improves accuracy by up to 1.66% (LLaMA-2-13B) compared to SLIM without fine-tuning.",
+      "url": "https://arxiv.org/abs/2410.09615",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 35.25,
+      "innovation_score": 40,
+      "impact_score": 0,
+      "sentiment_score": 53.75,
+      "keywords": [
+        "quantization",
+        "slim",
+        "sparsity",
+        "accuracy",
+        "compression",
+        "shot",
+        "achieve",
+        "low",
+        "low rank",
+        "quantization sparsity"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 5)",
+      "paper_id": "faea11ea11f79fe7d5a489ac34444939"
+    },
+    {
+      "title": "Understanding the Information Propagation Effects of Communication Topologies in LLM-based Multi-Agent Systems",
+      "authors": [
+        "Xu Shen, Yixin Liu, Yiwei Dai, Yili Wang, Rui Miao, Yue Tan, Shirui Pan, Xin Wang"
+      ],
+      "abstract": "arXiv:2505.23352v1 Announce Type: cross \nAbstract: The communication topology in large language model-based multi-agent systems fundamentally governs inter-agent collaboration patterns, critically shaping both the efficiency and effectiveness of collective decision-making. While recent studies for communication topology automated design tend to construct sparse structures for efficiency, they often overlook why and when sparse and dense topologies help or hinder collaboration. In this paper, we present a causal framework to analyze how agent outputs, whether correct or erroneous, propagate under topologies with varying sparsity. Our empirical studies reveal that moderately sparse topologies, which effectively suppress error propagation while preserving beneficial information diffusion, typically achieve optimal task performance. Guided by this insight, we propose a novel topology design approach, EIB-leanrner, that balances error suppression and beneficial information propagation by fusing connectivity patterns from both dense and sparse graphs. Extensive experiments show the superior effectiveness, communication cost, and robustness of EIB-leanrner.",
+      "url": "https://arxiv.org/abs/2505.23352",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.MA"
+      ],
+      "significance_score": 35.0,
+      "innovation_score": 10,
+      "impact_score": 24,
+      "sentiment_score": 55.0,
+      "keywords": [
+        "agent",
+        "communication",
+        "sparse",
+        "topologies",
+        "information",
+        "propagation",
+        "topology",
+        "agent systems",
+        "based",
+        "based multi"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.499673"
+}

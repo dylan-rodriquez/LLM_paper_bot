@@ -1,0 +1,421 @@
+{
+  "papers": [
+    {
+      "title": "ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering",
+      "authors": [
+        "Jingxuan Wei, Nan Xu, Junnan Zhu, Yanni Hao, Gaowei Wu, Bihui Yu, Lei Wang"
+      ],
+      "abstract": "arXiv:2505.23242v1 Announce Type: new \nAbstract: Chart question answering (CQA) has become a critical multimodal task for evaluating the reasoning capabilities of vision-language models. While early approaches have shown promising performance by focusing on visual features or leveraging large-scale pre-training, most existing evaluations rely on rigid output formats and objective metrics, thus ignoring the complex, real-world demands of practical chart analysis. In this paper, we introduce ChartMind, a new benchmark designed for complex CQA tasks in real-world settings. ChartMind covers seven task categories, incorporates multilingual contexts, supports open-domain textual outputs, and accommodates diverse chart formats, bridging the gap between real-world applications and traditional academic benchmarks. Furthermore, we propose a context-aware yet model-agnostic framework, ChartLLM, that focuses on extracting key contextual elements, reducing noise, and enhancing the reasoning accuracy of multimodal large language models. Extensive evaluations on ChartMind and three representative public benchmarks with 14 mainstream multimodal models show our framework significantly outperforms the previous three common CQA paradigms: instruction-following, OCR-enhanced, and chain-of-thought, highlighting the importance of flexible chart understanding for real-world CQA. These findings suggest new directions for developing more robust chart reasoning in future research.",
+      "url": "https://arxiv.org/abs/2505.23242",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 47.3,
+      "innovation_score": 20,
+      "impact_score": 64,
+      "sentiment_score": 51.5,
+      "keywords": [
+        "chart",
+        "real",
+        "real world",
+        "world",
+        "chartmind",
+        "cqa",
+        "multimodal",
+        "complex",
+        "models",
+        "new"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Strong impact potential (score: 64); Contains key LLM terms (bonus: 10)",
+      "paper_id": "1288293babf173945905e7fc26c06dd1"
+    },
+    {
+      "title": "Evaluating the performance and fragility of large language models on the self-assessment for neurological surgeons",
+      "authors": [
+        "Krithik Vishwanath, Anton Alyakin, Mrigayu Ghosh, Jin Vivian Lee, Daniel Alexander Alber, Karl L. Sangwon, Douglas Kondziolka, Eric Karl Oermann"
+      ],
+      "abstract": "arXiv:2505.23477v1 Announce Type: new \nAbstract: The Congress of Neurological Surgeons Self-Assessment for Neurological Surgeons (CNS-SANS) questions are widely used by neurosurgical residents to prepare for written board examinations. Recently, these questions have also served as benchmarks for evaluating large language models' (LLMs) neurosurgical knowledge. This study aims to assess the performance of state-of-the-art LLMs on neurosurgery board-like questions and to evaluate their robustness to the inclusion of distractor statements. A comprehensive evaluation was conducted using 28 large language models. These models were tested on 2,904 neurosurgery board examination questions derived from the CNS-SANS. Additionally, the study introduced a distraction framework to assess the fragility of these models. The framework incorporated simple, irrelevant distractor statements containing polysemous words with clinical meanings used in non-clinical contexts to determine the extent to which such distractions degrade model performance on standard medical benchmarks. 6 of the 28 tested LLMs achieved board-passing outcomes, with the top-performing models scoring over 15.7% above the passing threshold. When exposed to distractions, accuracy across various model architectures was significantly reduced-by as much as 20.4%-with one model failing that had previously passed. Both general-purpose and medical open-source models experienced greater performance declines compared to proprietary variants when subjected to the added distractors. While current LLMs demonstrate an impressive ability to answer neurosurgery board-like exam questions, their performance is markedly vulnerable to extraneous, distracting information. These findings underscore the critical need for developing novel mitigation strategies aimed at bolstering LLM resilience against in-text distractions, particularly for safe and effective clinical deployment.",
+      "url": "https://arxiv.org/abs/2505.23477",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 40.61,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 49.3,
+      "keywords": [
+        "models",
+        "board",
+        "performance",
+        "questions",
+        "llms",
+        "clinical",
+        "distractions",
+        "language",
+        "language models",
+        "large"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "3bf527375cbcb8beb366dadf536eb6b8"
+    },
+    {
+      "title": "LLM Agents for Bargaining with Utility-based Feedback",
+      "authors": [
+        "Jihwan Oh, Murad Aghazada, Se-Young Yun, Taehyeon Kim"
+      ],
+      "abstract": "arXiv:2505.22998v1 Announce Type: new \nAbstract: Bargaining, a critical aspect of real-world interactions, presents challenges for large language models (LLMs) due to limitations in strategic depth and adaptation to complex human factors. Existing benchmarks often fail to capture this real-world complexity. To address this and enhance LLM capabilities in realistic bargaining, we introduce a comprehensive framework centered on utility-based feedback. Our contributions are threefold: (1) BargainArena, a novel benchmark dataset with six intricate scenarios (e.g., deceptive practices, monopolies) to facilitate diverse strategy modeling; (2) human-aligned, economically-grounded evaluation metrics inspired by utility theory, incorporating agent utility and negotiation power, which implicitly reflect and promote opponent-aware reasoning (OAR); and (3) a structured feedback mechanism enabling LLMs to iteratively refine their bargaining strategies. This mechanism can positively collaborate with in-context learning (ICL) prompts, including those explicitly designed to foster OAR. Experimental results show that LLMs often exhibit negotiation strategies misaligned with human preferences, and that our structured feedback mechanism significantly improves their performance, yielding deeper strategic and opponent-aware reasoning.",
+      "url": "https://arxiv.org/abs/2505.22998",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 40.26,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 53.8,
+      "keywords": [
+        "bargaining",
+        "feedback",
+        "utility",
+        "human",
+        "llms",
+        "mechanism",
+        "aware",
+        "aware reasoning",
+        "based",
+        "based feedback"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "cb1f10d35a07e9d874be32499596b216"
+    },
+    {
+      "title": "OmniEarth-Bench: Towards Holistic Evaluation of Earth's Six Spheres and Cross-Spheres Interactions with Multimodal Observational Earth Data",
+      "authors": [
+        "Fengxiang Wang, Mingshuo Chen, Xuming He, YiFan Zhang, Feng Liu, Zijie Guo, Zhenghao Hu, Jiong Wang, Jingyi Xu, Zhangrui Li, Fenghua Ling, Ben Fei, Weijia Li, Long Lan, Wenjing Yang, Wenlong Zhang, Lei Bai"
+      ],
+      "abstract": "arXiv:2505.23522v1 Announce Type: cross \nAbstract: Existing benchmarks for Earth science multimodal learning exhibit critical limitations in systematic coverage of geosystem components and cross-sphere interactions, often constrained to isolated subsystems (only in Human-activities sphere or atmosphere) with limited evaluation dimensions (less than 16 tasks). To address these gaps, we introduce OmniEarth-Bench, the first comprehensive multimodal benchmark spanning all six Earth science spheres (atmosphere, lithosphere, Oceansphere, cryosphere, biosphere and Human-activities sphere) and cross-spheres with one hundred expert-curated evaluation dimensions. Leveraging observational data from satellite sensors and in-situ measurements, OmniEarth-Bench integrates 29,779 annotations across four tiers: perception, general reasoning, scientific knowledge reasoning and chain-of-thought (CoT) reasoning. This involves the efforts of 2-5 experts per sphere to establish authoritative evaluation dimensions and curate relevant observational datasets, 40 crowd-sourcing annotators to assist experts for annotations, and finally, OmniEarth-Bench is validated via hybrid expert-crowd workflows to reduce label ambiguity. Experiments on 9 state-of-the-art MLLMs reveal that even the most advanced models struggle with our benchmarks, where none of them reach 35\\% accuracy. Especially, in some cross-spheres tasks, the performance of leading models like GPT-4o drops to 0.0\\%. OmniEarth-Bench sets a new standard for geosystem-aware AI, advancing both scientific discovery and practical applications in environmental monitoring and disaster prediction. The dataset, source code, and trained models were released.",
+      "url": "https://arxiv.org/abs/2505.23522",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 39.19,
+      "innovation_score": 30,
+      "impact_score": 32,
+      "sentiment_score": 48.45,
+      "keywords": [
+        "bench",
+        "cross",
+        "omniearth",
+        "omniearth bench",
+        "spheres",
+        "earth",
+        "evaluation",
+        "sphere",
+        "cross spheres",
+        "dimensions"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "c98101575103a613543c6530938cd9de"
+    },
+    {
+      "title": "C$^2$LEVA: Toward Comprehensive and Contamination-Free Language Model Evaluation",
+      "authors": [
+        "Yanyang Li, Tin Long Wong, Cheung To Hung, Jianqiao Zhao, Duo Zheng, Ka Wai Liu, Michael R. Lyu, Liwei Wang"
+      ],
+      "abstract": "arXiv:2412.04947v3 Announce Type: replace \nAbstract: Recent advances in large language models (LLMs) have shown significant promise, yet their evaluation raises concerns, particularly regarding data contamination due to the lack of access to proprietary training data. To address this issue, we present C$^2$LEVA, a comprehensive bilingual benchmark featuring systematic contamination prevention. C$^2$LEVA firstly offers a holistic evaluation encompassing 22 tasks, each targeting a specific application or ability of LLMs, and secondly a trustworthy assessment due to our contamination-free tasks, ensured by a systematic contamination prevention strategy that fully automates test data renewal and enforces data protection during benchmark data release. Our large-scale evaluation of 15 open-source and proprietary models demonstrates the effectiveness of C$^2$LEVA.",
+      "url": "https://arxiv.org/abs/2412.04947",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.33,
+      "innovation_score": 30,
+      "impact_score": 24,
+      "sentiment_score": 54.15,
+      "keywords": [
+        "contamination",
+        "data",
+        "evaluation",
+        "leva",
+        "benchmark",
+        "comprehensive",
+        "contamination free",
+        "contamination prevention",
+        "free",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "23a7d79f0883b5464ed85cf3c145c238"
+    },
+    {
+      "title": "MCTSr-Zero: Self-Reflective Psychological Counseling Dialogues Generation via Principles and Adaptive Exploration",
+      "authors": [
+        "Hao Lu, Yanchi Gu, Haoyuan Huang, Yulin Zhou, Ningxin Zhu, Chen Li"
+      ],
+      "abstract": "arXiv:2505.23229v1 Announce Type: new \nAbstract: The integration of Monte Carlo Tree Search (MCTS) with Large Language Models (LLMs) has demonstrated significant success in structured, problem-oriented tasks. However, applying these methods to open-ended dialogues, such as those in psychological counseling, presents unique challenges. Unlike tasks with objective correctness, success in therapeutic conversations depends on subjective factors like empathetic engagement, ethical adherence, and alignment with human preferences, for which strict \"correctness\" criteria are ill-defined. Existing result-oriented MCTS approaches can therefore produce misaligned responses. To address this, we introduce MCTSr-Zero, an MCTS framework designed for open-ended, human-centric dialogues. Its core innovation is \"domain alignment\", which shifts the MCTS search objective from predefined end-states towards conversational trajectories that conform to target domain principles (e.g., empathy in counseling). Furthermore, MCTSr-Zero incorporates \"Regeneration\" and \"Meta-Prompt Adaptation\" mechanisms to substantially broaden exploration by allowing the MCTS to consider fundamentally different initial dialogue strategies. We evaluate MCTSr-Zero in psychological counseling by generating multi-turn dialogue data, which is used to fine-tune an LLM, PsyLLM. We also introduce PsyEval, a benchmark for assessing multi-turn psychological counseling dialogues. Experiments demonstrate that PsyLLM achieves state-of-the-art performance on PsyEval and other relevant metrics, validating MCTSr-Zero's effectiveness in generating high-quality, principle-aligned conversational data for human-centric domains and addressing the LLM challenge of consistently adhering to complex psychological standards.",
+      "url": "https://arxiv.org/abs/2505.23229",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.32,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 56.6,
+      "keywords": [
+        "counseling",
+        "mcts",
+        "mctsr",
+        "mctsr zero",
+        "psychological",
+        "zero",
+        "dialogues",
+        "psychological counseling",
+        "human",
+        "alignment"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "4d5762e5f46db9c4dbdd96365274e61d"
+    },
+    {
+      "title": "EarthSE: A Benchmark Evaluating Earth Scientific Exploration Capability for Large Language Models",
+      "authors": [
+        "Wanghan Xu, Xiangyu Zhao, Yuhao Zhou, Xiaoyu Yue, Ben Fei, Fenghua Ling, Wenlong Zhang, Lei Bai"
+      ],
+      "abstract": "arXiv:2505.17139v2 Announce Type: replace \nAbstract: Advancements in Large Language Models (LLMs) drive interest in scientific applications, necessitating specialized benchmarks such as Earth science. Existing benchmarks either present a general science focus devoid of Earth science specificity or cover isolated subdomains, lacking holistic evaluation. Furthermore, current benchmarks typically neglect the assessment of LLMs' capabilities in open-ended scientific exploration. In this paper, we present a comprehensive and professional benchmark for the Earth sciences, designed to evaluate the capabilities of LLMs in scientific exploration within this domain, spanning from fundamental to advanced levels. Leveraging a corpus of 100,000 research papers, we first construct two Question Answering (QA) datasets: Earth-Iron, which offers extensive question coverage for broad assessment, and Earth-Silver, which features a higher level of difficulty to evaluate professional depth. These datasets encompass five Earth spheres, 114 disciplines, and 11 task categories, assessing foundational knowledge crucial for scientific exploration. Most notably, we introduce Earth-Gold with new metrics, a dataset comprising open-ended multi-turn dialogues specifically designed to evaluate the advanced capabilities of LLMs in scientific exploration, including methodology induction, limitation analysis, and concept proposal. Extensive experiments reveal limitations in 11 leading LLMs across different domains and tasks, highlighting considerable room for improvement in their scientific exploration capabilities. The benchmark is available on https://huggingface.co/ai-earth .",
+      "url": "https://arxiv.org/abs/2505.17139",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 38.27,
+      "innovation_score": 20,
+      "impact_score": 32,
+      "sentiment_score": 52.6,
+      "keywords": [
+        "earth",
+        "scientific",
+        "exploration",
+        "scientific exploration",
+        "llms",
+        "capabilities",
+        "benchmark",
+        "benchmarks",
+        "evaluate",
+        "science"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Strong impact potential (score: 32); Contains key LLM terms (bonus: 10)",
+      "paper_id": "6fa92b4fe8ef1812d06829c7facf0caa"
+    },
+    {
+      "title": "Context Robust Knowledge Editing for Language Models",
+      "authors": [
+        "Haewon Park, Gyubin Choi, Minjun Kim, Yohan Jo"
+      ],
+      "abstract": "arXiv:2505.23026v1 Announce Type: new \nAbstract: Knowledge editing (KE) methods offer an efficient way to modify knowledge in large language models. Current KE evaluations typically assess editing success by considering only the edited knowledge without any preceding contexts. In real-world applications, however, preceding contexts often trigger the retrieval of the original knowledge and undermine the intended edit. To address this issue, we develop CHED -- a benchmark designed to evaluate the context robustness of KE methods. Evaluations on CHED show that they often fail when preceding contexts are present. To mitigate this shortcoming, we introduce CoRE, a KE method designed to strengthen context robustness by minimizing context-sensitive variance in hidden states of the model for edited knowledge. This method not only improves the editing success rate in situations where a preceding context is present but also preserves the overall capabilities of the model. We provide an in-depth analysis of the differing impacts of preceding contexts when introduced as user utterances versus assistant responses, and we dissect attention-score patterns to assess how specific tokens influence editing success.",
+      "url": "https://arxiv.org/abs/2505.23026",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 37.26,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 52.55,
+      "keywords": [
+        "knowledge",
+        "context",
+        "editing",
+        "preceding",
+        "contexts",
+        "ke",
+        "preceding contexts",
+        "editing success",
+        "success",
+        "assess"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "1acab1d5ede7274ee5e632e6ee25fbeb"
+    },
+    {
+      "title": "Two Is Better Than One: Rotations Scale LoRAs",
+      "authors": [
+        "Hongcan Guo, Guoshun Nan, Yuan Yang, Diyang Zhang, Haotian Li, Zhican Chen, Qinchuan Zhou, Yuhan Ran, Xinye Cao, Sicong Leng, Xiaofeng Tao, Xudong Jiang"
+      ],
+      "abstract": "arXiv:2505.23184v1 Announce Type: new \nAbstract: Scaling Low-Rank Adaptation (LoRA)-based Mixture-of-Experts (MoE) facilitates large language models (LLMs) to efficiently adapt to diverse tasks. However, traditional gating mechanisms that route inputs to the best experts may fundamentally hinder LLMs' scalability, leading to poor generalization and underfitting issues. We identify that the root cause lies in the restricted expressiveness of existing weighted-sum mechanisms, both within and outside the convex cone of LoRA representations. This motivates us to propose RadarGate, a novel geometrically inspired gating method that introduces rotational operations of LoRAs representations to boost the expressiveness and facilitate richer feature interactions among multiple LoRAs for scalable LLMs. Specifically, we first fuse each LoRA representation to other LoRAs using a learnable component and then feed the output to a rotation matrix. This matrix involves learnable parameters that define the relative angular relationship between LoRA representations. Such a simple yet effective mechanism provides an extra degree of freedom, facilitating the learning of cross-LoRA synergies and properly tracking the challenging poor generalization and underfitting issues as the number of LoRA grows. Extensive experiments on 6 public benchmarks across 21 tasks show the effectiveness of our RadarGate for scaling LoRAs. We also provide valuable insights, revealing that the rotations to each pair of representations are contrastive, encouraging closer alignment of semantically similar representations during geometrical transformation while pushing distance ones further apart. We will release our code to the community.",
+      "url": "https://arxiv.org/abs/2505.23184",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 36.41,
+      "innovation_score": 30,
+      "impact_score": 16,
+      "sentiment_score": 54.55,
+      "keywords": [
+        "lora",
+        "loras",
+        "representations",
+        "llms",
+        "experts",
+        "expressiveness",
+        "gating",
+        "generalization",
+        "generalization underfitting",
+        "issues"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
+      "paper_id": "a5b48ab9c14ed00df559f0441cf36789"
+    },
+    {
+      "title": "Augment or Not? A Comparative Study of Pure and Augmented Large Language Model Recommenders",
+      "authors": [
+        "Wei-Hsiang Huang, Chen-Wei Ke, Wei-Ning Chiu, Yu-Xuan Su, Chun-Chun Yang, Chieh-Yuan Cheng, Yun-Nung Chen, Pu-Jen Cheng"
+      ],
+      "abstract": "arXiv:2505.23053v1 Announce Type: cross \nAbstract: Large language models (LLMs) have introduced new paradigms for recommender systems by enabling richer semantic understanding and incorporating implicit world knowledge. In this study, we propose a systematic taxonomy that classifies existing approaches into two categories: (1) Pure LLM Recommenders, which rely solely on LLMs, and (2) Augmented LLM Recommenders, which integrate additional non-LLM techniques to enhance performance. This taxonomy provides a novel lens through which to examine the evolving landscape of LLM-based recommendation. To support fair comparison, we introduce a unified evaluation platform that benchmarks representative models under consistent experimental settings, highlighting key design choices that impact effectiveness. We conclude by discussing open challenges and outlining promising directions for future research. This work offers both a comprehensive overview and practical guidance for advancing next-generation LLM-powered recommender.",
+      "url": "https://arxiv.org/abs/2505.23053",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 36.39,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 56.95,
+      "keywords": [
+        "llm",
+        "recommenders",
+        "augmented",
+        "language",
+        "large",
+        "large language",
+        "llm recommenders",
+        "llms",
+        "models",
+        "pure"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "7d6fe3bdba7d5e91868aecf26b3cb40f"
+    },
+    {
+      "title": "ScEdit: Script-based Assessment of Knowledge Editing",
+      "authors": [
+        "Xinye Li, Zunwen Zheng, Qian Zhang, Dekai Zhuang, Jiabao Kang, Liyan Xu, Qingbin Liu, Xi Chen, Zhiying Tu, Dianhui Chu, Dianbo Sui"
+      ],
+      "abstract": "arXiv:2505.23291v1 Announce Type: new \nAbstract: Knowledge Editing (KE) has gained increasing attention, yet current KE tasks remain relatively simple. Under current evaluation frameworks, many editing methods achieve exceptionally high scores, sometimes nearing perfection. However, few studies integrate KE into real-world application scenarios (e.g., recent interest in LLM-as-agent). To support our analysis, we introduce a novel script-based benchmark -- ScEdit (Script-based Knowledge Editing Benchmark) -- which encompasses both counterfactual and temporal edits. We integrate token-level and text-level evaluation methods, comprehensively analyzing existing KE techniques. The benchmark extends traditional fact-based (\"What\"-type question) evaluation to action-based (\"How\"-type question) evaluation. We observe that all KE methods exhibit a drop in performance on established metrics and face challenges on text-level metrics, indicating a challenging task. Our benchmark is available at https://github.com/asdfo123/ScEdit.",
+      "url": "https://arxiv.org/abs/2505.23291",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 36.230000000000004,
+      "innovation_score": 20,
+      "impact_score": 16,
+      "sentiment_score": 56.15,
+      "keywords": [
+        "based",
+        "ke",
+        "benchmark",
+        "editing",
+        "evaluation",
+        "knowledge",
+        "knowledge editing",
+        "level",
+        "methods",
+        "scedit"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Contains key LLM terms (bonus: 10)",
+      "paper_id": "e317e3d8e9068956a0ac77ac3af0b380"
+    },
+    {
+      "title": "LLMs for Argument Mining: Detection, Extraction, and Relationship Classification of pre-defined Arguments in Online Comments",
+      "authors": [
+        "Matteo Guida, Yulia Otmakhova, Eduard Hovy, Lea Frermann"
+      ],
+      "abstract": "arXiv:2505.22956v1 Announce Type: new \nAbstract: Automated large-scale analysis of public discussions around contested issues like abortion requires detecting and understanding the use of arguments. While Large Language Models (LLMs) have shown promise in language processing tasks, their performance in mining topic-specific, pre-defined arguments in online comments remains underexplored. We evaluate four state-of-the-art LLMs on three argument mining tasks using datasets comprising over 2,000 opinion comments across six polarizing topics. Quantitative evaluation suggests an overall strong performance across the three tasks, especially for large and fine-tuned LLMs, albeit at a significant environmental cost. However, a detailed error analysis revealed systematic shortcomings on long and nuanced comments and emotionally charged language, raising concerns for downstream applications like content moderation or opinion analysis. Our results highlight both the promise and current limitations of LLMs for automated argument analysis in online comments.",
+      "url": "https://arxiv.org/abs/2505.22956",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.89,
+      "innovation_score": 20,
+      "impact_score": 24,
+      "sentiment_score": 50.7,
+      "keywords": [
+        "comments",
+        "llms",
+        "analysis",
+        "argument",
+        "arguments",
+        "language",
+        "large",
+        "mining",
+        "online",
+        "online comments"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
+      "paper_id": "89538cd7659bba74a15aa553f8b0e8d3"
+    },
+    {
+      "title": "NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables",
+      "authors": [
+        "Lanrui Wang, Mingyu Zheng, Hongyin Tang, Zheng Lin, Yanan Cao, Jingang Wang, Xunliang Cai, Weiping Wang"
+      ],
+      "abstract": "arXiv:2504.06560v2 Announce Type: replace \nAbstract: Processing structured tabular data, particularly large and lengthy tables, constitutes a fundamental yet challenging task for large language models (LLMs). However, existing long-context benchmarks like Needle-in-a-Haystack primarily focus on unstructured text, neglecting the challenge of diverse structured tables. Meanwhile, previous tabular benchmarks mainly consider downstream tasks that require high-level reasoning abilities, and overlook models' underlying fine-grained perception of individual table cells, which is crucial for practical and robust LLM-based table applications. To address this gap, we introduce \\textsc{NeedleInATable} (NIAT), a new long-context tabular benchmark that treats each table cell as a ``needle'' and requires models to extract the target cell based on cell locations or lookup questions. Our comprehensive evaluation of various LLMs and multimodal LLMs reveals a substantial performance gap between popular downstream tabular tasks and the simpler NIAT task, suggesting that they may rely on dataset-specific correlations or shortcuts to obtain better benchmark results but lack truly robust long-context understanding towards structured tables. Furthermore, we demonstrate that using synthesized NIAT training data can effectively improve performance on both NIAT task and downstream tabular tasks, which validates the importance of NIAT capability for LLMs' genuine table understanding ability. Our data, code and models will be released to facilitate future research.",
+      "url": "https://arxiv.org/abs/2504.06560",
+      "published_date": "2025-05-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 35.72,
+      "innovation_score": 10,
+      "impact_score": 40,
+      "sentiment_score": 57.35,
+      "keywords": [
+        "long",
+        "models",
+        "niat",
+        "tabular",
+        "context",
+        "llms",
+        "long context",
+        "structured",
+        "table",
+        "tables"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "Strong impact potential (score: 40); Contains key LLM terms (bonus: 10)",
+      "paper_id": "787f4b4374ea95f22732eefe21e1582d"
+    }
+  ],
+  "last_updated": "2025-05-30T11:01:12.492895"
+}
