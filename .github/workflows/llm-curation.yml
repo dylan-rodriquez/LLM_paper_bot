@@ -72,7 +72,7 @@ jobs:
           🤖 Daily LLM paper curation - ${{ steps.date.outputs.date }}
           
           Auto-curated papers based on significance analysis
-        title: "📚 LLM Papers Update - ${{ steps.date.outputs.date }}
+        title: "📚 LLM Papers Update - ${{ steps.date.outputs.date }}"
         body-path: .github/pr_body.md
         branch: llm-papers-${{ steps.date.outputs.date }}
         delete-branch: true
