@@ -42,7 +42,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install requests beautifulsoup4 feedparser nltk scikit-learn pandas numpy python-dateutil markdown
+        pip install requests beautifulsoup4 feedparser nltk scikit-learn pandas numpy python-dateutil markdown google-generativeai
         python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('vader_lexicon')"
     
     - name: Run paper curation script
