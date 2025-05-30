@@ -18,6 +18,7 @@ import hashlib
 
 import requests
 import feedparser
+import google.generativeai as genai
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
@@ -53,12 +54,19 @@ class Paper:
 class PaperCurator:
     """Main class for curating and organizing LLM papers."""
     
-    def __init__(self, days_back: int = 1, min_score: float = 70.0):
+    def __init__(self, days_back: int = 1, min_score: float = 90.0):
         self.days_back = days_back
         self.min_score = min_score
         self.sentiment_analyzer = SentimentIntensityAnalyzer()
         self.papers_dir = Path("papers")
         self.papers_dir.mkdir(exist_ok=True)
+        self.gemini_api_key = os.environ.get('GEMINI_API_KEY')
+        self.request_delay = 2.1  # Delay between requests to avoid rate limiting
+        if not self.gemini_api_key:
+            raise ValueError("GEMINI_API_KEY environment variable not set")
+
+        genai.configure(api_key=self.gemini_api_key)
+        self.model = genai.GenerativeModel('models/gemma-3-27b-it')
         
         # Initialize subject categories
         self.subject_categories = {
@@ -262,7 +270,111 @@ class PaperCurator:
             return max(category_scores, key=category_scores.get)
         else:
             return "general"
-    
+        
+    def evaluate_paper_with_gemini(self, paper):
+        """Use Gemini to evaluate paper quality and determine subject"""
+        prompt = f"""
+        Analyze this research paper and provide a structured evaluation:
+
+        Title: {paper['title']}
+        Abstract: {paper['abstract'][:1000]}...
+        Categories: {', '.join(paper['categories'])}
+
+        Please evaluate:
+        1. QUALITY SCORE (1-100): Rate the potential impact and novelty (Overall caliber, rigor, and clarity of the research.)
+        | Score Range | Interpretation                                                                        |
+        | ----------- | ------------------------------------------------------------------------------------- |
+        | 90–100      | Exceptionally well-written, rigorous, and clear. Near publishable in current form.    |
+        | 70–89       | High-quality work with solid methodology and presentation. Minor improvements needed. |
+        | 50–69       | Adequate but may suffer from methodological or presentation issues. Needs revision.   |
+        | 30–49       | Below standard. Weak methodology, insufficient rigor or clarity. Major rework needed. |
+        | 1–29        | Poorly executed. Lacks clarity, rigor, or coherence. Unlikely to be publishable.      |
+
+        2. SIGNIFICANCE SCORE (1-100): Overall significance of the paper (Importance of the problem and the potential for advancing the field.)
+        | Score Range | Interpretation                                                                   |
+        | ----------- | -------------------------------------------------------------------------------- |
+        | 90–100      | Addresses a critical and timely problem; high relevance across multiple domains. |
+        | 70–89       | Solves a meaningful problem with clear relevance to a defined community.         |
+        | 50–69       | Addresses a niche or incremental issue; moderate significance.                   |
+        | 30–49       | Limited relevance; unclear impact even within subfield.                          |
+        | 1–29        | Trivial or outdated problem; minimal scholarly interest.                         |
+
+        3. INNOVATION SCORE (1-100): Novelty of methods or approaches (Degree of novelty in methods, ideas, or results.)
+        | Score Range | Interpretation                                                   |
+        | ----------- | ---------------------------------------------------------------- |
+        | 90–100      | Breakthrough innovation; highly original concepts or techniques. |
+        | 70–89       | Strong novelty; clear advancement over prior work.               |
+        | 50–69       | Moderate innovation; some new elements but largely incremental.  |
+        | 30–49       | Limited novelty; modest variation on existing methods.           |
+        | 1–29        | Derivative; little or no innovation over prior art.              |
+
+        4. IMPACT SCORE (1-100): Practical applications and real-world significance (Expected real-world applicability and long-term influence.)
+        | Score Range | Interpretation                                                            |
+        | ----------- | ------------------------------------------------------------------------- |
+        | 90–100      | High potential for real-world deployment or foundational academic impact. |
+        | 70–89       | Likely to influence future research or applications in a focused area.    |
+        | 50–69       | Modest or theoretical impact; limited practical relevance.                |
+        | 30–49       | Unlikely to influence practice or future work.                            |
+        | 1–29        | No clear impact pathway; little value outside this work.                  |
+
+        5. SENTIMENT SCORE (1-100): Positive reception indicators (Likely community reception and alignment with current trends.)
+        6. JUSTIFICATION: Brief explanation of your evaluation (Concise rationale for your scores (2–4 sentences).)
+        2. SUBJECT CLASSIFICATION: Choose the most appropriate category from:
+            {', '.join(self.subject_categories.keys())}
+        3. KEY CONTRIBUTIONS: List 2-3 main contributions
+        4. RECOMMENDATION: Brief explanation of why this paper is/isn't promising
+
+        Format your response as JSON:
+        {{
+            "quality_score": <number>,
+            "significance_score": <number>, 
+            "innovation_score": <number>, 
+            "impact_score": <number>, 
+            "sentiment_score": <number>, 
+            "justification": "<justification>",
+            "subject": "<category>",
+            "key_contributions": ["<contribution1>", "<contribution2>"],
+            "recommendation": "<brief explanation>",
+            "promising": <true/false>
+        }}
+        """
+        
+        try:
+            response = self.model.generate_content(prompt)
+            
+            # Extract JSON from response
+            response_text = response.text.strip()
+            if '```json' in response_text:
+                json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
+                if json_match:
+                    response_text = json_match.group(1)
+            
+            evaluation = json.loads(response_text)
+            
+            # Validate required fields
+            required_fields = ['quality_score', 'subject', 'key_contributions', 'recommendation', 'promising']
+            if not all(field in evaluation for field in required_fields):
+                raise ValueError("Missing required fields in evaluation")
+            
+            time.sleep(self.request_delay)  # Rate limiting
+            logger.info(f"Evaluated paper '{paper['title']}' with Gemini")
+            print(evaluation)
+            return evaluation
+            
+        except Exception as e:
+            print(f"Error evaluating paper '{paper['title']}': {e}")
+            return {
+                'quality_score': 50,
+                'significance_score': 50,
+                'innovation_score': 50,
+                'impact_score': 50,
+                'sentiment_score': 50,
+                'justification': 'Unable to evaluate',
+                'subject': 'theory',
+                'key_contributions': ['Unable to evaluate'],
+                'recommendation': 'Evaluation failed',
+                'promising': False
+            } 
     def extract_keywords(self, text: str, max_keywords: int = 10) -> List[str]:
         """Extract key terms from paper text."""
         # Simple keyword extraction using TF-IDF
@@ -308,11 +420,11 @@ class PaperCurator:
                     continue
                 
                 # Analyze significance
-                significance_score, innovation_score, impact_score, sentiment_score, justification = \
-                    self.analyze_paper_significance(paper_data)
+                result = \
+                    self.evaluate_paper_with_gemini(paper_data)
                 
                 # Skip papers below threshold
-                if significance_score < self.min_score:
+                if result.get("significance_score", 0) < self.min_score:
                     continue
                 
                 # Classify subject
@@ -330,13 +442,13 @@ class PaperCurator:
                     published_date=paper_data['published_date'],
                     source=paper_data['source'],
                     categories=paper_data.get('categories', []),
-                    significance_score=significance_score,
-                    innovation_score=innovation_score,
-                    impact_score=impact_score,
-                    sentiment_score=sentiment_score,
+                    significance_score=result.get("significance_score", 0),
+                    innovation_score=result.get("innovation_score", 0),
+                    impact_score=result.get("impact_score", 0),
+                    sentiment_score=result.get("sentiment_score", 0),
+                    justification=result.get("justification", "No justification provided"),
                     keywords=keywords,
                     subject_classification=subject,
-                    justification=justification,
                     paper_id=paper_id
                 )
                 
@@ -529,7 +641,7 @@ Papers are automatically selected based on:
 def main():
     """Main execution function."""
     days_back = int(os.environ.get('DAYS_BACK', 1))
-    min_score = float(os.environ.get('MIN_SCORE', 70))
+    min_score = float(os.environ.get('MIN_SCORE', 75))
     
     logger.info(f"Starting paper curation (days_back={days_back}, min_score={min_score})")
     
@@ -551,7 +663,7 @@ def main():
     logger.info(f"Found {len(unique_papers)} unique papers")
     
     # Process and analyze papers
-    processed_papers = curator.process_papers(unique_papers)
+    processed_papers = curator.process_papers(unique_papers[:10])
     logger.info(f"Processed {len(processed_papers)} papers meeting criteria")
     
     if processed_papers:
