@@ -641,7 +641,7 @@ Papers are automatically selected based on:
 def main():
     """Main execution function."""
     days_back = int(os.environ.get('DAYS_BACK', 1))
-    min_score = float(os.environ.get('MIN_SCORE', 75))
+    min_score = float(os.environ.get('MIN_SCORE', 80))
     
     logger.info(f"Starting paper curation (days_back={days_back}, min_score={min_score})")
     
@@ -663,7 +663,7 @@ def main():
     logger.info(f"Found {len(unique_papers)} unique papers")
     
     # Process and analyze papers
-    processed_papers = curator.process_papers(unique_papers[:10])
+    processed_papers = curator.process_papers(unique_papers[:100])
     logger.info(f"Processed {len(processed_papers)} papers meeting criteria")
     
     if processed_papers:

@@ -48,7 +48,7 @@ jobs:
     - name: Run paper curation script
       env:
         DAYS_BACK: ${{ github.event.inputs.days_back || '1' }}
-        MIN_SCORE: ${{ github.event.inputs.min_score || '75' }}
+        MIN_SCORE: ${{ github.event.inputs.min_score || '80' }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python .github/scripts/curate_papers.py
     
