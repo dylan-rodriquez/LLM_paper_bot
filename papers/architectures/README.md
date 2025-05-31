@@ -2,7 +2,84 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (29 total)
+
+### Localized Weather Prediction Using Kolmogorov-Arnold Network-Based Models and Deep RNNs
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Ange-Clement Akazan, Verlon Roel Mbingui, Gnankan Landry Regis N'guessan, Issa Karambal
+
+arXiv:2505.22686v1 Announce Type: new 
+Abstract: Weather forecasting is crucial for managing risks and economic planning, particularly in tropical Africa, where extreme events severely impact liveliho...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22686) | [📝 Analysis](8501a4163c8e084445cf2091e20cf4b1.md)
+
+---
+
+### Update Your Transformer to the Latest Release: Re-Basin of Task Vectors
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Filippo Rinaldi, Giacomo Capitani, Lorenzo Bonicelli, Donato Crisostomi, Federico Bolelli, Elisa Ficarra, Emanuele Rodol\`a, Simone Calderara, Angelo Porrello
+
+arXiv:2505.22697v1 Announce Type: new 
+Abstract: Foundation models serve as the backbone for numerous specialized models developed through fine-tuning. However, when the underlying pretrained model is...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22697) | [📝 Analysis](e01a6b51c8755746c164edf73a99f04d.md)
+
+---
+
+### Neural Interpretable PDEs: Harmonizing Fourier Insights with Attention for Scalable and Interpretable Physics Discovery
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Ning Liu, Yue Yu
+
+arXiv:2505.23106v1 Announce Type: new 
+Abstract: Attention mechanisms have emerged as transformative tools in core AI domains such as natural language processing and computer vision. Yet, their largel...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23106) | [📝 Analysis](da6ba7d02a5f095d1a6c0436d6afb9c4.md)
+
+---
+
+### Improving the Effective Receptive Field of Message-Passing Neural Networks
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Shahaf E. Finder, Ron Shapira Weber, Moshe Eliasof, Oren Freifeld, Eran Treister
+
+arXiv:2505.23185v1 Announce Type: new 
+Abstract: Message-Passing Neural Networks (MPNNs) have become a cornerstone for processing and analyzing graph-structured data. However, their effectiveness is o...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23185) | [📝 Analysis](6d0fb86a86e775e3d1f6b95be17d4ae8.md)
+
+---
+
+### DeepRTE: Pre-trained Attention-based Neural Network for Radiative Tranfer
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Yekun Zhu, Min Tang, Zheng Ma
+
+arXiv:2505.23190v1 Announce Type: new 
+Abstract: In this study, we propose a novel neural network approach, termed DeepRTE, to address the steady-state Radiative Transfer Equation (RTE). The RTE is a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23190) | [📝 Analysis](daab479378a9d2c51b9b82f9e02e622b.md)
+
+---
+
+### X-Factor: Quality Is a Dataset-Intrinsic Property
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Josiah Couch, Miao Li, Rima Arnaout, Ramy Arnaout
+
+arXiv:2505.22813v1 Announce Type: new 
+Abstract: In the universal quest to optimize machine-learning classifiers, three factors -- model architecture, dataset size, and class balance -- have been show...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22813) | [📝 Analysis](b8b0096633979675dcd26f3ee8774d4f.md)
+
+---
+
+### Equivariant Spherical Transformer for Efficient Molecular Modeling
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Junyi An, Xinyu Lu, Chao Qu, Yunfei Shi, Peijia Lin, Qianwei Tang, Licheng Xu, Fenglei Cao, Yuan Qi
+
+arXiv:2505.23086v1 Announce Type: new 
+Abstract: SE(3)-equivariant Graph Neural Networks (GNNs) have significantly advanced molecular system modeling by employing group representations. However, their...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23086) | [📝 Analysis](d9abdebb32b1ade6659d49387ef9d887.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +324,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

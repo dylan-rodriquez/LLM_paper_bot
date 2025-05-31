@@ -1663,7 +1663,967 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Development and Validation of SXI++ LNM Algorithm for Sepsis Prediction",
+      "authors": [
+        "Dharambir Mahto, Prashant Yadav, Mahesh Banavar, Jim Keany, Alan T Joseph, Srinivas Kilambi"
+      ],
+      "abstract": "arXiv:2505.22840v1 Announce Type: new \nAbstract: Sepsis is a life-threatening condition affecting over 48.9 million people globally and causing 11 million deaths annually. Despite medical advancements, predicting sepsis remains a challenge due to non-specific symptoms and complex pathophysiology. The SXI++ LNM is a machine learning scoring system that refines sepsis prediction by leveraging multiple algorithms and deep neural networks. This study aims to improve robustness in clinical applications and evaluates the predictive performance of the SXI++ LNM for sepsis prediction. The model, utilizing a deep neural network, was trained and tested using multiple scenarios with different dataset distributions. The model's performance was assessed against unseen test data, and accuracy, precision, and area under the curve (AUC) were calculated. THE SXI++ LNM outperformed the state of the art in three use cases, achieving an AUC of 0.99 (95% CI: 0.98-1.00). The model demonstrated a precision of 99.9% (95% CI: 99.8-100.0) and an accuracy of 99.99% (95% CI: 99.98-100.0), maintaining high reliability.",
+      "url": "https://arxiv.org/abs/2505.22840",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "99",
+        "sepsis",
+        "lnm",
+        "sxi",
+        "sxi lnm",
+        "95",
+        "95 ci",
+        "99 95",
+        "ci",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "The research addresses a critical medical problem (sepsis prediction) with a potentially high-impact solution. The reported AUC of 0.99 is impressive, suggesting a robust model. While leveraging deep neural networks isn't entirely novel, the 'SXI++ LNM' refinement and its performance against state-of-the-art methods indicate a worthwhile contribution. The focus on multiple dataset distributions strengthens the study's rigor.",
+      "paper_id": "e6d6095ba63019d55bc8125cbe632089"
+    },
+    {
+      "title": "LUMION: Fast Fault Recovery for ML Jobs Using Programmable Optical Fabrics",
+      "authors": [
+        "Abhishek Vijaya Kumar, Eric Ding, Arjun Devraj, Darius Bunandar, Rachee Singh"
+      ],
+      "abstract": "arXiv:2505.23105v1 Announce Type: new \nAbstract: When accelerators fail in modern ML datacenters, operators migrate the affected ML training or inference jobs to entirely new racks. This approach, while preserving network performance, is highly inefficient, requiring datacenters to reserve full racks of idle accelerators for fault tolerance. In this paper, we address this resource inefficiency by introducing LUMION, a novel reconfigurable optical fabric for connecting accelerators within a datacenter rack. Instead of migrating entire ML jobs, LUMION dynamically integrates spare accelerators into ongoing workloads as failures occur, thereby maintaining consistent performance without costly migrations. We show the benefits of LUMION by building an end-to-end hardware prototype. Our experiments fine-tune Llama 3.2 and show that LUMION swaps a failed GPU with a healthy one and restarts the ML job within ~ 1 second of the failure. LUMION achieves higher inter-GPU bandwidth compared to traditional electrical racks after replacing failed accelerators with spare ones, leading to nearly 2X improvement in fine-tuning throughput.",
+      "url": "https://arxiv.org/abs/2505.23105",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 88,
+      "innovation_score": 75,
+      "impact_score": 82,
+      "sentiment_score": 80,
+      "keywords": [
+        "lumion",
+        "accelerators",
+        "ml",
+        "jobs",
+        "racks",
+        "datacenters",
+        "end",
+        "failed",
+        "fault",
+        "fine"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a significant problem in ML datacenter efficiency \u2013 the high cost of rack-level fault tolerance. The proposed LUMION system, utilizing reconfigurable optical fabrics, offers a compelling alternative to full job migration, demonstrating a fast recovery time (~1 second). The prototype build and Llama 3.2 fine-tuning results add credibility, though more extensive evaluation across diverse workloads would strengthen the findings. The approach is novel and has the potential to reduce datacenter costs and improve ML job stability.",
+      "paper_id": "082f02dc1a229a2308b3d0e1a9220f9a"
+    },
+    {
+      "title": "Private Rate-Constrained Optimization with Applications to Fair Learning",
+      "authors": [
+        "Mohammad Yaghini, Tudor Cebere, Michael Menart, Aur\\'elien Bellet, Nicolas Papernot"
+      ],
+      "abstract": "arXiv:2505.22703v1 Announce Type: new \nAbstract: Many problems in trustworthy ML can be formulated as minimization of the model error under constraints on the prediction rates of the model for suitably-chosen marginals, including most group fairness constraints (demographic parity, equality of odds, etc.). In this work, we study such constrained minimization problems under differential privacy (DP). Standard DP optimization techniques like DP-SGD rely on the loss function's decomposability into per-sample contributions. However, rate constraints introduce inter-sample dependencies, violating the decomposability requirement. To address this, we develop RaCO-DP, a DP variant of the Stochastic Gradient Descent-Ascent (SGDA) algorithm which solves the Lagrangian formulation of rate constraint problems. We demonstrate that the additional privacy cost of incorporating these constraints reduces to privately estimating a histogram over the mini-batch at each optimization step. We prove the convergence of our algorithm through a novel analysis of SGDA that leverages the linear structure of the dual parameter. Finally, empirical results on learning under group fairness constraints demonstrate that our method Pareto-dominates existing private learning approaches in fairness-utility trade-offs.",
+      "url": "https://arxiv.org/abs/2505.22703",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "constraints",
+        "dp",
+        "fairness",
+        "learning",
+        "optimization",
+        "problems",
+        "rate",
+        "algorithm",
+        "constrained",
+        "decomposability"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in trustworthy ML \u2013 combining differential privacy with rate constraints, which are essential for fairness. The development of RaCO-DP to address the decomposability issue with standard DP-SGD is a solid contribution. The reduction of the privacy cost to histogram estimation is a clever optimization, and the abstract suggests rigorous proof of convergence. The topic is highly relevant given the increasing focus on fairness and privacy in machine learning.",
+      "paper_id": "07b0122af721c46d2a5d1dd1eedd46d6"
+    },
+    {
+      "title": "Calibrated Value-Aware Model Learning with Stochastic Environment Models",
+      "authors": [
+        "Claas Voelcker, Anastasiia Pedan, Arash Ahmadian, Romina Abachi, Igor Gilitschenski, Amir-massoud Farahmand"
+      ],
+      "abstract": "arXiv:2505.22772v1 Announce Type: new \nAbstract: The idea of value-aware model learning, that models should produce accurate value estimates, has gained prominence in model-based reinforcement learning. The MuZero loss, which penalizes a model's value function prediction compared to the ground-truth value function, has been utilized in several prominent empirical works in the literature. However, theoretical investigation into its strengths and weaknesses is limited. In this paper, we analyze the family of value-aware model learning losses, which includes the popular MuZero loss. We show that these losses, as normally used, are uncalibrated surrogate losses, which means that they do not always recover the correct model and value function. Building on this insight, we propose corrections to solve this issue. Furthermore, we investigate the interplay between the loss calibration, latent model architectures, and auxiliary losses that are commonly employed when training MuZero-style agents. We show that while deterministic models can be sufficient to predict accurate values, learning calibrated stochastic models is still advantageous.",
+      "url": "https://arxiv.org/abs/2505.22772",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "model",
+        "value",
+        "learning",
+        "losses",
+        "models",
+        "aware",
+        "aware model",
+        "function",
+        "loss",
+        "model learning"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial theoretical gap in value-aware model learning, specifically regarding the calibration of losses like MuZero. Identifying and correcting uncalibrated surrogate losses is a significant contribution, potentially leading to more robust and reliable model-based RL agents. The investigation into the interplay of loss calibration, architectures, and auxiliary losses suggests a comprehensive approach to improving MuZero-style agents. The work appears rigorous and addresses a relevant problem within the RL community.",
+      "paper_id": "30f5f8c3e9cfb28d2a1fba0b560e69a7"
+    },
+    {
+      "title": "Machine Learning Models Have a Supply Chain Problem",
+      "authors": [
+        "Sarah Meiklejohn, Hayden Blauzvern, Mihai Maruseac, Spencer Schrock, Laurent Simon, Ilia Shumailov"
+      ],
+      "abstract": "arXiv:2505.22778v1 Announce Type: new \nAbstract: Powerful machine learning (ML) models are now readily available online, which creates exciting possibilities for users who lack the deep technical expertise or substantial computing resources needed to develop them. On the other hand, this type of open ecosystem comes with many risks. In this paper, we argue that the current ecosystem for open ML models contains significant supply-chain risks, some of which have been exploited already in real attacks. These include an attacker replacing a model with something malicious (e.g., malware), or a model being trained using a vulnerable version of a framework or on restricted or poisoned data. We then explore how Sigstore, a solution designed to bring transparency to open-source software supply chains, can be used to bring transparency to open ML models, in terms of enabling model publishers to sign their models and prove properties about the datasets they use.",
+      "url": "https://arxiv.org/abs/2505.22778",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "models",
+        "open",
+        "ml",
+        "ml models",
+        "model",
+        "supply",
+        "bring",
+        "bring transparency",
+        "chain",
+        "ecosystem"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very timely and important problem \u2013 the security of the open ML model supply chain. The argument is well-articulated and the proposed exploration of Sigstore as a potential solution is logical. While the core idea of applying supply chain security principles isn't entirely novel, its application to ML models is a valuable contribution, and the potential impact is significant given the increasing reliance on pre-trained models.",
+      "paper_id": "007cfcaab36bbebd1be0cda65343c855"
+    },
+    {
+      "title": "CLUE: Neural Networks Calibration via Learning Uncertainty-Error alignment",
+      "authors": [
+        "Pedro Mendes, Paolo Romano, David Garlan"
+      ],
+      "abstract": "arXiv:2505.22803v1 Announce Type: new \nAbstract: Reliable uncertainty estimation is critical for deploying neural networks (NNs) in real-world applications. While existing calibration techniques often rely on post-hoc adjustments or coarse-grained binning methods, they remain limited in scalability, differentiability, and generalization across domains. In this work, we introduce CLUE (Calibration via Learning Uncertainty-Error Alignment), a novel approach that explicitly aligns predicted uncertainty with observed error during training, grounded in the principle that well-calibrated models should produce uncertainty estimates that match their empirical loss. CLUE adopts a novel loss function that jointly optimizes predictive performance and calibration, using summary statistics of uncertainty and loss as proxies. The proposed method is fully differentiable, domain-agnostic, and compatible with standard training pipelines. Through extensive experiments on vision, regression, and language modeling tasks, including out-of-distribution and domain-shift scenarios, we demonstrate that CLUE achieves superior calibration quality and competitive predictive performance with respect to state-of-the-art approaches without imposing significant computational overhead.",
+      "url": "https://arxiv.org/abs/2505.22803",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "uncertainty",
+        "calibration",
+        "clue",
+        "error",
+        "loss",
+        "alignment",
+        "calibration learning",
+        "domain",
+        "error alignment",
+        "learning"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a crucial problem in deploying neural networks \u2013 calibration \u2013 and proposes a novel approach (CLUE) that appears to overcome limitations of existing methods. The focus on aligning uncertainty with error during training, and the claim of differentiability and domain-agnosticism, are strong points. While the abstract doesn't detail the specifics of the loss function, the overall framing suggests a well-considered methodology. The broad experimental scope (vision, regression, language) further strengthens the potential impact.",
+      "paper_id": "5445500ec173ca7030e8f1744073838d"
+    },
+    {
+      "title": "How Do Diffusion Models Improve Adversarial Robustness?",
+      "authors": [
+        "Liu Yuezhang, Xue-Xin Wei"
+      ],
+      "abstract": "arXiv:2505.22839v1 Announce Type: new \nAbstract: Recent findings suggest that diffusion models significantly enhance empirical adversarial robustness. While some intuitive explanations have been proposed, the precise mechanisms underlying these improvements remain unclear. In this work, we systematically investigate how and how well diffusion models improve adversarial robustness. First, we observe that diffusion models intriguingly increase, rather than decrease, the $\\ell_p$ distance to clean samples--challenging the intuition that purification denoises inputs closer to the original data. Second, we find that the purified images are heavily influenced by the internal randomness of diffusion models, where a compression effect arises within each randomness configuration. Motivated by this observation, we evaluate robustness under fixed randomness and find that the improvement drops to approximately 24% on CIFAR-10--substantially lower than prior reports approaching 70%. Importantly, we show that this remaining robustness gain strongly correlates with the model's ability to compress the input space, revealing the compression rate as a reliable robustness indicator without requiring gradient-based analysis. Our findings provide novel insights into the mechanisms underlying diffusion-based purification, and offer guidance for developing more effective and principled adversarial purification systems.",
+      "url": "https://arxiv.org/abs/2505.22839",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 78,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "diffusion",
+        "robustness",
+        "diffusion models",
+        "models",
+        "adversarial",
+        "adversarial robustness",
+        "purification",
+        "randomness",
+        "based",
+        "compression"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial question regarding the observed adversarial robustness of diffusion models. The counter-intuitive finding that diffusion models *increase* distance to clean samples, and the subsequent analysis of randomness influencing robustness, are strong points. The observed drop in robustness when fixing randomness is particularly compelling and suggests a fragility in the reported gains, indicating a need for more careful evaluation of these models. The work is well-motivated and the initial results are presented clearly.",
+      "paper_id": "161f2aedac91f3e7e5dfc48b5ee30b0f"
+    },
+    {
+      "title": "Kernel-Smoothed Scores for Denoising Diffusion: A Bias-Variance Study",
+      "authors": [
+        "Franck Gabriel, Fran\\c{c}ois Ged, Maria Han Veiga, Emmanuel Schertzer"
+      ],
+      "abstract": "arXiv:2505.22841v1 Announce Type: new \nAbstract: Diffusion models now set the benchmark in high-fidelity generative sampling, yet they can, in principle, be prone to memorization. In this case, their learned score overfits the finite dataset so that the reverse-time SDE samples are mostly training points. In this paper, we interpret the empirical score as a noisy version of the true score and show that its covariance matrix is asymptotically a re-weighted data PCA. In large dimension, the small time limit makes the noise variance blow up while simultaneously reducing spatial correlation. To reduce this variance, we introduce a kernel-smoothed empirical score and analyze its bias-variance trade-off. We derive asymptotic bounds on the Kullback-Leibler divergence between the true distribution and the one generated by the modified reverse SDE. Regularization on the score has the same effect as increasing the size of the training dataset, and thus helps prevent memorization. A spectral decomposition of the forward diffusion suggests better variance control under some regularity conditions of the true data distribution. Reverse diffusion with kernel-smoothed empirical score can be reformulated as a gradient descent drifted toward a Log-Exponential Double-Kernel Density Estimator (LED-KDE). This perspective highlights two regularization mechanisms taking place in denoising diffusions: an initial Gaussian kernel first diffuses mass isotropically in the ambient space, while a second kernel applied in score space concentrates and spreads that mass along the data manifold. Hence, even a straightforward regularization-without any learning-already mitigates memorization and enhances generalization. Numerically, we illustrate our results with several experiments on synthetic and MNIST datasets.",
+      "url": "https://arxiv.org/abs/2505.22841",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "score",
+        "kernel",
+        "variance",
+        "diffusion",
+        "data",
+        "empirical",
+        "empirical score",
+        "kernel smoothed",
+        "memorization",
+        "regularization"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in diffusion models \u2013 memorization \u2013 and offers a theoretically grounded approach to mitigate it. The analysis of the empirical score as a noisy version of the true score, and its connection to data PCA, is insightful. The kernel smoothing technique and the derived asymptotic bounds suggest a rigorous methodology, though the 'spectral deco...' truncation in the abstract leaves some ambiguity about the full scope of the work.",
+      "paper_id": "0fed18beaf31ebb880f96e6c8c4261d7"
+    },
+    {
+      "title": "Defining Foundation Models for Computational Science: A Call for Clarity and Rigor",
+      "authors": [
+        "Youngsoo Choi, Siu Wun Cheung, Youngkyu Kim, Ping-Hsuan Tsai, Alejandro N. Diaz, Ivan Zanardi, Seung Whan Chung, Dylan Matthew Copeland, Coleman Kendrick, William Anderson, Traian Iliescu, Matthias Heinkenschloss"
+      ],
+      "abstract": "arXiv:2505.22904v1 Announce Type: new \nAbstract: The widespread success of foundation models in natural language processing and computer vision has inspired researchers to extend the concept to scientific machine learning and computational science. However, this position paper argues that as the term \"foundation model\" is an evolving concept, its application in computational science is increasingly used without a universally accepted definition, potentially creating confusion and diluting its precise scientific meaning. In this paper, we address this gap by proposing a formal definition of foundation models in computational science, grounded in the core values of generality, reusability, and scalability. We articulate a set of essential and desirable characteristics that such models must exhibit, drawing parallels with traditional foundational methods, like the finite element and finite volume methods. Furthermore, we introduce the Data-Driven Finite Element Method (DD-FEM), a framework that fuses the modular structure of classical FEM with the representational power of data-driven learning. We demonstrate how DD-FEM addresses many of the key challenges in realizing foundation models for computational science, including scalability, adaptability, and physics consistency. By bridging traditional numerical methods with modern AI paradigms, this work provides a rigorous foundation for evaluating and developing novel approaches toward future foundation models in computational science.",
+      "url": "https://arxiv.org/abs/2505.22904",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "foundation",
+        "computational",
+        "computational science",
+        "models",
+        "science",
+        "foundation models",
+        "models computational",
+        "fem",
+        "finite",
+        "methods"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial issue \u2013 the lack of a clear definition for 'foundation models' in computational science. The attempt to formalize the concept and ground it in established scientific methods is valuable, and the introduction of DD-FEM suggests a concrete direction. While the innovation isn't groundbreaking, the clarity and rigor it aims for are highly relevant and likely to be well-received by the community.",
+      "paper_id": "fc832d6ea730e6639d9946e85f02e818"
+    },
+    {
+      "title": "Model-Preserving Adaptive Rounding",
+      "authors": [
+        "Albert Tseng, Zhaofeng Sun, Christopher De Sa"
+      ],
+      "abstract": "arXiv:2505.22988v1 Announce Type: new \nAbstract: The main goal of post-training quantization (PTQ) is to produced a compressed model whose output distribution is as close to the original model's as possible. To do this tractably, almost all LLM PTQ algorithms quantize linear layers by independently minimizing the immediate activation error. However, this localized objective ignores the effect of subsequent layers, so reducing it does not necessarily give a closer model. In this work, we introduce Yet Another Quantization Algorithm (YAQA), an adaptive rounding algorithm that uses Kronecker-factored approximations of each linear layer's Hessian with respect to the \\textit{full model} KL divergence. YAQA consists of two components: Kronecker-factored sketches of the full layerwise Hessian that can be tractably computed for hundred-billion parameter LLMs, and a quantizer-independent rounding algorithm that uses these sketches and comes with theoretical guarantees. Across a wide range of models and quantizers, YAQA empirically reduces the KL divergence to the original model by $\\approx 30\\%$ while achieving state of the art performance on downstream tasks.",
+      "url": "https://arxiv.org/abs/2505.22988",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 75,
+      "keywords": [
+        "model",
+        "algorithm",
+        "rounding",
+        "yaqa",
+        "adaptive",
+        "adaptive rounding",
+        "algorithm uses",
+        "divergence",
+        "factored",
+        "hessian"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in LLM deployment \u2013 post-training quantization \u2013 and proposes a novel approach (YAQA) that moves beyond independent layer optimization. The use of Kronecker-factored Hessian approximations for the full model KL divergence is a clever technique to address tractability issues with large models. While the abstract doesn't detail experimental results, the theoretical guarantees and focus on a practical problem suggest strong potential. The 'Yet Another Quantization Algorithm' naming convention is slightly uninspired, but doesn't detract from the core idea.",
+      "paper_id": "d0d943c62e1e408133c53c2d97fd47cf"
+    },
+    {
+      "title": "Hybrid Cross-domain Robust Reinforcement Learning",
+      "authors": [
+        "Linh Le Pham Van, Minh Hoang Nguyen, Hung Le, Hung The Tran, Sunil Gupta"
+      ],
+      "abstract": "arXiv:2505.23003v1 Announce Type: new \nAbstract: Robust reinforcement learning (RL) aims to learn policies that remain effective despite uncertainties in its environment, which frequently arise in real-world applications due to variations in environment dynamics. The robust RL methods learn a robust policy by maximizing value under the worst-case models within a predefined uncertainty set. Offline robust RL algorithms are particularly promising in scenarios where only a fixed dataset is available and new data cannot be collected. However, these approaches often require extensive offline data, and gathering such datasets for specific tasks in specific environments can be both costly and time-consuming. Using an imperfect simulator offers a faster, cheaper, and safer way to collect data for training, but it can suffer from dynamics mismatch. In this paper, we introduce HYDRO, the first Hybrid Cross-Domain Robust RL framework designed to address these challenges. HYDRO utilizes an online simulator to complement the limited amount of offline datasets in the non-trivial context of robust RL. By measuring and minimizing performance gaps between the simulator and the worst-case models in the uncertainty set, HYDRO employs novel uncertainty filtering and prioritized sampling to select the most relevant and reliable simulator samples. Our extensive experiments demonstrate HYDRO's superior performance over existing methods across various tasks, underscoring its potential to improve sample efficiency in offline robust RL.",
+      "url": "https://arxiv.org/abs/2505.23003",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "robust",
+        "rl",
+        "robust rl",
+        "hydro",
+        "offline",
+        "simulator",
+        "data",
+        "uncertainty",
+        "case",
+        "case models"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a significant challenge in RL \u2013 robustness and data efficiency, particularly in offline settings. The 'Hybrid Cross-Domain Robust RL' (HYDRO) framework appears novel in its attempt to combine online learning with imperfect simulators to overcome data scarcity. While the abstract is brief, the problem statement is well-defined and the proposed approach seems logically sound, suggesting a good potential for positive reception within the RL community. The focus on practical concerns like cost and safety of data collection further strengthens its appeal.",
+      "paper_id": "b87dd86c866f1fa9ea67843cc3e88b35"
+    },
+    {
+      "title": "Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift",
+      "authors": [
+        "Minh Nguyen Nhat To, Paul F RWilson, Viet Nguyen, Mohamed Harmanani, Michael Cooper, Fahimeh Fooladgar, Purang Abolmaesumi, Parvin Mousavi, Rahul G. Krishnan"
+      ],
+      "abstract": "arXiv:2505.23027v1 Announce Type: new \nAbstract: The subpopulationtion shift, characterized by a disparity in subpopulation distributibetween theween the training and target datasets, can significantly degrade the performance of machine learning models. Current solutions to subpopulation shift involve modifying empirical risk minimization with re-weighting strategies to improve generalization. This strategy relies on assumptions about the number and nature of subpopulations and annotations on group membership, which are unavailable for many real-world datasets. Instead, we propose using an ensemble of diverse classifiers to adaptively capture risk associated with subpopulations. Given a feature extractor network, we replace its standard linear classification layer with a mixture of prototypical classifiers, where each member is trained to classify the data while focusing on different features and samples from other members. In empirical evaluation on nine real-world datasets, covering diverse domains and kinds of subpopulation shift, our method of Diverse Prototypical Ensembles (DPEs) often outperforms the prior state-of-the-art in worst-group accuracy. The code is available at https://github.com/minhto2802/dpe4subpop",
+      "url": "https://arxiv.org/abs/2505.23027",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "diverse",
+        "shift",
+        "subpopulation",
+        "datasets",
+        "prototypical",
+        "subpopulation shift",
+        "classifiers",
+        "diverse prototypical",
+        "empirical",
+        "ensembles"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a significant problem \u2013 subpopulation shift \u2013 which is common in real-world machine learning applications. The proposed approach of using diverse prototypical ensembles is a reasonable and potentially effective alternative to re-weighting strategies, especially when group membership information is unavailable. The empirical evaluation on nine datasets suggests a solid methodology, though the abstract doesn't detail the extent of improvement over existing methods. The work appears well-aligned with current research trends in robust machine learning.",
+      "paper_id": "a2396f50d5f1f0a8ef226988821f0418"
+    },
+    {
+      "title": "MAP: Revisiting Weight Decomposition for Low-Rank Adaptation",
+      "authors": [
+        "Chongjie Si, Zhiyi Shi, Yadao Wang, Xiaokang Yang, Susanto Rahardja, Wei Shen"
+      ],
+      "abstract": "arXiv:2505.23094v1 Announce Type: new \nAbstract: The rapid development of large language models has revolutionized natural language processing, but their fine-tuning remains computationally expensive, hindering broad deployment. Parameter-efficient fine-tuning (PEFT) methods, such as LoRA, have emerged as solutions. Recent work like DoRA attempts to further decompose weight adaptation into direction and magnitude components. However, existing formulations often define direction heuristically at the column level, lacking a principled geometric foundation. In this paper, we propose MAP, a novel framework that reformulates weight matrices as high-dimensional vectors and decouples their adaptation into direction and magnitude in a rigorous manner. MAP normalizes the pre-trained weights, learns a directional update, and introduces two scalar coefficients to independently scale the magnitude of the base and update vectors. This design enables more interpretable and flexible adaptation, and can be seamlessly integrated into existing PEFT methods. Extensive experiments show that MAP significantly improves performance when coupling with existing methods, offering a simple yet powerful enhancement to existing PEFT methods. Given the universality and simplicity of MAP, we hope it can serve as a default setting for designing future PEFT methods.",
+      "url": "https://arxiv.org/abs/2505.23094",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "map",
+        "methods",
+        "adaptation",
+        "existing",
+        "peft",
+        "peft methods",
+        "direction",
+        "magnitude",
+        "weight",
+        "adaptation direction"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant and important problem in LLM fine-tuning \u2013 the computational cost. The proposed MAP framework appears to offer a more principled approach to weight decomposition than existing methods like DoRA, grounding it in geometric considerations. While the abstract doesn't detail experimental results, the described methodology suggests potential for improved performance and interpretability, making it a promising contribution to the PEFT field.",
+      "paper_id": "61350876d56b1327e686327d5b103842"
+    },
+    {
+      "title": "DOPPLER: Dual-Policy Learning for Device Assignment in Asynchronous Dataflow Graphs",
+      "authors": [
+        "Xinyu Yao, Daniel Bourgeois, Abhinav Jain, Yuxin Tang, Jiawen Yao, Zhimin Ding, Arlei Silva, Chris Jermaine"
+      ],
+      "abstract": "arXiv:2505.23131v1 Announce Type: new \nAbstract: We study the problem of assigning operations in a dataflow graph to devices to minimize execution time in a work-conserving system, with emphasis on complex machine learning workloads. Prior learning-based methods often struggle due to three key limitations: (1) reliance on bulk-synchronous systems like TensorFlow, which under-utilize devices due to barrier synchronization; (2) lack of awareness of the scheduling mechanism of underlying systems when designing learning-based methods; and (3) exclusive dependence on reinforcement learning, ignoring the structure of effective heuristics designed by experts. In this paper, we propose \\textsc{Doppler}, a three-stage framework for training dual-policy networks consisting of 1) a $\\mathsf{SEL}$ policy for selecting operations and 2) a $\\mathsf{PLC}$ policy for placing chosen operations on devices. Our experiments show that \\textsc{Doppler} outperforms all baseline methods across tasks by reducing system execution time and additionally demonstrates sampling efficiency by reducing per-episode training time.",
+      "url": "https://arxiv.org/abs/2505.23131",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 78,
+      "keywords": [
+        "learning",
+        "policy",
+        "devices",
+        "doppler",
+        "methods",
+        "operations",
+        "time",
+        "based",
+        "based methods",
+        "dataflow"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a significant problem in deploying ML workloads efficiently, particularly highlighting the limitations of current systems like TensorFlow. The dual-policy approach, combining selection and placement, and acknowledging existing heuristics is a strong methodological choice. While the abstract doesn't detail the novelty of the policies themselves, the framework appears well-motivated and likely to yield improvements over existing methods. The focus on asynchronous dataflow graphs is particularly relevant given current trends in distributed ML.",
+      "paper_id": "a5fb2e5d8c3460a3bc5f6555a0bebe15"
+    },
+    {
+      "title": "Bigger, Regularized, Categorical: High-Capacity Value Functions are Efficient Multi-Task Learners",
+      "authors": [
+        "Michal Nauman, Marek Cygan, Carmelo Sferrazza, Aviral Kumar, Pieter Abbeel"
+      ],
+      "abstract": "arXiv:2505.23150v1 Announce Type: new \nAbstract: Recent advances in language modeling and vision stem from training large models on diverse, multi-task data. This paradigm has had limited impact in value-based reinforcement learning (RL), where improvements are often driven by small models trained in a single-task context. This is because in multi-task RL sparse rewards and gradient conflicts make optimization of temporal difference brittle. Practical workflows for generalist policies therefore avoid online training, instead cloning expert trajectories or distilling collections of single-task policies into one agent. In this work, we show that the use of high-capacity value models trained via cross-entropy and conditioned on learnable task embeddings addresses the problem of task interference in online RL, allowing for robust and scalable multi-task training. We test our approach on 7 multi-task benchmarks with over 280 unique tasks, spanning high degree-of-freedom humanoid control and discrete vision-based RL. We find that, despite its simplicity, the proposed approach leads to state-of-the-art single and multi-task performance, as well as sample-efficient transfer to new tasks.",
+      "url": "https://arxiv.org/abs/2505.23150",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "task",
+        "multi",
+        "multi task",
+        "rl",
+        "high",
+        "models",
+        "single",
+        "training",
+        "value",
+        "approach"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a crucial bottleneck in RL \u2013 scaling to multi-task environments. The approach of using high-capacity value functions with task embeddings to mitigate interference is a promising direction, and the scale of the benchmarks (280+ tasks) is impressive. While the core idea isn't entirely novel (task embeddings are common), the combination with high-capacity models and cross-entropy training appears to be a significant advancement. The abstract suggests a robust and scalable solution, which is highly desirable in the field.",
+      "paper_id": "7e8f6a82c7ed928fd6c937b16c3e0a73"
+    },
+    {
+      "title": "Matryoshka Model Learning for Improved Elastic Student Models",
+      "authors": [
+        "Chetan Verma, Aditya Srinivas Timmaraju, Cho Jui-Hsieh, Suyash Damle, Ngot Bui, Yang Zhang, Wen Chen, Xin Liu, Prateek Jain, Inderjit S Dhillon"
+      ],
+      "abstract": "arXiv:2505.23337v1 Announce Type: new \nAbstract: Industry-grade ML models are carefully designed to meet rapidly evolving serving constraints, which requires significant resources for model development. In this paper, we propose MatTA, a framework for training multiple accurate Student models using a novel Teacher-TA-Student recipe. TA models are larger versions of the Student models with higher capacity, and thus allow Student models to better relate to the Teacher model and also bring in more domain-specific expertise. Furthermore, multiple accurate Student models can be extracted from the TA model. Therefore, despite only one training run, our methodology provides multiple servable options to trade off accuracy for lower serving cost. We demonstrate the proposed method, MatTA, on proprietary datasets and models. Its practical efficacy is underscored by live A/B tests within a production ML system, demonstrating 20% improvement on a key metric. We also demonstrate our method on GPT-2 Medium, a public model, and achieve relative improvements of over 24% on SAT Math and over 10% on the LAMBADA benchmark.",
+      "url": "https://arxiv.org/abs/2505.23337",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "student",
+        "model",
+        "student models",
+        "multiple",
+        "ta",
+        "accurate",
+        "accurate student",
+        "demonstrate",
+        "matta"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a very practical problem in ML deployment \u2013 balancing accuracy and serving cost. The 'MatTA' framework with the Teacher-TA-Student approach seems well-motivated and the reported 20% improvement in a live A/B test is compelling. While the core idea isn't entirely novel (knowledge distillation is well-established), the specific TA model approach and the ability to generate multiple model options from a single training run is a valuable contribution. The use of proprietary datasets is a slight drawback for reproducibility, but the GPT-2 demonstration helps.",
+      "paper_id": "909955755302c46721e054da065b4bf4"
+    },
+    {
+      "title": "Sentinel: Scheduling Live Streams with Proactive Anomaly Detection in Crowdsourced Cloud-Edge Platforms",
+      "authors": [
+        "Yuting Li, Shaoyuan Huang, Tengwen Zhang, Cheng Zhang, Xiaofei Wang, Victor C. M. Leung"
+      ],
+      "abstract": "arXiv:2505.23347v1 Announce Type: new \nAbstract: With the rapid growth of live streaming services, Crowdsourced Cloud-edge service Platforms (CCPs) are playing an increasingly important role in meeting the increasing demand. Although stream scheduling plays a critical role in optimizing CCPs' revenue, most optimization strategies struggle to achieve practical results due to various anomalies in unstable CCPs. Additionally, the substantial scale of CCPs magnifies the difficulties of anomaly detection in time-sensitive scheduling. To tackle these challenges, this paper proposes Sentinel, a proactive anomaly detection-based scheduling framework. Sentinel models the scheduling process as a two-stage Pre-Post-Scheduling paradigm: in the pre-scheduling stage, Sentinel conducts anomaly detection and constructs a strategy pool; in the post-scheduling stage, upon request arrival, it triggers an appropriate scheduling based on a pre-generated strategy to implement the scheduling process. Extensive experiments on realistic datasets show that Sentinel significantly reduces anomaly frequency by 70%, improves revenue by 74%, and doubles the scheduling speed.",
+      "url": "https://arxiv.org/abs/2505.23347",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "scheduling",
+        "anomaly",
+        "sentinel",
+        "anomaly detection",
+        "ccps",
+        "detection",
+        "pre",
+        "stage",
+        "based",
+        "cloud"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant and growing problem in live streaming \u2013 efficient scheduling in dynamic, crowdsourced environments. The 'Pre-Post-Scheduling' paradigm with proactive anomaly detection seems like a reasonable approach to tackle instability. While the concept isn't entirely groundbreaking, the combination of anomaly detection *with* scheduling optimization is a solid contribution. The abstract suggests a well-structured approach, and the problem's practical relevance is high.",
+      "paper_id": "fbe720561c22e8316e8a11c6d2e99719"
+    },
+    {
+      "title": "Grower-in-the-Loop Interactive Reinforcement Learning for Greenhouse Climate Control",
+      "authors": [
+        "Maxiu Xiao, Jianglin Lan, Jingxing Yu, Eldert van Henten, Congcong Sun"
+      ],
+      "abstract": "arXiv:2505.23355v1 Announce Type: new \nAbstract: Climate control is crucial for greenhouse production as it directly affects crop growth and resource use. Reinforcement learning (RL) has received increasing attention in this field, but still faces challenges, including limited training efficiency and high reliance on initial learning conditions. Interactive RL, which combines human (grower) input with the RL agent's learning, offers a potential solution to overcome these challenges. However, interactive RL has not yet been applied to greenhouse climate control and may face challenges related to imperfect inputs. Therefore, this paper aims to explore the possibility and performance of applying interactive RL with imperfect inputs into greenhouse climate control, by: (1) developing three representative interactive RL algorithms tailored for greenhouse climate control (reward shaping, policy shaping and control sharing); (2) analyzing how input characteristics are often contradicting, and how the trade-offs between them make grower's inputs difficult to perfect; (3) proposing a neural network-based approach to enhance the robustness of interactive RL agents under limited input availability; (4) conducting a comprehensive evaluation of the three interactive RL algorithms with imperfect inputs in a simulated greenhouse environment. The demonstration shows that interactive RL incorporating imperfect grower inputs has the potential to improve the performance of the RL agent. RL algorithms that influence action selection, such as policy shaping and control sharing, perform better when dealing with imperfect inputs, achieving 8.4% and 6.8% improvement in profit, respectively. In contrast, reward shaping, an algorithm that manipulates the reward function, is sensitive to imperfect inputs and leads to a 9.4% decrease in profit. This highlights the importance of selecting an appropriate mechanism when incorporating imperfect inputs.",
+      "url": "https://arxiv.org/abs/2505.23355",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 75,
+      "keywords": [
+        "rl",
+        "inputs",
+        "interactive",
+        "control",
+        "imperfect",
+        "interactive rl",
+        "greenhouse",
+        "imperfect inputs",
+        "climate",
+        "climate control"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant and important problem \u2013 improving efficiency and robustness of RL in greenhouse climate control, a field with significant practical implications. The exploration of interactive RL, particularly acknowledging imperfect grower input, is a sensible and potentially impactful direction. While the development of three algorithms is a good start, the abstract doesn't detail the novelty of these algorithms beyond simply applying interactive RL techniques. The focus on contradicting inputs is also a strong point, suggesting a realistic approach.",
+      "paper_id": "134f4f7cc45159c593f20eafff06dcbf"
+    },
+    {
+      "title": "Meta-Learning Approaches for Speaker-Dependent Voice Fatigue Models",
+      "authors": [
+        "Roseline Polle, Agnes Norbury, Alexandra Livia Georgescu, Nicholas Cummins, Stefano Goria"
+      ],
+      "abstract": "arXiv:2505.23378v1 Announce Type: new \nAbstract: Speaker-dependent modelling can substantially improve performance in speech-based health monitoring applications. While mixed-effect models are commonly used for such speaker adaptation, they require computationally expensive retraining for each new observation, making them impractical in a production environment. We reformulate this task as a meta-learning problem and explore three approaches of increasing complexity: ensemble-based distance models, prototypical networks, and transformer-based sequence models. Using pre-trained speech embeddings, we evaluate these methods on a large longitudinal dataset of shift workers (N=1,185, 10,286 recordings), predicting time since sleep from speech as a function of fatigue, a symptom commonly associated with ill-health. Our results demonstrate that all meta-learning approaches tested outperformed both cross-sectional and conventional mixed-effects models, with a transformer-based method achieving the strongest performance.",
+      "url": "https://arxiv.org/abs/2505.23378",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "models",
+        "based",
+        "approaches",
+        "learning",
+        "meta",
+        "meta learning",
+        "speaker",
+        "speech",
+        "commonly",
+        "dependent"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a relevant problem \u2013 speaker-dependent voice fatigue modeling \u2013 and proposes a novel solution using meta-learning to overcome the limitations of traditional mixed-effects models. The evaluation on a large dataset is a strength, and the outperformance of existing methods suggests a solid methodology. The exploration of multiple meta-learning approaches (ensemble, prototypical networks, transformers) adds to the rigor and provides a comparative analysis.",
+      "paper_id": "07e1a4447aa7f50423a3e7a4c981f0f4"
+    },
+    {
+      "title": "Scaling Offline RL via Efficient and Expressive Shortcut Models",
+      "authors": [
+        "Nicolas Espinosa-Dice, Yiyi Zhang, Yiding Chen, Bradley Guo, Owen Oertell, Gokul Swamy, Kiante Brantley, Wen Sun"
+      ],
+      "abstract": "arXiv:2505.22866v1 Announce Type: new \nAbstract: Diffusion and flow models have emerged as powerful generative approaches capable of modeling diverse and multimodal behavior. However, applying these models to offline reinforcement learning (RL) remains challenging due to the iterative nature of their noise sampling processes, making policy optimization difficult. In this paper, we introduce Scalable Offline Reinforcement Learning (SORL), a new offline RL algorithm that leverages shortcut models - a novel class of generative models - to scale both training and inference. SORL's policy can capture complex data distributions and can be trained simply and efficiently in a one-stage training procedure. At test time, SORL introduces both sequential and parallel inference scaling by using the learned Q-function as a verifier. We demonstrate that SORL achieves strong performance across a range of offline RL tasks and exhibits positive scaling behavior with increased test-time compute. We release the code at nico-espinosadice.github.io/projects/sorl.",
+      "url": "https://arxiv.org/abs/2505.22866",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 85,
+      "keywords": [
+        "models",
+        "offline",
+        "sorl",
+        "rl",
+        "offline rl",
+        "scaling",
+        "behavior",
+        "generative",
+        "inference",
+        "learning"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a significant challenge in offline RL \u2013 scaling generative models like diffusion and flow models for policy optimization. The introduction of 'shortcut models' appears to be a novel approach to address the iterative sampling bottleneck, and the reported scaling behavior with increased compute is encouraging. While the abstract is concise, it suggests a well-structured approach with both training and inference improvements, making it a promising contribution to the field.",
+      "paper_id": "bb91c53a150a08969435ad8a17c045de"
+    },
+    {
+      "title": "Directed Graph Grammars for Sequence-based Learning",
+      "authors": [
+        "Michael Sun, Orion Foo, Gang Liu, Wojciech Matusik, Jie Chen"
+      ],
+      "abstract": "arXiv:2505.22949v1 Announce Type: new \nAbstract: Directed acyclic graphs (DAGs) are a class of graphs commonly used in practice, with examples that include electronic circuits, Bayesian networks, and neural architectures. While many effective encoders exist for DAGs, it remains challenging to decode them in a principled manner, because the nodes of a DAG can have many different topological orders. In this work, we propose a grammar-based approach to constructing a principled, compact and equivalent sequential representation of a DAG. Specifically, we view a graph as derivations over an unambiguous grammar, where the DAG corresponds to a unique sequence of production rules. Equivalently, the procedure to construct such a description can be viewed as a lossless compression of the data. Such a representation has many uses, including building a generative model for graph generation, learning a latent space for property prediction, and leveraging the sequence representational continuity for Bayesian Optimization over structured data. Code is available at https://github.com/shiningsunnyday/induction.",
+      "url": "https://arxiv.org/abs/2505.22949",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "dag",
+        "graph",
+        "sequence",
+        "based",
+        "bayesian",
+        "dags",
+        "data",
+        "directed",
+        "grammar",
+        "graphs"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a challenging problem in graph representation learning \u2013 the principled decoding of DAGs. The grammar-based approach to creating a sequential representation is a novel idea, potentially offering a compact and lossless compression method. The potential applications mentioned (generative models, latent spaces, representational continuity) suggest a broad range of downstream uses, though the abstract lacks specifics on experimental validation.",
+      "paper_id": "f53161e387c7768b35de8080bda4ea29"
+    },
+    {
+      "title": "Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation",
+      "authors": [
+        "Ari S. Benjamin, Kyle Daruwalla, Christian Pehle, Anthony M. Zador"
+      ],
+      "abstract": "arXiv:2505.22994v1 Announce Type: new \nAbstract: One frequently wishes to learn a range of similar tasks as efficiently as possible, re-using knowledge across tasks. In artificial neural networks, this is typically accomplished by conditioning a network upon task context by injecting context as input. Brains have a different strategy: the parameters themselves are modulated as a function of various neuromodulators such as serotonin. Here, we take inspiration from neuromodulation and propose to learn weights which are smoothly parameterized functions of task context variables. Rather than optimize a weight vector, i.e. a single point in weight space, we optimize a smooth manifold in weight space with a predefined topology. To accomplish this, we derive a formal treatment of optimization of manifolds as the minimization of a loss functional subject to a constraint on volumetric movement, analogous to gradient descent. During inference, conditioning selects a single point on this manifold which serves as the effective weight matrix for a particular sub-task. This strategy for conditioning has two main advantages. First, the topology of the manifold (whether a line, circle, or torus) is a convenient lever for inductive biases about the relationship between tasks. Second, learning in one state smoothly affects the entire manifold, encouraging generalization across states. To verify this, we train manifolds with several topologies, including straight lines in weight space (for conditioning on e.g. noise level in input data) and ellipses (for rotated images). Despite their simplicity, these parameterizations outperform conditioning identical networks by input concatenation and better generalize to out-of-distribution samples. These results suggest that modulating weights over low-dimensional manifolds offers a principled and effective alternative to traditional conditioning.",
+      "url": "https://arxiv.org/abs/2505.22994",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "conditioning",
+        "weight",
+        "manifold",
+        "context",
+        "input",
+        "manifolds",
+        "space",
+        "task",
+        "tasks",
+        "weight space"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper presents a novel approach to conditioning neural networks inspired by neuromodulation, moving beyond simple input-based context injection. The idea of optimizing a weight manifold with controlled topology is intriguing and potentially beneficial for few-shot learning and task adaptation. While the abstract is concise, it suggests a rigorous mathematical treatment, and the analogy to gradient descent on manifolds is a strong point. The potential impact is good, but hinges on the practical feasibility and scalability of the proposed method.",
+      "paper_id": "e5eea31e7cbadfc5dc3350051adbfb67"
+    },
+    {
+      "title": "QLIP: A Dynamic Quadtree Vision Prior Enhances MLLM Performance Without Retraining",
+      "authors": [
+        "Kyle R. Chickering, Bangzheng Li, Muhao Chen"
+      ],
+      "abstract": "arXiv:2505.23004v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) encode images into visual tokens, aligning visual and textual signals within a shared latent space to facilitate crossmodal representation learning. The CLIP model is a widely adopted foundational vision language model whose vision encoder has played a critical role in the development of MLLMs such as LLaVA. However, the CLIP vision encoder suffers from notable limitations including being constrained to only handling fixed input resolutions and a failure to produce separated embeddings for dissimilar images. Replacing the vision encoder of an existing model typically incurs substantial computational costs because such a change often necessitates retraining the entire model pipeline.\n  In this work, we identify two factors which underlie the limitations of the CLIP vision encoder: mesoscopic bias and interpolation bias. To address these issues, we propose QLIP, a drop-in replacement for CLIP that can be seamlessly integrated with existing MLLMs with only a few lines of code and can enhance both coarse-grained and fine-grained visual understanding, without re-training. QLIP is designed around an image quadtree which replaces the standard uniform grid patches with a novel content aware patchification. Our experimental results demonstrate that QLIP improves the general visual question answering accuracy of the LLaVA v1.5 model series across various model sizes--without requiring retraining or fine-tuning of the full MLLM. Notably, QLIP boosts detailed understanding performance on the challenging $V^{\\ast}$ benchmark by up to 13.6 percent.",
+      "url": "https://arxiv.org/abs/2505.23004",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 70,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "model",
+        "vision",
+        "qlip",
+        "clip",
+        "encoder",
+        "vision encoder",
+        "visual",
+        "mllms",
+        "retraining",
+        "bias"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a significant bottleneck in MLLM development \u2013 the limitations of the CLIP vision encoder and the cost of retraining. Identifying 'mesoscopic' and 'interpolation' biases is a valuable contribution. The claim of a 'drop-in replacement' without retraining is particularly strong and appealing, suggesting a practical solution. While the abstract doesn't detail the QLIP architecture, the problem statement is well-defined and the proposed approach seems promising.",
+      "paper_id": "17a819a92ab33992ab5e7b519be54d4d"
+    },
+    {
+      "title": "ProDiff: Prototype-Guided Diffusion for Minimal Information Trajectory Imputation",
+      "authors": [
+        "Tianci Bu, Le Zhou, Wenchuan Yang, Jianhong Mou, Kang Yang, Suoyi Tan, Feng Yao, Jingyuan Wang, Xin Lu"
+      ],
+      "abstract": "arXiv:2505.23048v1 Announce Type: new \nAbstract: Trajectory data is crucial for various applications but often suffers from incompleteness due to device limitations and diverse collection scenarios. Existing imputation methods rely on sparse trajectory or travel information, such as velocity, to infer missing points. However, these approaches assume that sparse trajectories retain essential behavioral patterns, which place significant demands on data acquisition and overlook the potential of large-scale human trajectory embeddings. To address this, we propose ProDiff, a trajectory imputation framework that uses only two endpoints as minimal information. It integrates prototype learning to embed human movement patterns and a denoising diffusion probabilistic model for robust spatiotemporal reconstruction. Joint training with a tailored loss function ensures effective imputation. ProDiff outperforms state-of-the-art methods, improving accuracy by 6.28\\% on FourSquare and 2.52\\% on WuXi. Further analysis shows a 0.927 correlation between generated and real trajectories, demonstrating the effectiveness of our approach.",
+      "url": "https://arxiv.org/abs/2505.23048",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 85,
+      "keywords": [
+        "trajectory",
+        "imputation",
+        "information",
+        "prodiff",
+        "data",
+        "diffusion",
+        "human",
+        "methods",
+        "minimal",
+        "minimal information"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a practical problem \u2013 incomplete trajectory data \u2013 with a novel approach leveraging diffusion models and prototype learning. The reported performance improvements on Foursquare and WuXi datasets suggest a solid methodology. While diffusion models are becoming more common, applying them to trajectory imputation with minimal input information is a noteworthy contribution, and the tailored loss function adds to the rigor. The abstract is clear and concise, indicating a well-structured paper.",
+      "paper_id": "cfc3d5051fd4abc3e9ff4edd54bddb0a"
+    },
+    {
+      "title": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+      "authors": [
+        "Lingkai Kong, Haichuan Wang, Tonghan Wang, Guojun Xiong, Milind Tambe"
+      ],
+      "abstract": "arXiv:2505.23062v1 Announce Type: new \nAbstract: Incorporating pre-collected offline data from a source environment can significantly improve the sample efficiency of reinforcement learning (RL), but this benefit is often challenged by discrepancies between the transition dynamics of the source and target environments. Existing methods typically address this issue by penalizing or filtering out source transitions in high dynamics-gap regions. However, their estimation of the dynamics gap often relies on KL divergence or mutual information, which can be ill-defined when the source and target dynamics have disjoint support. To overcome these limitations, we propose CompFlow, a method grounded in the theoretical connection between flow matching and optimal transport. Specifically, we model the target dynamics as a conditional flow built upon the output distribution of the source-domain flow, rather than learning it directly from a Gaussian prior. This composite structure offers two key advantages: (1) improved generalization for learning target dynamics, and (2) a principled estimation of the dynamics gap via the Wasserstein distance between source and target transitions. Leveraging our principled estimation of the dynamics gap, we further introduce an optimistic active data collection strategy that prioritizes exploration in regions of high dynamics gap, and theoretically prove that it reduces the performance disparity with the optimal policy. Empirically, CompFlow outperforms strong baselines across several RL benchmarks with shifted dynamics.",
+      "url": "https://arxiv.org/abs/2505.23062",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "dynamics",
+        "source",
+        "dynamics gap",
+        "gap",
+        "target",
+        "flow",
+        "learning",
+        "data",
+        "estimation",
+        "estimation dynamics"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial challenge in reinforcement learning \u2013 leveraging offline data from different environments. The proposed 'CompFlow' method, grounded in flow matching and optimal transport, offers a potentially robust solution to the dynamics gap problem, particularly when traditional divergence measures fail. The approach of modeling the target dynamics as a conditional flow is a clever idea, and the theoretical connection to optimal transport adds rigor. While the abstract doesn't detail experimental results, the problem is well-motivated and the proposed solution appears promising.",
+      "paper_id": "e144feb86d4f002558b65912a1688cb0"
+    },
+    {
+      "title": "Weight Spectra Induced Efficient Model Adaptation",
+      "authors": [
+        "Chongjie Si, Xuankun Yang, Muqing Liu, Yadao Wang, Xiaokang Yang, Wenbo Su, Bo Zheng, Wei Shen"
+      ],
+      "abstract": "arXiv:2505.23099v1 Announce Type: new \nAbstract: Large-scale foundation models have demonstrated remarkable versatility across a wide range of downstream tasks. However, fully fine-tuning these models incurs prohibitive computational costs, motivating the development of Parameter-Efficient Fine-Tuning (PEFT) methods such as LoRA, which introduces low-rank updates to pre-trained weights. Despite their empirical success, the underlying mechanisms by which PEFT modifies model parameters remain underexplored. In this work, we present a systematic investigation into the structural changes of weight matrices during fully fine-tuning. Through singular value decomposition (SVD), we reveal that fine-tuning predominantly amplifies the top singular values while leaving the remainder largely intact, suggesting that task-specific knowledge is injected into a low-dimensional subspace. Furthermore, we find that the dominant singular vectors are reoriented in task-specific directions, whereas the non-dominant subspace remains stable. Building on these insights, we propose a novel method that leverages learnable rescaling of top singular directions, enabling precise modulation of the most influential components without disrupting the global structure. Our approach achieves consistent improvements over strong baselines across multiple tasks, highlighting the efficacy of structurally informed fine-tuning.",
+      "url": "https://arxiv.org/abs/2505.23099",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "fine",
+        "fine tuning",
+        "tuning",
+        "singular",
+        "directions",
+        "dominant",
+        "efficient",
+        "fully",
+        "fully fine",
+        "low"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial question in the PEFT landscape \u2013 understanding *why* LoRA and similar methods work. The use of SVD to analyze weight changes during fine-tuning is a solid methodological approach. While the finding that fine-tuning amplifies top singular values isn't entirely surprising, the systematic investigation and focus on singular vector reorientation offer valuable insights. The work is well-positioned to be well-received by the community given the current focus on efficient adaptation of large models.",
+      "paper_id": "5bce1a8818649172b738b876190a579b"
+    },
+    {
+      "title": "The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning",
+      "authors": [
+        "Shiwei Li, Xiandi Luo, Haozhao Wang, Xing Tang, Shijie Xu, Weihong Luo, Yuhua Li, Xiuqiang He, Ruixuan Li"
+      ],
+      "abstract": "arXiv:2505.23176v1 Announce Type: new \nAbstract: To improve the training efficiency of federated learning (FL), previous research has employed low-rank decomposition techniques to reduce communication overhead. In this paper, we seek to enhance the performance of these low-rank decomposition methods. Specifically, we focus on three key issues related to decomposition in FL: what to decompose, how to decompose, and how to aggregate. Subsequently, we introduce three novel techniques: Model Update Decomposition (MUD), Block-wise Kronecker Decomposition (BKD), and Aggregation-Aware Decomposition (AAD), each targeting a specific issue. These techniques are complementary and can be applied simultaneously to achieve optimal performance. Additionally, we provide a rigorous theoretical analysis to ensure the convergence of the proposed MUD. Extensive experimental results show that our approach achieves faster convergence and superior accuracy compared to relevant baseline methods. The code is available at https://github.com/Leopold1423/fedmud-icml25.",
+      "url": "https://arxiv.org/abs/2505.23176",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 70,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "decomposition",
+        "low",
+        "low rank",
+        "rank",
+        "rank decomposition",
+        "techniques",
+        "communication",
+        "convergence",
+        "decompose",
+        "federated"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant and important problem in federated learning \u2013 communication efficiency \u2013 by focusing on low-rank decomposition. The proposed three techniques (MUD, BKD, AAD) seem well-motivated and complementary, and the theoretical convergence analysis for MUD is a strong point. While the approach isn't radically new, it appears to offer a systematic and potentially effective improvement over existing methods, as evidenced by the reported experimental results. The high sentiment score reflects the current interest in efficient FL techniques.",
+      "paper_id": "76baf20ee37d0b1f62bb713bbf87adf7"
+    },
+    {
+      "title": "FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation",
+      "authors": [
+        "Srijith Nair, Michael Lin, Amirreza Talebi, Peizhong Ju, Elizabeth Bentley, Jia Liu"
+      ],
+      "abstract": "arXiv:2505.23182v1 Announce Type: new \nAbstract: Collaborative training methods like Federated Learning (FL) and Split Learning (SL) enable distributed machine learning without sharing raw data. However, FL assumes clients can train entire models, which is infeasible for large-scale models. In contrast, while SL alleviates the client memory constraint in FL by offloading most training to the server, it increases network latency due to its sequential nature. Other methods address the conundrum by using local loss functions for parallel client-side training to improve efficiency, but they lack server feedback and potentially suffer poor accuracy. We propose FSL-SAGE (Federated Split Learning via Smashed Activation Gradient Estimation), a new federated split learning algorithm that estimates server-side gradient feedback via auxiliary models. These auxiliary models periodically adapt to emulate server behavior on local datasets. We show that FSL-SAGE achieves a convergence rate of $\\mathcal{O}(1/\\sqrt{T})$, where $T$ is the number of communication rounds. This result matches FedAvg, while significantly reducing communication costs and client memory requirements. Our empirical results also verify that it outperforms existing state-of-the-art FSL methods, offering both communication efficiency and accuracy.",
+      "url": "https://arxiv.org/abs/2505.23182",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "learning",
+        "federated",
+        "fsl",
+        "models",
+        "server",
+        "split",
+        "split learning",
+        "client",
+        "communication",
+        "federated split"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a relevant problem in federated learning \u2013 the trade-off between client resource constraints and network latency in Split Learning. The proposed FSL-SAGE approach, using auxiliary models for gradient estimation, appears to be a novel way to mitigate these issues. While the abstract doesn't detail the mathematical rigor, the mention of a convergence rate suggests a solid theoretical foundation, and the problem is well-motivated. The potential for improved efficiency and accuracy in federated settings is significant.",
+      "paper_id": "78de485e95bd026c46202d76c302a92e"
+    },
+    {
+      "title": "Score-based Generative Modeling for Conditional Independence Testing",
+      "authors": [
+        "Yixin Ren, Chenghou Jin, Yewei Xia, Li Ke, Longtao Huang, Hui Xue, Hao Zhang, Jihong Guan, Shuigeng Zhou"
+      ],
+      "abstract": "arXiv:2505.23309v1 Announce Type: new \nAbstract: Determining conditional independence (CI) relationships between random variables is a fundamental yet challenging task in machine learning and statistics, especially in high-dimensional settings. Existing generative model-based CI testing methods, such as those utilizing generative adversarial networks (GANs), often struggle with undesirable modeling of conditional distributions and training instability, resulting in subpar performance. To address these issues, we propose a novel CI testing method via score-based generative modeling, which achieves precise Type I error control and strong testing power. Concretely, we first employ a sliced conditional score matching scheme to accurately estimate conditional score and use Langevin dynamics conditional sampling to generate null hypothesis samples, ensuring precise Type I error control. Then, we incorporate a goodness-of-fit stage into the method to verify generated samples and enhance interpretability in practice. We theoretically establish the error bound of conditional distributions modeled by score-based generative models and prove the validity of our CI tests. Extensive experiments on both synthetic and real-world datasets show that our method significantly outperforms existing state-of-the-art methods, providing a promising way to revitalize generative model-based CI testing.",
+      "url": "https://arxiv.org/abs/2505.23309",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "conditional",
+        "generative",
+        "based",
+        "ci",
+        "score",
+        "testing",
+        "based generative",
+        "ci testing",
+        "error",
+        "method"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a crucial problem in machine learning \u2013 conditional independence testing \u2013 and proposes a novel approach using score-based generative modeling to overcome limitations of existing methods like GANs. The use of sliced conditional score matching and Langevin dynamics for null hypothesis sampling appears promising for Type I error control and testing power. While the abstract is concise, it suggests a rigorous methodology, and the problem's importance warrants further investigation. The inclusion of a goodness-of-fit stage is a good sign of a thorough approach.",
+      "paper_id": "42505b4c2abf58fc80dcbe0f967a7558"
+    },
+    {
+      "title": "Preference Learning with Response Time",
+      "authors": [
+        "Ayush Sawarni, Sahasrajit Sarmasarkar, Vasilis Syrgkanis"
+      ],
+      "abstract": "arXiv:2505.22820v1 Announce Type: new \nAbstract: This paper investigates the integration of response time data into human preference learning frameworks for more effective reward model elicitation. While binary preference data has become fundamental in fine-tuning foundation models, generative AI systems, and other large-scale models, the valuable temporal information inherent in user decision-making remains largely unexploited. We propose novel methodologies to incorporate response time information alongside binary choice data, leveraging the Evidence Accumulation Drift Diffusion (EZ) model, under which response time is informative of the preference strength. We develop Neyman-orthogonal loss functions that achieve oracle convergence rates for reward model learning, matching the theoretical optimal rates that would be attained if the expected response times for each query were known a priori. Our theoretical analysis demonstrates that for linear reward functions, conventional preference learning suffers from error rates that scale exponentially with reward magnitude. In contrast, our response time-augmented approach reduces this to polynomial scaling, representing a significant improvement in sample efficiency. We extend these guarantees to non-parametric reward function spaces, establishing convergence properties for more complex, realistic reward models. Our extensive experiments validate our theoretical findings in the context of preference learning over images.",
+      "url": "https://arxiv.org/abs/2505.22820",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 82,
+      "sentiment_score": 88,
+      "keywords": [
+        "preference",
+        "response",
+        "reward",
+        "learning",
+        "response time",
+        "time",
+        "preference learning",
+        "data",
+        "model",
+        "models"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a relevant and increasingly important problem in preference learning \u2013 leveraging all available data, including response times, to improve reward model elicitation. The use of the EZ model and development of Neyman-orthogonal loss functions with oracle convergence rates suggest a rigorous theoretical foundation. The potential to improve the efficiency and accuracy of preference learning, particularly for large models, is significant, and the topic aligns well with current research trends in AI alignment and human-in-the-loop learning.",
+      "paper_id": "43ce6ea9082b05f9f3d97ab0f228534e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-05-31T09:25:12.838522"
 }

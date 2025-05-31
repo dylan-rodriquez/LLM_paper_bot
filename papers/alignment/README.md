@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### A Computational Approach to Improving Fairness in K-means Clustering
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Guancheng Zhou, Haiping Xu, Hongkang Xu, Chenyu Li, Donghui Yan
+
+arXiv:2505.22984v1 Announce Type: new 
+Abstract: The popular K-means clustering algorithm potentially suffers from a major weakness for further analysis or interpretation. Some cluster may have dispro...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22984) | [📝 Analysis](189e48f9ea843b5f9b04cbf4f141da71.md)
+
+---
+
+### Towards Reward Fairness in RLHF: From a Resource Allocation Perspective
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Sheng Ouyang, Yulan Hu, Ge Chen, Qingyang Li, Fuzheng Zhang, Yong Liu
+
+arXiv:2505.23349v1 Announce Type: new 
+Abstract: Rewards serve as proxies for human preferences and play a crucial role in Reinforcement Learning from Human Feedback (RLHF). However, if these rewards ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23349) | [📝 Analysis](452804619589597a6788bc5049461836.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

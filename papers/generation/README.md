@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### DINGO: Constrained Inference for Diffusion LLMs
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Tarun Suresh, Debangshu Banerjee, Shubham Ugare, Sasa Misailovic, Gagandeep Singh
+
+arXiv:2505.23061v1 Announce Type: new 
+Abstract: Diffusion LLMs have emerged as a promising alternative to conventional autoregressive LLMs, offering significant potential for improved runtime efficie...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23061) | [📝 Analysis](aed682f72a5d0b2e545ce6a810580aa6.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*
