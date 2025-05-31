@@ -2,7 +2,40 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (9 total)
+
+### Causal-PIK: Causality-based Physical Reasoning with a Physics-Informed Kernel
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Carlota Par\'es-Morlans, Michelle Yi, Claire Chen, Sarah A. Wu, Rika Antonova, Tobias Gerstenberg, Jeannette Bohg
+
+arXiv:2505.22861v1 Announce Type: new 
+Abstract: Tasks that involve complex interactions between objects with unknown dynamics make planning before execution difficult. These tasks require agents to i...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22861) | [📝 Analysis](b9beb6dafc8ca1de02bfaaf159f18eaf.md)
+
+---
+
+### CDR-Agent: Intelligent Selection and Execution of Clinical Decision Rules Using Large Language Model Agents
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Zhen Xiang, Aliyah R. Hsu, Austin V. Zane, Aaron E. Kornblith, Margaret J. Lin-Martore, Jasmanpreet C. Kaur, Vasuda M. Dokiparthi, Bo Li, Bin Yu
+
+arXiv:2505.23055v1 Announce Type: new 
+Abstract: Clinical decision-making is inherently complex and fast-paced, particularly in emergency departments (EDs) where critical, rapid and high-stakes decisi...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23055) | [📝 Analysis](36f03a55ae129b67fa366ed95261b4cf.md)
+
+---
+
+### RocqStar: Leveraging Similarity-driven Retrieval and Agentic Systems for Rocq generation
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Nikita Khramov, Andrei Kozyrev, Gleb Solovev, Anton Podkopaev
+
+arXiv:2505.22846v1 Announce Type: new 
+Abstract: Interactive Theorem Proving was repeatedly shown to be fruitful combined with Generative Artificial Intelligence. This paper assesses multiple approach...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22846) | [📝 Analysis](61067ae9ed155eed06478fd7977d9266.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +104,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

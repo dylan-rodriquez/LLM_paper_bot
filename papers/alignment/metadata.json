@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "A Computational Approach to Improving Fairness in K-means Clustering",
+      "authors": [
+        "Guancheng Zhou, Haiping Xu, Hongkang Xu, Chenyu Li, Donghui Yan"
+      ],
+      "abstract": "arXiv:2505.22984v1 Announce Type: new \nAbstract: The popular K-means clustering algorithm potentially suffers from a major weakness for further analysis or interpretation. Some cluster may have disproportionately more (or fewer) points from one of the subpopulations in terms of some sensitive variable, e.g., gender or race. Such a fairness issue may cause bias and unexpected social consequences. This work attempts to improve the fairness of K-means clustering with a two-stage optimization formulation--clustering first and then adjust cluster membership of a small subset of selected data points. Two computationally efficient algorithms are proposed in identifying those data points that are expensive for fairness, with one focusing on nearest data points outside of a cluster and the other on highly 'mixed' data points. Experiments on benchmark datasets show substantial improvement on fairness with a minimal impact to clustering quality. The proposed algorithms can be easily extended to a broad class of clustering algorithms or fairness metrics.",
+      "url": "https://arxiv.org/abs/2505.22984",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "clustering",
+        "fairness",
+        "points",
+        "data",
+        "data points",
+        "algorithms",
+        "cluster",
+        "means",
+        "means clustering",
+        "fairness means"
+      ],
+      "subject_classification": "alignment",
+      "justification": "The paper addresses a crucial issue of fairness in K-means, which is increasingly important given the ethical concerns surrounding algorithmic bias. The two-stage optimization approach and computationally efficient algorithms for point selection seem well-motivated. While the approach isn't radically new, it offers a practical solution with a good balance between fairness and clustering quality, suggesting a solid contribution to the field. The mention of easy extensibility is also a positive sign.",
+      "paper_id": "189e48f9ea843b5f9b04cbf4f141da71"
+    },
+    {
+      "title": "Towards Reward Fairness in RLHF: From a Resource Allocation Perspective",
+      "authors": [
+        "Sheng Ouyang, Yulan Hu, Ge Chen, Qingyang Li, Fuzheng Zhang, Yong Liu"
+      ],
+      "abstract": "arXiv:2505.23349v1 Announce Type: new \nAbstract: Rewards serve as proxies for human preferences and play a crucial role in Reinforcement Learning from Human Feedback (RLHF). However, if these rewards are inherently imperfect, exhibiting various biases, they can adversely affect the alignment of large language models (LLMs). In this paper, we collectively define the various biases present in rewards as the problem of reward unfairness. We propose a bias-agnostic method to address the issue of reward fairness from a resource allocation perspective, without specifically designing for each type of bias, yet effectively mitigating them. Specifically, we model preference learning as a resource allocation problem, treating rewards as resources to be allocated while considering the trade-off between utility and fairness in their distribution. We propose two methods, Fairness Regularization and Fairness Coefficient, to achieve fairness in rewards. We apply our methods in both verification and reinforcement learning scenarios to obtain a fairness reward model and a policy model, respectively. Experiments conducted in these scenarios demonstrate that our approach aligns LLMs with human preferences in a more fair manner.",
+      "url": "https://arxiv.org/abs/2505.23349",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "fairness",
+        "rewards",
+        "reward",
+        "allocation",
+        "human",
+        "learning",
+        "model",
+        "resource",
+        "resource allocation",
+        "allocation perspective"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in RLHF \u2013 reward fairness \u2013 which is essential for aligning LLMs with human values. Framing the problem as resource allocation is a novel approach, and the proposed methods (Fairness Regularization and Fairness Coefficient) seem promising. While the abstract doesn't detail the experimental results, the problem's importance and the conceptual framework suggest a solid contribution, though the innovation appears moderate given the existing work on fairness in ML.",
+      "paper_id": "452804619589597a6788bc5049461836"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-05-31T09:25:12.848466"
 }

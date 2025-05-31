@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -15,6 +15,17 @@ Abstract: Systematic reviews (SR), in which experts summarize and analyze eviden
 
 ---
 
+### VERINA: Benchmarking Verifiable Code Generation
+
+**Score:** 90.0 | **Published:** 2025-05-31 | **Authors:** Zhe Ye, Zhengxu Yan, Jingxuan He, Timothe Kasriel, Kaiyu Yang, Dawn Song
+
+arXiv:2505.23135v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly integrated in software development, but ensuring correctness in LLM-generated code remains challenging an...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23135) | [📝 Analysis](3eb76d3317c86e1901a57c503db6237c.md)
+
+---
+
 ### MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators
 
 **Score:** 88.0 | **Published:** 2025-05-30 | **Authors:** John Mendon\c{c}a, Alon Lavie, Isabel Trancoso
@@ -23,6 +34,39 @@ arXiv:2505.22777v1 Announce Type: new
 Abstract: As the capabilities of chatbots and their underlying LLMs continue to dramatically improve, evaluating their performance has increasingly become a majo...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22777) | [📝 Analysis](d72fcac8f7812b7b34df451ca768d0bd.md)
+
+---
+
+### MermaidFlow: Redefining Agentic Workflow Generation via Safety-Constrained Evolutionary Programming
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Chengqi Zheng, Jianda Chen, Yueming Lyu, Wen Zheng Terence Ng, Haopeng Zhang, Yew-Soon Ong, Ivor Tsang, Haiyan Yin
+
+arXiv:2505.22967v1 Announce Type: new 
+Abstract: Despite the promise of autonomous agentic reasoning, existing workflow generation methods frequently produce fragile, unexecutable plans due to unconst...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22967) | [📝 Analysis](0caa59fb6570a0fae53fc4456e5b7068.md)
+
+---
+
+### Measuring Participant Contributions in Decentralized Federated Learning
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Honoka Anada, Tatsuya Kaneko, Shinya Takamaeda-Yamazaki
+
+arXiv:2505.23246v1 Announce Type: new 
+Abstract: Federated learning (FL) enables multiple clients to collaboratively train models without sharing their data. Measuring participant contributions in FL ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23246) | [📝 Analysis](1ef4e8b63b17e11306bbae888f4da1ca.md)
+
+---
+
+### EmergentTTS-Eval: Evaluating TTS Models on Complex Prosodic, Expressiveness, and Linguistic Challenges Using Model-as-a-Judge
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Ruskin Raj Manku, Yuzhi Tang, Xingjian Shi, Mu Li, Alex Smola
+
+arXiv:2505.23009v1 Announce Type: new 
+Abstract: Text-to-Speech (TTS) benchmarks often fail to capture how well models handle nuanced and semantically complex text. Building on $\textit{EmergentTTS}$,...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23009) | [📝 Analysis](055e163169db9b306ec337674f3cfe98.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

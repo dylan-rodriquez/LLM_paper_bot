@@ -2,7 +2,7 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -12,6 +12,28 @@ arXiv:2505.22765v1 Announce Type: new
 Abstract: Sentence stress refers to emphasis, placed on specific words within a spoken utterance to highlight or contrast an idea, or to introduce new informatio...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22765) | [📝 Analysis](365b2cf7b09dc05260354b107db1cc13.md)
+
+---
+
+### EquiReg: Equivariance Regularized Diffusion for Inverse Problems
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Bahareh Tolooshams, Aditi Chandrashekar, Rayhan Zirvi, Abbas Mammadov, Jiachen Yao, Chuwei Wang, Anima Anandkumar
+
+arXiv:2505.22973v1 Announce Type: new 
+Abstract: Diffusion models represent the state-of-the-art for solving inverse problems such as image restoration tasks. In the Bayesian framework, diffusion-base...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22973) | [📝 Analysis](317bd7622f26356a9f2e15be26bef881.md)
+
+---
+
+### X2Graph for Cancer Subtyping Prediction on Biological Tabular Data
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Tu Bui, Mohamed Suliman, Aparajita Haldar, Mohammed Amer, Serban Georgescu
+
+arXiv:2505.23334v1 Announce Type: new 
+Abstract: Despite the transformative impact of deep learning on text, audio, and image datasets, its dominance in tabular data, especially in the medical domain ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23334) | [📝 Analysis](1c12edc79938b3d499f57884f4e1394c.md)
 
 ---
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

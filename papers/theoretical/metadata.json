@@ -159,7 +159,103 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Best Arm Identification with Possibly Biased Offline Data",
+      "authors": [
+        "Le Yang, Vincent Y. F. Tan, Wang Chi Cheung"
+      ],
+      "abstract": "arXiv:2505.23165v1 Announce Type: new \nAbstract: We study the best arm identification (BAI) problem with potentially biased offline data in the fixed confidence setting, which commonly arises in real-world scenarios such as clinical trials. We prove an impossibility result for adaptive algorithms without prior knowledge of the bias bound between online and offline distributions. To address this, we propose the LUCB-H algorithm, which introduces adaptive confidence bounds by incorporating an auxiliary bias correction to balance offline and online data within the LUCB framework. Theoretical analysis shows that LUCB-H matches the sample complexity of standard LUCB when offline data is misleading and significantly outperforms it when offline data is helpful. We also derive an instance-dependent lower bound that matches the upper bound of LUCB-H in certain scenarios. Numerical experiments further demonstrate the robustness and adaptability of LUCB-H in effectively incorporating offline data.",
+      "url": "https://arxiv.org/abs/2505.23165",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "offline",
+        "data",
+        "lucb",
+        "offline data",
+        "bound",
+        "adaptive",
+        "arm",
+        "arm identification",
+        "best",
+        "best arm"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a relevant and practical problem \u2013 best arm identification with biased offline data, common in fields like clinical trials. The impossibility result is a strong theoretical contribution, and the LUCB-H algorithm appears to be a well-motivated and theoretically sound approach to address the identified limitations. The matching lower bound and empirical validation further strengthen the work, suggesting a high degree of rigor and potential for positive reception.",
+      "paper_id": "ae65e2f83f1d61ea23954ef2976b12b4"
+    },
+    {
+      "title": "When Does Neuroevolution Outcompete Reinforcement Learning in Transfer Learning Tasks?",
+      "authors": [
+        "Eleni Nisioti, Joachim Winther Pedersen, Erwan Plantec, Milton L. Montero, Sebastian Risi"
+      ],
+      "abstract": "arXiv:2505.22696v1 Announce Type: new \nAbstract: The ability to continuously and efficiently transfer skills across tasks is a hallmark of biological intelligence and a long-standing goal in artificial systems. Reinforcement learning (RL), a dominant paradigm for learning in high-dimensional control tasks, is known to suffer from brittleness to task variations and catastrophic forgetting. Neuroevolution (NE) has recently gained attention for its robustness, scalability, and capacity to escape local optima. In this paper, we investigate an understudied dimension of NE: its transfer learning capabilities. To this end, we introduce two benchmarks: a) in stepping gates, neural networks are tasked with emulating logic circuits, with designs that emphasize modular repetition and variation b) ecorobot extends the Brax physics engine with objects such as walls and obstacles and the ability to easily switch between different robotic morphologies. Crucial in both benchmarks is the presence of a curriculum that enables evaluating skill transfer across tasks of increasing complexity. Our empirical analysis shows that NE methods vary in their transfer abilities and frequently outperform RL baselines. Our findings support the potential of NE as a foundation for building more adaptable agents and highlight future challenges for scaling NE to complex, real-world problems.",
+      "url": "https://arxiv.org/abs/2505.22696",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 70,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "learning",
+        "ne",
+        "transfer",
+        "tasks",
+        "ability",
+        "benchmarks",
+        "neuroevolution",
+        "reinforcement",
+        "reinforcement learning",
+        "rl"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a crucial problem in AI \u2013 the brittleness of RL and the potential of NE for transfer learning. The introduction of two new benchmarks, 'stepping gates' and 'ecorobot', is a strong methodological contribution, providing a valuable resource for the community. While NE is gaining traction, a systematic comparison with RL in transfer learning is relatively underexplored, making this work timely and relevant. The abstract suggests a rigorous investigation, though the full paper would need to be reviewed to confirm.",
+      "paper_id": "5bed996815cd0cf35a12431c6793f93c"
+    },
+    {
+      "title": "Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models",
+      "authors": [
+        "Jipeng Li, Yanning Shen"
+      ],
+      "abstract": "arXiv:2505.22935v1 Announce Type: new \nAbstract: Explicit noise-level conditioning is widely regarded as essential for the effective operation of Graph Diffusion Models (GDMs). In this work, we challenge this assumption by investigating whether denoisers can implicitly infer noise levels directly from corrupted graph structures, potentially eliminating the need for explicit noise conditioning. To this end, we develop a theoretical framework centered on Bernoulli edge-flip corruptions and extend it to encompass more complex scenarios involving coupled structure-attribute noise. Extensive empirical evaluations on both synthetic and real-world graph datasets, using models such as GDSS and DiGress, provide strong support for our theoretical findings. Notably, unconditional GDMs achieve performance comparable or superior to their conditioned counterparts, while also offering reductions in parameters (4-6%) and computation time (8-10%). Our results suggest that the high-dimensional nature of graph data itself often encodes sufficient information for the denoising process, opening avenues for simpler, more efficient GDM architectures.",
+      "url": "https://arxiv.org/abs/2505.22935",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 88,
+      "keywords": [
+        "graph",
+        "noise",
+        "conditioning",
+        "models",
+        "diffusion",
+        "diffusion models",
+        "explicit",
+        "explicit noise",
+        "gdms",
+        "graph diffusion"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a fundamental assumption in Graph Diffusion Models (GDMs) \u2013 the necessity of noise conditioning \u2013 and provides both theoretical grounding and empirical evidence to challenge it. The reported improvements in parameter efficiency and computation time are significant, suggesting a practical benefit. The use of both synthetic and real-world datasets strengthens the findings, and the comparison to established models like GDSS and DiGress adds credibility. The high sentiment score reflects the potential for positive reception within the graph ML community.",
+      "paper_id": "9dde7589cca979f0170a2bbd7fb58586"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-05-31T09:25:12.833821"
 }

@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "DINGO: Constrained Inference for Diffusion LLMs",
+      "authors": [
+        "Tarun Suresh, Debangshu Banerjee, Shubham Ugare, Sasa Misailovic, Gagandeep Singh"
+      ],
+      "abstract": "arXiv:2505.23061v1 Announce Type: new \nAbstract: Diffusion LLMs have emerged as a promising alternative to conventional autoregressive LLMs, offering significant potential for improved runtime efficiency. However, existing diffusion models lack the ability to provably enforce user-specified formal constraints, such as regular expressions, which makes them unreliable for tasks that require structured outputs, such as fixed-schema JSON generation. Unlike autoregressive models that generate tokens sequentially, diffusion LLMs predict a block of tokens in parallel. This parallelism makes traditional constrained decoding algorithms, which are designed for sequential token prediction, ineffective at preserving the true output distribution. To address this limitation, we propose DINGO, a dynamic programming-based constrained decoding strategy that is both efficient and provably distribution-preserving. DINGO enables sampling of output strings with the highest probability under the model's predicted distribution, while strictly satisfying any user-specified regular expression. On standard symbolic math and JSON generation benchmarks, DINGO achieves up to a 68 percentage point improvement over unconstrained inference",
+      "url": "https://arxiv.org/abs/2505.23061",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 85,
+      "keywords": [
+        "diffusion",
+        "dingo",
+        "llms",
+        "constrained",
+        "diffusion llms",
+        "distribution",
+        "autoregressive",
+        "constrained decoding",
+        "decoding",
+        "generation"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial limitation of diffusion LLMs \u2013 the inability to enforce constraints \u2013 which hinders their use in practical applications requiring structured outputs. The proposed DINGO approach, leveraging dynamic programming, appears to be a novel and effective solution for constrained decoding in this context. The claim of distribution preservation is particularly strong, and the problem is well-motivated, suggesting a positive reception from the community.",
+      "paper_id": "aed682f72a5d0b2e545ce6a810580aa6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-05-31T09:25:12.849464"
 }

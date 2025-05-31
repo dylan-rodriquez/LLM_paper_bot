@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "EquiReg: Equivariance Regularized Diffusion for Inverse Problems",
+      "authors": [
+        "Bahareh Tolooshams, Aditi Chandrashekar, Rayhan Zirvi, Abbas Mammadov, Jiachen Yao, Chuwei Wang, Anima Anandkumar"
+      ],
+      "abstract": "arXiv:2505.22973v1 Announce Type: new \nAbstract: Diffusion models represent the state-of-the-art for solving inverse problems such as image restoration tasks. In the Bayesian framework, diffusion-based inverse solvers incorporate a likelihood term to guide the prior sampling process, generating data consistent with the posterior distribution. However, due to the intractability of the likelihood term, many current methods rely on isotropic Gaussian approximations, which lead to deviations from the data manifold and result in inconsistent, unstable reconstructions. We propose Equivariance Regularized (EquiReg) diffusion, a general framework for regularizing posterior sampling in diffusion-based inverse problem solvers. EquiReg enhances reconstructions by reweighting diffusion trajectories and penalizing those that deviate from the data manifold. We define a new distribution-dependent equivariance error, empirically identify functions that exhibit low error for on-manifold samples and higher error for off-manifold samples, and leverage these functions to regularize the diffusion sampling process. When applied to a variety of solvers, EquiReg outperforms state-of-the-art diffusion models in both linear and nonlinear image restoration tasks, as well as in reconstructing partial differential equations.",
+      "url": "https://arxiv.org/abs/2505.22973",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 85,
+      "keywords": [
+        "diffusion",
+        "equireg",
+        "inverse",
+        "manifold",
+        "data",
+        "equivariance",
+        "error",
+        "sampling",
+        "solvers",
+        "art"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "The paper addresses a significant issue in diffusion-based inverse problem solving \u2013 the reliance on isotropic Gaussian approximations and resulting instability. The proposed EquiReg framework appears to be a well-motivated approach to regularizing posterior sampling, and the mention of an equivariance error and empirical identification of suitable functions suggests a rigorous methodology. While the abstract doesn't detail the specifics of the error function or reweighting scheme, the overall concept is promising and aligns with current research trends in improving diffusion model robustness.",
+      "paper_id": "317bd7622f26356a9f2e15be26bef881"
+    },
+    {
+      "title": "X2Graph for Cancer Subtyping Prediction on Biological Tabular Data",
+      "authors": [
+        "Tu Bui, Mohamed Suliman, Aparajita Haldar, Mohammed Amer, Serban Georgescu"
+      ],
+      "abstract": "arXiv:2505.23334v1 Announce Type: new \nAbstract: Despite the transformative impact of deep learning on text, audio, and image datasets, its dominance in tabular data, especially in the medical domain where data are often scarce, remains less clear. In this paper, we propose X2Graph, a novel deep learning method that achieves strong performance on small biological tabular datasets. X2Graph leverages external knowledge about the relationships between table columns, such as gene interactions, to convert each sample into a graph structure. This transformation enables the application of standard message passing algorithms for graph modeling. Our X2Graph method demonstrates superior performance compared to existing tree-based and deep learning methods across three cancer subtyping datasets.",
+      "url": "https://arxiv.org/abs/2505.23334",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "x2graph",
+        "data",
+        "datasets",
+        "deep",
+        "deep learning",
+        "learning",
+        "tabular",
+        "biological",
+        "biological tabular",
+        "cancer"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "The paper addresses a relevant problem \u2013 applying deep learning to small, tabular biological datasets, a common scenario in medical research. The approach of leveraging external knowledge to create graph structures is a novel way to adapt graph neural networks to tabular data. While the abstract doesn't detail the extent of the performance improvement, the claim of 'superior performance' suggests a worthwhile contribution, and the focus on cancer subtyping is impactful. The work appears well-motivated and likely to be received positively by the bioinformatics and machine learning communities.",
+      "paper_id": "1c12edc79938b3d499f57884f4e1394c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-05-31T09:25:12.847455"
 }

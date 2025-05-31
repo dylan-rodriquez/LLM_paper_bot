@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "VERINA: Benchmarking Verifiable Code Generation",
+      "authors": [
+        "Zhe Ye, Zhengxu Yan, Jingxuan He, Timothe Kasriel, Kaiyu Yang, Dawn Song"
+      ],
+      "abstract": "arXiv:2505.23135v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated in software development, but ensuring correctness in LLM-generated code remains challenging and often requires costly manual review. Verifiable code generation -- jointly generating code, specifications, and proofs of code-specification alignment -- offers a promising path to address this limitation and further unleash LLMs' benefits in coding. Yet, there exists a significant gap in evaluation: current benchmarks often lack support for end-to-end verifiable code generation. In this paper, we introduce Verina (Verifiable Code Generation Arena), a high-quality benchmark enabling a comprehensive and modular evaluation of code, specification, and proof generation as well as their compositions. Verina consists of 189 manually curated coding tasks in Lean, with detailed problem descriptions, reference implementations, formal specifications, and extensive test suites. Our extensive evaluation of state-of-the-art LLMs reveals significant challenges in verifiable code generation, especially in proof generation, underscoring the need for improving LLM-based theorem provers in verification domains. The best model, OpenAI o4-mini, generates only 61.4% correct code, 51.0% sound and complete specifications, and 3.6% successful proofs, with one trial per task. We hope Verina will catalyze progress in verifiable code generation by providing a rigorous and comprehensive benchmark. We release our dataset on https://huggingface.co/datasets/sunblaze-ucb/verina and our evaluation code on https://github.com/sunblaze-ucb/verina.",
+      "url": "https://arxiv.org/abs/2505.23135",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "code",
+        "generation",
+        "code generation",
+        "verifiable",
+        "verifiable code",
+        "verina",
+        "evaluation",
+        "llms",
+        "specifications",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial challenge in the rapidly evolving field of LLMs \u2013 ensuring code correctness. The creation of a dedicated benchmark, Verina, specifically designed for verifiable code generation is a significant contribution. The use of Lean, a formal verification tool, and the inclusion of specifications and proofs demonstrate a rigorous approach, and the high number of curated tasks suggests substantial effort. The focus on a modular evaluation framework is also a strength.",
+      "paper_id": "3eb76d3317c86e1901a57c503db6237c"
+    },
+    {
+      "title": "MermaidFlow: Redefining Agentic Workflow Generation via Safety-Constrained Evolutionary Programming",
+      "authors": [
+        "Chengqi Zheng, Jianda Chen, Yueming Lyu, Wen Zheng Terence Ng, Haopeng Zhang, Yew-Soon Ong, Ivor Tsang, Haiyan Yin"
+      ],
+      "abstract": "arXiv:2505.22967v1 Announce Type: new \nAbstract: Despite the promise of autonomous agentic reasoning, existing workflow generation methods frequently produce fragile, unexecutable plans due to unconstrained LLM-driven construction. We introduce MermaidFlow, a framework that redefines the agentic search space through safety-constrained graph evolution. At its core, MermaidFlow represent workflows as a verifiable intermediate representation using Mermaid, a structured and human-interpretable graph language. We formulate domain-aware evolutionary operators, i.e., crossover, mutation, insertion, and deletion, to preserve semantic correctness while promoting structural diversity, enabling efficient exploration of a high-quality, statically verifiable workflow space. Without modifying task settings or evaluation protocols, MermaidFlow achieves consistent improvements in success rates and faster convergence to executable plans on the agent reasoning benchmark. The experimental results demonstrate that safety-constrained graph evolution offers a scalable, modular foundation for robust and interpretable agentic reasoning systems.",
+      "url": "https://arxiv.org/abs/2505.22967",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 78,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "agentic",
+        "mermaidflow",
+        "constrained",
+        "graph",
+        "reasoning",
+        "safety",
+        "safety constrained",
+        "workflow",
+        "agentic reasoning",
+        "constrained graph"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in agentic workflows \u2013 the fragility of plans generated by LLMs. The use of Mermaid for a verifiable intermediate representation and the application of evolutionary programming with safety constraints are promising approaches. The claim of consistent improvements without modifying task settings suggests a robust and generalizable method, though further details on the benchmark and results are needed to fully assess the magnitude of the improvements.",
+      "paper_id": "0caa59fb6570a0fae53fc4456e5b7068"
+    },
+    {
+      "title": "Measuring Participant Contributions in Decentralized Federated Learning",
+      "authors": [
+        "Honoka Anada, Tatsuya Kaneko, Shinya Takamaeda-Yamazaki"
+      ],
+      "abstract": "arXiv:2505.23246v1 Announce Type: new \nAbstract: Federated learning (FL) enables multiple clients to collaboratively train models without sharing their data. Measuring participant contributions in FL is crucial for incentivizing clients and ensuring transparency. While various methods have been proposed for contribution measurement, they are designed exclusively for centralized federated learning (CFL), where a central server collects and aggregates client models, along with evaluating their contributions. Meanwhile, decentralized federated learning (DFL), in which clients exchange models directly without a central server, has gained significant attention for mitigating communication bottlenecks and eliminating a single point of failure. However, applying existing contribution measurement methods to DFL is challenging due to the presence of multiple global models and the absence of a central server. In this study, we present novel methodologies for measuring participant contributions in DFL. We first propose DFL-Shapley, an extension of the Shapley value tailored for DFL, adapting this widely used CFL metric to decentralized settings. Given the impracticality of computing the ideal DFL-Shapley in real-world systems, we introduce DFL-MR, a computable approximation that estimates overall contributions by accumulating round-wise Shapley values. We evaluate DFL-Shapley and DFL-MR across various FL scenarios and compare them with existing CFL metrics. The experimental results confirm DFL-Shapley as a valid ground-truth metric and demonstrate DFL-MR's proximity to DFL-Shapley across various settings, highlighting their effectiveness as contribution metrics in DFL.",
+      "url": "https://arxiv.org/abs/2505.23246",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "dfl",
+        "shapley",
+        "contributions",
+        "dfl shapley",
+        "federated",
+        "federated learning",
+        "learning",
+        "models",
+        "central",
+        "central server"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "The paper addresses a crucial gap in federated learning by tackling contribution measurement in the decentralized setting, which is a growing area of research. The problem is well-defined and the motivation is clear. While the abstract doesn't detail the specific methodologies, the identification of the challenge posed by the lack of a central server suggests a thoughtful approach. The potential for incentivizing participation in DFL is significant, making this work relevant and likely to be well-received.",
+      "paper_id": "1ef4e8b63b17e11306bbae888f4da1ca"
+    },
+    {
+      "title": "EmergentTTS-Eval: Evaluating TTS Models on Complex Prosodic, Expressiveness, and Linguistic Challenges Using Model-as-a-Judge",
+      "authors": [
+        "Ruskin Raj Manku, Yuzhi Tang, Xingjian Shi, Mu Li, Alex Smola"
+      ],
+      "abstract": "arXiv:2505.23009v1 Announce Type: new \nAbstract: Text-to-Speech (TTS) benchmarks often fail to capture how well models handle nuanced and semantically complex text. Building on $\\textit{EmergentTTS}$, we introduce $\\textit{EmergentTTS-Eval}$, a comprehensive benchmark covering six challenging TTS scenarios: emotions, paralinguistics, foreign words, syntactic complexity, complex pronunciation (e.g. URLs, formulas), and questions. Crucially, our framework automates both test-case generation and evaluation, making the benchmark easily extensible. Starting from a small set of human-written seed prompts, we iteratively extend them using LLMs to target specific structural, phonetic and prosodic challenges, resulting in 1,645 diverse test cases. Moreover, we employ a model-as-a-judge approach, using a Large Audio Language Model (LALM) to assess the speech across multiple dimensions such as expressed emotion, prosodic, intonational, and pronunciation accuracy. We evaluate state-of-the-art open-source and proprietary TTS systems, such as 11Labs, Deepgram, and OpenAI's 4o-mini-TTS, on EmergentTTS-Eval, demonstrating its ability to reveal fine-grained performance differences. Results show that the model-as-a-judge approach offers robust TTS assessment and a high correlation with human preferences. We open source the evaluation $\\href{https://github.com/boson-ai/EmergentTTS-Eval-public}{code}$ and the $\\href{https://huggingface.co/datasets/bosonai/EmergentTTS-Eval}{dataset}$.",
+      "url": "https://arxiv.org/abs/2505.23009",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 82,
+      "sentiment_score": 88,
+      "keywords": [
+        "emergenttts",
+        "tts",
+        "emergenttts eval",
+        "eval",
+        "model",
+        "complex",
+        "judge",
+        "model judge",
+        "prosodic",
+        "using"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in TTS evaluation \u2013 the lack of benchmarks that adequately assess complex linguistic and prosodic challenges. The use of LLMs for both test case generation and automated evaluation (model-as-a-judge) is a strong methodological contribution. While the 'model-as-a-judge' approach isn't entirely novel, its application within a comprehensive, automatically generated benchmark is a significant step forward, and the focus on nuanced challenges is highly relevant.",
+      "paper_id": "055e163169db9b306ec337674f3cfe98"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-05-31T09:25:12.846244"
 }

@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Bridging Distribution Shift and AI Safety: Conceptual and Methodological Synergies",
+      "authors": [
+        "Chenruo Liu, Kenan Tang, Yao Qin, Qi Lei"
+      ],
+      "abstract": "arXiv:2505.22829v1 Announce Type: new \nAbstract: This paper bridges distribution shift and AI safety through a comprehensive analysis of their conceptual and methodological synergies. While prior discussions often focus on narrow cases or informal analogies, we establish two types connections between specific causes of distribution shift and fine-grained AI safety issues: (1) methods addressing a specific shift type can help achieve corresponding safety goals, or (2) certain shifts and safety issues can be formally reduced to each other, enabling mutual adaptation of their methods. Our findings provide a unified perspective that encourages fundamental integration between distribution shift and AI safety research.",
+      "url": "https://arxiv.org/abs/2505.22829",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 70,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "safety",
+        "shift",
+        "ai",
+        "ai safety",
+        "distribution",
+        "distribution shift",
+        "shift ai",
+        "conceptual",
+        "conceptual methodological",
+        "issues"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "The paper addresses a highly relevant and increasingly important intersection of AI safety and robustness. Establishing formal connections between distribution shift and safety issues is a valuable contribution, potentially leading to synergistic solutions. While the abstract suggests a conceptual framework, the strength of the paper will depend on the rigor of the 'formal reductions' and the depth of the methodological connections demonstrated in the full text. The topic is timely and aligns with current research trends.",
+      "paper_id": "2a8a893561843137d1a10636c0e0b9f2"
+    },
+    {
+      "title": "Scalable Complexity Control Facilitates Reasoning Ability of LLMs",
+      "authors": [
+        "Liangkai Hang, Junjie Yao, Zhiwei Bai, Tianyi Chen, Yang Chen, Rongjie Diao, Hezhou Li, Pengxiao Lin, Zhiwei Wang, Cheng Xu, Zhongwang Zhang, Zhangchen Zhou, Zhiyu Li, Zehao Lin, Kai Chen, Feiyu Xiong, Yaoyu Zhang, Weinan E, Hongkang Yang, Zhi-Qin John Xu"
+      ],
+      "abstract": "arXiv:2505.23013v1 Announce Type: new \nAbstract: The reasoning ability of large language models (LLMs) has been rapidly advancing in recent years, attracting interest in more fundamental approaches that can reliably enhance their generalizability. This work demonstrates that model complexity control, conveniently implementable by adjusting the initialization rate and weight decay coefficient, improves the scaling law of LLMs consistently over varying model sizes and data sizes. This gain is further illustrated by comparing the benchmark performance of 2.4B models pretrained on 1T tokens with different complexity hyperparameters. Instead of fixing the initialization std, we found that a constant initialization rate (the exponent of std) enables the scaling law to descend faster in both model and data sizes. These results indicate that complexity control is a promising direction for the continual advancement of LLMs.",
+      "url": "https://arxiv.org/abs/2505.23013",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "complexity",
+        "llms",
+        "complexity control",
+        "control",
+        "initialization",
+        "model",
+        "sizes",
+        "ability",
+        "data",
+        "data sizes"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "The paper addresses a crucial area in LLM research \u2013 improving scaling laws and reasoning ability. The finding that adjusting initialization rate and weight decay can consistently improve performance across different model and data sizes is promising. While the method itself (adjusting hyperparameters) isn't entirely novel, the consistent improvement and the focus on a 'constant initialization rate' suggest a valuable refinement to existing training practices. The positive sentiment is driven by the current focus on efficient and scalable LLM development.",
+      "paper_id": "d004579f625812bda07d3d6629cc011e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-05-31T09:25:12.843170"
 }

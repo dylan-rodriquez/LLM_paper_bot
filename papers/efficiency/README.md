@@ -2,7 +2,29 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Mustafar: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference
+
+**Score:** 88.0 | **Published:** 2025-05-31 | **Authors:** Donghyeon Joo, Helya Hosseini, Ramyad Hadidi, Bahar Asgari
+
+arXiv:2505.22913v1 Announce Type: new 
+Abstract: We demonstrate that unstructured sparsity significantly improves KV cache compression for LLMs, enabling sparsity levels up to 70% without compromising...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22913) | [📝 Analysis](fdce4c7af13e09d4dcdef3275ac911d6.md)
+
+---
+
+### Automated Modeling Method for Pathloss Model Discovery
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Ahmad Anaqreh, Shih-Kai Chou, Mihael Mohor\v{c}i\v{c}, Carolina Fortuna
+
+arXiv:2505.23383v1 Announce Type: new 
+Abstract: Modeling propagation is the cornerstone for designing and optimizing next-generation wireless systems, with a particular emphasis on 5G and beyond era....
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23383) | [📝 Analysis](9cc79b564d8d11fb949f959ebf76b2bd.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +82,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

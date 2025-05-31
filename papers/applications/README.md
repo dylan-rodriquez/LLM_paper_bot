@@ -2,7 +2,62 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (18 total)
+
+### Efficient Preimage Approximation for Neural Network Certification
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Anton Bj\"orklund, Mykola Zaitsev, Marta Kwiatkowska
+
+arXiv:2505.22798v1 Announce Type: new 
+Abstract: The growing reliance on artificial intelligence in safety- and security-critical applications demands effective neural network certification. A challen...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22798) | [📝 Analysis](ebc272c00daa9b83c860d6bedb2b8301.md)
+
+---
+
+### Bayesian Neural Scaling Laws Extrapolation with Prior-Fitted Networks
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Dongwoo Lee, Dong Bok Lee, Steven Adriaensen, Juho Lee, Sung Ju Hwang, Frank Hutter, Seon Joo Kim, Hae Beom Lee
+
+arXiv:2505.23032v1 Announce Type: new 
+Abstract: Scaling has been a major driver of recent advancements in deep learning. Numerous empirical studies have found that scaling laws often follow the power...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23032) | [📝 Analysis](079d9a9eacea5731c70123bbc17180e5.md)
+
+---
+
+### An Empirical Study of Federated Prompt Learning for Vision Language Model
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Zhihao Wang, Wenke Huang, Tian Chen, Zekun Shi, Guancheng Wan, Yu Qiao, Bin Yang, Jian Wang, Bing Li, Mang Ye
+
+arXiv:2505.23024v1 Announce Type: new 
+Abstract: The Vision Language Model (VLM) excels in aligning vision and language representations, and prompt learning has emerged as a key technique for adapting...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23024) | [📝 Analysis](07fba6ed2b33dd4214eef59479921296.md)
+
+---
+
+### CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Pengfei Zhou, Yunlong Liu, Junli Liang, Qi Song, Xiangyang Li
+
+arXiv:2505.23116v1 Announce Type: new 
+Abstract: Time series forecasting with exogenous variables is a critical emerging paradigm that presents unique challenges in modeling dependencies between varia...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23116) | [📝 Analysis](83aa9c3b9ee5adeb4d652094853ce4c3.md)
+
+---
+
+### FlashFormer: Whole-Model Kernels for Efficient Low-Batch Inference
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Aniruddha Nrusimha, William Brandon, Mayank Mishra, Yikang Shen, Rameswar Panda, Jonathan Ragan-Kelley, Yoon Kim
+
+arXiv:2505.22758v1 Announce Type: new 
+Abstract: The size and compute characteristics of modern large language models have led to an increased interest in developing specialized kernels tailored for t...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22758) | [📝 Analysis](567c7ca58b46169cb58205ff1f3ceef7.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +203,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

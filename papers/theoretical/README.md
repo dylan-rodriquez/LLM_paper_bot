@@ -2,7 +2,40 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### Best Arm Identification with Possibly Biased Offline Data
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Le Yang, Vincent Y. F. Tan, Wang Chi Cheung
+
+arXiv:2505.23165v1 Announce Type: new 
+Abstract: We study the best arm identification (BAI) problem with potentially biased offline data in the fixed confidence setting, which commonly arises in real-...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23165) | [📝 Analysis](ae65e2f83f1d61ea23954ef2976b12b4.md)
+
+---
+
+### When Does Neuroevolution Outcompete Reinforcement Learning in Transfer Learning Tasks?
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Eleni Nisioti, Joachim Winther Pedersen, Erwan Plantec, Milton L. Montero, Sebastian Risi
+
+arXiv:2505.22696v1 Announce Type: new 
+Abstract: The ability to continuously and efficiently transfer skills across tasks is a hallmark of biological intelligence and a long-standing goal in artificia...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22696) | [📝 Analysis](5bed996815cd0cf35a12431c6793f93c.md)
+
+---
+
+### Is Noise Conditioning Necessary? A Unified Theory of Unconditional Graph Diffusion Models
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Jipeng Li, Yanning Shen
+
+arXiv:2505.22935v1 Announce Type: new 
+Abstract: Explicit noise-level conditioning is widely regarded as essential for the effective operation of Graph Diffusion Models (GDMs). In this work, we challe...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22935) | [📝 Analysis](9dde7589cca979f0170a2bbd7fb58586.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +93,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

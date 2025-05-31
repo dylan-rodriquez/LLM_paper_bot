@@ -2,7 +2,7 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
 
 ### Climate Finance Bench
 
@@ -12,6 +12,28 @@ arXiv:2505.22752v1 Announce Type: new
 Abstract: Climate Finance Bench introduces an open benchmark that targets question-answering over corporate climate disclosures using Large Language Models. We c...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22752) | [📝 Analysis](0d8848f8c2dc0ea72124b2968bef073b.md)
+
+---
+
+### Bridging Distribution Shift and AI Safety: Conceptual and Methodological Synergies
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Chenruo Liu, Kenan Tang, Yao Qin, Qi Lei
+
+arXiv:2505.22829v1 Announce Type: new 
+Abstract: This paper bridges distribution shift and AI safety through a comprehensive analysis of their conceptual and methodological synergies. While prior disc...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22829) | [📝 Analysis](2a8a893561843137d1a10636c0e0b9f2.md)
+
+---
+
+### Scalable Complexity Control Facilitates Reasoning Ability of LLMs
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Liangkai Hang, Junjie Yao, Zhiwei Bai, Tianyi Chen, Yang Chen, Rongjie Diao, Hezhou Li, Pengxiao Lin, Zhiwei Wang, Cheng Xu, Zhongwang Zhang, Zhangchen Zhou, Zhiyu Li, Zehao Lin, Kai Chen, Feiyu Xiong, Yaoyu Zhang, Weinan E, Hongkang Yang, Zhi-Qin John Xu
+
+arXiv:2505.23013v1 Announce Type: new 
+Abstract: The reasoning ability of large language models (LLMs) has been rapidly advancing in recent years, attracting interest in more fundamental approaches th...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23013) | [📝 Analysis](d004579f625812bda07d3d6629cc011e.md)
 
 ---
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*
