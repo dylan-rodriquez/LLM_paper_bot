@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Revisiting Uncertainty Estimation and Calibration of Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-06-02 | **Authors:** Linwei Tao, Yi-Fan Yeh, Minjing Dong, Tao Huang, Philip Torr, Chang Xu
+
+arXiv:2505.23854v1 Announce Type: new 
+Abstract: As large language models (LLMs) are increasingly deployed in high-stakes applications, robust uncertainty estimation is essential for ensuring the safe...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23854) | [📝 Analysis](68cecef88170a7712c546f96c0d7797b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-02 09:29:50 UTC*
