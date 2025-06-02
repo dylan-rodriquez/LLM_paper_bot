@@ -415,7 +415,167 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Efficient Preimage Approximation for Neural Network Certification",
+      "authors": [
+        "Anton Bj\\\"orklund, Mykola Zaitsev, Marta Kwiatkowska"
+      ],
+      "abstract": "arXiv:2505.22798v1 Announce Type: new \nAbstract: The growing reliance on artificial intelligence in safety- and security-critical applications demands effective neural network certification. A challenging real-world use case is certification against ``patch attacks'', where adversarial patches or lighting conditions obscure parts of images, for example traffic signs. One approach to certification, which also gives quantitative coverage estimates, utilizes preimages of neural networks, i.e., the set of inputs that lead to a specified output. However, these preimage approximation methods, including the state-of-the-art PREMAP algorithm, struggle with scalability. This paper presents novel algorithmic improvements to PREMAP involving tighter bounds, adaptive Monte Carlo sampling, and improved branching heuristics. We demonstrate efficiency improvements of at least an order of magnitude on reinforcement learning control benchmarks, and show that our method scales to convolutional neural networks that were previously infeasible. Our results demonstrate the potential of preimage approximation methodology for reliability and robustness certification.",
+      "url": "https://arxiv.org/abs/2505.22798",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 70,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "certification",
+        "neural",
+        "approximation",
+        "preimage",
+        "preimage approximation",
+        "demonstrate",
+        "improvements",
+        "network",
+        "network certification",
+        "networks"
+      ],
+      "subject_classification": "applications",
+      "justification": "The paper addresses a crucial problem in AI safety \u2013 neural network certification against adversarial attacks, specifically patch attacks. Improving the scalability of preimage approximation methods like PREMAP is a significant step forward, and the reported order of magnitude efficiency gains are promising. While the improvements appear incremental (tighter bounds, adaptive sampling, improved heuristics), they are applied to a relevant and challenging problem, suggesting a positive reception within the community. The focus on reinforcement learning control benchmarks also adds to its practical relevance.",
+      "paper_id": "ebc272c00daa9b83c860d6bedb2b8301"
+    },
+    {
+      "title": "Bayesian Neural Scaling Laws Extrapolation with Prior-Fitted Networks",
+      "authors": [
+        "Dongwoo Lee, Dong Bok Lee, Steven Adriaensen, Juho Lee, Sung Ju Hwang, Frank Hutter, Seon Joo Kim, Hae Beom Lee"
+      ],
+      "abstract": "arXiv:2505.23032v1 Announce Type: new \nAbstract: Scaling has been a major driver of recent advancements in deep learning. Numerous empirical studies have found that scaling laws often follow the power-law and proposed several variants of power-law functions to predict the scaling behavior at larger scales. However, existing methods mostly rely on point estimation and do not quantify uncertainty, which is crucial for real-world applications involving decision-making problems such as determining the expected performance improvements achievable by investing additional computational resources. In this work, we explore a Bayesian framework based on Prior-data Fitted Networks (PFNs) for neural scaling law extrapolation. Specifically, we design a prior distribution that enables the sampling of infinitely many synthetic functions resembling real-world neural scaling laws, allowing our PFN to meta-learn the extrapolation. We validate the effectiveness of our approach on real-world neural scaling laws, comparing it against both the existing point estimation methods and Bayesian approaches. Our method demonstrates superior performance, particularly in data-limited scenarios such as Bayesian active learning, underscoring its potential for reliable, uncertainty-aware extrapolation in practical applications.",
+      "url": "https://arxiv.org/abs/2505.23032",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "scaling",
+        "bayesian",
+        "extrapolation",
+        "laws",
+        "neural",
+        "neural scaling",
+        "scaling laws",
+        "law",
+        "prior",
+        "real"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial limitation of current scaling law research \u2013 the lack of uncertainty quantification. The Bayesian framework using Prior-Fitted Networks appears to be a novel approach to extrapolate scaling laws, offering a more robust method for resource allocation decisions. While the abstract is concise, it suggests a solid methodology and potential for significant impact, though further details are needed to fully assess rigor.",
+      "paper_id": "079d9a9eacea5731c70123bbc17180e5"
+    },
+    {
+      "title": "An Empirical Study of Federated Prompt Learning for Vision Language Model",
+      "authors": [
+        "Zhihao Wang, Wenke Huang, Tian Chen, Zekun Shi, Guancheng Wan, Yu Qiao, Bin Yang, Jian Wang, Bing Li, Mang Ye"
+      ],
+      "abstract": "arXiv:2505.23024v1 Announce Type: new \nAbstract: The Vision Language Model (VLM) excels in aligning vision and language representations, and prompt learning has emerged as a key technique for adapting such models to downstream tasks. However, the application of prompt learning with VLM in federated learning (\\fl{}) scenarios remains underexplored. This paper systematically investigates the behavioral differences between language prompt learning (LPT) and vision prompt learning (VPT) under data heterogeneity challenges, including label skew and domain shift. We conduct extensive experiments to evaluate the impact of various \\fl{} and prompt configurations, such as client scale, aggregation strategies, and prompt length, to assess the robustness of Federated Prompt Learning (FPL). Furthermore, we explore strategies for enhancing prompt learning in complex scenarios where label skew and domain shift coexist, including leveraging both prompt types when computational resources allow. Our findings offer practical insights into optimizing prompt learning in federated settings, contributing to the broader deployment of VLMs in privacy-preserving environments.",
+      "url": "https://arxiv.org/abs/2505.23024",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "prompt",
+        "learning",
+        "prompt learning",
+        "federated",
+        "language",
+        "vision",
+        "vision language",
+        "domain",
+        "domain shift",
+        "federated prompt"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a relevant and growing area \u2013 federated learning with Vision Language Models. The systematic investigation of prompt learning differences (LPT vs. VPT) under data heterogeneity is a strong point. While the problem is significant, the abstract doesn't suggest a radically new approach, leaning more towards empirical analysis and configuration exploration. The exploration of combining prompt types is a positive step.",
+      "paper_id": "07fba6ed2b33dd4214eef59479921296"
+    },
+    {
+      "title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
+      "authors": [
+        "Pengfei Zhou, Yunlong Liu, Junli Liang, Qi Song, Xiangyang Li"
+      ],
+      "abstract": "arXiv:2505.23116v1 Announce Type: new \nAbstract: Time series forecasting with exogenous variables is a critical emerging paradigm that presents unique challenges in modeling dependencies between variables. Traditional models often struggle to differentiate between endogenous and exogenous variables, leading to inefficiencies and overfitting. In this paper, we introduce CrossLinear, a novel Linear-based forecasting model that addresses these challenges by incorporating a plug-and-play cross-correlation embedding module. This lightweight module captures the dependencies between variables with minimal computational cost and seamlessly integrates into existing neural networks. Specifically, it captures time-invariant and direct variable dependencies while disregarding time-varying or indirect dependencies, thereby mitigating the risk of overfitting in dependency modeling and contributing to consistent performance improvements. Furthermore, CrossLinear employs patch-wise processing and a global linear head to effectively capture both short-term and long-term temporal dependencies, further improving its forecasting precision. Extensive experiments on 12 real-world datasets demonstrate that CrossLinear achieves superior performance in both short-term and long-term forecasting tasks. The ablation study underscores the effectiveness of the cross-correlation embedding module. Additionally, the generalizability of this module makes it a valuable plug-in for various forecasting tasks across different domains. Codes are available at https://github.com/mumiao2000/CrossLinear.",
+      "url": "https://arxiv.org/abs/2505.23116",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 70,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "forecasting",
+        "crosslinear",
+        "dependencies",
+        "variables",
+        "module",
+        "term",
+        "time",
+        "correlation",
+        "correlation embedding",
+        "cross"
+      ],
+      "subject_classification": "applications",
+      "justification": "The paper addresses a relevant problem in time series forecasting \u2013 handling exogenous variables \u2013 and proposes a novel approach (CrossLinear) that aims to improve performance and prevent overfitting. The 'plug-and-play' aspect and focus on direct dependencies are promising. While the abstract suggests a solid methodology, the full paper will need to demonstrate rigorous evaluation and comparison to existing methods to fully validate its claims. The focus on linear-based forecasting in a field increasingly dominated by neural networks is a slightly unusual choice, but the efficiency argument is compelling.",
+      "paper_id": "83aa9c3b9ee5adeb4d652094853ce4c3"
+    },
+    {
+      "title": "FlashFormer: Whole-Model Kernels for Efficient Low-Batch Inference",
+      "authors": [
+        "Aniruddha Nrusimha, William Brandon, Mayank Mishra, Yikang Shen, Rameswar Panda, Jonathan Ragan-Kelley, Yoon Kim"
+      ],
+      "abstract": "arXiv:2505.22758v1 Announce Type: new \nAbstract: The size and compute characteristics of modern large language models have led to an increased interest in developing specialized kernels tailored for training and inference. Existing kernels primarily optimize for compute utilization, targeting the large-batch training and inference settings. However, low-batch inference, where memory bandwidth and kernel launch overheads contribute are significant factors, remains important for many applications of interest such as in edge deployment and latency-sensitive applications. This paper describes FlashFormer, a proof-of-concept kernel for accelerating single-batch inference for transformer-based large language models. Across various model sizes and quantizations settings, we observe nontrivial speedups compared to existing state-of-the-art inference kernels.",
+      "url": "https://arxiv.org/abs/2505.22758",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 70,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "inference",
+        "batch",
+        "kernels",
+        "batch inference",
+        "large",
+        "applications",
+        "compute",
+        "existing",
+        "flashformer",
+        "kernel"
+      ],
+      "subject_classification": "applications",
+      "justification": "The paper addresses a crucial bottleneck in LLM deployment \u2013 efficient low-batch inference. Focusing on memory bandwidth and kernel launch overheads is a smart move, given the increasing demand for edge deployment and latency-sensitive applications. While described as a 'proof-of-concept,' the observed speedups suggest a promising direction, and the clear problem statement and focus contribute to a strong initial presentation. The field is actively seeking inference optimizations, so positive reception is likely.",
+      "paper_id": "567c7ca58b46169cb58205ff1f3ceef7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-05-31T09:25:12.841997"
 }
