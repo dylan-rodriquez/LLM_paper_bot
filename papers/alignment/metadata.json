@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SafeTy Reasoning Elicitation Alignment for Multi-Turn Dialogues",
+      "authors": [
+        "Martin Kuo, Jianyi Zhang, Aolin Ding, Louis DiValentin, Amin Hass, Benjamin F Morris, Isaac Jacobson, Randolph Linderman, James Kiessling, Nicolas Ramos, Bhavna Gopal, Maziyar Baran Pouyan, Changwei Liu, Hai Li, Yiran Chen"
+      ],
+      "abstract": "arXiv:2506.00668v1 Announce Type: new \nAbstract: Malicious attackers can exploit large language models (LLMs) by engaging them in multi-turn dialogues to achieve harmful objectives, posing significant safety risks to society. To address this challenge, we propose a novel defense mechanism: SafeTy Reasoning Elicitation Alignment for Multi-Turn Dialogues (STREAM). STREAM defends LLMs against multi-turn attacks while preserving their functional capabilities. Our approach involves constructing a human-annotated dataset, the Safety Reasoning Multi-turn Dialogues dataset, which is used to fine-tune a plug-and-play safety reasoning moderator. This model is designed to identify malicious intent hidden within multi-turn conversations and alert the target LLM of potential risks. We evaluate STREAM across multiple LLMs against prevalent multi-turn attack strategies. Experimental results demonstrate that our method significantly outperforms existing defense techniques, reducing the Attack Success Rate (ASR) by 51.2%, all while maintaining comparable LLM capability.",
+      "url": "https://arxiv.org/abs/2506.00668",
+      "published_date": "2025-06-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "multi",
+        "multi turn",
+        "turn",
+        "safety",
+        "dialogues",
+        "reasoning",
+        "safety reasoning",
+        "turn dialogues",
+        "llms",
+        "stream"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and critical problem \u2013 the safety of LLMs against multi-turn adversarial attacks. The proposed STREAM approach, involving a new dataset and a plug-and-play moderator, appears well-reasoned and demonstrates improved performance over existing defenses. While the core idea of a safety moderator isn't entirely novel, the focus on multi-turn dialogues and the creation of a dedicated dataset contribute to its value.",
+      "paper_id": "433b5f82ca0e31c4eaed3e5912abd086"
+    },
+    {
+      "title": "Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race",
+      "authors": [
+        "Lihao Sun, Chengzhi Mao, Valentin Hofmann, Xuechunzi Bai"
+      ],
+      "abstract": "arXiv:2506.00253v1 Announce Type: new \nAbstract: Although value-aligned language models (LMs) appear unbiased in explicit bias evaluations, they often exhibit stereotypes in implicit word association tasks, raising concerns about their fair usage. We investigate the mechanisms behind this discrepancy and find that alignment surprisingly amplifies implicit bias in model outputs. Specifically, we show that aligned LMs, unlike their unaligned counterparts, overlook racial concepts in early internal representations when the context is ambiguous. Not representing race likely fails to activate safety guardrails, leading to unintended biases. Inspired by this insight, we propose a new bias mitigation strategy that works by incentivizing the representation of racial concepts in the early model layers. In contrast to conventional mitigation methods of machine unlearning, our interventions find that steering the model to be more aware of racial concepts effectively mitigates implicit bias. Similar to race blindness in humans, ignoring racial nuances can inadvertently perpetuate subtle biases in LMs.",
+      "url": "https://arxiv.org/abs/2506.00253",
+      "published_date": "2025-06-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "implicit",
+        "racial",
+        "aligned",
+        "concepts",
+        "implicit bias",
+        "lms",
+        "model",
+        "race",
+        "racial concepts"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical issue in the field of LLMs \u2013 the surprising amplification of implicit bias despite alignment efforts. The finding that alignment can *increase* bias by reducing awareness of race is counterintuitive and significant. The proposed mitigation strategy, focusing on incentivizing racial concept representation, offers a novel approach compared to traditional unlearning methods, suggesting a promising direction for future research.",
+      "paper_id": "bbccf892506362693b4a6c00473066fb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-03T09:29:41.210764"
 }

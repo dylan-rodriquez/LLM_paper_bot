@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### SafeTy Reasoning Elicitation Alignment for Multi-Turn Dialogues
+
+**Score:** 92.0 | **Published:** 2025-06-03 | **Authors:** Martin Kuo, Jianyi Zhang, Aolin Ding, Louis DiValentin, Amin Hass, Benjamin F Morris, Isaac Jacobson, Randolph Linderman, James Kiessling, Nicolas Ramos, Bhavna Gopal, Maziyar Baran Pouyan, Changwei Liu, Hai Li, Yiran Chen
+
+arXiv:2506.00668v1 Announce Type: new 
+Abstract: Malicious attackers can exploit large language models (LLMs) by engaging them in multi-turn dialogues to achieve harmful objectives, posing significant...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.00668) | [📝 Analysis](433b5f82ca0e31c4eaed3e5912abd086.md)
+
+---
+
+### Aligned but Blind: Alignment Increases Implicit Bias by Reducing Awareness of Race
+
+**Score:** 90.0 | **Published:** 2025-06-03 | **Authors:** Lihao Sun, Chengzhi Mao, Valentin Hofmann, Xuechunzi Bai
+
+arXiv:2506.00253v1 Announce Type: new 
+Abstract: Although value-aligned language models (LMs) appear unbiased in explicit bias evaluations, they often exhibit stereotypes in implicit word association ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.00253) | [📝 Analysis](bbccf892506362693b4a6c00473066fb.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-03 09:29:41 UTC*
