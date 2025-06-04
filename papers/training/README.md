@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Truth over Tricks: Measuring and Mitigating Shortcut Learning in Misinformation Detection
+
+**Score:** 92.0 | **Published:** 2025-06-04 | **Authors:** Herun Wan, Jiaying Wu, Minnan Luo, Zhi Zeng, Zhixiong Su
+
+arXiv:2506.02350v1 Announce Type: new 
+Abstract: Misinformation detection models often rely on superficial cues (i.e., \emph{shortcuts}) that correlate with misinformation in training data but fail to...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.02350) | [📝 Analysis](b5787925a6c6dccc132f09f17ddab366.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-04 09:29:15 UTC*
