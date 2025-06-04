@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models",
+      "authors": [
+        "Yan Gao, Massimo Roberto Scamarcia, Javier Fernandez-Marques, Mohammad Naseri, Chong Shen Ng, Dimitris Stripelis, Zexi Li, Tao Shen, Jiamu Bai, Daoyuan Chen, Zikai Zhang, Rui Hu, InSeo Song, Lee KangYoon, Hong Jia, Ting Dang, Junyan Wang, Zheyuan Liu, Daniel Janes Beutel, Lingjuan Lyu, Nicholas D. Lane"
+      ],
+      "abstract": "arXiv:2506.02961v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have achieved state-of-the-art results across diverse domains, yet their development remains reliant on vast amounts of publicly available data, raising concerns about data scarcity and the lack of access to domain-specific, sensitive information. Federated Learning (FL) presents a compelling framework to address these challenges by enabling decentralized fine-tuning on pre-trained LLMs without sharing raw data. However, the compatibility and performance of pre-trained LLMs in FL settings remain largely under explored. We introduce the FlowerTune LLM Leaderboard, a first-of-its-kind benchmarking suite designed to evaluate federated fine-tuning of LLMs across four diverse domains: general NLP, finance, medical, and coding. Each domain includes federated instruction-tuning datasets and domain-specific evaluation metrics. Our results, obtained through a collaborative, open-source and community-driven approach, provide the first comprehensive comparison across 26 pre-trained LLMs with different aggregation and fine-tuning strategies under federated settings, offering actionable insights into model performance, resource constraints, and domain adaptation. This work lays the foundation for developing privacy-preserving, domain-specialized LLMs for real-world applications.",
+      "url": "https://arxiv.org/abs/2506.02961",
+      "published_date": "2025-06-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "domain",
+        "llms",
+        "federated",
+        "tuning",
+        "fine",
+        "fine tuning",
+        "data",
+        "pre",
+        "pre trained",
+        "trained"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 federated learning for LLMs \u2013 which is crucial for addressing data privacy and access limitations. The creation of a cross-domain benchmark (FlowerTune) is a significant contribution, providing a standardized way to evaluate LLM performance in FL settings. While FL itself isn't new, applying it specifically to LLMs and creating a comprehensive benchmark demonstrates strong potential for impact and positive community reception.",
+      "paper_id": "89836a120af73eb79607849c1f6a0c7e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-04T09:29:15.284924"
 }

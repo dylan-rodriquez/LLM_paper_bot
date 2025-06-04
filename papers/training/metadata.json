@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Truth over Tricks: Measuring and Mitigating Shortcut Learning in Misinformation Detection",
+      "authors": [
+        "Herun Wan, Jiaying Wu, Minnan Luo, Zhi Zeng, Zhixiong Su"
+      ],
+      "abstract": "arXiv:2506.02350v1 Announce Type: new \nAbstract: Misinformation detection models often rely on superficial cues (i.e., \\emph{shortcuts}) that correlate with misinformation in training data but fail to generalize to the diverse and evolving nature of real-world misinformation. This issue is exacerbated by large language models (LLMs), which can easily generate convincing misinformation through simple prompts. We introduce TruthOverTricks, a unified evaluation paradigm for measuring shortcut learning in misinformation detection. TruthOverTricks categorizes shortcut behaviors into intrinsic shortcut induction and extrinsic shortcut injection, and evaluates seven representative detectors across 14 popular benchmarks, along with two new factual misinformation datasets, NQ-Misinfo and Streaming-Misinfo. Empirical results reveal that existing detectors suffer severe performance degradation when exposed to both naturally occurring and adversarially crafted shortcuts. To address this, we propose SMF, an LLM-augmented data augmentation framework that mitigates shortcut reliance through paraphrasing, factual summarization, and sentiment normalization. SMF consistently enhances robustness across 16 benchmarks, encouraging models to rely on deeper semantic understanding rather than shortcut cues. To promote the development of misinformation detectors, we have published the resources publicly at https://github.com/whr000001/TruthOverTricks.",
+      "url": "https://arxiv.org/abs/2506.02350",
+      "published_date": "2025-06-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "misinformation",
+        "shortcut",
+        "detection",
+        "detectors",
+        "misinformation detection",
+        "models",
+        "truthovertricks",
+        "benchmarks",
+        "cues",
+        "data"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in misinformation detection \u2013 the reliance on superficial shortcuts by models, especially LLMs. The introduction of 'TruthOverTricks' as a unified evaluation paradigm is a strong methodological contribution, and the creation of new datasets adds to its value. The focus on both intrinsic and extrinsic shortcut learning provides a nuanced understanding of the issue, suggesting a high potential for influencing future research and development in this area.",
+      "paper_id": "b5787925a6c6dccc132f09f17ddab366"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-04T09:29:15.282504"
 }
