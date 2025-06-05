@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Trajectory Prediction Meets Large Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-06-05 | **Authors:** Yi Xu, Ruining Yang, Yitian Zhang, Yizhou Wang, Jianglin Lu, Mingyuan Zhang, Lili Su, Yun Fu
+
+arXiv:2506.03408v1 Announce Type: new 
+Abstract: Recent advances in large language models (LLMs) have sparked growing interest in integrating language-driven techniques into trajectory prediction. By ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.03408) | [📝 Analysis](6aff9429ac3a02f190b98efc75eb176a.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-05 09:29:15 UTC*
