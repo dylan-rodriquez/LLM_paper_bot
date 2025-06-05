@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Trajectory Prediction Meets Large Language Models: A Survey",
+      "authors": [
+        "Yi Xu, Ruining Yang, Yitian Zhang, Yizhou Wang, Jianglin Lu, Mingyuan Zhang, Lili Su, Yun Fu"
+      ],
+      "abstract": "arXiv:2506.03408v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have sparked growing interest in integrating language-driven techniques into trajectory prediction. By leveraging their semantic and reasoning capabilities, LLMs are reshaping how autonomous systems perceive, model, and predict trajectories. This survey provides a comprehensive overview of this emerging field, categorizing recent work into five directions: (1) Trajectory prediction via language modeling paradigms, (2) Direct trajectory prediction with pretrained language models, (3) Language-guided scene understanding for trajectory prediction, (4) Language-driven data generation for trajectory prediction, (5) Language-based reasoning and interpretability for trajectory prediction. For each, we analyze representative methods, highlight core design choices, and identify open challenges. This survey bridges natural language processing and trajectory prediction, offering a unified perspective on how language can enrich trajectory prediction.",
+      "url": "https://arxiv.org/abs/2506.03408",
+      "published_date": "2025-06-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "prediction",
+        "trajectory",
+        "trajectory prediction",
+        "language models",
+        "models",
+        "prediction language",
+        "survey",
+        "driven",
+        "language driven"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey paper addresses a highly relevant and timely intersection of LLMs and trajectory prediction, a crucial area for autonomous systems. The categorization into five distinct directions provides a structured and comprehensive overview of the field. While surveys are inherently less 'innovative' than novel methods, this one appears well-organized and likely to be a valuable resource for researchers entering the field, suggesting a strong positive reception.",
+      "paper_id": "6aff9429ac3a02f190b98efc75eb176a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-05T09:29:15.594610"
 }

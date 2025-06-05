@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "LLMEval-Med: A Real-world Clinical Benchmark for Medical LLMs with Physician Validation",
+      "authors": [
+        "Ming Zhang, Yujiong Shen, Zelin Li, Huayu Sha, Binze Hu, Yuhui Wang, Chenhao Huang, Shichun Liu, Jingqi Tong, Changhao Jiang, Mingxu Chai, Zhiheng Xi, Shihan Dou, Tao Gui, Qi Zhang, Xuanjing Huang"
+      ],
+      "abstract": "arXiv:2506.04078v1 Announce Type: new \nAbstract: Evaluating large language models (LLMs) in medicine is crucial because medical applications require high accuracy with little room for error. Current medical benchmarks have three main types: medical exam-based, comprehensive medical, and specialized assessments. However, these benchmarks have limitations in question design (mostly multiple-choice), data sources (often not derived from real clinical scenarios), and evaluation methods (poor assessment of complex reasoning). To address these issues, we present LLMEval-Med, a new benchmark covering five core medical areas, including 2,996 questions created from real-world electronic health records and expert-designed clinical scenarios. We also design an automated evaluation pipeline, incorporating expert-developed checklists into our LLM-as-Judge framework. Furthermore, our methodology validates machine scoring through human-machine agreement analysis, dynamically refining checklists and prompts based on expert feedback to ensure reliability. We evaluate 13 LLMs across three categories (specialized medical models, open-source models, and closed-source models) on LLMEval-Med, providing valuable insights for the safe and effective deployment of LLMs in medical domains. The dataset is released in https://github.com/llmeval/LLMEval-Med.",
+      "url": "https://arxiv.org/abs/2506.04078",
+      "published_date": "2025-06-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "llmeval",
+        "llmeval med",
+        "llms",
+        "med",
+        "models",
+        "clinical",
+        "expert",
+        "real",
+        "based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical need for robust evaluation of medical LLMs, moving beyond limitations of existing benchmarks. The use of real-world EHR data and physician validation significantly strengthens the benchmark's relevance and reliability. The LLM-as-Judge framework with checklist refinement is a promising approach to automated evaluation, and the human-machine agreement analysis adds further rigor. The high scores reflect the importance of the problem and the well-defined methodology.",
+      "paper_id": "02171417981691094a3280f39a91ce55"
+    },
+    {
+      "title": "EuroLLM-9B: Technical Report",
+      "authors": [
+        "Pedro Henrique Martins, Jo\\~ao Alves, Patrick Fernandes, Nuno M. Guerreiro, Ricardo Rei, Amin Farajian, Mateusz Klimaszewski, Duarte M. Alves, Jos\\'e Pombal, Manuel Faysse, Pierre Colombo, Fran\\c{c}ois Yvon, Barry Haddow, Jos\\'e G. C. de Souza, Alexandra Birch, Andr\\'e F. T. Martins"
+      ],
+      "abstract": "arXiv:2506.04079v1 Announce Type: new \nAbstract: This report presents EuroLLM-9B, a large language model trained from scratch to support the needs of European citizens by covering all 24 official European Union languages and 11 additional languages. EuroLLM addresses the issue of European languages being underrepresented and underserved in existing open large language models. We provide a comprehensive overview of EuroLLM-9B's development, including tokenizer design, architectural specifications, data filtering, and training procedures. We describe the pre-training data collection and filtering pipeline, including the creation of EuroFilter, an AI-based multilingual filter, as well as the design of EuroBlocks-Synthetic, a novel synthetic dataset for post-training that enhances language coverage for European languages. Evaluation results demonstrate EuroLLM-9B's competitive performance on multilingual benchmarks and machine translation tasks, establishing it as the leading open European-made LLM of its size. To support open research and adoption, we release all major components of this work, including the base and instruction-tuned models, the EuroFilter classifier, and the synthetic post-training dataset.",
+      "url": "https://arxiv.org/abs/2506.04079",
+      "published_date": "2025-06-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "eurollm",
+        "european",
+        "9b",
+        "eurollm 9b",
+        "languages",
+        "training",
+        "including",
+        "language",
+        "open",
+        "synthetic"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in the LLM landscape \u2013 the underrepresentation of European languages. The development of EuroFilter and EuroBlocks-Synthetic demonstrates a thoughtful approach to data curation and augmentation, and the reported competitive performance suggests a well-executed project. The focus on open access is also a significant positive, fostering wider research and application.",
+      "paper_id": "88df3842a0fe48cef87fe2e664bbba3d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-05T09:29:15.596532"
 }
