@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Towards LLM-Centric Multimodal Fusion: A Survey on Integration Strategies and Techniques
+
+**Score:** 92.0 | **Published:** 2025-06-06 | **Authors:** Jisu An, Junseok Lee, Jeoungeun Lee, Yongseok Son
+
+arXiv:2506.04788v1 Announce Type: new 
+Abstract: The rapid progress of Multimodal Large Language Models(MLLMs) has transformed the AI landscape. These models combine pre-trained LLMs with various moda...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.04788) | [📝 Analysis](41bd9499de4dd285cfb018fae3db727f.md)
+
+---
+
+### Just a Scratch: Enhancing LLM Capabilities for Self-harm Detection through Intent Differentiation and Emoji Interpretation
+
+**Score:** 92.0 | **Published:** 2025-06-06 | **Authors:** Soumitra Ghosh, Gopendra Vikram Singh,  Shambhavi, Sabarna Choudhury, Asif Ekbal
+
+arXiv:2506.05073v1 Announce Type: new 
+Abstract: Self-harm detection on social media is critical for early intervention and mental health support, yet remains challenging due to the subtle, context-de...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05073) | [📝 Analysis](643f379c10b92da428ed147b75b99e22.md)
+
+---
+
+### The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text
+
+**Score:** 92.0 | **Published:** 2025-06-06 | **Authors:** Nikhil Kandpal, Brian Lester, Colin Raffel, Sebastian Majstorovic, Stella Biderman, Baber Abbasi, Luca Soldaini, Enrico Shippole, A. Feder Cooper, Aviya Skowron, John Kirchenbauer, Shayne Longpre, Lintang Sutawika, Alon Albalak, Zhenlin Xu, Guilherme Penedo, Loubna Ben Allal, Elie Bakouch, John David Pressman, Honglu Fan, Dashiell Stander, Guangyu Song, Aaron Gokaslan, Tom Goldstein, Brian R. Bartoldson, Bhavya Kailkhura, Tyler Murray
+
+arXiv:2506.05209v1 Announce Type: new 
+Abstract: Large language models (LLMs) are typically trained on enormous quantities of unlicensed text, a practice that has led to scrutiny due to possible intel...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05209) | [📝 Analysis](4cd89f575077ef178c306ddf436382d3.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-06 09:28:50 UTC*
