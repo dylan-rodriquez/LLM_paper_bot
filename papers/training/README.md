@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Hey, That's My Data! Label-Only Dataset Inference in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-09 | **Authors:** Chen Xiong, Zihao Wang, Rui Zhu, Tsung-Yi Ho, Pin-Yu Chen, Jingwei Xiong, Haixu Tang, Lucila Ohno-Machado
+
+arXiv:2506.06057v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have revolutionized Natural Language Processing by excelling at interpreting, reasoning about, and generating human langua...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06057) | [📝 Analysis](24150cd1024afbe2f97de5fcd02bceb5.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-09 09:30:26 UTC*
