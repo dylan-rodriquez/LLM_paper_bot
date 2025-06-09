@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### MIRIAD: Augmenting LLMs with millions of medical query-response pairs
+
+**Score:** 90.0 | **Published:** 2025-06-09 | **Authors:** Qinyue Zheng, Salman Abdullah, Sam Rawal, Cyril Zakka, Sophie Ostmeier, Maximilian Purk, Eduardo Reis, Eric J. Topol, Jure Leskovec, Michael Moor
+
+arXiv:2506.06091v1 Announce Type: new 
+Abstract: LLMs are bound to transform healthcare with advanced decision support and flexible chat assistants. However, LLMs are prone to generate inaccurate medi...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06091) | [📝 Analysis](077c52118826d7e2a83358e215e3e0ba.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-09 09:30:26 UTC*

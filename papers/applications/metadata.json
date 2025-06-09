@@ -415,7 +415,103 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "IYKYK: Using language models to decode extremist cryptolects",
+      "authors": [
+        "Christine de Kock, Arij Riabi, Zeerak Talat, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy"
+      ],
+      "abstract": "arXiv:2506.05635v1 Announce Type: new \nAbstract: Extremist groups develop complex in-group language, also referred to as cryptolects, to exclude or mislead outsiders. We investigate the ability of current language technologies to detect and interpret the cryptolects of two online extremist platforms. Evaluating eight models across six tasks, our results indicate that general purpose LLMs cannot consistently detect or decode extremist language. However, performance can be significantly improved by domain adaptation and specialised prompting techniques. These results provide important insights to inform the development and deployment of automated moderation technologies. We further develop and release novel labelled and unlabelled datasets, including 19.4M posts from extremist platforms and lexicons validated by human experts.",
+      "url": "https://arxiv.org/abs/2506.05635",
+      "published_date": "2025-06-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "extremist",
+        "language",
+        "cryptolects",
+        "decode",
+        "decode extremist",
+        "detect",
+        "develop",
+        "extremist platforms",
+        "models",
+        "platforms"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research tackles a highly relevant and important problem \u2013 understanding extremist communication. The finding that general LLMs struggle with this task, but can be improved with adaptation, is valuable. The release of datasets is a significant contribution to the field, and the work appears methodologically sound based on the abstract. The innovation is moderate, building on existing LLM techniques rather than presenting entirely new architectures.",
+      "paper_id": "49c3b8641fe8ce9726c68b4b009e3256"
+    },
+    {
+      "title": "Interpretation Meets Safety: A Survey on Interpretation Methods and Tools for Improving LLM Safety",
+      "authors": [
+        "Seongmin Lee, Aeree Cho, Grace C. Kim, ShengYun Peng, Mansi Phute, Duen Horng Chau"
+      ],
+      "abstract": "arXiv:2506.05451v1 Announce Type: cross \nAbstract: As large language models (LLMs) see wider real-world use, understanding and mitigating their unsafe behaviors is critical. Interpretation techniques can reveal causes of unsafe outputs and guide safety, but such connections with safety are often overlooked in prior surveys. We present the first survey that bridges this gap, introducing a unified framework that connects safety-focused interpretation methods, the safety enhancements they inform, and the tools that operationalize them. Our novel taxonomy, organized by LLM workflow stages, summarizes nearly 70 works at their intersections. We conclude with open challenges and future directions. This timely survey helps researchers and practitioners navigate key advancements for safer, more interpretable LLMs.",
+      "url": "https://arxiv.org/abs/2506.05451",
+      "published_date": "2025-06-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "interpretation",
+        "survey",
+        "interpretation methods",
+        "llm",
+        "llms",
+        "methods",
+        "tools",
+        "unsafe",
+        "05451v1"
+      ],
+      "subject_classification": "applications",
+      "justification": "This survey addresses a highly relevant and timely problem \u2013 LLM safety \u2013 and uniquely focuses on the intersection of interpretation techniques and safety enhancements. The creation of a unified framework and novel taxonomy is a strong methodological contribution. While surveys are generally incremental, bridging this gap in existing literature is valuable, and the scope of nearly 70 works suggests a comprehensive effort.",
+      "paper_id": "e8a3ec4db5d9911b8dc3d921e358751f"
+    },
+    {
+      "title": "SoK: Are Watermarks in LLMs Ready for Deployment?",
+      "authors": [
+        "Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah, My Thai"
+      ],
+      "abstract": "arXiv:2506.05594v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have transformed natural language processing, demonstrating impressive capabilities across diverse tasks. However, deploying these models introduces critical risks related to intellectual property violations and potential misuse, particularly as adversaries can imitate these models to steal services or generate misleading outputs. We specifically focus on model stealing attacks, as they are highly relevant to proprietary LLMs and pose a serious threat to their security, revenue, and ethical deployment. While various watermarking techniques have emerged to mitigate these risks, it remains unclear how far the community and industry have progressed in developing and deploying watermarks in LLMs.\n  To bridge this gap, we aim to develop a comprehensive systematization for watermarks in LLMs by 1) presenting a detailed taxonomy for watermarks in LLMs, 2) proposing a novel intellectual property classifier to explore the effectiveness and impacts of watermarks on LLMs under both attack and attack-free environments, 3) analyzing the limitations of existing watermarks in LLMs, and 4) discussing practical challenges and potential future directions for watermarks in LLMs. Through extensive experiments, we show that despite promising research outcomes and significant attention from leading companies and community to deploy watermarks, these techniques have yet to reach their full potential in real-world applications due to their unfavorable impacts on model utility of LLMs and downstream tasks. Our findings provide an insightful understanding of watermarks in LLMs, highlighting the need for practical watermarks solutions tailored to LLM deployment.",
+      "url": "https://arxiv.org/abs/2506.05594",
+      "published_date": "2025-06-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "watermarks",
+        "watermarks llms",
+        "deployment",
+        "models",
+        "potential",
+        "attack",
+        "community",
+        "deploying",
+        "impacts"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the security and intellectual property protection of LLMs. The 'Systematization of Knowledge' (SoK) approach, including a taxonomy and a novel classifier, suggests a rigorous and well-structured investigation. While the abstract doesn't detail the specifics of the classifier, the overall framing indicates a strong potential for impact and positive reception within the LLM security community.",
+      "paper_id": "029ddca3177fee1865629c476f69f43a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-06-09T09:30:26.279776"
 }

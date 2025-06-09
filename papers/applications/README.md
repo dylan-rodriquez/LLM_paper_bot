@@ -2,7 +2,40 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### IYKYK: Using language models to decode extremist cryptolects
+
+**Score:** 92.0 | **Published:** 2025-06-09 | **Authors:** Christine de Kock, Arij Riabi, Zeerak Talat, Michael Sejr Schlichtkrull, Pranava Madhyastha, Ed Hovy
+
+arXiv:2506.05635v1 Announce Type: new 
+Abstract: Extremist groups develop complex in-group language, also referred to as cryptolects, to exclude or mislead outsiders. We investigate the ability of cur...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05635) | [📝 Analysis](49c3b8641fe8ce9726c68b4b009e3256.md)
+
+---
+
+### Interpretation Meets Safety: A Survey on Interpretation Methods and Tools for Improving LLM Safety
+
+**Score:** 92.0 | **Published:** 2025-06-09 | **Authors:** Seongmin Lee, Aeree Cho, Grace C. Kim, ShengYun Peng, Mansi Phute, Duen Horng Chau
+
+arXiv:2506.05451v1 Announce Type: cross 
+Abstract: As large language models (LLMs) see wider real-world use, understanding and mitigating their unsafe behaviors is critical. Interpretation techniques ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05451) | [📝 Analysis](e8a3ec4db5d9911b8dc3d921e358751f.md)
+
+---
+
+### SoK: Are Watermarks in LLMs Ready for Deployment?
+
+**Score:** 92.0 | **Published:** 2025-06-09 | **Authors:** Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah, My Thai
+
+arXiv:2506.05594v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have transformed natural language processing, demonstrating impressive capabilities across diverse tasks. However, deplo...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05594) | [📝 Analysis](029ddca3177fee1865629c476f69f43a.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +181,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-09 09:30:26 UTC*
