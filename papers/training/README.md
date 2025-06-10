@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text
+
+**Score:** 92.0 | **Published:** 2025-06-10 | **Authors:** Yize Cheng, Vinu Sankar Sadasivan, Mehrdad Saberi, Shoumik Saha, Soheil Feizi
+
+arXiv:2506.07001v1 Announce Type: new 
+Abstract: The increasing capabilities of Large Language Models (LLMs) have raised concerns about their misuse in AI-generated plagiarism and social engineering. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.07001) | [📝 Analysis](a6573a31e2e326492222949a6eb0e962.md)
+
+---
+
+### Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning
+
+**Score:** 90.0 | **Published:** 2025-06-10 | **Authors:** Jiaxing Guo, Wenjie Yang, Shengzhong Zhang, Tongshan Xu, Lun Du, Da Zheng, Zengfeng Huang
+
+arXiv:2506.06877v1 Announce Type: new 
+Abstract: Outcome-rewarded Large Language Models (LLMs) have demonstrated remarkable success in mathematical problem-solving. However, this success often masks a...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06877) | [📝 Analysis](f16596aa9b2c4ef614d8536ca4c25936.md)
+
+---
+
+### RULE: Reinforcement UnLEarning Achieves Forget-Retain Pareto Optimality
+
+**Score:** 90.0 | **Published:** 2025-06-10 | **Authors:** Chenlong Zhang, Zhuoran Jin, Hongbang Yuan, Jiaheng Wei, Tong Zhou, Kang Liu, Jun Zhao, Yubo Chen
+
+arXiv:2506.07171v1 Announce Type: new 
+Abstract: The widespread deployment of Large Language Models (LLMs) trained on massive, uncurated corpora has raised growing concerns about the inclusion of sens...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.07171) | [📝 Analysis](3b6e2f40bed414b9d51d7ff936c23c77.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-10 09:29:56 UTC*

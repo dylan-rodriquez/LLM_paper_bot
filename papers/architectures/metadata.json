@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "A Survey of Retentive Network",
+      "authors": [
+        "Haiqi Yang, Zhiyuan Li, Yi Chang, Yuan Wu"
+      ],
+      "abstract": "arXiv:2506.06708v1 Announce Type: new \nAbstract: Retentive Network (RetNet) represents a significant advancement in neural network architecture, offering an efficient alternative to the Transformer. While Transformers rely on self-attention to model dependencies, they suffer from high memory costs and limited scalability when handling long sequences due to their quadratic complexity. To mitigate these limitations, RetNet introduces a retention mechanism that unifies the inductive bias of recurrence with the global dependency modeling of attention. This mechanism enables linear-time inference, facilitates efficient modeling of extended contexts, and remains compatible with fully parallelizable training pipelines. RetNet has garnered significant research interest due to its consistently demonstrated cross-domain effectiveness, achieving robust performance across machine learning paradigms including natural language processing, speech recognition, and time-series analysis. However, a comprehensive review of RetNet is still missing from the current literature. This paper aims to fill that gap by offering the first detailed survey of the RetNet architecture, its key innovations, and its diverse applications. We also explore the main challenges associated with RetNet and propose future research directions to support its continued advancement in both academic research and practical deployment.",
+      "url": "https://arxiv.org/abs/2506.06708",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "retnet",
+        "network",
+        "research",
+        "advancement",
+        "architecture",
+        "attention",
+        "efficient",
+        "mechanism",
+        "modeling",
+        "offering"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The abstract clearly articulates a significant problem \u2013 the limitations of Transformers with long sequences \u2013 and proposes a novel solution, RetNet, that addresses these limitations. The reported cross-domain effectiveness suggests a robust and well-developed approach. While the abstract doesn't detail the specifics of the retention mechanism, the claims of linear-time inference and parallelizable training are compelling, indicating a high-quality contribution.",
+      "paper_id": "3de6d9d23639ae949004eae0a5ea38bd"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-06-10T09:29:56.341046"
 }

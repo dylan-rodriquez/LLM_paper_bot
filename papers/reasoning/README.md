@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation
+
+**Score:** 90.0 | **Published:** 2025-06-10 | **Authors:** Arkadiusz Modzelewski, Witold Sosnowski, Tiziano Labruna, Adam Wierzbicki, Giovanni Da San Martino
+
+arXiv:2506.06842v1 Announce Type: new 
+Abstract: Disinformation detection is a key aspect of media literacy. Psychological studies have shown that knowledge of persuasive fallacies helps individuals d...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06842) | [📝 Analysis](7ce72677a4bfd5291e61ce2d623173ba.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-10 09:29:56 UTC*
