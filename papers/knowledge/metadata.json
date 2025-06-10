@@ -95,7 +95,39 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "ConfQA: Answer Only If You Are Confident",
+      "authors": [
+        "Yin Huang, Yifan Ethan Xu, Kai Sun, Vera Yan, Alicia Sun, Haidar Khan, Jimmy Nguyen, Mohammad Kachuee, Zhaojiang Lin, Yue Liu, Aaron Colak, Anuj Kumar, Wen-tau Yih, Xin Luna Dong"
+      ],
+      "abstract": "arXiv:2506.07309v1 Announce Type: new \nAbstract: Can we teach Large Language Models (LLMs) to refrain from hallucinating factual statements? In this paper we present a fine-tuning strategy that we call ConfQA, which can reduce hallucination rate from 20-40% to under 5% across multiple factuality benchmarks. The core idea is simple: when the LLM answers a question correctly, it is trained to continue with the answer; otherwise, it is trained to admit \"I am unsure\". But there are two key factors that make the training highly effective. First, we introduce a dampening prompt \"answer only if you are confident\" to explicitly guide the behavior, without which hallucination remains high as 15%-25%. Second, we leverage simple factual statements, specifically attribute values from knowledge graphs, to help LLMs calibrate the confidence, resulting in robust generalization across domains and question types. Building on this insight, we propose the Dual Neural Knowledge framework, which seamlessly select between internally parameterized neural knowledge and externally recorded symbolic knowledge based on ConfQA's confidence. The framework enables potential accuracy gains to beyond 95%, while reducing unnecessary external retrievals by over 30%.",
+      "url": "https://arxiv.org/abs/2506.07309",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "knowledge",
+        "answer",
+        "confqa",
+        "answer confident",
+        "confidence",
+        "confident",
+        "factual",
+        "factual statements",
+        "framework",
+        "hallucination"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper addresses the critical problem of hallucination in LLMs, a major barrier to their reliable deployment. The ConfQA strategy, particularly the 'answer only if confident' prompt and leveraging knowledge graph attributes, appears to be a significant improvement over existing methods, achieving a substantial reduction in hallucination rates. The mention of a 'Dual Neural Knowledge framework' suggests further development and potential for broader applicability, indicating a strong likelihood of positive reception within the community.",
+      "paper_id": "1c144474e835eac1c85efb4a6a19a89c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2025-06-10T09:29:56.346123"
 }

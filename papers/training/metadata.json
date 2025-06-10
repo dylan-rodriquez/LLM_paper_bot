@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text",
+      "authors": [
+        "Yize Cheng, Vinu Sankar Sadasivan, Mehrdad Saberi, Shoumik Saha, Soheil Feizi"
+      ],
+      "abstract": "arXiv:2506.07001v1 Announce Type: new \nAbstract: The increasing capabilities of Large Language Models (LLMs) have raised concerns about their misuse in AI-generated plagiarism and social engineering. While various AI-generated text detectors have been proposed to mitigate these risks, many remain vulnerable to simple evasion techniques such as paraphrasing. However, recent detectors have shown greater robustness against such basic attacks. In this work, we introduce Adversarial Paraphrasing, a training-free attack framework that universally humanizes any AI-generated text to evade detection more effectively. Our approach leverages an off-the-shelf instruction-following LLM to paraphrase AI-generated content under the guidance of an AI text detector, producing adversarial examples that are specifically optimized to bypass detection. Extensive experiments show that our attack is both broadly effective and highly transferable across several detection systems. For instance, compared to simple paraphrasing attack--which, ironically, increases the true positive at 1% false positive (T@1%F) by 8.57% on RADAR and 15.03% on Fast-DetectGPT--adversarial paraphrasing, guided by OpenAI-RoBERTa-Large, reduces T@1%F by 64.49% on RADAR and a striking 98.96% on Fast-DetectGPT. Across a diverse set of detectors--including neural network-based, watermark-based, and zero-shot approaches--our attack achieves an average T@1%F reduction of 87.88% under the guidance of OpenAI-RoBERTa-Large. We also analyze the tradeoff between text quality and attack success to find that our method can significantly reduce detection rates, with mostly a slight degradation in text quality. Our adversarial setup highlights the need for more robust and resilient detection strategies in the light of increasingly sophisticated evasion techniques.",
+      "url": "https://arxiv.org/abs/2506.07001",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "attack",
+        "text",
+        "adversarial",
+        "ai generated",
+        "detection",
+        "generated",
+        "paraphrasing",
+        "adversarial paraphrasing",
+        "detectors"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the vulnerability of AI text detectors to evasion. The 'Adversarial Paraphrasing' framework, leveraging an LLM guided by a detector, appears to be a novel and effective approach to bypassing detection. The claim of universality and transferability across detection systems is particularly strong, suggesting a significant contribution to understanding and mitigating risks associated with AI-generated content.",
+      "paper_id": "a6573a31e2e326492222949a6eb0e962"
+    },
+    {
+      "title": "Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning",
+      "authors": [
+        "Jiaxing Guo, Wenjie Yang, Shengzhong Zhang, Tongshan Xu, Lun Du, Da Zheng, Zengfeng Huang"
+      ],
+      "abstract": "arXiv:2506.06877v1 Announce Type: new \nAbstract: Outcome-rewarded Large Language Models (LLMs) have demonstrated remarkable success in mathematical problem-solving. However, this success often masks a critical issue: models frequently achieve correct answers through fundamentally unsound reasoning processes, a phenomenon indicative of reward hacking. We introduce MathOlympiadEval, a new dataset with fine-grained annotations, which reveals a significant gap between LLMs' answer correctness and their low process correctness. Existing automated methods like LLM-as-a-judge struggle to reliably detect these reasoning flaws. To address this, we propose ParaStepVerifier, a novel methodology for meticulous, step-by-step verification of mathematical solutions. ParaStepVerifier identifies incorrect reasoning steps. Empirical results demonstrate that ParaStepVerifier substantially improves the accuracy of identifying flawed solutions compared to baselines, especially for complex, multi-step problems. This offers a more robust path towards evaluating and training LLMs with genuine mathematical reasoning.",
+      "url": "https://arxiv.org/abs/2506.06877",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "mathematical",
+        "parastepverifier",
+        "step",
+        "correctness",
+        "models",
+        "new",
+        "outcome",
+        "solutions"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM development \u2013 the disconnect between correct answers and sound reasoning. The introduction of MathOlympiadEval and ParaStepVerifier appears to be a strong methodological contribution, addressing the limitations of existing evaluation techniques. The focus on step-by-step verification is particularly valuable, and the initial results suggest a significant improvement in identifying flawed reasoning, making it likely to be well-received by the community.",
+      "paper_id": "f16596aa9b2c4ef614d8536ca4c25936"
+    },
+    {
+      "title": "RULE: Reinforcement UnLEarning Achieves Forget-Retain Pareto Optimality",
+      "authors": [
+        "Chenlong Zhang, Zhuoran Jin, Hongbang Yuan, Jiaheng Wei, Tong Zhou, Kang Liu, Jun Zhao, Yubo Chen"
+      ],
+      "abstract": "arXiv:2506.07171v1 Announce Type: new \nAbstract: The widespread deployment of Large Language Models (LLMs) trained on massive, uncurated corpora has raised growing concerns about the inclusion of sensitive, copyrighted, or illegal content. This has led to increasing interest in LLM unlearning: the task of selectively removing specific information from a model without retraining from scratch or degrading overall utility. However, existing methods often rely on large-scale forget and retain datasets, and suffer from unnatural responses, poor generalization, or catastrophic utility loss. In this work, we propose Reinforcement UnLearning (RULE), an efficient framework that formulates unlearning as a refusal boundary optimization problem. RULE is trained with a small portion of the forget set and synthesized boundary queries, using a verifiable reward function that encourages safe refusal on forget--related queries while preserving helpful responses on permissible inputs. We provide both theoretical and empirical evidence demonstrating the effectiveness of RULE in achieving targeted unlearning without compromising model utility. Experimental results show that, with only $12%$ forget set and $8%$ synthesized boundary data, RULE outperforms existing baselines by up to $17.5%$ forget quality and $16.3%$ naturalness response while maintaining general utility, achieving forget--retain Pareto optimality. Remarkably, we further observe that RULE improves the naturalness of model outputs, enhances training efficiency, and exhibits strong generalization ability, generalizing refusal behavior to semantically related but unseen queries.",
+      "url": "https://arxiv.org/abs/2506.07171",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "forget",
+        "rule",
+        "unlearning",
+        "utility",
+        "boundary",
+        "forget retain",
+        "model",
+        "queries",
+        "refusal",
+        "retain"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 unlearning in LLMs \u2013 and proposes a novel approach using reinforcement learning to optimize refusal boundaries. The focus on efficiency (small forget set) and avoiding utility loss is commendable. While the abstract doesn't detail the specifics of the reward function verification, the overall framing suggests a rigorous methodology and potential for significant impact.",
+      "paper_id": "3b6e2f40bed414b9d51d7ff936c23c77"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-10T09:29:56.343936"
 }

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights",
+      "authors": [
+        "Sooyung Choi, Jaehyeok Lee, Xiaoyuan Yi, Jing Yao, Xing Xie, JinYeong Bak"
+      ],
+      "abstract": "arXiv:2506.06404v1 Announce Type: new \nAbstract: The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human values. However, aligning these models with individual values raises significant safety concerns, as certain values may correlate with harmful information. In this paper, we identify specific safety risks associated with value-aligned LLMs and investigate the psychological principles behind these challenges. Our findings reveal two key insights. (1) Value-aligned LLMs are more prone to harmful behavior compared to non-fine-tuned models and exhibit slightly higher risks in traditional safety evaluations than other fine-tuned models. (2) These safety issues arise because value-aligned LLMs genuinely generate text according to the aligned values, which can amplify harmful outcomes. Using a dataset with detailed safety categories, we find significant correlations between value alignment and safety risks, supported by psychological hypotheses. This study offers insights into the \"black box\" of value alignment and proposes in-context alignment methods to enhance the safety of value-aligned LLMs.",
+      "url": "https://arxiv.org/abs/2506.06404",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "llms",
+        "safety",
+        "value",
+        "aligned",
+        "aligned llms",
+        "value aligned",
+        "models",
+        "values",
+        "alignment",
+        "harmful"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely safety concern regarding value-aligned LLMs, which is becoming increasingly important as personalization gains traction. The identification of a correlation between value alignment and *increased* harmful behavior, rather than decreased, is a counterintuitive and significant finding. The use of a detailed safety category dataset strengthens the empirical basis of the research, and the psychological framing adds depth. While the abstract doesn't detail the specific methods, the initial findings suggest a robust investigation.",
+      "paper_id": "44a9bffddd585c09b69d48560025f93f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-10T09:29:56.340111"
 }

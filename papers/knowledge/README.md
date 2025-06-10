@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### ConfQA: Answer Only If You Are Confident
+
+**Score:** 90.0 | **Published:** 2025-06-10 | **Authors:** Yin Huang, Yifan Ethan Xu, Kai Sun, Vera Yan, Alicia Sun, Haidar Khan, Jimmy Nguyen, Mohammad Kachuee, Zhaojiang Lin, Yue Liu, Aaron Colak, Anuj Kumar, Wen-tau Yih, Xin Luna Dong
+
+arXiv:2506.07309v1 Announce Type: new 
+Abstract: Can we teach Large Language Models (LLMs) to refrain from hallucinating factual statements? In this paper we present a fine-tuning strategy that we cal...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.07309) | [📝 Analysis](1c144474e835eac1c85efb4a6a19a89c.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-10 09:29:56 UTC*
