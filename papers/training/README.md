@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors
+
+**Score:** 92.0 | **Published:** 2025-06-11 | **Authors:** Wenlong Meng, Shuguo Fan, Chengkun Wei, Min Chen, Yuwei Li, Yuanchao Zhang, Zhikun Zhang, Wenzhi Chen
+
+arXiv:2506.08188v1 Announce Type: cross 
+Abstract: In this paper, we introduce GradEscape, the first gradient-based evader designed to attack AI-generated text (AIGT) detectors. GradEscape overcomes t...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.08188) | [📝 Analysis](46b321bc080ae6129f80e31dd15bb0db.md)
+
+---
+
+### A Survey on Large Language Models for Mathematical Reasoning
+
+**Score:** 92.0 | **Published:** 2025-06-11 | **Authors:** Peng-Yuan Wang, Tian-Shuo Liu, Chenyang Wang, Yi-Di Wang, Shu Yan, Cheng-Xing Jia, Xu-Hui Liu, Xin-Wei Chen, Jia-Cheng Xu, Ziniu Li, Yang Yu
+
+arXiv:2506.08446v1 Announce Type: cross 
+Abstract: Mathematical reasoning has long represented one of the most fundamental and challenging frontiers in artificial intelligence research. In recent year...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.08446) | [📝 Analysis](04be2a857d06dfc92a46f8f2b7497516.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-11 09:29:34 UTC*
