@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### CAIRe: Cultural Attribution of Images by Retrieval-Augmented Evaluation
+
+**Score:** 92.0 | **Published:** 2025-06-12 | **Authors:** Arnav Yayavaram, Siddharth Yayavaram, Simran Khanuja, Michael Saxon, Graham Neubig
+
+arXiv:2506.09109v1 Announce Type: cross 
+Abstract: As text-to-image models become increasingly prevalent, ensuring their equitable performance across diverse cultural contexts is critical. Efforts to ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09109) | [📝 Analysis](96e48e18c7e75149cd9774bb8f239d77.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-12 09:29:11 UTC*

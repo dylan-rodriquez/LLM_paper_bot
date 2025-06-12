@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Towards Efficient and Effective Alignment of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-12 | **Authors:** Yuxin Jiang
+
+arXiv:2506.09329v1 Announce Type: new 
+Abstract: Large language models (LLMs) exhibit remarkable capabilities across diverse tasks, yet aligning them efficiently and effectively with human expectation...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09329) | [📝 Analysis](739c187da706451d5195e94aedf6d849.md)
+
+---
+
+### When Detection Fails: The Power of Fine-Tuned Models to Generate Human-Like Social Media Text
+
+**Score:** 92.0 | **Published:** 2025-06-12 | **Authors:** Hillary Dawkins, Kathleen C. Fraser, Svetlana Kiritchenko
+
+arXiv:2506.09975v1 Announce Type: new 
+Abstract: Detecting AI-generated text is a difficult problem to begin with; detecting AI-generated text on social media is made even more difficult due to the sh...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09975) | [📝 Analysis](eef01266d7bea771be4b250f65ada5ff.md)
+
+---
+
+### The Emergence of Abstract Thought in Large Language Models Beyond Any Language
+
+**Score:** 90.0 | **Published:** 2025-06-12 | **Authors:** Yuxin Chen, Yiran Zhao, Yang Zhang, An Zhang, Kenji Kawaguchi, Shafiq Joty, Junnan Li, Tat-Seng Chua, Michael Qizhe Shieh, Wenxuan Zhang
+
+arXiv:2506.09890v1 Announce Type: new 
+Abstract: As large language models (LLMs) continue to advance, their capacity to function effectively across a diverse range of languages has shown marked improv...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09890) | [📝 Analysis](8e4334e105fa9b4de7bb8fc818ed8652.md)
+
+---
+
+### SensorLM: Learning the Language of Wearable Sensors
+
+**Score:** 90.0 | **Published:** 2025-06-12 | **Authors:** Yuwei Zhang, Kumar Ayush, Siyuan Qiao, A. Ali Heydari, Girish Narayanswamy, Maxwell A. Xu, Ahmed A. Metwally, Shawn Xu, Jake Garrison, Xuhai Xu, Tim Althoff, Yun Liu, Pushmeet Kohli, Jiening Zhan, Mark Malhotra, Shwetak Patel, Cecilia Mascolo, Xin Liu, Daniel McDuff, Yuzhe Yang
+
+arXiv:2506.09108v1 Announce Type: cross 
+Abstract: We present SensorLM, a family of sensor-language foundation models that enable wearable sensor data understanding with natural language. Despite its ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09108) | [📝 Analysis](29623ec3ba7a1ab8c2c976a8cae30f30.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-12 09:29:11 UTC*
