@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Multimodal Large Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Longzhen Han, Awes Mubarak, Almas Baimagambetov, Nikolaos Polatidis, Thar Baker
+
+arXiv:2506.10016v1 Announce Type: cross 
+Abstract: Multimodal Large Language Models (MLLMs) have rapidly evolved beyond text generation, now spanning diverse output modalities including images, music,...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10016) | [📝 Analysis](446d5c5a8abd9f4777b036ebebb0a96a.md)
+
+---
+
+### IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Lucky Susanto, Musa Izzanardi Wijanarko, Prasetia Anugrah Pratama, Traci Hong, Ika Idris, Alham Fikri Aji, Derry Wijaya
+
+arXiv:2406.19349v2 Announce Type: replace 
+Abstract: Hate speech poses a significant threat to social harmony. Over the past two years, Indonesia has seen a ten-fold increase in the online hate speech...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.19349) | [📝 Analysis](9ecf0c9001c8c2e1b7bcefa57fb794cb.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

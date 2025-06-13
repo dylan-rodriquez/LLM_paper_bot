@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Weak-to-Strong Jailbreaking on Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Xuandong Zhao, Xianjun Yang, Tianyu Pang, Chao Du, Lei Li, Yu-Xiang Wang, William Yang Wang
+
+arXiv:2401.17256v3 Announce Type: replace 
+Abstract: Large language models (LLMs) are vulnerable to jailbreak attacks - resulting in harmful, unethical, or biased text generations. However, existing j...
+
+[📄 Full Paper](https://arxiv.org/abs/2401.17256) | [📝 Analysis](9e5e15419552b6a69e323c628891971f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

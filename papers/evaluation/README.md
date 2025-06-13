@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Disclosure Audits for LLM Agents
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Saswat Das, Jameson Sandler, Ferdinando Fioretto
+
+arXiv:2506.10171v1 Announce Type: cross 
+Abstract: Large Language Model agents have begun to appear as personal assistants, customer service bots, and clinical aides. While these applications deliver ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10171) | [📝 Analysis](12916d88bea3bfc7e1adeb6fcf635e05.md)
+
+---
+
+### Breaking Bad Molecules: Are MLLMs Ready for Structure-Level Molecular Detoxification?
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Fei Lin, Ziyang Gong, Cong Wang, Yonglin Tian, Tengchao Zhang, Xue Yang, Gen Luo, Fei-Yue Wang
+
+arXiv:2506.10912v1 Announce Type: cross 
+Abstract: Toxicity remains a leading cause of early-stage drug development failure. Despite advances in molecular design and property prediction, the task of m...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10912) | [📝 Analysis](fc884679419aa0923eb36c40ac4bcbb7.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

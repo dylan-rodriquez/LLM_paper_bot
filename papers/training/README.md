@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Can We Infer Confidential Properties of Training Data from LLMs?
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Penguin Huang, Chhavi Yadav, Ruihan Wu, Kamalika Chaudhuri
+
+arXiv:2506.10364v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are increasingly fine-tuned on domain-specific datasets to support applications in fields such as healthcare, finance, a...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10364) | [📝 Analysis](661f37fad1cafa4e888ddef2af1c2084.md)
+
+---
+
+### Unsupervised Elicitation of Language Models
+
+**Score:** 90.0 | **Published:** 2025-06-13 | **Authors:** Jiaxin Wen, Zachary Ankner, Arushi Somani, Peter Hase, Samuel Marks, Jacob Goldman-Wetzler, Linda Petrini, Henry Sleight, Collin Burns, He He, Shi Feng, Ethan Perez, Jan Leike
+
+arXiv:2506.10139v1 Announce Type: new 
+Abstract: To steer pretrained language models for downstream tasks, today's post-training paradigm relies on humans to specify desired behaviors. However, for mo...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10139) | [📝 Analysis](cf90efae93c52fe25033cfdf3ccc96fb.md)
+
+---
+
+### Provably Learning from Language Feedback
+
+**Score:** 90.0 | **Published:** 2025-06-13 | **Authors:** Wanqiao Xu, Allen Nie, Ruijie Zheng, Aditya Modi, Adith Swaminathan, Ching-An Cheng
+
+arXiv:2506.10341v1 Announce Type: cross 
+Abstract: Interactively learning from observation and language feedback is an increasingly studied area driven by the emergence of large language model (LLM) a...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10341) | [📝 Analysis](fd687b62e6022aeca204a40d8a9a4faa.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

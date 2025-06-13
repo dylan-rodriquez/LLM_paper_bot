@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Can We Infer Confidential Properties of Training Data from LLMs?",
+      "authors": [
+        "Penguin Huang, Chhavi Yadav, Ruihan Wu, Kamalika Chaudhuri"
+      ],
+      "abstract": "arXiv:2506.10364v1 Announce Type: cross \nAbstract: Large language models (LLMs) are increasingly fine-tuned on domain-specific datasets to support applications in fields such as healthcare, finance, and law. These fine-tuning datasets often have sensitive and confidential dataset-level properties -- such as patient demographics or disease prevalence -- that are not intended to be revealed. While prior work has studied property inference attacks on discriminative models (e.g., image classification models) and generative models (e.g., GANs for image data), it remains unclear if such attacks transfer to LLMs. In this work, we introduce PropInfer, a benchmark task for evaluating property inference in LLMs under two fine-tuning paradigms: question-answering and chat-completion. Built on the ChatDoctor dataset, our benchmark includes a range of property types and task configurations. We further propose two tailored attacks: a prompt-based generation attack and a shadow-model attack leveraging word frequency signals. Empirical evaluations across multiple pretrained LLMs show the success of our attacks, revealing a previously unrecognized vulnerability in LLMs.",
+      "url": "https://arxiv.org/abs/2506.10364",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "llms",
+        "attacks",
+        "models",
+        "fine",
+        "property",
+        "attack",
+        "benchmark",
+        "confidential",
+        "data",
+        "dataset"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the potential for LLMs to leak confidential information from their training data. The introduction of PropInfer as a benchmark and the proposal of tailored attacks are strong methodological contributions. While the attacks themselves may build on existing property inference techniques, adapting them to the LLM context is novel and important, and the focus on both question-answering and chat-completion paradigms adds to the work's value.",
+      "paper_id": "661f37fad1cafa4e888ddef2af1c2084"
+    },
+    {
+      "title": "Unsupervised Elicitation of Language Models",
+      "authors": [
+        "Jiaxin Wen, Zachary Ankner, Arushi Somani, Peter Hase, Samuel Marks, Jacob Goldman-Wetzler, Linda Petrini, Henry Sleight, Collin Burns, He He, Shi Feng, Ethan Perez, Jan Leike"
+      ],
+      "abstract": "arXiv:2506.10139v1 Announce Type: new \nAbstract: To steer pretrained language models for downstream tasks, today's post-training paradigm relies on humans to specify desired behaviors. However, for models with superhuman capabilities, it is difficult or impossible to get high-quality human supervision. To address this challenge, we introduce a new unsupervised algorithm, Internal Coherence Maximization (ICM), to fine-tune pretrained language models on their own generated labels, \\emph{without external supervision}. On GSM8k-verification, TruthfulQA, and Alpaca reward modeling tasks, our method matches the performance of training on golden supervision and outperforms training on crowdsourced human supervision. On tasks where LMs' capabilities are strongly superhuman, our method can elicit those capabilities significantly better than training on human labels. Finally, we show that our method can improve the training of frontier LMs: we use our method to train an unsupervised reward model and use reinforcement learning to train a Claude 3.5 Haiku-based assistant. Both the reward model and the assistant outperform their human-supervised counterparts.",
+      "url": "https://arxiv.org/abs/2506.10139",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "training",
+        "human",
+        "method",
+        "models",
+        "supervision",
+        "capabilities",
+        "language",
+        "language models",
+        "reward",
+        "tasks"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in scaling language models \u2013 the difficulty of obtaining high-quality human supervision, especially for highly capable models. The proposed 'Internal Coherence Maximization' (ICM) method is a novel approach to fine-tuning LMs without external labels, and the reported results, matching or exceeding human-supervised training, are compelling. The ability to elicit superhuman capabilities is particularly noteworthy, suggesting a significant advancement in LM training paradigms. The positive results on frontier LMs further strengthen the paper's potential.",
+      "paper_id": "cf90efae93c52fe25033cfdf3ccc96fb"
+    },
+    {
+      "title": "Provably Learning from Language Feedback",
+      "authors": [
+        "Wanqiao Xu, Allen Nie, Ruijie Zheng, Aditya Modi, Adith Swaminathan, Ching-An Cheng"
+      ],
+      "abstract": "arXiv:2506.10341v1 Announce Type: cross \nAbstract: Interactively learning from observation and language feedback is an increasingly studied area driven by the emergence of large language model (LLM) agents. While impressive empirical demonstrations have been shown, so far a principled framing of these decision problems remains lacking. In this paper, we formalize the Learning from Language Feedback (LLF) problem, assert sufficient assumptions to enable learning despite latent rewards, and introduce $\\textit{transfer eluder dimension}$ as a complexity measure to characterize the hardness of LLF problems. We show that transfer eluder dimension captures the intuition that information in the feedback changes the learning complexity of the LLF problem. We demonstrate cases where learning from rich language feedback can be exponentially faster than learning from reward. We develop a no-regret algorithm, called $\\texttt{HELiX}$, that provably solves LLF problems through sequential interactions, with performance guarantees that scale with the transfer eluder dimension of the problem. Across several empirical domains, we show that $\\texttt{HELiX}$ performs well even when repeatedly prompting LLMs does not work reliably. Our contributions mark a first step towards designing principled interactive learning algorithms from generic language feedback.",
+      "url": "https://arxiv.org/abs/2506.10341",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "learning",
+        "feedback",
+        "language",
+        "language feedback",
+        "llf",
+        "dimension",
+        "eluder",
+        "eluder dimension",
+        "problem",
+        "problems"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of LLM agents \u2013 formalizing and understanding learning from language feedback. The introduction of 'transfer eluder dimension' as a complexity measure is a novel approach, and the claim of exponential speedups over reward-based learning is significant. The development of a provably no-regret algorithm, HELIX, further strengthens the work, suggesting a high degree of rigor and potential for practical application.",
+      "paper_id": "fd687b62e6022aeca204a40d8a9a4faa"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-13T09:29:22.125475"
 }

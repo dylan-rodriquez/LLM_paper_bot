@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Weak-to-Strong Jailbreaking on Large Language Models",
+      "authors": [
+        "Xuandong Zhao, Xianjun Yang, Tianyu Pang, Chao Du, Lei Li, Yu-Xiang Wang, William Yang Wang"
+      ],
+      "abstract": "arXiv:2401.17256v3 Announce Type: replace \nAbstract: Large language models (LLMs) are vulnerable to jailbreak attacks - resulting in harmful, unethical, or biased text generations. However, existing jailbreaking methods are computationally costly. In this paper, we propose the weak-to-strong jailbreaking attack, an efficient inference time attack for aligned LLMs to produce harmful text. Our key intuition is based on the observation that jailbroken and aligned models only differ in their initial decoding distributions. The weak-to-strong attack's key technical insight is using two smaller models (a safe and an unsafe one) to adversarially modify a significantly larger safe model's decoding probabilities. We evaluate the weak-to-strong attack on 5 diverse open-source LLMs from 3 organizations. The results show our method can increase the misalignment rate to over 99% on two datasets with just one forward pass per example. Our study exposes an urgent safety issue that needs to be addressed when aligning LLMs. As an initial attempt, we propose a defense strategy to protect against such attacks, but creating more advanced defenses remains challenging. The code for replicating the method is available at https://github.com/XuandongZhao/weak-to-strong",
+      "url": "https://arxiv.org/abs/2401.17256",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "strong",
+        "weak",
+        "weak strong",
+        "attack",
+        "llms",
+        "models",
+        "jailbreaking",
+        "aligned",
+        "attacks",
+        "decoding"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical safety concern in LLMs \u2013 jailbreaking \u2013 with a novel and efficient approach. The 'weak-to-strong' attack leveraging smaller models to manipulate larger ones is a clever idea, and achieving >99% misalignment on some datasets is a strong result. The clarity of the abstract suggests a well-written paper, and the focus on practical efficiency is valuable.",
+      "paper_id": "9e5e15419552b6a69e323c628891971f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-13T09:29:22.132172"
 }
