@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Time-IMM: A Dataset and Benchmark for Irregular Multimodal Multivariate Time Series
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Ching Chang, Jeehyun Hwang, Yidan Shi, Haixin Wang, Wen-Chih Peng, Tien-Fu Chen, Wei Wang
+
+arXiv:2506.10412v1 Announce Type: cross 
+Abstract: Time series data in real-world applications such as healthcare, climate modeling, and finance are often irregular, multimodal, and messy, with varyin...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10412) | [📝 Analysis](fb906152d6c9a344eb603107b0f44912.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

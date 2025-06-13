@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Disclosure Audits for LLM Agents",
+      "authors": [
+        "Saswat Das, Jameson Sandler, Ferdinando Fioretto"
+      ],
+      "abstract": "arXiv:2506.10171v1 Announce Type: cross \nAbstract: Large Language Model agents have begun to appear as personal assistants, customer service bots, and clinical aides. While these applications deliver substantial operational benefits, they also require continuous access to sensitive data, which increases the likelihood of unauthorized disclosures. This study proposes an auditing framework for conversational privacy that quantifies and audits these risks. The proposed Conversational Manipulation for Privacy Leakage (CMPL) framework, is an iterative probing strategy designed to stress-test agents that enforce strict privacy directives. Rather than focusing solely on a single disclosure event, CMPL simulates realistic multi-turn interactions to systematically uncover latent vulnerabilities. Our evaluation on diverse domains, data modalities, and safety configurations demonstrate the auditing framework's ability to reveal privacy risks that are not deterred by existing single-turn defenses. In addition to introducing CMPL as a diagnostic tool, the paper delivers (1) an auditing procedure grounded in quantifiable risk metrics and (2) an open benchmark for evaluation of conversational privacy across agent implementations.",
+      "url": "https://arxiv.org/abs/2506.10171",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "privacy",
+        "agents",
+        "auditing",
+        "cmpl",
+        "conversational",
+        "framework",
+        "auditing framework",
+        "audits",
+        "conversational privacy",
+        "data"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the privacy risks associated with increasingly capable LLM agents. The proposed CMPL framework appears well-motivated and designed to overcome limitations of single-turn auditing methods. The focus on multi-turn interactions and systematic vulnerability uncovering is a strong point, suggesting a rigorous approach. The potential for revealing risks not caught by existing defenses is significant, indicating a positive reception within the community.",
+      "paper_id": "12916d88bea3bfc7e1adeb6fcf635e05"
+    },
+    {
+      "title": "Breaking Bad Molecules: Are MLLMs Ready for Structure-Level Molecular Detoxification?",
+      "authors": [
+        "Fei Lin, Ziyang Gong, Cong Wang, Yonglin Tian, Tengchao Zhang, Xue Yang, Gen Luo, Fei-Yue Wang"
+      ],
+      "abstract": "arXiv:2506.10912v1 Announce Type: cross \nAbstract: Toxicity remains a leading cause of early-stage drug development failure. Despite advances in molecular design and property prediction, the task of molecular toxicity repair - generating structurally valid molecular alternatives with reduced toxicity - has not yet been systematically defined or benchmarked. To fill this gap, we introduce ToxiMol, the first benchmark task for general-purpose Multimodal Large Language Models (MLLMs) focused on molecular toxicity repair. We construct a standardized dataset covering 11 primary tasks and 560 representative toxic molecules spanning diverse mechanisms and granularities. We design a prompt annotation pipeline with mechanism-aware and task-adaptive capabilities, informed by expert toxicological knowledge. In parallel, we propose an automated evaluation framework, ToxiEval, which integrates toxicity endpoint prediction, synthetic accessibility, drug-likeness, and structural similarity into a high-throughput evaluation chain for repair success. We systematically assess nearly 30 mainstream general-purpose MLLMs and design multiple ablation studies to analyze key factors such as evaluation criteria, candidate diversity, and failure attribution. Experimental results show that although current MLLMs still face significant challenges on this task, they begin to demonstrate promising capabilities in toxicity understanding, semantic constraint adherence, and structure-aware molecule editing.",
+      "url": "https://arxiv.org/abs/2506.10912",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "toxicity",
+        "molecular",
+        "mllms",
+        "task",
+        "design",
+        "evaluation",
+        "repair",
+        "aware",
+        "capabilities",
+        "drug"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in drug discovery \u2013 molecular toxicity repair \u2013 and does so by systematically defining and benchmarking the problem for MLLMs. The creation of ToxiMol and ToxiEval represents a significant contribution to the field, providing standardized tools for evaluating model performance. The focus on mechanism-aware prompting and integration of multiple evaluation metrics (toxicity, accessibility, drug-likeness) demonstrates a rigorous and thoughtful approach.",
+      "paper_id": "fc884679419aa0923eb36c40ac4bcbb7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-13T09:29:22.129214"
 }

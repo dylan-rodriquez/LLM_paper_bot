@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Robustly Improving LLM Fairness in Realistic Settings via Interpretability
+
+**Score:** 92.0 | **Published:** 2025-06-13 | **Authors:** Adam Karvonen, Samuel Marks
+
+arXiv:2506.10922v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are increasingly deployed in high-stakes hiring applications, making decisions that directly impact people's careers and...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10922) | [📝 Analysis](a64d45599ddf2ffff7f605c4b7bc1e6f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-13 09:29:22 UTC*

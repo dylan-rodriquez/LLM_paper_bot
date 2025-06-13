@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Multimodal Large Language Models: A Survey",
+      "authors": [
+        "Longzhen Han, Awes Mubarak, Almas Baimagambetov, Nikolaos Polatidis, Thar Baker"
+      ],
+      "abstract": "arXiv:2506.10016v1 Announce Type: cross \nAbstract: Multimodal Large Language Models (MLLMs) have rapidly evolved beyond text generation, now spanning diverse output modalities including images, music, video, human motion, and 3D objects, by integrating language with other sensory modalities under unified architectures. This survey categorises six primary generative modalities and examines how foundational techniques, namely Self-Supervised Learning (SSL), Mixture of Experts (MoE), Reinforcement Learning from Human Feedback (RLHF), and Chain-of-Thought (CoT) prompting, enable cross-modal capabilities. We analyze key models, architectural trends, and emergent cross-modal synergies, while highlighting transferable techniques and unresolved challenges. Architectural innovations like transformers and diffusion models underpin this convergence, enabling cross-modal transfer and modular specialization. We highlight emerging patterns of synergy, and identify open challenges in evaluation, modularity, and structured reasoning. This survey offers a unified perspective on MLLM development and identifies critical paths toward more general-purpose, adaptive, and interpretable multimodal systems.",
+      "url": "https://arxiv.org/abs/2506.10016",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.MM"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cross",
+        "models",
+        "cross modal",
+        "language",
+        "modal",
+        "modalities",
+        "multimodal",
+        "survey",
+        "architectural",
+        "challenges"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 Multimodal Large Language Models. The categorization of generative modalities and analysis of foundational techniques (SSL, MoE, RLHF, CoT) provides a valuable overview for researchers. While the abstract doesn't detail novel *methods*, the comprehensive scope and synthesis of existing work suggest high quality and potential impact, and the field is currently experiencing significant interest.",
+      "paper_id": "446d5c5a8abd9f4777b036ebebb0a96a"
+    },
+    {
+      "title": "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language",
+      "authors": [
+        "Lucky Susanto, Musa Izzanardi Wijanarko, Prasetia Anugrah Pratama, Traci Hong, Ika Idris, Alham Fikri Aji, Derry Wijaya"
+      ],
+      "abstract": "arXiv:2406.19349v2 Announce Type: replace \nAbstract: Hate speech poses a significant threat to social harmony. Over the past two years, Indonesia has seen a ten-fold increase in the online hate speech ratio, underscoring the urgent need for effective detection mechanisms. However, progress is hindered by the limited availability of labeled data for Indonesian texts. The condition is even worse for marginalized minorities, such as Shia, LGBTQ, and other ethnic minorities because hate speech is underreported and less understood by detection tools. Furthermore, the lack of accommodation for subjectivity in current datasets compounds this issue. To address this, we introduce IndoToxic2024, a comprehensive Indonesian hate speech and toxicity classification dataset. Comprising 43,692 entries annotated by 19 diverse individuals, the dataset focuses on texts targeting vulnerable groups in Indonesia, specifically during the hottest political event in the country: the presidential election. We establish baselines for seven binary classification tasks, achieving a macro-F1 score of 0.78 with a BERT model (IndoBERTweet) fine-tuned for hate speech classification. Furthermore, we demonstrate how incorporating demographic information can enhance the zero-shot performance of the large language model, gpt-3.5-turbo. However, we also caution that an overemphasis on demographic information can negatively impact the fine-tuned model performance due to data fragmentation.",
+      "url": "https://arxiv.org/abs/2406.19349",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hate",
+        "hate speech",
+        "speech",
+        "classification",
+        "dataset",
+        "indonesian",
+        "model",
+        "data",
+        "demographic",
+        "demographic information"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critical and timely problem \u2013 the rise of online hate speech in Indonesia, particularly targeting vulnerable groups. The creation of a large, demographically-enriched dataset is a significant contribution, especially given the lack of resources for Indonesian language hate speech detection. While the dataset creation itself isn't groundbreaking in methodology, the focus on specific marginalized groups and the timing around a major political event adds value. The potential for real-world impact is high, and the community is likely to receive this work positively.",
+      "paper_id": "9ecf0c9001c8c2e1b7bcefa57fb794cb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-06-13T09:29:22.128038"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Time-IMM: A Dataset and Benchmark for Irregular Multimodal Multivariate Time Series",
+      "authors": [
+        "Ching Chang, Jeehyun Hwang, Yidan Shi, Haixin Wang, Wen-Chih Peng, Tien-Fu Chen, Wei Wang"
+      ],
+      "abstract": "arXiv:2506.10412v1 Announce Type: cross \nAbstract: Time series data in real-world applications such as healthcare, climate modeling, and finance are often irregular, multimodal, and messy, with varying sampling rates, asynchronous modalities, and pervasive missingness. However, existing benchmarks typically assume clean, regularly sampled, unimodal data, creating a significant gap between research and real-world deployment. We introduce Time-IMM, a dataset specifically designed to capture cause-driven irregularity in multimodal multivariate time series. Time-IMM represents nine distinct types of time series irregularity, categorized into trigger-based, constraint-based, and artifact-based mechanisms. Complementing the dataset, we introduce IMM-TSF, a benchmark library for forecasting on irregular multimodal time series, enabling asynchronous integration and realistic evaluation. IMM-TSF includes specialized fusion modules, including a timestamp-to-text fusion module and a multimodality fusion module, which support both recency-aware averaging and attention-based integration strategies. Empirical results demonstrate that explicitly modeling multimodality on irregular time series data leads to substantial gains in forecasting performance. Time-IMM and IMM-TSF provide a foundation for advancing time series analysis under real-world conditions. The dataset is publicly available at https://www.kaggle.com/datasets/blacksnail789521/time-imm/data, and the benchmark library can be accessed at https://anonymous.4open.science/r/IMMTSF_NeurIPS2025.",
+      "url": "https://arxiv.org/abs/2506.10412",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "time",
+        "imm",
+        "series",
+        "time series",
+        "time imm",
+        "based",
+        "data",
+        "dataset",
+        "irregular",
+        "multimodal"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial gap in time series research by focusing on the realistic complexities of real-world data \u2013 irregularity, multimodality, and missingness. The creation of Time-IMM and IMM-TSF is a valuable contribution, providing a much-needed benchmark for evaluating models in more challenging scenarios. While the core idea of a benchmark isn't entirely novel, the specific focus on *cause-driven* irregularity and the inclusion of specialized fusion modules demonstrate a thoughtful approach.",
+      "paper_id": "fb906152d6c9a344eb603107b0f44912"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-06-13T09:29:22.130323"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Robustly Improving LLM Fairness in Realistic Settings via Interpretability",
+      "authors": [
+        "Adam Karvonen, Samuel Marks"
+      ],
+      "abstract": "arXiv:2506.10922v1 Announce Type: cross \nAbstract: Large language models (LLMs) are increasingly deployed in high-stakes hiring applications, making decisions that directly impact people's careers and livelihoods. While prior studies suggest simple anti-bias prompts can eliminate demographic biases in controlled evaluations, we find these mitigations fail when realistic contextual details are introduced. We address these failures through internal bias mitigation: by identifying and neutralizing sensitive attribute directions within model activations, we achieve robust bias reduction across all tested scenarios. Across leading commercial (GPT-4o, Claude 4 Sonnet, Gemini 2.5 Flash) and open-source models (Gemma-2 27B, Gemma-3, Mistral-24B), we find that adding realistic context such as company names, culture descriptions from public careers pages, and selective hiring constraints (e.g.,``only accept candidates in the top 10\\%\") induces significant racial and gender biases (up to 12\\% differences in interview rates). When these biases emerge, they consistently favor Black over White candidates and female over male candidates across all tested models and scenarios. Moreover, models can infer demographics and become biased from subtle cues like college affiliations, with these biases remaining invisible even when inspecting the model's chain-of-thought reasoning. To address these limitations, our internal bias mitigation identifies race and gender-correlated directions and applies affine concept editing at inference time. Despite using directions from a simple synthetic dataset, the intervention generalizes robustly, consistently reducing bias to very low levels (typically under 1\\%, always below 2.5\\%) while largely maintaining model performance. Our findings suggest that practitioners deploying LLMs for hiring should adopt more realistic evaluation methodologies and consider internal mitigation strategies for equitable outcomes.",
+      "url": "https://arxiv.org/abs/2506.10922",
+      "published_date": "2025-06-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "bias",
+        "biases",
+        "models",
+        "realistic",
+        "candidates",
+        "directions",
+        "hiring",
+        "internal",
+        "mitigation",
+        "model"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem \u2013 the failure of simple debiasing techniques in realistic LLM deployment scenarios. The focus on internal bias mitigation via activation manipulation is a promising approach, and the evaluation across multiple leading models is strong. While the core idea of identifying and neutralizing sensitive attribute directions isn't entirely novel, the demonstration of its robustness in complex contexts is significant. The findings suggest current mitigation strategies are insufficient, highlighting the need for more sophisticated techniques.",
+      "paper_id": "a64d45599ddf2ffff7f605c4b7bc1e6f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-13T09:29:22.131268"
 }
