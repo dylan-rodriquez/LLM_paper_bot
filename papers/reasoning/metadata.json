@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social Media Disinformation",
+      "authors": [
+        "Arkadiusz Modzelewski, Witold Sosnowski, Tiziano Labruna, Adam Wierzbicki, Giovanni Da San Martino"
+      ],
+      "abstract": "arXiv:2506.06842v1 Announce Type: new \nAbstract: Disinformation detection is a key aspect of media literacy. Psychological studies have shown that knowledge of persuasive fallacies helps individuals detect disinformation. Inspired by these findings, we experimented with large language models (LLMs) to test whether infusing persuasion knowledge enhances disinformation detection. As a result, we introduce the Persuasion-Augmented Chain of Thought (PCoT), a novel approach that leverages persuasion to improve disinformation detection in zero-shot classification. We extensively evaluate PCoT on online news and social media posts. Moreover, we publish two novel, up-to-date disinformation datasets: EUDisinfo and MultiDis. These datasets enable the evaluation of PCoT on content entirely unseen by the LLMs used in our experiments, as the content was published after the models' knowledge cutoffs. We show that, on average, PCoT outperforms competitive methods by 15% across five LLMs and five datasets. These findings highlight the value of persuasion in strengthening zero-shot disinformation detection.",
+      "url": "https://arxiv.org/abs/2506.06842",
+      "published_date": "2025-06-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "disinformation",
+        "pcot",
+        "persuasion",
+        "detection",
+        "disinformation detection",
+        "datasets",
+        "knowledge",
+        "llms",
+        "media",
+        "augmented"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly significant problem \u2013 disinformation detection \u2013 and proposes a novel approach (PCoT) grounded in psychological principles. The creation and release of two new, up-to-date datasets (EUDisinfo and MultiDis) is a substantial contribution, particularly given the rapidly evolving nature of online disinformation. While the core idea of leveraging persuasion knowledge is promising, the 15% performance improvement, while notable, needs further scrutiny in the full paper to assess its statistical significance and robustness.",
+      "paper_id": "7ce72677a4bfd5291e61ce2d623173ba"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-10T09:29:56.342334"
 }

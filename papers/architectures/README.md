@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### A Survey of Retentive Network
+
+**Score:** 90.0 | **Published:** 2025-06-10 | **Authors:** Haiqi Yang, Zhiyuan Li, Yi Chang, Yuan Wu
+
+arXiv:2506.06708v1 Announce Type: new 
+Abstract: Retentive Network (RetNet) represents a significant advancement in neural network architecture, offering an efficient alternative to the Transformer. W...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06708) | [📝 Analysis](3de6d9d23639ae949004eae0a5ea38bd.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-10 09:29:56 UTC*

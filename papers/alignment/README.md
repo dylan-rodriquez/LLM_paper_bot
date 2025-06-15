@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights
+
+**Score:** 92.0 | **Published:** 2025-06-10 | **Authors:** Sooyung Choi, Jaehyeok Lee, Xiaoyuan Yi, Jing Yao, Xing Xie, JinYeong Bak
+
+arXiv:2506.06404v1 Announce Type: new 
+Abstract: The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human va...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06404) | [📝 Analysis](44a9bffddd585c09b69d48560025f93f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-10 09:29:56 UTC*
