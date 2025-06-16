@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK
+
+**Score:** 92.0 | **Published:** 2025-06-16 | **Authors:** Carlos Garcia-Fernandez, Luis Felipe, Monique Shotande, Muntasir Zitu, Aakash Tripathi, Ghulam Rasool, Issam El Naqa, Vivek Rudrapatna, Gilmer Valdes
+
+arXiv:2506.11129v1 Announce Type: new 
+Abstract: Large language models (LLMs) show promise in healthcare, but hallucinations remain a major barrier to clinical use. We present CHECK, a continuous-lear...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11129) | [📝 Analysis](3cb3cc5d5c829474662f85056bfc97ff.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-16 09:31:02 UTC*

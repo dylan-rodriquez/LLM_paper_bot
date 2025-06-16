@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs",
+      "authors": [
+        "Songyang Liu, Chaozhuo Li, Jiameng Qiu, Xi Zhang, Feiran Huang, Litian Zhang, Yiming Hei, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2506.11094v1 Announce Type: new \nAbstract: With the rapid advancement of artificial intelligence technology, Large Language Models (LLMs) have demonstrated remarkable potential in the field of Natural Language Processing (NLP), including areas such as content generation, human-computer interaction, machine translation, and code generation, among others. However, their widespread deployment has also raised significant safety concerns. In recent years, LLM-generated content has occasionally exhibited unsafe elements like toxicity and bias, particularly in adversarial scenarios, which has garnered extensive attention from both academia and industry. While numerous efforts have been made to evaluate the safety risks associated with LLMs, there remains a lack of systematic reviews summarizing these research endeavors. This survey aims to provide a comprehensive and systematic overview of recent advancements in LLMs safety evaluation, focusing on several key aspects: (1) \"Why evaluate\" that explores the background of LLMs safety evaluation, how they differ from general LLMs evaluation, and the significance of such evaluation; (2) \"What to evaluate\" that examines and categorizes existing safety evaluation tasks based on key capabilities, including dimensions such as toxicity, robustness, ethics, bias and fairness, truthfulness, and so on; (3) \"Where to evaluate\" that summarizes the evaluation metrics, datasets and benchmarks currently used in safety evaluations; (4) \"How to evaluate\" that reviews existing evaluation toolkit, and categorizing mainstream evaluation methods based on the roles of the evaluators. Finally, we identify the challenges in LLMs safety evaluation and propose potential research directions to promote further advancement in this field. We emphasize the importance of prioritizing LLMs safety evaluation to ensure the safe deployment of these models in real-world applications.",
+      "url": "https://arxiv.org/abs/2506.11094",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "safety",
+        "llms",
+        "safety evaluation",
+        "evaluate",
+        "llms safety",
+        "advancement",
+        "based",
+        "bias",
+        "comprehensive"
+      ],
+      "subject_classification": "applications",
+      "justification": "This survey paper addresses a highly significant and timely problem \u2013 the safety evaluation of LLMs. The abstract clearly articulates the need for a systematic review given the increasing concerns around toxicity and bias. While a survey isn't inherently innovative, its value lies in consolidating existing knowledge and identifying gaps, which this abstract suggests it aims to do. The potential impact is high, as robust safety evaluation is crucial for responsible LLM deployment.",
+      "paper_id": "9eb699b1a2b6458aae0a478d4c83eced"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-06-16T09:31:02.751822"
 }

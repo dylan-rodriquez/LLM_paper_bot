@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK",
+      "authors": [
+        "Carlos Garcia-Fernandez, Luis Felipe, Monique Shotande, Muntasir Zitu, Aakash Tripathi, Ghulam Rasool, Issam El Naqa, Vivek Rudrapatna, Gilmer Valdes"
+      ],
+      "abstract": "arXiv:2506.11129v1 Announce Type: new \nAbstract: Large language models (LLMs) show promise in healthcare, but hallucinations remain a major barrier to clinical use. We present CHECK, a continuous-learning framework that integrates structured clinical databases with a classifier grounded in information theory to detect both factual and reasoning-based hallucinations. Evaluated on 1500 questions from 100 pivotal clinical trials, CHECK reduced LLama3.3-70B-Instruct hallucination rates from 31% to 0.3% - making an open source model state of the art. Its classifier generalized across medical benchmarks, achieving AUCs of 0.95-0.96, including on the MedQA (USMLE) benchmark and HealthBench realistic multi-turn medical questioning. By leveraging hallucination probabilities to guide GPT-4o's refinement and judiciously escalate compute, CHECK boosted its USMLE passing rate by 5 percentage points, achieving a state-of-the-art 92.1%. By suppressing hallucinations below accepted clinical error thresholds, CHECK offers a scalable foundation for safe LLM deployment in medicine and other high-stakes domains.",
+      "url": "https://arxiv.org/abs/2506.11129",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 90,
+      "sentiment_score": 95,
+      "keywords": [
+        "check",
+        "clinical",
+        "hallucination",
+        "hallucinations",
+        "achieving",
+        "art",
+        "classifier",
+        "continuous",
+        "medical",
+        "medicine"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical problem \u2013 hallucinations in LLMs for medical applications \u2013 and presents a promising solution (CHECK) with impressive results, reducing hallucination rates significantly. The use of information theory and continuous learning is a strong methodological approach. The reported performance on benchmarks like MedQA and USMLE, along with the improvement in passing rates, suggests a high degree of rigor and potential for real-world impact. The open-source nature of the model further enhances its potential for adoption.",
+      "paper_id": "3cb3cc5d5c829474662f85056bfc97ff"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-16T09:31:02.754384"
 }

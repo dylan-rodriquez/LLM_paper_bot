@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### ASRJam: Human-Friendly AI Speech Jamming to Prevent Automated Phone Scams
+
+**Score:** 92.0 | **Published:** 2025-06-16 | **Authors:** Freddie Grabovski, Gilad Gressel, Yisroel Mirsky
+
+arXiv:2506.11125v1 Announce Type: new 
+Abstract: Large Language Models (LLMs), combined with Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), are increasingly used to automate voice phishi...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11125) | [📝 Analysis](b5217bfaad5f32a1d5d3e051ac28cb68.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-16 09:31:02 UTC*

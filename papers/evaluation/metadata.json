@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs",
+      "authors": [
+        "Hanxi Guo, Siyuan Cheng, Kaiyuan Zhang, Guangyu Shen, Xiangyu Zhang"
+      ],
+      "abstract": "arXiv:2506.11059v1 Announce Type: cross \nAbstract: Large language models (LLMs) have become integral to modern software development, producing vast amounts of AI-generated source code. While these models boost programming productivity, their misuse introduces critical risks, including code plagiarism, license violations, and the propagation of insecure programs. As a result, robust detection of AI-generated code is essential. To support the development of such detectors, a comprehensive benchmark that reflects real-world conditions is crucial. However, existing benchmarks fall short -- most cover only a limited set of programming languages and rely on less capable generative models. In this paper, we present CodeMirage, a comprehensive benchmark that addresses these limitations through three major advancements: (1) it spans ten widely used programming languages, (2) includes both original and paraphrased code samples, and (3) incorporates outputs from ten state-of-the-art production-level LLMs, including both reasoning and non-reasoning models from six major providers. Using CodeMirage, we evaluate ten representative detectors across four methodological paradigms under four realistic evaluation configurations, reporting results using three complementary metrics. Our analysis reveals nine key findings that uncover the strengths and weaknesses of current detectors, and identify critical challenges for future work. We believe CodeMirage offers a rigorous and practical testbed to advance the development of robust and generalizable AI-generated code detectors.",
+      "url": "https://arxiv.org/abs/2506.11059",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "code",
+        "ai",
+        "ai generated",
+        "codemirage",
+        "detectors",
+        "generated",
+        "models",
+        "benchmark",
+        "development",
+        "llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the detection of AI-generated code \u2013 with a well-defined and comprehensive approach. The creation of CodeMirage, spanning multiple languages and including paraphrased code, is a significant step forward from existing benchmarks. While the core idea of a benchmark isn't novel, the scale and scope, particularly the inclusion of production-level LLM outputs, demonstrate a strong contribution. The potential for impact on software security and intellectual property is substantial.",
+      "paper_id": "db873d11209e23b23c95c573909f3057"
+    },
+    {
+      "title": "Med-PRM: Medical Reasoning Models with Stepwise, Guideline-verified Process Rewards",
+      "authors": [
+        "Jaehoon Yun, Jiwoong Sohn, Jungwoo Park, Hyunjae Kim, Xiangru Tang, Yanjun Shao, Yonghoe Koo, Minhyeok Ko, Qingyu Chen, Mark Gerstein, Michael Moor, Jaewoo Kang"
+      ],
+      "abstract": "arXiv:2506.11474v1 Announce Type: new \nAbstract: Large language models have shown promise in clinical decision making, but current approaches struggle to localize and correct errors at specific steps of the reasoning process. This limitation is critical in medicine, where identifying and addressing reasoning errors is essential for accurate diagnosis and effective patient care. We introduce Med-PRM, a process reward modeling framework that leverages retrieval-augmented generation to verify each reasoning step against established medical knowledge bases. By verifying intermediate reasoning steps with evidence retrieved from clinical guidelines and literature, our model can precisely assess the reasoning quality in a fine-grained manner. Evaluations on five medical QA benchmarks and two open-ended diagnostic tasks demonstrate that Med-PRM achieves state-of-the-art performance, with improving the performance of base models by up to 13.50% using Med-PRM. Moreover, we demonstrate the generality of Med-PRM by integrating it in a plug-and-play fashion with strong policy models such as Meerkat, achieving over 80\\% accuracy on MedQA for the first time using small-scale models of 8 billion parameters. Our code and data are available at: https://med-prm.github.io/",
+      "url": "https://arxiv.org/abs/2506.11474",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "med",
+        "med prm",
+        "prm",
+        "reasoning",
+        "models",
+        "medical",
+        "process",
+        "clinical",
+        "demonstrate",
+        "errors"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in applying LLMs to medicine \u2013 the lack of explainability and error localization. The Med-PRM framework, utilizing retrieval-augmented generation and process rewards, appears to be a well-designed approach to tackle this. The reported performance improvements (up to 13.50%) are significant, suggesting a robust methodology and promising results. The focus on verifying reasoning steps against medical knowledge bases is particularly strong.",
+      "paper_id": "39640d612a8880b748d51be8f9e9c97a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-16T09:31:02.756741"
 }

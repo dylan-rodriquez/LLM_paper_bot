@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs
+
+**Score:** 92.0 | **Published:** 2025-06-16 | **Authors:** Hanxi Guo, Siyuan Cheng, Kaiyuan Zhang, Guangyu Shen, Xiangyu Zhang
+
+arXiv:2506.11059v1 Announce Type: cross 
+Abstract: Large language models (LLMs) have become integral to modern software development, producing vast amounts of AI-generated source code. While these mod...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11059) | [📝 Analysis](db873d11209e23b23c95c573909f3057.md)
+
+---
+
+### Med-PRM: Medical Reasoning Models with Stepwise, Guideline-verified Process Rewards
+
+**Score:** 90.0 | **Published:** 2025-06-16 | **Authors:** Jaehoon Yun, Jiwoong Sohn, Jungwoo Park, Hyunjae Kim, Xiangru Tang, Yanjun Shao, Yonghoe Koo, Minhyeok Ko, Qingyu Chen, Mark Gerstein, Michael Moor, Jaewoo Kang
+
+arXiv:2506.11474v1 Announce Type: new 
+Abstract: Large language models have shown promise in clinical decision making, but current approaches struggle to localize and correct errors at specific steps ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11474) | [📝 Analysis](39640d612a8880b748d51be8f9e9c97a.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-16 09:31:02 UTC*

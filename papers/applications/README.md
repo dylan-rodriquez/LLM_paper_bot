@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs
+
+**Score:** 92.0 | **Published:** 2025-06-16 | **Authors:** Songyang Liu, Chaozhuo Li, Jiameng Qiu, Xi Zhang, Feiran Huang, Litian Zhang, Yiming Hei, Philip S. Yu
+
+arXiv:2506.11094v1 Announce Type: new 
+Abstract: With the rapid advancement of artificial intelligence technology, Large Language Models (LLMs) have demonstrated remarkable potential in the field of N...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11094) | [📝 Analysis](9eb699b1a2b6458aae0a478d4c83eced.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-16 09:31:02 UTC*
