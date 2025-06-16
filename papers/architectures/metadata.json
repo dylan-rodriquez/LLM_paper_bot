@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox",
+      "authors": [
+        "Shivani Shukla, Himanshu Joshi, Romilla Syed"
+      ],
+      "abstract": "arXiv:2506.11022v1 Announce Type: cross \nAbstract: The rapid adoption of Large Language Models(LLMs) for code generation has transformed software development, yet little attention has been given to how security vulnerabilities evolve through iterative LLM feedback. This paper analyzes security degradation in AI-generated code through a controlled experiment with 400 code samples across 40 rounds of \"improvements\" using four distinct prompting strategies. Our findings show a 37.6% increase in critical vulnerabilities after just five iterations, with distinct vulnerability patterns emerging across different prompting approaches. This evidence challenges the assumption that iterative LLM refinement improves code security and highlights the essential role of human expertise in the loop. We propose practical guidelines for developers to mitigate these risks, emphasizing the need for robust human validation between LLM iterations to prevent the paradoxical introduction of new security issues during supposedly beneficial code \"improvements\".",
+      "url": "https://arxiv.org/abs/2506.11022",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "code",
+        "security",
+        "iterative",
+        "llm",
+        "ai",
+        "code generation",
+        "degradation",
+        "distinct",
+        "generation",
+        "human"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical and timely issue \u2013 the potential for security degradation in iteratively refined AI-generated code. The systematic analysis with 400 samples and 40 iterations is rigorous, and the 37.6% increase in vulnerabilities is a significant finding. While the core idea of iterative refinement potentially *introducing* vulnerabilities isn't entirely novel, the empirical demonstration and quantification of this 'paradox' is valuable, and the proposed guidelines are practical.",
+      "paper_id": "77d209d803dbe9f75b1285128544e54b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-06-16T09:31:02.757879"
 }

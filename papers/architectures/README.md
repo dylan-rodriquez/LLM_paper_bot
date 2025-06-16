@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox
+
+**Score:** 92.0 | **Published:** 2025-06-16 | **Authors:** Shivani Shukla, Himanshu Joshi, Romilla Syed
+
+arXiv:2506.11022v1 Announce Type: cross 
+Abstract: The rapid adoption of Large Language Models(LLMs) for code generation has transformed software development, yet little attention has been given to ho...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.11022) | [📝 Analysis](77d209d803dbe9f75b1285128544e54b.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-16 09:31:02 UTC*

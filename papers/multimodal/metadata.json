@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "ASRJam: Human-Friendly AI Speech Jamming to Prevent Automated Phone Scams",
+      "authors": [
+        "Freddie Grabovski, Gilad Gressel, Yisroel Mirsky"
+      ],
+      "abstract": "arXiv:2506.11125v1 Announce Type: new \nAbstract: Large Language Models (LLMs), combined with Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), are increasingly used to automate voice phishing (vishing) scams. These systems are scalable and convincing, posing a significant security threat. We identify the ASR transcription step as the most vulnerable link in the scam pipeline and introduce ASRJam, a proactive defence framework that injects adversarial perturbations into the victim's audio to disrupt the attacker's ASR. This breaks the scam's feedback loop without affecting human callers, who can still understand the conversation. While prior adversarial audio techniques are often unpleasant and impractical for real-time use, we also propose EchoGuard, a novel jammer that leverages natural distortions, such as reverberation and echo, that are disruptive to ASR but tolerable to humans. To evaluate EchoGuard's effectiveness and usability, we conducted a 39-person user study comparing it with three state-of-the-art attacks. Results show that EchoGuard achieved the highest overall utility, offering the best combination of ASR disruption and human listening experience.",
+      "url": "https://arxiv.org/abs/2506.11125",
+      "published_date": "2025-06-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "asr",
+        "echoguard",
+        "human",
+        "speech",
+        "adversarial",
+        "asrjam",
+        "audio",
+        "scam",
+        "scams",
+        "11125v1"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly relevant and growing problem \u2013 AI-powered phone scams. The focus on disrupting the ASR component is a clever and potentially effective defensive strategy. The introduction of EchoGuard, aiming for human-tolerable jamming, demonstrates a practical consideration often missing in adversarial audio research, and the user study adds to the rigor. While the abstract doesn't detail the full technical depth, the concept is strong and well-presented.",
+      "paper_id": "b5217bfaad5f32a1d5d3e051ac28cb68"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-06-16T09:31:02.752958"
 }
