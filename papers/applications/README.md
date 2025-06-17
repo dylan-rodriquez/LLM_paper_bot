@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### ChatbotManip: A Dataset to Facilitate Evaluation and Oversight of Manipulative Chatbot Behaviour
+
+**Score:** 92.0 | **Published:** 2025-06-17 | **Authors:** Jack Contro, Simrat Deol, Yulan He, Martim Brand\~ao
+
+arXiv:2506.12090v1 Announce Type: new 
+Abstract: This paper introduces ChatbotManip, a novel dataset for studying manipulation in Chatbots. It contains simulated generated conversations between a chat...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.12090) | [📝 Analysis](b127016d3be9fcced0f88388698406a4.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-17 09:30:09 UTC*

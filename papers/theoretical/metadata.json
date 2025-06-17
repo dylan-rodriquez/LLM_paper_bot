@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "How Grounded is Wikipedia? A Study on Structured Evidential Support",
+      "authors": [
+        "William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme"
+      ],
+      "abstract": "arXiv:2506.12637v1 Announce Type: new \nAbstract: Wikipedia is a critical resource for modern NLP, serving as a rich repository of up-to-date and citation-backed information on a wide variety of subjects. The reliability of Wikipedia -- its groundedness in its cited sources -- is vital to this purpose. This work provides a quantitative analysis of the extent to which Wikipedia *is* so grounded and of how readily grounding evidence may be retrieved. To this end, we introduce PeopleProfiles -- a large-scale, multi-level dataset of claim support annotations on Wikipedia articles of notable people. We show that roughly 20% of claims in Wikipedia *lead* sections are unsupported by the article body; roughly 27% of annotated claims in the article *body* are unsupported by their (publicly accessible) cited sources; and >80% of lead claims cannot be traced to these sources via annotated body evidence. Further, we show that recovery of complex grounding evidence for claims that *are* supported remains a challenge for standard retrieval methods.",
+      "url": "https://arxiv.org/abs/2506.12637",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "wikipedia",
+        "claims",
+        "body",
+        "evidence",
+        "sources",
+        "annotated",
+        "article",
+        "article body",
+        "cited",
+        "cited sources"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This research addresses a crucial issue in the age of large language models \u2013 the reliability of information sourced from Wikipedia. The quantitative analysis and the introduction of the 'PeopleProfiles' dataset are strong methodological contributions. The reported statistics regarding unsupported claims are concerning and highlight a significant problem, suggesting a positive reception within the NLP community.",
+      "paper_id": "31843233dda4900b049c87c5c809a2c7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-06-17T09:30:09.308517"
 }

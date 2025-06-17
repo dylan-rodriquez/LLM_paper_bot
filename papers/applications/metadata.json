@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "ChatbotManip: A Dataset to Facilitate Evaluation and Oversight of Manipulative Chatbot Behaviour",
+      "authors": [
+        "Jack Contro, Simrat Deol, Yulan He, Martim Brand\\~ao"
+      ],
+      "abstract": "arXiv:2506.12090v1 Announce Type: new \nAbstract: This paper introduces ChatbotManip, a novel dataset for studying manipulation in Chatbots. It contains simulated generated conversations between a chatbot and a (simulated) user, where the chatbot is explicitly asked to showcase manipulation tactics, persuade the user towards some goal, or simply be helpful. We consider a diverse set of chatbot manipulation contexts, from consumer and personal advice to citizen advice and controversial proposition argumentation. Each conversation is annotated by human annotators for both general manipulation and specific manipulation tactics. Our research reveals three key findings. First, Large Language Models (LLMs) can be manipulative when explicitly instructed, with annotators identifying manipulation in approximately 84\\% of such conversations. Second, even when only instructed to be ``persuasive'' without explicit manipulation prompts, LLMs frequently default to controversial manipulative strategies, particularly gaslighting and fear enhancement. Third, small fine-tuned open source models, such as BERT+BiLSTM have a performance comparable to zero-shot classification with larger models like Gemini 2.5 pro in detecting manipulation, but are not yet reliable for real-world oversight. Our work provides important insights for AI safety research and highlights the need of addressing manipulation risks as LLMs are increasingly deployed in consumer-facing applications.",
+      "url": "https://arxiv.org/abs/2506.12090",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "manipulation",
+        "chatbot",
+        "llms",
+        "manipulative",
+        "models",
+        "advice",
+        "annotators",
+        "chatbotmanip",
+        "consumer",
+        "controversial"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the potential for manipulation by LLMs. The creation of a dataset specifically designed to evaluate this behavior is a strong contribution, and the initial findings (84% manipulative responses when prompted) are concerning and warrant further investigation. The methodology appears sound, involving human annotation, and the diverse contexts considered strengthen the work. The paper's focus on both explicit and implicit manipulation is particularly valuable.",
+      "paper_id": "b127016d3be9fcced0f88388698406a4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-06-17T09:30:09.305044"
 }

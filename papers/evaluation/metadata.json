@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "RealFactBench: A Benchmark for Evaluating Large Language Models in Real-World Fact-Checking",
+      "authors": [
+        "Shuo Yang, Yuqin Dai, Guoqing Wang, Xinran Zheng, Jinfeng Xu, Jinze Li, Zhenzhe Ying, Weiqiang Wang, Edith C. H. Ngai"
+      ],
+      "abstract": "arXiv:2506.12538v1 Announce Type: new \nAbstract: Large Language Models (LLMs) hold significant potential for advancing fact-checking by leveraging their capabilities in reasoning, evidence retrieval, and explanation generation. However, existing benchmarks fail to comprehensively evaluate LLMs and Multimodal Large Language Models (MLLMs) in realistic misinformation scenarios. To bridge this gap, we introduce RealFactBench, a comprehensive benchmark designed to assess the fact-checking capabilities of LLMs and MLLMs across diverse real-world tasks, including Knowledge Validation, Rumor Detection, and Event Verification. RealFactBench consists of 6K high-quality claims drawn from authoritative sources, encompassing multimodal content and diverse domains. Our evaluation framework further introduces the Unknown Rate (UnR) metric, enabling a more nuanced assessment of models' ability to handle uncertainty and balance between over-conservatism and over-confidence. Extensive experiments on 7 representative LLMs and 4 MLLMs reveal their limitations in real-world fact-checking and offer valuable insights for further research. RealFactBench is publicly available at https://github.com/kalendsyang/RealFactBench.git.",
+      "url": "https://arxiv.org/abs/2506.12538",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "realfactbench",
+        "checking",
+        "fact",
+        "fact checking",
+        "llms",
+        "models",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the LLM space \u2013 robust fact-checking benchmarks. The creation of RealFactBench, with its focus on real-world scenarios and multimodal content, is a significant contribution. The introduction of the 'Unknown Rate' metric demonstrates a thoughtful approach to evaluating model uncertainty, and the scale of 6K claims suggests a substantial effort. The high sentiment score reflects the current research focus on LLM reliability and the importance of fact-checking.",
+      "paper_id": "3cfa81a45507cc33baa26e99a3a36e82"
+    },
+    {
+      "title": "OpenUnlearning: Accelerating LLM Unlearning via Unified Benchmarking of Methods and Metrics",
+      "authors": [
+        "Vineeth Dorna, Anmol Mekala, Wenlong Zhao, Andrew McCallum, Zachary C. Lipton, J. Zico Kolter, Pratyush Maini"
+      ],
+      "abstract": "arXiv:2506.12618v1 Announce Type: new \nAbstract: Robust unlearning is crucial for safely deploying large language models (LLMs) in environments where data privacy, model safety, and regulatory compliance must be ensured. Yet the task is inherently challenging, partly due to difficulties in reliably measuring whether unlearning has truly occurred. Moreover, fragmentation in current methodologies and inconsistent evaluation metrics hinder comparative analysis and reproducibility. To unify and accelerate research efforts, we introduce OpenUnlearning, a standardized and extensible framework designed explicitly for benchmarking both LLM unlearning methods and metrics. OpenUnlearning integrates 9 unlearning algorithms and 16 diverse evaluations across 3 leading benchmarks (TOFU, MUSE, and WMDP) and also enables analyses of forgetting behaviors across 450+ checkpoints we publicly release. Leveraging OpenUnlearning, we propose a novel meta-evaluation benchmark focused specifically on assessing the faithfulness and robustness of evaluation metrics themselves. We also benchmark diverse unlearning methods and provide a comparative analysis against an extensive evaluation suite. Overall, we establish a clear, community-driven pathway toward rigorous development in LLM unlearning research.",
+      "url": "https://arxiv.org/abs/2506.12618",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "unlearning",
+        "evaluation",
+        "metrics",
+        "openunlearning",
+        "llm",
+        "llm unlearning",
+        "methods",
+        "analysis",
+        "benchmark",
+        "benchmarking"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem in LLMs \u2013 unlearning \u2013 and tackles the significant challenge of inconsistent evaluation. The creation of a unified benchmarking framework (OpenUnlearning) with integrated algorithms, diverse evaluations, and publicly released checkpoints is a strong contribution. While the core idea of a benchmark isn't entirely novel, the scope and focus on LLM unlearning specifically, combined with the number of integrated components, elevates its quality and potential impact.",
+      "paper_id": "04d1bf1b6facfcd794b348e848626fda"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-17T09:30:09.306279"
 }
