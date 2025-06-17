@@ -191,7 +191,103 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Causal-PIK: Causality-based Physical Reasoning with a Physics-Informed Kernel",
+      "authors": [
+        "Carlota Par\\'es-Morlans, Michelle Yi, Claire Chen, Sarah A. Wu, Rika Antonova, Tobias Gerstenberg, Jeannette Bohg"
+      ],
+      "abstract": "arXiv:2505.22861v1 Announce Type: new \nAbstract: Tasks that involve complex interactions between objects with unknown dynamics make planning before execution difficult. These tasks require agents to iteratively improve their actions after actively exploring causes and effects in the environment. For these type of tasks, we propose Causal-PIK, a method that leverages Bayesian optimization to reason about causal interactions via a Physics-Informed Kernel to help guide efficient search for the best next action. Experimental results on Virtual Tools and PHYRE physical reasoning benchmarks show that Causal-PIK outperforms state-of-the-art results, requiring fewer actions to reach the goal. We also compare Causal-PIK to human studies, including results from a new user study we conducted on the PHYRE benchmark. We find that Causal-PIK remains competitive on tasks that are very challenging, even for human problem-solvers.",
+      "url": "https://arxiv.org/abs/2505.22861",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 78,
+      "sentiment_score": 80,
+      "keywords": [
+        "causal",
+        "causal pik",
+        "pik",
+        "tasks",
+        "results",
+        "actions",
+        "human",
+        "informed",
+        "informed kernel",
+        "interactions"
+      ],
+      "subject_classification": "agents",
+      "justification": "The paper addresses a challenging problem in physical reasoning and planning, particularly in scenarios with unknown dynamics. Leveraging Bayesian optimization with a Physics-Informed Kernel appears to be a novel and effective approach, as evidenced by the outperformance on benchmark tasks and competitive results against human performance. The inclusion of a new user study strengthens the evaluation, suggesting a rigorous methodology and clear presentation of results.",
+      "paper_id": "b9beb6dafc8ca1de02bfaaf159f18eaf"
+    },
+    {
+      "title": "CDR-Agent: Intelligent Selection and Execution of Clinical Decision Rules Using Large Language Model Agents",
+      "authors": [
+        "Zhen Xiang, Aliyah R. Hsu, Austin V. Zane, Aaron E. Kornblith, Margaret J. Lin-Martore, Jasmanpreet C. Kaur, Vasuda M. Dokiparthi, Bo Li, Bin Yu"
+      ],
+      "abstract": "arXiv:2505.23055v1 Announce Type: new \nAbstract: Clinical decision-making is inherently complex and fast-paced, particularly in emergency departments (EDs) where critical, rapid and high-stakes decisions are made. Clinical Decision Rules (CDRs) are standardized evidence-based tools that combine signs, symptoms, and clinical variables into decision trees to make consistent and accurate diagnoses. CDR usage is often hindered by the clinician's cognitive load, limiting their ability to quickly recall and apply the appropriate rules. We introduce CDR-Agent, a novel LLM-based system designed to enhance ED decision-making by autonomously identifying and applying the most appropriate CDRs based on unstructured clinical notes. To validate CDR-Agent, we curated two novel ED datasets: synthetic and CDR-Bench, although CDR-Agent is applicable to non ED clinics. CDR-Agent achieves a 56.3\\% (synthetic) and 8.7\\% (CDR-Bench) accuracy gain relative to the standalone LLM baseline in CDR selection. Moreover, CDR-Agent significantly reduces computational overhead. Using these datasets, we demonstrated that CDR-Agent not only selects relevant CDRs efficiently, but makes cautious yet effective imaging decisions by minimizing unnecessary interventions while successfully identifying most positively diagnosed cases, outperforming traditional LLM prompting approaches. Code for our work can be found at: https://github.com/zhenxianglance/medagent-cdr-agent",
+      "url": "https://arxiv.org/abs/2505.23055",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "cdr",
+        "agent",
+        "cdr agent",
+        "clinical",
+        "decision",
+        "based",
+        "cdrs",
+        "clinical decision",
+        "ed",
+        "llm"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial problem in healthcare \u2013 reducing cognitive load on clinicians in fast-paced environments like EDs. The use of LLM agents to autonomously select and apply CDRs is a promising approach, and the reported accuracy gains are encouraging. While the methodology appears sound based on the abstract, the reliance on synthetic data alongside a new benchmark (CDR-Bench) warrants further scrutiny upon full paper review. The potential for improving diagnostic accuracy and efficiency is significant.",
+      "paper_id": "36f03a55ae129b67fa366ed95261b4cf"
+    },
+    {
+      "title": "RocqStar: Leveraging Similarity-driven Retrieval and Agentic Systems for Rocq generation",
+      "authors": [
+        "Nikita Khramov, Andrei Kozyrev, Gleb Solovev, Anton Podkopaev"
+      ],
+      "abstract": "arXiv:2505.22846v1 Announce Type: new \nAbstract: Interactive Theorem Proving was repeatedly shown to be fruitful combined with Generative Artificial Intelligence. This paper assesses multiple approaches to Rocq generation and illuminates potential avenues for improvement. We highlight the importance of thorough premise selection for generating Rocq proofs and propose a novel approach, leveraging retrieval via a self-attentive embedder model. The evaluation of the designed approach shows up to 28% relative increase of the generator's performance. We tackle the problem of writing Rocq proofs using a multi-stage agentic system, tailored for formal verification, and demonstrate its high effectiveness. We conduct an ablation study and show the use of multi-agent debate on the planning stage of proof synthesis.",
+      "url": "https://arxiv.org/abs/2505.22846",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 82,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 85,
+      "keywords": [
+        "rocq",
+        "agentic",
+        "approach",
+        "generation",
+        "leveraging",
+        "multi",
+        "proofs",
+        "retrieval",
+        "rocq generation",
+        "rocq proofs"
+      ],
+      "subject_classification": "agents",
+      "justification": "The paper addresses a relevant problem in the intersection of AI and formal verification, which is gaining traction. The reported 28% performance increase is promising, and the use of a multi-stage agentic system and multi-agent debate suggests a thoughtful approach. While the abstract doesn't detail the specifics of the self-attentive embedder or the agentic system, the combination of retrieval and agent-based methods appears novel and well-motivated. The ablation study indicates a rigorous evaluation.",
+      "paper_id": "61067ae9ed155eed06478fd7977d9266"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-05-31T09:25:12.844313"
 }

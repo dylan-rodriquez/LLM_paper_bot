@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "$K^2$VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting",
+      "authors": [
+        "Xingjian Wu, Xiangfei Qiu, Hongfan Gao, Jilin Hu, Bin Yang, Chenjuan Guo"
+      ],
+      "abstract": "arXiv:2505.23017v1 Announce Type: new \nAbstract: Probabilistic Time Series Forecasting (PTSF) plays a crucial role in decision-making across various fields, including economics, energy, and transportation. Most existing methods excell at short-term forecasting, while overlooking the hurdles of Long-term Probabilistic Time Series Forecasting (LPTSF). As the forecast horizon extends, the inherent nonlinear dynamics have a significant adverse effect on prediction accuracy, and make generative models inefficient by increasing the cost of each iteration. To overcome these limitations, we introduce $K^2$VAE, an efficient VAE-based generative model that leverages a KoopmanNet to transform nonlinear time series into a linear dynamical system, and devises a KalmanNet to refine predictions and model uncertainty in such linear system, which reduces error accumulation in long-term forecasting. Extensive experiments demonstrate that $K^2$VAE outperforms state-of-the-art methods in both short- and long-term PTSF, providing a more efficient and accurate solution.",
+      "url": "https://arxiv.org/abs/2505.23017",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "forecasting",
+        "series",
+        "term",
+        "time",
+        "time series",
+        "vae",
+        "long",
+        "long term",
+        "probabilistic",
+        "probabilistic time"
+      ],
+      "subject_classification": "general",
+      "justification": "The paper addresses a significant challenge in time series forecasting \u2013 long-term prediction \u2013 and proposes a novel combination of Koopman networks and Kalman filters within a VAE framework. The approach seems well-motivated and potentially effective in mitigating error accumulation. While the abstract doesn't detail the implementation specifics, the combination of techniques suggests a solid methodological foundation, and the claim of outperforming state-of-the-art methods is promising. The focus on probabilistic forecasting is also a strong point.",
+      "paper_id": "ca74163612a4c36bb08fadf253c74791"
+    }
+  ],
+  "last_updated": "2025-05-31T09:25:12.849099"
+}

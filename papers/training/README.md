@@ -2,7 +2,326 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (82 total)
+
+### Development and Validation of SXI++ LNM Algorithm for Sepsis Prediction
+
+**Score:** 92.0 | **Published:** 2025-05-31 | **Authors:** Dharambir Mahto, Prashant Yadav, Mahesh Banavar, Jim Keany, Alan T Joseph, Srinivas Kilambi
+
+arXiv:2505.22840v1 Announce Type: new 
+Abstract: Sepsis is a life-threatening condition affecting over 48.9 million people globally and causing 11 million deaths annually. Despite medical advancements...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22840) | [📝 Analysis](e6d6095ba63019d55bc8125cbe632089.md)
+
+---
+
+### LUMION: Fast Fault Recovery for ML Jobs Using Programmable Optical Fabrics
+
+**Score:** 88.0 | **Published:** 2025-05-31 | **Authors:** Abhishek Vijaya Kumar, Eric Ding, Arjun Devraj, Darius Bunandar, Rachee Singh
+
+arXiv:2505.23105v1 Announce Type: new 
+Abstract: When accelerators fail in modern ML datacenters, operators migrate the affected ML training or inference jobs to entirely new racks. This approach, whi...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23105) | [📝 Analysis](082f02dc1a229a2308b3d0e1a9220f9a.md)
+
+---
+
+### Private Rate-Constrained Optimization with Applications to Fair Learning
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Mohammad Yaghini, Tudor Cebere, Michael Menart, Aur\'elien Bellet, Nicolas Papernot
+
+arXiv:2505.22703v1 Announce Type: new 
+Abstract: Many problems in trustworthy ML can be formulated as minimization of the model error under constraints on the prediction rates of the model for suitabl...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22703) | [📝 Analysis](07b0122af721c46d2a5d1dd1eedd46d6.md)
+
+---
+
+### Calibrated Value-Aware Model Learning with Stochastic Environment Models
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Claas Voelcker, Anastasiia Pedan, Arash Ahmadian, Romina Abachi, Igor Gilitschenski, Amir-massoud Farahmand
+
+arXiv:2505.22772v1 Announce Type: new 
+Abstract: The idea of value-aware model learning, that models should produce accurate value estimates, has gained prominence in model-based reinforcement learnin...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22772) | [📝 Analysis](30f5f8c3e9cfb28d2a1fba0b560e69a7.md)
+
+---
+
+### Machine Learning Models Have a Supply Chain Problem
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Sarah Meiklejohn, Hayden Blauzvern, Mihai Maruseac, Spencer Schrock, Laurent Simon, Ilia Shumailov
+
+arXiv:2505.22778v1 Announce Type: new 
+Abstract: Powerful machine learning (ML) models are now readily available online, which creates exciting possibilities for users who lack the deep technical expe...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22778) | [📝 Analysis](007cfcaab36bbebd1be0cda65343c855.md)
+
+---
+
+### CLUE: Neural Networks Calibration via Learning Uncertainty-Error alignment
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Pedro Mendes, Paolo Romano, David Garlan
+
+arXiv:2505.22803v1 Announce Type: new 
+Abstract: Reliable uncertainty estimation is critical for deploying neural networks (NNs) in real-world applications. While existing calibration techniques often...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22803) | [📝 Analysis](5445500ec173ca7030e8f1744073838d.md)
+
+---
+
+### How Do Diffusion Models Improve Adversarial Robustness?
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Liu Yuezhang, Xue-Xin Wei
+
+arXiv:2505.22839v1 Announce Type: new 
+Abstract: Recent findings suggest that diffusion models significantly enhance empirical adversarial robustness. While some intuitive explanations have been propo...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22839) | [📝 Analysis](161f2aedac91f3e7e5dfc48b5ee30b0f.md)
+
+---
+
+### Kernel-Smoothed Scores for Denoising Diffusion: A Bias-Variance Study
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Franck Gabriel, Fran\c{c}ois Ged, Maria Han Veiga, Emmanuel Schertzer
+
+arXiv:2505.22841v1 Announce Type: new 
+Abstract: Diffusion models now set the benchmark in high-fidelity generative sampling, yet they can, in principle, be prone to memorization. In this case, their ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22841) | [📝 Analysis](0fed18beaf31ebb880f96e6c8c4261d7.md)
+
+---
+
+### Defining Foundation Models for Computational Science: A Call for Clarity and Rigor
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Youngsoo Choi, Siu Wun Cheung, Youngkyu Kim, Ping-Hsuan Tsai, Alejandro N. Diaz, Ivan Zanardi, Seung Whan Chung, Dylan Matthew Copeland, Coleman Kendrick, William Anderson, Traian Iliescu, Matthias Heinkenschloss
+
+arXiv:2505.22904v1 Announce Type: new 
+Abstract: The widespread success of foundation models in natural language processing and computer vision has inspired researchers to extend the concept to scient...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22904) | [📝 Analysis](fc832d6ea730e6639d9946e85f02e818.md)
+
+---
+
+### Model-Preserving Adaptive Rounding
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Albert Tseng, Zhaofeng Sun, Christopher De Sa
+
+arXiv:2505.22988v1 Announce Type: new 
+Abstract: The main goal of post-training quantization (PTQ) is to produced a compressed model whose output distribution is as close to the original model's as po...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22988) | [📝 Analysis](d0d943c62e1e408133c53c2d97fd47cf.md)
+
+---
+
+### Hybrid Cross-domain Robust Reinforcement Learning
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Linh Le Pham Van, Minh Hoang Nguyen, Hung Le, Hung The Tran, Sunil Gupta
+
+arXiv:2505.23003v1 Announce Type: new 
+Abstract: Robust reinforcement learning (RL) aims to learn policies that remain effective despite uncertainties in its environment, which frequently arise in rea...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23003) | [📝 Analysis](b87dd86c866f1fa9ea67843cc3e88b35.md)
+
+---
+
+### Diverse Prototypical Ensembles Improve Robustness to Subpopulation Shift
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Minh Nguyen Nhat To, Paul F RWilson, Viet Nguyen, Mohamed Harmanani, Michael Cooper, Fahimeh Fooladgar, Purang Abolmaesumi, Parvin Mousavi, Rahul G. Krishnan
+
+arXiv:2505.23027v1 Announce Type: new 
+Abstract: The subpopulationtion shift, characterized by a disparity in subpopulation distributibetween theween the training and target datasets, can significantl...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23027) | [📝 Analysis](a2396f50d5f1f0a8ef226988821f0418.md)
+
+---
+
+### MAP: Revisiting Weight Decomposition for Low-Rank Adaptation
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Chongjie Si, Zhiyi Shi, Yadao Wang, Xiaokang Yang, Susanto Rahardja, Wei Shen
+
+arXiv:2505.23094v1 Announce Type: new 
+Abstract: The rapid development of large language models has revolutionized natural language processing, but their fine-tuning remains computationally expensive,...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23094) | [📝 Analysis](61350876d56b1327e686327d5b103842.md)
+
+---
+
+### DOPPLER: Dual-Policy Learning for Device Assignment in Asynchronous Dataflow Graphs
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Xinyu Yao, Daniel Bourgeois, Abhinav Jain, Yuxin Tang, Jiawen Yao, Zhimin Ding, Arlei Silva, Chris Jermaine
+
+arXiv:2505.23131v1 Announce Type: new 
+Abstract: We study the problem of assigning operations in a dataflow graph to devices to minimize execution time in a work-conserving system, with emphasis on co...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23131) | [📝 Analysis](a5fb2e5d8c3460a3bc5f6555a0bebe15.md)
+
+---
+
+### Bigger, Regularized, Categorical: High-Capacity Value Functions are Efficient Multi-Task Learners
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Michal Nauman, Marek Cygan, Carmelo Sferrazza, Aviral Kumar, Pieter Abbeel
+
+arXiv:2505.23150v1 Announce Type: new 
+Abstract: Recent advances in language modeling and vision stem from training large models on diverse, multi-task data. This paradigm has had limited impact in va...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23150) | [📝 Analysis](7e8f6a82c7ed928fd6c937b16c3e0a73.md)
+
+---
+
+### Matryoshka Model Learning for Improved Elastic Student Models
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Chetan Verma, Aditya Srinivas Timmaraju, Cho Jui-Hsieh, Suyash Damle, Ngot Bui, Yang Zhang, Wen Chen, Xin Liu, Prateek Jain, Inderjit S Dhillon
+
+arXiv:2505.23337v1 Announce Type: new 
+Abstract: Industry-grade ML models are carefully designed to meet rapidly evolving serving constraints, which requires significant resources for model developmen...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23337) | [📝 Analysis](909955755302c46721e054da065b4bf4.md)
+
+---
+
+### Sentinel: Scheduling Live Streams with Proactive Anomaly Detection in Crowdsourced Cloud-Edge Platforms
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Yuting Li, Shaoyuan Huang, Tengwen Zhang, Cheng Zhang, Xiaofei Wang, Victor C. M. Leung
+
+arXiv:2505.23347v1 Announce Type: new 
+Abstract: With the rapid growth of live streaming services, Crowdsourced Cloud-edge service Platforms (CCPs) are playing an increasingly important role in meetin...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23347) | [📝 Analysis](fbe720561c22e8316e8a11c6d2e99719.md)
+
+---
+
+### Grower-in-the-Loop Interactive Reinforcement Learning for Greenhouse Climate Control
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Maxiu Xiao, Jianglin Lan, Jingxing Yu, Eldert van Henten, Congcong Sun
+
+arXiv:2505.23355v1 Announce Type: new 
+Abstract: Climate control is crucial for greenhouse production as it directly affects crop growth and resource use. Reinforcement learning (RL) has received incr...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23355) | [📝 Analysis](134f4f7cc45159c593f20eafff06dcbf.md)
+
+---
+
+### Meta-Learning Approaches for Speaker-Dependent Voice Fatigue Models
+
+**Score:** 85.0 | **Published:** 2025-05-31 | **Authors:** Roseline Polle, Agnes Norbury, Alexandra Livia Georgescu, Nicholas Cummins, Stefano Goria
+
+arXiv:2505.23378v1 Announce Type: new 
+Abstract: Speaker-dependent modelling can substantially improve performance in speech-based health monitoring applications. While mixed-effect models are commonl...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23378) | [📝 Analysis](07e1a4447aa7f50423a3e7a4c981f0f4.md)
+
+---
+
+### Scaling Offline RL via Efficient and Expressive Shortcut Models
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Nicolas Espinosa-Dice, Yiyi Zhang, Yiding Chen, Bradley Guo, Owen Oertell, Gokul Swamy, Kiante Brantley, Wen Sun
+
+arXiv:2505.22866v1 Announce Type: new 
+Abstract: Diffusion and flow models have emerged as powerful generative approaches capable of modeling diverse and multimodal behavior. However, applying these m...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22866) | [📝 Analysis](bb91c53a150a08969435ad8a17c045de.md)
+
+---
+
+### Directed Graph Grammars for Sequence-based Learning
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Michael Sun, Orion Foo, Gang Liu, Wojciech Matusik, Jie Chen
+
+arXiv:2505.22949v1 Announce Type: new 
+Abstract: Directed acyclic graphs (DAGs) are a class of graphs commonly used in practice, with examples that include electronic circuits, Bayesian networks, and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22949) | [📝 Analysis](f53161e387c7768b35de8080bda4ea29.md)
+
+---
+
+### Walking the Weight Manifold: a Topological Approach to Conditioning Inspired by Neuromodulation
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Ari S. Benjamin, Kyle Daruwalla, Christian Pehle, Anthony M. Zador
+
+arXiv:2505.22994v1 Announce Type: new 
+Abstract: One frequently wishes to learn a range of similar tasks as efficiently as possible, re-using knowledge across tasks. In artificial neural networks, thi...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22994) | [📝 Analysis](e5eea31e7cbadfc5dc3350051adbfb67.md)
+
+---
+
+### QLIP: A Dynamic Quadtree Vision Prior Enhances MLLM Performance Without Retraining
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Kyle R. Chickering, Bangzheng Li, Muhao Chen
+
+arXiv:2505.23004v1 Announce Type: new 
+Abstract: Multimodal Large Language Models (MLLMs) encode images into visual tokens, aligning visual and textual signals within a shared latent space to facilita...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23004) | [📝 Analysis](17a819a92ab33992ab5e7b519be54d4d.md)
+
+---
+
+### ProDiff: Prototype-Guided Diffusion for Minimal Information Trajectory Imputation
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Tianci Bu, Le Zhou, Wenchuan Yang, Jianhong Mou, Kang Yang, Suoyi Tan, Feng Yao, Jingyuan Wang, Xin Lu
+
+arXiv:2505.23048v1 Announce Type: new 
+Abstract: Trajectory data is crucial for various applications but often suffers from incompleteness due to device limitations and diverse collection scenarios. E...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23048) | [📝 Analysis](cfc3d5051fd4abc3e9ff4edd54bddb0a.md)
+
+---
+
+### Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Lingkai Kong, Haichuan Wang, Tonghan Wang, Guojun Xiong, Milind Tambe
+
+arXiv:2505.23062v1 Announce Type: new 
+Abstract: Incorporating pre-collected offline data from a source environment can significantly improve the sample efficiency of reinforcement learning (RL), but ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23062) | [📝 Analysis](e144feb86d4f002558b65912a1688cb0.md)
+
+---
+
+### Weight Spectra Induced Efficient Model Adaptation
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Chongjie Si, Xuankun Yang, Muqing Liu, Yadao Wang, Xiaokang Yang, Wenbo Su, Bo Zheng, Wei Shen
+
+arXiv:2505.23099v1 Announce Type: new 
+Abstract: Large-scale foundation models have demonstrated remarkable versatility across a wide range of downstream tasks. However, fully fine-tuning these models...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23099) | [📝 Analysis](5bce1a8818649172b738b876190a579b.md)
+
+---
+
+### The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Shiwei Li, Xiandi Luo, Haozhao Wang, Xing Tang, Shijie Xu, Weihong Luo, Yuhua Li, Xiuqiang He, Ruixuan Li
+
+arXiv:2505.23176v1 Announce Type: new 
+Abstract: To improve the training efficiency of federated learning (FL), previous research has employed low-rank decomposition techniques to reduce communication...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23176) | [📝 Analysis](76baf20ee37d0b1f62bb713bbf87adf7.md)
+
+---
+
+### FSL-SAGE: Accelerating Federated Split Learning via Smashed Activation Gradient Estimation
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Srijith Nair, Michael Lin, Amirreza Talebi, Peizhong Ju, Elizabeth Bentley, Jia Liu
+
+arXiv:2505.23182v1 Announce Type: new 
+Abstract: Collaborative training methods like Federated Learning (FL) and Split Learning (SL) enable distributed machine learning without sharing raw data. Howev...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23182) | [📝 Analysis](78de485e95bd026c46202d76c302a92e.md)
+
+---
+
+### Score-based Generative Modeling for Conditional Independence Testing
+
+**Score:** 82.0 | **Published:** 2025-05-31 | **Authors:** Yixin Ren, Chenghou Jin, Yewei Xia, Li Ke, Longtao Huang, Hui Xue, Hao Zhang, Jihong Guan, Shuigeng Zhou
+
+arXiv:2505.23309v1 Announce Type: new 
+Abstract: Determining conditional independence (CI) relationships between random variables is a fundamental yet challenging task in machine learning and statisti...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23309) | [📝 Analysis](42505b4c2abf58fc80dcbe0f967a7558.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -12,6 +331,17 @@ arXiv:2505.22759v1 Announce Type: new
 Abstract: The development of speech foundation models (SFMs) like Whisper and SeamlessM4T has significantly advanced the field of speech processing. However, the...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22759) | [📝 Analysis](74333fe2ba40ec72bc67df7168bdac35.md)
+
+---
+
+### Preference Learning with Response Time
+
+**Score:** 80.0 | **Published:** 2025-05-31 | **Authors:** Ayush Sawarni, Sahasrajit Sarmasarkar, Vasilis Syrgkanis
+
+arXiv:2505.22820v1 Announce Type: new 
+Abstract: This paper investigates the integration of response time data into human preference learning frameworks for more effective reward model elicitation. Wh...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22820) | [📝 Analysis](43ce6ea9082b05f9f3d97ab0f228534e.md)
 
 ---
 
@@ -577,4 +907,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-05-31 09:25:12 UTC*

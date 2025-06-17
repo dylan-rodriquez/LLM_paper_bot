@@ -159,7 +159,71 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "Mustafar: Promoting Unstructured Sparsity for KV Cache Pruning in LLM Inference",
+      "authors": [
+        "Donghyeon Joo, Helya Hosseini, Ramyad Hadidi, Bahar Asgari"
+      ],
+      "abstract": "arXiv:2505.22913v1 Announce Type: new \nAbstract: We demonstrate that unstructured sparsity significantly improves KV cache compression for LLMs, enabling sparsity levels up to 70% without compromising accuracy or requiring fine-tuning. We conduct a systematic exploration of pruning strategies and find per-token magnitude-based pruning as highly effective for both Key and Value caches under unstructured sparsity, surpassing prior structured pruning schemes. The Key cache benefits from prominent outlier elements, while the Value cache surprisingly benefits from a simple magnitude-based pruning despite its uniform distribution. KV cache size is the major bottleneck in decode performance due to high memory overhead for large context lengths. To address this, we use a bitmap-based sparse format and a custom attention kernel capable of compressing and directly computing over compressed caches pruned to arbitrary sparsity patterns, significantly accelerating memory-bound operations in decode computations and thereby compensating for the overhead of runtime pruning and compression. Our custom attention kernel coupled with the bitmap-based format delivers substantial compression of KV cache upto 45% of dense inference and thereby enables longer context length and increased tokens/sec throughput of upto 2.23x compared to dense inference. Our pruning mechanism and sparse attention kernel is available at https://github.com/dhjoo98/mustafar.",
+      "url": "https://arxiv.org/abs/2505.22913",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 88,
+      "innovation_score": 75,
+      "impact_score": 82,
+      "sentiment_score": 90,
+      "keywords": [
+        "pruning",
+        "cache",
+        "sparsity",
+        "based",
+        "kv",
+        "kv cache",
+        "attention",
+        "attention kernel",
+        "compression",
+        "inference"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a critical bottleneck in LLM inference \u2013 KV cache size \u2013 and proposes a novel solution using unstructured sparsity. The systematic exploration of pruning strategies and the development of a custom attention kernel are strong points. The claim of achieving 70% sparsity without accuracy loss is significant, and the bitmap-based sparse format is a practical contribution. The positive framing and relevance to current LLM optimization trends suggest a favorable reception.",
+      "paper_id": "fdce4c7af13e09d4dcdef3275ac911d6"
+    },
+    {
+      "title": "Automated Modeling Method for Pathloss Model Discovery",
+      "authors": [
+        "Ahmad Anaqreh, Shih-Kai Chou, Mihael Mohor\\v{c}i\\v{c}, Carolina Fortuna"
+      ],
+      "abstract": "arXiv:2505.23383v1 Announce Type: new \nAbstract: Modeling propagation is the cornerstone for designing and optimizing next-generation wireless systems, with a particular emphasis on 5G and beyond era. Traditional modeling methods have long relied on statistic-based techniques to characterize propagation behavior across different environments. With the expansion of wireless communication systems, there is a growing demand for methods that guarantee the accuracy and interoperability of modeling. Artificial intelligence (AI)-based techniques, in particular, are increasingly being adopted to overcome this challenge, although the interpretability is not assured with most of these methods. Inspired by recent advancements in AI, this paper proposes a novel approach that accelerates the discovery of path loss models while maintaining interpretability. The proposed method automates the model formulation, evaluation, and refinement, facilitating model discovery. We evaluate two techniques: one based on Deep Symbolic Regression, offering full interpretability, and the second based on Kolmogorov-Arnold Networks, providing two levels of interpretability. Both approaches are evaluated on two synthetic and two real-world datasets. Our results show that Kolmogorov-Arnold Networks achieve R^2 values close to 1 with minimal prediction error, while Deep Symbolic Regression generates compact models with moderate accuracy. Moreover, on the selected examples, we demonstrate that automated methods outperform traditional methods, achieving up to 75% reduction in prediction errors, offering accurate and explainable solutions with potential to increase the efficiency of discovering next-generation path loss models.",
+      "url": "https://arxiv.org/abs/2505.23383",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 70,
+      "impact_score": 80,
+      "sentiment_score": 80,
+      "keywords": [
+        "methods",
+        "based",
+        "interpretability",
+        "modeling",
+        "discovery",
+        "model",
+        "models",
+        "techniques",
+        "accuracy",
+        "ai"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "The paper addresses a crucial problem in wireless communication \u2013 accurate and interoperable path loss modeling \u2013 and leverages AI, a current trend. The focus on interpretability alongside automation is a strong point. While the abstract is brief, the stated goal of automating model discovery and evaluation suggests a solid methodology, though the specific techniques ('two techniques: one b...') are not detailed enough for a higher quality score. The potential impact on 5G/6G network design is significant.",
+      "paper_id": "9cc79b564d8d11fb949f959ebf76b2bd"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2025-05-31T09:25:12.845180"
 }

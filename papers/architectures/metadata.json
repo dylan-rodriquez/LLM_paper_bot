@@ -703,7 +703,231 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Localized Weather Prediction Using Kolmogorov-Arnold Network-Based Models and Deep RNNs",
+      "authors": [
+        "Ange-Clement Akazan, Verlon Roel Mbingui, Gnankan Landry Regis N'guessan, Issa Karambal"
+      ],
+      "abstract": "arXiv:2505.22686v1 Announce Type: new \nAbstract: Weather forecasting is crucial for managing risks and economic planning, particularly in tropical Africa, where extreme events severely impact livelihoods. Yet, existing forecasting methods often struggle with the region's complex, non-linear weather patterns. This study benchmarks deep recurrent neural networks such as $\\texttt{LSTM, GRU, BiLSTM, BiGRU}$, and Kolmogorov-Arnold-based models $(\\texttt{KAN} and \\texttt{TKAN})$ for daily forecasting of temperature, precipitation, and pressure in two tropical cities: Abidjan, Cote d'Ivoire (Ivory Coast) and Kigali (Rwanda). We further introduce two customized variants of $ \\texttt{TKAN}$ that replace its original $\\texttt{SiLU}$ activation function with $ \\texttt{GeLU}$ and \\texttt{MiSH}, respectively. Using station-level meteorological data spanning from 2010 to 2024, we evaluate all the models on standard regression metrics. $\\texttt{KAN}$ achieves temperature prediction ($R^2=0.9986$ in Abidjan, $0.9998$ in Kigali, $\\texttt{MSE} < 0.0014~^\\circ C ^2$), while $\\texttt{TKAN}$ variants minimize absolute errors for precipitation forecasting in low-rainfall regimes. The customized $\\texttt{TKAN}$ models demonstrate improvements over the standard $\\texttt{TKAN}$ across both datasets. Classical \\texttt{RNNs} remain highly competitive for atmospheric pressure ($R^2 \\approx 0.83{-}0.86$), outperforming $\\texttt{KAN}$-based models in this task. These results highlight the potential of spline-based neural architectures for efficient and data-efficient forecasting.",
+      "url": "https://arxiv.org/abs/2505.22686",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 65,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "texttt",
+        "forecasting",
+        "models",
+        "texttt tkan",
+        "tkan",
+        "based",
+        "based models",
+        "kan",
+        "texttt kan",
+        "weather"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a significant problem \u2013 localized weather forecasting in a region particularly vulnerable to climate change \u2013 and uses a reasonable approach by benchmarking several deep learning models. The introduction of customized TKAN variants with different activation functions is a positive step, though the reported R^2 of 0.9986 for temperature prediction seems exceptionally high and warrants scrutiny. Overall, the methodology appears sound, and the presentation is clear based on the abstract, suggesting a solid contribution to the field.",
+      "paper_id": "8501a4163c8e084445cf2091e20cf4b1"
+    },
+    {
+      "title": "Update Your Transformer to the Latest Release: Re-Basin of Task Vectors",
+      "authors": [
+        "Filippo Rinaldi, Giacomo Capitani, Lorenzo Bonicelli, Donato Crisostomi, Federico Bolelli, Elisa Ficarra, Emanuele Rodol\\`a, Simone Calderara, Angelo Porrello"
+      ],
+      "abstract": "arXiv:2505.22697v1 Announce Type: new \nAbstract: Foundation models serve as the backbone for numerous specialized models developed through fine-tuning. However, when the underlying pretrained model is updated or retrained (e.g., on larger and more curated datasets), the fine-tuned model becomes obsolete, losing its utility and requiring retraining. This raises the question: is it possible to transfer fine-tuning to a new release of the model? In this work, we investigate how to transfer fine-tuning to a new checkpoint without having to re-train, in a data-free manner. To do so, we draw principles from model re-basin and provide a recipe based on weight permutations to re-base the modifications made to the original base model, often called task vector. In particular, our approach tailors model re-basin for Transformer models, taking into account the challenges of residual connections and multi-head attention layers. Specifically, we propose a two-level method rooted in spectral theory, initially permuting the attention heads and subsequently adjusting parameters within select pairs of heads. Through extensive experiments on visual and textual tasks, we achieve the seamless transfer of fine-tuned knowledge to new pre-trained backbones without relying on a single training step or datapoint. Code is available at https://github.com/aimagelab/TransFusion.",
+      "url": "https://arxiv.org/abs/2505.22697",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 80,
+      "sentiment_score": 82,
+      "keywords": [
+        "model",
+        "fine",
+        "new",
+        "basin",
+        "fine tuning",
+        "models",
+        "transfer",
+        "transfer fine",
+        "tuning",
+        "attention"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a very practical and important problem in the rapidly evolving landscape of foundation models \u2013 the cost of retraining fine-tuned models with each base model update. The approach of adapting 'model re-basin' principles for Transformers, particularly with attention to residual connections and multi-head attention, shows a thoughtful methodology. While the abstract hints at a complex, spectral-theory-based solution, the data-free transfer aspect is particularly appealing, suggesting potential for significant efficiency gains. The problem is well-defined and the proposed solution appears promising, though the details will be crucial for full assessment.",
+      "paper_id": "e01a6b51c8755746c164edf73a99f04d"
+    },
+    {
+      "title": "Neural Interpretable PDEs: Harmonizing Fourier Insights with Attention for Scalable and Interpretable Physics Discovery",
+      "authors": [
+        "Ning Liu, Yue Yu"
+      ],
+      "abstract": "arXiv:2505.23106v1 Announce Type: new \nAbstract: Attention mechanisms have emerged as transformative tools in core AI domains such as natural language processing and computer vision. Yet, their largely untapped potential for modeling intricate physical systems presents a compelling frontier. Learning such systems often entails discovering operators that map between functional spaces using limited instances of function pairs -- a task commonly framed as a severely ill-posed inverse PDE problem. In this work, we introduce Neural Interpretable PDEs (NIPS), a novel neural operator architecture that builds upon and enhances Nonlocal Attention Operators (NAO) in both predictive accuracy and computational efficiency. NIPS employs a linear attention mechanism to enable scalable learning and integrates a learnable kernel network that acts as a channel-independent convolution in Fourier space. As a consequence, NIPS eliminates the need to explicitly compute and store large pairwise interactions, effectively amortizing the cost of handling spatial interactions into the Fourier transform. Empirical evaluations demonstrate that NIPS consistently surpasses NAO and other baselines across diverse benchmarks, heralding a substantial leap in scalable, interpretable, and efficient physics learning. Our code and data accompanying this paper are available at https://github.com/fishmoon1234/Nonlocal-Attention-Operator.",
+      "url": "https://arxiv.org/abs/2505.23106",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "attention",
+        "interpretable",
+        "nips",
+        "fourier",
+        "learning",
+        "neural",
+        "scalable",
+        "interactions",
+        "interpretable pdes",
+        "nao"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a significant problem \u2013 scalable and interpretable physics discovery \u2013 using a novel neural operator architecture. The combination of linear attention and a learnable kernel network in Fourier space appears promising for improving both accuracy and efficiency. While the abstract doesn't detail experimental results, the described approach seems well-motivated and builds upon existing work (NAO) in a logical manner, suggesting a solid methodology. The potential for eliminating large pairwise interaction computations is a key benefit.",
+      "paper_id": "da6ba7d02a5f095d1a6c0436d6afb9c4"
+    },
+    {
+      "title": "Improving the Effective Receptive Field of Message-Passing Neural Networks",
+      "authors": [
+        "Shahaf E. Finder, Ron Shapira Weber, Moshe Eliasof, Oren Freifeld, Eran Treister"
+      ],
+      "abstract": "arXiv:2505.23185v1 Announce Type: new \nAbstract: Message-Passing Neural Networks (MPNNs) have become a cornerstone for processing and analyzing graph-structured data. However, their effectiveness is often hindered by phenomena such as over-squashing, where long-range dependencies or interactions are inadequately captured and expressed in the MPNN output. This limitation mirrors the challenges of the Effective Receptive Field (ERF) in Convolutional Neural Networks (CNNs), where the theoretical receptive field is underutilized in practice. In this work, we show and theoretically explain the limited ERF problem in MPNNs. Furthermore, inspired by recent advances in ERF augmentation for CNNs, we propose an Interleaved Multiscale Message-Passing Neural Networks (IM-MPNN) architecture to address these problems in MPNNs. Our method incorporates a hierarchical coarsening of the graph, enabling message-passing across multiscale representations and facilitating long-range interactions without excessive depth or parameterization. Through extensive evaluations on benchmarks such as the Long-Range Graph Benchmark (LRGB), we demonstrate substantial improvements over baseline MPNNs in capturing long-range dependencies while maintaining computational efficiency.",
+      "url": "https://arxiv.org/abs/2505.23185",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 75,
+      "sentiment_score": 80,
+      "keywords": [
+        "long",
+        "long range",
+        "message",
+        "message passing",
+        "mpnns",
+        "networks",
+        "neural",
+        "neural networks",
+        "passing",
+        "range"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a well-known limitation of MPNNs \u2013 the effective receptive field \u2013 and draws a compelling parallel to CNNs. The proposed IM-MPNN architecture, inspired by ERF augmentation techniques in CNNs, appears to be a reasonable approach to tackling this issue. While the abstract doesn't detail the specifics of the theoretical explanation, the combination of theoretical analysis and a novel architecture suggests solid research. The problem is significant, and the approach has potential, but the actual results and experimental validation will be crucial.",
+      "paper_id": "6d0fb86a86e775e3d1f6b95be17d4ae8"
+    },
+    {
+      "title": "DeepRTE: Pre-trained Attention-based Neural Network for Radiative Tranfer",
+      "authors": [
+        "Yekun Zhu, Min Tang, Zheng Ma"
+      ],
+      "abstract": "arXiv:2505.23190v1 Announce Type: new \nAbstract: In this study, we propose a novel neural network approach, termed DeepRTE, to address the steady-state Radiative Transfer Equation (RTE). The RTE is a differential-integral equation that governs the propagation of radiation through a participating medium, with applications spanning diverse domains such as neutron transport, atmospheric radiative transfer, heat transfer, and optical imaging. Our proposed DeepRTE framework leverages pre-trained attention-based neural networks to solve the RTE with high accuracy and computational efficiency. The efficacy of the proposed approach is substantiated through comprehensive numerical experiments.",
+      "url": "https://arxiv.org/abs/2505.23190",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 85,
+      "innovation_score": 72,
+      "impact_score": 80,
+      "sentiment_score": 75,
+      "keywords": [
+        "deeprte",
+        "neural",
+        "radiative",
+        "rte",
+        "transfer",
+        "approach",
+        "attention",
+        "attention based",
+        "based",
+        "based neural"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a computationally challenging problem (RTE) with a potentially impactful approach (pre-trained attention-based networks). The use of pre-training suggests an attempt to leverage existing knowledge and improve efficiency, which is a positive sign. While the abstract is concise, it lacks specific details about the network architecture or experimental results, making a definitive assessment difficult, but the problem domain is well-established and important. The stated applications are broad and suggest significant potential.",
+      "paper_id": "daab479378a9d2c51b9b82f9e02e622b"
+    },
+    {
+      "title": "X-Factor: Quality Is a Dataset-Intrinsic Property",
+      "authors": [
+        "Josiah Couch, Miao Li, Rima Arnaout, Ramy Arnaout"
+      ],
+      "abstract": "arXiv:2505.22813v1 Announce Type: new \nAbstract: In the universal quest to optimize machine-learning classifiers, three factors -- model architecture, dataset size, and class balance -- have been shown to influence test-time performance but do not fully account for it. Previously, evidence was presented for an additional factor that can be referred to as dataset quality, but it was unclear whether this was actually a joint property of the dataset and the model architecture, or an intrinsic property of the dataset itself. If quality is truly dataset-intrinsic and independent of model architecture, dataset size, and class balance, then the same datasets should perform better (or worse) regardless of these other factors. To test this hypothesis, here we create thousands of datasets, each controlled for size and class balance, and use them to train classifiers with a wide range of architectures, from random forests and support-vector machines to deep networks. We find that classifier performance correlates strongly by subset across architectures ($R^2=0.79$), supporting quality as an intrinsic property of datasets independent of dataset size and class balance and of model architecture. Digging deeper, we find that dataset quality appears to be an emergent property of something more fundamental: the quality of datasets' constituent classes. Thus, quality joins size, class balance, and model architecture as an independent correlate of performance and a separate target for optimizing machine-learning-based classification.",
+      "url": "https://arxiv.org/abs/2505.22813",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 85,
+      "keywords": [
+        "dataset",
+        "quality",
+        "architecture",
+        "balance",
+        "class",
+        "class balance",
+        "model",
+        "model architecture",
+        "property",
+        "size"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a crucial question in machine learning \u2013 understanding the source of performance variation beyond typical factors. The experimental design, involving the creation of thousands of controlled datasets and training diverse models, appears rigorous. Establishing dataset quality as an intrinsic property would be a significant finding, potentially shifting focus in dataset creation and evaluation. The abstract suggests a well-defined hypothesis and a systematic approach to testing it.",
+      "paper_id": "b8b0096633979675dcd26f3ee8774d4f"
+    },
+    {
+      "title": "Equivariant Spherical Transformer for Efficient Molecular Modeling",
+      "authors": [
+        "Junyi An, Xinyu Lu, Chao Qu, Yunfei Shi, Peijia Lin, Qianwei Tang, Licheng Xu, Fenglei Cao, Yuan Qi"
+      ],
+      "abstract": "arXiv:2505.23086v1 Announce Type: new \nAbstract: SE(3)-equivariant Graph Neural Networks (GNNs) have significantly advanced molecular system modeling by employing group representations. However, their message passing processes, which rely on tensor product-based convolutions, are limited by insufficient non-linearity and incomplete group representations, thereby restricting expressiveness. To overcome these limitations, we introduce the Equivariant Spherical Transformer (EST), a novel framework that leverages a Transformer structure within the spatial domain of group representations after Fourier transform. We theoretically and empirically demonstrate that EST can encompass the function space of tensor products while achieving superior expressiveness. Furthermore, EST's equivariant inductive bias is guaranteed through a uniform sampling strategy for the Fourier transform. Our experiments demonstrate state-of-the-art performance by EST on various molecular benchmarks, including OC20 and QM9.",
+      "url": "https://arxiv.org/abs/2505.23086",
+      "published_date": "2025-05-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 80,
+      "innovation_score": 75,
+      "impact_score": 82,
+      "sentiment_score": 88,
+      "keywords": [
+        "equivariant",
+        "est",
+        "group",
+        "group representations",
+        "molecular",
+        "representations",
+        "transformer",
+        "demonstrate",
+        "equivariant spherical",
+        "expressiveness"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial limitation in equivariant GNNs for molecular modeling \u2013 expressiveness \u2013 by introducing the Equivariant Spherical Transformer. The use of Fourier transforms and a Transformer architecture within the group representation domain appears novel and theoretically sound. The claim of state-of-the-art performance on molecular benchmarks further strengthens its potential, suggesting a well-executed and impactful contribution to the field.",
+      "paper_id": "d9abdebb32b1ade6659d49387ef9d887"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-05-31T09:25:12.832160"
 }
