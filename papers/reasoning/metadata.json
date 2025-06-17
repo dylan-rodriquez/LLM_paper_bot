@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "OneEval: Benchmarking LLM Knowledge-intensive Reasoning over Diverse Knowledge Bases",
+      "authors": [
+        "Yongrui Chen, Zhiqiang Liu, Jing Yu, Lin Ren, Nan Hu, Xinbang Dai, Jiajun Liu, Jiazhen Kang, Shenyu Zhang, Xinda Wang, Keyan Ding, Pengfei Shen, Haolei Zhu, Hongjie Deng, Yisong Wang, Tongtong Wu, Sheng Bi, Wen Zhang, Tianxing Wu, Qiu Ji, Haofen Wang, Wenliang Chen, Huajun Chen, Guilin Qi"
+      ],
+      "abstract": "arXiv:2506.12577v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated substantial progress on reasoning tasks involving unstructured text, yet their capabilities significantly deteriorate when reasoning requires integrating structured external knowledge such as knowledge graphs, code snippets, or formal logic. This limitation is partly due to the absence of benchmarks capable of systematically evaluating LLM performance across diverse structured knowledge modalities. To address this gap, we introduce \\textbf{\\textsc{OneEval}}, a comprehensive benchmark explicitly designed to assess the knowledge-intensive reasoning capabilities of LLMs across four structured knowledge modalities, unstructured text, knowledge graphs, code, and formal logic, and five critical domains (general knowledge, government, science, law, and programming). \\textsc{OneEval} comprises 4,019 carefully curated instances and includes a challenging subset, \\textsc{OneEval}\\textsubscript{Hard}, consisting of 1,285 particularly difficult cases. Through extensive evaluation of 18 state-of-the-art open-source and proprietary LLMs, we establish three core findings: a) \\emph{persistent limitations in structured reasoning}, with even the strongest model achieving only 32.2\\% accuracy on \\textsc{OneEval}\\textsubscript{Hard}; b) \\emph{performance consistently declines as the structural complexity of the knowledge base increases}, with accuracy dropping sharply from 53\\% (textual reasoning) to 25\\% (formal logic); and c) \\emph{diminishing returns from extended reasoning chains}, highlighting the critical need for models to adapt reasoning depth appropriately to task complexity. We release the \\textsc{OneEval} datasets, evaluation scripts, and baseline results publicly, accompanied by a leaderboard to facilitate ongoing advancements in structured knowledge reasoning.",
+      "url": "https://arxiv.org/abs/2506.12577",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "knowledge",
+        "reasoning",
+        "oneeval",
+        "structured",
+        "textsc",
+        "textsc oneeval",
+        "emph",
+        "formal",
+        "formal logic",
+        "llms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial limitation in LLM evaluation \u2013 the lack of benchmarks for knowledge-intensive reasoning across diverse structured knowledge sources. The creation of \textsc{OneEval} with its four modalities and five domains is a significant contribution. While benchmark creation isn't inherently groundbreaking, the scope and focus on structured knowledge are novel and timely, suggesting a positive reception within the community.",
+      "paper_id": "58aa5da9be913111f8f80eab644e7a04"
+    },
+    {
+      "title": "PersonaFeedback: A Large-scale Human-annotated Benchmark For Personalization",
+      "authors": [
+        "Meiling Tao, Chenghao Zhu, Dongyi Ding, Tiannan Wang, Yuchen Eleanor Jiang, Wangchunshu Zhou"
+      ],
+      "abstract": "arXiv:2506.12915v1 Announce Type: new \nAbstract: With the rapid improvement in the general capabilities of LLMs, LLM personalization, i.e., how to build LLM systems that can generate personalized responses or services that are tailored to distinct user personas, has become an increasingly important research and engineering problem. However, unlike many new challenging benchmarks being released for evaluating the general/reasoning capabilities, the lack of high-quality benchmarks for evaluating LLM personalization greatly hinders progress in this field. To address this, we introduce PersonaFeedback, a new benchmark that directly evaluates LLMs' ability to provide personalized responses given pre-defined user personas and queries. Unlike existing benchmarks that require models to infer implicit user personas from historical interactions, PersonaFeedback decouples persona inference from personalization, focusing on evaluating the model's ability to generate responses tailored to explicit personas. PersonaFeedback consists of 8298 human-annotated test cases, which are categorized into easy, medium, and hard tiers based on the contextual complexity of the user personas and the difficulty in distinguishing subtle differences between two personalized responses. We conduct comprehensive evaluations across a wide range of models. The empirical results reveal that even state-of-the-art LLMs that can solve complex real-world reasoning tasks could fall short on the hard tier of PersonaFeedback where even human evaluators may find the distinctions challenging. Furthermore, we conduct an in-depth analysis of failure modes across various types of systems, demonstrating that the current retrieval-augmented framework should not be seen as a de facto solution for personalization tasks. All benchmark data, annotation protocols, and the evaluation pipeline will be publicly available to facilitate future research on LLM personalization.",
+      "url": "https://arxiv.org/abs/2506.12915",
+      "published_date": "2025-06-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "personalization",
+        "personafeedback",
+        "personas",
+        "llm",
+        "responses",
+        "user",
+        "user personas",
+        "benchmark",
+        "benchmarks",
+        "evaluating"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of benchmarks specifically for personalization. Decoupling persona inference from personalization is a smart methodological choice, allowing for a more focused assessment of LLM capabilities. The creation of a large-scale, human-annotated benchmark is a significant contribution, and the problem itself is highly relevant given the increasing focus on building user-centric LLM applications. The work appears well-motivated and likely to be well-received by the community.",
+      "paper_id": "295ec72e2e3d680257f9f854a2d4c6a7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-17T09:30:09.307605"
 }

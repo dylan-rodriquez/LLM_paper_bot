@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### How Grounded is Wikipedia? A Study on Structured Evidential Support
+
+**Score:** 90.0 | **Published:** 2025-06-17 | **Authors:** William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, Rongkun Zhou, Benjamin Van Durme
+
+arXiv:2506.12637v1 Announce Type: new 
+Abstract: Wikipedia is a critical resource for modern NLP, serving as a rich repository of up-to-date and citation-backed information on a wide variety of subjec...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.12637) | [📝 Analysis](31843233dda4900b049c87c5c809a2c7.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-17 09:30:09 UTC*

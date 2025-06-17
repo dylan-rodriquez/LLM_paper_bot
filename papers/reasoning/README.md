@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### OneEval: Benchmarking LLM Knowledge-intensive Reasoning over Diverse Knowledge Bases
+
+**Score:** 90.0 | **Published:** 2025-06-17 | **Authors:** Yongrui Chen, Zhiqiang Liu, Jing Yu, Lin Ren, Nan Hu, Xinbang Dai, Jiajun Liu, Jiazhen Kang, Shenyu Zhang, Xinda Wang, Keyan Ding, Pengfei Shen, Haolei Zhu, Hongjie Deng, Yisong Wang, Tongtong Wu, Sheng Bi, Wen Zhang, Tianxing Wu, Qiu Ji, Haofen Wang, Wenliang Chen, Huajun Chen, Guilin Qi
+
+arXiv:2506.12577v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have demonstrated substantial progress on reasoning tasks involving unstructured text, yet their capabilities significantl...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.12577) | [📝 Analysis](58aa5da9be913111f8f80eab644e7a04.md)
+
+---
+
+### PersonaFeedback: A Large-scale Human-annotated Benchmark For Personalization
+
+**Score:** 90.0 | **Published:** 2025-06-17 | **Authors:** Meiling Tao, Chenghao Zhu, Dongyi Ding, Tiannan Wang, Yuchen Eleanor Jiang, Wangchunshu Zhou
+
+arXiv:2506.12915v1 Announce Type: new 
+Abstract: With the rapid improvement in the general capabilities of LLMs, LLM personalization, i.e., how to build LLM systems that can generate personalized resp...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.12915) | [📝 Analysis](295ec72e2e3d680257f9f854a2d4c6a7.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-17 09:30:09 UTC*

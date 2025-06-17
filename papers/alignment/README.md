@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Large Language Models as 'Hidden Persuaders': Fake Product Reviews are Indistinguishable to Humans and Machines
+
+**Score:** 92.0 | **Published:** 2025-06-17 | **Authors:** Weiyao Meng, John Harvey, James Goulding, Chris James Carter, Evgeniya Lukinova, Andrew Smith, Paul Frobisher, Mina Forrest, Georgiana Nica-Avram
+
+arXiv:2506.13313v1 Announce Type: new 
+Abstract: Reading and evaluating product reviews is central to how most people decide what to buy and consume online. However, the recent emergence of Large Lang...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.13313) | [📝 Analysis](666383c5d3ea798961d89b511970037f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-17 09:30:09 UTC*
