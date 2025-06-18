@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Passing the Turing Test in Political Discourse: Fine-Tuning LLMs to Mimic Polarized Social Media Comments",
+      "authors": [
+        ". Pazzaglia, V. Vendetti, L. D. Comencini, F. Deriu, V. Modugno"
+      ],
+      "abstract": "arXiv:2506.14645v1 Announce Type: new \nAbstract: The increasing sophistication of large language models (LLMs) has sparked growing concerns regarding their potential role in exacerbating ideological polarization through the automated generation of persuasive and biased content. This study explores the extent to which fine-tuned LLMs can replicate and amplify polarizing discourse within online environments. Using a curated dataset of politically charged discussions extracted from Reddit, we fine-tune an open-source LLM to produce context-aware and ideologically aligned responses. The model's outputs are evaluated through linguistic analysis, sentiment scoring, and human annotation, with particular attention to credibility and rhetorical alignment with the original discourse. The results indicate that, when trained on partisan data, LLMs are capable of producing highly plausible and provocative comments, often indistinguishable from those written by humans. These findings raise significant ethical questions about the use of AI in political discourse, disinformation, and manipulation campaigns. The paper concludes with a discussion of the broader implications for AI governance, platform regulation, and the development of detection tools to mitigate adversarial fine-tuning risks.",
+      "url": "https://arxiv.org/abs/2506.14645",
+      "published_date": "2025-06-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "discourse",
+        "fine",
+        "llms",
+        "ai",
+        "comments",
+        "fine tuning",
+        "political",
+        "political discourse",
+        "tuning",
+        "14645v1"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the potential for LLMs to amplify political polarization. The methodology appears sound, utilizing a curated dataset and multiple evaluation metrics (linguistic analysis, sentiment scoring, human annotation). While fine-tuning LLMs isn't novel, applying it specifically to replicate polarized discourse and demonstrating the indistinguishability of generated content from human-written comments is a significant finding. The potential societal impact is substantial, making this a valuable contribution.",
+      "paper_id": "304e472265d9b4b696c9e5e817daad72"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-18T09:29:43.002898"
 }

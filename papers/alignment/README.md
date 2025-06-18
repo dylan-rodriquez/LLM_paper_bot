@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Passing the Turing Test in Political Discourse: Fine-Tuning LLMs to Mimic Polarized Social Media Comments
+
+**Score:** 92.0 | **Published:** 2025-06-18 | **Authors:** . Pazzaglia, V. Vendetti, L. D. Comencini, F. Deriu, V. Modugno
+
+arXiv:2506.14645v1 Announce Type: new 
+Abstract: The increasing sophistication of large language models (LLMs) has sparked growing concerns regarding their potential role in exacerbating ideological p...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.14645) | [📝 Analysis](304e472265d9b4b696c9e5e817daad72.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-18 09:29:43 UTC*
