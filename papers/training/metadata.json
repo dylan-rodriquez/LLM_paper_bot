@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Massive Supervised Fine-tuning Experiments Reveal How Data, Layer, and Training Factors Shape LLM Alignment Quality",
+      "authors": [
+        "Yuto Harada, Yusuke Yamauchi, Yusuke Oda, Yohei Oseki, Yusuke Miyao, Yu Takagi"
+      ],
+      "abstract": "arXiv:2506.14681v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is a critical step in aligning large language models (LLMs) with human instructions and values, yet many aspects of SFT remain poorly understood. We trained a wide range of base models on a variety of datasets including code generation, mathematical reasoning, and general-domain tasks, resulting in 1,000+ SFT models under controlled conditions. We then identified the dataset properties that matter most and examined the layer-wise modifications introduced by SFT. Our findings reveal that some training-task synergies persist across all models while others vary substantially, emphasizing the importance of model-specific strategies. Moreover, we demonstrate that perplexity consistently predicts SFT effectiveness--often surpassing superficial similarity between trained data and benchmark--and that mid-layer weight changes correlate most strongly with performance gains. We will release these 1,000+ SFT models and benchmark results to accelerate further research.",
+      "url": "https://arxiv.org/abs/2506.14681",
+      "published_date": "2025-06-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "sft",
+        "models",
+        "layer",
+        "000",
+        "000 sft",
+        "benchmark",
+        "data",
+        "fine",
+        "fine tuning",
+        "reveal"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a crucial area in LLM development \u2013 alignment \u2013 with a rigorous, large-scale experimental approach. The creation of 1,000+ SFT models and the identification of key dataset properties and layer-wise modifications represent a substantial contribution. The finding that perplexity is a strong predictor of SFT effectiveness is particularly noteworthy, offering a potentially simpler and more efficient evaluation metric. The planned release of the models will further enhance the impact of this work.",
+      "paper_id": "b5f7358ee10abb21250edbb6291b4546"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-18T09:29:43.004123"
 }

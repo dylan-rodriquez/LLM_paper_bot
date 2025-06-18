@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Alternative Annotator Test for LLM-as-a-Judge: How to Statistically Justify Replacing Human Annotators with LLMs
+
+**Score:** 90.0 | **Published:** 2025-06-18 | **Authors:** Nitay Calderon, Roi Reichart, Rotem Dror
+
+arXiv:2501.10970v3 Announce Type: replace 
+Abstract: The "LLM-as-an-annotator" and "LLM-as-a-judge" paradigms employ Large Language Models (LLMs) as annotators, judges, and evaluators in tasks traditi...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.10970) | [📝 Analysis](9aa00a5f3f5bfbcc9a3f096530676225.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-18 09:29:43 UTC*
