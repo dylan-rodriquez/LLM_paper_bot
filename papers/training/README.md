@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### PhantomHunter: Detecting Unseen Privately-Tuned LLM-Generated Text via Family-Aware Learning
+
+**Score:** 90.0 | **Published:** 2025-06-19 | **Authors:** Yuhui Shi, Yehan Yang, Qiang Sheng, Hao Mi, Beizhe Hu, Chaoxi Xu, Juan Cao
+
+arXiv:2506.15683v1 Announce Type: new 
+Abstract: With the popularity of large language models (LLMs), undesirable societal problems like misinformation production and academic misconduct have been mor...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.15683) | [📝 Analysis](65dcd6f26cc8fc6ae27158d96f7399aa.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-19 09:29:30 UTC*

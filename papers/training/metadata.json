@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "PhantomHunter: Detecting Unseen Privately-Tuned LLM-Generated Text via Family-Aware Learning",
+      "authors": [
+        "Yuhui Shi, Yehan Yang, Qiang Sheng, Hao Mi, Beizhe Hu, Chaoxi Xu, Juan Cao"
+      ],
+      "abstract": "arXiv:2506.15683v1 Announce Type: new \nAbstract: With the popularity of large language models (LLMs), undesirable societal problems like misinformation production and academic misconduct have been more severe, making LLM-generated text detection now of unprecedented importance. Although existing methods have made remarkable progress, a new challenge posed by text from privately tuned LLMs remains underexplored. Users could easily possess private LLMs by fine-tuning an open-source one with private corpora, resulting in a significant performance drop of existing detectors in practice. To address this issue, we propose PhantomHunter, an LLM-generated text detector specialized for detecting text from unseen, privately-tuned LLMs. Its family-aware learning framework captures family-level traits shared across the base models and their derivatives, instead of memorizing individual characteristics. Experiments on data from LLaMA, Gemma, and Mistral families show its superiority over 7 baselines and 3 industrial services, with F1 scores of over 96%.",
+      "url": "https://arxiv.org/abs/2506.15683",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "llms",
+        "family",
+        "generated",
+        "generated text",
+        "llm",
+        "llm generated",
+        "privately",
+        "privately tuned",
+        "tuned"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very timely and important problem \u2013 detecting LLM-generated text from privately tuned models, which is a significant weakness of current detection methods. The 'family-aware learning' approach appears novel and potentially effective in addressing this challenge. The experimental setup with LLaMA, Gemma, and Mistral families suggests a rigorous evaluation, and the reported superiority over baselines is promising. The problem is highly relevant given the increasing prevalence of fine-tuned LLMs and the associated risks of misuse.",
+      "paper_id": "65dcd6f26cc8fc6ae27158d96f7399aa"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-19T09:29:30.834460"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers
+
+**Score:** 92.0 | **Published:** 2025-06-19 | **Authors:** Tommaso Green, Martin Gubri, Haritz Puerto, Sangdoo Yun, Seong Joon Oh
+
+arXiv:2506.15674v1 Announce Type: new 
+Abstract: We study privacy leakage in the reasoning traces of large reasoning models used as personal agents. Unlike final outputs, reasoning traces are often as...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.15674) | [📝 Analysis](0fa7fbc084b5f236a14eb738e2b106ba.md)
+
+---
+
+### PsychBench: A comprehensive and professional benchmark for evaluating the performance of LLM-assisted psychiatric clinical practice
+
+**Score:** 92.0 | **Published:** 2025-06-19 | **Authors:** Shuyu Liu, Ruoxi Wang, Ling Zhang, Xuequan Zhu, Rui Yang, Xinzhu Zhou, Fei Wu, Zhi Yang, Cheng Jin, Gang Wang
+
+arXiv:2503.01903v2 Announce Type: replace 
+Abstract: The advent of Large Language Models (LLMs) offers potential solutions to address problems such as shortage of medical resources and low diagnostic ...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.01903) | [📝 Analysis](c3ed79e9884c89572f09db24f60832ab.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-19 09:29:30 UTC*
