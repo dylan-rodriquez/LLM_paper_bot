@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers",
+      "authors": [
+        "Tommaso Green, Martin Gubri, Haritz Puerto, Sangdoo Yun, Seong Joon Oh"
+      ],
+      "abstract": "arXiv:2506.15674v1 Announce Type: new \nAbstract: We study privacy leakage in the reasoning traces of large reasoning models used as personal agents. Unlike final outputs, reasoning traces are often assumed to be internal and safe. We challenge this assumption by showing that reasoning traces frequently contain sensitive user data, which can be extracted via prompt injections or accidentally leak into outputs. Through probing and agentic evaluations, we demonstrate that test-time compute approaches, particularly increased reasoning steps, amplify such leakage. While increasing the budget of those test-time compute approaches makes models more cautious in their final answers, it also leads them to reason more verbosely and leak more in their own thinking. This reveals a core tension: reasoning improves utility but enlarges the privacy attack surface. We argue that safety efforts must extend to the model's internal thinking, not just its outputs.",
+      "url": "https://arxiv.org/abs/2506.15674",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "models",
+        "outputs",
+        "reasoning traces",
+        "traces",
+        "approaches",
+        "compute",
+        "compute approaches",
+        "final",
+        "internal"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical and timely privacy concern with the increasing use of large reasoning models as personal agents. The finding that reasoning *traces* \u2013 often considered internal \u2013 leak sensitive data is significant, and the observation that increased reasoning steps *amplify* this leakage is counterintuitive and important. The methodology appears sound, employing both probing and agentic evaluations, and the identified tension between utility and privacy is a valuable contribution to the field.",
+      "paper_id": "0fa7fbc084b5f236a14eb738e2b106ba"
+    },
+    {
+      "title": "PsychBench: A comprehensive and professional benchmark for evaluating the performance of LLM-assisted psychiatric clinical practice",
+      "authors": [
+        "Shuyu Liu, Ruoxi Wang, Ling Zhang, Xuequan Zhu, Rui Yang, Xinzhu Zhou, Fei Wu, Zhi Yang, Cheng Jin, Gang Wang"
+      ],
+      "abstract": "arXiv:2503.01903v2 Announce Type: replace \nAbstract: The advent of Large Language Models (LLMs) offers potential solutions to address problems such as shortage of medical resources and low diagnostic consistency in psychiatric clinical practice. Despite this potential, a robust and comprehensive benchmarking framework to assess the efficacy of LLMs in authentic psychiatric clinical environments is absent. This has impeded the advancement of specialized LLMs tailored to psychiatric applications. In response to this gap, by incorporating clinical demands in psychiatry and clinical data, we proposed a benchmarking system, PsychBench, to evaluate the practical performance of LLMs in psychiatric clinical settings. We conducted a comprehensive quantitative evaluation of 16 LLMs using PsychBench, and investigated the impact of prompt design, chain-of-thought reasoning, input text length, and domain-specific knowledge fine-tuning on model performance. Through detailed error analysis, we identified strengths and potential limitations of the existing models and suggested directions for improvement. Subsequently, a clinical reader study involving 60 psychiatrists of varying seniority was conducted to further explore the practical benefits of existing LLMs as supportive tools for psychiatrists of varying seniority. Through the quantitative and reader evaluation, we show that while existing models demonstrate significant potential, they are not yet adequate as decision-making tools in psychiatric clinical practice. The reader study further indicates that, as an auxiliary tool, LLM could provide particularly notable support for junior psychiatrists, effectively enhancing their work efficiency and overall clinical quality. To promote research in this area, we will make the dataset and evaluation framework publicly available, with the hope of advancing the application of LLMs in psychiatric clinical settings.",
+      "url": "https://arxiv.org/abs/2503.01903",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "clinical",
+        "llms",
+        "psychiatric",
+        "psychiatric clinical",
+        "potential",
+        "clinical practice",
+        "comprehensive",
+        "evaluation",
+        "existing",
+        "models"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in the evaluation of LLMs for a sensitive and important domain \u2013 psychiatric clinical practice. The creation of PsychBench is a significant step towards reliable assessment, and the investigation of prompt engineering and fine-tuning is well-motivated. While the abstract doesn't detail the specifics of the benchmark's construction, the focus on clinical demands and data suggests a rigorous approach, and the quantitative evaluation of 16 LLMs is substantial. The error analysis mentioned hints at valuable insights.",
+      "paper_id": "c3ed79e9884c89572f09db24f60832ab"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-19T09:29:30.833104"
 }

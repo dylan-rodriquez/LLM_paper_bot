@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework for Evaluating Gender Diversity in Large Language Models",
+      "authors": [
+        "Zhengyang Shan, Emily Ruth Diana, Jiawei Zhou"
+      ],
+      "abstract": "arXiv:2506.15568v1 Announce Type: new \nAbstract: We present a comprehensive evaluation of gender fairness in large language models (LLMs), focusing on their ability to handle both binary and non-binary genders. While previous studies primarily focus on binary gender distinctions, we introduce the Gender Inclusivity Fairness Index (GIFI), a novel and comprehensive metric that quantifies the diverse gender inclusivity of LLMs. GIFI consists of a wide range of evaluations at different levels, from simply probing the model with respect to provided gender pronouns to testing various aspects of model generation and cognitive behaviors under different gender assumptions, revealing biases associated with varying gender identifiers. We conduct extensive evaluations with GIFI on 22 prominent open-source and proprietary LLMs of varying sizes and capabilities, discovering significant variations in LLMs' gender inclusivity. Our study highlights the importance of improving LLMs' inclusivity, providing a critical benchmark for future advancements in gender fairness in generative models.",
+      "url": "https://arxiv.org/abs/2506.15568",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "gender",
+        "inclusivity",
+        "llms",
+        "fairness",
+        "gender inclusivity",
+        "gifi",
+        "binary",
+        "models",
+        "comprehensive",
+        "different"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely issue \u2013 gender bias in LLMs \u2013 and extends existing work by focusing on non-binary genders. The introduction of the GIFI metric appears to be a robust and multi-faceted approach to evaluating inclusivity. The extensive evaluation across 22 models suggests a rigorous methodology, and the high sentiment score reflects the current research community's focus on fairness and responsible AI.",
+      "paper_id": "1a3a24eee833f97cb2f62392d41ec232"
+    },
+    {
+      "title": "CODESYNC: Synchronizing Large Language Models with Dynamic Code Evolution at Scale",
+      "authors": [
+        "Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, Dongping Chen"
+      ],
+      "abstract": "arXiv:2502.16645v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have exhibited exceptional performance in software engineering yet face challenges in adapting to continually evolving code knowledge, particularly regarding the frequent updates of third-party library APIs. This limitation, stemming from static pre-training datasets, often results in non-executable code or implementations with suboptimal safety and efficiency. To this end, this paper introduces CODESYNC, a data engine for identifying outdated code patterns and collecting real-time code knowledge updates from Python third-party libraries. Building upon CODESYNC, we develop CODESYNCBENCH, a comprehensive benchmark for assessing LLMs' ability to stay synchronized with code evolution, which covers real-world updates for 220 APIs from six Python libraries. Our benchmark offers 3,300 test cases across three evaluation tasks and an update-aware instruction tuning dataset consisting of 2,200 training samples. Extensive experiments on 14 state-of-the-art LLMs reveal that they struggle with dynamic code evolution, even with the support of advanced knowledge updating methods (e.g., DPO, ORPO, and SimPO). We believe that our benchmark can offer a strong foundation for the development of more effective methods for real-time code knowledge updating in the future. The experimental code and dataset are publicly available at: https://github.com/Lucky-voyage/Code-Sync.",
+      "url": "https://arxiv.org/abs/2502.16645",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "code",
+        "knowledge",
+        "benchmark",
+        "code evolution",
+        "code knowledge",
+        "codesync",
+        "evolution",
+        "llms",
+        "real",
+        "updates"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM application to software engineering \u2013 the rapid obsolescence of code knowledge due to API updates. The creation of CODESYNC and CODESYNCBENCH is a strong methodological contribution, providing tools for both identifying outdated information and evaluating LLM performance on evolving APIs. The scale of the benchmark (220 APIs, 3300 test cases) is impressive and suggests a rigorous approach. The high sentiment score reflects the current research focus on LLM reliability and adaptation.",
+      "paper_id": "f392128758b94650d73c6b4508bd4a4e"
+    },
+    {
+      "title": "Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation",
+      "authors": [
+        "Jos\\'e Pombal, Nuno M. Guerreiro, Ricardo Rei, Andr\\'e F. T. Martins"
+      ],
+      "abstract": "arXiv:2503.08327v2 Announce Type: replace \nAbstract: As automatic metrics become increasingly stronger and widely adopted, the risk of unintentionally \"gaming the metric\" during model development rises. This issue is caused by metric interference (MINT), i.e., the use of the same or related metrics for both model tuning and evaluation. MINT can misguide practitioners into being overoptimistic about the performance of their systems: as system outputs become a function of the interfering metric, their estimated quality loses correlation with human judgments. In this work, we analyze two common cases of MINT in machine translation-related tasks: filtering of training data, and decoding with quality signals. Importantly, we find that MINT strongly distorts instance-level metric scores, even when metrics are not directly optimized for-questioning the common strategy of leveraging a different, yet related metric for evaluation that is not used for tuning. To address this problem, we propose MINTADJUST, a method for more reliable evaluation under MINT. On the WMT24 MT shared task test set, MINTADJUST ranks translations and systems more accurately than state-of-the-art metrics across a majority of language pairs, especially for high-quality systems. Furthermore, MINTADJUST outperforms AUTORANK, the ensembling method used by the organizers.",
+      "url": "https://arxiv.org/abs/2503.08327",
+      "published_date": "2025-06-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "metric",
+        "mint",
+        "metrics",
+        "evaluation",
+        "mintadjust",
+        "quality",
+        "related",
+        "systems",
+        "common",
+        "evaluation mint"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and often overlooked problem in machine translation \u2013 metric interference. The analysis of how metrics used for tuning affect evaluation is insightful, and the finding that even *related* metrics distort instance-level scores is significant. While the abstract doesn't detail the proposed solution, the problem definition is strong and suggests a well-motivated approach. The topic is highly relevant to current trends in large language model evaluation.",
+      "paper_id": "95ab8fa8a5531ca54b09cf3343e55655"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-19T09:29:30.831687"
 }

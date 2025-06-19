@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Gender Inclusivity Fairness Index (GIFI): A Multilevel Framework for Evaluating Gender Diversity in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-06-19 | **Authors:** Zhengyang Shan, Emily Ruth Diana, Jiawei Zhou
+
+arXiv:2506.15568v1 Announce Type: new 
+Abstract: We present a comprehensive evaluation of gender fairness in large language models (LLMs), focusing on their ability to handle both binary and non-binar...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.15568) | [📝 Analysis](1a3a24eee833f97cb2f62392d41ec232.md)
+
+---
+
+### CODESYNC: Synchronizing Large Language Models with Dynamic Code Evolution at Scale
+
+**Score:** 90.0 | **Published:** 2025-06-19 | **Authors:** Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, Dongping Chen
+
+arXiv:2502.16645v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) have exhibited exceptional performance in software engineering yet face challenges in adapting to continually evolving...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.16645) | [📝 Analysis](f392128758b94650d73c6b4508bd4a4e.md)
+
+---
+
+### Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation
+
+**Score:** 90.0 | **Published:** 2025-06-19 | **Authors:** Jos\'e Pombal, Nuno M. Guerreiro, Ricardo Rei, Andr\'e F. T. Martins
+
+arXiv:2503.08327v2 Announce Type: replace 
+Abstract: As automatic metrics become increasingly stronger and widely adopted, the risk of unintentionally "gaming the metric" during model development rise...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.08327) | [📝 Analysis](95ab8fa8a5531ca54b09cf3343e55655.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-19 09:29:30 UTC*
