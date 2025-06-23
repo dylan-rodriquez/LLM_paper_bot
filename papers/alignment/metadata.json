@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Fine-Tuning Lowers Safety and Disrupts Evaluation Consistency",
+      "authors": [
+        "Kathleen C. Fraser, Hillary Dawkins, Isar Nejadgholi, Svetlana Kiritchenko"
+      ],
+      "abstract": "arXiv:2506.17209v1 Announce Type: new \nAbstract: Fine-tuning a general-purpose large language model (LLM) for a specific domain or task has become a routine procedure for ordinary users. However, fine-tuning is known to remove the safety alignment features of the model, even when the fine-tuning data does not contain any harmful content. We consider this to be a critical failure mode of LLMs due to the widespread uptake of fine-tuning, combined with the benign nature of the \"attack\". Most well-intentioned developers are likely unaware that they are deploying an LLM with reduced safety. On the other hand, this known vulnerability can be easily exploited by malicious actors intending to bypass safety guardrails. To make any meaningful progress in mitigating this issue, we first need reliable and reproducible safety evaluations. In this work, we investigate how robust a safety benchmark is to trivial variations in the experimental procedure, and the stochastic nature of LLMs. Our initial experiments expose surprising variance in the results of the safety evaluation, even when seemingly inconsequential changes are made to the fine-tuning setup. Our observations have serious implications for how researchers in this field should report results to enable meaningful comparisons in the future.",
+      "url": "https://arxiv.org/abs/2506.17209",
+      "published_date": "2025-06-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "safety",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "evaluation",
+        "known",
+        "llm",
+        "llms",
+        "meaningful",
+        "model"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical and timely issue \u2013 the degradation of safety alignment in LLMs after fine-tuning, a practice becoming increasingly common. The abstract highlights a concerning vulnerability and the need for robust evaluation methods. While the abstract doesn't detail novel *methods* for mitigation, identifying and framing this problem is significant. The potential for malicious exploitation further elevates the importance of this work.",
+      "paper_id": "b057362d3ae5140930de3ca421a2c379"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-23T09:31:18.330369"
 }
