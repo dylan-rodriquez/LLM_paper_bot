@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Multi-use LLM Watermarking and the False Detection Problem
+
+**Score:** 90.0 | **Published:** 2025-06-23 | **Authors:** Zihao Fu, Chris Russell
+
+arXiv:2506.15975v1 Announce Type: cross 
+Abstract: Digital watermarking is a promising solution for mitigating some of the risks arising from the misuse of automatically generated text. These approach...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.15975) | [📝 Analysis](32ea1b8466ab4186c160726389eef282.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-23 09:31:18 UTC*

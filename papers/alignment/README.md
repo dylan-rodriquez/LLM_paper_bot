@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Fine-Tuning Lowers Safety and Disrupts Evaluation Consistency
+
+**Score:** 92.0 | **Published:** 2025-06-23 | **Authors:** Kathleen C. Fraser, Hillary Dawkins, Isar Nejadgholi, Svetlana Kiritchenko
+
+arXiv:2506.17209v1 Announce Type: new 
+Abstract: Fine-tuning a general-purpose large language model (LLM) for a specific domain or task has become a routine procedure for ordinary users. However, fine...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.17209) | [📝 Analysis](b057362d3ae5140930de3ca421a2c379.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-23 09:31:18 UTC*
