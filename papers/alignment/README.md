@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Computational Approaches to Understanding Large Language Model Impact on Writing and Information Ecosystems
+
+**Score:** 92.0 | **Published:** 2025-06-24 | **Authors:** Weixin Liang
+
+arXiv:2506.17467v1 Announce Type: new 
+Abstract: Large language models (LLMs) have shown significant potential to change how we write, communicate, and create, leading to rapid adoption across society...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.17467) | [📝 Analysis](7120995877d96cafca046f4de3b22bb6.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-24 09:30:26 UTC*

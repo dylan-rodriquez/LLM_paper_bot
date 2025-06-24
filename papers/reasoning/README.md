@@ -2,7 +2,40 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### Mental Health Equity in LLMs: Leveraging Multi-Hop Question Answering to Detect Amplified and Silenced Perspectives
+
+**Score:** 92.0 | **Published:** 2025-06-24 | **Authors:** Batool Haider, Atmika Gorti, Aman Chadha, Manas Gaur
+
+arXiv:2506.18116v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) in mental healthcare risk propagating biases that reinforce stigma and harm marginalized groups. While previous research i...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18116) | [📝 Analysis](cc4fd85f6506f509bba76e153ac66926.md)
+
+---
+
+### TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-24 | **Authors:** Ce Li, Xiaofan Liu, Zhiyan Song, Ce Chi, Chen Zhao, Jingjing Yang, Zhendong Wang, Kexin Yang, Boshen Shi, Xing Wang, Chao Deng, Junlan Feng
+
+arXiv:2506.18421v1 Announce Type: new 
+Abstract: The majority of data in businesses and industries is stored in tables, databases, and data warehouses. Reasoning with table-structured data poses signi...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18421) | [📝 Analysis](97d035ea29734f60d080bdea8bf805cc.md)
+
+---
+
+### Beyond Prediction -- Structuring Epistemic Integrity in Artificial Reasoning Systems
+
+**Score:** 92.0 | **Published:** 2025-06-24 | **Authors:** Craig Steven Wright
+
+arXiv:2506.17331v1 Announce Type: cross 
+Abstract: This paper develops a comprehensive framework for artificial intelligence systems that operate under strict epistemic constraints, moving beyond stoc...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.17331) | [📝 Analysis](f6869eebd4c8c2d324b33955a44b9a1f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +181,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-24 09:30:26 UTC*
