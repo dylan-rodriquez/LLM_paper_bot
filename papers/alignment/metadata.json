@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Computational Approaches to Understanding Large Language Model Impact on Writing and Information Ecosystems",
+      "authors": [
+        "Weixin Liang"
+      ],
+      "abstract": "arXiv:2506.17467v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown significant potential to change how we write, communicate, and create, leading to rapid adoption across society. This dissertation examines how individuals and institutions are adapting to and engaging with this emerging technology through three research directions. First, I demonstrate how the institutional adoption of AI detectors introduces systematic biases, particularly disadvantaging writers of non-dominant language varieties, highlighting critical equity concerns in AI governance. Second, I present novel population-level algorithmic approaches that measure the increasing adoption of LLMs across writing domains, revealing consistent patterns of AI-assisted content in academic peer reviews, scientific publications, consumer complaints, corporate communications, job postings, and international organization press releases. Finally, I investigate LLMs' capability to provide feedback on research manuscripts through a large-scale empirical analysis, offering insights into their potential to support researchers who face barriers in accessing timely manuscript feedback, particularly early-career researchers and those from under-resourced settings.",
+      "url": "https://arxiv.org/abs/2506.17467",
+      "published_date": "2025-06-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "adoption",
+        "ai",
+        "language",
+        "large",
+        "llms",
+        "approaches",
+        "feedback",
+        "large language",
+        "particularly",
+        "potential"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This dissertation addresses a highly relevant and timely issue \u2013 the societal impact of LLMs. The research demonstrates a strong methodological approach by investigating biases in AI detection and developing algorithmic methods for tracking LLM adoption across diverse domains. The combination of equity concerns, large-scale analysis, and feedback investigation suggests a well-rounded and impactful study.",
+      "paper_id": "7120995877d96cafca046f4de3b22bb6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-24T09:30:26.604391"
 }

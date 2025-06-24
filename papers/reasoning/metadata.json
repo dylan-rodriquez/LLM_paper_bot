@@ -415,7 +415,103 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Mental Health Equity in LLMs: Leveraging Multi-Hop Question Answering to Detect Amplified and Silenced Perspectives",
+      "authors": [
+        "Batool Haider, Atmika Gorti, Aman Chadha, Manas Gaur"
+      ],
+      "abstract": "arXiv:2506.18116v1 Announce Type: new \nAbstract: Large Language Models (LLMs) in mental healthcare risk propagating biases that reinforce stigma and harm marginalized groups. While previous research identified concerning trends, systematic methods for detecting intersectional biases remain limited. This work introduces a multi-hop question answering (MHQA) framework to explore LLM response biases in mental health discourse. We analyze content from the Interpretable Mental Health Instruction (IMHI) dataset across symptom presentation, coping mechanisms, and treatment approaches. Using systematic tagging across age, race, gender, and socioeconomic status, we investigate bias patterns at demographic intersections. We evaluate four LLMs: Claude 3.5 Sonnet, Jamba 1.6, Gemma 3, and Llama 4, revealing systematic disparities across sentiment, demographics, and mental health conditions. Our MHQA approach demonstrates superior detection compared to conventional methods, identifying amplification points where biases magnify through sequential reasoning. We implement two debiasing techniques: Roleplay Simulation and Explicit Bias Reduction, achieving 66-94% bias reductions through few-shot prompting with BBQ dataset examples. These findings highlight critical areas where LLMs reproduce mental healthcare biases, providing actionable insights for equitable AI development.",
+      "url": "https://arxiv.org/abs/2506.18116",
+      "published_date": "2025-06-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "mental",
+        "biases",
+        "health",
+        "llms",
+        "mental health",
+        "bias",
+        "systematic",
+        "answering",
+        "dataset",
+        "healthcare"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a crucial and timely problem \u2013 bias in LLMs within the sensitive domain of mental healthcare. The introduction of a multi-hop question answering (MHQA) framework for detecting intersectional biases is a strong methodological contribution, and the initial results demonstrating its superiority over conventional methods are promising. The focus on demographic intersections and the use of the IMHI dataset add to the rigor and relevance of the work, suggesting a high likelihood of positive reception within the NLP and mental health communities.",
+      "paper_id": "cc4fd85f6506f509bba76e153ac66926"
+    },
+    {
+      "title": "TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models",
+      "authors": [
+        "Ce Li, Xiaofan Liu, Zhiyan Song, Ce Chi, Chen Zhao, Jingjing Yang, Zhendong Wang, Kexin Yang, Boshen Shi, Xing Wang, Chao Deng, Junlan Feng"
+      ],
+      "abstract": "arXiv:2506.18421v1 Announce Type: new \nAbstract: The majority of data in businesses and industries is stored in tables, databases, and data warehouses. Reasoning with table-structured data poses significant challenges for large language models (LLMs) due to its hidden semantics, inherent complexity, and structured nature. One of these challenges is lacking an effective evaluation benchmark fairly reflecting the performances of LLMs on broad table reasoning abilities. In this paper, we fill in this gap, presenting a comprehensive table reasoning evolution benchmark, TReB, which measures both shallow table understanding abilities and deep table reasoning abilities, a total of 26 sub-tasks. We construct a high quality dataset through an iterative data processing procedure. We create an evaluation framework to robustly measure table reasoning capabilities with three distinct inference modes, TCoT, PoT and ICoT. Further, we benchmark over 20 state-of-the-art LLMs using this frame work and prove its effectiveness. Experimental results reveal that existing LLMs still have significant room for improvement in addressing the complex and real world Table related tasks. Both the dataset and evaluation framework are publicly available, with the dataset hosted on [HuggingFace] and the framework on [GitHub].",
+      "url": "https://arxiv.org/abs/2506.18421",
+      "published_date": "2025-06-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "table",
+        "reasoning",
+        "table reasoning",
+        "benchmark",
+        "data",
+        "llms",
+        "abilities",
+        "dataset",
+        "evaluation",
+        "framework"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the ability to reason with tabular data, which is ubiquitous in real-world applications. The creation of a comprehensive benchmark (TReB) with 26 sub-tasks and a robust evaluation framework (TCoT, PoT, ICoT) demonstrates a strong methodological approach. While the core idea of a table reasoning benchmark isn't entirely novel, the scale and depth of TReB, along with the diverse inference modes, suggest a significant contribution. The benchmarking of 20+ LLMs further strengthens the paper's value.",
+      "paper_id": "97d035ea29734f60d080bdea8bf805cc"
+    },
+    {
+      "title": "Beyond Prediction -- Structuring Epistemic Integrity in Artificial Reasoning Systems",
+      "authors": [
+        "Craig Steven Wright"
+      ],
+      "abstract": "arXiv:2506.17331v1 Announce Type: cross \nAbstract: This paper develops a comprehensive framework for artificial intelligence systems that operate under strict epistemic constraints, moving beyond stochastic language prediction to support structured reasoning, propositional commitment, and contradiction detection. It formalises belief representation, metacognitive processes, and normative verification, integrating symbolic inference, knowledge graphs, and blockchain-based justification to ensure truth-preserving, auditably rational epistemic agents.",
+      "url": "https://arxiv.org/abs/2506.17331",
+      "published_date": "2025-06-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LO"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "epistemic",
+        "artificial",
+        "prediction",
+        "reasoning",
+        "systems",
+        "17331v1",
+        "17331v1 announce",
+        "2506",
+        "2506 17331v1",
+        "abstract"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "The paper tackles a crucial problem in AI \u2013 moving beyond superficial prediction to genuine reasoning and trustworthiness. The integration of symbolic inference, knowledge graphs, and blockchain for justification is a compelling approach. While the abstract doesn't detail *how* these are integrated, the ambition and scope suggest high quality and potential impact. The focus on 'epistemic integrity' is particularly relevant given current concerns about AI reliability and bias.",
+      "paper_id": "f6869eebd4c8c2d324b33955a44b9a1f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-24T09:30:26.605500"
 }
