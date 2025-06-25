@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Evaluating Transparent Reasoning in Large Language Models for Accountable Critical Tasks",
+      "authors": [
+        "Junhao Chen, Bowen Wang, Jiuyang Chang, Yuta Nakashima"
+      ],
+      "abstract": "arXiv:2408.01933v5 Announce Type: replace \nAbstract: This paper introduces REACT, a benchmark designed to rigorously evaluate the reasoning capabilities of large language models (LLMs) within accountable, high-stakes decision-making tasks in medical and legal domains. Unlike traditional benchmarks primarily focused on prediction accuracy, REACT emphasizes transparent and interpretable reasoning, requiring models to align their logic closely with expert-derived procedures. To assess whether LLM reasoning aligns closely with human experts, we annotated 511 clinical cases from the medical domain and 86 legal cases from the legal domain, each enriched with detailed expert-extracted rationales and evidence supporting each step of the reasoning process. These annotations were guided by carefully constructed reasoning graphs, which explicitly encode domain-specific inference structures and decision criteria derived by domain experts. These reasoning graphs serve not only as standards for expert annotation but also as structured guidelines enabling models to reason transparently and step-by-step. To address the scalability challenges of manual annotation, we further developed a semi-automatic annotation pipeline leveraging expert-defined reasoning graph templates to efficiently generate new graphs, exploring the potential to extend our approach into additional critical domains. Experimental results demonstrate that reasoning graphs substantially enhance the interpretability and accuracy of LLM reasoning compared to traditional baselines, although significant gaps remain relative to expert-level reasoning performance.",
+      "url": "https://arxiv.org/abs/2408.01933",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "expert",
+        "domain",
+        "graphs",
+        "models",
+        "annotation",
+        "legal",
+        "reasoning graphs",
+        "step",
+        "accountable"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 moving beyond accuracy to assess *how* models reason, particularly in high-stakes domains. The creation of REACT, with its expert-derived reasoning graphs and annotated cases, is a strong methodological contribution. While the core idea of evaluating reasoning isn't entirely new, the focus on alignment with expert logic and the detailed annotation process represent a significant step forward. The choice of medical and legal domains further enhances the paper's relevance.",
+      "paper_id": "4e4f7d041d16aa2f5e092f346850567c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-25T09:30:53.318234"
 }

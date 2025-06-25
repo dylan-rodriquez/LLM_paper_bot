@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Evaluating Transparent Reasoning in Large Language Models for Accountable Critical Tasks
+
+**Score:** 92.0 | **Published:** 2025-06-25 | **Authors:** Junhao Chen, Bowen Wang, Jiuyang Chang, Yuta Nakashima
+
+arXiv:2408.01933v5 Announce Type: replace 
+Abstract: This paper introduces REACT, a benchmark designed to rigorously evaluate the reasoning capabilities of large language models (LLMs) within accounta...
+
+[📄 Full Paper](https://arxiv.org/abs/2408.01933) | [📝 Analysis](4e4f7d041d16aa2f5e092f346850567c.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-25 09:30:53 UTC*

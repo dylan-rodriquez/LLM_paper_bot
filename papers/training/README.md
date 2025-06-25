@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning
+
+**Score:** 90.0 | **Published:** 2025-06-25 | **Authors:** Jiaxing Guo, Wenjie Yang, Shengzhong Zhang, Tongshan Xu, Lun Du, Da Zheng, Zengfeng Huang
+
+arXiv:2506.06877v2 Announce Type: replace 
+Abstract: Outcome-rewarded Large Language Models (LLMs) have demonstrated remarkable success in mathematical problem-solving. However, this success often mas...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06877) | [📝 Analysis](f16596aa9b2c4ef614d8536ca4c25936.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-25 09:30:53 UTC*

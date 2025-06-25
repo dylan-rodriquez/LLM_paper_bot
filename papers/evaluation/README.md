@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Benchmarking the Pedagogical Knowledge of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-25 | **Authors:** Maxime Leli\`evre, Amy Waldock, Meng Liu, Natalia Vald\'es Aspillaga, Alasdair Mackintosh, Mar\'ia Jos\'e Ogando Portela, Jared Lee, Paul Atherton, Robin A. A. Ince, Oliver G. B. Garrod
+
+arXiv:2506.18710v2 Announce Type: replace 
+Abstract: Benchmarks like Massive Multitask Language Understanding (MMLU) have played a pivotal role in evaluating AI's knowledge and abilities across divers...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18710) | [📝 Analysis](0d5f8d632950cf8066198991e52fafef.md)
+
+---
+
+### MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages
+
+**Score:** 90.0 | **Published:** 2025-06-25 | **Authors:** Wenhan Han, Yifan Zhang, Zhixun Chen, Binbin Liu, Haobin Lin, Bingni Zhang, Taifeng Wang, Mykola Pechenizkiy, Meng Fang, Yin Zheng
+
+arXiv:2506.19468v1 Announce Type: new 
+Abstract: Multilingual large language models (LLMs) are advancing rapidly, with new models frequently claiming support for an increasing number of languages. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.19468) | [📝 Analysis](6068d432d9cd91b1a6f2c0b1ebd23519.md)
+
+---
+
+### TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems
+
+**Score:** 90.0 | **Published:** 2025-06-25 | **Authors:** Christoph Minixhofer, Ondrej Klejch, Peter Bell
+
+arXiv:2506.19441v1 Announce Type: cross 
+Abstract: Evaluation of Text to Speech (TTS) systems is challenging and resource-intensive. Subjective metrics such as Mean Opinion Score (MOS) are not easily ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.19441) | [📝 Analysis](0ba0dabce0bf254d5ae24ff4e88346b4.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-25 09:30:53 UTC*

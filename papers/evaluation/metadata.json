@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Benchmarking the Pedagogical Knowledge of Large Language Models",
+      "authors": [
+        "Maxime Leli\\`evre, Amy Waldock, Meng Liu, Natalia Vald\\'es Aspillaga, Alasdair Mackintosh, Mar\\'ia Jos\\'e Ogando Portela, Jared Lee, Paul Atherton, Robin A. A. Ince, Oliver G. B. Garrod"
+      ],
+      "abstract": "arXiv:2506.18710v2 Announce Type: replace \nAbstract: Benchmarks like Massive Multitask Language Understanding (MMLU) have played a pivotal role in evaluating AI's knowledge and abilities across diverse domains. However, existing benchmarks predominantly focus on content knowledge, leaving a critical gap in assessing models' understanding of pedagogy - the method and practice of teaching. This paper introduces The Pedagogy Benchmark, a novel dataset designed to evaluate large language models on their Cross-Domain Pedagogical Knowledge (CDPK) and Special Education Needs and Disability (SEND) pedagogical knowledge. These benchmarks are built on a carefully curated set of questions sourced from professional development exams for teachers, which cover a range of pedagogical subdomains such as teaching strategies and assessment methods. Here we outline the methodology and development of these benchmarks. We report results for 97 models, with accuracies spanning a range from 28% to 89% on the pedagogical knowledge questions. We consider the relationship between cost and accuracy and chart the progression of the Pareto value frontier over time. We provide online leaderboards at https://rebrand.ly/pedagogy which are updated with new models and allow interactive exploration and filtering based on various model properties, such as cost per token and open-vs-closed weights, as well as looking at performance in different subjects. LLMs and generative AI have tremendous potential to influence education and help to address the global learning crisis. Education-focused benchmarks are crucial to measure models' capacities to understand pedagogical concepts, respond appropriately to learners' needs, and support effective teaching practices across diverse contexts. They are needed for informing the responsible and evidence-based deployment of LLMs and LLM-based tools in educational settings, and for guiding both development and policy decisions.",
+      "url": "https://arxiv.org/abs/2506.18710",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "knowledge",
+        "models",
+        "pedagogical",
+        "benchmarks",
+        "pedagogical knowledge",
+        "based",
+        "development",
+        "education",
+        "language",
+        "pedagogy"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 pedagogical knowledge. The use of professional development exams as a source for benchmark questions is a clever and rigorous approach. While benchmarking itself isn't novel, applying it to pedagogy, especially with a focus on SEND, is a significant contribution, and the reported range of model accuracies suggests the benchmark is challenging and informative. The high sentiment score reflects the current interest in LLMs for education and the need for reliable evaluation metrics.",
+      "paper_id": "0d5f8d632950cf8066198991e52fafef"
+    },
+    {
+      "title": "MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages",
+      "authors": [
+        "Wenhan Han, Yifan Zhang, Zhixun Chen, Binbin Liu, Haobin Lin, Bingni Zhang, Taifeng Wang, Mykola Pechenizkiy, Meng Fang, Yin Zheng"
+      ],
+      "abstract": "arXiv:2506.19468v1 Announce Type: new \nAbstract: Multilingual large language models (LLMs) are advancing rapidly, with new models frequently claiming support for an increasing number of languages. However, existing evaluation datasets are limited and lack cross-lingual alignment, leaving assessments of multilingual capabilities fragmented in both language and skill coverage. To address this, we introduce MuBench, a benchmark covering 61 languages and evaluating a broad range of capabilities. We evaluate several state-of-the-art multilingual LLMs and find notable gaps between claimed and actual language coverage, particularly a persistent performance disparity between English and low-resource languages. Leveraging MuBench's alignment, we propose Multilingual Consistency (MLC) as a complementary metric to accuracy for analyzing performance bottlenecks and guiding model improvement. Finally, we pretrain a suite of 1.2B-parameter models on English and Chinese with 500B tokens, varying language ratios and parallel data proportions to investigate cross-lingual transfer dynamics.",
+      "url": "https://arxiv.org/abs/2506.19468",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "language",
+        "multilingual",
+        "languages",
+        "models",
+        "capabilities",
+        "mubench",
+        "61",
+        "61 languages",
+        "alignment",
+        "coverage"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of comprehensive multilingual benchmarks. The introduction of MuBench, covering 61 languages, and the proposed Multilingual Consistency (MLC) metric are strong contributions. The pretraining experiments further strengthen the work, demonstrating a practical application of the benchmark. The focus on performance disparities between English and low-resource languages is particularly relevant and timely.",
+      "paper_id": "6068d432d9cd91b1a6f2c0b1ebd23519"
+    },
+    {
+      "title": "TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems",
+      "authors": [
+        "Christoph Minixhofer, Ondrej Klejch, Peter Bell"
+      ],
+      "abstract": "arXiv:2506.19441v1 Announce Type: cross \nAbstract: Evaluation of Text to Speech (TTS) systems is challenging and resource-intensive. Subjective metrics such as Mean Opinion Score (MOS) are not easily comparable between works. Objective metrics are frequently used, but rarely validated against subjective ones. Both kinds of metrics are challenged by recent TTS systems capable of producing synthetic speech indistinguishable from real speech. In this work, we introduce Text to Speech Distribution Score 2 (TTSDS2), a more robust and improved version of TTSDS. Across a range of domains and languages, it is the only one out of 16 compared metrics to correlate with a Spearman correlation above 0.50 for every domain and subjective score evaluated. We also release a range of resources for evaluating synthetic speech close to real speech: A dataset with over 11,000 subjective opinion score ratings; a pipeline for continually recreating a multilingual test dataset to avoid data leakage; and a continually updated benchmark for TTS in 14 languages.",
+      "url": "https://arxiv.org/abs/2506.19441",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "speech",
+        "metrics",
+        "score",
+        "subjective",
+        "systems",
+        "text",
+        "text speech",
+        "tts",
+        "benchmark",
+        "continually"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial challenge in TTS research \u2013 reliable evaluation. The claim of a correlation above 0.50 across domains and subjective scores is significant, suggesting a substantial improvement over existing metrics. The release of a large subjective dataset and a pipeline to prevent data leakage further strengthens the work and promotes reproducibility.",
+      "paper_id": "0ba0dabce0bf254d5ae24ff4e88346b4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-06-25T09:30:53.316349"
 }

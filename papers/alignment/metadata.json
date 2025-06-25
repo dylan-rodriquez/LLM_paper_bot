@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "ADVLLM: Iterative Self-Tuning LLMs for Enhanced Jailbreaking Capabilities",
+      "authors": [
+        "Chung-En Sun, Xiaodong Liu, Weiwei Yang, Tsui-Wei Weng, Hao Cheng, Aidan San, Michel Galley, Jianfeng Gao"
+      ],
+      "abstract": "arXiv:2410.18469v4 Announce Type: replace \nAbstract: Recent research has shown that Large Language Models (LLMs) are vulnerable to automated jailbreak attacks, where adversarial suffixes crafted by algorithms appended to harmful queries bypass safety alignment and trigger unintended responses. Current methods for generating these suffixes are computationally expensive and have low Attack Success Rates (ASR), especially against well-aligned models like Llama2 and Llama3. To overcome these limitations, we introduce ADV-LLM, an iterative self-tuning process that crafts adversarial LLMs with enhanced jailbreak ability. Our framework significantly reduces the computational cost of generating adversarial suffixes while achieving nearly 100\\% ASR on various open-source LLMs. Moreover, it exhibits strong attack transferability to closed-source models, achieving 99\\% ASR on GPT-3.5 and 49\\% ASR on GPT-4, despite being optimized solely on Llama3. Beyond improving jailbreak ability, ADV-LLM provides valuable insights for future safety alignment research through its ability to generate large datasets for studying LLM safety.",
+      "url": "https://arxiv.org/abs/2410.18469",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 70,
+      "keywords": [
+        "asr",
+        "llms",
+        "ability",
+        "adversarial",
+        "jailbreak",
+        "llm",
+        "models",
+        "safety",
+        "suffixes",
+        "achieving"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical security concern in LLMs \u2013 jailbreaking \u2013 and proposes a novel, efficient method (ADV-LLM) to generate adversarial suffixes. The reported near-100% ASR on open-source models and strong transferability to closed-source models like GPT-4 are impressive. While the core idea of iterative self-tuning isn't entirely new, the specific implementation and results demonstrate a significant improvement over existing techniques, making it a valuable contribution to the field.",
+      "paper_id": "4c1e55bb5b77f063846b355a635f8c96"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-25T09:30:53.319238"
 }

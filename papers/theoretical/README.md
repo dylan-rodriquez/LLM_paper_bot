@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Detecting Machine-Generated Texts: Not Just "AI vs Humans" and Explainability is Complicated
+
+**Score:** 90.0 | **Published:** 2025-06-25 | **Authors:** Jiazhou Ji, Ruizhe Li, Shujun Li, Jie Guo, Weidong Qiu, Zheng Huang, Chiyu Chen, Xiaoyu Jiang, Xinru Lu
+
+arXiv:2406.18259v2 Announce Type: replace 
+Abstract: As LLMs rapidly advance, increasing concerns arise regarding risks about actual authorship of texts we see online and in real world. The task of di...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.18259) | [📝 Analysis](1efc5b7ae2612e531963760cf59c4da8.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-25 09:30:53 UTC*
