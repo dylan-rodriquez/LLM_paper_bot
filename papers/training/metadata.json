@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning",
+      "authors": [
+        "Jiaxing Guo, Wenjie Yang, Shengzhong Zhang, Tongshan Xu, Lun Du, Da Zheng, Zengfeng Huang"
+      ],
+      "abstract": "arXiv:2506.06877v2 Announce Type: replace \nAbstract: Outcome-rewarded Large Language Models (LLMs) have demonstrated remarkable success in mathematical problem-solving. However, this success often masks a critical issue: models frequently achieve correct answers through fundamentally unsound reasoning processes, a phenomenon indicative of reward hacking. We introduce MathOlympiadEval, a new dataset with fine-grained annotations, which reveals a significant gap between LLMs' answer correctness and their low process correctness. Existing automated methods like LLM-as-a-judge struggle to reliably detect these reasoning flaws. To address this, we propose ParaStepVerifier, a novel methodology for meticulous, step-by-step verification of mathematical solutions. ParaStepVerifier identifies incorrect reasoning steps. Empirical results demonstrate that ParaStepVerifier substantially improves the accuracy of identifying flawed solutions compared to baselines, especially for complex, multi-step problems. This offers a more robust path towards evaluating and training LLMs with genuine mathematical reasoning.",
+      "url": "https://arxiv.org/abs/2506.06877",
+      "published_date": "2025-06-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "mathematical",
+        "parastepverifier",
+        "step",
+        "correctness",
+        "models",
+        "outcome",
+        "solutions",
+        "success"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM development \u2013 the disconnect between correct answers and sound reasoning. The introduction of MathOlympiadEval and ParaStepVerifier appears to be a strong methodological contribution, addressing the limitations of existing evaluation techniques. The focus on step-by-step verification is particularly valuable, and the initial results suggest a significant improvement in identifying flawed solutions, indicating a high potential for positive reception within the community.",
+      "paper_id": "f16596aa9b2c4ef614d8536ca4c25936"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-25T09:30:53.320200"
 }

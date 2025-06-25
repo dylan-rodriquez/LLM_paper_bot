@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 7
+- **Average Significance Score:** 90.6/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,36 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Evaluation (3 new papers)
+- **Benchmarking the Pedagogical Knowledge of Large Language Models** (Score: 92.0)
+  - This paper addresses a crucial gap in LLM evaluation – pedagogical knowledge. The use of professional development exams as a source for benchmark questions is a clever and rigorous approach. While benchmarking itself isn't novel, applying it to pedagogy, especially with a focus on SEND, is a significant contribution, and the reported range of model accuracies suggests the benchmark is challenging and informative. The high sentiment score reflects the current interest in LLMs for education and the need for reliable evaluation metrics.
+- **MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages** (Score: 90.0)
+  - This paper addresses a crucial gap in LLM evaluation – the lack of comprehensive multilingual benchmarks. The introduction of MuBench, covering 61 languages, and the proposed Multilingual Consistency (MLC) metric are strong contributions. The pretraining experiments further strengthen the work, demonstrating a practical application of the benchmark. The focus on performance disparities between English and low-resource languages is particularly relevant and timely.
+- **TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems** (Score: 90.0)
+  - This paper addresses a crucial challenge in TTS research – reliable evaluation. The claim of a correlation above 0.50 across domains and subjective scores is significant, suggesting a substantial improvement over existing metrics. The release of a large subjective dataset and a pipeline to prevent data leakage further strengthens the work and promotes reproducibility.
+
+## Theoretical (1 new papers)
+- **Detecting Machine-Generated Texts: Not Just "AI vs Humans" and Explainability is Complicated** (Score: 90.0)
+  - This paper addresses a highly relevant and timely problem – the detection of machine-generated text – and smartly reframes it beyond a simple binary classification. The introduction of a ternary classification scheme with an 'undecided' category is a valuable contribution, particularly regarding explainability. The focus on explainability for lay users is a strong point, making the research practically relevant and likely to be well-received by the community.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+- **Evaluating Transparent Reasoning in Large Language Models for Accountable Critical Tasks** (Score: 92.0)
+  - This paper addresses a crucial gap in LLM evaluation – moving beyond accuracy to assess *how* models reason, particularly in high-stakes domains. The creation of REACT, with its expert-derived reasoning graphs and annotated cases, is a strong methodological contribution. While the core idea of evaluating reasoning isn't entirely new, the focus on alignment with expert logic and the detailed annotation process represent a significant step forward. The choice of medical and legal domains further enhances the paper's relevance.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Alignment (1 new papers)
+- **ADVLLM: Iterative Self-Tuning LLMs for Enhanced Jailbreaking Capabilities** (Score: 90.0)
+  - This paper addresses a critical security concern in LLMs – jailbreaking – and proposes a novel, efficient method (ADV-LLM) to generate adversarial suffixes. The reported near-100% ASR on open-source models and strong transferability to closed-source models like GPT-4 are impressive. While the core idea of iterative self-tuning isn't entirely new, the specific implementation and results demonstrate a significant improvement over existing techniques, making it a valuable contribution to the field.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Training (1 new papers)
+- **Right Is Not Enough: The Pitfalls of Outcome Supervision in Training LLMs for Math Reasoning** (Score: 90.0)
+  - This paper tackles a crucial problem in LLM development – the disconnect between correct answers and sound reasoning. The introduction of MathOlympiadEval and ParaStepVerifier appears to be a strong methodological contribution, addressing the limitations of existing evaluation techniques. The focus on step-by-step verification is particularly valuable, and the initial results suggest a significant improvement in identifying flawed solutions, indicating a high potential for positive reception within the community.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (3), **Theoretical** (1), **Reasoning** (1), **Alignment** (1), **Training** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

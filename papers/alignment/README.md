@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### ADVLLM: Iterative Self-Tuning LLMs for Enhanced Jailbreaking Capabilities
+
+**Score:** 90.0 | **Published:** 2025-06-25 | **Authors:** Chung-En Sun, Xiaodong Liu, Weiwei Yang, Tsui-Wei Weng, Hao Cheng, Aidan San, Michel Galley, Jianfeng Gao
+
+arXiv:2410.18469v4 Announce Type: replace 
+Abstract: Recent research has shown that Large Language Models (LLMs) are vulnerable to automated jailbreak attacks, where adversarial suffixes crafted by al...
+
+[📄 Full Paper](https://arxiv.org/abs/2410.18469) | [📝 Analysis](4c1e55bb5b77f063846b355a635f8c96.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-25 09:30:53 UTC*
