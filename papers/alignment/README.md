@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Probing AI Safety with Source Code
+
+**Score:** 92.0 | **Published:** 2025-06-26 | **Authors:** Ujwal Narayan, Shreyas Chaudhari, Ashwin Kalyan, Tanmay Rajpurohit, Karthik Narasimhan, Ameet Deshpande, Vishvak Murahari
+
+arXiv:2506.20471v1 Announce Type: new 
+Abstract: Large language models (LLMs) have become ubiquitous, interfacing with humans in numerous safety-critical applications. This necessitates improving capa...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20471) | [📝 Analysis](854df0891610f254bfbadfc220f622dd.md)
+
+---
+
+### Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
+
+**Score:** 92.0 | **Published:** 2025-06-26 | **Authors:** Baixiang Huang, Zhen Tan, Haoran Wang, Zijie Liu, Dawei Li, Ali Payani, Huan Liu, Tianlong Chen, Kai Shu
+
+arXiv:2506.20606v1 Announce Type: new 
+Abstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20606) | [📝 Analysis](81ab7ef29e0865b60a0337636b69a4a9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-26 09:29:52 UTC*
