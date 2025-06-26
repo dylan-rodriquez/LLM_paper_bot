@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Probing AI Safety with Source Code",
+      "authors": [
+        "Ujwal Narayan, Shreyas Chaudhari, Ashwin Kalyan, Tanmay Rajpurohit, Karthik Narasimhan, Ameet Deshpande, Vishvak Murahari"
+      ],
+      "abstract": "arXiv:2506.20471v1 Announce Type: new \nAbstract: Large language models (LLMs) have become ubiquitous, interfacing with humans in numerous safety-critical applications. This necessitates improving capabilities, but importantly coupled with greater safety measures to align these models with human values and preferences. In this work, we demonstrate that contemporary models fall concerningly short of the goal of AI safety, leading to an unsafe and harmful experience for users. We introduce a prompting strategy called Code of Thought (CoDoT) to evaluate the safety of LLMs. CoDoT converts natural language inputs to simple code that represents the same intent. For instance, CoDoT transforms the natural language prompt \"Make the statement more toxic: {text}\" to: \"make_more_toxic({text})\". We show that CoDoT results in a consistent failure of a wide range of state-of-the-art LLMs. For example, GPT-4 Turbo's toxicity increases 16.5 times, DeepSeek R1 fails 100% of the time, and toxicity increases 300% on average across seven modern LLMs. Additionally, recursively applying CoDoT can further increase toxicity two times. Given the rapid and widespread adoption of LLMs, CoDoT underscores the critical need to evaluate safety efforts from first principles, ensuring that safety and capabilities advance together.",
+      "url": "https://arxiv.org/abs/2506.20471",
+      "published_date": "2025-06-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "codot",
+        "llms",
+        "code",
+        "language",
+        "models",
+        "toxicity",
+        "ai",
+        "ai safety",
+        "capabilities"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in AI safety \u2013 the vulnerability of LLMs to generating harmful content. The 'Code of Thought' (CoDoT) prompting strategy is a clever and relatively simple approach to expose these weaknesses, and the reported results (e.g., 16.5x toxicity increase in GPT-4 Turbo) are concerning. While the core idea isn't entirely novel (prompt engineering for safety), the specific method of converting prompts to code and the scale of the failures demonstrated suggest a strong contribution. The work is well-aligned with current research trends in AI alignment and safety.",
+      "paper_id": "854df0891610f254bfbadfc220f622dd"
+    },
+    {
+      "title": "Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm",
+      "authors": [
+        "Baixiang Huang, Zhen Tan, Haoran Wang, Zijie Liu, Dawei Li, Ali Payani, Huan Liu, Tianlong Chen, Kai Shu"
+      ],
+      "abstract": "arXiv:2506.20606v1 Announce Type: new \nAbstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes domains comes with significant safety and ethical risks. Unethical behavior by these agents can directly result in serious real-world consequences, including physical harm and financial loss. To efficiently steer the ethical behavior of agents, we frame agent behavior steering as a model editing task, which we term Behavior Editing. Model editing is an emerging area of research that enables precise and efficient modifications to LLMs while preserving their overall capabilities. To systematically study and evaluate this approach, we introduce BehaviorBench, a multi-tier benchmark grounded in psychological moral theories. This benchmark supports both the evaluation and editing of agent behaviors across a variety of scenarios, with each tier introducing more complex and ambiguous scenarios. We first demonstrate that Behavior Editing can dynamically steer agents toward the target behavior within specific scenarios. Moreover, Behavior Editing enables not only scenario-specific local adjustments but also more extensive shifts in an agent's global moral alignment. We demonstrate that Behavior Editing can be used to promote ethical and benevolent behavior or, conversely, to induce harmful or malicious behavior. Through comprehensive evaluations on agents based on frontier LLMs, BehaviorBench shows the effectiveness of Behavior Editing across different models and scenarios. Our findings offer key insights into a new paradigm for steering agent behavior, highlighting both the promise and perils of Behavior Editing.",
+      "url": "https://arxiv.org/abs/2506.20606",
+      "published_date": "2025-06-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "behavior",
+        "editing",
+        "agents",
+        "behavior editing",
+        "agent",
+        "ethical",
+        "scenarios",
+        "based",
+        "llms",
+        "model"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 ethical behavior \u2013 and proposes a promising approach using model editing. Framing ethical steering as a model editing task is a clever idea, and the introduction of BehaviorBench suggests a rigorous evaluation methodology. The grounding in psychological moral theories adds depth and credibility, indicating a well-thought-out research direction.",
+      "paper_id": "81ab7ef29e0865b60a0337636b69a4a9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-26T09:29:52.346464"
 }

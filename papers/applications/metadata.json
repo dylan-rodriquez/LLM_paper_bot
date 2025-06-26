@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "An Agentic System for Rare Disease Diagnosis with Traceable Reasoning",
+      "authors": [
+        "Weike Zhao, Chaoyi Wu, Yanjie Fan, Xiaoman Zhang, Pengcheng Qiu, Yuze Sun, Xiao Zhou, Yanfeng Wang, Ya Zhang, Yongguo Yu, Kun Sun, Weidi Xie"
+      ],
+      "abstract": "arXiv:2506.20430v1 Announce Type: new \nAbstract: Rare diseases collectively affect over 300 million individuals worldwide, yet timely and accurate diagnosis remains a pervasive challenge. This is largely due to their clinical heterogeneity, low individual prevalence, and the limited familiarity most clinicians have with rare conditions. Here, we introduce DeepRare, the first rare disease diagnosis agentic system powered by a large language model (LLM), capable of processing heterogeneous clinical inputs. The system generates ranked diagnostic hypotheses for rare diseases, each accompanied by a transparent chain of reasoning that links intermediate analytic steps to verifiable medical evidence.\n  DeepRare comprises three key components: a central host with a long-term memory module; specialized agent servers responsible for domain-specific analytical tasks integrating over 40 specialized tools and web-scale, up-to-date medical knowledge sources, ensuring access to the most current clinical information. This modular and scalable design enables complex diagnostic reasoning while maintaining traceability and adaptability. We evaluate DeepRare on eight datasets. The system demonstrates exceptional diagnostic performance among 2,919 diseases, achieving 100% accuracy for 1013 diseases. In HPO-based evaluations, DeepRare significantly outperforms other 15 methods, like traditional bioinformatics diagnostic tools, LLMs, and other agentic systems, achieving an average Recall@1 score of 57.18% and surpassing the second-best method (Reasoning LLM) by a substantial margin of 23.79 percentage points. For multi-modal input scenarios, DeepRare achieves 70.60% at Recall@1 compared to Exomiser's 53.20% in 109 cases. Manual verification of reasoning chains by clinical experts achieves 95.40% agreements. Furthermore, the DeepRare system has been implemented as a user-friendly web application http://raredx.cn/doctor.",
+      "url": "https://arxiv.org/abs/2506.20430",
+      "published_date": "2025-06-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "deeprare",
+        "rare",
+        "reasoning",
+        "clinical",
+        "diagnostic",
+        "diseases",
+        "agentic",
+        "diagnosis",
+        "40",
+        "achieves"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant problem \u2013 rare disease diagnosis \u2013 with a novel approach leveraging LLMs in an 'agentic' system. The emphasis on traceable reasoning is particularly strong, addressing a key concern with LLM applications in healthcare. While the abstract doesn't detail the specifics of the 40+ tools, the integration of current medical knowledge and the agent-based architecture suggest a well-considered methodology.",
+      "paper_id": "1fa099d527a9f79b7e638354ee5cac4f"
+    },
+    {
+      "title": "AI Copilots for Reproducibility in Science: A Case Study",
+      "authors": [
+        "Adrien Bibal, Steven N. Minton, Deborah Khider, Yolanda Gil"
+      ],
+      "abstract": "arXiv:2506.20130v1 Announce Type: new \nAbstract: Open science initiatives seek to make research outputs more transparent, accessible, and reusable, but ensuring that published findings can be independently reproduced remains a persistent challenge. This paper introduces OpenPub, an AI-powered platform that supports researchers, reviewers, and readers through a suite of modular copilots focused on key open science tasks. In this work, we present the Reproducibility Copilot, which analyzes manuscripts, code, and supplementary materials to generate structured Jupyter Notebooks and recommendations aimed at facilitating computational, or \"rote\", reproducibility. We conducted feasibility tests using previously studied research papers with known reproducibility benchmarks. Results indicate that OpenPub can substantially reduce reproduction time - from over 30 hours to about 1 hour - while achieving high coverage of figures, tables, and results suitable for computational reproduction. The system systematically detects barriers to reproducibility, including missing hyperparameters, undocumented preprocessing steps, and incomplete or inaccessible datasets. These findings suggest that AI-driven tools can meaningfully reduce the burden of reproducibility efforts and contribute to more transparent and verifiable scientific communication. The modular copilot architecture also provides a foundation for extending AI assistance to additional open science objectives beyond reproducibility.",
+      "url": "https://arxiv.org/abs/2506.20130",
+      "published_date": "2025-06-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "reproducibility",
+        "ai",
+        "science",
+        "open",
+        "open science",
+        "computational",
+        "copilot",
+        "copilots",
+        "findings",
+        "modular"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial problem in scientific research \u2013 reproducibility \u2013 and proposes a practical AI-driven solution. The reported reduction in reproduction time (30+ hours to 1 hour) is substantial and suggests a well-implemented system. While the use of AI copilots isn't entirely novel, applying it specifically to reproducibility with a focus on generating executable notebooks is a strong contribution, and the feasibility tests with benchmarks add rigor.",
+      "paper_id": "3d5324f35ced9a0c3cfad42a45003c0b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-06-26T09:29:52.345323"
 }
