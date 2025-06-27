@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Beyond Reactive Safety: Risk-Aware LLM Alignment via Long-Horizon Simulation
+
+**Score:** 92.0 | **Published:** 2025-06-27 | **Authors:** Chenkai Sun, Denghui Zhang, ChengXiang Zhai, Heng Ji
+
+arXiv:2506.20949v1 Announce Type: cross 
+Abstract: Given the growing influence of language model-based agents on high-stakes societal decisions, from public policy to healthcare, ensuring their benefi...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20949) | [📝 Analysis](a0d16d3c30b05656c56451ca1e424b5e.md)
+
+---
+
+### The Singapore Consensus on Global AI Safety Research Priorities
+
+**Score:** 92.0 | **Published:** 2025-06-27 | **Authors:** Yoshua Bengio, Tegan Maharaj, Luke Ong, Stuart Russell, Dawn Song, Max Tegmark, Lan Xue, Ya-Qin Zhang, Stephen Casper, Wan Sie Lee, S\"oren Mindermann, Vanessa Wilfred, Vidhisha Balachandran, Fazl Barez, Michael Belinsky, Imane Bello, Malo Bourgon, Mark Brakel, Sim\'eon Campos, Duncan Cass-Beggs, Jiahao Chen, Rumman Chowdhury, Kuan Chua Seah, Jeff Clune, Juntao Dai, Agnes Delaborde, Nouha Dziri, Francisco Eiras, Joshua Engels, Jinyu Fan, Adam Gleave, Noah Goodman, Fynn Heide, Dan Hendrycks, Cyrus Hodes, Bryan Low Kian Hsiang, Minlie Huang, Sami Jawhar, Wang Jingyu, Adam Tauman Kalai, Meindert Kamphuis, Mohan Kankanhalli, Subhash Kantamneni, Mathias Bonde Kirk, Thomas Kwa, Jeffrey Ladish, Kwok-Yan Lam, Wan Lee Sie, Taewhi Lee, Xiaojian Li, Jiajun Liu, Chaochao Lu, Yifan Mai, Richard Mallah, Julian Michael, Nick Mo\"es, Simon M\"oller, Kihyuk Nam, Kwan Yee Ng, Mark Nitzberg, Besmira Nushi, Se\'an O h\'Eigeartaigh, Alejandro Ortega, Pierre Peign\'e, James Petrie, Benjamin Prud'Homme, Reihaneh Rabbany, Nayat Sanchez-Pi, Sarah Schwettmann, Buck Shlegeris, Saad Siddiqui, Aradhana Sinha, Mart\'in Soto, Cheston Tan, Dong Ting, Robert Trager, Brian Tse, Anthony Tung K. H., Vanessa Wilfred, John Willes, Denise Wong, Wei Xu, Rongwu Xu, Yi Zeng, HongJiang Zhang, Djordje \v{Z}ikeli\'c
+
+arXiv:2506.20702v1 Announce Type: new 
+Abstract: Rapidly improving AI capabilities and autonomy hold significant promise of transformation, but are also driving vigorous debate on how to ensure that A...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20702) | [📝 Analysis](7da639c00d377b32f3078845b378b70a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-27 09:29:12 UTC*

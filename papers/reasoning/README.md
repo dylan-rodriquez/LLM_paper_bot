@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Potemkin Understanding in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-27 | **Authors:** Marina Mancoridis, Bec Weeks, Keyon Vafa, Sendhil Mullainathan
+
+arXiv:2506.21521v1 Announce Type: new 
+Abstract: Large language models (LLMs) are regularly evaluated using benchmark datasets. But what justifies making inferences about an LLM's capabilities based o...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21521) | [📝 Analysis](f33f48447ae1e45e83eb2deec487769d.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-27 09:29:12 UTC*

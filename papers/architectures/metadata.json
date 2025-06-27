@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Latent Prototype Routing: Achieving Near-Perfect Load Balancing in Mixture-of-Experts",
+      "authors": [
+        "Jiajie Yang"
+      ],
+      "abstract": "arXiv:2506.21328v1 Announce Type: cross \nAbstract: Mixture-of-Experts (MoE) architectures have emerged as a key strategy for scaling large language models (LLMs) efficiently. However, current MoE systems suffer from severe load imbalance, where only a small subset of experts is consistently activated during training and inference, leading to significant underutilization of model capacity and computational resources. In this work, we revisit expert routing through a clustering perspective and propose Latent Prototype Routing (LPR), a novel routing framework that generalizes existing approaches while promoting balanced expert utilization without compromising downstream performance. Extensive experiments across multiple open-source MoE models -- including DeepSeek-V3, Qwen3-MoE, and Mixtral -- demonstrate that LPR reduces the Gini coefficient of expert load from 0.70 to 0.035 on average, improves the min-max expert load ratio from 1e-6 to 0.70, achieving near-perfect load balancing.",
+      "url": "https://arxiv.org/abs/2506.21328",
+      "published_date": "2025-06-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "load",
+        "expert",
+        "moe",
+        "routing",
+        "experts",
+        "70",
+        "achieving",
+        "achieving near",
+        "balancing",
+        "expert load"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical bottleneck in MoE models \u2013 load imbalance \u2013 with a novel approach, Latent Prototype Routing (LPR). The reported improvements in Gini coefficient and min-max expert load ratio are substantial, suggesting a significant advancement over existing methods. The evaluation across multiple prominent MoE models strengthens the validity of the findings, and the clear problem statement and results indicate a high-quality research effort.",
+      "paper_id": "7a672034fb1d9432a3aa7d8d546df93d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-06-27T09:29:12.732015"
 }

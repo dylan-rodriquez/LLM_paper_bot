@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey
+
+**Score:** 92.0 | **Published:** 2025-06-27 | **Authors:** Henry Peng Zou, Wei-Chieh Huang, Yaozu Wu, Yankai Chen, Chunyu Miao, Hoang Nguyen, Yue Zhou, Weizhi Zhang, Liancheng Fang, Langzhou He, Yangning Li, Dongyuan Li, Renhe Jiang, Xue Liu, Philip S. Yu
+
+arXiv:2505.00753v4 Announce Type: replace 
+Abstract: Recent advances in large language models (LLMs) have sparked growing interest in building fully autonomous agents. However, fully autonomous LLM-ba...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.00753) | [📝 Analysis](e5c5a27fa6d3ce9e36d3fdbb22d66355.md)
+
+---
+
+### From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents
+
+**Score:** 90.0 | **Published:** 2025-06-27 | **Authors:** Weizhi Zhang, Yangning Li, Yuanchen Bei, Junyu Luo, Guancheng Wan, Liangwei Yang, Chenxuan Xie, Yuyao Yang, Wei-Chieh Huang, Chunyu Miao, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Yankai Chen, Chunkit Chan, Peilin Zhou, Xinyang Zhang, Chenwei Zhang, Jingbo Shang, Ming Zhang, Yangqiu Song, Irwin King, Philip S. Yu
+
+arXiv:2506.18959v2 Announce Type: replace-cross 
+Abstract: Information retrieval is a cornerstone of modern knowledge acquisition, enabling billions of queries each day across diverse domains. However...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18959) | [📝 Analysis](c90f2b306aa29f4738aa6100a9a346d7.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-27 09:29:12 UTC*

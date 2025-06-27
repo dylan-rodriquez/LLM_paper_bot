@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Potemkin Understanding in Large Language Models",
+      "authors": [
+        "Marina Mancoridis, Bec Weeks, Keyon Vafa, Sendhil Mullainathan"
+      ],
+      "abstract": "arXiv:2506.21521v1 Announce Type: new \nAbstract: Large language models (LLMs) are regularly evaluated using benchmark datasets. But what justifies making inferences about an LLM's capabilities based on its answers to a curated set of questions? This paper first introduces a formal framework to address this question. The key is to note that the benchmarks used to test LLMs -- such as AP exams -- are also those used to test people. However, this raises an implication: these benchmarks are only valid tests if LLMs misunderstand concepts in ways that mirror human misunderstandings. Otherwise, success on benchmarks only demonstrates potemkin understanding: the illusion of understanding driven by answers irreconcilable with how any human would interpret a concept. We present two procedures for quantifying the existence of potemkins: one using a specially designed benchmark in three domains, the other using a general procedure that provides a lower-bound on their prevalence. We find that potemkins are ubiquitous across models, tasks, and domains. We also find that these failures reflect not just incorrect understanding, but deeper internal incoherence in concept representations.",
+      "url": "https://arxiv.org/abs/2506.21521",
+      "published_date": "2025-06-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "understanding",
+        "benchmarks",
+        "llms",
+        "models",
+        "using",
+        "answers",
+        "benchmark",
+        "concept",
+        "domains",
+        "human"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial issue in LLM evaluation \u2013 the potential for 'Potemkin understanding,' where models perform well on benchmarks without genuine comprehension. The formalization of this concept and the proposed methods for quantifying it are strong contributions. The problem is highly relevant given the increasing reliance on benchmarks, and the potential impact on how we interpret LLM capabilities is significant. The novelty lies in framing the issue and proposing concrete quantification procedures, though the methods themselves build on existing benchmarking techniques.",
+      "paper_id": "f33f48447ae1e45e83eb2deec487769d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-27T09:29:12.729987"
 }

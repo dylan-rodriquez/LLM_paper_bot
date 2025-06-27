@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training
+
+**Score:** 92.0 | **Published:** 2025-06-27 | **Authors:** Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, Christopher A. Choquette-Choo
+
+arXiv:2502.15680v2 Announce Type: replace 
+Abstract: Due to the sensitive nature of personally identifiable information (PII), its owners may have the authority to control its inclusion or request its...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.15680) | [📝 Analysis](670f2945375cd1115253e4f710cda569.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-27 09:29:12 UTC*
