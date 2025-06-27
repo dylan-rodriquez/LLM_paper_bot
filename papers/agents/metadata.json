@@ -191,7 +191,71 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey",
+      "authors": [
+        "Henry Peng Zou, Wei-Chieh Huang, Yaozu Wu, Yankai Chen, Chunyu Miao, Hoang Nguyen, Yue Zhou, Weizhi Zhang, Liancheng Fang, Langzhou He, Yangning Li, Dongyuan Li, Renhe Jiang, Xue Liu, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2505.00753v4 Announce Type: replace \nAbstract: Recent advances in large language models (LLMs) have sparked growing interest in building fully autonomous agents. However, fully autonomous LLM-based agents still face significant challenges, including limited reliability due to hallucinations, difficulty in handling complex tasks, and substantial safety and ethical risks, all of which limit their feasibility and trustworthiness in real-world applications. To overcome these limitations, LLM-based human-agent systems (LLM-HAS) incorporate human-provided information, feedback, or control into the agent system to enhance system performance, reliability and safety. These human-agent collaboration systems enable humans and LLM-based agents to collaborate effectively by leveraging their complementary strengths. This paper provides the first comprehensive and structured survey of LLM-HAS. It clarifies fundamental concepts, systematically presents core components shaping these systems, including environment & profiling, human feedback, interaction types, orchestration and communication, explores emerging applications, and discusses unique challenges and opportunities arising from human-AI collaboration. By consolidating current knowledge and offering a structured overview, we aim to foster further research and innovation in this rapidly evolving interdisciplinary field. Paper lists and resources are available at https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems.",
+      "url": "https://arxiv.org/abs/2505.00753",
+      "published_date": "2025-06-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "human",
+        "llm",
+        "agent",
+        "systems",
+        "based",
+        "collaboration",
+        "human agent",
+        "llm based",
+        "agent collaboration",
+        "agents"
+      ],
+      "subject_classification": "agents",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 the intersection of LLMs and human-agent collaboration. The abstract clearly articulates the limitations of fully autonomous agents and positions LLM-HAS as a promising solution. While a survey isn't inherently innovative, a *comprehensive and structured* survey, as claimed, is valuable, especially in a rapidly evolving field. The potential for real-world impact is high, given the need for reliable and safe AI systems.",
+      "paper_id": "e5c5a27fa6d3ce9e36d3fdbb22d66355"
+    },
+    {
+      "title": "From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents",
+      "authors": [
+        "Weizhi Zhang, Yangning Li, Yuanchen Bei, Junyu Luo, Guancheng Wan, Liangwei Yang, Chenxuan Xie, Yuyao Yang, Wei-Chieh Huang, Chunyu Miao, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Yankai Chen, Chunkit Chan, Peilin Zhou, Xinyang Zhang, Chenwei Zhang, Jingbo Shang, Ming Zhang, Yangqiu Song, Irwin King, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2506.18959v2 Announce Type: replace-cross \nAbstract: Information retrieval is a cornerstone of modern knowledge acquisition, enabling billions of queries each day across diverse domains. However, traditional keyword-based search engines are increasingly inadequate for handling complex, multi-step information needs. Our position is that Large Language Models (LLMs), endowed with reasoning and agentic capabilities, are ushering in a new paradigm termed Agentic Deep Research. These systems transcend conventional information search techniques by tightly integrating autonomous reasoning, iterative retrieval, and information synthesis into a dynamic feedback loop. We trace the evolution from static web search to interactive, agent-based systems that plan, explore, and learn. We also introduce a test-time scaling law to formalize the impact of computational depth on reasoning and search. Supported by benchmark results and the rise of open-source implementations, we demonstrate that Agentic Deep Research not only significantly outperforms existing approaches, but is also poised to become the dominant paradigm for future information seeking. All the related resources, including industry products, research papers, benchmark datasets, and open-source implementations, are collected for the community in https://github.com/DavidZWZ/Awesome-Deep-Research.",
+      "url": "https://arxiv.org/abs/2506.18959",
+      "published_date": "2025-06-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "search",
+        "information",
+        "research",
+        "agentic",
+        "deep",
+        "deep research",
+        "reasoning",
+        "agentic deep",
+        "based",
+        "benchmark"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a highly relevant and increasingly important problem \u2013 the limitations of traditional search in the age of complex information needs. The framing of 'Agentic Deep Research' is compelling and positions LLMs as a natural evolution of search technology. The mention of a test-time scaling law suggests a rigorous approach, and the support from open-source implementations is a positive indicator. The high sentiment score reflects the current excitement around agent-based systems and LLMs.",
+      "paper_id": "c90f2b306aa29f4738aa6100a9a346d7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-06-27T09:29:12.736846"
 }

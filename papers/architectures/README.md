@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Latent Prototype Routing: Achieving Near-Perfect Load Balancing in Mixture-of-Experts
+
+**Score:** 90.0 | **Published:** 2025-06-27 | **Authors:** Jiajie Yang
+
+arXiv:2506.21328v1 Announce Type: cross 
+Abstract: Mixture-of-Experts (MoE) architectures have emerged as a key strategy for scaling large language models (LLMs) efficiently. However, current MoE syst...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21328) | [📝 Analysis](7a672034fb1d9432a3aa7d8d546df93d.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-27 09:29:12 UTC*

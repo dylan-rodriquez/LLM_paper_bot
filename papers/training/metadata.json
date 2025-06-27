@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training",
+      "authors": [
+        "Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, Christopher A. Choquette-Choo"
+      ],
+      "abstract": "arXiv:2502.15680v2 Announce Type: replace \nAbstract: Due to the sensitive nature of personally identifiable information (PII), its owners may have the authority to control its inclusion or request its removal from large-language model (LLM) training. Beyond this, PII may be added or removed from training datasets due to evolving dataset curation techniques, because they were newly scraped for retraining, or because they were included in a new downstream fine-tuning stage. We find that the amount and ease of PII memorization is a dynamic property of a model that evolves throughout training pipelines and depends on commonly altered design choices. We characterize three such novel phenomena: (1) similar-appearing PII seen later in training can elicit memorization of earlier-seen sequences in what we call assisted memorization, and this is a significant factor (in our settings, up to 1/3); (2) adding PII can increase memorization of other PII significantly (in our settings, as much as $\\approx\\!7.5\\times$); and (3) removing PII can lead to other PII being memorized. Model creators should consider these first- and second-order privacy risks when training models to avoid the risk of new PII regurgitation.",
+      "url": "https://arxiv.org/abs/2502.15680",
+      "published_date": "2025-06-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "pii",
+        "training",
+        "memorization",
+        "model",
+        "adding",
+        "information",
+        "language",
+        "language model",
+        "new",
+        "privacy"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and timely problem in LLMs \u2013 the dynamic nature of PII memorization. The identified phenomena of 'assisted memorization' and the impact of adding PII are novel and well-articulated in the abstract. The research appears rigorous, and the potential for influencing dataset curation and model safety practices is high, suggesting a positive reception within the community.",
+      "paper_id": "670f2945375cd1115253e4f710cda569"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-27T09:29:12.734524"
 }
