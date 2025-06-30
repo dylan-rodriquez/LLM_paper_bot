@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Reasoning Isn't Enough: Examining Truth-Bias and Sycophancy in LLMs
+
+**Score:** 92.0 | **Published:** 2025-06-30 | **Authors:** Emilio Barkett, Olivia Long, Madhavendra Thakur
+
+arXiv:2506.21561v1 Announce Type: new 
+Abstract: Despite their widespread use in fact-checking, moderation, and high-stakes decision-making, large language models (LLMs) remain poorly understood as ju...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21561) | [📝 Analysis](391fa52a6edb9bccd62097bb179e4099.md)
+
+---
+
+### HealthQA-BR: A System-Wide Benchmark Reveals Critical Knowledge Gaps in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-30 | **Authors:** Andrew Maranh\~ao Ventura D'addario
+
+arXiv:2506.21578v1 Announce Type: new 
+Abstract: The evaluation of Large Language Models (LLMs) in healthcare has been dominated by physician-centric, English-language benchmarks, creating a dangerous...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21578) | [📝 Analysis](ce98cc5d9bb4c6d0a45daf2535e10e76.md)
+
+---
+
+### LastingBench: Defend Benchmarks Against Knowledge Leakage
+
+**Score:** 90.0 | **Published:** 2025-06-30 | **Authors:** Yixiong Fang, Tianran Sun, Yuling Shi, Min Wang, Xiaodong Gu
+
+arXiv:2506.21614v1 Announce Type: new 
+Abstract: The increasing complexity of large language models (LLMs) raises concerns about their ability to "cheat" on standard Question Answering (QA) benchmarks...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21614) | [📝 Analysis](32530cba15124986968a006f8a3bbe4a.md)
+
+---
+
+### WildSpeech-Bench: Benchmarking Audio LLMs in Natural Speech Conversation
+
+**Score:** 90.0 | **Published:** 2025-06-30 | **Authors:** Jian Zhang, Linhao Zhang, Bokai Lei, Chuhan Wu, Wei Jia, Xiao Zhou
+
+arXiv:2506.21875v1 Announce Type: new 
+Abstract: Recent multi-modal Large Language Models (LLMs) such as GPT-4o have demonstrated strong capabilities of direct speech interaction. However, the lack of...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21875) | [📝 Analysis](f548e1a93bb2b6a81acc14ca0d0d8937.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-30 09:31:23 UTC*

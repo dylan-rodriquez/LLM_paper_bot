@@ -159,7 +159,39 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "QuickSilver -- Speeding up LLM Inference through Dynamic Token Halting, KV Skipping, Contextual Token Fusion, and Adaptive Matryoshka Quantization",
+      "authors": [
+        "Danush Khanna, Aditya Kumar Guru, Srivarshinee Sridhar, Zidan Ahmed, Rubhav Bahirwani, Meetu Malhotra, Vinija Jain, Aman Chadha, Amitava Das, Kripabandhu Ghosh"
+      ],
+      "abstract": "arXiv:2506.22396v1 Announce Type: new \nAbstract: Inference accounts for the majority of latency and energy consumption in large language model (LLM) deployments, often exceeding 90% of total cost. While training-time efficiency has seen extensive progress, runtime optimization remains a key bottleneck, particularly under autoregressive decoding. Existing approaches -- such as pruning, quantization, early exits, and speculative decoding -- often require retraining, architectural changes, or disrupt decoding compatibility. We introduce QuickSilver, a modular, token-level framework that enables semantic adaptivity at inference time without altering model weights or structure. QuickSilver integrates four synergistic mechanisms:\n  (i) Dynamic Token Halting, which halts computation for tokens with converged representations; (ii) KV Cache Skipping, which selectively suppresses memory writes to reduce attention overhead; and (iii) Contextual Token Fusion, which collapses redundant tokens into shared paths to shrink sequence length.\n  Unlike speculative decoding or MoE routing, QuickSilver operates entirely on frozen, dense models and requires no auxiliary networks. Applied to GPT-2 and Llama-2 across WikiText-103 and C4, QuickSilver achieves up to 39.6% FLOP reduction with negligible perplexity degradation (<=0.2).",
+      "url": "https://arxiv.org/abs/2506.22396",
+      "published_date": "2025-06-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "quicksilver",
+        "token",
+        "decoding",
+        "inference",
+        "contextual",
+        "contextual token",
+        "dynamic",
+        "dynamic token",
+        "fusion",
+        "halting"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a crucial bottleneck in LLM deployment \u2013 inference cost. The modular approach, avoiding retraining or architectural changes, is a significant strength. The combination of four synergistic mechanisms suggests a well-thought-out strategy, though the abstract lacks detail on the 'Contextual Token Fusion' and 'Adaptive Matryoshka Quantization' components, making a full assessment difficult without the full paper. The problem is highly relevant and the potential for impact is substantial.",
+      "paper_id": "11c8fec7f08b8ff3cb6907de6ee1c032"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2025-06-30T09:31:23.202549"
 }

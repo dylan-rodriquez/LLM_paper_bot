@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "ChildGuard: A Specialized Dataset for Combatting Child-Targeted Hate Speech",
+      "authors": [
+        "Gautam Siddharth Kashyap, Mohammad Anas Azeez, Rafiq Ali, Zohaib Hasan Siddiqui, Jiechao Gao, Usman Naseem"
+      ],
+      "abstract": "arXiv:2506.21613v1 Announce Type: new \nAbstract: The increasing prevalence of child-targeted hate speech online underscores the urgent need for specialized datasets to address this critical issue. Existing hate speech datasets lack agespecific annotations, fail to capture nuanced contexts, and overlook the unique emotional impact on children. To bridge this gap, we introduce ChildGuard1, a curated dataset derived from existing corpora and enriched with child-specific annotations. ChildGuard captures diverse contexts of child-targeted hate speech, spanning age groups. We benchmark existing state-of-the-art hate speech detection methods, including Large Language Models (LLMs), and assess their effectiveness in detecting and contextualizing child-targeted hate speech. To foster further research in this area, we publicly release ChildGuard, providing a robust foundation for developing improved methods to detect and mitigate such harm.",
+      "url": "https://arxiv.org/abs/2506.21613",
+      "published_date": "2025-06-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hate",
+        "hate speech",
+        "speech",
+        "child",
+        "child targeted",
+        "targeted",
+        "targeted hate",
+        "childguard",
+        "existing",
+        "annotations"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critically important and under-explored area \u2013 child-targeted hate speech. The creation of a specialized, annotated dataset (ChildGuard) is a valuable contribution, and benchmarking existing LLMs against it provides useful insights. While the methodology of *creating* the dataset isn't described in detail in the abstract, the focus on age-specific nuances and emotional impact is commendable, suggesting a rigorous approach. The public release of the dataset will likely foster further research.",
+      "paper_id": "34cbcd8295f76e06136e9e147b2c87da"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-06-30T09:31:23.201644"
 }

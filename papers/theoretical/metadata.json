@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "BiMark: Unbiased Multilayer Watermarking for Large Language Models",
+      "authors": [
+        "Xiaoyan Feng, He Zhang, Yanjun Zhang, Leo Yu Zhang, Shirui Pan"
+      ],
+      "abstract": "arXiv:2506.21602v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have raised urgent concerns about LLM-generated text authenticity, prompting regulatory demands for reliable identification mechanisms. Although watermarking offers a promising solution, existing approaches struggle to simultaneously achieve three critical requirements: text quality preservation, model-agnostic detection, and message embedding capacity, which are crucial for practical implementation. To achieve these goals, the key challenge lies in balancing the trade-off between text quality preservation and message embedding capacity. To address this challenge, we propose BiMark, a novel watermarking framework that achieves these requirements through three key innovations: (1) a bit-flip unbiased reweighting mechanism enabling model-agnostic detection, (2) a multilayer architecture enhancing detectability without compromising generation quality, and (3) an information encoding approach supporting multi-bit watermarking. Through theoretical analysis and extensive experiments, we validate that, compared to state-of-the-art multi-bit watermarking methods, BiMark achieves up to 30% higher extraction rates for short texts while maintaining text quality indicated by lower perplexity, and performs comparably to non-watermarked text on downstream tasks such as summarization and translation.",
+      "url": "https://arxiv.org/abs/2506.21602",
+      "published_date": "2025-06-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "watermarking",
+        "quality",
+        "bimark",
+        "bit",
+        "text quality",
+        "achieve",
+        "achieves",
+        "agnostic",
+        "agnostic detection"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a very important and timely problem \u2013 the authentication of LLM-generated text. The abstract highlights a clear understanding of the challenges (balancing quality, model-agnosticism, and capacity) and proposes a framework (BiMark) with three specific innovations to address them. The focus on unbiased detection and a multilayer architecture suggests a potentially robust solution, and the high scores reflect the relevance and potential of the work.",
+      "paper_id": "9a2cb427f45132709eedff2415dacdfe"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-06-30T09:31:23.200941"
 }

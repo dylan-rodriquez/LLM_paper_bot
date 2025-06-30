@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### ChildGuard: A Specialized Dataset for Combatting Child-Targeted Hate Speech
+
+**Score:** 92.0 | **Published:** 2025-06-30 | **Authors:** Gautam Siddharth Kashyap, Mohammad Anas Azeez, Rafiq Ali, Zohaib Hasan Siddiqui, Jiechao Gao, Usman Naseem
+
+arXiv:2506.21613v1 Announce Type: new 
+Abstract: The increasing prevalence of child-targeted hate speech online underscores the urgent need for specialized datasets to address this critical issue. Exi...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21613) | [📝 Analysis](34cbcd8295f76e06136e9e147b2c87da.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-30 09:31:23 UTC*
