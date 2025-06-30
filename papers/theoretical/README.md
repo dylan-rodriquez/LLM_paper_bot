@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### BiMark: Unbiased Multilayer Watermarking for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-30 | **Authors:** Xiaoyan Feng, He Zhang, Yanjun Zhang, Leo Yu Zhang, Shirui Pan
+
+arXiv:2506.21602v1 Announce Type: new 
+Abstract: Recent advances in Large Language Models (LLMs) have raised urgent concerns about LLM-generated text authenticity, prompting regulatory demands for rel...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.21602) | [📝 Analysis](9a2cb427f45132709eedff2415dacdfe.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-30 09:31:23 UTC*
