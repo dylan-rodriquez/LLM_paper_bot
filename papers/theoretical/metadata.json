@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Generalist Reward Models: Found Inside Large Language Models",
+      "authors": [
+        "Yi-Chen Li, Tian Xu, Yang Yu, Xuqin Zhang, Xiong-Hui Chen, Zhongxiang Ling, Ningjing Chao, Lei Yuan, Zhi-Hua Zhou"
+      ],
+      "abstract": "arXiv:2506.23235v1 Announce Type: new \nAbstract: The alignment of Large Language Models (LLMs) is critically dependent on reward models trained on costly human preference data. While recent work explores bypassing this cost with AI feedback, these methods often lack a rigorous theoretical foundation. In this paper, we discover that a powerful generalist reward model is already latently present within any LLM trained via standard next-token prediction. We prove that this endogenous reward is not a heuristic, but is theoretically equivalent to a reward function learned through offline inverse reinforcement learning. This connection allows us to directly elicit a high-quality reward signal from a base (pre-trained or supervised fine-tuned) model without any further training. Critically, we also prove that subsequent reinforcement learning using this endogenous reward leads to a policy with a provably superior error bound compared to the base model. To our best knowledge, this is the first theoretical proof of the effectiveness of reinforcement learning for LLMs. Our experiments validate this theory, demonstrating that our method not only outperforms existing LLM-as-a-judge approaches but can also surpass explicitly trained reward models. These findings suggest that the reward modeling stage can be replaced by a principled method of eliciting the knowledge already captured during pre-training, heralding a more efficient, powerful, and scalable paradigm for LLMs alignment as well as multi-modal models.",
+      "url": "https://arxiv.org/abs/2506.23235",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 90,
+      "sentiment_score": 95,
+      "keywords": [
+        "reward",
+        "models",
+        "trained",
+        "learning",
+        "llms",
+        "model",
+        "reinforcement",
+        "reinforcement learning",
+        "reward models",
+        "alignment"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in LLM alignment \u2013 the cost of human preference data. The theoretical grounding of an 'endogenous reward' within LLMs, equivalent to offline IRL, is a significant advancement. The claim of a provably superior error bound for RL using this reward further strengthens the work, suggesting a potentially paradigm-shifting approach to LLM alignment.",
+      "paper_id": "8ac6fb4c8fd4cc31a1ec3595b2afbcff"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-07-01T09:31:02.941875"
 }

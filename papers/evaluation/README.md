@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Garbage In, Reasoning Out? Why Benchmark Scores are Unreliable and What to Do About It
+
+**Score:** 92.0 | **Published:** 2025-07-01 | **Authors:** Seyed Mahed Mousavi, Edoardo Cecchinato, Lucia Hornikova, Giuseppe Riccardi
+
+arXiv:2506.23864v1 Announce Type: new 
+Abstract: We conduct a systematic audit of three widely used reasoning benchmarks, SocialIQa, FauxPas-EAI, and ToMi, and uncover pervasive flaws in both benchmar...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.23864) | [📝 Analysis](784e46b07130ae0b46b380ad2b4b27c3.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

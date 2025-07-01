@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Generalist Reward Models: Found Inside Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-01 | **Authors:** Yi-Chen Li, Tian Xu, Yang Yu, Xuqin Zhang, Xiong-Hui Chen, Zhongxiang Ling, Ningjing Chao, Lei Yuan, Zhi-Hua Zhou
+
+arXiv:2506.23235v1 Announce Type: new 
+Abstract: The alignment of Large Language Models (LLMs) is critically dependent on reward models trained on costly human preference data. While recent work explo...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.23235) | [📝 Analysis](8ac6fb4c8fd4cc31a1ec3595b2afbcff.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

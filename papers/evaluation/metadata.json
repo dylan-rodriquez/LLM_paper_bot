@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Garbage In, Reasoning Out? Why Benchmark Scores are Unreliable and What to Do About It",
+      "authors": [
+        "Seyed Mahed Mousavi, Edoardo Cecchinato, Lucia Hornikova, Giuseppe Riccardi"
+      ],
+      "abstract": "arXiv:2506.23864v1 Announce Type: new \nAbstract: We conduct a systematic audit of three widely used reasoning benchmarks, SocialIQa, FauxPas-EAI, and ToMi, and uncover pervasive flaws in both benchmark items and evaluation methodology. Using five LLMs (GPT-{3, 3.5, 4, o1}, and LLaMA 3.1) as diagnostic tools, we identify structural, semantic, and pragmatic issues in benchmark design (e.g., duplicated items, ambiguous wording, and implausible answers), as well as scoring procedures that prioritize output form over reasoning process. Through systematic human annotation and re-evaluation on cleaned benchmark subsets, we find that model scores often improve not due to due to erratic surface wording variations and not to improved reasoning. Infact, further analyses show that model performance is highly sensitive to minor input variations such as context availability and phrasing, revealing that high scores may reflect alignment with format-specific cues rather than consistent inference based on the input. These findings challenge the validity of current benchmark-based claims about reasoning in LLMs, and highlight the need for evaluation protocols that assess reasoning as a process of drawing inference from available information, rather than as static output selection. We release audited data and evaluation tools to support more interpretable and diagnostic assessments of model reasoning.",
+      "url": "https://arxiv.org/abs/2506.23864",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "benchmark",
+        "evaluation",
+        "model",
+        "scores",
+        "based",
+        "diagnostic",
+        "inference",
+        "input",
+        "items"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in LLM evaluation \u2013 the reliability of benchmarks. The systematic audit using multiple LLMs and human annotation, coupled with the identification of specific flaws in benchmark design, demonstrates a rigorous methodology. The finding that scores are sensitive to minor input variations and reflect alignment with format rather than reasoning is highly significant and likely to resonate with the community.",
+      "paper_id": "784e46b07130ae0b46b380ad2b4b27c3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-01T09:31:02.942900"
 }

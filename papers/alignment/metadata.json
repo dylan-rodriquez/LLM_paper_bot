@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs",
+      "authors": [
+        "Jianhui Wei, Zijie Meng, Zikai Xiao, Tianxiang Hu, Yang Feng, Zhijie Zhou, Jian Wu, Zuozhu Liu"
+      ],
+      "abstract": "arXiv:2506.22808v1 Announce Type: new \nAbstract: While Medical Large Language Models (MedLLMs) have demonstrated remarkable potential in clinical tasks, their ethical safety remains insufficiently explored. This paper introduces $\\textbf{MedEthicsQA}$, a comprehensive benchmark comprising $\\textbf{5,623}$ multiple-choice questions and $\\textbf{5,351}$ open-ended questions for evaluation of medical ethics in LLMs. We systematically establish a hierarchical taxonomy integrating global medical ethical standards. The benchmark encompasses widely used medical datasets, authoritative question banks, and scenarios derived from PubMed literature. Rigorous quality control involving multi-stage filtering and multi-faceted expert validation ensures the reliability of the dataset with a low error rate ($2.72\\%$). Evaluation of state-of-the-art MedLLMs exhibit declined performance in answering medical ethics questions compared to their foundation counterparts, elucidating the deficiencies of medical ethics alignment. The dataset, registered under CC BY-NC 4.0 license, is available at https://github.com/JianhuiWei7/MedEthicsQA.",
+      "url": "https://arxiv.org/abs/2506.22808",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "ethics",
+        "medical ethics",
+        "benchmark",
+        "evaluation",
+        "medethicsqa",
+        "questions",
+        "textbf",
+        "answering",
+        "comprehensive"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the ethical safety of MedLLMs \u2013 with a well-defined and rigorously constructed benchmark. The creation of a comprehensive, expert-validated dataset like MedEthicsQA is a significant contribution, and the observed performance decline of current models highlights the need for further research. The hierarchical taxonomy and multi-stage validation process demonstrate a strong methodological approach.",
+      "paper_id": "d2cccca5661a3e5231533d2f165f422f"
+    },
+    {
+      "title": "FairI Tales: Evaluation of Fairness in Indian Contexts with a Focus on Bias and Stereotypes",
+      "authors": [
+        "Janki Atul Nawale, Mohammed Safi Ur Rahman Khan, Janani D, Mansi Gupta, Danish Pruthi, Mitesh M. Khapra"
+      ],
+      "abstract": "arXiv:2506.23111v1 Announce Type: new \nAbstract: Existing studies on fairness are largely Western-focused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes. We first consult domain experts to curate over 1,800 socio-cultural topics spanning behaviors and situations, where biases and stereotypes are likely to emerge. Grounded in these topics, we generate and manually validate 20,000 real-world scenario templates to probe LLMs for fairness. We structure these templates into three evaluation tasks: plausibility, judgment, and generation. Our evaluation of 14 popular LLMs on these tasks reveals strong negative biases against marginalized identities, with models frequently reinforcing common stereotypes. Additionally, we find that models struggle to mitigate bias even when explicitly asked to rationalize their decision. Our evaluation provides evidence of both allocative and representational harms that current LLMs could cause towards Indian identities, calling for a more cautious usage in practical applications. We release INDIC-BIAS as an open-source benchmark to advance research on benchmarking and mitigating biases and stereotypes in the Indian context.",
+      "url": "https://arxiv.org/abs/2506.23111",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "evaluation",
+        "fairness",
+        "llms",
+        "stereotypes",
+        "biases",
+        "indian",
+        "benchmark",
+        "biases stereotypes",
+        "diverse"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in fairness research by focusing on the Indian context, which is often overlooked. The creation of the INDIC-BIAS benchmark with its extensive coverage of identity groups and scenario templates demonstrates strong methodological rigor. The findings of pervasive biases in LLMs are significant and highlight the need for culturally-aware model development; the work is well-structured and clearly articulated, suggesting a high likelihood of positive reception within the NLP community.",
+      "paper_id": "49f8f2708bfc1ae4a7d9196ae8faf053"
+    },
+    {
+      "title": "Datasets for Fairness in Language Models: An In-Depth Survey",
+      "authors": [
+        "Jiale Zhang, Zichong Wang, Avash Palikhe, Zhipeng Yin, Wenbin Zhang"
+      ],
+      "abstract": "arXiv:2506.23411v1 Announce Type: new \nAbstract: Fairness benchmarks play a central role in shaping how we evaluate language models, yet surprisingly little attention has been given to examining the datasets that these benchmarks rely on. This survey addresses that gap by presenting a broad and careful review of the most widely used fairness datasets in current language model research, characterizing them along several key dimensions including their origin, scope, content, and intended use to help researchers better appreciate the assumptions and limitations embedded in these resources. To support more meaningful comparisons and analyses, we introduce a unified evaluation framework that reveals consistent patterns of demographic disparities across datasets and scoring methods. Applying this framework to twenty four common benchmarks, we highlight the often overlooked biases that can influence conclusions about model fairness and offer practical guidance for selecting, combining, and interpreting these datasets. We also point to opportunities for creating new fairness benchmarks that reflect more diverse social contexts and encourage more thoughtful use of these tools going forward. All code, data, and detailed results are publicly available at https://github.com/vanbanTruong/Fairness-in-Large-Language-Models/tree/main/datasets to promote transparency and reproducibility across the research community.",
+      "url": "https://arxiv.org/abs/2506.23411",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "datasets",
+        "fairness",
+        "benchmarks",
+        "language",
+        "language models",
+        "models",
+        "fairness benchmarks",
+        "framework",
+        "model",
+        "new"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This survey addresses a crucial and often overlooked aspect of fairness research in language models \u2013 the datasets themselves. The introduction of a unified evaluation framework is a strong methodological contribution, and the identification of demographic disparities across benchmarks is highly valuable. The paper's focus on practical guidance for dataset selection and combination suggests a commitment to actionable insights, making it likely to be well-received by the community.",
+      "paper_id": "7e041110881f88cb259a889fde2fdf80"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-01T09:31:02.940756"
 }
