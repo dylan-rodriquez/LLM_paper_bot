@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### PhonemeFake: Redefining Deepfake Realism with Language-Driven Segmental Manipulation and Adaptive Bilevel Detection
+
+**Score:** 92.0 | **Published:** 2025-07-01 | **Authors:** Oguzhan Baser, Ahmet Ege Tanriverdi, Sriram Vishwanath, Sandeep P. Chinchali
+
+arXiv:2506.22783v1 Announce Type: cross 
+Abstract: Deepfake (DF) attacks pose a growing threat as generative models become increasingly advanced. However, our study reveals that existing DF datasets f...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.22783) | [📝 Analysis](e09dcf5b5c7aa315e026d2a1033974ce.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

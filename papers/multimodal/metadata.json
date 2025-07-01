@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "PhonemeFake: Redefining Deepfake Realism with Language-Driven Segmental Manipulation and Adaptive Bilevel Detection",
+      "authors": [
+        "Oguzhan Baser, Ahmet Ege Tanriverdi, Sriram Vishwanath, Sandeep P. Chinchali"
+      ],
+      "abstract": "arXiv:2506.22783v1 Announce Type: cross \nAbstract: Deepfake (DF) attacks pose a growing threat as generative models become increasingly advanced. However, our study reveals that existing DF datasets fail to deceive human perception, unlike real DF attacks that influence public discourse. It highlights the need for more realistic DF attack vectors. We introduce PhonemeFake (PF), a DF attack that manipulates critical speech segments using language reasoning, significantly reducing human perception by up to 42% and benchmark accuracies by up to 94%. We release an easy-to-use PF dataset on HuggingFace and open-source bilevel DF segment detection model that adaptively prioritizes compute on manipulated regions. Our extensive experiments across three known DF datasets reveal that our detection model reduces EER by 91% while achieving up to 90% speed-up, with minimal compute overhead and precise localization beyond existing models as a scalable solution.",
+      "url": "https://arxiv.org/abs/2506.22783",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "df",
+        "detection",
+        "attack",
+        "attacks",
+        "bilevel",
+        "compute",
+        "datasets",
+        "deepfake",
+        "detection model",
+        "df attack"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critical issue in the deepfake landscape \u2013 the lack of realism in current attacks and the inadequacy of existing datasets. The proposed PhonemeFake approach, leveraging language reasoning for manipulation, shows promising results in deceiving human perception and improving detection accuracy. The release of a dataset and open-source detection model further strengthens the work and encourages reproducibility and future research.",
+      "paper_id": "e09dcf5b5c7aa315e026d2a1033974ce"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-07-01T09:31:02.948848"
 }

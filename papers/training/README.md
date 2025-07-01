@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### VERA: Variational Inference Framework for Jailbreaking Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-01 | **Authors:** Anamika Lochab, Lu Yan, Patrick Pynadath, Xiangyu Zhang, Ruqi Zhang
+
+arXiv:2506.22666v1 Announce Type: cross 
+Abstract: The rise of API-only access to state-of-the-art LLMs highlights the need for effective black-box jailbreak methods to identify model vulnerabilities ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.22666) | [📝 Analysis](f0f8111ebfa7001fdc9ff5097d223688.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks
+
+**Score:** 90.0 | **Published:** 2025-07-01 | **Authors:** Leander Melroy Maben, Gayathri Ganesh Lakshmy, Srijith Radhakrishnan, Siddhant Arora, Shinji Watanabe
+
+arXiv:2506.23049v1 Announce Type: cross 
+Abstract: Despite advances in language and speech technologies, no open-source system enables full speech-to-speech, multi-turn dialogue with integrated tool u...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.23049) | [📝 Analysis](c1141ba6537c4c30313b0385c3aa903d.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MARBLE: A Hard Benchmark for Multimodal Spatial Reasoning and Planning
+
+**Score:** 90.0 | **Published:** 2025-07-01 | **Authors:** Yulun Jiang, Yekun Chai, Maria Brbi\'c, Michael Moor
+
+arXiv:2506.22992v1 Announce Type: cross 
+Abstract: The ability to process information from multiple modalities and to reason through it step-by-step remains a critical challenge in advancing artificia...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.22992) | [📝 Analysis](9a6cf9b7a53727b38a353b9eefcd8a78.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-01 09:31:02 UTC*

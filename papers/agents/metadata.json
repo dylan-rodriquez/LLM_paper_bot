@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks",
+      "authors": [
+        "Leander Melroy Maben, Gayathri Ganesh Lakshmy, Srijith Radhakrishnan, Siddhant Arora, Shinji Watanabe"
+      ],
+      "abstract": "arXiv:2506.23049v1 Announce Type: cross \nAbstract: Despite advances in language and speech technologies, no open-source system enables full speech-to-speech, multi-turn dialogue with integrated tool use and agentic reasoning. We introduce AURA (Agent for Understanding, Reasoning, and Automated Tool Use), the first open-source, speech-native assistant capable of completing complex, goal-driven tasks through dynamic tool invocation and multi-turn conversation. AURA combines open-weight ASR, TTS, and LLMs in a cascaded pipeline and supports tools such as calendar booking, contact lookup, web search, and email. Its modular design allows easy integration of new tools using natural language prompts and action classes. On VoiceBench, AURA scores 92.75% on OpenBookQA-outperforming all open-weight systems and nearing GPT-4o-and 4.39 on AlpacaEval, competitive with other open-weight systems. Human evaluation shows 90% task success on complex, multi-turn speech tasks.",
+      "url": "https://arxiv.org/abs/2506.23049",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "open",
+        "speech",
+        "aura",
+        "tool",
+        "multi",
+        "multi turn",
+        "open weight",
+        "reasoning",
+        "tasks",
+        "tool use"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a significant gap in open-source voice-driven AI assistants, offering a fully functional system with tool use and reasoning capabilities. The reported performance on VoiceBench, nearing GPT-4o, and strong human evaluation results suggest a well-executed and rigorous approach. While the architecture appears to be a cascaded pipeline of existing components, the integration and open-source nature represent a valuable contribution, and the modular design is a strength. The high sentiment score reflects the current trend towards open-weight models and the demand for more accessible AI assistants.",
+      "paper_id": "c1141ba6537c4c30313b0385c3aa903d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-07-01T09:31:02.951453"
 }

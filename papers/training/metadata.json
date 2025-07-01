@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "VERA: Variational Inference Framework for Jailbreaking Large Language Models",
+      "authors": [
+        "Anamika Lochab, Lu Yan, Patrick Pynadath, Xiangyu Zhang, Ruqi Zhang"
+      ],
+      "abstract": "arXiv:2506.22666v1 Announce Type: cross \nAbstract: The rise of API-only access to state-of-the-art LLMs highlights the need for effective black-box jailbreak methods to identify model vulnerabilities in real-world settings. Without a principled objective for gradient-based optimization, most existing approaches rely on genetic algorithms, which are limited by their initialization and dependence on manually curated prompt pools. Furthermore, these methods require individual optimization for each prompt, failing to provide a comprehensive characterization of model vulnerabilities. To address this gap, we introduce VERA: Variational infErence fRamework for jAilbreaking. VERA casts black-box jailbreak prompting as a variational inference problem, training a small attacker LLM to approximate the target LLM's posterior over adversarial prompts. Once trained, the attacker can generate diverse, fluent jailbreak prompts for a target query without re-optimization. Experimental results show that VERA achieves strong performance across a range of target LLMs, highlighting the value of probabilistic inference for adversarial prompt generation.",
+      "url": "https://arxiv.org/abs/2506.22666",
+      "published_date": "2025-07-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "inference",
+        "vera",
+        "jailbreak",
+        "optimization",
+        "prompt",
+        "target",
+        "variational",
+        "variational inference",
+        "adversarial",
+        "attacker"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 the vulnerability of LLMs to jailbreaking via black-box attacks, especially with the increasing prevalence of API-only access. The variational inference approach is a novel and principled way to tackle this, moving beyond the limitations of genetic algorithms. The claim of generating diverse and fluent jailbreak prompts without re-optimization is particularly strong, suggesting a significant improvement in efficiency and comprehensiveness.",
+      "paper_id": "f0f8111ebfa7001fdc9ff5097d223688"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-01T09:31:02.945363"
 }
