@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Pitfalls of Evaluating Language Models with Open Benchmarks",
+      "authors": [
+        "Md. Najib Hasan (Wichita State University), Mohammad Fakhruddin Babar (Washington State University), Souvika Sarkar (Wichita State University), Monowar Hasan (Washington State University), Santu Karmaker (University of Central Florida)"
+      ],
+      "abstract": "arXiv:2507.00460v1 Announce Type: new \nAbstract: Open Large Language Model (LLM) benchmarks, such as HELM and BIG-bench, offer standardized, transparent protocols that facilitate the fair comparison, reproducibility, and iterative advancement of Language Models (LMs). However, their openness also introduces critical and underexplored pitfalls. This study exposes these weaknesses by systematically constructing ``cheating'' models -- smaller variants of BART, T5, and GPT-2 fine-tuned directly on public test sets -- which achieve top rankings on a prominent open, holistic benchmark (HELM) despite poor generalization and limited practical utility. Our findings underscore three key insights: \\ca high leaderboard performance on open benchmarks may not always reflect real-world effectiveness; \\cb private or dynamic benchmarks must complement open evaluations to safeguard integrity; and \\cc a fundamental reevaluation of current benchmarking practices is essential to ensure robust and trustworthy LM assessments.",
+      "url": "https://arxiv.org/abs/2507.00460",
+      "published_date": "2025-07-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "open",
+        "benchmarks",
+        "language",
+        "models",
+        "helm",
+        "language models",
+        "open benchmarks",
+        "pitfalls",
+        "00460v1",
+        "00460v1 announce"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving LLM landscape \u2013 the reliability of open benchmarks. The methodology of creating 'cheating' models is clever and effectively demonstrates the vulnerability of current evaluation practices. The findings are likely to resonate strongly with the research community and prompt a necessary re-evaluation of benchmarking standards.",
+      "paper_id": "bdb95ff4e1ee38d0d1b2158eade40e0f"
+    },
+    {
+      "title": "Benchmarking the Pedagogical Knowledge of Large Language Models",
+      "authors": [
+        "Maxime Leli\\`evre, Amy Waldock, Meng Liu, Natalia Vald\\'es Aspillaga, Alasdair Mackintosh, Mar\\'ia Jos\\'e Ogando Portela, Jared Lee, Paul Atherton, Robin A. A. Ince, Oliver G. B. Garrod"
+      ],
+      "abstract": "arXiv:2506.18710v3 Announce Type: replace \nAbstract: Benchmarks like Massive Multitask Language Understanding (MMLU) have played a pivotal role in evaluating AI's knowledge and abilities across diverse domains. However, existing benchmarks predominantly focus on content knowledge, leaving a critical gap in assessing models' understanding of pedagogy - the method and practice of teaching. This paper introduces The Pedagogy Benchmark, a novel dataset designed to evaluate large language models on their Cross-Domain Pedagogical Knowledge (CDPK) and Special Education Needs and Disability (SEND) pedagogical knowledge. These benchmarks are built on a carefully curated set of questions sourced from professional development exams for teachers, which cover a range of pedagogical subdomains such as teaching strategies and assessment methods. Here we outline the methodology and development of these benchmarks. We report results for 97 models, with accuracies spanning a range from 28% to 89% on the pedagogical knowledge questions. We consider the relationship between cost and accuracy and chart the progression of the Pareto value frontier over time. We provide online leaderboards at https://rebrand.ly/pedagogy which are updated with new models and allow interactive exploration and filtering based on various model properties, such as cost per token and open-vs-closed weights, as well as looking at performance in different subjects. LLMs and generative AI have tremendous potential to influence education and help to address the global learning crisis. Education-focused benchmarks are crucial to measure models' capacities to understand pedagogical concepts, respond appropriately to learners' needs, and support effective teaching practices across diverse contexts. They are needed for informing the responsible and evidence-based deployment of LLMs and LLM-based tools in educational settings, and for guiding both development and policy decisions.",
+      "url": "https://arxiv.org/abs/2506.18710",
+      "published_date": "2025-07-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "knowledge",
+        "models",
+        "pedagogical",
+        "benchmarks",
+        "pedagogical knowledge",
+        "based",
+        "development",
+        "education",
+        "language",
+        "pedagogy"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 pedagogical knowledge. The creation of a dedicated benchmark using professional development exam questions is a strong methodological choice, and the reported range of model accuracies suggests the benchmark is challenging and informative. The focus on both general pedagogy and SEND is particularly valuable, and the large number of models tested adds to the rigor of the work. The community is actively seeking ways to assess LLMs beyond simple knowledge recall, making this work highly relevant.",
+      "paper_id": "0d5f8d632950cf8066198991e52fafef"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-02T09:31:14.323290"
 }

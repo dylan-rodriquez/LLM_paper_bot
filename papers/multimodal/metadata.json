@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Leveraging Large Language Models for Spontaneous Speech-Based Suicide Risk Detection",
+      "authors": [
+        "Yifan Gao, Jiao Fu, Long Guo, Hong Liu"
+      ],
+      "abstract": "arXiv:2507.00693v1 Announce Type: cross \nAbstract: Early identification of suicide risk is crucial for preventing suicidal behaviors. As a result, the identification and study of patterns and markers related to suicide risk have become a key focus of current research. In this paper, we present the results of our work in the 1st SpeechWellness Challenge (SW1), which aims to explore speech as a non-invasive and easily accessible mental health indicator for identifying adolescents at risk of suicide.Our approach leverages large language model (LLM) as the primary tool for feature extraction, alongside conventional acoustic and semantic features. The proposed method achieves an accuracy of 74\\% on the test set, ranking first in the SW1 challenge. These findings demonstrate the potential of LLM-based methods for analyzing speech in the context of suicide risk assessment.",
+      "url": "https://arxiv.org/abs/2507.00693",
+      "published_date": "2025-07-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "risk",
+        "suicide",
+        "suicide risk",
+        "speech",
+        "based",
+        "challenge",
+        "identification",
+        "language",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 suicide risk detection \u2013 and achieving first place in the SpeechWellness Challenge suggests a robust methodology. While leveraging LLMs is becoming more common, its application to spontaneous speech for this specific task is valuable. The reported 74% accuracy is promising, but further details on the methodology and comparison to baseline methods are needed for a more thorough assessment of quality and innovation.",
+      "paper_id": "fe4bad192811df7b2eec5323aa95520f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-07-02T09:31:14.324355"
 }
