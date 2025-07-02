@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Pitfalls of Evaluating Language Models with Open Benchmarks
+
+**Score:** 92.0 | **Published:** 2025-07-02 | **Authors:** Md. Najib Hasan (Wichita State University), Mohammad Fakhruddin Babar (Washington State University), Souvika Sarkar (Wichita State University), Monowar Hasan (Washington State University), Santu Karmaker (University of Central Florida)
+
+arXiv:2507.00460v1 Announce Type: new 
+Abstract: Open Large Language Model (LLM) benchmarks, such as HELM and BIG-bench, offer standardized, transparent protocols that facilitate the fair comparison, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.00460) | [📝 Analysis](bdb95ff4e1ee38d0d1b2158eade40e0f.md)
+
+---
+
+### Benchmarking the Pedagogical Knowledge of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-02 | **Authors:** Maxime Leli\`evre, Amy Waldock, Meng Liu, Natalia Vald\'es Aspillaga, Alasdair Mackintosh, Mar\'ia Jos\'e Ogando Portela, Jared Lee, Paul Atherton, Robin A. A. Ince, Oliver G. B. Garrod
+
+arXiv:2506.18710v3 Announce Type: replace 
+Abstract: Benchmarks like Massive Multitask Language Understanding (MMLU) have played a pivotal role in evaluating AI's knowledge and abilities across divers...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18710) | [📝 Analysis](0d5f8d632950cf8066198991e52fafef.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-02 09:31:14 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Leveraging Large Language Models for Spontaneous Speech-Based Suicide Risk Detection
+
+**Score:** 92.0 | **Published:** 2025-07-02 | **Authors:** Yifan Gao, Jiao Fu, Long Guo, Hong Liu
+
+arXiv:2507.00693v1 Announce Type: cross 
+Abstract: Early identification of suicide risk is crucial for preventing suicidal behaviors. As a result, the identification and study of patterns and markers ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.00693) | [📝 Analysis](fe4bad192811df7b2eec5323aa95520f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-02 09:31:14 UTC*

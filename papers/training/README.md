@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Prompting as Scientific Inquiry
+
+**Score:** 92.0 | **Published:** 2025-07-02 | **Authors:** Ari Holtzman, Chenhao Tan
+
+arXiv:2507.00163v1 Announce Type: new 
+Abstract: Prompting is the primary method by which we study and control large language models. It is also one of the most powerful: nearly every major capability...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.00163) | [📝 Analysis](a829a87a7a1786b04a1bb9f32b322529.md)
+
+---
+
+### Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning
+
+**Score:** 90.0 | **Published:** 2025-07-02 | **Authors:** Maggie Huan, Yuetai Li, Tuney Zheng, Xiaoyu Xu, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue
+
+arXiv:2507.00432v1 Announce Type: cross 
+Abstract: Math reasoning has become the poster child of progress in large language models (LLMs), with new models rapidly surpassing human-level performance on...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.00432) | [📝 Analysis](c6cdfe4e6a800f201c671a1e6c6ae053.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-02 09:31:14 UTC*

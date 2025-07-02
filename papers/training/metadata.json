@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Prompting as Scientific Inquiry",
+      "authors": [
+        "Ari Holtzman, Chenhao Tan"
+      ],
+      "abstract": "arXiv:2507.00163v1 Announce Type: new \nAbstract: Prompting is the primary method by which we study and control large language models. It is also one of the most powerful: nearly every major capability attributed to LLMs-few-shot learning, chain-of-thought, constitutional AI-was first unlocked through prompting. Yet prompting is rarely treated as science and is frequently frowned upon as alchemy. We argue that this is a category error. If we treat LLMs as a new kind of complex and opaque organism that is trained rather than programmed, then prompting is not a workaround: it is behavioral science. Mechanistic interpretability peers into the neural substrate, prompting probes the model in its native interface: language. We contend that prompting is not inferior, but rather a key component in the science of LLMs.",
+      "url": "https://arxiv.org/abs/2507.00163",
+      "published_date": "2025-07-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "prompting",
+        "llms",
+        "science",
+        "language",
+        "new",
+        "00163v1",
+        "00163v1 announce",
+        "2507",
+        "2507 00163v1",
+        "abstract"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper presents a compelling argument for reframing prompting as a legitimate scientific methodology for studying LLMs, rather than a mere 'hack'. The analogy to behavioral science is insightful and addresses a critical gap in how LLM research is currently conducted. While the core idea isn't entirely new (the need for systematic prompting is recognized), the explicit framing and justification elevate the discussion and are likely to resonate with the community.",
+      "paper_id": "a829a87a7a1786b04a1bb9f32b322529"
+    },
+    {
+      "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning",
+      "authors": [
+        "Maggie Huan, Yuetai Li, Tuney Zheng, Xiaoyu Xu, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue"
+      ],
+      "abstract": "arXiv:2507.00432v1 Announce Type: cross \nAbstract: Math reasoning has become the poster child of progress in large language models (LLMs), with new models rapidly surpassing human-level performance on benchmarks like MATH and AIME. But as math leaderboards improve week by week, it is worth asking: do these gains reflect broader problem-solving ability or just narrow overfitting? To answer this question, we evaluate over 20 open-weight reasoning-tuned models across a broad suite of tasks, including math, scientific QA, agent planning, coding, and standard instruction-following. We surprisingly find that most models that succeed in math fail to transfer their gains to other domains. To rigorously study this phenomenon, we conduct controlled experiments on Qwen3-14B models using math-only data but different tuning methods. We find that reinforcement learning (RL)-tuned models generalize well across domains, while supervised fine-tuning (SFT)-tuned models often forget general capabilities. Latent-space representation and token-space distribution shift analyses reveal that SFT induces substantial representation and output drift, while RL preserves general-domain structure. Our results suggest a need to rethink standard post-training recipes, particularly the reliance on SFT-distilled data for advancing reasoning models.",
+      "url": "https://arxiv.org/abs/2507.00432",
+      "published_date": "2025-07-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "models",
+        "math",
+        "reasoning",
+        "general",
+        "sft",
+        "tuned",
+        "tuned models",
+        "capabilities",
+        "data",
+        "domains"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial question regarding LLM progress \u2013 whether improvements in specific areas like math translate to general reasoning ability. The finding that math gains often don't transfer is significant and challenges the current leaderboard-driven development. The controlled experiments with Qwen3-14B, comparing RL and SFT tuning, add rigor to the analysis and provide actionable insights.",
+      "paper_id": "c6cdfe4e6a800f201c671a1e6c6ae053"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-02T09:31:14.320860"
 }
