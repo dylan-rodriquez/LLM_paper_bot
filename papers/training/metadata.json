@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+      "authors": [
+        "Jake Poznanski, Aman Rangapur, Jon Borchardt, Jason Dunkelberger, Regan Huff, Daniel Lin, Aman Rangapur, Christopher Wilhelm, Kyle Lo, Luca Soldaini"
+      ],
+      "abstract": "arXiv:2502.18443v3 Announce Type: replace \nAbstract: PDF documents have the potential to provide trillions of novel, high-quality tokens for training language models. However, these documents come in a diversity of types with differing formats and visual layouts that pose a challenge when attempting to extract and faithfully represent the underlying content for language model use. Traditional open source tools often produce lower quality extractions compared to vision language models (VLMs), but reliance on the best VLMs can be prohibitively costly (e.g., over 6,240 USD per million PDF pages for GPT-4o) or infeasible if the PDFs cannot be sent to proprietary APIs. We present olmOCR, an open-source toolkit for processing PDFs into clean, linearized plain text in natural reading order while preserving structured content like sections, tables, lists, equations, and more. Our toolkit runs a fine-tuned 7B vision language model (VLM) trained on olmOCR-mix-0225, a sample of 260,000 pages from over 100,000 crawled PDFs with diverse properties, including graphics, handwritten text and poor quality scans. olmOCR is optimized for large-scale batch processing, able to scale flexibly to different hardware setups and can convert a million PDF pages for only 176 USD. To aid comparison with existing systems, we also introduce olmOCR-Bench, a curated set of 1,400 PDFs capturing many content types that remain challenging even for the best tools and VLMs, including formulas, tables, tiny fonts, old scans, and more. We find olmOCR outperforms even top VLMs including GPT-4o, Gemini Flash 2 and Qwen-2.5-VL. We openly release all components of olmOCR: our fine-tuned VLM model, training code and data, an efficient inference pipeline that supports vLLM and SGLang backends, and benchmark olmOCR-Bench.",
+      "url": "https://arxiv.org/abs/2502.18443",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "olmocr",
+        "language",
+        "pdfs",
+        "vlms",
+        "content",
+        "including",
+        "language models",
+        "model",
+        "models",
+        "pages"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in leveraging the vast amount of information locked within PDFs for LLM training. The high cost and API limitations of existing solutions are convincingly highlighted, and olmOCR presents a compelling open-source alternative. The use of a fine-tuned VLM and focus on preserving document structure are strong methodological choices, suggesting a rigorous approach. The potential for unlocking 'trillions of tokens' is a significant claim that, if validated, would have a substantial impact.",
+      "paper_id": "2198a47f7b7dae9e81912ead8a3d03e2"
+    },
+    {
+      "title": "Recursive Training Loops in LLMs: How training data properties modulate distribution shift in generated data?",
+      "authors": [
+        "Grgur Kova\\v{c}, J\\'er\\'emy Perez, R\\'emy Portelas, Peter Ford Dominey, Pierre-Yves Oudeyer"
+      ],
+      "abstract": "arXiv:2504.03814v3 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are increasingly used in the creation of online content, creating feedback loops as subsequent generations of models will be trained on this synthetic data. Such loops were shown to lead to distribution shifts - models misrepresenting the true underlying distributions of human data (also called model collapse). However, how human data properties affect such shifts remains poorly understood. In this paper, we provide the first empirical examination of the effect of such properties on the outcome of recursive training. We first confirm that using different human datasets leads to distribution shifts of different magnitudes. Through exhaustive manipulation of dataset properties combined with regression analyses, we then identify a set of properties predicting distribution shift magnitudes. Lexical diversity is found to amplify these shifts, while semantic diversity and data quality mitigate them. Furthermore, we find that these influences are highly modular: data scrapped from a given internet domain has little influence on the content generated for another domain. Finally, experiments on political bias reveal that human data properties affect whether the initial bias will be amplified or reduced. Overall, our results portray a novel view, where different parts of internet may undergo different types of distribution shift.",
+      "url": "https://arxiv.org/abs/2504.03814",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "properties",
+        "distribution",
+        "different",
+        "human",
+        "shifts",
+        "data properties",
+        "distribution shift",
+        "human data",
+        "loops"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the LLM lifecycle \u2013 the potential for distribution shift and model collapse due to recursive training. The empirical examination and identification of data properties influencing these shifts are well-executed and provide valuable insights. The findings regarding lexical, semantic diversity, and data quality are particularly impactful, offering actionable guidance for dataset curation. The methodology appears rigorous, and the abstract suggests a thorough analysis.",
+      "paper_id": "8ae7002f4e0bc8b2a0b10e927215687f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-03T09:29:41.433565"
 }

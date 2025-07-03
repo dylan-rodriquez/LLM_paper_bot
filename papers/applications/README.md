@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Probing Evaluation Awareness of Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-03 | **Authors:** Jord Nguyen, Khiem Hoang, Carlo Leonardo Attubato, Felix Hofst\"atter
+
+arXiv:2507.01786v1 Announce Type: new 
+Abstract: Language models can distinguish between testing and deployment phases -- a capability known as evaluation awareness. This has significant safety and po...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.01786) | [📝 Analysis](3126984ce134e1f00edd99104da7f5b8.md)
+
+---
+
+### Pensieve Grader: An AI-Powered, Ready-to-Use Platform for Effortless Handwritten STEM Grading
+
+**Score:** 90.0 | **Published:** 2025-07-03 | **Authors:** Yoonseok Yang, Minjune Kim, Marlon Rondinelli, Keren Shao
+
+arXiv:2507.01431v1 Announce Type: cross 
+Abstract: Grading handwritten, open-ended responses remains a major bottleneck in large university STEM courses. We introduce Pensieve (https://www.pensieve.co...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.01431) | [📝 Analysis](3ead010c0b406934d5d2a2e3fe2143d9.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-03 09:29:41 UTC*

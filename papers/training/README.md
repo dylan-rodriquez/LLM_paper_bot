@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-03 | **Authors:** Jake Poznanski, Aman Rangapur, Jon Borchardt, Jason Dunkelberger, Regan Huff, Daniel Lin, Aman Rangapur, Christopher Wilhelm, Kyle Lo, Luca Soldaini
+
+arXiv:2502.18443v3 Announce Type: replace 
+Abstract: PDF documents have the potential to provide trillions of novel, high-quality tokens for training language models. However, these documents come in ...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.18443) | [📝 Analysis](2198a47f7b7dae9e81912ead8a3d03e2.md)
+
+---
+
+### Recursive Training Loops in LLMs: How training data properties modulate distribution shift in generated data?
+
+**Score:** 90.0 | **Published:** 2025-07-03 | **Authors:** Grgur Kova\v{c}, J\'er\'emy Perez, R\'emy Portelas, Peter Ford Dominey, Pierre-Yves Oudeyer
+
+arXiv:2504.03814v3 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly used in the creation of online content, creating feedback loops as subsequent generations of mo...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.03814) | [📝 Analysis](8ae7002f4e0bc8b2a0b10e927215687f.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-03 09:29:41 UTC*

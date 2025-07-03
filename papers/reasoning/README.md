@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Eka-Eval : A Comprehensive Evaluation Framework for Large Language Models in Indian Languages
+
+**Score:** 90.0 | **Published:** 2025-07-03 | **Authors:** Samridhi Raj Sinha, Rajvee Sheth, Abhishek Upperwal, Mayank Singh
+
+arXiv:2507.01853v1 Announce Type: new 
+Abstract: The rapid advancement of Large Language Models (LLMs) has intensified the need for evaluation frameworks that go beyond English centric benchmarks and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.01853) | [📝 Analysis](6841ca462365ed3e0687873b4063ee16.md)
+
+---
+
+### Sequential Diagnosis with Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-03 | **Authors:** Harsha Nori, Mayank Daswani, Christopher Kelly, Scott Lundberg, Marco Tulio Ribeiro, Marc Wilson, Xiaoxuan Liu, Viknesh Sounderajah, Jonathan Carlson, Matthew P Lungren, Bay Gross, Peter Hames, Mustafa Suleyman, Dominic King, Eric Horvitz
+
+arXiv:2506.22405v2 Announce Type: replace 
+Abstract: Artificial intelligence holds great promise for expanding access to expert medical knowledge and reasoning. However, most evaluations of language m...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.22405) | [📝 Analysis](3d63611e3f2f32ae7677e0632d763230.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-03 09:29:41 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### On the Fundamental Impossibility of Hallucination Control in Large Language Models
+
+**Score:** 95.0 | **Published:** 2025-07-03 | **Authors:** Micha{\l} P. Karpowicz
+
+arXiv:2506.06382v2 Announce Type: replace-cross 
+Abstract: We prove that perfect hallucination control in large language models is mathematically impossible. No LLM inference mechanism can simultaneou...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06382) | [📝 Analysis](eaa84bed736a3d20e15ffe3977a4b36c.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-03 09:29:41 UTC*

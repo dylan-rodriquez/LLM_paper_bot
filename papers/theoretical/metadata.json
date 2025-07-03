@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "On the Fundamental Impossibility of Hallucination Control in Large Language Models",
+      "authors": [
+        "Micha{\\l} P. Karpowicz"
+      ],
+      "abstract": "arXiv:2506.06382v2 Announce Type: replace-cross \nAbstract: We prove that perfect hallucination control in large language models is mathematically impossible. No LLM inference mechanism can simultaneously achieve truthful response generation, semantic information conservation, relevant knowledge revelation, and knowledge-constrained optimality. This impossibility is fundamental, arising from the mathematical structure of information aggregation itself rather than engineering limitations. The proof spans three mathematical frameworks: auction theory, proper scoring theory for probabilistic predictions, and log-sum-exp analysis for transformer architectures. In each setting, we demonstrate that information aggregation creates unavoidable violations of conservation principles. The Jensen gap in transformer probability aggregation provides a direct measure of this impossibility. These results reframe hallucination from an engineering bug to an inevitable mathematical feature of distributed intelligence. There are fundamental trade-offs between truthfulness, knowledge utilization, and response completeness, providing principled foundations for managing rather than eliminating hallucination. This work reveals deep connections between neural network inference, philosophy of knowledge and reasoning, and classical results in game theory and information theory, opening new research directions for developing beneficial AI systems within mathematical constraints.",
+      "url": "https://arxiv.org/abs/2506.06382",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "stat.ML"
+      ],
+      "significance_score": 95,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 75,
+      "keywords": [
+        "hallucination",
+        "information",
+        "knowledge",
+        "mathematical",
+        "theory",
+        "aggregation",
+        "fundamental",
+        "impossibility",
+        "conservation",
+        "control"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a hugely important problem \u2013 the inherent limitations of controlling hallucinations in LLMs \u2013 with a novel mathematical approach. The use of multiple mathematical frameworks (auction theory, proper scoring theory, log-sum-exp analysis) to demonstrate a fundamental impossibility is impressive. While the abstract doesn't detail the specifics of the proof, the breadth of the approach suggests strong rigor, and the reframing of hallucination as a mathematical inevitability is a significant shift in perspective. The sentiment score is slightly lower as such a negative result might be met with some resistance initially.",
+      "paper_id": "eaa84bed736a3d20e15ffe3977a4b36c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-07-03T09:29:41.435660"
 }
