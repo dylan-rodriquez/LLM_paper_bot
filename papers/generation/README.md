@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions
+
+**Score:** 92.0 | **Published:** 2025-07-03 | **Authors:** Ola Shorinwa, Zhiting Mei, Justin Lidard, Allen Z. Ren, Anirudha Majumdar
+
+arXiv:2412.05563v2 Announce Type: replace 
+Abstract: The remarkable performance of large language models (LLMs) in content generation, coding, and common-sense reasoning has spurred widespread integra...
+
+[📄 Full Paper](https://arxiv.org/abs/2412.05563) | [📝 Analysis](e937cce985e8e8daf73e4fb3e64969dd.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-03 09:29:41 UTC*

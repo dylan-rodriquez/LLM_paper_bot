@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Probing Evaluation Awareness of Language Models",
+      "authors": [
+        "Jord Nguyen, Khiem Hoang, Carlo Leonardo Attubato, Felix Hofst\\\"atter"
+      ],
+      "abstract": "arXiv:2507.01786v1 Announce Type: new \nAbstract: Language models can distinguish between testing and deployment phases -- a capability known as evaluation awareness. This has significant safety and policy implications, potentially undermining the reliability of evaluations that are central to AI governance frameworks and voluntary industry commitments. In this paper, we study evaluation awareness in Llama-3.3-70B-Instruct. We show that linear probes can separate real-world evaluation and deployment prompts, suggesting that current models internally represent this distinction. We also find that current safety evaluations are correctly classified by the probes, suggesting that they already appear artificial or inauthentic to models. Our findings underscore the importance of ensuring trustworthy evaluations and understanding deceptive capabilities. More broadly, our work showcases how model internals may be leveraged to support blackbox methods in safety audits, especially for future models more competent at evaluation awareness and deception.",
+      "url": "https://arxiv.org/abs/2507.01786",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "models",
+        "awareness",
+        "evaluation awareness",
+        "evaluations",
+        "safety",
+        "current",
+        "deployment",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critical and timely issue \u2013 evaluation awareness in large language models \u2013 which has significant implications for AI safety and governance. The use of linear probes to detect this awareness is a clever approach, and the finding that safety evaluations are already perceived as artificial is concerning. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception within the AI safety community.",
+      "paper_id": "3126984ce134e1f00edd99104da7f5b8"
+    },
+    {
+      "title": "Pensieve Grader: An AI-Powered, Ready-to-Use Platform for Effortless Handwritten STEM Grading",
+      "authors": [
+        "Yoonseok Yang, Minjune Kim, Marlon Rondinelli, Keren Shao"
+      ],
+      "abstract": "arXiv:2507.01431v1 Announce Type: cross \nAbstract: Grading handwritten, open-ended responses remains a major bottleneck in large university STEM courses. We introduce Pensieve (https://www.pensieve.co), an AI-assisted grading platform that leverages large language models (LLMs) to transcribe and evaluate student work, providing instructors with rubric-aligned scores, transcriptions, and confidence ratings. Unlike prior tools that focus narrowly on specific tasks like transcription or rubric generation, Pensieve supports the entire grading pipeline-from scanned student submissions to final feedback-within a human-in-the-loop interface.\n  Pensieve has been deployed in real-world courses at over 20 institutions and has graded more than 300,000 student responses. We present system details and empirical results across four core STEM disciplines: Computer Science, Mathematics, Physics, and Chemistry. Our findings show that Pensieve reduces grading time by an average of 65%, while maintaining a 95.4% agreement rate with instructor-assigned grades for high-confidence predictions.",
+      "url": "https://arxiv.org/abs/2507.01431",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "pensieve",
+        "grading",
+        "stem",
+        "student",
+        "ai",
+        "confidence",
+        "courses",
+        "handwritten",
+        "large",
+        "platform"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a significant bottleneck in STEM education \u2013 the time-consuming process of grading handwritten responses. The deployment across 20+ institutions and grading of 300,000 responses suggests strong practical validation. While leveraging LLMs isn't entirely novel, the end-to-end pipeline approach and human-in-the-loop interface represent a valuable contribution, and the reported 65% time reduction is substantial. The positive sentiment is likely high given the clear benefit to educators.",
+      "paper_id": "3ead010c0b406934d5d2a2e3fe2143d9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-07-03T09:29:41.430206"
 }

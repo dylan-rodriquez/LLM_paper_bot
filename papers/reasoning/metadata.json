@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Eka-Eval : A Comprehensive Evaluation Framework for Large Language Models in Indian Languages",
+      "authors": [
+        "Samridhi Raj Sinha, Rajvee Sheth, Abhishek Upperwal, Mayank Singh"
+      ],
+      "abstract": "arXiv:2507.01853v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models (LLMs) has intensified the need for evaluation frameworks that go beyond English centric benchmarks and address the requirements of linguistically diverse regions such as India. We present EKA-EVAL, a unified and production-ready evaluation framework that integrates over 35 benchmarks, including 10 Indic-specific datasets, spanning categories like reasoning, mathematics, tool use, long-context understanding, and reading comprehension. Compared to existing Indian language evaluation tools, EKA-EVAL offers broader benchmark coverage, with built-in support for distributed inference, quantization, and multi-GPU usage. Our systematic comparison positions EKA-EVAL as the first end-to-end, extensible evaluation suite tailored for both global and Indic LLMs, significantly lowering the barrier to multilingual benchmarking. The framework is open-source and publicly available at https://github.com/lingo-iitgn/ eka-eval and a part of ongoing EKA initiative (https://eka.soket.ai), which aims to scale up to over 100 benchmarks and establish a robust, multilingual evaluation ecosystem for LLMs.",
+      "url": "https://arxiv.org/abs/2507.01853",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "eka",
+        "evaluation",
+        "eka eval",
+        "eval",
+        "benchmarks",
+        "framework",
+        "language",
+        "llms",
+        "end",
+        "evaluation framework"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of comprehensive benchmarks for Indian languages. The integration of 35+ benchmarks, including 10 Indic-specific datasets, and features like distributed inference support demonstrate a strong methodological approach. The open-source nature and focus on production readiness further enhance its value and likely positive reception within the community. The framework's ability to handle both global and Indic LLMs is a significant strength.",
+      "paper_id": "6841ca462365ed3e0687873b4063ee16"
+    },
+    {
+      "title": "Sequential Diagnosis with Language Models",
+      "authors": [
+        "Harsha Nori, Mayank Daswani, Christopher Kelly, Scott Lundberg, Marco Tulio Ribeiro, Marc Wilson, Xiaoxuan Liu, Viknesh Sounderajah, Jonathan Carlson, Matthew P Lungren, Bay Gross, Peter Hames, Mustafa Suleyman, Dominic King, Eric Horvitz"
+      ],
+      "abstract": "arXiv:2506.22405v2 Announce Type: replace \nAbstract: Artificial intelligence holds great promise for expanding access to expert medical knowledge and reasoning. However, most evaluations of language models rely on static vignettes and multiple-choice questions that fail to reflect the complexity and nuance of evidence-based medicine in real-world settings. In clinical practice, physicians iteratively formulate and revise diagnostic hypotheses, adapting each subsequent question and test to what they've just learned, and weigh the evolving evidence before committing to a final diagnosis. To emulate this iterative process, we introduce the Sequential Diagnosis Benchmark, which transforms 304 diagnostically challenging New England Journal of Medicine clinicopathological conference (NEJM-CPC) cases into stepwise diagnostic encounters. A physician or AI begins with a short case abstract and must iteratively request additional details from a gatekeeper model that reveals findings only when explicitly queried. Performance is assessed not just by diagnostic accuracy but also by the cost of physician visits and tests performed. We also present the MAI Diagnostic Orchestrator (MAI-DxO), a model-agnostic orchestrator that simulates a panel of physicians, proposes likely differential diagnoses and strategically selects high-value, cost-effective tests. When paired with OpenAI's o3 model, MAI-DxO achieves 80% diagnostic accuracy--four times higher than the 20% average of generalist physicians. MAI-DxO also reduces diagnostic costs by 20% compared to physicians, and 70% compared to off-the-shelf o3. When configured for maximum accuracy, MAI-DxO achieves 85.5% accuracy. These performance gains with MAI-DxO generalize across models from the OpenAI, Gemini, Claude, Grok, DeepSeek, and Llama families. We highlight how AI systems, when guided to think iteratively and act judiciously, can advance diagnostic precision and cost-effectiveness in clinical care.",
+      "url": "https://arxiv.org/abs/2506.22405",
+      "published_date": "2025-07-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "diagnostic",
+        "mai",
+        "dxo",
+        "mai dxo",
+        "accuracy",
+        "physicians",
+        "cost",
+        "diagnosis",
+        "iteratively",
+        "model"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial limitation in current LM evaluation \u2013 the lack of realistic, iterative diagnostic reasoning. The creation of the Sequential Diagnosis Benchmark using NEJM-CPC cases is a strong methodological contribution. While the core idea of iterative questioning isn't entirely novel, applying it specifically to medical diagnosis and framing it as a benchmark is significant and likely to be well-received by the community.",
+      "paper_id": "3d63611e3f2f32ae7677e0632d763230"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-07-03T09:29:41.431431"
 }
