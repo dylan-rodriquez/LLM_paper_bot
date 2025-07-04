@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Evaluating the Promise and Pitfalls of LLMs in Hiring Decisions",
+      "authors": [
+        "Eitan Anzenberg, Arunava Samajpati, Sivasankaran Chandrasekar, Varun Kacholia"
+      ],
+      "abstract": "arXiv:2507.02087v1 Announce Type: cross \nAbstract: The use of large language models (LLMs) in hiring promises to streamline candidate screening, but it also raises serious concerns regarding accuracy and algorithmic bias where sufficient safeguards are not in place. In this work, we benchmark several state-of-the-art foundational LLMs - including models from OpenAI, Anthropic, Google, Meta, and Deepseek, and compare them with our proprietary domain-specific hiring model (Match Score) for job candidate matching. We evaluate each model's predictive accuracy (ROC AUC, Precision-Recall AUC, F1-score) and fairness (impact ratio of cut-off analysis across declared gender, race, and intersectional subgroups). Our experiments on a dataset of roughly 10,000 real-world recent candidate-job pairs show that Match Score outperforms the general-purpose LLMs on accuracy (ROC AUC 0.85 vs 0.77) and achieves significantly more equitable outcomes across demographic groups. Notably, Match Score attains a minimum race-wise impact ratio of 0.957 (near-parity), versus 0.809 or lower for the best LLMs, (0.906 vs 0.773 for the intersectionals, respectively). We discuss why pretraining biases may cause LLMs with insufficient safeguards to propagate societal biases in hiring scenarios, whereas a bespoke supervised model can more effectively mitigate these biases. Our findings highlight the importance of domain-specific modeling and bias auditing when deploying AI in high-stakes domains such as hiring, and caution against relying on off-the-shelf LLMs for such tasks without extensive fairness safeguards. Furthermore, we show with empirical evidence that there shouldn't be a dichotomy between choosing accuracy and fairness in hiring: a well-designed algorithm can achieve both accuracy in hiring and fairness in outcomes.",
+      "url": "https://arxiv.org/abs/2507.02087",
+      "published_date": "2025-07-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "hiring",
+        "llms",
+        "accuracy",
+        "fairness",
+        "score",
+        "auc",
+        "biases",
+        "candidate",
+        "match",
+        "match score"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the use of LLMs in hiring \u2013 and provides a comparative benchmark against a proprietary model. The use of multiple LLMs and a focus on both accuracy *and* fairness is commendable. While the methodology appears sound, the innovation is somewhat incremental as it primarily benchmarks existing models; however, the strong performance of the proprietary 'Match Score' and the detailed fairness analysis are valuable contributions. The potential for real-world impact is high given the widespread adoption of LLMs and the critical need for fair hiring practices.",
+      "paper_id": "198f4be2cab4a0b3f3f8771ab5d355aa"
+    },
+    {
+      "title": "Delving into LLM-assisted writing in biomedical publications through excess vocabulary",
+      "authors": [
+        "Dmitry Kobak, Rita Gonz\\'alez-M\\'arquez, Em\\H{o}ke-\\'Agnes Horv\\'at, Jan Lause"
+      ],
+      "abstract": "arXiv:2406.07016v5 Announce Type: replace \nAbstract: Large language models (LLMs) like ChatGPT can generate and revise text with human-level performance. These models come with clear limitations: they can produce inaccurate information, reinforce existing biases, and be easily misused. Yet, many scientists use them for their scholarly writing. But how wide-spread is such LLM usage in the academic literature? To answer this question for the field of biomedical research, we present an unbiased, large-scale approach: we study vocabulary changes in over 15 million biomedical abstracts from 2010--2024 indexed by PubMed, and show how the appearance of LLMs led to an abrupt increase in the frequency of certain style words. This excess word analysis suggests that at least 13.5% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, countries, and journals, reaching 40% for some subcorpora. We show that LLMs have had an unprecedented impact on scientific writing in biomedical research, surpassing the effect of major world events such as the Covid pandemic.",
+      "url": "https://arxiv.org/abs/2406.07016",
+      "published_date": "2025-07-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "biomedical",
+        "llms",
+        "writing",
+        "2024",
+        "abstracts",
+        "biomedical research",
+        "excess",
+        "large",
+        "llm",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and timely issue \u2013 the impact of LLMs on scientific writing. The methodology of analyzing vocabulary changes in a massive dataset (15 million abstracts) is clever and provides a relatively unbiased approach to quantifying LLM usage. While the 'excess vocabulary' approach isn't entirely novel, its application to this specific problem and scale is strong, suggesting a significant contribution to understanding the evolving landscape of scientific publication.",
+      "paper_id": "475914c54b06dbc8f8b7bef45cccd2b2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-04T09:29:23.141724"
 }

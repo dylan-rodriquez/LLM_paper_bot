@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory
+
+**Score:** 92.0 | **Published:** 2025-07-04 | **Authors:** Kenneth Payne, Baptiste Alloui-Cros
+
+arXiv:2507.02618v1 Announce Type: cross 
+Abstract: Are Large Language Models (LLMs) a new form of strategic intelligence, able to reason about goals in competitive settings? We present compelling supp...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02618) | [📝 Analysis](7db88a6a3c43c6d4332115901b3f1e6f.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*

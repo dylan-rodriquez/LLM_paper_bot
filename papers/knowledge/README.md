@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### LLM Hypnosis: Exploiting User Feedback for Unauthorized Knowledge Injection to All Users
+
+**Score:** 92.0 | **Published:** 2025-07-04 | **Authors:** Almog Hilel, Idan Shenfeld, Leshem Choshen, Jacob Andreas
+
+arXiv:2507.02850v1 Announce Type: new 
+Abstract: We describe a vulnerability in language models (LMs) trained with user feedback, whereby a single user can persistently alter LM knowledge and behavior...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02850) | [📝 Analysis](ab49e2a52bd62af1d7d692ae3f345e54.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*

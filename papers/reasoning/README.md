@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs
+
+**Score:** 92.0 | **Published:** 2025-07-04 | **Authors:** Mohammad Ali Alomrani, Yingxue Zhang, Derek Li, Qianyi Sun, Soumyasundar Pal, Zhanguang Zhang, Yaochen Hu, Rohan Deepak Ajwani, Antonios Valkanas, Raika Karimi, Peng Cheng, Yunzhou Wang, Pengyi Liao, Hanrui Huang, Bin Wang, Jianye Hao, Mark Coates
+
+arXiv:2507.02076v1 Announce Type: new 
+Abstract: Large language models (LLMs) have rapidly progressed into general-purpose agents capable of solving a broad spectrum of tasks. However, current models ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02076) | [📝 Analysis](3384ca3d668d09b72bd76a5b8724ecd5.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*

@@ -191,7 +191,71 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+      "authors": [
+        "Ruofan Jin, Zaixi Zhang, Mengdi Wang, Le Cong"
+      ],
+      "abstract": "arXiv:2507.02004v1 Announce Type: cross \nAbstract: The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents offer a solution, they typically rely on static, manually curated toolsets, limiting their ability to adapt and scale. Here, we introduce STELLA, a self-evolving AI agent designed to overcome these limitations. STELLA employs a multi-agent architecture that autonomously improves its own capabilities through two core mechanisms: an evolving Template Library for reasoning strategies and a dynamic Tool Ocean that expands as a Tool Creation Agent automatically discovers and integrates new bioinformatics tools. This allows STELLA to learn from experience. We demonstrate that STELLA achieves state-of-the-art accuracy on a suite of biomedical benchmarks, scoring approximately 26\\% on Humanity's Last Exam: Biomedicine, 54\\% on LAB-Bench: DBQA, and 63\\% on LAB-Bench: LitQA, outperforming leading models by up to 6 percentage points. More importantly, we show that its performance systematically improves with experience; for instance, its accuracy on the Humanity's Last Exam benchmark almost doubles with increased trials. STELLA represents a significant advance towards AI Agent systems that can learn and grow, dynamically scaling their expertise to accelerate the pace of biomedical discovery.",
+      "url": "https://arxiv.org/abs/2507.02004",
+      "published_date": "2025-07-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "stella",
+        "agent",
+        "biomedical",
+        "ai",
+        "evolving",
+        "accuracy",
+        "ai agent",
+        "bench",
+        "exam",
+        "experience"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial bottleneck in biomedical research \u2013 the explosion of data and tools. The self-evolving agent approach, with its evolving template library and dynamic tool ocean, is a novel and promising solution. The reported state-of-the-art results on challenging benchmarks further strengthen the paper's quality and potential impact, suggesting a well-executed and rigorous study.",
+      "paper_id": "c78faf952ad31ef669a87f8387ede9d6"
+    },
+    {
+      "title": "From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents",
+      "authors": [
+        "Weizhi Zhang, Yangning Li, Yuanchen Bei, Junyu Luo, Guancheng Wan, Liangwei Yang, Chenxuan Xie, Yuyao Yang, Wei-Chieh Huang, Chunyu Miao, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Yankai Chen, Chunkit Chan, Peilin Zhou, Xinyang Zhang, Chenwei Zhang, Jingbo Shang, Ming Zhang, Yangqiu Song, Irwin King, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2506.18959v3 Announce Type: replace-cross \nAbstract: Information retrieval is a cornerstone of modern knowledge acquisition, enabling billions of queries each day across diverse domains. However, traditional keyword-based search engines are increasingly inadequate for handling complex, multi-step information needs. Our position is that Large Language Models (LLMs), endowed with reasoning and agentic capabilities, are ushering in a new paradigm termed Agentic Deep Research. These systems transcend conventional information search techniques by tightly integrating autonomous reasoning, iterative retrieval, and information synthesis into a dynamic feedback loop. We trace the evolution from static web search to interactive, agent-based systems that plan, explore, and learn. We also introduce a test-time scaling law to formalize the impact of computational depth on reasoning and search. Supported by benchmark results and the rise of open-source implementations, we demonstrate that Agentic Deep Research not only significantly outperforms existing approaches, but is also poised to become the dominant paradigm for future information seeking. All the related resources, including industry products, research papers, benchmark datasets, and open-source implementations, are collected for the community in https://github.com/DavidZWZ/Awesome-Deep-Research.",
+      "url": "https://arxiv.org/abs/2506.18959",
+      "published_date": "2025-07-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "search",
+        "information",
+        "research",
+        "agentic",
+        "deep",
+        "deep research",
+        "reasoning",
+        "agentic deep",
+        "based",
+        "benchmark"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a highly relevant and increasingly important problem \u2013 the limitations of traditional search in the age of complex information needs. The framing of 'Agentic Deep Research' is compelling and positions LLMs as a natural evolution of search technology. The mention of a test-time scaling law suggests a rigorous approach, and the reference to open-source implementations indicates potential for broad adoption and further research. The high sentiment score reflects the current excitement around LLM-powered agents.",
+      "paper_id": "c90f2b306aa29f4738aa6100a9a346d7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-07-04T09:29:23.140938"
 }

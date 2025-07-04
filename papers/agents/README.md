@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### STELLA: Self-Evolving LLM Agent for Biomedical Research
+
+**Score:** 92.0 | **Published:** 2025-07-04 | **Authors:** Ruofan Jin, Zaixi Zhang, Mengdi Wang, Le Cong
+
+arXiv:2507.02004v1 Announce Type: cross 
+Abstract: The rapid growth of biomedical data, tools, and literature has created a fragmented research landscape that outpaces human expertise. While AI agents...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02004) | [📝 Analysis](c78faf952ad31ef669a87f8387ede9d6.md)
+
+---
+
+### From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents
+
+**Score:** 90.0 | **Published:** 2025-07-04 | **Authors:** Weizhi Zhang, Yangning Li, Yuanchen Bei, Junyu Luo, Guancheng Wan, Liangwei Yang, Chenxuan Xie, Yuyao Yang, Wei-Chieh Huang, Chunyu Miao, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Yankai Chen, Chunkit Chan, Peilin Zhou, Xinyang Zhang, Chenwei Zhang, Jingbo Shang, Ming Zhang, Yangqiu Song, Irwin King, Philip S. Yu
+
+arXiv:2506.18959v3 Announce Type: replace-cross 
+Abstract: Information retrieval is a cornerstone of modern knowledge acquisition, enabling billions of queries each day across diverse domains. However...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.18959) | [📝 Analysis](c90f2b306aa29f4738aa6100a9a346d7.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*
