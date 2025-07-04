@@ -95,7 +95,39 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "LLM Hypnosis: Exploiting User Feedback for Unauthorized Knowledge Injection to All Users",
+      "authors": [
+        "Almog Hilel, Idan Shenfeld, Leshem Choshen, Jacob Andreas"
+      ],
+      "abstract": "arXiv:2507.02850v1 Announce Type: new \nAbstract: We describe a vulnerability in language models (LMs) trained with user feedback, whereby a single user can persistently alter LM knowledge and behavior given only the ability to provide prompts and upvote / downvote feedback on LM outputs. To implement the attack, the attacker prompts the LM to stochastically output either a \"poisoned\" or benign response, then upvotes the poisoned response or downvotes the benign one. When feedback signals are used in a subsequent preference tuning behavior, LMs exhibit increased probability of producing poisoned responses even in contexts without malicious prompts. We show that this attack can be used to (1) insert factual knowledge the model did not previously possess, (2) modify code generation patterns in ways that introduce exploitable security flaws, and (3) inject fake financial news. Our finding both identifies a new qualitative feature of language model preference tuning (showing that it even highly restricted forms of preference data can be used to exert fine-grained control over behavior), and a new attack mechanism for LMs trained with user feedback (extending work on pretraining-time data poisoning and deployment-time prompt injection).",
+      "url": "https://arxiv.org/abs/2507.02850",
+      "published_date": "2025-07-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "feedback",
+        "user",
+        "attack",
+        "behavior",
+        "knowledge",
+        "lm",
+        "lms",
+        "new",
+        "poisoned",
+        "preference"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This research identifies a critical vulnerability in LLMs leveraging reinforcement learning from human feedback (RLHF). The ability for a single malicious actor to persistently alter model behavior and inject knowledge is a significant security concern. The demonstrated attacks \u2013 factual insertion, code manipulation, and fake news injection \u2013 highlight the real-world implications, and the finding that preference tuning *amplifies* this vulnerability is particularly concerning.",
+      "paper_id": "ab49e2a52bd62af1d7d692ae3f345e54"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2025-07-04T09:29:23.140244"
 }

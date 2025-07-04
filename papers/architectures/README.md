@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent
+
+**Score:** 90.0 | **Published:** 2025-07-04 | **Authors:** Hongli Yu, Tinghong Chen, Jiangtao Feng, Jiangjie Chen, Weinan Dai, Qiying Yu, Ya-Qin Zhang, Wei-Ying Ma, Jingjing Liu, Mingxuan Wang, Hao Zhou
+
+arXiv:2507.02259v1 Announce Type: new 
+Abstract: Despite improvements by length extrapolation, efficient attention and memory modules, handling infinitely long documents with linear complexity without...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02259) | [📝 Analysis](6476088aa65d87218e0b0ca9b82f6811.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*

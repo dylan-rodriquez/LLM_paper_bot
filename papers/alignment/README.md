@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Evaluating the Promise and Pitfalls of LLMs in Hiring Decisions
+
+**Score:** 92.0 | **Published:** 2025-07-04 | **Authors:** Eitan Anzenberg, Arunava Samajpati, Sivasankaran Chandrasekar, Varun Kacholia
+
+arXiv:2507.02087v1 Announce Type: cross 
+Abstract: The use of large language models (LLMs) in hiring promises to streamline candidate screening, but it also raises serious concerns regarding accuracy ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02087) | [📝 Analysis](198f4be2cab4a0b3f3f8771ab5d355aa.md)
+
+---
+
+### Delving into LLM-assisted writing in biomedical publications through excess vocabulary
+
+**Score:** 90.0 | **Published:** 2025-07-04 | **Authors:** Dmitry Kobak, Rita Gonz\'alez-M\'arquez, Em\H{o}ke-\'Agnes Horv\'at, Jan Lause
+
+arXiv:2406.07016v5 Announce Type: replace 
+Abstract: Large language models (LLMs) like ChatGPT can generate and revise text with human-level performance. These models come with clear limitations: they...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.07016) | [📝 Analysis](475914c54b06dbc8f8b7bef45cccd2b2.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-04 09:29:23 UTC*
