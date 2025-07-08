@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-08 | **Authors:** Chaozhuo Li, Pengbo Wang, Chenxu Wang, Litian Zhang, Zheng Liu, Qiwei Ye, Yuanbo Xu, Feiran Huang, Xi Zhang, Philip S. Yu
+
+arXiv:2507.02870v1 Announce Type: new 
+Abstract: Edgar Allan Poe noted, "Truth often lurks in the shadow of error," highlighting the deep complexity intrinsic to the interplay between truth and falseh...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02870) | [📝 Analysis](51284df9fedb57a6124fd8f42a34896a.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-08 09:30:47 UTC*

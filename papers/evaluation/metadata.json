@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "K-Function: Joint Pronunciation Transcription and Feedback for Evaluating Kids Language Function",
+      "authors": [
+        "Shuhe Li, Chenxu Guo, Jiachen Lian, Cheol Jun Cho, Wenshuo Zhao, Xuanru Zhou, Dingkun Zhou, Sam Wang, Grace Wang, Jingze Yang, Jingyi Xu, Ruohan Bao, Elise Brenner, Brandon In, Francesca Pei, Maria Luisa Gorno-Tempini, Gopala Anumanchipalli"
+      ],
+      "abstract": "arXiv:2507.03043v1 Announce Type: new \nAbstract: Early evaluation of children's language is frustrated by the high pitch, long phones, and sparse data that derail automatic speech recognisers. We introduce K-Function, a unified framework that combines accurate sub-word transcription, objective scoring, and actionable feedback. Its core, Kids-WFST, merges a Wav2Vec2 phoneme encoder with a phoneme-similarity Dysfluent-WFST to capture child-specific errors while remaining fully interpretable. Kids-WFST attains 1.39% phoneme error on MyST and 8.61% on Multitudes--absolute gains of 10.47 and 7.06 points over a greedy-search decoder. These high-fidelity transcripts power an LLM that grades verbal skills, milestones, reading, and comprehension, aligning with human proctors and supplying tongue-and-lip visualizations plus targeted advice. The results show that precise phoneme recognition cements a complete diagnostic-feedback loop, paving the way for scalable, clinician-ready language assessment.",
+      "url": "https://arxiv.org/abs/2507.03043",
+      "published_date": "2025-07-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "phoneme",
+        "feedback",
+        "function",
+        "kids",
+        "language",
+        "wfst",
+        "high",
+        "kids wfst",
+        "transcription",
+        "03043v1"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in child language assessment, which is notoriously difficult for ASR systems. The combination of a Wav2Vec2 encoder with a custom Dysfluent-WFST (Kids-WFST) appears to be a novel and effective approach, demonstrated by the significant gains in phoneme error rate. The integration with an LLM for grading and feedback further enhances the practical potential of the work, suggesting a complete and scalable solution.",
+      "paper_id": "2e0b178526b4409ae164c2abf3a66a82"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-08T09:30:47.937565"
 }

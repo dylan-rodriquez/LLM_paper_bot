@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### WETBench: A Benchmark for Detecting Task-Specific Machine-Generated Text on Wikipedia
+
+**Score:** 92.0 | **Published:** 2025-07-08 | **Authors:** Gerrit Quaremba, Elizabeth Black, Denny Vrande\v{c}i\'c, Elena Simperl
+
+arXiv:2507.03373v1 Announce Type: new 
+Abstract: Given Wikipedia's role as a trusted source of high-quality, reliable content, concerns are growing about the proliferation of low-quality machine-gener...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.03373) | [📝 Analysis](186f767ac632e2149aa80a36e1ed27c9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-08 09:30:47 UTC*

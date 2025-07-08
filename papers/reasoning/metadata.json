@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "H2HTalk: Evaluating Large Language Models as Emotional Companion",
+      "authors": [
+        "Boyang Wang, Yalun Wu, Hongcheng Guo, Zhoujun Li"
+      ],
+      "abstract": "arXiv:2507.03543v1 Announce Type: new \nAbstract: As digital emotional support needs grow, Large Language Model companions offer promising authentic, always-available empathy, though rigorous evaluation lags behind model advancement. We present Heart-to-Heart Talk (H2HTalk), a benchmark assessing companions across personality development and empathetic interaction, balancing emotional intelligence with linguistic fluency. H2HTalk features 4,650 curated scenarios spanning dialogue, recollection, and itinerary planning that mirror real-world support conversations, substantially exceeding previous datasets in scale and diversity. We incorporate a Secure Attachment Persona (SAP) module implementing attachment-theory principles for safer interactions. Benchmarking 50 LLMs with our unified protocol reveals that long-horizon planning and memory retention remain key challenges, with models struggling when user needs are implicit or evolve mid-conversation. H2HTalk establishes the first comprehensive benchmark for emotionally intelligent companions. We release all materials to advance development of LLMs capable of providing meaningful and safe psychological support.",
+      "url": "https://arxiv.org/abs/2507.03543",
+      "published_date": "2025-07-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "h2htalk",
+        "companions",
+        "emotional",
+        "support",
+        "attachment",
+        "benchmark",
+        "development",
+        "heart",
+        "language",
+        "large"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and growing need for evaluating emotional support LLMs. The creation of the H2HTalk benchmark, significantly larger and more diverse than existing datasets, is a strong methodological contribution. The incorporation of attachment theory via the SAP module adds a layer of safety and theoretical grounding, and the initial benchmarking results highlight key challenges for current LLMs. The work is well-scoped and clearly presented, suggesting a high likelihood of positive reception within the NLP community.",
+      "paper_id": "25b05bdd185b38a8fe20968a913b5aba"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-07-08T09:30:47.941075"
 }

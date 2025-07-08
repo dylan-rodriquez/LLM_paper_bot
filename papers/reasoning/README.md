@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### H2HTalk: Evaluating Large Language Models as Emotional Companion
+
+**Score:** 90.0 | **Published:** 2025-07-08 | **Authors:** Boyang Wang, Yalun Wu, Hongcheng Guo, Zhoujun Li
+
+arXiv:2507.03543v1 Announce Type: new 
+Abstract: As digital emotional support needs grow, Large Language Model companions offer promising authentic, always-available empathy, though rigorous evaluatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.03543) | [📝 Analysis](25b05bdd185b38a8fe20968a913b5aba.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-08 09:30:47 UTC*

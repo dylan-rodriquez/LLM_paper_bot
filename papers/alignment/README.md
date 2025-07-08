@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### `For Argument's Sake, Show Me How to Harm Myself!': Jailbreaking LLMs in Suicide and Self-Harm Contexts
+
+**Score:** 95.0 | **Published:** 2025-07-08 | **Authors:** Annika M Schoene, Cansu Canca
+
+arXiv:2507.02990v1 Announce Type: new 
+Abstract: Recent advances in large language models (LLMs) have led to increasingly sophisticated safety protocols and features designed to prevent harmful, uneth...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.02990) | [📝 Analysis](39d84626ed28578c0229034257b00678.md)
+
+---
+
+### Expert-level validation of AI-generated medical text with scalable language models
+
+**Score:** 90.0 | **Published:** 2025-07-08 | **Authors:** Asad Aali, Vasiliki Bikia, Maya Varma, Nicole Chiou, Sophie Ostmeier, Arnav Singhvi, Magdalini Paschali, Ashwin Kumar, Andrew Johnston, Karimar Amador-Martinez, Eduardo Juan Perez Guerrero, Paola Naovi Cruz Rivera, Sergios Gatidis, Christian Bluethgen, Eduardo Pontes Reis, Eddy D. Zandee van Rilland, Poonam Laxmappa Hosamani, Kevin R Keet, Minjoung Go, Evelyn Ling, David B. Larson, Curtis Langlotz, Roxana Daneshjou, Jason Hom, Sanmi Koyejo, Emily Alsentzer, Akshay S. Chaudhari
+
+arXiv:2507.03152v1 Announce Type: new 
+Abstract: With the growing use of language models (LMs) in clinical environments, there is an immediate need to evaluate the accuracy and safety of LM-generated ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.03152) | [📝 Analysis](b00e99c4ea9c0da11a699dfb9925ac1c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-08 09:30:47 UTC*
