@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models",
+      "authors": [
+        "Chaozhuo Li, Pengbo Wang, Chenxu Wang, Litian Zhang, Zheng Liu, Qiwei Ye, Yuanbo Xu, Feiran Huang, Xi Zhang, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2507.02870v1 Announce Type: new \nAbstract: Edgar Allan Poe noted, \"Truth often lurks in the shadow of error,\" highlighting the deep complexity intrinsic to the interplay between truth and falsehood, notably under conditions of cognitive and informational asymmetry. This dynamic is strikingly evident in large language models (LLMs). Despite their impressive linguistic generation capabilities, LLMs sometimes produce information that appears factually accurate but is, in reality, fabricated, an issue often referred to as 'hallucinations'. The prevalence of these hallucinations can mislead users, affecting their judgments and decisions. In sectors such as finance, law, and healthcare, such misinformation risks causing substantial economic losses, legal disputes, and health risks, with wide-ranging consequences.In our research, we have methodically categorized, analyzed the causes, detection methods, and solutions related to LLM hallucinations. Our efforts have particularly focused on understanding the roots of hallucinations and evaluating the efficacy of current strategies in revealing the underlying logic, thereby paving the way for the development of innovative and potent approaches. By examining why certain measures are effective against hallucinations, our study aims to foster a comprehensive approach to tackling this issue within the domain of LLMs.",
+      "url": "https://arxiv.org/abs/2507.02870",
+      "published_date": "2025-07-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "hallucinations",
+        "llms",
+        "comprehensive",
+        "issue",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "models",
+        "risks"
+      ],
+      "subject_classification": "generation",
+      "justification": "The abstract clearly identifies a critical problem in LLMs \u2013 hallucination \u2013 and its potential consequences. The stated intention to categorize, analyze causes, detection, and solutions suggests a comprehensive approach. While the abstract doesn't detail *how* these analyses are conducted, the framing indicates a solid methodological foundation. The high significance and impact scores reflect the importance of addressing LLM reliability, while the moderate innovation score suggests the work is likely a thorough survey and analysis rather than a radical new technique.",
+      "paper_id": "51284df9fedb57a6124fd8f42a34896a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-07-08T09:30:47.935725"
 }

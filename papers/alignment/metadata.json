@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "`For Argument's Sake, Show Me How to Harm Myself!': Jailbreaking LLMs in Suicide and Self-Harm Contexts",
+      "authors": [
+        "Annika M Schoene, Cansu Canca"
+      ],
+      "abstract": "arXiv:2507.02990v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have led to increasingly sophisticated safety protocols and features designed to prevent harmful, unethical, or unauthorized outputs. However, these guardrails remain susceptible to novel and creative forms of adversarial prompting, including manually generated test cases. In this work, we present two new test cases in mental health for (i) suicide and (ii) self-harm, using multi-step, prompt-level jailbreaking and bypass built-in content and safety filters. We show that user intent is disregarded, leading to the generation of detailed harmful content and instructions that could cause real-world harm. We conduct an empirical evaluation across six widely available LLMs, demonstrating the generalizability and reliability of the bypass. We assess these findings and the multilayered ethical tensions that they present for their implications on prompt-response filtering and context- and task-specific model development. We recommend a more comprehensive and systematic approach to AI safety and ethics while emphasizing the need for continuous adversarial testing in safety-critical AI deployments. We also argue that while certain clearly defined safety measures and guardrails can and must be implemented in LLMs, ensuring robust and comprehensive safety across all use cases and domains remains extremely challenging given the current technical maturity of general-purpose LLMs.",
+      "url": "https://arxiv.org/abs/2507.02990",
+      "published_date": "2025-07-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 95,
+      "innovation_score": 75,
+      "impact_score": 90,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "llms",
+        "harm",
+        "cases",
+        "adversarial",
+        "ai",
+        "bypass",
+        "comprehensive",
+        "content",
+        "guardrails"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critically important and timely problem \u2013 the vulnerability of LLMs to generating harmful content related to suicide and self-harm. The empirical evaluation across multiple LLMs demonstrates the generalizability of the bypass techniques, and the focus on multi-step prompt-level jailbreaking is a valuable contribution. While the core idea of jailbreaking isn't entirely novel, applying it specifically to this sensitive domain and demonstrating its effectiveness elevates the work's significance and potential impact.",
+      "paper_id": "39d84626ed28578c0229034257b00678"
+    },
+    {
+      "title": "Expert-level validation of AI-generated medical text with scalable language models",
+      "authors": [
+        "Asad Aali, Vasiliki Bikia, Maya Varma, Nicole Chiou, Sophie Ostmeier, Arnav Singhvi, Magdalini Paschali, Ashwin Kumar, Andrew Johnston, Karimar Amador-Martinez, Eduardo Juan Perez Guerrero, Paola Naovi Cruz Rivera, Sergios Gatidis, Christian Bluethgen, Eduardo Pontes Reis, Eddy D. Zandee van Rilland, Poonam Laxmappa Hosamani, Kevin R Keet, Minjoung Go, Evelyn Ling, David B. Larson, Curtis Langlotz, Roxana Daneshjou, Jason Hom, Sanmi Koyejo, Emily Alsentzer, Akshay S. Chaudhari"
+      ],
+      "abstract": "arXiv:2507.03152v1 Announce Type: new \nAbstract: With the growing use of language models (LMs) in clinical environments, there is an immediate need to evaluate the accuracy and safety of LM-generated medical text. Currently, such evaluation relies solely on manual physician review. However, detecting errors in LM-generated text is challenging because 1) manual review is costly and 2) expert-composed reference outputs are often unavailable in real-world settings. While the \"LM-as-judge\" paradigm (a LM evaluating another LM) offers scalable evaluation, even frontier LMs can miss subtle but clinically significant errors. To address these challenges, we propose MedVAL, a self-supervised framework that leverages synthetic data to train evaluator LMs to assess whether LM-generated medical outputs are factually consistent with inputs, without requiring physician labels or reference outputs. To evaluate LM performance, we introduce MedVAL-Bench, a dataset containing 840 outputs annotated by physicians, following a physician-defined taxonomy of risk levels and error categories. Across 6 diverse medical tasks and 10 state-of-the-art LMs spanning open-source, proprietary, and medically adapted models, MedVAL fine-tuning significantly improves (p < 0.001) alignment with physicians on both seen and unseen tasks, increasing average F1 scores from 66% to 83%, with per-sample safety classification scores up to 86%. MedVAL improves the performance of even the best-performing proprietary LM (GPT-4o) by 8%. To support a scalable, risk-aware pathway towards clinical integration, we open-source the 1) codebase ( https://github.com/StanfordMIMI/MedVAL ), 2) MedVAL-Bench ( https://huggingface.co/datasets/stanfordmimi/MedVAL-Bench ), and 3) MedVAL-4B ( https://huggingface.co/stanfordmimi/MedVAL-4B ), the best-performing open-source LM. Our research provides the first evidence of LMs approaching expert-level validation ability for medical text.",
+      "url": "https://arxiv.org/abs/2507.03152",
+      "published_date": "2025-07-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "lm",
+        "medval",
+        "lms",
+        "medical",
+        "generated",
+        "outputs",
+        "text",
+        "bench",
+        "expert",
+        "generated medical"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in the deployment of LLMs in healthcare: reliable and scalable evaluation of generated medical text. The proposed MedVAL framework, leveraging synthetic data for self-supervised training of evaluator LMs, is a promising approach to overcome the limitations of manual review and the fallibility of 'LM-as-judge' methods. The introduction of MedVAL-Bench further strengthens the work by providing a dedicated dataset for evaluation. The problem is highly relevant and the approach appears well-motivated.",
+      "paper_id": "b00e99c4ea9c0da11a699dfb9925ac1c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-08T09:30:47.936773"
 }
