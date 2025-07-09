@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Hidden Prompts in Manuscripts Exploit AI-Assisted Peer Review
+
+**Score:** 92.0 | **Published:** 2025-07-09 | **Authors:** Zhicheng Lin
+
+arXiv:2507.06185v1 Announce Type: cross 
+Abstract: In July 2025, 18 academic manuscripts on the preprint website arXiv were found to contain hidden instructions known as prompts designed to manipulate...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.06185) | [📝 Analysis](af05a8eaac102cf5ce172f6b782da214.md)
+
+---
+
+### NeoBabel: A Multilingual Open Tower for Visual Generation
+
+**Score:** 90.0 | **Published:** 2025-07-09 | **Authors:** Mohammad Mahdi Derakhshani, Dheeraj Varghese, Marzieh Fadaee, Cees G. M. Snoek
+
+arXiv:2507.06137v1 Announce Type: new 
+Abstract: Text-to-image generation advancements have been predominantly English-centric, creating barriers for non-English speakers and perpetuating digital ineq...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.06137) | [📝 Analysis](30fba7b2c1cdaed55cfacf16232c4bc2.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-09 09:31:14 UTC*

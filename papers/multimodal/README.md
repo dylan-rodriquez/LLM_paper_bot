@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark
+
+**Score:** 90.0 | **Published:** 2025-07-09 | **Authors:** He Wang, Linhan Ma, Dake Guo, Xiong Wang, Lei Xie, Jin Xu, Junyang Lin
+
+arXiv:2507.05727v1 Announce Type: cross 
+Abstract: Automatic Speech Recognition (ASR) has been extensively investigated, yet prior evaluative efforts have largely been restricted to contextless paradi...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.05727) | [📝 Analysis](f852e055d2bcdc7f1fab36642fa85e00.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-09 09:31:14 UTC*
