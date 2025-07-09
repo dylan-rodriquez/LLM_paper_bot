@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark",
+      "authors": [
+        "He Wang, Linhan Ma, Dake Guo, Xiong Wang, Lei Xie, Jin Xu, Junyang Lin"
+      ],
+      "abstract": "arXiv:2507.05727v1 Announce Type: cross \nAbstract: Automatic Speech Recognition (ASR) has been extensively investigated, yet prior evaluative efforts have largely been restricted to contextless paradigms. This constraint stems from the limited proficiency of conventional ASR models in context modeling and their deficiency in memory and reasoning based on world knowledge. Recent breakthroughs in the development of Large Language Models (LLMs) and corresponding Large Audio Language Models (LALMs) have markedly enhanced the visibility of general artificial intelligence capabilities. Consequently, there exists a compelling need for a benchmark that can evaluate both the generality and intelligence of ASR systems. To address this gap, we propose ContextASR-Bench: a comprehensive, large-scale benchmark designed to assess contextual speech recognition. This benchmark encompasses up to 40,000 data entries across over 10 domains, enabling a thorough evaluation of model performance in scenarios that omit or incorporate coarse-grained or fine-grained contextual information. Moreover, diverging from conventional ASR evaluations, our benchmark includes an analysis of model efficacy in recognizing named entities mentioned within the auditory input. Our extensive evaluation highlights that LALMs, with strong world knowledge and context learning capabilities, outperform conventional ASR models by a large margin. The dataset and evaluation code have been released at https://github.com/MrSupW/ContextASR-Bench.",
+      "url": "https://arxiv.org/abs/2507.05727",
+      "published_date": "2025-07-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "eess.AS"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "asr",
+        "benchmark",
+        "large",
+        "models",
+        "bench",
+        "contextasr",
+        "contextasr bench",
+        "contextual",
+        "conventional",
+        "conventional asr"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in ASR evaluation by recognizing the need to move beyond contextless benchmarks, especially given the rise of LLMs and LALMs. The proposed ContextASR-Bench, with its large scale (40k entries, 10+ domains), appears well-motivated and designed for thorough evaluation. The focus on 'generality and intelligence' in ASR is timely and likely to resonate with the research community. The scale and scope suggest a rigorous effort.",
+      "paper_id": "f852e055d2bcdc7f1fab36642fa85e00"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-07-09T09:31:14.167075"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### GPTKB v1.5: A Massive Knowledge Base for Exploring Factual LLM Knowledge
+
+**Score:** 90.0 | **Published:** 2025-07-09 | **Authors:** Yujia Hu, Tuan-Phong Nguyen, Shrestha Ghosh, Moritz M\"uller, Simon Razniewski
+
+arXiv:2507.05740v1 Announce Type: new 
+Abstract: Language models are powerful tools, yet their factual knowledge is still poorly understood, and inaccessible to ad-hoc browsing and scalable statistica...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.05740) | [📝 Analysis](1f9e07ab2dc2118d27e8200eaec6e12b.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-09 09:31:14 UTC*

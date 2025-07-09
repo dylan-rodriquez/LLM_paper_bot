@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### The Landscape of Memorization in LLMs: Mechanisms, Measurement, and Mitigation
+
+**Score:** 92.0 | **Published:** 2025-07-09 | **Authors:** Alexander Xiong, Xuandong Zhao, Aneesh Pappu, Dawn Song
+
+arXiv:2507.05578v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of tasks, yet they also exhibit memorization of their trai...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.05578) | [📝 Analysis](f5b9070f7a774363a72a14345b79972e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-09 09:31:14 UTC*
