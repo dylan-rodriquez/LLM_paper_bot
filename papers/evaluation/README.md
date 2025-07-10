@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### GuidedBench: Measuring and Mitigating the Evaluation Discrepancies of In-the-wild LLM Jailbreak Methods
+
+**Score:** 92.0 | **Published:** 2025-07-10 | **Authors:** Ruixuan Huang, Xunguang Wang, Zongjie Li, Daoyuan Wu, Shuai Wang
+
+arXiv:2502.16903v2 Announce Type: replace 
+Abstract: Despite the growing interest in jailbreak methods as an effective red-teaming tool for building safe and responsible large language models (LLMs), ...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.16903) | [📝 Analysis](8fffc20af91e51ab68d768ab6e7f9622.md)
+
+---
+
+### The bitter lesson of misuse detection
+
+**Score:** 90.0 | **Published:** 2025-07-10 | **Authors:** Hadrien Mariaccia, Charbel-Rapha\"el Segerie, Diego Dorn
+
+arXiv:2507.06282v1 Announce Type: cross 
+Abstract: Prior work on jailbreak detection has established the importance of adversarial robustness for LLMs but has largely focused on the model ability to r...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.06282) | [📝 Analysis](3fb3639d559201c526b17a411b0493d0.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-10 09:31:22 UTC*
