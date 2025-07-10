@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Safer or Luckier? LLMs as Safety Evaluators Are Not Robust to Artifacts
+
+**Score:** 92.0 | **Published:** 2025-07-10 | **Authors:** Hongyu Chen, Seraphina Goldfarb-Tarrant
+
+arXiv:2503.09347v3 Announce Type: replace 
+Abstract: Large Language Models (LLMs) are increasingly employed as automated evaluators to assess the safety of generated content, yet their reliability in ...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.09347) | [📝 Analysis](fadff4843d9baa05699b0011142e1e51.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-10 09:31:22 UTC*
