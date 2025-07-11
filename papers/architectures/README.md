@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### When Large Language Models Meet Law: Dual-Lens Taxonomy, Technical Advances, and Ethical Governance
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Peizhang Shao, Linrui Xu, Jinxi Wang, Wei Zhou, Xingyu Wu
+
+arXiv:2507.07748v1 Announce Type: new 
+Abstract: This paper establishes the first comprehensive review of Large Language Models (LLMs) applied within the legal domain. It pioneers an innovative dual l...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07748) | [📝 Analysis](fbb8f0b05ab03abb5ddefc358e668816.md)
+
+---
+
+### May I have your Attention? Breaking Fine-Tuning based Prompt Injection Defenses using Architecture-Aware Attacks
+
+**Score:** 90.0 | **Published:** 2025-07-11 | **Authors:** Nishit V. Pandya, Andrey Labunets, Sicun Gao, Earlence Fernandes
+
+arXiv:2507.07417v1 Announce Type: cross 
+Abstract: A popular class of defenses against prompt injection attacks on large language models (LLMs) relies on fine-tuning the model to separate instructions...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07417) | [📝 Analysis](df62097f2656c30ff68710d2db502efc.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-11 09:30:10 UTC*

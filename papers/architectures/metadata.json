@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "When Large Language Models Meet Law: Dual-Lens Taxonomy, Technical Advances, and Ethical Governance",
+      "authors": [
+        "Peizhang Shao, Linrui Xu, Jinxi Wang, Wei Zhou, Xingyu Wu"
+      ],
+      "abstract": "arXiv:2507.07748v1 Announce Type: new \nAbstract: This paper establishes the first comprehensive review of Large Language Models (LLMs) applied within the legal domain. It pioneers an innovative dual lens taxonomy that integrates legal reasoning frameworks and professional ontologies to systematically unify historical research and contemporary breakthroughs. Transformer-based LLMs, which exhibit emergent capabilities such as contextual reasoning and generative argumentation, surmount traditional limitations by dynamically capturing legal semantics and unifying evidence reasoning. Significant progress is documented in task generalization, reasoning formalization, workflow integration, and addressing core challenges in text processing, knowledge integration, and evaluation rigor via technical innovations like sparse attention mechanisms and mixture-of-experts architectures. However, widespread adoption of LLM introduces critical challenges: hallucination, explainability deficits, jurisdictional adaptation difficulties, and ethical asymmetry. This review proposes a novel taxonomy that maps legal roles to NLP subtasks and computationally implements the Toulmin argumentation framework, thus systematizing advances in reasoning, retrieval, prediction, and dispute resolution. It identifies key frontiers including low-resource systems, multimodal evidence integration, and dynamic rebuttal handling. Ultimately, this work provides both a technical roadmap for researchers and a conceptual framework for practitioners navigating the algorithmic future, laying a robust foundation for the next era of legal artificial intelligence. We have created a GitHub repository to index the relevant papers: https://github.com/Kilimajaro/LLMs_Meet_Law.",
+      "url": "https://arxiv.org/abs/2507.07748",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "legal",
+        "reasoning",
+        "integration",
+        "taxonomy",
+        "technical",
+        "advances",
+        "argumentation",
+        "challenges",
+        "dual",
+        "dual lens"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper tackles a highly relevant and timely problem \u2013 the application of LLMs to the legal domain. The proposed 'dual-lens taxonomy' and focus on addressing challenges like hallucination and explainability suggest a rigorous and thoughtful approach. The mention of technical innovations like sparse attention and mixture-of-experts further strengthens the potential quality and impact of the work, indicating a strong understanding of current LLM advancements.",
+      "paper_id": "fbb8f0b05ab03abb5ddefc358e668816"
+    },
+    {
+      "title": "May I have your Attention? Breaking Fine-Tuning based Prompt Injection Defenses using Architecture-Aware Attacks",
+      "authors": [
+        "Nishit V. Pandya, Andrey Labunets, Sicun Gao, Earlence Fernandes"
+      ],
+      "abstract": "arXiv:2507.07417v1 Announce Type: cross \nAbstract: A popular class of defenses against prompt injection attacks on large language models (LLMs) relies on fine-tuning the model to separate instructions and data, so that the LLM does not follow instructions that might be present with data. There are several academic systems and production-level implementations of this idea. We evaluate the robustness of this class of prompt injection defenses in the whitebox setting by constructing strong optimization-based attacks and showing that the defenses do not provide the claimed security properties. Specifically, we construct a novel attention-based attack algorithm for text-based LLMs and apply it to two recent whitebox defenses SecAlign (CCS 2025) and StruQ (USENIX Security 2025), showing attacks with success rates of up to 70% with modest increase in attacker budget in terms of tokens. Our findings make fundamental progress towards understanding the robustness of prompt injection defenses in the whitebox setting. We release our code and attacks at https://github.com/nishitvp/better_opts_attacks",
+      "url": "https://arxiv.org/abs/2507.07417",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 85,
+      "keywords": [
+        "defenses",
+        "attacks",
+        "based",
+        "injection",
+        "prompt",
+        "prompt injection",
+        "injection defenses",
+        "whitebox",
+        "2025",
+        "attention"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 the security of LLMs against prompt injection attacks, specifically targeting defenses based on fine-tuning. The reported success rates (up to 70%) against established defenses like SecAlign and StruQ are concerning and suggest a significant vulnerability. The development of a novel attention-based attack algorithm demonstrates a thoughtful approach, and the whitebox setting allows for rigorous evaluation. The work appears well-positioned for publication and likely to generate discussion within the LLM security community.",
+      "paper_id": "df62097f2656c30ff68710d2db502efc"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-07-11T09:30:10.265227"
 }

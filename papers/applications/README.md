@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Apurv Verma, Satyapriya Krishna, Sebastian Gehrmann, Madhavan Seshadri, Anu Pradhan, Tom Ault, Leslie Barrett, David Rabinowitz, John Doucette, NhatHai Phan
+
+arXiv:2407.14937v2 Announce Type: replace 
+Abstract: Creating secure and resilient applications with large language models (LLM) requires anticipating, adjusting to, and countering unforeseen threats....
+
+[📄 Full Paper](https://arxiv.org/abs/2407.14937) | [📝 Analysis](d94dfa4e3e02b48ef6b89c901fe120d1.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-11 09:30:10 UTC*

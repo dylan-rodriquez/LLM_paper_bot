@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Decoding AI Judgment: How LLMs Assess News Credibility and Bias
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Edoardo Loru, Jacopo Nudo, Niccol\`o Di Marco, Alessandro Santirocchi, Roberto Atzeni, Matteo Cinelli, Vincenzo Cestari, Clelia Rossi-Arnaud, Walter Quattrociocchi
+
+arXiv:2502.04426v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) are increasingly embedded in workflows that involve evaluative processes. This raises the need to examine how such eva...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.04426) | [📝 Analysis](5e137e5a3aa35ced185294d3a99c1a3a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-11 09:30:10 UTC*

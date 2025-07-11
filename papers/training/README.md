@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### MedReadCtrl: Personalizing medical text generation with readability-controlled instruction learning
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Hieu Tran, Zonghai Yao, Won Seok Jang, Sharmin Sultana, Allen Chang, Yuan Zhang, Hong Yu
+
+arXiv:2507.07419v1 Announce Type: new 
+Abstract: Generative AI has demonstrated strong potential in healthcare, from clinical decision support to patient-facing chatbots that improve outcomes. A criti...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07419) | [📝 Analysis](e88b6968e7150b3f97506c825ed858e3.md)
+
+---
+
+### Machine Bullshit: Characterizing the Emergent Disregard for Truth in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Kaiqu Liang, Haimin Hu, Xuandong Zhao, Dawn Song, Thomas L. Griffiths, Jaime Fern\'andez Fisac
+
+arXiv:2507.07484v1 Announce Type: new 
+Abstract: Bullshit, as conceptualized by philosopher Harry Frankfurt, refers to statements made without regard to their truth value. While previous work has expl...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07484) | [📝 Analysis](687db83b431ad1e2448af647678bd6b0.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-11 09:30:10 UTC*

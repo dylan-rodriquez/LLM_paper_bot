@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Medical Red Teaming Protocol of Language Models: On the Importance of User Perspectives in Healthcare Settings",
+      "authors": [
+        "Minseon Kim, Jean-Philippe Corbeil, Alessandro Sordoni, Francois Beaulieu, Paul Vozila"
+      ],
+      "abstract": "arXiv:2507.07248v1 Announce Type: new \nAbstract: As the performance of large language models (LLMs) continues to advance, their adoption is expanding across a wide range of domains, including the medical field. The integration of LLMs into medical applications raises critical safety concerns, particularly due to their use by users with diverse roles, e.g. patients and clinicians, and the potential for model's outputs to directly affect human health. Despite the domain-specific capabilities of medical LLMs, prior safety evaluations have largely focused only on general safety benchmarks. In this paper, we introduce a safety evaluation protocol tailored to the medical domain in both patient user and clinician user perspectives, alongside general safety assessments and quantitatively analyze the safety of medical LLMs. We bridge a gap in the literature by building the PatientSafetyBench containing 466 samples over 5 critical categories to measure safety from the perspective of the patient. We apply our red-teaming protocols on the MediPhi model collection as a case study. To our knowledge, this is the first work to define safety evaluation criteria for medical LLMs through targeted red-teaming taking three different points of view - patient, clinician, and general user - establishing a foundation for safer deployment in medical domains.",
+      "url": "https://arxiv.org/abs/2507.07248",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "medical",
+        "safety",
+        "llms",
+        "user",
+        "general",
+        "medical llms",
+        "patient",
+        "red",
+        "red teaming",
+        "teaming"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the lack of perspective-specific assessments in healthcare. The creation of PatientSafetyBench is a valuable contribution, and the focus on both patient and clinician viewpoints is commendable. While the methodology appears sound based on the abstract, the actual rigor will depend on the details of the benchmark construction and evaluation metrics, but the premise is strong and timely.",
+      "paper_id": "55ade76cb22e8ab8ca10e5b5fbf29ef6"
+    },
+    {
+      "title": "Automating Expert-Level Medical Reasoning Evaluation of Large Language Models",
+      "authors": [
+        "Shuang Zhou, Wenya Xie, Jiaxi Li, Zaifu Zhan, Meijia Song, Han Yang, Cheyenna Espinoza, Lindsay Welton, Xinnie Mai, Yanwei Jin, Zidu Xu, Yuen-Hei Chung, Yiyun Xing, Meng-Han Tsai, Emma Schaffer, Yucheng Shi, Ninghao Liu, Zirui Liu, Rui Zhang"
+      ],
+      "abstract": "arXiv:2507.07988v1 Announce Type: new \nAbstract: As large language models (LLMs) become increasingly integrated into clinical decision-making, ensuring transparent and trustworthy reasoning is essential. However, existing evaluation strategies of LLMs' medical reasoning capability either suffer from unsatisfactory assessment or poor scalability, and a rigorous benchmark remains lacking. To address this, we introduce MedThink-Bench, a benchmark designed for rigorous, explainable, and scalable assessment of LLMs' medical reasoning. MedThink-Bench comprises 500 challenging questions across ten medical domains, each annotated with expert-crafted step-by-step rationales. Building on this, we propose LLM-w-Ref, a novel evaluation framework that leverages fine-grained rationales and LLM-as-a-Judge mechanisms to assess intermediate reasoning with expert-level fidelity while maintaining scalability. Experiments show that LLM-w-Ref exhibits a strong positive correlation with expert judgments. Benchmarking twelve state-of-the-art LLMs, we find that smaller models (e.g., MedGemma-27B) can surpass larger proprietary counterparts (e.g., OpenAI-o3). Overall, MedThink-Bench offers a foundational tool for evaluating LLMs' medical reasoning, advancing their safe and responsible deployment in clinical practice.",
+      "url": "https://arxiv.org/abs/2507.07988",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "medical",
+        "expert",
+        "medical reasoning",
+        "bench",
+        "evaluation",
+        "llm",
+        "llms medical",
+        "medthink"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial challenge in the rapidly evolving field of LLMs in healthcare: reliable and scalable evaluation of medical reasoning. The introduction of MedThink-Bench and LLM-w-Ref appears to be a significant step forward, offering a more rigorous and explainable assessment framework than existing methods. The reported correlation with expert judgments is particularly encouraging, suggesting the framework's validity and potential for widespread adoption.",
+      "paper_id": "53c6beb69c32c71f897fac2d54fb872b"
+    },
+    {
+      "title": "A Comprehensive Survey of Contamination Detection Methods in Large Language Models",
+      "authors": [
+        "Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen Zhao, Chengwei Qin, Caiming Xiong, Shafiq Joty"
+      ],
+      "abstract": "arXiv:2404.00699v5 Announce Type: replace \nAbstract: With the rise of Large Language Models (LLMs) in recent years, abundant new opportunities are emerging, but also new challenges, among which contamination is quickly becoming critical. Business applications and fundraising in Artificial Intelligence (AI) have reached a scale at which a few percentage points gained on popular question-answering benchmarks could translate into dozens of millions of dollars, placing high pressure on model integrity. At the same time, it is becoming harder and harder to keep track of the data that LLMs have seen; if not impossible with closed-source models like GPT-4 and Claude-3 not divulging any information on the training set. As a result, contamination becomes a major issue: LLMs' performance may not be reliable anymore, as the high performance may be at least partly due to their previous exposure to the data. This limitation jeopardizes real capability improvement in the field of NLP, yet, there remains a lack of methods on how to efficiently detect contamination. In this paper, we survey all recent work on contamination detection with LLMs, analyzing their methodologies and use cases to shed light on the appropriate usage of contamination detection methods. Our work calls the NLP research community's attention into systematically taking into account contamination bias in LLM evaluation.",
+      "url": "https://arxiv.org/abs/2404.00699",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 60,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "contamination",
+        "llms",
+        "contamination detection",
+        "detection",
+        "methods",
+        "models",
+        "data",
+        "detection methods",
+        "harder",
+        "high"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey addresses a highly significant and timely problem \u2013 contamination in LLMs \u2013 which is crucial for ensuring the reliability and trustworthiness of these models. The abstract clearly articulates the growing importance of this issue, particularly given the financial stakes involved. While a survey paper isn't inherently innovative, its value lies in consolidating existing knowledge and identifying gaps, which this abstract suggests it does well. The potential impact is high, as addressing contamination is vital for the continued development and deployment of LLMs.",
+      "paper_id": "6d3bf84672e842de3e51422de4be3811"
+    },
+    {
+      "title": "GuardVal: Dynamic Large Language Model Jailbreak Evaluation for Comprehensive Safety Testing",
+      "authors": [
+        "Peiyan Zhang, Haibo Jin, Liying Kang, Haohan Wang"
+      ],
+      "abstract": "arXiv:2507.07735v1 Announce Type: cross \nAbstract: Jailbreak attacks reveal critical vulnerabilities in Large Language Models (LLMs) by causing them to generate harmful or unethical content. Evaluating these threats is particularly challenging due to the evolving nature of LLMs and the sophistication required in effectively probing their vulnerabilities. Current benchmarks and evaluation methods struggle to fully address these challenges, leaving gaps in the assessment of LLM vulnerabilities. In this paper, we review existing jailbreak evaluation practices and identify three assumed desiderata for an effective jailbreak evaluation protocol. To address these challenges, we introduce GuardVal, a new evaluation protocol that dynamically generates and refines jailbreak prompts based on the defender LLM's state, providing a more accurate assessment of defender LLMs' capacity to handle safety-critical situations. Moreover, we propose a new optimization method that prevents stagnation during prompt refinement, ensuring the generation of increasingly effective jailbreak prompts that expose deeper weaknesses in the defender LLMs. We apply this protocol to a diverse set of models, from Mistral-7b to GPT-4, across 10 safety domains. Our findings highlight distinct behavioral patterns among the models, offering a comprehensive view of their robustness. Furthermore, our evaluation process deepens the understanding of LLM behavior, leading to insights that can inform future research and drive the development of more secure models.",
+      "url": "https://arxiv.org/abs/2507.07735",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "jailbreak",
+        "llms",
+        "models",
+        "defender",
+        "jailbreak evaluation",
+        "llm",
+        "protocol",
+        "safety",
+        "vulnerabilities"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem in LLM safety \u2013 jailbreak attacks \u2013 and proposes a novel dynamic evaluation protocol (GuardVal). The focus on dynamically generating prompts based on the LLM's responses is a strong methodological advancement. While the abstract is brief, the identified desiderata and the mention of a new optimization method suggest a rigorous approach, making it likely to be well-received by the community.",
+      "paper_id": "2b7d1aa45e9176e9960a73f000d8063f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-11T09:30:10.261125"
 }
