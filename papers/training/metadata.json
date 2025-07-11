@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "MedReadCtrl: Personalizing medical text generation with readability-controlled instruction learning",
+      "authors": [
+        "Hieu Tran, Zonghai Yao, Won Seok Jang, Sharmin Sultana, Allen Chang, Yuan Zhang, Hong Yu"
+      ],
+      "abstract": "arXiv:2507.07419v1 Announce Type: new \nAbstract: Generative AI has demonstrated strong potential in healthcare, from clinical decision support to patient-facing chatbots that improve outcomes. A critical challenge for deployment is effective human-AI communication, where content must be both personalized and understandable. We introduce MedReadCtrl, a readability-controlled instruction tuning framework that enables LLMs to adjust output complexity without compromising meaning. Evaluations of nine datasets and three tasks across medical and general domains show that MedReadCtrl achieves significantly lower readability instruction-following errors than GPT-4 (e.g., 1.39 vs. 1.59 on ReadMe, p<0.001) and delivers substantial gains on unseen clinical tasks (e.g., +14.7 ROUGE-L, +6.18 SARI on MTSamples). Experts consistently preferred MedReadCtrl (71.7% vs. 23.3%), especially at low literacy levels. These gains reflect MedReadCtrl's ability to restructure clinical content into accessible, readability-aligned language while preserving medical intent, offering a scalable solution to support patient education and expand equitable access to AI-enabled care.",
+      "url": "https://arxiv.org/abs/2507.07419",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medreadctrl",
+        "readability",
+        "ai",
+        "clinical",
+        "instruction",
+        "medical",
+        "content",
+        "controlled",
+        "controlled instruction",
+        "gains"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial challenge in deploying LLMs for healthcare \u2013 ensuring understandable and personalized communication. The results, showing improvements over GPT-4 and positive expert evaluations, suggest a robust and effective approach. The focus on readability control is a significant step towards making medical information accessible to a wider audience, and the demonstrated gains on clinical tasks are promising.",
+      "paper_id": "e88b6968e7150b3f97506c825ed858e3"
+    },
+    {
+      "title": "Machine Bullshit: Characterizing the Emergent Disregard for Truth in Large Language Models",
+      "authors": [
+        "Kaiqu Liang, Haimin Hu, Xuandong Zhao, Dawn Song, Thomas L. Griffiths, Jaime Fern\\'andez Fisac"
+      ],
+      "abstract": "arXiv:2507.07484v1 Announce Type: new \nAbstract: Bullshit, as conceptualized by philosopher Harry Frankfurt, refers to statements made without regard to their truth value. While previous work has explored large language model (LLM) hallucination and sycophancy, we propose machine bullshit as an overarching conceptual framework that can allow researchers to characterize the broader phenomenon of emergent loss of truthfulness in LLMs and shed light on its underlying mechanisms. We introduce the Bullshit Index, a novel metric quantifying LLMs' indifference to truth, and propose a complementary taxonomy analyzing four qualitative forms of bullshit: empty rhetoric, paltering, weasel words, and unverified claims. We conduct empirical evaluations on the Marketplace dataset, the Political Neutrality dataset, and our new BullshitEval benchmark (2,400 scenarios spanning 100 AI assistants) explicitly designed to evaluate machine bullshit. Our results demonstrate that model fine-tuning with reinforcement learning from human feedback (RLHF) significantly exacerbates bullshit and inference-time chain-of-thought (CoT) prompting notably amplify specific bullshit forms, particularly empty rhetoric and paltering. We also observe prevalent machine bullshit in political contexts, with weasel words as the dominant strategy. Our findings highlight systematic challenges in AI alignment and provide new insights toward more truthful LLM behavior.",
+      "url": "https://arxiv.org/abs/2507.07484",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bullshit",
+        "machine",
+        "machine bullshit",
+        "new",
+        "truth",
+        "ai",
+        "dataset",
+        "emergent",
+        "forms",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and increasingly relevant problem with LLMs \u2013 the generation of untruthful or misleading content beyond simple 'hallucinations'. Framing this as 'machine bullshit' is a provocative but effective way to focus research. The introduction of the Bullshit Index and the new BullshitEval benchmark are strong methodological contributions, and the empirical results suggest a significant issue. The paper is well-structured and clearly articulated, indicating a high likelihood of positive reception within the NLP community.",
+      "paper_id": "687db83b431ad1e2448af647678bd6b0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-11T09:30:10.262858"
 }

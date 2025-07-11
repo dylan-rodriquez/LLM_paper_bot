@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Medical Red Teaming Protocol of Language Models: On the Importance of User Perspectives in Healthcare Settings
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Minseon Kim, Jean-Philippe Corbeil, Alessandro Sordoni, Francois Beaulieu, Paul Vozila
+
+arXiv:2507.07248v1 Announce Type: new 
+Abstract: As the performance of large language models (LLMs) continues to advance, their adoption is expanding across a wide range of domains, including the medi...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07248) | [📝 Analysis](55ade76cb22e8ab8ca10e5b5fbf29ef6.md)
+
+---
+
+### Automating Expert-Level Medical Reasoning Evaluation of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Shuang Zhou, Wenya Xie, Jiaxi Li, Zaifu Zhan, Meijia Song, Han Yang, Cheyenna Espinoza, Lindsay Welton, Xinnie Mai, Yanwei Jin, Zidu Xu, Yuen-Hei Chung, Yiyun Xing, Meng-Han Tsai, Emma Schaffer, Yucheng Shi, Ninghao Liu, Zirui Liu, Rui Zhang
+
+arXiv:2507.07988v1 Announce Type: new 
+Abstract: As large language models (LLMs) become increasingly integrated into clinical decision-making, ensuring transparent and trustworthy reasoning is essenti...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07988) | [📝 Analysis](53c6beb69c32c71f897fac2d54fb872b.md)
+
+---
+
+### A Comprehensive Survey of Contamination Detection Methods in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-11 | **Authors:** Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen Zhao, Chengwei Qin, Caiming Xiong, Shafiq Joty
+
+arXiv:2404.00699v5 Announce Type: replace 
+Abstract: With the rise of Large Language Models (LLMs) in recent years, abundant new opportunities are emerging, but also new challenges, among which contam...
+
+[📄 Full Paper](https://arxiv.org/abs/2404.00699) | [📝 Analysis](6d3bf84672e842de3e51422de4be3811.md)
+
+---
+
+### GuardVal: Dynamic Large Language Model Jailbreak Evaluation for Comprehensive Safety Testing
+
+**Score:** 90.0 | **Published:** 2025-07-11 | **Authors:** Peiyan Zhang, Haibo Jin, Liying Kang, Haohan Wang
+
+arXiv:2507.07735v1 Announce Type: cross 
+Abstract: Jailbreak attacks reveal critical vulnerabilities in Large Language Models (LLMs) by causing them to generate harmful or unethical content. Evaluatin...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07735) | [📝 Analysis](2b7d1aa45e9176e9960a73f000d8063f.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-11 09:30:10 UTC*

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Operationalizing a Threat Model for Red-Teaming Large Language Models (LLMs)",
+      "authors": [
+        "Apurv Verma, Satyapriya Krishna, Sebastian Gehrmann, Madhavan Seshadri, Anu Pradhan, Tom Ault, Leslie Barrett, David Rabinowitz, John Doucette, NhatHai Phan"
+      ],
+      "abstract": "arXiv:2407.14937v2 Announce Type: replace \nAbstract: Creating secure and resilient applications with large language models (LLM) requires anticipating, adjusting to, and countering unforeseen threats. Red-teaming has emerged as a critical technique for identifying vulnerabilities in real-world LLM implementations. This paper presents a detailed threat model and provides a systematization of knowledge (SoK) of red-teaming attacks on LLMs. We develop a taxonomy of attacks based on the stages of the LLM development and deployment process and extract various insights from previous research. In addition, we compile methods for defense and practical red-teaming strategies for practitioners. By delineating prominent attack motifs and shedding light on various entry points, this paper provides a framework for improving the security and robustness of LLM-based systems.",
+      "url": "https://arxiv.org/abs/2407.14937",
+      "published_date": "2025-07-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "red",
+        "red teaming",
+        "teaming",
+        "attacks",
+        "based",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the security of LLMs \u2013 and proposes a systematization of knowledge (SoK) which is valuable for the community. The development of a threat model taxonomy and compilation of defense methods demonstrate a solid methodology. While the SoK approach isn't entirely novel, its application to LLM red-teaming is significant and well-executed, suggesting a positive reception within the field.",
+      "paper_id": "d94dfa4e3e02b48ef6b89c901fe120d1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-07-11T09:30:10.266452"
 }
