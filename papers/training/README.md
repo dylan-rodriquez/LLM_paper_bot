@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-14 | **Authors:** Arushi Goel, Sreyan Ghosh, Jaehyeon Kim, Sonal Kumar, Zhifeng Kong, Sang-gil Lee, Chao-Han Huck Yang, Ramani Duraiswami, Dinesh Manocha, Rafael Valle, Bryan Catanzaro
+
+arXiv:2507.08128v1 Announce Type: cross 
+Abstract: We present Audio Flamingo 3 (AF3), a fully open state-of-the-art (SOTA) large audio-language model that advances reasoning and understanding across s...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.08128) | [📝 Analysis](ef3bdd84757bd7611626e9a5c86acf81.md)
+
+---
+
+### One Token to Fool LLM-as-a-Judge
+
+**Score:** 90.0 | **Published:** 2025-07-14 | **Authors:** Yulai Zhao, Haolin Liu, Dian Yu, S. Y. Kung, Haitao Mi, Dong Yu
+
+arXiv:2507.08794v1 Announce Type: cross 
+Abstract: Generative reward models (also known as LLMs-as-judges), which use large language models (LLMs) to evaluate answer quality, are increasingly adopted ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.08794) | [📝 Analysis](ad1460753ed559ea195970243585c9c3.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-14 09:36:01 UTC*

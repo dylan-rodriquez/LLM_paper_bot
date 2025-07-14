@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Scaling Attention to Very Long Sequences in Linear Time with Wavelet-Enhanced Random Spectral Attention (WERSA)
+
+**Score:** 90.0 | **Published:** 2025-07-14 | **Authors:** Vincenzo Dentamaro
+
+arXiv:2507.08637v1 Announce Type: cross 
+Abstract: Transformer models are computationally costly on long sequences since regular attention has quadratic $O(n^2)$ time complexity. We introduce Wavelet-...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.08637) | [📝 Analysis](70d528939326f134c4d0495be8603dac.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-14 09:36:01 UTC*

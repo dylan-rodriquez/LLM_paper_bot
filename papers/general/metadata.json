@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "Extracting memorized pieces of (copyrighted) books from open-weight language models",
+      "authors": [
+        "A. Feder Cooper, Aaron Gokaslan, Ahmed Ahmed, Amy B. Cyphert, Christopher De Sa, Mark A. Lemley, Daniel E. Ho, Percy Liang"
+      ],
+      "abstract": "arXiv:2505.12546v2 Announce Type: replace \nAbstract: Plaintiffs and defendants in copyright lawsuits over generative AI often make sweeping, opposing claims about the extent to which large language models (LLMs) have memorized plaintiffs' protected expression. Drawing on adversarial ML and copyright law, we show that these polarized positions dramatically oversimplify the relationship between memorization and copyright. To do so, we leverage a recent probabilistic extraction technique to extract pieces of the Books3 dataset from 17 open-weight LLMs. Through numerous experiments, we show that it's possible to extract substantial parts of at least some books from different LLMs. This is evidence that these LLMs have memorized the extracted text; this memorized content is copied inside the model parameters. But the results are complicated: the extent of memorization varies both by model and by book. With our specific experiments, we find that the largest LLMs don't memorize most books--either in whole or in part. However, we also find that Llama 3.1 70B memorizes some books, like Harry Potter and the Sorcerer's Stone and 1984, almost entirely. In fact, Harry Potter is so memorized that, using a seed prompt consisting of just the first line of chapter 1, we can deterministically generate the entire book near-verbatim. We discuss why our results have significant implications for copyright cases, though not ones that unambiguously favor either side.",
+      "url": "https://arxiv.org/abs/2505.12546",
+      "published_date": "2025-07-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "memorized",
+        "books",
+        "copyright",
+        "book",
+        "experiments",
+        "extent",
+        "extract",
+        "harry",
+        "harry potter"
+      ],
+      "subject_classification": "general",
+      "justification": "This research tackles a highly relevant and contentious issue in the age of generative AI \u2013 the extent of memorization of copyrighted material. The use of adversarial ML techniques and grounding in copyright law provides a rigorous framework. While the extraction technique itself may not be entirely novel, applying it systematically to multiple LLMs and demonstrating varying degrees of memorization is a significant contribution, and the nuanced findings (larger models don't necessarily memorize *more*) are particularly valuable.",
+      "paper_id": "6d9a9fb0cf3c995c7252c7f20b61ef71"
+    }
+  ],
+  "last_updated": "2025-07-14T09:36:01.133947"
+}

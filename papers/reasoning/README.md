@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks
+
+**Score:** 92.0 | **Published:** 2025-07-14 | **Authors:** David Pomerenke, Jonas Nothnagel, Simon Ostermann
+
+arXiv:2507.08538v1 Announce Type: new 
+Abstract: To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world's languages...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.08538) | [📝 Analysis](69df2641be9d4190b9ee2ba49ea7751a.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-14 09:36:01 UTC*
