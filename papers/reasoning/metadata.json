@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks",
+      "authors": [
+        "David Pomerenke, Jonas Nothnagel, Simon Ostermann"
+      ],
+      "abstract": "arXiv:2507.08538v1 Announce Type: new \nAbstract: To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world's languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. We provide an open-source, auto-updating leaderboard and dashboard that supports researchers, developers, and policymakers in identifying strengths and gaps in model performance. In addition to ranking models, the platform offers descriptive insights such as a global proficiency map and trends over time. By complementing and extending prior multilingual benchmarks, our work aims to foster transparency, inclusivity, and progress in multilingual AI. The system is available at https://huggingface.co/spaces/fair-forward/evals-for-every-language.",
+      "url": "https://arxiv.org/abs/2507.08538",
+      "published_date": "2025-07-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "multilingual",
+        "ai",
+        "languages",
+        "proficiency",
+        "ai language",
+        "benchmark",
+        "benchmarks",
+        "language proficiency",
+        "llms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial issue in the LLM field \u2013 equitable access and performance across languages, particularly low-resource ones. The creation of a comprehensive, auto-updating multilingual benchmark with a public leaderboard is a strong contribution. While aggregating existing datasets isn't groundbreaking, the systematic approach and focus on tracking progress over time are valuable, and the inclusion of a 'global proficiency map' suggests insightful analysis. The work is well-aligned with current research trends and likely to be well-received.",
+      "paper_id": "69df2641be9d4190b9ee2ba49ea7751a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-07-14T09:36:01.128515"
 }

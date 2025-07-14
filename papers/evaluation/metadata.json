@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Medical Red Teaming Protocol of Language Models: On the Importance of User Perspectives in Healthcare Settings",
+      "authors": [
+        "Jean-Philippe Corbeil, Minseon Kim, Alessandro Sordoni, Francois Beaulieu, Paul Vozila"
+      ],
+      "abstract": "arXiv:2507.07248v2 Announce Type: replace \nAbstract: As the performance of large language models (LLMs) continues to advance, their adoption is expanding across a wide range of domains, including the medical field. The integration of LLMs into medical applications raises critical safety concerns, particularly due to their use by users with diverse roles, e.g. patients and clinicians, and the potential for model's outputs to directly affect human health. Despite the domain-specific capabilities of medical LLMs, prior safety evaluations have largely focused only on general safety benchmarks. In this paper, we introduce a safety evaluation protocol tailored to the medical domain in both patient user and clinician user perspectives, alongside general safety assessments and quantitatively analyze the safety of medical LLMs. We bridge a gap in the literature by building the PatientSafetyBench containing 466 samples over 5 critical categories to measure safety from the perspective of the patient. We apply our red-teaming protocols on the MediPhi model collection as a case study. To our knowledge, this is the first work to define safety evaluation criteria for medical LLMs through targeted red-teaming taking three different points of view - patient, clinician, and general user - establishing a foundation for safer deployment in medical domains.",
+      "url": "https://arxiv.org/abs/2507.07248",
+      "published_date": "2025-07-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "medical",
+        "safety",
+        "llms",
+        "user",
+        "general",
+        "medical llms",
+        "patient",
+        "red",
+        "red teaming",
+        "teaming"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the lack of user-specific perspectives in the medical domain. The creation of PatientSafetyBench is a valuable contribution, and the focus on both patient and clinician viewpoints is commendable. While the abstract doesn't detail the specific methods used for 'red teaming,' the problem statement and proposed approach are well-defined and timely, suggesting a high-quality study.",
+      "paper_id": "55ade76cb22e8ab8ca10e5b5fbf29ef6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-14T09:36:01.134425"
 }

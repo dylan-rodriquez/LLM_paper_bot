@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Medical Red Teaming Protocol of Language Models: On the Importance of User Perspectives in Healthcare Settings
+
+**Score:** 90.0 | **Published:** 2025-07-14 | **Authors:** Jean-Philippe Corbeil, Minseon Kim, Alessandro Sordoni, Francois Beaulieu, Paul Vozila
+
+arXiv:2507.07248v2 Announce Type: replace 
+Abstract: As the performance of large language models (LLMs) continues to advance, their adoption is expanding across a wide range of domains, including the ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07248) | [📝 Analysis](55ade76cb22e8ab8ca10e5b5fbf29ef6.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-14 09:36:01 UTC*
