@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Cultural Bias in Large Language Models: Evaluating AI Agents through Moral Questionnaires
+
+**Score:** 92.0 | **Published:** 2025-07-15 | **Authors:** Simon M\"unker
+
+arXiv:2507.10073v1 Announce Type: new 
+Abstract: Are AI systems truly representing human values, or merely averaging across them? Our study suggests a concerning reality: Large Language Models (LLMs) ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.10073) | [📝 Analysis](e6f290bb69fadb0085a8a10f3cf39eb2.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-15 09:37:46 UTC*

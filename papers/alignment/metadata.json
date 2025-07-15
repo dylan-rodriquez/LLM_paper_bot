@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Cultural Bias in Large Language Models: Evaluating AI Agents through Moral Questionnaires",
+      "authors": [
+        "Simon M\\\"unker"
+      ],
+      "abstract": "arXiv:2507.10073v1 Announce Type: new \nAbstract: Are AI systems truly representing human values, or merely averaging across them? Our study suggests a concerning reality: Large Language Models (LLMs) fail to represent diverse cultural moral frameworks despite their linguistic capabilities. We expose significant gaps between AI-generated and human moral intuitions by applying the Moral Foundations Questionnaire across 19 cultural contexts. Comparing multiple state-of-the-art LLMs' origins against human baseline data, we find these models systematically homogenize moral diversity. Surprisingly, increased model size doesn't consistently improve cultural representation fidelity. Our findings challenge the growing use of LLMs as synthetic populations in social science research and highlight a fundamental limitation in current AI alignment approaches. Without data-driven alignment beyond prompting, these systems cannot capture the nuanced, culturally-specific moral intuitions. Our results call for more grounded alignment objectives and evaluation metrics to ensure AI systems represent diverse human values rather than flattening the moral landscape.",
+      "url": "https://arxiv.org/abs/2507.10073",
+      "published_date": "2025-07-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "moral",
+        "ai",
+        "cultural",
+        "human",
+        "alignment",
+        "llms",
+        "models",
+        "systems",
+        "ai systems",
+        "data"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical issue in LLM development \u2013 the lack of cultural representation in moral reasoning. The use of the Moral Foundations Questionnaire across 19 cultures is a strong methodological choice, and the finding that model size doesn't guarantee improved fidelity is noteworthy. The paper's challenge to the use of LLMs as synthetic populations is significant, and the work is clearly written and well-motivated, though further detail on the specific LLMs tested would be beneficial.",
+      "paper_id": "e6f290bb69fadb0085a8a10f3cf39eb2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-15T09:37:46.886712"
 }
