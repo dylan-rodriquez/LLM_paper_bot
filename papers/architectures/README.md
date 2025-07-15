@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Protective Factor-Aware Dynamic Influence Learning for Suicide Risk Prediction on Social Media
+
+**Score:** 92.0 | **Published:** 2025-07-15 | **Authors:** Jun Li, Xiangmeng Wang, Haoyang Li, Yifei Yan, Hong Va Leong, Ling Feng, Nancy Xiaonan Yu, Qing Li
+
+arXiv:2507.10008v1 Announce Type: new 
+Abstract: Suicide is a critical global health issue that requires urgent attention. Even though prior work has revealed valuable insights into detecting current ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.10008) | [📝 Analysis](1d2b1288367c8b7d672f5b6dd56820af.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-15 09:37:46 UTC*

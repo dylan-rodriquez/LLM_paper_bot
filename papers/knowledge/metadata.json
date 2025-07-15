@@ -95,7 +95,71 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs",
+      "authors": [
+        "Yangning Li, Weizhi Zhang, Yuyao Yang, Wei-Chieh Huang, Yaozu Wu, Junyu Luo, Yuanchen Bei, Henry Peng Zou, Xiao Luo, Yusheng Zhao, Chunkit Chan, Yankai Chen, Zhongfen Deng, Yinghui Li, Hai-Tao Zheng, Dongyuan Li, Renhe Jiang, Ming Zhang, Yangqiu Song, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2507.09477v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) lifts the factuality of Large Language Models (LLMs) by injecting external knowledge, yet it falls short on problems that demand multi-step inference; conversely, purely reasoning-oriented approaches often hallucinate or mis-ground facts. This survey synthesizes both strands under a unified reasoning-retrieval perspective. We first map how advanced reasoning optimizes each stage of RAG (Reasoning-Enhanced RAG). Then, we show how retrieved knowledge of different type supply missing premises and expand context for complex inference (RAG-Enhanced Reasoning). Finally, we spotlight emerging Synergized RAG-Reasoning frameworks, where (agentic) LLMs iteratively interleave search and reasoning to achieve state-of-the-art performance across knowledge-intensive benchmarks. We categorize methods, datasets, and open challenges, and outline research avenues toward deeper RAG-Reasoning systems that are more effective, multimodally-adaptive, trustworthy, and human-centric. The collection is available at https://github.com/DavidZWZ/Awesome-RAG-Reasoning.",
+      "url": "https://arxiv.org/abs/2507.09477",
+      "published_date": "2025-07-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "rag",
+        "rag reasoning",
+        "knowledge",
+        "llms",
+        "agentic",
+        "enhanced",
+        "inference",
+        "reasoning systems",
+        "retrieval"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This survey paper addresses a highly relevant and timely problem in the LLM space \u2013 improving reasoning capabilities within RAG systems. The framing of RAG-Reasoning and Reasoning-Enhanced RAG provides a useful categorization. While surveys are inherently less 'innovative' than novel methods, this one appears to synthesize a rapidly evolving field in a structured way, suggesting strong potential for impact and positive reception within the community.",
+      "paper_id": "74592e7e682d08c445db6316c1d4a2d0"
+    },
+    {
+      "title": "Text-to-Remote-Sensing-Image Retrieval beyond RGB Sources",
+      "authors": [
+        "Daniele Rege Cambrin, Lorenzo Vaiani, Giuseppe Gallipoli, Luca Cagliero, Paolo Garza"
+      ],
+      "abstract": "arXiv:2507.10403v1 Announce Type: cross \nAbstract: Retrieving relevant imagery from vast satellite archives is crucial for applications like disaster response and long-term climate monitoring. However, most text-to-image retrieval systems are limited to RGB data, failing to exploit the unique physical information captured by other sensors, such as the all-weather structural sensitivity of Synthetic Aperture Radar (SAR) or the spectral signatures in optical multispectral data. To bridge this gap, we introduce CrisisLandMark, a new large-scale corpus of over 647,000 Sentinel-1 SAR and Sentinel-2 multispectral images paired with structured textual annotations for land cover, land use, and crisis events harmonized from authoritative land cover systems (CORINE and Dynamic World) and crisis-specific sources. We then present CLOSP (Contrastive Language Optical SAR Pretraining), a novel framework that uses text as a bridge to align unpaired optical and SAR images into a unified embedding space. Our experiments show that CLOSP achieves a new state-of-the-art, improving retrieval nDGC by 54% over existing models. Additionally, we find that the unified training strategy overcomes the inherent difficulty of interpreting SAR imagery by transferring rich semantic knowledge from the optical domain with indirect interaction. Furthermore, GeoCLOSP, which integrates geographic coordinates into our framework, creates a powerful trade-off between generality and specificity: while the CLOSP excels at general semantic tasks, the GeoCLOSP becomes a specialized expert for retrieving location-dependent crisis events and rare geographic features. This work highlights that the integration of diverse sensor data and geographic context is essential for unlocking the full potential of remote sensing archives.",
+      "url": "https://arxiv.org/abs/2507.10403",
+      "published_date": "2025-07-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "sar",
+        "optical",
+        "closp",
+        "crisis",
+        "data",
+        "geographic",
+        "land",
+        "retrieval",
+        "text",
+        "archives"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 text-to-image retrieval for remote sensing data beyond standard RGB. The creation of the CrisisLandMark dataset is a significant contribution, and the CLOSP framework shows promise in bridging the gap between optical and SAR imagery. The methodology appears sound, and the focus on real-world applications like disaster response strengthens the work's value.",
+      "paper_id": "ed2bb9905270c38e9689bd9d94a809e3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2025-07-15T09:37:46.884600"
 }
