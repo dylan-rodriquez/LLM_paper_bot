@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### What Should LLMs Forget? Quantifying Personal Data in LLMs for Right-to-Be-Forgotten Requests
+
+**Score:** 92.0 | **Published:** 2025-07-16 | **Authors:** Dimitri Staufer
+
+arXiv:2507.11128v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) can memorize and reveal personal information, raising concerns regarding compliance with the EU's GDPR, particularly the R...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.11128) | [📝 Analysis](dfb8660934834164cdf61f193e671f34.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-16 09:34:05 UTC*

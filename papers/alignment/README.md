@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### LLMs on Trial: Evaluating Judicial Fairness for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-16 | **Authors:** Yiran Hu, Zongyue Xue, Haitao Li, Siyuan Zheng, Qingjing Chen, Shaochun Wang, Xihan Zhang, Ning Zheng, Yun Liu, Qingyao Ai, Yiqun Liu, Charles L. A. Clarke, Weixing Shen
+
+arXiv:2507.10852v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly used in high-stakes fields where their decisions impact rights and equity. However, LLMs' judicial fairne...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.10852) | [📝 Analysis](e3a6a9f2245c01ce2129c18ed723a074.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-16 09:34:05 UTC*

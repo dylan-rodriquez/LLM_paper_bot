@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Leveraging Large Language Models for Multi-Class and Multi-Label Detection of Drug Use and Overdose Symptoms on Social Media",
+      "authors": [
+        "Muhammad Ahmad, Fida Ullah, Muhammad Usman, Umyh Habiba, ldar Batyrshin, Grigori Sidorov"
+      ],
+      "abstract": "arXiv:2504.12355v3 Announce Type: replace \nAbstract: Drug overdose remains a critical global health issue, often driven by misuse of opioids, painkillers, and psychiatric medications. Traditional research methods face limitations, whereas social media offers real-time insights into self-reported substance use and overdose symptoms. This study proposes an AI-driven NLP framework trained on annotated social media data to detect commonly used drugs and associated overdose symptoms. Using a hybrid annotation strategy with LLMs and human annotators, we applied traditional ML models, neural networks, and advanced transformer-based models. Our framework achieved 98% accuracy in multi-class and 97% in multi-label classification, outperforming baseline models by up to 8%. These findings highlight the potential of AI for supporting public health surveillance and personalized intervention strategies.",
+      "url": "https://arxiv.org/abs/2504.12355",
+      "published_date": "2025-07-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "models",
+        "multi",
+        "overdose",
+        "media",
+        "overdose symptoms",
+        "social",
+        "social media",
+        "symptoms",
+        "ai",
+        "class"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The research addresses a highly significant problem \u2013 drug overdose \u2013 and leverages a timely approach using LLMs for public health surveillance. The reported accuracy scores (98% multi-class, 97% multi-label) are impressive, suggesting a robust methodology. While the use of LLMs is not entirely novel, the application to this specific domain and the hybrid annotation strategy are valuable. The potential for real-world impact on intervention strategies is substantial.",
+      "paper_id": "ad33a6fc3b4bf9fe26019c17cb9f0943"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-07-16T09:34:05.531212"
 }
