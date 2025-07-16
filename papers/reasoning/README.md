@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning
+
+**Score:** 92.0 | **Published:** 2025-06-12 | **Authors:** Jiayi Yuan, Hao Li, Xinheng Ding, Wenya Xie, Yu-Jhe Li, Wentian Zhao, Kun Wan, Jing Shi, Xia Hu, Zirui Liu
+
+arXiv:2506.09501v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are now integral across various domains and have demonstrated impressive performance. Progress, however, rests on the prem...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09501) | [📝 Analysis](77c45af9d04db9852270ccbca7493d4f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-12 09:29:11 UTC*

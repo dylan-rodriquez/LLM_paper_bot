@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning",
+      "authors": [
+        "Jiayi Yuan, Hao Li, Xinheng Ding, Wenya Xie, Yu-Jhe Li, Wentian Zhao, Kun Wan, Jing Shi, Xia Hu, Zirui Liu"
+      ],
+      "abstract": "arXiv:2506.09501v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are now integral across various domains and have demonstrated impressive performance. Progress, however, rests on the premise that benchmark scores are both accurate and reproducible. We demonstrate that the reproducibility of LLM performance is fragile: changing system configuration such as evaluation batch size, GPU count, and GPU version can introduce significant difference in the generated responses. This issue is especially pronounced in reasoning models, where minor rounding differences in early tokens can cascade into divergent chains of thought, ultimately affecting accuracy. For instance, under bfloat16 precision with greedy decoding, a reasoning model like DeepSeek-R1-Distill-Qwen-7B can exhibit up to 9% variation in accuracy and 9,000 tokens difference in response length due to differences in GPU count, type, and evaluation batch size. We trace the root cause of this variability to the non-associative nature of floating-point arithmetic under limited numerical precision. This work presents the first systematic investigation into how numerical precision affects reproducibility in LLM inference. Through carefully controlled experiments across various hardware, software, and precision settings, we quantify when and how model outputs diverge. Our analysis reveals that floating-point precision -- while critical for reproducibility -- is often neglected in evaluation practices. Inspired by this, we develop a lightweight inference pipeline, dubbed LayerCast, that stores weights in 16-bit precision but performs all computations in FP32, balancing memory efficiency with numerical stability. Code is available at https://github.com/nanomaoli/llm_reproducibility.",
+      "url": "https://arxiv.org/abs/2506.09501",
+      "published_date": "2025-06-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "precision",
+        "evaluation",
+        "gpu",
+        "numerical",
+        "reasoning",
+        "reproducibility",
+        "accuracy",
+        "batch",
+        "batch size",
+        "count"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical issue in LLM research \u2013 the fragility of reproducibility, particularly in reasoning tasks. The observed variations in accuracy and response length due to seemingly minor system configuration changes are substantial and concerning. The identification of precision (FP32 vs. bfloat16) and its interaction with decoding and hardware as a root cause is a valuable contribution, and the 9% accuracy variation is a significant finding. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "77c45af9d04db9852270ccbca7493d4f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-06-12T09:29:11.380969"
 }

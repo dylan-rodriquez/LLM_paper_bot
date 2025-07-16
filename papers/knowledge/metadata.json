@@ -95,7 +95,39 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "CAIRe: Cultural Attribution of Images by Retrieval-Augmented Evaluation",
+      "authors": [
+        "Arnav Yayavaram, Siddharth Yayavaram, Simran Khanuja, Michael Saxon, Graham Neubig"
+      ],
+      "abstract": "arXiv:2506.09109v1 Announce Type: cross \nAbstract: As text-to-image models become increasingly prevalent, ensuring their equitable performance across diverse cultural contexts is critical. Efforts to mitigate cross-cultural biases have been hampered by trade-offs, including a loss in performance, factual inaccuracies, or offensive outputs. Despite widespread recognition of these challenges, an inability to reliably measure these biases has stalled progress. To address this gap, we introduce CAIRe, a novel evaluation metric that assesses the degree of cultural relevance of an image, given a user-defined set of labels. Our framework grounds entities and concepts in the image to a knowledge base and uses factual information to give independent graded judgments for each culture label. On a manually curated dataset of culturally salient but rare items built using language models, CAIRe surpasses all baselines by 28% F1 points. Additionally, we construct two datasets for culturally universal concept, one comprising of T2I-generated outputs and another retrieved from naturally occurring data. CAIRe achieves Pearson's correlations of 0.56 and 0.66 with human ratings on these sets, based on a 5-point Likert scale of cultural relevance. This demonstrates its strong alignment with human judgment across diverse image sources.",
+      "url": "https://arxiv.org/abs/2506.09109",
+      "published_date": "2025-06-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "cultural",
+        "caire",
+        "image",
+        "biases",
+        "cross",
+        "cultural relevance",
+        "culturally",
+        "diverse",
+        "evaluation",
+        "factual"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the evaluation of cultural biases in text-to-image models. The introduction of CAIRe, a retrieval-augmented evaluation metric, appears to be a significant step forward, demonstrated by the substantial F1 score improvement over baselines. The creation of curated datasets further strengthens the work, suggesting a rigorous approach and potential for broader impact within the community.",
+      "paper_id": "96e48e18c7e75149cd9774bb8f239d77"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2025-06-12T09:29:11.382253"
 }
