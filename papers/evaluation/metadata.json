@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DCR: Quantifying Data Contamination in LLMs Evaluation",
+      "authors": [
+        "Cheng Xu, Nan Yan, Shuhao Guan, Changhong Jin, Yuke Mei, Yibing Guo, M-Tahar Kechadi"
+      ],
+      "abstract": "arXiv:2507.11405v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) has heightened concerns about benchmark data contamination (BDC), where models inadvertently memorize evaluation data, inflating performance metrics and undermining genuine generalization assessment. This paper introduces the Data Contamination Risk (DCR) framework, a lightweight, interpretable pipeline designed to detect and quantify BDC across four granular levels: semantic, informational, data, and label. By synthesizing contamination scores via a fuzzy inference system, DCR produces a unified DCR Factor that adjusts raw accuracy to reflect contamination-aware performance. Validated on 9 LLMs (0.5B-72B) across sentiment analysis, fake news detection, and arithmetic reasoning tasks, the DCR framework reliably diagnoses contamination severity and with accuracy adjusted using the DCR Factor to within 4% average error across the three benchmarks compared to the uncontaminated baseline. Emphasizing computational efficiency and transparency, DCR provides a practical tool for integrating contamination assessment into routine evaluations, fostering fairer comparisons and enhancing the credibility of LLM benchmarking practices.",
+      "url": "https://arxiv.org/abs/2507.11405",
+      "published_date": "2025-07-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "contamination",
+        "dcr",
+        "data",
+        "data contamination",
+        "llms",
+        "accuracy",
+        "assessment",
+        "bdc",
+        "dcr factor",
+        "dcr framework"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 data contamination \u2013 with a novel framework (DCR) that quantifies contamination at multiple granularities. The reported accuracy adjustment within 4% of a baseline is a strong result, suggesting the method is both effective and practical. The use of a fuzzy inference system for synthesizing contamination scores is a clever approach, and the validation across diverse tasks and model sizes strengthens the findings. The work is well-aligned with current concerns in the field and likely to be well-received.",
+      "paper_id": "c1d519b730f5ab7d7fb821eac1e1abdf"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-16T09:34:05.530173"
 }

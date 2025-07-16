@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Leveraging Large Language Models for Multi-Class and Multi-Label Detection of Drug Use and Overdose Symptoms on Social Media
+
+**Score:** 92.0 | **Published:** 2025-07-16 | **Authors:** Muhammad Ahmad, Fida Ullah, Muhammad Usman, Umyh Habiba, ldar Batyrshin, Grigori Sidorov
+
+arXiv:2504.12355v3 Announce Type: replace 
+Abstract: Drug overdose remains a critical global health issue, often driven by misuse of opioids, painkillers, and psychiatric medications. Traditional rese...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.12355) | [📝 Analysis](ad33a6fc3b4bf9fe26019c17cb9f0943.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-16 09:34:05 UTC*

@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "What Should LLMs Forget? Quantifying Personal Data in LLMs for Right-to-Be-Forgotten Requests",
+      "authors": [
+        "Dimitri Staufer"
+      ],
+      "abstract": "arXiv:2507.11128v1 Announce Type: new \nAbstract: Large Language Models (LLMs) can memorize and reveal personal information, raising concerns regarding compliance with the EU's GDPR, particularly the Right to Be Forgotten (RTBF). Existing machine unlearning methods assume the data to forget is already known but do not address how to identify which individual-fact associations are stored in the model. Privacy auditing techniques typically operate at the population level or target a small set of identifiers, limiting applicability to individual-level data inquiries. We introduce WikiMem, a dataset of over 5,000 natural language canaries covering 243 human-related properties from Wikidata, and a model-agnostic metric to quantify human-fact associations in LLMs. Our approach ranks ground-truth values against counterfactuals using calibrated negative log-likelihood across paraphrased prompts. We evaluate 200 individuals across 15 LLMs (410M-70B parameters), showing that memorization correlates with subject web presence and model scale. We provide a foundation for identifying memorized personal data in LLMs at the individual level, enabling the dynamic construction of forget sets for machine unlearning and RTBF requests.",
+      "url": "https://arxiv.org/abs/2507.11128",
+      "published_date": "2025-07-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "data",
+        "forget",
+        "individual",
+        "level",
+        "model",
+        "personal",
+        "associations",
+        "data llms",
+        "fact"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and pressing issue \u2013 the Right to Be Forgotten in the context of LLMs. The introduction of WikiMem and a model-agnostic metric for quantifying memorization is a strong methodological contribution. The broad evaluation across multiple models and a substantial number of individuals suggests a rigorous approach, and the problem's importance is amplified by GDPR concerns.",
+      "paper_id": "dfb8660934834164cdf61f193e671f34"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-16T09:34:05.527944"
 }
