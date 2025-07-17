@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Jailbreak-Tuning: Models Efficiently Learn Jailbreak Susceptibility
+
+**Score:** 95.0 | **Published:** 2025-07-17 | **Authors:** Brendan Murphy, Dillon Bowen, Shahrad Mohammadzadeh, Julius Broomfield, Adam Gleave, Kellin Pelrine
+
+arXiv:2507.11630v1 Announce Type: cross 
+Abstract: AI systems are rapidly advancing in capability, and frontier model developers broadly acknowledge the need for safeguards against serious misuse. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.11630) | [📝 Analysis](2d0df5d4b66de4da9165cf7bee206ac9.md)
+
+---
+
+### A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems
+
+**Score:** 92.0 | **Published:** 2025-07-17 | **Authors:** Zixuan Ke, Fangkai Jiao, Yifei Ming, Xuan-Phi Nguyen, Austin Xu, Do Xuan Long, Minzhi Li, Chengwei Qin, Peifeng Wang, Silvio Savarese, Caiming Xiong, Shafiq Joty
+
+arXiv:2504.09037v2 Announce Type: replace-cross 
+Abstract: Reasoning is a fundamental cognitive process that enables logical inference, problem-solving, and decision-making. With the rapid advancement...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.09037) | [📝 Analysis](aa12e1603213ad2cc5c87ba6544d361c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-17 09:32:50 UTC*
