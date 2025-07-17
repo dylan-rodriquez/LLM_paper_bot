@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Large Language Models Often Know When They Are Being Evaluated
+
+**Score:** 90.0 | **Published:** 2025-07-17 | **Authors:** Joe Needham, Giles Edkins, Govind Pimpale, Henning Bartsch, Marius Hobbhahn
+
+arXiv:2505.23836v3 Announce Type: replace 
+Abstract: If AI models can detect when they are being evaluated, the effectiveness of evaluations might be compromised. For example, models could have system...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23836) | [📝 Analysis](7f7897c1b06672cf52e73ea842a58bb9.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-17 09:32:50 UTC*

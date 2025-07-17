@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Can We Predict Alignment Before Models Finish Thinking? Towards Monitoring Misaligned Reasoning Models
+
+**Score:** 92.0 | **Published:** 2025-07-17 | **Authors:** Yik Siu Chan, Zheng-Xin Yong, Stephen H. Bach
+
+arXiv:2507.12428v1 Announce Type: new 
+Abstract: Open-weights reasoning language models generate long chains-of-thought (CoTs) before producing a final response, which improves performance but introdu...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.12428) | [📝 Analysis](6494296ee382e11304c4b56bd752205c.md)
+
+---
+
+### Fairness Is Not Enough: Auditing Competence and Intersectional Bias in AI-powered Resume Screening
+
+**Score:** 92.0 | **Published:** 2025-07-17 | **Authors:** Kevin T Webster
+
+arXiv:2507.11548v1 Announce Type: cross 
+Abstract: The increasing use of generative AI for resume screening is predicated on the assumption that it offers an unbiased alternative to biased human decis...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.11548) | [📝 Analysis](cbe51e474afbb4c3a96e4ec04a25c448.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-17 09:32:50 UTC*
