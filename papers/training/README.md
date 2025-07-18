@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Improving Drug Identification in Overdose Death Surveillance using Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-18 | **Authors:** Arthur J. Funnell, Panayiotis Petousis, Fabrice Harel-Canada, Ruby Romero, Alex A. T. Bui, Adam Koncsol, Hritika Chaturvedi, Chelsea Shover, David Goodman-Meza
+
+arXiv:2507.12679v1 Announce Type: new 
+Abstract: The rising rate of drug-related deaths in the United States, largely driven by fentanyl, requires timely and accurate surveillance. However, critical o...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.12679) | [📝 Analysis](34d6fa7581a55cc39c3fc758c187d8ca.md)
+
+---
+
+### Overview of the TalentCLEF 2025: Skill and Job Title Intelligence for Human Capital Management
+
+**Score:** 92.0 | **Published:** 2025-07-18 | **Authors:** Luis Gasco, Hermenegildo Fabregat, Laura Garc\'ia-Sardi\~na, Paula Estrella, Daniel Deniz, Alvaro Rodrigo, Rabih Zbib
+
+arXiv:2507.13275v1 Announce Type: new 
+Abstract: Advances in natural language processing and large language models are driving a major transformation in Human Capital Management, with a growing intere...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.13275) | [📝 Analysis](325869d9a1ae21accc040c619a60aa61.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-18 09:33:08 UTC*
