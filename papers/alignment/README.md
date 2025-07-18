@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Fairness Is Not Enough: Auditing Competence and Intersectional Bias in AI-powered Resume Screening
+
+**Score:** 92.0 | **Published:** 2025-07-18 | **Authors:** Kevin T Webster
+
+arXiv:2507.11548v2 Announce Type: replace-cross 
+Abstract: The increasing use of generative AI for resume screening is predicated on the assumption that it offers an unbiased alternative to biased hum...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.11548) | [📝 Analysis](cbe51e474afbb4c3a96e4ec04a25c448.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-18 09:33:08 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Fairness Is Not Enough: Auditing Competence and Intersectional Bias in AI-powered Resume Screening",
+      "authors": [
+        "Kevin T Webster"
+      ],
+      "abstract": "arXiv:2507.11548v2 Announce Type: replace-cross \nAbstract: The increasing use of generative AI for resume screening is predicated on the assumption that it offers an unbiased alternative to biased human decision-making. However, this belief fails to address a critical question: are these AI systems fundamentally competent at the evaluative tasks they are meant to perform?\n  This study investigates the question of competence through a two-part audit of eight major AI platforms. Experiment 1 confirmed complex, contextual racial and gender biases, with some models penalizing candidates merely for the presence of demographic signals. Experiment 2, which evaluated core competence, provided a critical insight: some models that appeared unbiased were, in fact, incapable of performing a substantive evaluation, relying instead on superficial keyword matching.\n  This paper introduces the \"Illusion of Neutrality\" to describe this phenomenon, where an apparent lack of bias is merely a symptom of a model's inability to make meaningful judgments. This study recommends that organizations and regulators adopt a dual-validation framework, auditing AI hiring tools for both demographic bias and demonstrable competence to ensure they are both equitable and effective.",
+      "url": "https://arxiv.org/abs/2507.11548",
+      "published_date": "2025-07-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "competence",
+        "bias",
+        "auditing",
+        "critical",
+        "demographic",
+        "experiment",
+        "merely",
+        "models",
+        "question"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and timely issue \u2013 the reliability and fairness of AI-powered resume screening. The identification of the 'Illusion of Neutrality' is a particularly strong point, highlighting a subtle but significant flaw in current AI deployment. The two-part audit approach appears rigorous, and the findings have clear implications for both developers and users of these systems. The paper's focus on competence *alongside* bias is a valuable contribution.",
+      "paper_id": "cbe51e474afbb4c3a96e4ec04a25c448"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-18T09:33:08.273319"
 }
