@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Paper Summary Attack: Jailbreaking LLMs through LLM Safety Papers
+
+**Score:** 90.0 | **Published:** 2025-07-21 | **Authors:** Liang Lin, Zhihao Xu, Xuehai Tang, Shi Liu, Biyu Zhou, Fuqing Zhu, Jizhong Han, Songlin Hu
+
+arXiv:2507.13474v1 Announce Type: new 
+Abstract: The safety of large language models (LLMs) has garnered significant research attention. In this paper, we argue that previous empirical studies demonst...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.13474) | [📝 Analysis](597743915f2499d13e3f9e59d56ca5b1.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-21 09:37:06 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### The Levers of Political Persuasion with Conversational AI
+
+**Score:** 92.0 | **Published:** 2025-07-21 | **Authors:** Kobi Hackenburg, Ben M. Tappin, Luke Hewitt, Ed Saunders, Sid Black, Hause Lin, Catherine Fist, Helen Margetts, David G. Rand, Christopher Summerfield
+
+arXiv:2507.13919v1 Announce Type: new 
+Abstract: There are widespread fears that conversational AI could soon exert unprecedented influence over human beliefs. Here, in three large-scale experiments (...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.13919) | [📝 Analysis](76e27f476e1932cb67415dc97e6107d8.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-21 09:37:06 UTC*
