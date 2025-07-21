@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models
+
+**Score:** 90.0 | **Published:** 2025-06-06 | **Authors:** Anirudh Bharadwaj, Chaitanya Malaviya, Nitish Joshi, Mark Yatskar
+
+arXiv:2506.05339v1 Announce Type: new 
+Abstract: Language models serve as proxies for human preference judgements in alignment and evaluation, yet they exhibit systematic miscalibration, prioritizing ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05339) | [📝 Analysis](6dd9897b95aaab189a7f8f10a6ca3605.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-06 09:28:50 UTC*

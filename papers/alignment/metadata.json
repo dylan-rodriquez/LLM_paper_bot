@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Flattery, Fluff, and Fog: Diagnosing and Mitigating Idiosyncratic Biases in Preference Models",
+      "authors": [
+        "Anirudh Bharadwaj, Chaitanya Malaviya, Nitish Joshi, Mark Yatskar"
+      ],
+      "abstract": "arXiv:2506.05339v1 Announce Type: new \nAbstract: Language models serve as proxies for human preference judgements in alignment and evaluation, yet they exhibit systematic miscalibration, prioritizing superficial patterns over substantive qualities. This bias manifests as overreliance on features like length, structure, and style, leading to issues like reward hacking and unreliable evaluations. Evidence suggests these biases originate in artifacts in human training data. In this work, we systematically investigate the relationship between training data biases and preference model miscalibration across five idiosyncratic features of language model generations: length, structure, jargon, sycophancy and vagueness. Using controlled counterfactual pairs, we first quantify the extent to which preference models favor responses with magnified biases (skew), finding this preference occurs in >60% of instances, and model preferences show high miscalibration (~40%) compared to human preferences. Notably, bias features only show mild negative correlations to human preference labels (mean r_human = -0.12) but show moderately strong positive correlations with labels from a strong reward model (mean r_model = +0.36), suggesting that models may overrely on spurious cues. To mitigate these issues, we propose a simple post-training method based on counterfactual data augmentation (CDA) using synthesized contrastive examples. Finetuning models with CDA reduces average miscalibration from 39.4% to 32.5% and average absolute skew difference from 20.5% to 10.0%, while maintaining overall RewardBench performance, showing that targeted debiasing is effective for building reliable preference models.",
+      "url": "https://arxiv.org/abs/2506.05339",
+      "published_date": "2025-06-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "preference",
+        "models",
+        "biases",
+        "human",
+        "miscalibration",
+        "model",
+        "data",
+        "features",
+        "preference models",
+        "training"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM alignment \u2013 the susceptibility of preference models to superficial features. The systematic investigation using controlled counterfactuals and quantification of bias skew and miscalibration are strong methodological points. The findings, with >60% skew and ~40% miscalibration, are significant and suggest a widespread issue needing attention. The work is well-defined and addresses a timely concern in the field.",
+      "paper_id": "6dd9897b95aaab189a7f8f10a6ca3605"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-06T09:28:50.531313"
 }
