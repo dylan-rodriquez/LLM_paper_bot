@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Paper Summary Attack: Jailbreaking LLMs through LLM Safety Papers",
+      "authors": [
+        "Liang Lin, Zhihao Xu, Xuehai Tang, Shi Liu, Biyu Zhou, Fuqing Zhu, Jizhong Han, Songlin Hu"
+      ],
+      "abstract": "arXiv:2507.13474v1 Announce Type: new \nAbstract: The safety of large language models (LLMs) has garnered significant research attention. In this paper, we argue that previous empirical studies demonstrate LLMs exhibit a propensity to trust information from authoritative sources, such as academic papers, implying new possible vulnerabilities. To verify this possibility, a preliminary analysis is designed to illustrate our two findings. Based on this insight, a novel jailbreaking method, Paper Summary Attack (\\llmname{PSA}), is proposed. It systematically synthesizes content from either attack-focused or defense-focused LLM safety paper to construct an adversarial prompt template, while strategically infilling harmful query as adversarial payloads within predefined subsections. Extensive experiments show significant vulnerabilities not only in base LLMs, but also in state-of-the-art reasoning model like Deepseek-R1. PSA achieves a 97\\% attack success rate (ASR) on well-aligned models like Claude3.5-Sonnet and an even higher 98\\% ASR on Deepseek-R1. More intriguingly, our work has further revealed diametrically opposed vulnerability bias across different base models, and even between different versions of the same model, when exposed to either attack-focused or defense-focused papers. This phenomenon potentially indicates future research clues for both adversarial methodologies and safety alignment.Code is available at https://github.com/233liang/Paper-Summary-Attack",
+      "url": "https://arxiv.org/abs/2507.13474",
+      "published_date": "2025-07-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "attack",
+        "paper",
+        "focused",
+        "llms",
+        "safety",
+        "adversarial",
+        "models",
+        "paper summary",
+        "papers",
+        "summary"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 their tendency to trust information from seemingly authoritative sources. The proposed 'Paper Summary Attack' (PSA) is a novel jailbreaking method with a high reported success rate, demonstrating a real threat to model safety. While the core idea builds on existing trust vulnerabilities, the specific application to LLM safety papers is a clever and concerning finding, suggesting a need for more robust defenses.",
+      "paper_id": "597743915f2499d13e3f9e59d56ca5b1"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-21T09:37:06.705807"
 }

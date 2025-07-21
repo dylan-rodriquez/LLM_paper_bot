@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-21 | **Authors:** Qiguang Chen, Libo Qin, Jinhao Liu, Dengyun Peng, Jiannan Guan, Peng Wang, Mengkang Hu, Yuhang Zhou, Te Gao, Wanxiang Che
+
+arXiv:2503.09567v5 Announce Type: replace-cross 
+Abstract: Recent advancements in reasoning with large language models (RLLMs), such as OpenAI-O1 and DeepSeek-R1, have demonstrated their impressive ca...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.09567) | [📝 Analysis](f4b11e3ee913bfce7ecfaf3c8668f4a3.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-21 09:37:06 UTC*

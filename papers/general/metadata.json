@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "STACK: Adversarial Attacks on LLM Safeguard Pipelines",
+      "authors": [
+        "Ian R. McKenzie, Oskar J. Hollinsworth, Tom Tseng, Xander Davies, Stephen Casper, Aaron D. Tucker, Robert Kirk, Adam Gleave"
+      ],
+      "abstract": "arXiv:2506.24068v2 Announce Type: replace \nAbstract: Frontier AI developers are relying on layers of safeguards to protect against catastrophic misuse of AI systems. Anthropic guards their latest Claude 4 Opus model using one such defense pipeline, and other frontier developers including Google DeepMind and OpenAI pledge to soon deploy similar defenses. However, the security of such pipelines is unclear, with limited prior work evaluating or attacking these pipelines. We address this gap by developing and red-teaming an open-source defense pipeline. First, we find that a novel few-shot-prompted input and output classifier outperforms state-of-the-art open-weight safeguard model ShieldGemma across three attacks and two datasets, reducing the attack success rate (ASR) to 0% on the catastrophic misuse dataset ClearHarm. Second, we introduce a STaged AttaCK (STACK) procedure that achieves 71% ASR on ClearHarm in a black-box attack against the few-shot-prompted classifier pipeline. Finally, we also evaluate STACK in a transfer setting, achieving 33% ASR, providing initial evidence that it is feasible to design attacks with no access to the target pipeline. We conclude by suggesting specific mitigations that developers could use to thwart staged attacks.",
+      "url": "https://arxiv.org/abs/2506.24068",
+      "published_date": "2025-07-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "attacks",
+        "pipeline",
+        "asr",
+        "attack",
+        "developers",
+        "pipelines",
+        "stack",
+        "ai",
+        "catastrophic",
+        "catastrophic misuse"
+      ],
+      "subject_classification": "general",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the security of LLM safeguard pipelines. The development of STACK and demonstration of a 71% ASR against a strong baseline is a significant result. While the few-shot prompting approach for the initial classifier isn't entirely novel, its effectiveness and the subsequent attack are well-executed, suggesting a rigorous methodology and clear presentation.",
+      "paper_id": "add1ccb27d1114e782c05ee74e955265"
+    }
+  ],
+  "last_updated": "2025-07-21T09:37:06.710119"
+}
