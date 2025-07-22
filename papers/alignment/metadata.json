@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Disparities in Peer Review Tone and the Role of Reviewer Anonymity",
+      "authors": [
+        "Maria Sahakyan, Bedoor AlShebli"
+      ],
+      "abstract": "arXiv:2507.14741v1 Announce Type: new \nAbstract: The peer review process is often regarded as the gatekeeper of scientific integrity, yet increasing evidence suggests that it is not immune to bias. Although structural inequities in peer review have been widely debated, much less attention has been paid to the subtle ways in which language itself may reinforce disparities. This study undertakes one of the most comprehensive linguistic analyses of peer review to date, examining more than 80,000 reviews in two major journals. Using natural language processing and large-scale statistical modeling, it uncovers how review tone, sentiment, and supportive language vary across author demographics, including gender, race, and institutional affiliation. Using a data set that includes both anonymous and signed reviews, this research also reveals how the disclosure of reviewer identity shapes the language of evaluation. The findings not only expose hidden biases in peer feedback, but also challenge conventional assumptions about anonymity's role in fairness. As academic publishing grapples with reform, these insights raise critical questions about how review policies shape career trajectories and scientific progress.",
+      "url": "https://arxiv.org/abs/2507.14741",
+      "published_date": "2025-07-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "review",
+        "peer",
+        "language",
+        "peer review",
+        "anonymity",
+        "disparities",
+        "review tone",
+        "reviewer",
+        "reviews",
+        "role"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial, yet often overlooked, issue in scientific publishing: bias in peer review. The use of NLP and large-scale statistical modeling on a substantial dataset (80,000+ reviews) demonstrates a rigorous methodology. The comparison of anonymous vs. signed reviews adds a valuable dimension to understanding how reviewer identity influences feedback, and the focus on demographic disparities is highly relevant.",
+      "paper_id": "42131c9b71553a26cbe486b9d1eabd21"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-22T09:34:09.951285"
 }

@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "WebGuard: Building a Generalizable Guardrail for Web Agents",
+      "authors": [
+        "Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su"
+      ],
+      "abstract": "arXiv:2507.14293v1 Announce Type: cross \nAbstract: The rapid development of autonomous web agents powered by Large Language Models (LLMs), while greatly elevating efficiency, exposes the frontier risk of taking unintended or harmful actions. This situation underscores an urgent need for effective safety measures, akin to access controls for human users. To address this critical challenge, we introduce WebGuard, the first comprehensive dataset designed to support the assessment of web agent action risks and facilitate the development of guardrails for real-world online environments. In doing so, WebGuard specifically focuses on predicting the outcome of state-changing actions and contains 4,939 human-annotated actions from 193 websites across 22 diverse domains, including often-overlooked long-tail websites. These actions are categorized using a novel three-tier risk schema: SAFE, LOW, and HIGH. The dataset includes designated training and test splits to support evaluation under diverse generalization settings. Our initial evaluations reveal a concerning deficiency: even frontier LLMs achieve less than 60% accuracy in predicting action outcomes and less than 60% recall in lagging HIGH-risk actions, highlighting the risks of deploying current-generation agents without dedicated safeguards. We therefore investigate fine-tuning specialized guardrail models using WebGuard. We conduct comprehensive evaluations across multiple generalization settings and find that a fine-tuned Qwen2.5VL-7B model yields a substantial improvement in performance, boosting accuracy from 37% to 80% and HIGH-risk action recall from 20% to 76%. Despite these improvements, the performance still falls short of the reliability required for high-stakes deployment, where guardrails must approach near-perfect accuracy and recall.",
+      "url": "https://arxiv.org/abs/2507.14293",
+      "published_date": "2025-07-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "actions",
+        "high",
+        "risk",
+        "webguard",
+        "accuracy",
+        "action",
+        "agents",
+        "recall",
+        "web",
+        "60"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a very timely and important problem \u2013 the safety of web agents powered by LLMs. The creation of a comprehensive, human-annotated dataset (WebGuard) specifically focused on predicting the risk of state-changing actions is a strong contribution. While the core idea of a risk assessment dataset isn't entirely novel, the focus on web agent actions and the three-tier risk schema, combined with coverage of long-tail websites, demonstrates a thoughtful approach. The potential for this dataset to drive safer web agent development is significant.",
+      "paper_id": "43cad853a7066a098ca632e630935b3b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-07-22T09:34:09.951922"
 }

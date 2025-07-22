@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Language Models Change Facts Based on the Way You Talk",
+      "authors": [
+        "Matthew Kearney, Reuben Binns, Yarin Gal"
+      ],
+      "abstract": "arXiv:2507.14238v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being used in user-facing applications, from providing medical consultations to job interview advice. Recent research suggests that these models are becoming increasingly proficient at inferring identity information about the author of a piece of text from linguistic patterns as subtle as the choice of a few words. However, little is known about how LLMs use this information in their decision-making in real-world applications. We perform the first comprehensive analysis of how identity markers present in a user's writing bias LLM responses across five different high-stakes LLM applications in the domains of medicine, law, politics, government benefits, and job salaries. We find that LLMs are extremely sensitive to markers of identity in user queries and that race, gender, and age consistently influence LLM responses in these applications. For instance, when providing medical advice, we find that models apply different standards of care to individuals of different ethnicities for the same symptoms; we find that LLMs are more likely to alter answers to align with a conservative (liberal) political worldview when asked factual questions by older (younger) individuals; and that LLMs recommend lower salaries for non-White job applicants and higher salaries for women compared to men. Taken together, these biases mean that the use of off-the-shelf LLMs for these applications may cause harmful differences in medical care, foster wage gaps, and create different political factual realities for people of different identities. Beyond providing an analysis, we also provide new tools for evaluating how subtle encoding of identity in users' language choices impacts model decisions. Given the serious implications of these findings, we recommend that similar thorough assessments of LLM use in user-facing applications are conducted before future deployment.",
+      "url": "https://arxiv.org/abs/2507.14238",
+      "published_date": "2025-07-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "applications",
+        "llms",
+        "different",
+        "identity",
+        "llm",
+        "models",
+        "user",
+        "job",
+        "language",
+        "medical"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a critically important and timely issue \u2013 bias in LLM responses based on perceived user identity. The comprehensive analysis across multiple high-stakes applications suggests a robust methodology and potentially significant findings. While identifying bias isn't entirely novel, the breadth of domains investigated and the focus on real-world applications elevate the work's impact and quality. The paper appears well-positioned for positive reception within the NLP community.",
+      "paper_id": "9d3a8e4e412284e3f726005ae528ed56"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-07-22T09:34:09.950411"
 }

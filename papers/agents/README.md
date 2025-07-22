@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### WebGuard: Building a Generalizable Guardrail for Web Agents
+
+**Score:** 92.0 | **Published:** 2025-07-22 | **Authors:** Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su
+
+arXiv:2507.14293v1 Announce Type: cross 
+Abstract: The rapid development of autonomous web agents powered by Large Language Models (LLMs), while greatly elevating efficiency, exposes the frontier risk...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.14293) | [📝 Analysis](43cad853a7066a098ca632e630935b3b.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-22 09:34:09 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Language Models Change Facts Based on the Way You Talk
+
+**Score:** 92.0 | **Published:** 2025-07-22 | **Authors:** Matthew Kearney, Reuben Binns, Yarin Gal
+
+arXiv:2507.14238v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly being used in user-facing applications, from providing medical consultations to job interview advice. Rec...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.14238) | [📝 Analysis](9d3a8e4e412284e3f726005ae528ed56.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-22 09:34:09 UTC*
