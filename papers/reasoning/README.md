@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Let's Measure the Elephant in the Room: Facilitating Personalized Automated Analysis of Privacy Policies at Scale
+
+**Score:** 90.0 | **Published:** 2025-07-22 | **Authors:** Rui Zhao, Vladyslav Melnychuk, Jun Zhao, Jesse Wright, Nigel Shadbolt
+
+arXiv:2507.14214v1 Announce Type: new 
+Abstract: In modern times, people have numerous online accounts, but they rarely read the Terms of Service or Privacy Policy of those sites despite claiming othe...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.14214) | [📝 Analysis](b0b5fbda1d62fa7c98a2c7f2d61236a9.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-22 09:34:09 UTC*

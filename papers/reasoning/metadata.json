@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Let's Measure the Elephant in the Room: Facilitating Personalized Automated Analysis of Privacy Policies at Scale",
+      "authors": [
+        "Rui Zhao, Vladyslav Melnychuk, Jun Zhao, Jesse Wright, Nigel Shadbolt"
+      ],
+      "abstract": "arXiv:2507.14214v1 Announce Type: new \nAbstract: In modern times, people have numerous online accounts, but they rarely read the Terms of Service or Privacy Policy of those sites despite claiming otherwise. This paper introduces PoliAnalyzer, a neuro-symbolic system that assists users with personalized privacy policy analysis. PoliAnalyzer uses Natural Language Processing (NLP) to extract formal representations of data usage practices from policy texts. In favor of deterministic, logical inference is applied to compare user preferences with the formal privacy policy representation and produce a compliance report. To achieve this, we extend an existing formal Data Terms of Use policy language to model privacy policies as app policies and user preferences as data policies. In our evaluation using our enriched PolicyIE dataset curated by legal experts, PoliAnalyzer demonstrated high accuracy in identifying relevant data usage practices, achieving F1-score of 90-100% across most tasks. Additionally, we demonstrate how PoliAnalyzer can model diverse user data-sharing preferences, derived from prior research as 23 user profiles, and perform compliance analysis against the top 100 most-visited websites. This analysis revealed that, on average, 95.2% of a privacy policy's segments do not conflict with the analyzed user preferences, enabling users to concentrate on understanding the 4.8% (636 / 13205) that violates preferences, significantly reducing cognitive burden. Further, we identified common practices in privacy policies that violate user expectations - such as the sharing of location data with 3rd parties. This paper demonstrates that PoliAnalyzer can support automated personalized privacy policy analysis at scale using off-the-shelf NLP tools. This sheds light on a pathway to help individuals regain control over their data and encourage societal discussions on platform data practices to promote a fairer power dynamic.",
+      "url": "https://arxiv.org/abs/2507.14214",
+      "published_date": "2025-07-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "privacy",
+        "policy",
+        "user",
+        "analysis",
+        "polianalyzer",
+        "policies",
+        "preferences",
+        "privacy policy",
+        "practices"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a very important and pervasive problem \u2013 the unreadability of privacy policies. The neuro-symbolic approach combining NLP with logical inference is a solid methodology, and the reported F1-scores of 90-100% are impressive. While extending an existing formal language isn't groundbreaking, the application to privacy policies and user preferences is novel and potentially impactful. The use of a curated dataset by legal experts further strengthens the work.",
+      "paper_id": "b0b5fbda1d62fa7c98a2c7f2d61236a9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-07-22T09:34:09.949371"
 }
