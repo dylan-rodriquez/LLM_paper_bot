@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Characterizing Online Activities Contributing to Suicide Mortality among Youth",
+      "authors": [
+        "Aparna Ananthasubramaniam, Elyse J. Thulin, Viktoryia Kalesnikava, Silas Falde, Jonathan Kertawidjaja, Lily Johns, Alejandro Rodr\\'iguez-Putnam, Emma Spring, Kara Zivin, Briana Mezuk"
+      ],
+      "abstract": "arXiv:2507.16185v1 Announce Type: cross \nAbstract: The recent rise in youth suicide highlights the urgent need to understand how online experiences contribute to this public health issue. Our mixed-methods approach responds to this challenge by developing a set of themes focused on risk factors for suicide mortality in online spaces among youth ages 10-24, and a framework to model these themes at scale. Using 29,124 open text summaries of death investigations between 2013-2022, we conducted a thematic analysis to identify 12 types of online activities that were considered by investigators or next of kin to be relevant in contextualizing a given suicide death. We then develop a zero-shot learning framework to model these 12 themes at scale, and analyze variation in these themes by decedent characteristics and over time. Our work uncovers several online activities related to harm to self, harm to others, interpersonal interactions, activity levels online, and life events, which correspond to different phases of suicide risk from two prominent suicide theories. We find an association between these themes and decedent characteristics like age, means of death, and interpersonal problems, and many themes became more prevalent during the 2020 COVID-19 lockdowns. While digital spaces have taken some steps to address expressions of suicidality online, our work illustrates the opportunities for developing interventions related to less explicit indicators of suicide risk by combining suicide theories with computational research.",
+      "url": "https://arxiv.org/abs/2507.16185",
+      "published_date": "2025-07-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 95,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "suicide",
+        "online",
+        "themes",
+        "activities",
+        "death",
+        "online activities",
+        "risk",
+        "youth",
+        "12",
+        "characteristics"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a critically important and timely problem \u2013 youth suicide and the role of online activity. The mixed-methods approach, combining thematic analysis with a zero-shot learning framework, is robust and well-suited to the challenge. While zero-shot learning isn't entirely novel, its application to this sensitive domain and large-scale dataset is a strong point, suggesting a high potential for positive impact and community reception.",
+      "paper_id": "8ed445637ac9291e245ce3a9a6e953a8"
+    },
+    {
+      "title": "Synthetic Data Generation Using Large Language Models: Advances in Text and Code",
+      "authors": [
+        "Mihai Nadas, Laura Diosan, Andreea Tomescu"
+      ],
+      "abstract": "arXiv:2503.14023v2 Announce Type: replace \nAbstract: This survey reviews how large language models (LLMs) are transforming synthetic training data generation in both natural language and code domains. By producing artificial but task-relevant examples, these models can significantly augment or even substitute for real-world datasets, particularly in scenarios where labeled data is scarce, expensive, or sensitive. This paper surveys recent advances in leveraging LLMs to create synthetic text and code, highlighting key techniques such as prompt-based generation, retrieval-augmented pipelines, and iterative self-refinement. We examine how these methods can enrich low-resource tasks (e.g., classification, question answering) and facilitate code-centric applications (e.g., instruction tuning, code translation, bug repair) through automated verification of functional correctness. Alongside potential benefits - cost-effectiveness, broad coverage, and controllable diversity - we discuss the accompanying challenges, including factual inaccuracies in generated text, insufficient stylistic or distributional realism, and risks of bias amplification. Proposed mitigation strategies range from filtering and weighting synthetic outputs to reinforcement learning with execution feedback in code domains. We conclude by outlining open research directions, such as automated prompt engineering, cross-modal data synthesis, and robust evaluation frameworks, underscoring the growing importance of LLM-generated synthetic data in accelerating AI development while emphasizing ethical and quality safeguards.",
+      "url": "https://arxiv.org/abs/2503.14023",
+      "published_date": "2025-07-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "code",
+        "data",
+        "synthetic",
+        "generation",
+        "language",
+        "models",
+        "text",
+        "advances",
+        "automated",
+        "code domains"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 the use of LLMs for synthetic data generation. The abstract indicates a comprehensive review of techniques like prompt engineering, retrieval augmentation, and self-refinement, covering both text and code domains. While a survey isn't inherently innovative, the rapid evolution of this field makes a well-executed review extremely valuable, and the mention of automated verification for code is a strong point. The potential for cost-effectiveness and addressing data scarcity issues suggests significant impact.",
+      "paper_id": "639b1049b06b8f408ebb4486ef0898b2"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-23T09:34:54.115211"
 }

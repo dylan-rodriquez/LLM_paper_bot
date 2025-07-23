@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The Ever-Evolving Science Exam",
+      "authors": [
+        "Junying Wang, Zicheng Zhang, Yijin Guo, Farong Wen, Ye Shen, Yingji Liang, Yalun Wu, Wenzhe Li, Chunyi Li, Zijian Chen, Qi Jia, Guangtao Zhai"
+      ],
+      "abstract": "arXiv:2507.16514v1 Announce Type: new \nAbstract: As foundation models grow rapidly in capability and deployment, evaluating their scientific understanding becomes increasingly critical. Existing science benchmarks have made progress towards broad **Range**, wide **Reach**, and high **Rigor**, yet they often face two major challenges: **data leakage risks** that compromise benchmarking validity, and **evaluation inefficiency** due to large-scale testing. To address these issues, we introduce the **Ever-Evolving Science Exam (EESE)**, a dynamic benchmark designed to reliably assess scientific capabilities in foundation models. Our approach consists of two components: 1) a non-public **EESE-Pool** with over 100K expertly constructed science instances (question-answer pairs) across 5 disciplines and 500+ subfields, built through a multi-stage pipeline ensuring **Range**, **Reach**, and **Rigor**, 2) a periodically updated 500-instance subset **EESE**, sampled and validated to enable leakage-resilient, low-overhead evaluations. Experiments on 32 open- and closed-source models demonstrate that EESE effectively differentiates the strengths and weaknesses of models in scientific fields and cognitive dimensions. Overall, EESE provides a robust, scalable, and forward-compatible solution for science benchmark design, offering a realistic measure of how well foundation models handle science questions. The project page is at: https://github.com/aiben-ch/EESE.",
+      "url": "https://arxiv.org/abs/2507.16514",
+      "published_date": "2025-07-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "eese",
+        "science",
+        "models",
+        "foundation",
+        "foundation models",
+        "scientific",
+        "500",
+        "benchmark",
+        "evolving",
+        "evolving science"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial challenge in the rapidly evolving field of foundation models \u2013 reliably evaluating their scientific understanding. The proposed EESE benchmark, with its focus on mitigating data leakage and improving evaluation efficiency through a dynamic pool and periodic updates, is a significant step forward. The scale of the EESE-Pool (100K+ instances) and the emphasis on Range, Reach, and Rigor suggest a well-thought-out and potentially impactful contribution.",
+      "paper_id": "ad21f94aa42cc67dfa559195316dde0f"
+    },
+    {
+      "title": "MegaScience: Pushing the Frontiers of Post-Training Datasets for Science Reasoning",
+      "authors": [
+        "Run-Ze Fan, Zengzhi Wang, Pengfei Liu"
+      ],
+      "abstract": "arXiv:2507.16812v1 Announce Type: new \nAbstract: Scientific reasoning is critical for developing AI scientists and supporting human researchers in advancing the frontiers of natural science discovery. However, the open-source community has primarily focused on mathematics and coding while neglecting the scientific domain, largely due to the absence of open, large-scale, high-quality, verifiable scientific reasoning datasets. To bridge this gap, we first present TextbookReasoning, an open dataset featuring truthful reference answers extracted from 12k university-level scientific textbooks, comprising 650k reasoning questions spanning 7 scientific disciplines. We further introduce MegaScience, a large-scale mixture of high-quality open-source datasets totaling 1.25 million instances, developed through systematic ablation studies that evaluate various data selection methodologies to identify the optimal subset for each publicly available scientific dataset. Meanwhile, we build a comprehensive evaluation system covering diverse subjects and question types across 15 benchmarks, incorporating comprehensive answer extraction strategies to ensure accurate evaluation metrics. Our experiments demonstrate that our datasets achieve superior performance and training efficiency with more concise response lengths compared to existing open-source scientific datasets. Furthermore, we train Llama3.1, Qwen2.5, and Qwen3 series base models on MegaScience, which significantly outperform the corresponding official instruct models in average performance. In addition, MegaScience exhibits greater effectiveness for larger and stronger models, suggesting a scaling benefit for scientific tuning. We release our data curation pipeline, evaluation system, datasets, and seven trained models to the community to advance scientific reasoning research.",
+      "url": "https://arxiv.org/abs/2507.16812",
+      "published_date": "2025-07-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "datasets",
+        "open",
+        "reasoning",
+        "megascience",
+        "models",
+        "evaluation",
+        "open source",
+        "scientific reasoning",
+        "source"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI research \u2013 the lack of robust datasets for scientific reasoning. The creation of TextbookReasoning and MegaScience, coupled with the systematic ablation studies, demonstrates a rigorous approach to dataset construction and selection. The focus on verifiable answers from textbooks is a strong point, and the potential to accelerate AI-driven scientific discovery is significant. The work appears well-motivated and clearly presented, suggesting a positive reception from the community.",
+      "paper_id": "ecb5b895639249b39f35130507060810"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-23T09:34:54.111610"
 }

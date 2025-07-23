@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Characterizing Online Activities Contributing to Suicide Mortality among Youth
+
+**Score:** 95.0 | **Published:** 2025-07-23 | **Authors:** Aparna Ananthasubramaniam, Elyse J. Thulin, Viktoryia Kalesnikava, Silas Falde, Jonathan Kertawidjaja, Lily Johns, Alejandro Rodr\'iguez-Putnam, Emma Spring, Kara Zivin, Briana Mezuk
+
+arXiv:2507.16185v1 Announce Type: cross 
+Abstract: The recent rise in youth suicide highlights the urgent need to understand how online experiences contribute to this public health issue. Our mixed-me...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16185) | [📝 Analysis](8ed445637ac9291e245ce3a9a6e953a8.md)
+
+---
+
+### Synthetic Data Generation Using Large Language Models: Advances in Text and Code
+
+**Score:** 92.0 | **Published:** 2025-07-23 | **Authors:** Mihai Nadas, Laura Diosan, Andreea Tomescu
+
+arXiv:2503.14023v2 Announce Type: replace 
+Abstract: This survey reviews how large language models (LLMs) are transforming synthetic training data generation in both natural language and code domains....
+
+[📄 Full Paper](https://arxiv.org/abs/2503.14023) | [📝 Analysis](639b1049b06b8f408ebb4486ef0898b2.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-23 09:34:54 UTC*
