@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Beyond Context Limits: Subconscious Threads for Long-Horizon Reasoning
+
+**Score:** 92.0 | **Published:** 2025-07-23 | **Authors:** Hongyin Luo, Nathaniel Morgan, Tina Li, Derek Zhao, Ai Vy Ngo, Philip Schroeder, Lijie Yang, Assaf Ben-Kish, Jack O'Brien, James Glass
+
+arXiv:2507.16784v1 Announce Type: new 
+Abstract: To break the context limits of large language models (LLMs) that bottleneck reasoning accuracy and efficiency, we propose the Thread Inference Model (T...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16784) | [📝 Analysis](29cf1bf280646b8a231d09a279ac2427.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-23 09:34:54 UTC*

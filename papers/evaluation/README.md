@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Ever-Evolving Science Exam
+
+**Score:** 92.0 | **Published:** 2025-07-23 | **Authors:** Junying Wang, Zicheng Zhang, Yijin Guo, Farong Wen, Ye Shen, Yingji Liang, Yalun Wu, Wenzhe Li, Chunyi Li, Zijian Chen, Qi Jia, Guangtao Zhai
+
+arXiv:2507.16514v1 Announce Type: new 
+Abstract: As foundation models grow rapidly in capability and deployment, evaluating their scientific understanding becomes increasingly critical. Existing scien...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16514) | [📝 Analysis](ad21f94aa42cc67dfa559195316dde0f.md)
+
+---
+
+### MegaScience: Pushing the Frontiers of Post-Training Datasets for Science Reasoning
+
+**Score:** 92.0 | **Published:** 2025-07-23 | **Authors:** Run-Ze Fan, Zengzhi Wang, Pengfei Liu
+
+arXiv:2507.16812v1 Announce Type: new 
+Abstract: Scientific reasoning is critical for developing AI scientists and supporting human researchers in advancing the frontiers of natural science discovery....
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16812) | [📝 Analysis](ecb5b895639249b39f35130507060810.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-23 09:34:54 UTC*
