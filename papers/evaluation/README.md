@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Multi-Label Classification with Generative AI Models in Healthcare: A Case Study of Suicidality and Risk Factors
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Ming Huang, Zehan Li, Yan Hu, Wanjing Wang, Andrew Wen, Scott Lane, Salih Selek, Lokesh Shahani, Rodrigo Machado-Vieira, Jair Soares, Hua Xu, Hongfang Liu
+
+arXiv:2507.17009v1 Announce Type: new 
+Abstract: Suicide remains a pressing global health crisis, with over 720,000 deaths annually and millions more affected by suicide ideation (SI) and suicide atte...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17009) | [📝 Analysis](3f09010f32693022f60bb6d8234d9b87.md)
+
+---
+
+### Synthetic Voice Data for Automatic Speech Recognition in African Languages
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Brian DeRenzi, Anna Dixon, Mohamed Aymane Farhi, Christian Resch
+
+arXiv:2507.17578v1 Announce Type: new 
+Abstract: Speech technology remains out of reach for most of the over 2300 languages in Africa. We present the first systematic assessment of large-scale synthet...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17578) | [📝 Analysis](b6cb8ff82ec5a5af7754dba397b3e7b9.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*

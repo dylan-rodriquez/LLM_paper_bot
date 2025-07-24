@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice",
+      "authors": [
+        "Shanbo Cheng, Yu Bao, Zhichao Huang, Yu Lu, Ningxin Peng, Lu Xu, Runsheng Yu, Rong Cao, Ting Han, Zeyang Li, Sitong Liu, Shengtao Ma, Shiguang Pan, Jiongchen Xiao, Nuo Xu, Meng Yang, Rong Ye, Yiming Yu, Ruofei Zhang, Wanyi Zhang, Wenhao Zhu, Liehao Zou, Lu Lu, Yuxuan Wang, Yonghui Wu"
+      ],
+      "abstract": "arXiv:2507.17527v1 Announce Type: new \nAbstract: Simultaneous Interpretation (SI) represents one of the most daunting frontiers in the translation industry, with product-level automatic systems long plagued by intractable challenges: subpar transcription and translation quality, lack of real-time speech generation, multi-speaker confusion, and translated speech inflation, especially in long-form discourses. In this study, we introduce Seed-LiveInterpret 2.0, an end-to-end SI model that delivers high-fidelity, ultra-low-latency speech-to-speech generation with voice cloning capabilities. As a fully operational product-level solution, Seed-LiveInterpret 2.0 tackles these challenges head-on through our novel duplex speech-to-speech understanding-generating framework. Experimental results demonstrate that through large-scale pretraining and reinforcement learning, the model achieves a significantly better balance between translation accuracy and latency, validated by human interpreters to exceed 70% correctness in complex scenarios. Notably, Seed-LiveInterpret 2.0 outperforms commercial SI solutions by significant margins in translation quality, while slashing the average latency of cloned speech from nearly 10 seconds to a near-real-time 3 seconds, which is around a near 70% reduction that drastically enhances practical usability.",
+      "url": "https://arxiv.org/abs/2507.17527",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "speech",
+        "translation",
+        "end",
+        "liveinterpret",
+        "seed",
+        "seed liveinterpret",
+        "latency",
+        "si",
+        "speech speech",
+        "70"
+      ],
+      "subject_classification": "training",
+      "justification": "The abstract highlights a very challenging problem in machine translation \u2013 simultaneous interpretation \u2013 and positions Seed-LiveInterpret 2.0 as a product-level solution. The mention of tackling key issues like latency, transcription quality, and voice cloning suggests a robust approach. The use of large-scale pretraining and reinforcement learning is a standard but effective methodology, and the validation by human interpreters adds credibility. The abstract's claim of a 'significantly better balance' is promising, though specifics are lacking.",
+      "paper_id": "e1e3dfd2043474026f7c70053c94fc2e"
+    },
+    {
+      "title": "LoX: Low-Rank Extrapolation Robustifies LLM Safety Against Fine-tuning",
+      "authors": [
+        "Gabriel J. Perin, Runjin Chen, Xuxi Chen, Nina S. T. Hirata, Zhangyang Wang, Junyuan Hong"
+      ],
+      "abstract": "arXiv:2506.15606v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) have become indispensable in real-world applications. However, their widespread adoption raises significant safety concerns, particularly in responding to socially harmful questions. Despite substantial efforts to improve model safety through alignment, aligned models can still have their safety protections undermined by subsequent fine-tuning - even when the additional training data appears benign. In this paper, we empirically demonstrate that this vulnerability stems from the sensitivity of safety-critical low-rank subspaces in LLM parameters to fine-tuning. Building on this insight, we propose a novel training-free method, termed Low-Rank Extrapolation (LoX), to enhance safety robustness by extrapolating the safety subspace of an aligned LLM. Our experimental results confirm the effectiveness of LoX, demonstrating significant improvements in robustness against both benign and malicious fine-tuning attacks while preserving the model's adaptability to new tasks. For instance, LoX leads to 11% to 54% absolute reductions in attack success rates (ASR) facing benign or malicious fine-tuning attacks. By investigating the ASR landscape of parameters, we attribute the success of LoX to that the extrapolation moves LLM parameters to a flatter zone, thereby less sensitive to perturbations. The code is available at github.com/VITA-Group/LoX.",
+      "url": "https://arxiv.org/abs/2506.15606",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "lox",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "llm",
+        "benign",
+        "extrapolation",
+        "low",
+        "low rank"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 the loss of safety after fine-tuning \u2013 and proposes a novel, training-free solution. The identification of safety-critical low-rank subspaces is a valuable insight, and LoX appears to be a promising approach to mitigate the issue. The empirical results, as described in the abstract, suggest effectiveness, and the problem itself is highly relevant to the responsible deployment of LLMs.",
+      "paper_id": "365a04b71d73f50d4cb7310fad945194"
+    },
+    {
+      "title": "LoRA is All You Need for Safety Alignment of Reasoning LLMs",
+      "authors": [
+        "Yihao Xue, Baharan Mirzasoleiman"
+      ],
+      "abstract": "arXiv:2507.17075v1 Announce Type: new \nAbstract: Reasoning LLMs have demonstrated remarkable breakthroughs in solving complex problems that were previously out of reach. To ensure LLMs do not assist with harmful requests, safety alignment fine-tuning is necessary in the post-training phase. However, safety alignment fine-tuning has recently been shown to significantly degrade reasoning abilities, a phenomenon known as the \"Safety Tax\". In this work, we show that using LoRA for SFT on refusal datasets effectively aligns the model for safety without harming its reasoning capabilities. This is because restricting the safety weight updates to a low-rank space minimizes the interference with the reasoning weights. Our extensive experiments across four benchmarks covering math, science, and coding show that this approach produces highly safe LLMs -- with safety levels comparable to full-model fine-tuning -- without compromising their reasoning abilities. Additionally, we observe that LoRA induces weight updates with smaller overlap with the initial weights compared to full-model fine-tuning. We also explore methods that further reduce such overlap -- via regularization or during weight merging -- and observe some improvement on certain tasks. We hope this result motivates designing approaches that yield more consistent improvements in the reasoning-safety trade-off.",
+      "url": "https://arxiv.org/abs/2507.17075",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "safety",
+        "reasoning",
+        "fine",
+        "fine tuning",
+        "llms",
+        "tuning",
+        "alignment",
+        "lora",
+        "model",
+        "safety alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue \u2013 the 'Safety Tax' in LLMs \u2013 and proposes a practical solution using LoRA. The claim of maintaining reasoning abilities while improving safety is significant, and the experimental validation across multiple benchmarks strengthens the work. The approach appears well-motivated and the results, if confirmed, could have a substantial impact on deploying safer LLMs.",
+      "paper_id": "2544aaf0ac2071745bf3f3c783abd9dc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-24T09:33:41.010093"
 }

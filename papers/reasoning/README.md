@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Models in Argument Mining: A Survey
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Hao Li, Viktor Schlegel, Yizheng Sun, Riza Batista-Navarro, Goran Nenadic
+
+arXiv:2506.16383v3 Announce Type: replace 
+Abstract: Argument Mining (AM), a critical subfield of Natural Language Processing (NLP), focuses on extracting argumentative structures from text. The adven...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.16383) | [📝 Analysis](43039438c61163b04157713a0473115f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*

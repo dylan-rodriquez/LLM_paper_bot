@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### AI-based Clinical Decision Support for Primary Care: A Real-World Study
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Robert Korom, Sarah Kiptinness, Najib Adan, Kassim Said, Catherine Ithuli, Oliver Rotich, Boniface Kimani, Irene King'ori, Stellah Kamau, Elizabeth Atemba, Muna Aden, Preston Bowman, Michael Sharman, Rebecca Soskin Hicks, Rebecca Distler, Johannes Heidecke, Rahul K. Arora, Karan Singhal
+
+arXiv:2507.16947v1 Announce Type: new 
+Abstract: We evaluate the impact of large language model-based clinical decision support in live care. In partnership with Penda Health, a network of primary car...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16947) | [📝 Analysis](4295966388f47cb550d8afa355e56dca.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*

@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation with Your Voice
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Shanbo Cheng, Yu Bao, Zhichao Huang, Yu Lu, Ningxin Peng, Lu Xu, Runsheng Yu, Rong Cao, Ting Han, Zeyang Li, Sitong Liu, Shengtao Ma, Shiguang Pan, Jiongchen Xiao, Nuo Xu, Meng Yang, Rong Ye, Yiming Yu, Ruofei Zhang, Wanyi Zhang, Wenhao Zhu, Liehao Zou, Lu Lu, Yuxuan Wang, Yonghui Wu
+
+arXiv:2507.17527v1 Announce Type: new 
+Abstract: Simultaneous Interpretation (SI) represents one of the most daunting frontiers in the translation industry, with product-level automatic systems long p...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17527) | [📝 Analysis](e1e3dfd2043474026f7c70053c94fc2e.md)
+
+---
+
+### LoX: Low-Rank Extrapolation Robustifies LLM Safety Against Fine-tuning
+
+**Score:** 90.0 | **Published:** 2025-07-24 | **Authors:** Gabriel J. Perin, Runjin Chen, Xuxi Chen, Nina S. T. Hirata, Zhangyang Wang, Junyuan Hong
+
+arXiv:2506.15606v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have become indispensable in real-world applications. However, their widespread adoption raises significant safe...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.15606) | [📝 Analysis](365a04b71d73f50d4cb7310fad945194.md)
+
+---
+
+### LoRA is All You Need for Safety Alignment of Reasoning LLMs
+
+**Score:** 90.0 | **Published:** 2025-07-24 | **Authors:** Yihao Xue, Baharan Mirzasoleiman
+
+arXiv:2507.17075v1 Announce Type: new 
+Abstract: Reasoning LLMs have demonstrated remarkable breakthroughs in solving complex problems that were previously out of reach. To ensure LLMs do not assist w...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17075) | [📝 Analysis](2544aaf0ac2071745bf3f3c783abd9dc.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*
