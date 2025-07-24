@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "AI-based Clinical Decision Support for Primary Care: A Real-World Study",
+      "authors": [
+        "Robert Korom, Sarah Kiptinness, Najib Adan, Kassim Said, Catherine Ithuli, Oliver Rotich, Boniface Kimani, Irene King'ori, Stellah Kamau, Elizabeth Atemba, Muna Aden, Preston Bowman, Michael Sharman, Rebecca Soskin Hicks, Rebecca Distler, Johannes Heidecke, Rahul K. Arora, Karan Singhal"
+      ],
+      "abstract": "arXiv:2507.16947v1 Announce Type: new \nAbstract: We evaluate the impact of large language model-based clinical decision support in live care. In partnership with Penda Health, a network of primary care clinics in Nairobi, Kenya, we studied AI Consult, a tool that serves as a safety net for clinicians by identifying potential documentation and clinical decision-making errors. AI Consult integrates into clinician workflows, activating only when needed and preserving clinician autonomy. We conducted a quality improvement study, comparing outcomes for 39,849 patient visits performed by clinicians with or without access to AI Consult across 15 clinics. Visits were rated by independent physicians to identify clinical errors. Clinicians with access to AI Consult made relatively fewer errors: 16% fewer diagnostic errors and 13% fewer treatment errors. In absolute terms, the introduction of AI Consult would avert diagnostic errors in 22,000 visits and treatment errors in 29,000 visits annually at Penda alone. In a survey of clinicians with AI Consult, all clinicians said that AI Consult improved the quality of care they delivered, with 75% saying the effect was \"substantial\". These results required a clinical workflow-aligned AI Consult implementation and active deployment to encourage clinician uptake. We hope this study demonstrates the potential for LLM-based clinical decision support tools to reduce errors in real-world settings and provides a practical framework for advancing responsible adoption.",
+      "url": "https://arxiv.org/abs/2507.16947",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "ai consult",
+        "consult",
+        "errors",
+        "clinical",
+        "clinicians",
+        "care",
+        "clinical decision",
+        "decision",
+        "visits"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research presents a strong quality improvement study with a clear methodology and impressive results \u2013 a 16% reduction in diagnostic errors and 13% in treatment errors. The study's setting in a real-world primary care context in Kenya is particularly significant, addressing a critical need in resource-constrained environments. While LLM-based clinical decision support isn't entirely novel, the demonstrated impact in a live care setting and the scale of the study (nearly 40,000 visits) are noteworthy.",
+      "paper_id": "4295966388f47cb550d8afa355e56dca"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-07-24T09:33:41.005656"
 }

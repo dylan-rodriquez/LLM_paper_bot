@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Towards Autonomous Sustainability Assessment via Multimodal AI Agents
+
+**Score:** 92.0 | **Published:** 2025-07-24 | **Authors:** Zhihan Zhang, Alexander Metzger, Yuxuan Mei, Felix H\"ahnlein, Zachary Englhardt, Tingyu Cheng, Gregory D. Abowd, Shwetak Patel, Adriana Schulz, Vikram Iyer
+
+arXiv:2507.17012v1 Announce Type: new 
+Abstract: Interest in sustainability information has surged in recent years. However, the data required for a life cycle assessment (LCA) that maps the materials...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17012) | [📝 Analysis](21e7188dff5ada90dbc30eeda31a0689.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*

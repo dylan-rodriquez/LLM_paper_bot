@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Multi-Label Classification with Generative AI Models in Healthcare: A Case Study of Suicidality and Risk Factors",
+      "authors": [
+        "Ming Huang, Zehan Li, Yan Hu, Wanjing Wang, Andrew Wen, Scott Lane, Salih Selek, Lokesh Shahani, Rodrigo Machado-Vieira, Jair Soares, Hua Xu, Hongfang Liu"
+      ],
+      "abstract": "arXiv:2507.17009v1 Announce Type: new \nAbstract: Suicide remains a pressing global health crisis, with over 720,000 deaths annually and millions more affected by suicide ideation (SI) and suicide attempts (SA). Early identification of suicidality-related factors (SrFs), including SI, SA, exposure to suicide (ES), and non-suicidal self-injury (NSSI), is critical for timely intervention. While prior studies have applied AI to detect SrFs in clinical notes, most treat suicidality as a binary classification task, overlooking the complexity of cooccurring risk factors. This study explores the use of generative large language models (LLMs), specifically GPT-3.5 and GPT-4.5, for multi-label classification (MLC) of SrFs from psychiatric electronic health records (EHRs). We present a novel end to end generative MLC pipeline and introduce advanced evaluation methods, including label set level metrics and a multilabel confusion matrix for error analysis. Finetuned GPT-3.5 achieved top performance with 0.94 partial match accuracy and 0.91 F1 score, while GPT-4.5 with guided prompting showed superior performance across label sets, including rare or minority label sets, indicating a more balanced and robust performance. Our findings reveal systematic error patterns, such as the conflation of SI and SA, and highlight the models tendency toward cautious over labeling. This work not only demonstrates the feasibility of using generative AI for complex clinical classification tasks but also provides a blueprint for structuring unstructured EHR data to support large scale clinical research and evidence based medicine.",
+      "url": "https://arxiv.org/abs/2507.17009",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 72,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "label",
+        "classification",
+        "generative",
+        "gpt",
+        "suicide",
+        "ai",
+        "clinical",
+        "factors",
+        "including",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem \u2013 suicide prevention \u2013 and leverages current trends in generative AI. The focus on multi-label classification is a strong methodological choice, moving beyond simplistic binary approaches. The introduction of advanced evaluation metrics and a novel pipeline suggests a rigorous approach, though the abstract doesn't detail the specifics of the 'advanced' methods. The use of GPT-3.5 and GPT-4.5 is timely and relevant.",
+      "paper_id": "3f09010f32693022f60bb6d8234d9b87"
+    },
+    {
+      "title": "Synthetic Voice Data for Automatic Speech Recognition in African Languages",
+      "authors": [
+        "Brian DeRenzi, Anna Dixon, Mohamed Aymane Farhi, Christian Resch"
+      ],
+      "abstract": "arXiv:2507.17578v1 Announce Type: new \nAbstract: Speech technology remains out of reach for most of the over 2300 languages in Africa. We present the first systematic assessment of large-scale synthetic voice corpora for African ASR. We apply a three-step process: LLM-driven text creation, TTS voice synthesis, and ASR fine-tuning. Eight out of ten languages for which we create synthetic text achieved readability scores above 5 out of 7. We evaluated ASR improvement for three (Hausa, Dholuo, Chichewa) and created more than 2,500 hours of synthetic voice data at below 1% of the cost of real data. Fine-tuned Wav2Vec-BERT-2.0 models trained on 250h real and 250h synthetic Hausa matched a 500h real-data-only baseline, while 579h real and 450h to 993h synthetic data created the best performance. We also present gender-disaggregated ASR performance evaluation. For very low-resource languages, gains varied: Chichewa WER improved about 6.5% relative with a 1:2 real-to-synthetic ratio; a 1:1 ratio for Dholuo showed similar improvements on some evaluation data, but not on others. Investigating intercoder reliability, ASR errors and evaluation datasets revealed the need for more robust reviewer protocols and more accurate evaluation data. All data and models are publicly released to invite further work to improve synthetic data for African languages.",
+      "url": "https://arxiv.org/abs/2507.17578",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "synthetic",
+        "asr",
+        "languages",
+        "real",
+        "evaluation",
+        "voice",
+        "african",
+        "synthetic voice",
+        "250h"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial gap in speech technology \u2013 the lack of resources for African languages. The systematic approach of using LLMs for text creation, TTS for voice synthesis, and ASR fine-tuning is well-defined and the reported results (matching real-data baselines with synthetic data) are promising. The inclusion of gender-disaggregated performance evaluation adds to the rigor and relevance of the work.",
+      "paper_id": "b6cb8ff82ec5a5af7754dba397b3e7b9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-24T09:33:41.007698"
 }

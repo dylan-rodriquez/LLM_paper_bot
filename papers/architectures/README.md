@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Towards Greater Leverage: Scaling Laws for Efficient Mixture-of-Experts Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-24 | **Authors:** Changxin Tian, Kunlong Chen, Jia Liu, Ziqi Liu, Zhiqiang Zhang, Jun Zhou
+
+arXiv:2507.17702v1 Announce Type: new 
+Abstract: Mixture-of-Experts (MoE) has become a dominant architecture for scaling Large Language Models (LLMs) efficiently by decoupling total parameters from co...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.17702) | [📝 Analysis](597b5f773d787319e42ddf269b030476.md)
+
+---
+
+### SiLQ: Simple Large Language Model Quantization-Aware Training
+
+**Score:** 90.0 | **Published:** 2025-07-24 | **Authors:** Steven K. Esser, Jeffrey L. McKinstry, Deepika Bablani, Rathinakumar Appuswamy, Dharmendra S. Modha
+
+arXiv:2507.16933v1 Announce Type: cross 
+Abstract: Large language models can be quantized to reduce inference time latency, model size, and energy consumption, thereby delivering a better user experie...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16933) | [📝 Analysis](26a598fd78dd8fc10b69ce99e91fab68.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-24 09:33:41 UTC*

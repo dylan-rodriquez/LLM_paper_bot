@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Towards Greater Leverage: Scaling Laws for Efficient Mixture-of-Experts Language Models",
+      "authors": [
+        "Changxin Tian, Kunlong Chen, Jia Liu, Ziqi Liu, Zhiqiang Zhang, Jun Zhou"
+      ],
+      "abstract": "arXiv:2507.17702v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) has become a dominant architecture for scaling Large Language Models (LLMs) efficiently by decoupling total parameters from computational cost. However, this decoupling creates a critical challenge: predicting the model capacity of a given MoE configurations (e.g., expert activation ratio and granularity) remains an unresolved problem. To address this gap, we introduce Efficiency Leverage (EL), a metric quantifying the computational advantage of an MoE model over a dense equivalent. We conduct a large-scale empirical study, training over 300 models up to 28B parameters, to systematically investigate the relationship between MoE architectural configurations and EL. Our findings reveal that EL is primarily driven by the expert activation ratio and the total compute budget, both following predictable power laws, while expert granularity acts as a non-linear modulator with a clear optimal range. We integrate these discoveries into a unified scaling law that accurately predicts the EL of an MoE architecture based on its configuration. To validate our derived scaling laws, we designed and trained Ling-mini-beta, a pilot model for Ling-2.0 series with only 0.85B active parameters, alongside a 6.1B dense model for comparison. When trained on an identical 1T high-quality token dataset, Ling-mini-beta matched the performance of the 6.1B dense model while consuming over 7x fewer computational resources, thereby confirming the accuracy of our scaling laws. This work provides a principled and empirically-grounded foundation for the scaling of efficient MoE models.",
+      "url": "https://arxiv.org/abs/2507.17702",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "moe",
+        "scaling",
+        "model",
+        "el",
+        "laws",
+        "models",
+        "computational",
+        "dense",
+        "expert",
+        "ling"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in scaling LLMs \u2013 understanding and predicting the efficiency of MoE models. The large-scale empirical study (300 models) and the introduction of 'Efficiency Leverage' as a metric are strong points. While MoE architectures are well-established, quantifying their efficiency and identifying optimal configurations is a significant contribution, and the power-law findings are valuable for practitioners. The focus on practical scaling laws suggests a high likelihood of positive reception within the community.",
+      "paper_id": "597b5f773d787319e42ddf269b030476"
+    },
+    {
+      "title": "SiLQ: Simple Large Language Model Quantization-Aware Training",
+      "authors": [
+        "Steven K. Esser, Jeffrey L. McKinstry, Deepika Bablani, Rathinakumar Appuswamy, Dharmendra S. Modha"
+      ],
+      "abstract": "arXiv:2507.16933v1 Announce Type: cross \nAbstract: Large language models can be quantized to reduce inference time latency, model size, and energy consumption, thereby delivering a better user experience at lower cost. A challenge exists to deliver quantized models with minimal loss of accuracy in reasonable time, and in particular to do so without requiring mechanisms incompatible with specialized inference accelerators. Here, we demonstrate a simple, end-to-end quantization-aware training approach that, with an increase in total model training budget of less than 0.1%, outperforms the leading published quantization methods by large margins on several modern benchmarks, with both base and instruct model variants. The approach easily generalizes across different model architectures, can be applied to activations, cache, and weights, and requires the introduction of no additional operations to the model other than the quantization itself.",
+      "url": "https://arxiv.org/abs/2507.16933",
+      "published_date": "2025-07-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "model",
+        "quantization",
+        "large",
+        "training",
+        "approach",
+        "aware",
+        "aware training",
+        "end",
+        "inference",
+        "language"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly significant problem in LLM deployment \u2013 efficient quantization. The claim of outperforming existing methods with a minimal training budget increase is compelling. The generality across architectures and applicability to different components (weights, activations, cache) further strengthens the work, suggesting a robust and practical solution. The positive framing and focus on compatibility with specialized hardware indicate a strong understanding of real-world constraints.",
+      "paper_id": "26a598fd78dd8fc10b69ce99e91fab68"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-07-24T09:33:41.013827"
 }
