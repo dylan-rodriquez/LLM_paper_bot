@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts",
+      "authors": [
+        "Tobias Braun, Mark Rothermel, Marcus Rohrbach, Anna Rohrbach"
+      ],
+      "abstract": "arXiv:2412.10510v4 Announce Type: replace-cross \nAbstract: The proliferation of disinformation demands reliable and scalable fact-checking solutions. We present Dynamic Evidence-based FAct-checking with Multimodal Experts (DEFAME), a modular, zero-shot MLLM pipeline for open-domain, text-image claim verification. DEFAME operates in a six-stage process, dynamically selecting the tools and search depth to extract and evaluate textual and visual evidence. Unlike prior approaches that are text-only, lack explainability, or rely solely on parametric knowledge, DEFAME performs end-to-end verification, accounting for images in claims and evidence while generating structured, multimodal reports. Evaluation on the popular benchmarks VERITE, AVerITeC, and MOCHEG shows that DEFAME surpasses all previous methods, establishing itself as the new state-of-the-art fact-checking system for uni- and multimodal fact-checking. Moreover, we introduce a new multimodal benchmark, ClaimReview2024+, featuring claims after the knowledge cutoff of GPT-4o, avoiding data leakage. Here, DEFAME drastically outperforms the GPT-4o baselines, showing temporal generalizability and the potential for real-time fact-checking.",
+      "url": "https://arxiv.org/abs/2412.10510",
+      "published_date": "2025-07-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "checking",
+        "defame",
+        "fact",
+        "fact checking",
+        "multimodal",
+        "evidence",
+        "4o",
+        "based",
+        "based fact",
+        "checking multimodal"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 disinformation \u2013 with a novel, multimodal approach. The claim of surpassing state-of-the-art performance on multiple benchmarks, coupled with the introduction of a new benchmark, suggests strong methodological rigor and potential impact. The modular pipeline and dynamic tool selection are particularly promising features, indicating a well-thought-out and potentially scalable solution.",
+      "paper_id": "0d08b68e01e6aa74a40fb9ad946f11a9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-25T09:32:45.516088"
 }
