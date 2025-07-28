@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### PurpCode: Reasoning for Safer Code Generation
+
+**Score:** 92.0 | **Published:** 2025-07-28 | **Authors:** Jiawei Liu, Nirav Diwan, Zhe Wang, Haoyu Zhai, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Muntasir Wahed, Yinlin Deng, Hadjer Benkraouda, Yuxiang Wei, Lingming Zhang, Ismini Lourentzou, Gang Wang
+
+arXiv:2507.19060v1 Announce Type: cross 
+Abstract: We introduce PurpCode, the first post-training recipe for training safe code reasoning models towards generating secure code and defending against ma...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19060) | [📝 Analysis](931eeebf9cc2c841e432767c672150b1.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-28 09:36:40 UTC*

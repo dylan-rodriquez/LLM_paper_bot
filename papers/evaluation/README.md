@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions
+
+**Score:** 92.0 | **Published:** 2025-07-28 | **Authors:** Agada Joseph Oche, Ademola Glory Folashade, Tirthankar Ghosal, Arpan Biswas
+
+arXiv:2507.18910v1 Announce Type: new 
+Abstract: Retrieval-Augmented Generation (RAG) represents a major advancement in natural language processing (NLP), combining large language models (LLMs) with i...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.18910) | [📝 Analysis](a0125c50c099710f49e7b5ddc71de1b3.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-28 09:36:40 UTC*
