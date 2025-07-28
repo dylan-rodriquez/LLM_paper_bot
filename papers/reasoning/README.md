@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Specification Self-Correction: Mitigating In-Context Reward Hacking Through Test-Time Refinement
+
+**Score:** 90.0 | **Published:** 2025-07-28 | **Authors:** V\'ictor Gallego
+
+arXiv:2507.18742v1 Announce Type: new 
+Abstract: Language models (LMs) are susceptible to in-context reward hacking, where they exploit flaws in tainted or faulty written specifications or rubrics to ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.18742) | [📝 Analysis](9383d32d18ef8cc2d4c06873240933fd.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-28 09:36:40 UTC*

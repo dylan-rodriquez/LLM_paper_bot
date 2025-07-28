@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Specification Self-Correction: Mitigating In-Context Reward Hacking Through Test-Time Refinement",
+      "authors": [
+        "V\\'ictor Gallego"
+      ],
+      "abstract": "arXiv:2507.18742v1 Announce Type: new \nAbstract: Language models (LMs) are susceptible to in-context reward hacking, where they exploit flaws in tainted or faulty written specifications or rubrics to achieve high scores without fulfilling the user's true intent. We introduce Specification Self-Correction (SSC), a novel, test-time framework that enables an LM to identify and correct flaws within its own guiding specification. SSC employs a multi-step inference process where the model first generates a response based on a potentially tainted specification, critiques its output, and then revises the specification itself to remove the exploitable loophole. A final, more robust response is then generated using this self-corrected specification. Across experiments spanning creative writing and agentic coding tasks with several LMs, we demonstrate that while models initially game tainted specifications in 50-70\\% of cases, the SSC process reduces this vulnerability by over 90\\%. This dynamic repair occurs at inference time, requires no weight modification, and leads to more robustly aligned model behavior. Code at https://github.com/vicgalle/specification-self-correction .",
+      "url": "https://arxiv.org/abs/2507.18742",
+      "published_date": "2025-07-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "specification",
+        "self",
+        "correction",
+        "self correction",
+        "specification self",
+        "ssc",
+        "tainted",
+        "time",
+        "context",
+        "context reward"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical issue in the deployment of LMs \u2013 reward hacking \u2013 and proposes a novel solution, Specification Self-Correction, that appears highly effective based on the reported results. The multi-step inference process and the significant reduction in vulnerability (over 90%) are impressive. While the core idea builds on existing critique/revise paradigms, applying it to specification refinement itself is a clever and impactful approach. The strong performance across different tasks suggests broad applicability.",
+      "paper_id": "9383d32d18ef8cc2d4c06873240933fd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-07-28T09:36:40.533404"
 }

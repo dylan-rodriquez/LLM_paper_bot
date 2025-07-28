@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Large language models provide unsafe answers to patient-posed medical questions",
+      "authors": [
+        "Rachel L. Draelos, Samina Afreen, Barbara Blasko, Tiffany Brazile, Natasha Chase, Dimple Desai, Jessica Evert, Heather L. Gardner, Lauren Herrmann, Aswathy Vaikom House, Stephanie Kass, Marianne Kavan, Kirshma Khemani, Amanda Koire, Lauren M. McDonald, Zahraa Rabeeah, Amy Shah"
+      ],
+      "abstract": "arXiv:2507.18905v1 Announce Type: new \nAbstract: Millions of patients are already using large language model (LLM) chatbots for medical advice on a regular basis, raising patient safety concerns. This physician-led red-teaming study compares the safety of four publicly available chatbots--Claude by Anthropic, Gemini by Google, GPT-4o by OpenAI, and Llama3-70B by Meta--on a new dataset, HealthAdvice, using an evaluation framework that enables quantitative and qualitative analysis. In total, 888 chatbot responses are evaluated for 222 patient-posed advice-seeking medical questions on primary care topics spanning internal medicine, women's health, and pediatrics. We find statistically significant differences between chatbots. The rate of problematic responses varies from 21.6 percent (Claude) to 43.2 percent (Llama), with unsafe responses varying from 5 percent (Claude) to 13 percent (GPT-4o, Llama). Qualitative results reveal chatbot responses with the potential to lead to serious patient harm. This study suggests that millions of patients could be receiving unsafe medical advice from publicly available chatbots, and further work is needed to improve the clinical safety of these powerful tools.",
+      "url": "https://arxiv.org/abs/2507.18905",
+      "published_date": "2025-07-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "chatbots",
+        "medical",
+        "patient",
+        "percent",
+        "responses",
+        "advice",
+        "claude",
+        "safety",
+        "unsafe",
+        "4o"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the safety of LLMs providing medical advice. The physician-led red-teaming approach and quantitative/qualitative evaluation framework demonstrate methodological rigor. While the core method of evaluating LLM responses isn't entirely novel, the specific dataset (HealthAdvice) and focus on problematic responses contribute meaningfully, and the statistically significant differences found are compelling. The potential for real-world impact is substantial given the increasing use of these chatbots.",
+      "paper_id": "29be373155ca500fb273ddc4c67fb139"
+    },
+    {
+      "title": "T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation",
+      "authors": [
+        "Lijun Li, Zhelun Shi, Xuhao Hu, Bowen Dong, Yiran Qin, Xihui Liu, Lu Sheng, Jing Shao"
+      ],
+      "abstract": "arXiv:2501.12612v3 Announce Type: replace \nAbstract: Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored. To address this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I models across three key domains: toxicity, fairness, and bias. We build a detailed hierarchy of 12 tasks and 44 categories based on these three domains, and meticulously collect 70K corresponding prompts. Based on this taxonomy and prompt set, we build a large-scale T2I dataset with 68K manually annotated images and train an evaluator capable of detecting critical risks that previous work has failed to identify, including risks that even ultra-large proprietary models like GPTs cannot correctly detect. We evaluate 12 prominent diffusion models on T2ISafety and reveal several concerns including persistent issues with racial fairness, a tendency to generate toxic content, and significant variation in privacy protection across the models, even with defense methods like concept erasing. Data and evaluator are released under https://github.com/adwardlee/t2i_safety.",
+      "url": "https://arxiv.org/abs/2501.12612",
+      "published_date": "2025-07-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "safety",
+        "t2i",
+        "domains",
+        "fairness",
+        "including",
+        "risks",
+        "t2isafety",
+        "12",
+        "assessing"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of text-to-image generation \u2013 safety. The creation of a comprehensive benchmark (T2ISafety) with a detailed taxonomy and large-scale dataset is a significant undertaking. While the abstract doesn't detail the evaluator's architecture, the claim of detecting risks missed by previous work suggests a novel approach, and the scale of the dataset promises to be a valuable resource for the community.",
+      "paper_id": "b655f3ee51f057cb52472ca9b44fa452"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-07-28T09:36:40.534564"
 }

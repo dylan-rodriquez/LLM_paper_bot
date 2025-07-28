@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Large language models provide unsafe answers to patient-posed medical questions
+
+**Score:** 92.0 | **Published:** 2025-07-28 | **Authors:** Rachel L. Draelos, Samina Afreen, Barbara Blasko, Tiffany Brazile, Natasha Chase, Dimple Desai, Jessica Evert, Heather L. Gardner, Lauren Herrmann, Aswathy Vaikom House, Stephanie Kass, Marianne Kavan, Kirshma Khemani, Amanda Koire, Lauren M. McDonald, Zahraa Rabeeah, Amy Shah
+
+arXiv:2507.18905v1 Announce Type: new 
+Abstract: Millions of patients are already using large language model (LLM) chatbots for medical advice on a regular basis, raising patient safety concerns. This...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.18905) | [📝 Analysis](29be373155ca500fb273ddc4c67fb139.md)
+
+---
+
+### T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation
+
+**Score:** 92.0 | **Published:** 2025-07-28 | **Authors:** Lijun Li, Zhelun Shi, Xuhao Hu, Bowen Dong, Yiran Qin, Xihui Liu, Lu Sheng, Jing Shao
+
+arXiv:2501.12612v3 Announce Type: replace 
+Abstract: Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However,...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.12612) | [📝 Analysis](b655f3ee51f057cb52472ca9b44fa452.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-28 09:36:40 UTC*
