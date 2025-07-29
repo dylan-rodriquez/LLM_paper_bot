@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "The Policy Cliff: A Theoretical Analysis of Reward-Policy Maps in Large Language Models",
+      "authors": [
+        "Xingcheng Xu"
+      ],
+      "abstract": "arXiv:2507.20150v1 Announce Type: cross \nAbstract: Reinforcement learning (RL) plays a crucial role in shaping the behavior of large language and reasoning models (LLMs/LRMs). However, it often produces brittle and unstable policies, leading to critical failures such as spurious reasoning, deceptive alignment, and instruction disobedience that undermine the trustworthiness and safety of LLMs/LRMs. Currently, these issues lack a unified theoretical explanation and are typically addressed using ad-hoc heuristics. This paper presents a rigorous mathematical framework for analyzing the stability of the mapping from a reward function to the optimal policy. We show that policy brittleness often stems from non-unique optimal actions, a common occurrence when multiple valid traces exist in a reasoning task. This theoretical lens provides a unified explanation for a range of seemingly disparate failures, reframing them as rational outcomes of optimizing rewards that may be incomplete or noisy, especially in the presence of action degeneracy. We extend this analysis from the fundamental single-reward setting to the more realistic multi-reward RL across diverse domains, showing how stability is governed by an \"effective reward\" aggregation mechanism. We also prove that entropy regularization restores policy stability at the cost of increased stochasticity. Our framework provides a unified explanation for recent empirical findings on deceptive reasoning, instruction-following trade-offs, and RLHF-induced sophistry, and is further validated through perturbation experiments in multi-reward RL. This work advances policy-stability analysis from empirical heuristics towards a principled theory, offering essential insights for designing safer and more trustworthy AI systems.",
+      "url": "https://arxiv.org/abs/2507.20150",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "policy",
+        "reward",
+        "reasoning",
+        "stability",
+        "analysis",
+        "explanation",
+        "rl",
+        "theoretical",
+        "unified",
+        "deceptive"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a critical issue in LLM development \u2013 the brittleness and instability of RL-tuned policies. The proposed mathematical framework for analyzing reward-policy maps is a strong step towards a more theoretical understanding of these failures, moving beyond ad-hoc solutions. While the abstract doesn't detail the specifics of the framework, the promise of a unified explanation for diverse issues like spurious reasoning and deceptive alignment is compelling.",
+      "paper_id": "dd682b6b485f5d4bc48c94f59046e268"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-07-29T09:34:23.136145"
 }

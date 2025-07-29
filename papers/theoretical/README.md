@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Policy Cliff: A Theoretical Analysis of Reward-Policy Maps in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-07-29 | **Authors:** Xingcheng Xu
+
+arXiv:2507.20150v1 Announce Type: cross 
+Abstract: Reinforcement learning (RL) plays a crucial role in shaping the behavior of large language and reasoning models (LLMs/LRMs). However, it often produc...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.20150) | [📝 Analysis](dd682b6b485f5d4bc48c94f59046e268.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-29 09:34:23 UTC*
