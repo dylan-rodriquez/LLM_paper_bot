@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+      "authors": [
+        "Andy Zou, Maxwell Lin, Eliot Jones, Micha Nowak, Mateusz Dziemian, Nick Winter, Alexander Grattan, Valent Nathanael, Ayla Croft, Xander Davies, Jai Patel, Robert Kirk, Nate Burnikell, Yarin Gal, Dan Hendrycks, J. Zico Kolter, Matt Fredrikson"
+      ],
+      "abstract": "arXiv:2507.20526v1 Announce Type: cross \nAbstract: Recent advances have enabled LLM-powered AI agents to autonomously execute complex tasks by combining language model reasoning with tools, memory, and web access. But can these systems be trusted to follow deployment policies in realistic environments, especially under attack? To investigate, we ran the largest public red-teaming competition to date, targeting 22 frontier AI agents across 44 realistic deployment scenarios. Participants submitted 1.8 million prompt-injection attacks, with over 60,000 successfully eliciting policy violations such as unauthorized data access, illicit financial actions, and regulatory noncompliance. We use these results to build the Agent Red Teaming (ART) benchmark - a curated set of high-impact attacks - and evaluate it across 19 state-of-the-art models. Nearly all agents exhibit policy violations for most behaviors within 10-100 queries, with high attack transferability across models and tasks. Importantly, we find limited correlation between agent robustness and model size, capability, or inference-time compute, suggesting that additional defenses are needed against adversarial misuse. Our findings highlight critical and persistent vulnerabilities in today's AI agents. By releasing the ART benchmark and accompanying evaluation framework, we aim to support more rigorous security assessment and drive progress toward safer agent deployment.",
+      "url": "https://arxiv.org/abs/2507.20526",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "agents",
+        "ai",
+        "deployment",
+        "ai agents",
+        "art",
+        "access",
+        "agent deployment",
+        "art benchmark",
+        "attack"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critically important and timely problem \u2013 the security of AI agents \u2013 with a rigorous methodology involving a large-scale red-teaming competition. The creation of the ART benchmark is a valuable contribution to the field, and the findings regarding attack transferability are concerning and highlight the need for robust defenses. The scale of the study and the clear presentation of results suggest high quality and likely positive reception within the AI safety and security communities.",
+      "paper_id": "6f213048457883c66909e13f0bc7cedc"
+    },
+    {
+      "title": "MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?",
+      "authors": [
+        "Muntasir Wahed, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Nirav Diwan, Gang Wang, Dilek Hakkani-T\\\"ur, Ismini Lourentzou"
+      ],
+      "abstract": "arXiv:2507.19598v1 Announce Type: new \nAbstract: Recent advancements in Large Language Models (LLMs) have significantly enhanced their code generation capabilities. However, their robustness against adversarial misuse, particularly through multi-turn malicious coding prompts, remains underexplored. In this work, we introduce code decomposition attacks, where a malicious coding task is broken down into a series of seemingly benign subtasks across multiple conversational turns to evade safety filters. To facilitate systematic evaluation, we introduce \\benchmarkname{}, a large-scale benchmark designed to evaluate the robustness of code LLMs against both single-turn and multi-turn malicious prompts. Empirical results across open- and closed-source models reveal persistent vulnerabilities, especially under multi-turn scenarios. Fine-tuning on MOCHA improves rejection rates while preserving coding ability, and importantly, enhances robustness on external adversarial datasets with up to 32.4% increase in rejection rates without any additional supervision.",
+      "url": "https://arxiv.org/abs/2507.19598",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "turn",
+        "code",
+        "coding",
+        "malicious",
+        "multi",
+        "multi turn",
+        "malicious coding",
+        "models",
+        "prompts",
+        "robustness"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 their susceptibility to multi-turn malicious prompts. The introduction of the MOCHA benchmark is a valuable contribution to the field, providing a systematic way to evaluate robustness. The reported improvements from fine-tuning suggest a practical path towards mitigating these risks, and the positive transfer to external datasets is encouraging.",
+      "paper_id": "df261af5b876a9f9dbf2ef3afcd845c9"
+    },
+    {
+      "title": "IQ Test for LLMs: An Evaluation Framework for Uncovering Core Skills in LLMs",
+      "authors": [
+        "Aviya Maimon, Amir DN Cohen, Gal Vishne, Shauli Ravfogel, Reut Tsarfaty"
+      ],
+      "abstract": "arXiv:2507.20208v1 Announce Type: new \nAbstract: Current evaluations of large language models (LLMs) rely on benchmark scores, but it is difficult to interpret what these individual scores reveal about a model's overall skills. Specifically, as a community we lack understanding of how tasks relate to one another, what they measure in common, how they differ, or which ones are redundant. As a result, models are often assessed via a single score averaged across benchmarks, an approach that fails to capture the models' wholistic strengths and limitations. Here, we propose a new evaluation paradigm that uses factor analysis to identify latent skills driving performance across benchmarks. We apply this method to a comprehensive new leaderboard showcasing the performance of 60 LLMs on 44 tasks, and identify a small set of latent skills that largely explain performance. Finally, we turn these insights into practical tools that identify redundant tasks, aid in model selection, and profile models along each latent skill.",
+      "url": "https://arxiv.org/abs/2507.20208",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "llms",
+        "models",
+        "skills",
+        "identify",
+        "latent",
+        "new",
+        "performance",
+        "tasks",
+        "benchmarks",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 the lack of interpretability of benchmark scores. The use of factor analysis to uncover latent skills is a strong methodological approach, and the creation of a comprehensive leaderboard with 60 LLMs and 44 tasks is valuable. The potential for practical tools to aid model selection and identify redundant tasks suggests a high degree of utility and positive community reception.",
+      "paper_id": "ea89da519445d9947769c311da222a3a"
+    },
+    {
+      "title": "SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration",
+      "authors": [
+        "Keyan Ding, Jing Yu, Junjie Huang, Yuchen Yang, Qiang Zhang, Huajun Chen"
+      ],
+      "abstract": "arXiv:2507.20280v1 Announce Type: cross \nAbstract: Scientific research increasingly relies on specialized computational tools, yet effectively utilizing these tools demands substantial domain expertise. While Large Language Models (LLMs) show promise in tool automation, they struggle to seamlessly integrate and orchestrate multiple tools for complex scientific workflows. Here, we present SciToolAgent, an LLM-powered agent that automates hundreds of scientific tools across biology, chemistry, and materials science. At its core, SciToolAgent leverages a scientific tool knowledge graph that enables intelligent tool selection and execution through graph-based retrieval-augmented generation. The agent also incorporates a comprehensive safety-checking module to ensure responsible and ethical tool usage. Extensive evaluations on a curated benchmark demonstrate that SciToolAgent significantly outperforms existing approaches. Case studies in protein engineering, chemical reactivity prediction, chemical synthesis, and metal-organic framework screening further demonstrate SciToolAgent's capability to automate complex scientific workflows, making advanced research tools accessible to both experts and non-experts.",
+      "url": "https://arxiv.org/abs/2507.20280",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "scientific",
+        "scitoolagent",
+        "tool",
+        "tools",
+        "agent",
+        "graph",
+        "chemical",
+        "complex",
+        "complex scientific",
+        "demonstrate"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in scientific research \u2013 the effective utilization of specialized tools. The use of a knowledge graph to drive tool selection and orchestration is a strong methodological choice, and the inclusion of a safety module is commendable. The reported outperformance over existing approaches and the focus on real-world scientific domains (biology, chemistry, materials science) suggest high potential for impact and positive community reception.",
+      "paper_id": "2c9eebf6eb5d95152823b059df3d0f35"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-07-29T09:34:23.132205"
 }

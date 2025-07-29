@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Carbon Cost of Conversation, Sustainability in the Age of Language Models",
+      "authors": [
+        "Sayed Mahbub Hasan Amiri, Prasun Goswami, Md. Mainul Islam, Mohammad Shakhawat Hossen, Sayed Majhab Hasan Amiri, Naznin Akter"
+      ],
+      "abstract": "arXiv:2507.20018v1 Announce Type: cross \nAbstract: Large language models (LLMs) like GPT-3 and BERT have revolutionized natural language processing (NLP), yet their environmental costs remain dangerously overlooked. This article critiques the sustainability of LLMs, quantifying their carbon footprint, water usage, and contribution to e-waste through case studies of models such as GPT-4 and energy-efficient alternatives like Mistral 7B. Training a single LLM can emit carbon dioxide equivalent to hundreds of cars driven annually, while data centre cooling exacerbates water scarcity in vulnerable regions. Systemic challenges corporate greenwashing, redundant model development, and regulatory voids perpetuate harm, disproportionately burdening marginalized communities in the Global South. However, pathways exist for sustainable NLP: technical innovations (e.g., model pruning, quantum computing), policy reforms (carbon taxes, mandatory emissions reporting), and cultural shifts prioritizing necessity over novelty. By analysing industry leaders (Google, Microsoft) and laggards (Amazon), this work underscores the urgency of ethical accountability and global cooperation. Without immediate action, AIs ecological toll risks outpacing its societal benefits. The article concludes with a call to align technological progress with planetary boundaries, advocating for equitable, transparent, and regenerative AI systems that prioritize both human and environmental well-being.",
+      "url": "https://arxiv.org/abs/2507.20018",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "carbon",
+        "language",
+        "models",
+        "article",
+        "environmental",
+        "global",
+        "gpt",
+        "language models",
+        "like",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a highly significant and timely issue \u2013 the environmental impact of LLMs \u2013 and its critique of corporate practices is valuable. While the abstract suggests a solid methodology with case studies, the novelty appears moderate, focusing on quantifying existing concerns rather than presenting entirely new techniques. The potential for real-world impact is high, given growing awareness of sustainability, and the community is likely to receive it positively, aligning with current trends in responsible AI.",
+      "paper_id": "650612422b2c2ee50a56f3c6ffd524e6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-07-29T09:34:23.133794"
 }

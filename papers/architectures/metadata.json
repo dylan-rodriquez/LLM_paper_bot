@@ -703,7 +703,135 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Efficient Attention Mechanisms for Large Language Models: A Survey",
+      "authors": [
+        "Yutao Sun, Zhenyu Li, Yike Zhang, Tengyu Pan, Bowen Dong, Yuyi Guo, Jianyong Wang"
+      ],
+      "abstract": "arXiv:2507.19595v1 Announce Type: new \nAbstract: Transformer-based architectures have become the prevailing backbone of large language models. However, the quadratic time and memory complexity of self-attention remains a fundamental obstacle to efficient long-context modeling. To address this limitation, recent research has introduced two principal categories of efficient attention mechanisms. Linear attention methods achieve linear complexity through kernel approximations, recurrent formulations, or fastweight dynamics, thereby enabling scalable inference with reduced computational overhead. Sparse attention techniques, in contrast, limit attention computation to selected subsets of tokens based on fixed patterns, block-wise routing, or clustering strategies, enhancing efficiency while preserving contextual coverage. This survey provides a systematic and comprehensive overview of these developments, integrating both algorithmic innovations and hardware-level considerations. In addition, we analyze the incorporation of efficient attention into largescale pre-trained language models, including both architectures built entirely on efficient attention and hybrid designs that combine local and global components. By aligning theoretical foundations with practical deployment strategies, this work aims to serve as a foundational reference for advancing the design of scalable and efficient language models.",
+      "url": "https://arxiv.org/abs/2507.19595",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "attention",
+        "efficient",
+        "efficient attention",
+        "language",
+        "language models",
+        "models",
+        "architectures",
+        "attention mechanisms",
+        "based",
+        "complexity"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper addresses a highly significant problem in the field of LLMs \u2013 the computational cost of attention mechanisms. The abstract demonstrates a clear understanding of the landscape, categorizing existing solutions into linear and sparse attention. While a survey isn't inherently innovative, a *good* survey is valuable, and this abstract suggests a comprehensive and well-structured overview, likely to be well-received by the community. The potential for impact is high given the widespread need for efficient LLMs.",
+      "paper_id": "17ba0e1b5042df3913a3eaaa645da5e4"
+    },
+    {
+      "title": "Advancing Mental Disorder Detection: A Comparative Evaluation of Transformer and LSTM Architectures on Social Media",
+      "authors": [
+        "Khalid Hasan, Jamil Saquer, Mukulika Ghosh"
+      ],
+      "abstract": "arXiv:2507.19511v1 Announce Type: new \nAbstract: The rising prevalence of mental health disorders necessitates the development of robust, automated tools for early detection and monitoring. Recent advances in Natural Language Processing (NLP), particularly transformer-based architectures, have demonstrated significant potential in text analysis. This study provides a comprehensive evaluation of state-of-the-art transformer models (BERT, RoBERTa, DistilBERT, ALBERT, and ELECTRA) against Long Short-Term Memory (LSTM) based approaches using different text embedding techniques for mental health disorder classification on Reddit. We construct a large annotated dataset, validating its reliability through statistical judgmental analysis and topic modeling. Experimental results demonstrate the superior performance of transformer models over traditional deep-learning approaches. RoBERTa achieved the highest classification performance, with a 99.54% F1 score on the hold-out test set and a 96.05% F1 score on the external test set. Notably, LSTM models augmented with BERT embeddings proved highly competitive, achieving F1 scores exceeding 94% on the external dataset while requiring significantly fewer computational resources. These findings highlight the effectiveness of transformer-based models for real-time, scalable mental health monitoring. We discuss the implications for clinical applications and digital mental health interventions, offering insights into the capabilities and limitations of state-of-the-art NLP methodologies in mental disorder detection.",
+      "url": "https://arxiv.org/abs/2507.19511",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "mental",
+        "transformer",
+        "health",
+        "mental health",
+        "models",
+        "based",
+        "detection",
+        "disorder",
+        "f1",
+        "lstm"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The research addresses a highly significant problem \u2013 mental health disorder detection \u2013 and leverages current state-of-the-art NLP techniques. The creation of a large, validated dataset is a strong methodological point. While the comparison of transformer models to LSTMs isn't entirely novel, the reported F1 score of 99.54% is impressive and suggests a robust implementation. The work appears well-structured and likely to be well-received by the NLP and mental health communities.",
+      "paper_id": "7a3f38be6495c418f21cb5a2ccb42534"
+    },
+    {
+      "title": "HCAttention: Extreme KV Cache Compression via Heterogeneous Attention Computing for LLMs",
+      "authors": [
+        "Dongquan Yang, Yifan Yang, Xiaotian Yu, Xianbiao Qi, Rong Xiao"
+      ],
+      "abstract": "arXiv:2507.19823v1 Announce Type: new \nAbstract: Processing long-context inputs with large language models presents a significant challenge due to the enormous memory requirements of the Key-Value (KV) cache during inference. Existing KV cache compression methods exhibit noticeable performance degradation when memory is reduced by more than 85%. Additionally, strategies that leverage GPU-CPU collaboration for approximate attention remain underexplored in this setting. We propose HCAttention, a heterogeneous attention computation framework that integrates key quantization, value offloading, and dynamic KV eviction to enable efficient inference under extreme memory constraints. The method is compatible with existing transformer architectures and does not require model fine-tuning. Experimental results on the LongBench benchmark demonstrate that our approach preserves the accuracy of full-attention model while shrinking the KV cache memory footprint to 25% of its original size. Remarkably, it stays competitive with only 12.5% of the cache, setting a new state-of-the-art in LLM KV cache compression. To the best of our knowledge, HCAttention is the first to extend the Llama-3-8B model to process 4 million tokens on a single A100 GPU with 80GB memory.",
+      "url": "https://arxiv.org/abs/2507.19823",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "cache",
+        "kv",
+        "kv cache",
+        "memory",
+        "attention",
+        "cache compression",
+        "compression",
+        "hcattention",
+        "model",
+        "existing"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical bottleneck in LLM deployment \u2013 KV cache size \u2013 and proposes a novel heterogeneous computing approach. The reported 75% reduction in KV cache size *without* accuracy loss (as claimed on LongBench) is a significant achievement. While the abstract doesn't detail the specifics of the 'dynamic KV eviction' or the quantization/offloading strategies, the combination suggests a well-considered approach. The lack of fine-tuning requirement is also a major plus.",
+      "paper_id": "24cac212b04a0540c61fb6925fb53501"
+    },
+    {
+      "title": "AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition",
+      "authors": [
+        "Samuel Ebimobowei Johnny, Blessed Guda, Andrew Blayama Stephen, Assane Gueye"
+      ],
+      "abstract": "arXiv:2507.19840v1 Announce Type: cross \nAbstract: Continuously recognizing sign gestures and converting them to glosses plays a key role in bridging the gap between the hearing and hearing-impaired communities. This involves recognizing and interpreting the hands, face, and body gestures of the signer, which pose a challenge as it involves a combination of all these features. Continuous Sign Language Recognition (CSLR) methods rely on multi-stage pipelines that first extract visual features, then align variable-length sequences with target glosses using CTC or HMM-based approaches. However, these alignment-based methods suffer from error propagation across stages, overfitting, and struggle with vocabulary scalability due to the intermediate gloss representation bottleneck. To address these limitations, we propose AutoSign, an autoregressive decoder-only transformer that directly translates pose sequences to natural language text, bypassing traditional alignment mechanisms entirely. The use of this decoder-only approach allows the model to directly map between the features and the glosses without the need for CTC loss while also directly learning the textual dependencies in the glosses. Our approach incorporates a temporal compression module using 1D CNNs to efficiently process pose sequences, followed by AraGPT2, a pre-trained Arabic decoder, to generate text (glosses). Through comprehensive ablation studies, we demonstrate that hand and body gestures provide the most discriminative features for signer-independent CSLR. By eliminating the multi-stage pipeline, AutoSign achieves substantial improvements on the Isharah-1000 dataset, achieving an improvement of up to 6.1\\% in WER score compared to the best existing method.",
+      "url": "https://arxiv.org/abs/2507.19840",
+      "published_date": "2025-07-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "glosses",
+        "features",
+        "pose",
+        "autosign",
+        "decoder",
+        "directly",
+        "gestures",
+        "language",
+        "sequences",
+        "sign"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial problem in accessibility \u2013 continuous sign language recognition \u2013 and proposes a novel solution by bypassing traditional alignment-based methods. The autoregressive transformer approach is a strong departure from existing techniques and potentially overcomes limitations like error propagation and vocabulary scalability. The clear articulation of the problem and proposed solution suggests a well-structured and rigorous approach, making it likely to be well-received by the community.",
+      "paper_id": "5bb4a24bd543e5103841d9a407130a68"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-07-29T09:34:23.130157"
 }

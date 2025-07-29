@@ -2,7 +2,51 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (26 total)
+
+### Efficient Attention Mechanisms for Large Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-07-29 | **Authors:** Yutao Sun, Zhenyu Li, Yike Zhang, Tengyu Pan, Bowen Dong, Yuyi Guo, Jianyong Wang
+
+arXiv:2507.19595v1 Announce Type: new 
+Abstract: Transformer-based architectures have become the prevailing backbone of large language models. However, the quadratic time and memory complexity of self...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19595) | [📝 Analysis](17ba0e1b5042df3913a3eaaa645da5e4.md)
+
+---
+
+### Advancing Mental Disorder Detection: A Comparative Evaluation of Transformer and LSTM Architectures on Social Media
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Khalid Hasan, Jamil Saquer, Mukulika Ghosh
+
+arXiv:2507.19511v1 Announce Type: new 
+Abstract: The rising prevalence of mental health disorders necessitates the development of robust, automated tools for early detection and monitoring. Recent adv...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19511) | [📝 Analysis](7a3f38be6495c418f21cb5a2ccb42534.md)
+
+---
+
+### HCAttention: Extreme KV Cache Compression via Heterogeneous Attention Computing for LLMs
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Dongquan Yang, Yifan Yang, Xiaotian Yu, Xianbiao Qi, Rong Xiao
+
+arXiv:2507.19823v1 Announce Type: new 
+Abstract: Processing long-context inputs with large language models presents a significant challenge due to the enormous memory requirements of the Key-Value (KV...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19823) | [📝 Analysis](24cac212b04a0540c61fb6925fb53501.md)
+
+---
+
+### AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Samuel Ebimobowei Johnny, Blessed Guda, Andrew Blayama Stephen, Assane Gueye
+
+arXiv:2507.19840v1 Announce Type: cross 
+Abstract: Continuously recognizing sign gestures and converting them to glosses plays a key role in bridging the gap between the hearing and hearing-impaired c...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19840) | [📝 Analysis](5bb4a24bd543e5103841d9a407130a68.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +291,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-29 09:34:23 UTC*

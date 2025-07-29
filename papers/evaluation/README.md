@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition
+
+**Score:** 92.0 | **Published:** 2025-07-29 | **Authors:** Andy Zou, Maxwell Lin, Eliot Jones, Micha Nowak, Mateusz Dziemian, Nick Winter, Alexander Grattan, Valent Nathanael, Ayla Croft, Xander Davies, Jai Patel, Robert Kirk, Nate Burnikell, Yarin Gal, Dan Hendrycks, J. Zico Kolter, Matt Fredrikson
+
+arXiv:2507.20526v1 Announce Type: cross 
+Abstract: Recent advances have enabled LLM-powered AI agents to autonomously execute complex tasks by combining language model reasoning with tools, memory, an...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.20526) | [📝 Analysis](6f213048457883c66909e13f0bc7cedc.md)
+
+---
+
+### MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Muntasir Wahed, Xiaona Zhou, Kiet A. Nguyen, Tianjiao Yu, Nirav Diwan, Gang Wang, Dilek Hakkani-T\"ur, Ismini Lourentzou
+
+arXiv:2507.19598v1 Announce Type: new 
+Abstract: Recent advancements in Large Language Models (LLMs) have significantly enhanced their code generation capabilities. However, their robustness against a...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.19598) | [📝 Analysis](df261af5b876a9f9dbf2ef3afcd845c9.md)
+
+---
+
+### IQ Test for LLMs: An Evaluation Framework for Uncovering Core Skills in LLMs
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Aviya Maimon, Amir DN Cohen, Gal Vishne, Shauli Ravfogel, Reut Tsarfaty
+
+arXiv:2507.20208v1 Announce Type: new 
+Abstract: Current evaluations of large language models (LLMs) rely on benchmark scores, but it is difficult to interpret what these individual scores reveal abou...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.20208) | [📝 Analysis](ea89da519445d9947769c311da222a3a.md)
+
+---
+
+### SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration
+
+**Score:** 90.0 | **Published:** 2025-07-29 | **Authors:** Keyan Ding, Jing Yu, Junjie Huang, Yuchen Yang, Qiang Zhang, Huajun Chen
+
+arXiv:2507.20280v1 Announce Type: cross 
+Abstract: Scientific research increasingly relies on specialized computational tools, yet effectively utilizing these tools demands substantial domain expertis...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.20280) | [📝 Analysis](2c9eebf6eb5d95152823b059df3d0f35.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-29 09:34:23 UTC*
