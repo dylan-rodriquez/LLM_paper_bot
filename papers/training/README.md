@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Reviving Your MNEME: Predicting The Side Effects of LLM Unlearning and Fine-Tuning via Sparse Model Diffing
+
+**Score:** 90.0 | **Published:** 2025-07-30 | **Authors:** Aly M. Kassem, Zhuan Shi, Negar Rostamzadeh, Golnoosh Farnadi
+
+arXiv:2507.21084v1 Announce Type: new 
+Abstract: Large language models (LLMs) are frequently fine-tuned or unlearned to adapt to new tasks or eliminate undesirable behaviors. While existing evaluation...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.21084) | [📝 Analysis](d182c5000791d2eaf2b514ae983031b3.md)
+
+---
+
+### Persona Vectors: Monitoring and Controlling Character Traits in Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-30 | **Authors:** Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, Jack Lindsey
+
+arXiv:2507.21509v1 Announce Type: new 
+Abstract: Large language models interact with users through a simulated 'Assistant' persona. While the Assistant is typically trained to be helpful, harmless, an...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.21509) | [📝 Analysis](a091006714359b4b721077081a416e14.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-30 09:36:30 UTC*

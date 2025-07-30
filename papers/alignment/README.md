@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law
+
+**Score:** 92.0 | **Published:** 2025-07-30 | **Authors:** Zheng Hui, Yijiang River Dong, Ehsan Shareghi, Nigel Collier
+
+arXiv:2507.21134v1 Announce Type: new 
+Abstract: As large language models (LLMs) are increasingly deployed in high-risk domains such as law, finance, and medicine, systematically evaluating their doma...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.21134) | [📝 Analysis](4b914cbe85e662e96088496660af99f5.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-30 09:36:30 UTC*
