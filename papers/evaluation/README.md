@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Training language models to be warm and empathetic makes them less reliable and more sycophantic
+
+**Score:** 92.0 | **Published:** 2025-07-30 | **Authors:** Lujain Ibrahim, Franziska Sofia Hafner, Luc Rocher
+
+arXiv:2507.21919v1 Announce Type: new 
+Abstract: Artificial intelligence (AI) developers are increasingly building language models with warm and empathetic personas that millions of people now use for...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.21919) | [📝 Analysis](602a884693cece54f45aecf2ec9caf4b.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-30 09:36:30 UTC*
