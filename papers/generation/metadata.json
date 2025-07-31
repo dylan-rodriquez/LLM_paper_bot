@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Strategic Deflection: Defending LLMs from Logit Manipulation",
+      "authors": [
+        "Yassine Rachidy, Jihad Rbaiti, Youssef Hmamouche, Faissal Sehbaoui, Amal El Fallah Seghrouchni"
+      ],
+      "abstract": "arXiv:2507.22160v1 Announce Type: cross \nAbstract: With the growing adoption of Large Language Models (LLMs) in critical areas, ensuring their security against jailbreaking attacks is paramount. While traditional defenses primarily rely on refusing malicious prompts, recent logit-level attacks have demonstrated the ability to bypass these safeguards by directly manipulating the token-selection process during generation. We introduce Strategic Deflection (SDeflection), a defense that redefines the LLM's response to such advanced attacks. Instead of outright refusal, the model produces an answer that is semantically adjacent to the user's request yet strips away the harmful intent, thereby neutralizing the attacker's harmful intent. Our experiments demonstrate that SDeflection significantly lowers Attack Success Rate (ASR) while maintaining model performance on benign queries. This work presents a critical shift in defensive strategies, moving from simple refusal to strategic content redirection to neutralize advanced threats.",
+      "url": "https://arxiv.org/abs/2507.22160",
+      "published_date": "2025-07-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "attacks",
+        "strategic",
+        "advanced",
+        "critical",
+        "deflection",
+        "harmful",
+        "harmful intent",
+        "intent",
+        "llms",
+        "logit"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a highly relevant and critical problem in LLM security \u2013 defending against logit-level attacks. The 'Strategic Deflection' approach is a clever shift from simple refusal, offering a more nuanced and potentially effective defense. The reported improvements in ASR while maintaining performance suggest a solid methodology, though full details would be needed from the full paper to confirm rigor. The problem is timely and the proposed solution has strong potential for real-world impact.",
+      "paper_id": "1dd904d9305b858cb1a634417b3dafaa"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-07-31T09:35:28.068391"
 }

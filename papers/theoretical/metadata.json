@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Can adversarial attacks by large language models be attributed?",
+      "authors": [
+        "Manuel Cebrian, Andres Abeliuk, Jan Arne Telle"
+      ],
+      "abstract": "arXiv:2411.08003v3 Announce Type: replace-cross \nAbstract: Attributing outputs from Large Language Models (LLMs) in adversarial settings-such as cyberattacks and disinformation campaigns-presents significant challenges that are likely to grow in importance. We approach this attribution problem from both a theoretical and an empirical perspective, drawing on formal language theory (identification in the limit) and data-driven analysis of the expanding LLM ecosystem. By modeling an LLM's set of possible outputs as a formal language, we analyze whether finite samples of text can uniquely pinpoint the originating model. Our results show that, under mild assumptions of overlapping capabilities among models, certain classes of LLMs are fundamentally non-identifiable from their outputs alone. We delineate four regimes of theoretical identifiability: (1) an infinite class of deterministic (discrete) LLM languages is not identifiable (Gold's classical result from 1967); (2) an infinite class of probabilistic LLMs is also not identifiable (by extension of the deterministic case); (3) a finite class of deterministic LLMs is identifiable (consistent with Angluin's tell-tale criterion); and (4) even a finite class of probabilistic LLMs can be non-identifiable (we provide a new counterexample establishing this negative result). Complementing these theoretical insights, we quantify the explosion in the number of plausible model origins (hypothesis space) for a given output in recent years. Even under conservative assumptions-each open-source model fine-tuned on at most one new dataset-the count of distinct candidate models doubles approximately every 0.5 years, and allowing multi-dataset fine-tuning combinations yields doubling times as short as 0.28 years. This combinatorial growth, alongside the extraordinary computational cost of brute-force likelihood attribution across all models and potential users, renders exhaustive attribution infeasible in practice.",
+      "url": "https://arxiv.org/abs/2411.08003",
+      "published_date": "2025-07-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "identifiable",
+        "llms",
+        "models",
+        "class",
+        "language",
+        "attribution",
+        "deterministic",
+        "finite",
+        "llm",
+        "model"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial and increasingly relevant problem \u2013 attributing adversarial attacks from LLMs. The combination of formal language theory and empirical analysis is a strong methodological approach. While the theoretical result regarding non-identifiability isn't entirely surprising given related work in information theory, applying it specifically to LLMs and delineating identifiability regimes is valuable. The potential for real-world impact in cybersecurity and disinformation detection is high.",
+      "paper_id": "00d171750d9d5b314bd5b5a1ef63c77f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-07-31T09:35:28.069018"
 }

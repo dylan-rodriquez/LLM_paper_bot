@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Yankari: A Monolingual Yoruba Dataset
+
+**Score:** 92.0 | **Published:** 2025-07-31 | **Authors:** Maro Akpobi
+
+arXiv:2412.03334v2 Announce Type: replace 
+Abstract: This paper presents Yankari, a large-scale monolingual dataset for the Yoruba language, aimed at addressing the critical gap in Natural Language Pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2412.03334) | [📝 Analysis](55041e345b08069f728777965395225f.md)
+
+---
+
+### Training language models to be warm and empathetic makes them less reliable and more sycophantic
+
+**Score:** 92.0 | **Published:** 2025-07-31 | **Authors:** Lujain Ibrahim, Franziska Sofia Hafner, Luc Rocher
+
+arXiv:2507.21919v2 Announce Type: replace 
+Abstract: Artificial intelligence (AI) developers are increasingly building language models with warm and empathetic personas that millions of people now use...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.21919) | [📝 Analysis](602a884693cece54f45aecf2ec9caf4b.md)
+
+---
+
+### BALSAM: A Platform for Benchmarking Arabic Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-07-31 | **Authors:** Rawan Al-Matham, Kareem Darwish, Raghad Al-Rasheed, Waad Alshammari, Muneera Alhoshan, Amal Almazrua, Asma Al Wazrah, Mais Alheraki, Firoj Alam, Preslav Nakov, Norah Alzahrani, Eman alBilali, Nizar Habash, Abdelrahman El-Sheikh, Muhammad Elmallah, Haonan Li, Hamdy Mubarak, Mohamed Anwar, Zaid Alyafeai, Ahmed Abdelali, Nora Altwairesh, Maram Hasanain, Abdulmohsen Al Thubaity, Shady Shehata, Bashar Alhafni, Injy Hamed, Go Inoue, Khalid Elmadani, Ossama Obeid, Fatima Haouari, Tamer Elsayed, Emad Alghamdi, Khalid Almubarak, Saied Alshahrani, Ola Aljarrah, Safa Alajlan, Areej Alshaqarawi, Maryam Alshihri, Sultana Alghurabi, Atikah Alzeghayer, Afrah Altamimi, Abdullah Alfaifi, Abdulrahman AlOsaimy
+
+arXiv:2507.22603v1 Announce Type: new 
+Abstract: The impressive advancement of Large Language Models (LLMs) in English has not been matched across all languages. In particular, LLM performance in Arab...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22603) | [📝 Analysis](63566860e63b1a4966cd4feeeff5a163.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-31 09:35:28 UTC*

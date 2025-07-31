@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Strategic Deflection: Defending LLMs from Logit Manipulation
+
+**Score:** 90.0 | **Published:** 2025-07-31 | **Authors:** Yassine Rachidy, Jihad Rbaiti, Youssef Hmamouche, Faissal Sehbaoui, Amal El Fallah Seghrouchni
+
+arXiv:2507.22160v1 Announce Type: cross 
+Abstract: With the growing adoption of Large Language Models (LLMs) in critical areas, ensuring their security against jailbreaking attacks is paramount. While...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22160) | [📝 Analysis](1dd904d9305b858cb1a634417b3dafaa.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-31 09:35:28 UTC*
