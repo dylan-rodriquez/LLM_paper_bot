@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Exploiting Synergistic Cognitive Biases to Bypass Safety in LLMs
+
+**Score:** 92.0 | **Published:** 2025-07-31 | **Authors:** Xikang Yang, Biyu Zhou, Xuehai Tang, Jizhong Han, Songlin Hu
+
+arXiv:2507.22564v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) demonstrate impressive capabilities across a wide range of tasks, yet their safety mechanisms remain susceptible to advers...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22564) | [📝 Analysis](a2c08ae19009c94de11f34efccb7d9f0.md)
+
+---
+
+### Efficient Differentially Private Fine-Tuning of LLMs via Reinforcement Learning
+
+**Score:** 92.0 | **Published:** 2025-07-31 | **Authors:** Afshin Khadangi, Amir Sartipi, Igor Tchappi, Ramin Bahmani, Gilbert Fridgen
+
+arXiv:2507.22565v1 Announce Type: cross 
+Abstract: The tension between data privacy and model utility has become the defining bottleneck for the practical deployment of large language models (LLMs) tr...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22565) | [📝 Analysis](4be2d40770735d2f6cd3e1272235329c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-07-31 09:35:28 UTC*

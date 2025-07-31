@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Can adversarial attacks by large language models be attributed?
+
+**Score:** 92.0 | **Published:** 2025-07-31 | **Authors:** Manuel Cebrian, Andres Abeliuk, Jan Arne Telle
+
+arXiv:2411.08003v3 Announce Type: replace-cross 
+Abstract: Attributing outputs from Large Language Models (LLMs) in adversarial settings-such as cyberattacks and disinformation campaigns-presents sign...
+
+[📄 Full Paper](https://arxiv.org/abs/2411.08003) | [📝 Analysis](00d171750d9d5b314bd5b5a1ef63c77f.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-07-31 09:35:28 UTC*
