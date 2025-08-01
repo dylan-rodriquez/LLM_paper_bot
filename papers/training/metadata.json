@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Theoretical Foundations and Mitigation of Hallucination in Large Language Models",
+      "authors": [
+        "Esmail Gumaan"
+      ],
+      "abstract": "arXiv:2507.22915v1 Announce Type: new \nAbstract: Hallucination in Large Language Models (LLMs) refers to the generation of content that is not faithful to the input or the real-world facts. This paper provides a rigorous treatment of hallucination in LLMs, including formal definitions and theoretical analyses. We distinguish between intrinsic and extrinsic hallucinations, and define a \\textit{hallucination risk} for models. We derive bounds on this risk using learning-theoretic frameworks (PAC-Bayes and Rademacher complexity). We then survey detection strategies for hallucinations, such as token-level uncertainty estimation, confidence calibration, and attention alignment checks. On the mitigation side, we discuss approaches including retrieval-augmented generation, hallucination-aware fine-tuning, logit calibration, and the incorporation of fact-verification modules. We propose a unified detection and mitigation workflow, illustrated with a diagram, to integrate these strategies. Finally, we outline evaluation protocols for hallucination, recommending datasets, metrics, and experimental setups to quantify and reduce hallucinations. Our work lays a theoretical foundation and practical guidelines for addressing the crucial challenge of hallucination in LLMs.",
+      "url": "https://arxiv.org/abs/2507.22915",
+      "published_date": "2025-08-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucination",
+        "hallucinations",
+        "llms",
+        "mitigation",
+        "models",
+        "theoretical",
+        "calibration",
+        "detection",
+        "generation",
+        "hallucination large"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucination \u2013 with a theoretically grounded approach. The combination of formal definitions, learning-theoretic bounds, and a survey of mitigation strategies suggests a comprehensive and rigorous investigation. The proposed unified workflow is a practical addition, and the topic is highly relevant to current research trends. While the methods themselves may build upon existing techniques, the formalization and integration are valuable.",
+      "paper_id": "6c47b376ab95e30ff989d1f118c81723"
+    },
+    {
+      "title": "Trustworthy Reasoning: Evaluating and Enhancing Factual Accuracy in LLM Intermediate Thought Processes",
+      "authors": [
+        "Rui Jiao, Yue Zhang, Jinku Li"
+      ],
+      "abstract": "arXiv:2507.22940v1 Announce Type: new \nAbstract: We present RELIANCE (Reasoning Evaluation with Logical Integrity and Accuracy for Confidence Enhancement), a novel framework addressing a critical vulnerability in Large Language Models (LLMs): the prevalence of factual inaccuracies within intermediate reasoning steps despite correct final answers. This phenomenon poses substantial risks in high-stakes domains including healthcare, legal analysis, and scientific research, where erroneous yet confidently presented reasoning can mislead users into dangerous decisions. Our framework integrates three core components: (1) a specialized fact-checking classifier trained on counterfactually augmented data to detect subtle factual inconsistencies within reasoning chains; (2) a Group Relative Policy Optimization (GRPO) reinforcement learning approach that balances factuality, coherence, and structural correctness through multi-dimensional rewards; and (3) a mechanistic interpretability module examining how factuality improvements manifest in model activations during reasoning processes. Extensive evaluation across ten state-of-the-art models reveals concerning patterns: even leading models like Claude-3.7 and GPT-o1 demonstrate reasoning factual accuracy of only 81.93% and 82.57% respectively. RELIANCE significantly enhances factual robustness (up to 49.90% improvement) while maintaining or improving performance on challenging benchmarks including Math-500, AIME-2024, and GPQA. Furthermore, our activation-level analysis provides actionable insights into how factual enhancements reshape reasoning trajectories within model architectures, establishing foundations for future training methodologies that explicitly target factual robustness through activation-guided optimization.",
+      "url": "https://arxiv.org/abs/2507.22940",
+      "published_date": "2025-08-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "reasoning",
+        "factual",
+        "accuracy",
+        "models",
+        "activation",
+        "analysis",
+        "evaluation",
+        "factual accuracy",
+        "factual robustness",
+        "factuality"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 factual inaccuracies in reasoning despite correct final answers \u2013 which is particularly important for high-stakes applications. The proposed RELIANCE framework, with its fact-checking classifier, GRPO reinforcement learning, and interpretability module, appears well-structured and addresses the problem comprehensively. While the components themselves might build on existing techniques, their integration and focus on reasoning-step factuality represent a significant advancement. The potential for improving trust and reliability in LLM outputs is substantial.",
+      "paper_id": "a6bd3db70642d2004ecc123aeedba630"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-01T09:34:44.102892"
 }

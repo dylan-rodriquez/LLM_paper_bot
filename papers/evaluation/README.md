@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Novel Evaluation Benchmark for Medical LLMs: Illuminating Safety and Effectiveness in Clinical Domains
+
+**Score:** 92.0 | **Published:** 2025-08-01 | **Authors:** Shirui Wang, Zhihui Tang, Huaxia Yang, Qiuhong Gong, Tiantian Gu, Hongyang Ma, Yongxin Wang, Wubin Sun, Zeliang Lian, Kehang Mao, Yinan Jiang, Zhicheng Huang, Lingyun Ma, Wenjie Shen, Yajie Ji, Yunhui Tan, Chunbo Wang, Yunlu Gao, Qianling Ye, Rui Lin, Mingyu Chen, Lijuan Niu, Zhihao Wang, Peng Yu, Mengran Lang, Yue Liu, Huimin Zhang, Haitao Shen, Long Chen, Qiguang Zhao, Si-Xuan Liu, Lina Zhou, Hua Gao, Dongqiang Ye, Lingmin Meng, Youtao Yu, Naixin Liang, Jianxiong Wu
+
+arXiv:2507.23486v1 Announce Type: new 
+Abstract: Large language models (LLMs) hold promise in clinical decision support but face major challenges in safety evaluation and effectiveness validation. We ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.23486) | [📝 Analysis](393a856bf721363e14cad3f39693538f.md)
+
+---
+
+### Toward the Autonomous AI Doctor: Quantitative Benchmarking of an Autonomous Agentic AI Versus Board-Certified Clinicians in a Real World Setting
+
+**Score:** 92.0 | **Published:** 2025-08-01 | **Authors:** Hashim Hayat, Maksim Kudrautsau, Evgeniy Makarov, Vlad Melnichenko, Tim Tsykunou, Piotr Varaksin, Matt Pavelle, Adam Z. Oskowitz
+
+arXiv:2507.22902v1 Announce Type: cross 
+Abstract: Background: Globally we face a projected shortage of 11 million healthcare practitioners by 2030, and administrative burden consumes 50% of clinical ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22902) | [📝 Analysis](6776678a0ece83e8f032112ff692c168.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-01 09:34:44 UTC*
