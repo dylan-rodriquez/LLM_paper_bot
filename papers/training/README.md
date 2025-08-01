@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Theoretical Foundations and Mitigation of Hallucination in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-01 | **Authors:** Esmail Gumaan
+
+arXiv:2507.22915v1 Announce Type: new 
+Abstract: Hallucination in Large Language Models (LLMs) refers to the generation of content that is not faithful to the input or the real-world facts. This paper...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22915) | [📝 Analysis](6c47b376ab95e30ff989d1f118c81723.md)
+
+---
+
+### Trustworthy Reasoning: Evaluating and Enhancing Factual Accuracy in LLM Intermediate Thought Processes
+
+**Score:** 92.0 | **Published:** 2025-08-01 | **Authors:** Rui Jiao, Yue Zhang, Jinku Li
+
+arXiv:2507.22940v1 Announce Type: new 
+Abstract: We present RELIANCE (Reasoning Evaluation with Logical Integrity and Accuracy for Confidence Enhancement), a novel framework addressing a critical vuln...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.22940) | [📝 Analysis](a6bd3db70642d2004ecc123aeedba630.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-01 09:34:44 UTC*
