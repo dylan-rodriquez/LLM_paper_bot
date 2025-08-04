@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "A Survey on Post-training of Large Language Models",
+      "authors": [
+        "Guiyao Tie, Zeli Zhao, Dingjie Song, Fuyang Wei, Rong Zhou, Yurou Dai, Wen Yin, Zhejian Yang, Jiangyue Yan, Yao Su, Zhenhan Dai, Yifeng Xie, Yihan Cao, Lichao Sun, Pan Zhou, Lifang He, Hechang Chen, Yu Zhang, Qingsong Wen, Tianming Liu, Neil Zhenqiang Gong, Jiliang Tang, Caiming Xiong, Heng Ji, Philip S. Yu, Jianfeng Gao"
+      ],
+      "abstract": "arXiv:2503.06072v3 Announce Type: replace \nAbstract: The emergence of Large Language Models (LLMs) has fundamentally transformed natural language processing, making them indispensable across domains ranging from conversational systems to scientific exploration. However, their pre-trained architectures often reveal limitations in specialized contexts, including restricted reasoning capacities, ethical uncertainties, and suboptimal domain-specific performance. These challenges necessitate advanced post-training language models (PoLMs) to address these shortcomings, such as OpenAI-o1/o3 and DeepSeek-R1 (collectively known as Large Reasoning Models, or LRMs). This paper presents the first comprehensive survey of PoLMs, systematically tracing their evolution across five core paradigms: Fine-tuning, which enhances task-specific accuracy; Alignment, which ensures ethical coherence and alignment with human preferences; Reasoning, which advances multi-step inference despite challenges in reward design; Efficiency, which optimizes resource utilization amidst increasing complexity; Integration and Adaptation, which extend capabilities across diverse modalities while addressing coherence issues. Charting progress from ChatGPT's alignment strategies to DeepSeek-R1's innovative reasoning advancements, we illustrate how PoLMs leverage datasets to mitigate biases, deepen reasoning capabilities, and enhance domain adaptability. Our contributions include a pioneering synthesis of PoLM evolution, a structured taxonomy categorizing techniques and datasets, and a strategic agenda emphasizing the role of LRMs in improving reasoning proficiency and domain flexibility. As the first survey of its scope, this work consolidates recent PoLM advancements and establishes a rigorous intellectual framework for future research, fostering the development of LLMs that excel in precision, ethical robustness, and versatility across scientific and societal applications.",
+      "url": "https://arxiv.org/abs/2503.06072",
+      "published_date": "2025-08-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "language",
+        "models",
+        "alignment",
+        "domain",
+        "ethical",
+        "language models",
+        "large",
+        "polms",
+        "survey"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving area within NLP \u2013 post-training of LLMs. The focus on LRMs and the categorization into five core paradigms (Fine-tuning, Alignment, Reasoning, etc.) suggests a structured and comprehensive approach. While a survey isn't inherently innovative, the timeliness and scope of this work, given the recent advancements in LLMs, are significant, and it's likely to be well-received by the community.",
+      "paper_id": "724ff2d32c6e6742d3cbb9bd0e4a5bc1"
+    },
+    {
+      "title": "Watch the Weights: Unsupervised monitoring and control of fine-tuned LLMs",
+      "authors": [
+        "Ziqian Zhong, Aditi Raghunathan"
+      ],
+      "abstract": "arXiv:2508.00161v1 Announce Type: cross \nAbstract: The releases of powerful open-weight large language models (LLMs) are often not accompanied by access to their full training data. Existing interpretability methods, particularly those based on activations, often require or assume distributionally similar data. This is a significant limitation when detecting and defending against novel potential threats like backdoors, which are by definition out-of-distribution.\n  In this work, we introduce a new method for understanding, monitoring and controlling fine-tuned LLMs that interprets weights, rather than activations, thereby side stepping the need for data that is distributionally similar to the unknown training data. We demonstrate that the top singular vectors of the weight difference between a fine-tuned model and its base model correspond to newly acquired behaviors. By monitoring the cosine similarity of activations along these directions, we can detect salient behaviors introduced during fine-tuning with high precision.\n  For backdoored models that bypasses safety mechanisms when a secret trigger is present, our method stops up to 100% of attacks with a false positive rate below 1.2%. For models that have undergone unlearning, we detect inference on erased topics with accuracy up to 95.42% and can even steer the model to recover \"unlearned\" information. Besides monitoring, our method also shows potential for pre-deployment model auditing: by analyzing commercial instruction-tuned models (OLMo, Llama, Qwen), we are able to uncover model-specific fine-tuning focus including marketing strategies and Midjourney prompt generation.\n  Our implementation can be found at https://github.com/fjzzq2002/WeightWatch.",
+      "url": "https://arxiv.org/abs/2508.00161",
+      "published_date": "2025-08-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "fine",
+        "model",
+        "data",
+        "models",
+        "monitoring",
+        "tuned",
+        "activations",
+        "fine tuned",
+        "llms",
+        "method"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM security \u2013 detecting and mitigating backdoors and novel behaviors in fine-tuned models without access to the original training data. The approach of analyzing weight differences and using singular vectors is a clever workaround to the limitations of activation-based interpretability methods. While the abstract doesn't detail the experimental validation, the core idea is strong and addresses a timely concern in the field.",
+      "paper_id": "0dfab8485dda42ff4c5ea36a54376473"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-04T09:40:09.301760"
 }

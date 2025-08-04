@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Medical Reasoning in the Era of LLMs: A Systematic Review of Enhancement Techniques and Applications",
+      "authors": [
+        "Wenxuan Wang, Zizhan Ma, Meidan Ding, Shiyi Zheng, Shengyuan Liu, Jie Liu, Jiaming Ji, Wenting Chen, Xiang Li, Linlin Shen, Yixuan Yuan"
+      ],
+      "abstract": "arXiv:2508.00669v1 Announce Type: new \nAbstract: The proliferation of Large Language Models (LLMs) in medicine has enabled impressive capabilities, yet a critical gap remains in their ability to perform systematic, transparent, and verifiable reasoning, a cornerstone of clinical practice. This has catalyzed a shift from single-step answer generation to the development of LLMs explicitly designed for medical reasoning. This paper provides the first systematic review of this emerging field. We propose a taxonomy of reasoning enhancement techniques, categorized into training-time strategies (e.g., supervised fine-tuning, reinforcement learning) and test-time mechanisms (e.g., prompt engineering, multi-agent systems). We analyze how these techniques are applied across different data modalities (text, image, code) and in key clinical applications such as diagnosis, education, and treatment planning. Furthermore, we survey the evolution of evaluation benchmarks from simple accuracy metrics to sophisticated assessments of reasoning quality and visual interpretability. Based on an analysis of 60 seminal studies from 2022-2025, we conclude by identifying critical challenges, including the faithfulness-plausibility gap and the need for native multimodal reasoning, and outlining future directions toward building efficient, robust, and sociotechnically responsible medical AI.",
+      "url": "https://arxiv.org/abs/2508.00669",
+      "published_date": "2025-08-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "medical",
+        "systematic",
+        "techniques",
+        "applications",
+        "clinical",
+        "critical",
+        "enhancement",
+        "enhancement techniques"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the need for improved reasoning in medical LLMs. The systematic review approach and proposed taxonomy are valuable contributions, suggesting a rigorous methodology. While the abstract doesn't detail novel *techniques* themselves, the synthesis of existing enhancement strategies and their application to diverse clinical areas is significant, and the mention of evolving evaluation benchmarks indicates awareness of current challenges.",
+      "paper_id": "20ae067dcc55698e30184ea7ac101fe8"
+    },
+    {
+      "title": "A Survey on Code Generation with LLM-based Agents",
+      "authors": [
+        "Yihong Dong, Xue Jiang, Jiaru Qian, Tian Wang, Kechi Zhang, Zhi Jin, Ge Li"
+      ],
+      "abstract": "arXiv:2508.00083v1 Announce Type: cross \nAbstract: Code generation agents powered by large language models (LLMs) are revolutionizing the software development paradigm. Distinct from previous code generation techniques, code generation agents are characterized by three core features. 1) Autonomy: the ability to independently manage the entire workflow, from task decomposition to coding and debugging. 2) Expanded task scope: capabilities that extend beyond generating code snippets to encompass the full software development lifecycle (SDLC). 3) Enhancement of engineering practicality: a shift in research emphasis from algorithmic innovation toward practical engineering challenges, such as system reliability, process management, and tool integration. This domain has recently witnessed rapid development and an explosion in research, demonstrating significant application potential. This paper presents a systematic survey of the field of LLM-based code generation agents. We trace the technology's developmental trajectory from its inception and systematically categorize its core techniques, including both single-agent and multi-agent architectures. Furthermore, this survey details the applications of LLM-based agents across the full SDLC, summarizes mainstream evaluation benchmarks and metrics, and catalogs representative tools. Finally, by analyzing the primary challenges, we identify and propose several foundational, long-term research directions for the future work of the field.",
+      "url": "https://arxiv.org/abs/2508.00083",
+      "published_date": "2025-08-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "code",
+        "agents",
+        "code generation",
+        "generation",
+        "based",
+        "development",
+        "generation agents",
+        "llm",
+        "llm based",
+        "research"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey paper addresses a highly significant and rapidly evolving field \u2013 LLM-based code generation agents. The identified core features (autonomy, expanded scope, engineering practicality) provide a useful framing for the research landscape. While a survey isn't inherently innovative, its value lies in consolidating and structuring the knowledge, which this abstract suggests it does well. The potential impact on software development is substantial, making this a timely and relevant contribution.",
+      "paper_id": "caa853c21e331f05702e85dc7b1f624d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-04T09:40:09.300210"
 }

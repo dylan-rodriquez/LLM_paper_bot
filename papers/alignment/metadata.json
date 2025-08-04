@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance",
+      "authors": [
+        "Paul R\\\"ottger, Musashi Hinck, Valentin Hofmann, Kobi Hackenburg, Valentina Pyatkin, Faeze Brahman, Dirk Hovy"
+      ],
+      "abstract": "arXiv:2502.08395v2 Announce Type: replace \nAbstract: Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different ideas and perspectives. This creates concerns about issue bias, where an LLM tends to present just one perspective on a given issue, which in turn may influence how users think about this issue. So far, it has not been possible to measure which issue biases LLMs actually manifest in real user interactions, making it difficult to address the risks from biased LLMs. Therefore, we create IssueBench: a set of 2.49m realistic prompts for measuring issue bias in LLM writing assistance, which we construct based on 3.9k templates (e.g. \"write a blog about\") and 212 political issues (e.g. \"AI regulation\") from real user interactions. Using IssueBench, we show that issue biases are common and persistent in state-of-the-art LLMs. We also show that biases are remarkably similar across models, and that all models align more with US Democrat than Republican voter opinion on a subset of issues. IssueBench can easily be adapted to include other issues, templates, or tasks. By enabling robust and realistic measurement, we hope that IssueBench can bring a new quality of evidence to ongoing discussions about LLM biases and how to address them.",
+      "url": "https://arxiv.org/abs/2502.08395",
+      "published_date": "2025-08-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "issue",
+        "issuebench",
+        "biases",
+        "issues",
+        "llm",
+        "llms",
+        "bias",
+        "bias llm",
+        "issue bias",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 issue bias in LLMs \u2013 which is becoming increasingly important as these models are widely deployed. The creation of IssueBench, a large and realistic dataset, is a significant methodological contribution. The finding that biases are common and consistent across models highlights a systemic issue needing attention, and the scale of the dataset allows for robust analysis. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception within the NLP community.",
+      "paper_id": "1793f0374e635bf3c2bde1d27c5d1332"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-04T09:40:09.303812"
 }
