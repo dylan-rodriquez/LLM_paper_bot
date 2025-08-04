@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance
+
+**Score:** 92.0 | **Published:** 2025-08-04 | **Authors:** Paul R\"ottger, Musashi Hinck, Valentin Hofmann, Kobi Hackenburg, Valentina Pyatkin, Faeze Brahman, Dirk Hovy
+
+arXiv:2502.08395v2 Announce Type: replace 
+Abstract: Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different ideas and pe...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.08395) | [📝 Analysis](1793f0374e635bf3c2bde1d27c5d1332.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-04 09:40:09 UTC*

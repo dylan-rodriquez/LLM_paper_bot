@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Medical Reasoning in the Era of LLMs: A Systematic Review of Enhancement Techniques and Applications
+
+**Score:** 92.0 | **Published:** 2025-08-04 | **Authors:** Wenxuan Wang, Zizhan Ma, Meidan Ding, Shiyi Zheng, Shengyuan Liu, Jie Liu, Jiaming Ji, Wenting Chen, Xiang Li, Linlin Shen, Yixuan Yuan
+
+arXiv:2508.00669v1 Announce Type: new 
+Abstract: The proliferation of Large Language Models (LLMs) in medicine has enabled impressive capabilities, yet a critical gap remains in their ability to perfo...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.00669) | [📝 Analysis](20ae067dcc55698e30184ea7ac101fe8.md)
+
+---
+
+### A Survey on Code Generation with LLM-based Agents
+
+**Score:** 92.0 | **Published:** 2025-08-04 | **Authors:** Yihong Dong, Xue Jiang, Jiaru Qian, Tian Wang, Kechi Zhang, Zhi Jin, Ge Li
+
+arXiv:2508.00083v1 Announce Type: cross 
+Abstract: Code generation agents powered by large language models (LLMs) are revolutionizing the software development paradigm. Distinct from previous code gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.00083) | [📝 Analysis](caa853c21e331f05702e85dc7b1f624d.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-04 09:40:09 UTC*

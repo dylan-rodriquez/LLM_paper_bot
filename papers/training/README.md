@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### A Survey on Post-training of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-04 | **Authors:** Guiyao Tie, Zeli Zhao, Dingjie Song, Fuyang Wei, Rong Zhou, Yurou Dai, Wen Yin, Zhejian Yang, Jiangyue Yan, Yao Su, Zhenhan Dai, Yifeng Xie, Yihan Cao, Lichao Sun, Pan Zhou, Lifang He, Hechang Chen, Yu Zhang, Qingsong Wen, Tianming Liu, Neil Zhenqiang Gong, Jiliang Tang, Caiming Xiong, Heng Ji, Philip S. Yu, Jianfeng Gao
+
+arXiv:2503.06072v3 Announce Type: replace 
+Abstract: The emergence of Large Language Models (LLMs) has fundamentally transformed natural language processing, making them indispensable across domains r...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.06072) | [📝 Analysis](724ff2d32c6e6742d3cbb9bd0e4a5bc1.md)
+
+---
+
+### Watch the Weights: Unsupervised monitoring and control of fine-tuned LLMs
+
+**Score:** 90.0 | **Published:** 2025-08-04 | **Authors:** Ziqian Zhong, Aditi Raghunathan
+
+arXiv:2508.00161v1 Announce Type: cross 
+Abstract: The releases of powerful open-weight large language models (LLMs) are often not accompanied by access to their full training data. Existing interpret...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.00161) | [📝 Analysis](0dfab8485dda42ff4c5ea36a54376473.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-04 09:40:09 UTC*
