@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Isolating Culture Neurons in Multilingual Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-05 | **Authors:** Danial Namazifard, Lukas Galke
+
+arXiv:2508.02241v1 Announce Type: new 
+Abstract: Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.02241) | [📝 Analysis](700d5e5b29e26419a2f20b518c0921c0.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-05 09:35:54 UTC*

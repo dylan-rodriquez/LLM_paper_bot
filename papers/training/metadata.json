@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "MedSynth: Realistic, Synthetic Medical Dialogue-Note Pairs",
+      "authors": [
+        "Ahmad Rezaie Mianroodi, Amirali Rezaie, Niko Grisel Todorov, Cyril Rakovski, Frank Rudzicz"
+      ],
+      "abstract": "arXiv:2508.01401v1 Announce Type: new \nAbstract: Physicians spend significant time documenting clinical encounters, a burden that contributes to professional burnout. To address this, robust automation tools for medical documentation are crucial. We introduce MedSynth -- a novel dataset of synthetic medical dialogues and notes designed to advance the Dialogue-to-Note (Dial-2-Note) and Note-to-Dialogue (Note-2-Dial) tasks. Informed by an extensive analysis of disease distributions, this dataset includes over 10,000 dialogue-note pairs covering over 2000 ICD-10 codes. We demonstrate that our dataset markedly enhances the performance of models in generating medical notes from dialogues, and dialogues from medical notes. The dataset provides a valuable resource in a field where open-access, privacy-compliant, and diverse training data are scarce. Code is available at https://github.com/ahmadrezarm/MedSynth/tree/main and the dataset is available at https://huggingface.co/datasets/Ahmad0067/MedSynth.",
+      "url": "https://arxiv.org/abs/2508.01401",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "note",
+        "dataset",
+        "medical",
+        "dialogue",
+        "dialogue note",
+        "medsynth",
+        "dialogues",
+        "notes",
+        "10",
+        "available"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 physician burnout due to documentation \u2013 with a practical solution: a synthetic dataset for improving dialogue-to-note and note-to-dialogue models. The dataset's size (10,000 pairs, 2000+ ICD-10 codes) and focus on privacy compliance are strong points. While the core idea of synthetic data isn't entirely novel, the specific application to medical dialogue and notes, coupled with the demonstrated performance improvements, makes it a valuable contribution.",
+      "paper_id": "b1b667f40dfdd9fdb80966846db984ac"
+    },
+    {
+      "title": "The Homogenizing Effect of Large Language Models on Human Expression and Thought",
+      "authors": [
+        "Zhivar Sourati, Alireza S. Ziabari, Morteza Dehghani"
+      ],
+      "abstract": "arXiv:2508.01491v1 Announce Type: new \nAbstract: Cognitive diversity, reflected in variations of language, perspective, and reasoning, is essential to creativity and collective intelligence. This diversity is rich and grounded in culture, history, and individual experience. Yet as large language models (LLMs) become deeply embedded in people's lives, they risk standardizing language and reasoning. This Review synthesizes evidence across linguistics, cognitive, and computer science to show how LLMs reflect and reinforce dominant styles while marginalizing alternative voices and reasoning strategies. We examine how their design and widespread use contribute to this effect by mirroring patterns in their training data and amplifying convergence as all people increasingly rely on the same models across contexts. Unchecked, this homogenization risks flattening the cognitive landscapes that drive collective intelligence and adaptability.",
+      "url": "https://arxiv.org/abs/2508.01491",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "language",
+        "cognitive",
+        "models",
+        "reasoning",
+        "collective",
+        "collective intelligence",
+        "diversity",
+        "effect",
+        "intelligence",
+        "language models"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely concern regarding the potential for LLMs to homogenize thought and expression. The synthesis of evidence from multiple disciplines (linguistics, cognitive science, computer science) suggests a rigorous approach. While the abstract doesn't detail novel *methods*, the framing of the problem and potential consequences is significant, and the topic is likely to resonate strongly within the AI community. The potential for negative impacts on creativity and collective intelligence makes this a crucial area of investigation.",
+      "paper_id": "a3ef354fa13c9f8eca05679e9668f415"
+    },
+    {
+      "title": "OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets",
+      "authors": [
+        "Maziyar Panahi"
+      ],
+      "abstract": "arXiv:2508.01630v1 Announce Type: new \nAbstract: Named-entity recognition (NER) is fundamental to extracting structured information from the >80% of healthcare data that resides in unstructured clinical notes and biomedical literature. Despite recent advances with large language models, achieving state-of-the-art performance across diverse entity types while maintaining computational efficiency remains a significant challenge. We introduce OpenMed NER, a suite of open-source, domain-adapted transformer models that combine lightweight domain-adaptive pre-training (DAPT) with parameter-efficient Low-Rank Adaptation (LoRA). Our approach performs cost-effective DAPT on a 350k-passage corpus compiled from ethically sourced, publicly available research repositories and de-identified clinical notes (PubMed, arXiv, and MIMIC-III) using DeBERTa-v3, PubMedBERT, and BioELECTRA backbones. This is followed by task-specific fine-tuning with LoRA, which updates less than 1.5% of model parameters. We evaluate our models on 12 established biomedical NER benchmarks spanning chemicals, diseases, genes, and species. OpenMed NER achieves new state-of-the-art micro-F1 scores on 10 of these 12 datasets, with substantial gains across diverse entity types. Our models advance the state-of-the-art on foundational disease and chemical benchmarks (e.g., BC5CDR-Disease, +2.70 pp), while delivering even larger improvements of over 5.3 and 9.7 percentage points on more specialized gene and clinical cell line corpora. This work demonstrates that strategically adapted open-source models can surpass closed-source solutions. This performance is achieved with remarkable efficiency: training completes in under 12 hours on a single GPU with a low carbon footprint (< 1.2 kg CO2e), producing permissively licensed, open-source checkpoints designed to help practitioners facilitate compliance with emerging data protection and AI regulations, such as the EU AI Act.",
+      "url": "https://arxiv.org/abs/2508.01630",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "ner",
+        "models",
+        "source",
+        "12",
+        "art",
+        "open",
+        "open source",
+        "state",
+        "state art",
+        "adapted"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in healthcare \u2013 extracting information from unstructured text \u2013 and proposes a practical solution using domain adaptation and parameter-efficient fine-tuning. The combination of DAPT with LoRA is a sensible approach to balance performance and computational cost. The use of ethically sourced, publicly available data is also a strong point, and the focus on multiple backbones suggests a thorough investigation.",
+      "paper_id": "29eda9340ab8b99d225efe47fdd3b3f6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-05T09:35:54.711585"
 }

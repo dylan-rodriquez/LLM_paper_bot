@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### MedSynth: Realistic, Synthetic Medical Dialogue-Note Pairs
+
+**Score:** 92.0 | **Published:** 2025-08-05 | **Authors:** Ahmad Rezaie Mianroodi, Amirali Rezaie, Niko Grisel Todorov, Cyril Rakovski, Frank Rudzicz
+
+arXiv:2508.01401v1 Announce Type: new 
+Abstract: Physicians spend significant time documenting clinical encounters, a burden that contributes to professional burnout. To address this, robust automatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.01401) | [📝 Analysis](b1b667f40dfdd9fdb80966846db984ac.md)
+
+---
+
+### The Homogenizing Effect of Large Language Models on Human Expression and Thought
+
+**Score:** 92.0 | **Published:** 2025-08-05 | **Authors:** Zhivar Sourati, Alireza S. Ziabari, Morteza Dehghani
+
+arXiv:2508.01491v1 Announce Type: new 
+Abstract: Cognitive diversity, reflected in variations of language, perspective, and reasoning, is essential to creativity and collective intelligence. This dive...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.01491) | [📝 Analysis](a3ef354fa13c9f8eca05679e9668f415.md)
+
+---
+
+### OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets
+
+**Score:** 90.0 | **Published:** 2025-08-05 | **Authors:** Maziyar Panahi
+
+arXiv:2508.01630v1 Announce Type: new 
+Abstract: Named-entity recognition (NER) is fundamental to extracting structured information from the >80% of healthcare data that resides in unstructured clinic...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.01630) | [📝 Analysis](29eda9340ab8b99d225efe47fdd3b3f6.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-05 09:35:54 UTC*

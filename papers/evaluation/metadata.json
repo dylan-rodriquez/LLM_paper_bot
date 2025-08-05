@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A comprehensive taxonomy of hallucinations in Large Language Models",
+      "authors": [
+        "Manuel Cossio"
+      ],
+      "abstract": "arXiv:2508.01781v1 Announce Type: new \nAbstract: Large language models (LLMs) have revolutionized natural language processing, yet their propensity for hallucination, generating plausible but factually incorrect or fabricated content, remains a critical challenge. This report provides a comprehensive taxonomy of LLM hallucinations, beginning with a formal definition and a theoretical framework that posits its inherent inevitability in computable LLMs, irrespective of architecture or training. It explores core distinctions, differentiating between intrinsic (contradicting input context) and extrinsic (inconsistent with training data or reality), as well as factuality (absolute correctness) and faithfulness (adherence to input). The report then details specific manifestations, including factual errors, contextual and logical inconsistencies, temporal disorientation, ethical violations, and task-specific hallucinations across domains like code generation and multimodal applications. It analyzes the underlying causes, categorizing them into data-related issues, model-related factors, and prompt-related influences. Furthermore, the report examines cognitive and human factors influencing hallucination perception, surveys evaluation benchmarks and metrics for detection, and outlines architectural and systemic mitigation strategies. Finally, it introduces web-based resources for monitoring LLM releases and performance. This report underscores the complex, multifaceted nature of LLM hallucinations and emphasizes that, given their theoretical inevitability, future efforts must focus on robust detection, mitigation, and continuous human oversight for responsible and reliable deployment in critical applications.",
+      "url": "https://arxiv.org/abs/2508.01781",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucinations",
+        "report",
+        "language",
+        "llm",
+        "related",
+        "applications",
+        "comprehensive",
+        "comprehensive taxonomy",
+        "critical",
+        "data"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a hugely important problem in LLMs \u2013 hallucinations \u2013 and proposes a comprehensive taxonomy, which is a strong methodological approach. The theoretical framing suggesting inevitability is a bold claim that, if substantiated, would significantly shift the field's focus. The categorization into intrinsic/extrinsic and factuality/faithfulness provides a useful lens for analysis and mitigation strategies. The high sentiment score reflects the current research focus on LLM reliability.",
+      "paper_id": "5e609d42c8987f97cf40593639653feb"
+    },
+    {
+      "title": "AI-Generated Text is Non-Stationary: Detection via Temporal Tomography",
+      "authors": [
+        "Alva West, Yixuan Weng, Minjun Zhu, Luodan Zhang, Zhen Lin, Guangsheng Bao, Yue Zhang"
+      ],
+      "abstract": "arXiv:2508.01754v1 Announce Type: new \nAbstract: The field of AI-generated text detection has evolved from supervised classification to zero-shot statistical analysis. However, current approaches share a fundamental limitation: they aggregate token-level measurements into scalar scores, discarding positional information about where anomalies occur. Our empirical analysis reveals that AI-generated text exhibits significant non-stationarity, statistical properties vary by 73.8\\% more between text segments compared to human writing. This discovery explains why existing detectors fail against localized adversarial perturbations that exploit this overlooked characteristic. We introduce Temporal Discrepancy Tomography (TDT), a novel detection paradigm that preserves positional information by reformulating detection as a signal processing task. TDT treats token-level discrepancies as a time-series signal and applies Continuous Wavelet Transform to generate a two-dimensional time-scale representation, capturing both the location and linguistic scale of statistical anomalies. On the RAID benchmark, TDT achieves 0.855 AUROC (7.1\\% improvement over the best baseline). More importantly, TDT demonstrates robust performance on adversarial tasks, with 14.1\\% AUROC improvement on HART Level 2 paraphrasing attacks. Despite its sophisticated analysis, TDT maintains practical efficiency with only 13\\% computational overhead. Our work establishes non-stationarity as a fundamental characteristic of AI-generated text and demonstrates that preserving temporal dynamics is essential for robust detection.",
+      "url": "https://arxiv.org/abs/2508.01754",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "detection",
+        "tdt",
+        "text",
+        "ai",
+        "ai generated",
+        "generated",
+        "generated text",
+        "analysis",
+        "level",
+        "non"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the field of AI-generated text detection \u2013 the vulnerability of current methods to localized adversarial attacks. The identification of non-stationarity in AI-generated text and the proposed Temporal Discrepancy Tomography (TDT) approach, leveraging signal processing techniques, represent a significant advancement. The abstract is well-written and clearly articulates the problem, proposed solution, and key findings, suggesting a rigorous methodology.",
+      "paper_id": "4d709488fe1dca8d63b6c7096baabed6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-05T09:35:54.714046"
 }

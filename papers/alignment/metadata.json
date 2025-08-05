@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Isolating Culture Neurons in Multilingual Large Language Models",
+      "authors": [
+        "Danial Namazifard, Lukas Galke"
+      ],
+      "abstract": "arXiv:2508.02241v1 Announce Type: new \nAbstract: Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend upon an established methodology for identifying language-specific neurons and extend it to localize and isolate culture-specific neurons, carefully disentangling their overlap and interaction with language-specific neurons. To facilitate our experiments, we introduce MUREL, a curated dataset of 85.2 million tokens spanning six different cultures. Our localization and intervention experiments show that LLMs encode different cultures in distinct neuron populations, predominantly in upper layers, and that these culture neurons can be modulated independently from language-specific neurons or those specific to other cultures. These findings suggest that cultural knowledge and propensities in multilingual language models can be selectively isolated and edited - promoting fairness, inclusivity, and alignment. Code and data is available at https://github.com/namazifard/Culture_Neurons .",
+      "url": "https://arxiv.org/abs/2508.02241",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "neurons",
+        "culture",
+        "specific",
+        "specific neurons",
+        "cultures",
+        "language models",
+        "language specific",
+        "models",
+        "multilingual"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and timely problem \u2013 understanding how culture is represented in LLMs \u2013 and proposes a novel methodology for isolating culture-specific neurons. The introduction of the MUREL dataset is a significant contribution, and the findings regarding the localization of cultural knowledge in upper layers are compelling. The potential for selectively editing cultural biases and promoting fairness is highly impactful, suggesting strong positive reception within the community.",
+      "paper_id": "700d5e5b29e26419a2f20b518c0921c0"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-05T09:35:54.715088"
 }
