@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Attribution Crisis in LLM Search Results",
+      "authors": [
+        "Ilan Strauss, Jangho Yang, Tim O'Reilly, Sruly Rosenblat, Isobel Moure"
+      ],
+      "abstract": "arXiv:2508.00838v1 Announce Type: cross \nAbstract: Web-enabled LLMs frequently answer queries without crediting the web pages they consume, creating an \"attribution gap\" - the difference between relevant URLs read and those actually cited. Drawing on approximately 14,000 real-world LMArena conversation logs with search-enabled LLM systems, we document three exploitation patterns: 1) No Search: 34% of Google Gemini and 24% of OpenAI GPT-4o responses are generated without explicitly fetching any online content; 2) No citation: Gemini provides no clickable citation source in 92% of answers; 3) High-volume, low-credit: Perplexity's Sonar visits approximately 10 relevant pages per query but cites only three to four. A negative binomial hurdle model shows that the average query answered by Gemini or Sonar leaves about 3 relevant websites uncited, whereas GPT-4o's tiny uncited gap is best explained by its selective log disclosures rather than by better attribution. Citation efficiency - extra citations provided per additional relevant web page visited - varies widely across models, from 0.19 to 0.45 on identical queries, underscoring that retrieval design, not technical limits, shapes ecosystem impact. We recommend a transparent LLM search architecture based on standardized telemetry and full disclosure of search traces and citation logs.",
+      "url": "https://arxiv.org/abs/2508.00838",
+      "published_date": "2025-08-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "search",
+        "citation",
+        "relevant",
+        "attribution",
+        "gemini",
+        "llm",
+        "web",
+        "4o",
+        "approximately",
+        "enabled"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical issue in the rapidly evolving landscape of LLMs \u2013 the lack of attribution for information sourced from the web. The quantitative analysis of real-world LMArena logs provides strong evidence of an 'attribution gap' across different models, and the use of a negative binomial hurdle model adds methodological rigor. While the methods aren't entirely novel, the scale of the analysis and the specific patterns identified (No Search, No Citation, High-volume, low-credit) are valuable contributions. The findings are highly relevant to ongoing discussions about LLM trustworthiness and responsible AI.",
+      "paper_id": "7eece2b8b3da98744876f61f7e217171"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-08-05T09:35:54.715844"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A comprehensive taxonomy of hallucinations in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-05 | **Authors:** Manuel Cossio
+
+arXiv:2508.01781v1 Announce Type: new 
+Abstract: Large language models (LLMs) have revolutionized natural language processing, yet their propensity for hallucination, generating plausible but factuall...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.01781) | [📝 Analysis](5e609d42c8987f97cf40593639653feb.md)
+
+---
+
+### AI-Generated Text is Non-Stationary: Detection via Temporal Tomography
+
+**Score:** 90.0 | **Published:** 2025-08-05 | **Authors:** Alva West, Yixuan Weng, Minjun Zhu, Luodan Zhang, Zhen Lin, Guangsheng Bao, Yue Zhang
+
+arXiv:2508.01754v1 Announce Type: new 
+Abstract: The field of AI-generated text detection has evolved from supervised classification to zero-shot statistical analysis. However, current approaches shar...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.01754) | [📝 Analysis](4d709488fe1dca8d63b6c7096baabed6.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-05 09:35:54 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Attribution Crisis in LLM Search Results
+
+**Score:** 92.0 | **Published:** 2025-08-05 | **Authors:** Ilan Strauss, Jangho Yang, Tim O'Reilly, Sruly Rosenblat, Isobel Moure
+
+arXiv:2508.00838v1 Announce Type: cross 
+Abstract: Web-enabled LLMs frequently answer queries without crediting the web pages they consume, creating an "attribution gap" - the difference between relev...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.00838) | [📝 Analysis](7eece2b8b3da98744876f61f7e217171.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-05 09:35:54 UTC*
