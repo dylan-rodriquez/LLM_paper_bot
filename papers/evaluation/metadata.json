@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?",
+      "authors": [
+        "Wenxuan Shen, Mingjia Wang, Yaochen Wang, Dongping Chen, Junjie Yang, Yao Wan, Weiwei Lin"
+      ],
+      "abstract": "arXiv:2508.03644v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) systems using Multimodal Large Language Models (MLLMs) show great promise for complex document understanding, yet their development is critically hampered by inadequate evaluation. Current benchmarks often focus on specific part of document RAG system and use synthetic data with incomplete ground truth and evidence labels, therefore failing to reflect real-world bottlenecks and challenges. To overcome these limitations, we introduce Double-Bench: a new large-scale, multilingual, and multimodal evaluation system that is able to produce fine-grained assessment to each component within document RAG systems. It comprises 3,276 documents (72,880 pages) and 5,168 single- and multi-hop queries across 6 languages and 4 document types with streamlined dynamic update support for potential data contamination issues. Queries are grounded in exhaustively scanned evidence pages and verified by human experts to ensure maximum quality and completeness. Our comprehensive experiments across 9 state-of-the-art embedding models, 4 MLLMs and 4 end-to-end document RAG frameworks demonstrate the gap between text and visual embedding models is narrowing, highlighting the need in building stronger document retrieval models. Our findings also reveal the over-confidence dilemma within current document RAG frameworks that tend to provide answer even without evidence support. We hope our fully open-source Double-Bench provide a rigorous foundation for future research in advanced document RAG systems. We plan to retrieve timely corpus and release new benchmarks on an annual basis.",
+      "url": "https://arxiv.org/abs/2508.03644",
+      "published_date": "2025-08-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "document",
+        "rag",
+        "document rag",
+        "models",
+        "evidence",
+        "new",
+        "rag systems",
+        "retrieval",
+        "systems",
+        "augmented"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in the rapidly developing field of RAG with MLLMs \u2013 the lack of robust evaluation benchmarks. The introduction of Double-Bench, a large-scale, multilingual, and multimodal dataset with human-verified evidence, is a significant step towards more reliable and comprehensive assessment. The focus on addressing issues like data contamination and providing fine-grained component evaluation further strengthens the work's quality and potential impact.",
+      "paper_id": "fcc1d694b40291e37d238644ae23d45e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-06T09:36:39.496838"
 }

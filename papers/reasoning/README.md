@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Think Outside the Data: Colonial Biases and Systemic Issues in Automated Moderation Pipelines for Low-Resource Languages
+
+**Score:** 92.0 | **Published:** 2025-08-06 | **Authors:** Farhana Shahid, Mona Elswah, Aditya Vashistha
+
+arXiv:2501.13836v3 Announce Type: replace 
+Abstract: Most social media users come from the Global South, where harmful content usually appears in local languages. Yet, AI-driven moderation systems str...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.13836) | [📝 Analysis](d35111e8a41b67e20dc0442898dbeb2a.md)
+
+---
+
+### Defend LLMs Through Self-Consciousness
+
+**Score:** 90.0 | **Published:** 2025-08-06 | **Authors:** Boshi Huang, Fabio Nonato de Paula
+
+arXiv:2508.02961v1 Announce Type: cross 
+Abstract: This paper introduces a novel self-consciousness defense mechanism for Large Language Models (LLMs) to combat prompt injection attacks. Unlike tradit...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.02961) | [📝 Analysis](1953437c2f2a16146760d94c53575977.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-06 09:36:39 UTC*

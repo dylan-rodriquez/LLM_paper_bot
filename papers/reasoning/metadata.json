@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Think Outside the Data: Colonial Biases and Systemic Issues in Automated Moderation Pipelines for Low-Resource Languages",
+      "authors": [
+        "Farhana Shahid, Mona Elswah, Aditya Vashistha"
+      ],
+      "abstract": "arXiv:2501.13836v3 Announce Type: replace \nAbstract: Most social media users come from the Global South, where harmful content usually appears in local languages. Yet, AI-driven moderation systems struggle with low-resource languages spoken in these regions. Through semi-structured interviews with 22 AI experts working on harmful content detection in four low-resource languages: Tamil (South Asia), Swahili (East Africa), Maghrebi Arabic (North Africa), and Quechua (South America)--we examine systemic issues in building automated moderation tools for these languages. Our findings reveal that beyond data scarcity, socio-political factors such as tech companies' monopoly on user data and lack of investment in moderation for low-profit Global South markets exacerbate historic inequities. Even if more data were available, the English-centric and data-intensive design of language models and preprocessing techniques overlooks the need to design for morphologically complex, linguistically diverse, and code-mixed languages. We argue these limitations are not just technical gaps caused by \"data scarcity\" but reflect structural inequities, rooted in colonial suppression of non-Western languages. We discuss multi-stakeholder approaches to strengthen local research capacity, democratize data access, and support language-aware solutions to improve automated moderation for low-resource languages.",
+      "url": "https://arxiv.org/abs/2501.13836",
+      "published_date": "2025-08-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "languages",
+        "data",
+        "low",
+        "moderation",
+        "low resource",
+        "resource",
+        "resource languages",
+        "south",
+        "automated",
+        "automated moderation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critically important and often overlooked issue: the bias and inadequacy of AI moderation systems for low-resource languages. The use of semi-structured interviews with experts provides valuable qualitative data, and the focus on socio-political factors alongside technical limitations is a strength. While the methodology isn't groundbreaking, the topic's relevance and the potential for real-world impact are high, suggesting a positive reception within the NLP community.",
+      "paper_id": "d35111e8a41b67e20dc0442898dbeb2a"
+    },
+    {
+      "title": "Defend LLMs Through Self-Consciousness",
+      "authors": [
+        "Boshi Huang, Fabio Nonato de Paula"
+      ],
+      "abstract": "arXiv:2508.02961v1 Announce Type: cross \nAbstract: This paper introduces a novel self-consciousness defense mechanism for Large Language Models (LLMs) to combat prompt injection attacks. Unlike traditional approaches that rely on external classifiers, our method leverages the LLM's inherent reasoning capabilities to perform self-protection. We propose a framework that incorporates Meta-Cognitive and Arbitration Modules, enabling LLMs to evaluate and regulate their own outputs autonomously. Our approach is evaluated on seven state-of-the-art LLMs using two datasets: AdvBench and Prompt-Injection-Mixed-Techniques-2024. Experiment results demonstrate significant improvements in defense success rates across models and datasets, with some achieving perfect and near-perfect defense in Enhanced Mode. We also analyze the trade-off between defense success rate improvement and computational overhead. This self-consciousness method offers a lightweight, cost-effective solution for enhancing LLM ethics, particularly beneficial for GenAI use cases across various platforms.",
+      "url": "https://arxiv.org/abs/2508.02961",
+      "published_date": "2025-08-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "defense",
+        "llms",
+        "self",
+        "consciousness",
+        "self consciousness",
+        "datasets",
+        "defense success",
+        "injection",
+        "llm",
+        "method"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly significant problem \u2013 prompt injection attacks on LLMs \u2013 with a novel approach leveraging the LLM's internal reasoning. The use of Meta-Cognitive and Arbitration Modules for self-defense is a promising direction, and the reported results on multiple models and datasets are encouraging. While the concept isn't entirely new (self-supervision/introspection in AI), applying it specifically to LLM defense in this way appears to be a strong contribution. The mention of a trade-off analysis between defense and computational overhead adds to the rigor.",
+      "paper_id": "1953437c2f2a16146760d94c53575977"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-06T09:36:39.498184"
 }
