@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models",
+      "authors": [
+        "Zizhan Ma, Wenxuan Wang, Guo Yu, Yiu-Fai Cheung, Meidan Ding, Jie Liu, Wenting Chen, Linlin Shen"
+      ],
+      "abstract": "arXiv:2508.04325v1 Announce Type: new \nAbstract: Large language models (LLMs) show significant potential in healthcare, prompting numerous benchmarks to evaluate their capabilities. However, concerns persist regarding the reliability of these benchmarks, which often lack clinical fidelity, robust data management, and safety-oriented evaluation metrics. To address these shortcomings, we introduce MedCheck, the first lifecycle-oriented assessment framework specifically designed for medical benchmarks. Our framework deconstructs a benchmark's development into five continuous stages, from design to governance, and provides a comprehensive checklist of 46 medically-tailored criteria. Using MedCheck, we conducted an in-depth empirical evaluation of 53 medical LLM benchmarks. Our analysis uncovers widespread, systemic issues, including a profound disconnect from clinical practice, a crisis of data integrity due to unmitigated contamination risks, and a systematic neglect of safety-critical evaluation dimensions like model robustness and uncertainty awareness. Based on these findings, MedCheck serves as both a diagnostic tool for existing benchmarks and an actionable guideline to foster a more standardized, reliable, and transparent approach to evaluating AI in healthcare.",
+      "url": "https://arxiv.org/abs/2508.04325",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "benchmarks",
+        "evaluation",
+        "medcheck",
+        "medical",
+        "clinical",
+        "data",
+        "framework",
+        "healthcare",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of medical LLMs \u2013 the lack of reliable and clinically-relevant benchmarks. The introduction of MedCheck, a lifecycle-oriented assessment framework, is a strong methodological contribution. The empirical evaluation of 53 benchmarks and the identification of systemic issues suggest a high potential for influencing future benchmark development and LLM evaluation practices in healthcare.",
+      "paper_id": "8d85eb6eab2f152af0396a0cd66baec8"
+    },
+    {
+      "title": "The State Of TTS: A Case Study with Human Fooling Rates",
+      "authors": [
+        "Praveen Srinivasa Varadhan, Sherry Thomas, Sai Teja M. S., Suvrat Bhooshan, Mitesh M. Khapra"
+      ],
+      "abstract": "arXiv:2508.04179v1 Announce Type: new \nAbstract: While subjective evaluations in recent years indicate rapid progress in TTS, can current TTS systems truly pass a human deception test in a Turing-like evaluation? We introduce Human Fooling Rate (HFR), a metric that directly measures how often machine-generated speech is mistaken for human. Our large-scale evaluation of open-source and commercial TTS models reveals critical insights: (i) CMOS-based claims of human parity often fail under deception testing, (ii) TTS progress should be benchmarked on datasets where human speech achieves high HFRs, as evaluating against monotonous or less expressive reference samples sets a low bar, (iii) Commercial models approach human deception in zero-shot settings, while open-source systems still struggle with natural conversational speech; (iv) Fine-tuning on high-quality data improves realism but does not fully bridge the gap. Our findings underscore the need for more realistic, human-centric evaluations alongside existing subjective tests.",
+      "url": "https://arxiv.org/abs/2508.04179",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "human",
+        "tts",
+        "deception",
+        "speech",
+        "commercial",
+        "evaluation",
+        "evaluations",
+        "fooling",
+        "high",
+        "human deception"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in TTS research \u2013 the disconnect between reported metrics and actual human perception. Introducing the 'Human Fooling Rate' (HFR) is a strong methodological contribution, and the findings regarding the limitations of current evaluation benchmarks are significant. The work is well-focused and the abstract clearly articulates the problem, approach, and key results, suggesting a rigorous study.",
+      "paper_id": "c5b005538b9ca9b39428c2d397522be8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-07T09:35:19.771274"
 }

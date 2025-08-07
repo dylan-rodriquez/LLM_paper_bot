@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### ASTRA: Autonomous Spatial-Temporal Red-teaming for AI Software Assistants
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Xiangzhe Xu, Guangyu Shen, Zian Su, Siyuan Cheng, Hanxi Guo, Lu Yan, Xuan Chen, Jiasheng Jiang, Xiaolong Jin, Chengpeng Wang, Zhuo Zhang, Xiangyu Zhang
+
+arXiv:2508.03936v1 Announce Type: cross 
+Abstract: AI coding assistants like GitHub Copilot are rapidly transforming software development, but their safety remains deeply uncertain-especially in high-...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.03936) | [📝 Analysis](6557ed4a3418eb74c503e3750711ea84.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

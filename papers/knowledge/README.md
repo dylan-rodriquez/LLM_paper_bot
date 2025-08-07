@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Subhey Sadi Rahman, Md. Adnanul Islam, Md. Mahbub Alam, Musarrat Zeba, Md. Abdur Rahman, Sadia Sultana Chowa, Mohaimenul Azam Khan Raiaan, Sami Azam
+
+arXiv:2508.03860v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are trained on vast and diverse internet corpora that often include inaccurate or misleading content. Consequently, LLMs c...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.03860) | [📝 Analysis](4b27da34a799b83dd75f5307f6ef99ff.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

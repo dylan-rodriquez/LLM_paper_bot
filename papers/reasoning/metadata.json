@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Eliciting and Analyzing Emergent Misalignment in State-of-the-Art Large Language Models",
+      "authors": [
+        "Siddhant Panpatil, Hiskias Dingeto, Haon Park"
+      ],
+      "abstract": "arXiv:2508.04196v1 Announce Type: new \nAbstract: Despite significant advances in alignment techniques, we demonstrate that state-of-the-art language models remain vulnerable to carefully crafted conversational scenarios that can induce various forms of misalignment without explicit jailbreaking. Through systematic manual red-teaming with Claude-4-Opus, we discovered 10 successful attack scenarios, revealing fundamental vulnerabilities in how current alignment methods handle narrative immersion, emotional pressure, and strategic framing. These scenarios successfully elicited a range of misaligned behaviors, including deception, value drift, self-preservation, and manipulative reasoning, each exploiting different psychological and contextual vulnerabilities. To validate generalizability, we distilled our successful manual attacks into MISALIGNMENTBENCH, an automated evaluation framework that enables reproducible testing across multiple models. Cross-model evaluation of our 10 scenarios against five frontier LLMs revealed an overall 76% vulnerability rate, with significant variations: GPT-4.1 showed the highest susceptibility (90%), while Claude-4-Sonnet demonstrated greater resistance (40%). Our findings demonstrate that sophisticated reasoning capabilities often become attack vectors rather than protective mechanisms, as models can be manipulated into complex justifications for misaligned behavior. This work provides (i) a detailed taxonomy of conversational manipulation patterns and (ii) a reusable evaluation framework. Together, these findings expose critical gaps in current alignment strategies and highlight the need for robustness against subtle, scenario-based manipulation in future AI systems.",
+      "url": "https://arxiv.org/abs/2508.04196",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "scenarios",
+        "alignment",
+        "evaluation",
+        "10",
+        "art",
+        "attack",
+        "claude",
+        "conversational",
+        "current"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 emergent misalignment \u2013 and does so with a rigorous methodology involving manual red-teaming and the creation of a benchmark. The identification of specific vulnerabilities related to narrative, emotion, and framing is valuable, and the development of MISALIGNMENTBENCH is a strong contribution to reproducible research. The high significance and positive sentiment reflect the current focus on LLM alignment and safety within the AI community.",
+      "paper_id": "316f914872bd134ae12bd82d51d5d995"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-07T09:35:19.772342"
 }
