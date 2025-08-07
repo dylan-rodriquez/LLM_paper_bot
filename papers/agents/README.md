@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Large Reasoning Models Are Autonomous Jailbreak Agents
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Thilo Hagendorff, Erik Derner, Nuria Oliver
+
+arXiv:2508.04039v1 Announce Type: new 
+Abstract: Jailbreaking -- bypassing built-in safety mechanisms in AI models -- has traditionally required complex technical procedures or specialized human exper...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04039) | [📝 Analysis](d3ce436c982600883d450d0579629dfa.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

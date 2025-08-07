@@ -2,7 +2,40 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (15 total)
+
+### Unveiling the Landscape of Clinical Depression Assessment: From Behavioral Signatures to Psychiatric Reasoning
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Zhuang Chen, Guanqun Bi, Wen Zhang, Jiawei Hu, Aoyun Wang, Xiyao Xiao, Kun Feng, Minlie Huang
+
+arXiv:2508.04531v1 Announce Type: new 
+Abstract: Depression is a widespread mental disorder that affects millions worldwide. While automated depression assessment shows promise, most studies rely on l...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04531) | [📝 Analysis](0e92e482d5ec324242518f215bbf0ea4.md)
+
+---
+
+### Can NLP Tackle Hate Speech in the Real World? Stakeholder-Informed Feedback and Survey on Counterspeech
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Tanvi Dinkar, Aiqi Jiang, Simona Frenda, Poppy Gerrard-Abbott, Nancie Gunson, Gavin Abercrombie, Ioannis Konstas
+
+arXiv:2508.04638v1 Announce Type: new 
+Abstract: Counterspeech, i.e. the practice of responding to online hate speech, has gained traction in NLP as a promising intervention. While early work emphasis...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04638) | [📝 Analysis](629c7d4780ed6db0c87c27b27c02da0e.md)
+
+---
+
+### Multilingual Source Tracing of Speech Deepfakes: A First Benchmark
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Xi Xuan, Yang Xiao, Rohan Kumar Das, Tomi Kinnunen
+
+arXiv:2508.04143v1 Announce Type: cross 
+Abstract: Recent progress in generative AI has made it increasingly easy to create natural-sounding deepfake speech from just a few seconds of audio. While the...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04143) | [📝 Analysis](02db1a52d744f4284ee921bbc8fe581e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +170,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

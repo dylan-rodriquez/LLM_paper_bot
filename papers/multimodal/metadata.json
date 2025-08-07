@@ -383,7 +383,103 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Unveiling the Landscape of Clinical Depression Assessment: From Behavioral Signatures to Psychiatric Reasoning",
+      "authors": [
+        "Zhuang Chen, Guanqun Bi, Wen Zhang, Jiawei Hu, Aoyun Wang, Xiyao Xiao, Kun Feng, Minlie Huang"
+      ],
+      "abstract": "arXiv:2508.04531v1 Announce Type: new \nAbstract: Depression is a widespread mental disorder that affects millions worldwide. While automated depression assessment shows promise, most studies rely on limited or non-clinically validated data, and often prioritize complex model design over real-world effectiveness. In this paper, we aim to unveil the landscape of clinical depression assessment. We introduce C-MIND, a clinical neuropsychiatric multimodal diagnosis dataset collected over two years from real hospital visits. Each participant completes three structured psychiatric tasks and receives a final diagnosis from expert clinicians, with informative audio, video, transcript, and functional near-infrared spectroscopy (fNIRS) signals recorded. Using C-MIND, we first analyze behavioral signatures relevant to diagnosis. We train a range of classical models to quantify how different tasks and modalities contribute to diagnostic performance, and dissect the effectiveness of their combinations. We then explore whether LLMs can perform psychiatric reasoning like clinicians and identify their clear limitations in realistic clinical settings. In response, we propose to guide the reasoning process with clinical expertise and consistently improves LLM diagnostic performance by up to 10% in Macro-F1 score. We aim to build an infrastructure for clinical depression assessment from both data and algorithmic perspectives, enabling C-MIND to facilitate grounded and reliable research for mental healthcare.",
+      "url": "https://arxiv.org/abs/2508.04531",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "clinical",
+        "depression",
+        "assessment",
+        "depression assessment",
+        "clinical depression",
+        "diagnosis",
+        "mind",
+        "psychiatric",
+        "reasoning",
+        "aim"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial problem in mental health \u2013 accurate and automated depression assessment \u2013 and tackles the limitations of existing research by focusing on clinically validated data. The introduction of the C-MIND dataset, with its multimodal recordings and expert diagnoses, is a significant contribution. While the abstract doesn't detail novel *algorithmic* approaches, the dataset itself and the analysis of behavioral signatures represent a strong foundation for future work, suggesting a high potential for positive reception within the community.",
+      "paper_id": "0e92e482d5ec324242518f215bbf0ea4"
+    },
+    {
+      "title": "Can NLP Tackle Hate Speech in the Real World? Stakeholder-Informed Feedback and Survey on Counterspeech",
+      "authors": [
+        "Tanvi Dinkar, Aiqi Jiang, Simona Frenda, Poppy Gerrard-Abbott, Nancie Gunson, Gavin Abercrombie, Ioannis Konstas"
+      ],
+      "abstract": "arXiv:2508.04638v1 Announce Type: new \nAbstract: Counterspeech, i.e. the practice of responding to online hate speech, has gained traction in NLP as a promising intervention. While early work emphasised collaboration with non-governmental organisation stakeholders, recent research trends have shifted toward automated pipelines that reuse a small set of legacy datasets, often without input from affected communities. This paper presents a systematic review of 74 NLP studies on counterspeech, analysing the extent to which stakeholder participation influences dataset creation, model development, and evaluation. To complement this analysis, we conducted a participatory case study with five NGOs specialising in online Gender-Based Violence (oGBV), identifying stakeholder-informed practices for counterspeech generation. Our findings reveal a growing disconnect between current NLP research and the needs of communities most impacted by toxic online content. We conclude with concrete recommendations for re-centring stakeholder expertise in counterspeech research.",
+      "url": "https://arxiv.org/abs/2508.04638",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "counterspeech",
+        "nlp",
+        "stakeholder",
+        "online",
+        "research",
+        "communities",
+        "hate",
+        "hate speech",
+        "informed",
+        "speech"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial issue in NLP \u2013 the disconnect between research and real-world needs in hate speech mitigation. The combination of a systematic literature review with a participatory case study involving NGOs is a strong methodological approach. The findings highlighting the growing gap between NLP research and community needs are significant and likely to resonate with researchers and practitioners alike, prompting a re-evaluation of current practices.",
+      "paper_id": "629c7d4780ed6db0c87c27b27c02da0e"
+    },
+    {
+      "title": "Multilingual Source Tracing of Speech Deepfakes: A First Benchmark",
+      "authors": [
+        "Xi Xuan, Yang Xiao, Rohan Kumar Das, Tomi Kinnunen"
+      ],
+      "abstract": "arXiv:2508.04143v1 Announce Type: cross \nAbstract: Recent progress in generative AI has made it increasingly easy to create natural-sounding deepfake speech from just a few seconds of audio. While these tools support helpful applications, they also raise serious concerns by making it possible to generate convincing fake speech in many languages. Current research has largely focused on detecting fake speech, but little attention has been given to tracing the source models used to generate it. This paper introduces the first benchmark for multilingual speech deepfake source tracing, covering both mono- and cross-lingual scenarios. We comparatively investigate DSP- and SSL-based modeling; examine how SSL representations fine-tuned on different languages impact cross-lingual generalization performance; and evaluate generalization to unseen languages and speakers. Our findings offer the first comprehensive insights into the challenges of identifying speech generation models when training and inference languages differ. The dataset, protocol and code are available at https://github.com/xuanxixi/Multilingual-Source-Tracing.",
+      "url": "https://arxiv.org/abs/2508.04143",
+      "published_date": "2025-08-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "eess.AS"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "speech",
+        "languages",
+        "source",
+        "tracing",
+        "cross",
+        "multilingual",
+        "source tracing",
+        "benchmark",
+        "cross lingual",
+        "deepfake"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the source tracing of multilingual speech deepfakes. The introduction of a first benchmark is a significant step forward, and the comparative investigation of DSP and SSL methods, along with cross-lingual generalization studies, demonstrates a solid methodological approach. While the abstract doesn't detail groundbreaking new techniques, the comprehensive nature of the benchmark and the focus on multilingual scenarios are valuable contributions.",
+      "paper_id": "02db1a52d744f4284ee921bbc8fe581e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-08-07T09:35:19.776066"
 }

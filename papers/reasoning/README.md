@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Eliciting and Analyzing Emergent Misalignment in State-of-the-Art Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Siddhant Panpatil, Hiskias Dingeto, Haon Park
+
+arXiv:2508.04196v1 Announce Type: new 
+Abstract: Despite significant advances in alignment techniques, we demonstrate that state-of-the-art language models remain vulnerable to carefully crafted conve...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04196) | [📝 Analysis](316f914872bd134ae12bd82d51d5d995.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Why are LLMs' abilities emergent?
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Vladim\'ir Havl\'ik
+
+arXiv:2508.04401v1 Announce Type: new 
+Abstract: The remarkable success of Large Language Models (LLMs) in generative tasks has raised fundamental questions about the nature of their acquired capabili...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04401) | [📝 Analysis](9d0770e980c7576209ef349e8041c725.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*

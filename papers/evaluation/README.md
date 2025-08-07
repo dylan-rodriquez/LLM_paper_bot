@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-07 | **Authors:** Zizhan Ma, Wenxuan Wang, Guo Yu, Yiu-Fai Cheung, Meidan Ding, Jie Liu, Wenting Chen, Linlin Shen
+
+arXiv:2508.04325v1 Announce Type: new 
+Abstract: Large language models (LLMs) show significant potential in healthcare, prompting numerous benchmarks to evaluate their capabilities. However, concerns ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04325) | [📝 Analysis](8d85eb6eab2f152af0396a0cd66baec8.md)
+
+---
+
+### The State Of TTS: A Case Study with Human Fooling Rates
+
+**Score:** 90.0 | **Published:** 2025-08-07 | **Authors:** Praveen Srinivasa Varadhan, Sherry Thomas, Sai Teja M. S., Suvrat Bhooshan, Mitesh M. Khapra
+
+arXiv:2508.04179v1 Announce Type: new 
+Abstract: While subjective evaluations in recent years indicate rapid progress in TTS, can current TTS systems truly pass a human deception test in a Turing-like...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04179) | [📝 Analysis](c5b005538b9ca9b39428c2d397522be8.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-07 09:35:19 UTC*
