@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Recent Advances in Speech Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Wenqian Cui, Dianzhi Yu, Xiaoqi Jiao, Ziqiao Meng, Guangyan Zhang, Qichao Wang, Yiwen Guo, Irwin King
+
+arXiv:2410.03751v4 Announce Type: replace 
+Abstract: Large Language Models (LLMs) have recently garnered significant attention, primarily for their capabilities in text-based interactions. However, na...
+
+[📄 Full Paper](https://arxiv.org/abs/2410.03751) | [📝 Analysis](77559e442d6318e1019581aaec208789.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-08 09:35:21 UTC*
