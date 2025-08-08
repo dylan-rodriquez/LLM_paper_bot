@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Recent Advances in Speech Language Models: A Survey",
+      "authors": [
+        "Wenqian Cui, Dianzhi Yu, Xiaoqi Jiao, Ziqiao Meng, Guangyan Zhang, Qichao Wang, Yiwen Guo, Irwin King"
+      ],
+      "abstract": "arXiv:2410.03751v4 Announce Type: replace \nAbstract: Large Language Models (LLMs) have recently garnered significant attention, primarily for their capabilities in text-based interactions. However, natural human interaction often relies on speech, necessitating a shift towards voice-based models. A straightforward approach to achieve this involves a pipeline of ``Automatic Speech Recognition (ASR) + LLM + Text-to-Speech (TTS)\", where input speech is transcribed to text, processed by an LLM, and then converted back to speech. Despite being straightforward, this method suffers from inherent limitations, such as information loss during modality conversion, significant latency due to the complex pipeline, and error accumulation across the three stages. To address these issues, Speech Language Models (SpeechLMs) -- end-to-end models that generate speech without converting from text -- have emerged as a promising alternative. This survey paper provides the first comprehensive overview of recent methodologies for constructing SpeechLMs, detailing the key components of their architecture and the various training recipes integral to their development. Additionally, we systematically survey the various capabilities of SpeechLMs, categorize their evaluation metrics, and discuss the challenges and future research directions in this rapidly evolving field. The GitHub repository is available at https://github.com/dreamtheater123/Awesome-SpeechLM-Survey",
+      "url": "https://arxiv.org/abs/2410.03751",
+      "published_date": "2025-08-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "models",
+        "survey",
+        "text",
+        "language",
+        "language models",
+        "speechlms",
+        "based",
+        "capabilities",
+        "end"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper addresses a highly relevant and timely problem \u2013 the limitations of traditional ASR+LLM+TTS pipelines and the rise of SpeechLMs. The abstract clearly articulates the motivation and scope of the survey, suggesting a rigorous and well-structured analysis. Given the current focus on voice-based AI, this work is likely to be well-received and have a significant impact on the field.",
+      "paper_id": "77559e442d6318e1019581aaec208789"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-08-08T09:35:21.508086"
 }

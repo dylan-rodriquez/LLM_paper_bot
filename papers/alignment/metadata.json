@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Towards Assessing Medical Ethics from Knowledge to Practice",
+      "authors": [
+        "Chang Hong, Minghao Wu, Qingying Xiao, Yuchi Wang, Xiang Wan, Guangjun Yu, Benyou Wang, Yan Hu"
+      ],
+      "abstract": "arXiv:2508.05132v1 Announce Type: new \nAbstract: The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks often overlook. We introduce PrinciplismQA, a comprehensive benchmark with 3,648 questions designed to systematically assess LLMs' alignment with core medical ethics. Grounded in Principlism, our benchmark features a high-quality dataset. This includes multiple-choice questions curated from authoritative textbooks and open-ended questions sourced from authoritative medical ethics case study literature, all validated by medical experts. Our experiments reveal a significant gap between models' ethical knowledge and their practical application, especially in dynamically applying ethical principles to real-world scenarios. Most LLMs struggle with dilemmas concerning Beneficence, often over-emphasizing other principles. Frontier closed-source models, driven by strong general capabilities, currently lead the benchmark. Notably, medical domain fine-tuning can enhance models' overall ethical competence, but further progress requires better alignment with medical ethical knowledge. PrinciplismQA offers a scalable framework to diagnose these specific ethical weaknesses, paving the way for more balanced and responsible medical AI.",
+      "url": "https://arxiv.org/abs/2508.05132",
+      "published_date": "2025-08-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "medical",
+        "ethical",
+        "models",
+        "benchmark",
+        "ethics",
+        "knowledge",
+        "medical ethics",
+        "questions",
+        "alignment",
+        "authoritative"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the ethical evaluation of LLMs in healthcare. The creation of a dedicated benchmark, PrinciplismQA, grounded in established medical ethics principles and validated by experts, is a strong methodological contribution. While the approach of creating a benchmark isn't entirely novel, the focus on *practical* ethical application, and the identified gap between knowledge and practice, is particularly valuable. The initial findings regarding LLMs struggling with Beneficence are concerning and warrant further investigation.",
+      "paper_id": "80a2b74a3260b64287b34dd913ef9956"
+    },
+    {
+      "title": "Bench-2-CoP: Can We Trust Benchmarking for EU AI Compliance?",
+      "authors": [
+        "Matteo Prandi, Vincenzo Suriani, Federico Pierucci, Marcello Galisai, Daniele Nardi, Piercosma Bisconti"
+      ],
+      "abstract": "arXiv:2508.05464v1 Announce Type: cross \nAbstract: The rapid advancement of General Purpose AI (GPAI) models necessitates robust evaluation frameworks, especially with emerging regulations like the EU AI Act and its associated Code of Practice (CoP). Current AI evaluation practices depend heavily on established benchmarks, but these tools were not designed to measure the systemic risks that are the focus of the new regulatory landscape. This research addresses the urgent need to quantify this \"benchmark-regulation gap.\" We introduce Bench-2-CoP, a novel, systematic framework that uses validated LLM-as-judge analysis to map the coverage of 194,955 questions from widely-used benchmarks against the EU AI Act's taxonomy of model capabilities and propensities. Our findings reveal a profound misalignment: the evaluation ecosystem is overwhelmingly focused on a narrow set of behavioral propensities, such as \"Tendency to hallucinate\" (53.7% of the corpus) and \"Discriminatory bias\" (28.9%), while critical functional capabilities are dangerously neglected. Crucially, capabilities central to loss-of-control scenarios, including evading human oversight, self-replication, and autonomous AI development, receive zero coverage in the entire benchmark corpus. This translates to a near-total evaluation gap for systemic risks like \"Loss of Control\" (0.4% coverage) and \"Cyber Offence\" (0.8% coverage). This study provides the first comprehensive, quantitative analysis of this gap, offering critical insights for policymakers to refine the CoP and for developers to build the next generation of evaluation tools, ultimately fostering safer and more compliant AI.",
+      "url": "https://arxiv.org/abs/2508.05464",
+      "published_date": "2025-08-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "evaluation",
+        "cop",
+        "coverage",
+        "capabilities",
+        "eu",
+        "eu ai",
+        "gap",
+        "act",
+        "ai act"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the gap between AI benchmarks and emerging regulations like the EU AI Act. The 'Bench-2-CoP' framework and the use of LLM-as-judge for systematic mapping demonstrate a solid methodology. The identified misalignment, particularly the overemphasis on specific behavioral propensities, is a crucial finding with significant implications for responsible AI development and compliance.",
+      "paper_id": "6ed5b3d297475151a52bcc6e7e4000f7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-08T09:35:21.503866"
 }

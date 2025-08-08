@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Towards Assessing Medical Ethics from Knowledge to Practice
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Chang Hong, Minghao Wu, Qingying Xiao, Yuchi Wang, Xiang Wan, Guangjun Yu, Benyou Wang, Yan Hu
+
+arXiv:2508.05132v1 Announce Type: new 
+Abstract: The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks ofte...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05132) | [📝 Analysis](80a2b74a3260b64287b34dd913ef9956.md)
+
+---
+
+### Bench-2-CoP: Can We Trust Benchmarking for EU AI Compliance?
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Matteo Prandi, Vincenzo Suriani, Federico Pierucci, Marcello Galisai, Daniele Nardi, Piercosma Bisconti
+
+arXiv:2508.05464v1 Announce Type: cross 
+Abstract: The rapid advancement of General Purpose AI (GPAI) models necessitates robust evaluation frameworks, especially with emerging regulations like the EU...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05464) | [📝 Analysis](6ed5b3d297475151a52bcc6e7e4000f7.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-08 09:35:21 UTC*

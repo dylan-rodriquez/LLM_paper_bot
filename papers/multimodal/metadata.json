@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The TUB Sign Language Corpus Collection",
+      "authors": [
+        "Eleftherios Avramidis, Vera Czehmann, Fabian Deckert, Lorenz Hufe, Aljoscha Lipski, Yuni Amaloa Quintero Villalobos, Tae Kwon Rhee, Mengqian Shi, Lennart St\\\"olting, Fabrizio Nunnari, Sebastian M\\\"oller"
+      ],
+      "abstract": "arXiv:2508.05374v1 Announce Type: new \nAbstract: We present a collection of parallel corpora of 12 sign languages in video format, together with subtitles in the dominant spoken languages of the corresponding countries. The entire collection includes more than 1,300 hours in 4,381 video files, accompanied by 1,3~M subtitles containing 14~M tokens. Most notably, it includes the first consistent parallel corpora for 8 Latin American sign languages, whereas the size of the German Sign Language corpora is ten times the size of the previously available corpora. The collection was created by collecting and processing videos of multiple sign languages from various online sources, mainly broadcast material of news shows, governmental bodies and educational channels. The preparation involved several stages, including data collection, informing the content creators and seeking usage approvals, scraping, and cropping. The paper provides statistics on the collection and an overview of the methods used to collect the data.",
+      "url": "https://arxiv.org/abs/2508.05374",
+      "published_date": "2025-08-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "collection",
+        "sign",
+        "corpora",
+        "languages",
+        "sign languages",
+        "data",
+        "includes",
+        "language",
+        "parallel",
+        "parallel corpora"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper presents a valuable resource for the sign language research community, particularly by addressing the significant data scarcity for many sign languages, especially those in Latin America. The scale of the corpus (1300+ hours, 1.3M subtitles) is impressive, and the effort to obtain usage approvals is commendable. While the data collection method (scraping) isn't inherently novel, the breadth and parallel nature of the corpus represent a substantial contribution. The community will likely receive this work very positively given the need for more sign language data.",
+      "paper_id": "9dfb660b045bc5a0a29044a515f9a70e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-08-08T09:35:21.504586"
 }

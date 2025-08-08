@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The TUB Sign Language Corpus Collection
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Eleftherios Avramidis, Vera Czehmann, Fabian Deckert, Lorenz Hufe, Aljoscha Lipski, Yuni Amaloa Quintero Villalobos, Tae Kwon Rhee, Mengqian Shi, Lennart St\"olting, Fabrizio Nunnari, Sebastian M\"oller
+
+arXiv:2508.05374v1 Announce Type: new 
+Abstract: We present a collection of parallel corpora of 12 sign languages in video format, together with subtitles in the dominant spoken languages of the corre...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05374) | [📝 Analysis](9dfb660b045bc5a0a29044a515f9a70e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-08 09:35:21 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Persistent Instability in LLM's Personality Measurements: Effects of Scale, Reasoning, and Conversation History
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Tommaso Tosato, Saskia Helbling, Yorguin-Jose Mantilla-Ramos, Mahmood Hegazy, Alberto Tosato, David John Lemay, Irina Rish, Guillaume Dumas
+
+arXiv:2508.04826v1 Announce Type: new 
+Abstract: Large language models require consistent behavioral patterns for safe deployment, yet their personality-like traits remain poorly understood. We presen...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04826) | [📝 Analysis](92ddabc395c278082248222ce2de697c.md)
+
+---
+
+### LLMEval-3: A Large-Scale Longitudinal Study on Robust and Fair Evaluation of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Ming Zhang, Yujiong Shen, Jingyi Deng, Yuhui Wang, Yue Zhang, Junzhe Wang, Shichun Liu, Shihan Dou, Huayu Sha, Qiyuan Peng, Changhao Jiang, Jingqi Tong, Yilong Wu, Zhihao Zhang, Mingqi Wu, Zhiheng Xi, Mingxu Chai, Tao Liang, Zhihui Fei, Zhen Wang, Mingyang Wan, Guojun Ma, Tao Gui, Qi Zhang, Xuanjing Huang
+
+arXiv:2508.05452v1 Announce Type: new 
+Abstract: Existing evaluation of Large Language Models (LLMs) on static benchmarks is vulnerable to data contamination and leaderboard overfitting, critical issu...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05452) | [📝 Analysis](41c6c3c529b4b106854092964004bf01.md)
+
+---
+
+### MedHalu: Hallucinations in Responses to Healthcare Queries by Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Vibhor Agarwal, Yiqiao Jin, Mohit Chandra, Munmun De Choudhury, Srijan Kumar, Nishanth Sastry
+
+arXiv:2409.19492v2 Announce Type: replace 
+Abstract: Large language models (LLMs) are starting to complement traditional information seeking mechanisms such as web search. LLM-powered chatbots like Ch...
+
+[📄 Full Paper](https://arxiv.org/abs/2409.19492) | [📝 Analysis](92093507a5d46fa990885fbdb604c056.md)
+
+---
+
+### PolyGuard: A Multilingual Safety Moderation Tool for 17 Languages
+
+**Score:** 92.0 | **Published:** 2025-08-08 | **Authors:** Priyanshu Kumar, Devansh Jain, Akhila Yerukola, Liwei Jiang, Himanshu Beniwal, Thomas Hartvigsen, Maarten Sap
+
+arXiv:2504.04377v2 Announce Type: replace 
+Abstract: Truly multilingual safety moderation efforts for Large Language Models (LLMs) have been hindered by a narrow focus on a small set of languages (e.g...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.04377) | [📝 Analysis](8beb7eeddc0238ec7952411c12b1f09a.md)
+
+---
+
+### I Think, Therefore I Am Under-Qualified? A Benchmark for Evaluating Linguistic Shibboleth Detection in LLM Hiring Evaluations
+
+**Score:** 90.0 | **Published:** 2025-08-08 | **Authors:** Julia Kharchenko, Tanya Roosta, Aman Chadha, Chirag Shah
+
+arXiv:2508.04939v1 Announce Type: new 
+Abstract: This paper introduces a comprehensive benchmark for evaluating how Large Language Models (LLMs) respond to linguistic shibboleths: subtle linguistic ma...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04939) | [📝 Analysis](c3608272ca9aff56aa6cf6ddbf5de623.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-08 09:35:21 UTC*
