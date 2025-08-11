@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Guardians and Offenders: A Survey on Harmful Content Generation and Safety Mitigation
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Chi Zhang, Changjia Zhu, Junjie Xiong, Xiaoran Xu, Lingyao Li, Yao Liu, Zhuo Lu
+
+arXiv:2508.05775v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have revolutionized content creation across digital platforms, offering unprecedented capabilities in natural language gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05775) | [📝 Analysis](59f342ea3eab0707864a4cad98d3537d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-11 09:34:46 UTC*

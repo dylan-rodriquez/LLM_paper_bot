@@ -191,7 +191,103 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges",
+      "authors": [
+        "Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, Weinan Zhang"
+      ],
+      "abstract": "arXiv:2508.05668v1 Announce Type: cross \nAbstract: The advent of Large Language Models (LLMs) has significantly revolutionized web search. The emergence of LLM-based Search Agents marks a pivotal shift towards deeper, dynamic, autonomous information seeking. These agents can comprehend user intentions and environmental context and execute multi-turn retrieval with dynamic planning, extending search capabilities far beyond the web. Leading examples like OpenAI's Deep Research highlight their potential for deep information mining and real-world applications. This survey provides the first systematic analysis of search agents. We comprehensively analyze and categorize existing works from the perspectives of architecture, optimization, application, and evaluation, ultimately identifying critical open challenges and outlining promising future research directions in this rapidly evolving field. Our repository is available on https://github.com/YunjiaXi/Awesome-Search-Agent-Papers.",
+      "url": "https://arxiv.org/abs/2508.05668",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "search",
+        "agents",
+        "deep",
+        "search agents",
+        "based",
+        "challenges",
+        "dynamic",
+        "evaluation",
+        "information",
+        "llm"
+      ],
+      "subject_classification": "agents",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 LLM-based search agents. The systematic analysis across architecture, optimization, application, and evaluation is a strong point, and the provided repository suggests a commitment to community contribution. While a survey isn't inherently 'innovative' in methodology, it's crucial for consolidating knowledge in a new area, and this appears to be the first of its kind. The potential for impact is high given the growing interest in autonomous information seeking.",
+      "paper_id": "2e9c4541dfc9422e59c5b5205c543b61"
+    },
+    {
+      "title": "Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System",
+      "authors": [
+        "Haorui He, Yupeng Li, Bin Benjamin Zhu, Dacheng Wen, Reynold Cheng, Francis C. M. Lau"
+      ],
+      "abstract": "arXiv:2508.06059v1 Announce Type: cross \nAbstract: State-of-the-art fact-checking systems combat misinformation at scale by employing autonomous LLM-based agents to decompose complex claims into smaller sub-claims, verify each sub-claim individually, and aggregate the partial results to produce verdicts with justifications (explanatory rationales for the verdicts). The security of these systems is crucial, as compromised fact-checkers, which tend to be easily underexplored, can amplify misinformation. This work introduces Fact2Fiction, the first poisoning attack framework targeting such agentic fact-checking systems. Fact2Fiction mirrors the decomposition strategy and exploits system-generated justifications to craft tailored malicious evidences that compromise sub-claim verification. Extensive experiments demonstrate that Fact2Fiction achieves 8.9\\%--21.2\\% higher attack success rates than state-of-the-art attacks across various poisoning budgets. Fact2Fiction exposes security weaknesses in current fact-checking systems and highlights the need for defensive countermeasures.",
+      "url": "https://arxiv.org/abs/2508.06059",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "fact",
+        "fact2fiction",
+        "checking",
+        "fact checking",
+        "systems",
+        "attack",
+        "checking systems",
+        "poisoning",
+        "sub",
+        "agentic"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the security of agentic fact-checking systems. The introduction of 'Fact2Fiction' as the first targeted poisoning attack framework for these systems demonstrates a strong methodological approach and clear experimental validation. The reported improvements in attack success rates over existing methods suggest a significant contribution to understanding and mitigating vulnerabilities in this emerging technology.",
+      "paper_id": "481c6d39e5dc303f4534bfdc3a51334d"
+    },
+    {
+      "title": "ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls",
+      "authors": [
+        "Sanket Badhe"
+      ],
+      "abstract": "arXiv:2508.06457v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have demonstrated impressive fluency and reasoning capabilities, but their potential for misuse has raised growing concern. In this paper, we present ScamAgent, an autonomous multi-turn agent built on top of LLMs, capable of generating highly realistic scam call scripts that simulate real-world fraud scenarios. Unlike prior work focused on single-shot prompt misuse, ScamAgent maintains dialogue memory, adapts dynamically to simulated user responses, and employs deceptive persuasion strategies across conversational turns. We show that current LLM safety guardrails, including refusal mechanisms and content filters, are ineffective against such agent-based threats. Even models with strong prompt-level safeguards can be bypassed when prompts are decomposed, disguised, or delivered incrementally within an agent framework. We further demonstrate the transformation of scam scripts into lifelike voice calls using modern text-to-speech systems, completing a fully automated scam pipeline. Our findings highlight an urgent need for multi-turn safety auditing, agent-level control frameworks, and new methods to detect and disrupt conversational deception powered by generative AI.",
+      "url": "https://arxiv.org/abs/2508.06457",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "agent",
+        "scam",
+        "level",
+        "ai",
+        "calls",
+        "conversational",
+        "llms",
+        "misuse",
+        "models",
+        "multi"
+      ],
+      "subject_classification": "agents",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the potential for LLMs to be weaponized for malicious purposes like scamming. The work is innovative in demonstrating how agent-based approaches can bypass existing safety mechanisms, and the finding that current guardrails are ineffective is concerning. The clear demonstration of realistic scam call generation and the potential for voice synthesis further amplify the impact of this work, suggesting a need for more robust defenses.",
+      "paper_id": "740815d77b630d30df51696647f286ed"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-08-11T09:34:46.482884"
 }

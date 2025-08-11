@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Matrix-Driven Instant Review: Confident Detection and Reconstruction of LLM Plagiarism on PC
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Ruichong Zhang
+
+arXiv:2508.06309v1 Announce Type: new 
+Abstract: In recent years, concerns about intellectual property (IP) in large language models (LLMs) have grown significantly. Plagiarizing other LLMs (through d...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06309) | [📝 Analysis](80dccf00b7fa00ef2bf162b5fde4ae12.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-11 09:34:46 UTC*

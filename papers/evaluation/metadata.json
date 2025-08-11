@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+      "authors": [
+        "Andrew Brown, Muhammad Roman, Barry Devereux"
+      ],
+      "abstract": "arXiv:2508.06401v1 Announce Type: cross \nAbstract: This systematic review of the research literature on retrieval-augmented generation (RAG) provides a focused analysis of the most highly cited studies published between 2020 and May 2025. A total of 128 articles met our inclusion criteria. The records were retrieved from ACM Digital Library, IEEE Xplore, Scopus, ScienceDirect, and the Digital Bibliography and Library Project (DBLP). RAG couples a neural retriever with a generative language model, grounding output in up-to-date, non-parametric memory while retaining the semantic generalisation stored in model weights. Guided by the PRISMA 2020 framework, we (i) specify explicit inclusion and exclusion criteria based on citation count and research questions, (ii) catalogue datasets, architectures, and evaluation practices, and (iii) synthesise empirical evidence on the effectiveness and limitations of RAG. To mitigate citation-lag bias, we applied a lower citation-count threshold to papers published in 2025 so that emerging breakthroughs with naturally fewer citations were still captured. This review clarifies the current research landscape, highlights methodological gaps, and charts priority directions for future research.",
+      "url": "https://arxiv.org/abs/2508.06401",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "research",
+        "citation",
+        "rag",
+        "review",
+        "2020",
+        "2025",
+        "augmented",
+        "augmented generation",
+        "citation count",
+        "count"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and rapidly evolving area \u2013 Retrieval-Augmented Generation. The systematic review approach, guided by PRISMA 2020, suggests a rigorous methodology. While the review itself isn't inherently innovative, its comprehensive cataloging of datasets, architectures, and evaluation practices will be valuable to the community, and the attempt to mitigate citation-lag bias is commendable. The high citation count threshold and timeframe (2020-2025) indicate a focus on current, impactful work.",
+      "paper_id": "e9dd17ed04bcc546e11f39b7ea833dfd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-11T09:34:46.483747"
 }

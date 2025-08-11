@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Alternative Annotator Test for LLM-as-a-Judge: How to Statistically Justify Replacing Human Annotators with LLMs",
+      "authors": [
+        "Nitay Calderon, Roi Reichart, Rotem Dror"
+      ],
+      "abstract": "arXiv:2501.10970v4 Announce Type: replace \nAbstract: The \"LLM-as-an-annotator\" and \"LLM-as-a-judge\" paradigms employ Large Language Models (LLMs) as annotators, judges, and evaluators in tasks traditionally performed by humans. LLM annotations are widely used, not only in NLP research but also in fields like medicine, psychology, and social science. Despite their role in shaping study results and insights, there is no standard or rigorous procedure to determine whether LLMs can replace human annotators. In this paper, we propose a novel statistical procedure, the Alternative Annotator Test (alt-test), that requires only a modest subset of annotated examples to justify using LLM annotations. Additionally, we introduce a versatile and interpretable measure for comparing LLM annotators and judges. To demonstrate our procedure, we curated a diverse collection of ten datasets, consisting of language and vision-language tasks, and conducted experiments with six LLMs and four prompting techniques. Our results show that LLMs can sometimes replace humans with closed-source LLMs (such as GPT-4o), outperforming the open-source LLMs we examine, and that prompting techniques yield judges of varying quality. We hope this study encourages more rigorous and reliable practices.",
+      "url": "https://arxiv.org/abs/2501.10970",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "llm",
+        "annotators",
+        "annotator",
+        "judges",
+        "language",
+        "procedure",
+        "replace",
+        "test",
+        "alternative"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving LLM landscape: validating the use of LLMs as replacements for human annotators. The proposed 'Alternative Annotator Test' offers a statistically grounded approach, addressing a significant gap in current practice. The experimental validation across diverse datasets and LLMs strengthens the work, and the interpretable comparison measure is a valuable addition. The high significance stems from the broad applicability of LLM-as-judge/annotator across numerous fields.",
+      "paper_id": "9aa00a5f3f5bfbcc9a3f096530676225"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-08-11T09:34:46.485835"
 }
