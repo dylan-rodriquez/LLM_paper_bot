@@ -2,7 +2,40 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (9 total)
+
+### A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, Weinan Zhang
+
+arXiv:2508.05668v1 Announce Type: cross 
+Abstract: The advent of Large Language Models (LLMs) has significantly revolutionized web search. The emergence of LLM-based Search Agents marks a pivotal shif...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05668) | [📝 Analysis](2e9c4541dfc9422e59c5b5205c543b61.md)
+
+---
+
+### Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Haorui He, Yupeng Li, Bin Benjamin Zhu, Dacheng Wen, Reynold Cheng, Francis C. M. Lau
+
+arXiv:2508.06059v1 Announce Type: cross 
+Abstract: State-of-the-art fact-checking systems combat misinformation at scale by employing autonomous LLM-based agents to decompose complex claims into small...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06059) | [📝 Analysis](481c6d39e5dc303f4534bfdc3a51334d.md)
+
+---
+
+### ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Sanket Badhe
+
+arXiv:2508.06457v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have demonstrated impressive fluency and reasoning capabilities, but their potential for misuse has raised growing conce...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06457) | [📝 Analysis](740815d77b630d30df51696647f286ed.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +104,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-11 09:34:46 UTC*

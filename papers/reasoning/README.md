@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Rachneet Sachdeva, Rima Hazra, Iryna Gurevych
+
+arXiv:2501.01872v3 Announce Type: replace 
+Abstract: Large language models, despite extensive alignment with human values and ethical principles, remain vulnerable to sophisticated jailbreak attacks t...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.01872) | [📝 Analysis](83b98fbb99235076f835d305fb060a4d.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-11 09:34:46 UTC*

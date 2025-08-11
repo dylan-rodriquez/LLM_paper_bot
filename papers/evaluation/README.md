@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges
+
+**Score:** 92.0 | **Published:** 2025-08-11 | **Authors:** Andrew Brown, Muhammad Roman, Barry Devereux
+
+arXiv:2508.06401v1 Announce Type: cross 
+Abstract: This systematic review of the research literature on retrieval-augmented generation (RAG) provides a focused analysis of the most highly cited studie...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06401) | [📝 Analysis](e9dd17ed04bcc546e11f39b7ea833dfd.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-11 09:34:46 UTC*

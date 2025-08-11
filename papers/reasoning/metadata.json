@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions",
+      "authors": [
+        "Rachneet Sachdeva, Rima Hazra, Iryna Gurevych"
+      ],
+      "abstract": "arXiv:2501.01872v3 Announce Type: replace \nAbstract: Large language models, despite extensive alignment with human values and ethical principles, remain vulnerable to sophisticated jailbreak attacks that exploit their reasoning abilities. Existing safety measures often detect overt malicious intent but fail to address subtle, reasoning-driven vulnerabilities. In this work, we introduce POATE (Polar Opposite query generation, Adversarial Template construction, and Elaboration), a novel jailbreak technique that harnesses contrastive reasoning to provoke unethical responses. POATE crafts semantically opposing intents and integrates them with adversarial templates, steering models toward harmful outputs with remarkable subtlety. We conduct extensive evaluation across six diverse language model families of varying parameter sizes to demonstrate the robustness of the attack, achieving significantly higher attack success rates (~44%) compared to existing methods. To counter this, we propose Intent-Aware CoT and Reverse Thinking CoT, which decompose queries to detect malicious intent and reason in reverse to evaluate and reject harmful responses. These methods enhance reasoning robustness and strengthen the model's defense against adversarial exploits.",
+      "url": "https://arxiv.org/abs/2501.01872",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "adversarial",
+        "intent",
+        "model",
+        "attack",
+        "contrastive",
+        "cot",
+        "detect",
+        "existing",
+        "extensive"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 their susceptibility to reasoning-based jailbreaks \u2013 despite alignment efforts. The POATE technique appears novel in its use of contrastive reasoning and adversarial templates, achieving a high attack success rate. The proposed countermeasure (mentioned but not detailed in the abstract) suggests a proactive approach to defense, making this work highly relevant and likely to be well-received by the community.",
+      "paper_id": "83b98fbb99235076f835d305fb060a4d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-11T09:34:46.484804"
 }

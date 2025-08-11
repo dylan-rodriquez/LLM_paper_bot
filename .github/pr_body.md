@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.8/100
+- **Categories Updated:** 6
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,40 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Alignment (1 new papers)
+- **Guardians and Offenders: A Survey on Harmful Content Generation and Safety Mitigation** (Score: 92.0)
+  - This survey paper addresses a highly significant and timely problem in the field of LLMs – the balance between their capabilities and the risks of harmful content. The systematic review and proposed taxonomy are valuable contributions, and the focus on emerging jailbreak strategies is particularly relevant. While the abstract doesn't suggest groundbreaking *new* methods, a well-executed survey consolidating existing knowledge and identifying future research directions is highly impactful.
+
+## Theoretical (1 new papers)
+- **Matrix-Driven Instant Review: Confident Detection and Reconstruction of LLM Plagiarism on PC** (Score: 92.0)
+  - The paper addresses a very important and timely problem – LLM plagiarism – which is becoming increasingly critical as these models proliferate. The proposed MDIR method appears to offer improvements over existing techniques by addressing limitations in weight reconstruction and statistical significance. The use of matrix analysis and Large Deviation Theory suggests a rigorous approach, and the abstract indicates a focus on practical concerns like avoiding false positives. The high significance and impact scores reflect the growing need for robust plagiarism detection in the LLM space.
+
+## Agents (3 new papers)
+- **A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges** (Score: 92.0)
+  - This survey paper addresses a highly relevant and rapidly evolving field – LLM-based search agents. The systematic analysis across architecture, optimization, application, and evaluation is a strong point, and the provided repository suggests a commitment to community contribution. While a survey isn't inherently 'innovative' in methodology, it's crucial for consolidating knowledge in a new area, and this appears to be the first of its kind. The potential for impact is high given the growing interest in autonomous information seeking.
+- **Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System** (Score: 92.0)
+  - This paper addresses a highly relevant and timely problem – the security of agentic fact-checking systems. The introduction of 'Fact2Fiction' as the first targeted poisoning attack framework for these systems demonstrates a strong methodological approach and clear experimental validation. The reported improvements in attack success rates over existing methods suggest a significant contribution to understanding and mitigating vulnerabilities in this emerging technology.
+- **ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls** (Score: 92.0)
+  - This research addresses a highly significant and timely problem – the potential for LLMs to be weaponized for malicious purposes like scamming. The work is innovative in demonstrating how agent-based approaches can bypass existing safety mechanisms, and the finding that current guardrails are ineffective is concerning. The clear demonstration of realistic scam call generation and the potential for voice synthesis further amplify the impact of this work, suggesting a need for more robust defenses.
+
+## Evaluation (1 new papers)
+- **A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges** (Score: 92.0)
+  - This paper addresses a highly relevant and rapidly evolving area – Retrieval-Augmented Generation. The systematic review approach, guided by PRISMA 2020, suggests a rigorous methodology. While the review itself isn't inherently innovative, its comprehensive cataloging of datasets, architectures, and evaluation practices will be valuable to the community, and the attempt to mitigate citation-lag bias is commendable. The high citation count threshold and timeframe (2020-2025) indicate a focus on current, impactful work.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+- **Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions** (Score: 92.0)
+  - This paper addresses a critical vulnerability in LLMs – their susceptibility to reasoning-based jailbreaks – despite alignment efforts. The POATE technique appears novel in its use of contrastive reasoning and adversarial templates, achieving a high attack success rate. The proposed countermeasure (mentioned but not detailed in the abstract) suggests a proactive approach to defense, making this work highly relevant and likely to be well-received by the community.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
-
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Multimodal (1 new papers)
+- **The Alternative Annotator Test for LLM-as-a-Judge: How to Statistically Justify Replacing Human Annotators with LLMs** (Score: 90.0)
+  - This paper tackles a crucial problem in the rapidly evolving LLM landscape: validating the use of LLMs as replacements for human annotators. The proposed 'Alternative Annotator Test' offers a statistically grounded approach, addressing a significant gap in current practice. The experimental validation across diverse datasets and LLMs strengthens the work, and the interpretable comparison measure is a valuable addition. The high significance stems from the broad applicability of LLM-as-judge/annotator across numerous fields.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Alignment** (1), **Theoretical** (1), **Agents** (3), **Evaluation** (1), **Reasoning** (1), **Multimodal** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

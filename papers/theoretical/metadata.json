@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Matrix-Driven Instant Review: Confident Detection and Reconstruction of LLM Plagiarism on PC",
+      "authors": [
+        "Ruichong Zhang"
+      ],
+      "abstract": "arXiv:2508.06309v1 Announce Type: new \nAbstract: In recent years, concerns about intellectual property (IP) in large language models (LLMs) have grown significantly. Plagiarizing other LLMs (through direct weight copying, upcycling, pruning, or continual pretraining) and claiming authorship without properly attributing to the original license, is a serious misconduct that can lead to significant financial and reputational harm to the original developers. However, existing methods for detecting LLM plagiarism fall short in key areas. They fail to accurately reconstruct weight correspondences, lack the ability to compute statistical significance measures such as $p$-values, and may mistakenly flag models trained on similar data as being related. To address these limitations, we propose Matrix-Driven Instant Review (MDIR), a novel method that leverages matrix analysis and Large Deviation Theory. MDIR achieves accurate reconstruction of weight relationships, provides rigorous $p$-value estimation, and focuses exclusively on weight similarity without requiring full model inference. Experimental results demonstrate that MDIR reliably detects plagiarism even after extensive transformations, such as random permutations and continual pretraining with trillions of tokens. Moreover, all detections can be performed on a single PC within an hour, making MDIR both efficient and accessible.",
+      "url": "https://arxiv.org/abs/2508.06309",
+      "published_date": "2025-08-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "mdir",
+        "weight",
+        "matrix",
+        "plagiarism",
+        "continual",
+        "continual pretraining",
+        "driven",
+        "driven instant",
+        "instant",
+        "instant review"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "The paper addresses a very important and timely problem \u2013 LLM plagiarism \u2013 which is becoming increasingly critical as these models proliferate. The proposed MDIR method appears to offer improvements over existing techniques by addressing limitations in weight reconstruction and statistical significance. The use of matrix analysis and Large Deviation Theory suggests a rigorous approach, and the abstract indicates a focus on practical concerns like avoiding false positives. The high significance and impact scores reflect the growing need for robust plagiarism detection in the LLM space.",
+      "paper_id": "80dccf00b7fa00ef2bf162b5fde4ae12"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-08-11T09:34:46.481891"
 }
