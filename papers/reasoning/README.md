@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### HealthBranches: Synthesizing Clinically-Grounded Question Answering Datasets via Decision Pathways
+
+**Score:** 90.0 | **Published:** 2025-08-12 | **Authors:** Cristian Cosentino, Annamaria Defilippo, Marco Dossena, Christopher Irwin, Sara Joubbi, Pietro Li\`o
+
+arXiv:2508.07308v1 Announce Type: new 
+Abstract: HealthBranches is a novel benchmark dataset for medical Question-Answering (Q&amp;A), specifically designed to evaluate complex reasoning in Large Lang...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07308) | [📝 Analysis](b7a0b8675ab8fe762e40f75bae835a28.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*

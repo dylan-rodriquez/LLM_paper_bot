@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "CarbonScaling: Extending Neural Scaling Laws for Carbon Footprint in Large Language Models",
+      "authors": [
+        "Lei Jiang, Fan Chen"
+      ],
+      "abstract": "arXiv:2508.06524v1 Announce Type: new \nAbstract: Neural scaling laws have driven the development of increasingly large language models (LLMs) by linking accuracy improvements to growth in parameter count, dataset size, and compute. However, these laws overlook the carbon emissions that scale exponentially with LLM size. This paper presents \\textit{CarbonScaling}, an analytical framework that extends neural scaling laws to incorporate both operational and embodied carbon in LLM training. By integrating models for neural scaling, GPU hardware evolution, parallelism optimization, and carbon estimation, \\textit{CarbonScaling} quantitatively connects model accuracy to carbon footprint. Results show that while a power-law relationship between accuracy and carbon holds, real-world inefficiencies significantly increase the scaling factor. Hardware technology scaling reduces carbon emissions for small to mid-sized models, but offers diminishing returns for extremely large LLMs due to communication overhead and underutilized GPUs. Training optimizations-especially aggressive critical batch size scaling-help alleviate this inefficiency. \\textit{CarbonScaling} offers key insights for training more sustainable and carbon-efficient LLMs.",
+      "url": "https://arxiv.org/abs/2508.06524",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "carbon",
+        "scaling",
+        "carbonscaling",
+        "laws",
+        "models",
+        "neural",
+        "neural scaling",
+        "accuracy",
+        "large",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critically important and timely issue \u2013 the carbon footprint of LLMs \u2013 by extending established scaling laws. The integration of multiple models (neural scaling, hardware evolution, parallelism, carbon estimation) demonstrates a rigorous approach. While the concept of linking accuracy to carbon isn't entirely novel, the analytical framework 'CarbonScaling' and the quantification of inefficiencies represent a valuable contribution. The diminishing returns observation regarding hardware scaling for very large models is particularly insightful.",
+      "paper_id": "c69204dc5491091a71f48c5406652f7b"
+    },
+    {
+      "title": "Assessing LLM Text Detection in Educational Contexts: Does Human Contribution Affect Detection?",
+      "authors": [
+        "Lukas Gehring, Benjamin Paa{\\ss}en"
+      ],
+      "abstract": "arXiv:2508.08096v1 Announce Type: new \nAbstract: Recent advancements in Large Language Models (LLMs) and their increased accessibility have made it easier than ever for students to automatically generate texts, posing new challenges for educational institutions. To enforce norms of academic integrity and ensure students' learning, learning analytics methods to automatically detect LLM-generated text appear increasingly appealing. This paper benchmarks the performance of different state-of-the-art detectors in educational contexts, introducing a novel dataset, called Generative Essay Detection in Education (GEDE), containing over 900 student-written essays and over 12,500 LLM-generated essays from various domains. To capture the diversity of LLM usage practices in generating text, we propose the concept of contribution levels, representing students' contribution to a given assignment. These levels range from purely human-written texts, to slightly LLM-improved versions, to fully LLM-generated texts, and finally to active attacks on the detector by \"humanizing\" generated texts. We show that most detectors struggle to accurately classify texts of intermediate student contribution levels, like LLM-improved human-written texts. Detectors are particularly likely to produce false positives, which is problematic in educational settings where false suspicions can severely impact students' lives. Our dataset, code, and additional supplementary materials are publicly available at https://github.com/lukasgehring/Assessing-LLM-Text-Detection-in-Educational-Contexts.",
+      "url": "https://arxiv.org/abs/2508.08096",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "llm",
+        "texts",
+        "educational",
+        "contribution",
+        "detection",
+        "generated",
+        "students",
+        "text",
+        "contexts",
+        "detectors"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 detecting LLM-generated text in education. The introduction of the GEDE dataset is a significant contribution, and the concept of 'contribution levels' offers a nuanced approach to understanding LLM usage. While benchmarking existing detectors isn't groundbreaking, the focus on educational contexts and the dataset's size suggest strong potential for impact and positive reception within the learning analytics community.",
+      "paper_id": "5ba711ded63d4e907d0f8ba2f29c8ff5"
+    },
+    {
+      "title": "SAEMark: Multi-bit LLM Watermarking with Inference-Time Scaling",
+      "authors": [
+        "Zhuohao Yu, Xingru Jiang, Weizheng Gu, Yidong Wang, Shikun Zhang, Wei Ye"
+      ],
+      "abstract": "arXiv:2508.08211v1 Announce Type: new \nAbstract: Watermarking LLM-generated text is critical for content attribution and misinformation prevention. However, existing methods compromise text quality, require white-box model access and logit manipulation. These limitations exclude API-based models and multilingual scenarios. We propose SAEMark, a general framework for post-hoc multi-bit watermarking that embeds personalized messages solely via inference-time, feature-based rejection sampling without altering model logits or requiring training. Our approach operates on deterministic features extracted from generated text, selecting outputs whose feature statistics align with key-derived targets. This framework naturally generalizes across languages and domains while preserving text quality through sampling LLM outputs instead of modifying. We provide theoretical guarantees relating watermark success probability and compute budget that hold for any suitable feature extractor. Empirically, we demonstrate the framework's effectiveness using Sparse Autoencoders (SAEs), achieving superior detection accuracy and text quality. Experiments across 4 datasets show SAEMark's consistent performance, with 99.7% F1 on English and strong multi-bit detection accuracy. SAEMark establishes a new paradigm for scalable watermarking that works out-of-the-box with closed-source LLMs while enabling content attribution.",
+      "url": "https://arxiv.org/abs/2508.08211",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "text",
+        "saemark",
+        "watermarking",
+        "bit",
+        "feature",
+        "framework",
+        "llm",
+        "multi",
+        "multi bit",
+        "quality"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 LLM watermarking \u2013 with a novel approach that overcomes limitations of existing methods. The post-hoc, inference-time scaling technique is particularly promising as it doesn't require model access or modification, making it applicable to API-based models and multilingual settings. The theoretical guarantees add to the rigor, and the focus on preserving text quality is crucial for practical adoption.",
+      "paper_id": "ac6e53aeca42b746e857f68d6ab7b4c0"
+    },
+    {
+      "title": "Gradient Surgery for Safe LLM Fine-Tuning",
+      "authors": [
+        "Biao Yi, Jiahao Li, Baolei Zhang, Lihai Nie, Tong Li, Tiansheng Huang, Zheli Liu"
+      ],
+      "abstract": "arXiv:2508.07172v1 Announce Type: new \nAbstract: Fine-tuning-as-a-Service introduces a critical vulnerability where a few malicious examples mixed into the user's fine-tuning dataset can compromise the safety alignment of Large Language Models (LLMs). While a recognized paradigm frames safe fine-tuning as a multi-objective optimization problem balancing user task performance with safety alignment, we find existing solutions are critically sensitive to the harmful ratio, with defenses degrading sharply as harmful ratio increases. We diagnose that this failure stems from conflicting gradients, where the user-task update directly undermines the safety objective. To resolve this, we propose SafeGrad, a novel method that employs gradient surgery. When a conflict is detected, SafeGrad nullifies the harmful component of the user-task gradient by projecting it onto the orthogonal plane of the alignment gradient, allowing the model to learn the user's task without sacrificing safety. To further enhance robustness and data efficiency, we employ a KL-divergence alignment loss that learns the rich, distributional safety profile of the well-aligned foundation model. Extensive experiments show that SafeGrad provides state-of-the-art defense across various LLMs and datasets, maintaining robust safety even at high harmful ratios without compromising task fidelity.",
+      "url": "https://arxiv.org/abs/2508.07172",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "task",
+        "user",
+        "alignment",
+        "fine",
+        "fine tuning",
+        "gradient",
+        "harmful",
+        "tuning",
+        "user task"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 the vulnerability of LLM fine-tuning to malicious data. The proposed 'SafeGrad' method, employing gradient surgery, appears to be a novel and potentially effective solution to mitigate the harmful ratio sensitivity issue. The framing of the problem as conflicting gradients is insightful, and the approach of projecting onto the orthogonal plane is a clever idea. The abstract suggests a rigorous approach, and the problem's relevance to the growing 'Fine-tuning-as-a-Service' paradigm is high.",
+      "paper_id": "e3eeefd95b745e535ec412a6c857eaf2"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-12T09:30:51.974874"
 }

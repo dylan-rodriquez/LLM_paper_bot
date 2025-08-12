@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### CarbonScaling: Extending Neural Scaling Laws for Carbon Footprint in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Lei Jiang, Fan Chen
+
+arXiv:2508.06524v1 Announce Type: new 
+Abstract: Neural scaling laws have driven the development of increasingly large language models (LLMs) by linking accuracy improvements to growth in parameter co...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06524) | [📝 Analysis](c69204dc5491091a71f48c5406652f7b.md)
+
+---
+
+### Assessing LLM Text Detection in Educational Contexts: Does Human Contribution Affect Detection?
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Lukas Gehring, Benjamin Paa{\ss}en
+
+arXiv:2508.08096v1 Announce Type: new 
+Abstract: Recent advancements in Large Language Models (LLMs) and their increased accessibility have made it easier than ever for students to automatically gener...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08096) | [📝 Analysis](5ba711ded63d4e907d0f8ba2f29c8ff5.md)
+
+---
+
+### SAEMark: Multi-bit LLM Watermarking with Inference-Time Scaling
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Zhuohao Yu, Xingru Jiang, Weizheng Gu, Yidong Wang, Shikun Zhang, Wei Ye
+
+arXiv:2508.08211v1 Announce Type: new 
+Abstract: Watermarking LLM-generated text is critical for content attribution and misinformation prevention. However, existing methods compromise text quality, r...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08211) | [📝 Analysis](ac6e53aeca42b746e857f68d6ab7b4c0.md)
+
+---
+
+### Gradient Surgery for Safe LLM Fine-Tuning
+
+**Score:** 90.0 | **Published:** 2025-08-12 | **Authors:** Biao Yi, Jiahao Li, Baolei Zhang, Lihai Nie, Tong Li, Tiansheng Huang, Zheli Liu
+
+arXiv:2508.07172v1 Announce Type: new 
+Abstract: Fine-tuning-as-a-Service introduces a critical vulnerability where a few malicious examples mixed into the user's fine-tuning dataset can compromise th...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07172) | [📝 Analysis](e3eeefd95b745e535ec412a6c857eaf2.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*

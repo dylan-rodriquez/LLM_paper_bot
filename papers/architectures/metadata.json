@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Large Language Models for Subjective Language Understanding: A Survey",
+      "authors": [
+        "Changhao Song, Yazhou Zhang, Hui Gao, Ben Yao, Peng Zhang"
+      ],
+      "abstract": "arXiv:2508.07959v1 Announce Type: new \nAbstract: Subjective language understanding refers to a broad set of natural language processing tasks where the goal is to interpret or generate content that conveys personal feelings, opinions, or figurative meanings rather than objective facts. With the advent of large language models (LLMs) such as ChatGPT, LLaMA, and others, there has been a paradigm shift in how we approach these inherently nuanced tasks. In this survey, we provide a comprehensive review of recent advances in applying LLMs to subjective language tasks, including sentiment analysis, emotion recognition, sarcasm detection, humor understanding, stance detection, metaphor interpretation, intent detection, and aesthetics assessment. We begin by clarifying the definition of subjective language from linguistic and cognitive perspectives, and we outline the unique challenges posed by subjective language (e.g. ambiguity, figurativeness, context dependence). We then survey the evolution of LLM architectures and techniques that particularly benefit subjectivity tasks, highlighting why LLMs are well-suited to model subtle human-like judgments. For each of the eight tasks, we summarize task definitions, key datasets, state-of-the-art LLM-based methods, and remaining challenges. We provide comparative insights, discussing commonalities and differences among tasks and how multi-task LLM approaches might yield unified models of subjectivity. Finally, we identify open issues such as data limitations, model bias, and ethical considerations, and suggest future research directions. We hope this survey will serve as a valuable resource for researchers and practitioners interested in the intersection of affective computing, figurative language processing, and large-scale language models.",
+      "url": "https://arxiv.org/abs/2508.07959",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "tasks",
+        "subjective",
+        "subjective language",
+        "models",
+        "survey",
+        "detection",
+        "language models",
+        "large",
+        "llm"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 the application of LLMs to subjective language understanding. The scope, covering sentiment analysis, sarcasm detection, and more, is comprehensive. While a survey isn't inherently innovative, a well-executed one provides significant value by consolidating knowledge and identifying research gaps, which this abstract suggests it does. The potential impact is high given the growing importance of subjective language processing in real-world applications.",
+      "paper_id": "57c18c5cde8580f7c2393cf3072864bb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-08-12T09:30:51.981069"
 }

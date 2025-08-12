@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### IBPS: Indian Bail Prediction System
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Puspesh Kumar Srivastava, Uddeshya Raj, Praveen Patel, /Shubham Kumar Nigam, Noel Shallum, Arnab Bhattacharya
+
+arXiv:2508.07592v1 Announce Type: new 
+Abstract: Bail decisions are among the most frequently adjudicated matters in Indian courts, yet they remain plagued by subjectivity, delays, and inconsistencies...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07592) | [📝 Analysis](c75519ee86f2d4111cc04479278a6bdd.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*

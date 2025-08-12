@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Leyi Pan, Zheyu Fu, Yunpeng Zhai, Shuchang Tao, Sheng Guan, Shiyu Huang, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Felix Henry, Lijie Wen, Aiwei Liu
+
+arXiv:2508.07173v1 Announce Type: new 
+Abstract: The rise of Omni-modal Large Language Models (OLLMs), which integrate visual and auditory processing with text, necessitates robust safety evaluations ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07173) | [📝 Analysis](5982b9231481bf3e519f8f7025adffc0.md)
+
+---
+
+### Can You Trick the Grader? Adversarial Persuasion of LLM Judges
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Yerin Hwang, Dongryeol Lee, Taegwan Kang, Yongil Kim, Kyomin Jung
+
+arXiv:2508.07805v1 Announce Type: new 
+Abstract: As large language models take on growing roles as automated evaluators in practical settings, a critical question arises: Can individuals persuade an L...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07805) | [📝 Analysis](092889359ba58a0a72fe16c4d8d3b135.md)
+
+---
+
+### Schema Lineage Extraction at Scale: Multilingual Pipelines, Composite Evaluation, and Language-Model Benchmarks
+
+**Score:** 90.0 | **Published:** 2025-08-12 | **Authors:** Jiaqi Yin, Yi-Wei Chen, Meng-Lung Lee, Xiya Liu
+
+arXiv:2508.07179v1 Announce Type: new 
+Abstract: Enterprise data pipelines, characterized by complex transformations across multiple programming languages, often cause a semantic disconnect between or...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07179) | [📝 Analysis](6b4495034b1a2f1476234d7df682aa1b.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*
