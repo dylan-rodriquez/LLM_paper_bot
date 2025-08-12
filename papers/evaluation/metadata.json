@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models",
+      "authors": [
+        "Leyi Pan, Zheyu Fu, Yunpeng Zhai, Shuchang Tao, Sheng Guan, Shiyu Huang, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Felix Henry, Lijie Wen, Aiwei Liu"
+      ],
+      "abstract": "arXiv:2508.07173v1 Announce Type: new \nAbstract: The rise of Omni-modal Large Language Models (OLLMs), which integrate visual and auditory processing with text, necessitates robust safety evaluations to mitigate harmful outputs. However, no dedicated benchmarks currently exist for OLLMs, and prior benchmarks designed for other LLMs lack the ability to assess safety performance under audio-visual joint inputs or cross-modal safety consistency. To fill this gap, we introduce Omni-SafetyBench, the first comprehensive parallel benchmark for OLLM safety evaluation, featuring 24 modality combinations and variations with 972 samples each, including dedicated audio-visual harm cases. Considering OLLMs' comprehension challenges with complex omni-modal inputs and the need for cross-modal consistency evaluation, we propose tailored metrics: a Safety-score based on conditional Attack Success Rate (C-ASR) and Refusal Rate (C-RR) to account for comprehension failures, and a Cross-Modal Safety Consistency Score (CMSC-score) to measure consistency across modalities. Evaluating 6 open-source and 4 closed-source OLLMs reveals critical vulnerabilities: (1) no model excels in both overall safety and consistency, with only 3 models achieving over 0.6 in both metrics and top performer scoring around 0.8; (2) safety defenses weaken with complex inputs, especially audio-visual joints; (3) severe weaknesses persist, with some models scoring as low as 0.14 on specific modalities. Our benchmark and metrics highlight urgent needs for enhanced OLLM safety, providing a foundation for future improvements.",
+      "url": "https://arxiv.org/abs/2508.07173",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "consistency",
+        "modal",
+        "visual",
+        "audio",
+        "audio visual",
+        "models",
+        "ollms",
+        "omni",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in the safety evaluation of rapidly evolving Omni-modal Large Language Models. The creation of a dedicated benchmark, Omni-SafetyBench, with comprehensive modality combinations and tailored metrics like C-ASR and C-RR, demonstrates a strong methodological approach. The focus on cross-modal consistency is particularly valuable, and the problem is highly relevant given the increasing capabilities and deployment of OLLMs. The work appears well-motivated and likely to be well-received by the community.",
+      "paper_id": "5982b9231481bf3e519f8f7025adffc0"
+    },
+    {
+      "title": "Can You Trick the Grader? Adversarial Persuasion of LLM Judges",
+      "authors": [
+        "Yerin Hwang, Dongryeol Lee, Taegwan Kang, Yongil Kim, Kyomin Jung"
+      ],
+      "abstract": "arXiv:2508.07805v1 Announce Type: new \nAbstract: As large language models take on growing roles as automated evaluators in practical settings, a critical question arises: Can individuals persuade an LLM judge to assign unfairly high scores? This study is the first to reveal that strategically embedded persuasive language can bias LLM judges when scoring mathematical reasoning tasks, where correctness should be independent of stylistic variation. Grounded in Aristotle's rhetorical principles, we formalize seven persuasion techniques (Majority, Consistency, Flattery, Reciprocity, Pity, Authority, Identity) and embed them into otherwise identical responses. Across six math benchmarks, we find that persuasive language leads LLM judges to assign inflated scores to incorrect solutions, by up to 8% on average, with Consistency causing the most severe distortion. Notably, increasing model size does not substantially mitigate this vulnerability. Further analysis demonstrates that combining multiple persuasion techniques amplifies the bias, and pairwise evaluation is likewise susceptible. Moreover, the persuasive effect persists under counter prompting strategies, highlighting a critical vulnerability in LLM-as-a-Judge pipelines and underscoring the need for robust defenses against persuasion-based attacks.",
+      "url": "https://arxiv.org/abs/2508.07805",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "persuasion",
+        "judges",
+        "language",
+        "llm judges",
+        "persuasive",
+        "assign",
+        "bias",
+        "consistency",
+        "critical"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the susceptibility of LLMs used as evaluators to persuasive manipulation. The grounding in rhetorical principles and formalization of persuasion techniques is a strong methodological approach. The finding that model size doesn't mitigate the vulnerability is particularly concerning and highlights a critical flaw in relying on LLMs for objective assessment. The work is well-scoped and the results are clearly presented, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "092889359ba58a0a72fe16c4d8d3b135"
+    },
+    {
+      "title": "Schema Lineage Extraction at Scale: Multilingual Pipelines, Composite Evaluation, and Language-Model Benchmarks",
+      "authors": [
+        "Jiaqi Yin, Yi-Wei Chen, Meng-Lung Lee, Xiya Liu"
+      ],
+      "abstract": "arXiv:2508.07179v1 Announce Type: new \nAbstract: Enterprise data pipelines, characterized by complex transformations across multiple programming languages, often cause a semantic disconnect between original metadata and downstream data. This \"semantic drift\" compromises data reproducibility and governance, and impairs the utility of services like retrieval-augmented generation (RAG) and text-to-SQL systems. To address this, a novel framework is proposed for the automated extraction of fine-grained schema lineage from multilingual enterprise pipeline scripts. This method identifies four key components: source schemas, source tables, transformation logic, and aggregation operations, creating a standardized representation of data transformations. For the rigorous evaluation of lineage quality, this paper introduces the Schema Lineage Composite Evaluation (SLiCE), a metric that assesses both structural correctness and semantic fidelity. A new benchmark is also presented, comprising 1,700 manually annotated lineages from real-world industrial scripts. Experiments were conducted with 12 language models, from 1.3B to 32B small language models (SLMs) to large language models (LLMs) like GPT-4o and GPT-4.1. The results demonstrate that the performance of schema lineage extraction scales with model size and the sophistication of prompting techniques. Specially, a 32B open-source model, using a single reasoning trace, can achieve performance comparable to the GPT series under standard prompting. This finding suggests a scalable and economical approach for deploying schema-aware agents in practical applications.",
+      "url": "https://arxiv.org/abs/2508.07179",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "lineage",
+        "schema",
+        "data",
+        "language",
+        "schema lineage",
+        "evaluation",
+        "extraction",
+        "gpt",
+        "language models",
+        "model"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a very important problem \u2013 semantic drift in data pipelines \u2013 which is increasingly relevant with the rise of complex data ecosystems and applications like RAG. The introduction of SLiCE as a composite evaluation metric is a strong methodological contribution, and the multilingual focus is valuable. While the core idea of schema lineage extraction isn't entirely novel, the scale and the focus on composite evaluation elevate the work.",
+      "paper_id": "6b4495034b1a2f1476234d7df682aa1b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-12T09:30:51.977447"
 }

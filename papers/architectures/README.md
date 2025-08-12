@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Large Language Models for Subjective Language Understanding: A Survey
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Changhao Song, Yazhou Zhang, Hui Gao, Ben Yao, Peng Zhang
+
+arXiv:2508.07959v1 Announce Type: new 
+Abstract: Subjective language understanding refers to a broad set of natural language processing tasks where the goal is to interpret or generate content that co...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07959) | [📝 Analysis](57c18c5cde8580f7c2393cf3072864bb.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*

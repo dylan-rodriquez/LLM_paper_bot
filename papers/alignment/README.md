@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### "Pull or Not to Pull?'': Investigating Moral Biases in Leading Large Language Models Across Ethical Dilemmas
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Junchen Ding, Penghao Jiang, Zihao Xu, Ziqi Ding, Yichen Zhu, Jiaojiao Jiang, Yuekang Li
+
+arXiv:2508.07284v1 Announce Type: new 
+Abstract: As large language models (LLMs) increasingly mediate ethically sensitive decisions, understanding their moral reasoning processes becomes imperative. T...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07284) | [📝 Analysis](342b4655e988a744ce401268adc96116.md)
+
+---
+
+### Jinx: Unlimited LLMs for Probing Alignment Failures
+
+**Score:** 92.0 | **Published:** 2025-08-12 | **Authors:** Jiahao Zhao, Liwei Dong
+
+arXiv:2508.08243v1 Announce Type: new 
+Abstract: Unlimited, or so-called helpful-only language models are trained without safety alignment constraints and never refuse user queries. They are widely us...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08243) | [📝 Analysis](e7993ef15dc6e2f49b176bfb2e750f79.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-12 09:30:51 UTC*

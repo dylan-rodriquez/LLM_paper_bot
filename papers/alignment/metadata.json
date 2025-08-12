@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "\"Pull or Not to Pull?'': Investigating Moral Biases in Leading Large Language Models Across Ethical Dilemmas",
+      "authors": [
+        "Junchen Ding, Penghao Jiang, Zihao Xu, Ziqi Ding, Yichen Zhu, Jiaojiao Jiang, Yuekang Li"
+      ],
+      "abstract": "arXiv:2508.07284v1 Announce Type: new \nAbstract: As large language models (LLMs) increasingly mediate ethically sensitive decisions, understanding their moral reasoning processes becomes imperative. This study presents a comprehensive empirical evaluation of 14 leading LLMs, both reasoning enabled and general purpose, across 27 diverse trolley problem scenarios, framed by ten moral philosophies, including utilitarianism, deontology, and altruism. Using a factorial prompting protocol, we elicited 3,780 binary decisions and natural language justifications, enabling analysis along axes of decisional assertiveness, explanation answer consistency, public moral alignment, and sensitivity to ethically irrelevant cues. Our findings reveal significant variability across ethical frames and model types: reasoning enhanced models demonstrate greater decisiveness and structured justifications, yet do not always align better with human consensus. Notably, \"sweet zones\" emerge in altruistic, fairness, and virtue ethics framings, where models achieve a balance of high intervention rates, low explanation conflict, and minimal divergence from aggregated human judgments. However, models diverge under frames emphasizing kinship, legality, or self interest, often producing ethically controversial outcomes. These patterns suggest that moral prompting is not only a behavioral modifier but also a diagnostic tool for uncovering latent alignment philosophies across providers. We advocate for moral reasoning to become a primary axis in LLM alignment, calling for standardized benchmarks that evaluate not just what LLMs decide, but how and why.",
+      "url": "https://arxiv.org/abs/2508.07284",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "moral",
+        "models",
+        "reasoning",
+        "alignment",
+        "ethically",
+        "language",
+        "llms",
+        "decisions",
+        "ethical",
+        "explanation"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the ethical reasoning of LLMs \u2013 with a robust methodology involving 14 models and 27 scenarios. The factorial prompting and analysis across multiple moral philosophies demonstrate a strong commitment to rigor. While the use of trolley problems isn't entirely novel, the scale and depth of the analysis, coupled with the focus on decisiveness and justification consistency, are commendable. The identification of 'sweet zones' suggests potentially valuable insights for alignment.",
+      "paper_id": "342b4655e988a744ce401268adc96116"
+    },
+    {
+      "title": "Jinx: Unlimited LLMs for Probing Alignment Failures",
+      "authors": [
+        "Jiahao Zhao, Liwei Dong"
+      ],
+      "abstract": "arXiv:2508.08243v1 Announce Type: new \nAbstract: Unlimited, or so-called helpful-only language models are trained without safety alignment constraints and never refuse user queries. They are widely used by leading AI companies as internal tools for red teaming and alignment evaluation. For example, if a safety-aligned model produces harmful outputs similar to an unlimited model, this indicates alignment failures that require further attention. Despite their essential role in assessing alignment, such models are not available to the research community.\n  We introduce Jinx, a helpful-only variant of popular open-weight LLMs. Jinx responds to all queries without refusals or safety filtering, while preserving the base model's capabilities in reasoning and instruction following. It provides researchers with an accessible tool for probing alignment failures, evaluating safety boundaries, and systematically studying failure modes in language model safety.",
+      "url": "https://arxiv.org/abs/2508.08243",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "safety",
+        "model",
+        "alignment failures",
+        "failures",
+        "jinx",
+        "unlimited",
+        "helpful",
+        "language",
+        "llms"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical gap in LLM safety research \u2013 the lack of publicly available 'unlimited' models for probing alignment failures. Providing an open-weight alternative like Jinx is a significant contribution, enabling broader research into safety boundaries and failure modes. The approach of adapting existing open-weight models appears sound, and the potential for impact on the alignment research community is high.",
+      "paper_id": "e7993ef15dc6e2f49b176bfb2e750f79"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-12T09:30:51.978604"
 }

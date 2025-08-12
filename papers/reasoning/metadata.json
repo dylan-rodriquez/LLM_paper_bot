@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "HealthBranches: Synthesizing Clinically-Grounded Question Answering Datasets via Decision Pathways",
+      "authors": [
+        "Cristian Cosentino, Annamaria Defilippo, Marco Dossena, Christopher Irwin, Sara Joubbi, Pietro Li\\`o"
+      ],
+      "abstract": "arXiv:2508.07308v1 Announce Type: new \nAbstract: HealthBranches is a novel benchmark dataset for medical Question-Answering (Q&amp;A), specifically designed to evaluate complex reasoning in Large Language Models (LLMs). This dataset is generated through a semi-automated pipeline that transforms explicit decision pathways from medical source into realistic patient cases with associated questions and answers. Covering 4,063 case studies across 17 healthcare topics, each data point is based on clinically validated reasoning chains. HealthBranches supports both open-ended and multiple-choice question formats and uniquely includes the full reasoning path for each Q&amp;A. Its structured design enables robust evaluation of LLMs' multi-step inference capabilities, including their performance in structured Retrieval-Augmented Generation (RAG) contexts. HealthBranches establishes a foundation for the development of more trustworthy, interpretable, and clinically reliable LLMs in high-stakes domains while also serving as a valuable resource for educational purposes.",
+      "url": "https://arxiv.org/abs/2508.07308",
+      "published_date": "2025-08-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "healthbranches",
+        "clinically",
+        "llms",
+        "question",
+        "reasoning",
+        "amp",
+        "answering",
+        "dataset",
+        "decision",
+        "decision pathways"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial need for robust medical Q&A datasets that test complex reasoning. The semi-automated pipeline leveraging clinical decision pathways is a strong methodological approach, and the inclusion of reasoning paths is a significant benefit for interpretability and evaluation. The scale of the dataset (4,063 cases) and coverage of 17 topics further enhance its value, suggesting a high likelihood of positive reception within the medical NLP community.",
+      "paper_id": "b7a0b8675ab8fe762e40f75bae835a28"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-12T09:30:51.979343"
 }
