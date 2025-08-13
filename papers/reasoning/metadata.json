@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "TiMoE: Time-Aware Mixture of Language Experts",
+      "authors": [
+        "Robin Faro, Dongyang Fan, Tamar Alphaidze, Martin Jaggi"
+      ],
+      "abstract": "arXiv:2508.08827v1 Announce Type: new \nAbstract: Large language models (LLMs) are typically trained on fixed snapshots of the web, which means that their knowledge becomes stale and their predictions risk temporal leakage: relying on information that lies in the future relative to a query. We tackle this problem by pre-training from scratch a set of GPT-style experts on disjoint two-year slices of a 2013-2024 corpus and combining them through TiMoE, a Time-aware Mixture of Language Experts. At inference time, TiMoE masks all experts whose training window ends after the query timestamp and merges the remaining log-probabilities in a shared space, guaranteeing strict causal validity while retaining the breadth of multi-period knowledge. We also release TSQA, a 10k-question benchmark whose alternatives are explicitly labelled as past, future or irrelevant, allowing fine-grained measurement of temporal hallucinations. Experiments on eight standard NLP tasks plus TSQA show that a co-adapted TiMoE variant matches or exceeds the best single-period expert and cuts future-knowledge errors by up to 15%. Our results demonstrate that modular, time-segmented pre-training paired with causal routing is a simple yet effective path toward LLMs that stay chronologically grounded without sacrificing general performance much. We open source our code at TiMoE (Github): https://github.com/epfml/TiMoE",
+      "url": "https://arxiv.org/abs/2508.08827",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "timoe",
+        "experts",
+        "time",
+        "future",
+        "knowledge",
+        "language",
+        "training",
+        "aware",
+        "aware mixture",
+        "causal"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in LLMs \u2013 temporal knowledge and leakage \u2013 with a novel approach using a time-aware mixture of experts. The methodology appears sound, pre-training experts on disjoint time slices and masking based on query timestamps is a clever solution. The release of the TSQA benchmark is a significant contribution to evaluating temporal reasoning in LLMs, and the initial results suggest a strong performance improvement.",
+      "paper_id": "e414f7c0294b67d556a4d733fc0d7a27"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-13T09:31:13.604811"
 }

@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "BiasGym: Fantastic Biases and How to Find (and Remove) Them",
+      "authors": [
+        "Sekh Mainul Islam, Nadav Borenstein, Siddhesh Milind Pawar, Haeun Yu, Arnav Arora, Isabelle Augenstein"
+      ],
+      "abstract": "arXiv:2508.08855v1 Announce Type: new \nAbstract: Understanding biases and stereotypes encoded in the weights of Large Language Models (LLMs) is crucial for developing effective mitigation strategies. Biased behaviour is often subtle and non-trivial to isolate, even when deliberately elicited, making systematic analysis and debiasing particularly challenging. To address this, we introduce BiasGym, a simple, cost-effective, and generalizable framework for reliably injecting, analyzing, and mitigating conceptual associations within LLMs. BiasGym consists of two components: BiasInject, which injects specific biases into the model via token-based fine-tuning while keeping the model frozen, and BiasScope, which leverages these injected signals to identify and steer the components responsible for biased behavior. Our method enables consistent bias elicitation for mechanistic analysis, supports targeted debiasing without degrading performance on downstream tasks, and generalizes to biases unseen during training. We demonstrate the effectiveness of BiasGym in reducing real-world stereotypes (e.g., people from a country being `reckless drivers') and in probing fictional associations (e.g., people from a country having `blue skin'), showing its utility for both safety interventions and interpretability research.",
+      "url": "https://arxiv.org/abs/2508.08855",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "biases",
+        "biasgym",
+        "analysis",
+        "associations",
+        "biased",
+        "components",
+        "country",
+        "debiasing",
+        "effective",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 bias in LLMs \u2013 with a novel framework (BiasGym) for both injecting and analyzing biases. The approach of targeted fine-tuning while freezing the model is clever and potentially very effective. The claim of generalization to unseen biases is particularly promising, suggesting a robust methodology. The abstract is well-written and clearly articulates the problem, solution, and benefits.",
+      "paper_id": "b15e754c8c2dd3d6c21650b03e9d94ac"
+    },
+    {
+      "title": "Entangled in Representations: Mechanistic Investigation of Cultural Biases in Large Language Models",
+      "authors": [
+        "Haeun Yu, Seogyeong Jeong, Siddhesh Pawar, Jisu Shin, Jiho Jin, Junho Myung, Alice Oh, Isabelle Augenstein"
+      ],
+      "abstract": "arXiv:2508.08879v1 Announce Type: new \nAbstract: The growing deployment of large language models (LLMs) across diverse cultural contexts necessitates a better understanding of how the overgeneralization of less documented cultures within LLMs' representations impacts their cultural understanding. Prior work only performs extrinsic evaluation of LLMs' cultural competence, without accounting for how LLMs' internal mechanisms lead to cultural (mis)representation. To bridge this gap, we propose Culturescope, the first mechanistic interpretability-based method that probes the internal representations of LLMs to elicit the underlying cultural knowledge space. CultureScope utilizes a patching method to extract the cultural knowledge. We introduce a cultural flattening score as a measure of the intrinsic cultural biases. Additionally, we study how LLMs internalize Western-dominance bias and cultural flattening, which allows us to trace how cultural biases emerge within LLMs. Our experimental results reveal that LLMs encode Western-dominance bias and cultural flattening in their cultural knowledge space. We find that low-resource cultures are less susceptible to cultural biases, likely due to their limited training resources. Our work provides a foundation for future research on mitigating cultural biases and enhancing LLMs' cultural understanding. Our codes and data used for experiments are publicly available.",
+      "url": "https://arxiv.org/abs/2508.08879",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "cultural",
+        "llms",
+        "biases",
+        "cultural biases",
+        "cultural flattening",
+        "cultural knowledge",
+        "flattening",
+        "knowledge",
+        "representations",
+        "understanding"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in LLM deployment \u2013 cultural bias \u2013 by moving beyond extrinsic evaluation to mechanistic interpretability. The proposed 'Culturescope' method and 'cultural flattening score' appear novel and offer a promising approach to understanding *how* biases are encoded within LLMs. The focus on Western-dominance bias is particularly relevant, and the potential for tracing bias emergence is valuable. While the abstract is brief, the described approach seems rigorous and well-motivated.",
+      "paper_id": "d91ef9e652d12952cb0d4fef264f7a63"
+    },
+    {
+      "title": "A Survey on Training-free Alignment of Large Language Models",
+      "authors": [
+        "Birong Pan, Yongqi Li, Weiyu Zhang, Wenpeng Lu, Mayi Xu, Shen Zhou, Yuanyuan Zhu, Ming Zhong, Tieyun Qian"
+      ],
+      "abstract": "arXiv:2508.09016v1 Announce Type: new \nAbstract: The alignment of large language models (LLMs) aims to ensure their outputs adhere to human values, ethical standards, and legal norms. Traditional alignment methods often rely on resource-intensive fine-tuning (FT), which may suffer from knowledge degradation and face challenges in scenarios where the model accessibility or computational resources are constrained. In contrast, training-free (TF) alignment techniques--leveraging in-context learning, decoding-time adjustments, and post-generation corrections--offer a promising alternative by enabling alignment without heavily retraining LLMs, making them adaptable to both open-source and closed-source environments. This paper presents the first systematic review of TF alignment methods, categorizing them by stages of pre-decoding, in-decoding, and post-decoding. For each stage, we provide a detailed examination from the viewpoint of LLMs and multimodal LLMs (MLLMs), highlighting their mechanisms and limitations. Furthermore, we identify key challenges and future directions, paving the way for more inclusive and effective TF alignment techniques. By synthesizing and organizing the rapidly growing body of research, this survey offers a guidance for practitioners and advances the development of safer and more reliable LLMs.",
+      "url": "https://arxiv.org/abs/2508.09016",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "alignment",
+        "llms",
+        "decoding",
+        "tf",
+        "tf alignment",
+        "alignment large",
+        "alignment methods",
+        "alignment techniques",
+        "challenges",
+        "free"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem in LLM research \u2013 alignment without full retraining. The systematic review approach, categorizing techniques by stage, is well-structured and promises a valuable resource for the community. While the core idea of surveying existing work isn't groundbreaking, the focus on *training-free* methods and the inclusion of both LLMs and MLLMs adds value, and the potential for practical application is high given the cost of fine-tuning.",
+      "paper_id": "295a4fb727ebd4158cf86fc4e0cf894e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-13T09:31:13.606268"
 }

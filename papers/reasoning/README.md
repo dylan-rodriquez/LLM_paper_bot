@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### TiMoE: Time-Aware Mixture of Language Experts
+
+**Score:** 90.0 | **Published:** 2025-08-13 | **Authors:** Robin Faro, Dongyang Fan, Tamar Alphaidze, Martin Jaggi
+
+arXiv:2508.08827v1 Announce Type: new 
+Abstract: Large language models (LLMs) are typically trained on fixed snapshots of the web, which means that their knowledge becomes stale and their predictions ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08827) | [📝 Analysis](e414f7c0294b67d556a4d733fc0d7a27.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-13 09:31:13 UTC*
