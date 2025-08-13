@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs",
+      "authors": [
+        "Denis Janiak, Jakub Binkowski, Albert Sawczyn, Bogdan Gabrys, Ravid Schwartz-Ziv, Tomasz Kajdanowicz"
+      ],
+      "abstract": "arXiv:2508.08285v1 Announce Type: new \nAbstract: Large language models (LLMs) have revolutionized natural language processing, yet their tendency to hallucinate poses serious challenges for reliable deployment. Despite numerous hallucination detection methods, their evaluations often rely on ROUGE, a metric based on lexical overlap that misaligns with human judgments. Through comprehensive human studies, we demonstrate that while ROUGE exhibits high recall, its extremely low precision leads to misleading performance estimates. In fact, several established detection methods show performance drops of up to 45.9\\% when assessed using human-aligned metrics like LLM-as-Judge. Moreover, our analysis reveals that simple heuristics based on response length can rival complex detection techniques, exposing a fundamental flaw in current evaluation practices. We argue that adopting semantically aware and robust evaluation frameworks is essential to accurately gauge the true performance of hallucination detection methods, ultimately ensuring the trustworthiness of LLM outputs.",
+      "url": "https://arxiv.org/abs/2508.08285",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "detection",
+        "detection methods",
+        "hallucination",
+        "hallucination detection",
+        "human",
+        "methods",
+        "performance",
+        "based",
+        "evaluation",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in LLM research \u2013 the misleading nature of current hallucination detection evaluation metrics. The finding that ROUGE's high recall masks extremely low precision, and that simple heuristics can perform comparably to complex methods, is significant. The use of human-aligned metrics like LLM-as-Judge adds rigor, and the potential to shift evaluation practices makes this work highly impactful.",
+      "paper_id": "bc7333b9614711c5876c8dc8998b915e"
+    },
+    {
+      "title": "A Novel Evaluation Benchmark for Medical LLMs: Illuminating Safety and Effectiveness in Clinical Domains",
+      "authors": [
+        "Shirui Wang, Zhihui Tang, Huaxia Yang, Qiuhong Gong, Tiantian Gu, Hongyang Ma, Yongxin Wang, Wubin Sun, Zeliang Lian, Kehang Mao, Yinan Jiang, Zhicheng Huang, Lingyun Ma, Wenjie Shen, Yajie Ji, Yunhui Tan, Chunbo Wang, Yunlu Gao, Qianling Ye, Rui Lin, Mingyu Chen, Lijuan Niu, Zhihao Wang, Peng Yu, Mengran Lang, Yue Liu, Huimin Zhang, Haitao Shen, Long Chen, Qiguang Zhao, Si-Xuan Liu, Lina Zhou, Hua Gao, Dongqiang Ye, Lingmin Meng, Youtao Yu, Naixin Liang, Jianxiong Wu"
+      ],
+      "abstract": "arXiv:2507.23486v2 Announce Type: replace \nAbstract: Large language models (LLMs) hold promise in clinical decision support but face major challenges in safety evaluation and effectiveness validation. We developed the Clinical Safety-Effectiveness Dual-Track Benchmark (CSEDB), a multidimensional framework built on clinical expert consensus, encompassing 30 criteria covering critical areas like critical illness recognition, guideline adherence, and medication safety, with weighted consequence measures. Thirty-two specialist physicians developed and reviewed 2,069 open-ended Q\\&amp;A items aligned with these criteria, spanning 26 clinical departments to simulate real-world scenarios. Benchmark testing of six LLMs revealed moderate overall performance (average total score 57.2\\%, safety 54.7\\%, effectiveness 62.3\\%), with a significant 13.3\\% performance drop in high-risk scenarios (p $<$ 0.0001). Domain-specific medical LLMs showed consistent performance advantages over general-purpose models, with relatively higher top scores in safety (0.912) and effectiveness (0.861). The findings of this study not only provide a standardized metric for evaluating the clinical application of medical LLMs, facilitating comparative analyses, risk exposure identification, and improvement directions across different scenarios, but also hold the potential to promote safer and more effective deployment of large language models in healthcare environments.",
+      "url": "https://arxiv.org/abs/2507.23486",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "clinical",
+        "safety",
+        "effectiveness",
+        "llms",
+        "benchmark",
+        "medical",
+        "medical llms",
+        "models",
+        "performance",
+        "scenarios"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the rapidly evolving field of medical LLMs \u2013 robust and reliable safety and effectiveness evaluation. The development of the CSEDB benchmark, built on clinical expert consensus and a substantial dataset, is a significant contribution. The observed performance drop in high-risk scenarios highlights a critical area for improvement and suggests the benchmark will be valuable for future research and development. The clear presentation of results and the inclusion of statistical significance further strengthen the work.",
+      "paper_id": "393a856bf721363e14cad3f39693538f"
+    },
+    {
+      "title": "OdysseyBench: Evaluating LLM Agents on Long-Horizon Complex Office Application Workflows",
+      "authors": [
+        "Weixuan Wang, Dongge Han, Daniel Madrigal Diaz, Jin Xu, Victor R\\\"uhle, Saravan Rajmohan"
+      ],
+      "abstract": "arXiv:2508.09124v1 Announce Type: new \nAbstract: Autonomous agents powered by large language models (LLMs) are increasingly deployed in real-world applications requiring complex, long-horizon workflows. However, existing benchmarks predominantly focus on atomic tasks that are self-contained and independent, failing to capture the long-term contextual dependencies and multi-interaction coordination required in realistic scenarios. To address this gap, we introduce OdysseyBench, a comprehensive benchmark for evaluating LLM agents on long-horizon workflows across diverse office applications including Word, Excel, PDF, Email, and Calendar. Our benchmark comprises two complementary splits: OdysseyBench+ with 300 tasks derived from real-world use cases, and OdysseyBench-Neo with 302 newly synthesized complex tasks. Each task requires agent to identify essential information from long-horizon interaction histories and perform multi-step reasoning across various applications. To enable scalable benchmark creation, we propose HomerAgents, a multi-agent framework that automates the generation of long-horizon workflow benchmarks through systematic environment exploration, task generation, and dialogue synthesis. Our extensive evaluation demonstrates that OdysseyBench effectively challenges state-of-the-art LLM agents, providing more accurate assessment of their capabilities in complex, real-world contexts compared to existing atomic task benchmarks. We believe that OdysseyBench will serve as a valuable resource for advancing the development and evaluation of LLM agents in real-world productivity scenarios. In addition, we release OdysseyBench and HomerAgents to foster research along this line.",
+      "url": "https://arxiv.org/abs/2508.09124",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "odysseybench",
+        "long",
+        "agents",
+        "horizon",
+        "long horizon",
+        "complex",
+        "llm",
+        "llm agents",
+        "real",
+        "real world"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM agent evaluation \u2013 the lack of benchmarks for complex, long-horizon workflows. The creation of OdysseyBench, with its two splits and focus on real-world office applications, is a significant contribution. While the core idea of a more realistic benchmark isn't entirely novel, the scope and application-specific focus appear well-executed and timely, suggesting a positive reception from the community.",
+      "paper_id": "4cb0197e72ba44b55caeb97fb2402aa2"
+    },
+    {
+      "title": "ChatBench: From Static Benchmarks to Human-AI Evaluation",
+      "authors": [
+        "Serina Chang, Ashton Anderson, Jake M. Hofman"
+      ],
+      "abstract": "arXiv:2504.07114v2 Announce Type: replace \nAbstract: With the rapid adoption of LLM-based chatbots, there is a pressing need to evaluate what humans and LLMs can achieve together. However, standard benchmarks, such as MMLU, measure LLM capabilities in isolation (i.e., \"AI-alone\"). Here, we design and conduct a user study to convert MMLU questions into user-AI conversations, by seeding the user with the question and having them carry out a conversation with the LLM to answer their question. We release ChatBench, a new dataset with AI-alone, user-alone, and user-AI data for 396 questions and two LLMs, including 144K answers and 7,336 user-AI conversations. We find that AI-alone accuracy fails to predict user-AI accuracy, with significant differences across multiple subjects (math, physics, and moral reasoning), and we analyze the user-AI conversations to provide insight into how they diverge from AI-alone benchmarks. Finally, we show that fine-tuning a user simulator on a subset of ChatBench improves its ability to estimate user-AI accuracies, increasing correlation on held-out questions by more than 20 points, creating possibilities for scaling interactive evaluation.",
+      "url": "https://arxiv.org/abs/2504.07114",
+      "published_date": "2025-08-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "ai",
+        "user",
+        "user ai",
+        "ai conversations",
+        "benchmarks",
+        "chatbench",
+        "conversations",
+        "llm",
+        "questions",
+        "accuracy"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 moving beyond 'AI-alone' performance to understand how humans and AI collaborate. The creation of ChatBench, a dataset with user-AI conversations, is a significant contribution. The finding that AI-alone accuracy doesn't correlate with user-AI accuracy highlights the limitations of current benchmarks and suggests a need for more realistic evaluation methods. The high sentiment score reflects the current research trend towards human-AI interaction and the need for better evaluation metrics.",
+      "paper_id": "7c3b1a8370a442014f565375c2237455"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-13T09:31:13.603513"
 }

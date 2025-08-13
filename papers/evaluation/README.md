@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-13 | **Authors:** Denis Janiak, Jakub Binkowski, Albert Sawczyn, Bogdan Gabrys, Ravid Schwartz-Ziv, Tomasz Kajdanowicz
+
+arXiv:2508.08285v1 Announce Type: new 
+Abstract: Large language models (LLMs) have revolutionized natural language processing, yet their tendency to hallucinate poses serious challenges for reliable d...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08285) | [📝 Analysis](bc7333b9614711c5876c8dc8998b915e.md)
+
+---
+
+### A Novel Evaluation Benchmark for Medical LLMs: Illuminating Safety and Effectiveness in Clinical Domains
+
+**Score:** 92.0 | **Published:** 2025-08-13 | **Authors:** Shirui Wang, Zhihui Tang, Huaxia Yang, Qiuhong Gong, Tiantian Gu, Hongyang Ma, Yongxin Wang, Wubin Sun, Zeliang Lian, Kehang Mao, Yinan Jiang, Zhicheng Huang, Lingyun Ma, Wenjie Shen, Yajie Ji, Yunhui Tan, Chunbo Wang, Yunlu Gao, Qianling Ye, Rui Lin, Mingyu Chen, Lijuan Niu, Zhihao Wang, Peng Yu, Mengran Lang, Yue Liu, Huimin Zhang, Haitao Shen, Long Chen, Qiguang Zhao, Si-Xuan Liu, Lina Zhou, Hua Gao, Dongqiang Ye, Lingmin Meng, Youtao Yu, Naixin Liang, Jianxiong Wu
+
+arXiv:2507.23486v2 Announce Type: replace 
+Abstract: Large language models (LLMs) hold promise in clinical decision support but face major challenges in safety evaluation and effectiveness validation....
+
+[📄 Full Paper](https://arxiv.org/abs/2507.23486) | [📝 Analysis](393a856bf721363e14cad3f39693538f.md)
+
+---
+
+### OdysseyBench: Evaluating LLM Agents on Long-Horizon Complex Office Application Workflows
+
+**Score:** 90.0 | **Published:** 2025-08-13 | **Authors:** Weixuan Wang, Dongge Han, Daniel Madrigal Diaz, Jin Xu, Victor R\"uhle, Saravan Rajmohan
+
+arXiv:2508.09124v1 Announce Type: new 
+Abstract: Autonomous agents powered by large language models (LLMs) are increasingly deployed in real-world applications requiring complex, long-horizon workflow...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09124) | [📝 Analysis](4cb0197e72ba44b55caeb97fb2402aa2.md)
+
+---
+
+### ChatBench: From Static Benchmarks to Human-AI Evaluation
+
+**Score:** 90.0 | **Published:** 2025-08-13 | **Authors:** Serina Chang, Ashton Anderson, Jake M. Hofman
+
+arXiv:2504.07114v2 Announce Type: replace 
+Abstract: With the rapid adoption of LLM-based chatbots, there is a pressing need to evaluate what humans and LLMs can achieve together. However, standard be...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.07114) | [📝 Analysis](7c3b1a8370a442014f565375c2237455.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-13 09:31:13 UTC*

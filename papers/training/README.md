@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### BiasGym: Fantastic Biases and How to Find (and Remove) Them
+
+**Score:** 92.0 | **Published:** 2025-08-13 | **Authors:** Sekh Mainul Islam, Nadav Borenstein, Siddhesh Milind Pawar, Haeun Yu, Arnav Arora, Isabelle Augenstein
+
+arXiv:2508.08855v1 Announce Type: new 
+Abstract: Understanding biases and stereotypes encoded in the weights of Large Language Models (LLMs) is crucial for developing effective mitigation strategies. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08855) | [📝 Analysis](b15e754c8c2dd3d6c21650b03e9d94ac.md)
+
+---
+
+### Entangled in Representations: Mechanistic Investigation of Cultural Biases in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-13 | **Authors:** Haeun Yu, Seogyeong Jeong, Siddhesh Pawar, Jisu Shin, Jiho Jin, Junho Myung, Alice Oh, Isabelle Augenstein
+
+arXiv:2508.08879v1 Announce Type: new 
+Abstract: The growing deployment of large language models (LLMs) across diverse cultural contexts necessitates a better understanding of how the overgeneralizati...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08879) | [📝 Analysis](d91ef9e652d12952cb0d4fef264f7a63.md)
+
+---
+
+### A Survey on Training-free Alignment of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-13 | **Authors:** Birong Pan, Yongqi Li, Weiyu Zhang, Wenpeng Lu, Mayi Xu, Shen Zhou, Yuanyuan Zhu, Ming Zhong, Tieyun Qian
+
+arXiv:2508.09016v1 Announce Type: new 
+Abstract: The alignment of large language models (LLMs) aims to ensure their outputs adhere to human values, ethical standards, and legal norms. Traditional alig...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09016) | [📝 Analysis](295a4fb727ebd4158cf86fc4e0cf894e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-13 09:31:13 UTC*
