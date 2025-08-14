@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "A Comprehensive Evaluation framework of Alignment Techniques for LLMs",
+      "authors": [
+        "Muneeza Azmat, Momin Abbas, Maysa Malfiza Garcia de Macedo, Marcelo Carpinette Grave, Luan Soares de Souza, Tiago Machado, Rogerio A de Paula, Raya Horesh, Yixin Chen, Heloisa Caroline de Souza Pereira Candello, Rebecka Nordenlow, Aminat Adebiyi"
+      ],
+      "abstract": "arXiv:2508.09937v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) become increasingly integrated into real-world applications, ensuring their outputs align with human values and safety standards has become critical. The field has developed diverse alignment approaches including traditional fine-tuning methods (RLHF, instruction tuning), post-hoc correction systems, and inference-time interventions, each with distinct advantages and limitations. However, the lack of unified evaluation frameworks makes it difficult to systematically compare these paradigms and guide deployment decisions. This paper introduces a multi-dimensional evaluation of alignment techniques for LLMs, a comprehensive evaluation framework that provides a systematic comparison across all major alignment paradigms. Our framework assesses methods along four key dimensions: alignment detection, alignment quality, computational efficiency, and robustness. Through experiments across diverse base models and alignment strategies, we demonstrate the utility of our framework in identifying strengths and limitations of current state-of-the-art models, providing valuable insights for future research directions.",
+      "url": "https://arxiv.org/abs/2508.09937",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "evaluation",
+        "framework",
+        "llms",
+        "models",
+        "alignment techniques",
+        "comprehensive",
+        "comprehensive evaluation",
+        "diverse",
+        "evaluation framework"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the lack of standardized alignment evaluation. The proposed multi-dimensional framework (alignment detection, quality, efficiency, robustness) is well-defined and timely. While the core idea of a comprehensive framework isn't entirely novel, the systematic approach and focus on comparing *all* major paradigms is a strong contribution, and the potential for guiding deployment decisions is significant. The abstract suggests a rigorous experimental setup.",
+      "paper_id": "2186f02030262798c1b41d2c47bb620c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-08-14T09:31:07.997311"
 }

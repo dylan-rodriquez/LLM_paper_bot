@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Comprehensive Evaluation framework of Alignment Techniques for LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Muneeza Azmat, Momin Abbas, Maysa Malfiza Garcia de Macedo, Marcelo Carpinette Grave, Luan Soares de Souza, Tiago Machado, Rogerio A de Paula, Raya Horesh, Yixin Chen, Heloisa Caroline de Souza Pereira Candello, Rebecka Nordenlow, Aminat Adebiyi
+
+arXiv:2508.09937v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) become increasingly integrated into real-world applications, ensuring their outputs align with human values and safety ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09937) | [📝 Analysis](2186f02030262798c1b41d2c47bb620c.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*

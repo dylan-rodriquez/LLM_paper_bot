@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Efficient Inference for Large Reasoning Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Yue Liu, Jiaying Wu, Yufei He, Ruihan Gong, Jun Xia, Liang Li, Hongcheng Gao, Hongyu Chen, Baolong Bi, Jiaheng Zhang, Zhiqi Huang, Bryan Hooi, Stan Z. Li, Keqin Li
+
+arXiv:2503.23077v3 Announce Type: replace 
+Abstract: Large Reasoning Models (LRMs) significantly improve the reasoning ability of Large Language Models (LLMs) by learning to reason, exhibiting promisi...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.23077) | [📝 Analysis](b0d3bdc18bff270c355cdba47d5591c4.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*

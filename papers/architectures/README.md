@@ -2,7 +2,40 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (25 total)
+
+### Speed Always Wins: A Survey on Efficient Architectures for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Weigao Sun, Jiaxi Hu, Yucheng Zhou, Jusen Du, Disen Lan, Kexin Wang, Tong Zhu, Xiaoye Qu, Yu Zhang, Xiaoyu Mo, Daizong Liu, Yuxuan Liang, Wenliang Chen, Guoqi Li, Yu Cheng
+
+arXiv:2508.09834v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have delivered impressive results in language understanding, generation, reasoning, and pushes the ability boundary of mul...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09834) | [📝 Analysis](92cd0c0ed94dda8a47401add1edda110.md)
+
+---
+
+### Can AI Keep a Secret? Contextual Integrity Verification: A Provable Security Architecture for LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Aayush Gupta
+
+arXiv:2508.09288v1 Announce Type: cross 
+Abstract: Large language models (LLMs) remain acutely vulnerable to prompt injection and related jailbreak attacks; heuristic guardrails (rules, filters, LLM j...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09288) | [📝 Analysis](03b9fdf4d95557cc70c1e96ad429259d.md)
+
+---
+
+### Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache in LLM Inference
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Zhifan Luo, Shuo Shao, Su Zhang, Lijing Zhou, Yuke Hu, Chenxu Zhao, Zhihao Liu, Zhan Qin
+
+arXiv:2508.09442v1 Announce Type: cross 
+Abstract: The Key-Value (KV) cache, which stores intermediate attention computations (Key and Value pairs) to avoid redundant calculations, is a fundamental me...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09442) | [📝 Analysis](912dbbc0ebc241c8ef06b0c0ed22e33a.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +280,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*
