@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Guardians and Offenders: A Survey on Harmful Content Generation and Safety Mitigation of LLM",
+      "authors": [
+        "Chi Zhang, Changjia Zhu, Junjie Xiong, Xiaoran Xu, Lingyao Li, Yao Liu, Zhuo Lu"
+      ],
+      "abstract": "arXiv:2508.05775v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have revolutionized content creation across digital platforms, offering unprecedented capabilities in natural language generation and understanding. These models enable beneficial applications such as content generation, question and answering (Q&amp;A), programming, and code reasoning. Meanwhile, they also pose serious risks by inadvertently or intentionally producing toxic, offensive, or biased content. This dual role of LLMs, both as powerful tools for solving real-world problems and as potential sources of harmful language, presents a pressing sociotechnical challenge. In this survey, we systematically review recent studies spanning unintentional toxicity, adversarial jailbreaking attacks, and content moderation techniques. We propose a unified taxonomy of LLM-related harms and defenses, analyze emerging multimodal and LLM-assisted jailbreak strategies, and assess mitigation efforts, including reinforcement learning with human feedback (RLHF), prompt engineering, and safety alignment. Our synthesis highlights the evolving landscape of LLM safety, identifies limitations in current evaluation methodologies, and outlines future research directions to guide the development of robust and ethically aligned language technologies.",
+      "url": "https://arxiv.org/abs/2508.05775",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "content",
+        "language",
+        "llm",
+        "generation",
+        "safety",
+        "content generation",
+        "harmful",
+        "llms",
+        "mitigation",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This survey paper addresses a highly significant and timely problem \u2013 the safety and ethical concerns surrounding LLMs. The systematic review and proposed taxonomy are valuable contributions, and the analysis of emerging jailbreak strategies is particularly relevant. While the abstract doesn't suggest groundbreaking *new* methods, the consolidation and organization of existing research is strong, indicating a high-quality and impactful work.",
+      "paper_id": "e57ff82c17b8b414f2c99646b9986b2a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-14T09:31:08.000329"
 }

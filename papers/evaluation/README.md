@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Towards Safer Pretraining: Analyzing and Filtering Harmful Content in Webscale datasets for Responsible LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Sai Krishna Mendu, Harish Yenala, Aditi Gulati, Shanu Kumar, Parag Agrawal
+
+arXiv:2505.02009v3 Announce Type: replace 
+Abstract: Large language models (LLMs) have become integral to various real-world applications, leveraging massive, web-sourced datasets like Common Crawl, C...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.02009) | [📝 Analysis](86eb8619b246424766a644e341fc3255.md)
+
+---
+
+### A Novel Evaluation Benchmark for Medical LLMs: Illuminating Safety and Effectiveness in Clinical Domains
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Shirui Wang, Zhihui Tang, Huaxia Yang, Qiuhong Gong, Tiantian Gu, Hongyang Ma, Yongxin Wang, Wubin Sun, Zeliang Lian, Kehang Mao, Yinan Jiang, Zhicheng Huang, Lingyun Ma, Wenjie Shen, Yajie Ji, Yunhui Tan, Chunbo Wang, Yunlu Gao, Qianling Ye, Rui Lin, Mingyu Chen, Lijuan Niu, Zhihao Wang, Peng Yu, Mengran Lang, Yue Liu, Huimin Zhang, Haitao Shen, Long Chen, Qiguang Zhao, Si-Xuan Liu, Lina Zhou, Hua Gao, Dongqiang Ye, Lingmin Meng, Youtao Yu, Naixin Liang, Jianxiong Wu
+
+arXiv:2507.23486v3 Announce Type: replace 
+Abstract: Large language models (LLMs) hold promise in clinical decision support but face major challenges in safety evaluation and effectiveness validation....
+
+[📄 Full Paper](https://arxiv.org/abs/2507.23486) | [📝 Analysis](393a856bf721363e14cad3f39693538f.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*

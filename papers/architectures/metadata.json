@@ -703,7 +703,103 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Speed Always Wins: A Survey on Efficient Architectures for Large Language Models",
+      "authors": [
+        "Weigao Sun, Jiaxi Hu, Yucheng Zhou, Jusen Du, Disen Lan, Kexin Wang, Tong Zhu, Xiaoye Qu, Yu Zhang, Xiaoyu Mo, Daizong Liu, Yuxuan Liang, Wenliang Chen, Guoqi Li, Yu Cheng"
+      ],
+      "abstract": "arXiv:2508.09834v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have delivered impressive results in language understanding, generation, reasoning, and pushes the ability boundary of multimodal models. Transformer models, as the foundation of modern LLMs, offer a strong baseline with excellent scaling properties. However, the traditional transformer architecture requires substantial computations and poses significant obstacles for large-scale training and practical deployment. In this survey, we offer a systematic examination of innovative LLM architectures that address the inherent limitations of transformers and boost the efficiency. Starting from language modeling, this survey covers the background and technical details of linear and sparse sequence modeling methods, efficient full attention variants, sparse mixture-of-experts, hybrid model architectures incorporating the above techniques, and emerging diffusion LLMs. Additionally, we discuss applications of these techniques to other modalities and consider their wider implications for developing scalable, resource-aware foundation models. By grouping recent studies into the above category, this survey presents a blueprint of modern efficient LLM architectures, and we hope this could help motivate future research toward more efficient, versatile AI systems.",
+      "url": "https://arxiv.org/abs/2508.09834",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "architectures",
+        "efficient",
+        "language",
+        "survey",
+        "large",
+        "llms",
+        "foundation",
+        "language models",
+        "large language"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey addresses a highly relevant and critical problem in the LLM field \u2013 efficiency. The abstract demonstrates a systematic approach to covering a wide range of architectural innovations. While a survey isn't inherently 'innovative' in itself, the breadth of coverage suggests a valuable contribution to consolidating knowledge in a rapidly evolving area. The potential impact is high given the practical limitations of current LLMs.",
+      "paper_id": "92cd0c0ed94dda8a47401add1edda110"
+    },
+    {
+      "title": "Can AI Keep a Secret? Contextual Integrity Verification: A Provable Security Architecture for LLMs",
+      "authors": [
+        "Aayush Gupta"
+      ],
+      "abstract": "arXiv:2508.09288v1 Announce Type: cross \nAbstract: Large language models (LLMs) remain acutely vulnerable to prompt injection and related jailbreak attacks; heuristic guardrails (rules, filters, LLM judges) are routinely bypassed. We present Contextual Integrity Verification (CIV), an inference-time security architecture that attaches cryptographically signed provenance labels to every token and enforces a source-trust lattice inside the transformer via a pre-softmax hard attention mask (with optional FFN/residual gating). CIV provides deterministic, per-token non-interference guarantees on frozen models: lower-trust tokens cannot influence higher-trust representations. On benchmarks derived from recent taxonomies of prompt-injection vectors (Elite-Attack + SoK-246), CIV attains 0% attack success rate under the stated threat model while preserving 93.1% token-level similarity and showing no degradation in model perplexity on benign tasks; we note a latency overhead attributable to a non-optimized data path. Because CIV is a lightweight patch -- no fine-tuning required -- we demonstrate drop-in protection for Llama-3-8B and Mistral-7B. We release a reference implementation, an automated certification harness, and the Elite-Attack corpus to support reproducible research.",
+      "url": "https://arxiv.org/abs/2508.09288",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "civ",
+        "attack",
+        "token",
+        "trust",
+        "architecture",
+        "contextual",
+        "contextual integrity",
+        "elite",
+        "elite attack",
+        "injection"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a critical problem in LLM security \u2013 prompt injection \u2013 with a novel and seemingly effective architecture (CIV). The reported results (0% attack success rate, high token similarity, no perplexity degradation) are impressive. The use of cryptographic provenance labels and a source-trust lattice within the transformer is a unique approach, suggesting strong methodological rigor. The latency overhead is acknowledged, which is a positive sign of honest reporting.",
+      "paper_id": "03b9fdf4d95557cc70c1e96ad429259d"
+    },
+    {
+      "title": "Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache in LLM Inference",
+      "authors": [
+        "Zhifan Luo, Shuo Shao, Su Zhang, Lijing Zhou, Yuke Hu, Chenxu Zhao, Zhihao Liu, Zhan Qin"
+      ],
+      "abstract": "arXiv:2508.09442v1 Announce Type: cross \nAbstract: The Key-Value (KV) cache, which stores intermediate attention computations (Key and Value pairs) to avoid redundant calculations, is a fundamental mechanism for accelerating Large Language Model (LLM) inference. However, this efficiency optimization introduces significant yet underexplored privacy risks. This paper provides the first comprehensive analysis of these vulnerabilities, demonstrating that an attacker can reconstruct sensitive user inputs directly from the KV-cache. We design and implement three distinct attack vectors: a direct Inversion Attack, a more broadly applicable and potent Collision Attack, and a semantic-based Injection Attack. These methods demonstrate the practicality and severity of KV-cache privacy leakage issues. To mitigate this, we propose KV-Cloak, a novel, lightweight, and efficient defense mechanism. KV-Cloak uses a reversible matrix-based obfuscation scheme, combined with operator fusion, to secure the KV-cache. Our extensive experiments show that KV-Cloak effectively thwarts all proposed attacks, reducing reconstruction quality to random noise. Crucially, it achieves this robust security with virtually no degradation in model accuracy and minimal performance overhead, offering a practical solution for trustworthy LLM deployment.",
+      "url": "https://arxiv.org/abs/2508.09442",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "kv",
+        "cache",
+        "kv cache",
+        "attack",
+        "cloak",
+        "kv cloak",
+        "llm",
+        "privacy",
+        "based",
+        "inference"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical and previously underexplored privacy vulnerability in LLM inference \u2013 the KV-cache. The identification of multiple attack vectors (Inversion, Collision, Injection) and the proposal of a mitigation strategy (KV-Cloak) demonstrate solid research. The work is well-focused and the problem is highly relevant given the increasing deployment of LLMs, suggesting a positive reception from the community.",
+      "paper_id": "912dbbc0ebc241c8ef06b0c0ed22e33a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-08-14T09:31:07.996079"
 }

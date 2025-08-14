@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### AINL-Eval 2025 Shared Task: Detection of AI-Generated Scientific Abstracts in Russian
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Tatiana Batura, Elena Bruches, Milana Shvenk, Valentin Malykh
+
+arXiv:2508.09622v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) has revolutionized text generation, making it increasingly difficult to distinguish between human...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09622) | [📝 Analysis](140dfaed11c5df711ff19b76c8f1d697.md)
+
+---
+
+### A Comprehensive Survey of Datasets for Clinical Mental Health AI Systems
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Aishik Mandal, Prottay Kumar Adhikary, Hiba Arnaout, Iryna Gurevych, Tanmoy Chakraborty
+
+arXiv:2508.09809v1 Announce Type: new 
+Abstract: Mental health disorders are rising worldwide. However, the availability of trained clinicians has not scaled proportionally, leaving many people withou...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09809) | [📝 Analysis](fbfb2459ad54ab16423b0f2dd1da542b.md)
+
+---
+
+### From Hard Refusals to Safe-Completions: Toward Output-Centric Safety Training
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Yuan Yuan, Tina Sriskandarajah, Anna-Luisa Brakman, Alec Helyar, Alex Beutel, Andrea Vallone, Saachi Jain
+
+arXiv:2508.09224v1 Announce Type: cross 
+Abstract: Large Language Models used in ChatGPT have traditionally been trained to learn a refusal boundary: depending on the user's intent, the model is taugh...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09224) | [📝 Analysis](f3e198c8976b870c0f9f78df29be106f.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*

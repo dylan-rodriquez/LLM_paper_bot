@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Capabilities of GPT-5 on Multimodal Medical Reasoning
+
+**Score:** 92.0 | **Published:** 2025-08-14 | **Authors:** Shansong Wang, Mingzhe Hu, Qiang Li, Mojtaba Safari, Xiaofeng Yang
+
+arXiv:2508.08224v2 Announce Type: replace 
+Abstract: Recent advances in large language models (LLMs) have enabled general-purpose systems to perform increasingly complex domain-specific reasoning with...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08224) | [📝 Analysis](3cd91b58066f71ce7e12c9ca45d35854.md)
+
+---
+
+### The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models
+
+**Score:** 90.0 | **Published:** 2025-08-14 | **Authors:** Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, Enamul Hoque
+
+arXiv:2508.09716v1 Announce Type: new 
+Abstract: Information visualizations are powerful tools that help users quickly identify patterns, trends, and outliers, facilitating informed decision-making. H...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09716) | [📝 Analysis](772baab4ca5f4a9f03ebe3d5ff79013e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-14 09:31:07 UTC*

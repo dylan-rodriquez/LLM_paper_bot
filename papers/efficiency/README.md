@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models
+
+**Score:** 90.0 | **Published:** 2025-08-14 | **Authors:** Lingzhe Zhang, Liancheng Fang, Chiming Duan, Minghua He, Leyi Pan, Pei Xiao, Shiyu Huang, Yunpeng Zhai, Xuming Hu, Philip S. Yu, Aiwei Liu
+
+arXiv:2508.08712v2 Announce Type: replace 
+Abstract: As text generation has become a core capability of modern Large Language Models (LLMs), it underpins a wide range of downstream applications. Howev...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.08712) | [📝 Analysis](90a24a7ac01e4fcf9019b24f1c716068.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-14 09:31:08 UTC*

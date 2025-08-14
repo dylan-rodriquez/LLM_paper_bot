@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "AINL-Eval 2025 Shared Task: Detection of AI-Generated Scientific Abstracts in Russian",
+      "authors": [
+        "Tatiana Batura, Elena Bruches, Milana Shvenk, Valentin Malykh"
+      ],
+      "abstract": "arXiv:2508.09622v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) has revolutionized text generation, making it increasingly difficult to distinguish between human- and AI-generated content. This poses a significant challenge to academic integrity, particularly in scientific publishing and multilingual contexts where detection resources are often limited. To address this critical gap, we introduce the AINL-Eval 2025 Shared Task, specifically focused on the detection of AI-generated scientific abstracts in Russian. We present a novel, large-scale dataset comprising 52,305 samples, including human-written abstracts across 12 diverse scientific domains and AI-generated counterparts from five state-of-the-art LLMs (GPT-4-Turbo, Gemma2-27B, Llama3.3-70B, Deepseek-V3, and GigaChat-Lite). A core objective of the task is to challenge participants to develop robust solutions capable of generalizing to both (i) previously unseen scientific domains and (ii) models not included in the training data. The task was organized in two phases, attracting 10 teams and 159 submissions, with top systems demonstrating strong performance in identifying AI-generated content. We also establish a continuous shared task platform to foster ongoing research and long-term progress in this important area. The dataset and platform are publicly available at https://github.com/iis-research-team/AINL-Eval-2025.",
+      "url": "https://arxiv.org/abs/2508.09622",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "ai generated",
+        "generated",
+        "scientific",
+        "task",
+        "2025",
+        "abstracts",
+        "ainl",
+        "ainl eval",
+        "detection"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the detection of AI-generated scientific text, specifically in Russian, a language with limited resources in this area. The creation of a large-scale, diverse dataset is a significant contribution, and the focus on generalization to unseen domains is a strong methodological choice. While the task itself isn't entirely novel (AI detection is a hot topic), the specific focus on Russian scientific abstracts and the dataset size elevate its value.",
+      "paper_id": "140dfaed11c5df711ff19b76c8f1d697"
+    },
+    {
+      "title": "A Comprehensive Survey of Datasets for Clinical Mental Health AI Systems",
+      "authors": [
+        "Aishik Mandal, Prottay Kumar Adhikary, Hiba Arnaout, Iryna Gurevych, Tanmoy Chakraborty"
+      ],
+      "abstract": "arXiv:2508.09809v1 Announce Type: new \nAbstract: Mental health disorders are rising worldwide. However, the availability of trained clinicians has not scaled proportionally, leaving many people without adequate or timely support. To bridge this gap, recent studies have shown the promise of Artificial Intelligence (AI) to assist mental health diagnosis, monitoring, and intervention. However, the development of efficient, reliable, and ethical AI to assist clinicians is heavily dependent on high-quality clinical training datasets. Despite growing interest in data curation for training clinical AI assistants, existing datasets largely remain scattered, under-documented, and often inaccessible, hindering the reproducibility, comparability, and generalizability of AI models developed for clinical mental health care. In this paper, we present the first comprehensive survey of clinical mental health datasets relevant to the training and development of AI-powered clinical assistants. We categorize these datasets by mental disorders (e.g., depression, schizophrenia), data modalities (e.g., text, speech, physiological signals), task types (e.g., diagnosis prediction, symptom severity estimation, intervention generation), accessibility (public, restricted or private), and sociocultural context (e.g., language and cultural background). Along with these, we also investigate synthetic clinical mental health datasets. Our survey identifies critical gaps such as a lack of longitudinal data, limited cultural and linguistic representation, inconsistent collection and annotation standards, and a lack of modalities in synthetic data. We conclude by outlining key challenges in curating and standardizing future datasets and provide actionable recommendations to facilitate the development of more robust, generalizable, and equitable mental health AI systems.",
+      "url": "https://arxiv.org/abs/2508.09809",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mental",
+        "ai",
+        "clinical",
+        "datasets",
+        "health",
+        "mental health",
+        "clinical mental",
+        "data",
+        "development",
+        "survey"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey addresses a critical bottleneck in the development of clinical mental health AI \u2013 the lack of accessible, well-documented datasets. The problem is highly significant given the increasing need for mental health support and the potential of AI to address the clinician shortage. While a survey isn't inherently groundbreaking in methodology, its comprehensiveness and focus on a rapidly growing field make it valuable; the potential for impact is high, and the community is likely to receive it positively.",
+      "paper_id": "fbfb2459ad54ab16423b0f2dd1da542b"
+    },
+    {
+      "title": "From Hard Refusals to Safe-Completions: Toward Output-Centric Safety Training",
+      "authors": [
+        "Yuan Yuan, Tina Sriskandarajah, Anna-Luisa Brakman, Alec Helyar, Alex Beutel, Andrea Vallone, Saachi Jain"
+      ],
+      "abstract": "arXiv:2508.09224v1 Announce Type: cross \nAbstract: Large Language Models used in ChatGPT have traditionally been trained to learn a refusal boundary: depending on the user's intent, the model is taught to either fully comply or outright refuse. While this is a strong mitigation for explicitly malicious prompts, focusing safety training on refusals can lead to brittleness for prompts with obscured user intent. Binary refusal boundaries are especially ill-suited for dual-use cases (such as biology or cybersecurity), where a user request can be answered safely at a high level, but in some cases can lead to malicious uplift if sufficiently detailed or actionable. As an alternative, we propose safe-completions: a safety-training approach that centers on the safety of the assistant's output, rather than a binary classification of the user's intent. Safe-completions seek to maximize helpfulness within the safety policy's constraints. We incorporated this approach into GPT-5 and find that across both production comparisons and internally controlled experiments, safe-completion training improves safety (especially on dual-use prompts), reduces the severity of residual safety failures, and substantially increases model helpfulness.",
+      "url": "https://arxiv.org/abs/2508.09224",
+      "published_date": "2025-08-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "safe",
+        "training",
+        "user",
+        "completions",
+        "intent",
+        "prompts",
+        "safe completions",
+        "safety training",
+        "user intent"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in LLM safety \u2013 the limitations of binary refusal boundaries, particularly in dual-use scenarios. The 'safe-completions' approach offers a nuanced alternative focused on output safety, which is a significant shift in thinking. The fact that it was incorporated into GPT-5 suggests a high degree of rigor and potential effectiveness, and the problem is highly relevant to current AI safety concerns.",
+      "paper_id": "f3e198c8976b870c0f9f78df29be106f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-14T09:31:07.992507"
 }
