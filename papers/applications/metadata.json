@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Searching for Privacy Risks in LLM Agents via Simulation",
+      "authors": [
+        "Yanzhe Zhang, Diyi Yang"
+      ],
+      "abstract": "arXiv:2508.10880v1 Announce Type: cross \nAbstract: The widespread deployment of LLM-based agents is likely to introduce a critical privacy threat: malicious agents that proactively engage others in multi-turn interactions to extract sensitive information. These dynamic dialogues enable adaptive attack strategies that can cause severe privacy violations, yet their evolving nature makes it difficult to anticipate and discover sophisticated vulnerabilities manually. To tackle this problem, we present a search-based framework that alternates between improving attacker and defender instructions by simulating privacy-critical agent interactions. Each simulation involves three roles: data subject, data sender, and data recipient. While the data subject's behavior is fixed, the attacker (data recipient) attempts to extract sensitive information from the defender (data sender) through persistent and interactive exchanges. To explore this interaction space efficiently, our search algorithm employs LLMs as optimizers, using parallel search with multiple threads and cross-thread propagation to analyze simulation trajectories and iteratively propose new instructions. Through this process, we find that attack strategies escalate from simple direct requests to sophisticated multi-turn tactics such as impersonation and consent forgery, while defenses advance from rule-based constraints to identity-verification state machines. The discovered attacks and defenses transfer across diverse scenarios and backbone models, demonstrating strong practical utility for building privacy-aware agents.",
+      "url": "https://arxiv.org/abs/2508.10880",
+      "published_date": "2025-08-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "privacy",
+        "agents",
+        "based",
+        "search",
+        "simulation",
+        "attack",
+        "attack strategies",
+        "attacker",
+        "critical"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a very important and timely problem \u2013 the privacy risks posed by increasingly sophisticated LLM agents. The use of a search-based framework with simulated interactions is a clever approach to proactively identify vulnerabilities. While the core idea of simulation isn't entirely novel, applying it specifically to the dynamic, multi-turn interaction space of LLM agents, and framing it as a search problem, demonstrates a good level of innovation. The potential impact is high, as securing LLM agents is crucial for their safe and responsible deployment.",
+      "paper_id": "5d4e8c209e1091d95636028c7a2b5283"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-08-15T09:29:18.827677"
 }

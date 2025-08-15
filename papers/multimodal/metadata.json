@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Fleurs-SLU: A Massively Multilingual Benchmark for Spoken Language Understanding",
+      "authors": [
+        "Fabian David Schmidt, Ivan Vuli\\'c, Goran Glava\\v{s}, David Ifeoluwa Adelani"
+      ],
+      "abstract": "arXiv:2501.06117v3 Announce Type: replace \nAbstract: Spoken language understanding (SLU) is indispensable for half of all living languages that lack a formal writing system. Unlike for high-resource languages, for these languages, we cannot offload semantic understanding of speech to the cascade of automatic speech recognition (ASR) and text-based large language models (LLMs). Even if low-resource languages possess a writing system, ASR for these languages remains unreliable due to limited bimodal speech and text training data. Nonetheless, the evaluation of multilingual SLU is limited to shallow tasks such as intent classification or language identification. This is why we present Fleurs-SLU, a multilingual SLU benchmark that encompasses (i) 692 hours of speech for topical utterance classification in 102 languages and (ii) multiple-choice question answering via listening comprehension spanning 944 hours of speech across 92 languages. We extensively evaluate end-to-end speech classification models, cascaded systems that combine speech-to-text transcription with subsequent LLM-based classification, and multimodal speech-LLMs on Fleurs-SLU. Our results show that cascaded systems are more robust in multilingual SLU, though well-pretrained speech encoders can perform competitively in topical speech classification. Closed-source speech-LLMs match or surpass the performance of cascaded systems. We observe a strong correlation between robust multilingual ASR, effective speech-to-text translation, and strong multilingual SLU, indicating mutual benefits between acoustic and semantic speech representations.",
+      "url": "https://arxiv.org/abs/2501.06117",
+      "published_date": "2025-08-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "slu",
+        "languages",
+        "multilingual",
+        "classification",
+        "language",
+        "multilingual slu",
+        "text",
+        "asr",
+        "cascaded"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in SLU research \u2013 the lack of robust benchmarks for low-resource and non-written languages. The scale of the Fleurs-SLU benchmark (692 hours of speech, 102 languages) is impressive and the inclusion of both utterance classification and question answering tasks adds to its value. While the core tasks aren't entirely novel, the multilingual scope and focus on speech-only understanding represent a significant advancement.",
+      "paper_id": "ddb839a9e2e22934e65aed6935a76985"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-08-15T09:29:18.828642"
 }
