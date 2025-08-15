@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Searching for Privacy Risks in LLM Agents via Simulation
+
+**Score:** 90.0 | **Published:** 2025-08-15 | **Authors:** Yanzhe Zhang, Diyi Yang
+
+arXiv:2508.10880v1 Announce Type: cross 
+Abstract: The widespread deployment of LLM-based agents is likely to introduce a critical privacy threat: malicious agents that proactively engage others in mu...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10880) | [📝 Analysis](5d4e8c209e1091d95636028c7a2b5283.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-15 09:29:18 UTC*

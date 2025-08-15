@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Fleurs-SLU: A Massively Multilingual Benchmark for Spoken Language Understanding
+
+**Score:** 92.0 | **Published:** 2025-08-15 | **Authors:** Fabian David Schmidt, Ivan Vuli\'c, Goran Glava\v{s}, David Ifeoluwa Adelani
+
+arXiv:2501.06117v3 Announce Type: replace 
+Abstract: Spoken language understanding (SLU) is indispensable for half of all living languages that lack a formal writing system. Unlike for high-resource l...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.06117) | [📝 Analysis](ddb839a9e2e22934e65aed6935a76985.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-15 09:29:18 UTC*

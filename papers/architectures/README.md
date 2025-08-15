@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Memory-Augmented Transformers: A Systematic Review from Neuroscience Principles to Technical Solutions
+
+**Score:** 92.0 | **Published:** 2025-08-15 | **Authors:** Parsa Omidi, Xingshuai Huang, Axel Laborieux, Bahareh Nikpour, Tianyu Shi, Armaghan Eshaghi
+
+arXiv:2508.10824v1 Announce Type: cross 
+Abstract: Memory is fundamental to intelligence, enabling learning, reasoning, and adaptability across biological and artificial systems. While Transformer arc...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10824) | [📝 Analysis](c301bdae27bb2e96c4f4d3eb4613a121.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-15 09:29:18 UTC*

@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### An Audit and Analysis of LLM-Assisted Health Misinformation Jailbreaks Against LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-15 | **Authors:** Ayana Hussain, Patrick Zhao, Nicholas Vincent
+
+arXiv:2508.10010v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are a double-edged sword capable of generating harmful misinformation -- inadvertently, or when prompted by "jailbreak" at...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10010) | [📝 Analysis](302bc0c352fc624e07c3cdefab00d2ee.md)
+
+---
+
+### Latent Fusion Jailbreak: Blending Harmful and Harmless Representations to Elicit Unsafe LLM Outputs
+
+**Score:** 92.0 | **Published:** 2025-08-15 | **Authors:** Wenpeng Xing, Mohan Li, Chunqiang Hu, Haitao XuNingyu Zhang, Bo Lin, Meng Han
+
+arXiv:2508.10029v1 Announce Type: new 
+Abstract: Large language models (LLMs) demonstrate impressive capabilities in various language tasks but are susceptible to jailbreak attacks that circumvent the...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10029) | [📝 Analysis](4797131220085c43502a86a8658566c2.md)
+
+---
+
+### A Survey on Diffusion Language Models
+
+**Score:** 90.0 | **Published:** 2025-08-15 | **Authors:** Tianyi Li, Mingda Chen, Bowei Guo, Zhiqiang Shen
+
+arXiv:2508.10875v1 Announce Type: new 
+Abstract: Diffusion Language Models (DLMs) are rapidly emerging as a powerful and promising alternative to the dominant autoregressive (AR) paradigm. By generati...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10875) | [📝 Analysis](af3039796b661b51010d9b0f718c892d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-15 09:29:18 UTC*

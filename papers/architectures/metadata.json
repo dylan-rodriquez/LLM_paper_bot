@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Memory-Augmented Transformers: A Systematic Review from Neuroscience Principles to Technical Solutions",
+      "authors": [
+        "Parsa Omidi, Xingshuai Huang, Axel Laborieux, Bahareh Nikpour, Tianyu Shi, Armaghan Eshaghi"
+      ],
+      "abstract": "arXiv:2508.10824v1 Announce Type: cross \nAbstract: Memory is fundamental to intelligence, enabling learning, reasoning, and adaptability across biological and artificial systems. While Transformer architectures excel at sequence modeling, they face critical limitations in long-range context retention, continual learning, and knowledge integration. This review presents a unified framework bridging neuroscience principles, including dynamic multi-timescale memory, selective attention, and consolidation, with engineering advances in Memory-Augmented Transformers. We organize recent progress through three taxonomic dimensions: functional objectives (context extension, reasoning, knowledge integration, adaptation), memory representations (parameter-encoded, state-based, explicit, hybrid), and integration mechanisms (attention fusion, gated control, associative retrieval). Our analysis of core memory operations (reading, writing, forgetting, and capacity management) reveals a shift from static caches toward adaptive, test-time learning systems. We identify persistent challenges in scalability and interference, alongside emerging solutions including hierarchical buffering and surprise-gated updates. This synthesis provides a roadmap toward cognitively-inspired, lifelong-learning Transformer architectures.",
+      "url": "https://arxiv.org/abs/2508.10824",
+      "published_date": "2025-08-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "memory",
+        "learning",
+        "integration",
+        "architectures",
+        "attention",
+        "augmented",
+        "augmented transformers",
+        "context",
+        "gated",
+        "including"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This review paper tackles a highly relevant and challenging problem in deep learning \u2013 the limitations of Transformers in handling long-range dependencies and continual learning. The systematic organization based on neuroscience principles and engineering solutions is a strong point, suggesting a rigorous and well-thought-out analysis. While a review isn't inherently 'innovative', bridging neuroscience and AI is a promising direction, and the taxonomic framework provides a valuable contribution to the field. The potential for impact is high given the widespread use of Transformers and the need for more robust memory mechanisms.",
+      "paper_id": "c301bdae27bb2e96c4f4d3eb4613a121"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-08-15T09:29:18.826440"
 }
