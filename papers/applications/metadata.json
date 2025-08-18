@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Inclusion Arena: An Open Platform for Evaluating Large Foundation Models with Real-World Apps",
+      "authors": [
+        "Kangyu Wang, Hongliang He, Lin Liu, Ruiqi Liang, Zhenzhong Lan, Jianguo Li"
+      ],
+      "abstract": "arXiv:2508.11452v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) have ushered in a new era of AI capabilities, demonstrating near-human-level performance across diverse scenarios. While numerous benchmarks (e.g., MMLU) and leaderboards (e.g., Chatbot Arena) have been proposed to help evolve the development of LLMs and MLLMs, most rely on static datasets or crowdsourced general-domain prompts, often falling short of reflecting performance in real-world applications. To bridge this critical gap, we present Inclusion Arena, a live leaderboard that ranks models based on human feedback collected directly from AI-powered applications. Our platform integrates pairwise model comparisons into natural user interactions, ensuring evaluations reflect practical usage scenarios. For robust model ranking, we employ the Bradley-Terry model augmented with two key innovations: (1) Placement Matches, a cold-start mechanism to quickly estimate initial ratings for newly integrated models, and (2) Proximity Sampling, an intelligent comparison strategy that prioritizes battles between models of similar capabilities to maximize information gain and enhance rating stability. Extensive empirical analyses and simulations demonstrate that Inclusion Arena yields reliable and stable rankings, exhibits higher data transitivity compared to general crowdsourced datasets, and significantly mitigates the risk of malicious manipulation. By fostering an open alliance between foundation models and real-world applications, Inclusion Arena aims to accelerate the development of LLMs and MLLMs truly optimized for practical, user-centric deployments. The platform is publicly accessible at https://doraemon.alipay.com/model-ranking.",
+      "url": "https://arxiv.org/abs/2508.11452",
+      "published_date": "2025-08-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "models",
+        "arena",
+        "inclusion",
+        "inclusion arena",
+        "model",
+        "applications",
+        "large",
+        "llms",
+        "mllms",
+        "platform"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial limitation in LLM/MLLM evaluation \u2013 the disconnect between benchmark performance and real-world application effectiveness. The 'Inclusion Arena' concept of integrating evaluations directly into user interactions is a strong methodological contribution. The use of the Bradley-Terry model with 'Placement Matches' suggests a thoughtful approach to addressing cold-start problems, and the overall premise is highly relevant to the current focus on responsible AI development and deployment.",
+      "paper_id": "c90034c35e3bf0d81f26a241c33bde3c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-08-18T09:33:16.738793"
 }

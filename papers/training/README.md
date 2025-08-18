@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-18 | **Authors:** Mickel Liu, Liwei Jiang, Yancheng Liang, Simon Shaolei Du, Yejin Choi, Tim Althoff, Natasha Jaques
+
+arXiv:2506.07468v2 Announce Type: replace-cross 
+Abstract: Conventional language model (LM) safety alignment relies on a reactive, disjoint procedure: attackers exploit a static model, followed by def...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.07468) | [📝 Analysis](4456ab12cdd9e32dc9992ee5a035238c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-18 09:33:16 UTC*

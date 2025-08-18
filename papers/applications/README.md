@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Inclusion Arena: An Open Platform for Evaluating Large Foundation Models with Real-World Apps
+
+**Score:** 90.0 | **Published:** 2025-08-18 | **Authors:** Kangyu Wang, Hongliang He, Lin Liu, Ruiqi Liang, Zhenzhong Lan, Jianguo Li
+
+arXiv:2508.11452v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) have ushered in a new era of AI capabilities, demonstrating near-human-leve...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.11452) | [📝 Analysis](c90034c35e3bf0d81f26a241c33bde3c.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-18 09:33:16 UTC*
