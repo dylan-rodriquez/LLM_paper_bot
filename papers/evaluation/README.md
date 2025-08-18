@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### SproutBench: A Benchmark for Safe and Ethical Large Language Models for Youth
+
+**Score:** 92.0 | **Published:** 2025-08-18 | **Authors:** Wenpeng Xing, Lanyi Wei, Haixiao Hu, Rongchang Li, Mohan Li, Changting Lin, Meng Han
+
+arXiv:2508.11009v1 Announce Type: new 
+Abstract: The rapid proliferation of large language models (LLMs) in applications targeting children and adolescents necessitates a fundamental reassessment of p...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.11009) | [📝 Analysis](4e1c44226d08b7cfff5c9ae6d144b631.md)
+
+---
+
+### ORFuzz: Fuzzing the "Other Side" of LLM Safety -- Testing Over-Refusal
+
+**Score:** 92.0 | **Published:** 2025-08-18 | **Authors:** Haonan Zhang, Dongxia Wang, Yi Liu, Kexin Chen, Jiashui Wang, Xinlei Ying, Long Liu, Wenhai Wang
+
+arXiv:2508.11222v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) increasingly exhibit over-refusal - erroneously rejecting benign queries due to overly conservative safety measures - a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.11222) | [📝 Analysis](5549fa1dd98e90b0fa7c759f253daa14.md)
+
+---
+
+### A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges
+
+**Score:** 92.0 | **Published:** 2025-08-18 | **Authors:** Andrew Brown, Muhammad Roman, Barry Devereux
+
+arXiv:2508.06401v2 Announce Type: replace-cross 
+Abstract: This systematic review of the research literature on retrieval-augmented generation (RAG) provides a focused analysis of the most highly cite...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06401) | [📝 Analysis](e9dd17ed04bcc546e11f39b7ea833dfd.md)
+
+---
+
+### BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining
+
+**Score:** 90.0 | **Published:** 2025-08-18 | **Authors:** Pratyush Maini, Vineeth Dorna, Parth Doshi, Aldo Carranza, Fan Pan, Jack Urbanek, Paul Burstein, Alex Fang, Alvin Deng, Amro Abbas, Brett Larsen, Cody Blakeney, Charvi Bannur, Christina Baek, Darren Teh, David Schwab, Haakon Mongstad, Haoli Yin, Josh Wills, Kaleigh Mentzer, Luke Merrick, Ricardo Monti, Rishabh Adiga, Siddharth Joshi, Spandan Das, Zhengping Wang, Bogdan Gaza, Ari Morcos, Matthew Leavitt
+
+arXiv:2508.10975v1 Announce Type: cross 
+Abstract: Recent advances in large language model (LLM) pretraining have shown that simply scaling data quantity eventually leads to diminishing returns, hitti...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10975) | [📝 Analysis](30879b7f40425a4ee41b033d8167b8b0.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-18 09:33:16 UTC*

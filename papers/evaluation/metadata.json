@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "SproutBench: A Benchmark for Safe and Ethical Large Language Models for Youth",
+      "authors": [
+        "Wenpeng Xing, Lanyi Wei, Haixiao Hu, Rongchang Li, Mohan Li, Changting Lin, Meng Han"
+      ],
+      "abstract": "arXiv:2508.11009v1 Announce Type: new \nAbstract: The rapid proliferation of large language models (LLMs) in applications targeting children and adolescents necessitates a fundamental reassessment of prevailing AI safety frameworks, which are largely tailored to adult users and neglect the distinct developmental vulnerabilities of minors. This paper highlights key deficiencies in existing LLM safety benchmarks, including their inadequate coverage of age-specific cognitive, emotional, and social risks spanning early childhood (ages 0--6), middle childhood (7--12), and adolescence (13--18). To bridge these gaps, we introduce SproutBench, an innovative evaluation suite comprising 1,283 developmentally grounded adversarial prompts designed to probe risks such as emotional dependency, privacy violations, and imitation of hazardous behaviors. Through rigorous empirical evaluation of 47 diverse LLMs, we uncover substantial safety vulnerabilities, corroborated by robust inter-dimensional correlations (e.g., between Safety and Risk Prevention) and a notable inverse relationship between Interactivity and Age Appropriateness. These insights yield practical guidelines for advancing child-centric AI design and deployment.",
+      "url": "https://arxiv.org/abs/2508.11009",
+      "published_date": "2025-08-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "age",
+        "ai",
+        "childhood",
+        "emotional",
+        "evaluation",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critically important and currently under-addressed problem: the safety of LLMs for youth. The creation of SproutBench, a developmentally grounded benchmark, is a strong methodological contribution. The evaluation of 47 LLMs suggests a substantial impact and the abstract indicates robust findings, suggesting a high-quality study. The focus on age-specific vulnerabilities is particularly noteworthy.",
+      "paper_id": "4e1c44226d08b7cfff5c9ae6d144b631"
+    },
+    {
+      "title": "ORFuzz: Fuzzing the \"Other Side\" of LLM Safety -- Testing Over-Refusal",
+      "authors": [
+        "Haonan Zhang, Dongxia Wang, Yi Liu, Kexin Chen, Jiashui Wang, Xinlei Ying, Long Liu, Wenhai Wang"
+      ],
+      "abstract": "arXiv:2508.11222v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) increasingly exhibit over-refusal - erroneously rejecting benign queries due to overly conservative safety measures - a critical functional flaw that undermines their reliability and usability. Current methods for testing this behavior are demonstrably inadequate, suffering from flawed benchmarks and limited test generation capabilities, as highlighted by our empirical user study. To the best of our knowledge, this paper introduces the first evolutionary testing framework, ORFuzz, for the systematic detection and analysis of LLM over-refusals. ORFuzz uniquely integrates three core components: (1) safety category-aware seed selection for comprehensive test coverage, (2) adaptive mutator optimization using reasoning LLMs to generate effective test cases, and (3) OR-Judge, a human-aligned judge model validated to accurately reflect user perception of toxicity and refusal. Our extensive evaluations demonstrate that ORFuzz generates diverse, validated over-refusal instances at a rate (6.98% average) more than double that of leading baselines, effectively uncovering vulnerabilities. Furthermore, ORFuzz's outputs form the basis of ORFuzzSet, a new benchmark of 1,855 highly transferable test cases that achieves a superior 63.56% average over-refusal rate across 10 diverse LLMs, significantly outperforming existing datasets. ORFuzz and ORFuzzSet provide a robust automated testing framework and a valuable community resource, paving the way for developing more reliable and trustworthy LLM-based software systems.",
+      "url": "https://arxiv.org/abs/2508.11222",
+      "published_date": "2025-08-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "orfuzz",
+        "refusal",
+        "test",
+        "testing",
+        "llm",
+        "llms",
+        "safety",
+        "average",
+        "cases",
+        "diverse"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and growing problem with LLMs \u2013 over-refusal \u2013 which significantly impacts usability. The proposed ORFuzz framework, with its integrated components for seed selection, adaptive mutation, and human-aligned judging, appears well-designed and addresses limitations of existing methods. The claim of being the first evolutionary testing framework for over-refusal is strong, suggesting a significant contribution to the field. The focus on user perception via OR-Judge is particularly valuable.",
+      "paper_id": "5549fa1dd98e90b0fa7c759f253daa14"
+    },
+    {
+      "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+      "authors": [
+        "Andrew Brown, Muhammad Roman, Barry Devereux"
+      ],
+      "abstract": "arXiv:2508.06401v2 Announce Type: replace-cross \nAbstract: This systematic review of the research literature on retrieval-augmented generation (RAG) provides a focused analysis of the most highly cited studies published between 2020 and May 2025. A total of 128 articles met our inclusion criteria. The records were retrieved from ACM Digital Library, IEEE Xplore, Scopus, ScienceDirect, and the Digital Bibliography and Library Project (DBLP). RAG couples a neural retriever with a generative language model, grounding output in up-to-date, non-parametric memory while retaining the semantic generalisation stored in model weights. Guided by the PRISMA 2020 framework, we (i) specify explicit inclusion and exclusion criteria based on citation count and research questions, (ii) catalogue datasets, architectures, and evaluation practices, and (iii) synthesise empirical evidence on the effectiveness and limitations of RAG. To mitigate citation-lag bias, we applied a lower citation-count threshold to papers published in 2025 so that emerging breakthroughs with naturally fewer citations were still captured. This review clarifies the current research landscape, highlights methodological gaps, and charts priority directions for future research.",
+      "url": "https://arxiv.org/abs/2508.06401",
+      "published_date": "2025-08-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "research",
+        "citation",
+        "rag",
+        "review",
+        "2020",
+        "2025",
+        "augmented",
+        "augmented generation",
+        "citation count",
+        "count"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and rapidly evolving area \u2013 Retrieval-Augmented Generation. The systematic review approach, guided by PRISMA 2020, suggests a rigorous methodology. While the core concept of RAG isn't novel, a comprehensive review cataloging datasets, architectures, and evaluation practices is valuable, especially given the field's recent growth and the attempt to mitigate citation-lag bias.",
+      "paper_id": "e9dd17ed04bcc546e11f39b7ea833dfd"
+    },
+    {
+      "title": "BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining",
+      "authors": [
+        "Pratyush Maini, Vineeth Dorna, Parth Doshi, Aldo Carranza, Fan Pan, Jack Urbanek, Paul Burstein, Alex Fang, Alvin Deng, Amro Abbas, Brett Larsen, Cody Blakeney, Charvi Bannur, Christina Baek, Darren Teh, David Schwab, Haakon Mongstad, Haoli Yin, Josh Wills, Kaleigh Mentzer, Luke Merrick, Ricardo Monti, Rishabh Adiga, Siddharth Joshi, Spandan Das, Zhengping Wang, Bogdan Gaza, Ari Morcos, Matthew Leavitt"
+      ],
+      "abstract": "arXiv:2508.10975v1 Announce Type: cross \nAbstract: Recent advances in large language model (LLM) pretraining have shown that simply scaling data quantity eventually leads to diminishing returns, hitting a data wall. In response, the use of synthetic data for pretraining has emerged as a promising paradigm for pushing the frontier of performance. Despite this, the factors affecting synthetic data quality remain poorly understood. In this work, we introduce BeyondWeb, a synthetic data generation framework that produces high-quality synthetic data for pretraining. BeyondWeb significantly extends the capabilities of traditional web-scale datasets, outperforming state-of-the-art synthetic pretraining datasets such as Cosmopedia and Nemotron-CC's high-quality synthetic subset (Nemotron-Synth) by up to 5.1 percentage points (pp) and 2.6pp, respectively, when averaged across a suite of 14 benchmark evaluations. It delivers up to 7.7x faster training than open web data and 2.7x faster than Nemotron-Synth. Remarkably, a 3B model trained for 180B tokens on BeyondWeb outperforms an 8B model trained for the same token budget on Cosmopedia. We also present several insights from BeyondWeb on synthetic data for pretraining: what drives its benefits, which data to rephrase and how, and the impact of model size and family on data quality. Overall, our work shows that there's no silver bullet for generating high-quality synthetic pretraining data. The best outcomes require jointly optimizing many factors, a challenging task that requires rigorous science and practical expertise. Naive approaches can yield modest improvements, potentially at great cost, while well-executed methods can yield transformative improvements, as exemplified by BeyondWeb.",
+      "url": "https://arxiv.org/abs/2508.10975",
+      "published_date": "2025-08-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "synthetic",
+        "pretraining",
+        "beyondweb",
+        "synthetic data",
+        "quality",
+        "model",
+        "data pretraining",
+        "high",
+        "high quality"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in LLM development \u2013 the diminishing returns of scaling web data. The reported performance gains over existing synthetic datasets (Cosmopedia, Nemotron-Synth) and faster training speeds suggest a significant advancement in synthetic data generation. While the abstract doesn't detail *how* BeyondWeb achieves these results, the magnitude of improvement indicates a well-executed and potentially impactful framework.",
+      "paper_id": "30879b7f40425a4ee41b033d8167b8b0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-18T09:33:16.737499"
 }
