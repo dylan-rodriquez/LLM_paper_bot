@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### DocHPLT: A Massively Multilingual Document-Level Translation Dataset
+
+**Score:** 92.0 | **Published:** 2025-08-19 | **Authors:** Dayy\'an O'Brien, Bhavitvya Malik, Ona de Gibert, Pinzhen Chen, Barry Haddow, J\"org Tiedemann
+
+arXiv:2508.13079v1 Announce Type: new 
+Abstract: Existing document-level machine translation resources are only available for a handful of languages, mostly high-resourced ones. To facilitate the trai...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13079) | [📝 Analysis](2eb4c813008433b8422071ac8125129a.md)
+
+---
+
+### Generative Medical Event Models Improve with Scale
+
+**Score:** 92.0 | **Published:** 2025-08-19 | **Authors:** Shane Waxler, Paul Blazek, Davis White, Daniel Sneider, Kevin Chung, Mani Nagarathnam, Patrick Williams, Hank Voeller, Karen Wong, Matthew Swanhorst, Sheng Zhang, Naoto Usuyama, Cliff Wong, Tristan Naumann, Hoifung Poon, Andrew Loza, Daniella Meeker, Seth Hain, Rahul Shah
+
+arXiv:2508.12104v1 Announce Type: cross 
+Abstract: Realizing personalized medicine at scale calls for methods that distill insights from longitudinal patient journeys, which can be viewed as a sequenc...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.12104) | [📝 Analysis](5160bbb9207000a326b26aaf59fa1ca7.md)
+
+---
+
+### Mitigating Jailbreaks with Intent-Aware LLMs
+
+**Score:** 90.0 | **Published:** 2025-08-19 | **Authors:** Wei Jie Yeo, Ranjan Satapathy, Erik Cambria
+
+arXiv:2508.12072v1 Announce Type: cross 
+Abstract: Despite extensive safety-tuning, large language models (LLMs) remain vulnerable to jailbreak attacks via adversarially crafted instructions, reflecti...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.12072) | [📝 Analysis](795c27028740e9abeab86b000c4fbb11.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-19 09:28:17 UTC*

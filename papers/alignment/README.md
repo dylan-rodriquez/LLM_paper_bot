@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
+
+**Score:** 92.0 | **Published:** 2025-08-19 | **Authors:** Emanuel Z. Fenech-Borg, Tilen P. Meznaric-Kos, Milica D. Lekovic-Bojovic, Arni J. Hentze-Djurhuus
+
+arXiv:2508.12411v1 Announce Type: new 
+Abstract: Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion o...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.12411) | [📝 Analysis](ed366498e6bb750df2e89501edda886c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-19 09:28:17 UTC*

@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "DocHPLT: A Massively Multilingual Document-Level Translation Dataset",
+      "authors": [
+        "Dayy\\'an O'Brien, Bhavitvya Malik, Ona de Gibert, Pinzhen Chen, Barry Haddow, J\\\"org Tiedemann"
+      ],
+      "abstract": "arXiv:2508.13079v1 Announce Type: new \nAbstract: Existing document-level machine translation resources are only available for a handful of languages, mostly high-resourced ones. To facilitate the training and evaluation of document-level translation and, more broadly, long-context modeling for global communities, we create DocHPLT, the largest publicly available document-level translation dataset to date. It contains 124 million aligned document pairs across 50 languages paired with English, comprising 4.26 billion sentences, with further possibility to provide 2500 bonus pairs not involving English. Unlike previous reconstruction-based approaches that piece together documents from sentence-level data, we modify an existing web extraction pipeline to preserve complete document integrity from the source, retaining all content including unaligned portions. After our preliminary experiments identify the optimal training context strategy for document-level translation, we demonstrate that LLMs fine-tuned on DocHPLT substantially outperform off-the-shelf instruction-tuned baselines, with particularly dramatic improvements for under-resourced languages. We open-source the dataset under a permissive license, providing essential infrastructure for advancing multilingual document-level translation.",
+      "url": "https://arxiv.org/abs/2508.13079",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "document",
+        "level",
+        "document level",
+        "translation",
+        "level translation",
+        "dataset",
+        "dochplt",
+        "languages",
+        "available",
+        "context"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a significant bottleneck in machine translation \u2013 the lack of large-scale document-level datasets for diverse languages. The creation of DocHPLT, with its 124 million aligned document pairs, is a substantial contribution. The approach of modifying an existing web extraction pipeline to preserve document integrity is a clever solution, and the mention of identifying optimal training context strategies suggests a rigorous methodology. The high number of languages (50) paired with English is particularly noteworthy.",
+      "paper_id": "2eb4c813008433b8422071ac8125129a"
+    },
+    {
+      "title": "Generative Medical Event Models Improve with Scale",
+      "authors": [
+        "Shane Waxler, Paul Blazek, Davis White, Daniel Sneider, Kevin Chung, Mani Nagarathnam, Patrick Williams, Hank Voeller, Karen Wong, Matthew Swanhorst, Sheng Zhang, Naoto Usuyama, Cliff Wong, Tristan Naumann, Hoifung Poon, Andrew Loza, Daniella Meeker, Seth Hain, Rahul Shah"
+      ],
+      "abstract": "arXiv:2508.12104v1 Announce Type: cross \nAbstract: Realizing personalized medicine at scale calls for methods that distill insights from longitudinal patient journeys, which can be viewed as a sequence of medical events. Foundation models pretrained on large-scale medical event data represent a promising direction for scaling real-world evidence generation and generalizing to diverse downstream tasks. Using Epic Cosmos, a dataset with medical events from de-identified longitudinal health records for 16.3 billion encounters over 300 million unique patient records from 310 health systems, we introduce the Cosmos Medical Event Transformer ( CoMET) models, a family of decoder-only transformer models pretrained on 118 million patients representing 115 billion discrete medical events (151 billion tokens). We present the largest scaling-law study for medical event data, establishing a methodology for pretraining and revealing power-law scaling relationships for compute, tokens, and model size. Based on this, we pretrained a series of compute-optimal models with up to 1 billion parameters. Conditioned on a patient's real-world history, CoMET autoregressively generates the next medical event, simulating patient health timelines. We studied 78 real-world tasks, including diagnosis prediction, disease prognosis, and healthcare operations. Remarkably for a foundation model with generic pretraining and simulation-based inference, CoMET generally outperformed or matched task-specific supervised models on these tasks, without requiring task-specific fine-tuning or few-shot examples. CoMET's predictive power consistently improves as the model and pretraining scale. Our results show that CoMET, a generative medical event foundation model, can effectively capture complex clinical dynamics, providing an extensible and generalizable framework to support clinical decision-making, streamline healthcare operations, and improve patient outcomes.",
+      "url": "https://arxiv.org/abs/2508.12104",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "event",
+        "medical event",
+        "models",
+        "comet",
+        "patient",
+        "billion",
+        "model",
+        "scale",
+        "events"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly significant problem \u2013 scaling personalized medicine through large language models applied to medical event data. The use of the Epic Cosmos dataset, representing a massive scale of patient records, is impressive. The focus on scaling laws is a rigorous approach, and the methodology appears sound, though details are limited to the abstract. The potential for real-world impact is substantial, and the work aligns well with current trends in applying foundation models to healthcare.",
+      "paper_id": "5160bbb9207000a326b26aaf59fa1ca7"
+    },
+    {
+      "title": "Mitigating Jailbreaks with Intent-Aware LLMs",
+      "authors": [
+        "Wei Jie Yeo, Ranjan Satapathy, Erik Cambria"
+      ],
+      "abstract": "arXiv:2508.12072v1 Announce Type: cross \nAbstract: Despite extensive safety-tuning, large language models (LLMs) remain vulnerable to jailbreak attacks via adversarially crafted instructions, reflecting a persistent trade-off between safety and task performance. In this work, we propose Intent-FT, a simple and lightweight fine-tuning approach that explicitly trains LLMs to infer the underlying intent of an instruction before responding. By fine-tuning on a targeted set of adversarial instructions, Intent-FT enables LLMs to generalize intent deduction to unseen attacks, thereby substantially improving their robustness. We comprehensively evaluate both parametric and non-parametric attacks across open-source and proprietary models, considering harmfulness from attacks, utility, over-refusal, and impact against white-box threats. Empirically, Intent-FT consistently mitigates all evaluated attack categories, with no single attack exceeding a 50\\% success rate -- whereas existing defenses remain only partially effective. Importantly, our method preserves the model's general capabilities and reduces excessive refusals on benign instructions containing superficially harmful keywords. Furthermore, models trained with Intent-FT accurately identify hidden harmful intent in adversarial attacks, and these learned intentions can be effectively transferred to enhance vanilla model defenses.",
+      "url": "https://arxiv.org/abs/2508.12072",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "intent",
+        "attacks",
+        "ft",
+        "intent ft",
+        "llms",
+        "instructions",
+        "models",
+        "tuning",
+        "adversarial",
+        "attack"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in LLM deployment \u2013 jailbreaking \u2013 and proposes a novel, lightweight solution (Intent-FT). The comprehensive evaluation across various attacks and models suggests a robust defense. While the core idea of intent recognition isn't entirely new, applying it specifically to mitigate jailbreaks via fine-tuning appears promising and well-executed, as evidenced by the reported success rate reduction.",
+      "paper_id": "795c27028740e9abeab86b000c4fbb11"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-19T09:28:17.135911"
 }

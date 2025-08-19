@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases",
+      "authors": [
+        "Emanuel Z. Fenech-Borg, Tilen P. Meznaric-Kos, Milica D. Lekovic-Bojovic, Arni J. Hentze-Djurhuus"
+      ],
+      "abstract": "arXiv:2508.12411v1 Announce Type: new \nAbstract: Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion of a \"cultural gene\" -- a systematic value orientation that LLMs inherit from their training corpora -- and introduce a Cultural Probe Dataset (CPD) of 200 prompts targeting two classic cross-cultural dimensions: Individualism-Collectivism (IDV) and Power Distance (PDI). Using standardized zero-shot prompts, we compare a Western-centric model (GPT-4) and an Eastern-centric model (ERNIE Bot). Human annotation shows significant and consistent divergence across both dimensions. GPT-4 exhibits individualistic and low-power-distance tendencies (IDV score approx 1.21; PDI score approx -1.05), while ERNIE Bot shows collectivistic and higher-power-distance tendencies (IDV approx -0.89; PDI approx 0.76); differences are statistically significant (p < 0.001). We further compute a Cultural Alignment Index (CAI) against Hofstede's national scores and find GPT-4 aligns more closely with the USA (e.g., IDV CAI approx 0.91; PDI CAI approx 0.88) whereas ERNIE Bot aligns more closely with China (IDV CAI approx 0.85; PDI CAI approx 0.81). Qualitative analyses of dilemma resolution and authority-related judgments illustrate how these orientations surface in reasoning. Our results support the view that LLMs function as statistical mirrors of their cultural corpora and motivate culturally aware evaluation and deployment to avoid algorithmic cultural hegemony.",
+      "url": "https://arxiv.org/abs/2508.12411",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "approx",
+        "cultural",
+        "cai",
+        "idv",
+        "pdi",
+        "cai approx",
+        "bot",
+        "distance",
+        "ernie",
+        "ernie bot"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and timely issue \u2013 the cultural biases embedded within LLMs. The introduction of the 'cultural gene' concept and the CPD are strong methodological contributions, and the statistically significant findings regarding GPT-4 and ERNIE Bot are compelling. The clear framing of the problem and the use of established cross-cultural dimensions enhance the paper's rigor and potential impact.",
+      "paper_id": "ed366498e6bb750df2e89501edda886c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-19T09:28:17.133142"
 }
