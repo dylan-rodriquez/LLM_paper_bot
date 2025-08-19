@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-19 | **Authors:** Zhiyuan Ning, Tianle Gu, Jiaxin Song, Shixin Hong, Lingyu Li, Huacan Liu, Jie Li, Yixu Wang, Meng Lingyu, Yan Teng, Yingchun Wang
+
+arXiv:2508.12733v1 Announce Type: new 
+Abstract: The widespread adoption and increasing prominence of large language models (LLMs) in global technologies necessitate a rigorous focus on ensuring their...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.12733) | [📝 Analysis](7ce6fd8e76ba44fc79ab127b0f7b9ce1.md)
+
+---
+
+### Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation
+
+**Score:** 90.0 | **Published:** 2025-08-19 | **Authors:** David Heineman, Valentin Hofmann, Ian Magnusson, Yuling Gu, Noah A. Smith, Hannaneh Hajishirzi, Kyle Lo, Jesse Dodge
+
+arXiv:2508.13144v1 Announce Type: new 
+Abstract: Developing large language models is expensive and involves making decisions with small experiments, typically by evaluating on large, multi-task evalua...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13144) | [📝 Analysis](5f3906013d3f7f5a782db7a7ae4844c2.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-19 09:28:17 UTC*

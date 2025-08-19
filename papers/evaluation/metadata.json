@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models",
+      "authors": [
+        "Zhiyuan Ning, Tianle Gu, Jiaxin Song, Shixin Hong, Lingyu Li, Huacan Liu, Jie Li, Yixu Wang, Meng Lingyu, Yan Teng, Yingchun Wang"
+      ],
+      "abstract": "arXiv:2508.12733v1 Announce Type: new \nAbstract: The widespread adoption and increasing prominence of large language models (LLMs) in global technologies necessitate a rigorous focus on ensuring their safety across a diverse range of linguistic and cultural contexts. The lack of a comprehensive evaluation and diverse data in existing multilingual safety evaluations for LLMs limits their effectiveness, hindering the development of robust multilingual safety alignment. To address this critical gap, we introduce LinguaSafe, a comprehensive multilingual safety benchmark crafted with meticulous attention to linguistic authenticity. The LinguaSafe dataset comprises 45k entries in 12 languages, ranging from Hungarian to Malay. Curated using a combination of translated, transcreated, and natively-sourced data, our dataset addresses the critical need for multilingual safety evaluations of LLMs, filling the void in the safety evaluation of LLMs across diverse under-represented languages from Hungarian to Malay. LinguaSafe presents a multidimensional and fine-grained evaluation framework, with direct and indirect safety assessments, including further evaluations for oversensitivity. The results of safety and helpfulness evaluations vary significantly across different domains and different languages, even in languages with similar resource levels. Our benchmark provides a comprehensive suite of metrics for in-depth safety evaluation, underscoring the critical importance of thoroughly assessing multilingual safety in LLMs to achieve more balanced safety alignment. Our dataset and code are released to the public to facilitate further research in the field of multilingual LLM safety.",
+      "url": "https://arxiv.org/abs/2508.12733",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "multilingual",
+        "multilingual safety",
+        "llms",
+        "comprehensive",
+        "evaluation",
+        "evaluations",
+        "languages",
+        "linguasafe",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the lack of comprehensive multilingual benchmarks. The creation of a 45k entry dataset across 12 languages, using a mix of translation, transcreation, and native sourcing, demonstrates a strong methodological approach. The focus on under-represented languages is particularly valuable, and the work is highly relevant given the increasing global deployment of LLMs. The novelty lies in the scale and diversity of the dataset, though the core idea of a multilingual safety benchmark isn't entirely new.",
+      "paper_id": "7ce6fd8e76ba44fc79ab127b0f7b9ce1"
+    },
+    {
+      "title": "Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation",
+      "authors": [
+        "David Heineman, Valentin Hofmann, Ian Magnusson, Yuling Gu, Noah A. Smith, Hannaneh Hajishirzi, Kyle Lo, Jesse Dodge"
+      ],
+      "abstract": "arXiv:2508.13144v1 Announce Type: new \nAbstract: Developing large language models is expensive and involves making decisions with small experiments, typically by evaluating on large, multi-task evaluation suites. In this work, we analyze specific properties which make a benchmark more reliable for such decisions, and interventions to design higher-quality evaluation benchmarks. We introduce two key metrics that show differences in current benchmarks: signal, a benchmark's ability to separate better models from worse models, and noise, a benchmark's sensitivity to random variability between training steps. We demonstrate that benchmarks with a better signal-to-noise ratio are more reliable when making decisions at small scale, and those with less noise have lower scaling law prediction error. These results suggest that improving signal or noise will lead to more useful benchmarks, so we introduce three interventions designed to directly affect signal or noise. For example, we propose that switching to a metric that has better signal and noise (e.g., perplexity rather than accuracy) leads to better reliability and improved scaling law error. We also find that filtering noisy subtasks, to improve an aggregate signal-to-noise ratio, leads to more reliable multi-task evaluations. We also find that averaging the output of a model's intermediate checkpoints to reduce noise leads to consistent improvements. We conclude by recommending that those creating new benchmarks, or selecting which existing benchmarks to use, aim for high signal and low noise. We use 30 benchmarks for these experiments, and 375 open-weight language models from 60M to 32B parameters, resulting in a new, publicly available dataset of 900K evaluation benchmark results, totaling 200M instances.",
+      "url": "https://arxiv.org/abs/2508.13144",
+      "published_date": "2025-08-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "noise",
+        "signal",
+        "benchmarks",
+        "signal noise",
+        "benchmark",
+        "better",
+        "evaluation",
+        "models",
+        "decisions",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM development: the reliability of evaluation benchmarks. The introduction of 'signal' and 'noise' as quantifiable metrics is a strong methodological contribution, and the proposed interventions to improve benchmarks are promising. The work appears rigorous and well-motivated, addressing a core challenge in the field, and the high signal-to-noise ratio correlation with scaling laws suggests practical value.",
+      "paper_id": "5f3906013d3f7f5a782db7a7ae4844c2"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-19T09:28:17.134166"
 }
