@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges
+
+**Score:** 92.0 | **Published:** 2025-08-20 | **Authors:** Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, Weinan Zhang
+
+arXiv:2508.05668v3 Announce Type: replace-cross 
+Abstract: The advent of Large Language Models (LLMs) has significantly revolutionized web search. The emergence of LLM-based Search Agents marks a pivo...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05668) | [📝 Analysis](2e9c4541dfc9422e59c5b5205c543b61.md)
+
+---
+
+### Virtuous Machines: Towards Artificial General Science
+
+**Score:** 92.0 | **Published:** 2025-08-20 | **Authors:** Gabrielle Wehr, Reuben Rideaux, Amaya J. Fox, David R. Lightfoot, Jason Tangen, Jason B. Mattingley, Shane E. Ehrhardt
+
+arXiv:2508.13421v1 Announce Type: new 
+Abstract: Artificial intelligence systems are transforming scientific discovery by accelerating specific research tasks, from protein structure prediction to mat...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13421) | [📝 Analysis](1489b8eeccf4e5914a6c2d556e89f634.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-20 09:28:44 UTC*

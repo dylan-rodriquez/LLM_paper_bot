@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Search-Time Data Contamination
+
+**Score:** 92.0 | **Published:** 2025-08-20 | **Authors:** Ziwen Han, Meher Mankikar, Julian Michael, Zifan Wang
+
+arXiv:2508.13180v1 Announce Type: new 
+Abstract: Data contamination refers to the leakage of evaluation data into model training data, resulting in overfitting to supposedly held-out test sets and com...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13180) | [📝 Analysis](cf15a111691f4cbe271e7262113a38e3.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-20 09:28:44 UTC*

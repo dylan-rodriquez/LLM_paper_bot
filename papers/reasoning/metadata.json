@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "LM Agents May Fail to Act on Their Own Risk Knowledge",
+      "authors": [
+        "Yuzhi Tang, Tianxiao Li, Elizabeth Li, Chris J. Maddison, Honghua Dong, Yangjun Ruan"
+      ],
+      "abstract": "arXiv:2508.13465v1 Announce Type: new \nAbstract: Language model (LM) agents have demonstrated significant potential for automating real-world tasks, yet they pose a diverse array of potential, severe risks in safety-critical scenarios. In this work, we identify a significant gap between LM agents' risk awareness and safety execution abilities: while they often answer \"Yes\" to queries like \"Is executing `sudo rm -rf /*' dangerous?\", they will likely fail to identify such risks in instantiated trajectories or even directly perform these risky actions when acting as agents. To systematically investigate this, we develop a comprehensive evaluation framework to examine agents' safety across three progressive dimensions: 1) their knowledge about potential risks, 2) their ability to identify corresponding risks in execution trajectories, and 3) their actual behaviors to avoid executing these risky actions. Our evaluation reveals two critical performance gaps that resemble the generator-validator gaps observed in LMs: while agents demonstrate near-perfect risk knowledge ($>98\\%$ pass rates), they fail to apply this knowledge when identifying risks in actual scenarios (with performance dropping by $>23\\%$) and often still execute risky actions ($<26\\%$ pass rates). Notably, this trend persists across more capable LMs as well as in specialized reasoning models like DeepSeek-R1, indicating that simply scaling model capabilities or inference compute does not inherently resolve safety concerns. Instead, we take advantage of these observed gaps to develop a risk verifier that independently critiques the proposed actions by agents, with an abstractor that converts specific execution trajectories into abstract descriptions where LMs can more effectively identify the risks. Our overall system achieves a significant reduction of risky action execution by $55.3\\%$ over vanilla-prompted agents.",
+      "url": "https://arxiv.org/abs/2508.13465",
+      "published_date": "2025-08-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "agents",
+        "risks",
+        "actions",
+        "execution",
+        "identify",
+        "knowledge",
+        "risk",
+        "risky",
+        "safety",
+        "fail"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical safety concern with LM agents \u2013 the disconnect between stated risk awareness and actual behavior. The development of a three-dimensional evaluation framework (knowledge, identification, avoidance) is a strong methodological contribution. The problem is highly relevant given the increasing deployment of LM agents in real-world scenarios, and the findings suggest a significant gap that needs to be addressed.",
+      "paper_id": "e51c311a33e32727334182b4d55dc2ac"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-20T09:28:44.072620"
 }

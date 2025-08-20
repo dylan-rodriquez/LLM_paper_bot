@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Search-Time Data Contamination",
+      "authors": [
+        "Ziwen Han, Meher Mankikar, Julian Michael, Zifan Wang"
+      ],
+      "abstract": "arXiv:2508.13180v1 Announce Type: new \nAbstract: Data contamination refers to the leakage of evaluation data into model training data, resulting in overfitting to supposedly held-out test sets and compromising test validity. We identify an analogous issue, search-time contamination (STC), in evaluating search-based LLM agents which use tools to gather information from online sources when answering user queries. STC occurs when the retrieval step surfaces a source containing the test question (or a near-duplicate) alongside its answer, enabling agents to copy rather than genuinely infer or reason, undermining benchmark integrity. We find that HuggingFace, an online platform hosting evaluation datasets, appears among retrieved sources in search based agent logs. Consequently, agents often explicitly acknowledge discovering question answer pairs from HuggingFace within their reasoning chains. On three commonly used capability benchmarks: Humanity's Last Exam (HLE), SimpleQA, and GPQA, we demonstrate that for approximately 3% of questions, search-based agents directly find the datasets with ground truth labels on HuggingFace. When millions of evaluation queries target the same benchmark, even small, repeated leaks can accelerate the benchmark's obsolescence, shortening its intended lifecycle. After HuggingFace is blocked, we observe a drop in accuracy on the contaminated subset of approximately 15%. We further show through ablation experiments that publicly accessible evaluation datasets on HuggingFace may not be the sole source of STC. To this end, we conclude by proposing best practices for benchmark design and result reporting to address this novel form of leakage and ensure trustworthy evaluation of search-based LLM agents. To facilitate the auditing of evaluation results, we also publicly release the complete logs from our experiments.",
+      "url": "https://arxiv.org/abs/2508.13180",
+      "published_date": "2025-08-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "search",
+        "agents",
+        "huggingface",
+        "based",
+        "benchmark",
+        "data",
+        "search based",
+        "contamination",
+        "datasets"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper identifies a critical and previously unaddressed issue \u2013 search-time contamination \u2013 in the evaluation of LLM agents. The problem is clearly articulated and the initial findings regarding HuggingFace's role are concerning. While the methodology appears sound based on the abstract, the full paper will need to demonstrate the extent of the contamination and its impact on benchmark results, but the premise is strong and timely.",
+      "paper_id": "cf15a111691f4cbe271e7262113a38e3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-20T09:28:44.071611"
 }
