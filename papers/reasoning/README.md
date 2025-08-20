@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### LM Agents May Fail to Act on Their Own Risk Knowledge
+
+**Score:** 92.0 | **Published:** 2025-08-20 | **Authors:** Yuzhi Tang, Tianxiao Li, Elizabeth Li, Chris J. Maddison, Honghua Dong, Yangjun Ruan
+
+arXiv:2508.13465v1 Announce Type: new 
+Abstract: Language model (LM) agents have demonstrated significant potential for automating real-world tasks, yet they pose a diverse array of potential, severe ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13465) | [📝 Analysis](e51c311a33e32727334182b4d55dc2ac.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-20 09:28:44 UTC*

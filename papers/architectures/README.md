@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Can AI Keep a Secret? Contextual Integrity Verification: A Provable Security Architecture for LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-20 | **Authors:** Aayush Gupta
+
+arXiv:2508.09288v2 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) remain acutely vulnerable to prompt injection and related jailbreak attacks; heuristic guardrails (rules, filter...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09288) | [📝 Analysis](03b9fdf4d95557cc70c1e96ad429259d.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-20 09:28:44 UTC*

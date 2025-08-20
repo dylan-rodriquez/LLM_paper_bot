@@ -191,7 +191,71 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges",
+      "authors": [
+        "Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, Weinan Zhang"
+      ],
+      "abstract": "arXiv:2508.05668v3 Announce Type: replace-cross \nAbstract: The advent of Large Language Models (LLMs) has significantly revolutionized web search. The emergence of LLM-based Search Agents marks a pivotal shift towards deeper, dynamic, autonomous information seeking. These agents can comprehend user intentions and environmental context and execute multi-turn retrieval with dynamic planning, extending search capabilities far beyond the web. Leading examples like OpenAI's Deep Research highlight their potential for deep information mining and real-world applications. This survey provides the first systematic analysis of search agents. We comprehensively analyze and categorize existing works from the perspectives of architecture, optimization, application, and evaluation, ultimately identifying critical open challenges and outlining promising future research directions in this rapidly evolving field. Our repository is available on https://github.com/YunjiaXi/Awesome-Search-Agent-Papers.",
+      "url": "https://arxiv.org/abs/2508.05668",
+      "published_date": "2025-08-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "search",
+        "agents",
+        "deep",
+        "search agents",
+        "based",
+        "challenges",
+        "dynamic",
+        "evaluation",
+        "information",
+        "llm"
+      ],
+      "subject_classification": "agents",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 LLM-based search agents. The systematic analysis across architecture, optimization, application, and evaluation is a strong point, and the provided repository enhances its value. While a survey isn't inherently 'innovative' in the same way as a novel algorithm, being the *first* systematic analysis is significant. The potential for impact is high given the growing interest in these agents and their applications.",
+      "paper_id": "2e9c4541dfc9422e59c5b5205c543b61"
+    },
+    {
+      "title": "Virtuous Machines: Towards Artificial General Science",
+      "authors": [
+        "Gabrielle Wehr, Reuben Rideaux, Amaya J. Fox, David R. Lightfoot, Jason Tangen, Jason B. Mattingley, Shane E. Ehrhardt"
+      ],
+      "abstract": "arXiv:2508.13421v1 Announce Type: new \nAbstract: Artificial intelligence systems are transforming scientific discovery by accelerating specific research tasks, from protein structure prediction to materials design, yet remain confined to narrow domains requiring substantial human oversight. The exponential growth of scientific literature and increasing domain specialisation constrain researchers' capacity to synthesise knowledge across disciplines and develop unifying theories, motivating exploration of more general-purpose AI systems for science. Here we show that a domain-agnostic, agentic AI system can independently navigate the scientific workflow - from hypothesis generation through data collection to manuscript preparation. The system autonomously designed and executed three psychological studies on visual working memory, mental rotation, and imagery vividness, executed one new online data collection with 288 participants, developed analysis pipelines through 8-hour+ continuous coding sessions, and produced completed manuscripts. The results demonstrate the capability of AI scientific discovery pipelines to conduct non-trivial research with theoretical reasoning and methodological rigour comparable to experienced researchers, though with limitations in conceptual nuance and theoretical interpretation. This is a step toward embodied AI that can test hypotheses through real-world experiments, accelerating discovery by autonomously exploring regions of scientific space that human cognitive and resource constraints might otherwise leave unexplored. It raises important questions about the nature of scientific understanding and the attribution of scientific credit.",
+      "url": "https://arxiv.org/abs/2508.13421",
+      "published_date": "2025-08-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "ai",
+        "discovery",
+        "accelerating",
+        "artificial",
+        "autonomously",
+        "collection",
+        "data",
+        "data collection",
+        "domain"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a crucial bottleneck in scientific progress \u2013 the overwhelming volume of information. Demonstrating an AI system capable of independently designing and executing psychological studies is a significant achievement, suggesting a path towards truly autonomous scientific discovery. The reported 8+ hour continuous operation and manuscript preparation are particularly impressive, indicating a level of sophistication beyond typical AI-assisted research tools. The potential for accelerating scientific output and uncovering novel insights is substantial.",
+      "paper_id": "1489b8eeccf4e5914a6c2d556e89f634"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-08-20T09:28:44.069354"
 }
