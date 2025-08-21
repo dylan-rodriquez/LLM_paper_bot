@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### From Autonomy to Agency: Agentic Vehicles for Human-Centered Mobility Systems
+
+**Score:** 92.0 | **Published:** 2025-08-21 | **Authors:** Jiangbo Yu
+
+arXiv:2507.04996v4 Announce Type: replace-cross 
+Abstract: Autonomy, from the Greek autos (self) and nomos (law), refers to the capacity to operate according to internal rules without external control...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.04996) | [📝 Analysis](376044dfd62bb188bd21e48e2f9ed188.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-21 09:28:25 UTC*

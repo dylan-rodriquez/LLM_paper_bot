@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers
+
+**Score:** 92.0 | **Published:** 2025-08-21 | **Authors:** Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li
+
+arXiv:2508.14704v1 Announce Type: cross 
+Abstract: The Model Context Protocol has emerged as a transformative standard for connecting large language models to external data sources and tools, rapidly ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.14704) | [📝 Analysis](aeb6bd2a34ec4eb1306c19b875680f8c.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-21 09:28:25 UTC*

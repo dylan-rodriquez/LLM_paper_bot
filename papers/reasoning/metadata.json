@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "DeepRetro: Retrosynthetic Pathway Discovery using Iterative LLM Reasoning",
+      "authors": [
+        "Shreyas Vinaya Sathyanarayana, Sharanabasava D. Hiremath, Rahil Shah, Rishikesh Panda, Rahul Jana, Riya Singh, Rida Irfan, Ashwin Murali, Bharath Ramsundar"
+      ],
+      "abstract": "arXiv:2507.07060v2 Announce Type: replace-cross \nAbstract: The synthesis of complex natural products remains one of the grand challenges of organic chemistry. We present DeepRetro, a major advancement in computational retrosynthesis that enables the discovery of viable synthetic routes for complex molecules typically considered beyond the reach of existing retrosynthetic methods. DeepRetro is a novel, open-source framework that tightly integrates large language models (LLMs), traditional retrosynthetic engines, and expert human feedback in an iterative design loop. Prior approaches rely solely on template-based methods or unconstrained LLM outputs. In contrast, DeepRetro combines the precision of template-based methods with the generative flexibility of LLMs, controlled by rigorous chemical validity checks and enhanced by recursive refinement. This hybrid system dynamically explores and revises synthetic pathways, guided by both algorithmic checks and expert chemist feedback through an interactive user interface. While DeepRetro achieves strong performance on standard retrosynthesis benchmarks, its true strength lies in its ability to propose novel, viable pathways to highly complex natural products-targets that have historically eluded automated planning. Through detailed case studies, we illustrate how this approach enables new routes for total synthesis and facilitates human-machine collaboration in organic chemistry. Beyond retrosynthesis, DeepRetro represents a working model for how to leverage LLMs in scientific discovery. We provide a transparent account of the system's design, algorithms, and human-feedback loop, enabling broad adaptation across scientific domains. By releasing DeepRetro as an open-source tool, we aim to empower chemists to tackle increasingly ambitious synthetic targets, accelerating progress in drug discovery, materials design, and beyond.",
+      "url": "https://arxiv.org/abs/2507.07060",
+      "published_date": "2025-08-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "deepretro",
+        "discovery",
+        "complex",
+        "design",
+        "feedback",
+        "human",
+        "llms",
+        "methods",
+        "retrosynthesis",
+        "retrosynthetic"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in organic chemistry \u2013 complex molecule synthesis \u2013 and proposes a novel solution by integrating LLMs with traditional retrosynthetic methods. The iterative design loop with expert feedback is a strong point, suggesting a rigorous and practical approach. The combination of LLM flexibility and template-based precision appears promising, and the open-source nature will likely foster further development and adoption.",
+      "paper_id": "f615cdc6079cebb0457f32a1bac6abff"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-21T09:28:25.667493"
 }
