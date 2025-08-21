@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### DeepRetro: Retrosynthetic Pathway Discovery using Iterative LLM Reasoning
+
+**Score:** 92.0 | **Published:** 2025-08-21 | **Authors:** Shreyas Vinaya Sathyanarayana, Sharanabasava D. Hiremath, Rahil Shah, Rishikesh Panda, Rahul Jana, Riya Singh, Rida Irfan, Ashwin Murali, Bharath Ramsundar
+
+arXiv:2507.07060v2 Announce Type: replace-cross 
+Abstract: The synthesis of complex natural products remains one of the grand challenges of organic chemistry. We present DeepRetro, a major advancement...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.07060) | [📝 Analysis](f615cdc6079cebb0457f32a1bac6abff.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-21 09:28:25 UTC*
