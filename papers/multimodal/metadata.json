@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model",
+      "authors": [
+        "Yirong Sun, Yizhong Geng, Peidong Wei, Yanjun Chen, Jinghan Yang, Rongfei Chen, Wei Zhang, Xiaoyu Shen"
+      ],
+      "abstract": "arXiv:2508.15418v1 Announce Type: new \nAbstract: The development of Large Speech-Language Models (LSLMs) has been slowed by fragmented architectures and a lack of transparency, hindering the systematic comparison and reproducibility of research. Unlike in the vision-language domain, the LSLM field suffers from the common practice of releasing model weights without their corresponding training data and configurations. To address these critical gaps, we introduce LLaSO, the first fully open, end-to-end framework for large-scale speech-language modeling. LLaSO provides the community with three essential resources: (1) LLaSO-Align, a 12M-instance speech-text alignment corpus; (2) LLaSO-Instruct, a 13.5M-instance multi-task instruction-tuning dataset; and (3) LLaSO-Eval, a reproducible benchmark for standardized evaluation. To validate our framework, we build and release LLaSO-Base, a 3.8B-parameter reference model trained exclusively on our public data. It achieves a normalized score of 0.72, establishing a strong, reproducible baseline that surpasses comparable models. Our analysis reveals that while broader training coverage enhances performance, significant generalization gaps persist on unseen tasks, particularly in pure audio scenarios. By releasing the complete stack of data, benchmarks, and models, LLaSO establishes a foundational open standard to unify research efforts and accelerate community-driven progress in LSLMs. We release the code, dataset, pretrained models, and results in https://github.com/EIT-NLP/LLaSO.",
+      "url": "https://arxiv.org/abs/2508.15418",
+      "published_date": "2025-08-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llaso",
+        "language",
+        "models",
+        "speech",
+        "data",
+        "framework",
+        "large",
+        "model",
+        "reproducible",
+        "research"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critical bottleneck in LSLM research \u2013 the lack of reproducibility due to data and configuration unavailability. The release of aligned data, instruction-tuning datasets, and a benchmark, alongside a base model, is a substantial contribution. While the 3.8B parameter model isn't state-of-the-art in size, the focus on open access and reproducibility is highly valuable and likely to be well-received by the community.",
+      "paper_id": "be7c589788de6a14c3dca5a377bd3b2f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-08-22T09:28:22.041636"
 }

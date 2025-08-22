@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model
+
+**Score:** 92.0 | **Published:** 2025-08-22 | **Authors:** Yirong Sun, Yizhong Geng, Peidong Wei, Yanjun Chen, Jinghan Yang, Rongfei Chen, Wei Zhang, Xiaoyu Shen
+
+arXiv:2508.15418v1 Announce Type: new 
+Abstract: The development of Large Speech-Language Models (LSLMs) has been slowed by fragmented architectures and a lack of transparency, hindering the systemati...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15418) | [📝 Analysis](be7c589788de6a14c3dca5a377bd3b2f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-22 09:28:22 UTC*

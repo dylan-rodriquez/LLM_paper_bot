@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "M-HELP: Using Social Media Data to Detect Mental Health Help-Seeking Signals",
+      "authors": [
+        "MSVPJ Sathvik, Zuhair Hasan Shaik, Vivek Gupta"
+      ],
+      "abstract": "arXiv:2508.15440v1 Announce Type: new \nAbstract: Mental health disorders are a global crisis. While various datasets exist for detecting such disorders, there remains a critical gap in identifying individuals actively seeking help. This paper introduces a novel dataset, M-Help, specifically designed to detect help-seeking behavior on social media. The dataset goes beyond traditional labels by identifying not only help-seeking activity but also specific mental health disorders and their underlying causes, such as relationship challenges or financial stressors. AI models trained on M-Help can address three key tasks: identifying help-seekers, diagnosing mental health conditions, and uncovering the root causes of issues.",
+      "url": "https://arxiv.org/abs/2508.15440",
+      "published_date": "2025-08-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "help",
+        "health",
+        "mental",
+        "mental health",
+        "seeking",
+        "disorders",
+        "help seeking",
+        "identifying",
+        "causes",
+        "dataset"
+      ],
+      "subject_classification": "general",
+      "justification": "This paper addresses a highly significant problem \u2013 mental health help-seeking \u2013 and the creation of a dedicated dataset (M-Help) is a valuable contribution. The ability to identify not just help-seeking, but also underlying causes, is a strong point. While the abstract doesn't detail novel *methods*, the dataset itself represents a significant advancement, and the potential for AI applications is high. The field is ripe for this type of work, suggesting a positive reception.",
+      "paper_id": "f658b834a5afa8d5d395a20f7259a3b1"
+    }
+  ],
+  "last_updated": "2025-08-22T09:28:22.042494"
+}

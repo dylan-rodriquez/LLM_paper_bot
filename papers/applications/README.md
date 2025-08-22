@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Pub-Guard-LLM: Detecting Retracted Biomedical Articles with Reliable Explanations
+
+**Score:** 92.0 | **Published:** 2025-08-22 | **Authors:** Lihu Chen, Shuojie Fu, Gabriel Freedman, Cemre Zor, Guy Martin, James Kinross, Uddhav Vaghela, Ovidiu Serban, Francesca Toni
+
+arXiv:2502.15429v5 Announce Type: replace 
+Abstract: A significant and growing number of published scientific articles is found to involve fraudulent practices, posing a serious threat to the credibil...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.15429) | [📝 Analysis](66823d773f36034faf460ef5bcfdab5b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-22 09:28:22 UTC*
