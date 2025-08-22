@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Unveiling Trust in Multimodal Large Language Models: Evaluation, Analysis, and Mitigation",
+      "authors": [
+        "Yichi Zhang, Yao Huang, Yifan Wang, Yitong Sun, Chang Liu, Zhe Zhao, Zhengwei Fang, Huanran Chen, Xiao Yang, Xingxing Wei, Hang Su, Yinpeng Dong, Jun Zhu"
+      ],
+      "abstract": "arXiv:2508.15370v1 Announce Type: new \nAbstract: The trustworthiness of Multimodal Large Language Models (MLLMs) remains an intense concern despite the significant progress in their capabilities. Existing evaluation and mitigation approaches often focus on narrow aspects and overlook risks introduced by the multimodality. To tackle these challenges, we propose MultiTrust-X, a comprehensive benchmark for evaluating, analyzing, and mitigating the trustworthiness issues of MLLMs. We define a three-dimensional framework, encompassing five trustworthiness aspects which include truthfulness, robustness, safety, fairness, and privacy; two novel risk types covering multimodal risks and cross-modal impacts; and various mitigation strategies from the perspectives of data, model architecture, training, and inference algorithms. Based on the taxonomy, MultiTrust-X includes 32 tasks and 28 curated datasets, enabling holistic evaluations over 30 open-source and proprietary MLLMs and in-depth analysis with 8 representative mitigation methods. Our extensive experiments reveal significant vulnerabilities in current models, including a gap between trustworthiness and general capabilities, as well as the amplification of potential risks in base LLMs by both multimodal training and inference. Moreover, our controlled analysis uncovers key limitations in existing mitigation strategies that, while some methods yield improvements in specific aspects, few effectively address overall trustworthiness, and many introduce unexpected trade-offs that compromise model utility. These findings also provide practical insights for future improvements, such as the benefits of reasoning to better balance safety and performance. Based on these insights, we introduce a Reasoning-Enhanced Safety Alignment (RESA) approach that equips the model with chain-of-thought reasoning ability to discover the underlying risks, achieving state-of-the-art results.",
+      "url": "https://arxiv.org/abs/2508.15370",
+      "published_date": "2025-08-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mitigation",
+        "trustworthiness",
+        "multimodal",
+        "risks",
+        "analysis",
+        "aspects",
+        "mllms",
+        "model",
+        "models",
+        "reasoning"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the trustworthiness of MLLMs \u2013 which is a significant barrier to their wider adoption. The proposed MultiTrust-X benchmark appears comprehensive, with a well-defined framework and a substantial number of tasks and datasets. While building benchmarks isn't inherently groundbreaking, the focus on multimodal-specific risks and the holistic approach to trustworthiness aspects demonstrate a strong methodological contribution. The potential for broad impact on the MLLM research community is high.",
+      "paper_id": "739c4d07d52eef19f206eea248bbd956"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-22T09:28:22.039349"
 }

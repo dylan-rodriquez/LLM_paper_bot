@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-22 | **Authors:** Tobias Schreieder, Tim Schopf, Michael F\"arber
+
+arXiv:2508.15396v1 Announce Type: new 
+Abstract: The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15396) | [📝 Analysis](d112142a16cdc4ebf52cdb51714b7bf7.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-22 09:28:22 UTC*

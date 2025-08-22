@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models",
+      "authors": [
+        "Tobias Schreieder, Tim Schopf, Michael F\\\"arber"
+      ],
+      "abstract": "arXiv:2508.15396v1 Announce Type: new \nAbstract: The increasing adoption of large language models (LLMs) has been accompanied by growing concerns regarding their reliability and trustworthiness. As a result, a growing body of research focuses on evidence-based text generation with LLMs, aiming to link model outputs to supporting evidence to ensure traceability and verifiability. However, the field is fragmented due to inconsistent terminology, isolated evaluation practices, and a lack of unified benchmarks. To bridge this gap, we systematically analyze 134 papers, introduce a unified taxonomy of evidence-based text generation with LLMs, and investigate 300 evaluation metrics across seven key dimensions. Thereby, we focus on approaches that use citations, attribution, or quotations for evidence-based text generation. Building on this, we examine the distinctive characteristics and representative methods in the field. Finally, we highlight open challenges and outline promising directions for future work.",
+      "url": "https://arxiv.org/abs/2508.15396",
+      "published_date": "2025-08-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "evidence",
+        "based",
+        "based text",
+        "evidence based",
+        "generation",
+        "text",
+        "text generation",
+        "llms",
+        "attribution",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem in the LLM space \u2013 ensuring trustworthiness through evidence-based generation. The systematic analysis of a large number of papers and the creation of a unified taxonomy are strong methodological contributions. While the core idea of surveying and categorizing isn't groundbreaking, the scale and focus on a rapidly evolving area like LLM attribution make it valuable; the 300 evaluation metric investigation is particularly impressive. The paper's focus on citations, attribution, and quotations is well-defined and addresses a critical need for standardization in the field.",
+      "paper_id": "d112142a16cdc4ebf52cdb51714b7bf7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-22T09:28:22.040561"
 }

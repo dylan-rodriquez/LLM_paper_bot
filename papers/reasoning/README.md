@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Unveiling Trust in Multimodal Large Language Models: Evaluation, Analysis, and Mitigation
+
+**Score:** 92.0 | **Published:** 2025-08-22 | **Authors:** Yichi Zhang, Yao Huang, Yifan Wang, Yitong Sun, Chang Liu, Zhe Zhao, Zhengwei Fang, Huanran Chen, Xiao Yang, Xingxing Wei, Hang Su, Yinpeng Dong, Jun Zhu
+
+arXiv:2508.15370v1 Announce Type: new 
+Abstract: The trustworthiness of Multimodal Large Language Models (MLLMs) remains an intense concern despite the significant progress in their capabilities. Exis...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15370) | [📝 Analysis](739c4d07d52eef19f206eea248bbd956.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-22 09:28:22 UTC*
