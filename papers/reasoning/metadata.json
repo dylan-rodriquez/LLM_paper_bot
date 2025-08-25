@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Who's Asking? Investigating Bias Through the Lens of Disability Framed Queries in LLMs",
+      "authors": [
+        "Srikant Panda, Vishnu Hari, Kalpana Panda, Amit Agarwal, Hitesh Laxmichand Patel"
+      ],
+      "abstract": "arXiv:2508.15831v1 Announce Type: new \nAbstract: Large Language Models (LLMs) routinely infer users demographic traits from phrasing alone, which can result in biased responses, even when no explicit demographic information is provided. The role of disability cues in shaping these inferences remains largely uncharted. Thus, we present the first systematic audit of disability-conditioned demographic bias across eight state-of-the-art instruction-tuned LLMs ranging from 3B to 72B parameters. Using a balanced template corpus that pairs nine disability categories with six real-world business domains, we prompt each model to predict five demographic attributes - gender, socioeconomic status, education, cultural background, and locality - under both neutral and disability-aware conditions.\n  Across a varied set of prompts, models deliver a definitive demographic guess in up to 97\\% of cases, exposing a strong tendency to make arbitrary inferences with no clear justification. Disability context heavily shifts predicted attribute distributions, and domain context can further amplify these deviations. We observe that larger models are simultaneously more sensitive to disability cues and more prone to biased reasoning, indicating that scale alone does not mitigate stereotype amplification.\n  Our findings reveal persistent intersections between ableism and other demographic stereotypes, pinpointing critical blind spots in current alignment strategies. We release our evaluation framework and results to encourage disability-inclusive benchmarking and recommend integrating abstention calibration and counterfactual fine-tuning to curb unwarranted demographic inference. Code and data will be released on acceptance.",
+      "url": "https://arxiv.org/abs/2508.15831",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "disability",
+        "demographic",
+        "llms",
+        "models",
+        "bias",
+        "biased",
+        "context",
+        "cues",
+        "disability cues",
+        "inferences"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critical and under-explored area \u2013 bias in LLMs related to disability. The systematic audit across multiple models and domains is methodologically sound, and the finding that models frequently make demographic inferences based on disability cues is concerning and important. While the methodology appears solid, the abstract doesn't detail *how* the demographic attributes were predicted, which impacts the quality score slightly. The high sentiment score reflects the current focus on fairness and responsible AI.",
+      "paper_id": "06c7e8fc762720441a5195a22dde9b68"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-08-25T09:29:34.307290"
 }

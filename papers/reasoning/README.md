@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Who's Asking? Investigating Bias Through the Lens of Disability Framed Queries in LLMs
+
+**Score:** 90.0 | **Published:** 2025-08-25 | **Authors:** Srikant Panda, Vishnu Hari, Kalpana Panda, Amit Agarwal, Hitesh Laxmichand Patel
+
+arXiv:2508.15831v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) routinely infer users demographic traits from phrasing alone, which can result in biased responses, even when no explicit ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15831) | [📝 Analysis](06c7e8fc762720441a5195a22dde9b68.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-25 09:29:34 UTC*

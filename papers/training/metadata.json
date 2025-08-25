@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "ALAS: Autonomous Learning Agent for Self-Updating Language Models",
+      "authors": [
+        "Dhruv Atreja"
+      ],
+      "abstract": "arXiv:2508.15805v1 Announce Type: new \nAbstract: Large language models (LLMs) often have a fixed knowledge cutoff, limiting their accuracy on emerging information. We present ALAS (Autonomous Learning Agent System), a modular pipeline that continuously updates an LLM's knowledge with minimal human intervention. ALAS autonomously generates a learning curriculum for a target domain, retrieves up-to-date information from the web (with citations), distills this into question-answer training data, and fine-tunes the model through supervised fine-tuning (SFT) and direct preference optimization (DPO). It iteratively evaluates performance and revises the curriculum, enabling long-term continual learning. We demonstrate ALAS's ability to self-improve a model on rapidly evolving domains (e.g., new Python releases, latest security CVEs, academic trends), significantly boosting post-cutoff question answering accuracy (from 15% to 90% on average) without manual dataset curation. The system emphasizes modularity and reproducibility: each component (planning, retrieval, distillation, memory, fine-tuning) is interchangeable and built on standard APIs. We discuss comparative baselines (e.g., retrieval-augmented generation vs. fine-tuning) and show that ALAS achieves 90% accuracy on knowledge-updated queries with minimal engineering overhead. Finally, we outline limitations (cost, dependency on source quality) and future directions for autonomous lifelong learning in LLMs.",
+      "url": "https://arxiv.org/abs/2508.15805",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alas",
+        "learning",
+        "fine",
+        "accuracy",
+        "autonomous",
+        "fine tuning",
+        "knowledge",
+        "tuning",
+        "90",
+        "agent"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial limitation of LLMs \u2013 their knowledge cutoff \u2013 with a compelling autonomous solution. The reported performance boost (15% to 90% accuracy) is substantial and suggests a robust methodology. The combination of automated curriculum generation, web retrieval with citations, and advanced fine-tuning techniques (SFT & DPO) demonstrates a well-thought-out pipeline. The focus on rapidly evolving domains further highlights the practical relevance of the work.",
+      "paper_id": "548f1a0c92fe11e6ffa1f16e6fe44dfb"
+    },
+    {
+      "title": "A Review of Developmental Interpretability in Large Language Models",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "abstract": "arXiv:2508.15841v1 Announce Type: new \nAbstract: This review synthesizes the nascent but critical field of developmental interpretability for Large Language Models. We chart the field's evolution from static, post-hoc analysis of trained models to a dynamic investigation of the training process itself. We begin by surveying the foundational methodologies, including representational probing, causal tracing, and circuit analysis, that enable researchers to deconstruct the learning process. The core of this review examines the developmental arc of LLM capabilities, detailing key findings on the formation and composition of computational circuits, the biphasic nature of knowledge acquisition, the transient dynamics of learning strategies like in-context learning, and the phenomenon of emergent abilities as phase transitions in training. We explore illuminating parallels with human cognitive and linguistic development, which provide valuable conceptual frameworks for understanding LLM learning. Finally, we argue that this developmental perspective is not merely an academic exercise but a cornerstone of proactive AI safety, offering a pathway to predict, monitor, and align the processes by which models acquire their capabilities. We conclude by outlining the grand challenges facing the field, such as scalability and automation, and propose a research agenda for building more transparent, reliable, and beneficial AI systems.",
+      "url": "https://arxiv.org/abs/2508.15841",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "developmental",
+        "learning",
+        "models",
+        "field",
+        "review",
+        "ai",
+        "analysis",
+        "capabilities",
+        "developmental interpretability",
+        "interpretability"
+      ],
+      "subject_classification": "training",
+      "justification": "This review paper tackles a highly relevant and rapidly evolving area \u2013 understanding how LLMs learn and develop. The focus on 'developmental interpretability' and charting the field's progression is valuable. While a review doesn't inherently present novel *research*, synthesizing and structuring the current understanding of this complex topic is a significant contribution, and the parallels drawn to human cognitive development suggest a thoughtful approach. The high sentiment score reflects the current community interest in interpretability and the potential for this work to guide future research.",
+      "paper_id": "dc84ce6b866b81405aa17b56a6d31fdc"
+    },
+    {
+      "title": "OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages",
+      "authors": [
+        "Rapha\\\"el Merx, Hanna Suominen, Trevor Cohn, Ekaterina Vylomova"
+      ],
+      "abstract": "arXiv:2508.16048v1 Announce Type: new \nAbstract: In machine translation (MT), health is a high-stakes domain characterised by widespread deployment and domain-specific vocabulary. However, there is a lack of MT evaluation datasets for low-resource languages in this domain. To address this gap, we introduce OpenWHO, a document-level parallel corpus of 2,978 documents and 26,824 sentences from the World Health Organization's e-learning platform. Sourced from expert-authored, professionally translated materials shielded from web-crawling, OpenWHO spans a diverse range of over 20 languages, of which nine are low-resource. Leveraging this new resource, we evaluate modern large language models (LLMs) against traditional MT models. Our findings reveal that LLMs consistently outperform traditional MT models, with Gemini 2.5 Flash achieving a +4.79 ChrF point improvement over NLLB-54B on our low-resource test set. Further, we investigate how LLM context utilisation affects accuracy, finding that the benefits of document-level translation are most pronounced in specialised domains like health. We release the OpenWHO corpus to encourage further research into low-resource MT in the health domain.",
+      "url": "https://arxiv.org/abs/2508.16048",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 70,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "resource",
+        "health",
+        "low",
+        "low resource",
+        "mt",
+        "domain",
+        "openwho",
+        "corpus",
+        "document",
+        "document level"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial gap in machine translation \u2013 the lack of resources for low-resource languages in the high-stakes health domain. The creation of the OpenWHO corpus is a significant contribution, and the initial evaluation demonstrating LLM superiority is promising. While the methods (LLM evaluation) aren't entirely novel, the application to this specific domain and the corpus itself are valuable. The positive results with Gemini 2.5 Flash further enhance the paper's appeal.",
+      "paper_id": "c8c2f9f92ac28d22f0384207427b195c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-25T09:29:34.304172"
 }

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "DAIQ: Auditing Demographic Attribute Inference from Question in LLMs",
+      "authors": [
+        "Srikant Panda, Hitesh Laxmichand Patel, Shahad Al-Khalifa, Amit Agarwal, Hend Al-Khalifa, Sharefah Al-Ghamdi"
+      ],
+      "abstract": "arXiv:2508.15830v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are known to reflect social biases when demographic attributes, such as gender or race, are explicitly present in the input. But even in their absence, these models still infer user identities based solely on question phrasing. This subtle behavior has received far less attention, yet poses serious risks: it violates expectations of neutrality, infers unintended demographic information, and encodes stereotypes that undermine fairness in various domains including healthcare, finance and education.\n  We introduce Demographic Attribute Inference from Questions (DAIQ), a task and framework for auditing an overlooked failure mode in language models: inferring user demographic attributes from questions that lack explicit demographic cues. Our approach leverages curated neutral queries, systematic prompting, and both quantitative and qualitative analysis to uncover how models infer demographic information. We show that both open and closed source LLMs do assign demographic labels based solely on question phrasing.\n  Prevalence and consistency of demographic inferences across diverse models reveal a systemic and underacknowledged risk: LLMs can fabricate demographic identities, reinforce societal stereotypes, and propagate harms that erode privacy, fairness, and trust posing a broader threat to social equity and responsible AI deployment. To mitigate this, we develop a prompt-based guardrail that substantially reduces identity inference and helps align model behavior with fairness and privacy objectives.",
+      "url": "https://arxiv.org/abs/2508.15830",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "demographic",
+        "models",
+        "llms",
+        "based",
+        "fairness",
+        "inference",
+        "question",
+        "attribute",
+        "attribute inference",
+        "attributes"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical and often overlooked issue in LLMs \u2013 the inference of demographic attributes from seemingly neutral questions. The proposed DAIQ framework appears well-structured for auditing this behavior, and the potential for uncovering and mitigating biases is significant. While the core idea of probing for bias isn't entirely new, focusing on *inference from questions* rather than explicit cues is a valuable contribution, and the combination of quantitative and qualitative analysis strengthens the work.",
+      "paper_id": "43c179e398c51372527bb6bd29b7e271"
+    },
+    {
+      "title": "Political Ideology Shifts in Large Language Models",
+      "authors": [
+        "Pietro Bernardelle, Stefano Civelli, Leon Fr\\\"ohling, Riccardo Lunardi, Kevin Roitero, Gianluca Demartini"
+      ],
+      "abstract": "arXiv:2508.16013v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in politically sensitive settings, raising concerns about their potential to encode, amplify, or be steered toward specific ideologies. We investigate how adopting synthetic personas influences ideological expression in LLMs across seven models (7B-70B+ parameters) from multiple families, using the Political Compass Test as a standardized probe. Our analysis reveals four consistent patterns: (i) larger models display broader and more polarized implicit ideological coverage; (ii) susceptibility to explicit ideological cues grows with scale; (iii) models respond more strongly to right-authoritarian than to left-libertarian priming; and (iv) thematic content in persona descriptions induces systematic and predictable ideological shifts, which amplify with size. These findings indicate that both scale and persona content shape LLM political behavior. As such systems enter decision-making, educational, and policy contexts, their latent ideological malleability demands attention to safeguard fairness, transparency, and safety.",
+      "url": "https://arxiv.org/abs/2508.16013",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ideological",
+        "models",
+        "political",
+        "amplify",
+        "content",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "llms"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and timely issue \u2013 the ideological biases within LLMs \u2013 with a rigorous methodology using the Political Compass Test. The findings regarding scale and persona influence are particularly insightful. While the approach of using personas isn't entirely novel, the systematic exploration across multiple models and the identification of consistent patterns demonstrate a strong contribution. The potential for influencing future LLM development and deployment makes this work significant.",
+      "paper_id": "b06159aceb0cd94a809c29b7c4311a5a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-25T09:29:34.306568"
 }

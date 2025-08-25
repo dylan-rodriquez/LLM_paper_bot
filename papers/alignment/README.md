@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### DAIQ: Auditing Demographic Attribute Inference from Question in LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-25 | **Authors:** Srikant Panda, Hitesh Laxmichand Patel, Shahad Al-Khalifa, Amit Agarwal, Hend Al-Khalifa, Sharefah Al-Ghamdi
+
+arXiv:2508.15830v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are known to reflect social biases when demographic attributes, such as gender or race, are explicitly present in the inpu...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15830) | [📝 Analysis](43c179e398c51372527bb6bd29b7e271.md)
+
+---
+
+### Political Ideology Shifts in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-25 | **Authors:** Pietro Bernardelle, Stefano Civelli, Leon Fr\"ohling, Riccardo Lunardi, Kevin Roitero, Gianluca Demartini
+
+arXiv:2508.16013v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in politically sensitive settings, raising concerns about their potential to encode, amplify, or...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.16013) | [📝 Analysis](b06159aceb0cd94a809c29b7c4311a5a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-25 09:29:34 UTC*

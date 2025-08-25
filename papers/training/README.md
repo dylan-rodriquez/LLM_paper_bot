@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### ALAS: Autonomous Learning Agent for Self-Updating Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-25 | **Authors:** Dhruv Atreja
+
+arXiv:2508.15805v1 Announce Type: new 
+Abstract: Large language models (LLMs) often have a fixed knowledge cutoff, limiting their accuracy on emerging information. We present ALAS (Autonomous Learning...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15805) | [📝 Analysis](548f1a0c92fe11e6ffa1f16e6fe44dfb.md)
+
+---
+
+### A Review of Developmental Interpretability in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-25 | **Authors:** Ihor Kendiukhov
+
+arXiv:2508.15841v1 Announce Type: new 
+Abstract: This review synthesizes the nascent but critical field of developmental interpretability for Large Language Models. We chart the field's evolution from...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.15841) | [📝 Analysis](dc84ce6b866b81405aa17b56a6d31fdc.md)
+
+---
+
+### OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages
+
+**Score:** 90.0 | **Published:** 2025-08-25 | **Authors:** Rapha\"el Merx, Hanna Suominen, Trevor Cohn, Ekaterina Vylomova
+
+arXiv:2508.16048v1 Announce Type: new 
+Abstract: In machine translation (MT), health is a high-stakes domain characterised by widespread deployment and domain-specific vocabulary. However, there is a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.16048) | [📝 Analysis](c8c2f9f92ac28d22f0384207427b195c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-25 09:29:34 UTC*
