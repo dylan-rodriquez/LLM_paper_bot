@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "M3TQA: Massively Multilingual Multitask Table Question Answering",
+      "authors": [
+        "Daixin Shu, Jian Yang, Zhenhe Wu, Xianjie Wu, Xianfu Cheng, Xiangyuan Guan, Yanghai Wang, Pengfei Wu, Tingyang Yang, Hualei Zhu, Wei Zhang, Ge Zhang, Jiaheng Liu, Zhoujun Li"
+      ],
+      "abstract": "arXiv:2508.16265v1 Announce Type: new \nAbstract: Tabular data is a fundamental component of real-world information systems, yet most research in table understanding remains confined to English, leaving multilingual comprehension significantly underexplored. Existing multilingual table benchmarks suffer from geolinguistic imbalance - overrepresenting certain languages and lacking sufficient scale for rigorous cross-lingual analysis. To address these limitations, we introduce a comprehensive framework for massively multilingual multitask table question answering, featuring m3TQA-Instruct, a large-scale benchmark spanning 97 languages across diverse language families, including underrepresented and low-resource languages. We construct m3TQA by curating 50 real-world tables in Chinese and English, then applying a robust six-step LLM-based translation pipeline powered by DeepSeek and GPT-4o, achieving high translation fidelity with a median BLEU score of 60.19 as validated through back-translation. The benchmark includes 2,916 professionally annotated question-answering pairs across four tasks designed to evaluate nuanced table reasoning capabilities. Experiments on state-of-the-art LLMs reveal critical insights into cross-lingual generalization, demonstrating that synthetically generated, unannotated QA data can significantly boost performance, particularly for low-resource languages. M3T-Bench establishes a new standard for multilingual table understanding, providing both a challenging evaluation platform and a scalable methodology for future research.",
+      "url": "https://arxiv.org/abs/2508.16265",
+      "published_date": "2025-08-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "table",
+        "multilingual",
+        "languages",
+        "answering",
+        "m3tqa",
+        "question",
+        "question answering",
+        "translation",
+        "benchmark",
+        "cross"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in multilingual table understanding, a severely under-explored area. The creation of m3TQA-Instruct, a large-scale benchmark across 97 languages, is a significant contribution, particularly its focus on underrepresented languages. The robust LLM-based translation pipeline and validation with BLEU scores demonstrate methodological rigor, suggesting a high-quality dataset and a strong foundation for future research.",
+      "paper_id": "c74357d44d6b1fc1a5cb0d0ac834b202"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-25T09:29:34.308262"
 }
