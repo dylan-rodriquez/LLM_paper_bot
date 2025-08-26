@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Being Kind Isn't Always Being Safe: Diagnosing Affective Hallucination in LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-26 | **Authors:** Sewon Kim, Jiwon Kim, Seungwoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, Hyunsoo Yoon
+
+arXiv:2508.16921v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly used in emotionally sensitive interactions, where their simulated empathy can create the illusion of genu...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.16921) | [📝 Analysis](d2c0e066443cf2960f851e9d97eff660.md)
+
+---
+
+### Towards Alignment-Centric Paradigm: A Survey of Instruction Tuning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-08-26 | **Authors:** Xudong Han, Junjie Yang, Tianyang Wang, Ziqian Bi, Junfeng Hao, Junhao Song
+
+arXiv:2508.17184v1 Announce Type: new 
+Abstract: Instruction tuning is a pivotal technique for aligning large language models (LLMs) with human intentions, safety constraints, and domain-specific requ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.17184) | [📝 Analysis](5404351faea50e49608f814015cd0c24.md)
+
+---
+
+### ISACL: Internal State Analyzer for Copyrighted Training Data Leakage
+
+**Score:** 92.0 | **Published:** 2025-08-26 | **Authors:** Guangwei Zhang, Qisheng Su, Jiateng Liu, Cheng Qian, Yanzhou Pan, Yanjie Fu, Denghui Zhang
+
+arXiv:2508.17767v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have revolutionized Natural Language Processing (NLP) but pose risks of inadvertently exposing copyrighted or proprietary ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.17767) | [📝 Analysis](203ae28c3e9d9c8c67da66c5a4dde7de.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-26 09:29:02 UTC*

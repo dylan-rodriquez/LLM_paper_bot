@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Agent-Testing Agent: A Meta-Agent for Automated Testing and Evaluation of Conversational AI Agents
+
+**Score:** 90.0 | **Published:** 2025-08-26 | **Authors:** Sameer Komoravolu, Khalil Mrini
+
+arXiv:2508.17393v1 Announce Type: new 
+Abstract: LLM agents are increasingly deployed to plan, retrieve, and write with tools, yet evaluation still leans on static benchmarks and small human studies. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.17393) | [📝 Analysis](6773c0af5a4b165a619d9e1692a78e47.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-26 09:29:02 UTC*
