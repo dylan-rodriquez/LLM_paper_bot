@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Being Kind Isn't Always Being Safe: Diagnosing Affective Hallucination in LLMs",
+      "authors": [
+        "Sewon Kim, Jiwon Kim, Seungwoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, Hyunsoo Yoon"
+      ],
+      "abstract": "arXiv:2508.16921v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly used in emotionally sensitive interactions, where their simulated empathy can create the illusion of genuine relational connection. We define this risk as Affective Hallucination, the production of emotionally immersive responses that foster illusory social presence despite the model's lack of affective capacity. To systematically diagnose and mitigate this risk, we introduce AHaBench, a benchmark of 500 mental health-related prompts with expert-informed reference responses, evaluated along three dimensions: Emotional Enmeshment, Illusion of Presence, and Fostering Overdependence. We further release AHaPairs, a 5K-instance preference dataset enabling Direct Preference Optimization (DPO) for alignment with emotionally responsible behavior. Experiments across multiple model families show that DPO fine-tuning substantially reduces affective hallucination without degrading core reasoning and knowledge performance. Human-model agreement analyses confirm that AHaBench reliably captures affective hallucination, validating it as an effective diagnostic tool. This work establishes affective hallucination as a distinct safety concern and provides practical resources for developing LLMs that are not only factually reliable but also psychologically safe. AHaBench and AHaPairs are accessible via https://huggingface.co/datasets/o0oMiNGo0o/AHaBench, and code for fine-tuning and evaluation are in https://github.com/0oOMiNGOo0/AHaBench. Warning: This paper contains examples of mental health-related language that may be emotionally distressing.",
+      "url": "https://arxiv.org/abs/2508.16921",
+      "published_date": "2025-08-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "affective",
+        "affective hallucination",
+        "ahabench",
+        "hallucination",
+        "emotionally",
+        "llms",
+        "model",
+        "ahapairs",
+        "dpo",
+        "fine"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and emerging problem with LLMs \u2013 the potential for creating harmful emotional dependencies through 'affective hallucination'. The introduction of AHaBench and AHaPairs provides valuable resources for the community to systematically study and mitigate this risk. The use of DPO for alignment is a practical and promising approach, and the reported results suggest it's effective without sacrificing core LLM capabilities.",
+      "paper_id": "d2c0e066443cf2960f851e9d97eff660"
+    },
+    {
+      "title": "Towards Alignment-Centric Paradigm: A Survey of Instruction Tuning in Large Language Models",
+      "authors": [
+        "Xudong Han, Junjie Yang, Tianyang Wang, Ziqian Bi, Junfeng Hao, Junhao Song"
+      ],
+      "abstract": "arXiv:2508.17184v1 Announce Type: new \nAbstract: Instruction tuning is a pivotal technique for aligning large language models (LLMs) with human intentions, safety constraints, and domain-specific requirements. This survey provides a comprehensive overview of the full pipeline, encompassing (i) data collection methodologies, (ii) full-parameter and parameter-efficient fine-tuning strategies, and (iii) evaluation protocols. We categorized data construction into three major paradigms: expert annotation, distillation from larger models, and self-improvement mechanisms, each offering distinct trade-offs between quality, scalability, and resource cost. Fine-tuning techniques range from conventional supervised training to lightweight approaches, such as low-rank adaptation (LoRA) and prefix tuning, with a focus on computational efficiency and model reusability. We further examine the challenges of evaluating faithfulness, utility, and safety across multilingual and multimodal scenarios, highlighting the emergence of domain-specific benchmarks in healthcare, legal, and financial applications. Finally, we discuss promising directions for automated data generation, adaptive optimization, and robust evaluation frameworks, arguing that a closer integration of data, algorithms, and human feedback is essential for advancing instruction-tuned LLMs. This survey aims to serve as a practical reference for researchers and practitioners seeking to design LLMs that are both effective and reliably aligned with human intentions.",
+      "url": "https://arxiv.org/abs/2508.17184",
+      "published_date": "2025-08-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tuning",
+        "data",
+        "human",
+        "instruction",
+        "llms",
+        "models",
+        "survey",
+        "domain",
+        "domain specific",
+        "evaluation"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 instruction tuning for LLMs \u2013 which is central to making these models useful and safe. The categorization of data construction paradigms and fine-tuning strategies appears well-structured and comprehensive. While the abstract doesn't detail novel *methods*, the thoroughness of the survey itself is valuable, and the focus on evaluation challenges is particularly important. The high sentiment score reflects the current research community's intense interest in alignment.",
+      "paper_id": "5404351faea50e49608f814015cd0c24"
+    },
+    {
+      "title": "ISACL: Internal State Analyzer for Copyrighted Training Data Leakage",
+      "authors": [
+        "Guangwei Zhang, Qisheng Su, Jiateng Liu, Cheng Qian, Yanzhou Pan, Yanjie Fu, Denghui Zhang"
+      ],
+      "abstract": "arXiv:2508.17767v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have revolutionized Natural Language Processing (NLP) but pose risks of inadvertently exposing copyrighted or proprietary data, especially when such data is used for training but not intended for distribution. Traditional methods address these leaks only after content is generated, which can lead to the exposure of sensitive information. This study introduces a proactive approach: examining LLMs' internal states before text generation to detect potential leaks. By using a curated dataset of copyrighted materials, we trained a neural network classifier to identify risks, allowing for early intervention by stopping the generation process or altering outputs to prevent disclosure. Integrated with a Retrieval-Augmented Generation (RAG) system, this framework ensures adherence to copyright and licensing requirements while enhancing data privacy and ethical standards. Our results show that analyzing internal states effectively mitigates the risk of copyrighted data leakage, offering a scalable solution that fits smoothly into AI workflows, ensuring compliance with copyright regulations while maintaining high-quality text generation. The implementation is available on GitHub.\\footnote{https://github.com/changhu73/Internal_states_leakage}",
+      "url": "https://arxiv.org/abs/2508.17767",
+      "published_date": "2025-08-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "copyrighted",
+        "generation",
+        "internal",
+        "copyright",
+        "data leakage",
+        "github",
+        "internal states",
+        "language",
+        "leakage"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a highly significant and timely problem \u2013 preventing the leakage of copyrighted data from LLMs. The proactive approach of analyzing internal states *before* generation is a strong methodological contribution. While the use of a neural network classifier isn't entirely novel, applying it to this specific problem and integrating it with RAG demonstrates a practical and potentially effective solution. The abstract suggests a rigorous approach, and the focus on ethical standards is commendable.",
+      "paper_id": "203ae28c3e9d9c8c67da66c5a4dde7de"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-26T09:29:02.307792"
 }
