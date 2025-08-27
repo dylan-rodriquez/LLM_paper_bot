@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### An Agentic System for Rare Disease Diagnosis with Traceable Reasoning
+
+**Score:** 92.0 | **Published:** 2025-08-27 | **Authors:** Weike Zhao, Chaoyi Wu, Yanjie Fan, Xiaoman Zhang, Pengcheng Qiu, Yuze Sun, Xiao Zhou, Yanfeng Wang, Xin Sun, Ya Zhang, Yongguo Yu, Kun Sun, Weidi Xie
+
+arXiv:2506.20430v2 Announce Type: replace 
+Abstract: Rare diseases collectively affect over 300 million individuals worldwide, yet timely and accurate diagnosis remains a pervasive challenge. This is ...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20430) | [📝 Analysis](1fa099d527a9f79b7e638354ee5cac4f.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-27 09:28:12 UTC*
