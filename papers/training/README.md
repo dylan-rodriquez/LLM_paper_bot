@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Toward Responsible ASR for African American English Speakers: A Scoping Review of Bias and Equity in Speech Technology
+
+**Score:** 92.0 | **Published:** 2025-08-27 | **Authors:** Jay L. Cunningham, Adinawa Adjagbodjou, Jeffrey Basoah, Jainaba Jawara, Kowe Kadoma, Aaleyah Lewis
+
+arXiv:2508.18288v1 Announce Type: cross 
+Abstract: This scoping literature review examines how fairness, bias, and equity are conceptualized and operationalized in Automatic Speech Recognition (ASR) a...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.18288) | [📝 Analysis](6e3f750dd25d47c88dd9f489a31ad75a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-27 09:28:12 UTC*
