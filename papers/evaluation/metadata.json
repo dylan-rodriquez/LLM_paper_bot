@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AraHealthQA 2025 Shared Task Description Paper",
+      "authors": [
+        "Hassan Alhuzali, Farah Shamout, Muhammad Abdul-Mageed, Chaimae Abouzahir, Mouath Abu-Daoud, Ashwag Alasmari, Walid Al-Eisawi, Renad Al-Monef, Ali Alqahtani, Lama Ayash, Nizar Habash, Leen Kharouf"
+      ],
+      "abstract": "arXiv:2508.20047v1 Announce Type: new \nAbstract: We introduce {AraHealthQA 2025}, the {Comprehensive Arabic Health Question Answering Shared Task}, held in conjunction with {ArabicNLP 2025} (co-located with EMNLP 2025). This shared task addresses the paucity of high-quality Arabic medical QA resources by offering two complementary tracks: {MentalQA}, focusing on Arabic mental health Q\\&amp;A (e.g., anxiety, depression, stigma reduction), and {MedArabiQ}, covering broader medical domains such as internal medicine, pediatrics, and clinical decision making. Each track comprises multiple subtasks, evaluation datasets, and standardized metrics, facilitating fair benchmarking. The task was structured to promote modeling under realistic, multilingual, and culturally nuanced healthcare contexts. We outline the dataset creation, task design and evaluation framework, participation statistics, baseline systems, and summarize the overall outcomes. We conclude with reflections on the performance trends observed and prospects for future iterations in Arabic health QA.",
+      "url": "https://arxiv.org/abs/2508.20047",
+      "published_date": "2025-08-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "task",
+        "2025",
+        "arabic",
+        "health",
+        "shared",
+        "shared task",
+        "2025 shared",
+        "arabic health",
+        "arahealthqa",
+        "arahealthqa 2025"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper describes a crucial shared task addressing a significant gap in Arabic NLP \u2013 the lack of high-quality medical QA resources. The dual-track approach (MentalQA and MedArabiQ) is well-considered, and the focus on cultural nuance is commendable. While the task design itself isn't groundbreaking, the creation of these datasets and the benchmarking effort are highly valuable and likely to be well-received by the community.",
+      "paper_id": "d4eef4070a450dd428aab9fa7621b5e4"
+    },
+    {
+      "title": "SoK: Large Language Model Copyright Auditing via Fingerprinting",
+      "authors": [
+        "Shuo Shao, Yiming Li, Yu He, Hongwei Yao, Wenyuan Yang, Dacheng Tao, Zhan Qin"
+      ],
+      "abstract": "arXiv:2508.19843v1 Announce Type: cross \nAbstract: The broad capabilities and substantial resources required to train Large Language Models (LLMs) make them valuable intellectual property, yet they remain vulnerable to copyright infringement, such as unauthorized use and model theft. LLM fingerprinting, a non-intrusive technique that extracts and compares the distinctive features from LLMs to identify infringements, offers a promising solution to copyright auditing. However, its reliability remains uncertain due to the prevalence of diverse model modifications and the lack of standardized evaluation. In this SoK, we present the first comprehensive study of LLM fingerprinting. We introduce a unified framework and formal taxonomy that categorizes existing methods into white-box and black-box approaches, providing a structured overview of the state of the art. We further propose LeaFBench, the first systematic benchmark for evaluating LLM fingerprinting under realistic deployment scenarios. Built upon mainstream foundation models and comprising 149 distinct model instances, LeaFBench integrates 13 representative post-development techniques, spanning both parameter-altering methods (e.g., fine-tuning, quantization) and parameter-independent mechanisms (e.g., system prompts, RAG). Extensive experiments on LeaFBench reveal the strengths and weaknesses of existing methods, thereby outlining future research directions and critical open problems in this emerging field. The code is available at https://github.com/shaoshuo-ss/LeaFBench.",
+      "url": "https://arxiv.org/abs/2508.19843",
+      "published_date": "2025-08-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "fingerprinting",
+        "leafbench",
+        "model",
+        "copyright",
+        "llm",
+        "llm fingerprinting",
+        "methods",
+        "auditing",
+        "box",
+        "copyright auditing"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 copyright protection for LLMs \u2013 with a systematic approach. The introduction of a unified framework, taxonomy, and benchmark (LeaFBench) demonstrates strong methodological rigor. While fingerprinting isn't entirely new, the comprehensive 'SoK' nature and focus on realistic deployment scenarios elevate the work's quality and potential impact.",
+      "paper_id": "7426bfdb77e489a077c6e7b4896bec72"
+    },
+    {
+      "title": "DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+      "authors": [
+        "Liana Patel, Negar Arabzadeh, Harshit Gupta, Ankita Sundar, Ion Stoica, Matei Zaharia, Carlos Guestrin"
+      ],
+      "abstract": "arXiv:2508.20033v1 Announce Type: new \nAbstract: The ability to research and synthesize knowledge is central to human expertise and progress. An emerging class of systems promises these exciting capabilities through generative research synthesis, performing retrieval over the live web and synthesizing discovered sources into long-form, cited summaries. However, evaluating such systems remains an open challenge: existing question-answering benchmarks focus on short-form factual responses, while expert-curated datasets risk staleness and data contamination. Both fail to capture the complexity and evolving nature of real research synthesis tasks. In this work, we introduce DeepScholar-bench, a live benchmark and holistic, automated evaluation framework designed to evaluate generative research synthesis. DeepScholar-bench draws queries from recent, high-quality ArXiv papers and focuses on a real research synthesis task: generating the related work sections of a paper by retrieving, synthesizing, and citing prior research. Our evaluation framework holistically assesses performance across three key dimensions, knowledge synthesis, retrieval quality, and verifiability. We also develop DeepScholar-base, a reference pipeline implemented efficiently using the LOTUS API. Using the DeepScholar-bench framework, we perform a systematic evaluation of prior open-source systems, search AI's, OpenAI's DeepResearch, and DeepScholar-base. We find that DeepScholar-base establishes a strong baseline, attaining competitive or higher performance than each other method. We also find that DeepScholar-bench remains far from saturated, with no system exceeding a score of $19\\%$ across all metrics. These results underscore the difficulty of DeepScholar-bench, as well as its importance for progress towards AI systems capable of generative research synthesis. We make our code available at https://github.com/guestrin-lab/deepscholar-bench.",
+      "url": "https://arxiv.org/abs/2508.20033",
+      "published_date": "2025-08-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "deepscholar",
+        "research",
+        "bench",
+        "deepscholar bench",
+        "synthesis",
+        "research synthesis",
+        "evaluation",
+        "generative",
+        "generative research",
+        "systems"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in the development of generative research synthesis systems \u2013 robust and dynamic evaluation. The use of live ArXiv queries and focusing on a specific, complex task (related work generation) is a strong methodological choice. While the core idea of a live benchmark isn't entirely novel, the holistic, automated evaluation framework and its focus on research synthesis specifically represent a significant advancement. The problem is highly relevant given the rapid progress in LLMs and their potential for scientific discovery.",
+      "paper_id": "7600608865cb482d7a28097ca27d4a83"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-28T09:28:27.430755"
 }

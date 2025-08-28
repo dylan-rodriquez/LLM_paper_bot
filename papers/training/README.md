@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis
+
+**Score:** 92.0 | **Published:** 2025-08-28 | **Authors:** Yue Chu
+
+arXiv:2508.19274v1 Announce Type: new 
+Abstract: In countries without civil registration and vital statistics, verbal autopsy (VA) is a critical tool for estimating cause of death (COD) and inform pol...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.19274) | [📝 Analysis](3add0b960a9e51a25d0d6a55d0643959.md)
+
+---
+
+### Forewarned is Forearmed: Pre-Synthesizing Jailbreak-like Instructions to Enhance LLM Safety Guardrail to Potential Attacks
+
+**Score:** 92.0 | **Published:** 2025-08-28 | **Authors:** Sheng Liu, Qiang Sheng, Danding Wang, Yang Li, Guang Yang, Juan Cao
+
+arXiv:2508.20038v1 Announce Type: new 
+Abstract: Despite advances in improving large language model(LLM) to refuse to answer malicious instructions, widely used LLMs remain vulnerable to jailbreak att...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20038) | [📝 Analysis](f616eb9e3800e8c248c67c78d9c90a59.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-28 09:28:27 UTC*
