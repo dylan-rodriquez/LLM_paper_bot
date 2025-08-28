@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Leveraging Language Models and Machine Learning in Verbal Autopsy Analysis",
+      "authors": [
+        "Yue Chu"
+      ],
+      "abstract": "arXiv:2508.19274v1 Announce Type: new \nAbstract: In countries without civil registration and vital statistics, verbal autopsy (VA) is a critical tool for estimating cause of death (COD) and inform policy priorities. In VA, interviewers ask proximal informants for details on the circumstances preceding a death, in the form of unstructured narratives and structured questions. Existing automated VA cause classification algorithms only use the questions and ignore the information in the narratives. In this thesis, we investigate how the VA narrative can be used for automated COD classification using pretrained language models (PLMs) and machine learning (ML) techniques. Using empirical data from South Africa, we demonstrate that with the narrative alone, transformer-based PLMs with task-specific fine-tuning outperform leading question-only algorithms at both the individual and population levels, particularly in identifying non-communicable diseases. We explore various multimodal fusion strategies combining narratives and questions in unified frameworks. Multimodal approaches further improve performance in COD classification, confirming that each modality has unique contributions and may capture valuable information that is not present in the other modality. We also characterize physician-perceived information sufficiency in VA. We describe variations in sufficiency levels by age and COD and demonstrate that classification accuracy is affected by sufficiency for both physicians and models. Overall, this thesis advances the growing body of knowledge at the intersection of natural language processing, epidemiology, and global health. It demonstrates the value of narrative in enhancing COD classification. Our findings underscore the need for more high-quality data from more diverse settings to use in training and fine-tuning PLM/ML methods, and offer valuable insights to guide the rethinking and redesign of the VA instrument and interview.",
+      "url": "https://arxiv.org/abs/2508.19274",
+      "published_date": "2025-08-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "va",
+        "classification",
+        "cod",
+        "cod classification",
+        "information",
+        "language",
+        "models",
+        "narrative",
+        "narratives",
+        "questions"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a crucial problem in global health \u2013 accurate cause-of-death determination in regions lacking robust vital statistics systems. The novelty lies in effectively leveraging PLMs on the often-overlooked narrative portion of verbal autopsies, demonstrating superior performance to question-only methods. The focus on non-communicable diseases is particularly relevant, and the empirical validation with South African data adds to the rigor. The potential for improving public health policy and resource allocation is substantial.",
+      "paper_id": "3add0b960a9e51a25d0d6a55d0643959"
+    },
+    {
+      "title": "Forewarned is Forearmed: Pre-Synthesizing Jailbreak-like Instructions to Enhance LLM Safety Guardrail to Potential Attacks",
+      "authors": [
+        "Sheng Liu, Qiang Sheng, Danding Wang, Yang Li, Guang Yang, Juan Cao"
+      ],
+      "abstract": "arXiv:2508.20038v1 Announce Type: new \nAbstract: Despite advances in improving large language model(LLM) to refuse to answer malicious instructions, widely used LLMs remain vulnerable to jailbreak attacks where attackers generate instructions with distributions differing from safety alignment corpora. New attacks expose LLMs' inability to recognize unseen malicious instructions, highlighting a critical distributional mismatch between training data and real-world attacks that forces developers into reactive patching cycles. To tackle this challenge, we propose IMAGINE, a synthesis framework that leverages embedding space distribution analysis to generate jailbreak-like instructions. This approach effectively fills the distributional gap between authentic jailbreak patterns and safety alignment corpora. IMAGINE follows an iterative optimization process that dynamically evolves text generation distributions across iterations, thereby augmenting the coverage of safety alignment data distributions through synthesized data examples. Based on the safety-aligned corpus enhanced through IMAGINE, our framework demonstrates significant decreases in attack success rate on Qwen2.5, Llama3.1, and Llama3.2 without compromising their utility.",
+      "url": "https://arxiv.org/abs/2508.20038",
+      "published_date": "2025-08-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "instructions",
+        "safety",
+        "attacks",
+        "jailbreak",
+        "alignment",
+        "data",
+        "distributions",
+        "imagine",
+        "safety alignment",
+        "alignment corpora"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the distributional mismatch between training data and real-world jailbreak attacks. The proposed IMAGINE framework, leveraging embedding space analysis and iterative optimization, appears to be a novel and promising approach to proactively enhance LLM robustness. The focus on 'pre-synthesizing' attacks rather than reacting to them is a strong point, and the potential for improving safety guardrails is significant.",
+      "paper_id": "f616eb9e3800e8c248c67c78d9c90a59"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-28T09:28:27.426968"
 }
