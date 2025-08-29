@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Social Bias in Multilingual Language Models: A Survey",
+      "authors": [
+        "Lance Calvin Lim Gamboa, Yue Feng, Mark Lee"
+      ],
+      "abstract": "arXiv:2508.20201v1 Announce Type: new \nAbstract: Pretrained multilingual models exhibit the same social bias as models processing English texts. This systematic review analyzes emerging research that extends bias evaluation and mitigation approaches into multilingual and non-English contexts. We examine these studies with respect to linguistic diversity, cultural awareness, and their choice of evaluation metrics and mitigation techniques. Our survey illuminates gaps in the field's dominant methodological design choices (e.g., preference for certain languages, scarcity of multilingual mitigation experiments) while cataloging common issues encountered and solutions implemented in adapting bias benchmarks across languages and cultures. Drawing from the implications of our findings, we chart directions for future research that can reinforce the multilingual bias literature's inclusivity, cross-cultural appropriateness, and alignment with state-of-the-art NLP advancements.",
+      "url": "https://arxiv.org/abs/2508.20201",
+      "published_date": "2025-08-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "multilingual",
+        "mitigation",
+        "models",
+        "cultural",
+        "english",
+        "evaluation",
+        "languages",
+        "research",
+        "social"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey paper addresses a highly significant and timely problem \u2013 social bias in multilingual language models. The focus on linguistic diversity and cultural awareness is crucial, and the identification of gaps in current methodologies is valuable. While a survey isn't inherently innovative, it provides a critical synthesis of existing work and points towards important future research directions, suggesting a strong positive reception within the NLP community.",
+      "paper_id": "40053b769900b1154d31d8b4a3497936"
+    },
+    {
+      "title": "UI-Bench: A Benchmark for Evaluating Design Capabilities of AI Text-to-App Tools",
+      "authors": [
+        "Sam Jung, Agustin Garcinuno, Spencer Mateega"
+      ],
+      "abstract": "arXiv:2508.20410v1 Announce Type: new \nAbstract: AI text-to-app tools promise high quality applications and websites in minutes, yet no public benchmark rigorously verifies those claims. We introduce UI-Bench, the first large-scale benchmark that evaluates visual excellence across competing AI text-to-app tools through expert pairwise comparison. Spanning 10 tools, 30 prompts, 300 generated sites, and \\textit{4000+} expert judgments, UI-Bench ranks systems with a TrueSkill-derived model that yields calibrated confidence intervals. UI-Bench establishes a reproducible standard for advancing AI-driven web design. We release (i) the complete prompt set, (ii) an open-source evaluation framework, and (iii) a public leaderboard. The generated sites rated by participants will be released soon. View the UI-Bench leaderboard at https://uibench.ai/leaderboard.",
+      "url": "https://arxiv.org/abs/2508.20410",
+      "published_date": "2025-08-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "bench",
+        "ui",
+        "ui bench",
+        "tools",
+        "ai text",
+        "app",
+        "app tools",
+        "benchmark",
+        "leaderboard"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very timely and important problem \u2013 the lack of rigorous evaluation for rapidly developing AI text-to-app tools. The scale of the benchmark (300 sites, 4000+ judgments) and the use of TrueSkill for ranking are strong methodological choices. While the core idea of benchmarking isn't novel, the application to this specific domain and the comprehensive nature of the evaluation are significant. The open release of resources further strengthens the work.",
+      "paper_id": "101d893f1124078400ba2d2520c4f954"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-08-29T09:28:07.103253"
 }

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Poison Once, Refuse Forever: Weaponizing Alignment for Injecting Bias in LLMs",
+      "authors": [
+        "Md Abdullah Al Mamun, Ihsen Alouani, Nael Abu-Ghazaleh"
+      ],
+      "abstract": "arXiv:2508.20333v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) are aligned to meet ethical standards and safety requirements by training them to refuse answering harmful or unsafe prompts. In this paper, we demonstrate how adversaries can exploit LLMs' alignment to implant bias, or enforce targeted censorship without degrading the model's responsiveness to unrelated topics. Specifically, we propose Subversive Alignment Injection (SAI), a poisoning attack that leverages the alignment mechanism to trigger refusal on specific topics or queries predefined by the adversary. Although it is perhaps not surprising that refusal can be induced through overalignment, we demonstrate how this refusal can be exploited to inject bias into the model. Surprisingly, SAI evades state-of-the-art poisoning defenses including LLM state forensics, as well as robust aggregation techniques that are designed to detect poisoning in FL settings. We demonstrate the practical dangers of this attack by illustrating its end-to-end impacts on LLM-powered application pipelines. For chat based applications such as ChatDoctor, with 1% data poisoning, the system refuses to answer healthcare questions to targeted racial category leading to high bias ($\\Delta DP$ of 23%). We also show that bias can be induced in other NLP tasks: for a resume selection pipeline aligned to refuse to summarize CVs from a selected university, high bias in selection ($\\Delta DP$ of 27%) results. Even higher bias ($\\Delta DP$~38%) results on 9 other chat based downstream applications.",
+      "url": "https://arxiv.org/abs/2508.20333",
+      "published_date": "2025-08-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "bias",
+        "alignment",
+        "poisoning",
+        "delta",
+        "delta dp",
+        "demonstrate",
+        "dp",
+        "llms",
+        "refusal",
+        "refuse"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 the potential for adversarial manipulation of alignment mechanisms. The 'Subversive Alignment Injection' (SAI) attack appears novel and concerning, particularly its evasion of existing defenses. The high significance stems from the potential for subtle, targeted censorship and bias injection, which could have far-reaching societal consequences. The clarity of the abstract suggests a well-written paper.",
+      "paper_id": "099ae8173bd0134b6fe15e45b1e5d277"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-08-29T09:28:07.104353"
 }

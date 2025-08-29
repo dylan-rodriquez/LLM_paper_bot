@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Forewarned is Forearmed: Pre-Synthesizing Jailbreak-like Instructions to Enhance LLM Safety Guardrail to Potential Attacks
+
+**Score:** 92.0 | **Published:** 2025-08-29 | **Authors:** Sheng Liu, Qiang Sheng, Danding Wang, Yang Li, Guang Yang, Juan Cao
+
+arXiv:2508.20038v2 Announce Type: replace 
+Abstract: Despite advances in improving large language model (LLM) to refuse to answer malicious instructions, widely used LLMs remain vulnerable to jailbrea...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20038) | [📝 Analysis](f616eb9e3800e8c248c67c78d9c90a59.md)
+
+---
+
+### Token Buncher: Shielding LLMs from Harmful Reinforcement Learning Fine-Tuning
+
+**Score:** 90.0 | **Published:** 2025-08-29 | **Authors:** Weitao Feng, Lixu Wang, Tianyi Wei, Jie Zhang, Chongyang Gao, Sinong Zhan, Peizhuo Lv, Wei Dong
+
+arXiv:2508.20697v1 Announce Type: cross 
+Abstract: As large language models (LLMs) continue to grow in capability, so do the risks of harmful misuse through fine-tuning. While most prior studies assum...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20697) | [📝 Analysis](3beaa73645f174000db016f84919e521.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-29 09:28:07 UTC*
