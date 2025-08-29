@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Social Bias in Multilingual Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-08-29 | **Authors:** Lance Calvin Lim Gamboa, Yue Feng, Mark Lee
+
+arXiv:2508.20201v1 Announce Type: new 
+Abstract: Pretrained multilingual models exhibit the same social bias as models processing English texts. This systematic review analyzes emerging research that ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20201) | [📝 Analysis](40053b769900b1154d31d8b4a3497936.md)
+
+---
+
+### UI-Bench: A Benchmark for Evaluating Design Capabilities of AI Text-to-App Tools
+
+**Score:** 92.0 | **Published:** 2025-08-29 | **Authors:** Sam Jung, Agustin Garcinuno, Spencer Mateega
+
+arXiv:2508.20410v1 Announce Type: new 
+Abstract: AI text-to-app tools promise high quality applications and websites in minutes, yet no public benchmark rigorously verifies those claims. We introduce ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20410) | [📝 Analysis](101d893f1124078400ba2d2520c4f954.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-08-29 09:28:07 UTC*

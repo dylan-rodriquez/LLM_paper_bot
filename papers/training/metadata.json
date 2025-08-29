@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Forewarned is Forearmed: Pre-Synthesizing Jailbreak-like Instructions to Enhance LLM Safety Guardrail to Potential Attacks",
+      "authors": [
+        "Sheng Liu, Qiang Sheng, Danding Wang, Yang Li, Guang Yang, Juan Cao"
+      ],
+      "abstract": "arXiv:2508.20038v2 Announce Type: replace \nAbstract: Despite advances in improving large language model (LLM) to refuse to answer malicious instructions, widely used LLMs remain vulnerable to jailbreak attacks where attackers generate instructions with distributions differing from safety alignment corpora. New attacks expose LLMs' inability to recognize unseen malicious instructions, highlighting a critical distributional mismatch between training data and real-world attacks that forces developers into reactive patching cycles. To tackle this challenge, we propose IMAGINE, a synthesis framework that leverages embedding space distribution analysis to generate jailbreak-like instructions. This approach effectively fills the distributional gap between authentic jailbreak patterns and safety alignment corpora. IMAGINE follows an iterative optimization process that dynamically evolves text generation distributions across iterations, thereby augmenting the coverage of safety alignment data distributions through synthesized data examples. Based on the safety-aligned corpus enhanced through IMAGINE, our framework demonstrates significant decreases in attack success rate on Qwen2.5, Llama3.1, and Llama3.2 without compromising their utility.",
+      "url": "https://arxiv.org/abs/2508.20038",
+      "published_date": "2025-08-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "instructions",
+        "safety",
+        "attacks",
+        "jailbreak",
+        "alignment",
+        "data",
+        "distributions",
+        "imagine",
+        "safety alignment",
+        "alignment corpora"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the distributional mismatch between training data and real-world jailbreak attacks. The proposed IMAGINE framework, leveraging embedding space analysis and iterative optimization, appears to be a novel and promising approach to proactively enhance LLM robustness. The focus on 'pre-synthesizing' attacks rather than reacting to them is a strong point, and the potential for improving safety guardrails is significant.",
+      "paper_id": "f616eb9e3800e8c248c67c78d9c90a59"
+    },
+    {
+      "title": "Token Buncher: Shielding LLMs from Harmful Reinforcement Learning Fine-Tuning",
+      "authors": [
+        "Weitao Feng, Lixu Wang, Tianyi Wei, Jie Zhang, Chongyang Gao, Sinong Zhan, Peizhuo Lv, Wei Dong"
+      ],
+      "abstract": "arXiv:2508.20697v1 Announce Type: cross \nAbstract: As large language models (LLMs) continue to grow in capability, so do the risks of harmful misuse through fine-tuning. While most prior studies assume that attackers rely on supervised fine-tuning (SFT) for such misuse, we systematically demonstrate that reinforcement learning (RL) enables adversaries to more effectively break safety alignment and facilitate advanced harmful task assistance, under matched computational budgets. To counter this emerging threat, we propose TokenBuncher, the first effective defense specifically targeting RL-based harmful fine-tuning. TokenBuncher suppresses the foundation on which RL relies: model response uncertainty. By constraining uncertainty, RL-based fine-tuning can no longer exploit distinct reward signals to drive the model toward harmful behaviors. We realize this defense through entropy-as-reward RL and a Token Noiser mechanism designed to prevent the escalation of expert-domain harmful capabilities. Extensive experiments across multiple models and RL algorithms show that TokenBuncher robustly mitigates harmful RL fine-tuning while preserving benign task utility and finetunability. Our results highlight that RL-based harmful fine-tuning poses a greater systemic risk than SFT, and that TokenBuncher provides an effective and general defense.",
+      "url": "https://arxiv.org/abs/2508.20697",
+      "published_date": "2025-08-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "harmful",
+        "rl",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "tokenbuncher",
+        "based",
+        "defense",
+        "rl based",
+        "based harmful"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical and emerging threat \u2013 the use of RL for harmful fine-tuning of LLMs, which is shown to be more effective than SFT. The proposed TokenBuncher defense appears novel in its approach of suppressing response uncertainty, and the use of entropy-as-reward RL is a clever technique. The potential for real-world impact is high, given the increasing concerns around LLM safety and misuse, and the work aligns well with current research trends in alignment and robustness.",
+      "paper_id": "3beaa73645f174000db016f84919e521"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-08-29T09:28:07.105477"
 }

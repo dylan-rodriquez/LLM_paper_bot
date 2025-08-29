@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Poison Once, Refuse Forever: Weaponizing Alignment for Injecting Bias in LLMs
+
+**Score:** 92.0 | **Published:** 2025-08-29 | **Authors:** Md Abdullah Al Mamun, Ihsen Alouani, Nael Abu-Ghazaleh
+
+arXiv:2508.20333v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) are aligned to meet ethical standards and safety requirements by training them to refuse answering harmful or unsafe pro...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20333) | [📝 Analysis](099ae8173bd0134b6fe15e45b1e5d277.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-08-29 09:28:07 UTC*
