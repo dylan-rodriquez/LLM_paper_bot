@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### AHELM: A Holistic Evaluation of Audio-Language Models
+
+**Score:** 90.0 | **Published:** 2025-09-01 | **Authors:** Tony Lee, Haoqin Tu, Chi Heem Wong, Zijun Wang, Siwei Yang, Yifan Mai, Yuyin Zhou, Cihang Xie, Percy Liang
+
+arXiv:2508.21376v1 Announce Type: cross 
+Abstract: Evaluations of audio-language models (ALMs) -- multimodal models that take interleaved audio and text as input and output text -- are hindered by the...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21376) | [📝 Analysis](3ddd861e4bdbe732c9eb3dc8f30aae12.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-01 09:30:48 UTC*

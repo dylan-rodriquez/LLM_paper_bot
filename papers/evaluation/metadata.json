@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+      "authors": [
+        "Ming Hu, Chenglong Ma, Wei Li, Wanghan Xu, Jiamin Wu, Jucheng Hu, Tianbin Li, Guohang Zhuang, Jiaqi Liu, Yingzhou Lu, Ying Chen, Chaoyang Zhang, Cheng Tan, Jie Ying, Guocheng Wu, Shujian Gao, Pengcheng Chen, Jiashi Lin, Haitao Wu, Lulu Chen, Fengxiang Wang, Yuanyuan Zhang, Xiangyu Zhao, Feilong Tang, Encheng Su, Junzhi Ning, Xinyao Liu, Ye Du, Changkai Ji, Cheng Tang, Huihui Xu, Ziyang Chen, Ziyan Huang, Jiyao Liu, Pengfei Jiang, Yizhou Wang, Chen Tang, Jianyu Wu, Yuchen Ren, Siyuan Yan, Zhonghua Wang, Zhongxing Xu, Shiyan Su, Shangquan Sun, Runkai Zhao, Zhisheng Zhang, Yu Liu, Fudi Wang, Yuanfeng Ji, Yanzhou Su, Hongming Shan, Chunmei Feng, Jiahao Xu, Jiangtao Yan, Wenhao Tang, Diping Song, Lihao Liu, Yanyan Huang, Lequan Yu, Bin Fu, Shujun Wang, Xiaomeng Li, Xiaowei Hu, Yun Gu, Ben Fei, Zhongying Deng, Benyou Wang, Yuewen Cao, Minjie Shen, Haodong Duan, Jie Xu, Yirong Chen, Fang Yan, Hongxia Hao, Jielan Li, Jiajun Du, Yanbo Wang, Imran Razzak, Chi Zhang, Lijun Wu, Conghui He, Zhaohui Lu, Jinhai Huang, Yihao Liu, Fenghua Ling, Yuqiang Li, Aoran Wang, Qihao Zheng, Nanqing Dong, Tianfan Fu, Dongzhan Zhou, Yan Lu, Wenlong Zhang, Jin Ye, Jianfei Cai, Wanli Ouyang, Yu Qiao, Zongyuan Ge, Shixiang Tang, Junjun He, Chunfeng Song, Lei Bai, Bowen Zhou"
+      ],
+      "abstract": "arXiv:2508.21148v1 Announce Type: new \nAbstract: Scientific Large Language Models (Sci-LLMs) are transforming how knowledge is represented, integrated, and applied in scientific research, yet their progress is shaped by the complex nature of scientific data. This survey presents a comprehensive, data-centric synthesis that reframes the development of Sci-LLMs as a co-evolution between models and their underlying data substrate. We formulate a unified taxonomy of scientific data and a hierarchical model of scientific knowledge, emphasizing the multimodal, cross-scale, and domain-specific challenges that differentiate scientific corpora from general natural language processing datasets. We systematically review recent Sci-LLMs, from general-purpose foundations to specialized models across diverse scientific disciplines, alongside an extensive analysis of over 270 pre-/post-training datasets, showing why Sci-LLMs pose distinct demands -- heterogeneous, multi-scale, uncertainty-laden corpora that require representations preserving domain invariance and enabling cross-modal reasoning. On evaluation, we examine over 190 benchmark datasets and trace a shift from static exams toward process- and discovery-oriented assessments with advanced evaluation protocols. These data-centric analyses highlight persistent issues in scientific data development and discuss emerging solutions involving semi-automated annotation pipelines and expert validation. Finally, we outline a paradigm shift toward closed-loop systems where autonomous agents based on Sci-LLMs actively experiment, validate, and contribute to a living, evolving knowledge base. Collectively, this work provides a roadmap for building trustworthy, continually evolving artificial intelligence (AI) systems that function as a true partner in accelerating scientific discovery.",
+      "url": "https://arxiv.org/abs/2508.21148",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "data",
+        "llms",
+        "sci",
+        "sci llms",
+        "models",
+        "datasets",
+        "knowledge",
+        "language",
+        "scientific data"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey appears to be a high-quality, comprehensive overview of a rapidly evolving field. The focus on the data-centric aspects of Sci-LLMs is particularly valuable, as it highlights a critical differentiator from general LLMs. The extensive analysis of datasets (over 270) suggests a rigorous approach, and the proposed taxonomy and hierarchical model of scientific knowledge are promising contributions. The topic is highly relevant and timely, given the increasing interest in applying LLMs to scientific discovery.",
+      "paper_id": "26ade3a5f1304ca43e5f96c629cf5c5d"
+    },
+    {
+      "title": "Med-RewardBench: Benchmarking Reward Models and Judges for Medical Multimodal Large Language Models",
+      "authors": [
+        "Meidan Ding, Jipeng Zhang, Wenxuan Wang, Cheng-Yi Li, Wei-Chieh Fang, Hsin-Yu Wu, Haiqin Zhong, Wenting Chen, Linlin Shen"
+      ],
+      "abstract": "arXiv:2508.21430v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) hold significant potential in medical applications, including disease diagnosis and clinical decision-making. However, these tasks require highly accurate, context-sensitive, and professionally aligned responses, making reliable reward models and judges critical. Despite their importance, medical reward models (MRMs) and judges remain underexplored, with no dedicated benchmarks addressing clinical requirements. Existing benchmarks focus on general MLLM capabilities or evaluate models as solvers, neglecting essential evaluation dimensions like diagnostic accuracy and clinical relevance. To address this, we introduce Med-RewardBench, the first benchmark specifically designed to evaluate MRMs and judges in medical scenarios. Med-RewardBench features a multimodal dataset spanning 13 organ systems and 8 clinical departments, with 1,026 expert-annotated cases. A rigorous three-step process ensures high-quality evaluation data across six clinically critical dimensions. We evaluate 32 state-of-the-art MLLMs, including open-source, proprietary, and medical-specific models, revealing substantial challenges in aligning outputs with expert judgment. Additionally, we develop baseline models that demonstrate substantial performance improvements through fine-tuning.",
+      "url": "https://arxiv.org/abs/2508.21430",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "medical",
+        "clinical",
+        "judges",
+        "evaluate",
+        "med",
+        "med rewardbench",
+        "multimodal",
+        "reward",
+        "reward models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in the evaluation of medical MLLMs \u2013 the lack of dedicated benchmarks for reward models and judges. The creation of Med-RewardBench, with its extensive dataset and focus on clinical relevance, is a significant contribution. While the abstract doesn't detail the specific methodologies used for annotation or the reward model evaluation process, the stated rigor suggests a high-quality approach, and the problem is highly relevant to the growing field of medical AI.",
+      "paper_id": "a5c480e1c6ea7313cccc27e22c815697"
+    },
+    {
+      "title": "A Survey on Current Trends and Recent Advances in Text Anonymization",
+      "authors": [
+        "Tobias Deu{\\ss}er, Lorenz Sparrenberg, Armin Berger, Max Hahnb\\\"uck, Christian Bauckhage, Rafet Sifa"
+      ],
+      "abstract": "arXiv:2508.21587v1 Announce Type: new \nAbstract: The proliferation of textual data containing sensitive personal information across various domains requires robust anonymization techniques to protect privacy and comply with regulations, while preserving data usability for diverse and crucial downstream tasks. This survey provides a comprehensive overview of current trends and recent advances in text anonymization techniques. We begin by discussing foundational approaches, primarily centered on Named Entity Recognition, before examining the transformative impact of Large Language Models, detailing their dual role as sophisticated anonymizers and potent de-anonymization threats. The survey further explores domain-specific challenges and tailored solutions in critical sectors such as healthcare, law, finance, and education. We investigate advanced methodologies incorporating formal privacy models and risk-aware frameworks, and address the specialized subfield of authorship anonymization. Additionally, we review evaluation frameworks, comprehensive metrics, benchmarks, and practical toolkits for real-world deployment of anonymization solutions. This review consolidates current knowledge, identifies emerging trends and persistent challenges, including the evolving privacy-utility trade-off, the need to address quasi-identifiers, and the implications of LLM capabilities, and aims to guide future research directions for both academics and practitioners in this field.",
+      "url": "https://arxiv.org/abs/2508.21587",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "anonymization",
+        "current",
+        "privacy",
+        "survey",
+        "trends",
+        "address",
+        "advances",
+        "advances text",
+        "anonymization techniques",
+        "challenges"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey addresses a highly relevant and increasingly important problem \u2013 text anonymization \u2013 given growing privacy concerns and regulations. The inclusion of LLMs as both tools and threats demonstrates a good understanding of the current landscape. While a survey doesn't inherently offer novel *methods*, its value lies in a comprehensive and up-to-date synthesis of the field, which this abstract suggests it provides. The focus on domain-specific challenges and formal privacy models strengthens its potential impact.",
+      "paper_id": "6e69ad07d3714f296d9d989e89de6a89"
+    },
+    {
+      "title": "Is this chart lying to me? Automating the detection of misleading visualizations",
+      "authors": [
+        "Jonathan Tonglet, Jan Zimny, Tinne Tuytelaars, Iryna Gurevych"
+      ],
+      "abstract": "arXiv:2508.21675v1 Announce Type: new \nAbstract: Misleading visualizations are a potent driver of misinformation on social media and the web. By violating chart design principles, they distort data and lead readers to draw inaccurate conclusions. Prior work has shown that both humans and multimodal large language models (MLLMs) are frequently deceived by such visualizations. Automatically detecting misleading visualizations and identifying the specific design rules they violate could help protect readers and reduce the spread of misinformation. However, the training and evaluation of AI models has been limited by the absence of large, diverse, and openly available datasets. In this work, we introduce Misviz, a benchmark of 2,604 real-world visualizations annotated with 12 types of misleaders. To support model training, we also release Misviz-synth, a synthetic dataset of 81,814 visualizations generated using Matplotlib and based on real-world data tables. We perform a comprehensive evaluation on both datasets using state-of-the-art MLLMs, rule-based systems, and fine-tuned classifiers. Our results reveal that the task remains highly challenging. We release Misviz, Misviz-synth, and the accompanying code.",
+      "url": "https://arxiv.org/abs/2508.21675",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "visualizations",
+        "misviz",
+        "misleading",
+        "misleading visualizations",
+        "based",
+        "chart",
+        "data",
+        "datasets",
+        "design",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 the detection of misleading visualizations, which is crucial in combating misinformation. The creation and release of both a real-world (Misviz) and synthetic (Misviz-synth) dataset is a substantial contribution, overcoming a key limitation in the field. While the methods themselves aren't described in detail in the abstract, the focus on automating detection and supporting model training suggests a solid methodological approach. The work is timely and aligns with current interest in trustworthy AI and information integrity.",
+      "paper_id": "95de06776a3b3cca1c21174af0992e4f"
+    },
+    {
+      "title": "UI-Bench: A Benchmark for Evaluating Design Capabilities of AI Text-to-App Tools",
+      "authors": [
+        "Sam Jung, Agustin Garcinuno, Spencer Mateega"
+      ],
+      "abstract": "arXiv:2508.20410v2 Announce Type: replace \nAbstract: AI text-to-app tools promise high quality applications and websites in minutes, yet no public benchmark rigorously verifies those claims. We introduce UI-Bench, the first large-scale benchmark that evaluates visual excellence across competing AI text-to-app tools through expert pairwise comparison. Spanning 10 tools, 30 prompts, 300 generated sites, and 4,000+ expert judgments, UI-Bench ranks systems with a TrueSkill-derived model that yields calibrated confidence intervals. UI-Bench establishes a reproducible standard for advancing AI-driven web design. We release (i) the complete prompt set, (ii) an open-source evaluation framework, and (iii) a public leaderboard. The generated sites rated by participants will be released soon. View the UI-Bench leaderboard at https://uibench.ai/leaderboard.",
+      "url": "https://arxiv.org/abs/2508.20410",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "bench",
+        "ui",
+        "ui bench",
+        "tools",
+        "ai text",
+        "app",
+        "app tools",
+        "benchmark",
+        "leaderboard"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very timely and important problem \u2013 the lack of rigorous evaluation for rapidly developing AI text-to-app tools. The scale of the benchmark (300 sites, 4000+ judgments) and the use of TrueSkill for ranking are strong methodological choices. While the core idea of benchmarking isn't novel, the application to this specific domain and the comprehensive nature of UI-Bench represent a significant contribution. The open release of resources further enhances its value.",
+      "paper_id": "101d893f1124078400ba2d2520c4f954"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-01T09:30:48.186956"
 }

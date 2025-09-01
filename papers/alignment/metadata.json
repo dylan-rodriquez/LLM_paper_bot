@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Quantifying Label-Induced Bias in Large Language Model Self- and Cross-Evaluations",
+      "authors": [
+        "Muskan Saraf, Sajjad Rezvani Boroujeni, Justin Beaudry, Hossein Abedi, Tom Bush"
+      ],
+      "abstract": "arXiv:2508.21164v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to evaluate outputs, yet their judgments may be influenced. This study examines bias in self- and cross-model evaluations by ChatGPT, Gemini, and Claude under four conditions: no labels, true labels, and two false-label scenarios. Blog posts authored by each model were evaluated by all three using both overall preference voting and quality ratings for Coherence, Informativeness, and Conciseness, with all scores expressed as percentages for direct comparison. Results reveal striking asymmetries: the \"Claude\" label consistently boosts scores, while the \"Gemini\" label consistently depresses them, regardless of actual content. False labels frequently reversed rankings, producing shifts of up to 50 percentage points in preference votes and up to 12 percentage points in converted quality ratings. Gemini's self-scores collapsed under true labels, while Claude's self-preference intensified. These findings show that perceived model identity can heavily distort high-level judgments and subtly influence detailed quality ratings, underscoring the need for blind or multimodel evaluation protocols to ensure fairness in LLM benchmarking.",
+      "url": "https://arxiv.org/abs/2508.21164",
+      "published_date": "2025-09-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "label",
+        "labels",
+        "model",
+        "self",
+        "claude",
+        "gemini",
+        "preference",
+        "quality",
+        "quality ratings",
+        "ratings"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a crucial and timely problem in the LLM space \u2013 the reliability of LLM-based evaluations. The methodology, involving systematic testing with different labels and models, appears rigorous and the findings regarding label-induced bias are striking and well-quantified. The clear presentation of results as percentages facilitates easy comparison and understanding, making this a high-quality contribution.",
+      "paper_id": "83b1a49a394891b665fd2fd11a27dfa6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-01T09:30:48.188198"
 }

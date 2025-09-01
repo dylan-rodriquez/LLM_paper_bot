@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Ming Hu, Chenglong Ma, Wei Li, Wanghan Xu, Jiamin Wu, Jucheng Hu, Tianbin Li, Guohang Zhuang, Jiaqi Liu, Yingzhou Lu, Ying Chen, Chaoyang Zhang, Cheng Tan, Jie Ying, Guocheng Wu, Shujian Gao, Pengcheng Chen, Jiashi Lin, Haitao Wu, Lulu Chen, Fengxiang Wang, Yuanyuan Zhang, Xiangyu Zhao, Feilong Tang, Encheng Su, Junzhi Ning, Xinyao Liu, Ye Du, Changkai Ji, Cheng Tang, Huihui Xu, Ziyang Chen, Ziyan Huang, Jiyao Liu, Pengfei Jiang, Yizhou Wang, Chen Tang, Jianyu Wu, Yuchen Ren, Siyuan Yan, Zhonghua Wang, Zhongxing Xu, Shiyan Su, Shangquan Sun, Runkai Zhao, Zhisheng Zhang, Yu Liu, Fudi Wang, Yuanfeng Ji, Yanzhou Su, Hongming Shan, Chunmei Feng, Jiahao Xu, Jiangtao Yan, Wenhao Tang, Diping Song, Lihao Liu, Yanyan Huang, Lequan Yu, Bin Fu, Shujun Wang, Xiaomeng Li, Xiaowei Hu, Yun Gu, Ben Fei, Zhongying Deng, Benyou Wang, Yuewen Cao, Minjie Shen, Haodong Duan, Jie Xu, Yirong Chen, Fang Yan, Hongxia Hao, Jielan Li, Jiajun Du, Yanbo Wang, Imran Razzak, Chi Zhang, Lijun Wu, Conghui He, Zhaohui Lu, Jinhai Huang, Yihao Liu, Fenghua Ling, Yuqiang Li, Aoran Wang, Qihao Zheng, Nanqing Dong, Tianfan Fu, Dongzhan Zhou, Yan Lu, Wenlong Zhang, Jin Ye, Jianfei Cai, Wanli Ouyang, Yu Qiao, Zongyuan Ge, Shixiang Tang, Junjun He, Chunfeng Song, Lei Bai, Bowen Zhou
+
+arXiv:2508.21148v1 Announce Type: new 
+Abstract: Scientific Large Language Models (Sci-LLMs) are transforming how knowledge is represented, integrated, and applied in scientific research, yet their pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21148) | [📝 Analysis](26ade3a5f1304ca43e5f96c629cf5c5d.md)
+
+---
+
+### Med-RewardBench: Benchmarking Reward Models and Judges for Medical Multimodal Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Meidan Ding, Jipeng Zhang, Wenxuan Wang, Cheng-Yi Li, Wei-Chieh Fang, Hsin-Yu Wu, Haiqin Zhong, Wenting Chen, Linlin Shen
+
+arXiv:2508.21430v1 Announce Type: new 
+Abstract: Multimodal large language models (MLLMs) hold significant potential in medical applications, including disease diagnosis and clinical decision-making. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21430) | [📝 Analysis](a5c480e1c6ea7313cccc27e22c815697.md)
+
+---
+
+### A Survey on Current Trends and Recent Advances in Text Anonymization
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Tobias Deu{\ss}er, Lorenz Sparrenberg, Armin Berger, Max Hahnb\"uck, Christian Bauckhage, Rafet Sifa
+
+arXiv:2508.21587v1 Announce Type: new 
+Abstract: The proliferation of textual data containing sensitive personal information across various domains requires robust anonymization techniques to protect ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21587) | [📝 Analysis](6e69ad07d3714f296d9d989e89de6a89.md)
+
+---
+
+### Is this chart lying to me? Automating the detection of misleading visualizations
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Jonathan Tonglet, Jan Zimny, Tinne Tuytelaars, Iryna Gurevych
+
+arXiv:2508.21675v1 Announce Type: new 
+Abstract: Misleading visualizations are a potent driver of misinformation on social media and the web. By violating chart design principles, they distort data an...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21675) | [📝 Analysis](95de06776a3b3cca1c21174af0992e4f.md)
+
+---
+
+### UI-Bench: A Benchmark for Evaluating Design Capabilities of AI Text-to-App Tools
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Sam Jung, Agustin Garcinuno, Spencer Mateega
+
+arXiv:2508.20410v2 Announce Type: replace 
+Abstract: AI text-to-app tools promise high quality applications and websites in minutes, yet no public benchmark rigorously verifies those claims. We introd...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.20410) | [📝 Analysis](101d893f1124078400ba2d2520c4f954.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-01 09:30:48 UTC*
