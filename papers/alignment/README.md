@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Quantifying Label-Induced Bias in Large Language Model Self- and Cross-Evaluations
+
+**Score:** 90.0 | **Published:** 2025-09-01 | **Authors:** Muskan Saraf, Sajjad Rezvani Boroujeni, Justin Beaudry, Hossein Abedi, Tom Bush
+
+arXiv:2508.21164v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used to evaluate outputs, yet their judgments may be influenced. This study examines bias in self- and cr...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21164) | [📝 Analysis](83b1a49a394891b665fd2fd11a27dfa6.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-01 09:30:48 UTC*

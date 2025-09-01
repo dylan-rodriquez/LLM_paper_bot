@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.5/100
+- **Categories Updated:** 4
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,36 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Evaluation (5 new papers)
+- **A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers** (Score: 92.0)
+  - This survey appears to be a high-quality, comprehensive overview of a rapidly evolving field. The focus on the data-centric aspects of Sci-LLMs is particularly valuable, as it highlights a critical differentiator from general LLMs. The extensive analysis of datasets (over 270) suggests a rigorous approach, and the proposed taxonomy and hierarchical model of scientific knowledge are promising contributions. The topic is highly relevant and timely, given the increasing interest in applying LLMs to scientific discovery.
+- **Med-RewardBench: Benchmarking Reward Models and Judges for Medical Multimodal Large Language Models** (Score: 92.0)
+  - This paper addresses a crucial gap in the evaluation of medical MLLMs – the lack of dedicated benchmarks for reward models and judges. The creation of Med-RewardBench, with its extensive dataset and focus on clinical relevance, is a significant contribution. While the abstract doesn't detail the specific methodologies used for annotation or the reward model evaluation process, the stated rigor suggests a high-quality approach, and the problem is highly relevant to the growing field of medical AI.
+- **A Survey on Current Trends and Recent Advances in Text Anonymization** (Score: 92.0)
+  - This survey addresses a highly relevant and increasingly important problem – text anonymization – given growing privacy concerns and regulations. The inclusion of LLMs as both tools and threats demonstrates a good understanding of the current landscape. While a survey doesn't inherently offer novel *methods*, its value lies in a comprehensive and up-to-date synthesis of the field, which this abstract suggests it provides. The focus on domain-specific challenges and formal privacy models strengthens its potential impact.
+- **Is this chart lying to me? Automating the detection of misleading visualizations** (Score: 92.0)
+  - This paper addresses a highly significant problem – the detection of misleading visualizations, which is crucial in combating misinformation. The creation and release of both a real-world (Misviz) and synthetic (Misviz-synth) dataset is a substantial contribution, overcoming a key limitation in the field. While the methods themselves aren't described in detail in the abstract, the focus on automating detection and supporting model training suggests a solid methodological approach. The work is timely and aligns with current interest in trustworthy AI and information integrity.
+- **UI-Bench: A Benchmark for Evaluating Design Capabilities of AI Text-to-App Tools** (Score: 92.0)
+  - This paper addresses a very timely and important problem – the lack of rigorous evaluation for rapidly developing AI text-to-app tools. The scale of the benchmark (300 sites, 4000+ judgments) and the use of TrueSkill for ranking are strong methodological choices. While the core idea of benchmarking isn't novel, the application to this specific domain and the comprehensive nature of UI-Bench represent a significant contribution. The open release of resources further enhances its value.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Alignment (1 new papers)
+- **Quantifying Label-Induced Bias in Large Language Model Self- and Cross-Evaluations** (Score: 90.0)
+  - This research addresses a crucial and timely problem in the LLM space – the reliability of LLM-based evaluations. The methodology, involving systematic testing with different labels and models, appears rigorous and the findings regarding label-induced bias are striking and well-quantified. The clear presentation of results as percentages facilitates easy comparison and understanding, making this a high-quality contribution.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Architectures (1 new papers)
+- **CrossTL: A Universal Programming Language Translator with Unified Intermediate Representation** (Score: 92.0)
+  - This paper addresses a significant challenge in heterogeneous computing – the complexity of translating code between different accelerator languages. The use of a unified intermediate representation (CrossGL) is a promising approach to reduce the exponential complexity of pairwise translators. While the concept of IRs isn't novel, the scope of languages supported (CUDA, HIP, Metal, etc.) and the bidirectional translation capability suggest a substantial engineering effort and potential impact.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Multimodal (1 new papers)
+- **AHELM: A Holistic Evaluation of Audio-Language Models** (Score: 90.0)
+  - This paper addresses a crucial gap in the ALM field – the lack of standardized and holistic evaluation. The introduction of AHELM, along with the new datasets PARADE and CoRe-Bench, demonstrates a strong methodological approach. The focus on aspects beyond simple accuracy, such as fairness and reasoning, is particularly commendable and suggests a high likelihood of positive reception within the community.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (5), **Alignment** (1), **Architectures** (1), **Multimodal** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

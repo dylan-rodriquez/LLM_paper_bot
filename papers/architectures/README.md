@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### CrossTL: A Universal Programming Language Translator with Unified Intermediate Representation
+
+**Score:** 92.0 | **Published:** 2025-09-01 | **Authors:** Nripesh Niketan, Vaatsalya Shrivastva
+
+arXiv:2508.21256v1 Announce Type: cross 
+Abstract: We present CrossTL, a universal programming language translator enabling bidirectional translation between multiple languages through a unified inter...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21256) | [📝 Analysis](a5ac4e2d0aad8a5e8652aa0ff8ad41b3.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-01 09:30:48 UTC*
