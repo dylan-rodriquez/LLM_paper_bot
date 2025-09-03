@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Thinking Hard, Going Misaligned: Emergent Misalignment in LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-03 | **Authors:** Hanqi Yan, Hainiu Xu, Yulan He
+
+arXiv:2509.00544v1 Announce Type: new 
+Abstract: With Large Language Models (LLMs) becoming increasingly widely adopted, concerns regarding their safety and alignment with human values have intensifie...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.00544) | [📝 Analysis](7aecb4582cb8c0fc74ac65ce32a50f6e.md)
+
+---
+
+### StealthEval: A Probe-Rewrite-Evaluate Workflow for Reliable Benchmarks
+
+**Score:** 90.0 | **Published:** 2025-09-03 | **Authors:** Lang Xiong, Nishant Bhargava, Wesley Chang, Jianhang Hong, Haihao Liu, Kevin Zhu
+
+arXiv:2509.00591v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) often exhibit significant behavioral shifts when they perceive a change from a real-world deployment context to a controll...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.00591) | [📝 Analysis](eb62cf540317959ac063949b9725e265.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-03 09:28:42 UTC*

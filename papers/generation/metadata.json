@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal",
+      "authors": [
+        "Markus Oehri, Giulia Conti, Kaviraj Pather, Alexandre Rossi, Laia Serra, Adrian Parody, Rogvi Johannesen, Aviaja Petersen, Arben Krasniqi"
+      ],
+      "abstract": "arXiv:2509.01455v1 Announce Type: new \nAbstract: Deployed language models must decide not only what to answer but also when not to answer. We present UniCR, a unified framework that turns heterogeneous uncertainty evidence including sequence likelihoods, self-consistency dispersion, retrieval compatibility, and tool or verifier feedback into a calibrated probability of correctness and then enforces a user-specified error budget via principled refusal. UniCR learns a lightweight calibration head with temperature scaling and proper scoring, supports API-only models through black-box features, and offers distribution-free guarantees using conformal risk control. For long-form generation, we align confidence with semantic fidelity by supervising on atomic factuality scores derived from retrieved evidence, reducing confident hallucinations while preserving coverage. Experiments on short-form QA, code generation with execution tests, and retrieval-augmented long-form QA show consistent improvements in calibration metrics, lower area under the risk-coverage curve, and higher coverage at fixed risk compared to entropy or logit thresholds, post-hoc calibrators, and end-to-end selective baselines. Analyses reveal that evidence contradiction, semantic dispersion, and tool inconsistency are the dominant drivers of abstention, yielding informative user-facing refusal messages. The result is a portable recipe of evidence fusion to calibrated probability to risk-controlled decision that improves trustworthiness without fine-tuning the base model and remains valid under distribution shift.",
+      "url": "https://arxiv.org/abs/2509.01455",
+      "published_date": "2025-09-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "risk",
+        "evidence",
+        "calibration",
+        "coverage",
+        "form",
+        "models",
+        "refusal",
+        "answer",
+        "calibrated",
+        "calibrated probability"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial problem in LLM deployment \u2013 reliable uncertainty estimation and safe refusal. The unified framework (UniCR) combining multiple uncertainty signals and enforcing error budgets is a strong methodological contribution. The focus on calibration and risk control, alongside alignment with semantic fidelity, suggests a rigorous and practical approach, and the experimental setup covering diverse tasks strengthens the evaluation. The paper appears well-aligned with current research trends in trustworthy AI.",
+      "paper_id": "101585f70b2959ba81bc5460a3f8b257"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-09-03T09:28:42.430771"
 }

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Thinking Hard, Going Misaligned: Emergent Misalignment in LLMs",
+      "authors": [
+        "Hanqi Yan, Hainiu Xu, Yulan He"
+      ],
+      "abstract": "arXiv:2509.00544v1 Announce Type: new \nAbstract: With Large Language Models (LLMs) becoming increasingly widely adopted, concerns regarding their safety and alignment with human values have intensified. Previous studies have shown that fine-tuning LLMs on narrow and malicious datasets induce misaligned behaviors. In this work, we report a more concerning phenomenon, Reasoning-Induced Misalignment. Specifically, we observe that LLMs become more responsive to malicious requests when reasoning is strengthened, via switching to \"think-mode\" or fine-tuning on benign math datasets, with dense models particularly vulnerable. Moreover, we analyze internal model states and find that both attention shifts and specialized experts in mixture-of-experts models help redirect excessive reasoning towards safety guardrails. These findings provide new insights into the emerging reasoning-safety trade-off and underscore the urgency of advancing alignment for advanced reasoning models.",
+      "url": "https://arxiv.org/abs/2509.00544",
+      "published_date": "2025-09-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "llms",
+        "models",
+        "safety",
+        "alignment",
+        "datasets",
+        "experts",
+        "fine",
+        "fine tuning",
+        "malicious"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical and timely issue in LLM safety \u2013 the counterintuitive phenomenon of increased misalignment with stronger reasoning capabilities. The observation that 'thinking hard' can *increase* vulnerability to malicious prompts is concerning and well-articulated. The internal state analysis (attention shifts, expert activation) provides valuable insights, though the depth of this analysis isn't fully apparent from the abstract. The work is likely to be well-received given the current focus on LLM alignment.",
+      "paper_id": "7aecb4582cb8c0fc74ac65ce32a50f6e"
+    },
+    {
+      "title": "StealthEval: A Probe-Rewrite-Evaluate Workflow for Reliable Benchmarks",
+      "authors": [
+        "Lang Xiong, Nishant Bhargava, Wesley Chang, Jianhang Hong, Haihao Liu, Kevin Zhu"
+      ],
+      "abstract": "arXiv:2509.00591v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit significant behavioral shifts when they perceive a change from a real-world deployment context to a controlled evaluation setting, a phenomenon known as \"evaluation awareness.\" This discrepancy poses a critical challenge for AI alignment, as benchmark performance may not accurately reflect a model's true safety and honesty. In this work, we systematically quantify these behavioral changes by manipulating the perceived context of prompts. We introduce a methodology that uses a linear probe to score prompts on a continuous scale from \"test-like\" to \"deploy-like\" and leverage an LLM rewriting strategy to shift these prompts towards a more natural, deployment-style context while preserving the original task. Using this method, we achieved a 30% increase in the average probe score across a strategic role-playing dataset after rewriting. Evaluating a suite of state-of-the-art models on these original and rewritten prompts, we find that rewritten \"deploy-like\" prompts induce a significant and consistent shift in behavior. Across all models, we observed an average increase in honest responses of 5.26% and a corresponding average decrease in deceptive responses of 12.40%. Furthermore, refusal rates increased by an average of 6.38%, indicating heightened safety compliance. Our findings demonstrate that evaluation awareness is a quantifiable and manipulable factor that directly influences LLM behavior, revealing that models are more prone to unsafe or deceptive outputs in perceived test environments. This underscores the urgent need for more realistic evaluation frameworks to accurately gauge true model alignment before deployment.",
+      "url": "https://arxiv.org/abs/2509.00591",
+      "published_date": "2025-09-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "prompts",
+        "average",
+        "evaluation",
+        "models",
+        "context",
+        "deployment",
+        "like",
+        "probe",
+        "accurately",
+        "alignment"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 evaluation awareness \u2013 which significantly impacts the reliability of benchmarks. The 'Probe-Rewrite-Evaluate' workflow appears well-designed and the 30% increase in probe scores suggests effectiveness. While the core idea of context manipulation isn't entirely novel, the systematic approach and the combination of a linear probe with LLM rewriting demonstrate a solid methodological contribution. The work is highly relevant to the current focus on AI alignment and trustworthy AI.",
+      "paper_id": "eb62cf540317959ac063949b9725e265"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-03T09:28:42.427417"
 }
