@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Speech DF Arena: A Leaderboard for Speech DeepFake Detection Models",
+      "authors": [
+        "Sandipana Dowerah, Atharva Kulkarni, Ajinkya Kulkarni, Hoan My Tran, Joonas Kalda, Artem Fedorchenko, Benoit Fauve, Damien Lolive, Tanel Alum\\\"ae, Matthew Magimai Doss"
+      ],
+      "abstract": "arXiv:2509.02859v1 Announce Type: cross \nAbstract: Parallel to the development of advanced deepfake audio generation, audio deepfake detection has also seen significant progress. However, a standardized and comprehensive benchmark is still missing. To address this, we introduce Speech DeepFake (DF) Arena, the first comprehensive benchmark for audio deepfake detection. Speech DF Arena provides a toolkit to uniformly evaluate detection systems, currently across 14 diverse datasets and attack scenarios, standardized evaluation metrics and protocols for reproducibility and transparency. It also includes a leaderboard to compare and rank the systems to help researchers and developers enhance their reliability and robustness. We include 14 evaluation sets, 12 state-of-the-art open-source and 3 proprietary detection systems. Our study presents many systems exhibiting high EER in out-of-domain scenarios, highlighting the need for extensive cross-domain evaluation. The leaderboard is hosted on Huggingface1 and a toolkit for reproducing results across the listed datasets is available on GitHub.",
+      "url": "https://arxiv.org/abs/2509.02859",
+      "published_date": "2025-09-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "deepfake",
+        "detection",
+        "speech",
+        "systems",
+        "arena",
+        "audio",
+        "deepfake detection",
+        "df",
+        "df arena",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem \u2013 the detection of speech deepfakes. The creation of a standardized benchmark (Speech DF Arena) is a significant contribution, as it allows for fair comparison of different detection methods and highlights the challenges of generalization. The inclusion of a leaderboard and focus on reproducibility are also strong points, suggesting a well-executed and valuable resource for the community.",
+      "paper_id": "6e828e84bb343ee8d9a32fad6139c05d"
+    },
+    {
+      "title": "ChatCLIDS: Simulating Persuasive AI Dialogues to Promote Closed-Loop Insulin Adoption in Type 1 Diabetes Care",
+      "authors": [
+        "Zonghai Yao, Talha Chafekar, Junda Wang, Shuo Han, Feiyun Ouyang, Junhui Qian, Lingxi Li, Hong Yu"
+      ],
+      "abstract": "arXiv:2509.00891v2 Announce Type: replace-cross \nAbstract: Real-world adoption of closed-loop insulin delivery systems (CLIDS) in type 1 diabetes remains low, driven not by technical failure, but by diverse behavioral, psychosocial, and social barriers. We introduce ChatCLIDS, the first benchmark to rigorously evaluate LLM-driven persuasive dialogue for health behavior change. Our framework features a library of expert-validated virtual patients, each with clinically grounded, heterogeneous profiles and realistic adoption barriers, and simulates multi-turn interactions with nurse agents equipped with a diverse set of evidence-based persuasive strategies. ChatCLIDS uniquely supports longitudinal counseling and adversarial social influence scenarios, enabling robust, multi-dimensional evaluation. Our findings reveal that while larger and more reflective LLMs adapt strategies over time, all models struggle to overcome resistance, especially under realistic social pressure. These results highlight critical limitations of current LLMs for behavior change, and offer a high-fidelity, scalable testbed for advancing trustworthy persuasive AI in healthcare and beyond.",
+      "url": "https://arxiv.org/abs/2509.00891",
+      "published_date": "2025-09-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "persuasive",
+        "adoption",
+        "chatclids",
+        "social",
+        "type",
+        "ai",
+        "barriers",
+        "behavior",
+        "behavior change",
+        "change"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial real-world problem \u2013 low adoption of CLIDS despite their technical efficacy \u2013 by leveraging LLMs for persuasive dialogue. The creation of ChatCLIDS as a benchmark is a significant contribution, offering a robust framework for evaluating LLM performance in a complex health behavior change scenario. While LLMs are being applied to healthcare, this work's focus on *persuasion* and the inclusion of realistic social pressures is novel and well-motivated, though the abstract hints at limitations in current LLM capabilities.",
+      "paper_id": "e73343ad1c9f3433d94b5afd651b389a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-04T09:28:17.114065"
 }

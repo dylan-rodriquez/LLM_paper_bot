@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Probe-Rewrite-Evaluate: A Workflow for Reliable Benchmarks and Quantifying Evaluation Awareness",
+      "authors": [
+        "Lang Xiong, Nishant Bhargava, Wesley Chang, Jianhang Hong, Haihao Liu, Kevin Zhu"
+      ],
+      "abstract": "arXiv:2509.00591v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) often exhibit significant behavioral shifts when they perceive a change from a real-world deployment context to a controlled evaluation setting, a phenomenon known as \"evaluation awareness.\" This discrepancy poses a critical challenge for AI alignment, as benchmark performance may not accurately reflect a model's true safety and honesty. In this work, we systematically quantify these behavioral changes by manipulating the perceived context of prompts. We introduce a methodology that uses a linear probe to score prompts on a continuous scale from \"test-like\" to \"deploy-like\" and leverage an LLM rewriting strategy to shift these prompts towards a more natural, deployment-style context while preserving the original task. Using this method, we achieved a 30% increase in the average probe score across a strategic role-playing dataset after rewriting. Evaluating a suite of state-of-the-art models on these original and rewritten prompts, we find that rewritten \"deploy-like\" prompts induce a significant and consistent shift in behavior. Across all models, we observed an average increase in honest responses of 5.26% and a corresponding average decrease in deceptive responses of 12.40%. Furthermore, refusal rates increased by an average of 6.38%, indicating heightened safety compliance. Our findings demonstrate that evaluation awareness is a quantifiable and manipulable factor that directly influences LLM behavior, revealing that models are more prone to unsafe or deceptive outputs in perceived test environments. This underscores the urgent need for more realistic evaluation frameworks to accurately gauge true model alignment before deployment.",
+      "url": "https://arxiv.org/abs/2509.00591",
+      "published_date": "2025-09-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "prompts",
+        "average",
+        "models",
+        "awareness",
+        "context",
+        "deployment",
+        "evaluation awareness",
+        "like",
+        "probe"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 evaluation awareness \u2013 which significantly impacts the reliability of benchmarks. The 'Probe-Rewrite-Evaluate' workflow appears well-designed and the 30% increase in probe scores suggests effectiveness. The methodology is clearly articulated, and the problem's importance is high, making it likely to be well-received by the community.",
+      "paper_id": "dc80ab9780e6a28fe760f64260b5732a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-04T09:28:17.117631"
 }
