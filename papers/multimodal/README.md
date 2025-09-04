@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### ANNIE: Be Careful of Your Robots
+
+**Score:** 92.0 | **Published:** 2025-09-04 | **Authors:** Yiyang Huang, Zixuan Wang, Zishen Wan, Yapeng Tian, Haobo Xu, Yinhe Han, Yiming Gan
+
+arXiv:2509.03383v1 Announce Type: new 
+Abstract: The integration of vision-language-action (VLA) models into embodied AI (EAI) robots is rapidly advancing their ability to perform complex, long-horizo...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.03383) | [📝 Analysis](a87d35cfb41a3f681c38b7e3cd3dfa26.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-04 09:28:17 UTC*
