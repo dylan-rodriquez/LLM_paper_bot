@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Why Language Models Hallucinate",
+      "authors": [
+        "Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala, Edwin Zhang"
+      ],
+      "abstract": "arXiv:2509.04664v1 Announce Type: new \nAbstract: Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of admitting uncertainty. Such \"hallucinations\" persist even in state-of-the-art systems and undermine trust. We argue that language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty, and we analyze the statistical causes of hallucinations in the modern training pipeline. Hallucinations need not be mysterious -- they originate simply as errors in binary classification. If incorrect statements cannot be distinguished from facts, then hallucinations in pretrained language models will arise through natural statistical pressures. We then argue that hallucinations persist due to the way most evaluations are graded -- language models are optimized to be good test-takers, and guessing when uncertain improves test performance. This \"epidemic\" of penalizing uncertain responses can only be addressed through a socio-technical mitigation: modifying the scoring of existing benchmarks that are misaligned but dominate leaderboards, rather than introducing additional hallucination evaluations. This change may steer the field toward more trustworthy AI systems.",
+      "url": "https://arxiv.org/abs/2509.04664",
+      "published_date": "2025-09-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucinations",
+        "language",
+        "language models",
+        "models",
+        "uncertain",
+        "argue",
+        "evaluations",
+        "guessing",
+        "hallucinate",
+        "hallucinations persist"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucinations \u2013 and frames it in a compelling way, linking it to fundamental training and evaluation dynamics. The argument that hallucinations are rooted in binary classification errors and exacerbated by test-taking optimization is insightful. While the core idea isn't entirely novel, the systematic analysis and framing of the issue as a statistical pressure within the current pipeline is strong, suggesting a clear path for mitigation strategies. The high sentiment score reflects the current research focus on LLM reliability.",
+      "paper_id": "1cf6ee0b0eca31bdc117992ff9457285"
+    },
+    {
+      "title": "Knowledge Collapse in LLMs: When Fluency Survives but Facts Fail under Recursive Synthetic Training",
+      "authors": [
+        "Figarri Keisha, Zekun Wu, Ze Wang, Adriano Koshiyama, Philip Treleaven"
+      ],
+      "abstract": "arXiv:2509.04796v1 Announce Type: new \nAbstract: Large language models increasingly rely on synthetic data due to human-written content scarcity, yet recursive training on model-generated outputs leads to model collapse, a degenerative process threatening factual reliability. We define knowledge collapse as a distinct three-stage phenomenon where factual accuracy deteriorates while surface fluency persists, creating \"confidently wrong\" outputs that pose critical risks in accuracy-dependent domains. Through controlled experiments with recursive synthetic training, we demonstrate that collapse trajectory and timing depend critically on instruction format, distinguishing instruction-following collapse from traditional model collapse through its conditional, prompt-dependent nature. We propose domain-specific synthetic training as a targeted mitigation strategy that achieves substantial improvements in collapse resistance while maintaining computational efficiency. Our evaluation framework combines model-centric indicators with task-centric metrics to detect distinct degradation phases, enabling reproducible assessment of epistemic deterioration across different language models. These findings provide both theoretical insights into collapse dynamics and practical guidance for sustainable AI training in knowledge-intensive applications where accuracy is paramount.",
+      "url": "https://arxiv.org/abs/2509.04796",
+      "published_date": "2025-09-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "collapse",
+        "training",
+        "model",
+        "synthetic",
+        "accuracy",
+        "knowledge",
+        "recursive",
+        "synthetic training",
+        "centric",
+        "dependent"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the scaling of LLMs \u2013 the degradation of factual accuracy with recursive synthetic training. The identification of 'knowledge collapse' as a distinct three-stage phenomenon is a valuable contribution, and the demonstration of its prompt-dependence is insightful. The proposed mitigation strategy of domain-specific synthetic training appears promising and the paper's focus on a practical problem with a clear solution suggests a positive reception within the community.",
+      "paper_id": "fe5d350b61d2fe5999d38a1bb616df27"
+    },
+    {
+      "title": "Behavioral Fingerprinting of Large Language Models",
+      "authors": [
+        "Zehua Pei, Hui-Ling Zhen, Ying Zhang, Zhiyuan Yang, Xing Li, Xianzhi Yu, Mingxuan Yuan, Bei Yu"
+      ],
+      "abstract": "arXiv:2509.04504v1 Announce Type: new \nAbstract: Current benchmarks for Large Language Models (LLMs) primarily focus on performance metrics, often failing to capture the nuanced behavioral characteristics that differentiate them. This paper introduces a novel ``Behavioral Fingerprinting'' framework designed to move beyond traditional evaluation by creating a multi-faceted profile of a model's intrinsic cognitive and interactive styles. Using a curated \\textit{Diagnostic Prompt Suite} and an innovative, automated evaluation pipeline where a powerful LLM acts as an impartial judge, we analyze eighteen models across capability tiers. Our results reveal a critical divergence in the LLM landscape: while core capabilities like abstract and causal reasoning are converging among top models, alignment-related behaviors such as sycophancy and semantic robustness vary dramatically. We further document a cross-model default persona clustering (ISTJ/ESTJ) that likely reflects common alignment incentives. Taken together, this suggests that a model's interactive nature is not an emergent property of its scale or reasoning power, but a direct consequence of specific, and highly variable, developer alignment strategies. Our framework provides a reproducible and scalable methodology for uncovering these deep behavioral differences. Project: https://github.com/JarvisPei/Behavioral-Fingerprinting",
+      "url": "https://arxiv.org/abs/2509.04504",
+      "published_date": "2025-09-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "behavioral",
+        "models",
+        "alignment",
+        "behavioral fingerprinting",
+        "fingerprinting",
+        "model",
+        "abstract",
+        "evaluation",
+        "framework",
+        "interactive"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 moving beyond simple performance metrics to understand behavioral nuances. The 'Behavioral Fingerprinting' framework and the use of an LLM as a judge are innovative approaches. The finding that alignment-related behaviors vary significantly despite converging core capabilities is particularly insightful and suggests important directions for future research and development.",
+      "paper_id": "b6fd9055ec4945efa4b393a076a7ac02"
+    },
+    {
+      "title": "Quantized Large Language Models in Biomedical Natural Language Processing: Evaluation and Recommendation",
+      "authors": [
+        "Zaifu Zhan, Shuang Zhou, Min Zeng, Kai Yu, Meijia Song, Xiaoyi Chen, Jun Wang, Yu Hou, Rui Zhang"
+      ],
+      "abstract": "arXiv:2509.04534v1 Announce Type: new \nAbstract: Large language models have demonstrated remarkable capabilities in biomedical natural language processing, yet their rapid growth in size and computational requirements present a major barrier to adoption in healthcare settings where data privacy precludes cloud deployment and resources are limited. In this study, we systematically evaluated the impact of quantization on 12 state-of-the-art large language models, including both general-purpose and biomedical-specific models, across eight benchmark datasets covering four key tasks: named entity recognition, relation extraction, multi-label classification, and question answering. We show that quantization substantially reduces GPU memory requirements-by up to 75%-while preserving model performance across diverse tasks, enabling the deployment of 70B-parameter models on 40GB consumer-grade GPUs. In addition, domain-specific knowledge and responsiveness to advanced prompting methods are largely maintained. These findings provide significant practical and guiding value, highlighting quantization as a practical and effective strategy for enabling the secure, local deployment of large yet high-capacity language models in biomedical contexts, bridging the gap between technical advances in AI and real-world clinical translation.",
+      "url": "https://arxiv.org/abs/2509.04534",
+      "published_date": "2025-09-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "language",
+        "models",
+        "biomedical",
+        "language models",
+        "large",
+        "deployment",
+        "large language",
+        "quantization",
+        "biomedical natural",
+        "enabling"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical bottleneck in applying LLMs to healthcare \u2013 resource constraints and data privacy. The systematic evaluation of quantization across multiple models and tasks is rigorous and well-motivated. The reported 75% memory reduction with preserved performance is a significant finding, and the ability to run 70B models on consumer hardware is highly impactful. The positive framing around domain-specific knowledge and prompting suggests a thoughtful approach.",
+      "paper_id": "da3fc038338ff7328540e7e0cf690dff"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-08T09:30:29.070430"
 }

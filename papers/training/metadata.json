@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Breaking to Build: A Threat Model of Prompt-Based Attacks for Securing LLMs",
+      "authors": [
+        "Brennen Hill, Surendra Parla, Venkata Abhijeeth Balabhadruni, Atharv Prajod Padmalayam, Sujay Chandra Shekara Sharma"
+      ],
+      "abstract": "arXiv:2509.04615v1 Announce Type: new \nAbstract: The proliferation of Large Language Models (LLMs) has introduced critical security challenges, where adversarial actors can manipulate input prompts to cause significant harm and circumvent safety alignments. These prompt-based attacks exploit vulnerabilities in a model's design, training, and contextual understanding, leading to intellectual property theft, misinformation generation, and erosion of user trust. A systematic understanding of these attack vectors is the foundational step toward developing robust countermeasures. This paper presents a comprehensive literature survey of prompt-based attack methodologies, categorizing them to provide a clear threat model. By detailing the mechanisms and impacts of these exploits, this survey aims to inform the research community's efforts in building the next generation of secure LLMs that are inherently resistant to unauthorized distillation, fine-tuning, and editing.",
+      "url": "https://arxiv.org/abs/2509.04615",
+      "published_date": "2025-09-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "based",
+        "llms",
+        "model",
+        "prompt",
+        "prompt based",
+        "attack",
+        "attacks",
+        "based attacks",
+        "generation",
+        "survey"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant and timely problem in the rapidly evolving field of LLMs \u2013 prompt-based attacks. While the abstract indicates a literature survey and categorization rather than novel attack *methods*, the systematic threat modeling approach is valuable. The potential to inform the development of more secure LLMs gives it high practical impact, and the community is actively seeking solutions in this area, suggesting a positive reception.",
+      "paper_id": "9a877c71826b404811ea58b079039ec5"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-09-08T09:30:29.071916"
 }

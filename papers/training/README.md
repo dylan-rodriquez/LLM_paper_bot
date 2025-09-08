@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Breaking to Build: A Threat Model of Prompt-Based Attacks for Securing LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-08 | **Authors:** Brennen Hill, Surendra Parla, Venkata Abhijeeth Balabhadruni, Atharv Prajod Padmalayam, Sujay Chandra Shekara Sharma
+
+arXiv:2509.04615v1 Announce Type: new 
+Abstract: The proliferation of Large Language Models (LLMs) has introduced critical security challenges, where adversarial actors can manipulate input prompts to...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.04615) | [📝 Analysis](9a877c71826b404811ea58b079039ec5.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-08 09:30:29 UTC*
