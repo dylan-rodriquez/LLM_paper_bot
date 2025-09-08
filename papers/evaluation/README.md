@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Why Language Models Hallucinate
+
+**Score:** 92.0 | **Published:** 2025-09-08 | **Authors:** Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala, Edwin Zhang
+
+arXiv:2509.04664v1 Announce Type: new 
+Abstract: Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.04664) | [📝 Analysis](1cf6ee0b0eca31bdc117992ff9457285.md)
+
+---
+
+### Knowledge Collapse in LLMs: When Fluency Survives but Facts Fail under Recursive Synthetic Training
+
+**Score:** 92.0 | **Published:** 2025-09-08 | **Authors:** Figarri Keisha, Zekun Wu, Ze Wang, Adriano Koshiyama, Philip Treleaven
+
+arXiv:2509.04796v1 Announce Type: new 
+Abstract: Large language models increasingly rely on synthetic data due to human-written content scarcity, yet recursive training on model-generated outputs lead...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.04796) | [📝 Analysis](fe5d350b61d2fe5999d38a1bb616df27.md)
+
+---
+
+### Behavioral Fingerprinting of Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-09-08 | **Authors:** Zehua Pei, Hui-Ling Zhen, Ying Zhang, Zhiyuan Yang, Xing Li, Xianzhi Yu, Mingxuan Yuan, Bei Yu
+
+arXiv:2509.04504v1 Announce Type: new 
+Abstract: Current benchmarks for Large Language Models (LLMs) primarily focus on performance metrics, often failing to capture the nuanced behavioral characteris...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.04504) | [📝 Analysis](b6fd9055ec4945efa4b393a076a7ac02.md)
+
+---
+
+### Quantized Large Language Models in Biomedical Natural Language Processing: Evaluation and Recommendation
+
+**Score:** 90.0 | **Published:** 2025-09-08 | **Authors:** Zaifu Zhan, Shuang Zhou, Min Zeng, Kai Yu, Meijia Song, Xiaoyi Chen, Jun Wang, Yu Hou, Rui Zhang
+
+arXiv:2509.04534v1 Announce Type: new 
+Abstract: Large language models have demonstrated remarkable capabilities in biomedical natural language processing, yet their rapid growth in size and computati...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.04534) | [📝 Analysis](da3fc038338ff7328540e7e0cf690dff.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-08 09:30:29 UTC*
