@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Proof-Carrying Numbers (PCN): A Protocol for Trustworthy Numeric Answers from LLMs via Claim Verification
+
+**Score:** 92.0 | **Published:** 2025-09-09 | **Authors:** Aivin V. Solatorio
+
+arXiv:2509.06902v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) as stochastic systems may generate numbers that deviate from available data, a failure known as \emph{numeric hallucinatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.06902) | [📝 Analysis](2915e6d83f29c6b32c1d3824b421b720.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-09 09:28:57 UTC*

@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Proof-Carrying Numbers (PCN): A Protocol for Trustworthy Numeric Answers from LLMs via Claim Verification",
+      "authors": [
+        "Aivin V. Solatorio"
+      ],
+      "abstract": "arXiv:2509.06902v1 Announce Type: new \nAbstract: Large Language Models (LLMs) as stochastic systems may generate numbers that deviate from available data, a failure known as \\emph{numeric hallucination}. Existing safeguards -- retrieval-augmented generation, citations, and uncertainty estimation -- improve transparency but cannot guarantee fidelity: fabricated or misquoted values may still be displayed as if correct. We propose \\textbf{Proof-Carrying Numbers (PCN)}, a presentation-layer protocol that enforces numeric fidelity through mechanical verification. Under PCN, numeric spans are emitted as \\emph{claim-bound tokens} tied to structured claims, and a verifier checks each token under a declared policy (e.g., exact equality, rounding, aliases, or tolerance with qualifiers). Crucially, PCN places verification in the \\emph{renderer}, not the model: only claim-checked numbers are marked as verified, and all others default to unverified. This separation prevents spoofing and guarantees fail-closed behavior. We formalize PCN and prove soundness, completeness under honest tokens, fail-closed behavior, and monotonicity under policy refinement. PCN is lightweight and model-agnostic, integrates seamlessly into existing applications, and can be extended with cryptographic commitments. By enforcing verification as a mandatory step before display, PCN establishes a simple contract for numerically sensitive settings: \\emph{trust is earned only by proof}, while the absence of a mark communicates uncertainty.",
+      "url": "https://arxiv.org/abs/2509.06902",
+      "published_date": "2025-09-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pcn",
+        "emph",
+        "numbers",
+        "numeric",
+        "verification",
+        "claim",
+        "proof",
+        "behavior",
+        "carrying",
+        "carrying numbers"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a critical problem \u2013 numeric hallucination in LLMs \u2013 with a novel and practical approach. The idea of shifting verification to the renderer is clever and addresses a key vulnerability in current safeguards. The clarity of the abstract suggests a well-defined methodology, and the potential for widespread adoption is high given the increasing reliance on LLMs for data-driven tasks.",
+      "paper_id": "2915e6d83f29c6b32c1d3824b421b720"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-09-09T09:28:57.509508"
 }

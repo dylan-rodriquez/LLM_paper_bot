@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond Keywords: Driving Generative Search Engine Optimization with Content-Centric Agents
+
+**Score:** 92.0 | **Published:** 2025-09-09 | **Authors:** Qiyuan Chen, Jiahe Chen, Hongsen Huang, Qian Shao, Jintai Chen, Renjie Hua, Hongxia Xu, Ruijia Wu, Ren Chuan, Jian Wu
+
+arXiv:2509.05607v1 Announce Type: new 
+Abstract: The paradigm shift from traditional ranked-based search to Generative Search Engines has rendered conventional SEO metrics obsolete, creating an urgent...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.05607) | [📝 Analysis](3fee488897dcfe699ddcd0dbc23bd954.md)
+
+---
+
+### MedFactEval and MedAgentBrief: A Framework and Workflow for Generating and Evaluating Factual Clinical Summaries
+
+**Score:** 92.0 | **Published:** 2025-09-09 | **Authors:** Fran\c{c}ois Grolleau, Emily Alsentzer, Timothy Keyes, Philip Chung, Akshay Swaminathan, Asad Aali, Jason Hom, Tridu Huynh, Thomas Lew, April S. Liang, Weihan Chu, Natasha Z. Steele, Christina F. Lin, Jingkun Yang, Kameron C. Black, Stephen P. Ma, Fateme N. Haredasht, Nigam H. Shah, Kevin Schulman, Jonathan H. Chen
+
+arXiv:2509.05878v1 Announce Type: new 
+Abstract: Evaluating factual accuracy in Large Language Model (LLM)-generated clinical text is a critical barrier to adoption, as expert review is unscalable for...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.05878) | [📝 Analysis](f04d93218182c25f105e7aecb1a33ba7.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-09 09:28:57 UTC*

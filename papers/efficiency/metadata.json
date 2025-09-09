@@ -159,7 +159,39 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "Cross-Service Threat Intelligence in LLM Services using Privacy-Preserving Fingerprints",
+      "authors": [
+        "Waris Gill, Natalie Isak, Matthew Dressman"
+      ],
+      "abstract": "arXiv:2509.05608v1 Announce Type: cross \nAbstract: The widespread deployment of LLMs across enterprise services has created a critical security blind spot. Organizations operate multiple LLM services handling billions of queries daily, yet regulatory compliance boundaries prevent these services from sharing threat intelligence about prompt injection attacks, the top security risk for LLMs. When an attack is detected in one service, the same threat may persist undetected in others for months, as privacy regulations prohibit sharing user prompts across compliance boundaries.\n  We present BinaryShield, the first privacy-preserving threat intelligence system that enables secure sharing of attack fingerprints across compliance boundaries. BinaryShield transforms suspicious prompts through a unique pipeline combining PII redaction, semantic embedding, binary quantization, and randomized response mechanism to potentially generate non-invertible fingerprints that preserve attack patterns while providing privacy. Our evaluations demonstrate that BinaryShield achieves an F1-score of 0.94, significantly outperforming SimHash (0.77), the privacy-preserving baseline, while achieving 64x storage reduction and 38x faster similarity search compared to dense embeddings.",
+      "url": "https://arxiv.org/abs/2509.05608",
+      "published_date": "2025-09-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "privacy",
+        "services",
+        "threat",
+        "attack",
+        "binaryshield",
+        "boundaries",
+        "compliance",
+        "compliance boundaries",
+        "fingerprints",
+        "intelligence"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a very significant and timely problem \u2013 the security of LLM services operating under privacy constraints. The proposed BinaryShield system appears well-conceived, combining several techniques (PII redaction, embedding, quantization, randomized response) to achieve privacy-preserving threat intelligence sharing. While the individual techniques aren't entirely novel, their combination and application to this specific problem space demonstrate a strong approach. The potential for real-world impact is high, given the increasing reliance on LLMs and the growing need for robust security measures.",
+      "paper_id": "1a75dccd4b8f4d9358b81cfac6544361"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2025-09-09T09:28:57.510121"
 }
