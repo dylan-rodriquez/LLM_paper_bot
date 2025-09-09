@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond Keywords: Driving Generative Search Engine Optimization with Content-Centric Agents",
+      "authors": [
+        "Qiyuan Chen, Jiahe Chen, Hongsen Huang, Qian Shao, Jintai Chen, Renjie Hua, Hongxia Xu, Ruijia Wu, Ren Chuan, Jian Wu"
+      ],
+      "abstract": "arXiv:2509.05607v1 Announce Type: new \nAbstract: The paradigm shift from traditional ranked-based search to Generative Search Engines has rendered conventional SEO metrics obsolete, creating an urgent need to understand, measure, and optimize for content influence on synthesized answers. This paper introduces a comprehensive, end-to-end framework for Generative Search Engine Optimization (GSEO) to address this challenge. We make two primary contributions. First, we construct CC-GSEO-Bench, a large-scale, content-centric benchmark, and propose a multi-dimensional evaluation framework that systematically quantifies influence, moving beyond surface-level attribution to assess substantive semantic impact. Second, we design a novel multi-agent system that operationalizes this framework, automating the strategic refinement of content through a collaborative analyze-revise-evaluate workflow. Our empirical analysis using this framework reveals novel insights into the dynamics of content influence, offering actionable strategies for creators and establishing a principled foundation for future GSEO research.",
+      "url": "https://arxiv.org/abs/2509.05607",
+      "published_date": "2025-09-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "content",
+        "framework",
+        "search",
+        "generative",
+        "generative search",
+        "gseo",
+        "influence",
+        "centric",
+        "content centric",
+        "content influence"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a very timely and important problem \u2013 adapting SEO for generative search. The creation of a content-centric benchmark (CC-GSEO-Bench) and a multi-agent system for content refinement are strong contributions. While the multi-agent approach isn't entirely novel in itself, applying it to this specific problem space is a significant step forward, and the focus on *semantic* impact is crucial.",
+      "paper_id": "3fee488897dcfe699ddcd0dbc23bd954"
+    },
+    {
+      "title": "MedFactEval and MedAgentBrief: A Framework and Workflow for Generating and Evaluating Factual Clinical Summaries",
+      "authors": [
+        "Fran\\c{c}ois Grolleau, Emily Alsentzer, Timothy Keyes, Philip Chung, Akshay Swaminathan, Asad Aali, Jason Hom, Tridu Huynh, Thomas Lew, April S. Liang, Weihan Chu, Natasha Z. Steele, Christina F. Lin, Jingkun Yang, Kameron C. Black, Stephen P. Ma, Fateme N. Haredasht, Nigam H. Shah, Kevin Schulman, Jonathan H. Chen"
+      ],
+      "abstract": "arXiv:2509.05878v1 Announce Type: new \nAbstract: Evaluating factual accuracy in Large Language Model (LLM)-generated clinical text is a critical barrier to adoption, as expert review is unscalable for the continuous quality assurance these systems require. We address this challenge with two complementary contributions. First, we introduce MedFactEval, a framework for scalable, fact-grounded evaluation where clinicians define high-salience key facts and an \"LLM Jury\"--a multi-LLM majority vote--assesses their inclusion in generated summaries. Second, we present MedAgentBrief, a model-agnostic, multi-step workflow designed to generate high-quality, factual discharge summaries. To validate our evaluation framework, we established a gold-standard reference using a seven-physician majority vote on clinician-defined key facts from inpatient cases. The MedFactEval LLM Jury achieved almost perfect agreement with this panel (Cohen's kappa=81%), a performance statistically non-inferior to that of a single human expert (kappa=67%, P < 0.001). Our work provides both a robust evaluation framework (MedFactEval) and a high-performing generation workflow (MedAgentBrief), offering a comprehensive approach to advance the responsible deployment of generative AI in clinical workflows.",
+      "url": "https://arxiv.org/abs/2509.05878",
+      "published_date": "2025-09-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "framework",
+        "llm",
+        "medfacteval",
+        "clinical",
+        "evaluation",
+        "factual",
+        "high",
+        "medagentbrief",
+        "summaries",
+        "workflow"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 factual accuracy in clinical summaries \u2013 with a practical and well-defined approach. The use of an 'LLM Jury' for scalable evaluation and the strong agreement with a physician gold standard (kappa=81%) are particularly impressive. While the MedAgentBrief workflow is model-agnostic, the core innovation lies in the evaluation framework, making it highly relevant to the current focus on LLM reliability and trustworthiness in healthcare.",
+      "paper_id": "f04d93218182c25f105e7aecb1a33ba7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-09T09:28:57.508394"
 }

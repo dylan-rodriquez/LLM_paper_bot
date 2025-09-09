@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Cross-Service Threat Intelligence in LLM Services using Privacy-Preserving Fingerprints
+
+**Score:** 92.0 | **Published:** 2025-09-09 | **Authors:** Waris Gill, Natalie Isak, Matthew Dressman
+
+arXiv:2509.05608v1 Announce Type: cross 
+Abstract: The widespread deployment of LLMs across enterprise services has created a critical security blind spot. Organizations operate multiple LLM services ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.05608) | [📝 Analysis](1a75dccd4b8f4d9358b81cfac6544361.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-09 09:28:57 UTC*
