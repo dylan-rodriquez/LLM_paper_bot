@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### That's So FETCH: Fashioning Ensemble Techniques for LLM Classification in Civil Legal Intake and Referral
+
+**Score:** 92.0 | **Published:** 2025-09-10 | **Authors:** Quinten Steenhuis
+
+arXiv:2509.07170v1 Announce Type: cross 
+Abstract: Each year millions of people seek help for their legal problems by calling a legal aid program hotline, walking into a legal aid office, or using a l...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07170) | [📝 Analysis](726aeb2b5a0f74a3d6cdb322ef583302.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-10 09:28:00 UTC*

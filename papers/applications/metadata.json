@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "That's So FETCH: Fashioning Ensemble Techniques for LLM Classification in Civil Legal Intake and Referral",
+      "authors": [
+        "Quinten Steenhuis"
+      ],
+      "abstract": "arXiv:2509.07170v1 Announce Type: cross \nAbstract: Each year millions of people seek help for their legal problems by calling a legal aid program hotline, walking into a legal aid office, or using a lawyer referral service. The first step to match them to the right help is to identify the legal problem the applicant is experiencing. Misdirection has consequences. Applicants may miss a deadline, experience physical abuse, lose housing or lose custody of children while waiting to connect to the right legal help. We introduce and evaluate the FETCH classifier for legal issue classification and describe two methods for improving accuracy: a hybrid LLM/ML ensemble classification method, and the automatic generation of follow-up questions to enrich the initial problem narrative. We employ a novel data set of 419 real-world queries to a nonprofit lawyer referral service. Ultimately, we show classification accuracy (hits@2) of 97.37\\% using a mix of inexpensive models, exceeding the performance of the current state-of-the-art GPT-5 model. Our approach shows promise in significantly reducing the cost of guiding users of the legal system to the right resource for their problem while achieving high accuracy.",
+      "url": "https://arxiv.org/abs/2509.07170",
+      "published_date": "2025-09-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "legal",
+        "classification",
+        "accuracy",
+        "help",
+        "problem",
+        "referral",
+        "right",
+        "aid",
+        "ensemble",
+        "fetch"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant problem \u2013 access to justice \u2013 with a practical and well-motivated approach. The use of ensemble methods and follow-up question generation to improve LLM classification accuracy is promising, and the novel dataset of real-world queries adds value. While the techniques themselves aren't entirely groundbreaking, their application to this specific domain and the reported 97.37% accuracy suggest strong potential.",
+      "paper_id": "726aeb2b5a0f74a3d6cdb322ef583302"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-09-10T09:28:00.583244"
 }

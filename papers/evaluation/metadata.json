@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge",
+      "authors": [
+        "Zonghai Yao, Michael Sun, Won Seok Jang, Sunjae Kwon, Soie Kwon, Hong Yu"
+      ],
+      "abstract": "arXiv:2509.07188v1 Announce Type: new \nAbstract: Discharge communication is a critical yet underexplored component of patient care, where the goal shifts from diagnosis to education. While recent large language model (LLM) benchmarks emphasize in-visit diagnostic reasoning, they fail to evaluate models' ability to support patients after the visit. We introduce DischargeSim, a novel benchmark that evaluates LLMs on their ability to act as personalized discharge educators. DischargeSim simulates post-visit, multi-turn conversations between LLM-driven DoctorAgents and PatientAgents with diverse psychosocial profiles (e.g., health literacy, education, emotion). Interactions are structured across six clinically grounded discharge topics and assessed along three axes: (1) dialogue quality via automatic and LLM-as-judge evaluation, (2) personalized document generation including free-text summaries and structured AHRQ checklists, and (3) patient comprehension through a downstream multiple-choice exam. Experiments across 18 LLMs reveal significant gaps in discharge education capability, with performance varying widely across patient profiles. Notably, model size does not always yield better education outcomes, highlighting trade-offs in strategy use and content prioritization. DischargeSim offers a first step toward benchmarking LLMs in post-visit clinical education and promoting equitable, personalized patient support.",
+      "url": "https://arxiv.org/abs/2509.07188",
+      "published_date": "2025-09-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "discharge",
+        "education",
+        "patient",
+        "dischargesim",
+        "visit",
+        "llm",
+        "llms",
+        "personalized",
+        "ability",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 post-visit patient education and discharge communication. The creation of DischargeSim, with its focus on personalized interactions and diverse patient profiles, is a strong methodological contribution. The multi-faceted evaluation (dialogue quality, document generation, comprehension) demonstrates a rigorous approach, and the problem itself is highly relevant to improving patient outcomes and reducing readmissions. The focus on psychosocial factors is particularly commendable.",
+      "paper_id": "db8bfae11a31b9dc97efa9084f2378fd"
+    },
+    {
+      "title": "The ML-SUPERB 2.0 Challenge: Towards Inclusive ASR Benchmarking for All Language Varieties",
+      "authors": [
+        "William Chen, Chutong Meng, Jiatong Shi, Martijn Bartelds, Shih-Heng Wang, Hsiu-Hsuan Wang, Rafael Mosquera, Sara Hincapie, Dan Jurafsky, Antonis Anastasopoulos, Hung-yi Lee, Karen Livescu, Shinji Watanabe"
+      ],
+      "abstract": "arXiv:2509.07139v1 Announce Type: new \nAbstract: Recent improvements in multilingual ASR have not been equally distributed across languages and language varieties. To advance state-of-the-art (SOTA) ASR models, we present the Interspeech 2025 ML-SUPERB 2.0 Challenge. We construct a new test suite that consists of data from 200+ languages, accents, and dialects to evaluate SOTA multilingual speech models. The challenge also introduces an online evaluation server based on DynaBench, allowing for flexibility in model design and architecture for participants. The challenge received 5 submissions from 3 teams, all of which outperformed our baselines. The best-performing submission achieved an absolute improvement in LID accuracy of 23% and a reduction in CER of 18% when compared to the best baseline on a general multilingual test set. On accented and dialectal data, the best submission obtained 30.2% lower CER and 15.7% higher LID accuracy, showing the importance of community challenges in making speech technologies more inclusive.",
+      "url": "https://arxiv.org/abs/2509.07139",
+      "published_date": "2025-09-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "challenge",
+        "asr",
+        "best",
+        "multilingual",
+        "accuracy",
+        "cer",
+        "data",
+        "inclusive",
+        "language",
+        "language varieties"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in ASR \u2013 the disparity in performance across languages and dialects. The creation of a large, diverse test suite (200+ languages/varieties) and the use of DynaBench for online evaluation are strong methodological contributions. The reported performance improvements from the challenge submissions demonstrate the value of this work, and the high sentiment score reflects the community's need for more inclusive ASR benchmarking.",
+      "paper_id": "9f544f52f9dcaad1f42150bdd238d4fd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-10T09:28:00.579311"
 }

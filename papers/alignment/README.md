@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Probe-Rewrite-Evaluate: A Workflow for Reliable Benchmarks and Quantifying Evaluation Awareness
+
+**Score:** 92.0 | **Published:** 2025-09-10 | **Authors:** Lang Xiong, Nishant Bhargava, Jeremy Chang, Jianhang Hong, Haihao Liu, Vasu Sharma, Kevin Zhu
+
+arXiv:2509.00591v4 Announce Type: replace 
+Abstract: Large Language Models (LLMs) often exhibit significant behavioral shifts when they perceive a change from a real-world deployment context to a cont...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.00591) | [📝 Analysis](dc80ab9780e6a28fe760f64260b5732a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-10 09:28:00 UTC*

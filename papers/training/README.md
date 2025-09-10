@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Are LLMs Enough for Hyperpartisan, Fake, Polarized and Harmful Content Detection? Evaluating In-Context Learning vs. Fine-Tuning
+
+**Score:** 92.0 | **Published:** 2025-09-10 | **Authors:** Michele Joshua Maggini, Dhia Merzougui, Rabiraj Bandyopadhyay, Ga\"el Dias, Fabrice Maurel, Pablo Gamallo
+
+arXiv:2509.07768v1 Announce Type: new 
+Abstract: The spread of fake news, polarizing, politically biased, and harmful content on online platforms has been a serious concern. With large language models...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07768) | [📝 Analysis](76f2bf50f74b9235beec2d0848df19e6.md)
+
+---
+
+### OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-10 | **Authors:** Xiaoyu Xu, Minxin Du, Qingqing Ye, Haibo Hu
+
+arXiv:2505.04416v2 Announce Type: replace 
+Abstract: Large language models (LLMs) trained over extensive corpora risk memorizing sensitive, copyrighted, or toxic content. To address this, we propose \...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.04416) | [📝 Analysis](337e6386142910111920af49d73ebc50.md)
+
+---
+
+### Astra: A Multi-Agent System for GPU Kernel Performance Optimization
+
+**Score:** 90.0 | **Published:** 2025-09-10 | **Authors:** Anjiang Wei, Tianran Sun, Yogesh Seenichamy, Hang Song, Anne Ouyang, Azalia Mirhoseini, Ke Wang, Alex Aiken
+
+arXiv:2509.07506v1 Announce Type: cross 
+Abstract: GPU kernel optimization has long been a central challenge at the intersection of high-performance computing and machine learning. Efficient kernels a...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07506) | [📝 Analysis](2814da0a7df58b24819f6dcca0db2104.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-10 09:28:00 UTC*

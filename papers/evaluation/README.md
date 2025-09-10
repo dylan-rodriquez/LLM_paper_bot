@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge
+
+**Score:** 92.0 | **Published:** 2025-09-10 | **Authors:** Zonghai Yao, Michael Sun, Won Seok Jang, Sunjae Kwon, Soie Kwon, Hong Yu
+
+arXiv:2509.07188v1 Announce Type: new 
+Abstract: Discharge communication is a critical yet underexplored component of patient care, where the goal shifts from diagnosis to education. While recent larg...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07188) | [📝 Analysis](db8bfae11a31b9dc97efa9084f2378fd.md)
+
+---
+
+### The ML-SUPERB 2.0 Challenge: Towards Inclusive ASR Benchmarking for All Language Varieties
+
+**Score:** 90.0 | **Published:** 2025-09-10 | **Authors:** William Chen, Chutong Meng, Jiatong Shi, Martijn Bartelds, Shih-Heng Wang, Hsiu-Hsuan Wang, Rafael Mosquera, Sara Hincapie, Dan Jurafsky, Antonis Anastasopoulos, Hung-yi Lee, Karen Livescu, Shinji Watanabe
+
+arXiv:2509.07139v1 Announce Type: new 
+Abstract: Recent improvements in multilingual ASR have not been equally distributed across languages and language varieties. To advance state-of-the-art (SOTA) A...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07139) | [📝 Analysis](9f544f52f9dcaad1f42150bdd238d4fd.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-10 09:28:00 UTC*
