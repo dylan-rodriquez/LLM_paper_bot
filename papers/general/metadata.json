@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "Adversarial Attacks Against Automated Fact-Checking: A Survey",
+      "authors": [
+        "Fanzhen Liu, Alsharif Abuadbba, Kristen Moore, Surya Nepal, Cecile Paris, Jia Wu, Jian Yang, Quan Z. Sheng"
+      ],
+      "abstract": "arXiv:2509.08463v1 Announce Type: new \nAbstract: In an era where misinformation spreads freely, fact-checking (FC) plays a crucial role in verifying claims and promoting reliable information. While automated fact-checking (AFC) has advanced significantly, existing systems remain vulnerable to adversarial attacks that manipulate or generate claims, evidence, or claim-evidence pairs. These attacks can distort the truth, mislead decision-makers, and ultimately undermine the reliability of FC models. Despite growing research interest in adversarial attacks against AFC systems, a comprehensive, holistic overview of key challenges remains lacking. These challenges include understanding attack strategies, assessing the resilience of current models, and identifying ways to enhance robustness. This survey provides the first in-depth review of adversarial attacks targeting FC, categorizing existing attack methodologies and evaluating their impact on AFC systems. Additionally, we examine recent advancements in adversary-aware defenses and highlight open research questions that require further exploration. Our findings underscore the urgent need for resilient FC frameworks capable of withstanding adversarial manipulations in pursuit of preserving high verification accuracy.",
+      "url": "https://arxiv.org/abs/2509.08463",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "adversarial",
+        "attacks",
+        "adversarial attacks",
+        "fc",
+        "afc",
+        "checking",
+        "fact",
+        "fact checking",
+        "systems",
+        "afc systems"
+      ],
+      "subject_classification": "general",
+      "justification": "This survey addresses a highly significant and timely problem \u2013 the vulnerability of automated fact-checking systems to adversarial attacks. The abstract clearly articulates the need for a comprehensive overview, suggesting a rigorous approach. While a survey isn't inherently innovative, consolidating and categorizing existing attack methodologies is valuable, and the focus on impact assessment is a strong point. The potential for real-world impact is high, given the increasing reliance on AFC and the dangers of misinformation.",
+      "paper_id": "c90577d00788eb54cb80601e88c835f9"
+    }
+  ],
+  "last_updated": "2025-09-11T09:27:51.669336"
+}

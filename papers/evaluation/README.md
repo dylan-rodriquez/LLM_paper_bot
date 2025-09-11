@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Adaptive Monitoring and Real-World Evaluation of Agentic AI Systems
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Manish Shukla
+
+arXiv:2509.00115v2 Announce Type: replace-cross 
+Abstract: Agentic artificial intelligence (AI) -- multi-agent systems that combine large language models with external tools and autonomous planning --...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.00115) | [📝 Analysis](dd6e9c4e9436e58c4dd9edc8fb487697.md)
+
+---
+
+### The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Ziming Luo, Atoosa Kasirzadeh, Nihar B. Shah
+
+arXiv:2509.08713v1 Announce Type: new 
+Abstract: AI scientist systems, capable of autonomously executing the full research workflow from hypothesis generation and experimentation to paper writing, hol...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08713) | [📝 Analysis](f6ad93acba6048d8463dbef94ba8ae0e.md)
+
+---
+
+### DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge
+
+**Score:** 90.0 | **Published:** 2025-09-11 | **Authors:** Zonghai Yao, Michael Sun, Won Seok Jang, Sunjae Kwon, Soie Kwon, Hong Yu
+
+arXiv:2509.07188v2 Announce Type: replace 
+Abstract: Discharge communication is a critical yet underexplored component of patient care, where the goal shifts from diagnosis to education. While recent ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07188) | [📝 Analysis](db8bfae11a31b9dc97efa9084f2378fd.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-11 09:27:51 UTC*

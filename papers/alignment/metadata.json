@@ -159,7 +159,135 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation",
+      "authors": [
+        "Joachim Baumann, Paul R\\\"ottger, Aleksandra Urman, Albert Wendsj\\\"o, Flor Miriam Plaza-del-Arco, Johannes B. Gruber, Dirk Hovy"
+      ],
+      "abstract": "arXiv:2509.08825v1 Announce Type: new \nAbstract: Large language models (LLMs) are rapidly transforming social science research by enabling the automation of labor-intensive tasks like data annotation and text analysis. However, LLM outputs vary significantly depending on the implementation choices made by researchers (e.g., model selection, prompting strategy, or temperature settings). Such variation can introduce systematic biases and random errors, which propagate to downstream analyses and cause Type I, Type II, Type S, or Type M errors. We call this LLM hacking.\n  We quantify the risk of LLM hacking by replicating 37 data annotation tasks from 21 published social science research studies with 18 different models. Analyzing 13 million LLM labels, we test 2,361 realistic hypotheses to measure how plausible researcher choices affect statistical conclusions. We find incorrect conclusions based on LLM-annotated data in approximately one in three hypotheses for state-of-the-art models, and in half the hypotheses for small language models. While our findings show that higher task performance and better general model capabilities reduce LLM hacking risk, even highly accurate models do not completely eliminate it. The risk of LLM hacking decreases as effect sizes increase, indicating the need for more rigorous verification of findings near significance thresholds. Our extensive analysis of LLM hacking mitigation techniques emphasizes the importance of human annotations in reducing false positive findings and improving model selection. Surprisingly, common regression estimator correction techniques are largely ineffective in reducing LLM hacking risk, as they heavily trade off Type I vs. Type II errors.\n  Beyond accidental errors, we find that intentional LLM hacking is unacceptably simple. With few LLMs and just a handful of prompt paraphrases, anything can be presented as statistically significant.",
+      "url": "https://arxiv.org/abs/2509.08825",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "hacking",
+        "llm hacking",
+        "type",
+        "models",
+        "errors",
+        "model",
+        "risk",
+        "annotation",
+        "data"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of LLM-assisted research \u2013 the potential for systematic errors and biases introduced through seemingly innocuous implementation choices. The large-scale replication study (37 tasks, 18 models, 13 million labels) demonstrates a strong methodological rigor. The finding that incorrect conclusions are reached in roughly one-third of hypotheses is alarming and highlights a significant risk for social science research relying on LLM annotation.",
+      "paper_id": "5b9204c50f4da75ea66737ca744c2a97"
+    },
+    {
+      "title": "Measuring and mitigating overreliance is necessary for building human-compatible AI",
+      "authors": [
+        "Lujain Ibrahim, Katherine M. Collins, Sunnie S. Y. Kim, Anka Reuel, Max Lamparth, Kevin Feng, Lama Ahmad, Prajna Soni, Alia El Kattan, Merlin Stein, Siddharth Swaroop, Ilia Sucholutsky, Andrew Strait, Q. Vera Liao, Umang Bhatt"
+      ],
+      "abstract": "arXiv:2509.08010v1 Announce Type: cross \nAbstract: Large language models (LLMs) distinguish themselves from previous technologies by functioning as collaborative \"thought partners,\" capable of engaging more fluidly in natural language. As LLMs increasingly influence consequential decisions across diverse domains from healthcare to personal advice, the risk of overreliance - relying on LLMs beyond their capabilities - grows. This position paper argues that measuring and mitigating overreliance must become central to LLM research and deployment. First, we consolidate risks from overreliance at both the individual and societal levels, including high-stakes errors, governance challenges, and cognitive deskilling. Then, we explore LLM characteristics, system design features, and user cognitive biases that - together - raise serious and unique concerns about overreliance in practice. We also examine historical approaches for measuring overreliance, identifying three important gaps and proposing three promising directions to improve measurement. Finally, we propose mitigation strategies that the AI research community can pursue to ensure LLMs augment rather than undermine human capabilities.",
+      "url": "https://arxiv.org/abs/2509.08010",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "overreliance",
+        "llms",
+        "measuring",
+        "ai",
+        "capabilities",
+        "cognitive",
+        "human",
+        "language",
+        "llm",
+        "measuring mitigating"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critically important and timely issue \u2013 the risk of overreliance on LLMs. While the abstract suggests a consolidation of existing risks and exploration of known factors, the framing of the problem and call for focused research is valuable. The paper's potential impact is high given the increasing deployment of LLMs in high-stakes domains, but the abstract doesn't indicate novel methodologies for *measuring* overreliance beyond identifying gaps in current approaches.",
+      "paper_id": "372d73993e4d19bcb48faa81c714b765"
+    },
+    {
+      "title": "IssueBench: Millions of Realistic Prompts for Measuring Issue Bias in LLM Writing Assistance",
+      "authors": [
+        "Paul R\\\"ottger, Musashi Hinck, Valentin Hofmann, Kobi Hackenburg, Valentina Pyatkin, Faeze Brahman, Dirk Hovy"
+      ],
+      "abstract": "arXiv:2502.08395v3 Announce Type: replace \nAbstract: Large language models (LLMs) are helping millions of users write texts about diverse issues, and in doing so expose users to different ideas and perspectives. This creates concerns about issue bias, where an LLM tends to present just one perspective on a given issue, which in turn may influence how users think about this issue. So far, it has not been possible to measure which issue biases LLMs manifest in real user interactions, making it difficult to address the risks from biased LLMs. Therefore, we create IssueBench: a set of 2.49m realistic English-language prompts to measure issue bias in LLM writing assistance, which we construct based on 3.9k templates (e.g. \"write a blog about\") and 212 political issues (e.g. \"AI regulation\") from real user interactions. Using IssueBench, we show that issue biases are common and persistent in 10 state-of-the-art LLMs. We also show that biases are very similar across models, and that all models align more with US Democrat than Republican voter opinion on a subset of issues. IssueBench can easily be adapted to include other issues, templates, or tasks. By enabling robust and realistic measurement, we hope that IssueBench can bring a new quality of evidence to ongoing discussions about LLM biases and how to address them.",
+      "url": "https://arxiv.org/abs/2502.08395",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "issue",
+        "issuebench",
+        "biases",
+        "issues",
+        "llm",
+        "llms",
+        "bias",
+        "bias llm",
+        "issue bias",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 issue bias in LLMs \u2013 which is becoming increasingly important as these models are widely deployed. The creation of IssueBench, a large and realistic dataset, is a significant methodological contribution. The finding that biases are common and consistent across models highlights a systemic issue needing attention, and the scale of the dataset allows for robust analysis. The work is well-motivated and clearly presented.",
+      "paper_id": "1793f0374e635bf3c2bde1d27c5d1332"
+    },
+    {
+      "title": "Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?",
+      "authors": [
+        "Hua Shen, Nicholas Clark, Tanushree Mitra"
+      ],
+      "abstract": "arXiv:2501.15463v2 Announce Type: replace-cross \nAbstract: Existing research primarily evaluates the values of LLMs by examining their stated inclinations towards specific values. However, the \"Value-Action Gap,\" a phenomenon rooted in environmental and social psychology, reveals discrepancies between individuals' stated values and their actions in real-world contexts. To what extent do LLMs exhibit a similar gap between their stated values and their actions informed by those values? This study introduces ValueActionLens, an evaluation framework to assess the alignment between LLMs' stated values and their value-informed actions. The framework encompasses the generation of a dataset comprising 14.8k value-informed actions across twelve cultures and eleven social topics, and two tasks to evaluate how well LLMs' stated value inclinations and value-informed actions align across three different alignment measures. Extensive experiments reveal that the alignment between LLMs' stated values and actions is sub-optimal, varying significantly across scenarios and models. Analysis of misaligned results identifies potential harms from certain value-action gaps. To predict the value-action gaps, we also uncover that leveraging reasoned explanations improves performance. These findings underscore the risks of relying solely on the LLMs' stated values to predict their behaviors and emphasize the importance of context-aware evaluations of LLM values and value-action gaps.",
+      "url": "https://arxiv.org/abs/2501.15463",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "values",
+        "value",
+        "llms",
+        "stated",
+        "actions",
+        "action",
+        "stated values",
+        "value action",
+        "alignment",
+        "informed"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial issue in LLM development \u2013 the disconnect between stated values and actual behavior. The introduction of ValueActionLens as a framework and the creation of a large, multi-cultural dataset are strong methodological contributions. The focus on the 'Value-Action Gap' is a novel application of social psychology to AI alignment, and the potential for improving LLM reliability and trustworthiness is significant. The high sentiment score reflects the current research focus on LLM alignment and safety.",
+      "paper_id": "2245d35a56a52b7fa5b518d6a375c248"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-11T09:27:51.670047"
 }
