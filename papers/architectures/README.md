@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Scaling Truth: The Confidence Paradox in AI Fact-Checking
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Ihsan A. Qazi, Zohaib Khan, Abdullah Ghani, Agha A. Raza, Zafar A. Qazi, Wassay Sajjad, Ayesha Ali, Asher Javaid, Muhammad Abdullah Sohail, Abdul H. Azeemi
+
+arXiv:2509.08803v1 Announce Type: cross 
+Abstract: The rise of misinformation underscores the need for scalable and reliable fact-checking solutions. Large language models (LLMs) hold promise in autom...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08803) | [📝 Analysis](c1b330aaabf53699815577c1c050f2e6.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-11 09:27:51 UTC*

@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Scaling Truth: The Confidence Paradox in AI Fact-Checking",
+      "authors": [
+        "Ihsan A. Qazi, Zohaib Khan, Abdullah Ghani, Agha A. Raza, Zafar A. Qazi, Wassay Sajjad, Ayesha Ali, Asher Javaid, Muhammad Abdullah Sohail, Abdul H. Azeemi"
+      ],
+      "abstract": "arXiv:2509.08803v1 Announce Type: cross \nAbstract: The rise of misinformation underscores the need for scalable and reliable fact-checking solutions. Large language models (LLMs) hold promise in automating fact verification, yet their effectiveness across global contexts remains uncertain. We systematically evaluate nine established LLMs across multiple categories (open/closed-source, multiple sizes, diverse architectures, reasoning-based) using 5,000 claims previously assessed by 174 professional fact-checking organizations across 47 languages. Our methodology tests model generalizability on claims postdating training cutoffs and four prompting strategies mirroring both citizen and professional fact-checker interactions, with over 240,000 human annotations as ground truth. Findings reveal a concerning pattern resembling the Dunning-Kruger effect: smaller, accessible models show high confidence despite lower accuracy, while larger models demonstrate higher accuracy but lower confidence. This risks systemic bias in information verification, as resource-constrained organizations typically use smaller models. Performance gaps are most pronounced for non-English languages and claims originating from the Global South, threatening to widen existing information inequalities. These results establish a multilingual benchmark for future research and provide an evidence base for policy aimed at ensuring equitable access to trustworthy, AI-assisted fact-checking.",
+      "url": "https://arxiv.org/abs/2509.08803",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "fact",
+        "checking",
+        "fact checking",
+        "models",
+        "claims",
+        "confidence",
+        "000",
+        "accuracy",
+        "ai",
+        "global"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research tackles a crucial problem \u2013 the reliability of LLMs in fact-checking, particularly concerning misinformation \u2013 with a robust methodology involving a large, multilingual dataset and diverse LLM evaluation. The finding of a 'confidence paradox' mirroring the Dunning-Kruger effect is particularly insightful and raises important questions about how we deploy these models. While the methodology is strong, the innovation lies more in the scale and scope of the evaluation than a fundamentally new technique, but the results are highly impactful.",
+      "paper_id": "c1b330aaabf53699815577c1c050f2e6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-09-11T09:27:51.670882"
 }

@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events",
+      "authors": [
+        "Zhenyuan Chen, Chenxi Wang, Feng Zhang"
+      ],
+      "abstract": "arXiv:2509.01907v3 Announce Type: replace-cross \nAbstract: Remote sensing is critical for disaster monitoring, yet existing datasets lack temporal image pairs and detailed textual annotations. While single-snapshot imagery dominates current resources, it fails to capture dynamic disaster impacts over time. To address this gap, we introduce the Remote Sensing Change Caption (RSCC) dataset, a large-scale benchmark comprising 62,315 pre-/post-disaster image pairs (spanning earthquakes, floods, wildfires, and more) paired with rich, human-like change captions. By bridging the temporal and semantic divide in remote sensing data, RSCC enables robust training and evaluation of vision-language models for disaster-aware bi-temporal understanding. Our results highlight RSCC's ability to facilitate detailed disaster-related analysis, paving the way for more accurate, interpretable, and scalable vision-language applications in remote sensing. Code and dataset are available at https://github.com/Bili-Sakura/RSCC.",
+      "url": "https://arxiv.org/abs/2509.01907",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "disaster",
+        "remote",
+        "remote sensing",
+        "rscc",
+        "sensing",
+        "change",
+        "dataset",
+        "temporal",
+        "caption",
+        "change caption"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in remote sensing datasets by providing temporally paired images *with* detailed captions, which is essential for training robust vision-language models for disaster response. The scale of the dataset (62,315 pairs) is impressive and suggests a significant contribution to the field. While the core idea of pairing images and captions isn't entirely novel, the application to bi-temporal disaster analysis and the dataset's size elevate its value. The availability of code and data further strengthens its potential impact.",
+      "paper_id": "3ae0923b7f21726275c18535b9a6a898"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-09-11T09:27:51.673362"
 }

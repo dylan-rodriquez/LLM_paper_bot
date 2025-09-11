@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Adaptive Monitoring and Real-World Evaluation of Agentic AI Systems",
+      "authors": [
+        "Manish Shukla"
+      ],
+      "abstract": "arXiv:2509.00115v2 Announce Type: replace-cross \nAbstract: Agentic artificial intelligence (AI) -- multi-agent systems that combine large language models with external tools and autonomous planning -- are rapidly transitioning from research laboratories into high-stakes domains. Our earlier \"Basic\" paper introduced a five-axis framework and proposed preliminary metrics such as goal drift and harm reduction but did not provide an algorithmic instantiation or empirical evidence. This \"Advanced\" sequel fills that gap. First, we revisit recent benchmarks and industrial deployments to show that technical metrics still dominate evaluations: a systematic review of 84 papers from 2023--2025 found that 83% report capability metrics while only 30% consider human-centred or economic axes [2]. Second, we formalise an Adaptive Multi-Dimensional Monitoring (AMDM) algorithm that normalises heterogeneous metrics, applies per-axis exponentially weighted moving-average thresholds and performs joint anomaly detection via the Mahalanobis distance. Third, we conduct simulations and real-world experiments. AMDM cuts anomaly-detection latency from 12.3 s to 5.6 s on simulated goal drift and reduces false-positive rates from 4.5% to 0.9% compared with static thresholds. We present a comparison table and ROC/PR curves, and we reanalyse case studies to surface missing metrics. Code, data and a reproducibility checklist accompany this paper to facilitate replication. The code supporting this work is available at https://github.com/Manishms18/Adaptive-Multi-Dimensional-Monitoring.",
+      "url": "https://arxiv.org/abs/2509.00115",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "metrics",
+        "adaptive",
+        "monitoring",
+        "multi",
+        "adaptive multi",
+        "agentic",
+        "ai",
+        "amdm",
+        "anomaly",
+        "anomaly detection"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of agentic AI \u2013 the need for robust and multi-dimensional monitoring. The systematic review highlighting the dominance of capability metrics over human-centered ones is particularly insightful. While the AMDM algorithm itself may not be revolutionary, its formalization and empirical validation represent a significant step forward in addressing the evaluation challenges of these complex systems.",
+      "paper_id": "dd6e9c4e9436e58c4dd9edc8fb487697"
+    },
+    {
+      "title": "The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems",
+      "authors": [
+        "Ziming Luo, Atoosa Kasirzadeh, Nihar B. Shah"
+      ],
+      "abstract": "arXiv:2509.08713v1 Announce Type: new \nAbstract: AI scientist systems, capable of autonomously executing the full research workflow from hypothesis generation and experimentation to paper writing, hold significant potential for accelerating scientific discovery. However, the internal workflow of these systems have not been closely examined. This lack of scrutiny poses a risk of introducing flaws that could undermine the integrity, reliability, and trustworthiness of their research outputs. In this paper, we identify four potential failure modes in contemporary AI scientist systems: inappropriate benchmark selection, data leakage, metric misuse, and post-hoc selection bias. To examine these risks, we design controlled experiments that isolate each failure mode while addressing challenges unique to evaluating AI scientist systems. Our assessment of two prominent open-source AI scientist systems reveals the presence of several failures, across a spectrum of severity, which can be easily overlooked in practice. Finally, we demonstrate that access to trace logs and code from the full automated workflow enables far more effective detection of such failures than examining the final paper alone. We thus recommend journals and conferences evaluating AI-generated research to mandate submission of these artifacts alongside the paper to ensure transparency, accountability, and reproducibility.",
+      "url": "https://arxiv.org/abs/2509.08713",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "systems",
+        "ai scientist",
+        "scientist",
+        "scientist systems",
+        "paper",
+        "research",
+        "workflow",
+        "evaluating",
+        "evaluating ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely issue in the rapidly developing field of AI scientists \u2013 the potential for hidden flaws and biases. The identification of specific failure modes (benchmark selection, data leakage, metric misuse, post-hoc bias) and the design of controlled experiments to assess them demonstrate a rigorous approach. While the methods aren't entirely novel, applying them to the specific context of AI scientist systems is a valuable contribution, and the findings are likely to be well-received by the community.",
+      "paper_id": "f6ad93acba6048d8463dbef94ba8ae0e"
+    },
+    {
+      "title": "DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge",
+      "authors": [
+        "Zonghai Yao, Michael Sun, Won Seok Jang, Sunjae Kwon, Soie Kwon, Hong Yu"
+      ],
+      "abstract": "arXiv:2509.07188v2 Announce Type: replace \nAbstract: Discharge communication is a critical yet underexplored component of patient care, where the goal shifts from diagnosis to education. While recent large language model (LLM) benchmarks emphasize in-visit diagnostic reasoning, they fail to evaluate models' ability to support patients after the visit. We introduce DischargeSim, a novel benchmark that evaluates LLMs on their ability to act as personalized discharge educators. DischargeSim simulates post-visit, multi-turn conversations between LLM-driven DoctorAgents and PatientAgents with diverse psychosocial profiles (e.g., health literacy, education, emotion). Interactions are structured across six clinically grounded discharge topics and assessed along three axes: (1) dialogue quality via automatic and LLM-as-judge evaluation, (2) personalized document generation including free-text summaries and structured AHRQ checklists, and (3) patient comprehension through a downstream multiple-choice exam. Experiments across 18 LLMs reveal significant gaps in discharge education capability, with performance varying widely across patient profiles. Notably, model size does not always yield better education outcomes, highlighting trade-offs in strategy use and content prioritization. DischargeSim offers a first step toward benchmarking LLMs in post-visit clinical education and promoting equitable, personalized patient support.",
+      "url": "https://arxiv.org/abs/2509.07188",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "discharge",
+        "education",
+        "patient",
+        "dischargesim",
+        "visit",
+        "llm",
+        "llms",
+        "personalized",
+        "ability",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 post-visit patient education. The creation of DischargeSim, with its focus on personalized communication and diverse patient profiles, is a strong methodological contribution. The multi-faceted evaluation (dialogue quality, document generation, comprehension) adds to the rigor, and the problem itself is highly relevant to improving healthcare outcomes. The novelty is good, though building on existing LLM benchmarking frameworks.",
+      "paper_id": "db8bfae11a31b9dc97efa9084f2378fd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-11T09:27:51.672339"
 }

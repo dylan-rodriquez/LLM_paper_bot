@@ -2,7 +2,73 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (58 total)
+
+### AntiDote: Bi-level Adversarial Training for Tamper-Resistant LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Debdeep Sanyal, Manodeep Ray, Murari Mandal
+
+arXiv:2509.08000v1 Announce Type: new 
+Abstract: The release of open-weight large language models (LLMs) creates a tension between advancing accessible research and preventing misuse, such as maliciou...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08000) | [📝 Analysis](809168ca86211696ecbd9270e6f962be.md)
+
+---
+
+### MVPBench: A Benchmark and Fine-Tuning Framework for Aligning Large Language Models with Diverse Human Values
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Yao Liang, Dongcheng Zhao, Feifei Zhao, Guobin Shen, Yuwei Wang, Dongqi Liang, Yi Zeng
+
+arXiv:2509.08022v1 Announce Type: new 
+Abstract: The alignment of large language models (LLMs) with human values is critical for their safe and effective deployment across diverse user populations. Ho...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08022) | [📝 Analysis](68fa6debe9fb3bb89175988caf6a3bd5.md)
+
+---
+
+### Memorization in Large Language Models in Medicine: Prevalence, Characteristics, and Implications
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Anran Li, Lingfei Qian, Mengmeng Du, Yu Yin, Yan Hu, Zihao Sun, Yihang Fu, Erica Stutz, Xuguang Ai, Qianqian Xie, Rui Zhu, Jimin Huang, Yifan Yang, Siru Liu, Yih-Chung Tham, Lucila Ohno-Machado, Hyunghoon Cho, Zhiyong Lu, Hua Xu, Qingyu Chen
+
+arXiv:2509.08604v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have demonstrated significant potential in medicine. To date, LLMs have been widely applied to tasks such as diagnostic as...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08604) | [📝 Analysis](37a78da1e98294fa4b6a250d9027b31b.md)
+
+---
+
+### HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Benjamin Sturgeon, Daniel Samuelson, Jacob Haimes, Jacy Reese Anthis
+
+arXiv:2509.08494v1 Announce Type: cross 
+Abstract: As humans delegate more tasks and decisions to artificial intelligence (AI), we risk losing control of our individual and collective futures. Relativ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08494) | [📝 Analysis](38724193b0dfc37fa8a618c85ada9e1f.md)
+
+---
+
+### A Survey on Training-free Alignment of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-11 | **Authors:** Birong Pan, Yongqi Li, Weiyu Zhang, Wenpeng Lu, Mayi Xu, Shen Zhou, Yuanyuan Zhu, Ming Zhong, Tieyun Qian
+
+arXiv:2508.09016v4 Announce Type: replace 
+Abstract: The alignment of large language models (LLMs) aims to ensure their outputs adhere to human values, ethical standards, and legal norms. Traditional ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.09016) | [📝 Analysis](295a4fb727ebd4158cf86fc4e0cf894e.md)
+
+---
+
+### Recursive Training Loops in LLMs: How training data properties modulate distribution shift in generated data?
+
+**Score:** 90.0 | **Published:** 2025-09-11 | **Authors:** Grgur Kova\v{c}, J\'er\'emy Perez, R\'emy Portelas, Peter Ford Dominey, Pierre-Yves Oudeyer
+
+arXiv:2504.03814v4 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly used in the creation of online content, creating feedback loops as subsequent generations of mo...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.03814) | [📝 Analysis](8ae7002f4e0bc8b2a0b10e927215687f.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +643,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-11 09:27:51 UTC*

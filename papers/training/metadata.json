@@ -1663,7 +1663,199 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "AntiDote: Bi-level Adversarial Training for Tamper-Resistant LLMs",
+      "authors": [
+        "Debdeep Sanyal, Manodeep Ray, Murari Mandal"
+      ],
+      "abstract": "arXiv:2509.08000v1 Announce Type: new \nAbstract: The release of open-weight large language models (LLMs) creates a tension between advancing accessible research and preventing misuse, such as malicious fine-tuning to elicit harmful content. Current safety measures struggle to preserve the general capabilities of the LLM while resisting a determined adversary with full access to the model's weights and architecture, who can use full-parameter fine-tuning to erase existing safeguards. To address this, we introduce AntiDote, a bi-level optimization procedure for training LLMs to be resistant to such tampering. AntiDote involves an auxiliary adversary hypernetwork that learns to generate malicious Low-Rank Adaptation (LoRA) weights conditioned on the defender model's internal activations. The defender LLM is then trained with an objective to nullify the effect of these adversarial weight additions, forcing it to maintain its safety alignment. We validate this approach against a diverse suite of 52 red-teaming attacks, including jailbreak prompting, latent space manipulation, and direct weight-space attacks. AntiDote is upto 27.4\\% more robust against adversarial attacks compared to both tamper-resistance and unlearning baselines. Crucially, this robustness is achieved with a minimal trade-off in utility, incurring a performance degradation of upto less than 0.5\\% across capability benchmarks including MMLU, HellaSwag, and GSM8K. Our work offers a practical and compute efficient methodology for building open-weight models where safety is a more integral and resilient property.",
+      "url": "https://arxiv.org/abs/2509.08000",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "antidote",
+        "weight",
+        "adversarial",
+        "attacks",
+        "llms",
+        "safety",
+        "adversary",
+        "antidote bi",
+        "bi",
+        "bi level"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 the vulnerability of open-weight LLMs to malicious fine-tuning. The bi-level adversarial training approach with a hypernetwork to generate adversarial LoRA weights is a clever and potentially effective defense mechanism. While LoRA itself isn't new, the application within this adversarial framework demonstrates a strong methodological approach, and the focus on maintaining general capabilities while resisting tampering is crucial.",
+      "paper_id": "809168ca86211696ecbd9270e6f962be"
+    },
+    {
+      "title": "MVPBench: A Benchmark and Fine-Tuning Framework for Aligning Large Language Models with Diverse Human Values",
+      "authors": [
+        "Yao Liang, Dongcheng Zhao, Feifei Zhao, Guobin Shen, Yuwei Wang, Dongqi Liang, Yi Zeng"
+      ],
+      "abstract": "arXiv:2509.08022v1 Announce Type: new \nAbstract: The alignment of large language models (LLMs) with human values is critical for their safe and effective deployment across diverse user populations. However, existing benchmarks often neglect cultural and demographic diversity, leading to limited understanding of how value alignment generalizes globally. In this work, we introduce MVPBench, a novel benchmark that systematically evaluates LLMs' alignment with multi-dimensional human value preferences across 75 countries. MVPBench contains 24,020 high-quality instances annotated with fine-grained value labels, personalized questions, and rich demographic metadata, making it the most comprehensive resource of its kind to date. Using MVPBench, we conduct an in-depth analysis of several state-of-the-art LLMs, revealing substantial disparities in alignment performance across geographic and demographic lines. We further demonstrate that lightweight fine-tuning methods, such as Low-Rank Adaptation (LoRA) and Direct Preference Optimization (DPO), can significantly enhance value alignment in both in-domain and out-of-domain settings. Our findings underscore the necessity for population-aware alignment evaluation and provide actionable insights for building culturally adaptive and value-sensitive LLMs. MVPBench serves as a practical foundation for future research on global alignment, personalized value modeling, and equitable AI development.",
+      "url": "https://arxiv.org/abs/2509.08022",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "value",
+        "mvpbench",
+        "llms",
+        "demographic",
+        "fine",
+        "human",
+        "benchmark",
+        "diverse",
+        "domain"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial and timely problem in LLM development \u2013 value alignment, particularly across diverse cultures. The creation of MVPBench, a large and richly annotated dataset, is a significant contribution. The demonstration of disparities in LLM alignment and the exploration of lightweight fine-tuning methods further strengthen the work, suggesting a clear path towards more globally responsible AI.",
+      "paper_id": "68fa6debe9fb3bb89175988caf6a3bd5"
+    },
+    {
+      "title": "Memorization in Large Language Models in Medicine: Prevalence, Characteristics, and Implications",
+      "authors": [
+        "Anran Li, Lingfei Qian, Mengmeng Du, Yu Yin, Yan Hu, Zihao Sun, Yihang Fu, Erica Stutz, Xuguang Ai, Qianqian Xie, Rui Zhu, Jimin Huang, Yifan Yang, Siru Liu, Yih-Chung Tham, Lucila Ohno-Machado, Hyunghoon Cho, Zhiyong Lu, Hua Xu, Qingyu Chen"
+      ],
+      "abstract": "arXiv:2509.08604v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated significant potential in medicine. To date, LLMs have been widely applied to tasks such as diagnostic assistance, medical question answering, and clinical information synthesis. However, a key open question remains: to what extent do LLMs memorize medical training data. In this study, we present the first comprehensive evaluation of memorization of LLMs in medicine, assessing its prevalence (how frequently it occurs), characteristics (what is memorized), volume (how much content is memorized), and potential downstream impacts (how memorization may affect medical applications). We systematically analyze common adaptation scenarios: (1) continued pretraining on medical corpora, (2) fine-tuning on standard medical benchmarks, and (3) fine-tuning on real-world clinical data, including over 13,000 unique inpatient records from Yale New Haven Health System. The results demonstrate that memorization is prevalent across all adaptation scenarios and significantly higher than reported in the general domain. Memorization affects both the development and adoption of LLMs in medicine and can be categorized into three types: beneficial (e.g., accurate recall of clinical guidelines and biomedical references), uninformative (e.g., repeated disclaimers or templated medical document language), and harmful (e.g., regeneration of dataset-specific or sensitive clinical content). Based on these findings, we offer practical recommendations to facilitate beneficial memorization that enhances domain-specific reasoning and factual accuracy, minimize uninformative memorization to promote deeper learning beyond surface-level patterns, and mitigate harmful memorization to prevent the leakage of sensitive or identifiable patient information.",
+      "url": "https://arxiv.org/abs/2509.08604",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "memorization",
+        "medical",
+        "llms",
+        "clinical",
+        "medicine",
+        "language",
+        "adaptation",
+        "adaptation scenarios",
+        "beneficial",
+        "characteristics"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a crucial and timely issue in the application of LLMs to medicine \u2013 the potential for memorization of training data. The systematic analysis across different adaptation scenarios, including real-world clinical data, demonstrates a rigorous methodology. The potential downstream impacts of memorization on medical applications are significant, making this a highly relevant and impactful study. While the core idea of investigating memorization isn't entirely novel, the scope and focus on the medical domain, coupled with the use of real clinical data, elevate its contribution.",
+      "paper_id": "37a78da1e98294fa4b6a250d9027b31b"
+    },
+    {
+      "title": "HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants",
+      "authors": [
+        "Benjamin Sturgeon, Daniel Samuelson, Jacob Haimes, Jacy Reese Anthis"
+      ],
+      "abstract": "arXiv:2509.08494v1 Announce Type: cross \nAbstract: As humans delegate more tasks and decisions to artificial intelligence (AI), we risk losing control of our individual and collective futures. Relatively simple algorithmic systems already steer human decision-making, such as social media feed algorithms that lead people to unintentionally and absent-mindedly scroll through engagement-optimized content. In this paper, we develop the idea of human agency by integrating philosophical and scientific theories of agency with AI-assisted evaluation methods: using large language models (LLMs) to simulate and validate user queries and to evaluate AI responses. We develop HumanAgencyBench (HAB), a scalable and adaptive benchmark with six dimensions of human agency based on typical AI use cases. HAB measures the tendency of an AI assistant or agent to Ask Clarifying Questions, Avoid Value Manipulation, Correct Misinformation, Defer Important Decisions, Encourage Learning, and Maintain Social Boundaries. We find low-to-moderate agency support in contemporary LLM-based assistants and substantial variation across system developers and dimensions. For example, while Anthropic LLMs most support human agency overall, they are the least supportive LLMs in terms of Avoid Value Manipulation. Agency support does not appear to consistently result from increasing LLM capabilities or instruction-following behavior (e.g., RLHF), and we encourage a shift towards more robust safety and alignment targets.",
+      "url": "https://arxiv.org/abs/2509.08494",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "agency",
+        "ai",
+        "human",
+        "human agency",
+        "support",
+        "agency support",
+        "llms",
+        "assistants",
+        "avoid",
+        "avoid value"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue \u2013 maintaining human agency in the face of increasingly powerful AI. The development of HumanAgencyBench (HAB) is a strong methodological contribution, offering a scalable way to evaluate AI assistants. While leveraging LLMs for evaluation isn't entirely novel, the specific dimensions of agency defined and the benchmark's adaptive nature demonstrate a thoughtful approach. The potential for real-world impact on AI safety and responsible development is significant.",
+      "paper_id": "38724193b0dfc37fa8a618c85ada9e1f"
+    },
+    {
+      "title": "A Survey on Training-free Alignment of Large Language Models",
+      "authors": [
+        "Birong Pan, Yongqi Li, Weiyu Zhang, Wenpeng Lu, Mayi Xu, Shen Zhou, Yuanyuan Zhu, Ming Zhong, Tieyun Qian"
+      ],
+      "abstract": "arXiv:2508.09016v4 Announce Type: replace \nAbstract: The alignment of large language models (LLMs) aims to ensure their outputs adhere to human values, ethical standards, and legal norms. Traditional alignment methods often rely on resource-intensive fine-tuning (FT), which may suffer from knowledge degradation and face challenges in scenarios where the model accessibility or computational resources are constrained. In contrast, training-free (TF) alignment techniques--leveraging in-context learning, decoding-time adjustments, and post-generation corrections--offer a promising alternative by enabling alignment without heavily retraining LLMs, making them adaptable to both open-source and closed-source environments. This paper presents the first systematic review of TF alignment methods, categorizing them by stages of pre-decoding, in-decoding, and post-decoding. For each stage, we provide a detailed examination from the viewpoint of LLMs and multimodal LLMs (MLLMs), highlighting their mechanisms and limitations. Furthermore, we identify key challenges and future directions, paving the way for more inclusive and effective TF alignment techniques. By synthesizing and organizing the rapidly growing body of research, this survey offers a guidance for practitioners and advances the development of safer and more reliable LLMs.",
+      "url": "https://arxiv.org/abs/2508.09016",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "llms",
+        "decoding",
+        "tf",
+        "tf alignment",
+        "alignment large",
+        "alignment methods",
+        "alignment techniques",
+        "challenges",
+        "free"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem in LLM research \u2013 alignment without expensive retraining. The systematic review approach, categorizing techniques by stage, is well-structured and promises a valuable resource for the community. While the core idea of surveying existing work isn't groundbreaking, the focus on *training-free* methods and the inclusion of multimodal LLMs adds value, and the potential for broad applicability suggests significant impact.",
+      "paper_id": "295a4fb727ebd4158cf86fc4e0cf894e"
+    },
+    {
+      "title": "Recursive Training Loops in LLMs: How training data properties modulate distribution shift in generated data?",
+      "authors": [
+        "Grgur Kova\\v{c}, J\\'er\\'emy Perez, R\\'emy Portelas, Peter Ford Dominey, Pierre-Yves Oudeyer"
+      ],
+      "abstract": "arXiv:2504.03814v4 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are increasingly used in the creation of online content, creating feedback loops as subsequent generations of models will be trained on this synthetic data. Such loops were shown to lead to distribution shifts - models misrepresenting the true underlying distributions of human data (also called model collapse). However, how human data properties affect such shifts remains poorly understood. In this paper, we provide the first empirical examination of the effect of such properties on the outcome of recursive training. We first confirm that using different human datasets leads to distribution shifts of different magnitudes. Through exhaustive manipulation of dataset properties combined with regression analyses, we then identify a set of properties predicting distribution shift magnitudes. Lexical diversity is found to amplify these shifts, while semantic diversity and data quality mitigate them. Furthermore, we find that these influences are highly modular: data scrapped from a given internet domain has little influence on the content generated for another domain. Finally, experiments on political bias reveal that human data properties affect whether the initial bias will be amplified or reduced. Overall, our results portray a novel view, where different parts of internet may undergo different types of distribution shift.",
+      "url": "https://arxiv.org/abs/2504.03814",
+      "published_date": "2025-09-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "properties",
+        "distribution",
+        "different",
+        "human",
+        "shifts",
+        "data properties",
+        "distribution shift",
+        "human data",
+        "loops"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the LLM lifecycle \u2013 the potential for distribution shift and model collapse due to recursive training. The empirical examination and identification of data properties influencing these shifts are well-executed and provide valuable insights. The findings regarding lexical, semantic diversity, and data quality are particularly impactful, offering actionable guidance for dataset curation. The work is rigorous and clearly presented, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "8ae7002f4e0bc8b2a0b10e927215687f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-09-11T09:27:51.666147"
 }
