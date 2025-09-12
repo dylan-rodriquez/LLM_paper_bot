@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Steering MoE LLMs via Expert (De)Activation
+
+**Score:** 92.0 | **Published:** 2025-09-12 | **Authors:** Mohsen Fayyaz, Ali Modarressi, Hanieh Deilamsalehy, Franck Dernoncourt, Ryan Rossi, Trung Bui, Hinrich Sch\"utze, Nanyun Peng
+
+arXiv:2509.09660v1 Announce Type: new 
+Abstract: Mixture-of-Experts (MoE) in Large Language Models (LLMs) routes each token through a subset of specialized Feed-Forward Networks (FFN), known as expert...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09660) | [📝 Analysis](89918bbb64c2a7ecd829ef162adf6cbe.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-12 09:28:10 UTC*

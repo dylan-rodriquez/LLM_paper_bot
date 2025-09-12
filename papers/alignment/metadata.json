@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Steering MoE LLMs via Expert (De)Activation",
+      "authors": [
+        "Mohsen Fayyaz, Ali Modarressi, Hanieh Deilamsalehy, Franck Dernoncourt, Ryan Rossi, Trung Bui, Hinrich Sch\\\"utze, Nanyun Peng"
+      ],
+      "abstract": "arXiv:2509.09660v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) in Large Language Models (LLMs) routes each token through a subset of specialized Feed-Forward Networks (FFN), known as experts. We present SteerMoE, a framework for steering MoE models by detecting and controlling behavior-linked experts. Our detection method identifies experts with distinct activation patterns across paired inputs exhibiting contrasting behaviors. By selectively (de)activating such experts during inference, we control behaviors like faithfulness and safety without retraining or modifying weights. Across 11 benchmarks and 6 LLMs, our steering raises safety by up to +20% and faithfulness by +27%. In adversarial attack mode, it drops safety by -41% alone, and -100% when combined with existing jailbreak methods, bypassing all safety guardrails and exposing a new dimension of alignment faking hidden within experts.",
+      "url": "https://arxiv.org/abs/2509.09660",
+      "published_date": "2025-09-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "experts",
+        "safety",
+        "llms",
+        "moe",
+        "steering",
+        "activation",
+        "behaviors",
+        "faithfulness",
+        "models",
+        "new"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLMs \u2013 alignment and safety \u2013 with a novel approach to steering MoE models. The ability to control behaviors *without* retraining is a significant advantage, and the reported performance gains (+20% safety, +27% faithfulness) are impressive. The discovery of 'alignment faking' within experts is particularly concerning and highlights a new vulnerability. The methodology appears sound, and the results are presented clearly, though further details on the detection method would be beneficial.",
+      "paper_id": "89918bbb64c2a7ecd829ef162adf6cbe"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-12T09:28:10.641028"
 }

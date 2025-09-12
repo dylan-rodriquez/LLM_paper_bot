@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Prompting the Market? A Large-Scale Meta-Analysis of GenAI in Finance NLP (2022-2025)
+
+**Score:** 90.0 | **Published:** 2025-09-12 | **Authors:** Paolo Pedinotti, Peter Baumann, Nathan Jessurun, Leslie Barrett, Enrico Santus
+
+arXiv:2509.09544v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have rapidly reshaped financial NLP, enabling new tasks and driving a proliferation of datasets and diversification of dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09544) | [📝 Analysis](067d64cebda1d83c687f36d3fb267f3b.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-12 09:28:10 UTC*

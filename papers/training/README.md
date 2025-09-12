@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Generative Engine Optimization: How to Dominate AI Search
+
+**Score:** 92.0 | **Published:** 2025-09-12 | **Authors:** Mahe Chen, Xiaoxuan Wang, Kaiwen Chen, Nick Koudas
+
+arXiv:2509.08919v1 Announce Type: cross 
+Abstract: The rapid adoption of generative AI-powered search engines like ChatGPT, Perplexity, and Gemini is fundamentally reshaping information retrieval, mov...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08919) | [📝 Analysis](d473e3f062016b81068873998fa74233.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-12 09:28:10 UTC*
