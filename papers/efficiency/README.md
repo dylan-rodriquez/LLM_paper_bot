@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### SimMark: A Robust Sentence-Level Similarity-Based Watermarking Algorithm for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-12 | **Authors:** Amirhossein Dabiriaghdam, Lele Wang
+
+arXiv:2502.02787v2 Announce Type: replace 
+Abstract: The widespread adoption of large language models (LLMs) necessitates reliable methods to detect LLM-generated text. We introduce SimMark, a robust ...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.02787) | [📝 Analysis](372717a78eac094c7275c7b70234e316.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-12 09:28:10 UTC*

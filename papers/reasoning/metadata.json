@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Prompting the Market? A Large-Scale Meta-Analysis of GenAI in Finance NLP (2022-2025)",
+      "authors": [
+        "Paolo Pedinotti, Peter Baumann, Nathan Jessurun, Leslie Barrett, Enrico Santus"
+      ],
+      "abstract": "arXiv:2509.09544v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have rapidly reshaped financial NLP, enabling new tasks and driving a proliferation of datasets and diversification of data sources. Yet, this transformation has outpaced traditional surveys. In this paper, we present MetaGraph, a generalizable methodology for extracting knowledge graphs from scientific literature and analyzing them to obtain a structured, queryable view of research trends. We define an ontology for financial NLP research and apply an LLM-based extraction pipeline to 681 papers (2022-2025), enabling large-scale, data-driven analysis. MetaGraph reveals three key phases: early LLM adoption and task/dataset innovation; critical reflection on LLM limitations; and growing integration of peripheral techniques into modular systems. This structured view offers both practitioners and researchers a clear understanding of how financial NLP has evolved - highlighting emerging trends, shifting priorities, and methodological shifts-while also demonstrating a reusable approach for mapping scientific progress in other domains.",
+      "url": "https://arxiv.org/abs/2509.09544",
+      "published_date": "2025-09-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "nlp",
+        "financial",
+        "financial nlp",
+        "large",
+        "llm",
+        "2022",
+        "2022 2025",
+        "2025",
+        "analysis",
+        "data"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and rapidly evolving field \u2013 the application of LLMs to finance. The MetaGraph methodology appears robust and well-suited for analyzing the explosion of research in this area. While the LLM-based extraction pipeline itself isn't entirely novel, its application to systematically map the evolution of financial NLP research is a significant contribution, and the identified phases provide valuable insights. The high sentiment score reflects the current excitement around GenAI and its potential in finance.",
+      "paper_id": "067d64cebda1d83c687f36d3fb267f3b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-12T09:28:10.639899"
 }
