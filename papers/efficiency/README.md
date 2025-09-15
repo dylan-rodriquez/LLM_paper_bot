@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Large Language Models Meet Legal Artificial Intelligence: A Survey
+
+**Score:** 92.0 | **Published:** 2025-09-15 | **Authors:** Zhitian Hou, Zihan Ye, Nanli Zeng, Tianyong Hao, Kun Zeng
+
+arXiv:2509.09969v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have significantly advanced the development of Legal Artificial Intelligence (Legal AI) in recent years, enhancing the eff...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09969) | [📝 Analysis](412e1daac0a23082df5ae4d4231861f1.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-15 09:30:20 UTC*

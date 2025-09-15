@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Psychiatry-Bench: A Multi-Task Benchmark for LLMs in Psychiatry
+
+**Score:** 92.0 | **Published:** 2025-09-15 | **Authors:** Aya E. Fouda, Abdelrahamn A. Hassan, Radwa J. Hanafy, Mohammed E. Fouda
+
+arXiv:2509.09711v1 Announce Type: new 
+Abstract: Large language models (LLMs) hold great promise in enhancing psychiatric practice, from improving diagnostic accuracy to streamlining clinical document...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09711) | [📝 Analysis](c978d431c4a998eab354cf78a934f31a.md)
+
+---
+
+### ALIGNS: Unlocking nomological networks in psychological measurement through a large language model
+
+**Score:** 92.0 | **Published:** 2025-09-15 | **Authors:** Kai R. Larsen, Sen Yan, Roland M\"uller, Lan Sang, Mikko R\"onkk\"o, Ravi Starzl, Donald Edmondson
+
+arXiv:2509.09723v1 Announce Type: new 
+Abstract: Psychological measurement is critical to many disciplines. Despite advances in measurement, building nomological networks, theoretical maps of how conc...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09723) | [📝 Analysis](ae89de22b377a5425dabc90d503e09d0.md)
+
+---
+
+### How Small Transformation Expose the Weakness of Semantic Similarity Measures
+
+**Score:** 90.0 | **Published:** 2025-09-15 | **Authors:** Serge Lionel Nikiema, Alb\'erick Euraste Djire, Abdoul Aziz Bonkoungou, Micheline B\'en\'edicte Moumoula, Jordan Samhi, Abdoul Kader Kabore, Jacques Klein, Tegawend\'e F. Bissyande
+
+arXiv:2509.09714v1 Announce Type: new 
+Abstract: This research examines how well different methods measure semantic similarity, which is important for various software engineering applications such as...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.09714) | [📝 Analysis](c8081163b9e1b3cdc0dc059c6dac1770.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-15 09:30:20 UTC*

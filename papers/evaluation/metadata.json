@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Psychiatry-Bench: A Multi-Task Benchmark for LLMs in Psychiatry",
+      "authors": [
+        "Aya E. Fouda, Abdelrahamn A. Hassan, Radwa J. Hanafy, Mohammed E. Fouda"
+      ],
+      "abstract": "arXiv:2509.09711v1 Announce Type: new \nAbstract: Large language models (LLMs) hold great promise in enhancing psychiatric practice, from improving diagnostic accuracy to streamlining clinical documentation and therapeutic support. However, existing evaluation resources heavily rely on small clinical interview corpora, social media posts, or synthetic dialogues, which limits their clinical validity and fails to capture the full complexity of psychiatric reasoning. In this work, we introduce PsychiatryBench, a rigorously curated benchmark grounded exclusively in authoritative, expert-validated psychiatric textbooks and casebooks. PsychiatryBench comprises eleven distinct question-answering tasks ranging from diagnostic reasoning and treatment planning to longitudinal follow-up, management planning, clinical approach, sequential case analysis, and multiple-choice/extended matching formats totaling over 5,300 expert-annotated items. We evaluate a diverse set of frontier LLMs (including Google Gemini, DeepSeek, LLaMA 3, and QWQ-32) alongside leading open-source medical models (e.g., OpenBiloLLM, MedGemma) using both conventional metrics and an \"LLM-as-judge\" similarity scoring framework. Our results reveal substantial gaps in clinical consistency and safety, particularly in multi-turn follow-up and management tasks, underscoring the need for specialized model tuning and more robust evaluation paradigms. PsychiatryBench offers a modular, extensible platform for benchmarking and improving LLM performance in high-stakes mental health applications.",
+      "url": "https://arxiv.org/abs/2509.09711",
+      "published_date": "2025-09-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "llms",
+        "psychiatric",
+        "psychiatrybench",
+        "benchmark",
+        "diagnostic",
+        "evaluation",
+        "expert",
+        "follow",
+        "follow management"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need for robust evaluation of LLMs in a sensitive domain \u2013 psychiatry. The use of expert-validated textbooks and casebooks as the foundation for the benchmark (PsychiatryBench) significantly improves clinical validity compared to existing resources. The multi-task nature and substantial size (5,300+ items) of the benchmark are also strong points, suggesting a rigorous and comprehensive evaluation framework. The high sentiment score reflects the current interest in applying LLMs to healthcare and the need for reliable assessment tools.",
+      "paper_id": "c978d431c4a998eab354cf78a934f31a"
+    },
+    {
+      "title": "ALIGNS: Unlocking nomological networks in psychological measurement through a large language model",
+      "authors": [
+        "Kai R. Larsen, Sen Yan, Roland M\\\"uller, Lan Sang, Mikko R\\\"onkk\\\"o, Ravi Starzl, Donald Edmondson"
+      ],
+      "abstract": "arXiv:2509.09723v1 Announce Type: new \nAbstract: Psychological measurement is critical to many disciplines. Despite advances in measurement, building nomological networks, theoretical maps of how concepts and measures relate to establish validity, remains a challenge 70 years after Cronbach and Meehl proposed them as fundamental to validation. This limitation has practical consequences: clinical trials may fail to detect treatment effects, and public policy may target the wrong outcomes. We introduce Analysis of Latent Indicators to Generate Nomological Structures (ALIGNS), a large language model-based system trained with validated questionnaire measures. ALIGNS provides three comprehensive nomological networks containing over 550,000 indicators across psychology, medicine, social policy, and other fields. This represents the first application of large language models to solve a foundational problem in measurement validation. We report classification accuracy tests used to develop the model, as well as three evaluations. In the first evaluation, the widely used NIH PROMIS anxiety and depression instruments are shown to converge into a single dimension of emotional distress. The second evaluation examines child temperament measures and identifies four potential dimensions not captured by current frameworks, and questions one existing dimension. The third evaluation, an applicability check, engages expert psychometricians who assess the system's importance, accessibility, and suitability. ALIGNS is freely available at nomologicalnetwork.org, complementing traditional validation methods with large-scale nomological analysis.",
+      "url": "https://arxiv.org/abs/2509.09723",
+      "published_date": "2025-09-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "nomological",
+        "aligns",
+        "large",
+        "measurement",
+        "evaluation",
+        "language",
+        "large language",
+        "measures",
+        "model",
+        "networks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a long-standing problem in psychological measurement \u2013 building nomological networks \u2013 with a novel application of large language models. The scale of the generated networks (550,000+ indicators) is impressive, and the potential to improve validation in crucial areas like clinical trials and public policy is significant. While the abstract doesn't detail the methodology extensively, the initial classification accuracy tests suggest a rigorous approach, and the timing aligns with the current surge in LLM research.",
+      "paper_id": "ae89de22b377a5425dabc90d503e09d0"
+    },
+    {
+      "title": "How Small Transformation Expose the Weakness of Semantic Similarity Measures",
+      "authors": [
+        "Serge Lionel Nikiema, Alb\\'erick Euraste Djire, Abdoul Aziz Bonkoungou, Micheline B\\'en\\'edicte Moumoula, Jordan Samhi, Abdoul Kader Kabore, Jacques Klein, Tegawend\\'e F. Bissyande"
+      ],
+      "abstract": "arXiv:2509.09714v1 Announce Type: new \nAbstract: This research examines how well different methods measure semantic similarity, which is important for various software engineering applications such as code search, API recommendations, automated code reviews, and refactoring tools. While large language models are increasingly used for these similarity assessments, questions remain about whether they truly understand semantic relationships or merely recognize surface patterns.\n  The study tested 18 different similarity measurement approaches, including word-based methods, embedding techniques, LLM-based systems, and structure-aware algorithms. The researchers created a systematic testing framework that applies controlled changes to text and code to evaluate how well each method handles different types of semantic relationships.\n  The results revealed significant issues with commonly used metrics. Some embedding-based methods incorrectly identified semantic opposites as similar up to 99.9 percent of the time, while certain transformer-based approaches occasionally rated opposite meanings as more similar than synonymous ones. The study found that embedding methods' poor performance often stemmed from how they calculate distances; switching from Euclidean distance to cosine similarity improved results by 24 to 66 percent. LLM-based approaches performed better at distinguishing semantic differences, producing low similarity scores (0.00 to 0.29) for genuinely different meanings, compared to embedding methods that incorrectly assigned high scores (0.82 to 0.99) to dissimilar content.",
+      "url": "https://arxiv.org/abs/2509.09714",
+      "published_date": "2025-09-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "semantic",
+        "similarity",
+        "based",
+        "methods",
+        "different",
+        "embedding",
+        "approaches",
+        "code",
+        "99",
+        "based approaches"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial problem in the application of LLMs to software engineering tasks \u2013 the reliability of semantic similarity measurements. The systematic testing framework and the finding that common metrics fail in predictable ways (e.g., identifying opposites as similar) are strong points. While the core idea of testing similarity measures isn't entirely novel, the scale (18 methods) and controlled nature of the tests suggest a rigorous approach, and the potential impact on downstream applications is substantial.",
+      "paper_id": "c8081163b9e1b3cdc0dc059c6dac1770"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-15T09:30:20.264160"
 }
