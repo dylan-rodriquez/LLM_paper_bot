@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Harmful Prompt Laundering: Jailbreaking LLMs with Abductive Styles and Symbolic Encoding
+
+**Score:** 90.0 | **Published:** 2025-09-16 | **Authors:** Seongho Joo, Hyukhun Koh, Kyomin Jung
+
+arXiv:2509.10931v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse tasks, but their potential misuse for harmful purposes remains ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.10931) | [📝 Analysis](3d982b9335a33cef9481db7c19116170.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-16 09:29:17 UTC*

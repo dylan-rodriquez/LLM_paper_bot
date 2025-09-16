@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Harmful Prompt Laundering: Jailbreaking LLMs with Abductive Styles and Symbolic Encoding",
+      "authors": [
+        "Seongho Joo, Hyukhun Koh, Kyomin Jung"
+      ],
+      "abstract": "arXiv:2509.10931v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse tasks, but their potential misuse for harmful purposes remains a significant concern. To strengthen defenses against such vulnerabilities, it is essential to investigate universal jailbreak attacks that exploit intrinsic weaknesses in the architecture and learning paradigms of LLMs. In response, we propose \\textbf{H}armful \\textbf{P}rompt \\textbf{La}undering (HaPLa), a novel and broadly applicable jailbreaking technique that requires only black-box access to target models. HaPLa incorporates two primary strategies: 1) \\textit{abductive framing}, which instructs LLMs to infer plausible intermediate steps toward harmful activities, rather than directly responding to explicit harmful queries; and 2) \\textit{symbolic encoding}, a lightweight and flexible approach designed to obfuscate harmful content, given that current LLMs remain sensitive primarily to explicit harmful keywords. Experimental results show that HaPLa achieves over 95% attack success rate on GPT-series models and 70% across all targets. Further analysis with diverse symbolic encoding rules also reveals a fundamental challenge: it remains difficult to safely tune LLMs without significantly diminishing their helpfulness in responding to benign queries.",
+      "url": "https://arxiv.org/abs/2509.10931",
+      "published_date": "2025-09-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "harmful",
+        "llms",
+        "encoding",
+        "hapla",
+        "models",
+        "symbolic",
+        "symbolic encoding",
+        "textbf",
+        "abductive",
+        "diverse"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly relevant and critical problem in LLM security \u2013 jailbreaking. The proposed HaPLa technique, combining abductive framing and symbolic encoding, appears to be a novel approach to circumventing existing defenses. The focus on black-box access makes it broadly applicable, and the potential to reveal intrinsic weaknesses in LLM architectures is significant. The abstract is well-written and clearly articulates the problem and proposed solution.",
+      "paper_id": "3d982b9335a33cef9481db7c19116170"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-09-16T09:29:17.832435"
 }

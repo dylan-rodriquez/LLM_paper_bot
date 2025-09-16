@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Uncovering the Vulnerability of Large Language Models in the Financial Domain via Risk Concealment
+
+**Score:** 92.0 | **Published:** 2025-09-16 | **Authors:** Gang Cheng, Haibo Jin, Wenbin Zhang, Haohan Wang, Jun Zhuang
+
+arXiv:2509.10546v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly integrated into financial applications, yet existing red-teaming research primarily targets harmful conte...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.10546) | [📝 Analysis](4f228ecf5f8cabc95e57c180edfbe37e.md)
+
+---
+
+### EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI
+
+**Score:** 92.0 | **Published:** 2025-09-16 | **Authors:** Sai Kartheek Reddy Kasu
+
+arXiv:2509.11648v1 Announce Type: new 
+Abstract: The deployment of large language models (LLMs) in mental health and other sensitive domains raises urgent questions about ethical reasoning, fairness, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.11648) | [📝 Analysis](dbb0d7c62e3d6b007cbf3819015f794a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-16 09:29:17 UTC*
