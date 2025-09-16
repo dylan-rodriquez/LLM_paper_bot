@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### RECAP: Transparent Inference-Time Emotion Alignment for Medical Dialogue Systems
+
+**Score:** 92.0 | **Published:** 2025-09-16 | **Authors:** Adarsh Srinivasan, Jacob Dineen, Muhammad Umar Afzal, Muhammad Uzair Sarfraz, Irbaz B. Riaz, Ben Zhou
+
+arXiv:2509.10746v1 Announce Type: new 
+Abstract: Large language models in healthcare often miss critical emotional cues, delivering medically sound but emotionally flat advice. This is especially prob...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.10746) | [📝 Analysis](d90bbe11e74d22b78520bbb673ea20dc.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-16 09:29:17 UTC*

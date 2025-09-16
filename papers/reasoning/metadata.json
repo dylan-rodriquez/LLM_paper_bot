@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "RECAP: Transparent Inference-Time Emotion Alignment for Medical Dialogue Systems",
+      "authors": [
+        "Adarsh Srinivasan, Jacob Dineen, Muhammad Umar Afzal, Muhammad Uzair Sarfraz, Irbaz B. Riaz, Ben Zhou"
+      ],
+      "abstract": "arXiv:2509.10746v1 Announce Type: new \nAbstract: Large language models in healthcare often miss critical emotional cues, delivering medically sound but emotionally flat advice. This is especially problematic in clinical contexts where patients are distressed and vulnerable, and require empathic communication to support safety, adherence, and trust. We present RECAP (Reflect-Extract-Calibrate-Align-Produce), an inference-time framework that adds structured emotional reasoning without retraining. By decomposing empathy into transparent appraisal-theoretic stages and exposing per-dimension Likert signals, RECAP produces nuanced, auditable responses. Across EmoBench, SECEU, and EQ-Bench, RECAP improves emotional reasoning by 22-28% on 8B models and 10-13% on larger models over zero-shot baselines. Clinician evaluations further confirm superior empathetic communication. RECAP shows that modular, theory-grounded prompting can systematically enhance emotional intelligence in medical AI while preserving the accountability required for deployment.",
+      "url": "https://arxiv.org/abs/2509.10746",
+      "published_date": "2025-09-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "recap",
+        "emotional",
+        "models",
+        "communication",
+        "emotional reasoning",
+        "inference",
+        "inference time",
+        "medical",
+        "reasoning",
+        "time"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in medical AI \u2013 the lack of emotional intelligence \u2013 and proposes a novel, modular framework (RECAP) to address it. The use of appraisal-theoretic stages and transparent Likert signals is a strong methodological choice, and the reported performance improvements on multiple benchmarks, coupled with clinician validation, suggest a robust and effective approach. The focus on inference-time adaptation without retraining is particularly appealing for practical deployment.",
+      "paper_id": "d90bbe11e74d22b78520bbb673ea20dc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-16T09:29:17.830418"
 }

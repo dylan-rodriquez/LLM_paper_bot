@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### LLM in the Middle: A Systematic Review of Threats and Mitigations to Real-World LLM-based Systems
+
+**Score:** 92.0 | **Published:** 2025-09-16 | **Authors:** Vitor Hugo Galhardo Moia, Igor Jochem Sanz, Gabriel Antonio Fontes Rebello, Rodrigo Duarte de Meneses, Briland Hitaj, Ulf Lindqvist
+
+arXiv:2509.10682v1 Announce Type: cross 
+Abstract: The success and wide adoption of generative AI (GenAI), particularly large language models (LLMs), has attracted the attention of cybercriminals seek...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.10682) | [📝 Analysis](1940a702bfceb644422d6d27d4e75f6e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-16 09:29:17 UTC*
