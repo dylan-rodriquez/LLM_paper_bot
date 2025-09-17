@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization",
+      "authors": [
+        "Vera Neplenbroek, Arianna Bisazza, Raquel Fern\\'andez"
+      ],
+      "abstract": "arXiv:2505.16467v2 Announce Type: replace \nAbstract: Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit personalization. Prior work has shown that such inferences can lead to lower quality responses for users assumed to be from minority groups, even when no demographic information is explicitly provided. In this work, we systematically explore how LLMs respond to stereotypical cues using controlled synthetic conversations, by analyzing the models' latent user representations through both model internals and generated answers to targeted user questions. Our findings reveal that LLMs do infer demographic attributes based on these stereotypical signals, which for a number of groups even persists when the user explicitly identifies with a different demographic group. Finally, we show that this form of stereotype-driven implicit personalization can be effectively mitigated by intervening on the model's internal representations using a trained linear probe to steer them toward the explicitly stated identity. Our results highlight the need for greater transparency and control in how LLMs represent user identity.",
+      "url": "https://arxiv.org/abs/2505.16467",
+      "published_date": "2025-09-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "user",
+        "demographic",
+        "llms",
+        "explicitly",
+        "implicit",
+        "implicit personalization",
+        "personalization",
+        "cues",
+        "demographic information",
+        "groups"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critical issue in LLMs \u2013 the perpetuation of stereotypes through implicit personalization. The systematic exploration using controlled synthetic conversations and analysis of latent representations is a strong methodological approach. The finding that stereotypes persist even when users self-identify with a different demographic is particularly concerning and highlights the need for mitigation strategies, which the paper also touches upon. The work is well-aligned with current concerns about fairness and bias in AI.",
+      "paper_id": "f568cf8aae59535a8336b793e0b5cc74"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-17T09:28:58.808602"
 }

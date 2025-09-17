@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MedFact: Benchmarking the Fact-Checking Capabilities of Large Language Models on Chinese Medical Texts
+
+**Score:** 92.0 | **Published:** 2025-09-17 | **Authors:** Jiayi He, Yangmin Huang, Qianyun Du, Xiangying Zhou, Zhiyang He, Jiaxue Hu, Xiaodong Tao, Lixian Lai
+
+arXiv:2509.12440v1 Announce Type: new 
+Abstract: The increasing deployment of Large Language Models (LLMs) in healthcare necessitates a rigorous evaluation of their factual reliability. However, exist...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.12440) | [📝 Analysis](58f4f6c3a738d143a4eecf7a956763d3.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-17 09:28:58 UTC*
