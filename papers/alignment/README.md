@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Keep Security! Benchmarking Security Policy Preservation in Large Language Model Contexts Against Indirect Attacks in Question Answering
+
+**Score:** 92.0 | **Published:** 2025-09-17 | **Authors:** Hwan Chang, Yumin Kim, Yonghyun Jun, Hwanhee Lee
+
+arXiv:2505.15805v2 Announce Type: replace 
+Abstract: As Large Language Models (LLMs) are increasingly deployed in sensitive domains such as enterprise and government, ensuring that they adhere to user...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.15805) | [📝 Analysis](a6fd11c09344e7bcde37a93be319d78c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-17 09:28:58 UTC*

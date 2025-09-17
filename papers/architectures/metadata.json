@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "SENTRA: Selected-Next-Token Transformer for LLM Text Detection",
+      "authors": [
+        "Mitchell Plyler, Yilun Zhang, Alexander Tuzhilin, Saoud Khalifah, Sen Tian"
+      ],
+      "abstract": "arXiv:2509.12385v1 Announce Type: new \nAbstract: LLMs are becoming increasingly capable and widespread. Consequently, the potential and reality of their misuse is also growing. In this work, we address the problem of detecting LLM-generated text that is not explicitly declared as such. We present a novel, general-purpose, and supervised LLM text detector, SElected-Next-Token tRAnsformer (SENTRA). SENTRA is a Transformer-based encoder leveraging selected-next-token-probability sequences and utilizing contrastive pre-training on large amounts of unlabeled data. Our experiments on three popular public datasets across 24 domains of text demonstrate SENTRA is a general-purpose classifier that significantly outperforms popular baselines in the out-of-domain setting.",
+      "url": "https://arxiv.org/abs/2509.12385",
+      "published_date": "2025-09-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 72,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "sentra",
+        "text",
+        "llm",
+        "selected",
+        "selected token",
+        "token",
+        "transformer",
+        "general",
+        "general purpose",
+        "llm text"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The paper addresses a highly relevant and increasingly important problem \u2013 detecting LLM-generated text. The use of selected-next-token probabilities and contrastive pre-training appears to be a novel approach, and the reported out-of-domain performance is promising. While the abstract is concise, it suggests a rigorous methodology and a well-defined experimental setup, warranting further investigation.",
+      "paper_id": "d89462a27657ee01edbc07eedc4e3581"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-09-17T09:28:58.805577"
 }

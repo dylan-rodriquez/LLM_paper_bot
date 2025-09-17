@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### SENTRA: Selected-Next-Token Transformer for LLM Text Detection
+
+**Score:** 92.0 | **Published:** 2025-09-17 | **Authors:** Mitchell Plyler, Yilun Zhang, Alexander Tuzhilin, Saoud Khalifah, Sen Tian
+
+arXiv:2509.12385v1 Announce Type: new 
+Abstract: LLMs are becoming increasingly capable and widespread. Consequently, the potential and reality of their misuse is also growing. In this work, we addres...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.12385) | [📝 Analysis](d89462a27657ee01edbc07eedc4e3581.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-17 09:28:58 UTC*

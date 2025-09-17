@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization
+
+**Score:** 92.0 | **Published:** 2025-09-17 | **Authors:** Vera Neplenbroek, Arianna Bisazza, Raquel Fern\'andez
+
+arXiv:2505.16467v2 Announce Type: replace 
+Abstract: Generative Large Language Models (LLMs) infer user's demographic information from subtle cues in the conversation -- a phenomenon called implicit p...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.16467) | [📝 Analysis](f568cf8aae59535a8336b793e0b5cc74.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-17 09:28:58 UTC*
