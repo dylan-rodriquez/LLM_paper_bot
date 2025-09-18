@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery
+
+**Score:** 92.0 | **Published:** 2025-09-18 | **Authors:** Tianshi Zheng, Zheye Deng, Hong Ting Tsang, Weiqi Wang, Jiaxin Bai, Zihao Wang, Yangqiu Song
+
+arXiv:2505.13259v3 Announce Type: replace 
+Abstract: Large Language Models (LLMs) are catalyzing a paradigm shift in scientific discovery, evolving from task-specific automation tools into increasingl...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.13259) | [📝 Analysis](f2cf5ea0844f17853a3a219a929311b4.md)
+
+---
+
+### When Avatars Have Personality: Effects on Engagement and Communication in Immersive Medical Training
+
+**Score:** 90.0 | **Published:** 2025-09-18 | **Authors:** Julia S. Dollis, Iago A. Brito, Fernanda B. F\"arber, Pedro S. F. B. Ribeiro, Rafael T. Sousa, Arlindo R. Galv\~ao Filho
+
+arXiv:2509.14132v1 Announce Type: cross 
+Abstract: While virtual reality (VR) excels at simulating physical environments, its effectiveness for training complex interpersonal skills is limited by a la...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14132) | [📝 Analysis](85d73444fa56996d1e9e471f51b1e40f.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-18 09:29:30 UTC*

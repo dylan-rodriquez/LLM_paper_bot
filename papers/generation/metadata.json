@@ -95,7 +95,71 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Combining Evidence and Reasoning for Biomedical Fact-Checking",
+      "authors": [
+        "Mariano Barone, Antonio Romano, Giuseppe Riccio, Marco Postiglione, Vincenzo Moscato"
+      ],
+      "abstract": "arXiv:2509.13879v1 Announce Type: new \nAbstract: Misinformation in healthcare, from vaccine hesitancy to unproven treatments, poses risks to public health and trust in medical systems. While machine learning and natural language processing have advanced automated fact-checking, validating biomedical claims remains uniquely challenging due to complex terminology, the need for domain expertise, and the critical importance of grounding in scientific evidence. We introduce CER (Combining Evidence and Reasoning), a novel framework for biomedical fact-checking that integrates scientific evidence retrieval, reasoning via large language models, and supervised veracity prediction. By integrating the text-generation capabilities of large language models with advanced retrieval techniques for high-quality biomedical scientific evidence, CER effectively mitigates the risk of hallucinations, ensuring that generated outputs are grounded in verifiable, evidence-based sources. Evaluations on expert-annotated datasets (HealthFC, BioASQ-7b, SciFact) demonstrate state-of-the-art performance and promising cross-dataset generalization. Code and data are released for transparency and reproducibility: https: //github.com/PRAISELab-PicusLab/CER.",
+      "url": "https://arxiv.org/abs/2509.13879",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "evidence",
+        "biomedical",
+        "cer",
+        "checking",
+        "fact",
+        "fact checking",
+        "language",
+        "reasoning",
+        "scientific",
+        "scientific evidence"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a highly significant problem \u2013 biomedical misinformation \u2013 with a well-structured approach combining evidence retrieval, LLM reasoning, and veracity prediction. The focus on mitigating hallucinations in LLMs through grounded evidence is particularly strong. While the core components (retrieval, LLMs, prediction) aren't entirely novel, their *combination* within the CER framework appears promising, and the abstract suggests rigorous evaluation. The high stakes of healthcare misinformation contribute to a very positive expected reception.",
+      "paper_id": "4f48c8a49749afdaa26446965c1858ff"
+    },
+    {
+      "title": "Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification",
+      "authors": [
+        "Mariano Barone, Antonio Romano, Giuseppe Riccio, Marco Postiglione, Vincenzo Moscato"
+      ],
+      "abstract": "arXiv:2509.13888v1 Announce Type: new \nAbstract: Misinformation in healthcare, from vaccine hesitancy to unproven treatments, poses risks to public health and trust in medical systems. While machine learning and natural language processing have advanced automated fact-checking, validating biomedical claims remains uniquely challenging due to complex terminology, the need for domain expertise, and the critical importance of grounding in scientific evidence. We introduce CER (Combining Evidence and Reasoning), a novel framework for biomedical fact-checking that integrates scientific evidence retrieval, reasoning via large language models, and supervised veracity prediction. By integrating the text-generation capabilities of large language models with advanced retrieval techniques for high-quality biomedical scientific evidence, CER effectively mitigates the risk of hallucinations, ensuring that generated outputs are grounded in verifiable, evidence-based sources. Evaluations on expert-annotated datasets (HealthFC, BioASQ-7b, SciFact) demonstrate state-of-the-art performance and promising cross-dataset generalization. Code and data are released for transparency and reproducibility: https://github.com/PRAISELab-PicusLab/CER",
+      "url": "https://arxiv.org/abs/2509.13888",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "evidence",
+        "biomedical",
+        "cer",
+        "language",
+        "scientific",
+        "scientific evidence",
+        "advanced",
+        "based",
+        "checking",
+        "evidence based"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a highly significant problem \u2013 biomedical misinformation \u2013 with a well-structured approach combining evidence retrieval, LLM reasoning, and veracity prediction. The integration of these components to mitigate hallucinations is a strong point. While the abstract doesn't detail *how* novel the specific techniques are, the combination appears promising and the focus on grounding in scientific evidence is crucial. The problem's importance and the potential for real-world impact are very high.",
+      "paper_id": "09a1b161f370f667a8a057db7456490d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-09-18T09:29:30.336645"
 }

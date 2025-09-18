@@ -2,7 +2,29 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (5 total)
+
+### Combining Evidence and Reasoning for Biomedical Fact-Checking
+
+**Score:** 92.0 | **Published:** 2025-09-18 | **Authors:** Mariano Barone, Antonio Romano, Giuseppe Riccio, Marco Postiglione, Vincenzo Moscato
+
+arXiv:2509.13879v1 Announce Type: new 
+Abstract: Misinformation in healthcare, from vaccine hesitancy to unproven treatments, poses risks to public health and trust in medical systems. While machine l...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.13879) | [📝 Analysis](4f48c8a49749afdaa26446965c1858ff.md)
+
+---
+
+### Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification
+
+**Score:** 92.0 | **Published:** 2025-09-18 | **Authors:** Mariano Barone, Antonio Romano, Giuseppe Riccio, Marco Postiglione, Vincenzo Moscato
+
+arXiv:2509.13888v1 Announce Type: new 
+Abstract: Misinformation in healthcare, from vaccine hesitancy to unproven treatments, poses risks to public health and trust in medical systems. While machine l...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.13888) | [📝 Analysis](09a1b161f370f667a8a057db7456490d.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +60,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-18 09:29:30 UTC*
