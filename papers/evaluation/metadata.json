@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Accuracy Paradox in Large Language Models: Regulating Hallucination Risks in Generative AI",
+      "authors": [
+        "Zihao Li, Weiwei Yi, Jiahong Chen"
+      ],
+      "abstract": "arXiv:2509.13345v1 Announce Type: cross \nAbstract: As Large Language Models (LLMs) permeate everyday decision-making, their epistemic and societal risks demand urgent scrutiny. Hallucinations, the generation of fabricated, misleading, oversimplified or untrustworthy outputs, has emerged as imperative challenges. While regulatory, academic, and technical discourse position accuracy as the principal benchmark for mitigating such harms, this article contends that overreliance on accuracy misdiagnoses the problem and has counterproductive effect: the accuracy paradox. Drawing on interdisciplinary literatures, this article develops a taxonomy of hallucination types and shows the paradox along three intertwining dimensions: outputs, individuals and society. First, accuracy functions as a superficial proxy for reliability, incentivising the optimisation of rhetorical fluency and surface-level correctness over epistemic trustworthiness. This encourages passive user trust in outputs that appear accurate but epistemically untenable. Second, accuracy as a singular metric fails to detect harms that are not factually false but are nonetheless misleading, value-laden, or socially distorting, including consensus illusions, sycophantic alignment, and subtle manipulation. Third, regulatory overemphasis on accuracy obscures the wider societal consequences of hallucination, including social sorting, privacy violations, equity harms, epistemic convergence that marginalises dissent, reduces pluralism, and causes social deskilling. By examining the EU AI Act, GDPR, and DSA, the article argues that current regulations are not yet structurally equipped to address these epistemic, relational, and systemic harms and exacerbated by the overreliance on accuracy. By exposing such conceptual and practical challenges, this article calls for a fundamental shift towards pluralistic, context-aware, and manipulation-resilient approaches to AI trustworthy governance.",
+      "url": "https://arxiv.org/abs/2509.13345",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "accuracy",
+        "article",
+        "epistemic",
+        "harms",
+        "ai",
+        "hallucination",
+        "outputs",
+        "paradox",
+        "accuracy paradox",
+        "challenges"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "The paper tackles a crucial issue \u2013 the limitations of relying solely on 'accuracy' as a metric for LLM reliability \u2013 and frames it as an 'accuracy paradox'. The interdisciplinary approach and proposed taxonomy of hallucinations suggest a thoughtful analysis. While the abstract doesn't detail the methodology, the conceptual framing is strong and timely, indicating potential for significant impact. The novelty lies in challenging a common assumption within the field.",
+      "paper_id": "900db5f5ecf8d6d6cf43fec06aed490d"
+    },
+    {
+      "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+      "authors": [
+        "Alejandro Hern\\'andez-Cano, Alexander H\\\"agele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank \\v{D}urech, Ido Hakimi, Juan Garc\\'ia Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabol\\v{c}ec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, Ines Altemir Marinas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian B\\\"osch, Maximilian B\\\"other, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, Mar\\'ia Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike L\\\"ubeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendonc\\c{c}a, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, L\\'eo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tram\\`er, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag"
+      ],
+      "abstract": "arXiv:2509.14233v1 Announce Type: new \nAbstract: We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosystem: data compliance and multilingual representation. Unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecting robots.txt exclusions and filtering for non-permissive, toxic, and personally identifiable content. To mitigate risks of memorization, we adopt the Goldfish objective during pretraining, strongly suppressing verbatim recall of data while retaining downstream task performance. The Apertus models also expand multilingual coverage, training on 15T tokens from over 1800 languages, with ~40% of pretraining data allocated to non-English content. Released at 8B and 70B scales, Apertus approaches state-of-the-art results among fully open models on multilingual benchmarks, rivalling or surpassing open-weight counterparts. Beyond model weights, we release all scientific artifacts from our development cycle with a permissive license, including data preparation scripts, checkpoints, evaluation suites, and training code, enabling transparent audit and extension.",
+      "url": "https://arxiv.org/abs/2509.14233",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "data",
+        "apertus",
+        "models",
+        "open",
+        "content",
+        "multilingual",
+        "apertus models",
+        "fully",
+        "fully open",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses critical issues in the LLM space \u2013 data compliance and multilingual representation \u2013 which are often overlooked. The focus on openly available data, respecting robots.txt, and filtering for harmful content demonstrates a responsible approach to model development. The use of the Goldfish objective is a clever technique to mitigate memorization, and the scale of multilingual training (1800+ languages) is impressive. The community will likely respond very positively to a truly open and ethically sourced LLM.",
+      "paper_id": "d21de7f24dd3a946106390117a0d4652"
+    },
+    {
+      "title": "Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon",
+      "authors": [
+        "Nurit Cohen-Inger, Yehonatan Elisha, Bracha Shapira, Lior Rokach, Seffi Cohen"
+      ],
+      "abstract": "arXiv:2502.07445v2 Announce Type: replace \nAbstract: Large language models (LLMs) often appear to excel on public benchmarks, but these high scores may mask an overreliance on dataset-specific surface cues rather than true language understanding. We introduce the Chameleon Benchmark Overfit Detector (C-BOD), a meta-evaluation framework that systematically distorts benchmark prompts via a parametric transformation and detects overfitting of LLMs. By rephrasing inputs while preserving their semantic content and labels, C-BOD exposes whether a model's performance is driven by memorized patterns. Evaluated on the MMLU benchmark using 26 leading LLMs, our method reveals an average performance degradation of 2.15% under modest perturbations, with 20 out of 26 models exhibiting statistically significant differences. Notably, models with higher baseline accuracy exhibit larger performance differences under perturbation, and larger LLMs tend to be more sensitive to rephrasings, indicating that both cases may overrely on fixed prompt patterns. In contrast, the Llama family and models with lower baseline accuracy show insignificant degradation, suggesting reduced dependency on superficial cues. Moreover, C-BOD's dataset- and model-agnostic design allows easy integration into training pipelines to promote more robust language understanding. Our findings challenge the community to look beyond leaderboard scores and prioritize resilience and generalization in LLM evaluation.",
+      "url": "https://arxiv.org/abs/2502.07445",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "llms",
+        "models",
+        "benchmark",
+        "bod",
+        "language",
+        "performance",
+        "26",
+        "accuracy",
+        "baseline",
+        "baseline accuracy"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in LLM evaluation \u2013 the potential for superficial performance gains due to overfitting to benchmark datasets. The C-BOD framework is a clever approach to systematically detect this overfitting by perturbing prompts while preserving semantics. The observed performance degradation across a range of models, particularly the correlation with baseline accuracy and model size, suggests a significant and concerning trend in LLM capabilities.",
+      "paper_id": "4c260c1020c7c1a6d99e5acc355a6e0d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-18T09:29:30.337735"
 }

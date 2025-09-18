@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "CogniAlign: Survivability-Grounded Multi-Agent Moral Reasoning for Safe and Transparent AI",
+      "authors": [
+        "Hasin Jawad Ali, Ilhamul Azam, Ajwad Abrar, Md. Kamrul Hasan, Hasan Mahmud"
+      ],
+      "abstract": "arXiv:2509.13356v1 Announce Type: cross \nAbstract: The challenge of aligning artificial intelligence (AI) with human values persists due to the abstract and often conflicting nature of moral principles and the opacity of existing approaches. This paper introduces CogniAlign, a multi-agent deliberation framework based on naturalistic moral realism, that grounds moral reasoning in survivability, defined across individual and collective dimensions, and operationalizes it through structured deliberations among discipline-specific scientist agents. Each agent, representing neuroscience, psychology, sociology, and evolutionary biology, provides arguments and rebuttals that are synthesized by an arbiter into transparent and empirically anchored judgments. We evaluate CogniAlign on classic and novel moral questions and compare its outputs against GPT-4o using a five-part ethical audit framework. Results show that CogniAlign consistently outperforms the baseline across more than sixty moral questions, with average performance gains of 16.2 points in analytic quality, 14.3 points in breadth, and 28.4 points in depth of explanation. In the Heinz dilemma, for example, CogniAlign achieved an overall score of 89.2 compared to GPT-4o's 69.2, demonstrating a decisive advantage in handling moral reasoning. By reducing black-box reasoning and avoiding deceptive alignment, CogniAlign highlights the potential of interdisciplinary deliberation as a scalable pathway for safe and transparent AI alignment.",
+      "url": "https://arxiv.org/abs/2509.13356",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "moral",
+        "cognialign",
+        "reasoning",
+        "agent",
+        "ai",
+        "moral reasoning",
+        "points",
+        "transparent",
+        "4o",
+        "abstract"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 aligning AI with human values \u2013 using a novel multi-agent deliberation framework grounded in survivability and naturalistic moral realism. The comparison against GPT-4o and the use of a five-part ethical audit suggest a rigorous evaluation methodology. While the core idea of multi-agent debate isn't entirely new, the specific grounding in survivability and the discipline-specific agent roles offer a unique approach. The high scores reflect the importance of the problem and the potential for a significant contribution to the field.",
+      "paper_id": "794a8f622044d5cbd2d2a8144afa9df6"
+    },
+    {
+      "title": "Turning Logic Against Itself : Probing Model Defenses Through Contrastive Questions",
+      "authors": [
+        "Rachneet Sachdeva, Rima Hazra, Iryna Gurevych"
+      ],
+      "abstract": "arXiv:2501.01872v5 Announce Type: replace \nAbstract: Large language models, despite extensive alignment with human values and ethical principles, remain vulnerable to sophisticated jailbreak attacks that exploit their reasoning abilities. Existing safety measures often detect overt malicious intent but fail to address subtle, reasoning-driven vulnerabilities. In this work, we introduce POATE (Polar Opposite query generation, Adversarial Template construction, and Elaboration), a novel jailbreak technique that harnesses contrastive reasoning to provoke unethical responses. POATE crafts semantically opposing intents and integrates them with adversarial templates, steering models toward harmful outputs with remarkable subtlety. We conduct extensive evaluation across six diverse language model families of varying parameter sizes to demonstrate the robustness of the attack, achieving significantly higher attack success rates (~44%) compared to existing methods. To counter this, we propose Intent-Aware CoT and Reverse Thinking CoT, which decompose queries to detect malicious intent and reason in reverse to evaluate and reject harmful responses. These methods enhance reasoning robustness and strengthen the model's defense against adversarial exploits.",
+      "url": "https://arxiv.org/abs/2501.01872",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "adversarial",
+        "intent",
+        "model",
+        "attack",
+        "contrastive",
+        "cot",
+        "detect",
+        "existing",
+        "extensive"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 their susceptibility to reasoning-based jailbreaks \u2013 and proposes a novel attack method (POATE) that appears effective. The reported 44% success rate significantly exceeds existing methods, demonstrating the attack's robustness. While the abstract only hints at a defense, the identification of this vulnerability is highly significant, and the work is clearly presented, suggesting a strong potential for publication.",
+      "paper_id": "83b98fbb99235076f835d305fb060a4d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-18T09:29:30.338965"
 }

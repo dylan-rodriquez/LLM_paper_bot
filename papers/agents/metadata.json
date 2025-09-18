@@ -191,7 +191,71 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery",
+      "authors": [
+        "Tianshi Zheng, Zheye Deng, Hong Ting Tsang, Weiqi Wang, Jiaxin Bai, Zihao Wang, Yangqiu Song"
+      ],
+      "abstract": "arXiv:2505.13259v3 Announce Type: replace \nAbstract: Large Language Models (LLMs) are catalyzing a paradigm shift in scientific discovery, evolving from task-specific automation tools into increasingly autonomous agents and fundamentally redefining research processes and human-AI collaboration. This survey systematically charts this burgeoning field, placing a central focus on the changing roles and escalating capabilities of LLMs in science. Through the lens of the scientific method, we introduce a foundational three-level taxonomy-Tool, Analyst, and Scientist-to delineate their escalating autonomy and evolving responsibilities within the research lifecycle. We further identify pivotal challenges and future research trajectories such as robotic automation, self-improvement, and ethical governance. Overall, this survey provides a conceptual architecture and strategic foresight to navigate and shape the future of AI-driven scientific discovery, fostering both rapid innovation and responsible advancement. Github Repository: https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery.",
+      "url": "https://arxiv.org/abs/2505.13259",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "discovery",
+        "scientific discovery",
+        "automation",
+        "research",
+        "survey",
+        "ai",
+        "autonomy",
+        "escalating",
+        "evolving"
+      ],
+      "subject_classification": "agents",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 the application of LLMs to scientific discovery. The proposed three-level taxonomy (Tool, Analyst, Scientist) provides a useful framework for understanding the increasing autonomy of LLMs in research. While a survey, the identification of key challenges and future directions demonstrates foresight and positions the work as a valuable resource for the community. The high sentiment score reflects the current excitement around LLMs and their potential in science.",
+      "paper_id": "f2cf5ea0844f17853a3a219a929311b4"
+    },
+    {
+      "title": "When Avatars Have Personality: Effects on Engagement and Communication in Immersive Medical Training",
+      "authors": [
+        "Julia S. Dollis, Iago A. Brito, Fernanda B. F\\\"arber, Pedro S. F. B. Ribeiro, Rafael T. Sousa, Arlindo R. Galv\\~ao Filho"
+      ],
+      "abstract": "arXiv:2509.14132v1 Announce Type: cross \nAbstract: While virtual reality (VR) excels at simulating physical environments, its effectiveness for training complex interpersonal skills is limited by a lack of psychologically plausible virtual humans. This is a critical gap in high-stakes domains like medical education, where communication is a core competency. This paper introduces a framework that integrates large language models (LLMs) into immersive VR to create medically coherent virtual patients with distinct, consistent personalities, built on a modular architecture that decouples personality from clinical data. We evaluated our system in a mixed-method, within-subjects study with licensed physicians who engaged in simulated consultations. Results demonstrate that the approach is not only feasible but is also perceived by physicians as a highly rewarding and effective training enhancement. Furthermore, our analysis uncovers critical design principles, including a ``realism-verbosity paradox\" where less communicative agents can seem more artificial, and the need for challenges to be perceived as authentic to be instructive. This work provides a validated framework and key insights for developing the next generation of socially intelligent VR training environments.",
+      "url": "https://arxiv.org/abs/2509.14132",
+      "published_date": "2025-09-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "training",
+        "virtual",
+        "vr",
+        "communication",
+        "critical",
+        "environments",
+        "framework",
+        "immersive",
+        "medical",
+        "perceived"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial gap in VR training \u2013 the lack of psychologically realistic virtual humans \u2013 particularly important for high-stakes fields like medicine. The integration of LLMs to create virtual patients with consistent personalities is a strong methodological approach, and the positive reception from physicians suggests a well-executed study. While LLM integration isn't entirely novel, applying it specifically to personality-driven medical simulations is a valuable contribution. The mention of 'realism-verbosity' design principles hints at a nuanced understanding of the challenges.",
+      "paper_id": "85d73444fa56996d1e9e471f51b1e40f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-09-18T09:29:30.340033"
 }

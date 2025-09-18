@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Accuracy Paradox in Large Language Models: Regulating Hallucination Risks in Generative AI
+
+**Score:** 92.0 | **Published:** 2025-09-18 | **Authors:** Zihao Li, Weiwei Yi, Jiahong Chen
+
+arXiv:2509.13345v1 Announce Type: cross 
+Abstract: As Large Language Models (LLMs) permeate everyday decision-making, their epistemic and societal risks demand urgent scrutiny. Hallucinations, the gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.13345) | [📝 Analysis](900db5f5ecf8d6d6cf43fec06aed490d.md)
+
+---
+
+### Apertus: Democratizing Open and Compliant LLMs for Global Language Environments
+
+**Score:** 90.0 | **Published:** 2025-09-18 | **Authors:** Alejandro Hern\'andez-Cano, Alexander H\"agele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank \v{D}urech, Ido Hakimi, Juan Garc\'ia Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabol\v{c}ec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, Ines Altemir Marinas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian B\"osch, Maximilian B\"other, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, Mar\'ia Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike L\"ubeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendonc\c{c}a, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, L\'eo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tram\`er, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag
+
+arXiv:2509.14233v1 Announce Type: new 
+Abstract: We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosystem: d...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14233) | [📝 Analysis](d21de7f24dd3a946106390117a0d4652.md)
+
+---
+
+### Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon
+
+**Score:** 90.0 | **Published:** 2025-09-18 | **Authors:** Nurit Cohen-Inger, Yehonatan Elisha, Bracha Shapira, Lior Rokach, Seffi Cohen
+
+arXiv:2502.07445v2 Announce Type: replace 
+Abstract: Large language models (LLMs) often appear to excel on public benchmarks, but these high scores may mask an overreliance on dataset-specific surface...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.07445) | [📝 Analysis](4c260c1020c7c1a6d99e5acc355a6e0d.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-18 09:29:30 UTC*
