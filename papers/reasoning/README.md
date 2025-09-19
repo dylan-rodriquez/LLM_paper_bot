@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration
+
+**Score:** 92.0 | **Published:** 2025-09-19 | **Authors:** Vaidehi Patil, Elias Stengel-Eskin, Mohit Bansal
+
+arXiv:2509.14284v1 Announce Type: cross 
+Abstract: As large language models (LLMs) become integral to multi-agent systems, new privacy risks emerge that extend beyond memorization, direct inference, o...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14284) | [📝 Analysis](10aa7df75539c37a4dc6a0234f2b89d9.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### From Turn-Taking to Synchronous Dialogue: A Survey of Full-Duplex Spoken Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-19 | **Authors:** Yuxuan Chen, Haoyuan Yu
+
+arXiv:2509.14515v1 Announce Type: new 
+Abstract: True Full-Duplex (TFD) voice communication--enabling simultaneous listening and speaking with natural turn-taking, overlapping speech, and interruption...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14515) | [📝 Analysis](901f5aecf2a5fddf1666addb87d20cff.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*

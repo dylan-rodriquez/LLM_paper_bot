@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "From Turn-Taking to Synchronous Dialogue: A Survey of Full-Duplex Spoken Language Models",
+      "authors": [
+        "Yuxuan Chen, Haoyuan Yu"
+      ],
+      "abstract": "arXiv:2509.14515v1 Announce Type: new \nAbstract: True Full-Duplex (TFD) voice communication--enabling simultaneous listening and speaking with natural turn-taking, overlapping speech, and interruptions--represents a critical milestone toward human-like AI interaction. This survey comprehensively reviews Full-Duplex Spoken Language Models (FD-SLMs) in the LLM era. We establish a taxonomy distinguishing Engineered Synchronization (modular architectures) from Learned Synchronization (end-to-end architectures), and unify fragmented evaluation approaches into a framework encompassing Temporal Dynamics, Behavioral Arbitration, Semantic Coherence, and Acoustic Performance. Through comparative analysis of mainstream FD-SLMs, we identify fundamental challenges: synchronous data scarcity, architectural divergence, and evaluation gaps, providing a roadmap for advancing human-AI communication.",
+      "url": "https://arxiv.org/abs/2509.14515",
+      "published_date": "2025-09-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "duplex",
+        "ai",
+        "architectures",
+        "communication",
+        "duplex spoken",
+        "end",
+        "evaluation",
+        "fd",
+        "fd slms",
+        "human"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper tackles a highly relevant and challenging problem \u2013 full-duplex spoken language models \u2013 which is crucial for creating more natural human-AI interactions. The taxonomy of 'Engineered' vs. 'Learned' synchronization is a valuable contribution, and the unified evaluation framework addresses a significant gap in the field. While the novelty isn't groundbreaking (surveys are inherently consolidating work), the focus on this emerging area and the clear identification of challenges suggest strong potential for impact.",
+      "paper_id": "901f5aecf2a5fddf1666addb87d20cff"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-09-19T09:28:53.719990"
 }
