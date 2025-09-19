@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "A Simple and Efficient Jailbreak Method Exploiting LLMs' Helpfulness",
+      "authors": [
+        "Xuan Luo, Yue Wang, Zefeng He, Geng Tu, Jing Li, Ruifeng Xu"
+      ],
+      "abstract": "arXiv:2509.14297v1 Announce Type: cross \nAbstract: Safety alignment aims to prevent Large Language Models (LLMs) from responding to harmful queries. To strengthen safety protections, jailbreak methods are developed to simulate malicious attacks and uncover vulnerabilities. In this paper, we introduce HILL (Hiding Intention by Learning from LLMs), a novel jailbreak approach that systematically transforms imperative harmful requests into learning-style questions with only straightforward hypotheticality indicators. Further, we introduce two new metrics to thoroughly evaluate the utility of jailbreak methods. Experiments on the AdvBench dataset across a wide range of models demonstrate HILL's strong effectiveness, generalizability, and harmfulness. It achieves top attack success rates on the majority of models and across malicious categories while maintaining high efficiency with concise prompts. Results of various defense methods show the robustness of HILL, with most defenses having mediocre effects or even increasing the attack success rates. Moreover, the assessment on our constructed safe prompts reveals inherent limitations of LLMs' safety mechanisms and flaws in defense methods. This work exposes significant vulnerabilities of safety measures against learning-style elicitation, highlighting a critical challenge of balancing helpfulness and safety alignments.",
+      "url": "https://arxiv.org/abs/2509.14297",
+      "published_date": "2025-09-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "jailbreak",
+        "llms",
+        "methods",
+        "hill",
+        "learning",
+        "models",
+        "attack",
+        "attack success",
+        "defense"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial problem in LLM safety \u2013 jailbreaking \u2013 and proposes a novel approach (HILL) that appears effective and efficient. The introduction of new evaluation metrics is also a positive sign of rigorous research. The reported results on AdvBench and robustness against defenses suggest a strong contribution, though further details on the defense evaluations would be beneficial. The high scores reflect the importance of the problem and the promising results presented.",
+      "paper_id": "c6594d679d8548c2b7df34bc8de13833"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-19T09:28:53.724246"
 }

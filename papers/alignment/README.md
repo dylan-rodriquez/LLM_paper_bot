@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Simple and Efficient Jailbreak Method Exploiting LLMs' Helpfulness
+
+**Score:** 90.0 | **Published:** 2025-09-19 | **Authors:** Xuan Luo, Yue Wang, Zefeng He, Geng Tu, Jing Li, Ruifeng Xu
+
+arXiv:2509.14297v1 Announce Type: cross 
+Abstract: Safety alignment aims to prevent Large Language Models (LLMs) from responding to harmful queries. To strengthen safety protections, jailbreak methods...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14297) | [📝 Analysis](c6594d679d8548c2b7df34bc8de13833.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*

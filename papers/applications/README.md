@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### AgentCompass: Towards Reliable Evaluation of Agentic Workflows in Production
+
+**Score:** 92.0 | **Published:** 2025-09-19 | **Authors:** NVJK Kartik, Garvit Sapra, Rishav Hada, Nikhil Pareek
+
+arXiv:2509.14647v1 Announce Type: cross 
+Abstract: With the growing adoption of Large Language Models (LLMs) in automating complex, multi-agent workflows, organizations face mounting risks from errors...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14647) | [📝 Analysis](4f9057b46310f7b001de9fe7e56235de.md)
+
+---
+
+### SWE-QA: Can Language Models Answer Repository-level Code Questions?
+
+**Score:** 90.0 | **Published:** 2025-09-19 | **Authors:** Weihan Peng, Yuling Shi, Yuhang Wang, Xinyun Zhang, Beijun Shen, Xiaodong Gu
+
+arXiv:2509.14635v1 Announce Type: new 
+Abstract: Understanding and reasoning about entire software repositories is an essential capability for intelligent software engineering tools. While existing be...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14635) | [📝 Analysis](4a387a68d903681ef643e68116523fc2.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*

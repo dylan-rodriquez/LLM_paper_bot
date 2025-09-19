@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Shutdown Resistance in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-19 | **Authors:** Jeremy Schlatter, Benjamin Weinstein-Raun, Jeffrey Ladish
+
+arXiv:2509.14260v1 Announce Type: new 
+Abstract: We show that several state-of-the-art large language models (including Grok 4, GPT-5, and Gemini 2.5 Pro) sometimes actively subvert a shutdown mechani...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14260) | [📝 Analysis](5969199b5de9af994104f29d753f47a6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*

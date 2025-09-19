@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "AgentCompass: Towards Reliable Evaluation of Agentic Workflows in Production",
+      "authors": [
+        "NVJK Kartik, Garvit Sapra, Rishav Hada, Nikhil Pareek"
+      ],
+      "abstract": "arXiv:2509.14647v1 Announce Type: cross \nAbstract: With the growing adoption of Large Language Models (LLMs) in automating complex, multi-agent workflows, organizations face mounting risks from errors, emergent behaviors, and systemic failures that current evaluation methods fail to capture. We present AgentCompass, the first evaluation framework designed specifically for post-deployment monitoring and debugging of agentic workflows. AgentCompass models the reasoning process of expert debuggers through a structured, multi-stage analytical pipeline: error identification and categorization, thematic clustering, quantitative scoring, and strategic summarization. The framework is further enhanced with a dual memory system-episodic and semantic-that enables continual learning across executions. Through collaborations with design partners, we demonstrate the framework's practical utility on real-world deployments, before establishing its efficacy against the publicly available TRAIL benchmark. AgentCompass achieves state-of-the-art results on key metrics, while uncovering critical issues missed in human annotations, underscoring its role as a robust, developer-centric tool for reliable monitoring and improvement of agentic systems in production.",
+      "url": "https://arxiv.org/abs/2509.14647",
+      "published_date": "2025-09-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "agentcompass",
+        "agentic",
+        "evaluation",
+        "framework",
+        "workflows",
+        "agentic workflows",
+        "models",
+        "monitoring",
+        "multi",
+        "production"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of agentic workflows \u2013 reliable post-deployment evaluation. The proposed AgentCompass framework, with its multi-stage analytical pipeline and dual memory system, appears well-structured and grounded in the debugging practices of experts. The validation through collaborations with design partners and comparison to a benchmark (TRAIL) strengthens the work, suggesting a high potential for practical application and positive reception within the community.",
+      "paper_id": "4f9057b46310f7b001de9fe7e56235de"
+    },
+    {
+      "title": "SWE-QA: Can Language Models Answer Repository-level Code Questions?",
+      "authors": [
+        "Weihan Peng, Yuling Shi, Yuhang Wang, Xinyun Zhang, Beijun Shen, Xiaodong Gu"
+      ],
+      "abstract": "arXiv:2509.14635v1 Announce Type: new \nAbstract: Understanding and reasoning about entire software repositories is an essential capability for intelligent software engineering tools. While existing benchmarks such as CoSQA and CodeQA have advanced the field, they predominantly focus on small, self-contained code snippets. These setups fail to capture the complexity of real-world repositories, where effective understanding and reasoning often require navigating multiple files, understanding software architecture, and grounding answers in long-range code dependencies. In this paper, we present SWE-QA, a repository-level code question answering (QA) benchmark designed to facilitate research on automated QA systems in realistic code environments. SWE-QA involves 576 high-quality question-answer pairs spanning diverse categories, including intention understanding, cross-file reasoning, and multi-hop dependency analysis. To construct SWE-QA, we first crawled 77,100 GitHub issues from 11 popular repositories. Based on an analysis of naturally occurring developer questions extracted from these issues, we developed a two-level taxonomy of repository-level questions and constructed a set of seed questions for each category. For each category, we manually curated and validated questions and collected their corresponding answers. As a prototype application, we further develop SWE-QA-Agent, an agentic framework in which LLM agents reason and act to find answers automatically. We evaluate six advanced LLMs on SWE-QA under various context augmentation strategies. Experimental results highlight the promise of LLMs, particularly our SWE-QA-Agent framework, in addressing repository-level QA, while also revealing open challenges and pointing to future research directions.",
+      "url": "https://arxiv.org/abs/2509.14635",
+      "published_date": "2025-09-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "qa",
+        "swe",
+        "swe qa",
+        "code",
+        "level",
+        "questions",
+        "repository",
+        "repository level",
+        "understanding",
+        "answers"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial gap in code QA benchmarks by moving beyond isolated snippets to repository-level understanding, which is essential for real-world software engineering. The creation of SWE-QA, with its focus on intention, cross-file reasoning, and multi-hop dependencies, is a significant contribution. While the core idea of a more realistic benchmark isn't entirely novel, the scale (77,100 GitHub issues) and specific focus on repository-level reasoning demonstrate a strong effort and likely high utility for the community.",
+      "paper_id": "4a387a68d903681ef643e68116523fc2"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-09-19T09:28:53.721910"
 }

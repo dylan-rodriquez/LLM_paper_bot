@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Fast Multipole Attention: A Scalable Multilevel Attention Mechanism for Text and Images
+
+**Score:** 90.0 | **Published:** 2025-09-19 | **Authors:** Yanming Kang, Giang Tran, Hans De Sterck
+
+arXiv:2310.11960v4 Announce Type: replace 
+Abstract: While Transformer networks benefit from a global receptive field, their quadratic cost relative to sequence length restricts their application to l...
+
+[📄 Full Paper](https://arxiv.org/abs/2310.11960) | [📝 Analysis](ed60c9b5096a8fd73a6a7705a5eabdf0.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-19 09:28:53 UTC*
