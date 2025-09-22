@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Harnessing Multiple Large Language Models: A Survey on LLM Ensemble
+
+**Score:** 92.0 | **Published:** 2025-09-22 | **Authors:** Zhijun Chen, Jingzheng Li, Pengpeng Chen, Zhuoran Li, Kai Sun, Yuankai Luo, Qianren Mao, Ming Li, Likang Xiao, Dingqi Yang, Yikun Ban, Hailong Sun, Philip S. Yu
+
+arXiv:2502.18036v5 Announce Type: replace 
+Abstract: LLM Ensemble -- which involves the comprehensive use of multiple large language models (LLMs), each aimed at handling user queries during downstrea...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.18036) | [📝 Analysis](95c94c077eb8c59e670a429131c4512b.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-22 09:30:35 UTC*

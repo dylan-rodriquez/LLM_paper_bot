@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CultureScope: A Dimensional Lens for Probing Cultural Understanding in LLMs",
+      "authors": [
+        "Jinghao Zhang, Sihang Jiang, Shiwei Guo, Shisong Chen, Yanghua Xiao, Hongwei Feng, Jiaqing Liang, Minggui HE, Shimin Tao, Hongxia Ma"
+      ],
+      "abstract": "arXiv:2509.16188v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly deployed in diverse cultural environments, evaluating their cultural understanding capability has become essential for ensuring trustworthy and culturally aligned applications. However, most existing benchmarks lack comprehensiveness and are challenging to scale and adapt across different cultural contexts, because their frameworks often lack guidance from well-established cultural theories and tend to rely on expert-driven manual annotations. To address these issues, we propose CultureScope, the most comprehensive evaluation framework to date for assessing cultural understanding in LLMs. Inspired by the cultural iceberg theory, we design a novel dimensional schema for cultural knowledge classification, comprising 3 layers and 140 dimensions, which guides the automated construction of culture-specific knowledge bases and corresponding evaluation datasets for any given languages and cultures. Experimental results demonstrate that our method can effectively evaluate cultural understanding. They also reveal that existing large language models lack comprehensive cultural competence, and merely incorporating multilingual data does not necessarily enhance cultural understanding. All code and data files are available at https://github.com/HoganZinger/Culture",
+      "url": "https://arxiv.org/abs/2509.16188",
+      "published_date": "2025-09-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "cultural",
+        "cultural understanding",
+        "understanding",
+        "lack",
+        "llms",
+        "comprehensive",
+        "culture",
+        "culturescope",
+        "data",
+        "dimensional"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in LLM development \u2013 cultural understanding. The proposed CultureScope framework, inspired by the cultural iceberg theory and offering a dimensional schema for cultural knowledge, appears well-structured and addresses limitations of existing benchmarks. The focus on automated knowledge base construction and scalability is a significant strength, suggesting a practical and impactful contribution to the field. The clear articulation of the problem and proposed solution indicates a high likelihood of positive reception within the NLP community.",
+      "paper_id": "8370554eee9bdd2850981c2cb087d6ef"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-22T09:30:35.477654"
 }
