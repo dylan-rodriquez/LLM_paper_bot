@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble",
+      "authors": [
+        "Zhijun Chen, Jingzheng Li, Pengpeng Chen, Zhuoran Li, Kai Sun, Yuankai Luo, Qianren Mao, Ming Li, Likang Xiao, Dingqi Yang, Yikun Ban, Hailong Sun, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2502.18036v5 Announce Type: replace \nAbstract: LLM Ensemble -- which involves the comprehensive use of multiple large language models (LLMs), each aimed at handling user queries during downstream inference, to benefit from their individual strengths -- has gained substantial attention recently. The widespread availability of LLMs, coupled with their varying strengths and out-of-the-box usability, has profoundly advanced the field of LLM Ensemble. This paper presents the first systematic review of recent developments in LLM Ensemble. First, we introduce our taxonomy of LLM Ensemble and discuss several related research problems. Then, we provide a more in-depth classification of the methods under the broad categories of \"ensemble-before-inference, ensemble-during-inference, ensemble-after-inference'', and review all relevant methods. Finally, we introduce related benchmarks and applications, summarize existing studies, and suggest several future research directions. A curated list of papers on LLM Ensemble is available at https://github.com/junchenzhi/Awesome-LLM-Ensemble.",
+      "url": "https://arxiv.org/abs/2502.18036",
+      "published_date": "2025-09-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ensemble",
+        "llm",
+        "llm ensemble",
+        "inference",
+        "ensemble inference",
+        "inference ensemble",
+        "introduce",
+        "language",
+        "language models",
+        "large"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly relevant and rapidly evolving area \u2013 LLM ensembles. The systematic review and taxonomy are valuable contributions, providing a needed structure to the field. While the core idea of ensembling isn't novel, the focus on LLMs and the categorization of methods (ensemble-before, during, after inference) demonstrate a solid approach. The high sentiment score reflects the current community interest in maximizing LLM performance through techniques like ensembling.",
+      "paper_id": "95c94c077eb8c59e670a429131c4512b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-09-22T09:30:35.478892"
 }
