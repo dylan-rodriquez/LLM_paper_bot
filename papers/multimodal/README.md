@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Sound of Syntax: Finetuning and Comprehensive Evaluation of Language Models for Speech Pathology
+
+**Score:** 92.0 | **Published:** 2025-09-23 | **Authors:** Fagun Patel, Duc Q. Nguyen, Sang T. Truong, Jody Vaynshtok, Sanmi Koyejo, Nick Haber
+
+arXiv:2509.16765v1 Announce Type: new 
+Abstract: According to the U.S. National Institutes of Health, more than 3.4 million children experience speech disorders that require clinical intervention. The...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.16765) | [📝 Analysis](11467a1c6dc2b5674bd140fd6b8736b8.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-23 09:29:16 UTC*
