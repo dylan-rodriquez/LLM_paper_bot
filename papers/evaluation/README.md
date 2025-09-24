@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Diversity Boosts AI-Generated Text Detection
+
+**Score:** 92.0 | **Published:** 2025-09-24 | **Authors:** Advik Raj Basani, Pin-Yu Chen
+
+arXiv:2509.18880v1 Announce Type: new 
+Abstract: Detecting AI-generated text is an increasing necessity to combat misuse of LLMs in education, business compliance, journalism, and social media, where ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18880) | [📝 Analysis](93f32f8b7c574a84b252e76d7c3aa6ad.md)
+
+---
+
+### The Illusion of Readiness: Stress Testing Large Frontier Models on Multimodal Medical Benchmarks
+
+**Score:** 92.0 | **Published:** 2025-09-24 | **Authors:** Yu Gu, Jingjing Fu, Xiaodong Liu, Jeya Maria Jose Valanarasu, Noel Codella, Reuben Tan, Qianchu Liu, Ying Jin, Sheng Zhang, Jinyu Wang, Rui Wang, Lei Song, Guanghui Qin, Naoto Usuyama, Cliff Wong, Cheng Hao, Hohin Lee, Praneeth Sanapathi, Sarah Hilado, Bian Jiang, Javier Alvarez-Valle, Mu Wei, Jianfeng Gao, Eric Horvitz, Matt Lungren, Hoifung Poon, Paul Vozila
+
+arXiv:2509.18234v1 Announce Type: cross 
+Abstract: Large frontier models like GPT-5 now achieve top scores on medical benchmarks. But our stress tests tell a different story. Leading systems often gue...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18234) | [📝 Analysis](de0741c79688a05f8fc349be9f629c44.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-24 09:29:32 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Good Plan is Hard to Find: Aligning Models with Preferences is Misaligned with What Helps Users
+
+**Score:** 90.0 | **Published:** 2025-09-24 | **Authors:** Nishant Balepur, Matthew Shu, Yoo Yeon Sung, Seraphina Goldfarb-Tarrant, Shi Feng, Fumeng Yang, Rachel Rudinger, Jordan Lee Boyd-Graber
+
+arXiv:2509.18632v1 Announce Type: new 
+Abstract: To assist users in complex tasks, LLMs generate plans: step-by-step instructions towards a goal. While alignment methods aim to ensure LLM plans are he...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18632) | [📝 Analysis](654d86ed604a9d26326eb9d18ff4dcd4.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-24 09:29:32 UTC*

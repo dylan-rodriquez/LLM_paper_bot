@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### VLDBench Evaluating Multimodal Disinformation with Regulatory Alignment
+
+**Score:** 92.0 | **Published:** 2025-09-24 | **Authors:** Shaina Raza, Ashmal Vayani, Aditya Jain, Aravind Narayanan, Vahid Reza Khazaie, Syed Raza Bashir, Elham Dolatabadi, Gias Uddin, Christos Emmanouilidis, Rizwan Qureshi, Mubarak Shah
+
+arXiv:2502.11361v4 Announce Type: replace 
+Abstract: Detecting disinformation that blends manipulated text and images has become increasingly challenging, as AI tools make synthetic content easy to ge...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.11361) | [📝 Analysis](05af8cf6a8512578b5422664ce3e6643.md)
+
+---
+
+### DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture
+
+**Score:** 90.0 | **Published:** 2025-09-24 | **Authors:** Arijit Maji, Raghvendra Kumar, Akash Ghosh,  Anushka, Nemil Shah, Abhilekh Borah, Vanshika Shah, Nishant Mishra, Sriparna Saha
+
+arXiv:2509.19274v1 Announce Type: new 
+Abstract: We introduce DRISHTIKON, a first-of-its-kind multimodal and multilingual benchmark centered exclusively on Indian culture, designed to evaluate the cul...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.19274) | [📝 Analysis](8b193fc000611152bd0f44c18426e44f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-24 09:29:32 UTC*

@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "VLDBench Evaluating Multimodal Disinformation with Regulatory Alignment",
+      "authors": [
+        "Shaina Raza, Ashmal Vayani, Aditya Jain, Aravind Narayanan, Vahid Reza Khazaie, Syed Raza Bashir, Elham Dolatabadi, Gias Uddin, Christos Emmanouilidis, Rizwan Qureshi, Mubarak Shah"
+      ],
+      "abstract": "arXiv:2502.11361v4 Announce Type: replace \nAbstract: Detecting disinformation that blends manipulated text and images has become increasingly challenging, as AI tools make synthetic content easy to generate and disseminate. While most existing AI safety benchmarks focus on single modality misinformation (i.e., false content shared without intent to deceive), intentional multimodal disinformation, such as propaganda or conspiracy theories that imitate credible news, remains largely unaddressed. We introduce the Vision-Language Disinformation Detection Benchmark (VLDBench), the first large-scale resource supporting both unimodal (text-only) and multimodal (text + image) disinformation detection. VLDBench comprises approximately 62,000 labeled text-image pairs across 13 categories, curated from 58 news outlets. Using a semi-automated pipeline followed by expert review, 22 domain experts invested over 500 hours to produce high-quality annotations with substantial inter-annotator agreement. Evaluations of state-of-the-art Large Language Models (LLMs) and Vision-Language Models (VLMs) on VLDBench show that incorporating visual cues improves detection accuracy by 5 to 35 percentage points over text-only models. VLDBench provides data and code for evaluation, fine-tuning, and robustness testing to support disinformation analysis. Developed in alignment with AI governance frameworks (e.g., the MIT AI Risk Repository), VLDBench offers a principled foundation for advancing trustworthy disinformation detection in multimodal media.\n  Project: https://vectorinstitute.github.io/VLDBench/ Dataset: https://huggingface.co/datasets/vector-institute/VLDBench Code: https://github.com/VectorInstitute/VLDBench",
+      "url": "https://arxiv.org/abs/2502.11361",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "vldbench",
+        "disinformation",
+        "text",
+        "ai",
+        "detection",
+        "multimodal",
+        "disinformation detection",
+        "https",
+        "language",
+        "models"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly relevant and growing problem \u2013 multimodal disinformation \u2013 which is currently under-addressed in AI safety research. The creation of VLDBench, a large-scale, expertly annotated dataset, is a significant contribution. The rigorous methodology involving 22 experts and substantial inter-annotator agreement strengthens the work's credibility, though the 'semi-automated pipeline' could benefit from further detail in a full paper.",
+      "paper_id": "05af8cf6a8512578b5422664ce3e6643"
+    },
+    {
+      "title": "DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture",
+      "authors": [
+        "Arijit Maji, Raghvendra Kumar, Akash Ghosh,  Anushka, Nemil Shah, Abhilekh Borah, Vanshika Shah, Nishant Mishra, Sriparna Saha"
+      ],
+      "abstract": "arXiv:2509.19274v1 Announce Type: new \nAbstract: We introduce DRISHTIKON, a first-of-its-kind multimodal and multilingual benchmark centered exclusively on Indian culture, designed to evaluate the cultural understanding of generative AI systems. Unlike existing benchmarks with a generic or global scope, DRISHTIKON offers deep, fine-grained coverage across India's diverse regions, spanning 15 languages, covering all states and union territories, and incorporating over 64,000 aligned text-image pairs. The dataset captures rich cultural themes including festivals, attire, cuisines, art forms, and historical heritage amongst many more. We evaluate a wide range of vision-language models (VLMs), including open-source small and large models, proprietary systems, reasoning-specialized VLMs, and Indic-focused models, across zero-shot and chain-of-thought settings. Our results expose key limitations in current models' ability to reason over culturally grounded, multimodal inputs, particularly for low-resource languages and less-documented traditions. DRISHTIKON fills a vital gap in inclusive AI research, offering a robust testbed to advance culturally aware, multimodally competent language technologies.",
+      "url": "https://arxiv.org/abs/2509.19274",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "models",
+        "drishtikon",
+        "language",
+        "multimodal",
+        "ai",
+        "benchmark",
+        "cultural",
+        "culturally",
+        "culture",
+        "evaluate"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in AI evaluation \u2013 the lack of culturally-grounded benchmarks, specifically for Indian culture. The scale of the dataset (64,000 aligned pairs, 15 languages) is impressive and suggests a rigorous effort. While the methods used for evaluation (zero-shot, CoT) aren't novel in themselves, applying them to this unique dataset provides valuable insights into current model limitations and will likely be well-received by the community.",
+      "paper_id": "8b193fc000611152bd0f44c18426e44f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-09-24T09:29:32.595144"
 }

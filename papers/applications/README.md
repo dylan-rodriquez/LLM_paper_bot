@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Thinking in a Crowd: How Auxiliary Information Shapes LLM Reasoning
+
+**Score:** 90.0 | **Published:** 2025-09-24 | **Authors:** Haodong Zhao, Chenyan Zhao, Yansi Li, Zhuosheng Zhang, Gongshen Liu
+
+arXiv:2509.18163v1 Announce Type: new 
+Abstract: The capacity of Large Language Models (LLMs) to reason is fundamental to their application in complex, knowledge-intensive domains. In real-world scena...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18163) | [📝 Analysis](d3eec948462f84cea7ff94adca66f213.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-24 09:29:32 UTC*
