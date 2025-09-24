@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Diversity Boosts AI-Generated Text Detection",
+      "authors": [
+        "Advik Raj Basani, Pin-Yu Chen"
+      ],
+      "abstract": "arXiv:2509.18880v1 Announce Type: new \nAbstract: Detecting AI-generated text is an increasing necessity to combat misuse of LLMs in education, business compliance, journalism, and social media, where synthetic fluency can mask misinformation or deception. While prior detectors often rely on token-level likelihoods or opaque black-box classifiers, these approaches struggle against high-quality generations and offer little interpretability. In this work, we propose DivEye, a novel detection framework that captures how unpredictability fluctuates across a text using surprisal-based features. Motivated by the observation that human-authored text exhibits richer variability in lexical and structural unpredictability than LLM outputs, DivEye captures this signal through a set of interpretable statistical features. Our method outperforms existing zero-shot detectors by up to 33.2% and achieves competitive performance with fine-tuned baselines across multiple benchmarks. DivEye is robust to paraphrasing and adversarial attacks, generalizes well across domains and models, and improves the performance of existing detectors by up to 18.7% when used as an auxiliary signal. Beyond detection, DivEye provides interpretable insights into why a text is flagged, pointing to rhythmic unpredictability as a powerful and underexplored signal for LLM detection.",
+      "url": "https://arxiv.org/abs/2509.18880",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "detection",
+        "diveye",
+        "detectors",
+        "signal",
+        "unpredictability",
+        "ai",
+        "ai generated",
+        "captures",
+        "existing"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem \u2013 detecting AI-generated text \u2013 with a novel approach focusing on unpredictability (surprisal). The reported performance improvements over existing zero-shot detectors and competitiveness with fine-tuned baselines suggest a solid methodology. The emphasis on interpretability is also a strong point, making the method more trustworthy and useful. The abstract is well-written and clearly articulates the problem, proposed solution, and results.",
+      "paper_id": "93f32f8b7c574a84b252e76d7c3aa6ad"
+    },
+    {
+      "title": "The Illusion of Readiness: Stress Testing Large Frontier Models on Multimodal Medical Benchmarks",
+      "authors": [
+        "Yu Gu, Jingjing Fu, Xiaodong Liu, Jeya Maria Jose Valanarasu, Noel Codella, Reuben Tan, Qianchu Liu, Ying Jin, Sheng Zhang, Jinyu Wang, Rui Wang, Lei Song, Guanghui Qin, Naoto Usuyama, Cliff Wong, Cheng Hao, Hohin Lee, Praneeth Sanapathi, Sarah Hilado, Bian Jiang, Javier Alvarez-Valle, Mu Wei, Jianfeng Gao, Eric Horvitz, Matt Lungren, Hoifung Poon, Paul Vozila"
+      ],
+      "abstract": "arXiv:2509.18234v1 Announce Type: cross \nAbstract: Large frontier models like GPT-5 now achieve top scores on medical benchmarks. But our stress tests tell a different story. Leading systems often guess correctly even when key inputs like images are removed, flip answers under trivial prompt changes, and fabricate convincing yet flawed reasoning. These aren't glitches; they expose how today's benchmarks reward test-taking tricks over medical understanding. We evaluate six flagship models across six widely used benchmarks and find that high leaderboard scores hide brittleness and shortcut learning. Through clinician-guided rubric evaluation, we show that benchmarks vary widely in what they truly measure yet are treated interchangeably, masking failure modes. We caution that medical benchmark scores do not directly reflect real-world readiness. If we want AI to earn trust in healthcare, we must demand more than leaderboard wins and must hold systems accountable for robustness, sound reasoning, and alignment with real medical demands.",
+      "url": "https://arxiv.org/abs/2509.18234",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "benchmarks",
+        "medical",
+        "models",
+        "scores",
+        "frontier",
+        "frontier models",
+        "large",
+        "large frontier",
+        "leaderboard",
+        "like"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of medical AI: the disconnect between benchmark performance and real-world reliability. The stress-testing approach and clinician-guided rubric evaluation are strong methodological choices, highlighting the limitations of current benchmarks. The findings are likely to resonate strongly with the community and encourage more robust evaluation practices.",
+      "paper_id": "de0741c79688a05f8fc349be9f629c44"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-24T09:29:32.593964"
 }

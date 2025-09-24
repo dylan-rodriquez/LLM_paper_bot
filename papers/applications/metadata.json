@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Thinking in a Crowd: How Auxiliary Information Shapes LLM Reasoning",
+      "authors": [
+        "Haodong Zhao, Chenyan Zhao, Yansi Li, Zhuosheng Zhang, Gongshen Liu"
+      ],
+      "abstract": "arXiv:2509.18163v1 Announce Type: new \nAbstract: The capacity of Large Language Models (LLMs) to reason is fundamental to their application in complex, knowledge-intensive domains. In real-world scenarios, LLMs are often augmented with external information that can be helpful, irrelevant, or even misleading. This paper investigates the causal impact of such auxiliary information on the reasoning process of LLMs with explicit step-by-step thinking capabilities. We introduce SciAux, a new dataset derived from ScienceQA, to systematically test the robustness of the model against these types of information. Our findings reveal a critical vulnerability: the model's deliberative \"thinking mode\" is a double-edged sword. While helpful context improves accuracy, misleading information causes a catastrophic drop in performance, which is amplified by the thinking process. Instead of conferring robustness, thinking reinforces the degree of error when provided with misinformation. This highlights that the challenge is not merely to make models \"think\", but to endow them with the critical faculty to evaluate the information upon which their reasoning is based. The SciAux dataset is available at https://huggingface.co/datasets/billhdzhao/SciAux.",
+      "url": "https://arxiv.org/abs/2509.18163",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "information",
+        "thinking",
+        "llms",
+        "reasoning",
+        "sciaux",
+        "auxiliary",
+        "auxiliary information",
+        "critical",
+        "dataset",
+        "helpful"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial vulnerability in LLMs \u2013 their susceptibility to misinformation when using reasoning steps. The introduction of SciAux is a valuable contribution to the field, providing a dataset specifically designed to test this robustness. The finding that 'thinking' can *amplify* errors is a significant and counterintuitive result, highlighting a critical limitation of current LLM approaches. The clarity of the abstract suggests a well-written and rigorous study.",
+      "paper_id": "d3eec948462f84cea7ff94adca66f213"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-09-24T09:29:32.592114"
 }

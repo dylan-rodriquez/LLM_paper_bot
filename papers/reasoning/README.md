@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Language Models Can Predict Their Own Behavior
+
+**Score:** 92.0 | **Published:** 2025-09-24 | **Authors:** Dhananjay Ashok, Jonathan May
+
+arXiv:2502.13329v2 Announce Type: replace 
+Abstract: The text produced by language models (LMs) can exhibit specific `behaviors,' such as a failure to follow alignment training, that we hope to detect...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.13329) | [📝 Analysis](3871e583091b9b724172e93484adcfd9.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-24 09:29:32 UTC*

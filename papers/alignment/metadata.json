@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "A Good Plan is Hard to Find: Aligning Models with Preferences is Misaligned with What Helps Users",
+      "authors": [
+        "Nishant Balepur, Matthew Shu, Yoo Yeon Sung, Seraphina Goldfarb-Tarrant, Shi Feng, Fumeng Yang, Rachel Rudinger, Jordan Lee Boyd-Graber"
+      ],
+      "abstract": "arXiv:2509.18632v1 Announce Type: new \nAbstract: To assist users in complex tasks, LLMs generate plans: step-by-step instructions towards a goal. While alignment methods aim to ensure LLM plans are helpful, they train (RLHF) or evaluate (ChatbotArena) on what users prefer, assuming this reflects what helps them. We test this with Planorama: an interface where 126 users answer 300 multi-step questions with LLM plans. We get 4388 plan executions and 5584 comparisons to measure plan helpfulness (QA success) and user preferences on plans, and recreate the setup in agents and reward models to see if they simulate or prefer what helps users. We expose: 1) user/model preferences and agent success do not accurately predict which plans help users, so common alignment feedback can misalign with helpfulness; 2) this gap is not due to user-specific preferences, as users are similarly successful when using plans they prefer/disprefer; 3) surface-level cues like brevity and question similarity strongly link to preferences, but such biases fail to predict helpfulness. In all, we argue aligning helpful LLMs needs feedback from real user interactions, not just preferences of what looks helpful, so we discuss the plan NLP researchers can execute to solve this problem.",
+      "url": "https://arxiv.org/abs/2509.18632",
+      "published_date": "2025-09-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "users",
+        "plans",
+        "preferences",
+        "plan",
+        "user",
+        "helpful",
+        "helpfulness",
+        "helps",
+        "prefer",
+        "step"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial issue in LLM development \u2013 the misalignment between user preferences and actual helpfulness. The use of Planorama to gather both preference and success data, combined with agent and reward model replication, provides a strong empirical basis for their claims. The findings, suggesting current alignment methods may be flawed, are significant and likely to resonate within the community. The methodology appears sound, and the abstract is clear and concise.",
+      "paper_id": "654d86ed604a9d26326eb9d18ff4dcd4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-24T09:29:32.593130"
 }
