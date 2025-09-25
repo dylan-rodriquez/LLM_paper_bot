@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The Inadequacy of Offline LLM Evaluations: A Need to Account for Personalization in Model Behavior",
+      "authors": [
+        "Angelina Wang, Daniel E. Ho, Sanmi Koyejo"
+      ],
+      "abstract": "arXiv:2509.19364v1 Announce Type: new \nAbstract: Standard offline evaluations for language models -- a series of independent, state-less inferences made by models -- fail to capture how language models actually behave in practice, where personalization fundamentally alters model behavior. For instance, identical benchmark questions to the same language model can produce markedly different responses when prompted to a state-less system, in one user's chat session, or in a different user's chat session. In this work, we provide empirical evidence showcasing this phenomenon by comparing offline evaluations to field evaluations conducted by having 800 real users of ChatGPT and Gemini pose benchmark and other provided questions to their chat interfaces.",
+      "url": "https://arxiv.org/abs/2509.19364",
+      "published_date": "2025-09-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluations",
+        "chat",
+        "language",
+        "model",
+        "models",
+        "offline",
+        "behavior",
+        "benchmark",
+        "chat session",
+        "different"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial issue in LLM evaluation \u2013 the disconnect between offline benchmarks and real-world, personalized user experiences. The empirical evidence gathered from 800 users across ChatGPT and Gemini is a strong methodological approach. The findings have significant implications for how we assess and improve LLMs, particularly regarding their consistency and reliability in dynamic conversational settings.",
+      "paper_id": "3e6815e78af31cbc6f8c01c8927ac78b"
+    },
+    {
+      "title": "Cognitive Load Limits in Large Language Models: Benchmarking Multi-Hop Reasoning",
+      "authors": [
+        "Sai Teja Reddy Adapala"
+      ],
+      "abstract": "arXiv:2509.19517v1 Announce Type: cross \nAbstract: The scaling of Large Language Models (LLMs) has exposed a critical gap between their performance on static benchmarks and their fragility in dynamic, information-rich environments. While models excel at isolated tasks, the computational limits that govern their reasoning under cognitive load remain poorly understood. In this work, we introduce a formal theory of computational cognitive load, positing that extraneous, task-irrelevant information (Context Saturation) and interference from task-switching (Attentional Residue) are key mechanisms that degrade performance. We designed the Interleaved Cognitive Evaluation (ICE), a deconfounded benchmark to systematically manipulate these load factors on challenging multi-hop reasoning tasks. A comprehensive study (N = 10 replications per item across 200 questions) revealed significant performance variations across five instruction-tuned models. Smaller open-source architectures (Llama-3-8B-Instruct, Mistral-7B-Instruct-v0.2) exhibited baseline brittleness, achieving 0% accuracy (SEM = 0.0) across all conditions, including clean controls, on this high-intrinsic-load task. In contrast, Gemini-2.0-Flash-001 showed partial resilience, achieving 85% accuracy in control conditions, with a statistically significant degradation under context saturation ($\\beta = -0.003$ per % load, $p < 0.001$). These findings provide preliminary evidence that cognitive load is a key contributor to reasoning failures, supporting theories of hallucination-as-guessing under uncertainty. We conclude that dynamic, cognitive-aware stress testing, as exemplified by the ICE benchmark, is essential for evaluating the true resilience and safety of advanced AI systems.",
+      "url": "https://arxiv.org/abs/2509.19517",
+      "published_date": "2025-09-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "load",
+        "cognitive",
+        "cognitive load",
+        "models",
+        "reasoning",
+        "performance",
+        "task",
+        "001",
+        "accuracy",
+        "achieving"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in LLM research \u2013 the discrepancy between benchmark performance and real-world fragility. The formalization of cognitive load through 'Context Saturation' and 'Attentional Residue' is a strong theoretical contribution, and the ICE benchmark appears well-designed to isolate these factors. The comprehensive study with replications strengthens the findings, suggesting a high likelihood of positive reception within the AI community.",
+      "paper_id": "597264a08fc297fd0bb09d8b2de4f6b3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-25T09:28:51.749258"
 }

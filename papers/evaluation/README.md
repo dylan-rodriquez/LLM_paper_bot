@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Inadequacy of Offline LLM Evaluations: A Need to Account for Personalization in Model Behavior
+
+**Score:** 92.0 | **Published:** 2025-09-25 | **Authors:** Angelina Wang, Daniel E. Ho, Sanmi Koyejo
+
+arXiv:2509.19364v1 Announce Type: new 
+Abstract: Standard offline evaluations for language models -- a series of independent, state-less inferences made by models -- fail to capture how language model...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.19364) | [📝 Analysis](3e6815e78af31cbc6f8c01c8927ac78b.md)
+
+---
+
+### Cognitive Load Limits in Large Language Models: Benchmarking Multi-Hop Reasoning
+
+**Score:** 90.0 | **Published:** 2025-09-25 | **Authors:** Sai Teja Reddy Adapala
+
+arXiv:2509.19517v1 Announce Type: cross 
+Abstract: The scaling of Large Language Models (LLMs) has exposed a critical gap between their performance on static benchmarks and their fragility in dynamic,...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.19517) | [📝 Analysis](597264a08fc297fd0bb09d8b2de4f6b3.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-25 09:28:51 UTC*

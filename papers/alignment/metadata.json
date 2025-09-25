@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "How Much of Your Data Can Suck? Thresholds for Domain Performance and Emergent Misalignment in LLMs",
+      "authors": [
+        "Jian Ouyang, Arman T, Ge Jin"
+      ],
+      "abstract": "arXiv:2509.19325v1 Announce Type: new \nAbstract: This paper investigates the impact of incorrect data on the performance and safety of large language models (LLMs), specifically gpt-4o, during supervised fine-tuning (SFT). Although LLMs become increasingly vital across broad domains like finance, coding, law, and health, fine-tuning on incorrect data can lead to \"emergent misalignment,\" producing harmful or deceptive outputs unrelated to the intended task. We evaluate gpt-4o models fine-tuned with varying ratios (10\\% to 90\\% correct) of both obviously and subtly incorrect data across four domains: coding, finance, health, and legal. Our findings show that even modest amounts of incorrect data (10-25\\%) dramatically degrade domain performance and not moral alignment. A clear threshold of at least 50\\% correct data is needed for models to consistently recover strong performance, though they rarely match the robustness and safety of the base model, which exhibits near-perfect alignment and zero dangerous completions out-of-the-box. This research emphasizes that the cost of incorrect data is heavy, highlighting the critical need for extremely high-quality data curation or, alternatively, leveraging robust base models without unnecessary fine-tuning for high-stakes applications.",
+      "url": "https://arxiv.org/abs/2509.19325",
+      "published_date": "2025-09-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "incorrect",
+        "incorrect data",
+        "fine",
+        "models",
+        "performance",
+        "fine tuning",
+        "llms",
+        "tuning",
+        "10"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the vulnerability of LLMs to data contamination during fine-tuning. The systematic evaluation across multiple domains and varying levels of incorrect data is rigorous and provides valuable insights into the thresholds for performance degradation and emergent misalignment. While the methodology isn't groundbreaking, the empirical findings are strong and clearly presented, making it a high-quality contribution.",
+      "paper_id": "5ed2c51149105782fb2b8bff8940ff15"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-09-25T09:28:51.748194"
 }

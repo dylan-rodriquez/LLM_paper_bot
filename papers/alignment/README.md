@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### How Much of Your Data Can Suck? Thresholds for Domain Performance and Emergent Misalignment in LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-25 | **Authors:** Jian Ouyang, Arman T, Ge Jin
+
+arXiv:2509.19325v1 Announce Type: new 
+Abstract: This paper investigates the impact of incorrect data on the performance and safety of large language models (LLMs), specifically gpt-4o, during supervi...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.19325) | [📝 Analysis](5ed2c51149105782fb2b8bff8940ff15.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-25 09:28:51 UTC*
