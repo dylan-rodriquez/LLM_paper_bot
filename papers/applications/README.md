@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Document Summarization with Conformal Importance Guarantees
+
+**Score:** 92.0 | **Published:** 2025-09-26 | **Authors:** Bruce Kuwahara, Chen-Yuan Lin, Xiao Shi Huang, Kin Kwan Leung, Jullian Arta Yapeter, Ilya Stanevich, Felipe Perez, Jesse C. Cresswell
+
+arXiv:2509.20461v1 Announce Type: new 
+Abstract: Automatic summarization systems have advanced rapidly with large language models (LLMs), yet they still lack reliable guarantees on inclusion of critic...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.20461) | [📝 Analysis](24fc999c4057c16888885870cfc644f0.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-26 09:28:49 UTC*

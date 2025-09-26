@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Can Federated Learning Safeguard Private Data in LLM Training? Vulnerabilities, Attacks, and Defense Evaluation",
+      "authors": [
+        "Wenkai Guo, Xuefeng Liu, Haolin Wang, Jianwei Niu, Shaojie Tang, Jing Yuan"
+      ],
+      "abstract": "arXiv:2509.20680v1 Announce Type: cross \nAbstract: Fine-tuning large language models (LLMs) with local data is a widely adopted approach for organizations seeking to adapt LLMs to their specific domains. Given the shared characteristics in data across different organizations, the idea of collaboratively fine-tuning an LLM using data from multiple sources presents an appealing opportunity. However, organizations are often reluctant to share local data, making centralized fine-tuning impractical. Federated learning (FL), a privacy-preserving framework, enables clients to retain local data while sharing only model parameters for collaborative training, offering a potential solution. While fine-tuning LLMs on centralized datasets risks data leakage through next-token prediction, the iterative aggregation process in FL results in a global model that encapsulates generalized knowledge, which some believe protects client privacy. In this paper, however, we present contradictory findings through extensive experiments. We show that attackers can still extract training data from the global model, even using straightforward generation methods, with leakage increasing as the model size grows. Moreover, we introduce an enhanced attack strategy tailored to FL, which tracks global model updates during training to intensify privacy leakage. To mitigate these risks, we evaluate privacy-preserving techniques in FL, including differential privacy, regularization-constrained updates and adopting LLMs with safety alignment. Our results provide valuable insights and practical guidelines for reducing privacy risks when training LLMs with FL.",
+      "url": "https://arxiv.org/abs/2509.20680",
+      "published_date": "2025-09-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "data",
+        "privacy",
+        "fl",
+        "llms",
+        "model",
+        "training",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "global"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the privacy risks associated with federated learning for LLMs. The abstract clearly articulates the tension between the promise of privacy-preserving FL and the potential for data leakage, suggesting a rigorous investigation. The contradictory findings hinted at in the abstract indicate a potentially significant contribution to the field, and the focus on vulnerabilities, attacks, and defenses is crucial for practical deployment.",
+      "paper_id": "97891856b10554446c3382cbcd3f145d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-09-26T09:28:49.458904"
 }
