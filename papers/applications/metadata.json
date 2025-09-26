@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Document Summarization with Conformal Importance Guarantees",
+      "authors": [
+        "Bruce Kuwahara, Chen-Yuan Lin, Xiao Shi Huang, Kin Kwan Leung, Jullian Arta Yapeter, Ilya Stanevich, Felipe Perez, Jesse C. Cresswell"
+      ],
+      "abstract": "arXiv:2509.20461v1 Announce Type: new \nAbstract: Automatic summarization systems have advanced rapidly with large language models (LLMs), yet they still lack reliable guarantees on inclusion of critical content in high-stakes domains like healthcare, law, and finance. In this work, we introduce Conformal Importance Summarization, the first framework for importance-preserving summary generation which uses conformal prediction to provide rigorous, distribution-free coverage guarantees. By calibrating thresholds on sentence-level importance scores, we enable extractive document summarization with user-specified coverage and recall rates over critical content. Our method is model-agnostic, requires only a small calibration set, and seamlessly integrates with existing black-box LLMs. Experiments on established summarization benchmarks demonstrate that Conformal Importance Summarization achieves the theoretically assured information coverage rate. Our work suggests that Conformal Importance Summarization can be combined with existing techniques to achieve reliable, controllable automatic summarization, paving the way for safer deployment of AI summarization tools in critical applications. Code is available at https://github.com/layer6ai-labs/conformal-importance-summarization.",
+      "url": "https://arxiv.org/abs/2509.20461",
+      "published_date": "2025-09-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "summarization",
+        "importance",
+        "conformal",
+        "conformal importance",
+        "importance summarization",
+        "coverage",
+        "critical",
+        "guarantees",
+        "automatic",
+        "automatic summarization"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial limitation of LLM-based summarization \u2013 the lack of guarantees on including important information. The use of conformal prediction to provide coverage guarantees is a novel and rigorous approach. The model-agnostic nature and small calibration set requirement enhance its practicality, suggesting strong potential for adoption and positive reception within the NLP community.",
+      "paper_id": "24fc999c4057c16888885870cfc644f0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-09-26T09:28:49.457467"
 }
