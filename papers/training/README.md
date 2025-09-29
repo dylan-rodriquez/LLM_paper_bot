@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### InfiR2: A Comprehensive FP8 Training Recipe for Reasoning-Enhanced Language Models
+
+**Score:** 90.0 | **Published:** 2025-09-29 | **Authors:** Wenjun Wang, Shuo Cai, Congkai Xie, Mingfa Feng, Yiming Zhang, Zhen Li, Kejing Yang, Ming Li, Jiannong Cao, Yuan Xie, Hongxia Yang
+
+arXiv:2509.22536v1 Announce Type: new 
+Abstract: The immense computational cost of training Large Language Models (LLMs) presents a major barrier to innovation. While FP8 training offers a promising s...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22536) | [📝 Analysis](c2de746b58cef7bf7c1d52d4872ff66e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-29 09:29:58 UTC*

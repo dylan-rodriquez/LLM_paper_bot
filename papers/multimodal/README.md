@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction
+
+**Score:** 90.0 | **Published:** 2025-09-29 | **Authors:** Yuan Ge, Saihan Chen, Jingqi Xiao, Xiaoqian Liu, Tong Xiao, Yan Xiang, Zhengtao Yu, Jingbo Zhu
+
+arXiv:2509.22243v1 Announce Type: new 
+Abstract: Full-Duplex Speech-to-Speech Large Language Models (LLMs) are foundational to natural human-computer interaction, enabling real-time spoken dialogue sy...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22243) | [📝 Analysis](950f2e45b59d9c1aaffd56e36ef6949f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-29 09:29:58 UTC*

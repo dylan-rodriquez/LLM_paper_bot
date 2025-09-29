@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Context Is What You Need: The Maximum Effective Context Window for Real World Limits of LLMs",
+      "authors": [
+        "Norman Paulsen"
+      ],
+      "abstract": "arXiv:2509.21361v1 Announce Type: new \nAbstract: Large language model (LLM) providers boast big numbers for maximum context window sizes. To test the real world use of context windows, we 1) define a concept of maximum effective context window, 2) formulate a testing method of a context window's effectiveness over various sizes and problem types, and 3) create a standardized way to compare model efficacy for increasingly larger context window sizes to find the point of failure. We collected hundreds of thousands of data points across several models and found significant differences between reported Maximum Context Window (MCW) size and Maximum Effective Context Window (MECW) size. Our findings show that the MECW is, not only, drastically different from the MCW but also shifts based on the problem type. A few top of the line models in our test group failed with as little as 100 tokens in context; most had severe degradation in accuracy by 1000 tokens in context. All models fell far short of their Maximum Context Window by as much as 99 percent. Our data reveals the Maximum Effective Context Window shifts based on the type of problem provided, offering clear and actionable insights into how to improve model accuracy and decrease model hallucination rates.",
+      "url": "https://arxiv.org/abs/2509.21361",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "context",
+        "context window",
+        "window",
+        "maximum",
+        "effective",
+        "effective context",
+        "maximum effective",
+        "model",
+        "maximum context",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial and timely issue in the LLM field \u2013 the discrepancy between advertised context window sizes and actual effective performance. The methodology of defining and testing 'Maximum Effective Context Window' (MECW) is sound and the finding of significant degradation even at relatively small context sizes is impactful. The large-scale data collection strengthens the validity of the results, and the potential for practical implications for model selection and application is high.",
+      "paper_id": "24d623bc57e44fb737e34255d32f9176"
+    },
+    {
+      "title": "Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment",
+      "authors": [
+        "Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang"
+      ],
+      "abstract": "arXiv:2509.21798v1 Announce Type: new \nAbstract: Reward models (RMs) are crucial for aligning large language models (LLMs) with diverse cultures. Consequently, evaluating their cultural awareness is essential for further advancing global alignment of LLMs. However, existing RM evaluations fall short in assessing cultural awareness due to the scarcity of culturally relevant evaluation datasets. To fill this gap, we propose Cultural Awareness Reward modeling Benchmark (CARB), covering 10 distinct cultures across 4 cultural domains. Our extensive evaluation of state-of-the-art RMs reveals their deficiencies in modeling cultural awareness and demonstrates a positive correlation between performance on CARB and downstream multilingual cultural alignment tasks. Further analysis identifies the spurious correlations within culture-aware reward modeling, wherein RM's scoring relies predominantly on surface-level features rather than authentic cultural nuance understanding. To address these, we propose Think-as-Locals to elicit deeper culturally grounded reasoning from generative RMs via reinforcement learning from verifiable rewards (RLVR) and employ well-designed rewards to ensure accurate preference judgments and high-quality structured evaluation criteria generation. Experimental results validate its efficacy in mitigating spurious features interference and advancing culture-aware reward modeling.",
+      "url": "https://arxiv.org/abs/2509.21798",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cultural",
+        "awareness",
+        "cultural awareness",
+        "reward",
+        "modeling",
+        "alignment",
+        "evaluation",
+        "models",
+        "reward modeling",
+        "rms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical gap in LLM alignment \u2013 the lack of culturally aware evaluation benchmarks. The creation of CARB and the demonstration of deficiencies in existing RMs are strong contributions. The identification of spurious correlations is also valuable, suggesting a need for more nuanced cultural understanding in reward modeling. The high sentiment score reflects the current focus on responsible AI and global LLM deployment.",
+      "paper_id": "d2b705032d3409fe5abfa92664b931ed"
+    },
+    {
+      "title": "The QCET Taxonomy of Standard Quality Criterion Names and Definitions for the Evaluation of NLP Systems",
+      "authors": [
+        "Anya Belz, Simon Mille, Craig Thomson"
+      ],
+      "abstract": "arXiv:2509.22064v1 Announce Type: new \nAbstract: Prior work has shown that two NLP evaluation experiments that report results for the same quality criterion name (e.g. Fluency) do not necessarily evaluate the same aspect of quality, and the comparability implied by the name can be misleading. Not knowing when two evaluations are comparable in this sense means we currently lack the ability to draw reliable conclusions about system quality on the basis of multiple, independently conducted evaluations. This in turn hampers the ability of the field to progress scientifically as a whole, a pervasive issue in NLP since its beginning (Sparck Jones, 1981). It is hard to see how the issue of unclear comparability can be fully addressed other than by the creation of a standard set of quality criterion names and definitions that the several hundred quality criterion names actually in use in the field can be mapped to, and grounded in. Taking a strictly descriptive approach, the QCET Quality Criteria for Evaluation Taxonomy derives a standard set of quality criterion names and definitions from three surveys of evaluations reported in NLP, and structures them into a hierarchy where each parent node captures common aspects of its child nodes. We present QCET and the resources it consists of, and discuss its three main uses in (i) establishing comparability of existing evaluations, (ii) guiding the design of new evaluations, and (iii) assessing regulatory compliance.",
+      "url": "https://arxiv.org/abs/2509.22064",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "quality",
+        "criterion",
+        "evaluations",
+        "quality criterion",
+        "criterion names",
+        "names",
+        "nlp",
+        "comparability",
+        "definitions",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial, long-standing problem in NLP evaluation \u2013 the lack of comparability between studies using the same quality criterion names. The descriptive approach to creating a standardized taxonomy is sound and addresses a fundamental issue hindering scientific progress. While the core idea isn't entirely novel (standardization efforts exist in other fields), its application to the fragmented landscape of NLP quality criteria is highly valuable and likely to be well-received.",
+      "paper_id": "678a6c20049fa7b75aa265d0a12481d1"
+    },
+    {
+      "title": "QoNext: Towards Next-generation QoE for Foundation Models",
+      "authors": [
+        "Yijin Guo, Ye Shen, Farong Wen, Junying Wang, Zicheng Zhang, Qi Jia, Guangtao Zhai"
+      ],
+      "abstract": "arXiv:2509.21889v1 Announce Type: new \nAbstract: Existing evaluations of foundation models, including recent human-centric approaches, fail to capture what truly matters: user's experience during interaction. Current methods treat evaluation as a matter of output correctness alone, overlooking that user satisfaction emerges from the interplay between response quality and interaction, which limits their ability to account for the mechanisms underlying user experience. To address this gap, we introduce QoNext, the first framework that adapts Quality of Experience (QoE) principles from networking and multimedia to the assessment of foundation models. QoNext identifies experiential factors that shape user experience and incorporates them into controlled experiments, where human ratings are collected under varied configurations. From these studies we construct a QoE-oriented database and train predictive models that estimate perceived user experience from measurable system parameters. Our results demonstrate that QoNext not only enables proactive and fine-grained evaluation but also provides actionable guidance for productized services of optimizing foundation models in practice.",
+      "url": "https://arxiv.org/abs/2509.21889",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "experience",
+        "models",
+        "user",
+        "foundation",
+        "foundation models",
+        "qonext",
+        "user experience",
+        "qoe",
+        "evaluation",
+        "human"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in foundation model evaluation \u2013 the lack of focus on user experience. Adapting QoE principles from other fields is a clever and potentially impactful approach. The construction of a QoE-oriented database and predictive models is a strong methodological contribution, suggesting a rigorous approach to the problem. The work appears well-motivated and clearly articulated, making it likely to be well-received by the community.",
+      "paper_id": "5776a8d8d9eeec7608522616784f1163"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-29T09:29:58.583434"
 }

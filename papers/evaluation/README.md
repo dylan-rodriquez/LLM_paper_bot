@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Context Is What You Need: The Maximum Effective Context Window for Real World Limits of LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-29 | **Authors:** Norman Paulsen
+
+arXiv:2509.21361v1 Announce Type: new 
+Abstract: Large language model (LLM) providers boast big numbers for maximum context window sizes. To test the real world use of context windows, we 1) define a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21361) | [📝 Analysis](24d623bc57e44fb737e34255d32f9176.md)
+
+---
+
+### Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment
+
+**Score:** 92.0 | **Published:** 2025-09-29 | **Authors:** Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang
+
+arXiv:2509.21798v1 Announce Type: new 
+Abstract: Reward models (RMs) are crucial for aligning large language models (LLMs) with diverse cultures. Consequently, evaluating their cultural awareness is e...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21798) | [📝 Analysis](d2b705032d3409fe5abfa92664b931ed.md)
+
+---
+
+### The QCET Taxonomy of Standard Quality Criterion Names and Definitions for the Evaluation of NLP Systems
+
+**Score:** 92.0 | **Published:** 2025-09-29 | **Authors:** Anya Belz, Simon Mille, Craig Thomson
+
+arXiv:2509.22064v1 Announce Type: new 
+Abstract: Prior work has shown that two NLP evaluation experiments that report results for the same quality criterion name (e.g. Fluency) do not necessarily eval...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22064) | [📝 Analysis](678a6c20049fa7b75aa265d0a12481d1.md)
+
+---
+
+### QoNext: Towards Next-generation QoE for Foundation Models
+
+**Score:** 90.0 | **Published:** 2025-09-29 | **Authors:** Yijin Guo, Ye Shen, Farong Wen, Junying Wang, Zicheng Zhang, Qi Jia, Guangtao Zhai
+
+arXiv:2509.21889v1 Announce Type: new 
+Abstract: Existing evaluations of foundation models, including recent human-centric approaches, fail to capture what truly matters: user's experience during inte...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21889) | [📝 Analysis](5776a8d8d9eeec7608522616784f1163.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-29 09:29:58 UTC*
