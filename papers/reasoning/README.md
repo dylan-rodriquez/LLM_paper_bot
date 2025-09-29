@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning
+
+**Score:** 92.0 | **Published:** 2025-09-29 | **Authors:** Sualeha Farid, Jayden Lin, Zean Chen, Shivani Kumar, David Jurgens
+
+arXiv:2509.21443v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21443) | [📝 Analysis](844cafee11e4592854e4cb003ec93745.md)
+
+---
+
+### Why Chain of Thought Fails in Clinical Text Understanding
+
+**Score:** 92.0 | **Published:** 2025-09-29 | **Authors:** Jiageng Wu, Kevin Xie, Bowen Gu, Nils Kr\"uger, Kueiyu Joshua Lin, Jie Yang
+
+arXiv:2509.21933v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly being applied to clinical care, a domain where both accuracy and transparent reasoning are critical for s...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21933) | [📝 Analysis](69cb21b72f6add35f515cd6bddfa8866.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-29 09:29:58 UTC*

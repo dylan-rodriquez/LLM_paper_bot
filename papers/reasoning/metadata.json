@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning",
+      "authors": [
+        "Sualeha Farid, Jayden Lin, Zean Chen, Shivani Kumar, David Jurgens"
+      ],
+      "abstract": "arXiv:2509.21443v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating ethically appropriate responses. Yet, the dominant pretraining of LLMs on English-language data raises critical concerns about their ability to generalize judgments across diverse linguistic and cultural contexts. In this work, we systematically investigate how language mediates moral decision-making in LLMs. We translate two established moral reasoning benchmarks into five culturally and typologically diverse languages, enabling multilingual zero-shot evaluation. Our analysis reveals significant inconsistencies in LLMs' moral judgments across languages, often reflecting cultural misalignment. Through a combination of carefully constructed research questions, we uncover the underlying drivers of these disparities, ranging from disagreements to reasoning strategies employed by LLMs. Finally, through a case study, we link the role of pretraining data in shaping an LLM's moral compass. Through this work, we distill our insights into a structured typology of moral reasoning errors that calls for more culturally-aware AI.",
+      "url": "https://arxiv.org/abs/2509.21443",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "moral",
+        "llms",
+        "reasoning",
+        "moral reasoning",
+        "language",
+        "cultural",
+        "culturally",
+        "data",
+        "diverse",
+        "judgments"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a crucial and timely problem \u2013 the cultural biases embedded in LLMs due to their predominantly English-language training. The multilingual evaluation using translated benchmarks is a strong methodological approach. While the core idea of evaluating cross-lingual moral reasoning isn't entirely novel, the systematic investigation and focus on *drivers* of disparities elevate the work. The potential for improving LLM fairness and ethical behavior across cultures is significant.",
+      "paper_id": "844cafee11e4592854e4cb003ec93745"
+    },
+    {
+      "title": "Why Chain of Thought Fails in Clinical Text Understanding",
+      "authors": [
+        "Jiageng Wu, Kevin Xie, Bowen Gu, Nils Kr\\\"uger, Kueiyu Joshua Lin, Jie Yang"
+      ],
+      "abstract": "arXiv:2509.21933v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being applied to clinical care, a domain where both accuracy and transparent reasoning are critical for safe and trustworthy deployment. Chain-of-thought (CoT) prompting, which elicits step-by-step reasoning, has demonstrated improvements in performance and interpretability across a wide range of tasks. However, its effectiveness in clinical contexts remains largely unexplored, particularly in the context of electronic health records (EHRs), the primary source of clinical documentation, which are often lengthy, fragmented, and noisy. In this work, we present the first large-scale systematic study of CoT for clinical text understanding. We assess 95 advanced LLMs on 87 real-world clinical text tasks, covering 9 languages and 8 task types. Contrary to prior findings in other domains, we observe that 86.3\\% of models suffer consistent performance degradation in the CoT setting. More capable models remain relatively robust, while weaker ones suffer substantial declines. To better characterize these effects, we perform fine-grained analyses of reasoning length, medical concept alignment, and error profiles, leveraging both LLM-as-a-judge evaluation and clinical expert evaluation. Our results uncover systematic patterns in when and why CoT fails in clinical contexts, which highlight a critical paradox: CoT enhances interpretability but may undermine reliability in clinical text tasks. This work provides an empirical basis for clinical reasoning strategies of LLMs, highlighting the need for transparent and trustworthy approaches.",
+      "url": "https://arxiv.org/abs/2509.21933",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "clinical",
+        "cot",
+        "clinical text",
+        "reasoning",
+        "text",
+        "llms",
+        "models",
+        "tasks",
+        "chain",
+        "chain thought"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a crucial gap in understanding the behavior of LLMs in a high-stakes domain \u2013 clinical text understanding. The large-scale systematic study, encompassing numerous models, languages, and task types, is methodologically sound. The counterintuitive finding that CoT *decreases* performance in most cases is significant and warrants further investigation, suggesting current CoT techniques are not directly transferable to noisy, complex clinical data.",
+      "paper_id": "69cb21b72f6add35f515cd6bddfa8866"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-29T09:29:58.584807"
 }

@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction",
+      "authors": [
+        "Yuan Ge, Saihan Chen, Jingqi Xiao, Xiaoqian Liu, Tong Xiao, Yan Xiang, Zhengtao Yu, Jingbo Zhu"
+      ],
+      "abstract": "arXiv:2509.22243v1 Announce Type: new \nAbstract: Full-Duplex Speech-to-Speech Large Language Models (LLMs) are foundational to natural human-computer interaction, enabling real-time spoken dialogue systems. However, benchmarking and modeling these models remains a fundamental challenge. We introduce FLEXI, the first benchmark for full-duplex LLM-human spoken interaction that explicitly incorporates model interruption in emergency scenarios. FLEXI systematically evaluates the latency, quality, and conversational effectiveness of real-time dialogue through six diverse human-LLM interaction scenarios, revealing significant gaps between open source and commercial models in emergency awareness, turn terminating, and interaction latency. Finally, we suggest that next token-pair prediction offers a promising path toward achieving truly seamless and human-like full-duplex interaction.",
+      "url": "https://arxiv.org/abs/2509.22243",
+      "published_date": "2025-09-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "interaction",
+        "human",
+        "duplex",
+        "flexi",
+        "llm",
+        "models",
+        "speech",
+        "benchmarking",
+        "dialogue",
+        "emergency"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial challenge in the development of truly interactive LLMs \u2013 full-duplex speech interaction, particularly handling interruptions. The introduction of FLEXI as the first benchmark specifically designed for this purpose is a significant contribution. The identified gaps in current models, especially regarding emergency awareness and latency, highlight important areas for future research and development, suggesting a positive reception within the community.",
+      "paper_id": "950f2e45b59d9c1aaffd56e36ef6949f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-09-29T09:29:58.585802"
 }
