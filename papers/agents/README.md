@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents
+
+**Score:** 90.0 | **Published:** 2025-09-30 | **Authors:** Hwan Chang, Yonghyun Jun, Hwanhee Lee
+
+arXiv:2509.22830v1 Announce Type: new 
+Abstract: The growing deployment of large language model (LLM) based agents that interact with external environments has created new attack surfaces for adversar...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22830) | [📝 Analysis](0281945525a4e10b1625363aaa765af6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-09-30 09:28:30 UTC*
