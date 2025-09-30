@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Cognition-of-Thought Elicits Social-Aligned Reasoning in Large Language Models",
+      "authors": [
+        "Xuanming Zhang, Yuxuan Chen, Min-Hsuan Yeh, Yixuan Li"
+      ],
+      "abstract": "arXiv:2509.23441v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at complex reasoning but can still exhibit harmful behaviors. Current alignment strategies typically embed safety into model weights, making these controls implicit, static, and difficult to modify. This paper introduces Cognition-of-Thought (CooT), a novel decoding-time framework that equips LLMs with an explicit cognitive self-monitoring loop. CooT couples a standard text Generator with a cognitive Perceiver that continuously monitors the unfolding sequence. The Perceiver uses a structured, precedence-based hierarchy of principles (e.g., safety over obedience) to detect potential misalignments as they arise. When violations are flagged, CooT intervenes by rolling back the generation to the point of error and regenerating under injected guidance that combines universal social priors with context-specific warnings. CooT thus transforms alignment from a fixed property into an explicit, dynamic, and auditable process active during inference, allowing for flexible policy updates without retraining the model. Extensive experiments across multiple benchmarks and model families confirm that CooT consistently improves safety and social reasoning performance.",
+      "url": "https://arxiv.org/abs/2509.23441",
+      "published_date": "2025-09-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "coot",
+        "model",
+        "reasoning",
+        "safety",
+        "social",
+        "alignment",
+        "cognition",
+        "cognition thought",
+        "cognitive",
+        "explicit"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in LLM development \u2013 aligning models with human values \u2013 with a novel approach. The 'Cognition-of-Thought' framework, utilizing a cognitive Perceiver for dynamic self-monitoring and intervention, is a significant step beyond static alignment methods. The described dynamic and auditable alignment process is particularly promising, and the focus on social priors is well-aligned with current research trends.",
+      "paper_id": "7de5ea1178c1c89fad3b51ca83a2666f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-09-30T09:28:30.400806"
 }

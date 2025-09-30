@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### AccessEval: Benchmarking Disability Bias in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-30 | **Authors:** Srikant Panda, Amit Agarwal, Hitesh Laxmichand Patel
+
+arXiv:2509.22703v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed across diverse domains but often exhibit disparities in how they handle real-life queries. To sy...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22703) | [📝 Analysis](f2f69770f112e4d75dbfaabf5d54150f.md)
+
+---
+
+### TRUEBench: Can LLM Response Meet Real-world Constraints as Productivity Assistant?
+
+**Score:** 92.0 | **Published:** 2025-09-30 | **Authors:** Jiho Park, Jongyoon Song, Minjin Choi, Kyuho Heo, Taehun Huh, Ji Won Kim
+
+arXiv:2509.22715v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly integral as productivity assistants, but existing benchmarks fall short in rigorously evaluating their re...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22715) | [📝 Analysis](e505949ca1331d969e5010a09dcd3cc7.md)
+
+---
+
+### The Bias is in the Details: An Assessment of Cognitive Bias in LLMs
+
+**Score:** 92.0 | **Published:** 2025-09-30 | **Authors:** R. Alexander Knipper, Charles S. Knipper, Kaiqi Zhang, Valerie Sims, Clint Bowers, Santu Karmaker
+
+arXiv:2509.22856v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) are increasingly embedded in real-world decision-making processes, it becomes crucial to examine the extent to which th...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22856) | [📝 Analysis](a028cee906b47a109850292c0b3bb96c.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-30 09:28:30 UTC*

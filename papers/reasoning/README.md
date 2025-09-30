@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Cognition-of-Thought Elicits Social-Aligned Reasoning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-09-30 | **Authors:** Xuanming Zhang, Yuxuan Chen, Min-Hsuan Yeh, Yixuan Li
+
+arXiv:2509.23441v1 Announce Type: new 
+Abstract: Large language models (LLMs) excel at complex reasoning but can still exhibit harmful behaviors. Current alignment strategies typically embed safety in...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.23441) | [📝 Analysis](7de5ea1178c1c89fad3b51ca83a2666f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-09-30 09:28:30 UTC*

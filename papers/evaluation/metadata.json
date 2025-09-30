@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AccessEval: Benchmarking Disability Bias in Large Language Models",
+      "authors": [
+        "Srikant Panda, Amit Agarwal, Hitesh Laxmichand Patel"
+      ],
+      "abstract": "arXiv:2509.22703v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed across diverse domains but often exhibit disparities in how they handle real-life queries. To systematically investigate these effects within various disability contexts, we introduce \\textbf{AccessEval (Accessibility Evaluation)}, a benchmark evaluating 21 closed- and open-source LLMs across 6 real-world domains and 9 disability types using paired Neutral and Disability-Aware Queries. We evaluated model outputs with metrics for sentiment, social perception, and factual accuracy.\n  Our analysis reveals that responses to disability-aware queries tend to have a more negative tone, increased stereotyping, and higher factual error compared to neutral queries. These effects show notable variation by domain and disability type, with disabilities affecting hearing, speech, and mobility disproportionately impacted. These disparities reflect persistent forms of ableism embedded in model behavior.\n  By examining model performance in real-world decision-making contexts, we better illuminate how such biases can translate into tangible harms for disabled users. This framing helps bridges the gap between technical evaluation and user impact, reinforcing importance of bias mitigation in day-to-day applications. Our dataset is publicly available at: https://huggingface.co/datasets/Srikant86/AccessEval",
+      "url": "https://arxiv.org/abs/2509.22703",
+      "published_date": "2025-09-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "disability",
+        "queries",
+        "accesseval",
+        "model",
+        "real",
+        "aware",
+        "aware queries",
+        "bias",
+        "contexts",
+        "day"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critically important and timely issue \u2013 bias in LLMs regarding disabilities. The creation of a benchmark, AccessEval, is a strong methodological contribution, and the findings of negative sentiment, stereotyping, and factual errors are concerning and warrant attention. The systematic evaluation across multiple domains and disability types strengthens the rigor of the work, suggesting it will be well-received by the community.",
+      "paper_id": "f2f69770f112e4d75dbfaabf5d54150f"
+    },
+    {
+      "title": "TRUEBench: Can LLM Response Meet Real-world Constraints as Productivity Assistant?",
+      "authors": [
+        "Jiho Park, Jongyoon Song, Minjin Choi, Kyuho Heo, Taehun Huh, Ji Won Kim"
+      ],
+      "abstract": "arXiv:2509.22715v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integral as productivity assistants, but existing benchmarks fall short in rigorously evaluating their real-world instruction-following capabilities. Current benchmarks often (i) lack sufficient multilinguality, (ii) fail to capture the implicit constraints inherent in user requests, and (iii) overlook the complexities of multi-turn dialogue. To address these critical gaps and provide a more realistic assessment, we introduce TRUEBench (Trustworthy Real-world Usage Evaluation Benchmark)1, a novel benchmark specifically designed for LLM-based productivity assistants. TRUEBench distinguishes itself by featuring input prompts across 12 languages, incorporating intra-instance multilingual instructions, employing rigorous evaluation criteria to capture both explicit and implicit constraints, and including complex multi-turn dialogue scenarios with both accumulating constraints and context switches. Furthermore, to ensure reliability in evaluation, we refined constraints using an LLM validator. Extensive experiments demonstrate that TRUEBench presents significantly greater challenges than existing benchmarks; for instance, a strong model like OpenAI o1 achieved only a 69.07% overall pass rate. TRUEBench offers a demanding and realistic assessment of LLMs in practical productivity settings, highlighting their capabilities and limitations.",
+      "url": "https://arxiv.org/abs/2509.22715",
+      "published_date": "2025-09-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "constraints",
+        "truebench",
+        "productivity",
+        "benchmarks",
+        "evaluation",
+        "llm",
+        "real",
+        "real world",
+        "world",
+        "assessment"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of realistic benchmarks for productivity assistant tasks. The focus on multilinguality, implicit constraints, and multi-turn dialogue is particularly strong. While the core idea of a more realistic benchmark isn't entirely novel, the specific features of TRUEBench appear well-considered and likely to provide valuable insights into LLM capabilities. The high sentiment score reflects the current research community's need for better evaluation metrics.",
+      "paper_id": "e505949ca1331d969e5010a09dcd3cc7"
+    },
+    {
+      "title": "The Bias is in the Details: An Assessment of Cognitive Bias in LLMs",
+      "authors": [
+        "R. Alexander Knipper, Charles S. Knipper, Kaiqi Zhang, Valerie Sims, Clint Bowers, Santu Karmaker"
+      ],
+      "abstract": "arXiv:2509.22856v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are increasingly embedded in real-world decision-making processes, it becomes crucial to examine the extent to which they exhibit cognitive biases. Extensively studied in the field of psychology, cognitive biases appear as systematic distortions commonly observed in human judgments. This paper presents a large-scale evaluation of eight well-established cognitive biases across 45 LLMs, analyzing over 2.8 million LLM responses generated through controlled prompt variations. To achieve this, we introduce a novel evaluation framework based on multiple-choice tasks, hand-curate a dataset of 220 decision scenarios targeting fundamental cognitive biases in collaboration with psychologists, and propose a scalable approach for generating diverse prompts from human-authored scenario templates. Our analysis shows that LLMs exhibit bias-consistent behavior in 17.8-57.3% of instances across a range of judgment and decision-making contexts targeting anchoring, availability, confirmation, framing, interpretation, overattribution, prospect theory, and representativeness biases. We find that both model size and prompt specificity play a significant role on bias susceptibility as follows: larger size (>32B parameters) can reduce bias in 39.5% of cases, while higher prompt detail reduces most biases by up to 14.9%, except in one case (Overattribution), which is exacerbated by up to 8.8%.",
+      "url": "https://arxiv.org/abs/2509.22856",
+      "published_date": "2025-09-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "biases",
+        "bias",
+        "cognitive",
+        "cognitive biases",
+        "llms",
+        "decision",
+        "prompt",
+        "decision making",
+        "evaluation",
+        "exhibit"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a highly relevant and important problem \u2013 the presence of cognitive biases in LLMs \u2013 as these models are increasingly used in decision-making. The large-scale evaluation across 45 models and the novel evaluation framework with a hand-curated dataset demonstrate strong methodological rigor. The reported bias-consistent behavior percentages suggest a significant finding, and the work is likely to be well-received by the community.",
+      "paper_id": "a028cee906b47a109850292c0b3bb96c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-09-30T09:28:30.398647"
 }
