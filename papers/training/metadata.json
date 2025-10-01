@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Self-Rewarding Rubric-Based Reinforcement Learning for Open-Ended Reasoning",
+      "authors": [
+        "Zhiling Ye, Yun Yue, Haowen Wang, Xudong Han, Jiadi Jiang, Cheng Wei, Lei Fan, Jiaxin Liang, Shuowen Zhang, Ji Li, Chunxiao Guo, Jian Wang, Peng Wei, Jinjie Gu"
+      ],
+      "abstract": "arXiv:2509.25534v1 Announce Type: new \nAbstract: Open-ended evaluation is essential for deploying large language models in real-world settings. In studying HealthBench, we observe that using the model itself as a grader and generating rubric-based reward signals substantially improves reasoning performance. Remarkably, the trained model also becomes a stronger grader. Motivated by this, we introduce Self-Rewarding Rubric-Based Reinforcement Learning for Open-Ended Reasoning, a lightweight framework that enables faster and more resource-efficient training while surpassing baselines. Remarkably, on Qwen3-32B, training with just the 4000-sample HealthBench Easy subset is sufficient to obtain a model that exceeds GPT-5 on HealthBench Hard. Incorporating a small amount of teacher-graded data further enhances performance for less capable models.",
+      "url": "https://arxiv.org/abs/2509.25534",
+      "published_date": "2025-10-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "based",
+        "ended",
+        "healthbench",
+        "model",
+        "open",
+        "open ended",
+        "reasoning",
+        "rubric",
+        "rubric based",
+        "based reinforcement"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial challenge in LLM deployment \u2013 open-ended evaluation \u2013 with a novel and seemingly effective approach. The claim of surpassing GPT-5 on HealthBench Hard with limited training data is particularly striking and suggests a significant advancement. The self-rewarding rubric framework appears lightweight and resource-efficient, making it highly practical. The positive framing and strong results suggest a favorable reception within the community.",
+      "paper_id": "f7e56fea487739f0b2faf7f513c3dfb3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-01T09:29:30.951337"
 }

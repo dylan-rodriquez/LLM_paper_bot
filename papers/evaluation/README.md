@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ReFACT: A Benchmark for Scientific Confabulation Detection with Positional Error Annotations
+
+**Score:** 92.0 | **Published:** 2025-10-01 | **Authors:** Yindong Wang, Martin Prei{\ss}, Margarita Bugue\~no, Jan Vincent Hoffbauer, Abdullatif Ghajar, Tolga Buz, Gerard de Melo
+
+arXiv:2509.25868v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) frequently confabulate scientific facts,severely undermining their trustworthiness. Addressing this challenge requires ben...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.25868) | [📝 Analysis](f8a9614eaa727bb79fc778002cf9a4ee.md)
+
+---
+
+### VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications
+
+**Score:** 90.0 | **Published:** 2025-10-01 | **Authors:** Wei He, Yueqing Sun, Hongyan Hao, Xueyuan Hao, Zhikang Xia, Qi Gu, Chengcheng Han, Dengchang Zhao, Hui Su, Kefeng Zhang, Man Gao, Xi Su, Xiaodong Cai, Xunliang Cai, Yu Yang, Yunke Zhao
+
+arXiv:2509.26490v1 Announce Type: new 
+Abstract: As LLM-based agents are increasingly deployed in real-life scenarios, existing benchmarks fail to capture their inherent complexity of handling extensi...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.26490) | [📝 Analysis](6af6a7b9920064f6cbc9853b467a15a9.md)
+
+---
+
+### Deconstructing Self-Bias in LLM-generated Translation Benchmarks
+
+**Score:** 90.0 | **Published:** 2025-10-01 | **Authors:** Wenda Xu, Sweta Agrawal, Vil\'em Zouhar, Markus Freitag, Daniel Deutsch
+
+arXiv:2509.26600v1 Announce Type: new 
+Abstract: As large language models (LLMs) begin to saturate existing benchmarks, automated benchmark creation using LLMs (LLM as a benchmark) has emerged as a sc...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.26600) | [📝 Analysis](987dc9a1c7dca02a1b4bb92465696f3c.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-01 09:29:30 UTC*
