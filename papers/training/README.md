@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Self-Rewarding Rubric-Based Reinforcement Learning for Open-Ended Reasoning
+
+**Score:** 90.0 | **Published:** 2025-10-01 | **Authors:** Zhiling Ye, Yun Yue, Haowen Wang, Xudong Han, Jiadi Jiang, Cheng Wei, Lei Fan, Jiaxin Liang, Shuowen Zhang, Ji Li, Chunxiao Guo, Jian Wang, Peng Wei, Jinjie Gu
+
+arXiv:2509.25534v1 Announce Type: new 
+Abstract: Open-ended evaluation is essential for deploying large language models in real-world settings. In studying HealthBench, we observe that using the model...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.25534) | [📝 Analysis](f7e56fea487739f0b2faf7f513c3dfb3.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-01 09:29:30 UTC*
