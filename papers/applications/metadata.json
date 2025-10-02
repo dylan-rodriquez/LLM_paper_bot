@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage",
+      "authors": [
+        "Bowen Wei, Yuan Shen Tay, Howard Liu, Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan"
+      ],
+      "abstract": "arXiv:2510.00311v1 Announce Type: new \nAbstract: Security Operations Centers (SOCs) are overwhelmed by tens of thousands of daily alerts, with only a small fraction corresponding to genuine attacks. This overload creates alert fatigue, leading to overlooked threats and analyst burnout. Classical detection pipelines are brittle and context-poor, while recent LLM-based approaches typically rely on a single model to interpret logs, retrieve context, and adjudicate alerts end-to-end -- an approach that struggles with noisy enterprise data and offers limited transparency. We propose CORTEX, a multi-agent LLM architecture for high-stakes alert triage in which specialized agents collaborate over real evidence: a behavior-analysis agent inspects activity sequences, evidence-gathering agents query external systems, and a reasoning agent synthesizes findings into an auditable decision. To support training and evaluation, we release a dataset of fine-grained SOC investigations from production environments, capturing step-by-step analyst actions and linked tool outputs. Across diverse enterprise scenarios, CORTEX substantially reduces false positives and improves investigation quality over state-of-the-art single-agent LLMs.",
+      "url": "https://arxiv.org/abs/2510.00311",
+      "published_date": "2025-10-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "agent",
+        "agents",
+        "alert",
+        "cortex",
+        "llm",
+        "alert triage",
+        "alerts",
+        "analyst",
+        "context",
+        "end"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a very important and challenging problem \u2013 alert fatigue in SOCs. The proposed multi-agent LLM architecture (CORTEX) appears to be a well-reasoned approach to tackling the limitations of single-model solutions, offering improved transparency and context awareness. The release of a dataset is a significant contribution that will facilitate further research in this area, and the focus on high-stakes triage suggests a practical application.",
+      "paper_id": "9c34584e689fea41bb8b7a8218974210"
+    },
+    {
+      "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments",
+      "authors": [
+        "Zhangchen Xu, Adriana Meza Soria, Shawn Tan, Anurag Roy, Ashish Sunil Agrawal, Radha Poovendran, Rameswar Panda"
+      ],
+      "abstract": "arXiv:2510.01179v1 Announce Type: cross \nAbstract: Large Language Model (LLM) agents are rapidly emerging as powerful systems for automating tasks across domains. Yet progress in the open-source community is constrained by the lack of high quality permissively licensed tool-agentic training data. Existing datasets are often limited in diversity, realism, and complexity, particularly regarding multi-tool and multi-turn interactions. To address this gap, we introduce Toucan, the largest publicly available tool-agentic dataset to date, containing 1.5 million trajectories synthesized from nearly 500 real-world Model Context Protocols (MCPs). Unlike prior work, Toucan leverages authentic MCP environments to generate diverse, realistic, and challenging tasks with trajectories involving real tool execution. Our pipeline first produces a broad spectrum of tool-use queries using five distinct models, applies model-based quality filtering, and then generates agentic trajectories with three teacher models using two agentic frameworks. Rigorous rule-based and model-based validation ensures high-quality outputs. We also introduce three extension mechanisms to further diversify tasks and simulate multi-turn conversations. Models fine-tuned on Toucan outperform larger closed-source counterparts on the BFCL V3 benchmark and push the Pareto frontier forward on MCP-Universe Bench.",
+      "url": "https://arxiv.org/abs/2510.01179",
+      "published_date": "2025-10-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "tool",
+        "agentic",
+        "model",
+        "toucan",
+        "based",
+        "mcp",
+        "models",
+        "multi",
+        "quality",
+        "real"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critical bottleneck in LLM agent development \u2013 the lack of high-quality, permissively licensed training data. The scale of the dataset (1.5M trajectories) and its generation from *real-world* MCPs is a significant strength. While the synthesis pipeline itself isn't entirely novel (using multiple models and filtering), the combination and scale, coupled with the focus on realism, make it a valuable contribution. The community is actively seeking such datasets, suggesting a very positive reception.",
+      "paper_id": "6481abb0ad5f23fdf3c645895c31e474"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-10-02T09:28:06.551356"
 }

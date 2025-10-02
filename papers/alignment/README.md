@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### ManagerBench: Evaluating the Safety-Pragmatism Trade-off in Autonomous LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-02 | **Authors:** Adi Simhi, Jonathan Herzig, Martin Tutek, Itay Itzhak, Idan Szpektor, Yonatan Belinkov
+
+arXiv:2510.00857v1 Announce Type: new 
+Abstract: As large language models (LLMs) evolve from conversational assistants into autonomous agents, evaluating the safety of their actions becomes critical. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.00857) | [📝 Analysis](7593c8d9c2f9f877fcd6d81b6c02092b.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-02 09:28:06 UTC*

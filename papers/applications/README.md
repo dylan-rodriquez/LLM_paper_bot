@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### CORTEX: Collaborative LLM Agents for High-Stakes Alert Triage
+
+**Score:** 90.0 | **Published:** 2025-10-02 | **Authors:** Bowen Wei, Yuan Shen Tay, Howard Liu, Jinhao Pan, Kun Luo, Ziwei Zhu, Chris Jordan
+
+arXiv:2510.00311v1 Announce Type: new 
+Abstract: Security Operations Centers (SOCs) are overwhelmed by tens of thousands of daily alerts, with only a small fraction corresponding to genuine attacks. T...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.00311) | [📝 Analysis](9c34584e689fea41bb8b7a8218974210.md)
+
+---
+
+### TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments
+
+**Score:** 90.0 | **Published:** 2025-10-02 | **Authors:** Zhangchen Xu, Adriana Meza Soria, Shawn Tan, Anurag Roy, Ashish Sunil Agrawal, Radha Poovendran, Rameswar Panda
+
+arXiv:2510.01179v1 Announce Type: cross 
+Abstract: Large Language Model (LLM) agents are rapidly emerging as powerful systems for automating tasks across domains. Yet progress in the open-source commu...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01179) | [📝 Analysis](6481abb0ad5f23fdf3c645895c31e474.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-02 09:28:06 UTC*

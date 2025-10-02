@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment
+
+**Score:** 92.0 | **Published:** 2025-10-02 | **Authors:** Ruochen Li, Jun Li, Bailiang Jian, Kun Yuan, Youxiang Zhu
+
+arXiv:2510.00280v1 Announce Type: new 
+Abstract: Automatically generated radiology reports often receive high scores from existing evaluation metrics but fail to earn clinicians' trust. This gap revea...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.00280) | [📝 Analysis](65141d73ce6a00bdc30c9b56345df57c.md)
+
+---
+
+### Automatic Speech Recognition (ASR) for African Low-Resource Languages: A Systematic Literature Review
+
+**Score:** 92.0 | **Published:** 2025-10-02 | **Authors:** Sukairaj Hafiz Imam, Tadesse Destaw Belay, Kedir Yassin Husse, Ibrahim Said Ahmad, Idris Abdulmumin, Hadiza Ali Umar, Muhammad Yahuza Bello, Joyce Nakatumba-Nabende, Seid Muhie Yimam, Shamsuddeen Hassan Muhammad
+
+arXiv:2510.01145v1 Announce Type: new 
+Abstract: ASR has achieved remarkable global progress, yet African low-resource languages remain rigorously underrepresented, producing barriers to digital inclu...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01145) | [📝 Analysis](b04b914949a63d63a3089aaa4f78dc93.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-02 09:28:06 UTC*

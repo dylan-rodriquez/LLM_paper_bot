@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "ReEvalMed: Rethinking Medical Report Evaluation by Aligning Metrics with Real-World Clinical Judgment",
+      "authors": [
+        "Ruochen Li, Jun Li, Bailiang Jian, Kun Yuan, Youxiang Zhu"
+      ],
+      "abstract": "arXiv:2510.00280v1 Announce Type: new \nAbstract: Automatically generated radiology reports often receive high scores from existing evaluation metrics but fail to earn clinicians' trust. This gap reveals fundamental flaws in how current metrics assess the quality of generated reports. We rethink the design and evaluation of these metrics and propose a clinically grounded Meta-Evaluation framework. We define clinically grounded criteria spanning clinical alignment and key metric capabilities, including discrimination, robustness, and monotonicity. Using a fine-grained dataset of ground truth and rewritten report pairs annotated with error types, clinical significance labels, and explanations, we systematically evaluate existing metrics and reveal their limitations in interpreting clinical semantics, such as failing to distinguish clinically significant errors, over-penalizing harmless variations, and lacking consistency across error severity levels. Our framework offers guidance for building more clinically reliable evaluation methods.",
+      "url": "https://arxiv.org/abs/2510.00280",
+      "published_date": "2025-10-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "metrics",
+        "clinical",
+        "clinically",
+        "clinically grounded",
+        "error",
+        "evaluation metrics",
+        "existing",
+        "framework",
+        "generated"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in medical AI: the disconnect between automated metric scores and clinical utility of radiology reports. The proposed 'Meta-Evaluation' framework and the fine-grained dataset are strong methodological contributions. The focus on clinically grounded criteria and identifying limitations of existing metrics is highly valuable and likely to resonate with the medical imaging community.",
+      "paper_id": "65141d73ce6a00bdc30c9b56345df57c"
+    },
+    {
+      "title": "Automatic Speech Recognition (ASR) for African Low-Resource Languages: A Systematic Literature Review",
+      "authors": [
+        "Sukairaj Hafiz Imam, Tadesse Destaw Belay, Kedir Yassin Husse, Ibrahim Said Ahmad, Idris Abdulmumin, Hadiza Ali Umar, Muhammad Yahuza Bello, Joyce Nakatumba-Nabende, Seid Muhie Yimam, Shamsuddeen Hassan Muhammad"
+      ],
+      "abstract": "arXiv:2510.01145v1 Announce Type: new \nAbstract: ASR has achieved remarkable global progress, yet African low-resource languages remain rigorously underrepresented, producing barriers to digital inclusion across the continent with more than +2000 languages. This systematic literature review (SLR) explores research on ASR for African languages with a focus on datasets, models and training methods, evaluation techniques, challenges, and recommends future directions. We employ the PRISMA 2020 procedures and search DBLP, ACM Digital Library, Google Scholar, Semantic Scholar, and arXiv for studies published between January 2020 and July 2025. We include studies related to ASR datasets, models or metrics for African languages, while excluding non-African, duplicates, and low-quality studies (score <3/5). We screen 71 out of 2,062 records and we record a total of 74 datasets across 111 languages, encompassing approximately 11,206 hours of speech. Fewer than 15% of research provided reproducible materials, and dataset licensing is not clear. Self-supervised and transfer learning techniques are promising, but are hindered by limited pre-training data, inadequate coverage of dialects, and the availability of resources. Most of the researchers use Word Error Rate (WER), with very minimal use of linguistically informed scores such as Character Error Rate (CER) or Diacritic Error Rate (DER), and thus with limited application in tonal and morphologically rich languages. The existing evidence on ASR systems is inconsistent, hindered by issues like dataset availability, poor annotations, licensing uncertainties, and limited benchmarking. Nevertheless, the rise of community-driven initiatives and methodological advancements indicates a pathway for improvement. Sustainable development for this area will also include stakeholder partnership, creation of ethically well-balanced datasets, use of lightweight modelling techniques, and active benchmarking.",
+      "url": "https://arxiv.org/abs/2510.01145",
+      "published_date": "2025-10-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "languages",
+        "african",
+        "asr",
+        "datasets",
+        "error",
+        "error rate",
+        "limited",
+        "low",
+        "rate",
+        "studies"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This SLR addresses a critically important and under-served area within ASR \u2013 low-resource African languages. The systematic approach using PRISMA 2020 and a broad search across multiple databases demonstrates rigor. While the methodology itself isn't groundbreaking, the comprehensive data collection (74 datasets, 111 languages, 11,206 hours) and identification of challenges are valuable. The low reproducibility rate mentioned is a concern, but the SLR itself is well-structured based on the abstract.",
+      "paper_id": "b04b914949a63d63a3089aaa4f78dc93"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-02T09:28:06.550052"
 }
