@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Span-level Detection of AI-generated Scientific Text via Contrastive Learning and Structural Calibration
+
+**Score:** 92.0 | **Published:** 2025-10-02 | **Authors:** Zhen Yin, Shenghua Wang
+
+arXiv:2510.00890v1 Announce Type: new 
+Abstract: The rapid adoption of large language models (LLMs) in scientific writing raises serious concerns regarding authorship integrity and the reliability of ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.00890) | [📝 Analysis](5f89aab80aeab571385e9d8823186c2f.md)
+
+---
+
+### GEM: A Gym for Agentic LLMs
+
+**Score:** 90.0 | **Published:** 2025-10-02 | **Authors:** Zichen Liu, Anya Sims, Keyu Duan, Changyu Chen, Simon Yu, Xiangxin Zhou, Haotian Xu, Shaopan Xiong, Bo Liu, Chenmien Tan, Chuen Yang Beh, Weixun Wang, Hao Zhu, Weiyan Shi, Diyi Yang, Michael Shieh, Yee Whye Teh, Wee Sun Lee, Min Lin
+
+arXiv:2510.01051v1 Announce Type: cross 
+Abstract: The training paradigm for large language models (LLMs) is moving from static datasets to experience-based learning, where agents acquire skills via i...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01051) | [📝 Analysis](7cd321fc9d0e206b5330082e08a955a4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-02 09:28:06 UTC*

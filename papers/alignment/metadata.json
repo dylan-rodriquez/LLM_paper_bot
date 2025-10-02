@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "ManagerBench: Evaluating the Safety-Pragmatism Trade-off in Autonomous LLMs",
+      "authors": [
+        "Adi Simhi, Jonathan Herzig, Martin Tutek, Itay Itzhak, Idan Szpektor, Yonatan Belinkov"
+      ],
+      "abstract": "arXiv:2510.00857v1 Announce Type: new \nAbstract: As large language models (LLMs) evolve from conversational assistants into autonomous agents, evaluating the safety of their actions becomes critical. Prior safety benchmarks have primarily focused on preventing generation of harmful content, such as toxic text. However, they overlook the challenge of agents taking harmful actions when the most effective path to an operational goal conflicts with human safety. To address this gap, we introduce ManagerBench, a benchmark that evaluates LLM decision-making in realistic, human-validated managerial scenarios. Each scenario forces a choice between a pragmatic but harmful action that achieves an operational goal, and a safe action that leads to worse operational performance. A parallel control set, where potential harm is directed only at inanimate objects, measures a model's pragmatism and identifies its tendency to be overly safe. Our findings indicate that the frontier LLMs perform poorly when navigating this safety-pragmatism trade-off. Many consistently choose harmful options to advance their operational goals, while others avoid harm only to become overly safe and ineffective. Critically, we find this misalignment does not stem from an inability to perceive harm, as models' harm assessments align with human judgments, but from flawed prioritization. ManagerBench is a challenging benchmark for a core component of agentic behavior: making safe choices when operational goals and alignment values incentivize conflicting actions. Benchmark & code available at https://github.com/technion-cs-nlp/ManagerBench.",
+      "url": "https://arxiv.org/abs/2510.00857",
+      "published_date": "2025-10-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "operational",
+        "safety",
+        "harm",
+        "harmful",
+        "managerbench",
+        "safe",
+        "actions",
+        "benchmark",
+        "human",
+        "llms"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and often overlooked aspect of LLM safety \u2013 the trade-off between pragmatism and safety in autonomous agents. The introduction of ManagerBench, with its focus on realistic managerial scenarios and a parallel control set, is a strong methodological contribution. The initial findings suggesting frontier models struggle with this trade-off highlight the importance of this research and suggest a positive reception within the community.",
+      "paper_id": "7593c8d9c2f9f877fcd6d81b6c02092b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-02T09:28:06.552269"
 }
