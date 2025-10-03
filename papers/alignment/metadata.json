@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Silent Tokens, Loud Effects: Padding in LLMs",
+      "authors": [
+        "Rom Himelstein, Amit LeVi, Yonatan Belinkov, Avi Mendelson"
+      ],
+      "abstract": "arXiv:2510.01238v1 Announce Type: new \nAbstract: Padding tokens are widely used in large language models (LLMs) to equalize sequence lengths during batched inference. While they should be fully masked, implementation errors can cause them to influence computation, and the extent of this influence is not well understood. We systematically study this effect across three open-source model families (Llama, Gemma, Qwen), inserting controlled amounts of padding and evaluating outcomes along four axes: activations, generation quality, bias, and safety. Even small amounts of padding shift hidden representations, degrade quality in smaller models, alter bias in unpredictable ways, and weaken safety guardrails. These findings demonstrate that padding is not a harmless detail but a robustness risk that must be carefully handled in deployment.",
+      "url": "https://arxiv.org/abs/2510.01238",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "padding",
+        "amounts",
+        "amounts padding",
+        "bias",
+        "influence",
+        "llms",
+        "models",
+        "quality",
+        "safety",
+        "tokens"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a surprisingly subtle but critical issue in LLM deployment \u2013 the impact of padding tokens. The systematic study across multiple model families and evaluation axes (activations, quality, bias, safety) demonstrates a strong methodological rigor. The findings are concerning, suggesting a potential robustness risk that needs attention, and the clear writing style enhances the paper's accessibility.",
+      "paper_id": "721b82d78fd5e63713ebd62cef4b1e1b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-03T09:27:49.843521"
 }

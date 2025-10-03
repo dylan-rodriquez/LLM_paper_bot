@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Aristotle: IMO-level Automated Theorem Proving
+
+**Score:** 92.0 | **Published:** 2025-10-03 | **Authors:** Tudor Achim, Alex Best, Kevin Der, Math\"is F\'ed\'erico, Sergei Gukov, Daniel Halpern-Leister, Kirsten Henningsgard, Yury Kudryashov, Alexander Meiburg, Martin Michelsen, Riley Patterson, Eric Rodriguez, Laura Scharff, Vikram Shanker, Vladmir Sicca, Hari Sowrirajan, Aidan Swope, Matyas Tamas, Vlad Tenev, Jonathan Thomm, Harold Williams, Lawrence Wu
+
+arXiv:2510.01346v1 Announce Type: cross 
+Abstract: We introduce Aristotle, an AI system that combines formal verification with informal reasoning, achieving gold-medal-equivalent performance on the 20...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01346) | [📝 Analysis](e58279429f97c0055d4dee316cc07cd0.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*

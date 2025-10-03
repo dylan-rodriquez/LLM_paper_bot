@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Aristotle: IMO-level Automated Theorem Proving",
+      "authors": [
+        "Tudor Achim, Alex Best, Kevin Der, Math\\\"is F\\'ed\\'erico, Sergei Gukov, Daniel Halpern-Leister, Kirsten Henningsgard, Yury Kudryashov, Alexander Meiburg, Martin Michelsen, Riley Patterson, Eric Rodriguez, Laura Scharff, Vikram Shanker, Vladmir Sicca, Hari Sowrirajan, Aidan Swope, Matyas Tamas, Vlad Tenev, Jonathan Thomm, Harold Williams, Lawrence Wu"
+      ],
+      "abstract": "arXiv:2510.01346v1 Announce Type: cross \nAbstract: We introduce Aristotle, an AI system that combines formal verification with informal reasoning, achieving gold-medal-equivalent performance on the 2025 International Mathematical Olympiad problems. Aristotle integrates three main components: a Lean proof search system, an informal reasoning system that generates and formalizes lemmas, and a dedicated geometry solver. Our system demonstrates state-of-the-art performance with favorable scaling properties for automated theorem proving.",
+      "url": "https://arxiv.org/abs/2510.01346",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 95,
+      "keywords": [
+        "aristotle",
+        "automated",
+        "automated theorem",
+        "informal",
+        "informal reasoning",
+        "performance",
+        "proving",
+        "reasoning",
+        "theorem",
+        "theorem proving"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper presents a significant achievement \u2013 achieving gold-medal performance on the IMO with an automated system. The combination of formal verification (Lean) with informal reasoning is a novel approach, and the inclusion of a dedicated geometry solver suggests a well-rounded system. The claim of favorable scaling properties is also important, indicating potential for handling increasingly complex problems. The high sentiment score reflects the excitement surrounding AI tackling challenging mathematical problems.",
+      "paper_id": "e58279429f97c0055d4dee316cc07cd0"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-10-03T09:27:49.847218"
 }

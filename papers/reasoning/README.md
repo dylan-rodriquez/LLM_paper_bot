@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### LLMRank: Understanding LLM Strengths for Model Routing
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Shubham Agrawal, Prasang Gupta
+
+arXiv:2510.01234v1 Announce Type: new 
+Abstract: The rapid growth of large language models (LLMs) with diverse capabilities, latency and computational costs presents a critical deployment challenge: s...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01234) | [📝 Analysis](0e4547e7d4db29ab01a9ab954e8f635e.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*

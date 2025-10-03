@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Benchmark Profiling: Mechanistic Diagnosis of LLM Benchmarks
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Dongjun Kim, Gyuho Shim, Yongchan Chun, Minhyuk Kim, Chanjun Park, Heuiseok Lim
+
+arXiv:2510.01232v1 Announce Type: new 
+Abstract: Large Language Models are commonly judged by their scores on standard benchmarks, yet such scores often overstate real capability since they mask the m...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01232) | [📝 Analysis](858beda88a2b6b9d8416df31eeedbd16.md)
+
+---
+
+### AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Hongyi Zhou, Jin Zhu, Pingfan Su, Kai Ye, Ying Yang, Shakeel A O B Gavioli-Akilagun, Chengchun Shi
+
+arXiv:2510.01268v1 Announce Type: new 
+Abstract: We study the problem of determining whether a piece of text has been authored by a human or by a large language model (LLM). Existing state of the art ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01268) | [📝 Analysis](86c1da20538aac48165b7e0286142d25.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*

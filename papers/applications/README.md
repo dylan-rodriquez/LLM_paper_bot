@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Detecting LLM-Generated Spam Reviews by Integrating Language Model Embeddings and Graph Neural Network
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Xin Liu, Rongwu Xu, Xinyi Jia, Jason Liao, Jiao Sun, Ling Huang, Wei Xu
+
+arXiv:2510.01801v1 Announce Type: new 
+Abstract: The rise of large language models (LLMs) has enabled the generation of highly persuasive spam reviews that closely mimic human writing. These reviews p...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01801) | [📝 Analysis](87775a60f2247f1b16163d16d0eb1a32.md)
+
+---
+
+### InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Yaxin Du, Yuanshuo Zhang, Xiyuan Yang, Yifan Zhou, Cheng Wang, Gongyi Zou, Xianghe Pang, Wenhao Wang, Menglan Chen, Shuo Tang, Zhiyu Li, Siheng Chen
+
+arXiv:2510.02271v1 Announce Type: new 
+Abstract: Information seeking is a fundamental requirement for humans. However, existing LLM agents rely heavily on open-web search, which exposes two fundamenta...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.02271) | [📝 Analysis](c67dc2b8aa938e0df739ad8e0d3ea994.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*

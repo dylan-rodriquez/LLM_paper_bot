@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "LLMRank: Understanding LLM Strengths for Model Routing",
+      "authors": [
+        "Shubham Agrawal, Prasang Gupta"
+      ],
+      "abstract": "arXiv:2510.01234v1 Announce Type: new \nAbstract: The rapid growth of large language models (LLMs) with diverse capabilities, latency and computational costs presents a critical deployment challenge: selecting the most suitable model for each prompt to optimize the trade-off between performance and efficiency. We introduce LLMRank, a prompt-aware routing framework that leverages rich, human-readable features extracted from prompts, including task type, reasoning patterns, complexity indicators, syntactic cues, and signals from a lightweight proxy solver. Unlike prior one-shot routers that rely solely on latent embeddings, LLMRank predicts per-model utility using a neural ranking model trained on RouterBench, comprising 36,497 prompts spanning 11 benchmarks and 11 state-of-the-art LLMs, from small efficient models to large frontier systems. Our approach achieves up to 89.2% of oracle utility, while providing interpretable feature attributions that explain routing decisions. Extensive studies demonstrate the importance of multifaceted feature extraction and the hybrid ranking objective, highlighting the potential of feature-driven routing for efficient and transparent LLM deployment.",
+      "url": "https://arxiv.org/abs/2510.01234",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "model",
+        "routing",
+        "feature",
+        "llmrank",
+        "11",
+        "deployment",
+        "efficient",
+        "large",
+        "llm",
+        "llms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a very important and timely problem in LLM deployment \u2013 efficient model routing. The approach of using interpretable features *beyond* just embeddings is a strong point, and achieving 89.2% of oracle utility is impressive. While the neural ranking model itself isn't groundbreaking, the feature engineering and comprehensive RouterBench dataset contribute significantly to the field. The focus on interpretability is also a valuable addition.",
+      "paper_id": "0e4547e7d4db29ab01a9ab954e8f635e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-03T09:27:49.842577"
 }

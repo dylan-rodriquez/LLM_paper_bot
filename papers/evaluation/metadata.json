@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Think Twice, Generate Once: Safeguarding by Progressive Self-Reflection",
+      "authors": [
+        "Hoang Phan, Victor Li, Qi Lei"
+      ],
+      "abstract": "arXiv:2510.01270v1 Announce Type: new \nAbstract: Large language models (LLMs) have revolutionized natural language processing with their ability to generate coherent and contextually relevant text. However, their deployment raises significant concerns about the potential for generating harmful or inappropriate content. In this paper, we introduce Progressive Self-Reflection (PSR), a novel inference-time technique that empowers LLMs to self-monitor and correct their outputs dynamically. Experimental results demonstrate that applying our proposed method to Llama-3.1-8B-Instruct reduces the attack success rate from 77.5\\% to 5.9\\%, to Llama-3.1-8B base from 89.7\\% to 5.6\\%, and to Qwen2.5-7B-Instruct from 44.4\\% to 3.8\\%, without additional training, while maintaining their original performance on benign tasks. Our approach acts as a test-time scaling method, where additional self-reflection rounds enhance safety at the cost of inference overhead. To balance safety with computational efficiency, we introduce a lightweight self-reflection predictor that estimates the optimal number of reflection rounds based on input complexity. This adaptive mechanism prevents unnecessary self-assessment on benign inputs while ensuring thorough evaluation when encountering potentially harmful content. Our findings suggest that Progressive Self-Reflection serves as a scalable test-time approach, enhancing LLM safety by dynamically allocating computational resources in proportion to the input's risk profile.",
+      "url": "https://arxiv.org/abs/2510.01270",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "self",
+        "reflection",
+        "self reflection",
+        "progressive",
+        "progressive self",
+        "safety",
+        "time",
+        "8b",
+        "additional",
+        "approach"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM deployment \u2013 safety and harmful content generation \u2013 with a novel and promising approach. The substantial reduction in attack success rates across multiple models without retraining is impressive. While the concept of self-reflection isn't entirely new, the 'Progressive' aspect and its implementation as a test-time scaling method appear to be a significant advancement. The community is actively seeking methods to improve LLM safety, suggesting a positive reception.",
+      "paper_id": "8e4c6cf04e88ae1b6ccacc25283bd150"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-03T09:27:49.844274"
 }
