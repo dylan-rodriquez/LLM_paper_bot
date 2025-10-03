@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### SoK: Measuring What Matters for Closed-Loop Security Agents
+
+**Score:** 92.0 | **Published:** 2025-10-03 | **Authors:** Mudita Khurana, Raunak Jain
+
+arXiv:2510.01654v1 Announce Type: new 
+Abstract: Cybersecurity is a relentless arms race, with AI driven offensive systems evolving faster than traditional defenses can adapt. Research and tooling rem...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01654) | [📝 Analysis](7a8686320bb1aab154778edc5c8a6157.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*

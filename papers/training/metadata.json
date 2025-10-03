@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Benchmark Profiling: Mechanistic Diagnosis of LLM Benchmarks",
+      "authors": [
+        "Dongjun Kim, Gyuho Shim, Yongchan Chun, Minhyuk Kim, Chanjun Park, Heuiseok Lim"
+      ],
+      "abstract": "arXiv:2510.01232v1 Announce Type: new \nAbstract: Large Language Models are commonly judged by their scores on standard benchmarks, yet such scores often overstate real capability since they mask the mix of skills a task actually demands. For example, ARC is assumed to test reasoning, while HellaSwag is designed to evaluate commonsense. However, we lack a systematic way to verify if these benchmarks actually measure these labels. We introduce Benchmark Profiling, a diagnostic framework that decomposes benchmark performance into ten cognitively grounded abilities. The method combines gradient-based importance scoring with targeted parameter ablation to compute an Ability Impact Score (AIS) that quantifies how much each ability contributes to a model's success on a given benchmark. Profiling three instruction-tuned models across ten widely used benchmarks yields four key findings: (i) most benchmarks draw on several abilities rather than one, (ii) datasets with similar labels rely on distinct ability mixtures, (iii) code-generation benchmarks reward broad, multi-skill improvement and thus show only modest gains from narrow domain-specific fine-tuning, and (iv) abilities irrelevant to the task could negatively affect performance. Benchmark Profiling therefore explains why performance gains do not always translate into user-perceived competence and offers a transparent tool for benchmark audit and model interpretability.",
+      "url": "https://arxiv.org/abs/2510.01232",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "benchmark",
+        "benchmarks",
+        "benchmark profiling",
+        "profiling",
+        "abilities",
+        "ability",
+        "performance",
+        "actually",
+        "gains",
+        "labels"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in LLM evaluation \u2013 the disconnect between benchmark scores and actual capabilities. The 'Benchmark Profiling' framework, combining gradient-based importance scoring and ablation, appears to be a rigorous and novel approach to dissecting benchmark performance. The initial findings, suggesting benchmarks rely on multiple abilities and that datasets with similar labels differ in their ability reliance, are significant and likely to resonate with the community. The clarity of the abstract suggests a well-written paper.",
+      "paper_id": "858beda88a2b6b9d8416df31eeedbd16"
+    },
+    {
+      "title": "AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees",
+      "authors": [
+        "Hongyi Zhou, Jin Zhu, Pingfan Su, Kai Ye, Ying Yang, Shakeel A O B Gavioli-Akilagun, Chengchun Shi"
+      ],
+      "abstract": "arXiv:2510.01268v1 Announce Type: new \nAbstract: We study the problem of determining whether a piece of text has been authored by a human or by a large language model (LLM). Existing state of the art logits-based detectors make use of statistics derived from the log-probability of the observed text evaluated using the distribution function of a given source LLM. However, relying solely on log probabilities can be sub-optimal. In response, we introduce AdaDetectGPT -- a novel classifier that adaptively learns a witness function from training data to enhance the performance of logits-based detectors. We provide statistical guarantees on its true positive rate, false positive rate, true negative rate and false negative rate. Extensive numerical studies show AdaDetectGPT nearly uniformly improves the state-of-the-art method in various combination of datasets and LLMs, and the improvement can reach up to 58%. A python implementation of our method is available at https://github.com/Mamba413/AdaDetectGPT.",
+      "url": "https://arxiv.org/abs/2510.01268",
+      "published_date": "2025-10-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "adadetectgpt",
+        "rate",
+        "llm",
+        "text",
+        "art",
+        "based",
+        "based detectors",
+        "detectors",
+        "false",
+        "function"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 detecting LLM-generated text \u2013 and proposes a novel approach (AdaDetectGPT) that builds upon existing logits-based methods. The claim of statistical guarantees and substantial performance improvements (up to 58%) is compelling. The availability of a Python implementation further strengthens the work, suggesting a focus on reproducibility and practical application.",
+      "paper_id": "86c1da20538aac48165b7e0286142d25"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-03T09:27:49.840244"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Silent Tokens, Loud Effects: Padding in LLMs
+
+**Score:** 90.0 | **Published:** 2025-10-03 | **Authors:** Rom Himelstein, Amit LeVi, Yonatan Belinkov, Avi Mendelson
+
+arXiv:2510.01238v1 Announce Type: new 
+Abstract: Padding tokens are widely used in large language models (LLMs) to equalize sequence lengths during batched inference. While they should be fully masked...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.01238) | [📝 Analysis](721b82d78fd5e63713ebd62cef4b1e1b.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-03 09:27:49 UTC*
