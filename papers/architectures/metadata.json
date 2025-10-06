@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Litespark Technical Report: High-Throughput, Energy-Efficient LLM Training Framework",
+      "authors": [
+        "Nii Osae Osae Dade, Moinul Hossain Rahat"
+      ],
+      "abstract": "arXiv:2510.02483v1 Announce Type: cross \nAbstract: Training Large Language Models (LLMs) is plagued by long training times and massive energy consumption, with modern models requiring months of computation and gigawatt-hours of electricity. In light of these challenges,we introduce Litespark, a novel pre-training framework that addresses these inefficiencies through targeted optimizations to transformer attention and MLP layers. Our approach combines architectural improvements with algorithmic enhancements to maximize Model FLOPs Utilization (MFU) while maintaining compatibility with standard transformer implementations. Comprehensive benchmarking on 3B and 30B parameter Llama models using the SlimPajama-627B dataset demonstrates substantial performance gains: 2x-6x training throughput improvement and $55\\%-83$% energy consumption reduction across multi-node H200 GPU clusters. These optimizations are model- and hardware-agnostic, enabling broad applicability across transformer architectures and extending to post-training phases including supervised fine-tuning and direct preference optimization.",
+      "url": "https://arxiv.org/abs/2510.02483",
+      "published_date": "2025-10-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "training",
+        "energy",
+        "models",
+        "transformer",
+        "consumption",
+        "energy consumption",
+        "framework",
+        "litespark",
+        "model",
+        "optimizations"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The abstract presents a compelling solution to a critical problem in LLM development \u2013 high computational cost and energy consumption. The reported gains (2x-6x throughput, 55%-83% energy reduction) are substantial and suggest a well-executed approach. The claim of hardware and model agnosticism further strengthens the potential impact, indicating a broadly applicable solution. The use of standard transformer implementations is also a positive sign for adoption.",
+      "paper_id": "3b3923e7be803a4d4e83d35480190874"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-06T09:31:18.059820"
 }
