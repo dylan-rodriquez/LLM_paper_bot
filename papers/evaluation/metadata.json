@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Evaluating Large Language Models for IUCN Red List Species Information",
+      "authors": [
+        "Shinya Uryu"
+      ],
+      "abstract": "arXiv:2510.02830v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are rapidly being adopted in conservation to address the biodiversity crisis, yet their reliability for species evaluation is uncertain. This study systematically validates five leading models on 21,955 species across four core IUCN Red List assessment components: taxonomy, conservation status, distribution, and threats. A critical paradox was revealed: models excelled at taxonomic classification (94.9%) but consistently failed at conservation reasoning (27.2% for status assessment). This knowledge-reasoning gap, evident across all models, suggests inherent architectural constraints, not just data limitations. Furthermore, models exhibited systematic biases favoring charismatic vertebrates, potentially amplifying existing conservation inequities. These findings delineate clear boundaries for responsible LLM deployment: they are powerful tools for information retrieval but require human oversight for judgment-based decisions. A hybrid approach is recommended, where LLMs augment expert capacity while human experts retain sole authority over risk assessment and policy.",
+      "url": "https://arxiv.org/abs/2510.02830",
+      "published_date": "2025-10-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "conservation",
+        "assessment",
+        "species",
+        "human",
+        "information",
+        "iucn",
+        "iucn red",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the application of LLMs to conservation, specifically the IUCN Red List assessment. The clear identification of a 'knowledge-reasoning gap' and the discovery of biases towards charismatic vertebrates are significant findings. The systematic validation across multiple assessment components strengthens the rigor of the study, though the methods themselves aren't radically new, relying on established LLM evaluation techniques.",
+      "paper_id": "3cea315db8c21b4317250fdf8286775f"
+    },
+    {
+      "title": "How Confident are Video Models? Empowering Video Models to Express their Uncertainty",
+      "authors": [
+        "Zhiting Mei, Ola Shorinwa, Anirudha Majumdar"
+      ],
+      "abstract": "arXiv:2510.02571v1 Announce Type: cross \nAbstract: Generative video models demonstrate impressive text-to-video capabilities, spurring widespread adoption in many real-world applications. However, like large language models (LLMs), video generation models tend to hallucinate, producing plausible videos even when they are factually wrong. Although uncertainty quantification (UQ) of LLMs has been extensively studied in prior work, no UQ method for video models exists, raising critical safety concerns. To our knowledge, this paper represents the first work towards quantifying the uncertainty of video models. We present a framework for uncertainty quantification of generative video models, consisting of: (i) a metric for evaluating the calibration of video models based on robust rank correlation estimation with no stringent modeling assumptions; (ii) a black-box UQ method for video models (termed S-QUBED), which leverages latent modeling to rigorously decompose predictive uncertainty into its aleatoric and epistemic components; and (iii) a UQ dataset to facilitate benchmarking calibration in video models. By conditioning the generation task in the latent space, we disentangle uncertainty arising due to vague task specifications from that arising from lack of knowledge. Through extensive experiments on benchmark video datasets, we demonstrate that S-QUBED computes calibrated total uncertainty estimates that are negatively correlated with the task accuracy and effectively computes the aleatoric and epistemic constituents.",
+      "url": "https://arxiv.org/abs/2510.02571",
+      "published_date": "2025-10-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "video",
+        "models",
+        "video models",
+        "uncertainty",
+        "uq",
+        "task",
+        "aleatoric",
+        "aleatoric epistemic",
+        "arising",
+        "calibration"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the lack of uncertainty quantification in video generation models, mirroring the issues seen with LLMs. The proposed framework, including a calibration metric and the S-QUBED method, represents a significant step towards addressing this safety concern. The claim of being the 'first work' in this area is strong, and the focus on black-box methods makes it broadly applicable. The abstract is well-written and clearly articulates the problem and proposed solution.",
+      "paper_id": "f7290b5e9b90efe57b1dfaa62b4f6f22"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-06T09:31:18.055958"
 }

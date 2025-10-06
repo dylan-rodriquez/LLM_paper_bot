@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Litespark Technical Report: High-Throughput, Energy-Efficient LLM Training Framework
+
+**Score:** 92.0 | **Published:** 2025-10-06 | **Authors:** Nii Osae Osae Dade, Moinul Hossain Rahat
+
+arXiv:2510.02483v1 Announce Type: cross 
+Abstract: Training Large Language Models (LLMs) is plagued by long training times and massive energy consumption, with modern models requiring months of comput...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.02483) | [📝 Analysis](3b3923e7be803a4d4e83d35480190874.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-06 09:31:18 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking
+
+**Score:** 92.0 | **Published:** 2025-10-06 | **Authors:** Jingqi Zhang, Ruibo Chen, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang
+
+arXiv:2510.02962v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly fine-tuned on smaller, domain-specific datasets to improve downstream performance. These datasets often c...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.02962) | [📝 Analysis](bfd2ae12dff423b3ce1e33aed6f2efec.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-06 09:31:18 UTC*

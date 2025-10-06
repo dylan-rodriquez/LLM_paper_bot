@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Evaluating Large Language Models for IUCN Red List Species Information
+
+**Score:** 92.0 | **Published:** 2025-10-06 | **Authors:** Shinya Uryu
+
+arXiv:2510.02830v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are rapidly being adopted in conservation to address the biodiversity crisis, yet their reliability for species evaluation...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.02830) | [📝 Analysis](3cea315db8c21b4317250fdf8286775f.md)
+
+---
+
+### How Confident are Video Models? Empowering Video Models to Express their Uncertainty
+
+**Score:** 92.0 | **Published:** 2025-10-06 | **Authors:** Zhiting Mei, Ola Shorinwa, Anirudha Majumdar
+
+arXiv:2510.02571v1 Announce Type: cross 
+Abstract: Generative video models demonstrate impressive text-to-video capabilities, spurring widespread adoption in many real-world applications. However, lik...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.02571) | [📝 Analysis](f7290b5e9b90efe57b1dfaa62b4f6f22.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-06 09:31:18 UTC*

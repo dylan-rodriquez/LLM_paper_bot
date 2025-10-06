@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in Large Language Models via Watermarking",
+      "authors": [
+        "Jingqi Zhang, Ruibo Chen, Yingqing Yang, Peihua Mai, Heng Huang, Yan Pang"
+      ],
+      "abstract": "arXiv:2510.02962v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly fine-tuned on smaller, domain-specific datasets to improve downstream performance. These datasets often contain proprietary or copyrighted material, raising the need for reliable safeguards against unauthorized use. Existing membership inference attacks (MIAs) and dataset-inference methods typically require access to internal signals such as logits, while current black-box approaches often rely on handcrafted prompts or a clean reference dataset for calibration, both of which limit practical applicability. Watermarking is a promising alternative, but prior techniques can degrade text quality or reduce task performance. We propose TRACE, a practical framework for fully black-box detection of copyrighted dataset usage in LLM fine-tuning. \\texttt{TRACE} rewrites datasets with distortion-free watermarks guided by a private key, ensuring both text quality and downstream utility. At detection time, we exploit the radioactivity effect of fine-tuning on watermarked data and introduce an entropy-gated procedure that selectively scores high-uncertainty tokens, substantially amplifying detection power. Across diverse datasets and model families, TRACE consistently achieves significant detections (p<0.05), often with extremely strong statistical evidence. Furthermore, it supports multi-dataset attribution and remains robust even after continued pretraining on large non-watermarked corpora. These results establish TRACE as a practical route to reliable black-box verification of copyrighted dataset usage. We will make our code available at: https://github.com/NusIoraPrivacy/TRACE.",
+      "url": "https://arxiv.org/abs/2510.02962",
+      "published_date": "2025-10-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "dataset",
+        "trace",
+        "black",
+        "black box",
+        "box",
+        "copyrighted",
+        "datasets",
+        "detection",
+        "copyrighted dataset",
+        "dataset usage"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 protecting copyright in the age of LLM fine-tuning. The proposed TRACE framework addresses limitations of existing black-box detection methods by focusing on distortion-free watermarking, which is a significant improvement. While watermarking isn't entirely novel, the emphasis on practicality (text quality, downstream utility) and black-box operation suggests a strong contribution. The high scores reflect the relevance and potential of the work.",
+      "paper_id": "bfd2ae12dff423b3ce1e33aed6f2efec"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-06T09:31:18.057607"
 }
