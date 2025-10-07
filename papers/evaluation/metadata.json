@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Simulating and Understanding Deceptive Behaviors in Long-Horizon Interactions",
+      "authors": [
+        "Yang Xu, Xuanming Zhang, Min-Hsuan Yeh, Jwala Dhamala, Ousmane Dia, Rahul Gupta, Yixuan Li"
+      ],
+      "abstract": "arXiv:2510.03999v1 Announce Type: new \nAbstract: Deception is a pervasive feature of human communication and an emerging concern in large language models (LLMs). While recent studies document instances of LLM deception under pressure, most evaluations remain confined to single-turn prompts and fail to capture the long-horizon interactions in which deceptive strategies typically unfold. We introduce the first simulation framework for probing and evaluating deception in LLMs under extended sequences of interdependent tasks and dynamic contextual pressures. Our framework instantiates a multi-agent system: a performer agent tasked with completing tasks and a supervisor agent that evaluates progress, provides feedback, and maintains evolving states of trust. An independent deception auditor then reviews full trajectories to identify when and how deception occurs. We conduct extensive experiments across 11 frontier models, spanning both closed- and open-source systems, and find that deception is model-dependent, increases with event pressure, and consistently erodes supervisor trust. Qualitative analyses further reveal distinct strategies of concealment, equivocation, and falsification. Our findings establish deception as an emergent risk in long-horizon interactions and provide a foundation for evaluating future LLMs in real-world, trust-sensitive contexts.",
+      "url": "https://arxiv.org/abs/2510.03999",
+      "published_date": "2025-10-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "deception",
+        "agent",
+        "horizon",
+        "horizon interactions",
+        "interactions",
+        "llms",
+        "long",
+        "long horizon",
+        "trust",
+        "deceptive"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem \u2013 deception in LLMs \u2013 and moves beyond simplistic single-turn evaluations. The introduction of a multi-agent simulation framework with a deception auditor is a significant methodological advancement. The evaluation across 11 models suggests a rigorous approach, and the topic aligns strongly with current concerns about LLM reliability and trustworthiness. The work is likely to be well-received by the community.",
+      "paper_id": "dba23433b4d3784d513685ffd40fb65a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-07T09:29:01.596398"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### The Geometry of Truth: Layer-wise Semantic Dynamics for Hallucination Detection in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-07 | **Authors:** Amir Hameed Mir
+
+arXiv:2510.04933v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) often produce fluent yet factually incorrect statements-a phenomenon known as hallucination-posing serious risks in high-s...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.04933) | [📝 Analysis](c7a039edd7c68ea93e7c4a8786485bf6.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-07 09:29:01 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Evaluating LLMs for Demographic-Targeted Social Bias Detection: A Comprehensive Benchmark Study
+
+**Score:** 90.0 | **Published:** 2025-10-07 | **Authors:** Ayan Majumdar, Feihao Chen, Jinghui Li, Xiaozhen Wang
+
+arXiv:2510.04641v1 Announce Type: new 
+Abstract: Large-scale web-scraped text corpora used to train general-purpose AI models often contain harmful demographic-targeted social biases, creating a regul...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.04641) | [📝 Analysis](29134bfa8695f96b4ae703e99e5e0cc8.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-07 09:29:01 UTC*

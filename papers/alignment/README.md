@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests
+
+**Score:** 92.0 | **Published:** 2025-10-07 | **Authors:** Punya Syon Pandey, Hai Son Le, Devansh Bhardwaj, Rada Mihalcea, Zhijing Jin
+
+arXiv:2510.04891v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in contexts where their failures can have direct sociopolitical consequences. Yet, existing safe...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.04891) | [📝 Analysis](14f7794d84765bcb74a409c1e8fbd98a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-07 09:29:01 UTC*
