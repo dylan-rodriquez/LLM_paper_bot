@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SocialHarmBench: Revealing LLM Vulnerabilities to Socially Harmful Requests",
+      "authors": [
+        "Punya Syon Pandey, Hai Son Le, Devansh Bhardwaj, Rada Mihalcea, Zhijing Jin"
+      ],
+      "abstract": "arXiv:2510.04891v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in contexts where their failures can have direct sociopolitical consequences. Yet, existing safety benchmarks rarely test vulnerabilities in domains such as political manipulation, propaganda and disinformation generation, or surveillance and information control. We introduce SocialHarmBench, a dataset of 585 prompts spanning 7 sociopolitical categories and 34 countries, designed to surface where LLMs most acutely fail in politically charged contexts. Our evaluations reveal several shortcomings: open-weight models exhibit high vulnerability to harmful compliance, with Mistral-7B reaching attack success rates as high as 97% to 98% in domains such as historical revisionism, propaganda, and political manipulation. Moreover, temporal and geographic analyses show that LLMs are most fragile when confronted with 21st-century or pre-20th-century contexts, and when responding to prompts tied to regions such as Latin America, the USA, and the UK. These findings demonstrate that current safeguards fail to generalize to high-stakes sociopolitical settings, exposing systematic biases and raising concerns about the reliability of LLMs in preserving human rights and democratic values. We share the SocialHarmBench benchmark at https://huggingface.co/datasets/psyonp/SocialHarmBench.",
+      "url": "https://arxiv.org/abs/2510.04891",
+      "published_date": "2025-10-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "socialharmbench",
+        "contexts",
+        "high",
+        "sociopolitical",
+        "century",
+        "domains",
+        "fail",
+        "harmful",
+        "manipulation"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critically important and timely problem \u2013 the vulnerability of LLMs to generating socially harmful content, specifically in politically sensitive areas. The creation of SocialHarmBench is a valuable contribution, providing a targeted benchmark for evaluating LLM safety. The reported high attack success rates, particularly with open-weight models like Mistral-7B, highlight a significant risk and warrant further investigation, suggesting a strong positive reception within the community.",
+      "paper_id": "14f7794d84765bcb74a409c1e8fbd98a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-07T09:29:01.600909"
 }

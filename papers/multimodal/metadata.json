@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "How I Built ASR for Endangered Languages with a Spoken Dictionary",
+      "authors": [
+        "Christopher Bartley, Anton Ragni"
+      ],
+      "abstract": "arXiv:2510.04832v1 Announce Type: new \nAbstract: Nearly half of the world's languages are endangered. Speech technologies such as Automatic Speech Recognition (ASR) are central to revival efforts, yet most languages remain unsupported because standard pipelines expect utterance-level supervised data. Speech data often exist for endangered languages but rarely match these formats. Manx Gaelic ($\\sim$2,200 speakers), for example, has had transcribed speech since 1948, yet remains unsupported by modern systems. In this paper, we explore how little data, and in what form, is needed to build ASR for critically endangered languages. We show that a short-form pronunciation resource is a viable alternative, and that 40 minutes of such data produces usable ASR for Manx ($<$50\\% WER). We replicate our approach, applying it to Cornish ($\\sim$600 speakers), another critically endangered language. Results show that the barrier to entry, in quantity and form, is far lower than previously thought, giving hope to endangered language communities that cannot afford to meet the requirements arbitrarily imposed upon them.",
+      "url": "https://arxiv.org/abs/2510.04832",
+      "published_date": "2025-10-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "endangered",
+        "languages",
+        "asr",
+        "data",
+        "speech",
+        "endangered languages",
+        "form",
+        "critically",
+        "critically endangered",
+        "endangered language"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 the lack of ASR for endangered languages \u2013 with a practical and promising solution. The use of short-form pronunciation resources as an alternative to large, utterance-level datasets is a clever approach, and achieving <50% WER with only 40 minutes of data is impressive. The replication on Cornish further strengthens the findings, suggesting generalizability. The work is well-aligned with current trends in low-resource language technology and language preservation.",
+      "paper_id": "faebf919f6e423039895259e6795053f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-10-07T09:29:01.600024"
 }
