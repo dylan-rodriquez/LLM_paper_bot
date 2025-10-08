@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "The Geometry of Truth: Layer-wise Semantic Dynamics for Hallucination Detection in Large Language Models",
+      "authors": [
+        "Amir Hameed Mir"
+      ],
+      "abstract": "arXiv:2510.04933v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often produce fluent yet factually incorrect statements-a phenomenon known as hallucination-posing serious risks in high-stakes domains. We present Layer-wise Semantic Dynamics (LSD), a geometric framework for hallucination detection that analyzes the evolution of hidden-state semantics across transformer layers. Unlike prior methods that rely on multiple sampling passes or external verification sources, LSD operates intrinsically within the model's representational space. Using margin-based contrastive learning, LSD aligns hidden activations with ground-truth embeddings derived from a factual encoder, revealing a distinct separation in semantic trajectories: factual responses preserve stable alignment, while hallucinations exhibit pronounced semantic drift across depth. Evaluated on the TruthfulQA and synthetic factual-hallucination datasets, LSD achieves an F1-score of 0.92, AUROC of 0.96, and clustering accuracy of 0.89, outperforming SelfCheckGPT and Semantic Entropy baselines while requiring only a single forward pass. This efficiency yields a 5-20x speedup over sampling-based methods without sacrificing precision or interpretability. LSD offers a scalable, model-agnostic mechanism for real-time hallucination monitoring and provides new insights into the geometry of factual consistency within large language models.",
+      "url": "https://arxiv.org/abs/2510.04933",
+      "published_date": "2025-10-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucination",
+        "lsd",
+        "semantic",
+        "factual",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "models",
+        "based"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucination \u2013 with a novel geometric approach. The method, LSD, appears well-motivated and avoids reliance on external verification, operating intrinsically within the model. The reported F1-score and AUROC are strong, suggesting a robust and effective technique, and the focus on semantic drift is a promising direction for understanding and mitigating hallucinations.",
+      "paper_id": "c7a039edd7c68ea93e7c4a8786485bf6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-10-08T09:28:56.169657"
 }
