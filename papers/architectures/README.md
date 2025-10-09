@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Rajvee Sheth, Samridhi Raj Sinha, Mahavir Patil, Himanshu Beniwal, Mayank Singh
+
+arXiv:2510.07037v1 Announce Type: new 
+Abstract: Code-switching (CSW), the alternation of languages and scripts within a single utterance, remains a fundamental challenge for multiling ual NLP, even a...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07037) | [📝 Analysis](f3f33f9ca1aa96f6b166995dcac1e26e.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*

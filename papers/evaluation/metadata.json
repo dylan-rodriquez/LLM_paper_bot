@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Comprehensive Survey of Hallucination in Large Language Models: Causes, Detection, and Mitigation",
+      "authors": [
+        "Aisha Alansari, Hamzah Luqman"
+      ],
+      "abstract": "arXiv:2510.06265v1 Announce Type: new \nAbstract: Large language models (LLMs) have transformed natural language processing, achieving remarkable performance across diverse tasks. However, their impressive fluency often comes at the cost of producing false or fabricated information, a phenomenon known as hallucination. Hallucination refers to the generation of content by an LLM that is fluent and syntactically correct but factually inaccurate or unsupported by external evidence. Hallucinations undermine the reliability and trustworthiness of LLMs, especially in domains requiring factual accuracy. This survey provides a comprehensive review of research on hallucination in LLMs, with a focus on causes, detection, and mitigation. We first present a taxonomy of hallucination types and analyze their root causes across the entire LLM development lifecycle, from data collection and architecture design to inference. We further examine how hallucinations emerge in key natural language generation tasks. Building on this foundation, we introduce a structured taxonomy of detection approaches and another taxonomy of mitigation strategies. We also analyze the strengths and limitations of current detection and mitigation approaches and review existing evaluation benchmarks and metrics used to quantify LLMs hallucinations. Finally, we outline key open challenges and promising directions for future research, providing a foundation for the development of more truthful and trustworthy LLMs.",
+      "url": "https://arxiv.org/abs/2510.06265",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 95,
+      "innovation_score": 65,
+      "impact_score": 90,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucination",
+        "llms",
+        "detection",
+        "language",
+        "mitigation",
+        "causes",
+        "detection mitigation",
+        "hallucinations",
+        "taxonomy",
+        "analyze"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey addresses a highly critical issue in LLMs \u2013 hallucination \u2013 which is a major barrier to their reliable deployment. The abstract indicates a comprehensive approach, covering causes, detection, and mitigation across the LLM lifecycle. While a survey isn't inherently innovative, a well-executed and thorough review is valuable, and the scope described suggests high quality. The topic is extremely timely and aligns with current research trends, suggesting a positive reception.",
+      "paper_id": "a48840bded5f25bce2f30654efe89139"
+    },
+    {
+      "title": "Revisiting Metric Reliability for Fine-grained Evaluation of Machine Translation and Summarization in Indian Languages",
+      "authors": [
+        "Amir Hossein Yari, Kalmit Kulkarni, Ahmad Raza Khan, Fajri Koto"
+      ],
+      "abstract": "arXiv:2510.07061v1 Announce Type: new \nAbstract: While automatic metrics drive progress in Machine Translation (MT) and Text Summarization (TS), existing metrics have been developed and validated almost exclusively for English and other high-resource languages. This narrow focus leaves Indian languages, spoken by over 1.5 billion people, largely overlooked, casting doubt on the universality of current evaluation practices. To address this gap, we introduce ITEM, a large-scale benchmark that systematically evaluates the alignment of 26 automatic metrics with human judgments across six major Indian languages, enriched with fine-grained annotations. Our extensive evaluation, covering agreement with human judgments, sensitivity to outliers, language-specific reliability, inter-metric correlations, and resilience to controlled perturbations, reveals four central findings: (1) LLM-based evaluators show the strongest alignment with human judgments at both segment and system levels; (2) outliers exert a significant impact on metric-human agreement; (3) in TS, metrics are more effective at capturing content fidelity, whereas in MT, they better reflect fluency; and (4) metrics differ in their robustness and sensitivity when subjected to diverse perturbations. Collectively, these findings offer critical guidance for advancing metric design and evaluation in Indian languages.",
+      "url": "https://arxiv.org/abs/2510.07061",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "languages",
+        "metrics",
+        "evaluation",
+        "human",
+        "indian",
+        "indian languages",
+        "metric",
+        "human judgments",
+        "judgments",
+        "agreement"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in NLP research \u2013 the lack of robust evaluation metrics for Indian languages. The introduction of the ITEM benchmark and the comprehensive evaluation across multiple metrics and languages demonstrate a strong methodological approach. The findings, particularly regarding the performance of LLM-based evaluators, are significant and likely to influence future work in the field. The focus on fine-grained annotations and controlled perturbations adds to the rigor of the study.",
+      "paper_id": "21beea249c894cea7c0117a8fed0b750"
+    },
+    {
+      "title": "Quantifying Data Contamination in Psychometric Evaluations of LLMs",
+      "authors": [
+        "Jongwook Han, Woojung Song, Jonggeun Lee, Yohan Jo"
+      ],
+      "abstract": "arXiv:2510.07175v1 Announce Type: new \nAbstract: Recent studies apply psychometric questionnaires to Large Language Models (LLMs) to assess high-level psychological constructs such as values, personality, moral foundations, and dark traits. Although prior work has raised concerns about possible data contamination from psychometric inventories, which may threaten the reliability of such evaluations, there has been no systematic attempt to quantify the extent of this contamination. To address this gap, we propose a framework to systematically measure data contamination in psychometric evaluations of LLMs, evaluating three aspects: (1) item memorization, (2) evaluation memorization, and (3) target score matching. Applying this framework to 21 models from major families and four widely used psychometric inventories, we provide evidence that popular inventories such as the Big Five Inventory (BFI-44) and Portrait Values Questionnaire (PVQ-40) exhibit strong contamination, where models not only memorize items but can also adjust their responses to achieve specific target scores.",
+      "url": "https://arxiv.org/abs/2510.07175",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "contamination",
+        "psychometric",
+        "contamination psychometric",
+        "data",
+        "data contamination",
+        "evaluations",
+        "inventories",
+        "llms",
+        "models",
+        "evaluations llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of LLMs \u2013 the validity of psychometric evaluations. The systematic framework proposed for quantifying data contamination is a strong methodological contribution. The initial findings suggesting significant contamination in popular inventories are concerning and likely to generate substantial discussion and further research. The clear problem statement and focus on quantifiable metrics contribute to the paper's overall quality.",
+      "paper_id": "722a97ff4bfaf02f5b3d43156497287a"
+    },
+    {
+      "title": "How much speech data is necessary for ASR in African languages? An evaluation of data scaling in Kinyarwanda and Kikuyu",
+      "authors": [
+        "Benjamin Akera, Evelyn Nafula, Patrick Walukagga, Gilbert Yiga, John Quinn, Ernest Mwebaze"
+      ],
+      "abstract": "arXiv:2510.07221v1 Announce Type: new \nAbstract: The development of Automatic Speech Recognition (ASR) systems for low-resource African languages remains challenging due to limited transcribed speech data. While recent advances in large multilingual models like OpenAI's Whisper offer promising pathways for low-resource ASR development, critical questions persist regarding practical deployment requirements. This paper addresses two fundamental concerns for practitioners: determining the minimum data volumes needed for viable performance and characterizing the primary failure modes that emerge in production systems. We evaluate Whisper's performance through comprehensive experiments on two Bantu languages: systematic data scaling analysis on Kinyarwanda using training sets from 1 to 1,400 hours, and detailed error characterization on Kikuyu using 270 hours of training data. Our scaling experiments demonstrate that practical ASR performance (WER < 13\\%) becomes achievable with as little as 50 hours of training data, with substantial improvements continuing through 200 hours (WER < 10\\%). Complementing these volume-focused findings, our error analysis reveals that data quality issues, particularly noisy ground truth transcriptions, account for 38.6\\% of high-error cases, indicating that careful data curation is as critical as data volume for robust system performance. These results provide actionable benchmarks and deployment guidance for teams developing ASR systems across similar low-resource language contexts. We release accompanying and models see https://github.com/SunbirdAI/kinyarwanda-whisper-eval",
+      "url": "https://arxiv.org/abs/2510.07221",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "asr",
+        "hours",
+        "performance",
+        "data scaling",
+        "error",
+        "kinyarwanda",
+        "languages",
+        "low",
+        "low resource"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in low-resource ASR \u2013 understanding data scaling needs for African languages. The use of Whisper, a powerful multilingual model, and the systematic data scaling analysis on Kinyarwanda are strong methodological points. While the approach isn't entirely novel (data scaling is a common practice), applying it specifically to these languages and focusing on practical WER thresholds is valuable, and the error characterization on Kikuyu adds depth. The focus on practical deployment and failure modes is particularly commendable.",
+      "paper_id": "ee1b2ab7d3404084fb3b0376e87d71f4"
+    },
+    {
+      "title": "Benchmarking LLM Causal Reasoning with Scientifically Validated Relationships",
+      "authors": [
+        "Donggyu Lee, Sungwon Park, Yerin Hwang, Hyunwoo Oh, Hyoshin Kim, Jungwon Kim, Meeyoung Cha, Sangyoon Park, Jihee Kim"
+      ],
+      "abstract": "arXiv:2510.07231v1 Announce Type: new \nAbstract: Causal reasoning is fundamental for Large Language Models (LLMs) to understand genuine cause-and-effect relationships beyond pattern matching. Existing benchmarks suffer from critical limitations such as reliance on synthetic data and narrow domain coverage. We introduce a novel benchmark constructed from casually identified relationships extracted from top-tier economics and finance journals, drawing on rigorous methodologies including instrumental variables, difference-in-differences, and regression discontinuity designs. Our benchmark comprises 40,379 evaluation items covering five task types across domains such as health, environment, technology, law, and culture. Experimental results on eight state-of-the-art LLMs reveal substantial limitations, with the best model achieving only 57.6\\% accuracy. Moreover, model scale does not consistently translate to superior performance, and even advanced reasoning models struggle with fundamental causal relationship identification. These findings underscore a critical gap between current LLM capabilities and demands of reliable causal reasoning in high-stakes applications.",
+      "url": "https://arxiv.org/abs/2510.07231",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "causal",
+        "reasoning",
+        "causal reasoning",
+        "relationships",
+        "benchmark",
+        "critical",
+        "fundamental",
+        "limitations",
+        "llm",
+        "llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial limitation in LLM evaluation \u2013 the lack of benchmarks grounded in scientifically validated causal relationships. The use of rigorous methodologies from economics and finance to construct the benchmark is a strong point, and the initial results highlighting LLM struggles with causal reasoning are significant. While the approach isn't entirely novel (building benchmarks is common), the *source* of the data and the focus on causal inference are innovative. The relatively low accuracy scores achieved by state-of-the-art models suggest a real gap in current LLM capabilities.",
+      "paper_id": "0550672a944f85797c6aad412ec67dd7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-09T09:29:15.482543"
 }

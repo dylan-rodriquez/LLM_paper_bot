@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Reward Model Perspectives: Whose Opinions Do Reward Models Reward?",
+      "authors": [
+        "Elle"
+      ],
+      "abstract": "arXiv:2510.06391v1 Announce Type: new \nAbstract: Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM behavior. However, our understanding of RM behavior is limited. Our work (i) formalizes a framework for measuring the alignment of opinions captured by RMs, (ii) investigates the extent to which RMs demonstrate sociodemographic biases, and (iii) explores the effects of prompting to steer rewards towards the preferences of a target group. We study the subjective and diverse perspectives on controversial topics, which allows us to quantify RM perspectives in terms of their opinions, attitudes, and values. We show that RMs are poorly aligned with several demographic groups and can systematically reward harmful stereotypes, and steering alone is not enough to overcome these limitations. Our findings underscore the need for more careful consideration of RM behavior in model alignment during preference learning to prevent the propagation of unwanted social biases in the language technologies that we use.",
+      "url": "https://arxiv.org/abs/2510.06391",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reward",
+        "rm",
+        "rms",
+        "alignment",
+        "behavior",
+        "models",
+        "opinions",
+        "perspectives",
+        "biases",
+        "language"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial problem in the alignment of large language models \u2013 the potential for reward models to encode and perpetuate societal biases. The formalization of a framework for measuring opinion alignment and the demonstration of demographic biases within RMs are strong contributions. While steering attempts are shown to be insufficient, the work highlights the complexity of the issue and the need for more robust alignment strategies. The topic is highly relevant given current concerns about fairness and responsible AI.",
+      "paper_id": "80bc23ab95be04e63f03d2e6ae45bf5e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-09T09:29:15.483661"
 }

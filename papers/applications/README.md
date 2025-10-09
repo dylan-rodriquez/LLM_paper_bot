@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Survey on Agentic Security: Applications, Threats and Defenses
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Asif Shahriar, Md Nafiu Rahman, Sadif Ahmed, Farig Sadeque, Md Rizwan Parvez
+
+arXiv:2510.06445v1 Announce Type: new 
+Abstract: The rapid shift from passive LLMs to autonomous LLM-agents marks a new paradigm in cybersecurity. While these agents can act as powerful tools for both...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06445) | [📝 Analysis](f29274a0c626f3521b947ebbeea5c981.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*
