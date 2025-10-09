@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Mining the Mind: What 100M Beliefs Reveal About Frontier LLM Knowledge
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Shrestha Ghosh, Luca Giordano, Yujia Hu, Tuan-Phong Nguyen, Simon Razniewski
+
+arXiv:2510.07024v1 Announce Type: new 
+Abstract: LLMs are remarkable artifacts that have revolutionized a range of NLP and AI tasks. A significant contributor is their factual knowledge, which, to dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07024) | [📝 Analysis](89e45fdf3f9153c4e052400526b29275.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*

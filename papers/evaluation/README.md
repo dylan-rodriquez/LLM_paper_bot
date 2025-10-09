@@ -2,7 +2,18 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
+
+### A Comprehensive Survey of Hallucination in Large Language Models: Causes, Detection, and Mitigation
+
+**Score:** 95.0 | **Published:** 2025-10-09 | **Authors:** Aisha Alansari, Hamzah Luqman
+
+arXiv:2510.06265v1 Announce Type: new 
+Abstract: Large language models (LLMs) have transformed natural language processing, achieving remarkable performance across diverse tasks. However, their impres...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06265) | [📝 Analysis](a48840bded5f25bce2f30654efe89139.md)
+
+---
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +23,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Revisiting Metric Reliability for Fine-grained Evaluation of Machine Translation and Summarization in Indian Languages
+
+**Score:** 90.0 | **Published:** 2025-10-09 | **Authors:** Amir Hossein Yari, Kalmit Kulkarni, Ahmad Raza Khan, Fajri Koto
+
+arXiv:2510.07061v1 Announce Type: new 
+Abstract: While automatic metrics drive progress in Machine Translation (MT) and Text Summarization (TS), existing metrics have been developed and validated almo...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07061) | [📝 Analysis](21beea249c894cea7c0117a8fed0b750.md)
+
+---
+
+### Quantifying Data Contamination in Psychometric Evaluations of LLMs
+
+**Score:** 90.0 | **Published:** 2025-10-09 | **Authors:** Jongwook Han, Woojung Song, Jonggeun Lee, Yohan Jo
+
+arXiv:2510.07175v1 Announce Type: new 
+Abstract: Recent studies apply psychometric questionnaires to Large Language Models (LLMs) to assess high-level psychological constructs such as values, personal...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07175) | [📝 Analysis](722a97ff4bfaf02f5b3d43156497287a.md)
+
+---
+
+### How much speech data is necessary for ASR in African languages? An evaluation of data scaling in Kinyarwanda and Kikuyu
+
+**Score:** 90.0 | **Published:** 2025-10-09 | **Authors:** Benjamin Akera, Evelyn Nafula, Patrick Walukagga, Gilbert Yiga, John Quinn, Ernest Mwebaze
+
+arXiv:2510.07221v1 Announce Type: new 
+Abstract: The development of Automatic Speech Recognition (ASR) systems for low-resource African languages remains challenging due to limited transcribed speech ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07221) | [📝 Analysis](ee1b2ab7d3404084fb3b0376e87d71f4.md)
+
+---
+
+### Benchmarking LLM Causal Reasoning with Scientifically Validated Relationships
+
+**Score:** 90.0 | **Published:** 2025-10-09 | **Authors:** Donggyu Lee, Sungwon Park, Yerin Hwang, Hyunwoo Oh, Hyoshin Kim, Jungwon Kim, Meeyoung Cha, Sangyoon Park, Jihee Kim
+
+arXiv:2510.07231v1 Announce Type: new 
+Abstract: Causal reasoning is fundamental for Large Language Models (LLMs) to understand genuine cause-and-effect relationships beyond pattern matching. Existing...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07231) | [📝 Analysis](0550672a944f85797c6aad412ec67dd7.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*

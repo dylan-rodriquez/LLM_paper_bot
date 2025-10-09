@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models",
+      "authors": [
+        "Rajvee Sheth, Samridhi Raj Sinha, Mahavir Patil, Himanshu Beniwal, Mayank Singh"
+      ],
+      "abstract": "arXiv:2510.07037v1 Announce Type: new \nAbstract: Code-switching (CSW), the alternation of languages and scripts within a single utterance, remains a fundamental challenge for multiling ual NLP, even amidst the rapid advances of large language models (LLMs). Most LLMs still struggle with mixed-language inputs, limited CSW datasets, and evaluation biases, hindering deployment in multilingual societies. This survey provides the first comprehensive analysis of CSW-aware LLM research, reviewing \\total{unique_references} studies spanning five research areas, 12 NLP tasks, 30+ datasets, and 80+ languages. We classify recent advances by architecture, training strategy, and evaluation methodology, outlining how LLMs have reshaped CSW modeling and what challenges persist. The paper concludes with a roadmap emphasizing the need for inclusive datasets, fair evaluation, and linguistically grounded models to achieve truly multilingual intelligence. A curated collection of all resources is maintained at https://github.com/lingo-iitgn/awesome-code-mixing/.",
+      "url": "https://arxiv.org/abs/2510.07037",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "csw",
+        "code",
+        "datasets",
+        "evaluation",
+        "language",
+        "llms",
+        "models",
+        "nlp",
+        "advances",
+        "language models"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper addresses a highly significant problem \u2013 the limitations of LLMs in handling code-switching \u2013 which is crucial for truly multilingual NLP. The comprehensive scope (spanning numerous studies, tasks, datasets, and languages) suggests a rigorous and well-executed analysis. While the paper itself doesn't present *new* methods, its synthesis of existing work and roadmap for future research are valuable contributions. The high sentiment score reflects the current research trend towards inclusivity and fairness in LLMs.",
+      "paper_id": "f3f33f9ca1aa96f6b166995dcac1e26e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-09T09:29:15.485953"
 }

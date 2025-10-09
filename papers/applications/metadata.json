@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "A Survey on Agentic Security: Applications, Threats and Defenses",
+      "authors": [
+        "Asif Shahriar, Md Nafiu Rahman, Sadif Ahmed, Farig Sadeque, Md Rizwan Parvez"
+      ],
+      "abstract": "arXiv:2510.06445v1 Announce Type: new \nAbstract: The rapid shift from passive LLMs to autonomous LLM-agents marks a new paradigm in cybersecurity. While these agents can act as powerful tools for both offensive and defensive operations, the very agentic context introduces a new class of inherent security risks. In this work we present the first holistic survey of the agentic security landscape, structuring the field around three interdependent pillars: Applications, Threats, and Defenses. We provide a comprehensive taxonomy of over 150 papers, explaining how agents are used, the vulnerabilities they possess, and the countermeasures designed to protect them. A detailed cross-cutting analysis shows emerging trends in agent architecture while revealing critical research gaps in model and modality coverage.",
+      "url": "https://arxiv.org/abs/2510.06445",
+      "published_date": "2025-10-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agentic",
+        "agents",
+        "new",
+        "security",
+        "agentic security",
+        "applications",
+        "applications threats",
+        "defenses",
+        "survey",
+        "survey agentic"
+      ],
+      "subject_classification": "applications",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 the security of LLM agents. The comprehensive taxonomy of 150+ papers suggests a thorough and rigorous approach. While a survey isn't inherently 'innovative' in method, identifying and structuring this new landscape *is* a significant contribution, and the mention of identifying research gaps is valuable. The topic's timeliness and the potential for both offensive and defensive applications indicate a strong potential for impact.",
+      "paper_id": "f29274a0c626f3521b947ebbeea5c981"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-10-09T09:29:15.484379"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Reward Model Perspectives: Whose Opinions Do Reward Models Reward?
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Elle
+
+arXiv:2510.06391v1 Announce Type: new 
+Abstract: Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM b...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06391) | [📝 Analysis](80bc23ab95be04e63f03d2e6ae45bf5e.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*

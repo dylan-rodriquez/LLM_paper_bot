@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Scalable multilingual PII annotation for responsible AI in LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Bharti Meena, Joanna Skubisz, Harshit Rajgarhia, Nand Dave, Kiran Ganesh, Shivali Dalmia, Abhishek Mukherji, Vasudevan Sundarababu, Olga Pospelova
+
+arXiv:2510.06250v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) gain wider adoption, ensuring their reliable handling of Personally Identifiable Information (PII) across diverse regul...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06250) | [📝 Analysis](5935ecbcd567ad1d43e42342d3d11a0d.md)
+
+---
+
+### AWM: Accurate Weight-Matrix Fingerprint for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Boyi Zeng, Lin Chen, Ziwei He, Xinbing Wang, Zhouhan Lin
+
+arXiv:2510.06738v1 Announce Type: new 
+Abstract: Protecting the intellectual property of large language models (LLMs) is crucial, given the substantial resources required for their training. Consequen...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06738) | [📝 Analysis](462cf3b8681808c1bf43a2e59cfa6701.md)
+
+---
+
+### Mid-Training of Large Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-10-09 | **Authors:** Kaixiang Mo, Yuxin Shi, Weiwei Weng, Zhiqiang Zhou, Shuman Liu, Haibo Zhang, Anxiang Zeng
+
+arXiv:2510.06826v1 Announce Type: new 
+Abstract: Large language models (LLMs) are typically developed through large-scale pre-training followed by task-specific fine-tuning. Recent advances highlight ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06826) | [📝 Analysis](bb3952681ed7446a80590476c13f0e11.md)
+
+---
+
+### PIKA: Expert-Level Synthetic Datasets for Post-Training Alignment from Scratch
+
+**Score:** 90.0 | **Published:** 2025-10-09 | **Authors:** Shangjian Yin, Shining Liang, Wenbiao Ding, Yuli Qian, Zhouxing Shi, Hongzhi Li, Yutao Xie
+
+arXiv:2510.06670v1 Announce Type: new 
+Abstract: Reinforcement Learning from Human Feedback (RLHF) has become a cornerstone for aligning large language models (LLMs). However, its effectiveness depend...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.06670) | [📝 Analysis](2800066fababaeb2a035809e13a8e5cc.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-09 09:29:15 UTC*
