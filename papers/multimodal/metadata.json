@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+      "authors": [
+        "Congming Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, Kangning Zhang, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, Weinan Zhang"
+      ],
+      "abstract": "arXiv:2510.08049v1 Announce Type: new \nAbstract: Although Large Language Models (LLMs) exhibit advanced reasoning ability, conventional alignment remains largely dominated by outcome reward models (ORMs) that judge only final answers. Process Reward Models(PRMs) address this gap by evaluating and guiding reasoning at the step or trajectory level. This survey provides a systematic overview of PRMs through the full loop: how to generate process data, build PRMs, and use PRMs for test-time scaling and reinforcement learning. We summarize applications across math, code, text, multimodal reasoning, robotics, and agents, and review emerging benchmarks. Our goal is to clarify design spaces, reveal open challenges, and guide future research toward fine-grained, robust reasoning alignment.",
+      "url": "https://arxiv.org/abs/2510.08049",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "prms",
+        "process",
+        "reasoning",
+        "reward",
+        "reward models",
+        "alignment",
+        "language",
+        "language models",
+        "large"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This survey paper addresses a highly relevant and timely problem in LLM research \u2013 moving beyond outcome-based alignment to process-level supervision. The systematic overview of PRMs, covering data generation, model building, and application, suggests a rigorous approach. The broad coverage of applications and emerging benchmarks indicates a comprehensive understanding of the field, and the focus on open challenges positions it to be well-received by the community.",
+      "paper_id": "11004879341023745e406578e3503e4e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-10-10T09:29:10.909518"
 }

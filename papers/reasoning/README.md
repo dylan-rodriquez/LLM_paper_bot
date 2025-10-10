@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### LLM4Cell: A Survey of Large Language and Agentic Models for Single-Cell Biology
+
+**Score:** 92.0 | **Published:** 2025-10-10 | **Authors:** Sajib Acharjee Dip, Adrika Zafor, Bikash Kumar Paul, Uddip Acharjee Shuvo, Muhit Islam Emon, Xuan Wang, Liqing Zhang
+
+arXiv:2510.07793v1 Announce Type: new 
+Abstract: Large language models (LLMs) and emerging agentic frameworks are beginning to transform single-cell biology by enabling natural-language reasoning, gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07793) | [📝 Analysis](abe73b87b31d4184ae94ae194c996ef7.md)
+
+---
+
+### ArenaBencher: Automatic Benchmark Evolution via Multi-Model Competitive Evaluation
+
+**Score:** 92.0 | **Published:** 2025-10-10 | **Authors:** Qin Liu, Jacob Dineen, Yuxi Huang, Sheng Zhang, Hoifung Poon, Ben Zhou, Muhao Chen
+
+arXiv:2510.08569v1 Announce Type: new 
+Abstract: Benchmarks are central to measuring the capabilities of large language models and guiding model development, yet widespread data leakage from pretraini...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08569) | [📝 Analysis](38ab40fcedd91a705a38256e2988e9ca.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-10 09:29:10 UTC*

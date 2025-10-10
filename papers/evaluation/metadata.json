@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Large Language Models Meet Virtual Cell: A Survey",
+      "authors": [
+        "Krinos Li, Xianglu Xiao, Shenglong Deng, Lucas He, Zijun Zhong, Yuanjie Zou, Zhonghao Zhan, Zheng Hui, Weiye Bao, Guang Yang"
+      ],
+      "abstract": "arXiv:2510.07706v1 Announce Type: new \nAbstract: Large language models (LLMs) are transforming cellular biology by enabling the development of \"virtual cells\"--computational systems that represent, predict, and reason about cellular states and behaviors. This work provides a comprehensive review of LLMs for virtual cell modeling. We propose a unified taxonomy that organizes existing methods into two paradigms: LLMs as Oracles, for direct cellular modeling, and LLMs as Agents, for orchestrating complex scientific tasks. We identify three core tasks--cellular representation, perturbation prediction, and gene regulation inference--and review their associated models, datasets, evaluation benchmarks, as well as the critical challenges in scalability, generalizability, and interpretability.",
+      "url": "https://arxiv.org/abs/2510.07706",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cellular",
+        "llms",
+        "models",
+        "virtual",
+        "cell",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "modeling"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey paper addresses a highly significant and timely intersection of LLMs and computational biology. The proposed taxonomy (LLMs as Oracles and Agents) provides a useful framework for understanding the current landscape, and the identification of core tasks is well-defined. While surveys are inherently less 'innovative' than novel method papers, this one appears to offer a valuable synthesis and organization of a rapidly evolving field, suggesting strong positive reception within the community.",
+      "paper_id": "b8271e0928b8a60a287507aac14aef23"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-10T09:29:10.906947"
 }

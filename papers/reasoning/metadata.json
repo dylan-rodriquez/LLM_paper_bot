@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "LLM4Cell: A Survey of Large Language and Agentic Models for Single-Cell Biology",
+      "authors": [
+        "Sajib Acharjee Dip, Adrika Zafor, Bikash Kumar Paul, Uddip Acharjee Shuvo, Muhit Islam Emon, Xuan Wang, Liqing Zhang"
+      ],
+      "abstract": "arXiv:2510.07793v1 Announce Type: new \nAbstract: Large language models (LLMs) and emerging agentic frameworks are beginning to transform single-cell biology by enabling natural-language reasoning, generative annotation, and multimodal data integration. However, progress remains fragmented across data modalities, architectures, and evaluation standards. LLM4Cell presents the first unified survey of 58 foundation and agentic models developed for single-cell research, spanning RNA, ATAC, multi-omic, and spatial modalities. We categorize these methods into five families-foundation, text-bridge, spatial, multimodal, epigenomic, and agentic-and map them to eight key analytical tasks including annotation, trajectory and perturbation modeling, and drug-response prediction. Drawing on over 40 public datasets, we analyze benchmark suitability, data diversity, and ethical or scalability constraints, and evaluate models across 10 domain dimensions covering biological grounding, multi-omics alignment, fairness, privacy, and explainability. By linking datasets, models, and evaluation domains, LLM4Cell provides the first integrated view of language-driven single-cell intelligence and outlines open challenges in interpretability, standardization, and trustworthy model development.",
+      "url": "https://arxiv.org/abs/2510.07793",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "agentic",
+        "cell",
+        "language",
+        "single",
+        "single cell",
+        "data",
+        "llm4cell",
+        "agentic models",
+        "annotation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving intersection of LLMs and single-cell biology. The comprehensive categorization of 58 models across diverse modalities and tasks, coupled with analysis of datasets and constraints, demonstrates strong methodological rigor. The potential to standardize evaluation and accelerate progress in this field is significant, suggesting a positive reception from the research community.",
+      "paper_id": "abe73b87b31d4184ae94ae194c996ef7"
+    },
+    {
+      "title": "ArenaBencher: Automatic Benchmark Evolution via Multi-Model Competitive Evaluation",
+      "authors": [
+        "Qin Liu, Jacob Dineen, Yuxi Huang, Sheng Zhang, Hoifung Poon, Ben Zhou, Muhao Chen"
+      ],
+      "abstract": "arXiv:2510.08569v1 Announce Type: new \nAbstract: Benchmarks are central to measuring the capabilities of large language models and guiding model development, yet widespread data leakage from pretraining corpora undermines their validity. Models can match memorized content rather than demonstrate true generalization, which inflates scores, distorts cross-model comparisons, and misrepresents progress. We introduce ArenaBencher, a model-agnostic framework for automatic benchmark evolution that updates test cases while preserving comparability. Given an existing benchmark and a diverse pool of models to be evaluated, ArenaBencher infers the core ability of each test case, generates candidate question-answer pairs that preserve the original objective, verifies correctness and intent with an LLM as a judge, and aggregates feedback from multiple models to select candidates that expose shared weaknesses. The process runs iteratively with in-context demonstrations that steer generation toward more challenging and diagnostic cases. We apply ArenaBencher to math problem solving, commonsense reasoning, and safety domains and show that it produces verified, diverse, and fair updates that uncover new failure modes, increase difficulty while preserving test objective alignment, and improve model separability. The framework provides a scalable path to continuously evolve benchmarks in step with the rapid progress of foundation models.",
+      "url": "https://arxiv.org/abs/2510.08569",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "models",
+        "arenabencher",
+        "benchmark",
+        "test",
+        "automatic",
+        "automatic benchmark",
+        "benchmark evolution",
+        "benchmarks",
+        "cases"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 benchmark contamination. The proposed ArenaBencher framework offers a novel and potentially effective solution by automatically evolving benchmarks to mitigate data leakage and improve generalization assessment. The use of LLMs as judges and the iterative refinement process demonstrate a thoughtful approach, and the model-agnostic nature is a significant strength.",
+      "paper_id": "38ab40fcedd91a705a38256e2988e9ca"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-10T09:29:10.908585"
 }
