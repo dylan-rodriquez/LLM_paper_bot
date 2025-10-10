@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Stress-Testing Model Specs Reveals Character Differences among Language Models",
+      "authors": [
+        "Jifan Zhang, Henry Sleight, Andi Peng, John Schulman, Esin Durmus"
+      ],
+      "abstract": "arXiv:2510.07686v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly trained from AI constitutions and model specifications that establish behavioral guidelines and ethical principles. However, these specifications face critical challenges, including internal conflicts between principles and insufficient coverage of nuanced scenarios. We present a systematic methodology for stress-testing model character specifications, automatically identifying numerous cases of principle contradictions and interpretive ambiguities in current model specs.\n  We stress test current model specs by generating scenarios that force explicit tradeoffs between competing value-based principles. Using a comprehensive taxonomy we generate diverse value tradeoff scenarios where models must choose between pairs of legitimate principles that cannot be simultaneously satisfied. We evaluate responses from twelve frontier LLMs across major providers (Anthropic, OpenAI, Google, xAI) and measure behavioral disagreement through value classification scores. Among these scenarios, we identify over 70,000 cases exhibiting significant behavioral divergence. Empirically, we show this high divergence in model behavior strongly predicts underlying problems in model specifications. Through qualitative analysis, we provide numerous example issues in current model specs such as direct contradiction and interpretive ambiguities of several principles. Additionally, our generated dataset also reveals both clear misalignment cases and false-positive refusals across all of the frontier models we study. Lastly, we also provide value prioritization patterns and differences of these models.",
+      "url": "https://arxiv.org/abs/2510.07686",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "model",
+        "models",
+        "principles",
+        "model specs",
+        "scenarios",
+        "specifications",
+        "specs",
+        "value",
+        "behavioral",
+        "cases"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial problem in LLM development \u2013 the inherent contradictions and ambiguities within model specifications. The systematic stress-testing methodology and comprehensive taxonomy appear robust, and evaluating responses from multiple leading LLMs adds significant weight. While the core idea of stress-testing isn't entirely novel, the focus on *specification* stress-testing and the scale of the evaluation are strong points, suggesting a high likelihood of positive reception within the AI safety and alignment community.",
+      "paper_id": "7a3fff5ef4b50829fe0fb16f953267f7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-10T09:29:10.906196"
 }

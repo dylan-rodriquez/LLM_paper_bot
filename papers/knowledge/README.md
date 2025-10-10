@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### The Unintended Trade-off of AI Alignment:Balancing Hallucination Mitigation and Safety in LLMs
+
+**Score:** 90.0 | **Published:** 2025-10-10 | **Authors:** Omar Mahmoud, Ali Khalil, Buddhika Laknath Semage, Thommen George Karimpanal, Santu Rana
+
+arXiv:2510.07775v1 Announce Type: new 
+Abstract: Hallucination in large language models (LLMs) has been widely studied in recent years, with progress in both detection and mitigation aimed at improvin...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07775) | [📝 Analysis](67eead17cbbc2c0ee05b49452d6c1c2f.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-10 09:29:10 UTC*

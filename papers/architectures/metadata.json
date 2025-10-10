@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Banking Done Right: Redefining Retail Banking with Language-Centric AI",
+      "authors": [
+        "Xin Jie Chua, Jeraelyn Ming Li Tan, Jia Xuan Tan, Soon Chang Poh, Yi Xian Goh, Debbie Hui Tian Choong, Chee Mun Foong, Sze Jue Yang, Chee Seng Chan"
+      ],
+      "abstract": "arXiv:2510.07645v1 Announce Type: new \nAbstract: This paper presents Ryt AI, an LLM-native agentic framework that powers Ryt Bank to enable customers to execute core financial transactions through natural language conversation. This represents the first global regulator-approved deployment worldwide where conversational AI functions as the primary banking interface, in contrast to prior assistants that have been limited to advisory or support roles. Built entirely in-house, Ryt AI is powered by ILMU, a closed-source LLM developed internally, and replaces rigid multi-screen workflows with a single dialogue orchestrated by four LLM-powered agents (Guardrails, Intent, Payment, and FAQ). Each agent attaches a task-specific LoRA adapter to ILMU, which is hosted within the bank's infrastructure to ensure consistent behavior with minimal overhead. Deterministic guardrails, human-in-the-loop confirmation, and a stateless audit architecture provide defense-in-depth for security and compliance. The result is Banking Done Right: demonstrating that regulator-approved natural-language interfaces can reliably support core financial operations under strict governance.",
+      "url": "https://arxiv.org/abs/2510.07645",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 90,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "banking",
+        "language",
+        "llm",
+        "ryt",
+        "approved",
+        "bank",
+        "banking right",
+        "core",
+        "core financial"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper describes a genuinely significant achievement \u2013 the first regulator-approved deployment of a conversational AI as a primary banking interface. The in-house development of ILMU and the agentic framework demonstrate a strong engineering effort, and the focus on security and compliance is crucial. While the details of ILMU are limited (closed-source), the architecture and use of LoRA adapters are well-described, suggesting a rigorous approach.",
+      "paper_id": "2e556a9d82f46a29b776200c1cebfe07"
+    },
+    {
+      "title": "Two-Stage Voting for Robust and Efficient Suicide Risk Detection on Social Media",
+      "authors": [
+        "Yukai Song, Pengfei Zhou, C\\'esar Escobar-Viera, Candice Biernesser, Wei Huang, Jingtong Hu"
+      ],
+      "abstract": "arXiv:2510.08365v1 Announce Type: new \nAbstract: Suicide rates have risen worldwide in recent years, underscoring the urgent need for proactive prevention strategies. Social media provides valuable signals, as many at-risk individuals - who often avoid formal help due to stigma - choose instead to share their distress online. Yet detecting implicit suicidal ideation, conveyed indirectly through metaphor, sarcasm, or subtle emotional cues, remains highly challenging. Lightweight models like BERT handle explicit signals but fail on subtle implicit ones, while large language models (LLMs) capture nuance at prohibitive computational cost. To address this gap, we propose a two-stage voting architecture that balances efficiency and robustness. In Stage 1, a lightweight BERT classifier rapidly resolves high-confidence explicit cases. In Stage 2, ambiguous inputs are escalated to either (i) a multi-perspective LLM voting framework to maximize recall on implicit ideation, or (ii) a feature-based ML ensemble guided by psychologically grounded indicators extracted via prompt-engineered LLMs for efficiency and interpretability. To the best of our knowledge, this is among the first works to operationalize LLM-extracted psychological features as structured vectors for suicide risk detection. On two complementary datasets - explicit-dominant Reddit and implicit-only DeepSuiMind - our framework outperforms single-model baselines, achieving 98.0% F1 on explicit cases, 99.7% on implicit ones, and reducing the cross-domain gap below 2%, while significantly lowering LLM cost.",
+      "url": "https://arxiv.org/abs/2510.08365",
+      "published_date": "2025-10-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 72,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "implicit",
+        "explicit",
+        "stage",
+        "llm",
+        "risk",
+        "suicide",
+        "voting",
+        "bert",
+        "cases",
+        "cost"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critically important problem \u2013 suicide risk detection \u2013 with a practical and well-motivated approach. The two-stage voting architecture, combining lightweight and large models, appears to be a sensible trade-off between efficiency and accuracy. While the core idea isn't entirely novel (ensemble methods are common), the specific application to this problem and the proposed voting framework show promise. The potential for real-world impact is high, given the increasing availability of social media data and the need for proactive intervention.",
+      "paper_id": "a341aaedf387f8d627e2ed87717e006a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-10T09:29:10.904921"
 }

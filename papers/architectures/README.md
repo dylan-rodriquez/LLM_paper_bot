@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Banking Done Right: Redefining Retail Banking with Language-Centric AI
+
+**Score:** 92.0 | **Published:** 2025-10-10 | **Authors:** Xin Jie Chua, Jeraelyn Ming Li Tan, Jia Xuan Tan, Soon Chang Poh, Yi Xian Goh, Debbie Hui Tian Choong, Chee Mun Foong, Sze Jue Yang, Chee Seng Chan
+
+arXiv:2510.07645v1 Announce Type: new 
+Abstract: This paper presents Ryt AI, an LLM-native agentic framework that powers Ryt Bank to enable customers to execute core financial transactions through nat...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07645) | [📝 Analysis](2e556a9d82f46a29b776200c1cebfe07.md)
+
+---
+
+### Two-Stage Voting for Robust and Efficient Suicide Risk Detection on Social Media
+
+**Score:** 92.0 | **Published:** 2025-10-10 | **Authors:** Yukai Song, Pengfei Zhou, C\'esar Escobar-Viera, Candice Biernesser, Wei Huang, Jingtong Hu
+
+arXiv:2510.08365v1 Announce Type: new 
+Abstract: Suicide rates have risen worldwide in recent years, underscoring the urgent need for proactive prevention strategies. Social media provides valuable si...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08365) | [📝 Analysis](a341aaedf387f8d627e2ed87717e006a.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-10 09:29:10 UTC*

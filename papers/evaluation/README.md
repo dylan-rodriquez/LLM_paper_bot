@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Large Language Models Meet Virtual Cell: A Survey
+
+**Score:** 92.0 | **Published:** 2025-10-10 | **Authors:** Krinos Li, Xianglu Xiao, Shenglong Deng, Lucas He, Zijun Zhong, Yuanjie Zou, Zhonghao Zhan, Zheng Hui, Weiye Bao, Guang Yang
+
+arXiv:2510.07706v1 Announce Type: new 
+Abstract: Large language models (LLMs) are transforming cellular biology by enabling the development of "virtual cells"--computational systems that represent, pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07706) | [📝 Analysis](b8271e0928b8a60a287507aac14aef23.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-10 09:29:10 UTC*

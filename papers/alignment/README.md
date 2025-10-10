@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Stress-Testing Model Specs Reveals Character Differences among Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-10 | **Authors:** Jifan Zhang, Henry Sleight, Andi Peng, John Schulman, Esin Durmus
+
+arXiv:2510.07686v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly trained from AI constitutions and model specifications that establish behavioral guidelines and ethical p...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07686) | [📝 Analysis](7a3fff5ef4b50829fe0fb16f953267f7.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-10 09:29:10 UTC*
