@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Human Texts Are Outliers: Detecting LLM-generated Texts via Out-of-distribution Detection
+
+**Score:** 92.0 | **Published:** 2025-10-13 | **Authors:** Cong Zeng, Shengkun Tang, Yuanzhou Chen, Zhiqiang Shen, Wenchao Yu, Xujiang Zhao, Haifeng Chen, Wei Cheng, Zhiqiang Xu
+
+arXiv:2510.08602v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) such as ChatGPT, DeepSeek, and Claude has significantly increased the presence of AI-generated te...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08602) | [📝 Analysis](64cee4cc7e8f15b2d4e2511c95adfc06.md)
+
+---
+
+### Scaling Laws for Code: A More Data-Hungry Regime
+
+**Score:** 90.0 | **Published:** 2025-10-13 | **Authors:** Xianzhen Luo, Wenzhen Zheng, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, YuanTao Fan, Wanxiang Che
+
+arXiv:2510.08702v1 Announce Type: new 
+Abstract: Code Large Language Models (LLMs) are revolutionizing software engineering. However, scaling laws that guide the efficient training are predominantly a...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08702) | [📝 Analysis](5fafb0f211bc5d307e3d45f8f63e212d.md)
+
+---
+
+### Pattern Enhanced Multi-Turn Jailbreaking: Exploiting Structural Vulnerabilities in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-13 | **Authors:** Ragib Amin Nihal, Rui Wen, Kazuhiro Nakadai, Jun Sakuma
+
+arXiv:2510.08859v1 Announce Type: new 
+Abstract: Large language models (LLMs) remain vulnerable to multi-turn jailbreaking attacks that exploit conversational context to bypass safety constraints grad...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08859) | [📝 Analysis](fd49f60bbc49b630769029c572cbc353.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-13 09:31:24 UTC*

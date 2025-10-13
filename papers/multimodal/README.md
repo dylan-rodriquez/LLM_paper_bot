@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MMA-ASIA: A Multilingual and Multimodal Alignment Framework for Culturally-Grounded Evaluation
+
+**Score:** 92.0 | **Published:** 2025-10-13 | **Authors:** Weihua Zheng, Zhengyuan Liu, Tanmoy Chakraborty, Weiwen Xu, Xiaoxue Gao, Bryan Chen Zhengyu Tan, Bowei Zou, Chang Liu, Yujia Hu, Xing Xie, Xiaoyuan Yi, Jing Yao, Chaojun Wang, Long Li, Rui Liu, Huiyao Liu, Koji Inoue, Ryuichi Sumida, Tatsuya Kawahara, Fan Xu, Lingyu Ye, Wei Tian, Dongjun Kim, Jimin Jung, Jaehyung Seo, Nadya Yuki Wangsajaya, Pham Minh Duc, Ojasva Saxena, Palash Nandi, Xiyan Tao, Wiwik Karlina, Tuan Luong, Keertana Arun Vasan, Roy Ka-Wei Lee, Nancy F. Chen
+
+arXiv:2510.08608v1 Announce Type: new 
+Abstract: Large language models (LLMs) are now used worldwide, yet their multimodal understanding and reasoning often degrade outside Western, high-resource sett...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08608) | [📝 Analysis](6d37c9550128c371f585ddb63da0b90a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-13 09:31:24 UTC*

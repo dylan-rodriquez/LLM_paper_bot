@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Decoupling Safety into Orthogonal Subspace: Cost-Efficient and Performance-Preserving Alignment for Large Language Models",
+      "authors": [
+        "Yutao Mou, Xiaoling Zhou, Yuxiao Luo, Shikun Zhang, Wei Ye"
+      ],
+      "abstract": "arXiv:2510.09004v1 Announce Type: new \nAbstract: Safety alignment is essential for building trustworthy artificial intelligence, yet it remains challenging to enhance model safety without degrading general performance. Current approaches require computationally expensive searches for the optimal proportion of safety-critical and general-purpose data to balance safety and general performance, incurring high costs with limited gains. In this work, we show that LoRA-based Refusal-training enables performance-preserving safety alignment even when trained solely on safety data, demonstrating that LoRA serves as cost-efficient, performance-preserving, and plug-and-play safety patches. Beyond empirical findings, we provide both theoretical and experimental evidence that LoRA effectively decouples safety into a low-rank subspace largely orthogonal to the model's intrinsic transformation space, ensuring that safety enhancements do not interfere with inherent capabilities.",
+      "url": "https://arxiv.org/abs/2510.09004",
+      "published_date": "2025-10-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "performance",
+        "alignment",
+        "general",
+        "lora",
+        "performance preserving",
+        "preserving",
+        "cost",
+        "cost efficient",
+        "data"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial problem in LLM development \u2013 safety alignment without performance degradation \u2013 and proposes a cost-effective solution using LoRA. The combination of empirical results *and* theoretical justification for why LoRA works in this context is strong. The claim of decoupling safety into an orthogonal subspace is particularly interesting and suggests a deeper understanding of how these models function, making it likely to be well-received by the community.",
+      "paper_id": "cc1fbcd525586f1b4cf3656de9eb5ffb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-13T09:31:24.947544"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Decoupling Safety into Orthogonal Subspace: Cost-Efficient and Performance-Preserving Alignment for Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-13 | **Authors:** Yutao Mou, Xiaoling Zhou, Yuxiao Luo, Shikun Zhang, Wei Ye
+
+arXiv:2510.09004v1 Announce Type: new 
+Abstract: Safety alignment is essential for building trustworthy artificial intelligence, yet it remains challenging to enhance model safety without degrading ge...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.09004) | [📝 Analysis](cc1fbcd525586f1b4cf3656de9eb5ffb.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-13 09:31:24 UTC*
