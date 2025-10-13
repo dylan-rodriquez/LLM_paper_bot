@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Human Texts Are Outliers: Detecting LLM-generated Texts via Out-of-distribution Detection",
+      "authors": [
+        "Cong Zeng, Shengkun Tang, Yuanzhou Chen, Zhiqiang Shen, Wenchao Yu, Xujiang Zhao, Haifeng Chen, Wei Cheng, Zhiqiang Xu"
+      ],
+      "abstract": "arXiv:2510.08602v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) such as ChatGPT, DeepSeek, and Claude has significantly increased the presence of AI-generated text in digital communication. This trend has heightened the need for reliable detection methods to distinguish between human-authored and machine-generated content. Existing approaches both zero-shot methods and supervised classifiers largely conceptualize this task as a binary classification problem, often leading to poor generalization across domains and models. In this paper, we argue that such a binary formulation fundamentally mischaracterizes the detection task by assuming a coherent representation of human-written texts. In reality, human texts do not constitute a unified distribution, and their diversity cannot be effectively captured through limited sampling. This causes previous classifiers to memorize observed OOD characteristics rather than learn the essence of `non-ID' behavior, limiting generalization to unseen human-authored inputs. Based on this observation, we propose reframing the detection task as an out-of-distribution (OOD) detection problem, treating human-written texts as distributional outliers while machine-generated texts are in-distribution (ID) samples. To this end, we develop a detection framework using one-class learning method including DeepSVDD and HRN, and score-based learning techniques such as energy-based method, enabling robust and generalizable performance. Extensive experiments across multiple datasets validate the effectiveness of our OOD-based approach. Specifically, the OOD-based method achieves 98.3% AUROC and AUPR with only 8.9% FPR95 on DeepFake dataset. Moreover, we test our detection framework on multilingual, attacked, and unseen-model and -domain text settings, demonstrating the robustness and generalizability of our framework. Code, pretrained weights, and demo will be released.",
+      "url": "https://arxiv.org/abs/2510.08602",
+      "published_date": "2025-10-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "detection",
+        "human",
+        "texts",
+        "based",
+        "distribution",
+        "generated",
+        "ood",
+        "framework",
+        "method",
+        "task"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper tackles a very important and timely problem \u2013 detecting LLM-generated text \u2013 and offers a compelling critique of existing binary classification approaches. The argument that human text isn't a single distribution is insightful and suggests a more nuanced approach is needed. While the abstract doesn't detail *how* they address this, the framing of the problem is strong, suggesting a potentially impactful contribution. The field is actively seeking better detection methods, so a well-executed solution would be highly valued.",
+      "paper_id": "64cee4cc7e8f15b2d4e2511c95adfc06"
+    },
+    {
+      "title": "Scaling Laws for Code: A More Data-Hungry Regime",
+      "authors": [
+        "Xianzhen Luo, Wenzhen Zheng, Qingfu Zhu, Rongyi Zhang, Houyi Li, Siming Huang, YuanTao Fan, Wanxiang Che"
+      ],
+      "abstract": "arXiv:2510.08702v1 Announce Type: new \nAbstract: Code Large Language Models (LLMs) are revolutionizing software engineering. However, scaling laws that guide the efficient training are predominantly analyzed on Natural Language (NL). Given the fundamental differences like strict syntax between code and NL, it is unclear whether these laws are directly applicable to code. To address this gap, we conduct the first large-scale empirical study of scaling laws for code, comprising 117 experimental runs with model sizes from 0.2B to 3.8B and training tokens from 2B to 128B. We fit the Chinchilla law and the Farsser law. First, the results show that the more expressive Farseer law offers greater accuracy. Second, the analysis reveals that Code LLMs scale effectively with model size. Crucially, code represents a more data-hungry regime, requiring a substantially higher data-to-parameter ratio than NL. Finally, two additional sets of experiments on code-NL mixtures show that NL benefits resource-constrained scenarios, but becomes a detriment at higher compute budgets.",
+      "url": "https://arxiv.org/abs/2510.08702",
+      "published_date": "2025-10-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "code",
+        "nl",
+        "laws",
+        "data",
+        "law",
+        "scaling",
+        "scaling laws",
+        "2b",
+        "code nl",
+        "data hungry"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial gap in understanding scaling laws for code LLMs, which are rapidly becoming essential tools. The large-scale empirical study with a significant number of runs and model sizes is commendable. The finding that code is more data-hungry than natural language is a key insight with practical implications for training these models, and the comparison of scaling laws (Chinchilla vs. Farseer) adds to the rigor. The positive mention of benefits from code-NL mixtures suggests further avenues for exploration.",
+      "paper_id": "5fafb0f211bc5d307e3d45f8f63e212d"
+    },
+    {
+      "title": "Pattern Enhanced Multi-Turn Jailbreaking: Exploiting Structural Vulnerabilities in Large Language Models",
+      "authors": [
+        "Ragib Amin Nihal, Rui Wen, Kazuhiro Nakadai, Jun Sakuma"
+      ],
+      "abstract": "arXiv:2510.08859v1 Announce Type: new \nAbstract: Large language models (LLMs) remain vulnerable to multi-turn jailbreaking attacks that exploit conversational context to bypass safety constraints gradually. These attacks target different harm categories (like malware generation, harassment, or fraud) through distinct conversational approaches (educational discussions, personal experiences, hypothetical scenarios). Existing multi-turn jailbreaking methods often rely on heuristic or ad hoc exploration strategies, providing limited insight into underlying model weaknesses. The relationship between conversation patterns and model vulnerabilities across harm categories remains poorly understood. We propose Pattern Enhanced Chain of Attack (PE-CoA), a framework of five conversation patterns to construct effective multi-turn jailbreaks through natural dialogue. Evaluating PE-CoA on twelve LLMs spanning ten harm categories, we achieve state-of-the-art performance, uncovering pattern-specific vulnerabilities and LLM behavioral characteristics: models exhibit distinct weakness profiles where robustness to one conversational pattern does not generalize to others, and model families share similar failure modes. These findings highlight limitations of safety training and indicate the need for pattern-aware defenses. Code available on: https://github.com/Ragib-Amin-Nihal/PE-CoA",
+      "url": "https://arxiv.org/abs/2510.08859",
+      "published_date": "2025-10-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "pattern",
+        "multi",
+        "multi turn",
+        "turn",
+        "categories",
+        "coa",
+        "conversational",
+        "harm",
+        "harm categories",
+        "jailbreaking"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and critical problem in LLM safety \u2013 multi-turn jailbreaking. The proposed PE-CoA framework, focusing on conversation patterns, appears to be a significant step beyond heuristic approaches, offering a more structured and insightful method for identifying vulnerabilities. Achieving state-of-the-art performance across multiple models and harm categories suggests a robust and well-executed study, likely to be well-received by the community.",
+      "paper_id": "fd49f60bbc49b630769029c572cbc353"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-13T09:31:24.944446"
 }
