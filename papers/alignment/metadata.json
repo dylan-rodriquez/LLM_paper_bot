@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "RefusalBench: Generative Evaluation of Selective Refusal in Grounded Language Models",
+      "authors": [
+        "Aashiq Muhamed, Leonardo F. R. Ribeiro, Markus Dreyer, Virginia Smith, Mona T. Diab"
+      ],
+      "abstract": "arXiv:2510.10390v1 Announce Type: new \nAbstract: The ability of language models in RAG systems to selectively refuse to answer based on flawed context is critical for safety, yet remains a significant failure point. Our large-scale study reveals that even frontier models struggle in this setting, with refusal accuracy dropping below 50% on multi-document tasks, while exhibiting either dangerous overconfidence or overcaution. Static benchmarks fail to reliably evaluate this capability, as models exploit dataset-specific artifacts and memorize test instances. We introduce RefusalBench, a generative methodology that programmatically creates diagnostic test cases through controlled linguistic perturbation. Our framework employs 176 distinct perturbation strategies across six categories of informational uncertainty and three intensity levels. Evaluation of over 30 models uncovers systematic failure patterns: refusal comprises separable detection and categorization skills, and neither scale nor extended reasoning improves performance. We find that selective refusal is a trainable, alignment-sensitive capability, offering a clear path for improvement. We release two benchmarks -- RefusalBench-NQ (single document) and RefusalBench-GaRAGe (multi-document) -- and our complete generation framework to enable continued, dynamic evaluation of this critical capability.",
+      "url": "https://arxiv.org/abs/2510.10390",
+      "published_date": "2025-10-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "refusal",
+        "refusalbench",
+        "capability",
+        "document",
+        "evaluation",
+        "benchmarks",
+        "critical",
+        "failure",
+        "framework"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial safety issue in RAG systems \u2013 the ability to refuse to answer based on flawed context \u2013 and demonstrates that current models struggle with it. The introduction of RefusalBench, a generative evaluation methodology, is a strong contribution, addressing the limitations of static benchmarks. The systematic analysis of failure patterns and the identification of separable skills (detection and categorization) suggest a clear path for future research and model improvement. The high sentiment score reflects the relevance of the problem and the innovative approach to evaluation.",
+      "paper_id": "305636d7fdc8fbb88d2dd22daf73f45c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-14T09:29:50.071518"
 }

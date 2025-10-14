@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### RefusalBench: Generative Evaluation of Selective Refusal in Grounded Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-14 | **Authors:** Aashiq Muhamed, Leonardo F. R. Ribeiro, Markus Dreyer, Virginia Smith, Mona T. Diab
+
+arXiv:2510.10390v1 Announce Type: new 
+Abstract: The ability of language models in RAG systems to selectively refuse to answer based on flawed context is critical for safety, yet remains a significant...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.10390) | [📝 Analysis](305636d7fdc8fbb88d2dd22daf73f45c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-14 09:29:50 UTC*

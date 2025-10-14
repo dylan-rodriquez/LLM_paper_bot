@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 6
+- **Average Significance Score:** 91.7/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,34 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Agents (1 new papers)
+- **Unifying Tree Search Algorithm and Reward Design for LLM Reasoning: A Survey** (Score: 92.0)
+  - This survey paper addresses a highly relevant and rapidly evolving area in LLM research – the intersection of tree search and reward design. The proposed unified framework for deconstructing search algorithms into core components (Search Mechanism, Reward Formulation, and Transition Function) is a valuable contribution, offering a much-needed structure to a fragmented field. The clear distinction between 'Search Guidance' and 'Parametric Reward' is particularly insightful and likely to resonate with researchers.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Reasoning (2 new papers)
+- **Review of Inference-Time Scaling Strategies: Reasoning, Search and RAG** (Score: 92.0)
+  - This paper addresses a highly significant and timely problem – the limitations of scaling LLMs through data alone and the emerging importance of inference-time scaling. The systematic categorization of techniques into 'Output-focused' and 'Input-focused' provides a valuable framework for understanding the field. While the abstract doesn't detail novel *methods*, the comprehensive review itself is a significant contribution, and the topic is very aligned with current research trends. The high sentiment score reflects the community's interest in this area.
+- **Path Drift in Large Reasoning Models:How First-Person Commitments Override Safety** (Score: 90.0)
+  - This paper addresses a critical vulnerability in LLMs – the 'Path Drift' phenomenon – which is highly relevant given the increasing reliance on Long-CoT reasoning. The identification of specific triggers (first-person commitments, ethical evaporation, condition chain escalation) and the proposed induction framework demonstrate a solid methodological approach. While the concept of LLMs circumventing safety measures isn't entirely new, framing it as 'Path Drift' and detailing these specific triggers offers a valuable and nuanced contribution. The potential for mitigating this drift is significant for responsible AI development.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Applications (1 new papers)
+- **MedAgentAudit: Diagnosing and Quantifying Collaborative Failure Modes in Medical Multi-Agent Systems** (Score: 92.0)
+  - This paper tackles a crucial problem in the rapidly developing field of LLM-based medical multi-agent systems: the lack of transparency and verifiability in their reasoning. The mixed-methods approach and development of a taxonomy of failure modes are strong methodological contributions. The focus on *how* conclusions are reached, rather than just the conclusions themselves, is particularly important for high-stakes applications like medicine, and the large-scale empirical study adds weight to the findings.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Alignment (1 new papers)
+- **RefusalBench: Generative Evaluation of Selective Refusal in Grounded Language Models** (Score: 92.0)
+  - This paper tackles a crucial safety issue in RAG systems – the ability to refuse to answer based on flawed context – and demonstrates that current models struggle with it. The introduction of RefusalBench, a generative evaluation methodology, is a strong contribution, addressing the limitations of static benchmarks. The systematic analysis of failure patterns and the identification of separable skills (detection and categorization) suggest a clear path for future research and model improvement. The high sentiment score reflects the relevance of the problem and the innovative approach to evaluation.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Evaluation (1 new papers)
+- **Detecting Hallucinations in Authentic LLM-Human Interactions** (Score: 92.0)
+  - This paper addresses a crucial problem in LLM deployment – hallucination – by focusing on *authentic* human-LLM interactions, a significant improvement over existing artificially constructed benchmarks. The 31.4% hallucination rate reported is a compelling statistic, highlighting the real-world prevalence of the issue. While the core idea isn't entirely novel (hallucination detection is a hot topic), the creation of a benchmark based on real interactions is a valuable contribution. The work is likely to be well-received by the community.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Agents** (1), **Reasoning** (2), **Applications** (1), **Alignment** (1), **Evaluation** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "MedAgentAudit: Diagnosing and Quantifying Collaborative Failure Modes in Medical Multi-Agent Systems",
+      "authors": [
+        "Lei Gu, Yinghao Zhu, Haoran Sang, Zixiang Wang, Dehao Sui, Wen Tang, Ewen Harrison, Junyi Gao, Lequan Yu, Liantao Ma"
+      ],
+      "abstract": "arXiv:2510.10185v1 Announce Type: new \nAbstract: While large language model (LLM)-based multi-agent systems show promise in simulating medical consultations, their evaluation is often confined to final-answer accuracy. This practice treats their internal collaborative processes as opaque \"black boxes\" and overlooks a critical question: is a diagnostic conclusion reached through a sound and verifiable reasoning pathway? The inscrutable nature of these systems poses a significant risk in high-stakes medical applications, potentially leading to flawed or untrustworthy conclusions. To address this, we conduct a large-scale empirical study of 3,600 cases from six medical datasets and six representative multi-agent frameworks. Through a rigorous, mixed-methods approach combining qualitative analysis with quantitative auditing, we develop a comprehensive taxonomy of collaborative failure modes. Our quantitative audit reveals four dominant failure patterns: flawed consensus driven by shared model deficiencies, suppression of correct minority opinions, ineffective discussion dynamics, and critical information loss during synthesis. This study demonstrates that high accuracy alone is an insufficient measure of clinical or public trust. It highlights the urgent need for transparent and auditable reasoning processes, a cornerstone for the responsible development and deployment of medical AI.",
+      "url": "https://arxiv.org/abs/2510.10185",
+      "published_date": "2025-10-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "medical",
+        "agent",
+        "collaborative",
+        "failure",
+        "multi",
+        "multi agent",
+        "systems",
+        "accuracy",
+        "agent systems",
+        "collaborative failure"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a crucial problem in the rapidly developing field of LLM-based medical multi-agent systems: the lack of transparency and verifiability in their reasoning. The mixed-methods approach and development of a taxonomy of failure modes are strong methodological contributions. The focus on *how* conclusions are reached, rather than just the conclusions themselves, is particularly important for high-stakes applications like medicine, and the large-scale empirical study adds weight to the findings.",
+      "paper_id": "f132f675961ee2ab85a6e6b8f37cbfe7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-10-14T09:29:50.070601"
 }
