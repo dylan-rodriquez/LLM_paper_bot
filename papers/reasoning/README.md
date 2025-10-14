@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Review of Inference-Time Scaling Strategies: Reasoning, Search and RAG
+
+**Score:** 92.0 | **Published:** 2025-10-14 | **Authors:** Zhichao Wang, Cheng Wan, Dong Nie
+
+arXiv:2510.10787v1 Announce Type: new 
+Abstract: The performance gains of LLMs have historically been driven by scaling up model size and training data. However, the rapidly diminishing availability o...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.10787) | [📝 Analysis](4c0d28664ae362839f300d3f09727688.md)
+
+---
+
+### Path Drift in Large Reasoning Models:How First-Person Commitments Override Safety
+
+**Score:** 90.0 | **Published:** 2025-10-14 | **Authors:** Yuyi Huang, Runzhe Zhan, Lidia S. Chao, Ailin Tao, Derek F. Wong
+
+arXiv:2510.10013v1 Announce Type: new 
+Abstract: As large language models (LLMs) are increasingly deployed for complex reasoning tasks, Long Chain-of-Thought (Long-CoT) prompting has emerged as a key ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.10013) | [📝 Analysis](0b3e3aa738409afc72f20e0ae1edd957.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-14 09:29:50 UTC*

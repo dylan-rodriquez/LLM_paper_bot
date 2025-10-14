@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MedAgentAudit: Diagnosing and Quantifying Collaborative Failure Modes in Medical Multi-Agent Systems
+
+**Score:** 92.0 | **Published:** 2025-10-14 | **Authors:** Lei Gu, Yinghao Zhu, Haoran Sang, Zixiang Wang, Dehao Sui, Wen Tang, Ewen Harrison, Junyi Gao, Lequan Yu, Liantao Ma
+
+arXiv:2510.10185v1 Announce Type: new 
+Abstract: While large language model (LLM)-based multi-agent systems show promise in simulating medical consultations, their evaluation is often confined to fina...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.10185) | [📝 Analysis](f132f675961ee2ab85a6e6b8f37cbfe7.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-14 09:29:50 UTC*

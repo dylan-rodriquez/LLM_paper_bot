@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Review of Inference-Time Scaling Strategies: Reasoning, Search and RAG",
+      "authors": [
+        "Zhichao Wang, Cheng Wan, Dong Nie"
+      ],
+      "abstract": "arXiv:2510.10787v1 Announce Type: new \nAbstract: The performance gains of LLMs have historically been driven by scaling up model size and training data. However, the rapidly diminishing availability of high-quality training data is introducing a fundamental bottleneck, shifting the focus of research toward inference-time scaling. This paradigm uses additional computation at the time of deployment to substantially improve LLM performance on downstream tasks without costly model re-training. This review systematically surveys the diverse techniques contributing to this new era of inference-time scaling, organizing the rapidly evolving field into two comprehensive perspectives: Output-focused and Input-focused methods. Output-focused techniques encompass complex, multi-step generation strategies, including reasoning (e.g., CoT, ToT, ReAct), various search and decoding methods (e.g., MCTS, beam search), training for long CoT (e.g., RLVR, GRPO), and model ensemble methods. Input-focused techniques are primarily categorized by few-shot and RAG, with RAG as the central focus. The RAG section is further detailed through a structured examination of query expansion, data, retrieval and reranker, LLM generation methods, and multi-modal RAG.",
+      "url": "https://arxiv.org/abs/2510.10787",
+      "published_date": "2025-10-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "rag",
+        "focused",
+        "methods",
+        "scaling",
+        "time",
+        "training",
+        "data",
+        "inference",
+        "inference time",
+        "model"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the limitations of scaling LLMs through data alone and the emerging importance of inference-time scaling. The systematic categorization of techniques into 'Output-focused' and 'Input-focused' provides a valuable framework for understanding the field. While the abstract doesn't detail novel *methods*, the comprehensive review itself is a significant contribution, and the topic is very aligned with current research trends. The high sentiment score reflects the community's interest in this area.",
+      "paper_id": "4c0d28664ae362839f300d3f09727688"
+    },
+    {
+      "title": "Path Drift in Large Reasoning Models:How First-Person Commitments Override Safety",
+      "authors": [
+        "Yuyi Huang, Runzhe Zhan, Lidia S. Chao, Ailin Tao, Derek F. Wong"
+      ],
+      "abstract": "arXiv:2510.10013v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly deployed for complex reasoning tasks, Long Chain-of-Thought (Long-CoT) prompting has emerged as a key paradigm for structured inference. Despite early-stage safeguards enabled by alignment techniques such as RLHF, we identify a previously underexplored vulnerability: reasoning trajectories in Long-CoT models can drift from aligned paths, resulting in content that violates safety constraints. We term this phenomenon Path Drift. Through empirical analysis, we uncover three behavioral triggers of Path Drift: (1) first-person commitments that induce goal-driven reasoning that delays refusal signals; (2) ethical evaporation, where surface-level disclaimers bypass alignment checkpoints; (3) condition chain escalation, where layered cues progressively steer models toward unsafe completions. Building on these insights, we introduce a three-stage Path Drift Induction Framework comprising cognitive load amplification, self-role priming, and condition chain hijacking. Each stage independently reduces refusal rates, while their combination further compounds the effect. To mitigate these risks, we propose a path-level defense strategy incorporating role attribution correction and metacognitive reflection (reflective safety cues). Our findings highlight the need for trajectory-level alignment oversight in long-form reasoning beyond token-level alignment.",
+      "url": "https://arxiv.org/abs/2510.10013",
+      "published_date": "2025-10-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "drift",
+        "path",
+        "reasoning",
+        "alignment",
+        "level",
+        "long",
+        "models",
+        "path drift",
+        "chain",
+        "safety"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 the 'Path Drift' phenomenon \u2013 which is highly relevant given the increasing reliance on Long-CoT reasoning. The identification of specific triggers (first-person commitments, ethical evaporation, condition chain escalation) and the proposed induction framework demonstrate a solid methodological approach. While the concept of LLMs circumventing safety measures isn't entirely new, framing it as 'Path Drift' and detailing these specific triggers offers a valuable and nuanced contribution. The potential for mitigating this drift is significant for responsible AI development.",
+      "paper_id": "0b3e3aa738409afc72f20e0ae1edd957"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-14T09:29:50.069548"
 }

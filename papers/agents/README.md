@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Unifying Tree Search Algorithm and Reward Design for LLM Reasoning: A Survey
+
+**Score:** 92.0 | **Published:** 2025-10-14 | **Authors:** Jiaqi Wei, Xiang Zhang, Yuejin Yang, Wenxuan Huang, Juntai Cao, Sheng Xu, Xiang Zhuang, Zhangyang Gao, Muhammad Abdul-Mageed, Laks V. S. Lakshmanan, Chenyu You, Wanli Ouyang, Siqi Sun
+
+arXiv:2510.09988v1 Announce Type: new 
+Abstract: Deliberative tree search is a cornerstone of modern Large Language Model (LLM) research, driving the pivot from brute-force scaling toward algorithmic ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.09988) | [📝 Analysis](b913fbf8583042427d9497d2ed656b13.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-14 09:29:50 UTC*

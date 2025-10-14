@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Detecting Hallucinations in Authentic LLM-Human Interactions",
+      "authors": [
+        "Yujie Ren, Niklas Gruhlke, Anne Lauscher"
+      ],
+      "abstract": "arXiv:2510.10539v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly applied in sensitive domains such as medicine and law, hallucination detection has become a critical task. Although numerous benchmarks have been proposed to advance research in this area, most of them are artificially constructed--either through deliberate hallucination induction or simulated interactions--rather than derived from genuine LLM-human dialogues. Consequently, these benchmarks fail to fully capture the characteristics of hallucinations that occur in real-world usage. To address this limitation, we introduce AuthenHallu, the first hallucination detection benchmark built entirely from authentic LLM-human interactions. For AuthenHallu, we select and annotate samples from genuine LLM-human dialogues, thereby providing a faithful reflection of how LLMs hallucinate in everyday user interactions. Statistical analysis shows that hallucinations occur in 31.4% of the query-response pairs in our benchmark, and this proportion increases dramatically to 60.0% in challenging domains such as Math & Number Problems. Furthermore, we explore the potential of using vanilla LLMs themselves as hallucination detectors and find that, despite some promise, their current performance remains insufficient in real-world scenarios.",
+      "url": "https://arxiv.org/abs/2510.10539",
+      "published_date": "2025-10-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucination",
+        "human",
+        "interactions",
+        "llm",
+        "llm human",
+        "hallucinations",
+        "llms",
+        "authenhallu",
+        "authentic",
+        "authentic llm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM deployment \u2013 hallucination \u2013 by focusing on *authentic* human-LLM interactions, a significant improvement over existing artificially constructed benchmarks. The 31.4% hallucination rate reported is a compelling statistic, highlighting the real-world prevalence of the issue. While the core idea isn't entirely novel (hallucination detection is a hot topic), the creation of a benchmark based on real interactions is a valuable contribution. The work is likely to be well-received by the community.",
+      "paper_id": "c156ac11cbb0c4e51edc15c0522c3efb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-14T09:29:50.072289"
 }

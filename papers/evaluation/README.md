@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Detecting Hallucinations in Authentic LLM-Human Interactions
+
+**Score:** 92.0 | **Published:** 2025-10-14 | **Authors:** Yujie Ren, Niklas Gruhlke, Anne Lauscher
+
+arXiv:2510.10539v1 Announce Type: new 
+Abstract: As large language models (LLMs) are increasingly applied in sensitive domains such as medicine and law, hallucination detection has become a critical t...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.10539) | [📝 Analysis](c156ac11cbb0c4e51edc15c0522c3efb.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-14 09:29:50 UTC*
