@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Credal Transformer: A Principled Approach for Quantifying and Mitigating Hallucinations in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-15 | **Authors:** Shihao Ji, Zihui Song, Jiajie Huang
+
+arXiv:2510.12137v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) hallucinate, generating factually incorrect yet confident assertions. We argue this stems from the Transformer's Softmax f...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12137) | [📝 Analysis](88097866d5084121c4fcde7d4a8cc8e1.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-15 09:29:15 UTC*

@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Shallow Robustness, Deep Vulnerabilities: Multi-Turn Evaluation of Medical LLMs",
+      "authors": [
+        "Blazej Manczak, Eric Lin, Francisco Eiras, James O' Neill, Vaikkunth Mugunthan"
+      ],
+      "abstract": "arXiv:2510.12255v1 Announce Type: new \nAbstract: Large language models (LLMs) are rapidly transitioning into medical clinical use, yet their reliability under realistic, multi-turn interactions remains poorly understood. Existing evaluation frameworks typically assess single-turn question answering under idealized conditions, overlooking the complexities of medical consultations where conflicting input, misleading context, and authority influence are common. We introduce MedQA-Followup, a framework for systematically evaluating multi-turn robustness in medical question answering. Our approach distinguishes between shallow robustness (resisting misleading initial context) and deep robustness (maintaining accuracy when answers are challenged across turns), while also introducing an indirect-direct axis that separates contextual framing (indirect) from explicit suggestion (direct). Using controlled interventions on the MedQA dataset, we evaluate five state-of-the-art LLMs and find that while models perform reasonably well under shallow perturbations, they exhibit severe vulnerabilities in multi-turn settings, with accuracy dropping from 91.2% to as low as 13.5% for Claude Sonnet 4. Counterintuitively, indirect, context-based interventions are often more harmful than direct suggestions, yielding larger accuracy drops across models and exposing a significant vulnerability for clinical deployment. Further compounding analyses reveal model differences, with some showing additional performance drops under repeated interventions while others partially recovering or even improving. These findings highlight multi-turn robustness as a critical but underexplored dimension for safe and reliable deployment of medical LLMs.",
+      "url": "https://arxiv.org/abs/2510.12255",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "turn",
+        "medical",
+        "multi",
+        "multi turn",
+        "robustness",
+        "llms",
+        "accuracy",
+        "context",
+        "direct",
+        "indirect"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation for medical applications \u2013 the lack of realistic, multi-turn assessment. The introduction of MedQA-Followup and the distinction between shallow and deep robustness, along with the indirect-direct axis, provide a nuanced framework for understanding LLM vulnerabilities. The focus on clinical consultation complexities makes this work highly relevant and likely to be well-received by the community.",
+      "paper_id": "23290db26ec2a1275486e2fab4246281"
+    },
+    {
+      "title": "Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and Efficiency",
+      "authors": [
+        "Hailay Kidu Teklehaymanot, Wolfgang Nejdl"
+      ],
+      "abstract": "arXiv:2510.12389v1 Announce Type: new \nAbstract: Tokenization disparities pose a significant barrier to achieving equitable access to artificial intelligence across linguistically diverse populations. This study conducts a large-scale cross-linguistic evaluation of tokenization efficiency in over 200 languages to systematically quantify computational inequities in large language models (LLMs). Using a standardized experimental framework, we applied consistent preprocessing and normalization protocols, followed by uniform tokenization through the tiktoken library across all language samples. Comprehensive tokenization statistics were collected using established evaluation metrics, including Tokens Per Sentence (TPS) and Relative Tokenization Cost (RTC), benchmarked against English baselines. Our cross-linguistic analysis reveals substantial and systematic disparities: Latin-script languages consistently exhibit higher tokenization efficiency, while non-Latin and morphologically complex languages incur significantly greater token inflation, often 3-5 times higher RTC ratios. These inefficiencies translate into increased computational costs and reduced effective context utilization for underrepresented languages. Overall, the findings highlight structural inequities in current AI systems, where speakers of low-resource and non-Latin languages face disproportionate computational disadvantages. Future research should prioritize the development of linguistically informed tokenization strategies and adaptive vocabulary construction methods that incorporate typological diversity, ensuring more inclusive and computationally equitable multilingual AI systems.",
+      "url": "https://arxiv.org/abs/2510.12389",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tokenization",
+        "languages",
+        "computational",
+        "disparities",
+        "efficiency",
+        "inequities",
+        "latin",
+        "systems",
+        "access",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial and timely issue \u2013 the inherent biases in LLM access due to tokenization disparities. The large-scale, cross-linguistic evaluation using a standardized framework demonstrates rigor and provides valuable quantitative evidence. While the methodology (using `tiktoken`) is sound, it's not radically new, but the breadth of the study and the focus on equitable access are highly significant. The findings have clear implications for improving LLM accessibility and fairness.",
+      "paper_id": "8a81d1c5f1e5f386cf0a343e06175bf5"
+    },
+    {
+      "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+      "authors": [
+        "Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Botao Yu, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan"
+      ],
+      "abstract": "arXiv:2510.11977v1 Announce Type: cross \nAbstract: AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboard (HAL) to address these challenges. We make three main contributions. First, we provide a standardized evaluation harness that orchestrates parallel evaluations across hundreds of VMs, reducing evaluation time from weeks to hours while eliminating common implementation bugs. Second, we conduct three-dimensional analysis spanning models, scaffolds, and benchmarks. We validate the harness by conducting 21,730 agent rollouts across 9 models and 9 benchmarks in coding, web navigation, science, and customer service with a total cost of about $40,000. Our analysis reveals surprising insights, such as higher reasoning effort reducing accuracy in the majority of runs. Third, we use LLM-aided log inspection to uncover previously unreported behaviors, such as searching for the benchmark on HuggingFace instead of solving a task, or misusing credit cards in flight booking tasks. We share all agent logs, comprising 2.5B tokens of language model calls, to incentivize further research into agent behavior. By standardizing how the field evaluates agents and addressing common pitfalls in agent evaluation, we hope to shift the focus from agents that ace benchmarks to agents that work reliably in the real world.",
+      "url": "https://arxiv.org/abs/2510.11977",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "agents",
+        "evaluation",
+        "ai",
+        "benchmarks",
+        "agent evaluation",
+        "agent leaderboard",
+        "ai agent",
+        "analysis",
+        "challenges"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in AI agent development \u2013 robust and scalable evaluation. The creation of a standardized evaluation harness and the large-scale analysis (21,730 rollouts) are strong methodological contributions. The surprising insight about reasoning effort and accuracy is particularly compelling, suggesting a need to re-evaluate current agent design principles. The work is well-aligned with current trends in AI agent research and is likely to be well-received.",
+      "paper_id": "a66425a02aabf1b73a4b3223d3d70d54"
+    },
+    {
+      "title": "HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities",
+      "authors": [
+        "Xiaoxue Ren, Penghao Jiang, Kaixin Li, Zhiyong Huang, Xiaoning Du, Jiaojiao Jiang, Zhenchang Xing, Jiamou Sun, Terry Yue Zhuo"
+      ],
+      "abstract": "arXiv:2510.12200v1 Announce Type: cross \nAbstract: Web applications are prime targets for cyberattacks as gateways to critical services and sensitive data. Traditional penetration testing is costly and expertise-intensive, making it difficult to scale with the growing web ecosystem. While language model agents show promise in cybersecurity, modern web applications demand visual understanding, dynamic content handling, and multi-step interactions that only computer-use agents (CUAs) can perform. Yet, their ability to discover and exploit vulnerabilities through graphical interfaces remains largely unexplored. We present HackWorld, the first framework for systematically evaluating CUAs' capabilities to exploit web application vulnerabilities via visual interaction. Unlike sanitized benchmarks, HackWorld includes 36 real-world applications across 11 frameworks and 7 languages, featuring realistic flaws such as injection vulnerabilities, authentication bypasses, and unsafe input handling. Using a Capture-the-Flag (CTF) setup, it tests CUAs' capacity to identify and exploit these weaknesses while navigating complex web interfaces. Evaluation of state-of-the-art CUAs reveals concerning trends: exploitation rates below 12% and low cybersecurity awareness. CUAs often fail at multi-step attack planning and misuse security tools. These results expose the current limitations of CUAs in web security contexts and highlight opportunities for developing more security-aware agents capable of effective vulnerability detection and exploitation.",
+      "url": "https://arxiv.org/abs/2510.12200",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "web",
+        "cuas",
+        "agents",
+        "vulnerabilities",
+        "applications",
+        "exploit",
+        "hackworld",
+        "security",
+        "application",
+        "application vulnerabilities"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and challenging problem in cybersecurity \u2013 automating web application penetration testing. The creation of HackWorld, a framework using *real-world* applications, is a significant step beyond sanitized benchmarks. While CUAs are a relatively new area, this work provides a crucial evaluation platform and demonstrates their potential, suggesting strong positive reception within the cybersecurity and AI communities.",
+      "paper_id": "2c97619fcde3f7fbd83c56c6aa708bb3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-15T09:29:15.174154"
 }
