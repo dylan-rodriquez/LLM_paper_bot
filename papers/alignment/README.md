@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### An AI-Based Behavioral Health Safety Filter and Dataset for Identifying Mental Health Crises in Text-Based Conversations
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Benjamin W. Nelson, Celeste Wong, Matthew T. Silvestrini, Sooyoon Shin, Alanna Robinson, Jessica Lee, Eric Yang, John Torous, Andrew Trister
+
+arXiv:2510.12083v1 Announce Type: new 
+Abstract: Large language models often mishandle psychiatric emergencies, offering harmful or inappropriate advice and enabling destructive behaviors. This study ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12083) | [📝 Analysis](16b295c7ef7ebf16df14151c5b92d0dc.md)
+
+---
+
+### Deep Research Brings Deeper Harm
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Shuo Chen, Zonggen Li, Zhen Han, Bailan He, Tong Liu, Haokun Chen, Georg Groh, Philip Torr, Volker Tresp, Jindong Gu
+
+arXiv:2510.11851v1 Announce Type: cross 
+Abstract: Deep Research (DR) agents built on Large Language Models (LLMs) can perform complex, multi-step research by decomposing tasks, retrieving online info...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.11851) | [📝 Analysis](e1a4ddf5a15507a659168ee870c29001.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-15 09:29:15 UTC*

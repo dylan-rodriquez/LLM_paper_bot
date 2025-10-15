@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "An AI-Based Behavioral Health Safety Filter and Dataset for Identifying Mental Health Crises in Text-Based Conversations",
+      "authors": [
+        "Benjamin W. Nelson, Celeste Wong, Matthew T. Silvestrini, Sooyoon Shin, Alanna Robinson, Jessica Lee, Eric Yang, John Torous, Andrew Trister"
+      ],
+      "abstract": "arXiv:2510.12083v1 Announce Type: new \nAbstract: Large language models often mishandle psychiatric emergencies, offering harmful or inappropriate advice and enabling destructive behaviors. This study evaluated the Verily behavioral health safety filter (VBHSF) on two datasets: the Verily Mental Health Crisis Dataset containing 1,800 simulated messages and the NVIDIA Aegis AI Content Safety Dataset subsetted to 794 mental health-related messages. The two datasets were clinician-labelled and we evaluated performance using the clinician labels. Additionally, we carried out comparative performance analyses against two open source, content moderation guardrails: OpenAI Omni Moderation Latest and NVIDIA NeMo Guardrails. The VBHSF demonstrated, well-balanced performance on the Verily Mental Health Crisis Dataset v1.0, achieving high sensitivity (0.990) and specificity (0.992) in detecting any mental health crises. It achieved an F1-score of 0.939, sensitivity ranged from 0.917-0.992, and specificity was >= 0.978 in identifying specific crisis categories. When evaluated against the NVIDIA Aegis AI Content Safety Dataset 2.0, VBHSF performance remained highly sensitive (0.982) and accuracy (0.921) with reduced specificity (0.859). When compared with the NVIDIA NeMo and OpenAI Omni Moderation Latest guardrails, the VBHSF demonstrated superior performance metrics across both datasets, achieving significantly higher sensitivity in all cases (all p < 0.001) and higher specificity relative to NVIDIA NeMo (p < 0.001), but not to OpenAI Omni Moderation Latest (p = 0.094). NVIDIA NeMo and OpenAI Omni Moderation Latest exhibited inconsistent performance across specific crisis types, with sensitivity for some categories falling below 0.10. Overall, the VBHSF demonstrated robust, generalizable performance that prioritizes sensitivity to minimize missed crises, a crucial feature for healthcare applications.",
+      "url": "https://arxiv.org/abs/2510.12083",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "health",
+        "performance",
+        "nvidia",
+        "dataset",
+        "mental",
+        "mental health",
+        "moderation",
+        "sensitivity",
+        "vbhsf",
+        "crisis"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical safety concern with LLMs \u2013 their potential to mishandle mental health crises. The high sensitivity and specificity reported for the VBHSF are promising, and the comparative analysis against open-source alternatives adds value. While the methodology appears sound based on the abstract, the innovation seems incremental rather than groundbreaking, focusing on performance evaluation and comparison rather than novel algorithmic development. The potential for real-world impact is substantial, given the increasing use of LLMs in conversational AI.",
+      "paper_id": "16b295c7ef7ebf16df14151c5b92d0dc"
+    },
+    {
+      "title": "Deep Research Brings Deeper Harm",
+      "authors": [
+        "Shuo Chen, Zonggen Li, Zhen Han, Bailan He, Tong Liu, Haokun Chen, Georg Groh, Philip Torr, Volker Tresp, Jindong Gu"
+      ],
+      "abstract": "arXiv:2510.11851v1 Announce Type: cross \nAbstract: Deep Research (DR) agents built on Large Language Models (LLMs) can perform complex, multi-step research by decomposing tasks, retrieving online information, and synthesizing detailed reports. However, the misuse of LLMs with such powerful capabilities can lead to even greater risks. This is especially concerning in high-stakes and knowledge-intensive domains such as biosecurity, where DR can generate a professional report containing detailed forbidden knowledge. Unfortunately, we have found such risks in practice: simply submitting a harmful query, which a standalone LLM directly rejects, can elicit a detailed and dangerous report from DR agents. This highlights the elevated risks and underscores the need for a deeper safety analysis. Yet, jailbreak methods designed for LLMs fall short in exposing such unique risks, as they do not target the research ability of DR agents. To address this gap, we propose two novel jailbreak strategies: Plan Injection, which injects malicious sub-goals into the agent's plan; and Intent Hijack, which reframes harmful queries as academic research questions. We conducted extensive experiments across different LLMs and various safety benchmarks, including general and biosecurity forbidden prompts. These experiments reveal 3 key findings: (1) Alignment of the LLMs often fail in DR agents, where harmful prompts framed in academic terms can hijack agent intent; (2) Multi-step planning and execution weaken the alignment, revealing systemic vulnerabilities that prompt-level safeguards cannot address; (3) DR agents not only bypass refusals but also produce more coherent, professional, and dangerous content, compared with standalone LLMs. These results demonstrate a fundamental misalignment in DR agents and call for better alignment techniques tailored to DR agents. Code and datasets are available at https://chenxshuo.github.io/deeper-harm.",
+      "url": "https://arxiv.org/abs/2510.11851",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "dr",
+        "agents",
+        "dr agents",
+        "llms",
+        "research",
+        "risks",
+        "alignment",
+        "deeper",
+        "detailed",
+        "harmful"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critically important and timely problem \u2013 the increased risk of harmful knowledge generation by powerful Deep Research agents. The finding that standard LLM safety mechanisms are bypassed by the research capabilities of these agents is significant. While the abstract only *mentions* novel jailbreak strategies, the identification of this vulnerability and the need for new safety approaches are strong contributions, suggesting a rigorous investigation.",
+      "paper_id": "e1a4ddf5a15507a659168ee870c29001"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-15T09:29:15.170712"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Shallow Robustness, Deep Vulnerabilities: Multi-Turn Evaluation of Medical LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Blazej Manczak, Eric Lin, Francisco Eiras, James O' Neill, Vaikkunth Mugunthan
+
+arXiv:2510.12255v1 Announce Type: new 
+Abstract: Large language models (LLMs) are rapidly transitioning into medical clinical use, yet their reliability under realistic, multi-turn interactions remain...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12255) | [📝 Analysis](23290db26ec2a1275486e2fab4246281.md)
+
+---
+
+### Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and Efficiency
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Hailay Kidu Teklehaymanot, Wolfgang Nejdl
+
+arXiv:2510.12389v1 Announce Type: new 
+Abstract: Tokenization disparities pose a significant barrier to achieving equitable access to artificial intelligence across linguistically diverse populations....
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12389) | [📝 Analysis](8a81d1c5f1e5f386cf0a343e06175bf5.md)
+
+---
+
+### Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Botao Yu, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan
+
+arXiv:2510.11977v1 Announce Type: cross 
+Abstract: AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.11977) | [📝 Analysis](a66425a02aabf1b73a4b3223d3d70d54.md)
+
+---
+
+### HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Xiaoxue Ren, Penghao Jiang, Kaixin Li, Zhiyong Huang, Xiaoning Du, Jiaojiao Jiang, Zhenchang Xing, Jiamou Sun, Terry Yue Zhuo
+
+arXiv:2510.12200v1 Announce Type: cross 
+Abstract: Web applications are prime targets for cyberattacks as gateways to critical services and sensitive data. Traditional penetration testing is costly an...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12200) | [📝 Analysis](2c97619fcde3f7fbd83c56c6aa708bb3.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-15 09:29:15 UTC*

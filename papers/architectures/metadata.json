@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Credal Transformer: A Principled Approach for Quantifying and Mitigating Hallucinations in Large Language Models",
+      "authors": [
+        "Shihao Ji, Zihui Song, Jiajie Huang"
+      ],
+      "abstract": "arXiv:2510.12137v1 Announce Type: new \nAbstract: Large Language Models (LLMs) hallucinate, generating factually incorrect yet confident assertions. We argue this stems from the Transformer's Softmax function, which creates \"Artificial Certainty\" by collapsing ambiguous attention scores into a single probability distribution, discarding uncertainty information at each layer. To fix this, we introduce the Credal Transformer, which replaces standard attention with a Credal Attention Mechanism (CAM) based on evidential theory. CAM produces a \"credal set\" (a set of distributions) instead of a single attention vector, with the set's size directly measuring model uncertainty. We implement this by re-conceptualizing attention scores as evidence masses for a Dirichlet distribution: sufficient evidence recovers standard attention, while insufficient evidence yields a diffuse distribution, representing ambiguity. Empirically, the Credal Transformer identifies out-of-distribution inputs, quantifies ambiguity, and significantly reduces confident errors on unanswerable questions by abstaining. Our contribution is a new architecture to mitigate hallucinations and a design paradigm that integrates uncertainty quantification directly into the model, providing a foundation for more reliable AI.",
+      "url": "https://arxiv.org/abs/2510.12137",
+      "published_date": "2025-10-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "attention",
+        "credal",
+        "distribution",
+        "transformer",
+        "credal transformer",
+        "evidence",
+        "set",
+        "uncertainty",
+        "ambiguity",
+        "attention scores"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucinations \u2013 with a novel approach rooted in evidential theory. The idea of replacing Softmax with a Credal Attention Mechanism to explicitly model uncertainty is promising and well-motivated. The empirical results, even as described in the abstract, suggest a tangible benefit in identifying out-of-distribution inputs and quantifying uncertainty, indicating strong potential for practical application.",
+      "paper_id": "88097866d5084121c4fcde7d4a8cc8e1"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-15T09:29:15.171836"
 }

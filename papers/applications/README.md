@@ -2,7 +2,40 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### Uncertainty Quantification for Hallucination Detection in Large Language Models: Foundations, Methodology, and Future Directions
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Sungmin Kang, Yavuz Faruk Bakman, Duygu Nur Yaldiz, Baturalp Buyukates, Salman Avestimehr
+
+arXiv:2510.12040v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) has transformed the landscape of natural language processing, enabling breakthroughs across a wid...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12040) | [📝 Analysis](a0c8e5a5a113d5c5fa8ebe52763afaaa.md)
+
+---
+
+### HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment
+
+**Score:** 92.0 | **Published:** 2025-10-15 | **Authors:** Ali Mekky, Omar El Herraoui, Preslav Nakov, Yuxia Wang
+
+arXiv:2510.12217v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed across high-impact domains, from clinical decision support and legal analysis to hiring and educ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12217) | [📝 Analysis](eadc0d705e6c5d34291c6672ee6d93f3.md)
+
+---
+
+### Evolution of meta's llama models and parameter-efficient fine-tuning of large language models: a survey
+
+**Score:** 90.0 | **Published:** 2025-10-15 | **Authors:** Abdulhady Abas Abdullah, Arkaitz Zubiaga, Seyedali Mirjalili, Amir H. Gandomi, Fatemeh Daneshfar, Mohammadsadra Amini, Alan Salam Mohammed, Hadi Veisi
+
+arXiv:2510.12178v1 Announce Type: cross 
+Abstract: This review surveys the rapid evolution of Meta AI's LLaMA (Large Language Model Meta AI) series - from LLaMA 1 through LLaMA 4 and the specialized p...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12178) | [📝 Analysis](7c4ff11a2c9409bde2955a95a5910209.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +181,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-15 09:29:15 UTC*
