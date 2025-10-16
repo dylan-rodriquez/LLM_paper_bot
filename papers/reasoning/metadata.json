@@ -415,7 +415,103 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "I Am Aligned, But With Whom? MENA Values Benchmark for Evaluating Cultural Alignment and Multilingual Bias in LLMs",
+      "authors": [
+        "Pardis Sadat Zahraei, Ehsaneddin Asgari"
+      ],
+      "abstract": "arXiv:2510.13154v1 Announce Type: new \nAbstract: We introduce MENAValues, a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region, an underrepresented area in current AI evaluation efforts. Drawing from large-scale, authoritative human surveys, we curate a structured dataset that captures the sociocultural landscape of MENA with population-level response distributions from 16 countries. To probe LLM behavior, we evaluate diverse models across multiple conditions formed by crossing three perspective framings (neutral, personalized, and third-person/cultural observer) with two language modes (English and localized native languages: Arabic, Persian, Turkish). Our analysis reveals three critical phenomena: \"Cross-Lingual Value Shifts\" where identical questions yield drastically different responses based on language, \"Reasoning-Induced Degradation\" where prompting models to explain their reasoning worsens cultural alignment, and \"Logit Leakage\" where models refuse sensitive questions while internal probabilities reveal strong hidden preferences. We further demonstrate that models collapse into simplistic linguistic categories when operating in native languages, treating diverse nations as monolithic entities. MENAValues offers a scalable framework for diagnosing cultural misalignment, providing both empirical insights and methodological tools for developing more culturally inclusive AI.",
+      "url": "https://arxiv.org/abs/2510.13154",
+      "published_date": "2025-10-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cultural",
+        "models",
+        "alignment",
+        "cultural alignment",
+        "language",
+        "mena",
+        "ai",
+        "alignment multilingual",
+        "benchmark",
+        "diverse"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the underrepresentation of MENA cultures and values. The creation of the MENAValues benchmark, grounded in large-scale surveys, is a strong methodological contribution. The identification of 'Cross-Lingual Value Shifts' and 'Reasoning-Induced Degradation' suggests significant biases that need addressing, and the multi-faceted evaluation approach (perspective framing, language modes) adds to the rigor.",
+      "paper_id": "1c237b53ee538f765524e290a07c08e2"
+    },
+    {
+      "title": "GAPS: A Clinically Grounded, Automated Benchmark for Evaluating AI Clinicians",
+      "authors": [
+        "Xiuyuan Chen, Tao Sun, Dexin Su, Ailing Yu, Junwei Liu, Zhe Chen, Gangzeng Jin, Xin Wang, Jingnan Liu, Hansong Xiao, Hualei Zhou, Dongjie Tao, Chunxiao Guo, Minghui Yang, Yuan Xia, Jing Zhao, Qianrui Fan, Yanyun Wang, Shuai Zhen, Kezhong Chen, Jun Wang, Zewen Sun, Heng Zhao, Tian Guan, Shaodong Wang, Geyun Chang, Jiaming Deng, Hongchengcheng Chen, Kexin Feng, Ruzhen Li, Jiayi Geng, Changtai Zhao, Jun Wang, Guihu Lin, Peihao Li, Liqi Liu, Peng Wei, Jian Wang, Jinjie Gu, Ping Wang, Fan Yang"
+      ],
+      "abstract": "arXiv:2510.13734v1 Announce Type: new \nAbstract: Current benchmarks for AI clinician systems, often based on multiple-choice exams or manual rubrics, fail to capture the depth, robustness, and safety required for real-world clinical practice. To address this, we introduce the GAPS framework, a multidimensional paradigm for evaluating \\textbf{G}rounding (cognitive depth), \\textbf{A}dequacy (answer completeness), \\textbf{P}erturbation (robustness), and \\textbf{S}afety. Critically, we developed a fully automated, guideline-anchored pipeline to construct a GAPS-aligned benchmark end-to-end, overcoming the scalability and subjectivity limitations of prior work. Our pipeline assembles an evidence neighborhood, creates dual graph and tree representations, and automatically generates questions across G-levels. Rubrics are synthesized by a DeepResearch agent that mimics GRADE-consistent, PICO-driven evidence review in a ReAct loop. Scoring is performed by an ensemble of large language model (LLM) judges. Validation confirmed our automated questions are high-quality and align with clinician judgment. Evaluating state-of-the-art models on the benchmark revealed key failure modes: performance degrades sharply with increased reasoning depth (G-axis), models struggle with answer completeness (A-axis), and they are highly vulnerable to adversarial perturbations (P-axis) as well as certain safety issues (S-axis). This automated, clinically-grounded approach provides a reproducible and scalable method for rigorously evaluating AI clinician systems and guiding their development toward safer, more reliable clinical practice.",
+      "url": "https://arxiv.org/abs/2510.13734",
+      "published_date": "2025-10-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "automated",
+        "axis",
+        "evaluating",
+        "textbf",
+        "ai",
+        "benchmark",
+        "clinician",
+        "depth",
+        "gaps",
+        "ai clinician"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical gap in AI clinician evaluation \u2013 the lack of robust, automated benchmarks. The GAPS framework, with its focus on grounding, adequacy, perturbation, and safety, appears well-considered and the automated pipeline is a significant step forward. The use of a DeepResearch agent and LLM ensemble for rubric synthesis and scoring demonstrates a sophisticated approach, though full results are needed to confirm efficacy.",
+      "paper_id": "63b6edbe80402730da2db412a6ce9f7f"
+    },
+    {
+      "title": "Scheming Ability in LLM-to-LLM Strategic Interactions",
+      "authors": [
+        "Thao Pham"
+      ],
+      "abstract": "arXiv:2510.12826v1 Announce Type: new \nAbstract: As large language model (LLM) agents are deployed autonomously in diverse contexts, evaluating their capacity for strategic deception becomes crucial. While recent research has examined how AI systems scheme against human developers, LLM-to-LLM scheming remains underexplored. We investigate the scheming ability and propensity of frontier LLM agents through two game-theoretic frameworks: a Cheap Talk signaling game and a Peer Evaluation adversarial game. Testing four models (GPT-4o, Gemini-2.5-pro, Claude-3.7-Sonnet, and Llama-3.3-70b), we measure scheming performance with and without explicit prompting while analyzing scheming tactics through chain-of-thought reasoning. When prompted, most models, especially Gemini-2.5-pro and Claude-3.7-Sonnet, achieved near-perfect performance. Critically, models exhibited significant scheming propensity without prompting: all models chose deception over confession in Peer Evaluation (100% rate), while models choosing to scheme in Cheap Talk succeeded at 95-100% rates. These findings highlight the need for robust evaluations using high-stakes game-theoretic scenarios in multi-agent settings.",
+      "url": "https://arxiv.org/abs/2510.12826",
+      "published_date": "2025-10-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llm",
+        "scheming",
+        "models",
+        "game",
+        "100",
+        "ability",
+        "agents",
+        "cheap",
+        "cheap talk",
+        "claude"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the potential for strategic deception in LLMs, specifically in LLM-to-LLM interactions. The use of game-theoretic frameworks provides a rigorous methodology, and the initial findings (near-perfect performance with prompting, 100% deception rate without prompting) are striking. While the frameworks themselves aren't entirely novel, applying them to this specific LLM interaction scenario is a valuable contribution, and the chain-of-thought analysis adds depth.",
+      "paper_id": "8f80a3ae7b195a0d567bf89c77c6f840"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-16T09:29:43.973587"
 }

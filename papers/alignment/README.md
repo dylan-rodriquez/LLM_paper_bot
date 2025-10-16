@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Multilingual, Large-Scale Study of the Interplay between LLM Safeguards, Personalisation, and Disinformation
+
+**Score:** 92.0 | **Published:** 2025-10-16 | **Authors:** Jo\~ao A. Leite, Arnav Arora, Silvia Gargova, Jo\~ao Luz, Gustavo Sampaio, Ian Roberts, Carolina Scarton, Kalina Bontcheva
+
+arXiv:2510.12993v1 Announce Type: new 
+Abstract: The human-like proficiency of Large Language Models (LLMs) has brought concerns about their potential misuse for generating persuasive and personalised...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12993) | [📝 Analysis](c1f03faa1cde4e25782c920637004293.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-16 09:29:43 UTC*
