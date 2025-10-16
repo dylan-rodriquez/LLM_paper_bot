@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Document Intelligence in the Era of Large Language Models: A Survey
+
+**Score:** 92.0 | **Published:** 2025-10-16 | **Authors:** Weishi Wang, Hengchang Hu, Zhijie Zhang, Zhaochen Li, Hongxin Shao, Daniel Dahlmeier
+
+arXiv:2510.13366v1 Announce Type: new 
+Abstract: Document AI (DAI) has emerged as a vital application area, and is significantly transformed by the advent of large language models (LLMs). While earlie...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13366) | [📝 Analysis](d41fee5146dd29747e5e3f06c18cd4cb.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-16 09:29:43 UTC*

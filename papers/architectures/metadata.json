@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Document Intelligence in the Era of Large Language Models: A Survey",
+      "authors": [
+        "Weishi Wang, Hengchang Hu, Zhijie Zhang, Zhaochen Li, Hongxin Shao, Daniel Dahlmeier"
+      ],
+      "abstract": "arXiv:2510.13366v1 Announce Type: new \nAbstract: Document AI (DAI) has emerged as a vital application area, and is significantly transformed by the advent of large language models (LLMs). While earlier approaches relied on encoder-decoder architectures, decoder-only LLMs have revolutionized DAI, bringing remarkable advancements in understanding and generation. This survey provides a comprehensive overview of DAI's evolution, highlighting current research attempts and future prospects of LLMs in this field. We explore key advancements and challenges in multimodal, multilingual, and retrieval-augmented DAI, while also suggesting future research directions, including agent-based approaches and document-specific foundation models. This paper aims to provide a structured analysis of the state-of-the-art in DAI and its implications for both academic and practical applications.",
+      "url": "https://arxiv.org/abs/2510.13366",
+      "published_date": "2025-10-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "dai",
+        "document",
+        "llms",
+        "models",
+        "advancements",
+        "approaches",
+        "decoder",
+        "future",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving field \u2013 Document AI in the context of LLMs. The abstract indicates a comprehensive overview of the field's evolution and future directions, suggesting a well-structured and insightful analysis. While surveys are inherently less 'innovative' than novel method proposals, the focus on emerging areas like agent-based approaches and document-specific foundation models demonstrates forward-thinking consideration. The topic's practical relevance and alignment with current AI trends suggest a positive reception within the research community.",
+      "paper_id": "d41fee5146dd29747e5e3f06c18cd4cb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-16T09:29:43.976285"
 }

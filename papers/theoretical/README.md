@@ -2,7 +2,29 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Mathematics with large language models as provers and verifiers
+
+**Score:** 90.0 | **Published:** 2025-10-16 | **Authors:** Hieu Le Duc, Leo Liberti
+
+arXiv:2510.12829v1 Announce Type: new 
+Abstract: During 2024 and 2025 the discussion about the theorem-proving capabilities of large language models started reporting interesting success stories, most...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12829) | [📝 Analysis](bb280a3e9d64c84d1b7fcb45fa99ff8a.md)
+
+---
+
+### Hard2Verify: A Step-Level Verification Benchmark for Open-Ended Frontier Math
+
+**Score:** 90.0 | **Published:** 2025-10-16 | **Authors:** Shrey Pandit, Austin Xu, Xuan-Phi Nguyen, Yifei Ming, Caiming Xiong, Shafiq Joty
+
+arXiv:2510.13744v1 Announce Type: cross 
+Abstract: Large language model (LLM)-based reasoning systems have recently achieved gold medal-level performance in the IMO 2025 competition, writing mathemati...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13744) | [📝 Analysis](8643c00b52fe2986665e437ff01dafa2.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +82,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-16 09:29:43 UTC*

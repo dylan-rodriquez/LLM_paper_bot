@@ -2,7 +2,40 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### I Am Aligned, But With Whom? MENA Values Benchmark for Evaluating Cultural Alignment and Multilingual Bias in LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-16 | **Authors:** Pardis Sadat Zahraei, Ehsaneddin Asgari
+
+arXiv:2510.13154v1 Announce Type: new 
+Abstract: We introduce MENAValues, a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with res...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13154) | [📝 Analysis](1c237b53ee538f765524e290a07c08e2.md)
+
+---
+
+### GAPS: A Clinically Grounded, Automated Benchmark for Evaluating AI Clinicians
+
+**Score:** 92.0 | **Published:** 2025-10-16 | **Authors:** Xiuyuan Chen, Tao Sun, Dexin Su, Ailing Yu, Junwei Liu, Zhe Chen, Gangzeng Jin, Xin Wang, Jingnan Liu, Hansong Xiao, Hualei Zhou, Dongjie Tao, Chunxiao Guo, Minghui Yang, Yuan Xia, Jing Zhao, Qianrui Fan, Yanyun Wang, Shuai Zhen, Kezhong Chen, Jun Wang, Zewen Sun, Heng Zhao, Tian Guan, Shaodong Wang, Geyun Chang, Jiaming Deng, Hongchengcheng Chen, Kexin Feng, Ruzhen Li, Jiayi Geng, Changtai Zhao, Jun Wang, Guihu Lin, Peihao Li, Liqi Liu, Peng Wei, Jian Wang, Jinjie Gu, Ping Wang, Fan Yang
+
+arXiv:2510.13734v1 Announce Type: new 
+Abstract: Current benchmarks for AI clinician systems, often based on multiple-choice exams or manual rubrics, fail to capture the depth, robustness, and safety ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13734) | [📝 Analysis](63b6edbe80402730da2db412a6ce9f7f.md)
+
+---
+
+### Scheming Ability in LLM-to-LLM Strategic Interactions
+
+**Score:** 90.0 | **Published:** 2025-10-16 | **Authors:** Thao Pham
+
+arXiv:2510.12826v1 Announce Type: new 
+Abstract: As large language model (LLM) agents are deployed autonomously in diverse contexts, evaluating their capacity for strategic deception becomes crucial. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.12826) | [📝 Analysis](8f80a3ae7b195a0d567bf89c77c6f840.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +181,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-16 09:29:43 UTC*
