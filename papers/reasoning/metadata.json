@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Toward Cybersecurity-Expert Small Language Models",
+      "authors": [
+        "Matan Levi, Daniel Ohayon, Ariel Blobstein, Ravid Sagi, Ian Molloy, Yair Allouche"
+      ],
+      "abstract": "arXiv:2510.14113v1 Announce Type: new \nAbstract: Large language models (LLMs) are transforming everyday applications, yet deployment in cybersecurity lags due to a lack of high-quality, domain-specific models and training datasets. To address this gap, we present CyberPal 2.0, a family of cybersecurity-expert small language models (SLMs) ranging from 4B-20B parameters. To train CyberPal 2.0, we generate an enriched chain-of-thought cybersecurity instruction dataset built with our data enrichment and formatting pipeline, SecKnowledge 2.0, which integrates expert-in-the-loop steering of reasoning formats alongside LLM-driven multi-step grounding, yielding higher-fidelity, task-grounded reasoning traces for security tasks. Across diverse cybersecurity benchmarks, CyberPal 2.0 consistently outperforms its baselines and matches or surpasses various open and closed-source frontier models, while remaining a fraction of their size. On core cyber threat intelligence knowledge tasks, our models outperform almost all tested frontier models, ranking second only to Sec-Gemini v1. On core threat-investigation tasks, such as correlating vulnerabilities and bug tickets with weaknesses, our best 20B-parameter model outperforms GPT-4o, o1, o3-mini, and Sec-Gemini v1, ranking first, while our smallest 4B-parameter model ranks second.",
+      "url": "https://arxiv.org/abs/2510.14113",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "models",
+        "cybersecurity",
+        "cyberpal",
+        "expert",
+        "language",
+        "language models",
+        "tasks",
+        "20b",
+        "4b",
+        "core"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in cybersecurity \u2013 the lack of domain-specific LLMs. The development of CyberPal 2.0 and SecKnowledge 2.0, with its expert-in-the-loop and LLM-driven grounding, appears to be a robust methodology. The claim of outperforming baselines and matching frontier models while being smaller is significant, suggesting a potential for efficient and effective cybersecurity applications.",
+      "paper_id": "f4c9cc100076506bbf6fb644c7ef6924"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-17T09:29:27.997217"
 }

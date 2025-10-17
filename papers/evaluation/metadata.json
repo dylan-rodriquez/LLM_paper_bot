@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Evaluating & Reducing Deceptive Dialogue From Language Models with Multi-turn RL",
+      "authors": [
+        "Marwa Abdulhai, Ryan Cheng, Aryansh Shrivastava, Natasha Jaques, Yarin Gal, Sergey Levine"
+      ],
+      "abstract": "arXiv:2510.14318v1 Announce Type: new \nAbstract: Large Language Models (LLMs) interact with millions of people worldwide in applications such as customer support, education and healthcare. However, their ability to produce deceptive outputs, whether intentionally or inadvertently, poses significant safety concerns. The unpredictable nature of LLM behavior, combined with insufficient safeguards against hallucination, misinformation, and user manipulation, makes their misuse a serious, real-world risk. In this paper, we investigate the extent to which LLMs engage in deception within dialogue, and propose the belief misalignment metric to quantify deception. We evaluate deception across four distinct dialogue scenarios, using five established deception detection metrics and our proposed metric. Our findings reveal this novel deception measure correlates more closely with human judgments than any existing metrics we test. Additionally, our benchmarking of eight state-of-the-art models indicates that LLMs naturally exhibit deceptive behavior in approximately 26% of dialogue turns, even when prompted with seemingly benign objectives. When prompted to deceive, LLMs are capable of increasing deceptiveness by as much as 31% relative to baselines. Unexpectedly, models trained with RLHF, the predominant approach for ensuring the safety of widely-deployed LLMs, still exhibit deception at a rate of 43% on average. Given that deception in dialogue is a behavior that develops over an interaction history, its effective evaluation and mitigation necessitates moving beyond single-utterance analyses. We introduce a multi-turn reinforcement learning methodology to fine-tune LLMs to reduce deceptive behaviors, leading to a 77.6% reduction compared to other instruction-tuned models.",
+      "url": "https://arxiv.org/abs/2510.14318",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "deception",
+        "llms",
+        "dialogue",
+        "models",
+        "deceptive",
+        "behavior",
+        "deception dialogue",
+        "exhibit",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 deceptive dialogue \u2013 and proposes a novel metric ('belief misalignment') for quantifying it. The correlation of this metric with human judgments is a strong indicator of its validity. The use of multi-turn RL to address this issue suggests a practical approach, and the benchmarking of multiple models adds to the rigor of the work. The high significance stems from the widespread deployment of LLMs and the potential for harm from deceptive outputs.",
+      "paper_id": "8c96e1288c2d536e3ec9342591b0eb2a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-17T09:29:27.999157"
 }

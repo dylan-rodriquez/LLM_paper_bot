@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Suicidal Comment Tree Dataset: Enhancing Risk Assessment and Prediction Through Contextual Analysis
+
+**Score:** 92.0 | **Published:** 2025-10-17 | **Authors:** Jun Li, Qun Zhao
+
+arXiv:2510.14395v1 Announce Type: new 
+Abstract: Suicide remains a critical global public health issue. While previous studies have provided valuable insights into detecting suicidal expressions in in...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.14395) | [📝 Analysis](52449eac95a941929fe597943603feae.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-17 09:29:28 UTC*

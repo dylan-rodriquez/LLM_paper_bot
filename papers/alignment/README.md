@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Guarding the Guardrails: A Taxonomy-Driven Approach to Jailbreak Detection
+
+**Score:** 92.0 | **Published:** 2025-10-17 | **Authors:** Olga E. Sorokoletova, Francesco Giarrusso, Vincenzo Suriani, Daniele Nardi
+
+arXiv:2510.13893v1 Announce Type: new 
+Abstract: Jailbreaking techniques pose a significant threat to the safety of Large Language Models (LLMs). Existing defenses typically focus on single-turn attac...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13893) | [📝 Analysis](4511e5a4d10f0debdb8316feff6393d2.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-17 09:29:27 UTC*
