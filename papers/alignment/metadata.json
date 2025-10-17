@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Guarding the Guardrails: A Taxonomy-Driven Approach to Jailbreak Detection",
+      "authors": [
+        "Olga E. Sorokoletova, Francesco Giarrusso, Vincenzo Suriani, Daniele Nardi"
+      ],
+      "abstract": "arXiv:2510.13893v1 Announce Type: new \nAbstract: Jailbreaking techniques pose a significant threat to the safety of Large Language Models (LLMs). Existing defenses typically focus on single-turn attacks, lack coverage across languages, and rely on limited taxonomies that either fail to capture the full diversity of attack strategies or emphasize risk categories rather than the jailbreaking techniques. To advance the understanding of the effectiveness of jailbreaking techniques, we conducted a structured red-teaming challenge. The outcome of our experiments are manifold. First, we developed a comprehensive hierarchical taxonomy of 50 jailbreak strategies, consolidating and extending prior classifications into seven broad families, including impersonation, persuasion, privilege escalation, cognitive overload, obfuscation, goal conflict, and data poisoning. Second, we analyzed the data collected from the challenge to examine the prevalence and success rates of different attack types, providing insights into how specific jailbreak strategies exploit model vulnerabilities and induce misalignment. Third, we benchmark a popular LLM for jailbreak detection, evaluating the benefits of taxonomy-guided prompting for improving automatic detection. Finally, we compiled a new Italian dataset of 1364 multi-turn adversarial dialogues, annotated with our taxonomy, enabling the study of interactions where adversarial intent emerges gradually and succeeds in bypassing traditional safeguards.",
+      "url": "https://arxiv.org/abs/2510.13893",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "jailbreak",
+        "taxonomy",
+        "detection",
+        "jailbreaking",
+        "jailbreaking techniques",
+        "strategies",
+        "techniques",
+        "adversarial",
+        "attack",
+        "challenge"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and critical problem in the LLM space \u2013 jailbreaking. The development of a comprehensive taxonomy of 50 jailbreak strategies is a significant contribution, moving beyond simplistic categorizations. The structured red-teaming approach and analysis of attack success rates provide valuable empirical data, and the focus on multiple attack families suggests a robust methodology. The work is likely to be well-received by the community given the current focus on LLM safety and alignment.",
+      "paper_id": "4511e5a4d10f0debdb8316feff6393d2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-17T09:29:27.993387"
 }

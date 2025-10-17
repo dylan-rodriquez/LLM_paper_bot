@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### LLMs Can Get "Brain Rot"!
+
+**Score:** 92.0 | **Published:** 2025-10-17 | **Authors:** Shuo Xing, Junyuan Hong, Yifan Wang, Runjin Chen, Zhenyu Zhang, Ananth Grama, Zhengzhong Tu, Zhangyang Wang
+
+arXiv:2510.13928v1 Announce Type: new 
+Abstract: We propose and test the LLM Brain Rot Hypothesis: continual exposure to junk web text induces lasting cognitive decline in large language models (LLMs)...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13928) | [📝 Analysis](114047b2724dd81aebd44b39f35bff16.md)
+
+---
+
+### Readers Prefer Outputs of AI Trained on Copyrighted Books over Expert Human Writers
+
+**Score:** 92.0 | **Published:** 2025-10-17 | **Authors:** Tuhin Chakrabarty, Jane C. Ginsburg, Paramveer Dhillon
+
+arXiv:2510.13939v1 Announce Type: new 
+Abstract: The use of copyrighted books for training AI models has led to numerous lawsuits from authors concerned about AI's ability to generate derivative conte...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13939) | [📝 Analysis](f02aed7ca58d5204a5b283bc4dc5840a.md)
+
+---
+
+### The German Commons - 154 Billion Tokens of Openly Licensed Text for German Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-17 | **Authors:** Lukas Gienapp, Christopher Schr\"oder, Stefan Schweter, Christopher Akiki, Ferdinand Schlatt, Arden Zimmermann, Phillipe Gen\^et, Martin Potthast
+
+arXiv:2510.13996v1 Announce Type: new 
+Abstract: Large language model development relies on large-scale training corpora, yet most contain data of unclear licensing status, limiting the development of...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13996) | [📝 Analysis](5304edb4c779ff5a9161189bf54e4d75.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-17 09:29:27 UTC*

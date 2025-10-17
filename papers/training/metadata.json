@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "LLMs Can Get \"Brain Rot\"!",
+      "authors": [
+        "Shuo Xing, Junyuan Hong, Yifan Wang, Runjin Chen, Zhenyu Zhang, Ananth Grama, Zhengzhong Tu, Zhangyang Wang"
+      ],
+      "abstract": "arXiv:2510.13928v1 Announce Type: new \nAbstract: We propose and test the LLM Brain Rot Hypothesis: continual exposure to junk web text induces lasting cognitive decline in large language models (LLMs). To causally isolate data quality, we run controlled experiments on real Twitter/X corpora, constructing junk and reversely controlled datasets via two orthogonal operationalizations: M1 (engagement degree) and M2 (semantic quality), with matched token scale and training operations across conditions. Contrary to the control group, continual pre-training of 4 LLMs on the junk dataset causes non-trivial declines (Hedges' $g>0.3$) on reasoning, long-context understanding, safety, and inflating \"dark traits\" (e.g., psychopathy, narcissism). The gradual mixtures of junk and control datasets also yield dose-response cognition decay: for example, under M1, ARC-Challenge with Chain Of Thoughts drops $74.9 \\rightarrow 57.2$ and RULER-CWE $84.4 \\rightarrow 52.3$ as junk ratio rises from $0\\%$ to $100\\%$.\n  Error forensics reveal several key insights. First, we identify thought-skipping as the primary lesion: models increasingly truncate or skip reasoning chains, explaining most of the error growth. Second, partial but incomplete healing is observed: scaling instruction tuning and clean data pre-training improve the declined cognition yet cannot restore baseline capability, suggesting persistent representational drift rather than format mismatch. Finally, we discover that the popularity, a non-semantic metric, of a tweet is a better indicator of the Brain Rot effect than the length in M1. Together, the results provide significant, multi-perspective evidence that data quality is a causal driver of LLM capability decay, reframing curation for continual pretraining as a \\textit{training-time safety} problem and motivating routine \"cognitive health checks\" for deployed LLMs.",
+      "url": "https://arxiv.org/abs/2510.13928",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "junk",
+        "llms",
+        "training",
+        "brain",
+        "brain rot",
+        "continual",
+        "data",
+        "m1",
+        "quality",
+        "rot"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the degradation of LLM performance due to exposure to low-quality data. The controlled experimental setup with orthogonal operationalizations (M1 & M2) and multiple LLMs strengthens the causal claims. The observed declines in reasoning, safety, and the inflation of 'dark traits' are concerning and suggest a significant vulnerability in current LLM training paradigms.",
+      "paper_id": "114047b2724dd81aebd44b39f35bff16"
+    },
+    {
+      "title": "Readers Prefer Outputs of AI Trained on Copyrighted Books over Expert Human Writers",
+      "authors": [
+        "Tuhin Chakrabarty, Jane C. Ginsburg, Paramveer Dhillon"
+      ],
+      "abstract": "arXiv:2510.13939v1 Announce Type: new \nAbstract: The use of copyrighted books for training AI models has led to numerous lawsuits from authors concerned about AI's ability to generate derivative content.Yet it's unclear whether these models can generate high quality literary text while emulating authors' styles. To answer this we conducted a preregistered study comparing MFA-trained expert writers with three frontier AI models: ChatGPT, Claude & Gemini in writing up to 450 word excerpts emulating 50 award-winning authors' diverse styles. In blind pairwise evaluations by 159 representative expert & lay readers, AI-generated text from in-context prompting was strongly disfavored by experts for both stylistic fidelity (OR=0.16, p<10^8) & writing quality (OR=0.13, p<10^7) but showed mixed results with lay readers. However, fine-tuning ChatGPT on individual authors' complete works completely reversed these findings: experts now favored AI-generated text for stylistic fidelity (OR=8.16, p<10^13) & writing quality (OR=1.87, p=0.010), with lay readers showing similar shifts. These effects generalize across authors & styles. The fine-tuned outputs were rarely flagged as AI-generated (3% rate v. 97% for in-context prompting) by best AI detectors. Mediation analysis shows this reversal occurs because fine-tuning eliminates detectable AI stylistic quirks (e.g., cliche density) that penalize in-context outputs. While we do not account for additional costs of human effort required to transform raw AI output into cohesive, publishable prose, the median fine-tuning & inference cost of $81 per author represents a dramatic 99.7% reduction compared to typical professional writer compensation. Author-specific fine-tuning thus enables non-verbatim AI writing that readers prefer to expert human writing, providing empirical evidence directly relevant to copyright's fourth fair-use factor, the \"effect upon the potential market or value\" of the source works.",
+      "url": "https://arxiv.org/abs/2510.13939",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "authors",
+        "fine",
+        "readers",
+        "writing",
+        "expert",
+        "fine tuning",
+        "tuning",
+        "10",
+        "ai generated"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly relevant and debated topic \u2013 the impact of AI training on copyrighted material and the quality of generated literary text. The preregistered study design and use of both expert and lay readers strengthens the rigor. The reversal of preference with fine-tuning is a particularly interesting finding, suggesting that while initial AI outputs may fall short, targeted training can yield results favored even by experts.",
+      "paper_id": "f02aed7ca58d5204a5b283bc4dc5840a"
+    },
+    {
+      "title": "The German Commons - 154 Billion Tokens of Openly Licensed Text for German Language Models",
+      "authors": [
+        "Lukas Gienapp, Christopher Schr\\\"oder, Stefan Schweter, Christopher Akiki, Ferdinand Schlatt, Arden Zimmermann, Phillipe Gen\\^et, Martin Potthast"
+      ],
+      "abstract": "arXiv:2510.13996v1 Announce Type: new \nAbstract: Large language model development relies on large-scale training corpora, yet most contain data of unclear licensing status, limiting the development of truly open models. This problem is exacerbated for non-English languages, where openly licensed text remains critically scarce. We introduce the German Commons, the largest collection of openly licensed German text to date. It compiles data from 41 sources across seven domains, encompassing legal, scientific, cultural, political, news, economic, and web text. Through systematic sourcing from established data providers with verifiable licensing, it yields 154.56 billion tokens of high-quality text for language model training. Our processing pipeline implements comprehensive quality filtering, deduplication, and text formatting fixes, ensuring consistent quality across heterogeneous text sources. All domain subsets feature licenses of at least CC-BY-SA 4.0 or equivalent, ensuring legal compliance for model training and redistribution. The German Commons therefore addresses the critical gap in openly licensed German pretraining data, and enables the development of truly open German language models. We also release code for corpus construction and data filtering tailored to German language text, rendering the German Commons fully reproducible and extensible.",
+      "url": "https://arxiv.org/abs/2510.13996",
+      "published_date": "2025-10-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "german",
+        "text",
+        "data",
+        "language",
+        "commons",
+        "german commons",
+        "licensed",
+        "openly",
+        "openly licensed",
+        "development"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in LLM development \u2013 the lack of openly licensed data, particularly for non-English languages like German. The creation of a 154 billion token corpus is a substantial undertaking and the emphasis on verifiable licensing and quality filtering is commendable. While the core idea of compiling existing datasets isn't groundbreaking, the scale and focus on open licensing are significant, and the processing pipeline adds value. The community will likely receive this work very positively given the current push for open-source LLMs.",
+      "paper_id": "5304edb4c779ff5a9161189bf54e4d75"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-17T09:29:27.994988"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Toward Cybersecurity-Expert Small Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-17 | **Authors:** Matan Levi, Daniel Ohayon, Ariel Blobstein, Ravid Sagi, Ian Molloy, Yair Allouche
+
+arXiv:2510.14113v1 Announce Type: new 
+Abstract: Large language models (LLMs) are transforming everyday applications, yet deployment in cybersecurity lags due to a lack of high-quality, domain-specifi...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.14113) | [📝 Analysis](f4c9cc100076506bbf6fb644c7ef6924.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-17 09:29:27 UTC*
