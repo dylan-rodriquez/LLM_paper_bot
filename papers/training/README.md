@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-20 | **Authors:** Samuel Paech, Allen Roush, Judah Goldfeder, Ravid Shwartz-Ziv
+
+arXiv:2510.15061v1 Announce Type: cross 
+Abstract: Widespread LLM adoption has introduced characteristic repetitive phraseology, termed ``slop,'' which degrades output quality and makes AI-generated t...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.15061) | [📝 Analysis](189958ddd1eddb2f6f7712aa864438fb.md)
+
+---
+
+### InfiR2: A Comprehensive FP8 Training Recipe for Reasoning-Enhanced Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-20 | **Authors:** Wenjun Wang, Shuo Cai, Congkai Xie, Mingfa Feng, Yiming Zhang, Zhen Li, Kejing Yang, Ming Li, Jiannong Cao, Hongxia Yang
+
+arXiv:2509.22536v4 Announce Type: replace 
+Abstract: The immense computational cost of training Large Language Models (LLMs) presents a major barrier to innovation. While FP8 training offers a promisi...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.22536) | [📝 Analysis](c2de746b58cef7bf7c1d52d4872ff66e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-20 09:30:07 UTC*

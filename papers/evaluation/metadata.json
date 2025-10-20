@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "VocalBench-DF: A Benchmark for Evaluating Speech LLM Robustness to Disfluency",
+      "authors": [
+        "Hongcheng Liu, Yixuan Hou, Heyang Liu, Yuhao Wang, Yanfeng Wang, Yu Wang"
+      ],
+      "abstract": "arXiv:2510.15406v1 Announce Type: new \nAbstract: While Speech Large Language Models (Speech-LLMs) show strong performance in many applications, their robustness is critically under-tested, especially to speech disfluency. Existing evaluations often rely on idealized inputs, overlooking common disfluencies, particularly those associated with conditions like Parkinson's disease. This work investigates whether current Speech-LLMs can maintain performance when interacting with users who have speech impairments. To facilitate this inquiry, we introduce VocalBench-DF, a framework for the systematic evaluation of disfluency across a multi-dimensional taxonomy. Our evaluation of 22 mainstream Speech-LLMs reveals substantial performance degradation, indicating that their real-world readiness is limited. Further analysis identifies phoneme-level processing and long-context modeling as primary bottlenecks responsible for these failures. Strengthening recognition and reasoning capability from components and pipelines can substantially improve robustness. These findings highlight the urgent need for new methods to improve disfluency handling and build truly inclusive Speech-LLMs",
+      "url": "https://arxiv.org/abs/2510.15406",
+      "published_date": "2025-10-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "speech",
+        "disfluency",
+        "llms",
+        "speech llms",
+        "performance",
+        "robustness",
+        "df",
+        "evaluation",
+        "improve",
+        "new"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in Speech-LLM evaluation \u2013 robustness to disfluencies, particularly those stemming from speech impairments. The introduction of VocalBench-DF is a valuable contribution, providing a systematic framework for assessing performance in realistic scenarios. The identified bottlenecks (phoneme-level processing and long-context modeling) offer clear directions for future research, and the substantial performance degradation observed across many LLMs highlights the practical importance of this work.",
+      "paper_id": "726d80c797160fde0ffb707a80c70f72"
+    },
+    {
+      "title": "VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications",
+      "authors": [
+        "Wei He, Yueqing Sun, Hongyan Hao, Xueyuan Hao, Zhikang Xia, Qi Gu, Chengcheng Han, Dengchang Zhao, Hui Su, Kefeng Zhang, Man Gao, Xi Su, Xiaodong Cai, Xunliang Cai, Yu Yang, Yunke Zhao"
+      ],
+      "abstract": "arXiv:2509.26490v2 Announce Type: replace \nAbstract: As LLM-based agents are increasingly deployed in real-life scenarios, existing benchmarks fail to capture their inherent complexity of handling extensive information, leveraging diverse resources, and managing dynamic user interactions. To address this gap, we introduce VitaBench, a challenging benchmark that evaluates agents on versatile interactive tasks grounded in real-world settings. Drawing from daily applications in food delivery, in-store consumption, and online travel services, VitaBench presents agents with the most complex life-serving simulation environment to date, comprising 66 tools. Through a framework that eliminates domain-specific policies, we enable flexible composition of these scenarios and tools, yielding 100 cross-scenario tasks (main results) and 300 single-scenario tasks. Each task is derived from multiple real user requests and requires agents to reason across temporal and spatial dimensions, utilize complex tool sets, proactively clarify ambiguous instructions, and track shifting user intent throughout multi-turn conversations. Moreover, we propose a rubric-based sliding window evaluator, enabling robust assessment of diverse solution pathways in complex environments and stochastic interactions. Our comprehensive evaluation reveals that even the most advanced models achieve only 30% success rate on cross-scenario tasks, and less than 50% success rate on others. Overall, we believe VitaBench will serve as a valuable resource for advancing the development of AI agents in practical real-world applications. The code, dataset, and leaderboard are available at https://vitabench.github.io/",
+      "url": "https://arxiv.org/abs/2509.26490",
+      "published_date": "2025-10-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "agents",
+        "real",
+        "tasks",
+        "vitabench",
+        "applications",
+        "complex",
+        "real world",
+        "scenario",
+        "scenario tasks",
+        "user"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM agent evaluation \u2013 the lack of benchmarks that accurately reflect real-world complexity. The VitaBench benchmark, with its 66 tools and focus on interactive tasks derived from real user requests, appears well-designed and rigorous. The emphasis on eliminating domain-specific policies to enable flexible scenario composition is a strong methodological choice, and the scale of 100+ tasks is impressive. The problem is highly relevant given the increasing deployment of LLM agents.",
+      "paper_id": "6af6a7b9920064f6cbc9853b467a15a9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-20T09:30:07.727183"
 }

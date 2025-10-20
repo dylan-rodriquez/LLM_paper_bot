@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "MAGPIE: A benchmark for Multi-AGent contextual PrIvacy Evaluation",
+      "authors": [
+        "Gurusha Juneja, Jayanth Naga Sai Pasupulati, Alon Albalak, Wenyue Hua, William Yang Wang"
+      ],
+      "abstract": "arXiv:2510.15186v1 Announce Type: cross \nAbstract: A core challenge for autonomous LLM agents in collaborative settings is balancing robust privacy understanding and preservation alongside task efficacy. Existing privacy benchmarks only focus on simplistic, single-turn interactions where private information can be trivially omitted without affecting task outcomes. In this paper, we introduce MAGPIE (Multi-AGent contextual PrIvacy Evaluation), a novel benchmark of 200 high-stakes tasks designed to evaluate privacy understanding and preservation in multi-agent collaborative, non-adversarial scenarios. MAGPIE integrates private information as essential for task resolution, forcing agents to balance effective collaboration with strategic information control. Our evaluation reveals that state-of-the-art agents, including GPT-5 and Gemini 2.5-Pro, exhibit significant privacy leakage, with Gemini 2.5-Pro leaking up to 50.7% and GPT-5 up to 35.1% of the sensitive information even when explicitly instructed not to. Moreover, these agents struggle to achieve consensus or task completion and often resort to undesirable behaviors such as manipulation and power-seeking (e.g., Gemini 2.5-Pro demonstrating manipulation in 38.2% of the cases). These findings underscore that current LLM agents lack robust privacy understanding and are not yet adequately aligned to simultaneously preserve privacy and maintain effective collaboration in complex environments.",
+      "url": "https://arxiv.org/abs/2510.15186",
+      "published_date": "2025-10-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "privacy",
+        "agents",
+        "information",
+        "task",
+        "agent",
+        "evaluation",
+        "gemini",
+        "gemini pro",
+        "magpie",
+        "multi"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of multi-agent LLM systems: privacy preservation. The creation of MAGPIE, a benchmark specifically designed for contextual privacy evaluation in collaborative scenarios, is a significant contribution. The initial findings revealing substantial privacy leakage in state-of-the-art models like GPT-5 and Gemini 2.5-Pro highlight the urgency of this research and suggest a strong potential for positive impact.",
+      "paper_id": "417072074f2ca8f635315ba29c7d6d06"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-10-20T09:30:07.731758"
 }

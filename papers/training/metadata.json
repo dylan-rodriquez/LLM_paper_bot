@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Antislop: A Comprehensive Framework for Identifying and Eliminating Repetitive Patterns in Language Models",
+      "authors": [
+        "Samuel Paech, Allen Roush, Judah Goldfeder, Ravid Shwartz-Ziv"
+      ],
+      "abstract": "arXiv:2510.15061v1 Announce Type: cross \nAbstract: Widespread LLM adoption has introduced characteristic repetitive phraseology, termed ``slop,'' which degrades output quality and makes AI-generated text immediately recognizable. We present Antislop, a comprehensive framework providing tools to both detect and eliminate these overused patterns. Our approach combines three innovations: (1) The Antislop Sampler, which uses backtracking to suppress unwanted strings at inference time without destroying vocabulary; (2) An automated pipeline that profiles model-specific slop against human baselines and generates training data; (3) Final Token Preference Optimization (FTPO), a novel fine-tuning method that operates on individual tokens, surgically adjusting logits wherever a banned pattern has appeared in an inference trace. We demonstrate that some slop patterns appear over 1,000$\\times$ more frequently in LLM output than human text. The Antislop Sampler successfully suppresses 8,000+ patterns while maintaining quality, whereas token banning becomes unusable at just 2,000. Most importantly, FTPO achieves 90\\% slop reduction while maintaining or improving performance in cross-domain evals including GSM8K, MMLU, and creative writing tasks. In contrast, DPO suffers significant degradation in writing quality and lexical diversity despite achieving weaker suppression. We release all code and results under MIT license: https://github.com/sam-paech/auto-antislop.",
+      "url": "https://arxiv.org/abs/2510.15061",
+      "published_date": "2025-10-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "antislop",
+        "patterns",
+        "slop",
+        "000",
+        "quality",
+        "antislop comprehensive",
+        "antislop sampler",
+        "comprehensive",
+        "comprehensive framework",
+        "cross"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very real and growing problem with LLMs \u2013 'slop' \u2013 and proposes a comprehensive framework for tackling it. The combination of a sampler, automated profiling, and fine-tuning method suggests a well-thought-out approach. The reported 1000x frequency difference between LLM and human text highlights the significance of the issue, and the 8000+ pattern suppression is a promising initial result. While the methods aren't entirely novel in their individual components, the integration and focus on 'slop' is a strong contribution.",
+      "paper_id": "189958ddd1eddb2f6f7712aa864438fb"
+    },
+    {
+      "title": "InfiR2: A Comprehensive FP8 Training Recipe for Reasoning-Enhanced Language Models",
+      "authors": [
+        "Wenjun Wang, Shuo Cai, Congkai Xie, Mingfa Feng, Yiming Zhang, Zhen Li, Kejing Yang, Ming Li, Jiannong Cao, Hongxia Yang"
+      ],
+      "abstract": "arXiv:2509.22536v4 Announce Type: replace \nAbstract: The immense computational cost of training Large Language Models (LLMs) presents a major barrier to innovation. While FP8 training offers a promising solution with significant theoretical efficiency gains, its widespread adoption has been hindered by the lack of a comprehensive, open-source training recipe. To bridge this gap, we introduce an end-to-end FP8 training recipe that seamlessly integrates continual pre-training and supervised fine-tuning. Our methodology employs a fine-grained, hybrid-granularity quantization strategy to maintain numerical fidelity while maximizing computational efficiency. Through extensive experiments, including the continue pre-training of models on a 160B-token corpus, we demonstrate that our recipe is not only remarkably stable but also essentially lossless, achieving performance on par with the BF16 baseline across a suite of reasoning benchmarks. Crucially, this is achieved with substantial efficiency improvements, including up to a 22% reduction in training time, a 14% decrease in peak memory usage, and a 19% increase in throughput. Our results establish FP8 as a practical and robust alternative to BF16, and we will release the accompanying code to further democratize large-scale model training.",
+      "url": "https://arxiv.org/abs/2509.22536",
+      "published_date": "2025-10-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "training",
+        "fp8",
+        "recipe",
+        "efficiency",
+        "fp8 training",
+        "models",
+        "training recipe",
+        "bf16",
+        "comprehensive",
+        "computational"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the computational cost of training. The development of a comprehensive, open-source FP8 training recipe, demonstrating stability and lossless performance compared to BF16, is a significant achievement. The hybrid-granularity quantization strategy appears well-considered, and the scale of the experiments (160B token corpus) adds credibility. The high sentiment score reflects the current research trend towards efficient LLM training.",
+      "paper_id": "c2de746b58cef7bf7c1d52d4872ff66e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-20T09:30:07.729646"
 }

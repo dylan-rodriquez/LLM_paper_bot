@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### AutoGraph-R1: End-to-End Reinforcement Learning for Knowledge Graph Construction
+
+**Score:** 90.0 | **Published:** 2025-10-20 | **Authors:** Hong Ting Tsang, Jiaxin Bai, Haoyu Huang, Qiao Xiao, Tianshi Zheng, Baixuan Xu, Shujie Liu, Yangqiu Song
+
+arXiv:2510.15339v1 Announce Type: new 
+Abstract: Building effective knowledge graphs (KGs) for Retrieval-Augmented Generation (RAG) is pivotal for advancing question answering (QA) systems. However, i...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.15339) | [📝 Analysis](3e376d4626cba3af88696a3fd9409d86.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-20 09:30:07 UTC*

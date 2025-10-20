@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### VocalBench-DF: A Benchmark for Evaluating Speech LLM Robustness to Disfluency
+
+**Score:** 90.0 | **Published:** 2025-10-20 | **Authors:** Hongcheng Liu, Yixuan Hou, Heyang Liu, Yuhao Wang, Yanfeng Wang, Yu Wang
+
+arXiv:2510.15406v1 Announce Type: new 
+Abstract: While Speech Large Language Models (Speech-LLMs) show strong performance in many applications, their robustness is critically under-tested, especially ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.15406) | [📝 Analysis](726d80c797160fde0ffb707a80c70f72.md)
+
+---
+
+### VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications
+
+**Score:** 90.0 | **Published:** 2025-10-20 | **Authors:** Wei He, Yueqing Sun, Hongyan Hao, Xueyuan Hao, Zhikang Xia, Qi Gu, Chengcheng Han, Dengchang Zhao, Hui Su, Kefeng Zhang, Man Gao, Xi Su, Xiaodong Cai, Xunliang Cai, Yu Yang, Yunke Zhao
+
+arXiv:2509.26490v2 Announce Type: replace 
+Abstract: As LLM-based agents are increasingly deployed in real-life scenarios, existing benchmarks fail to capture their inherent complexity of handling ext...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.26490) | [📝 Analysis](6af6a7b9920064f6cbc9853b467a15a9.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-20 09:30:07 UTC*

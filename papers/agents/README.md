@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### MAGPIE: A benchmark for Multi-AGent contextual PrIvacy Evaluation
+
+**Score:** 92.0 | **Published:** 2025-10-20 | **Authors:** Gurusha Juneja, Jayanth Naga Sai Pasupulati, Alon Albalak, Wenyue Hua, William Yang Wang
+
+arXiv:2510.15186v1 Announce Type: cross 
+Abstract: A core challenge for autonomous LLM agents in collaborative settings is balancing robust privacy understanding and preservation alongside task effica...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.15186) | [📝 Analysis](417072074f2ca8f635315ba29c7d6d06.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-20 09:30:07 UTC*
