@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios
+
+**Score:** 92.0 | **Published:** 2025-10-20 | **Authors:** Yao Huang, Yitong Sun, Yichi Zhang, Ruochen Zhang, Yinpeng Dong, Xingxing Wei
+
+arXiv:2510.15501v1 Announce Type: new 
+Abstract: Despite the remarkable advances of Large Language Models (LLMs) across diverse cognitive tasks, the rapid enhancement of these capabilities also introd...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.15501) | [📝 Analysis](6c6530f41673f92844c59079193c12c7.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-20 09:30:07 UTC*
