@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "ChiKhaPo: A Large-Scale Multilingual Benchmark for Evaluating Lexical Comprehension and Generation in Large Language Models",
+      "authors": [
+        "Emily Chang, Niyati Bafna"
+      ],
+      "abstract": "arXiv:2510.16928v1 Announce Type: new \nAbstract: Existing benchmarks for large language models (LLMs) are largely restricted to high- or mid-resource languages, and often evaluate performance on higher-order tasks in reasoning and generation. However, plenty of evidence points to the fact that LLMs lack basic linguistic competence in the vast majority of the world's 3800+ written languages. We introduce ChiKhaPo, consisting of 8 subtasks of varying difficulty designed to evaluate the lexical comprehension and generation abilities of generative models. ChiKhaPo draws on existing lexicons, monolingual data, and bitext, and provides coverage for 2700+ languages for 2 subtasks, surpassing any existing benchmark in terms of language coverage. We further show that 6 SOTA models struggle on our benchmark, and discuss the factors contributing to performance scores, including language family, language resourcedness, task, and comprehension versus generation directions. With ChiKhaPo, we hope to enable and encourage the massively multilingual benchmarking of LLMs.",
+      "url": "https://arxiv.org/abs/2510.16928",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "language",
+        "chikhapo",
+        "generation",
+        "models",
+        "benchmark",
+        "comprehension",
+        "existing",
+        "languages",
+        "large",
+        "llms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of benchmarks for low-resource languages. The creation of ChiKhaPo, with its extensive language coverage, is a significant undertaking. While the methodology appears sound based on the abstract, the actual implementation details and results will be key to fully assessing its rigor; the reported struggles of SOTA models are a positive indicator. The focus on lexical comprehension and generation is a valuable contribution, as these are fundamental capabilities often overlooked.",
+      "paper_id": "4ff353e8474090cab5e7211a5e1e880d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-21T09:31:30.606686"
 }

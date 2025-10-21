@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### ChiKhaPo: A Large-Scale Multilingual Benchmark for Evaluating Lexical Comprehension and Generation in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-21 | **Authors:** Emily Chang, Niyati Bafna
+
+arXiv:2510.16928v1 Announce Type: new 
+Abstract: Existing benchmarks for large language models (LLMs) are largely restricted to high- or mid-resource languages, and often evaluate performance on highe...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.16928) | [📝 Analysis](4ff353e8474090cab5e7211a5e1e880d.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-21 09:31:30 UTC*

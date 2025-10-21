@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Yu Ying Chiu, Michael S. Lee, Rachel Calcott, Brandon Handoko, Paul de Font-Reaulx, Paula Rodriguez, Chen Bo Calvin Zhang, Ziwen Han, Udari Madhushani Sehwag, Yash Maurya, Christina Q Knight, Harry R. Lloyd, Florence Bacus, Mantas Mazeika, Bing Liu, Yejin Choi, Mitchell L Gordon, Sydney Levine
+
+arXiv:2510.16380v1 Announce Type: new 
+Abstract: As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is i...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.16380) | [📝 Analysis](a48329343f1e8f0a80375a8f942162d3.md)
+
+---
+
+### The Chameleon Nature of LLMs: Quantifying Multi-Turn Stance Instability in Search-Enabled Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Shivam Ratnakar, Sanjay Raghavendra
+
+arXiv:2510.16712v1 Announce Type: new 
+Abstract: Integration of Large Language Models with search/retrieval engines has become ubiquitous, yet these systems harbor a critical vulnerability that underm...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.16712) | [📝 Analysis](f5f57cce01064daee9145d0c99cc06e0.md)
+
+---
+
+### SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Tiancheng Hu, Joachim Baumann, Lorenzo Lupo, Dirk Hovy, Nigel Collier, Paul R\"ottger
+
+arXiv:2510.17516v1 Announce Type: new 
+Abstract: Large language model (LLM) simulations of human behavior have the potential to revolutionize the social and behavioral sciences, if and only if they fa...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17516) | [📝 Analysis](6e902fb6f5c71c6fdc79dc936dbb30eb.md)
+
+---
+
+### Evaluating Medical LLMs by Levels of Autonomy: A Survey Moving from Benchmarks to Applications
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Xiao Ye, Jacob Dineen, Zhaonan Li, Zhikun Xu, Weiyu Chen, Shijie Lu, Yuxi Huang, Ming Shen, Phu Tran, Ji-Eun Irene Yum, Muhammad Ali Khan, Muhammad Umar Afzal, Irbaz Bin Riaz, Ben Zhou
+
+arXiv:2510.17764v1 Announce Type: new 
+Abstract: Medical Large language models achieve strong scores on standard benchmarks; however, the transfer of those results to safe and reliable performance in ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17764) | [📝 Analysis](356d3a973784ad04e9aafea8361dcda2.md)
+
+---
+
+### Beacon: Single-Turn Diagnosis and Mitigation of Latent Sycophancy in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-21 | **Authors:** Sanskar Pandey, Ruhaan Chopra, Angkul Puniya, Sohom Pal
+
+arXiv:2510.16727v1 Announce Type: new 
+Abstract: Large language models internalize a structural trade-off between truthfulness and obsequious flattery, emerging from reward optimization that conflates...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.16727) | [📝 Analysis](72339a16672c0c09a92dd84addb58624.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-21 09:31:30 UTC*

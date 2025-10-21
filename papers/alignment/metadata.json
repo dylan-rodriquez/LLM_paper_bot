@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "From Preferences to Prejudice: The Role of Alignment Tuning in Shaping Social Bias in Video Diffusion Models",
+      "authors": [
+        "Zefan Cai, Haoyi Qiu, Haozhe Zhao, Ke Wan, Jiachen Li, Jiuxiang Gu, Wen Xiao, Nanyun Peng, Junjie Hu"
+      ],
+      "abstract": "arXiv:2510.17247v1 Announce Type: new \nAbstract: Recent advances in video diffusion models have significantly enhanced text-to-video generation, particularly through alignment tuning using reward models trained on human preferences. While these methods improve visual quality, they can unintentionally encode and amplify social biases. To systematically trace how such biases evolve throughout the alignment pipeline, we introduce VideoBiasEval, a comprehensive diagnostic framework for evaluating social representation in video generation. Grounded in established social bias taxonomies, VideoBiasEval employs an event-based prompting strategy to disentangle semantic content (actions and contexts) from actor attributes (gender and ethnicity). It further introduces multi-granular metrics to evaluate (1) overall ethnicity bias, (2) gender bias conditioned on ethnicity, (3) distributional shifts in social attributes across model variants, and (4) the temporal persistence of bias within videos. Using this framework, we conduct the first end-to-end analysis connecting biases in human preference datasets, their amplification in reward models, and their propagation through alignment-tuned video diffusion models. Our results reveal that alignment tuning not only strengthens representational biases but also makes them temporally stable, producing smoother yet more stereotyped portrayals. These findings highlight the need for bias-aware evaluation and mitigation throughout the alignment process to ensure fair and socially responsible video generation.",
+      "url": "https://arxiv.org/abs/2510.17247",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "bias",
+        "video",
+        "models",
+        "social",
+        "biases",
+        "alignment tuning",
+        "diffusion",
+        "diffusion models",
+        "ethnicity"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the amplification of social biases in video generation models. The introduction of VideoBiasEval, a comprehensive diagnostic framework, is a strong methodological contribution. The focus on disentangling semantic content from actor attributes and the multi-granular metrics demonstrate a rigorous approach, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "37dc933554f324caf1f6a744df6514bc"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-21T09:31:30.609763"
 }

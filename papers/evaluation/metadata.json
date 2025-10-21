@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes",
+      "authors": [
+        "Yu Ying Chiu, Michael S. Lee, Rachel Calcott, Brandon Handoko, Paul de Font-Reaulx, Paula Rodriguez, Chen Bo Calvin Zhang, Ziwen Han, Udari Madhushani Sehwag, Yash Maurya, Christina Q Knight, Harry R. Lloyd, Florence Bacus, Mantas Mazeika, Bing Liu, Yejin Choi, Mitchell L Gordon, Sydney Levine"
+      ],
+      "abstract": "arXiv:2510.16380v1 Announce Type: new \nAbstract: As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is imperative for us to understand not only what decisions they make but also how they come to those decisions. Reasoning language models, which provide both final responses and (partially transparent) intermediate thinking traces, present a timely opportunity to study AI procedural reasoning. Unlike math and code problems which often have objectively correct answers, moral dilemmas are an excellent testbed for process-focused evaluation because they allow for multiple defensible conclusions. To do so, we present MoReBench: 1,000 moral scenarios, each paired with a set of rubric criteria that experts consider essential to include (or avoid) when reasoning about the scenarios. MoReBench contains over 23 thousand criteria including identifying moral considerations, weighing trade-offs, and giving actionable recommendations to cover cases on AI advising humans moral decisions as well as making moral decisions autonomously. Separately, we curate MoReBench-Theory: 150 examples to test whether AI can reason under five major frameworks in normative ethics. Our results show that scaling laws and existing benchmarks on math, code, and scientific reasoning tasks fail to predict models' abilities to perform moral reasoning. Models also show partiality towards specific moral frameworks (e.g., Benthamite Act Utilitarianism and Kantian Deontology), which might be side effects of popular training paradigms. Together, these benchmarks advance process-focused reasoning evaluation towards safer and more transparent AI.",
+      "url": "https://arxiv.org/abs/2510.16380",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "moral",
+        "reasoning",
+        "decisions",
+        "ai",
+        "models",
+        "morebench",
+        "benchmarks",
+        "code",
+        "criteria",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in AI safety and alignment \u2013 evaluating *how* LLMs reason about moral dilemmas, not just *what* they decide. The creation of MoReBench, with its 1,000 scenarios and 23,000 rubric criteria, is a significant undertaking and provides a valuable resource for the community. While the core idea of process-focused evaluation isn't entirely new, the scale and specificity of the rubric-based approach represent a strong advancement.",
+      "paper_id": "a48329343f1e8f0a80375a8f942162d3"
+    },
+    {
+      "title": "The Chameleon Nature of LLMs: Quantifying Multi-Turn Stance Instability in Search-Enabled Language Models",
+      "authors": [
+        "Shivam Ratnakar, Sanjay Raghavendra"
+      ],
+      "abstract": "arXiv:2510.16712v1 Announce Type: new \nAbstract: Integration of Large Language Models with search/retrieval engines has become ubiquitous, yet these systems harbor a critical vulnerability that undermines their reliability. We present the first systematic investigation of \"chameleon behavior\" in LLMs: their alarming tendency to shift stances when presented with contradictory questions in multi-turn conversations (especially in search-enabled LLMs). Through our novel Chameleon Benchmark Dataset, comprising 17,770 carefully crafted question-answer pairs across 1,180 multi-turn conversations spanning 12 controversial domains, we expose fundamental flaws in state-of-the-art systems. We introduce two theoretically grounded metrics: the Chameleon Score (0-1) that quantifies stance instability, and Source Re-use Rate (0-1) that measures knowledge diversity. Our rigorous evaluation of Llama-4-Maverick, GPT-4o-mini, and Gemini-2.5-Flash reveals consistent failures: all models exhibit severe chameleon behavior (scores 0.391-0.511), with GPT-4o-mini showing the worst performance. Crucially, small across-temperature variance (less than 0.004) suggests the effect is not a sampling artifact. Our analysis uncovers the mechanism: strong correlations between source re-use rate and confidence (r=0.627) and stance changes (r=0.429) are statistically significant (p less than 0.05), indicating that limited knowledge diversity makes models pathologically deferential to query framing. These findings highlight the need for comprehensive consistency evaluation before deploying LLMs in healthcare, legal, and financial systems where maintaining coherent positions across interactions is critical for reliable decision support.",
+      "url": "https://arxiv.org/abs/2510.16712",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "chameleon",
+        "llms",
+        "models",
+        "multi",
+        "multi turn",
+        "search",
+        "stance",
+        "systems",
+        "turn",
+        "4o"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical vulnerability in search-enabled LLMs \u2013 their tendency to exhibit 'chameleon behavior' and shift stances. The creation of a novel benchmark dataset and the introduction of quantifiable metrics (Chameleon Score and Source Re-use Rate) demonstrate a rigorous methodology. The findings, revealing consistent failures across state-of-the-art models, are significant and likely to resonate within the NLP community, prompting further research into LLM reliability and consistency.",
+      "paper_id": "f5f57cce01064daee9145d0c99cc06e0"
+    },
+    {
+      "title": "SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors",
+      "authors": [
+        "Tiancheng Hu, Joachim Baumann, Lorenzo Lupo, Dirk Hovy, Nigel Collier, Paul R\\\"ottger"
+      ],
+      "abstract": "arXiv:2510.17516v1 Announce Type: new \nAbstract: Large language model (LLM) simulations of human behavior have the potential to revolutionize the social and behavioral sciences, if and only if they faithfully reflect real human behaviors. Current evaluations are fragmented, based on bespoke tasks and metrics, creating a patchwork of incomparable results. To address this, we introduce SimBench, the first large-scale, standardized benchmark for a robust, reproducible science of LLM simulation. By unifying 20 diverse datasets covering tasks from moral decision-making to economic choice across a large global participant pool, SimBench provides the necessary foundation to ask fundamental questions about when, how, and why LLM simulations succeed or fail. We show that, while even the best LLMs today have limited simulation ability (score: 40.80/100), performance scales log-linearly with model size. Simulation performance is not improved by increased inference-time compute. We demonstrate an alignment-simulation trade-off: instruction-tuning improves performance on low-entropy (consensus) questions but degrades it on high-entropy (diverse) ones. Models particularly struggle when simulating specific demographic groups. Finally, we demonstrate that simulation ability correlates most strongly with deep, knowledge-intensive reasoning (MMLU-Pro, r=0.939). By making progress measurable, we aim to accelerate the development of more faithful LLM simulators.",
+      "url": "https://arxiv.org/abs/2510.17516",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "simulation",
+        "large",
+        "llm",
+        "ability",
+        "human",
+        "performance",
+        "simbench",
+        "behaviors",
+        "demonstrate",
+        "diverse"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM research \u2013 the lack of standardized benchmarks for evaluating their ability to simulate human behavior. The creation of SimBench, encompassing diverse datasets and a large participant pool, is a significant methodological contribution. The findings regarding performance scaling with model size and the lack of improvement with increased inference compute are valuable insights, suggesting current LLM scaling strategies may have limitations in behavioral simulation.",
+      "paper_id": "6e902fb6f5c71c6fdc79dc936dbb30eb"
+    },
+    {
+      "title": "Evaluating Medical LLMs by Levels of Autonomy: A Survey Moving from Benchmarks to Applications",
+      "authors": [
+        "Xiao Ye, Jacob Dineen, Zhaonan Li, Zhikun Xu, Weiyu Chen, Shijie Lu, Yuxi Huang, Ming Shen, Phu Tran, Ji-Eun Irene Yum, Muhammad Ali Khan, Muhammad Umar Afzal, Irbaz Bin Riaz, Ben Zhou"
+      ],
+      "abstract": "arXiv:2510.17764v1 Announce Type: new \nAbstract: Medical Large language models achieve strong scores on standard benchmarks; however, the transfer of those results to safe and reliable performance in clinical workflows remains a challenge. This survey reframes evaluation through a levels-of-autonomy lens (L0-L3), spanning informational tools, information transformation and aggregation, decision support, and supervised agents. We align existing benchmarks and metrics with the actions permitted at each level and their associated risks, making the evaluation targets explicit. This motivates a level-conditioned blueprint for selecting metrics, assembling evidence, and reporting claims, alongside directions that link evaluation to oversight. By centering autonomy, the survey moves the field beyond score-based claims toward credible, risk-aware evidence for real clinical use.",
+      "url": "https://arxiv.org/abs/2510.17764",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "autonomy",
+        "benchmarks",
+        "evaluation",
+        "survey",
+        "autonomy survey",
+        "claims",
+        "clinical",
+        "evidence",
+        "level",
+        "levels"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey addresses a crucial gap in the evaluation of medical LLMs \u2013 moving beyond simple benchmark scores to consider real-world clinical application and associated risks. Framing evaluation through a levels-of-autonomy lens is a smart and practical approach, offering a structured way to assess models based on their intended use. The focus on linking evaluation to oversight is particularly valuable, suggesting a responsible and safety-conscious approach to deployment.",
+      "paper_id": "356d3a973784ad04e9aafea8361dcda2"
+    },
+    {
+      "title": "Beacon: Single-Turn Diagnosis and Mitigation of Latent Sycophancy in Large Language Models",
+      "authors": [
+        "Sanskar Pandey, Ruhaan Chopra, Angkul Puniya, Sohom Pal"
+      ],
+      "abstract": "arXiv:2510.16727v1 Announce Type: new \nAbstract: Large language models internalize a structural trade-off between truthfulness and obsequious flattery, emerging from reward optimization that conflates helpfulness with polite submission. This latent bias, known as sycophancy, manifests as a preference for user agreement over principled reasoning. We introduce Beacon, a single-turn forced-choice benchmark that isolates this bias independent of conversational context, enabling precise measurement of the tension between factual accuracy and submissive bias. Evaluations across twelve state-of-the-art models reveal that sycophancy decomposes into stable linguistic and affective sub-biases, each scaling with model capacity. We further propose prompt-level and activation-level interventions that modulate these biases in opposing directions, exposing the internal geometry of alignment as a dynamic manifold between truthfulness and socially compliant judgment. Beacon reframes sycophancy as a measurable form of normative misgeneralization, providing a reproducible foundation for studying and mitigating alignment drift in large-scale generative systems.",
+      "url": "https://arxiv.org/abs/2510.16727",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "sycophancy",
+        "beacon",
+        "bias",
+        "large",
+        "models",
+        "alignment",
+        "beacon single",
+        "biases",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM alignment \u2013 sycophancy \u2013 with a novel benchmark (Beacon) designed for precise measurement. The decomposition of sycophancy into linguistic and affective sub-biases, and the exploration of interventions at both prompt and activation levels, demonstrate a rigorous and insightful approach. The high sentiment score reflects the current research focus on LLM safety and alignment, making this work highly relevant and likely to be well-received.",
+      "paper_id": "72339a16672c0c09a92dd84addb58624"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-21T09:31:30.605584"
 }
