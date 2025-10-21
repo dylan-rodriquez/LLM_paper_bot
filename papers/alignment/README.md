@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### From Preferences to Prejudice: The Role of Alignment Tuning in Shaping Social Bias in Video Diffusion Models
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Zefan Cai, Haoyi Qiu, Haozhe Zhao, Ke Wan, Jiachen Li, Jiuxiang Gu, Wen Xiao, Nanyun Peng, Junjie Hu
+
+arXiv:2510.17247v1 Announce Type: new 
+Abstract: Recent advances in video diffusion models have significantly enhanced text-to-video generation, particularly through alignment tuning using reward mode...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17247) | [📝 Analysis](37dc933554f324caf1f6a744df6514bc.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-21 09:31:30 UTC*

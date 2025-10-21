@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "SafeSearch: Do Not Trade Safety for Utility in LLM Search Agents",
+      "authors": [
+        "Qiusi Zhan, Angeline Budiman-Chan, Abdelrahman Zayed, Xingzhi Guo, Daniel Kang, Joo-Kyung Kim"
+      ],
+      "abstract": "arXiv:2510.17017v1 Announce Type: new \nAbstract: Large language model (LLM) based search agents iteratively generate queries, retrieve external information, and reason to answer open-domain questions. While researchers have primarily focused on improving their utility, their safety behaviors remain underexplored. In this paper, we first evaluate search agents using red-teaming datasets and find that they are more likely to produce harmful outputs than base LLMs. For example, when asked ``How can I track someone's location without their consent?'', a base model refuses, whereas a search agent designed to retrieve and cite sources may lower its refusal threshold, fetch documents (e.g., court cases), and, once appended, synthesize them into an informative yet unsafe summary. We further show that utility-oriented fine-tuning intensifies this risk, motivating joint alignment of safety and utility. We present SafeSearch, a multi-objective reinforcement learning approach that couples a final-output safety/utility reward with a novel query-level shaping term that penalizes unsafe queries and rewards safe ones. Experiments show that SafeSearch reduces agent harmfulness by over 70% across three red-teaming datasets while producing safe, helpful responses, and matches the QA performance of a utility-only finetuned agent; further analyses confirm the effectiveness of the query-level reward in jointly improving safety and utility.",
+      "url": "https://arxiv.org/abs/2510.17017",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "utility",
+        "safety",
+        "safety utility",
+        "search",
+        "agent",
+        "agents",
+        "safesearch",
+        "search agents",
+        "base",
+        "datasets"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial and timely problem: the safety risks introduced by equipping LLMs with search capabilities. The finding that search agents are *more* harmful than base LLMs is significant, and the motivation for joint safety/utility alignment is well-articulated. While the 'SafeSearch' approach itself isn't fully detailed in the abstract, the framing of a multi-objective RL solution suggests a reasonable path forward, and the problem is highly relevant to current LLM research trends.",
+      "paper_id": "5294ea12c7308555c7885024ca99e8be"
+    },
+    {
+      "title": "Agentic Reinforcement Learning for Search is Unsafe",
+      "authors": [
+        "Yushi Yang, Shreyansh Padarha, Andrew Lee, Adam Mahdi"
+      ],
+      "abstract": "arXiv:2510.17431v1 Announce Type: new \nAbstract: Agentic reinforcement learning (RL) trains large language models to autonomously call tools during reasoning, with search as the most common application. These models excel at multi-step reasoning tasks, but their safety properties are not well understood. In this study, we show that RL-trained search models inherit refusal from instruction tuning and often deflect harmful requests by turning them into safe queries. However, this safety is fragile. Two simple attacks, one that forces the model to begin response with search (Search attack), another that encourages models to repeatedly search (Multi-search attack), trigger cascades of harmful searches and answers. Across two model families (Qwen, Llama) with both local and web search, these attacks lower refusal rates by up to 60.0%, answer safety by 82.5%, and search-query safety by 82.4%. The attacks succeed by triggering models to generate harmful, request-mirroring search queries before they can generate the inherited refusal tokens. This exposes a core weakness of current RL training: it rewards continued generation of effective queries without accounting for their harmfulness. As a result, RL search models have vulnerabilities that users can easily exploit, making it urgent to develop safety-aware agentic RL pipelines optimising for safe search.",
+      "url": "https://arxiv.org/abs/2510.17431",
+      "published_date": "2025-10-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "search",
+        "models",
+        "rl",
+        "safety",
+        "agentic",
+        "attacks",
+        "harmful",
+        "queries",
+        "refusal",
+        "82"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical safety concern with agentic RL, specifically its vulnerability to simple attacks that bypass built-in safety mechanisms. The methodology appears sound, demonstrating quantifiable reductions in safety metrics with clear attack strategies. The findings are timely and relevant given the increasing deployment of these models, and the clear demonstration of fragility is a significant contribution. While the attacks themselves aren't incredibly complex, the *discovery* of this fragility is novel and important.",
+      "paper_id": "7672da35b15221c345bd4cbb7aaa0e54"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-21T09:31:30.607843"
 }

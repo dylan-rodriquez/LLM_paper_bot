@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Empowering Real-World: A Survey on the Technology, Practice, and Evaluation of LLM-driven Industry Agents
+
+**Score:** 92.0 | **Published:** 2025-10-21 | **Authors:** Yihong Tang, Kehai Chen, Liang Yue, Jinxin Fan, Caishen Zhou, Xiaoguang Li, Yuyang Zhang, Mingming Zhao, Shixiong Kai, Kaiyang Guo, Xingshan Zeng, Wenjing Cun, Lifeng Shang, Min Zhang
+
+arXiv:2510.17491v1 Announce Type: new 
+Abstract: With the rise of large language models (LLMs), LLM agents capable of autonomous reasoning, planning, and executing complex tasks have become a frontier...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17491) | [📝 Analysis](fcd1af8d38f15bc9b1f22496ee7ab189.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-21 09:31:30 UTC*
