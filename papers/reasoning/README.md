@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### BreakFun: Jailbreaking LLMs via Schema Exploitation
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Amirkia Rafiei Oskooei, Mehmet S. Aktas
+
+arXiv:2510.17904v1 Announce Type: cross 
+Abstract: The proficiency of Large Language Models (LLMs) in processing structured data and adhering to syntactic rules is a capability that drives their wides...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17904) | [📝 Analysis](b89319cd37fd7a12b7a48a1ee1913652.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*

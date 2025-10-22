@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Food4All: A Multi-Agent Framework for Real-time Free Food Discovery with Integrated Nutritional Metadata",
+      "authors": [
+        "Zhengqing Yuan, Yiyang Li, Weixiang Sun, Zheyuan Zhang, Kaiwen Shi, Keerthiram Murugesan, Yanfang Ye"
+      ],
+      "abstract": "arXiv:2510.18289v1 Announce Type: new \nAbstract: Food insecurity remains a persistent public health emergency in the United States, tightly interwoven with chronic disease, mental illness, and opioid misuse. Yet despite the existence of thousands of food banks and pantries, access remains fragmented: 1) current retrieval systems depend on static directories or generic search engines, which provide incomplete and geographically irrelevant results; 2) LLM-based chatbots offer only vague nutritional suggestions and fail to adapt to real-world constraints such as time, mobility, and transportation; and 3) existing food recommendation systems optimize for culinary diversity but overlook survival-critical needs of food-insecure populations, including immediate proximity, verified availability, and contextual barriers. These limitations risk leaving the most vulnerable individuals, those experiencing homelessness, addiction, or digital illiteracy, unable to access urgently needed resources. To address this, we introduce Food4All, the first multi-agent framework explicitly designed for real-time, context-aware free food retrieval. Food4All unifies three innovations: 1) heterogeneous data aggregation across official databases, community platforms, and social media to provide a continuously updated pool of food resources; 2) a lightweight reinforcement learning algorithm trained on curated cases to optimize for both geographic accessibility and nutritional correctness; and 3) an online feedback loop that dynamically adapts retrieval policies to evolving user needs. By bridging information acquisition, semantic analysis, and decision support, Food4All delivers nutritionally annotated and guidance at the point of need. This framework establishes an urgent step toward scalable, equitable, and intelligent systems that directly support populations facing food insecurity and its compounding health risks.",
+      "url": "https://arxiv.org/abs/2510.18289",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "food",
+        "food4all",
+        "framework",
+        "nutritional",
+        "real",
+        "retrieval",
+        "systems",
+        "time",
+        "access",
+        "agent"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a critically important problem \u2013 food insecurity \u2013 and identifies clear limitations in existing solutions. The proposed multi-agent framework appears well-motivated and tackles real-world constraints. While the abstract doesn't detail the specific novelty of the multi-agent approach itself, the integration of nutritional metadata and focus on vulnerable populations is a strong point. The potential for positive real-world impact is high, suggesting a favorable reception within the research community.",
+      "paper_id": "1b2a9e3d24e4f7a0c4fabc7ad1ab5e0d"
+    },
+    {
+      "title": "Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model",
+      "authors": [
+        "Ling Team, Anqi Shen, Baihui Li, Bin Hu, Bin Jing, Cai Chen, Chao Huang, Chao Zhang, Chaokun Yang, Cheng Lin, Chengyao Wen, Congqi Li, Deng Zhao, Dingbo Yuan, Donghai You, Fagui Mao, Fanzhuang Meng, Feng Xu, Guojie Li, Guowei Wang, Hao Dai, Haonan Zheng, Hong Liu, Jia Guo, Jiaming Liu, Jian Liu, Jianhao Fu, Jiannan Shi, Jianwen Wang, Jianxin Lai, Jin Yang, Jun Mei, Jun Zhou, Junbo Zhao, Junping Zhao, Kuan Xu, Le Su, Lei Chen, Li Tang, Liang Jiang, Liangcheng Fu, Lianhao Xu, Linfeng Shi, Lisha Liao, Longfei Zheng, Meng Li, Mingchun Chen, Qi Zuo, Qiang Cheng, Qianggang Cao, Qitao Shi, Quanrui Guo, Senlin Zhu, Shaofei Wang, Shaomian Zheng, Shuaicheng Li, Shuwei Gu, Siba Chen, Tao Wu, Tao Zhang, Tianyu Zhang, Tianyu Zhou, Tiwei Bie, Tongkai Yang, Wang Hong, Wang Ren, Weihua Chen, Wenbo Yu, Wengang Zheng, Xiangchun Wang, Xiaodong Yan, Xiaopei Wan, Xin Zhao, Xinyu Kong, Xinyu Tang, Xudong Han, Xudong Wang, Xuemin Yang, Xueyu Hu, Yalin Zhang, Yan Sun, Yicheng Shan, Yilong Wang, Yingying Xu, Yongkang Liu, Yongzhen Guo, Yuanyuan Wang, Yuchen Yan, Yuefan Wang, Yuhong Guo, Zehuan Li, Zhankai Xu, Zhe Li, Zhenduo Zhang, Zhengke Gui, Zhenxuan Pan, Zhenyu Huang, Zhenzhong Lan, Zhiqiang Ding, Zhiqiang Zhang, Zhixun Li, Zhizhen Liu, Zihao Wang, Zujie Wen"
+      ],
+      "abstract": "arXiv:2510.18855v1 Announce Type: new \nAbstract: We present Ring-1T, the first open-source, state-of-the-art thinking model with a trillion-scale parameter. It features 1 trillion total parameters and activates approximately 50 billion per token. Training such models at a trillion-parameter scale introduces unprecedented challenges, including train-inference misalignment, inefficiencies in rollout processing, and bottlenecks in the RL system. To address these, we pioneer three interconnected innovations: (1) IcePop stabilizes RL training via token-level discrepancy masking and clipping, resolving instability from training-inference mismatches; (2) C3PO++ improves resource utilization for long rollouts under a token budget by dynamically partitioning them, thereby obtaining high time efficiency; and (3) ASystem, a high-performance RL framework designed to overcome the systemic bottlenecks that impede trillion-parameter model training. Ring-1T delivers breakthrough results across critical benchmarks: 93.4 on AIME-2025, 86.72 on HMMT-2025, 2088 on CodeForces, and 55.94 on ARC-AGI-v1. Notably, it attains a silver medal-level result on the IMO-2025, underscoring its exceptional reasoning capabilities. By releasing the complete 1T parameter MoE model to the community, we provide the research community with direct access to cutting-edge reasoning capabilities. This contribution marks a significant milestone in democratizing large-scale reasoning intelligence and establishes a new baseline for open-source model performance.",
+      "url": "https://arxiv.org/abs/2510.18855",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "trillion",
+        "parameter",
+        "scale",
+        "training",
+        "1t",
+        "2025",
+        "reasoning",
+        "rl",
+        "token"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a hugely important problem \u2013 scaling RL to trillion-parameter models \u2013 and proposes three interconnected innovations to address the key challenges. The described solutions (IcePop, C3PO++, and ASystem) appear well-motivated and specifically designed for this scale, suggesting a strong methodological approach. The claim of achieving state-of-the-art results with an open-source model further strengthens its potential impact and positive reception within the community.",
+      "paper_id": "79441e9b1b24d6d70b58353147cc3cf2"
+    },
+    {
+      "title": "DCAD-2000: A Multilingual Dataset across 2000+ Languages with Data Cleaning as Anomaly Detection",
+      "authors": [
+        "Yingli Shen, Wen Lai, Shuo Wang, Xueren Zhang, Kangyang Luo, Alexander Fraser, Maosong Sun"
+      ],
+      "abstract": "arXiv:2502.11546v4 Announce Type: replace \nAbstract: The rapid development of multilingual large language models (LLMs) highlights the need for high-quality, diverse, and well-curated multilingual datasets. In this paper, we introduce DCAD-2000 (Data Cleaning as Anomaly Detection), a large-scale multilingual corpus constructed from newly extracted Common Crawl data and existing multilingual sources. DCAD-2000 covers 2,282 languages, 46.72TB of text, and 8.63 billion documents, spanning 155 high- and medium-resource languages and 159 writing scripts. To overcome the limitations of existing data cleaning approaches, which rely on manually designed heuristic thresholds, we reframe data cleaning as an anomaly detection problem. This dynamic filtering paradigm substantially improves data quality by automatically identifying and removing noisy or anomalous content. By fine-tuning LLMs on DCAD-2000, we demonstrate notable improvements in data quality, robustness of the cleaning pipeline, and downstream performance, particularly for low-resource languages across multiple multilingual benchmarks.",
+      "url": "https://arxiv.org/abs/2502.11546",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "multilingual",
+        "2000",
+        "cleaning",
+        "data cleaning",
+        "dcad",
+        "dcad 2000",
+        "languages",
+        "anomaly",
+        "anomaly detection"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the availability of high-quality multilingual data. Reframing data cleaning as anomaly detection is a clever and potentially impactful approach, moving beyond traditional heuristic methods. The scale of the dataset (2,282 languages, 46.72TB) is impressive and suggests a substantial contribution to the field. The reported improvements in data quality and robustness through LLM fine-tuning further strengthen the paper's potential.",
+      "paper_id": "077d397a71a3a66a240421f755814334"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-22T09:30:16.697969"
 }

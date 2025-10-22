@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Building Trust in Clinical LLMs: Bias Analysis and Dataset Transparency",
+      "authors": [
+        "Svetlana Maslenkova, Clement Christophe, Marco AF Pimentel, Tathagata Raha, Muhammad Umar Salman, Ahmed Al Mahrooqi, Avani Gupta, Shadab Khan, Ronnie Rajan, Praveenkumar Kanithi"
+      ],
+      "abstract": "arXiv:2510.18556v1 Announce Type: new \nAbstract: Large language models offer transformative potential for healthcare, yet their responsible and equitable development depends critically on a deeper understanding of how training data characteristics influence model behavior, including the potential for bias. Current practices in dataset curation and bias assessment often lack the necessary transparency, creating an urgent need for comprehensive evaluation frameworks to foster trust and guide improvements. In this study, we present an in-depth analysis of potential downstream biases in clinical language models, with a focus on differential opioid prescription tendencies across diverse demographic groups, such as ethnicity, gender, and age. As part of this investigation, we introduce HC4: Healthcare Comprehensive Commons Corpus, a novel and extensively curated pretraining dataset exceeding 89 billion tokens. Our evaluation leverages both established general benchmarks and a novel, healthcare-specific methodology, offering crucial insights to support fairness and safety in clinical AI applications.",
+      "url": "https://arxiv.org/abs/2510.18556",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "clinical",
+        "dataset",
+        "healthcare",
+        "potential",
+        "analysis",
+        "comprehensive",
+        "evaluation",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial issue in the rapidly evolving field of clinical LLMs \u2013 bias and lack of transparency. The introduction of a large, curated dataset (HC4) is a significant contribution, and the focus on differential opioid prescription tendencies is a particularly relevant and impactful application. The methodology appears sound, and the abstract suggests a rigorous evaluation framework, indicating high potential for publication and positive reception within the community.",
+      "paper_id": "6dde473f25bcb09151e12cee416f161f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-22T09:30:16.700959"
 }

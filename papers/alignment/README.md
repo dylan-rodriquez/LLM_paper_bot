@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Building Trust in Clinical LLMs: Bias Analysis and Dataset Transparency
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Svetlana Maslenkova, Clement Christophe, Marco AF Pimentel, Tathagata Raha, Muhammad Umar Salman, Ahmed Al Mahrooqi, Avani Gupta, Shadab Khan, Ronnie Rajan, Praveenkumar Kanithi
+
+arXiv:2510.18556v1 Announce Type: new 
+Abstract: Large language models offer transformative potential for healthcare, yet their responsible and equitable development depends critically on a deeper und...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18556) | [📝 Analysis](6dde473f25bcb09151e12cee416f161f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*

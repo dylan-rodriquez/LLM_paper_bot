@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Identity-Aware Large Language Models require Cultural Reasoning",
+      "authors": [
+        "Alistair Plum, Anne-Marie Lutgen, Christoph Purschke, Achim Rettinger"
+      ],
+      "abstract": "arXiv:2510.18510v1 Announce Type: new \nAbstract: Large language models have become the latest trend in natural language processing, heavily featuring in the digital tools we use every day. However, their replies often reflect a narrow cultural viewpoint that overlooks the diversity of global users. This missing capability could be referred to as cultural reasoning, which we define here as the capacity of a model to recognise culture-specific knowledge values and social norms, and to adjust its output so that it aligns with the expectations of individual users. Because culture shapes interpretation, emotional resonance, and acceptable behaviour, cultural reasoning is essential for identity-aware AI. When this capacity is limited or absent, models can sustain stereotypes, ignore minority perspectives, erode trust, and perpetuate hate. Recent empirical studies strongly suggest that current models default to Western norms when judging moral dilemmas, interpreting idioms, or offering advice, and that fine-tuning on survey data only partly reduces this tendency. The present evaluation methods mainly report static accuracy scores and thus fail to capture adaptive reasoning in context. Although broader datasets can help, they cannot alone ensure genuine cultural competence. Therefore, we argue that cultural reasoning must be treated as a foundational capability alongside factual accuracy and linguistic coherence. By clarifying the concept and outlining initial directions for its assessment, a foundation is laid for future systems to be able to respond with greater sensitivity to the complex fabric of human culture.",
+      "url": "https://arxiv.org/abs/2510.18510",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "cultural",
+        "reasoning",
+        "cultural reasoning",
+        "models",
+        "culture",
+        "language",
+        "accuracy",
+        "aware",
+        "capability",
+        "capacity"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "The abstract clearly identifies a critical issue \u2013 the cultural bias inherent in current LLMs \u2013 and its potential negative consequences. While the abstract doesn't detail novel *methods* for addressing this, the framing of 'cultural reasoning' as a necessary capability is a strong contribution. The problem's significance and potential impact on trust, fairness, and inclusivity are high, suggesting a positive reception from the community. The paper appears well-focused and timely, given the rapid deployment of LLMs.",
+      "paper_id": "a3e2f355c426c29075892620f96396ac"
+    },
+    {
+      "title": "Metrics and evaluations for computational and sustainable AI efficiency",
+      "authors": [
+        "Hongyuan Liu, Xinyang Liu, Guosheng Hu"
+      ],
+      "abstract": "arXiv:2510.17885v1 Announce Type: cross \nAbstract: The rapid advancement of Artificial Intelligence (AI) has created unprecedented demands for computational power, yet methods for evaluating the performance, efficiency, and environmental impact of deployed models remain fragmented. Current approaches often fail to provide a holistic view, making it difficult to compare and optimise systems across heterogeneous hardware, software stacks, and numeric precisions. To address this gap, we propose a unified and reproducible methodology for AI model inference that integrates computational and environmental metrics under realistic serving conditions. Our framework provides a pragmatic, carbon-aware evaluation by systematically measuring latency and throughput distributions, energy consumption, and location-adjusted carbon emissions, all while maintaining matched accuracy constraints for valid comparisons. We apply this methodology to multi-precision models across diverse hardware platforms, from data-centre accelerators like the GH200 to consumer-level GPUs such as the RTX 4090, running on mainstream software stacks including PyTorch, TensorRT, and ONNX Runtime. By systematically categorising these factors, our work establishes a rigorous benchmarking framework that produces decision-ready Pareto frontiers, clarifying the trade-offs between accuracy, latency, energy, and carbon. The accompanying open-source code enables independent verification and facilitates adoption, empowering researchers and practitioners to make evidence-based decisions for sustainable AI deployment.",
+      "url": "https://arxiv.org/abs/2510.17885",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.PF"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "carbon",
+        "computational",
+        "accuracy",
+        "efficiency",
+        "energy",
+        "environmental",
+        "framework",
+        "hardware",
+        "latency"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the need for comprehensive evaluation of AI efficiency, encompassing computational cost, energy consumption, and carbon emissions. The proposed unified methodology appears well-structured and pragmatic, aiming for reproducibility and realistic serving conditions. While the core idea of combining these metrics isn't entirely novel, the focus on a holistic, carbon-aware evaluation and application to multi-precision models across diverse hardware is a strong contribution. The paper's relevance to current sustainability concerns and the growing cost of AI training/inference suggests a positive reception within the community.",
+      "paper_id": "b9983ef5a5f6c997cae1a951a4902fd0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-22T09:30:16.700096"
 }
