@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Identity-Aware Large Language Models require Cultural Reasoning
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Alistair Plum, Anne-Marie Lutgen, Christoph Purschke, Achim Rettinger
+
+arXiv:2510.18510v1 Announce Type: new 
+Abstract: Large language models have become the latest trend in natural language processing, heavily featuring in the digital tools we use every day. However, th...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18510) | [📝 Analysis](a3e2f355c426c29075892620f96396ac.md)
+
+---
+
+### Metrics and evaluations for computational and sustainable AI efficiency
+
+**Score:** 90.0 | **Published:** 2025-10-22 | **Authors:** Hongyuan Liu, Xinyang Liu, Guosheng Hu
+
+arXiv:2510.17885v1 Announce Type: cross 
+Abstract: The rapid advancement of Artificial Intelligence (AI) has created unprecedented demands for computational power, yet methods for evaluating the perfo...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17885) | [📝 Analysis](b9983ef5a5f6c997cae1a951a4902fd0.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*

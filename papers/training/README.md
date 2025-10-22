@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Food4All: A Multi-Agent Framework for Real-time Free Food Discovery with Integrated Nutritional Metadata
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Zhengqing Yuan, Yiyang Li, Weixiang Sun, Zheyuan Zhang, Kaiwen Shi, Keerthiram Murugesan, Yanfang Ye
+
+arXiv:2510.18289v1 Announce Type: new 
+Abstract: Food insecurity remains a persistent public health emergency in the United States, tightly interwoven with chronic disease, mental illness, and opioid ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18289) | [📝 Analysis](1b2a9e3d24e4f7a0c4fabc7ad1ab5e0d.md)
+
+---
+
+### Every Step Evolves: Scaling Reinforcement Learning for Trillion-Scale Thinking Model
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Ling Team, Anqi Shen, Baihui Li, Bin Hu, Bin Jing, Cai Chen, Chao Huang, Chao Zhang, Chaokun Yang, Cheng Lin, Chengyao Wen, Congqi Li, Deng Zhao, Dingbo Yuan, Donghai You, Fagui Mao, Fanzhuang Meng, Feng Xu, Guojie Li, Guowei Wang, Hao Dai, Haonan Zheng, Hong Liu, Jia Guo, Jiaming Liu, Jian Liu, Jianhao Fu, Jiannan Shi, Jianwen Wang, Jianxin Lai, Jin Yang, Jun Mei, Jun Zhou, Junbo Zhao, Junping Zhao, Kuan Xu, Le Su, Lei Chen, Li Tang, Liang Jiang, Liangcheng Fu, Lianhao Xu, Linfeng Shi, Lisha Liao, Longfei Zheng, Meng Li, Mingchun Chen, Qi Zuo, Qiang Cheng, Qianggang Cao, Qitao Shi, Quanrui Guo, Senlin Zhu, Shaofei Wang, Shaomian Zheng, Shuaicheng Li, Shuwei Gu, Siba Chen, Tao Wu, Tao Zhang, Tianyu Zhang, Tianyu Zhou, Tiwei Bie, Tongkai Yang, Wang Hong, Wang Ren, Weihua Chen, Wenbo Yu, Wengang Zheng, Xiangchun Wang, Xiaodong Yan, Xiaopei Wan, Xin Zhao, Xinyu Kong, Xinyu Tang, Xudong Han, Xudong Wang, Xuemin Yang, Xueyu Hu, Yalin Zhang, Yan Sun, Yicheng Shan, Yilong Wang, Yingying Xu, Yongkang Liu, Yongzhen Guo, Yuanyuan Wang, Yuchen Yan, Yuefan Wang, Yuhong Guo, Zehuan Li, Zhankai Xu, Zhe Li, Zhenduo Zhang, Zhengke Gui, Zhenxuan Pan, Zhenyu Huang, Zhenzhong Lan, Zhiqiang Ding, Zhiqiang Zhang, Zhixun Li, Zhizhen Liu, Zihao Wang, Zujie Wen
+
+arXiv:2510.18855v1 Announce Type: new 
+Abstract: We present Ring-1T, the first open-source, state-of-the-art thinking model with a trillion-scale parameter. It features 1 trillion total parameters and...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18855) | [📝 Analysis](79441e9b1b24d6d70b58353147cc3cf2.md)
+
+---
+
+### DCAD-2000: A Multilingual Dataset across 2000+ Languages with Data Cleaning as Anomaly Detection
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Yingli Shen, Wen Lai, Shuo Wang, Xueren Zhang, Kangyang Luo, Alexander Fraser, Maosong Sun
+
+arXiv:2502.11546v4 Announce Type: replace 
+Abstract: The rapid development of multilingual large language models (LLMs) highlights the need for high-quality, diverse, and well-curated multilingual dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.11546) | [📝 Analysis](077d397a71a3a66a240421f755814334.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*

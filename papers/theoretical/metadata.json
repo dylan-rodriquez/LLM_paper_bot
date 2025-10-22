@@ -159,7 +159,71 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Does GenAI Rewrite How We Write? An Empirical Study on Two-Million Preprints",
+      "authors": [
+        "Minfeng Qi, Zhongmin Cao, Qin Wang, Ningran Li, Tianqing Zhu"
+      ],
+      "abstract": "arXiv:2510.17882v1 Announce Type: cross \nAbstract: Preprint repositories become central infrastructures for scholarly communication. Their expansion transforms how research is circulated and evaluated before journal publication. Generative large language models (LLMs) introduce a further potential disruption by altering how manuscripts are written. While speculation abounds, systematic evidence of whether and how LLMs reshape scientific publishing remains limited.\n  This paper addresses the gap through a large-scale analysis of more than 2.1 million preprints spanning 2016--2025 (115 months) across four major repositories (i.e., arXiv, bioRxiv, medRxiv, SocArXiv). We introduce a multi-level analytical framework that integrates interrupted time-series models, collaboration and productivity metrics, linguistic profiling, and topic modeling to assess changes in volume, authorship, style, and disciplinary orientation. Our findings reveal that LLMs have accelerated submission and revision cycles, modestly increased linguistic complexity, and disproportionately expanded AI-related topics, while computationally intensive fields benefit more than others. These results show that LLMs act less as universal disruptors than as selective catalysts, amplifying existing strengths and widening disciplinary divides. By documenting these dynamics, the paper provides the first empirical foundation for evaluating the influence of generative AI on academic publishing and highlights the need for governance frameworks that preserve trust, fairness, and accountability in an AI-enabled research ecosystem.",
+      "url": "https://arxiv.org/abs/2510.17882",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "ai",
+        "arxiv",
+        "disciplinary",
+        "empirical",
+        "generative",
+        "introduce",
+        "large",
+        "linguistic",
+        "million"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a highly relevant and timely question regarding the impact of GenAI on scientific writing. The large-scale analysis using a multi-level framework is commendable, suggesting a rigorous methodology. The study's focus on preprints provides a unique window into the evolving writing landscape before peer review, and the breadth of repositories analyzed strengthens its findings. The potential for significant impact on understanding and adapting to changes in scholarly communication is high.",
+      "paper_id": "277f31065a0f96f652182e7d24732aba"
+    },
+    {
+      "title": "When Text Embedding Meets Large Language Model: A Comprehensive Survey",
+      "authors": [
+        "Zhijie Nie, Zhangchi Feng, Mingxin Li, Cunwang Zhang, Yanzhao Zhang, Dingkun Long, Richong Zhang"
+      ],
+      "abstract": "arXiv:2412.09165v4 Announce Type: replace \nAbstract: Text embedding has become a foundational technology in natural language processing (NLP) during the deep learning era, driving advancements across a wide array of downstream tasks. While many natural language understanding challenges can now be modeled using generative paradigms and leverage the robust generative and comprehension capabilities of large language models (LLMs), numerous practical applications - such as semantic matching, clustering, and information retrieval - continue to rely on text embeddings for their efficiency and effectiveness. Therefore, integrating LLMs with text embeddings has become a major research focus in recent years. In this survey, we categorize the interplay between LLMs and text embeddings into three overarching themes: (1) LLM-augmented text embedding, enhancing traditional embedding methods with LLMs; (2) LLMs as text embedders, adapting their innate capabilities for high-quality embedding; and (3) Text embedding understanding with LLMs, leveraging LLMs to analyze and interpret embeddings. By organizing recent works based on interaction patterns rather than specific downstream applications, we offer a novel and systematic overview of contributions from various research and application domains in the era of LLMs. Furthermore, we highlight the unresolved challenges that persisted in the pre-LLM era with pre-trained language models (PLMs) and explore the emerging obstacles brought forth by LLMs. Building on this analysis, we outline prospective directions for the evolution of text embedding, addressing both theoretical and practical opportunities in the rapidly advancing landscape of NLP.",
+      "url": "https://arxiv.org/abs/2412.09165",
+      "published_date": "2025-10-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "text",
+        "embedding",
+        "language",
+        "text embedding",
+        "embeddings",
+        "era",
+        "llms text",
+        "text embeddings",
+        "applications"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 the intersection of LLMs and text embeddings. The categorization into three themes (LLM-augmented, LLMs as embedders, and the third theme not yet revealed in the abstract) provides a structured approach to a complex field. While surveys are inherently less 'innovative' than novel method proposals, a comprehensive and well-executed survey is incredibly valuable, especially in a rapidly evolving area like this. The potential impact on practical applications and future research is substantial.",
+      "paper_id": "bc54bbfca0d9a3e619069524bd8acb8c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-10-22T09:30:16.701811"
 }

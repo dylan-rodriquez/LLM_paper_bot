@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Survey of Automatic Hallucination Evaluation on Natural Language Generation
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Siya Qi, Lin Gui, Yulan He, Zheng Yuan
+
+arXiv:2404.12041v4 Announce Type: replace 
+Abstract: The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model tr...
+
+[📄 Full Paper](https://arxiv.org/abs/2404.12041) | [📝 Analysis](ee80074e509f836c232e828e9da2e186.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*

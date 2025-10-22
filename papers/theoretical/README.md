@@ -2,7 +2,29 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Does GenAI Rewrite How We Write? An Empirical Study on Two-Million Preprints
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Minfeng Qi, Zhongmin Cao, Qin Wang, Ningran Li, Tianqing Zhu
+
+arXiv:2510.17882v1 Announce Type: cross 
+Abstract: Preprint repositories become central infrastructures for scholarly communication. Their expansion transforms how research is circulated and evaluated...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17882) | [📝 Analysis](277f31065a0f96f652182e7d24732aba.md)
+
+---
+
+### When Text Embedding Meets Large Language Model: A Comprehensive Survey
+
+**Score:** 92.0 | **Published:** 2025-10-22 | **Authors:** Zhijie Nie, Zhangchi Feng, Mingxin Li, Cunwang Zhang, Yanzhao Zhang, Dingkun Long, Richong Zhang
+
+arXiv:2412.09165v4 Announce Type: replace 
+Abstract: Text embedding has become a foundational technology in natural language processing (NLP) during the deep learning era, driving advancements across ...
+
+[📄 Full Paper](https://arxiv.org/abs/2412.09165) | [📝 Analysis](bc54bbfca0d9a3e619069524bd8acb8c.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +82,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-22 09:30:16 UTC*
