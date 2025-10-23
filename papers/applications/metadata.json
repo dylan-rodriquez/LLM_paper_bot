@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "OpenGuardrails: An Open-Source Context-Aware AI Guardrails Platform",
+      "authors": [
+        "Thomas Wang, Haowen Li"
+      ],
+      "abstract": "arXiv:2510.19169v1 Announce Type: cross \nAbstract: As large language models (LLMs) become increasingly integrated into real-world applications, safeguarding them against unsafe, malicious, or privacy-violating content is critically important. We present OpenGuardrails, the first open-source project to provide both a context-aware safety and manipulation detection model and a deployable platform for comprehensive AI guardrails. OpenGuardrails protects against content-safety risks, model-manipulation attacks (e.g., prompt injection, jailbreaking, code-interpreter abuse, and the generation/execution of malicious code), and data leakage. Content-safety and model-manipulation detection are implemented by a unified large model, while data-leakage identification and redaction are performed by a separate lightweight NER pipeline (e.g., Presidio-style models or regex-based detectors). The system can be deployed as a security gateway or an API-based service, with enterprise-grade, fully private deployment options. OpenGuardrails achieves state-of-the-art (SOTA) performance on safety benchmarks, excelling in both prompt and response classification across English, Chinese, and multilingual tasks. All models are released under the Apache 2.0 license for public use.",
+      "url": "https://arxiv.org/abs/2510.19169",
+      "published_date": "2025-10-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "openguardrails",
+        "safety",
+        "content",
+        "manipulation",
+        "models",
+        "ai",
+        "ai guardrails",
+        "aware",
+        "based"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the safety and security of LLMs in real-world applications. The development of an open-source, context-aware guardrails platform is a valuable contribution, particularly given the increasing risks of prompt injection and data leakage. While the approach of combining a large model for content/manipulation detection with a NER pipeline for data leakage is sensible, the novelty isn't groundbreaking, but the integration and deployability aspects are strong.",
+      "paper_id": "d319d532d10ce6f5f3dd864a4161996f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-10-23T09:29:26.193711"
 }
