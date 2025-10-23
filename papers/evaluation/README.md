@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Dynamic Evaluation for Oversensitivity in LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-23 | **Authors:** Sophia Xiao Pu, Sitao Cheng, Xin Eric Wang, William Yang Wang
+
+arXiv:2510.19005v1 Announce Type: new 
+Abstract: Oversensitivity occurs when language models defensively reject prompts that are actually benign. This behavior not only disrupts user interactions but ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19005) | [📝 Analysis](0049525aa4d5f2d0073c076c75273e27.md)
+
+---
+
+### When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation
+
+**Score:** 92.0 | **Published:** 2025-10-23 | **Authors:** Abeer Badawi, Elahe Rahimi, Md Tahmid Rahman Laskar, Sheri Grach, Lindsay Bertrand, Lames Danok, Jimmy Huang, Frank Rudzicz, Elham Dolatabadi
+
+arXiv:2510.19032v1 Announce Type: new 
+Abstract: Evaluating Large Language Models (LLMs) for mental health support is challenging due to the emotionally and cognitively complex nature of therapeutic d...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19032) | [📝 Analysis](7c66306c3feade39dd353110869ae5c4.md)
+
+---
+
+### LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K
+
+**Score:** 90.0 | **Published:** 2025-10-23 | **Authors:** Tao Yuan, Xuefei Ning, Dong Zhou, Zhijie Yang, Shiyao Li, Minghui Zhuang, Zheyue Tan, Zhuyu Yao, Dahua Lin, Boxun Li, Guohao Dai, Shengen Yan, Yu Wang
+
+arXiv:2402.05136v3 Announce Type: replace 
+Abstract: State-of-the-art large language models (LLMs) are now claiming remarkable supported context lengths of 256k or even more. In contrast, the average ...
+
+[📄 Full Paper](https://arxiv.org/abs/2402.05136) | [📝 Analysis](ed8eccfe98831c082f4484b55038e864.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-23 09:29:26 UTC*

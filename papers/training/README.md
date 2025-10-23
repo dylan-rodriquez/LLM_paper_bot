@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### DuoLens: A Framework for Robust Detection of Machine-Generated Multilingual Text and Code
+
+**Score:** 92.0 | **Published:** 2025-10-23 | **Authors:** Shriyansh Agrawal, Aidan Lau, Sanyam Shah, Ahan M R, Kevin Zhu, Sunishchal Dev, Vasu Sharma
+
+arXiv:2510.18904v1 Announce Type: new 
+Abstract: The prevalence of Large Language Models (LLMs) for generating multilingual text and source code has only increased the imperative for machine-generated...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18904) | [📝 Analysis](c7cca3a8a6d55131cbcbfe83c053496d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-23 09:29:26 UTC*

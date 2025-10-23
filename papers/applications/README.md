@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### OpenGuardrails: An Open-Source Context-Aware AI Guardrails Platform
+
+**Score:** 92.0 | **Published:** 2025-10-23 | **Authors:** Thomas Wang, Haowen Li
+
+arXiv:2510.19169v1 Announce Type: cross 
+Abstract: As large language models (LLMs) become increasingly integrated into real-world applications, safeguarding them against unsafe, malicious, or privacy-...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19169) | [📝 Analysis](d319d532d10ce6f5f3dd864a4161996f.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-23 09:29:26 UTC*
