@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Mathieu Andreux, M\"art Bakler, Yanael Barbier, Hamza Ben Chekroun, Emilien Bir\'e, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aur\'elien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund, Michael Eickenberg, Armand Fatalot, Wissem Felissi, Isaac Herring, Xavier Koegler, Erwan Le Jumeau de Kergaradec, Aur\'elien Lac, Maxime Langevin, Corentin Lauverjat, Antonio Loison, Avshalom Manevich, Axel Moyal, Axel Nguyen Kerbel, Marinela Parovic, Julien Revelle, Guillaume Richard, Mats Richter, Ronan Riochet, Mar\'ia Santos, Romain Savidan, Laurent Sifre, Maxime Theillard, Marc Thibault, Ivan Valentini, Tony Wu, Laura Yie, Kai Yuan, Jevgenij Zubovskij
+
+arXiv:2510.19949v1 Announce Type: new 
+Abstract: Building agents that generalize across web, desktop, and mobile environments remains an open challenge, as prior systems rely on environment-specific i...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19949) | [📝 Analysis](eb1640477ff684e75d6d6d66196b937c.md)
+
+---
+
+### GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Chiyu Chen, Xinhao Song, Yunkai Chai, Yang Yao, Haodong Zhao, Lijun Li, Jie Li, Yan Teng, Gongshen Liu, Yingchun Wang
+
+arXiv:2510.20333v1 Announce Type: cross 
+Abstract: Vision-Language Models (VLMs) are increasingly deployed as autonomous agents to navigate mobile graphical user interfaces (GUIs). Operating in dynami...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20333) | [📝 Analysis](69715e9f2d5976ab841acb96becd494a.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*

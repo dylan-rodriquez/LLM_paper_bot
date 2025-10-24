@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### A new wave of vehicle insurance fraud fueled by generative AI
+
+**Score:** 90.0 | **Published:** 2025-10-24 | **Authors:** Amir Hever, Itai Orr
+
+arXiv:2510.19957v1 Announce Type: new 
+Abstract: Generative AI is supercharging insurance fraud by making it easier to falsify accident evidence at scale and in rapid time. Insurance fraud is a pervas...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19957) | [📝 Analysis](5567c52711b75033e773b3dcb12deb23.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*

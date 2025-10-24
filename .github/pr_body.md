@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 10
+- **Average Significance Score:** 91.2/100
+- **Categories Updated:** 6
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,44 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
-
 ## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+- **Benchmarking Reasoning Reliability in Artificial Intelligence Models for Energy-System Analysis** (Score: 92.0)
+  - This research addresses a crucial gap in the application of AI to the energy sector – the lack of rigorous reasoning validation. The introduction of the Analytical Reliability Benchmark (ARB) with its five submetrics is a strong methodological contribution. The use of established datasets and evaluation of multiple frontier models suggests a well-planned and executed study, likely to be well-received by the AI and energy systems communities.
+- **Collective Communication for 100k+ GPUs** (Score: 92.0)
+  - This paper addresses a critical bottleneck in LLM scaling – collective communication – and proposes a new framework, NCCLX, specifically designed for extremely large GPU clusters. The focus on both training *and* inference is a strong point, and the mention of improvements on Llama4 suggests concrete results. While the abstract doesn't detail the specific innovations within NCCLX, the scale it targets and the performance claims are highly promising, indicating a well-executed and impactful research effort.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Agents (2 new papers)
+- **Surfer 2: The Next Generation of Cross-Platform Computer Use Agents** (Score: 92.0)
+  - This paper addresses a crucial challenge in AI – creating agents that can operate seamlessly across different computing environments. The reported state-of-the-art performance on multiple benchmarks, exceeding human performance with multiple attempts, is highly impressive. The integration of hierarchical context management, decoupled planning, and self-verification suggests a well-designed and robust system, indicating strong methodological rigor.
+- **GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?** (Score: 92.0)
+  - This paper addresses a highly relevant and previously underexplored security threat to mobile agents – environmental injection. The introduction of GhostEI-Bench is a strong methodological contribution, moving beyond static image assessments to a dynamic, executable environment. The potential for real-world harm (privacy leakage, financial loss) elevates the significance, and the work appears well-motivated and clearly presented based on the abstract.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Multimodal (1 new papers)
+- **A new wave of vehicle insurance fraud fueled by generative AI** (Score: 90.0)
+  - This paper addresses a highly significant and timely problem – the use of generative AI to facilitate insurance fraud. While the abstract doesn't detail novel methodologies *within* the paper itself, the identification of this emerging threat is valuable. The potential impact on the insurance industry is substantial, and the discussion of current mitigation strategies suggests a practical focus. The limited detail in the abstract prevents a higher quality/innovation score.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Alignment (2 new papers)
+- **LLMs can hide text in other text of the same length.ipynb** (Score: 90.0)
+  - This research identifies a concerning vulnerability in LLMs – the ability to conceal messages within seemingly innocuous text. The problem is highly significant given the increasing reliance on LLM-generated content and the potential for malicious use. While the core idea isn't entirely novel (steganography exists), applying it to LLMs and demonstrating its feasibility with relatively small models is a strong contribution, though the protocol's simplicity might limit its robustness against detection.
+- **SAID: Empowering Large Language Models with Self-Activating Internal Defense** (Score: 90.0)
+  - This paper addresses a critical problem in LLM safety – vulnerability to jailbreak attacks – and proposes a novel, training-free defense mechanism. The shift from external correction to internal capability activation is a promising approach. The three-stage pipeline (intent distillation, prefix probing, and aggregation) appears well-structured, and the claim of avoiding computational overhead is significant. The abstract is clear and concise, suggesting a rigorous methodology will be presented.
+
+## Reasoning (2 new papers)
+- **TRUST: A Decentralized Framework for Auditing Large Language Model Reasoning** (Score: 92.0)
+  - This paper tackles a very important and timely problem – auditing LLM reasoning – with a novel approach using decentralized consensus. The identified challenges are well-defined, and the proposed TRUST framework appears to address them thoughtfully. While the abstract only hints at the technical details, the concept of a hierarchical DAG decomposition and fault-tolerant consensus is promising, suggesting a solid methodological foundation.
+- **Stream: Scaling up Mechanistic Interpretability to Long Context in LLMs via Sparse Attention** (Score: 90.0)
+  - This paper tackles a crucial bottleneck in LLM interpretability – the quadratic scaling of attention analysis with context length. The proposed 'Stream' technique with its sparse tracing and hierarchical pruning offers a promising solution, achieving near-linear time complexity. The reported 97-99% pruning rate while preserving model behavior is impressive, suggesting a practical and effective approach. The focus on identifying 'thought anchors' is a valuable contribution to understanding long-context reasoning.
+
+## Knowledge (1 new papers)
+- **LLM-empowered knowledge graph construction: A survey** (Score: 92.0)
+  - This survey paper addresses a highly relevant and rapidly evolving area – the intersection of LLMs and Knowledge Graph construction. The systematic categorization of LLM-driven approaches into schema-based and schema-free paradigms is a strong organizational choice. While surveys are inherently less 'innovative' than novel methods, this one appears well-structured and comprehensive, promising a valuable resource for researchers. The high significance and impact scores reflect the growing importance of this field.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Training** (2), **Agents** (2), **Multimodal** (1), **Alignment** (2), **Reasoning** (2), **Knowledge** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

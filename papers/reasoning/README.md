@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### TRUST: A Decentralized Framework for Auditing Large Language Model Reasoning
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Morris Yu-Chao Huang, Zhen Tan, Mohan Zhang, Pingzhi Li, Zhuo Zhang, Tianlong Chen
+
+arXiv:2510.20188v1 Announce Type: new 
+Abstract: Large Language Models generate complex reasoning chains that reveal their decision-making, yet verifying the faithfulness and harmlessness of these int...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20188) | [📝 Analysis](07374ace72d35cfb06fc7d5504f0e46f.md)
+
+---
+
+### Stream: Scaling up Mechanistic Interpretability to Long Context in LLMs via Sparse Attention
+
+**Score:** 90.0 | **Published:** 2025-10-24 | **Authors:** J Rosser, Jos\'e Luis Redondo Garc\'ia, Gustavo Penha, Konstantina Palla, Hugues Bouchard
+
+arXiv:2510.19875v1 Announce Type: cross 
+Abstract: As Large Language Models (LLMs) scale to million-token contexts, traditional Mechanistic Interpretability techniques for analyzing attention scale qu...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19875) | [📝 Analysis](4e20f42fe485a2fd31cca3cd4adcc227.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "LLMs can hide text in other text of the same length.ipynb",
+      "authors": [
+        "Antonio Norelli, Michael Bronstein"
+      ],
+      "abstract": "arXiv:2510.20075v1 Announce Type: new \nAbstract: A meaningful text can be hidden inside another, completely different yet still coherent and plausible, text of the same length. For example, a tweet containing a harsh political critique could be embedded in a tweet that celebrates the same political leader, or an ordinary product review could conceal a secret manuscript. This uncanny state of affairs is now possible thanks to Large Language Models, and in this paper we present a simple and efficient protocol to achieve it. We show that even modest 8-billion-parameter open-source LLMs are sufficient to obtain high-quality results, and a message as long as this abstract can be encoded and decoded locally on a laptop in seconds. The existence of such a protocol demonstrates a radical decoupling of text from authorial intent, further eroding trust in written communication, already shaken by the rise of LLM chatbots. We illustrate this with a concrete scenario: a company could covertly deploy an unfiltered LLM by encoding its answers within the compliant responses of a safe model. This possibility raises urgent questions for AI safety and challenges our understanding of what it means for a Large Language Model to know something.",
+      "url": "https://arxiv.org/abs/2510.20075",
+      "published_date": "2025-10-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "abstract",
+        "language",
+        "large",
+        "large language",
+        "length",
+        "llm",
+        "llms",
+        "model",
+        "political"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research identifies a concerning vulnerability in LLMs \u2013 the ability to conceal messages within seemingly innocuous text. The problem is highly significant given the increasing reliance on LLM-generated content and the potential for malicious use. While the core idea isn't entirely novel (steganography exists), applying it to LLMs and demonstrating its feasibility with relatively small models is a strong contribution, though the protocol's simplicity might limit its robustness against detection.",
+      "paper_id": "9816b0e3cead6fa2a2d2cce299796ecf"
+    },
+    {
+      "title": "SAID: Empowering Large Language Models with Self-Activating Internal Defense",
+      "authors": [
+        "Yulong Chen, Yadong Liu, Jiawen Zhang, Mu Li, Chao Huang, Jie Wen"
+      ],
+      "abstract": "arXiv:2510.20129v1 Announce Type: cross \nAbstract: Large Language Models (LLMs), despite advances in safety alignment, remain vulnerable to jailbreak attacks designed to circumvent protective mechanisms. Prevailing defense strategies rely on external interventions, such as input filtering or output modification, which often lack generalizability and compromise model utility while incurring significant computational overhead. In this work, we introduce a new, training-free defense paradigm, Self-Activating Internal Defense (SAID), which reframes the defense task from external correction to internal capability activation. SAID uniquely leverages the LLM's own reasoning abilities to proactively identify and neutralize malicious intent through a three-stage pipeline: model-native intent distillation to extract core semantics, optimal safety prefix probing to activate latent safety awareness, and a conservative aggregation strategy to ensure robust decision-making. Extensive experiments on five open-source LLMs against six advanced jailbreak attacks demonstrate that SAID substantially outperforms state-of-the-art defenses in reducing harmful outputs. Crucially, it achieves this while preserving model performance on benign tasks and incurring minimal computational overhead. Our work establishes that activating the intrinsic safety mechanisms of LLMs is a more robust and scalable path toward building safer and more reliable aligned AI systems.",
+      "url": "https://arxiv.org/abs/2510.20129",
+      "published_date": "2025-10-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "defense",
+        "safety",
+        "said",
+        "activating",
+        "internal",
+        "llms",
+        "model",
+        "activating internal",
+        "attacks",
+        "computational"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical problem in LLM safety \u2013 vulnerability to jailbreak attacks \u2013 and proposes a novel, training-free defense mechanism. The shift from external correction to internal capability activation is a promising approach. The three-stage pipeline (intent distillation, prefix probing, and aggregation) appears well-structured, and the claim of avoiding computational overhead is significant. The abstract is clear and concise, suggesting a rigorous methodology will be presented.",
+      "paper_id": "e2f8029530146bef4842270faad7cca3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-24T09:30:09.210585"
 }

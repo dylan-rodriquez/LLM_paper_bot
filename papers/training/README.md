@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Benchmarking Reasoning Reliability in Artificial Intelligence Models for Energy-System Analysis
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Eliseo Curcio
+
+arXiv:2510.19836v1 Announce Type: new 
+Abstract: Artificial intelligence and machine learning are increasingly used for forecasting, optimization, and policy design in the energy sector, yet no standa...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.19836) | [📝 Analysis](3177ba4c4f94265c1d8a9f44476ef8e9.md)
+
+---
+
+### Collective Communication for 100k+ GPUs
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Min Si, Pavan Balaji, Yongzhou Chen, Ching-Hsiang Chu, Adi Gangidi, Saif Hasan, Subodh Iyengar, Dan Johnson, Bingzhe Liu, Jingliang Ren, Ashmitha Jeevaraj Shetty, Greg Steinbrecher, Xinfeng Xie, Yulun Wang, Bruce Wu, Jingyi Yang, Mingran Yang, Minlan Yu, Cen Zhao, Wes Bland, Denis Boyda, Suman Gumudavelli, Cristian Lumezanu, Rui Miao, Zhe Qu, Venkat Ramesh, Maxim Samoylov, Jan Seidel, Feng Tian, Qiye Tan, Shuqiang Zhang, Yimeng Zhao, Shengbao Zheng, Art Zhu, Hongyi Zeng
+
+arXiv:2510.20171v1 Announce Type: cross 
+Abstract: The increasing scale of large language models (LLMs) necessitates highly efficient collective communication frameworks, particularly as training work...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20171) | [📝 Analysis](d9c78711b816e1badf046aba27d7259e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*
