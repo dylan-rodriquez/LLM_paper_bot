@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "TRUST: A Decentralized Framework for Auditing Large Language Model Reasoning",
+      "authors": [
+        "Morris Yu-Chao Huang, Zhen Tan, Mohan Zhang, Pingzhi Li, Zhuo Zhang, Tianlong Chen"
+      ],
+      "abstract": "arXiv:2510.20188v1 Announce Type: new \nAbstract: Large Language Models generate complex reasoning chains that reveal their decision-making, yet verifying the faithfulness and harmlessness of these intermediate steps remains a critical unsolved problem. Existing auditing methods are centralized, opaque, and hard to scale, creating significant risks for deploying proprietary models in high-stakes domains. We identify four core challenges: (1) Robustness: Centralized auditors are single points of failure, prone to bias or attacks. (2) Scalability: Reasoning traces are too long for manual verification. (3) Opacity: Closed auditing undermines public trust. (4) Privacy: Exposing full reasoning risks model theft or distillation. We propose TRUST, a transparent, decentralized auditing framework that overcomes these limitations via: (1) A consensus mechanism among diverse auditors, guaranteeing correctness under up to $30\\%$ malicious participants. (2) A hierarchical DAG decomposition of reasoning traces, enabling scalable, parallel auditing. (3) A blockchain ledger that records all verification decisions for public accountability. (4) Privacy-preserving segmentation, sharing only partial reasoning steps to protect proprietary logic. We provide theoretical guarantees for the security and economic incentives of the TRUST framework. Experiments across multiple LLMs (GPT-OSS, DeepSeek-r1, Qwen) and reasoning tasks (math, medical, science, humanities) show TRUST effectively detects reasoning flaws and remains robust against adversarial auditors. Our work pioneers decentralized AI auditing, offering a practical path toward safe and trustworthy LLM deployment.",
+      "url": "https://arxiv.org/abs/2510.20188",
+      "published_date": "2025-10-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "auditing",
+        "trust",
+        "auditors",
+        "decentralized",
+        "framework",
+        "centralized",
+        "language",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a very important and timely problem \u2013 auditing LLM reasoning \u2013 with a novel approach using decentralized consensus. The identified challenges are well-defined, and the proposed TRUST framework appears to address them thoughtfully. While the abstract only hints at the technical details, the concept of a hierarchical DAG decomposition and fault-tolerant consensus is promising, suggesting a solid methodological foundation.",
+      "paper_id": "07374ace72d35cfb06fc7d5504f0e46f"
+    },
+    {
+      "title": "Stream: Scaling up Mechanistic Interpretability to Long Context in LLMs via Sparse Attention",
+      "authors": [
+        "J Rosser, Jos\\'e Luis Redondo Garc\\'ia, Gustavo Penha, Konstantina Palla, Hugues Bouchard"
+      ],
+      "abstract": "arXiv:2510.19875v1 Announce Type: cross \nAbstract: As Large Language Models (LLMs) scale to million-token contexts, traditional Mechanistic Interpretability techniques for analyzing attention scale quadratically with context length, demanding terabytes of memory beyond 100,000 tokens. We introduce Sparse Tracing, a novel technique that leverages dynamic sparse attention to efficiently analyze long context attention patterns. We present Stream, a compilable hierarchical pruning algorithm that estimates per-head sparse attention masks in near-linear time $O(T \\log T)$ and linear space $O(T)$, enabling one-pass interpretability at scale. Stream performs a binary-search-style refinement to retain only the top-$k$ key blocks per query while preserving the model's next-token behavior. We apply Stream to long chain-of-thought reasoning traces and identify thought anchors while pruning 97-99\\% of token interactions. On the RULER benchmark, Stream preserves critical retrieval paths while discarding 90-96\\% of interactions and exposes layer-wise routes from the needle to output. Our method offers a practical drop-in tool for analyzing attention patterns and tracing information flow without terabytes of caches. By making long context interpretability feasible on consumer GPUs, Sparse Tracing helps democratize chain-of-thought monitoring. Code is available at https://anonymous.4open.science/r/stream-03B8/.",
+      "url": "https://arxiv.org/abs/2510.19875",
+      "published_date": "2025-10-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "attention",
+        "stream",
+        "sparse",
+        "context",
+        "interpretability",
+        "long",
+        "long context",
+        "scale",
+        "sparse attention",
+        "thought"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial bottleneck in LLM interpretability \u2013 the quadratic scaling of attention analysis with context length. The proposed 'Stream' technique with its sparse tracing and hierarchical pruning offers a promising solution, achieving near-linear time complexity. The reported 97-99% pruning rate while preserving model behavior is impressive, suggesting a practical and effective approach. The focus on identifying 'thought anchors' is a valuable contribution to understanding long-context reasoning.",
+      "paper_id": "4e20f42fe485a2fd31cca3cd4adcc227"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-24T09:30:09.211817"
 }

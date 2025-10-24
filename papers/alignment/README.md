@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### LLMs can hide text in other text of the same length.ipynb
+
+**Score:** 90.0 | **Published:** 2025-10-24 | **Authors:** Antonio Norelli, Michael Bronstein
+
+arXiv:2510.20075v1 Announce Type: new 
+Abstract: A meaningful text can be hidden inside another, completely different yet still coherent and plausible, text of the same length. For example, a tweet co...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20075) | [📝 Analysis](9816b0e3cead6fa2a2d2cce299796ecf.md)
+
+---
+
+### SAID: Empowering Large Language Models with Self-Activating Internal Defense
+
+**Score:** 90.0 | **Published:** 2025-10-24 | **Authors:** Yulong Chen, Yadong Liu, Jiawen Zhang, Mu Li, Chao Huang, Jie Wen
+
+arXiv:2510.20129v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs), despite advances in safety alignment, remain vulnerable to jailbreak attacks designed to circumvent protective mechanis...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20129) | [📝 Analysis](e2f8029530146bef4842270faad7cca3.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*

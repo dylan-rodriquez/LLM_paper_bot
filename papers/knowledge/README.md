@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### LLM-empowered knowledge graph construction: A survey
+
+**Score:** 92.0 | **Published:** 2025-10-24 | **Authors:** Haonan Bian
+
+arXiv:2510.20345v1 Announce Type: new 
+Abstract: Knowledge Graphs (KGs) have long served as a fundamental infrastructure for structured knowledge representation and reasoning. With the advent of Large...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20345) | [📝 Analysis](2cc579931b4f67c724f9a317ed8db9d4.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-24 09:30:09 UTC*
