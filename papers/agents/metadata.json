@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "HIKMA: Human-Inspired Knowledge by Machine Agents through a Multi-Agent Framework for Semi-Autonomous Scientific Conferences",
+      "authors": [
+        "Zain Ul Abideen Tariq, Mahmood Al-Zubaidi, Uzair Shah, Marco Agus, Mowafa Househ"
+      ],
+      "abstract": "arXiv:2510.21370v1 Announce Type: cross \nAbstract: HIKMA Semi-Autonomous Conference is the first experiment in reimagining scholarly communication through an end-to-end integration of artificial intelligence into the academic publishing and presentation pipeline. This paper presents the design, implementation, and evaluation of the HIKMA framework, which includes AI dataset curation, AI-based manuscript generation, AI-assisted peer review, AI-driven revision, AI conference presentation, and AI archival dissemination. By combining language models, structured research workflows, and domain safeguards, HIKMA shows how AI can support - not replace traditional scholarly practices while maintaining intellectual property protection, transparency, and integrity. The conference functions as a testbed and proof of concept, providing insights into the opportunities and challenges of AI-enabled scholarship. It also examines questions about AI authorship, accountability, and the role of human-AI collaboration in research.",
+      "url": "https://arxiv.org/abs/2510.21370",
+      "published_date": "2025-10-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.MA"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "hikma",
+        "conference",
+        "autonomous",
+        "end",
+        "framework",
+        "human",
+        "presentation",
+        "research",
+        "scholarly"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the integration of AI into the scholarly communication process. The 'HIKMA' framework represents a significant step towards reimagining academic publishing, and the experimental conference provides a valuable testbed. While the abstract doesn't detail specific methodological rigor, the scope of integration (dataset curation to archival dissemination) suggests a substantial undertaking, and the focus on safeguards is commendable.",
+      "paper_id": "5319ee0a02eeafe1901a3e6ed92a360c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-10-27T09:31:57.752497"
 }

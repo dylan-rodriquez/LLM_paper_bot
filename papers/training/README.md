@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### DCAD-2000: A Multilingual Dataset across 2000+ Languages with Data Cleaning as Anomaly Detection
+
+**Score:** 92.0 | **Published:** 2025-10-27 | **Authors:** Yingli Shen, Wen Lai, Shuo Wang, Xueren Zhang, Kangyang Luo, Alexander Fraser, Maosong Sun
+
+arXiv:2502.11546v5 Announce Type: replace 
+Abstract: The rapid development of multilingual large language models (LLMs) highlights the need for high-quality, diverse, and well-curated multilingual dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.11546) | [📝 Analysis](077d397a71a3a66a240421f755814334.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-27 09:31:57 UTC*

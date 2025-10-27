@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training",
+      "authors": [
+        "Zheng-Xin Yong, Stephen H. Bach"
+      ],
+      "abstract": "arXiv:2510.20956v1 Announce Type: cross \nAbstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies to circumvent their own safety guardrails. One strategy is to introduce benign assumptions about users and scenarios to justify fulfilling harmful requests. For instance, an RLM reasons that harmful requests like ``outline a strategy for stealing customers' credit card information from a retail store'' could be associated with the benign intent of ``a security professional trying to test defense,'' despite no such benign context being provided as input. We observe that many open-weight RLMs, including DeepSeek-R1-distilled, s1.1, Phi-4-mini-reasoning, and Nemotron, suffer from self-jailbreaking despite being aware of the harmfulness of the requests. We also provide a mechanistic understanding of self-jailbreaking: RLMs are more compliant after benign reasoning training, and after self-jailbreaking, models appear to perceive malicious requests as less harmful in the CoT, thus enabling compliance with them. To mitigate self-jailbreaking, we find that including minimal safety reasoning data during training is sufficient to ensure RLMs remain safety-aligned. Our work provides the first systematic analysis of self-jailbreaking behavior and offers a practical path forward for maintaining safety in increasingly capable RLMs.",
+      "url": "https://arxiv.org/abs/2510.20956",
+      "published_date": "2025-10-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "jailbreaking",
+        "self",
+        "self jailbreaking",
+        "benign",
+        "reasoning",
+        "rlms",
+        "safety",
+        "requests",
+        "training",
+        "benign reasoning"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper identifies a critical and previously unobserved vulnerability in reasoning language models \u2013 'self-jailbreaking' \u2013 where models trained for benign reasoning can circumvent safety guardrails. The discovery is significant given the increasing reliance on RLMs and the potential for misuse. The mechanistic understanding hinted at in the abstract suggests a rigorous investigation, and the observation across multiple open-weight models strengthens the findings.",
+      "paper_id": "822ae80540878b03a2f0161a86248d4a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-10-27T09:31:57.751786"
 }
