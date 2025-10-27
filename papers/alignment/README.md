@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training
+
+**Score:** 92.0 | **Published:** 2025-10-27 | **Authors:** Zheng-Xin Yong, Stephen H. Bach
+
+arXiv:2510.20956v1 Announce Type: cross 
+Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Spe...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20956) | [📝 Analysis](822ae80540878b03a2f0161a86248d4a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-27 09:31:57 UTC*

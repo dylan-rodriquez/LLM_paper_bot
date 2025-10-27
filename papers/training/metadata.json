@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "DCAD-2000: A Multilingual Dataset across 2000+ Languages with Data Cleaning as Anomaly Detection",
+      "authors": [
+        "Yingli Shen, Wen Lai, Shuo Wang, Xueren Zhang, Kangyang Luo, Alexander Fraser, Maosong Sun"
+      ],
+      "abstract": "arXiv:2502.11546v5 Announce Type: replace \nAbstract: The rapid development of multilingual large language models (LLMs) highlights the need for high-quality, diverse, and well-curated multilingual datasets. In this paper, we introduce DCAD-2000 (Data Cleaning as Anomaly Detection), a large-scale multilingual corpus constructed from newly extracted Common Crawl data and existing multilingual sources. DCAD-2000 covers 2,282 languages, 46.72TB of text, and 8.63 billion documents, spanning 155 high- and medium-resource languages and 159 writing scripts. To overcome the limitations of existing data cleaning approaches, which rely on manually designed heuristic thresholds, we reframe data cleaning as an anomaly detection problem. This dynamic filtering paradigm substantially improves data quality by automatically identifying and removing noisy or anomalous content. By fine-tuning LLMs on DCAD-2000, we demonstrate notable improvements in data quality, robustness of the cleaning pipeline, and downstream performance, particularly for low-resource languages across multiple multilingual benchmarks.",
+      "url": "https://arxiv.org/abs/2502.11546",
+      "published_date": "2025-10-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "multilingual",
+        "2000",
+        "cleaning",
+        "data cleaning",
+        "dcad",
+        "dcad 2000",
+        "languages",
+        "anomaly",
+        "anomaly detection"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the availability of high-quality multilingual data. Reframing data cleaning as anomaly detection is a clever and potentially impactful approach, moving beyond traditional heuristic methods. The scale of the dataset (2,282 languages, 46.72TB) is impressive and suggests a substantial contribution to the field, and the initial results demonstrating improvements through fine-tuning are encouraging.",
+      "paper_id": "077d397a71a3a66a240421f755814334"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-27T09:31:57.754605"
 }

@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Redefining Retrieval Evaluation in the Era of LLMs",
+      "authors": [
+        "Giovanni Trappolini, Florin Cuconasu, Simone Filice, Yoelle Maarek, Fabrizio Silvestri"
+      ],
+      "abstract": "arXiv:2510.21440v1 Announce Type: new \nAbstract: Traditional Information Retrieval (IR) metrics, such as nDCG, MAP, and MRR, assume that human users sequentially examine documents with diminishing attention to lower ranks. This assumption breaks down in Retrieval Augmented Generation (RAG) systems, where search results are consumed by Large Language Models (LLMs), which, unlike humans, process all retrieved documents as a whole rather than sequentially. Additionally, traditional IR metrics do not account for related but irrelevant documents that actively degrade generation quality, rather than merely being ignored. Due to these two major misalignments, namely human vs. machine position discount and human relevance vs. machine utility, classical IR metrics do not accurately predict RAG performance. We introduce a utility-based annotation schema that quantifies both the positive contribution of relevant passages and the negative impact of distracting ones. Building on this foundation, we propose UDCG (Utility and Distraction-aware Cumulative Gain), a metric using an LLM-oriented positional discount to directly optimize the correlation with the end-to-end answer accuracy. Experiments on five datasets and six LLMs demonstrate that UDCG improves correlation by up to 36% compared to traditional metrics. Our work provides a critical step toward aligning IR evaluation with LLM consumers and enables more reliable assessment of RAG components",
+      "url": "https://arxiv.org/abs/2510.21440",
+      "published_date": "2025-10-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ir",
+        "metrics",
+        "documents",
+        "human",
+        "ir metrics",
+        "llms",
+        "rag",
+        "retrieval",
+        "traditional",
+        "utility"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in the rapidly evolving landscape of RAG systems: the inadequacy of traditional IR metrics. The identification of the misalignment between human and LLM evaluation, and the introduction of a utility-based annotation schema, demonstrate a strong methodological approach. The problem is highly relevant, and a solution could significantly improve RAG performance and evaluation practices. The work appears well-motivated and clearly articulated, suggesting a high likelihood of positive reception.",
+      "paper_id": "f60c256e8921074f4291a9cdf79acbb6"
+    },
+    {
+      "title": "When Models Outthink Their Safety: Mitigating Self-Jailbreak in Large Reasoning Models with Chain-of-Guardrails",
+      "authors": [
+        "Yingzhi Mao (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Chunkang Zhang (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Junxiang Wang (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Xinyan Guan (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Boxi Cao (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Yaojie Lu (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Hongyu Lin (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Xianpei Han (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Le Sun (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences)"
+      ],
+      "abstract": "arXiv:2510.21285v1 Announce Type: cross \nAbstract: Large Reasoning Models (LRMs) demonstrate remarkable capabilities on complex reasoning tasks but remain vulnerable to severe safety risks, including harmful content generation and jailbreak attacks. Existing mitigation strategies rely on injecting heuristic safety signals during training, which often suppress reasoning ability and fail to resolve the safety-reasoning trade-off. To systematically investigate this issue, we analyze the reasoning trajectories of diverse LRMs and uncover a phenomenon we term Self-Jailbreak, where models override their own risk assessments and justify responding to unsafe prompts. This finding reveals that LRMs inherently possess the ability to reject unsafe queries, but this ability is compromised, resulting in harmful outputs. Building on these insights, we propose the Chain-of-Guardrail (CoG), a training framework that recomposes or backtracks unsafe reasoning steps, steering the model back onto safe trajectories while preserving valid reasoning chains. Extensive experiments across multiple reasoning and safety benchmarks demonstrate that CoG substantially improves the safety of current LRMs while preserving comparable reasoning ability, significantly outperforming prior methods that suffer from severe safety-reasoning trade-offs.",
+      "url": "https://arxiv.org/abs/2510.21285",
+      "published_date": "2025-10-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "safety",
+        "ability",
+        "lrms",
+        "models",
+        "jailbreak",
+        "unsafe",
+        "chain",
+        "cog",
+        "demonstrate"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LRM safety \u2013 the 'self-jailbreak' phenomenon \u2013 and proposes a novel training framework (CoG) to address it. The identification of models overriding their own safety assessments is a significant insight. While the CoG approach seems promising, the abstract doesn't detail the specifics of its implementation, leaving some uncertainty about its complexity and effectiveness, hence the slightly lower innovation score.",
+      "paper_id": "b88251067d883953e666155e4b24043e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-27T09:31:57.750620"
 }

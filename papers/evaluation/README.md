@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Redefining Retrieval Evaluation in the Era of LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-27 | **Authors:** Giovanni Trappolini, Florin Cuconasu, Simone Filice, Yoelle Maarek, Fabrizio Silvestri
+
+arXiv:2510.21440v1 Announce Type: new 
+Abstract: Traditional Information Retrieval (IR) metrics, such as nDCG, MAP, and MRR, assume that human users sequentially examine documents with diminishing att...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.21440) | [📝 Analysis](f60c256e8921074f4291a9cdf79acbb6.md)
+
+---
+
+### When Models Outthink Their Safety: Mitigating Self-Jailbreak in Large Reasoning Models with Chain-of-Guardrails
+
+**Score:** 90.0 | **Published:** 2025-10-27 | **Authors:** Yingzhi Mao (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Chunkang Zhang (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Junxiang Wang (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Xinyan Guan (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Boxi Cao (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Yaojie Lu (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Hongyu Lin (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences), Xianpei Han (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences), Le Sun (Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences)
+
+arXiv:2510.21285v1 Announce Type: cross 
+Abstract: Large Reasoning Models (LRMs) demonstrate remarkable capabilities on complex reasoning tasks but remain vulnerable to severe safety risks, including ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.21285) | [📝 Analysis](b88251067d883953e666155e4b24043e.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-27 09:31:57 UTC*
