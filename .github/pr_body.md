@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 5
+- **Average Significance Score:** 91.6/100
+- **Categories Updated:** 3
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,28 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Evaluation (2 new papers)
+- **CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection** (Score: 92.0)
+  - This paper addresses a critically important problem – reliable detection of mental health crises – with a well-defined benchmark. The inclusion of clinical standards and temporal labels represents a significant improvement over existing datasets. The use of a majority-vote ensemble for training data labeling is a clever approach to improve data quality, and the initial fine-tuning results suggest the benchmark is useful for model development.
+- **Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures** (Score: 92.0)
+  - This paper addresses a crucial gap in LLM evaluation – the lack of culturally diverse benchmarks. The participatory construction of Global PIQA, covering a vast range of languages and cultures, is a significant undertaking. While the core task (commonsense reasoning) isn't novel, the scale and cultural specificity are, and the observed performance gaps in lower-resource languages are important findings.
+
+## General (1 new papers)
+- **Leveraging LLMs for Early Alzheimer's Prediction** (Score: 92.0)
+  - The research tackles a highly significant problem – early Alzheimer's detection – and the use of LLMs with connectome data is a novel approach. The abstract suggests a robust methodology with normalization and a 'frozen' LLM, implying careful consideration of practical implementation. While the abstract is promising, a full paper review is needed to assess the rigor of the error rate claims and the details of the connectome encoding.
 
 ## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
-
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+- **Open Korean Historical Corpus: A Millennia-Scale Diachronic Collection of Public Domain Texts** (Score: 92.0)
+  - This paper addresses a significant gap in NLP resources for the Korean language, particularly regarding historical texts and under-represented writing systems. The creation of a large, openly licensed corpus spanning 1300 years is a substantial undertaking. While the initial quantitative analysis presented is promising, the paper's strength lies in the resource itself, which will likely fuel further research. The observed linguistic shifts are interesting and demonstrate the corpus's utility.
+- **Challenging Multilingual LLMs: A New Taxonomy and Benchmark for Unraveling Hallucination in Translation** (Score: 90.0)
+  - This paper addresses a critical issue – hallucination in multilingual LLMs – which is a significant barrier to their reliable deployment. The introduction of a taxonomy separating Instruction and Source Detachment, coupled with the creation of a large, human-verified benchmark (HalloMTBench), demonstrates a rigorous methodology. The evaluation of 17 LLMs and identification of 'hallucination triggers' provides valuable insights for future research and model development. The high number of LLM judges and expert validation further strengthens the work.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (2), **General** (1), **Training** (2)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

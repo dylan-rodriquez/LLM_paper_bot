@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "Leveraging LLMs for Early Alzheimer's Prediction",
+      "authors": [
+        "Tananun Songdechakraiwut"
+      ],
+      "abstract": "arXiv:2510.23946v1 Announce Type: new \nAbstract: We present a connectome-informed LLM framework that encodes dynamic fMRI connectivity as temporal sequences, applies robust normalization, and maps these data into a representation suitable for a frozen pre-trained LLM for clinical prediction. Applied to early Alzheimer's detection, our method achieves sensitive prediction with error rates well below clinically recognized margins, with implications for timely Alzheimer's intervention.",
+      "url": "https://arxiv.org/abs/2510.23946",
+      "published_date": "2025-10-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "alzheimer",
+        "prediction",
+        "early",
+        "early alzheimer",
+        "llm",
+        "23946v1",
+        "23946v1 announce",
+        "2510",
+        "2510 23946v1",
+        "abstract"
+      ],
+      "subject_classification": "general",
+      "justification": "The research tackles a highly significant problem \u2013 early Alzheimer's detection \u2013 and the use of LLMs with connectome data is a novel approach. The abstract suggests a robust methodology with normalization and a 'frozen' LLM, implying careful consideration of practical implementation. While the abstract is promising, a full paper review is needed to assess the rigor of the error rate claims and the details of the connectome encoding.",
+      "paper_id": "0ea8d5fe931b1716dc9b9a12289f03e6"
+    }
+  ],
+  "last_updated": "2025-10-29T09:29:06.323356"
+}

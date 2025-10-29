@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Open Korean Historical Corpus: A Millennia-Scale Diachronic Collection of Public Domain Texts
+
+**Score:** 92.0 | **Published:** 2025-10-29 | **Authors:** Seyoung Song, Nawon Kim, Songeun Chae, Kiwoong Park, Jiho Jin, Haneul Yoo, Kyunghyun Cho, Alice Oh
+
+arXiv:2510.24541v1 Announce Type: new 
+Abstract: The history of the Korean language is characterized by a discrepancy between its spoken and written forms and a pivotal shift from Chinese characters t...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.24541) | [📝 Analysis](d91c57632b82754dd87093776d55b151.md)
+
+---
+
+### Challenging Multilingual LLMs: A New Taxonomy and Benchmark for Unraveling Hallucination in Translation
+
+**Score:** 90.0 | **Published:** 2025-10-29 | **Authors:** Xinwei Wu, Heng Liu, Jiang Zhou, Xiaohu Zhao, Linlong Xu, Longyue Wang, Weihua Luo, Kaifu Zhang
+
+arXiv:2510.24073v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have advanced machine translation but remain vulnerable to hallucinations. Unfortunately, existing MT benchmarks are not c...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.24073) | [📝 Analysis](2a865a66b16e299ca03674710ff40dd7.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-29 09:29:06 UTC*

@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection",
+      "authors": [
+        "Grace Byun, Rebecca Lipschutz, Sean T. Minton, Abigail Lott, Jinho D. Choi"
+      ],
+      "abstract": "arXiv:2510.23845v1 Announce Type: new \nAbstract: Detecting mental health crisis situations such as suicide ideation, rape, domestic violence, child abuse, and sexual harassment is a critical yet underexplored challenge for language models. When such situations arise during user--model interactions, models must reliably flag them, as failure to do so can have serious consequences. In this work, we introduce CRADLE BENCH, a benchmark for multi-faceted crisis detection. Unlike previous efforts that focus on a limited set of crisis types, our benchmark covers seven types defined in line with clinical standards and is the first to incorporate temporal labels. Our benchmark provides 600 clinician-annotated evaluation examples and 420 development examples, together with a training corpus of around 4K examples automatically labeled using a majority-vote ensemble of multiple language models, which significantly outperforms single-model annotation. We further fine-tune six crisis detection models on subsets defined by consensus and unanimous ensemble agreement, providing complementary models trained under different agreement criteria.",
+      "url": "https://arxiv.org/abs/2510.23845",
+      "published_date": "2025-10-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "crisis",
+        "models",
+        "benchmark",
+        "detection",
+        "examples",
+        "agreement",
+        "annotated",
+        "bench",
+        "benchmark multi",
+        "clinician"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critically important problem \u2013 reliable detection of mental health crises \u2013 with a well-defined benchmark. The inclusion of clinical standards and temporal labels represents a significant improvement over existing datasets. The use of a majority-vote ensemble for training data labeling is a clever approach to improve data quality, and the initial fine-tuning results suggest the benchmark is useful for model development.",
+      "paper_id": "04201b55aad41c9f1ca66805d50c14b0"
+    },
+    {
+      "title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
+      "authors": [
+        "Tyler A. Chang (Julia), Catherine Arnett (Julia), Abdelrahman Eldesokey (Julia), Abdelrahman Sadallah (Julia), Abeer Kashar (Julia), Abolade Daud (Julia), Abosede Grace Olanihun (Julia), Adamu Labaran Mohammed (Julia), Adeyemi Praise (Julia), Adhikarinayum Meerajita Sharma (Julia), Aditi Gupta (Julia), Afitab Iyigun (Julia), Afonso Simpl\\'icio (Julia), Ahmed Essouaied (Julia), Aicha Chorana (Julia), Akhil Eppa (Julia), Akintunde Oladipo (Julia), Akshay Ramesh (Julia), Aleksei Dorkin (Julia), Alfred Malengo Kondoro (Julia), Alham Fikri Aji (Julia), Ali Eren \\c{C}etinta\\c{s} (Julia), Allan Hanbury (Julia), Alou Dembele (Julia), Alp Niksarli (Julia), \\'Alvaro Arroyo (Julia), Amin Bajand (Julia), Amol Khanna (Julia), Ana Chkhaidze (Julia), Ana Condez (Julia), Andiswa Mkhonto (Julia), Andrew Hoblitzell (Julia), Andrew Tran (Julia), Angelos Poulis (Julia), Anirban Majumder (Julia), Anna Vacalopoulou (Julia), Annette Kuuipolani Kanahele Wong (Julia), Annika Simonsen (Julia), Anton Kovalev (Julia), Ashvanth. S (Julia), Ayodeji Joseph Lana (Julia), Barkin Kinay (Julia), Bashar Alhafni (Julia), Benedict Cibalinda Busole (Julia), Bernard Ghanem (Julia), Bharti Nathani (Julia), Biljana Stojanovska {\\DJ}uri\\'c (Julia), Bola Agbonile (Julia), Bragi Bergsson (Julia), Bruce Torres Fischer (Julia), Burak Tutar (Julia), Burcu Alaku\\c{s} \\c{C}{\\i}nar (Julia), Cade J. Kanoniakapueo Kane (Julia), Can Udomcharoenchaikit (Julia), Catherine Arnett (Julia), Chadi Helwe (Julia), Chaithra Reddy Nerella (Julia), Chen Cecilia Liu (Julia), Chiamaka Glory Nwokolo (Julia), Cristina Espa\\~na-Bonet (Julia), Cynthia Amol (Julia), DaeYeop Lee (Julia), Dana Arad (Julia), Daniil Dzenhaliou (Julia), Daria Pugacheva (Julia), Dasol Choi (Julia), Daud Abolade (Julia), David Liu (Julia), David Semedo (Julia), Deborah Popoola (Julia), Deividas Mataciunas (Julia), Delphine Nyaboke (Julia), Dhyuthy Krishna Kumar (Julia), Diogo Gl\\'oria-Silva (Julia), Diogo Tavares (Julia), Divyanshu Goyal (Julia), DongGeon Lee (Julia), Ebele Nwamaka Anajemba (Julia), Egonu Ngozi Grace (Julia), Elena Mickel (Julia), Elena Tutubalina (Julia), Elias Herranen (Julia), Emile Anand (Julia), Emmanuel Habumuremyi (Julia), Emuobonuvie Maria Ajiboye (Julia), Eryawan Presma Yulianrifat (Julia), Esther Adenuga (Julia), Ewa Rudnicka (Julia), Faith Olabisi Itiola (Julia), Faran Taimoor Butt (Julia), Fathima Thekkekara (Julia), Fatima Haouari (Julia), Filbert Aurelian Tjiaranata (Julia), Firas Laakom (Julia), Francesca Grasso (Julia), Francesco Orabona (Julia), Francesco Periti (Julia), Gbenga Kayode Solomon (Julia), Gia Nghia Ngo (Julia), Gloria Udhehdhe-oze (Julia), Gon\\c{c}alo Martins (Julia), Gopi Naga Sai Ram Challagolla (Julia), Guijin Son (Julia), Gulnaz Abdykadyrova (Julia), Hafsteinn Einarsson (Julia), Hai Hu (Julia), Hamidreza Saffari (Julia), Hamza Zaidi (Julia), Haopeng Zhang (Julia), Harethah Abu Shairah (Julia), Harry Vuong (Julia), Hele-Andra Kuulmets (Julia), Houda Bouamor (Julia), Hwanjo Yu (Julia), Iben Nyholm Debess (Julia), \\.Ibrahim Ethem Deveci (Julia), Ikhlasul Akmal Hanif (Julia), Ikhyun Cho (Julia), In\\^es Calvo (Julia), In\\^es Vieira (Julia), Isaac Manzi (Julia), Ismail Daud (Julia), Itay Itzhak (Julia),  Iuliia (Julia),  Alekseenko, Ivan Belashkin, Ivan Spada, Ivan Zhelyazkov, Jacob Brinton, Jafar Isbarov, Jaka \\v{C}ibej, Jan \\v{C}uhel, Jan Koco\\'n, Jauza Akbar Krito, Jebish Purbey, Jennifer Mickel, Jennifer Za, Jenny Kunz, Jihae Jeong, Jimena Tena D\\'avalos, Jinu Lee, Jo\\~ao Magalh\\~aes, John Yi, Jongin Kim, Joseph Chataignon, Joseph Marvin Imperial, Jubeerathan Thevakumar, Judith Land, Junchen Jiang, Jungwhan Kim, Kairit Sirts, Kamesh R, Kamesh V, Kanda Patrick Tshinu, K\\\"atriin Kukk, Kaustubh Ponkshe, Kavsar Huseynova, Ke He, Kelly Buchanan, Kengatharaiyer Sarveswaran, Kerem Zaman, Khalil Mrini, Kian Kyars, Krister Kruusmaa, Kusum Chouhan, Lainitha Krishnakumar, Laura Castro S\\'anchez, Laura Porrino Moscoso, Leshem Choshen, Levent Sencan, Lilja {\\O}vrelid, Lisa Alazraki, Lovina Ehimen-Ugbede, Luheerathan Thevakumar, Luxshan Thavarasa, Mahnoor Malik, Mamadou K. Keita, Mansi Jangid, Marco De Santis, Marcos Garc\\'ia, Marek Suppa, Mariam D'Ciofalo, Marii Ojastu, Maryam Sikander, Mausami Narayan, Maximos Skandalis, Mehak Mehak, Mehmet \\.Ilteri\\c{s} Bozkurt, Melaku Bayu Workie, Menan Velayuthan, Michael Leventhal, Micha{\\l} Marci\\'nczuk, Mirna Poto\\v{c}njak, Mohammadamin Shafiei, Mridul Sharma, Mrityunjaya Indoria, Muhammad Ravi Shulthan Habibi, Murat Koli\\'c, Nada Galant, Naphat Permpredanun, Narada Maugin, Nicholas Kluge Corr\\^ea, Nikola Ljube\\v{s}i\\'c, Nirmal Thomas, Nisansa de Silva, Nisheeth Joshi, Nitish Ponkshe, Nizar Habash, Nneoma C. Udeze, Noel Thomas, No\\'emi Ligeti-Nagy, Nouhoum Coulibaly, Nsengiyumva Faustin, Odunayo Kareemat Buliaminu, Odunayo Ogundepo, Oghojafor Godswill Fejiro, Ogundipe Blessing Funmilola, Okechukwu God'spraise, Olanrewaju Samuel, Olaoye Deborah Oluwaseun, Olasoji Akindejoye, Olga Popova, Olga Snissarenko, Onyinye Anulika Chiemezie, Orkun Kinay, Osman Tursun, Owoeye Tobiloba Moses, Oyelade Oluwafemi Joshua, Oyesanmi Fiyinfoluwa, Pablo Gamallo, Pablo Rodr\\'iguez Fern\\'andez, Palak Arora, Pedro Valente, Peter Rupnik, Philip Oghenesuowho Ekiugbo, Pramit Sahoo, Prokopis Prokopidis, Pua Niau-Puhipau, Quadri Yahya, Rachele Mignone, Raghav Singhal, Ram Mohan Rao Kadiyala, Raphael Merx, Rapheal Afolayan, Ratnavel Rajalakshmi, Rishav Ghosh, Romina Oji, Ron Kekeha Solis, Rui Guerra, Rushikesh Zawar, Sa'ad Nasir Bashir, Saeed Alzaabi, Sahil Sandeep, Sai Pavan Batchu, SaiSandeep Kantareddy, Salsabila Zahirah Pranida, Sam Buchanan, Samuel Rutunda, Sander Land, Sarah Sulollari, Sardar Ali, Saroj Sapkota, Saulius Tautvaisas, Sayambhu Sen, Sayantani Banerjee, Sebastien Diarra, SenthilNathan. M, Sewoong Lee, Shaan Shah, Shankar Venkitachalam, Sharifa Djurabaeva, Sharon Ibejih, Shivanya Shomir Dutta, Siddhant Gupta, Silvia Paniagua Su\\'arez, Sina Ahmadi, Sivasuthan Sukumar, Siyuan Song, Snegha A., Sokratis Sofianopoulos, Sona Elza Simon, Sonja Ben\\v{c}ina, Sophie Gvasalia, Sphurti Kirit More, Spyros Dragazis, Stephan P. Kaufhold, Suba. S, Sultan AlRashed, Surangika Ranathunga, Taiga Someya, Taja Kuzman Punger\\v{s}ek, Tal Haklay, Tasi'u Jibril, Tatsuya Aoyama, Tea Abashidze, Terenz Jomar Dela Cruz, Terra Blevins, Themistoklis Nikas, Theresa Dora Idoko, Thu Mai Do, Tilek Chubakov, Tommaso Gargiani, Uma Rathore, Uni Johannesen, Uwuma Doris Ugwu, Vallerie Alexandra Putra, Vanya Bannihatti Kumar, Varsha Jeyarajalingam, Varvara Arzt, Vasudevan Nedumpozhimana, Viktoria Ondrejova, Viktoryia Horbik, Vishnu Vardhan Reddy Kummitha, Vuk Dini\\'c, Walelign Tewabe Sewunetie, Winston Wu, Xiaojing Zhao, Yacouba Diarra, Yaniv Nikankin, Yash Mathur, Yixi Chen, Yiyuan Li, Yolanda Xavier, Yonatan Belinkov, Yusuf Ismail Abayomi, Zaid Alyafeai, Zhengyang Shan, Zhi Rui Tam, Zilu Tang, Zuzana Nadova, Baber Abbasi, Stella Biderman, David Stap, Duygu Ataman, Fabian Schmidt, Hila Gonen, Jiayi Wang, David Ifeoluwa Adelani"
+      ],
+      "abstract": "arXiv:2510.24081v1 Announce Type: new \nAbstract: To date, there exist almost no culturally-specific evaluation benchmarks for large language models (LLMs) that cover a large number of languages and cultures. In this paper, we present Global PIQA, a participatory commonsense reasoning benchmark for over 100 languages, constructed by hand by 335 researchers from 65 countries around the world. The 116 language varieties in Global PIQA cover five continents, 14 language families, and 23 writing systems. In the non-parallel split of Global PIQA, over 50% of examples reference local foods, customs, traditions, or other culturally-specific elements. We find that state-of-the-art LLMs perform well on Global PIQA in aggregate, but they exhibit weaker performance in lower-resource languages (up to a 37% accuracy gap, despite random chance at 50%). Open models generally perform worse than proprietary models. Global PIQA highlights that in many languages and cultures, everyday knowledge remains an area for improvement, alongside more widely-discussed capabilities such as complex reasoning and expert knowledge. Beyond its uses for LLM evaluation, we hope that Global PIQA provides a glimpse into the wide diversity of cultures in which human language is embedded.",
+      "url": "https://arxiv.org/abs/2510.24081",
+      "published_date": "2025-10-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "global",
+        "global piqa",
+        "piqa",
+        "languages",
+        "cultures",
+        "language",
+        "languages cultures",
+        "models",
+        "reasoning",
+        "100"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of culturally diverse benchmarks. The participatory construction of Global PIQA, covering a vast range of languages and cultures, is a significant undertaking. While the core task (commonsense reasoning) isn't novel, the scale and cultural specificity are, and the observed performance gaps in lower-resource languages are important findings.",
+      "paper_id": "73c7bb4891d14e2e3981fd839b34de2a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-29T09:29:06.322176"
 }
