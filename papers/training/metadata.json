@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Open Korean Historical Corpus: A Millennia-Scale Diachronic Collection of Public Domain Texts",
+      "authors": [
+        "Seyoung Song, Nawon Kim, Songeun Chae, Kiwoong Park, Jiho Jin, Haneul Yoo, Kyunghyun Cho, Alice Oh"
+      ],
+      "abstract": "arXiv:2510.24541v1 Announce Type: new \nAbstract: The history of the Korean language is characterized by a discrepancy between its spoken and written forms and a pivotal shift from Chinese characters to the Hangul alphabet. However, this linguistic evolution has remained largely unexplored in NLP due to a lack of accessible historical corpora. To address this gap, we introduce the Open Korean Historical Corpus, a large-scale, openly licensed dataset spanning 1,300 years and 6 languages, as well as under-represented writing systems like Korean-style Sinitic (Idu) and Hanja-Hangul mixed script. This corpus contains 18 million documents and 5 billion tokens from 19 sources, ranging from the 7th century to 2025. We leverage this resource to quantitatively analyze major linguistic shifts: (1) Idu usage peaked in the 1860s before declining sharply; (2) the transition from Hanja to Hangul was a rapid transformation starting around 1890; and (3) North Korea's lexical divergence causes modern tokenizers to produce up to 51 times higher out-of-vocabulary rates. This work provides a foundational resource for quantitative diachronic analysis by capturing the history of the Korean language. Moreover, it can serve as a pre-training corpus for large language models, potentially improving their understanding of Sino-Korean vocabulary in modern Hangul as well as archaic writing systems.",
+      "url": "https://arxiv.org/abs/2510.24541",
+      "published_date": "2025-10-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "korean",
+        "corpus",
+        "hangul",
+        "historical",
+        "language",
+        "corpus large",
+        "diachronic",
+        "hanja",
+        "hanja hangul",
+        "historical corpus"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a significant gap in NLP resources for the Korean language, particularly regarding historical texts and under-represented writing systems. The creation of a large, openly licensed corpus spanning 1300 years is a substantial undertaking. While the initial quantitative analysis presented is promising, the paper's strength lies in the resource itself, which will likely fuel further research. The observed linguistic shifts are interesting and demonstrate the corpus's utility.",
+      "paper_id": "d91c57632b82754dd87093776d55b151"
+    },
+    {
+      "title": "Challenging Multilingual LLMs: A New Taxonomy and Benchmark for Unraveling Hallucination in Translation",
+      "authors": [
+        "Xinwei Wu, Heng Liu, Jiang Zhou, Xiaohu Zhao, Linlong Xu, Longyue Wang, Weihua Luo, Kaifu Zhang"
+      ],
+      "abstract": "arXiv:2510.24073v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have advanced machine translation but remain vulnerable to hallucinations. Unfortunately, existing MT benchmarks are not capable of exposing failures in multilingual LLMs. To disclose hallucination in multilingual LLMs, we introduce a diagnostic framework with a taxonomy that separates Instruction Detachment from Source Detachment. Guided by this taxonomy, we create HalloMTBench, a multilingual, human-verified benchmark across 11 English-to-X directions. We employed 4 frontier LLMs to generate candidates and scrutinize these candidates with an ensemble of LLM judges, and expert validation. In this way, we curate 5,435 high-quality instances. We have evaluated 17 LLMs on HalloMTBench. Results reveal distinct ``hallucination triggers'' -- unique failure patterns reflecting model scale, source length sensitivity, linguistic biases, and Reinforcement-Learning (RL) amplified language mixing. HalloMTBench offers a forward-looking testbed for diagnosing LLM translation failures. HalloMTBench is available in https://huggingface.co/collections/AIDC-AI/marco-mt.",
+      "url": "https://arxiv.org/abs/2510.24073",
+      "published_date": "2025-10-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "llms",
+        "hallomtbench",
+        "multilingual",
+        "hallucination",
+        "multilingual llms",
+        "taxonomy",
+        "translation",
+        "benchmark",
+        "candidates",
+        "detachment"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue \u2013 hallucination in multilingual LLMs \u2013 which is a significant barrier to their reliable deployment. The introduction of a taxonomy separating Instruction and Source Detachment, coupled with the creation of a large, human-verified benchmark (HalloMTBench), demonstrates a rigorous methodology. The evaluation of 17 LLMs and identification of 'hallucination triggers' provides valuable insights for future research and model development. The high number of LLM judges and expert validation further strengthens the work.",
+      "paper_id": "2a865a66b16e299ca03674710ff40dd7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-29T09:29:06.324301"
 }

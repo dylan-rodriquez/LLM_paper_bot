@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection
+
+**Score:** 92.0 | **Published:** 2025-10-29 | **Authors:** Grace Byun, Rebecca Lipschutz, Sean T. Minton, Abigail Lott, Jinho D. Choi
+
+arXiv:2510.23845v1 Announce Type: new 
+Abstract: Detecting mental health crisis situations such as suicide ideation, rape, domestic violence, child abuse, and sexual harassment is a critical yet under...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.23845) | [📝 Analysis](04201b55aad41c9f1ca66805d50c14b0.md)
+
+---
+
+### Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures
+
+**Score:** 92.0 | **Published:** 2025-10-29 | **Authors:** Tyler A. Chang (Julia), Catherine Arnett (Julia), Abdelrahman Eldesokey (Julia), Abdelrahman Sadallah (Julia), Abeer Kashar (Julia), Abolade Daud (Julia), Abosede Grace Olanihun (Julia), Adamu Labaran Mohammed (Julia), Adeyemi Praise (Julia), Adhikarinayum Meerajita Sharma (Julia), Aditi Gupta (Julia), Afitab Iyigun (Julia), Afonso Simpl\'icio (Julia), Ahmed Essouaied (Julia), Aicha Chorana (Julia), Akhil Eppa (Julia), Akintunde Oladipo (Julia), Akshay Ramesh (Julia), Aleksei Dorkin (Julia), Alfred Malengo Kondoro (Julia), Alham Fikri Aji (Julia), Ali Eren \c{C}etinta\c{s} (Julia), Allan Hanbury (Julia), Alou Dembele (Julia), Alp Niksarli (Julia), \'Alvaro Arroyo (Julia), Amin Bajand (Julia), Amol Khanna (Julia), Ana Chkhaidze (Julia), Ana Condez (Julia), Andiswa Mkhonto (Julia), Andrew Hoblitzell (Julia), Andrew Tran (Julia), Angelos Poulis (Julia), Anirban Majumder (Julia), Anna Vacalopoulou (Julia), Annette Kuuipolani Kanahele Wong (Julia), Annika Simonsen (Julia), Anton Kovalev (Julia), Ashvanth. S (Julia), Ayodeji Joseph Lana (Julia), Barkin Kinay (Julia), Bashar Alhafni (Julia), Benedict Cibalinda Busole (Julia), Bernard Ghanem (Julia), Bharti Nathani (Julia), Biljana Stojanovska {\DJ}uri\'c (Julia), Bola Agbonile (Julia), Bragi Bergsson (Julia), Bruce Torres Fischer (Julia), Burak Tutar (Julia), Burcu Alaku\c{s} \c{C}{\i}nar (Julia), Cade J. Kanoniakapueo Kane (Julia), Can Udomcharoenchaikit (Julia), Catherine Arnett (Julia), Chadi Helwe (Julia), Chaithra Reddy Nerella (Julia), Chen Cecilia Liu (Julia), Chiamaka Glory Nwokolo (Julia), Cristina Espa\~na-Bonet (Julia), Cynthia Amol (Julia), DaeYeop Lee (Julia), Dana Arad (Julia), Daniil Dzenhaliou (Julia), Daria Pugacheva (Julia), Dasol Choi (Julia), Daud Abolade (Julia), David Liu (Julia), David Semedo (Julia), Deborah Popoola (Julia), Deividas Mataciunas (Julia), Delphine Nyaboke (Julia), Dhyuthy Krishna Kumar (Julia), Diogo Gl\'oria-Silva (Julia), Diogo Tavares (Julia), Divyanshu Goyal (Julia), DongGeon Lee (Julia), Ebele Nwamaka Anajemba (Julia), Egonu Ngozi Grace (Julia), Elena Mickel (Julia), Elena Tutubalina (Julia), Elias Herranen (Julia), Emile Anand (Julia), Emmanuel Habumuremyi (Julia), Emuobonuvie Maria Ajiboye (Julia), Eryawan Presma Yulianrifat (Julia), Esther Adenuga (Julia), Ewa Rudnicka (Julia), Faith Olabisi Itiola (Julia), Faran Taimoor Butt (Julia), Fathima Thekkekara (Julia), Fatima Haouari (Julia), Filbert Aurelian Tjiaranata (Julia), Firas Laakom (Julia), Francesca Grasso (Julia), Francesco Orabona (Julia), Francesco Periti (Julia), Gbenga Kayode Solomon (Julia), Gia Nghia Ngo (Julia), Gloria Udhehdhe-oze (Julia), Gon\c{c}alo Martins (Julia), Gopi Naga Sai Ram Challagolla (Julia), Guijin Son (Julia), Gulnaz Abdykadyrova (Julia), Hafsteinn Einarsson (Julia), Hai Hu (Julia), Hamidreza Saffari (Julia), Hamza Zaidi (Julia), Haopeng Zhang (Julia), Harethah Abu Shairah (Julia), Harry Vuong (Julia), Hele-Andra Kuulmets (Julia), Houda Bouamor (Julia), Hwanjo Yu (Julia), Iben Nyholm Debess (Julia), \.Ibrahim Ethem Deveci (Julia), Ikhlasul Akmal Hanif (Julia), Ikhyun Cho (Julia), In\^es Calvo (Julia), In\^es Vieira (Julia), Isaac Manzi (Julia), Ismail Daud (Julia), Itay Itzhak (Julia),  Iuliia (Julia),  Alekseenko, Ivan Belashkin, Ivan Spada, Ivan Zhelyazkov, Jacob Brinton, Jafar Isbarov, Jaka \v{C}ibej, Jan \v{C}uhel, Jan Koco\'n, Jauza Akbar Krito, Jebish Purbey, Jennifer Mickel, Jennifer Za, Jenny Kunz, Jihae Jeong, Jimena Tena D\'avalos, Jinu Lee, Jo\~ao Magalh\~aes, John Yi, Jongin Kim, Joseph Chataignon, Joseph Marvin Imperial, Jubeerathan Thevakumar, Judith Land, Junchen Jiang, Jungwhan Kim, Kairit Sirts, Kamesh R, Kamesh V, Kanda Patrick Tshinu, K\"atriin Kukk, Kaustubh Ponkshe, Kavsar Huseynova, Ke He, Kelly Buchanan, Kengatharaiyer Sarveswaran, Kerem Zaman, Khalil Mrini, Kian Kyars, Krister Kruusmaa, Kusum Chouhan, Lainitha Krishnakumar, Laura Castro S\'anchez, Laura Porrino Moscoso, Leshem Choshen, Levent Sencan, Lilja {\O}vrelid, Lisa Alazraki, Lovina Ehimen-Ugbede, Luheerathan Thevakumar, Luxshan Thavarasa, Mahnoor Malik, Mamadou K. Keita, Mansi Jangid, Marco De Santis, Marcos Garc\'ia, Marek Suppa, Mariam D'Ciofalo, Marii Ojastu, Maryam Sikander, Mausami Narayan, Maximos Skandalis, Mehak Mehak, Mehmet \.Ilteri\c{s} Bozkurt, Melaku Bayu Workie, Menan Velayuthan, Michael Leventhal, Micha{\l} Marci\'nczuk, Mirna Poto\v{c}njak, Mohammadamin Shafiei, Mridul Sharma, Mrityunjaya Indoria, Muhammad Ravi Shulthan Habibi, Murat Koli\'c, Nada Galant, Naphat Permpredanun, Narada Maugin, Nicholas Kluge Corr\^ea, Nikola Ljube\v{s}i\'c, Nirmal Thomas, Nisansa de Silva, Nisheeth Joshi, Nitish Ponkshe, Nizar Habash, Nneoma C. Udeze, Noel Thomas, No\'emi Ligeti-Nagy, Nouhoum Coulibaly, Nsengiyumva Faustin, Odunayo Kareemat Buliaminu, Odunayo Ogundepo, Oghojafor Godswill Fejiro, Ogundipe Blessing Funmilola, Okechukwu God'spraise, Olanrewaju Samuel, Olaoye Deborah Oluwaseun, Olasoji Akindejoye, Olga Popova, Olga Snissarenko, Onyinye Anulika Chiemezie, Orkun Kinay, Osman Tursun, Owoeye Tobiloba Moses, Oyelade Oluwafemi Joshua, Oyesanmi Fiyinfoluwa, Pablo Gamallo, Pablo Rodr\'iguez Fern\'andez, Palak Arora, Pedro Valente, Peter Rupnik, Philip Oghenesuowho Ekiugbo, Pramit Sahoo, Prokopis Prokopidis, Pua Niau-Puhipau, Quadri Yahya, Rachele Mignone, Raghav Singhal, Ram Mohan Rao Kadiyala, Raphael Merx, Rapheal Afolayan, Ratnavel Rajalakshmi, Rishav Ghosh, Romina Oji, Ron Kekeha Solis, Rui Guerra, Rushikesh Zawar, Sa'ad Nasir Bashir, Saeed Alzaabi, Sahil Sandeep, Sai Pavan Batchu, SaiSandeep Kantareddy, Salsabila Zahirah Pranida, Sam Buchanan, Samuel Rutunda, Sander Land, Sarah Sulollari, Sardar Ali, Saroj Sapkota, Saulius Tautvaisas, Sayambhu Sen, Sayantani Banerjee, Sebastien Diarra, SenthilNathan. M, Sewoong Lee, Shaan Shah, Shankar Venkitachalam, Sharifa Djurabaeva, Sharon Ibejih, Shivanya Shomir Dutta, Siddhant Gupta, Silvia Paniagua Su\'arez, Sina Ahmadi, Sivasuthan Sukumar, Siyuan Song, Snegha A., Sokratis Sofianopoulos, Sona Elza Simon, Sonja Ben\v{c}ina, Sophie Gvasalia, Sphurti Kirit More, Spyros Dragazis, Stephan P. Kaufhold, Suba. S, Sultan AlRashed, Surangika Ranathunga, Taiga Someya, Taja Kuzman Punger\v{s}ek, Tal Haklay, Tasi'u Jibril, Tatsuya Aoyama, Tea Abashidze, Terenz Jomar Dela Cruz, Terra Blevins, Themistoklis Nikas, Theresa Dora Idoko, Thu Mai Do, Tilek Chubakov, Tommaso Gargiani, Uma Rathore, Uni Johannesen, Uwuma Doris Ugwu, Vallerie Alexandra Putra, Vanya Bannihatti Kumar, Varsha Jeyarajalingam, Varvara Arzt, Vasudevan Nedumpozhimana, Viktoria Ondrejova, Viktoryia Horbik, Vishnu Vardhan Reddy Kummitha, Vuk Dini\'c, Walelign Tewabe Sewunetie, Winston Wu, Xiaojing Zhao, Yacouba Diarra, Yaniv Nikankin, Yash Mathur, Yixi Chen, Yiyuan Li, Yolanda Xavier, Yonatan Belinkov, Yusuf Ismail Abayomi, Zaid Alyafeai, Zhengyang Shan, Zhi Rui Tam, Zilu Tang, Zuzana Nadova, Baber Abbasi, Stella Biderman, David Stap, Duygu Ataman, Fabian Schmidt, Hila Gonen, Jiayi Wang, David Ifeoluwa Adelani
+
+arXiv:2510.24081v1 Announce Type: new 
+Abstract: To date, there exist almost no culturally-specific evaluation benchmarks for large language models (LLMs) that cover a large number of languages and cu...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.24081) | [📝 Analysis](73c7bb4891d14e2e3981fd839b34de2a.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-29 09:29:06 UTC*
