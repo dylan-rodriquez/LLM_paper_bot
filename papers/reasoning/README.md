@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### From Medical Records to Diagnostic Dialogues: A Clinical-Grounded Approach and Dataset for Psychiatric Comorbidity
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Tianxi Wan, Jiaming Luo, Siyuan Chen, Kunyao Lan, Jianhua Chen, Haiyang Geng, Mengyue Wu
+
+arXiv:2510.25232v1 Announce Type: cross 
+Abstract: Psychiatric comorbidity is clinically significant yet challenging due to the complexity of multiple co-occurring disorders. To address this, we devel...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25232) | [📝 Analysis](2daedf1c63e233ed88306d94d18a3ae8.md)
+
+---
+
+### Confidence is Not Competence
+
+**Score:** 90.0 | **Published:** 2025-10-30 | **Authors:** Debdeep Sanyal, Manya Pandey, Dhruv Kumar, Saurabh Deshpande, Murari Mandal
+
+arXiv:2510.24772v1 Announce Type: new 
+Abstract: Large language models (LLMs) often exhibit a puzzling disconnect between their asserted confidence and actual problem-solving competence. We offer a me...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.24772) | [📝 Analysis](65d105f613213d67721bb31a3bf7f391.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-30 09:29:33 UTC*

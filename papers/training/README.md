@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### A Survey on Unlearning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Ruichen Qiu, Jiajun Tan, Jiayue Pu, Honglin Wang, Xiao-Shan Gao, Fei Sun
+
+arXiv:2510.25117v1 Announce Type: new 
+Abstract: The advancement of Large Language Models (LLMs) has revolutionized natural language processing, yet their training on massive corpora poses significant...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25117) | [📝 Analysis](4e393d102fd391905f8c6f49b1d75ffa.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-30 09:29:33 UTC*

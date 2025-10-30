@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Epistemic Suite: A Post-Foundational Diagnostic Methodology for Assessing AI Knowledge Claims
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Matthew Kelly
+
+arXiv:2510.24721v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) generate fluent, plausible text that can mislead users into mistaking simulated coherence for genuine understanding. Thi...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.24721) | [📝 Analysis](c876a299ac4f28626bbc958bb11b4f9c.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-30 09:29:33 UTC*

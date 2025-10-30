@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "From Medical Records to Diagnostic Dialogues: A Clinical-Grounded Approach and Dataset for Psychiatric Comorbidity",
+      "authors": [
+        "Tianxi Wan, Jiaming Luo, Siyuan Chen, Kunyao Lan, Jianhua Chen, Haiyang Geng, Mengyue Wu"
+      ],
+      "abstract": "arXiv:2510.25232v1 Announce Type: cross \nAbstract: Psychiatric comorbidity is clinically significant yet challenging due to the complexity of multiple co-occurring disorders. To address this, we develop a novel approach integrating synthetic patient electronic medical record (EMR) construction and multi-agent diagnostic dialogue generation. We create 502 synthetic EMRs for common comorbid conditions using a pipeline that ensures clinical relevance and diversity. Our multi-agent framework transfers the clinical interview protocol into a hierarchical state machine and context tree, supporting over 130 diagnostic states while maintaining clinical standards. Through this rigorous process, we construct PsyCoTalk, the first large-scale dialogue dataset supporting comorbidity, containing 3,000 multi-turn diagnostic dialogues validated by psychiatrists. This dataset enhances diagnostic accuracy and treatment planning, offering a valuable resource for psychiatric comorbidity research. Compared to real-world clinical transcripts, PsyCoTalk exhibits high structural and linguistic fidelity in terms of dialogue length, token distribution, and diagnostic reasoning strategies. Licensed psychiatrists confirm the realism and diagnostic validity of the dialogues. This dataset enables the development and evaluation of models capable of multi-disorder psychiatric screening in a single conversational pass.",
+      "url": "https://arxiv.org/abs/2510.25232",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "diagnostic",
+        "clinical",
+        "comorbidity",
+        "dataset",
+        "multi",
+        "psychiatric",
+        "dialogue",
+        "dialogues",
+        "psychiatric comorbidity",
+        "agent"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and complex problem in mental healthcare \u2013 psychiatric comorbidity \u2013 with a novel approach combining synthetic EMR generation and multi-agent dialogue systems. The creation of a large-scale, psychiatrist-validated dataset (PsyCoTalk) is a significant contribution, and the methodology appears rigorous. The integration of clinical protocols into a hierarchical state machine is a clever approach, suggesting a high likelihood of positive reception within the AI and psychiatric communities.",
+      "paper_id": "2daedf1c63e233ed88306d94d18a3ae8"
+    },
+    {
+      "title": "Confidence is Not Competence",
+      "authors": [
+        "Debdeep Sanyal, Manya Pandey, Dhruv Kumar, Saurabh Deshpande, Murari Mandal"
+      ],
+      "abstract": "arXiv:2510.24772v1 Announce Type: new \nAbstract: Large language models (LLMs) often exhibit a puzzling disconnect between their asserted confidence and actual problem-solving competence. We offer a mechanistic account of this decoupling by analyzing the geometry of internal states across two phases - pre-generative assessment and solution execution. A simple linear probe decodes the internal \"solvability belief\" of a model, revealing a well-ordered belief axis that generalizes across model families and across math, code, planning, and logic tasks. Yet, the geometries diverge - although belief is linearly decodable, the assessment manifold has high linear effective dimensionality as measured from the principal components, while the subsequent reasoning trace evolves on a much lower-dimensional manifold. This sharp reduction in geometric complexity from thought to action mechanistically explains the confidence-competence gap. Causal interventions that steer representations along the belief axis leave final solutions unchanged, indicating that linear nudges in the complex assessment space do not control the constrained dynamics of execution. We thus uncover a two-system architecture - a geometrically complex assessor feeding a geometrically simple executor. These results challenge the assumption that decodable beliefs are actionable levers, instead arguing for interventions that target the procedural dynamics of execution rather than the high-level geometry of assessment.",
+      "url": "https://arxiv.org/abs/2510.24772",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "assessment",
+        "belief",
+        "competence",
+        "confidence",
+        "execution",
+        "linear",
+        "axis",
+        "belief axis",
+        "complex",
+        "confidence competence"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 the disconnect between confidence and competence \u2013 with a novel geometric analysis approach. The use of a linear probe to decode 'solvability belief' and the observation of dimensionality reduction from assessment to reasoning are particularly insightful. The generalization across tasks and model families suggests a robust finding, and the mechanistic explanation offered is compelling. The work is well-positioned to receive positive attention within the LLM research community.",
+      "paper_id": "65d105f613213d67721bb31a3bf7f391"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-10-30T09:29:33.528465"
 }

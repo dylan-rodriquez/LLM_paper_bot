@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DEBATE: A Large-Scale Benchmark for Role-Playing LLM Agents in Multi-Agent, Long-Form Debates
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, Smit Vasani, Binwei Yao, Michael Henry Tessler, Sijia Yang, Dhavan Shah, Robert Hawkins, Junjie Hu, Timothy T. Rogers
+
+arXiv:2510.25110v1 Announce Type: new 
+Abstract: Accurately modeling opinion change through social interactions is crucial for addressing issues like misinformation and polarization. While role-playin...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25110) | [📝 Analysis](cbe43657eab97fdc4866373d4251323b.md)
+
+---
+
+### BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, Yogeshkumar Sant, Shyam Pawar, Viraj Thakur, Ananya Godse, Sunil Patra, Neha Maurya, Suraj Racha, Nitish Kamal Singh, Ajay Nagpal, Piyush Sawarkar, Kundeshwar Vijayrao Pundalik, Rohit Saluja, Ganesh Ramakrishnan
+
+arXiv:2510.25409v1 Announce Type: new 
+Abstract: The rapid advancement of large language models(LLMs) has intensified the need for domain and culture specific evaluation. Existing benchmarks are large...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25409) | [📝 Analysis](f709fcb6831ead81148713a5a446a683.md)
+
+---
+
+### OpenFactCheck: Building, Benchmarking Customized Fact-Checking Systems and Evaluating the Factuality of Claims and LLMs
+
+**Score:** 92.0 | **Published:** 2025-10-30 | **Authors:** Yuxia Wang, Minghan Wang, Hasan Iqbal, Georgi Georgiev, Jiahui Geng, Preslav Nakov
+
+arXiv:2405.05583v3 Announce Type: replace 
+Abstract: The increased use of large language models (LLMs) across a variety of real-world applications calls for mechanisms to verify the factual accuracy o...
+
+[📄 Full Paper](https://arxiv.org/abs/2405.05583) | [📝 Analysis](11371f2836cb73611ee7740accd6c52f.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-30 09:29:33 UTC*
