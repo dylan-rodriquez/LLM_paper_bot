@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DEBATE: A Large-Scale Benchmark for Role-Playing LLM Agents in Multi-Agent, Long-Form Debates",
+      "authors": [
+        "Yun-Shiuan Chuang, Ruixuan Tu, Chengtao Dai, Smit Vasani, Binwei Yao, Michael Henry Tessler, Sijia Yang, Dhavan Shah, Robert Hawkins, Junjie Hu, Timothy T. Rogers"
+      ],
+      "abstract": "arXiv:2510.25110v1 Announce Type: new \nAbstract: Accurately modeling opinion change through social interactions is crucial for addressing issues like misinformation and polarization. While role-playing large language models (LLMs) offer a promising way to simulate human-like interactions, existing research shows that single-agent alignment does not guarantee authentic multi-agent group dynamics. Current LLM role-play setups often produce unnatural dynamics (e.g., premature convergence), without an empirical benchmark to measure authentic human opinion trajectories. To bridge this gap, we introduce DEBATE, the first large-scale empirical benchmark explicitly designed to evaluate the authenticity of the interaction between multi-agent role-playing LLMs. DEBATE contains 29,417 messages from multi-round debate conversations among over 2,792 U.S.-based participants discussing 107 controversial topics, capturing both publicly-expressed messages and privately-reported opinions. Using DEBATE, we systematically evaluate and identify critical discrepancies between simulated and authentic group dynamics. We further demonstrate DEBATE's utility for aligning LLMs with human behavior through supervised fine-tuning, achieving improvements in surface-level metrics (e.g., ROUGE-L and message length) while highlighting limitations in deeper semantic alignment (e.g., semantic similarity). Our findings highlight both the potential and current limitations of role-playing LLM agents for realistically simulating human-like social dynamics.",
+      "url": "https://arxiv.org/abs/2510.25110",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "debate",
+        "role",
+        "agent",
+        "dynamics",
+        "human",
+        "multi",
+        "playing",
+        "role playing",
+        "authentic",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM research \u2013 the lack of realistic multi-agent interaction benchmarks. The creation of the DEBATE dataset, with its scale and inclusion of both expressed messages and private opinions, is a significant contribution. While the core idea of benchmarking isn't entirely novel, the focus on *authentic* opinion dynamics in debates and the dataset's size elevate its quality and potential impact.",
+      "paper_id": "cbe43657eab97fdc4866373d4251323b"
+    },
+    {
+      "title": "BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains",
+      "authors": [
+        "Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, Yogeshkumar Sant, Shyam Pawar, Viraj Thakur, Ananya Godse, Sunil Patra, Neha Maurya, Suraj Racha, Nitish Kamal Singh, Ajay Nagpal, Piyush Sawarkar, Kundeshwar Vijayrao Pundalik, Rohit Saluja, Ganesh Ramakrishnan"
+      ],
+      "abstract": "arXiv:2510.25409v1 Announce Type: new \nAbstract: The rapid advancement of large language models(LLMs) has intensified the need for domain and culture specific evaluation. Existing benchmarks are largely Anglocentric and domain-agnostic, limiting their applicability to India-centric contexts. To address this gap, we introduce BhashaBench V1, the first domain-specific, multi-task, bilingual benchmark focusing on critical Indic knowledge systems. BhashaBench V1 contains 74,166 meticulously curated question-answer pairs, with 52,494 in English and 21,672 in Hindi, sourced from authentic government and domain-specific exams. It spans four major domains: Agriculture, Legal, Finance, and Ayurveda, comprising 90+ subdomains and covering 500+ topics, enabling fine-grained evaluation. Evaluation of 29+ LLMs reveals significant domain and language specific performance gaps, with especially large disparities in low-resource domains. For instance, GPT-4o achieves 76.49% overall accuracy in Legal but only 59.74% in Ayurveda. Models consistently perform better on English content compared to Hindi across all domains. Subdomain-level analysis shows that areas such as Cyber Law, International Finance perform relatively well, while Panchakarma, Seed Science, and Human Rights remain notably weak. BhashaBench V1 provides a comprehensive dataset for evaluating large language models across India's diverse knowledge domains. It enables assessment of models' ability to integrate domain-specific knowledge with bilingual understanding. All code, benchmarks, and resources are publicly available to support open research.",
+      "url": "https://arxiv.org/abs/2510.25409",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "domain",
+        "domains",
+        "specific",
+        "bhashabench",
+        "bhashabench v1",
+        "models",
+        "v1",
+        "domain specific",
+        "evaluation",
+        "knowledge"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of benchmarks tailored to Indic languages and domains. The scale of the benchmark (74k+ QA pairs, multi-domain, bilingual) is impressive and the sourcing from authentic exams adds to its rigor. While the core idea of a domain-specific benchmark isn't entirely novel, the focus on Indic languages and the breadth of coverage represent a significant contribution. The initial evaluation results highlighting performance gaps are valuable.",
+      "paper_id": "f709fcb6831ead81148713a5a446a683"
+    },
+    {
+      "title": "OpenFactCheck: Building, Benchmarking Customized Fact-Checking Systems and Evaluating the Factuality of Claims and LLMs",
+      "authors": [
+        "Yuxia Wang, Minghan Wang, Hasan Iqbal, Georgi Georgiev, Jiahui Geng, Preslav Nakov"
+      ],
+      "abstract": "arXiv:2405.05583v3 Announce Type: replace \nAbstract: The increased use of large language models (LLMs) across a variety of real-world applications calls for mechanisms to verify the factual accuracy of their outputs. Difficulties lie in assessing the factuality of free-form responses in open domains. Also, different papers use disparate evaluation benchmarks and measurements, which renders them hard to compare and hampers future progress. To mitigate these issues, we propose OpenFactCheck, a unified framework for building customized automatic fact-checking systems, benchmarking their accuracy, evaluating factuality of LLMs, and verifying claims in a document. OpenFactCheck consists of three modules: (i) CUSTCHECKER allows users to easily customize an automatic fact-checker and verify the factual correctness of documents and claims, (ii) LLMEVAL, a unified evaluation framework assesses LLM's factuality ability from various perspectives fairly, and (iii) CHECKEREVAL is an extensible solution for gauging the reliability of automatic fact-checkers' verification results using human-annotated datasets. Data and code are publicly available at https://github.com/yuxiaw/openfactcheck.",
+      "url": "https://arxiv.org/abs/2405.05583",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "fact",
+        "factuality",
+        "openfactcheck",
+        "automatic",
+        "automatic fact",
+        "claims",
+        "llms",
+        "accuracy",
+        "benchmarking",
+        "building"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the age of LLMs \u2013 verifying factual accuracy. The proposed OpenFactCheck framework, with its modular design (CUSTCHECKER, LLMEVAL, CHECKEREVAL), offers a valuable contribution to the field by providing tools for customization, unified evaluation, and claim verification. The focus on benchmarking and comparability is particularly strong, and the potential for wider adoption is high given the increasing need for reliable fact-checking mechanisms.",
+      "paper_id": "11371f2836cb73611ee7740accd6c52f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-10-30T09:29:33.529787"
 }

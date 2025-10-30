@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "A Survey on Unlearning in Large Language Models",
+      "authors": [
+        "Ruichen Qiu, Jiajun Tan, Jiayue Pu, Honglin Wang, Xiao-Shan Gao, Fei Sun"
+      ],
+      "abstract": "arXiv:2510.25117v1 Announce Type: new \nAbstract: The advancement of Large Language Models (LLMs) has revolutionized natural language processing, yet their training on massive corpora poses significant risks, including the memorization of sensitive personal data, copyrighted material, and knowledge that could facilitate malicious activities. To mitigate these issues and align with legal and ethical standards such as the \"right to be forgotten\", machine unlearning has emerged as a critical technique to selectively erase specific knowledge from LLMs without compromising their overall performance. This survey provides a systematic review of over 180 papers on LLM unlearning published since 2021, focusing exclusively on large-scale generative models. Distinct from prior surveys, we introduce novel taxonomies for both unlearning methods and evaluations. We clearly categorize methods into training-time, post-training, and inference-time based on the training stage at which unlearning is applied. For evaluations, we not only systematically compile existing datasets and metrics but also critically analyze their advantages, disadvantages, and applicability, providing practical guidance to the research community. In addition, we discuss key challenges and promising future research directions. Our comprehensive overview aims to inform and guide the ongoing development of secure and reliable LLMs.",
+      "url": "https://arxiv.org/abs/2510.25117",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "unlearning",
+        "training",
+        "language",
+        "large",
+        "llms",
+        "models",
+        "evaluations",
+        "knowledge",
+        "language models",
+        "large language"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey addresses a highly relevant and timely problem \u2013 unlearning in LLMs \u2013 driven by increasing concerns about data privacy and responsible AI. The claim of novel taxonomies for methods and evaluations suggests a strong methodological approach, going beyond simply summarizing existing work. The scope (over 180 papers since 2021, focusing on generative models) indicates a comprehensive effort, and the focus on legal/ethical standards adds to its importance.",
+      "paper_id": "4e393d102fd391905f8c6f49b1d75ffa"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-30T09:29:33.531211"
 }

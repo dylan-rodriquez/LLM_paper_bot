@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Epistemic Suite: A Post-Foundational Diagnostic Methodology for Assessing AI Knowledge Claims",
+      "authors": [
+        "Matthew Kelly"
+      ],
+      "abstract": "arXiv:2510.24721v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) generate fluent, plausible text that can mislead users into mistaking simulated coherence for genuine understanding. This paper introduces the Epistemic Suite, a post-foundational diagnostic methodology for surfacing the epistemic conditions under which AI outputs are produced and received. Rather than determining truth or falsity, the Suite operates through twenty diagnostic lenses, applied by practitioners as context warrants, to reveal patterns such as confidence laundering, narrative compression, displaced authority, and temporal drift. It is grounded in three design principles: diagnosing production before evaluating claims, preferring diagnostic traction over foundational settlement, and embedding reflexivity as a structural requirement rather than an ethical ornament. When enacted, the Suite shifts language models into a diagnostic stance, producing inspectable artifacts-flags, annotations, contradiction maps, and suspension logs (the FACS bundle)-that create an intermediary layer between AI output and human judgment. A key innovation is epistemic suspension, a practitioner-enacted circuit breaker that halts continuation when warrant is exceeded, with resumption based on judgment rather than rule. The methodology also includes an Epistemic Triage Protocol and a Meta-Governance Layer to manage proportionality and link activation to relational accountability, consent, historical context, and pluralism safeguards. Unlike internalist approaches that embed alignment into model architectures (e.g., RLHF or epistemic-integrity proposals), the Suite operates externally as scaffolding, preserving expendability and refusal as safeguards rather than failures. It preserves the distinction between performance and understanding, enabling accountable deliberation while maintaining epistemic modesty.",
+      "url": "https://arxiv.org/abs/2510.24721",
+      "published_date": "2025-10-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "epistemic",
+        "diagnostic",
+        "suite",
+        "ai",
+        "foundational",
+        "methodology",
+        "claims",
+        "context",
+        "diagnostic methodology",
+        "enacted"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in the age of LLMs \u2013 discerning genuine understanding from simulated coherence. The 'Epistemic Suite' methodology, with its focus on diagnostic lenses and reflexivity, offers a novel approach to evaluating AI knowledge claims beyond simple truth/falsity assessments. The grounding principles and emphasis on inspectable artifacts suggest a rigorous and well-thought-out framework, likely to be well-received by the AI safety and interpretability communities.",
+      "paper_id": "c876a299ac4f28626bbc958bb11b4f9c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-10-30T09:29:33.534263"
 }
