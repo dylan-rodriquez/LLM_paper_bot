@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Rethinking Cross-lingual Alignment: Balancing Transfer and Cultural Erasure in Multilingual LLMs
+
+**Score:** 90.0 | **Published:** 2025-10-31 | **Authors:** HyoJung Han, Sweta Agrawal, Eleftheria Briakou
+
+arXiv:2510.26024v1 Announce Type: new 
+Abstract: Cross-lingual alignment (CLA) aims to align multilingual representations, enabling Large Language Models (LLMs) to seamlessly transfer knowledge across...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.26024) | [📝 Analysis](8299e726c668260e45d40d2475445b41.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-10-31 09:29:26 UTC*

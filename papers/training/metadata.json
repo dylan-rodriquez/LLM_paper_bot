@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline",
+      "authors": [
+        "Andr\\'e V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li"
+      ],
+      "abstract": "arXiv:2510.25941v1 Announce Type: new \nAbstract: If we cannot inspect the training data of a large language model (LLM), how can we ever know what it has seen? We believe the most compelling evidence arises when the model itself freely reproduces the target content. As such, we propose RECAP, an agentic pipeline designed to elicit and verify memorized training data from LLM outputs. At the heart of RECAP is a feedback-driven loop, where an initial extraction attempt is evaluated by a secondary language model, which compares the output against a reference passage and identifies discrepancies. These are then translated into minimal correction hints, which are fed back into the target model to guide subsequent generations. In addition, to address alignment-induced refusals, RECAP includes a jailbreaking module that detects and overcomes such barriers. We evaluate RECAP on EchoTrace, a new benchmark spanning over 30 full books, and the results show that RECAP leads to substantial gains over single-iteration approaches. For instance, with GPT-4.1, the average ROUGE-L score for the copyrighted text extraction improved from 0.38 to 0.47 - a nearly 24% increase.",
+      "url": "https://arxiv.org/abs/2510.25941",
+      "published_date": "2025-10-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "recap",
+        "model",
+        "data",
+        "training",
+        "agentic",
+        "agentic pipeline",
+        "copyrighted",
+        "extraction",
+        "language",
+        "language model"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM research \u2013 understanding what data these models have memorized \u2013 in a novel way. The agentic pipeline with feedback and jailbreaking is a clever approach to elicit memorized content, and the EchoTrace benchmark provides a solid evaluation platform. The methodology appears rigorous, and the potential implications for copyright and data privacy are significant, suggesting a positive reception within the community.",
+      "paper_id": "9b98d7c34e377bdc8cc605e1dc12de8d"
+    },
+    {
+      "title": "FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X",
+      "authors": [
+        "Soufiane Essahli, Oussama Sarsar, Imane Fouad, Anas Motii, Ahmed Bentajer"
+      ],
+      "abstract": "arXiv:2510.25932v1 Announce Type: cross \nAbstract: Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse. We present FakeZero, a fully client-side, cross-platform browser extension that flags unreliable posts on Facebook and X (formerly Twitter) while the user scrolls. All computation, DOM scraping, tokenisation, Transformer inference, and UI rendering run locally through the Chromium messaging API, so no personal data leaves the device.FakeZero employs a three-stage training curriculum: baseline fine-tuning and domain-adaptive training enhanced with focal loss, adversarial augmentation, and post-training quantisation. Evaluated on a dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1% macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to 14.7 MB and lowering latency to approximately 40 ms, showing that high-quality fake-news detection is feasible under tight resource budgets with only modest performance loss.By providing inline credibility cues, the extension can serve as a valuable tool for policymakers seeking to curb the spread of misinformation across social networks. With user consent, FakeZero also opens the door for researchers to collect large-scale datasets of fake news in the wild, enabling deeper analysis and the development of more robust detection techniques.",
+      "url": "https://arxiv.org/abs/2510.25932",
+      "published_date": "2025-10-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "fakezero",
+        "detection",
+        "misinformation",
+        "training",
+        "97",
+        "accuracy",
+        "approximately",
+        "cross",
+        "extension",
+        "f1"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 misinformation on social media \u2013 with a novel approach focused on client-side, privacy-preserving detection. The reported performance metrics (97.1% macro-F1, 99.6 AUROC) are impressive, and the focus on efficiency with model quantization is commendable. While the core Transformer architecture isn't entirely new, the combination of techniques and the deployment model are strong points.",
+      "paper_id": "dec31f8e3e11643f1be12690ecfc65b8"
+    },
+    {
+      "title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+      "authors": [
+        "Xuandong Zhao, Will Cai, Tianneng Shi, David Huang, Licong Lin, Song Mei, Dawn Song"
+      ],
+      "abstract": "arXiv:2503.03710v3 Announce Type: replace \nAbstract: Existing training-time safety alignment techniques for large language models (LLMs) remain vulnerable to jailbreak attacks. Direct preference optimization (DPO), a widely deployed alignment method, exhibits limitations in both experimental and theoretical contexts as its loss function proves suboptimal for refusal learning. Through gradient-based analysis, we identify these shortcomings and propose an improved safety alignment that disentangles DPO objectives into two components: (1) robust refusal training, which encourages refusal even when partial unsafe generations are produced, and (2) targeted unlearning of harmful knowledge. This approach significantly increases LLM robustness against a wide range of jailbreak attacks, including prefilling, suffix, and multi-turn attacks across both in-distribution and out-of-distribution scenarios. Furthermore, we introduce a method to emphasize critical refusal tokens by incorporating a reward-based token-level weighting mechanism for refusal learning, which further improves the robustness against adversarial exploits. Our research also suggests that robustness to jailbreak attacks is correlated with token distribution shifts in the training process and internal representations of refusal and harmful tokens, offering valuable directions for future research in LLM safety alignment. The code is available at https://github.com/wicai24/DOOR-Alignment",
+      "url": "https://arxiv.org/abs/2503.03710",
+      "published_date": "2025-10-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "alignment",
+        "refusal",
+        "attacks",
+        "safety",
+        "safety alignment",
+        "distribution",
+        "jailbreak",
+        "jailbreak attacks",
+        "llm",
+        "robustness"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM development \u2013 safety alignment and vulnerability to jailbreaks. The proposed dual-objective optimization approach, disentangling refusal training and harmful knowledge unlearning, appears well-motivated by gradient-based analysis and demonstrates strong performance against various attack types. The focus on both in-distribution and out-of-distribution scenarios strengthens the work, suggesting a robust solution. The mention of emphasizing critical refusal tokens hints at a nuanced and potentially effective technique.",
+      "paper_id": "0d8ff74659900906350b72c88542d8d0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-10-31T09:29:26.029575"
 }

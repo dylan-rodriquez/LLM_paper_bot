@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ORBIT - Open Recommendation Benchmark for Reproducible Research with Hidden Tests
+
+**Score:** 90.0 | **Published:** 2025-10-31 | **Authors:** Jingyuan He, Jiongnan Liu, Vishan Vishesh Oberoi, Bolin Wu, Mahima Jagadeesh Patel, Kangrui Mao, Chuning Shi, I-Ta Lee, Arnold Overwijk, Chenyan Xiong
+
+arXiv:2510.26095v1 Announce Type: cross 
+Abstract: Recommender systems are among the most impactful AI applications, interacting with billions of users every day, guiding them to relevant products, se...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.26095) | [📝 Analysis](62b1706f1ad121d202294f011d914d26.md)
+
+---
+
+### Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models
+
+**Score:** 90.0 | **Published:** 2025-10-31 | **Authors:** Jos\'e Pombal, Nuno M. Guerreiro, Ricardo Rei, Andr\'e F. T. Martins
+
+arXiv:2504.01001v2 Announce Type: replace 
+Abstract: As language models improve and become capable of performing more complex tasks across modalities, evaluating them automatically becomes increasingl...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.01001) | [📝 Analysis](fb33c5a8458ac3a8c93b4a7b45e5e56a.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-31 09:29:26 UTC*
