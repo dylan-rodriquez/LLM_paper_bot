@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline
+
+**Score:** 92.0 | **Published:** 2025-10-31 | **Authors:** Andr\'e V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li
+
+arXiv:2510.25941v1 Announce Type: new 
+Abstract: If we cannot inspect the training data of a large language model (LLM), how can we ever know what it has seen? We believe the most compelling evidence ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25941) | [📝 Analysis](9b98d7c34e377bdc8cc605e1dc12de8d.md)
+
+---
+
+### FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X
+
+**Score:** 92.0 | **Published:** 2025-10-31 | **Authors:** Soufiane Essahli, Oussama Sarsar, Imane Fouad, Anas Motii, Ahmed Bentajer
+
+arXiv:2510.25932v1 Announce Type: cross 
+Abstract: Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25932) | [📝 Analysis](dec31f8e3e11643f1be12690ecfc65b8.md)
+
+---
+
+### Improving LLM Safety Alignment with Dual-Objective Optimization
+
+**Score:** 90.0 | **Published:** 2025-10-31 | **Authors:** Xuandong Zhao, Will Cai, Tianneng Shi, David Huang, Licong Lin, Song Mei, Dawn Song
+
+arXiv:2503.03710v3 Announce Type: replace 
+Abstract: Existing training-time safety alignment techniques for large language models (LLMs) remain vulnerable to jailbreak attacks. Direct preference optim...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.03710) | [📝 Analysis](0d8ff74659900906350b72c88542d8d0.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-10-31 09:29:26 UTC*
