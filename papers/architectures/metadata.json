@@ -703,7 +703,103 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Detection of Suicidal Risk on Social Media: A Hybrid Model",
+      "authors": [
+        "Zaihan Yang, Ryan Leonard, Hien Tran, Rory Driscoll, Chadbourne Davis"
+      ],
+      "abstract": "arXiv:2505.23797v1 Announce Type: new \nAbstract: Suicidal thoughts and behaviors are increasingly recognized as a critical societal concern, highlighting the urgent need for effective tools to enable early detection of suicidal risk. In this work, we develop robust machine learning models that leverage Reddit posts to automatically classify them into four distinct levels of suicide risk severity. We frame this as a multi-class classification task and propose a RoBERTa-TF-IDF-PCA Hybrid model, integrating the deep contextual embeddings from Robustly Optimized BERT Approach (RoBERTa), a state-of-the-art deep learning transformer model, with the statistical term-weighting of TF-IDF, further compressed with PCA, to boost the accuracy and reliability of suicide risk assessment. To address data imbalance and overfitting, we explore various data resampling techniques and data augmentation strategies to enhance model generalization. Additionally, we compare our model's performance against that of using RoBERTa only, the BERT model and other traditional machine learning classifiers. Experimental results demonstrate that the hybrid model can achieve improved performance, giving a best weighted $F_{1}$ score of 0.7512.",
+      "url": "https://arxiv.org/abs/2505.23797",
+      "published_date": "2025-06-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "model",
+        "risk",
+        "data",
+        "hybrid",
+        "hybrid model",
+        "learning",
+        "roberta",
+        "suicidal",
+        "bert",
+        "deep"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research tackles a highly significant problem \u2013 suicidal risk detection \u2013 with a potentially useful hybrid approach. The combination of RoBERTa, TF-IDF, and PCA is a reasonable strategy to address the challenges of imbalanced data and improve model performance. While the hybrid model isn't radically new, the application to this specific problem and the focus on data resampling/augmentation techniques demonstrate a solid methodological approach. The potential for real-world impact is high, given the societal need for early detection tools.",
+      "paper_id": "12ca4ac0dfb1c635b7e7fd0debd028f0"
+    },
+    {
+      "title": "Beyond Exponential Decay: Rethinking Error Accumulation in Large Language Models",
+      "authors": [
+        "Mikhail L. Arbuzov, Alexey A. Shvets, Sisong Beir"
+      ],
+      "abstract": "arXiv:2505.24187v1 Announce Type: new \nAbstract: The prevailing assumption of an exponential decay in large language model (LLM) reliability with sequence length, predicated on independent per-token error probabilities, posits an inherent limitation for long autoregressive outputs. Our research fundamentally challenges this view by synthesizing emerging evidence that LLM errors are not uniformly distributed but are concentrated at sparse \"key tokens\" ($5-10\\%$ of total tokens) representing critical decision junctions. By distinguishing these high-impact tokens from the increasingly predictable majority, we introduce a new reliability formula explaining the sustained coherence of modern LLMs over thousands of tokens. Converging research streams reveal that long-context performance primarily depends on accurately navigating a few crucial semantic decision points rather than on uniform token-level accuracy, enabling targeted strategies that significantly outperform brute-force approaches. We thus propose a framework for next-generation systems centered on selective preservation of semantically vital tokens, dynamic computational allocation at uncertain decision boundaries, multi-path exploration at ambiguities, and architectures aligned with natural semantic domains. This marks a fundamental shift from raw scaling to strategic reasoning, promising breakthrough performance without proportionate computational scaling and offering a more nuanced understanding that supersedes the exponential decay hypothesis, thereby opening pathways toward substantially more powerful and efficient language systems.",
+      "url": "https://arxiv.org/abs/2505.24187",
+      "published_date": "2025-06-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tokens",
+        "decay",
+        "decision",
+        "exponential",
+        "exponential decay",
+        "language",
+        "computational",
+        "error",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLM research \u2013 the limitations of sequence length \u2013 and proposes a compelling alternative to the standard exponential decay model. The identification of 'key tokens' as the primary drivers of error is a novel and potentially impactful insight. The abstract suggests a rigorous approach with converging evidence, and the potential for targeted strategies to improve long-context performance is highly promising.",
+      "paper_id": "7e452430ec15eccb3737c19a03a40a90"
+    },
+    {
+      "title": "The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It",
+      "authors": [
+        "Zheng-Xin Yong, Beyza Ermis, Marzieh Fadaee, Stephen H. Bach, Julia Kreutzer"
+      ],
+      "abstract": "arXiv:2505.24119v1 Announce Type: new \nAbstract: This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020--2024 across major NLP conferences and workshops at *ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention. We further observe that non-English languages are rarely studied as a standalone language and that English safety research exhibits poor language documentation practice. To motivate future research into multilingual safety, we make several recommendations based on our survey, and we then pose three concrete future directions on safety evaluation, training data generation, and crosslingual safety generalization. Based on our survey and proposed directions, the field can develop more robust, inclusive AI safety practices for diverse global populations.",
+      "url": "https://arxiv.org/abs/2505.24119",
+      "published_date": "2025-06-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "research",
+        "english",
+        "language",
+        "safety research",
+        "llm",
+        "llm safety",
+        "based",
+        "based survey",
+        "directions"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial and timely issue in LLM safety \u2013 the significant bias towards English language research. The systematic review methodology appears sound, and the identification of a language gap is a valuable contribution. While the paper primarily *highlights* a problem rather than presenting novel solutions, the proposed future directions are well-considered and likely to stimulate further research. The high relevance to current AI safety concerns suggests a positive reception within the community.",
+      "paper_id": "81976d3b9a84f60c643565ef6b6fe6af"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-06-02T09:29:50.460390"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Nine Ways to Break Copyright Law and Why Our LLM Won't: A Fair Use Aligned Generation Framework
+
+**Score:** 92.0 | **Published:** 2025-06-02 | **Authors:** Aakash Sen Sharma, Debdeep Sanyal, Priyansh Srivastava, Sundar Atreya H., Shirish Karande, Mohan Kankanhalli, Murari Mandal
+
+arXiv:2505.23788v1 Announce Type: new 
+Abstract: Large language models (LLMs) commonly risk copyright infringement by reproducing protected content verbatim or with insufficient transformative modific...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23788) | [📝 Analysis](c6874c80f4d6cc2da0d58f42a9a39c4d.md)
+
+---
+
+### MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks
+
+**Score:** 92.0 | **Published:** 2025-06-02 | **Authors:** Suhana Bedi, Hejie Cui, Miguel Fuentes, Alyssa Unell, Michael Wornow, Juan M. Banda, Nikesh Kotecha, Timothy Keyes, Yifan Mai, Mert Oez, Hao Qiu, Shrey Jain, Leonardo Schettini, Mehr Kashyap, Jason Alan Fries, Akshay Swaminathan, Philip Chung, Fateme Nateghi, Asad Aali, Ashwin Nayak, Shivam Vedak, Sneha S. Jain, Birju Patel, Oluseyi Fayanju, Shreya Shah, Ethan Goh, Dong-han Yao, Brian Soetikno, Eduardo Reis, Sergios Gatidis, Vasu Divi, Robson Capasso, Rachna Saralkar, Chia-Chun Chiang, Jenelle Jindal, Tho Pham, Faraz Ghoddusi, Steven Lin, Albert S. Chiou, Christy Hong, Mohana Roy, Michael F. Gensheimer, Hinesh Patel, Kevin Schulman, Dev Dash, Danton Char, Lance Downing, Francois Grolleau, Kameron Black, Bethel Mieso, Aydin Zahedivash, Wen-wai Yim, Harshita Sharma, Tony Lee, Hannah Kirsch, Jennifer Lee, Nerissa Ambers, Carlene Lugtu, Aditya Sharma, Bilal Mawji, Alex Alekseyev, Vicky Zhou, Vikas Kakkar, Jarrod Helzer, Anurang Revri, Yair Bannett, Roxana Daneshjou, Jonathan Chen, Emily Alsentzer, Keith Morse, Nirmal Ravi, Nima Aghaeepour, Vanessa Kennedy, Akshay Chaudhari, Thomas Wang, Sanmi Koyejo, Matthew P. Lungren, Eric Horvitz, Percy Liang, Mike Pfeffer, Nigam H. Shah
+
+arXiv:2505.23802v1 Announce Type: new 
+Abstract: While large language models (LLMs) achieve near-perfect scores on medical licensing exams, these evaluations inadequately reflect the complexity and di...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23802) | [📝 Analysis](008b8664607dc291796d11e7a2e20835.md)
+
+---
+
+### Large Language Models Often Know When They Are Being Evaluated
+
+**Score:** 90.0 | **Published:** 2025-06-02 | **Authors:** Joe Needham, Giles Edkins, Govind Pimpale, Henning Bartsch, Marius Hobbhahn
+
+arXiv:2505.23836v1 Announce Type: new 
+Abstract: If AI models can detect when they are being evaluated, the effectiveness of evaluations might be compromised. For example, models could have systematic...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23836) | [📝 Analysis](7f7897c1b06672cf52e73ea842a58bb9.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-02 09:29:50 UTC*

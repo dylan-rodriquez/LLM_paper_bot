@@ -2,7 +2,40 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (25 total)
+
+### Detection of Suicidal Risk on Social Media: A Hybrid Model
+
+**Score:** 92.0 | **Published:** 2025-06-02 | **Authors:** Zaihan Yang, Ryan Leonard, Hien Tran, Rory Driscoll, Chadbourne Davis
+
+arXiv:2505.23797v1 Announce Type: new 
+Abstract: Suicidal thoughts and behaviors are increasingly recognized as a critical societal concern, highlighting the urgent need for effective tools to enable ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23797) | [📝 Analysis](12ca4ac0dfb1c635b7e7fd0debd028f0.md)
+
+---
+
+### Beyond Exponential Decay: Rethinking Error Accumulation in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-06-02 | **Authors:** Mikhail L. Arbuzov, Alexey A. Shvets, Sisong Beir
+
+arXiv:2505.24187v1 Announce Type: new 
+Abstract: The prevailing assumption of an exponential decay in large language model (LLM) reliability with sequence length, predicated on independent per-token e...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.24187) | [📝 Analysis](7e452430ec15eccb3737c19a03a40a90.md)
+
+---
+
+### The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It
+
+**Score:** 90.0 | **Published:** 2025-06-02 | **Authors:** Zheng-Xin Yong, Beyza Ermis, Marzieh Fadaee, Stephen H. Bach, Julia Kreutzer
+
+arXiv:2505.24119v1 Announce Type: new 
+Abstract: This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.24119) | [📝 Analysis](81976d3b9a84f60c643565ef6b6fe6af.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +280,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-02 09:29:50 UTC*

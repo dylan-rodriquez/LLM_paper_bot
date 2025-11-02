@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "ScienceMeter: Tracking Scientific Knowledge Updates in Language Models",
+      "authors": [
+        "Yike Wang, Shangbin Feng, Yulia Tsvetkov, Hannaneh Hajishirzi"
+      ],
+      "abstract": "arXiv:2505.24302v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly used to support scientific research, but their knowledge of scientific advancements can quickly become outdated. We introduce ScienceMeter, a new framework for evaluating scientific knowledge update methods over scientific knowledge spanning the past, present, and future. ScienceMeter defines three metrics: knowledge preservation, the extent to which models' understanding of previously learned papers are preserved; knowledge acquisition, how well scientific claims from newly introduced papers are acquired; and knowledge projection, the ability of the updated model to anticipate or generalize to related scientific claims that may emerge in the future. Using ScienceMeter, we examine the scientific knowledge of LLMs on claim judgment and generation tasks across a curated dataset of 15,444 scientific papers and 30,888 scientific claims from ten domains including medicine, biology, materials science, and computer science. We evaluate five representative knowledge update approaches including training- and inference-time methods. With extensive experiments, we find that the best-performing knowledge update methods can preserve only 85.9% of existing knowledge, acquire 71.7% of new knowledge, and project 37.7% of future knowledge. Inference-based methods work for larger models, whereas smaller models require training to achieve comparable performance. Cross-domain analysis reveals that performance on these objectives is correlated. Even when applying on specialized scientific LLMs, existing knowledge update methods fail to achieve these objectives collectively, underscoring that developing robust scientific knowledge update mechanisms is both crucial and challenging.",
+      "url": "https://arxiv.org/abs/2505.24302",
+      "published_date": "2025-06-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "knowledge",
+        "scientific",
+        "knowledge update",
+        "methods",
+        "models",
+        "scientific knowledge",
+        "update",
+        "sciencemeter",
+        "claims",
+        "future"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in the age of LLMs \u2013 their rapidly decaying scientific knowledge. The proposed ScienceMeter framework, with its three distinct metrics (preservation, acquisition, projection), offers a comprehensive and well-defined approach to evaluating knowledge update methods. The scale of the dataset (15,444 papers, 30,888 claims) suggests a rigorous evaluation, and the focus on ten domains adds breadth. The high sentiment score reflects the current research community's strong interest in addressing LLM knowledge limitations.",
+      "paper_id": "621d39d555576df49f8531e5abca05b9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-02T09:29:50.462918"
 }

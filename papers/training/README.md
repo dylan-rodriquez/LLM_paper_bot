@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### ScienceMeter: Tracking Scientific Knowledge Updates in Language Models
+
+**Score:** 90.0 | **Published:** 2025-06-02 | **Authors:** Yike Wang, Shangbin Feng, Yulia Tsvetkov, Hannaneh Hajishirzi
+
+arXiv:2505.24302v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly used to support scientific research, but their knowledge of scientific advancements can quickly become ou...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.24302) | [📝 Analysis](621d39d555576df49f8531e5abca05b9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-02 09:29:50 UTC*
