@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Continuous Autoregressive Language Models",
+      "authors": [
+        "Chenze Shao, Darren Li, Fandong Meng, Jie Zhou"
+      ],
+      "abstract": "arXiv:2510.27688v1 Announce Type: new \nAbstract: The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token prediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from which the original tokens can be reconstructed with over 99.9\\% accuracy. This allows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The paradigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and controllable sampling in the continuous domain. Experiments show that CALM significantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost. More importantly, these findings establish next-vector prediction as a powerful and scalable pathway towards ultra-efficient language models. Code: https://github.com/shaochenze/calm. Project: https://shaochenze.github.io/blog/2025/CALM.",
+      "url": "https://arxiv.org/abs/2510.27688",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 87,
+      "sentiment_score": 80,
+      "keywords": [
+        "continuous",
+        "calm",
+        "language",
+        "language models",
+        "models",
+        "discrete",
+        "new",
+        "prediction",
+        "token",
+        "tokens"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper tackles a fundamental bottleneck in LLMs \u2013 sequential generation \u2013 with a novel approach of continuous vector prediction. The idea of compressing tokens into continuous vectors and modeling language at that level is highly promising, and the reported 99.9% reconstruction accuracy suggests a viable method. While the abstract hints at a 'likelihood-free framework,' further details are needed to assess the full rigor, but the initial concept is strong and addresses a critical efficiency issue.",
+      "paper_id": "c3b4fab423f0fc226876839e92d295f3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-11-03T09:31:59.064268"
 }

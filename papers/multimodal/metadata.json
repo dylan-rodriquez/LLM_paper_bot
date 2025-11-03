@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Overview of the MEDIQA-OE 2025 Shared Task on Medical Order Extraction from Doctor-Patient Consultations",
+      "authors": [
+        "Jean-Philippe Corbeil, Asma Ben Abacha, Jerome Tremblay, Phillip Swazinna, Akila Jeeson Daniel, Miguel Del-Agua, Francois Beaulieu"
+      ],
+      "abstract": "arXiv:2510.26974v1 Announce Type: new \nAbstract: Clinical documentation increasingly uses automatic speech recognition and summarization, yet converting conversations into actionable medical orders for Electronic Health Records remains unexplored. A solution to this problem can significantly reduce the documentation burden of clinicians and directly impact downstream patient care. We introduce the MEDIQA-OE 2025 shared task, the first challenge on extracting medical orders from doctor-patient conversations. Six teams participated in the shared task and experimented with a broad range of approaches, and both closed- and open-weight large language models (LLMs). In this paper, we describe the MEDIQA-OE task, dataset, final leaderboard ranking, and participants' solutions.",
+      "url": "https://arxiv.org/abs/2510.26974",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "task",
+        "medical",
+        "mediqa",
+        "mediqa oe",
+        "oe",
+        "patient",
+        "shared",
+        "shared task",
+        "2025",
+        "2025 shared"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper describes a very important shared task addressing a critical bottleneck in healthcare: converting doctor-patient conversations into actionable medical orders. The focus on real-world clinical documentation and the exploration of LLMs for this purpose are highly relevant. While the paper itself is an overview of the task and doesn't present novel *methods*, the creation of the task and dataset is a significant contribution, and the participation of six teams suggests strong community interest. The potential to reduce clinician burden and improve patient care is substantial.",
+      "paper_id": "350eb598cdbe3e6d3eca4b62e4cc272a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-03T09:31:59.058609"
 }

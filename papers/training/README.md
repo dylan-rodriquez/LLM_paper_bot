@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Detecting Data Contamination in LLMs via In-Context Learning
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Micha{\l} Zawalski, Meriem Boubdir, Klaudia Ba{\l}azy, Besmira Nushi, Pablo Ribalta
+
+arXiv:2510.27055v1 Announce Type: new 
+Abstract: We present Contamination Detection via Context (CoDeC), a practical and accurate method to detect and quantify training data contamination in large lan...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.27055) | [📝 Analysis](06ea88baa5e81926c27d002cdc0cf936.md)
+
+---
+
+### SMOL: Professionally translated parallel data for 115 under-represented languages
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Isaac Caswell, Elizabeth Nielsen, Jiaming Luo, Colin Cherry, Geza Kovacs, Hadar Shemtov, Partha Talukdar, Dinesh Tewari, Baba Mamadi Diane, Djibrila Diane, Solo Farabado Ciss\'e, Koulako Moussa Doumbouya, Edoardo Ferrante, Alessandro Guasoni, Christopher Homan, Mamadou K. Keita, Sudhamoy DebBarma, Ali Kuzhuget, David Anugraha, Muhammad Ravi Shulthan Habibi, Genta Indra Winata, Anthony Munthali, Sina Ahmadi, Andrei Chemyshev, Mingfei Lau, Jonathan Eng
+
+arXiv:2502.12301v2 Announce Type: replace 
+Abstract: We open-source SMOL (Set of Maximal Overall Leverage), a suite of training data to unlock machine translation for low-resource languages. SMOL has ...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.12301) | [📝 Analysis](00784c72fa66a714c6eadd8eed3c649c.md)
+
+---
+
+### Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Wang Bill Zhu, Tianqi Chen, Xinyan Velocity Yu, Ching Ying Lin, Jade Law, Mazen Jizzini, Jorge J. Nieva, Ruishan Liu, Robin Jia
+
+arXiv:2504.11373v3 Announce Type: replace 
+Abstract: Cancer patients are increasingly turning to large language models (LLMs) for medical information, making it critical to assess how well these model...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.11373) | [📝 Analysis](a18f72c0068339dd21d9329bb2cb0e07.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*

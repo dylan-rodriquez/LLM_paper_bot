@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Higher-order Linear Attention
+
+**Score:** 90.0 | **Published:** 2025-11-03 | **Authors:** Yifan Zhang, Zhen Qin, Quanquan Gu
+
+arXiv:2510.27258v1 Announce Type: cross 
+Abstract: The quadratic cost of scaled dot-product attention is a central obstacle to scaling autoregressive language models to long contexts. Linear-time atte...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.27258) | [📝 Analysis](d94e49695a994ea4372a9874b679d548.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*

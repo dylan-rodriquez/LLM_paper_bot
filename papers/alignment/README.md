@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Broken-Token: Filtering Obfuscated Prompts by Counting Characters-Per-Token
+
+**Score:** 90.0 | **Published:** 2025-11-03 | **Authors:** Shaked Zychlinski, Yuval Kainan
+
+arXiv:2510.26847v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) are susceptible to jailbreak attacks where malicious prompts are disguised using ciphers and character-level encodings t...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.26847) | [📝 Analysis](1f402925b58bb99437ea788c4f79ebd7.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*

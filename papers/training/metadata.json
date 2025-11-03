@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Detecting Data Contamination in LLMs via In-Context Learning",
+      "authors": [
+        "Micha{\\l} Zawalski, Meriem Boubdir, Klaudia Ba{\\l}azy, Besmira Nushi, Pablo Ribalta"
+      ],
+      "abstract": "arXiv:2510.27055v1 Announce Type: new \nAbstract: We present Contamination Detection via Context (CoDeC), a practical and accurate method to detect and quantify training data contamination in large language models. CoDeC distinguishes between data memorized during training and data outside the training distribution by measuring how in-context learning affects model performance. We find that in-context examples typically boost confidence for unseen datasets but may reduce it when the dataset was part of training, due to disrupted memorization patterns. Experiments show that CoDeC produces interpretable contamination scores that clearly separate seen and unseen datasets, and reveals strong evidence of memorization in open-weight models with undisclosed training corpora. The method is simple, automated, and both model- and dataset-agnostic, making it easy to integrate with benchmark evaluations.",
+      "url": "https://arxiv.org/abs/2510.27055",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "training",
+        "contamination",
+        "context",
+        "data",
+        "codec",
+        "context learning",
+        "data contamination",
+        "dataset",
+        "datasets",
+        "learning"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in the LLM space \u2013 data contamination \u2013 with a novel and practical approach. The use of in-context learning to detect memorization patterns is clever and the claim of model/dataset agnosticism is a significant strength. The abstract suggests a well-defined methodology and interpretable results, indicating a high-quality research effort.",
+      "paper_id": "06ea88baa5e81926c27d002cdc0cf936"
+    },
+    {
+      "title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
+      "authors": [
+        "Isaac Caswell, Elizabeth Nielsen, Jiaming Luo, Colin Cherry, Geza Kovacs, Hadar Shemtov, Partha Talukdar, Dinesh Tewari, Baba Mamadi Diane, Djibrila Diane, Solo Farabado Ciss\\'e, Koulako Moussa Doumbouya, Edoardo Ferrante, Alessandro Guasoni, Christopher Homan, Mamadou K. Keita, Sudhamoy DebBarma, Ali Kuzhuget, David Anugraha, Muhammad Ravi Shulthan Habibi, Genta Indra Winata, Anthony Munthali, Sina Ahmadi, Andrei Chemyshev, Mingfei Lau, Jonathan Eng"
+      ],
+      "abstract": "arXiv:2502.12301v2 Announce Type: replace \nAbstract: We open-source SMOL (Set of Maximal Overall Leverage), a suite of training data to unlock machine translation for low-resource languages. SMOL has been translated into 124 (and growing) under-resourced languages (125 language pairs), including many for which there exist no previous public resources, for a total of 6.1M translated tokens. SMOL comprises two sub-datasets, each carefully chosen for maximum impact given its size: SMOLSENT, a set of sentences chosen for broad unique token coverage, and SMOLDOC, a document-level resource focusing on a broad topic coverage. They join the already released GATITOS for a trifecta of paragraph, sentence, and token-level content. We demonstrate that using SMOL to prompt or fine-tune Large Language Models yields robust chrF improvements. In addition to translation, we provide factuality ratings and rationales for all documents in SMOLDOC, yielding the first factuality datasets for most of these languages.",
+      "url": "https://arxiv.org/abs/2502.12301",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "smol",
+        "languages",
+        "translated",
+        "broad",
+        "chosen",
+        "coverage",
+        "data",
+        "datasets",
+        "factuality",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in machine translation \u2013 the lack of data for under-represented languages. The creation of a large, professionally translated dataset (6.1M tokens for 124 languages) is a significant undertaking. The inclusion of both sentence-level (SMOLSENT) and document-level (SMOLDOC) data, along with factuality ratings, demonstrates a thoughtful approach to data creation and usability, and the demonstrated improvements with LLMs are encouraging.",
+      "paper_id": "00784c72fa66a714c6eadd8eed3c649c"
+    },
+    {
+      "title": "Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions",
+      "authors": [
+        "Wang Bill Zhu, Tianqi Chen, Xinyan Velocity Yu, Ching Ying Lin, Jade Law, Mazen Jizzini, Jorge J. Nieva, Ruishan Liu, Robin Jia"
+      ],
+      "abstract": "arXiv:2504.11373v3 Announce Type: replace \nAbstract: Cancer patients are increasingly turning to large language models (LLMs) for medical information, making it critical to assess how well these models handle complex, personalized questions. However, current medical benchmarks focus on medical exams or consumer-searched questions and do not evaluate LLMs on real patient questions with patient details. In this paper, we first have three hematology-oncology physicians evaluate cancer-related questions drawn from real patients. While LLM responses are generally accurate, the models frequently fail to recognize or address false presuppositions in the questions, posing risks to safe medical decision-making. To study this limitation systematically, we introduce Cancer-Myth, an expert-verified adversarial dataset of 585 cancer-related questions with false presuppositions. On this benchmark, no frontier LLM -- including GPT-5, Gemini-2.5-Pro, and Claude-4-Sonnet -- corrects these false presuppositions more than $43\\%$ of the time. To study mitigation strategies, we further construct a 150-question Cancer-Myth-NFP set, in which physicians confirm the absence of false presuppositions. We find typical mitigation strategies, such as adding precautionary prompts with GEPA optimization, can raise accuracy on Cancer-Myth to $80\\%$, but at the cost of misidentifying presuppositions in $41\\%$ of Cancer-Myth-NFP questions and causing a $10\\%$ relative performance drop on other medical benchmarks. These findings highlight a critical gap in the reliability of LLMs, show that prompting alone is not a reliable remedy for false presuppositions, and underscore the need for more robust safeguards in medical AI systems.",
+      "url": "https://arxiv.org/abs/2504.11373",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cancer",
+        "questions",
+        "presuppositions",
+        "false",
+        "false presuppositions",
+        "medical",
+        "cancer myth",
+        "myth",
+        "models",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical gap in LLM evaluation \u2013 the handling of false presuppositions in real patient questions. The creation of the Cancer-Myth dataset is a strong methodological contribution, and the finding that current LLMs struggle with this task is significant for patient safety. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception within the medical AI community.",
+      "paper_id": "a18f72c0068339dd21d9329bb2cb0e07"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-03T09:31:59.061568"
 }

@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Higher-order Linear Attention",
+      "authors": [
+        "Yifan Zhang, Zhen Qin, Quanquan Gu"
+      ],
+      "abstract": "arXiv:2510.27258v1 Announce Type: cross \nAbstract: The quadratic cost of scaled dot-product attention is a central obstacle to scaling autoregressive language models to long contexts. Linear-time attention and State Space Models (SSMs) provide scalable alternatives but are typically restricted to first-order or kernel-based approximations, which can limit expressivity. We introduce Higher-order Linear Attention (HLA), a causal, streaming mechanism that realizes higher interactions via compact prefix sufficient statistics. In the second-order case, HLA maintains a constant-size state and computes per-token outputs in linear time without materializing any $n \\times n$ matrices. We give closed-form streaming identities, a strictly causal masked variant using two additional summaries, and a chunk-parallel training scheme based on associative scans that reproduces the activations of a serial recurrence exactly. We further outline extensions to third and higher orders. Collectively, these results position HLA as a principled, scalable building block that combines attention-like, data-dependent mixing with the efficiency of modern recurrent architectures. Project Page: https://github.com/yifanzhang-pro/HLA.",
+      "url": "https://arxiv.org/abs/2510.27258",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "attention",
+        "higher",
+        "hla",
+        "linear",
+        "order",
+        "based",
+        "causal",
+        "higher order",
+        "linear attention",
+        "linear time"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial bottleneck in scaling language models \u2013 the quadratic cost of attention. The introduction of Higher-order Linear Attention (HLA) with its streaming capabilities and closed-form identities appears to be a significant advancement over existing linear attention and SSM approaches. The mention of chunk-parallel training and extensions to higher orders suggests a well-thought-out and potentially impactful contribution, though full evaluation requires seeing the experimental results.",
+      "paper_id": "d94e49695a994ea4372a9874b679d548"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-11-03T09:31:59.066510"
 }

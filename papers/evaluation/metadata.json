@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "VISTA Score: Verification In Sequential Turn-based Assessment",
+      "authors": [
+        "Ashley Lewis, Andrew Perrault, Eric Fosler-Lussier, Michael White"
+      ],
+      "abstract": "arXiv:2510.27052v1 Announce Type: new \nAbstract: Hallucination--defined here as generating statements unsupported or contradicted by available evidence or conversational context--remains a major obstacle to deploying conversational AI systems in settings that demand factual reliability. Existing metrics either evaluate isolated responses or treat unverifiable content as errors, limiting their use for multi-turn dialogue. We introduce VISTA (Verification In Sequential Turn-based Assessment), a framework for evaluating conversational factuality through claim-level verification and sequential consistency tracking. VISTA decomposes each assistant turn into atomic factual claims, verifies them against trusted sources and dialogue history, and categorizes unverifiable statements (subjective, contradicted, lacking evidence, or abstaining). Across eight large language models and four dialogue factuality benchmarks (AIS, BEGIN, FAITHDIAL, and FADE), VISTA substantially improves hallucination detection over FACTSCORE and LLM-as-Judge baselines. Human evaluation confirms that VISTA's decomposition improves annotator agreement and reveals inconsistencies in existing benchmarks. By modeling factuality as a dynamic property of conversation, VISTA offers a more transparent, human-aligned measure of truthfulness in dialogue systems.",
+      "url": "https://arxiv.org/abs/2510.27052",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "vista",
+        "dialogue",
+        "turn",
+        "conversational",
+        "factuality",
+        "sequential",
+        "verification",
+        "verification sequential",
+        "assessment",
+        "based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in conversational AI \u2013 hallucination \u2013 with a novel framework (VISTA) that moves beyond simple response evaluation to claim-level verification and sequential consistency. The evaluation across multiple LLMs and benchmarks suggests a robust and effective approach. The decomposition of turns into atomic claims and categorization of unverifiable statements is a particularly strong aspect, indicating a well-thought-out methodology.",
+      "paper_id": "995f3c2f3a3fae8814c6fa564e31ea2a"
+    },
+    {
+      "title": "LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models",
+      "authors": [
+        "Nam V. Nguyen, Thong T. Doan, Luong Tran, Van Nguyen, Quang Pham"
+      ],
+      "abstract": "arXiv:2411.00918v2 Announce Type: replace \nAbstract: Mixture of experts (MoE) architectures have become a cornerstone for scaling up and are a key component in most large language models such as GPT-OSS, DeepSeek-V3, Llama-4, and Gemini-2.5. However, systematic research on MoE remains severely constrained by the prohibitive computational costs of training and evaluation, restricting large-scale studies accessible to most researchers. We introduce LibMoE, a unified framework for reproducible, efficient, and extensible MoE research that supports both pretraining and sparse-upcycling regimes. Beyond unified implementations, the framework provides transparent analytical tools for probing routing and expert dynamics. Leveraging this foundation, we conduct a comprehensive analysis along three dimensions: (i) routing dynamics, covering expert selection patterns, routing stability and optimality, and how routing entropy reveals task specialization and expert diversity; (ii) the effect of lightweight initialization on load balancing, demonstrating how subtle changes in router initialization shape early expert utilization; and (iii) training regime differences, revealing how sparse upcycling and full pretraining exhibit distinct routing patterns and stability profiles. By lowering the barrier to entry and standardizing evaluation, along with our comprehensive analysis, LibMoE broadens access to MoE research and establishes a reliable benchmark to guide future innovations. Project page: https://fsoft-aic.github.io/fsoft-LibMoE.github.io.",
+      "url": "https://arxiv.org/abs/2411.00918",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "routing",
+        "expert",
+        "libmoe",
+        "moe",
+        "comprehensive",
+        "large",
+        "research",
+        "analysis",
+        "comprehensive analysis",
+        "dynamics"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in MoE research \u2013 the computational cost of experimentation. By providing a unified, efficient, and extensible framework (LibMoE), it lowers the barrier to entry for researchers. The comprehensive analysis of routing dynamics is a strong contribution, and the focus on reproducibility is commendable. The high sentiment score reflects the current interest in MoE architectures and the need for better tooling.",
+      "paper_id": "8e7ea1e2d7d4f30283cd4b9ec7c28c7a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-03T09:31:59.059956"
 }

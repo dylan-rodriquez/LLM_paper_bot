@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Continuous Autoregressive Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Chenze Shao, Darren Li, Fandong Meng, Jie Zhou
+
+arXiv:2510.27688v1 Announce Type: new 
+Abstract: The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcomin...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.27688) | [📝 Analysis](c3b4fab423f0fc226876839e92d295f3.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*
