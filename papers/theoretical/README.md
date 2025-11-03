@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Denario project: Deep knowledge AI agents for scientific discovery
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Francisco Villaescusa-Navarro, Boris Bolliet, Pablo Villanueva-Domingo, Adrian E. Bayer, Aidan Acquah, Chetana Amancharla, Almog Barzilay-Siegal, Pablo Bermejo, Camille Bilodeau, Pablo C\'ardenas Ram\'irez, Miles Cranmer, Urbano L. Fran\c{c}a, ChangHoon Hahn, Yan-Fei Jiang, Raul Jimenez, Jun-Young Lee, Antonio Lerario, Osman Mamun, Thomas Meier, Anupam A. Ojha, Pavlos Protopapas, Shimanto Roy, David N. Spergel, Pedro Taranc\'on-\'Alvarez, Ujjwal Tiwari, Matteo Viel, Digvijay Wadekar, Chi Wang, Bonny Y. Wang, Licong Xu, Yossi Yovel, Shuwen Yue, Wen-Han Zhou, Qiyao Zhu, Jiajun Zou, \'I\~nigo Zubeldia
+
+arXiv:2510.26887v1 Announce Type: cross 
+Abstract: We present Denario, an AI multi-agent system designed to serve as a scientific research assistant. Denario can perform many different tasks, such as ...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.26887) | [📝 Analysis](96b6c408f32cdb4a82f3f2fcc3d19f10.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*

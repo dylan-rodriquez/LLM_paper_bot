@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Broken-Token: Filtering Obfuscated Prompts by Counting Characters-Per-Token",
+      "authors": [
+        "Shaked Zychlinski, Yuval Kainan"
+      ],
+      "abstract": "arXiv:2510.26847v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) are susceptible to jailbreak attacks where malicious prompts are disguised using ciphers and character-level encodings to bypass safety guardrails. While these guardrails often fail to interpret the encoded content, the underlying models can still process the harmful instructions. We introduce CPT-Filtering, a novel, model-agnostic with negligible-costs and near-perfect accuracy guardrail technique that aims to mitigate these attacks by leveraging the intrinsic behavior of Byte-Pair Encoding (BPE) tokenizers. Our method is based on the principle that tokenizers, trained on natural language, represent out-of-distribution text, such as ciphers, using a significantly higher number of shorter tokens. Our technique uses a simple yet powerful artifact of using language models: the average number of Characters Per Token (CPT) in the text. This approach is motivated by the high compute cost of modern methods - relying on added modules such as dedicated LLMs or perplexity models. We validate our approach across a large dataset of over 100,000 prompts, testing numerous encoding schemes with several popular tokenizers. Our experiments demonstrate that a simple CPT threshold robustly identifies encoded text with high accuracy, even for very short inputs. CPT-Filtering provides a practical defense layer that can be immediately deployed for real-time text filtering and offline data curation.",
+      "url": "https://arxiv.org/abs/2510.26847",
+      "published_date": "2025-11-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "cpt",
+        "filtering",
+        "models",
+        "text",
+        "language",
+        "prompts",
+        "token",
+        "tokenizers",
+        "using",
+        "accuracy"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a very important and timely problem \u2013 the vulnerability of LLMs to jailbreak attacks via obfuscation. The proposed CPT-Filtering method appears to be a clever and efficient solution, leveraging an intrinsic property of tokenizers. The claim of 'near-perfect accuracy' and 'negligible costs' is particularly compelling, suggesting a potentially impactful contribution to LLM safety.",
+      "paper_id": "1f402925b58bb99437ea788c4f79ebd7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-03T09:31:59.064810"
 }

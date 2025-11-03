@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Overview of the MEDIQA-OE 2025 Shared Task on Medical Order Extraction from Doctor-Patient Consultations
+
+**Score:** 92.0 | **Published:** 2025-11-03 | **Authors:** Jean-Philippe Corbeil, Asma Ben Abacha, Jerome Tremblay, Phillip Swazinna, Akila Jeeson Daniel, Miguel Del-Agua, Francois Beaulieu
+
+arXiv:2510.26974v1 Announce Type: new 
+Abstract: Clinical documentation increasingly uses automatic speech recognition and summarization, yet converting conversations into actionable medical orders fo...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.26974) | [📝 Analysis](350eb598cdbe3e6d3eca4b62e4cc272a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*

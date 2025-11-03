@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs
+
+**Score:** 90.0 | **Published:** 2025-11-03 | **Authors:** Mohammad Tavakoli, Alireza Salemi, Carrie Ye, Mohamed Abdalla, Hamed Zamani, J Ross Mitchell
+
+arXiv:2510.27246v1 Announce Type: new 
+Abstract: Evaluating the abilities of large language models (LLMs) for tasks that require long-term memory and thus long-context reasoning, for example in conver...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.27246) | [📝 Analysis](300c262c0caf0adb98deea1aff1e955f.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-03 09:31:59 UTC*
