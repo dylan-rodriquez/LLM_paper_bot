@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Friend or Foe: How LLMs' Safety Mind Gets Fooled by Intent Shift Attack
+
+**Score:** 90.0 | **Published:** 2025-11-04 | **Authors:** Peng Ding, Jun Kuang, Wen Sun, Zongyu Wang, Xuezhi Cao, Xunliang Cai, Jiajun Chen, Shujian Huang
+
+arXiv:2511.00556v1 Announce Type: new 
+Abstract: Large language models (LLMs) remain vulnerable to jailbreaking attacks despite their impressive capabilities. Investigating these weaknesses is crucial...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.00556) | [📝 Analysis](a6687b21c15206ab291b8c2607249b1a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*

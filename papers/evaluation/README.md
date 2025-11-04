@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### HPLT~3.0: Very Large-Scale Multilingual Resources for LLM and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models
+
+**Score:** 92.0 | **Published:** 2025-11-04 | **Authors:** Stephan Oepen, Nikolay Arefev, Mikko Aulamo, Marta Ba\~n\'on, Maja Buljan, Laurie Burchell, Lucas Charpentier, Pinzhen Chen, Mariya Fedorova, Ona de Gibert, Barry Haddow, Jan Haji\v{c}, Jindri\v{c} Helcl, Andrey Kutuzov, Zihao Li, Risto Luukkonen, Bhavitvya Malik, Vladislav Mikhailov, Amanda Myntti, Dayy\'an O'Brien, Lucie Pol\'akov\'a, Sampo Pyysalo, Gema Ram\'irez S\'anchez, Janine Siewert, Pavel Stepachev, J\"org Tiedemann, Teemu Vahtola, Fedor Vitiugin, Tea Vojt\v{e}chov\'a, Jaume Zaragoza
+
+arXiv:2511.01066v1 Announce Type: new 
+Abstract: We present an ongoing initiative to provide open, very large, high-quality, and richly annotated textual datasets for almost 200 languages. At 30 trill...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01066) | [📝 Analysis](38f5f20a105882cb6d1936bdebeffdd0.md)
+
+---
+
+### Towards Robust Mathematical Reasoning
+
+**Score:** 92.0 | **Published:** 2025-11-04 | **Authors:** Thang Luong, Dawsen Hwang, Hoang H. Nguyen, Golnaz Ghiasi, Yuri Chervonyi, Insuk Seo, Junsu Kim, Garrett Bingham, Jonathan Lee, Swaroop Mishra, Alex Zhai, Clara Huiyi Hu, Henryk Michalewski, Jimin Kim, Jeonghyun Ahn, Junhwi Bae, Xingyou Song, Trieu H. Trinh, Quoc V. Le, Junehyuk Jung
+
+arXiv:2511.01846v1 Announce Type: new 
+Abstract: Finding the right north-star metrics is highly critical for advancing the mathematical reasoning capabilities of foundation models, especially given th...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01846) | [📝 Analysis](81947ce8da1ce6ac8e5033de2180713e.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*

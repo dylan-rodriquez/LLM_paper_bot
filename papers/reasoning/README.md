@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### KV Cache Transform Coding for Compact Storage in LLM Inference
+
+**Score:** 90.0 | **Published:** 2025-11-04 | **Authors:** Konrad Staniszewski, Adrian {\L}a\'ncucki
+
+arXiv:2511.01815v1 Announce Type: new 
+Abstract: Serving large language models (LLMs) at scale necessitates efficient key-value (KV) cache management. KV caches can be reused across conversation turns...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01815) | [📝 Analysis](37854af98be3f636ff5db0685853d9cd.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*
