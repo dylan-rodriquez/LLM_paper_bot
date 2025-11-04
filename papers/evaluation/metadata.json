@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "HPLT~3.0: Very Large-Scale Multilingual Resources for LLM and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models",
+      "authors": [
+        "Stephan Oepen, Nikolay Arefev, Mikko Aulamo, Marta Ba\\~n\\'on, Maja Buljan, Laurie Burchell, Lucas Charpentier, Pinzhen Chen, Mariya Fedorova, Ona de Gibert, Barry Haddow, Jan Haji\\v{c}, Jindri\\v{c} Helcl, Andrey Kutuzov, Zihao Li, Risto Luukkonen, Bhavitvya Malik, Vladislav Mikhailov, Amanda Myntti, Dayy\\'an O'Brien, Lucie Pol\\'akov\\'a, Sampo Pyysalo, Gema Ram\\'irez S\\'anchez, Janine Siewert, Pavel Stepachev, J\\\"org Tiedemann, Teemu Vahtola, Fedor Vitiugin, Tea Vojt\\v{e}chov\\'a, Jaume Zaragoza"
+      ],
+      "abstract": "arXiv:2511.01066v1 Announce Type: new \nAbstract: We present an ongoing initiative to provide open, very large, high-quality, and richly annotated textual datasets for almost 200 languages. At 30 trillion tokens, this is likely the largest generally available multilingual collection of LLM pre-training data. At 30 trillion tokens, this is likely the largest generally available multilingual collection of LLM pre-training data. These datasets are derived from web crawls from different sources and accompanied with a complete, open-source pipeline for document selection from web archives, text extraction from HTML, language identification for noisy texts, exact and near-deduplication, annotation with, among others, register labels, text quality estimates, and personally identifiable information; and final selection and filtering. We report on data quality probes through contrastive and analytical statistics, through manual inspection of samples for 24 languages, and through end-to-end evaluation of various language model architectures trained on this data. For multilingual LLM evaluation, we provide a comprehensive collection of benchmarks for nine European languages, with special emphasis on natively created tasks, mechanisms to mitigate prompt sensitivity, and refined normalization and aggregation of scores. Additionally, we train and evaluate a family of 57 monolingual encoder-decoder models, as well as a handful of monolingual GPT-like reference models. Besides the monolingual data and models, we also present a very large collection of parallel texts automatically mined from this data, together with a novel parallel corpus synthesized via machine translation.",
+      "url": "https://arxiv.org/abs/2511.01066",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "multilingual",
+        "collection",
+        "llm",
+        "models",
+        "evaluation",
+        "languages",
+        "large",
+        "monolingual",
+        "pre"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the LLM community: large-scale, high-quality multilingual data. The scale (30 trillion tokens) is impressive, and the inclusion of a complete pipeline for data processing \u2013 from web crawling to filtering \u2013 demonstrates a strong methodological approach. While the core idea of creating a large multilingual dataset isn't entirely novel, the size, quality control measures, and open-source nature of the pipeline are significant advancements. The paper's focus on data quality probes and multilingual evaluation further strengthens its credibility.",
+      "paper_id": "38f5f20a105882cb6d1936bdebeffdd0"
+    },
+    {
+      "title": "Towards Robust Mathematical Reasoning",
+      "authors": [
+        "Thang Luong, Dawsen Hwang, Hoang H. Nguyen, Golnaz Ghiasi, Yuri Chervonyi, Insuk Seo, Junsu Kim, Garrett Bingham, Jonathan Lee, Swaroop Mishra, Alex Zhai, Clara Huiyi Hu, Henryk Michalewski, Jimin Kim, Jeonghyun Ahn, Junhwi Bae, Xingyou Song, Trieu H. Trinh, Quoc V. Le, Junehyuk Jung"
+      ],
+      "abstract": "arXiv:2511.01846v1 Announce Type: new \nAbstract: Finding the right north-star metrics is highly critical for advancing the mathematical reasoning capabilities of foundation models, especially given that existing evaluations are either too easy or only focus on getting correct short answers. To address these issues, we present IMO-Bench, a suite of advanced reasoning benchmarks, vetted by a panel of top specialists and that specifically targets the level of the International Mathematical Olympiad (IMO), the most prestigious venue for young mathematicians. IMO-AnswerBench first tests models on 400 diverse Olympiad problems with verifiable short answers. IMO-Proof Bench is the next-level evaluation for proof-writing capabilities, which includes both basic and advanced IMO level problems as well as detailed grading guidelines to facilitate automatic grading. These benchmarks played a crucial role in our historic achievement of the gold-level performance at IMO 2025 with Gemini Deep Think (Luong and Lockhart, 2025). Our model achieved 80.0% on IMO-AnswerBench and 65.7% on the advanced IMO-Proof Bench, surpassing the best non-Gemini models by large margins of 6.9% and 42.4% respectively. We also showed that autograders built with Gemini reasoning correlate well with human evaluations and construct IMO-GradingBench, with 1000 human gradings on proofs, to enable further progress in automatic evaluation of long-form answers. We hope that IMO-Bench will help the community towards advancing robust mathematical reasoning and release it at https://imobench.github.io/.",
+      "url": "https://arxiv.org/abs/2511.01846",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "imo",
+        "reasoning",
+        "bench",
+        "level",
+        "mathematical",
+        "advanced",
+        "answers",
+        "gemini",
+        "mathematical reasoning",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in evaluating mathematical reasoning in large language models \u2013 the lack of challenging benchmarks. The creation of IMO-Bench, vetted by experts and targeting the IMO level, is a significant step forward. The reported 'historic achievement' with Gemini Deep Think further strengthens the paper's impact and suggests a robust evaluation framework.",
+      "paper_id": "81947ce8da1ce6ac8e5033de2180713e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-04T09:30:39.941705"
 }

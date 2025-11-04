@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "KV Cache Transform Coding for Compact Storage in LLM Inference",
+      "authors": [
+        "Konrad Staniszewski, Adrian {\\L}a\\'ncucki"
+      ],
+      "abstract": "arXiv:2511.01815v1 Announce Type: new \nAbstract: Serving large language models (LLMs) at scale necessitates efficient key-value (KV) cache management. KV caches can be reused across conversation turns via shared-prefix prompts that are common in iterative code editing and chat. However, stale caches consume scarce GPU memory, require offloading, or force recomputation. We present KVTC, a lightweight transform coder that compresses KV caches for compact on-GPU and off-GPU storage. Drawing on classical media compression, KVTC combines PCA-based feature decorrelation, adaptive quantization, and entropy coding. It requires only a brief initial calibration and leaves model parameters unchanged. By exploiting redundancies in KV caches, KVTC achieves up to 20$\\times$ compression while maintaining reasoning and long-context accuracy, and 40$\\times$ or higher for specific use cases. We test KVTC with Llama 3, Mistral NeMo, and R1-Qwen 2.5 models across benchmarks including AIME25, LiveCodeBench, GSM8K, MMLU, Qasper, RULER, and MATH-500. It consistently outperforms inference-time baselines such as token eviction, quantization, and SVD-based methods, while achieving higher compression ratios. These results support KVTC as a practical building block for memory-efficient LLM serving with reusable KV caches.",
+      "url": "https://arxiv.org/abs/2511.01815",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "kv",
+        "caches",
+        "kvtc",
+        "kv caches",
+        "compression",
+        "gpu",
+        "based",
+        "cache",
+        "coding",
+        "compact"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial bottleneck in LLM deployment \u2013 KV cache size. The application of classical media compression techniques (PCA, quantization, entropy coding) to this problem is a clever and practical approach. The reported compression ratios (up to 20x, and higher in specific cases) with maintained accuracy suggest a significant advancement, and testing across multiple models strengthens the findings. The positive sentiment is driven by the relevance to current LLM scaling challenges.",
+      "paper_id": "37854af98be3f636ff5db0685853d9cd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-04T09:30:39.945691"
 }

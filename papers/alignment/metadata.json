@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Surfacing Subtle Stereotypes: A Multilingual, Debate-Oriented Evaluation of Modern LLMs",
+      "authors": [
+        "Muhammed Saeed, Muhammad Abdul-mageed, Shady Shehata"
+      ],
+      "abstract": "arXiv:2511.01187v1 Announce Type: new \nAbstract: Large language models (LLMs) are widely deployed for open-ended communication, yet most bias evaluations still rely on English, classification-style tasks. We introduce DebateBias-8K, a new multilingual, debate-style benchmark designed to reveal how narrative bias appears in realistic generative settings. Our dataset includes 8,400 structured debate prompts spanning four sensitive domains: women's rights, socioeconomic development, terrorism, and religion, across seven languages ranging from high-resource (English, Chinese) to low-resource (Swahili, Nigerian Pidgin). Using four flagship models (GPT-4o, Claude 3, DeepSeek, and LLaMA 3), we generate and automatically classify over 100,000 responses. Results show that all models reproduce entrenched stereotypes despite safety alignment: Arabs are overwhelmingly linked to terrorism and religion (>=95%), Africans to socioeconomic \"backwardness\" (up to <=77%), and Western groups are consistently framed as modern or progressive. Biases grow sharply in lower-resource languages, revealing that alignment trained primarily in English does not generalize globally. Our findings highlight a persistent divide in multilingual fairness: current alignment methods reduce explicit toxicity but fail to prevent biased outputs in open-ended contexts. We release our DebateBias-8K benchmark and analysis framework to support the next generation of multilingual bias evaluation and safer, culturally inclusive model alignment.",
+      "url": "https://arxiv.org/abs/2511.01187",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "multilingual",
+        "bias",
+        "debate",
+        "english",
+        "models",
+        "resource",
+        "8k",
+        "benchmark",
+        "debatebias"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the persistence of biases in LLMs, particularly in multilingual contexts. The use of a debate-oriented benchmark is a clever approach to surface subtle stereotypes that classification tasks might miss. The scale of the dataset (8,400 prompts, 100,000+ responses) and inclusion of diverse languages strengthens the findings, suggesting a robust evaluation.",
+      "paper_id": "ae0349208db6fa801431cd298ae3a3d8"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-04T09:30:39.943191"
 }

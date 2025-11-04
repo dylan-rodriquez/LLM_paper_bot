@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "\"Give a Positive Review Only\": An Early Investigation Into In-Paper Prompt Injection Attacks and Defenses for AI Reviewers",
+      "authors": [
+        "Qin Zhou, Zhexin Zhang, Zhi Li, Limin Sun"
+      ],
+      "abstract": "arXiv:2511.01287v1 Announce Type: new \nAbstract: With the rapid advancement of AI models, their deployment across diverse tasks has become increasingly widespread. A notable emerging application is leveraging AI models to assist in reviewing scientific papers. However, recent reports have revealed that some papers contain hidden, injected prompts designed to manipulate AI reviewers into providing overly favorable evaluations. In this work, we present an early systematic investigation into this emerging threat. We propose two classes of attacks: (1) static attack, which employs a fixed injection prompt, and (2) iterative attack, which optimizes the injection prompt against a simulated reviewer model to maximize its effectiveness. Both attacks achieve striking performance, frequently inducing full evaluation scores when targeting frontier AI reviewers. Furthermore, we show that these attacks are robust across various settings. To counter this threat, we explore a simple detection-based defense. While it substantially reduces the attack success rate, we demonstrate that an adaptive attacker can partially circumvent this defense. Our findings underscore the need for greater attention and rigorous safeguards against prompt-injection threats in AI-assisted peer review.",
+      "url": "https://arxiv.org/abs/2511.01287",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "attacks",
+        "injection",
+        "prompt",
+        "ai reviewers",
+        "attack",
+        "reviewers",
+        "ai models",
+        "defense",
+        "early"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the vulnerability of AI-assisted peer review to prompt injection attacks. The systematic investigation of both static and iterative attacks, and the demonstration of their effectiveness against frontier models, is strong. While the described defense is only mentioned as 'simple detection-based', the identification of the attack vectors themselves is a significant contribution, and the high scores achieved suggest a real-world threat.",
+      "paper_id": "daf3eac0b69caede6327c86e0d005cb7"
+    },
+    {
+      "title": "Can SAEs reveal and mitigate racial biases of LLMs in healthcare?",
+      "authors": [
+        "Hiba Ahsan, Byron C. Wallace"
+      ],
+      "abstract": "arXiv:2511.00177v1 Announce Type: cross \nAbstract: LLMs are increasingly being used in healthcare. This promises to free physicians from drudgery, enabling better care to be delivered at scale. But the use of LLMs in this space also brings risks; for example, such models may worsen existing biases. How can we spot when LLMs are (spuriously) relying on patient race to inform predictions? In this work we assess the degree to which Sparse Autoencoders (SAEs) can reveal (and control) associations the model has made between race and stigmatizing concepts. We first identify SAE latents in Gemma-2 models which appear to correlate with Black individuals. We find that this latent activates on reasonable input sequences (e.g., \"African American\") but also problematic words like \"incarceration\". We then show that we can use this latent to steer models to generate outputs about Black patients, and further that this can induce problematic associations in model outputs as a result. For example, activating the Black latent increases the risk assigned to the probability that a patient will become \"belligerent\". We evaluate the degree to which such steering via latents might be useful for mitigating bias. We find that this offers improvements in simple settings, but is less successful for more realistic and complex clinical tasks. Overall, our results suggest that: SAEs may offer a useful tool in clinical applications of LLMs to identify problematic reliance on demographics but mitigating bias via SAE steering appears to be of marginal utility for realistic tasks.",
+      "url": "https://arxiv.org/abs/2511.00177",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "black",
+        "latent",
+        "models",
+        "problematic",
+        "saes",
+        "associations",
+        "associations model",
+        "bias",
+        "biases"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research tackles a crucial problem \u2013 racial bias in healthcare LLMs \u2013 with a novel approach using Sparse Autoencoders. The finding that SAE latents correlate with both race and stigmatizing concepts is concerning and highlights a real risk. The ability to steer model outputs based on these latents, and the demonstration of induced problematic associations, strengthens the argument for proactive bias mitigation. The work is well-motivated and the initial results are compelling.",
+      "paper_id": "bd748b7b10e66d2ef0bb3eabe27d2a6b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-11-04T09:30:39.944303"
 }

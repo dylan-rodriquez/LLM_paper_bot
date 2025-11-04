@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### "Give a Positive Review Only": An Early Investigation Into In-Paper Prompt Injection Attacks and Defenses for AI Reviewers
+
+**Score:** 92.0 | **Published:** 2025-11-04 | **Authors:** Qin Zhou, Zhexin Zhang, Zhi Li, Limin Sun
+
+arXiv:2511.01287v1 Announce Type: new 
+Abstract: With the rapid advancement of AI models, their deployment across diverse tasks has become increasingly widespread. A notable emerging application is le...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01287) | [📝 Analysis](daf3eac0b69caede6327c86e0d005cb7.md)
+
+---
+
+### Can SAEs reveal and mitigate racial biases of LLMs in healthcare?
+
+**Score:** 90.0 | **Published:** 2025-11-04 | **Authors:** Hiba Ahsan, Byron C. Wallace
+
+arXiv:2511.00177v1 Announce Type: cross 
+Abstract: LLMs are increasingly being used in healthcare. This promises to free physicians from drudgery, enabling better care to be delivered at scale. But th...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.00177) | [📝 Analysis](bd748b7b10e66d2ef0bb3eabe27d2a6b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*

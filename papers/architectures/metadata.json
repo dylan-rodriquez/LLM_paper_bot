@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "PADBen: A Comprehensive Benchmark for Evaluating AI Text Detectors Against Paraphrase Attacks",
+      "authors": [
+        "Yiwei Zha, Rui Min, Shanu Sushmita"
+      ],
+      "abstract": "arXiv:2511.00416v1 Announce Type: new \nAbstract: While AI-generated text (AIGT) detectors achieve over 90\\% accuracy on direct LLM outputs, they fail catastrophically against iteratively-paraphrased content. We investigate why iteratively-paraphrased text -- itself AI-generated -- evades detection systems designed for AIGT identification. Through intrinsic mechanism analysis, we reveal that iterative paraphrasing creates an intermediate laundering region characterized by semantic displacement with preserved generation patterns, which brings up two attack categories: paraphrasing human-authored text (authorship obfuscation) and paraphrasing LLM-generated text (plagiarism evasion). To address these vulnerabilities, we introduce PADBen, the first benchmark systematically evaluating detector robustness against both paraphrase attack scenarios. PADBen comprises a five-type text taxonomy capturing the full trajectory from original content to deeply laundered text, and five progressive detection tasks across sentence-pair and single-sentence challenges. We evaluate 11 state-of-the-art detectors, revealing critical asymmetry: detectors successfully identify the plagiarism evasion problem but fail for the case of authorship obfuscation. Our findings demonstrate that current detection approaches cannot effectively handle the intermediate laundering region, necessitating fundamental advances in detection architectures beyond existing semantic and stylistic discrimination methods. For detailed code implementation, please see https://github.com/JonathanZha47/PadBen-Paraphrase-Attack-Benchmark.",
+      "url": "https://arxiv.org/abs/2511.00416",
+      "published_date": "2025-11-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "text",
+        "detection",
+        "detectors",
+        "padben",
+        "ai",
+        "attack",
+        "benchmark",
+        "generated",
+        "paraphrase",
+        "paraphrasing"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the vulnerability of AI text detectors to paraphrasing attacks. The introduction of PADBen, a benchmark specifically designed to evaluate robustness against these attacks, is a significant contribution. The analysis of 'laundering regions' and categorization of attack types demonstrates a strong methodological approach and clear presentation, suggesting high potential for positive reception within the community.",
+      "paper_id": "30a4d55190bf8e0e78e7b72a5199f16b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-11-04T09:30:39.935419"
 }

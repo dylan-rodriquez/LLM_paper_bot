@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Surfacing Subtle Stereotypes: A Multilingual, Debate-Oriented Evaluation of Modern LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-04 | **Authors:** Muhammed Saeed, Muhammad Abdul-mageed, Shady Shehata
+
+arXiv:2511.01187v1 Announce Type: new 
+Abstract: Large language models (LLMs) are widely deployed for open-ended communication, yet most bias evaluations still rely on English, classification-style ta...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01187) | [📝 Analysis](ae0349208db6fa801431cd298ae3a3d8.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*

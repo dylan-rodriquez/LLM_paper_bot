@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### PADBen: A Comprehensive Benchmark for Evaluating AI Text Detectors Against Paraphrase Attacks
+
+**Score:** 92.0 | **Published:** 2025-11-04 | **Authors:** Yiwei Zha, Rui Min, Shanu Sushmita
+
+arXiv:2511.00416v1 Announce Type: new 
+Abstract: While AI-generated text (AIGT) detectors achieve over 90\% accuracy on direct LLM outputs, they fail catastrophically against iteratively-paraphrased c...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.00416) | [📝 Analysis](30a4d55190bf8e0e78e7b72a5199f16b.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-04 09:30:39 UTC*
