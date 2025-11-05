@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors",
+      "authors": [
+        "Wenlong Meng, Shuguo Fan, Chengkun Wei, Min Chen, Yuwei Li, Yuanchao Zhang, Zhikun Zhang, Wenzhi Chen"
+      ],
+      "abstract": "arXiv:2506.08188v1 Announce Type: cross \nAbstract: In this paper, we introduce GradEscape, the first gradient-based evader designed to attack AI-generated text (AIGT) detectors. GradEscape overcomes the undifferentiable computation problem, caused by the discrete nature of text, by introducing a novel approach to construct weighted embeddings for the detector input. It then updates the evader model parameters using feedback from victim detectors, achieving high attack success with minimal text modification. To address the issue of tokenizer mismatch between the evader and the detector, we introduce a warm-started evader method, enabling GradEscape to adapt to detectors across any language model architecture. Moreover, we employ novel tokenizer inference and model extraction techniques, facilitating effective evasion even in query-only access.\n  We evaluate GradEscape on four datasets and three widely-used language models, benchmarking it against four state-of-the-art AIGT evaders. Experimental results demonstrate that GradEscape outperforms existing evaders in various scenarios, including with an 11B paraphrase model, while utilizing only 139M parameters. We have successfully applied GradEscape to two real-world commercial AIGT detectors. Our analysis reveals that the primary vulnerability stems from disparity in text expression styles within the training data. We also propose a potential defense strategy to mitigate the threat of AIGT evaders. We open-source our GradEscape for developing more robust AIGT detectors.",
+      "url": "https://arxiv.org/abs/2506.08188",
+      "published_date": "2025-06-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "gradescape",
+        "detectors",
+        "aigt",
+        "evader",
+        "text",
+        "model",
+        "aigt detectors",
+        "evaders",
+        "ai",
+        "ai generated"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 the arms race between AI-generated text and its detection. The proposed GradEscape method appears novel in its gradient-based approach to evading detectors, particularly addressing the discrete nature of text. The evaluation against state-of-the-art methods and across multiple models suggests a rigorous approach, and the handling of tokenizer mismatch is a significant practical consideration. The potential for misuse is high, but understanding these vulnerabilities is crucial for developing more robust detection methods.",
+      "paper_id": "46b321bc080ae6129f80e31dd15bb0db"
+    },
+    {
+      "title": "A Survey on Large Language Models for Mathematical Reasoning",
+      "authors": [
+        "Peng-Yuan Wang, Tian-Shuo Liu, Chenyang Wang, Yi-Di Wang, Shu Yan, Cheng-Xing Jia, Xu-Hui Liu, Xin-Wei Chen, Jia-Cheng Xu, Ziniu Li, Yang Yu"
+      ],
+      "abstract": "arXiv:2506.08446v1 Announce Type: cross \nAbstract: Mathematical reasoning has long represented one of the most fundamental and challenging frontiers in artificial intelligence research. In recent years, large language models (LLMs) have achieved significant advances in this area. This survey examines the development of mathematical reasoning abilities in LLMs through two high-level cognitive phases: comprehension, where models gain mathematical understanding via diverse pretraining strategies, and answer generation, which has progressed from direct prediction to step-by-step Chain-of-Thought (CoT) reasoning. We review methods for enhancing mathematical reasoning, ranging from training-free prompting to fine-tuning approaches such as supervised fine-tuning and reinforcement learning, and discuss recent work on extended CoT and \"test-time scaling\". Despite notable progress, fundamental challenges remain in terms of capacity, efficiency, and generalization. To address these issues, we highlight promising research directions, including advanced pretraining and knowledge augmentation techniques, formal reasoning frameworks, and meta-generalization through principled learning paradigms. This survey tries to provide some insights for researchers interested in enhancing reasoning capabilities of LLMs and for those seeking to apply these techniques to other domains.",
+      "url": "https://arxiv.org/abs/2506.08446",
+      "published_date": "2025-06-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "mathematical",
+        "mathematical reasoning",
+        "llms",
+        "models",
+        "survey",
+        "cot",
+        "enhancing",
+        "fine",
+        "fine tuning"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly significant and timely topic \u2013 the application of LLMs to mathematical reasoning. The categorization into comprehension and answer generation phases provides a useful framework for understanding the field's progress. While the abstract doesn't detail novel *methods*, a comprehensive survey of existing techniques (prompting, fine-tuning, CoT) is valuable, and the mention of 'test-time scaling' suggests awareness of current research directions. The identified challenges (capacity, efficiency, generalization) are crucial for future work.",
+      "paper_id": "04be2a857d06dfc92a46f8f2b7497516"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-06-11T09:29:34.684609"
 }
