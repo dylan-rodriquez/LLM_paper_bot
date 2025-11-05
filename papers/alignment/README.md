@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### AutoAdv: Automated Adversarial Prompting for Multi-Turn Jailbreaking of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Aashray Reddy, Andrew Zagula, Nicholas Saban
+
+arXiv:2511.02376v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) remain vulnerable to jailbreaking attacks where adversarial prompts elicit harmful outputs, yet most evaluations focus on ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.02376) | [📝 Analysis](bf3c93a5cde38aaefe4c656df84076a4.md)
+
+---
+
+### ValueCompass: A Framework for Measuring Contextual Value Alignment Between Human and LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Hua Shen, Tiffany Knearem, Reshmi Ghosh, Yu-Ju Yang, Nicholas Clark, Tanushree Mitra, Yun Huang
+
+arXiv:2409.09586v3 Announce Type: replace-cross 
+Abstract: As AI systems become more advanced, ensuring their alignment with a diverse range of individuals and societal values becomes increasingly cri...
+
+[📄 Full Paper](https://arxiv.org/abs/2409.09586) | [📝 Analysis](7b2b8baafb27fd8ad8fb2edd5f5fe525.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-05 09:29:52 UTC*

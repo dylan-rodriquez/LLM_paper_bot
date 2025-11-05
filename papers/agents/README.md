@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Accumulating Context Changes the Beliefs of Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Jiayi Geng, Howard Chen, Ryan Liu, Manoel Horta Ribeiro, Robb Willer, Graham Neubig, Thomas L. Griffiths
+
+arXiv:2511.01805v2 Announce Type: replace 
+Abstract: Language model (LM) assistants are increasingly used in applications such as brainstorming and research. Improvements in memory and context size ha...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01805) | [📝 Analysis](8b8537a3f14db8b391a2687c13a5cc33.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-05 09:29:52 UTC*

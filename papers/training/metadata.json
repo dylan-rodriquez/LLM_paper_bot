@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Realignment Problem: When Right becomes Wrong in LLMs",
+      "authors": [
+        "Aakash Sen Sharma, Debdeep Sanyal, Vivek Srivastava, Shirish Karande, Murari Mandal"
+      ],
+      "abstract": "arXiv:2511.02623v1 Announce Type: new \nAbstract: The alignment of Large Language Models (LLMs) with human values is central to their safe deployment, yet current practice produces static, brittle, and costly-to-maintain models that fail to keep pace with evolving norms and policies. This misalignment, which we term the Alignment-Reality Gap, poses a growing challenge for reliable long-term use. Existing remedies are inadequate: large-scale re-annotation is economically prohibitive, and standard unlearning methods act as blunt instruments that erode utility rather than enable precise policy updates. We introduce TRACE (Triage and Re-align by Alignment Conflict Evaluation), a framework for principled unlearning that reconceives re-alignment as a programmatic policy application problem. TRACE programmatically triages existing preference data against a new policy, identifies high-impact conflicts via a alignment impact score, and applies a hybrid optimization that cleanly inverts, discards, or preserves preferences while safeguarding model performance. Empirical results show that TRACE achieves robust re-alignment across diverse model families (Qwen2.5-7B, Gemma-2-9B, Llama-3.1-8B). On both synthetic benchmarks and the PKU-SafeRLHF dataset under complex policy shift, TRACE enforces new principles without degrading general capabilities. Our work establishes a scalable, dynamic, and cost-effective paradigm for maintaining LLM alignment, providing a foundation for sustainable and responsible AI deployment.",
+      "url": "https://arxiv.org/abs/2511.02623",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "alignment",
+        "policy",
+        "trace",
+        "new",
+        "deployment",
+        "existing",
+        "impact",
+        "large",
+        "llms",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 the 'Alignment-Reality Gap' \u2013 and proposes a novel framework, TRACE, to address it. The focus on programmatic policy application and efficient unlearning is a strong point, moving beyond costly re-annotation. While the abstract doesn't detail the specifics of the 'hybrid optimization,' the overall approach appears well-motivated and potentially impactful, suggesting a high-quality contribution.",
+      "paper_id": "031fb7b1e6530e85469ce37dd1d6c742"
+    },
+    {
+      "title": "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents",
+      "authors": [
+        "Ibragim Badertdinov, Alexander Golubev, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Andrei Andriushchenko, Maria Trofimova, Daria Litvintseva, Boris Yangel"
+      ],
+      "abstract": "arXiv:2505.20411v2 Announce Type: replace-cross \nAbstract: LLM-based agents have shown promising capabilities in a growing range of software engineering (SWE) tasks. However, advancing this field faces two critical challenges. First, high-quality training data is scarce, especially data that reflects real-world SWE scenarios, where agents must interact with development environments, execute code and adapt behavior based on the outcomes of their actions. Existing datasets are either limited to one-shot code generation or comprise small, manually curated collections of interactive tasks, lacking both scale and diversity. Second, the lack of fresh interactive SWE tasks affects evaluation of rapidly improving models, as static benchmarks quickly become outdated due to contamination issues. To address these limitations, we introduce a novel, automated, and scalable pipeline to continuously extract real-world interactive SWE tasks from diverse GitHub repositories. Using this pipeline, we construct SWE-rebench, a public dataset comprising over 21,000 interactive Python-based SWE tasks, suitable for reinforcement learning of SWE agents at scale. Additionally, we use continuous supply of fresh tasks collected using SWE-rebench methodology to build a contamination-free benchmark for agentic software engineering. We compare results of various LLMs on this benchmark to results on SWE-bench Verified and show that performance of some language models might be inflated due to contamination issues.",
+      "url": "https://arxiv.org/abs/2505.20411",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "swe",
+        "tasks",
+        "agents",
+        "interactive",
+        "swe tasks",
+        "based",
+        "contamination",
+        "engineering",
+        "pipeline",
+        "rebench"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in the development and evaluation of SWE agents: the lack of scalable, real-world training data and robust benchmarks. The automated pipeline for task collection and decontamination is a significant step forward, and the focus on interactive tasks is particularly valuable. The problem is well-defined, and the proposed solution appears well-motivated and potentially effective, suggesting a positive reception from the community.",
+      "paper_id": "d0edb35f938e1a6f19761cfd89d888ef"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-05T09:29:52.374710"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### The Realignment Problem: When Right becomes Wrong in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Aakash Sen Sharma, Debdeep Sanyal, Vivek Srivastava, Shirish Karande, Murari Mandal
+
+arXiv:2511.02623v1 Announce Type: new 
+Abstract: The alignment of Large Language Models (LLMs) with human values is central to their safe deployment, yet current practice produces static, brittle, and...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.02623) | [📝 Analysis](031fb7b1e6530e85469ce37dd1d6c742.md)
+
+---
+
+### SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents
+
+**Score:** 90.0 | **Published:** 2025-11-05 | **Authors:** Ibragim Badertdinov, Alexander Golubev, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Andrei Andriushchenko, Maria Trofimova, Daria Litvintseva, Boris Yangel
+
+arXiv:2505.20411v2 Announce Type: replace-cross 
+Abstract: LLM-based agents have shown promising capabilities in a growing range of software engineering (SWE) tasks. However, advancing this field face...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.20411) | [📝 Analysis](d0edb35f938e1a6f19761cfd89d888ef.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-05 09:29:52 UTC*

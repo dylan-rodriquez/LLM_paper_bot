@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The Collaboration Gap",
+      "authors": [
+        "Tim R. Davidson, Adam Fourney, Saleema Amershi, Robert West, Eric Horvitz, Ece Kamar"
+      ],
+      "abstract": "arXiv:2511.02687v1 Announce Type: cross \nAbstract: The trajectory of AI development suggests that we will increasingly rely on agent-based systems composed of independently developed agents with different information, privileges, and tools. The success of these systems will critically depend on effective collaboration among these heterogeneous agents, even under partial observability. Despite intense interest, few empirical studies have evaluated such agent-agent collaboration at scale. We propose a collaborative maze-solving benchmark that (i) isolates collaborative capabilities, (ii) modulates problem complexity, (iii) enables scalable automated grading, and (iv) imposes no output-format constraints, preserving ecological plausibility. Using this framework, we evaluate 32 leading open- and closed-source models in solo, homogeneous, and heterogeneous pairings. Our results reveal a \"collaboration gap\": models that perform well solo often degrade substantially when required to collaborate. Collaboration can break down dramatically; for instance, small distilled models that solve mazes well alone may fail almost completely in certain pairings. We find that starting with the stronger agent often improves outcomes, motivating a \"relay inference\" approach where the stronger agent leads before handing off to the weaker one, closing much of the gap. Our findings argue for (1) collaboration-aware evaluation, (2) training strategies developed to enhance collaborative capabilities, and (3) interaction design that reliably elicits agents' latent skills, guidance that applies to AI-AI and human-AI collaboration.",
+      "url": "https://arxiv.org/abs/2511.02687",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "collaboration",
+        "agent",
+        "ai",
+        "agents",
+        "collaborative",
+        "gap",
+        "models",
+        "capabilities",
+        "collaboration gap",
+        "collaborative capabilities"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial challenge in the development of multi-agent AI systems \u2013 the 'collaboration gap'. The proposed benchmark appears well-designed to isolate and evaluate collaborative capabilities, and the empirical evaluation of 32 models is substantial. The finding of performance degradation in collaborative settings is significant and highlights a key area for future research, suggesting a strong positive reception within the AI community.",
+      "paper_id": "8dba63da98e4940bd5c64aa4cc90bf15"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-05T09:29:52.378277"
 }

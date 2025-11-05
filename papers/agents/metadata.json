@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Accumulating Context Changes the Beliefs of Language Models",
+      "authors": [
+        "Jiayi Geng, Howard Chen, Ryan Liu, Manoel Horta Ribeiro, Robb Willer, Graham Neubig, Thomas L. Griffiths"
+      ],
+      "abstract": "arXiv:2511.01805v2 Announce Type: replace \nAbstract: Language model (LM) assistants are increasingly used in applications such as brainstorming and research. Improvements in memory and context size have allowed these models to become more autonomous, which has also resulted in more text accumulation in their context windows without explicit user intervention. This comes with a latent risk: the belief profiles of models -- their understanding of the world as manifested in their responses or actions -- may silently change as context accumulates. This can lead to subtly inconsistent user experiences, or shifts in behavior that deviate from the original alignment of the models. In this paper, we explore how accumulating context by engaging in interactions and processing text -- talking and reading -- can change the beliefs of language models, as manifested in their responses and behaviors. Our results reveal that models' belief profiles are highly malleable: GPT-5 exhibits a 54.7% shift in its stated beliefs after 10 rounds of discussion about moral dilemmas and queries about safety, while Grok 4 shows a 27.2% shift on political issues after reading texts from the opposing position. We also examine models' behavioral changes by designing tasks that require tool use, where each tool selection corresponds to an implicit belief. We find that these changes align with stated belief shifts, suggesting that belief shifts will be reflected in actual behavior in agentic systems. Our analysis exposes the hidden risk of belief shift as models undergo extended sessions of talking or reading, rendering their opinions and actions unreliable.",
+      "url": "https://arxiv.org/abs/2511.01805",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "belief",
+        "context",
+        "beliefs",
+        "changes",
+        "language",
+        "reading",
+        "shift",
+        "shifts",
+        "accumulating"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial and emerging problem with increasingly large context windows in LMs \u2013 the potential for 'belief drift'. The research appears rigorous, focusing on quantifiable shifts in model beliefs, and the 54.7% shift reported with GPT-5 is a significant finding. While the methodology isn't fully detailed in the abstract, the problem's importance and potential impact on user experience and model alignment justify a high score.",
+      "paper_id": "8b8537a3f14db8b391a2687c13a5cc33"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-11-05T09:29:52.379150"
 }

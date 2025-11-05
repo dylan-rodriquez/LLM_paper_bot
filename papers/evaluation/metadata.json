@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Deep Value Benchmark: Measuring Whether Models Generalize Deep values or Shallow Preferences",
+      "authors": [
+        "Joshua Ashkinaze, Hua Shen, Sai Avula, Eric Gilbert, Ceren Budak"
+      ],
+      "abstract": "arXiv:2511.02109v1 Announce Type: cross \nAbstract: We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human values or merely surface-level preferences. This distinction is critical for AI alignment: Systems that capture deeper values are likely to generalize human intentions robustly, while those that capture only superficial patterns in preference data risk producing misaligned behavior. The DVB uses a novel experimental design with controlled confounding between deep values (e.g., moral principles) and shallow features (e.g., superficial attributes). In the training phase, we expose LLMs to human preference data with deliberately correlated deep and shallow features -- for instance, where a user consistently prefers (non-maleficence, formal language) options over (justice, informal language) alternatives. The testing phase then breaks these correlations, presenting choices between (justice, formal language) and (non-maleficence, informal language) options. This design allows us to precisely measure a model's Deep Value Generalization Rate (DVGR) -- the probability of generalizing based on the underlying value rather than the shallow feature. Across 9 different models, the average DVGR is just 0.30. All models generalize deep values less than chance. Larger models have a (slightly) lower DVGR than smaller models. We are releasing our dataset, which was subject to three separate human validation experiments. DVB provides an interpretable measure of a core feature of alignment.",
+      "url": "https://arxiv.org/abs/2511.02109",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "deep",
+        "models",
+        "language",
+        "values",
+        "human",
+        "shallow",
+        "value",
+        "deep value",
+        "deep values",
+        "dvb"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in AI alignment \u2013 distinguishing between genuine value learning and superficial preference capture in LLMs. The proposed Deep Value Benchmark (DVB) with its controlled confounding design appears well-thought-out and addresses a significant gap in current evaluation methodologies. The potential for this benchmark to guide the development of more robust and aligned AI systems is high, and the abstract suggests a rigorous approach.",
+      "paper_id": "a4feff84d341a1c8451202f3e2a06857"
+    },
+    {
+      "title": "Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking",
+      "authors": [
+        "Liangliang Zhang, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma"
+      ],
+      "abstract": "arXiv:2505.23495v4 Announce Type: replace \nAbstract: Knowledge Graph Question Answering (KGQA) systems rely on high-quality benchmarks to evaluate complex multi-hop reasoning. However, despite their widespread use, popular datasets such as WebQSP and CWQ suffer from critical quality issues, including inaccurate or incomplete ground-truth annotations, poorly constructed questions that are ambiguous, trivial, or unanswerable, and outdated or inconsistent knowledge. Through a manual audit of 16 popular KGQA datasets, including WebQSP and CWQ, we find that the average factual correctness rate is only 57 %. To address these issues, we introduce KGQAGen, an LLM-in-the-loop framework that systematically resolves these pitfalls. KGQAGen combines structured knowledge grounding, LLM-guided generation, and symbolic verification to produce challenging and verifiable QA instances. Using KGQAGen, we construct KGQAGen-10k, a ten-thousand scale benchmark grounded in Wikidata, and evaluate a diverse set of KG-RAG models. Experimental results demonstrate that even state-of-the-art systems struggle on this benchmark, highlighting its ability to expose limitations of existing models. Our findings advocate for more rigorous benchmark construction and position KGQAGen as a scalable framework for advancing KGQA evaluation.",
+      "url": "https://arxiv.org/abs/2505.23495",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "kgqagen",
+        "benchmark",
+        "datasets",
+        "kgqa",
+        "knowledge",
+        "cwq",
+        "evaluate",
+        "framework",
+        "including",
+        "issues"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in KGQA \u2013 the unreliability of existing benchmarks. The discovery of a low factual correctness rate (57%) in popular datasets is significant. The proposed KGQAGen framework, leveraging LLMs for dataset creation and verification, shows promise for generating more robust and reliable benchmarks, and the creation of KGQAGen-10k is a valuable contribution.",
+      "paper_id": "e3323babf1460375f980f5667b75ea58"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-05T09:29:52.377211"
 }

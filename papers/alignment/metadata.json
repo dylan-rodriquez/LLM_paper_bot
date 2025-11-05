@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "AutoAdv: Automated Adversarial Prompting for Multi-Turn Jailbreaking of Large Language Models",
+      "authors": [
+        "Aashray Reddy, Andrew Zagula, Nicholas Saban"
+      ],
+      "abstract": "arXiv:2511.02376v1 Announce Type: new \nAbstract: Large Language Models (LLMs) remain vulnerable to jailbreaking attacks where adversarial prompts elicit harmful outputs, yet most evaluations focus on single-turn interactions while real-world attacks unfold through adaptive multi-turn conversations. We present AutoAdv, a training-free framework for automated multi-turn jailbreaking that achieves up to 95% attack success rate on Llama-3.1-8B within six turns a 24 percent improvement over single turn baselines. AutoAdv uniquely combines three adaptive mechanisms: a pattern manager that learns from successful attacks to enhance future prompts, a temperature manager that dynamically adjusts sampling parameters based on failure modes, and a two-phase rewriting strategy that disguises harmful requests then iteratively refines them. Extensive evaluation across commercial and open-source models (GPT-4o-mini, Qwen3-235B, Mistral-7B) reveals persistent vulnerabilities in current safety mechanisms, with multi-turn attacks consistently outperforming single-turn approaches. These findings demonstrate that alignment strategies optimized for single-turn interactions fail to maintain robustness across extended conversations, highlighting an urgent need for multi-turn-aware defenses.",
+      "url": "https://arxiv.org/abs/2511.02376",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "turn",
+        "multi",
+        "multi turn",
+        "attacks",
+        "single",
+        "single turn",
+        "autoadv",
+        "jailbreaking",
+        "models",
+        "adaptive"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 their susceptibility to multi-turn jailbreaking \u2013 which is more representative of real-world attack scenarios than single-turn evaluations. The AutoAdv framework, with its adaptive mechanisms, demonstrates a significant improvement in attack success rate, suggesting a robust and well-designed approach. While the core ideas build upon existing adversarial techniques, the combination and adaptive nature of the pattern, temperature, and rewriting managers represent a novel contribution. The high success rate on Llama-3 and evaluation across multiple models strengthens the findings.",
+      "paper_id": "bf3c93a5cde38aaefe4c656df84076a4"
+    },
+    {
+      "title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Human and LLMs",
+      "authors": [
+        "Hua Shen, Tiffany Knearem, Reshmi Ghosh, Yu-Ju Yang, Nicholas Clark, Tanushree Mitra, Yun Huang"
+      ],
+      "abstract": "arXiv:2409.09586v3 Announce Type: replace-cross \nAbstract: As AI systems become more advanced, ensuring their alignment with a diverse range of individuals and societal values becomes increasingly critical. But how can we capture fundamental human values and assess the degree to which AI systems align with them? We introduce ValueCompass, a framework of fundamental values, grounded in psychological theory and a systematic review, to identify and evaluate human-AI alignment. We apply ValueCompass to measure the value alignment of humans and large language models (LLMs) across four real-world scenarios: collaborative writing, education, public sectors, and healthcare. Our findings reveal concerning misalignments between humans and LLMs, such as humans frequently endorse values like \"National Security\" which were largely rejected by LLMs. We also observe that values differ across scenarios, highlighting the need for context-aware AI alignment strategies. This work provides valuable insights into the design space of human-AI alignment, laying the foundations for developing AI systems that responsibly reflect societal values and ethics.",
+      "url": "https://arxiv.org/abs/2409.09586",
+      "published_date": "2025-11-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "alignment",
+        "values",
+        "human",
+        "llms",
+        "ai alignment",
+        "ai systems",
+        "humans",
+        "systems",
+        "valuecompass"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in AI safety and alignment \u2013 understanding and quantifying value alignment between humans and LLMs. The grounding of the ValueCompass framework in psychological theory and its application across diverse scenarios strengthens the research. The finding of misalignments, particularly regarding values like 'National Security', is significant and highlights the need for context-aware alignment strategies. The work is well-presented and likely to be well-received by the community.",
+      "paper_id": "7b2b8baafb27fd8ad8fb2edd5f5fe525"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-05T09:29:52.373401"
 }

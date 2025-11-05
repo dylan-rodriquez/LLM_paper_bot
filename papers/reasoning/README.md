@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Collaboration Gap
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Tim R. Davidson, Adam Fourney, Saleema Amershi, Robert West, Eric Horvitz, Ece Kamar
+
+arXiv:2511.02687v1 Announce Type: cross 
+Abstract: The trajectory of AI development suggests that we will increasingly rely on agent-based systems composed of independently developed agents with diffe...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.02687) | [📝 Analysis](8dba63da98e4940bd5c64aa4cc90bf15.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-05 09:29:52 UTC*
