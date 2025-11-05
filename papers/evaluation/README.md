@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Deep Value Benchmark: Measuring Whether Models Generalize Deep values or Shallow Preferences
+
+**Score:** 92.0 | **Published:** 2025-11-05 | **Authors:** Joshua Ashkinaze, Hua Shen, Sai Avula, Eric Gilbert, Ceren Budak
+
+arXiv:2511.02109v1 Announce Type: cross 
+Abstract: We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.02109) | [📝 Analysis](a4feff84d341a1c8451202f3e2a06857.md)
+
+---
+
+### Diagnosing and Addressing Pitfalls in KG-RAG Datasets: Toward More Reliable Benchmarking
+
+**Score:** 90.0 | **Published:** 2025-11-05 | **Authors:** Liangliang Zhang, Zhuorui Jiang, Hongliang Chi, Haoyang Chen, Mohammed Elkoumy, Fali Wang, Qiong Wu, Zhengyi Zhou, Shirui Pan, Suhang Wang, Yao Ma
+
+arXiv:2505.23495v4 Announce Type: replace 
+Abstract: Knowledge Graph Question Answering (KGQA) systems rely on high-quality benchmarks to evaluate complex multi-hop reasoning. However, despite their w...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23495) | [📝 Analysis](e3323babf1460375f980f5667b75ea58.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-05 09:29:52 UTC*
