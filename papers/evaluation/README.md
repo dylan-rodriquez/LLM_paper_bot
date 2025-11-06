@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology
+
+**Score:** 92.0 | **Published:** 2025-11-06 | **Authors:** Thomas Souverain
+
+arXiv:2511.03641v1 Announce Type: cross 
+Abstract: To foster trustworthy Artificial Intelligence (AI) within the European Union, the AI Act requires providers to mark and detect the outputs of their g...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.03641) | [📝 Analysis](957e2da6ccf566b79cdf8c9a77abb517.md)
+
+---
+
+### HPLT 3.0: Very Large-Scale Multilingual Resources for LLM and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models
+
+**Score:** 92.0 | **Published:** 2025-11-06 | **Authors:** Stephan Oepen, Nikolay Arefev, Mikko Aulamo, Marta Ba\~n\'on, Maja Buljan, Laurie Burchell, Lucas Charpentier, Pinzhen Chen, Mariya Fedorova, Ona de Gibert, Barry Haddow, Jan Haji\v{c}, Jind\v{r}ich Helcl, Andrey Kutuzov, Veronika Laippala, Zihao Li, Risto Luukkonen, Bhavitvya Malik, Vladislav Mikhailov, Amanda Myntti, Dayy\'an O'Brien, Lucie Pol\'akov\'a, Sampo Pyysalo, Gema Ram\'irez S\'anchez, Janine Siewert, Pavel Stepachev, J\"org Tiedemann, Teemu Vahtola, Du\v{s}an Vari\v{s}, Fedor Vitiugin, Tea Vojt\v{e}chov\'a, Jaume Zaragoza
+
+arXiv:2511.01066v2 Announce Type: replace 
+Abstract: We present an ongoing initiative to provide open, very large, high-quality, and richly annotated textual datasets for almost 200 languages. At 30 t...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.01066) | [📝 Analysis](ccdfb5b69e55377f7a70a2d21e1dd432.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-06 09:29:35 UTC*

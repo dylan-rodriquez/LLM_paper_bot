@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "BengaliMoralBench: A Benchmark for Auditing Moral Reasoning in Large Language Models within Bengali Language and Culture",
+      "authors": [
+        "Shahriyar Zaman Ridoy, Azmine Toushik Wasi, Koushik Ahamed Tonmoy"
+      ],
+      "abstract": "arXiv:2511.03180v1 Announce Type: new \nAbstract: As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali language and socio-cultural contexts. It covers five moral domains, Daily Activities, Habits, Parenting, Family Relationships, and Religious Activities, subdivided into 50 culturally relevant subtopics. Each scenario is annotated via native-speaker consensus using three ethical lenses: Virtue, Commonsense, and Justice ethics. We conduct systematic zero-shot evaluation of prominent multilingual LLMs, including Llama, Gemma, Qwen, and DeepSeek, using a unified prompting protocol and standard metrics. Performance varies widely (50-91% accuracy), with qualitative analysis revealing consistent weaknesses in cultural grounding, commonsense reasoning, and moral fairness. BengaliMoralBench provides a foundation for responsible localization, enabling culturally aligned evaluation and supporting the deployment of ethically robust AI in diverse, low-resource multilingual settings such as Bangladesh.",
+      "url": "https://arxiv.org/abs/2511.03180",
+      "published_date": "2025-11-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "language",
+        "bengali",
+        "bengalimoralbench",
+        "cultural",
+        "ethics",
+        "large",
+        "moral",
+        "multilingual",
+        "50",
+        "activities"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in LLM ethics research by focusing on a significantly underrepresented language and culture \u2013 Bengali. The creation of a culturally-grounded benchmark is a strong methodological contribution, and the use of multiple ethical lenses adds depth. The systematic evaluation of several prominent LLMs provides valuable insights into their performance in a non-Western context, and the high sentiment score reflects the current trend towards responsible AI and cultural sensitivity.",
+      "paper_id": "794d23d409ce82699f6ba163c50fcbd3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-06T09:29:35.419183"
 }

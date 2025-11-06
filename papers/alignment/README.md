@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### BengaliMoralBench: A Benchmark for Auditing Moral Reasoning in Large Language Models within Bengali Language and Culture
+
+**Score:** 90.0 | **Published:** 2025-11-06 | **Authors:** Shahriyar Zaman Ridoy, Azmine Toushik Wasi, Koushik Ahamed Tonmoy
+
+arXiv:2511.03180v1 Announce Type: new 
+Abstract: As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.03180) | [📝 Analysis](794d23d409ce82699f6ba163c50fcbd3.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-06 09:29:35 UTC*

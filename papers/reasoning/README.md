@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Verdict: A Library for Scaling Judge-Time Compute
+
+**Score:** 90.0 | **Published:** 2025-11-06 | **Authors:** Nimit Kalra, Leonard Tang
+
+arXiv:2502.18018v2 Announce Type: replace 
+Abstract: The use of LLMs as automated judges ("LLM-as-a-judge") is now widespread, yet standard judges suffer from a multitude of reliability issues. To add...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.18018) | [📝 Analysis](2dc11d2da59bf6ebdd5b54b781522da9.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-06 09:29:35 UTC*
