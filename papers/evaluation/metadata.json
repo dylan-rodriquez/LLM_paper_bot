@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology",
+      "authors": [
+        "Thomas Souverain"
+      ],
+      "abstract": "arXiv:2511.03641v1 Announce Type: cross \nAbstract: To foster trustworthy Artificial Intelligence (AI) within the European Union, the AI Act requires providers to mark and detect the outputs of their general-purpose models. The Article 50 and Recital 133 call for marking methods that are ''sufficiently reliable, interoperable, effective and robust''. Yet, the rapidly evolving and heterogeneous landscape of watermarks for Large Language Models (LLMs) makes it difficult to determine how these four standards can be translated into concrete and measurable evaluations. Our paper addresses this challenge, anchoring the normativity of European requirements in the multiplicity of watermarking techniques. Introducing clear and distinct concepts on LLM watermarking, our contribution is threefold. (1) Watermarking Categorisation: We propose an accessible taxonomy of watermarking methods according to the stage of the LLM lifecycle at which they are applied - before, during, or after training, and during next-token distribution or sampling. (2) Watermarking Evaluation: We interpret the EU AI Act's requirements by mapping each criterion with state-of-the-art evaluations on robustness and detectability of the watermark, and of quality of the LLM. Since interoperability remains largely untheorised in LLM watermarking research, we propose three normative dimensions to frame its assessment. (3) Watermarking Comparison: We compare current watermarking methods for LLMs against the operationalised European criteria and show that no approach yet satisfies all four standards. Encouraged by emerging empirical tests, we recommend further research into watermarking directly embedded within the low-level architecture of LLMs.",
+      "url": "https://arxiv.org/abs/2511.03641",
+      "published_date": "2025-11-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "watermarking",
+        "ai",
+        "llm",
+        "act",
+        "ai act",
+        "european",
+        "llms",
+        "methods",
+        "models",
+        "evaluations"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the intersection of LLM watermarking and the upcoming EU AI Act. The attempt to ground legal requirements in technical realities is valuable, and the proposed taxonomy is a solid step towards standardization. While the core idea isn't entirely novel, the specific focus on the AI Act and the categorization framework demonstrate a strong understanding of both the technical and legal landscapes. The potential impact on responsible AI development within Europe is significant.",
+      "paper_id": "957e2da6ccf566b79cdf8c9a77abb517"
+    },
+    {
+      "title": "HPLT 3.0: Very Large-Scale Multilingual Resources for LLM and MT. Mono- and Bi-lingual Data, Multilingual Evaluation, and Pre-Trained Models",
+      "authors": [
+        "Stephan Oepen, Nikolay Arefev, Mikko Aulamo, Marta Ba\\~n\\'on, Maja Buljan, Laurie Burchell, Lucas Charpentier, Pinzhen Chen, Mariya Fedorova, Ona de Gibert, Barry Haddow, Jan Haji\\v{c}, Jind\\v{r}ich Helcl, Andrey Kutuzov, Veronika Laippala, Zihao Li, Risto Luukkonen, Bhavitvya Malik, Vladislav Mikhailov, Amanda Myntti, Dayy\\'an O'Brien, Lucie Pol\\'akov\\'a, Sampo Pyysalo, Gema Ram\\'irez S\\'anchez, Janine Siewert, Pavel Stepachev, J\\\"org Tiedemann, Teemu Vahtola, Du\\v{s}an Vari\\v{s}, Fedor Vitiugin, Tea Vojt\\v{e}chov\\'a, Jaume Zaragoza"
+      ],
+      "abstract": "arXiv:2511.01066v2 Announce Type: replace \nAbstract: We present an ongoing initiative to provide open, very large, high-quality, and richly annotated textual datasets for almost 200 languages. At 30 trillion tokens, this is likely the largest generally available multilingual collection of LLM pre-training data. These datasets are derived from web crawls from different sources and accompanied with a complete, open-source pipeline for document selection from web archives, text extraction from HTML, language identification for noisy texts, exact and near-deduplication, annotation with, among others, register labels, text quality estimates, and personally identifiable information; and final selection and filtering. We report on data quality probes through contrastive and analytical statistics, through manual inspection of samples for 24 languages, and through end-to-end evaluation of various language model architectures trained on this data. For multilingual LLM evaluation, we provide a comprehensive collection of benchmarks for nine European languages, with special emphasis on natively created tasks, mechanisms to mitigate prompt sensitivity, and refined normalization and aggregation of scores. Additionally, we train and evaluate a family of 57 monolingual encoder-decoder models, as well as a handful of monolingual GPT-like reference models. Besides the monolingual data and models, we also present a very large collection of parallel texts automatically mined from this data, together with a novel parallel corpus synthesized via machine translation.",
+      "url": "https://arxiv.org/abs/2511.01066",
+      "published_date": "2025-11-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "models",
+        "multilingual",
+        "collection",
+        "evaluation",
+        "languages",
+        "large",
+        "llm",
+        "monolingual",
+        "quality"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the LLM community: large-scale, high-quality multilingual data. The comprehensive pipeline for data collection, cleaning, and annotation, coupled with the sheer size of the dataset (30 trillion tokens), suggests a rigorous and well-executed project. The inclusion of data quality probes and LLM evaluation further strengthens the work, indicating a commitment to practical utility and scientific validity. The open-source nature of the pipeline is a significant positive.",
+      "paper_id": "ccdfb5b69e55377f7a70a2d21e1dd432"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-06T09:29:35.420303"
 }

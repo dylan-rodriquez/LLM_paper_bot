@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### SafeSearch: Do Not Trade Safety for Utility in LLM Search Agents
+
+**Score:** 92.0 | **Published:** 2025-11-06 | **Authors:** Qiusi Zhan, Angeline Budiman-Chan, Abdelrahman Zayed, Xingzhi Guo, Daniel Kang, Joo-Kyung Kim
+
+arXiv:2510.17017v3 Announce Type: replace 
+Abstract: Large language model (LLM) based search agents iteratively generate queries, retrieve external information, and reason to answer open-domain questi...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.17017) | [📝 Analysis](5294ea12c7308555c7885024ca99e8be.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-06 09:29:35 UTC*

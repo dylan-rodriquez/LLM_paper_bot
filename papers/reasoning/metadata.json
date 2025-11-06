@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Verdict: A Library for Scaling Judge-Time Compute",
+      "authors": [
+        "Nimit Kalra, Leonard Tang"
+      ],
+      "abstract": "arXiv:2502.18018v2 Announce Type: replace \nAbstract: The use of LLMs as automated judges (\"LLM-as-a-judge\") is now widespread, yet standard judges suffer from a multitude of reliability issues. To address these challenges, we introduce Verdict, an open-source library for scaling judge-time compute to enhance the accuracy, reliability, and interpretability of automated evaluators. Verdict leverages the composition of modular reasoning units (such as verification, debate, and aggregation) and increased inference-time compute to improve LLM judge quality. Across a variety of challenging tasks such as content moderation, fact-checking, and hallucination detection, Verdict judges achieves performance competitive with orders-of-magnitude larger fine-tuned judges, prompted judges, and reasoning models. Our framework establishes a foundation for scalable, interpretable, and reliable LLM-based evaluation systems for both researchers and practitioners.",
+      "url": "https://arxiv.org/abs/2502.18018",
+      "published_date": "2025-11-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "judges",
+        "judge",
+        "verdict",
+        "compute",
+        "llm",
+        "time",
+        "time compute",
+        "automated",
+        "judge time",
+        "library"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in the rapidly evolving field of LLM evaluation \u2013 the reliability of LLM-as-a-judge systems. The proposed 'Verdict' library offers a practical and scalable solution by combining modular reasoning and increased compute, achieving competitive performance with significantly larger models. The focus on interpretability is also a strong point, and the open-source nature will likely foster adoption and further research. The high sentiment score reflects the current trend towards improving LLM reliability and the community's need for robust evaluation tools.",
+      "paper_id": "2dc11d2da59bf6ebdd5b54b781522da9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-06T09:29:35.421421"
 }
