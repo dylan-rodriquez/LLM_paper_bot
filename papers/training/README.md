@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### RLHF: A comprehensive Survey for Cultural, Multimodal and Low Latency Alignment Methods
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Raghav Sharma, Manan Mehta, Sai Tiger Raina
+
+arXiv:2511.03939v1 Announce Type: cross 
+Abstract: Reinforcement Learning from Human Feedback (RLHF) is the standard for aligning Large Language Models (LLMs), yet recent progress has moved beyond can...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.03939) | [📝 Analysis](6414448956cc44cd7a00b83a76b37839.md)
+
+---
+
+### Memorization in Large Language Models in Medicine: Prevalence, Characteristics, and Implications
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Anran Li, Lingfei Qian, Mengmeng Du, Yu Yin, Yan Hu, Zihao Sun, Yihang Fu, Erica Stutz, Xuguang Ai, Qianqian Xie, Rui Zhu, Jimin Huang, Yifan Yang, Siru Liu, Yih-Chung Tham, Lucila Ohno-Machado, Hyunghoon Cho, Zhiyong Lu, Hua Xu, Qingyu Chen
+
+arXiv:2509.08604v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) have demonstrated significant potential in medicine. To date, LLMs have been widely applied to tasks such as diagnosti...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08604) | [📝 Analysis](37a78da1e98294fa4b6a250d9027b31b.md)
+
+---
+
+### Efficient Model Development through Fine-tuning Transfer
+
+**Score:** 90.0 | **Published:** 2025-11-07 | **Authors:** Pin-Jie Lin, Rishab Balasubramanian, Fengyuan Liu, Nikhil Kandpal, Tu Vu
+
+arXiv:2503.20110v2 Announce Type: replace 
+Abstract: Modern LLMs struggle with efficient updates, as each new pretrained model version requires repeating expensive alignment processes. This challenge ...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.20110) | [📝 Analysis](620f9941f6e48afbaf4887e2532efad9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-07 09:28:36 UTC*

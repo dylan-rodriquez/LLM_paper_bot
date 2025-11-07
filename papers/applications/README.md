@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Black-Box Guardrail Reverse-engineering Attack
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Hongwei Yao, Yun Xia, Shuo Shao, Haoran Shi, Tong Qiao, Cong Wang
+
+arXiv:2511.04215v1 Announce Type: cross 
+Abstract: Large language models (LLMs) increasingly employ guardrails to enforce ethical, legal, and application-specific constraints on their outputs. While e...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04215) | [📝 Analysis](40db46a7f014b23a13c6f566246731f6.md)
+
+---
+
+### The Illusion of Certainty: Uncertainty quantification for LLMs fails under ambiguity
+
+**Score:** 90.0 | **Published:** 2025-11-07 | **Authors:** Tim Tomov, Dominik Fuchsgruber, Tom Wollschl\"ager, Stephan G\"unnemann
+
+arXiv:2511.04418v1 Announce Type: cross 
+Abstract: Accurate uncertainty quantification (UQ) in Large Language Models (LLMs) is critical for trustworthy deployment. While real-world language is inheren...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04418) | [📝 Analysis](669a406e63328f65c742c1c9205d7ab0.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-07 09:28:36 UTC*
