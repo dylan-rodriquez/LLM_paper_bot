@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### T-FIX: Text-Based Explanations with Features Interpretable to eXperts
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Shreya Havaldar, Helen Jin, Chaehyeon Kim, Anton Xue, Weiqiu You, Marco Gatti, Bhuvnesh Jain, Helen Qu, Daniel A Hashimoto, Amin Madani, Rajat Deo, Sameed Ahmed M. Khatana, Gary E. Weissman, Lyle Ungar, Eric Wong
+
+arXiv:2511.04070v1 Announce Type: new 
+Abstract: As LLMs are deployed in knowledge-intensive settings (e.g., surgery, astronomy, therapy), users expect not just answers, but also meaningful explanatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04070) | [📝 Analysis](c48cd0ce9dae61e73c61c44004697e96.md)
+
+---
+
+### Robustness in Large Language Models: A Survey of Mitigation Strategies and Evaluation Metrics
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Pankaj Kumar, Subhankar Mishra
+
+arXiv:2505.18658v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) have emerged as a promising cornerstone for the development of natural language processing (NLP) and artificial intell...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.18658) | [📝 Analysis](13458d357e0b2bc11940878460d256d0.md)
+
+---
+
+### From Model to Breach: Towards Actionable LLM-Generated Vulnerabilities Reporting
+
+**Score:** 90.0 | **Published:** 2025-11-07 | **Authors:** Cyril Vallez, Alexander Sternfeld, Andrei Kucharavy, Ljiljana Dolamic
+
+arXiv:2511.04538v1 Announce Type: new 
+Abstract: As the role of Large Language Models (LLM)-based coding assistants in software development becomes more critical, so does the role of the bugs they gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04538) | [📝 Analysis](551423b49634a7881cfe945168b0d9df.md)
+
+---
+
+### Large language models replicate and predict human cooperation across experiments in game theory
+
+**Score:** 90.0 | **Published:** 2025-11-07 | **Authors:** Andrea Cera Palatsi, Samuel Martin-Gutierrez, Ana S. Cardenal, Max Pellert
+
+arXiv:2511.04500v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are increasingly used both to make decisions in domains such as health, education and law, and to simulate human behavio...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04500) | [📝 Analysis](58a94226b5a92598a4068a0c32120108.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-07 09:28:36 UTC*

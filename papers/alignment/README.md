@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users
+
+**Score:** 92.0 | **Published:** 2025-11-07 | **Authors:** Elinor Poole-Dayan, Deb Roy, Jad Kabbara
+
+arXiv:2406.17737v2 Announce Type: replace 
+Abstract: While state-of-the-art large language models (LLMs) have shown impressive performance on many tasks, there has been extensive research on undesirab...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.17737) | [📝 Analysis](44bf9b46fae7d4db4368cac696067421.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-07 09:28:36 UTC*

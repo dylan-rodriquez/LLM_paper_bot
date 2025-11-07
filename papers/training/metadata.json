@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "RLHF: A comprehensive Survey for Cultural, Multimodal and Low Latency Alignment Methods",
+      "authors": [
+        "Raghav Sharma, Manan Mehta, Sai Tiger Raina"
+      ],
+      "abstract": "arXiv:2511.03939v1 Announce Type: cross \nAbstract: Reinforcement Learning from Human Feedback (RLHF) is the standard for aligning Large Language Models (LLMs), yet recent progress has moved beyond canonical text-based methods. This survey synthesizes the new frontier of alignment research by addressing critical gaps in multi-modal alignment, cultural fairness, and low-latency optimization. To systematically explore these domains, we first review foundational algo- rithms, including PPO, DPO, and GRPO, before presenting a detailed analysis of the latest innovations. By providing a comparative synthesis of these techniques and outlining open challenges, this work serves as an essential roadmap for researchers building more robust, efficient, and equitable AI systems.",
+      "url": "https://arxiv.org/abs/2511.03939",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "cultural",
+        "latency",
+        "low",
+        "low latency",
+        "methods",
+        "rlhf",
+        "survey",
+        "03939v1",
+        "03939v1 announce"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey addresses a highly relevant and rapidly evolving area within LLMs \u2013 aligning models beyond simple text, specifically focusing on cultural fairness, multimodality, and latency. The systematic approach of reviewing foundational algorithms *before* diving into innovations suggests a rigorous methodology. Given the current focus on responsible AI and efficient deployment, this work is likely to be well-received and impactful.",
+      "paper_id": "6414448956cc44cd7a00b83a76b37839"
+    },
+    {
+      "title": "Memorization in Large Language Models in Medicine: Prevalence, Characteristics, and Implications",
+      "authors": [
+        "Anran Li, Lingfei Qian, Mengmeng Du, Yu Yin, Yan Hu, Zihao Sun, Yihang Fu, Erica Stutz, Xuguang Ai, Qianqian Xie, Rui Zhu, Jimin Huang, Yifan Yang, Siru Liu, Yih-Chung Tham, Lucila Ohno-Machado, Hyunghoon Cho, Zhiyong Lu, Hua Xu, Qingyu Chen"
+      ],
+      "abstract": "arXiv:2509.08604v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have demonstrated significant potential in medicine. To date, LLMs have been widely applied to tasks such as diagnostic assistance, medical question answering, and clinical information synthesis. However, a key open question remains: to what extent do LLMs memorize medical training data. In this study, we present the first comprehensive evaluation of memorization of LLMs in medicine, assessing its prevalence (how frequently it occurs), characteristics (what is memorized), volume (how much content is memorized), and potential downstream impacts (how memorization may affect medical applications). We systematically analyze common adaptation scenarios: (1) continued pretraining on medical corpora, (2) fine-tuning on standard medical benchmarks, and (3) fine-tuning on real-world clinical data, including over 13,000 unique inpatient records from Yale New Haven Health System. The results demonstrate that memorization is prevalent across all adaptation scenarios and significantly higher than reported in the general domain. Memorization affects both the development and adoption of LLMs in medicine and can be categorized into three types: beneficial (e.g., accurate recall of clinical guidelines and biomedical references), uninformative (e.g., repeated disclaimers or templated medical document language), and harmful (e.g., regeneration of dataset-specific or sensitive clinical content). Based on these findings, we offer practical recommendations to facilitate beneficial memorization that enhances domain-specific reasoning and factual accuracy, minimize uninformative memorization to promote deeper learning beyond surface-level patterns, and mitigate harmful memorization to prevent the leakage of sensitive or identifiable patient information.",
+      "url": "https://arxiv.org/abs/2509.08604",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "memorization",
+        "medical",
+        "llms",
+        "clinical",
+        "medicine",
+        "language",
+        "adaptation",
+        "adaptation scenarios",
+        "beneficial",
+        "characteristics"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critical issue in the deployment of LLMs in medicine \u2013 the potential for memorization of training data, which raises privacy and reliability concerns. The systematic analysis across different adaptation scenarios (continued pretraining, fine-tuning on benchmarks, and real-world clinical data) is rigorous and well-defined. While the core idea of investigating memorization isn't entirely novel, the application to the medical domain and the inclusion of real-world clinical data significantly enhance its value and potential impact.",
+      "paper_id": "37a78da1e98294fa4b6a250d9027b31b"
+    },
+    {
+      "title": "Efficient Model Development through Fine-tuning Transfer",
+      "authors": [
+        "Pin-Jie Lin, Rishab Balasubramanian, Fengyuan Liu, Nikhil Kandpal, Tu Vu"
+      ],
+      "abstract": "arXiv:2503.20110v2 Announce Type: replace \nAbstract: Modern LLMs struggle with efficient updates, as each new pretrained model version requires repeating expensive alignment processes. This challenge also applies to domain- or languagespecific models, where fine-tuning on specialized data must be redone for every new base model release. In this paper, we explore the transfer of fine-tuning updates between model versions. Specifically, we derive the diff vector (representing the weight changes from finetuning) from one source model version and apply it to the base model of a different target version. Through empirical evaluations on various open-weight model versions, we show that transferring diff vectors can significantly improve the performance of the target base model. For example, transferring the fine-tuning updates from Llama 3.0 8B improves Llama 3.1 8B by 46.9% on IFEval and 15.7% on LiveCodeBench without additional training, even surpassing Llama 3.1 8B Instruct. Furthermore, we demonstrate performance gains on multilingual tasks, with 4.7% and 15.5% improvements on Global MMLU for Malagasy and Turkish, respectively. We observe that these merged models provide stronger initializations for further fine-tuning. Lastly, our controlled experiments suggest that fine-tuning transfer is most effective when source and target models lie in a linearly connected region of parameter space, and we provide a theoretical analysis of our method. Taken together, fine-tuning transfer offers a cost-efficient and practical strategy for continuous LLM development. Our code is available at github.com/pjlintw/finetuning-transfer.",
+      "url": "https://arxiv.org/abs/2503.20110",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "model",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "transfer",
+        "8b",
+        "base",
+        "base model",
+        "efficient",
+        "llama"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the cost of re-alignment with each new base model. The approach of transferring fine-tuning 'diff vectors' is clever and the reported performance gains (46.9% on IFEval, 15.7% on LiveCodeBench) are substantial. The work is well-motivated and likely to be well-received by the community, given the current focus on efficient LLM adaptation.",
+      "paper_id": "620f9941f6e48afbaf4887e2532efad9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-07T09:28:36.090473"
 }

@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Black-Box Guardrail Reverse-engineering Attack",
+      "authors": [
+        "Hongwei Yao, Yun Xia, Shuo Shao, Haoran Shi, Tong Qiao, Cong Wang"
+      ],
+      "abstract": "arXiv:2511.04215v1 Announce Type: cross \nAbstract: Large language models (LLMs) increasingly employ guardrails to enforce ethical, legal, and application-specific constraints on their outputs. While effective at mitigating harmful responses, these guardrails introduce a new class of vulnerabilities by exposing observable decision patterns. In this work, we present the first study of black-box LLM guardrail reverse-engineering attacks. We propose Guardrail Reverse-engineering Attack (GRA), a reinforcement learning-based framework that leverages genetic algorithm-driven data augmentation to approximate the decision-making policy of victim guardrails. By iteratively collecting input-output pairs, prioritizing divergence cases, and applying targeted mutations and crossovers, our method incrementally converges toward a high-fidelity surrogate of the victim guardrail. We evaluate GRA on three widely deployed commercial systems, namely ChatGPT, DeepSeek, and Qwen3, and demonstrate that it achieves an rule matching rate exceeding 0.92 while requiring less than $85 in API costs. These findings underscore the practical feasibility of guardrail extraction and highlight significant security risks for current LLM safety mechanisms. Our findings expose critical vulnerabilities in current guardrail designs and highlight the urgent need for more robust defense mechanisms in LLM deployment.",
+      "url": "https://arxiv.org/abs/2511.04215",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "guardrail",
+        "engineering",
+        "guardrail reverse",
+        "guardrails",
+        "llm",
+        "reverse",
+        "reverse engineering",
+        "attack",
+        "black",
+        "black box"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 the potential for reverse-engineering guardrails. The proposed GRA framework, utilizing reinforcement learning and genetic algorithms, appears to be a novel and effective approach to this problem, demonstrated across multiple commercial systems. The findings have significant implications for LLM security and trustworthiness, and the clear presentation suggests a high-quality study.",
+      "paper_id": "40db46a7f014b23a13c6f566246731f6"
+    },
+    {
+      "title": "The Illusion of Certainty: Uncertainty quantification for LLMs fails under ambiguity",
+      "authors": [
+        "Tim Tomov, Dominik Fuchsgruber, Tom Wollschl\\\"ager, Stephan G\\\"unnemann"
+      ],
+      "abstract": "arXiv:2511.04418v1 Announce Type: cross \nAbstract: Accurate uncertainty quantification (UQ) in Large Language Models (LLMs) is critical for trustworthy deployment. While real-world language is inherently ambiguous, reflecting aleatoric uncertainty, existing UQ methods are typically benchmarked against tasks with no ambiguity. In this work, we demonstrate that while current uncertainty estimators perform well under the restrictive assumption of no ambiguity, they degrade to close-to-random performance on ambiguous data. To this end, we introduce MAQA* and AmbigQA*, the first ambiguous question-answering (QA) datasets equipped with ground-truth answer distributions estimated from factual co-occurrence. We find this performance deterioration to be consistent across different estimation paradigms: using the predictive distribution itself, internal representations throughout the model, and an ensemble of models. We show that this phenomenon can be theoretically explained, revealing that predictive-distribution and ensemble-based estimators are fundamentally limited under ambiguity. Overall, our study reveals a key shortcoming of current UQ methods for LLMs and motivates a rethinking of current modeling paradigms.",
+      "url": "https://arxiv.org/abs/2511.04418",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "ambiguity",
+        "uncertainty",
+        "ambiguous",
+        "current",
+        "llms",
+        "uq",
+        "distribution",
+        "ensemble",
+        "estimators",
+        "language"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a crucial issue in LLM deployment \u2013 the failure of uncertainty quantification under realistic ambiguity. The introduction of new datasets (MAQA* and AmbigQA*) specifically designed to test this limitation is a strong methodological contribution. The theoretical explanation adds further weight to the findings, suggesting a fundamental problem with current UQ approaches, and the consistent degradation across different estimation paradigms strengthens the conclusions.",
+      "paper_id": "669a406e63328f65c742c1c9205d7ab0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-11-07T09:28:36.092753"
 }

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users",
+      "authors": [
+        "Elinor Poole-Dayan, Deb Roy, Jad Kabbara"
+      ],
+      "abstract": "arXiv:2406.17737v2 Announce Type: replace \nAbstract: While state-of-the-art large language models (LLMs) have shown impressive performance on many tasks, there has been extensive research on undesirable model behavior such as hallucinations and bias. In this work, we investigate how the quality of LLM responses changes in terms of information accuracy, truthfulness, and refusals depending on three user traits: English proficiency, education level, and country of origin. We present extensive experimentation on three state-of-the-art LLMs and two different datasets targeting truthfulness and factuality. Our findings suggest that undesirable behaviors in state-of-the-art LLMs occur disproportionately more for users with lower English proficiency, of lower education status, and originating from outside the US, rendering these models unreliable sources of information towards their most vulnerable users.",
+      "url": "https://arxiv.org/abs/2406.17737",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "art",
+        "llms",
+        "state",
+        "state art",
+        "users",
+        "art llms",
+        "disproportionately",
+        "education",
+        "english",
+        "english proficiency"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critically important issue \u2013 the disproportionate impact of LLM failures on vulnerable user groups. The methodology, involving experimentation on multiple LLMs and datasets, appears sound, and the findings are likely to resonate with the AI ethics and fairness communities. While the core approach of testing performance across user demographics isn't entirely novel, the specific focus on these three traits (English proficiency, education, origin) and the observed disparities are significant. The potential for real-world impact, particularly in ensuring equitable access to information, is high.",
+      "paper_id": "44bf9b46fae7d4db4368cac696067421"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-07T09:28:36.093669"
 }

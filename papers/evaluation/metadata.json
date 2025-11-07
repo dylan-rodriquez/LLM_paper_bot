@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "T-FIX: Text-Based Explanations with Features Interpretable to eXperts",
+      "authors": [
+        "Shreya Havaldar, Helen Jin, Chaehyeon Kim, Anton Xue, Weiqiu You, Marco Gatti, Bhuvnesh Jain, Helen Qu, Daniel A Hashimoto, Amin Madani, Rajat Deo, Sameed Ahmed M. Khatana, Gary E. Weissman, Lyle Ungar, Eric Wong"
+      ],
+      "abstract": "arXiv:2511.04070v1 Announce Type: new \nAbstract: As LLMs are deployed in knowledge-intensive settings (e.g., surgery, astronomy, therapy), users expect not just answers, but also meaningful explanations for those answers. In these settings, users are often domain experts (e.g., doctors, astrophysicists, psychologists) who require explanations that reflect expert-level reasoning. However, current evaluation schemes primarily emphasize plausibility or internal faithfulness of the explanation, which fail to capture whether the content of the explanation truly aligns with expert intuition. We formalize expert alignment as a criterion for evaluating explanations with T-FIX, a benchmark spanning seven knowledge-intensive domains. In collaboration with domain experts, we develop novel metrics to measure the alignment of LLM explanations with expert judgment.",
+      "url": "https://arxiv.org/abs/2511.04070",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "explanations",
+        "expert",
+        "experts",
+        "alignment",
+        "answers",
+        "domain",
+        "domain experts",
+        "explanation",
+        "fix",
+        "intensive"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the deployment of LLMs in high-stakes domains: ensuring explanations are not just plausible, but *meaningful* to experts. The formalization of 'expert alignment' and the development of a benchmark (T-FIX) with novel metrics are strong contributions. The collaborative approach with domain experts adds significant rigor, and the problem is highly relevant given the increasing use of LLMs in sensitive applications.",
+      "paper_id": "c48cd0ce9dae61e73c61c44004697e96"
+    },
+    {
+      "title": "Robustness in Large Language Models: A Survey of Mitigation Strategies and Evaluation Metrics",
+      "authors": [
+        "Pankaj Kumar, Subhankar Mishra"
+      ],
+      "abstract": "arXiv:2505.18658v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) have emerged as a promising cornerstone for the development of natural language processing (NLP) and artificial intelligence (AI). However, ensuring the robustness of LLMs remains a critical challenge. To address these challenges and advance the field, this survey provides a comprehensive overview of current studies in this area. First, we systematically examine the nature of robustness in LLMs, including its conceptual foundations, the importance of consistent performance across diverse inputs, and the implications of failure modes in real-world applications. Next, we analyze the sources of non-robustness, categorizing intrinsic model limitations, data-driven vulnerabilities, and external adversarial factors that compromise reliability. Following this, we review state-of-the-art mitigation strategies, and then we discuss widely adopted benchmarks, emerging metrics, and persistent gaps in assessing real-world reliability. Finally, we synthesize findings from existing surveys and interdisciplinary studies to highlight trends, unresolved issues, and pathways for future research.",
+      "url": "https://arxiv.org/abs/2505.18658",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "robustness",
+        "language",
+        "llms",
+        "language models",
+        "large",
+        "large language",
+        "metrics",
+        "mitigation",
+        "mitigation strategies",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey paper addresses a highly relevant and critical issue in the LLM field \u2013 robustness. The abstract indicates a systematic and comprehensive approach to categorizing vulnerabilities and mitigation strategies, suggesting strong methodological rigor. While a survey isn't inherently innovative, its value lies in consolidating and structuring existing knowledge, which this abstract suggests it does well, and the topic is extremely timely given the increasing deployment of LLMs in real-world applications.",
+      "paper_id": "13458d357e0b2bc11940878460d256d0"
+    },
+    {
+      "title": "From Model to Breach: Towards Actionable LLM-Generated Vulnerabilities Reporting",
+      "authors": [
+        "Cyril Vallez, Alexander Sternfeld, Andrei Kucharavy, Ljiljana Dolamic"
+      ],
+      "abstract": "arXiv:2511.04538v1 Announce Type: new \nAbstract: As the role of Large Language Models (LLM)-based coding assistants in software development becomes more critical, so does the role of the bugs they generate in the overall cybersecurity landscape. While a number of LLM code security benchmarks have been proposed alongside approaches to improve the security of generated code, it remains unclear to what extent they have impacted widely used coding LLMs. Here, we show that even the latest open-weight models are vulnerable in the earliest reported vulnerability scenarios in a realistic use setting, suggesting that the safety-functionality trade-off has until now prevented effective patching of vulnerabilities. To help address this issue, we introduce a new severity metric that reflects the risk posed by an LLM-generated vulnerability, accounting for vulnerability severity, generation chance, and the formulation of the prompt that induces vulnerable code generation - Prompt Exposure (PE). To encourage the mitigation of the most serious and prevalent vulnerabilities, we use PE to define the Model Exposure (ME) score, which indicates the severity and prevalence of vulnerabilities a model generates.",
+      "url": "https://arxiv.org/abs/2511.04538",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "llm",
+        "vulnerabilities",
+        "code",
+        "generated",
+        "model",
+        "severity",
+        "vulnerability",
+        "coding",
+        "exposure",
+        "generation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the security vulnerabilities introduced by LLM-generated code. The introduction of the 'Prompt Exposure' (PE) metric is a valuable contribution, offering a more nuanced understanding of vulnerability risk than simple severity scores. While the core idea of LLMs generating vulnerabilities isn't new, the focus on actionable reporting and the PE metric demonstrate a solid methodological approach and potential for practical impact.",
+      "paper_id": "551423b49634a7881cfe945168b0d9df"
+    },
+    {
+      "title": "Large language models replicate and predict human cooperation across experiments in game theory",
+      "authors": [
+        "Andrea Cera Palatsi, Samuel Martin-Gutierrez, Ana S. Cardenal, Max Pellert"
+      ],
+      "abstract": "arXiv:2511.04500v1 Announce Type: cross \nAbstract: Large language models (LLMs) are increasingly used both to make decisions in domains such as health, education and law, and to simulate human behavior. Yet how closely LLMs mirror actual human decision-making remains poorly understood. This gap is critical: misalignment could produce harmful outcomes in practical applications, while failure to replicate human behavior renders LLMs ineffective for social simulations. Here, we address this gap by developing a digital twin of game-theoretic experiments and introducing a systematic prompting and probing framework for machine-behavioral evaluation. Testing three open-source models (Llama, Mistral and Qwen), we find that Llama reproduces human cooperation patterns with high fidelity, capturing human deviations from rational choice theory, while Qwen aligns closely with Nash equilibrium predictions. Notably, we achieved population-level behavioral replication without persona-based prompting, simplifying the simulation process. Extending beyond the original human-tested games, we generate and preregister testable hypotheses for novel game configurations outside the original parameter grid. Our findings demonstrate that appropriately calibrated LLMs can replicate aggregate human behavioral patterns and enable systematic exploration of unexplored experimental spaces, offering a complementary approach to traditional research in the social and behavioral sciences that generates new empirical predictions about human social decision-making.",
+      "url": "https://arxiv.org/abs/2511.04500",
+      "published_date": "2025-11-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "human",
+        "behavioral",
+        "llms",
+        "game",
+        "models",
+        "replicate",
+        "social",
+        "behavior",
+        "closely",
+        "cooperation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial gap in understanding LLM behavior \u2013 how well they replicate human decision-making in social contexts. The development of a digital twin for game-theoretic experiments and a systematic evaluation framework is a strong methodological contribution. The finding that LLMs exhibit varying degrees of alignment with human behavior (Llama vs. Qwen) is particularly insightful, suggesting model-specific biases and capabilities. The lack of reliance on persona prompting to achieve replication is also noteworthy.",
+      "paper_id": "58a94226b5a92598a4068a0c32120108"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-07T09:28:36.088697"
 }
