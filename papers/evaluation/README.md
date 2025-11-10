@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Measuring what Matters: Construct Validity in Large Language Model Benchmarks
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Andrew M. Bean, Ryan Othniel Kearns, Angelika Romanou, Franziska Sofia Hafner, Harry Mayne, Jan Batzner, Negar Foroutan, Chris Schmitz, Karolina Korgul, Hunar Batra, Oishi Deb, Emma Beharry, Cornelius Emde, Thomas Foster, Anna Gausen, Mar\'ia Grandury, Simeng Han, Valentin Hofmann, Lujain Ibrahim, Hazel Kim, Hannah Rose Kirk, Fangru Lin, Gabrielle Kaili-May Liu, Lennart Luettgau, Jabez Magomere, Jonathan Rystr{\o}m, Anna Sotnikova, Yushi Yang, Yilun Zhao, Adel Bibi, Antoine Bosselut, Ronald Clark, Arman Cohan, Jakob Foerster, Yarin Gal, Scott A. Hale, Inioluwa Deborah Raji, Christopher Summerfield, Philip H. S. Torr, Cozmin Ududec, Luc Rocher, Adam Mahdi
+
+arXiv:2511.04703v1 Announce Type: new 
+Abstract: Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deploymen...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04703) | [📝 Analysis](5230a03cda992fa28fb710022c0d3690.md)
+
+---
+
+### Holistic Evaluation of Multimodal LLMs on Spatial Intelligence
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Zhongang Cai, Yubo Wang, Qingping Sun, Ruisi Wang, Chenyang Gu, Wanqi Yin, Zhiqian Lin, Zhitao Yang, Chen Wei, Oscar Qian, Hui En Pang, Xuanke Shi, Kewang Deng, Xiaoyang Han, Zukai Chen, Jiaqi Li, Xiangyu Fan, Hanming Deng, Lewei Lu, Bo Li, Ziwei Liu, Quan Wang, Dahua Lin, Lei Yang
+
+arXiv:2508.13142v3 Announce Type: replace-cross 
+Abstract: Multimodal models have achieved remarkable progress in recent years. Nevertheless, they continue to exhibit notable limitations in spatial un...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.13142) | [📝 Analysis](d6b60a4f377cc3b7628f1b1f9b089539.md)
+
+---
+
+### Adaptive Testing for LLM Evaluation: A Psychometric Alternative to Static Benchmarks
+
+**Score:** 90.0 | **Published:** 2025-11-10 | **Authors:** Peiyu Li, Xiuxiu Tang, Si Chen, Ying Cheng, Ronald Metoyer, Ting Hua, Nitesh V. Chawla
+
+arXiv:2511.04689v1 Announce Type: new 
+Abstract: Large language model evaluation requires thousands of benchmark items, making evaluations expensive and slow. Existing methods compute average accuracy...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04689) | [📝 Analysis](ce5cfdcfbc721ad6e251b458bf584afa.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-10 09:31:22 UTC*

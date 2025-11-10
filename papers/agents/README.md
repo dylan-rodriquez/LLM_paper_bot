@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### ConVerse: Benchmarking Contextual Safety in Agent-to-Agent Conversations
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Amr Gomaa, Ahmed Salem, Sahar Abdelnabi
+
+arXiv:2511.05359v1 Announce Type: cross 
+Abstract: As language models evolve into autonomous agents that act and communicate on behalf of users, ensuring safety in multi-agent ecosystems becomes a cen...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.05359) | [📝 Analysis](eda03fbee3fea500bf86074db0d67bc1.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-10 09:31:22 UTC*

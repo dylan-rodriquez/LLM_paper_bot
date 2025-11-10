@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+      "authors": [
+        "Andrew M. Bean, Ryan Othniel Kearns, Angelika Romanou, Franziska Sofia Hafner, Harry Mayne, Jan Batzner, Negar Foroutan, Chris Schmitz, Karolina Korgul, Hunar Batra, Oishi Deb, Emma Beharry, Cornelius Emde, Thomas Foster, Anna Gausen, Mar\\'ia Grandury, Simeng Han, Valentin Hofmann, Lujain Ibrahim, Hazel Kim, Hannah Rose Kirk, Fangru Lin, Gabrielle Kaili-May Liu, Lennart Luettgau, Jabez Magomere, Jonathan Rystr{\\o}m, Anna Sotnikova, Yushi Yang, Yilun Zhao, Adel Bibi, Antoine Bosselut, Ronald Clark, Arman Cohan, Jakob Foerster, Yarin Gal, Scott A. Hale, Inioluwa Deborah Raji, Christopher Summerfield, Philip H. S. Torr, Cozmin Ududec, Luc Rocher, Adam Mahdi"
+      ],
+      "abstract": "arXiv:2511.04703v1 Announce Type: new \nAbstract: Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as 'safety' and 'robustness' requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks.",
+      "url": "https://arxiv.org/abs/2511.04703",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "benchmarks",
+        "language",
+        "validity",
+        "abstract",
+        "construct",
+        "construct validity",
+        "large",
+        "large language",
+        "llm",
+        "llm benchmarks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a critical issue in the LLM field \u2013 the validity of benchmarks used to assess these models. The systematic review of 445 benchmarks with expert input is a strong methodological approach. While the core idea of assessing construct validity isn't entirely novel, the scale and systematic nature of the review, coupled with actionable recommendations, make it a valuable contribution. The high sentiment score reflects the current community focus on reliable LLM evaluation.",
+      "paper_id": "5230a03cda992fa28fb710022c0d3690"
+    },
+    {
+      "title": "Holistic Evaluation of Multimodal LLMs on Spatial Intelligence",
+      "authors": [
+        "Zhongang Cai, Yubo Wang, Qingping Sun, Ruisi Wang, Chenyang Gu, Wanqi Yin, Zhiqian Lin, Zhitao Yang, Chen Wei, Oscar Qian, Hui En Pang, Xuanke Shi, Kewang Deng, Xiaoyang Han, Zukai Chen, Jiaqi Li, Xiangyu Fan, Hanming Deng, Lewei Lu, Bo Li, Ziwei Liu, Quan Wang, Dahua Lin, Lei Yang"
+      ],
+      "abstract": "arXiv:2508.13142v3 Announce Type: replace-cross \nAbstract: Multimodal models have achieved remarkable progress in recent years. Nevertheless, they continue to exhibit notable limitations in spatial understanding and reasoning, the very capability that anchors artificial general intelligence in the physical world. With the recent release of GPT-5, allegedly the most powerful AI model to date, it is timely to examine where the leading models (GPT, Gemini, Grok, Seed, Qwen, and Intern) stand on the path toward spatial intelligence. We thus propose EASI for holistic Evaluation of multimodAl LLMs on Spatial Intelligence. EASI conceptualizes a comprehensive taxonomy of spatial tasks that unifies existing benchmarks and a standardized protocol for the fair evaluation of state-of-the-art proprietary and open-source models. In this report, we conduct the study across eight key benchmarks, at a cost exceeding ten billion total tokens. Our empirical study then reveals that (1) GPT-5 demonstrates unprecedented strength in spatial intelligence (SI), yet (2) still falls short of human performance significantly across a broad spectrum of SI-tasks. Moreover, we (3) show that SI-tasks expose greater model capability deficiency than non-SI tasks, to the extent that (4) proprietary models do not exhibit a decisive advantage when facing the most difficult ones. In addition, we conduct a qualitative evaluation across a diverse set of scenarios that are intuitive for humans, yet fail even the most advanced multimodal models.",
+      "url": "https://arxiv.org/abs/2508.13142",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "spatial",
+        "intelligence",
+        "models",
+        "evaluation",
+        "multimodal",
+        "si",
+        "spatial intelligence",
+        "tasks",
+        "gpt",
+        "si tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial limitation of current multimodal LLMs \u2013 spatial intelligence \u2013 which is fundamental for AGI. The proposal of EASI, a holistic evaluation framework, is a strong methodological contribution, especially given the scale of the evaluation (ten billion tokens). While the abstract doesn't detail *how* novel the taxonomy or protocol are, the focus on GPT-5 and other leading models suggests timely and relevant research. The high computational cost also indicates a serious and rigorous study.",
+      "paper_id": "d6b60a4f377cc3b7628f1b1f9b089539"
+    },
+    {
+      "title": "Adaptive Testing for LLM Evaluation: A Psychometric Alternative to Static Benchmarks",
+      "authors": [
+        "Peiyu Li, Xiuxiu Tang, Si Chen, Ying Cheng, Ronald Metoyer, Ting Hua, Nitesh V. Chawla"
+      ],
+      "abstract": "arXiv:2511.04689v1 Announce Type: new \nAbstract: Large language model evaluation requires thousands of benchmark items, making evaluations expensive and slow. Existing methods compute average accuracy across fixed item sets, treating all items equally despite varying quality and informativeness. We present ATLAS an adaptive testing framework using Item Response Theory (IRT) to estimate model ability through Fisher information-guided item selection. Our analysis of five major benchmarks reveals that 3-6% of items exhibit negative discrimination, indicating annotation errors that corrupt static evaluation. ATLAS achieves 90% item reduction while maintaining measurement precision: on HellaSwag (5,608 items), we match full-benchmark estimates using only 42 items with 0.154 MAE. Our framework maintains item exposure rates below 10% and test overlap at 16-27%, compared to static benchmarks where every model sees all items (100% exposure). Among 4,000+ tested models, IRT ranks differ from accuracy ranks: models with the same accuracy get different IRT scores, and 23-31% of all models shift by more than 10 rank positions. Code and calibrated item banks are available at https://github.com/Peiyu-Georgia-Li/ATLAS.git.",
+      "url": "https://arxiv.org/abs/2511.04689",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "item",
+        "items",
+        "accuracy",
+        "atlas",
+        "benchmarks",
+        "evaluation",
+        "irt",
+        "model",
+        "models",
+        "static"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in LLM evaluation \u2013 the cost and inefficiency of static benchmarks. The application of Item Response Theory (IRT) to adaptive testing is a clever and well-justified approach, and the reported results (90% item reduction with maintained precision) are impressive. The discovery of annotation errors within existing benchmarks is also a significant finding, suggesting a broader issue with data quality.",
+      "paper_id": "ce5cfdcfbc721ad6e251b458bf584afa"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-10T09:31:22.443099"
 }

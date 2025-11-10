@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "ConVerse: Benchmarking Contextual Safety in Agent-to-Agent Conversations",
+      "authors": [
+        "Amr Gomaa, Ahmed Salem, Sahar Abdelnabi"
+      ],
+      "abstract": "arXiv:2511.05359v1 Announce Type: cross \nAbstract: As language models evolve into autonomous agents that act and communicate on behalf of users, ensuring safety in multi-agent ecosystems becomes a central challenge. Interactions between personal assistants and external service providers expose a core tension between utility and protection: effective collaboration requires information sharing, yet every exchange creates new attack surfaces. We introduce ConVerse, a dynamic benchmark for evaluating privacy and security risks in agent-agent interactions. ConVerse spans three practical domains (travel, real estate, insurance) with 12 user personas and over 864 contextually grounded attacks (611 privacy, 253 security). Unlike prior single-agent settings, it models autonomous, multi-turn agent-to-agent conversations where malicious requests are embedded within plausible discourse. Privacy is tested through a three-tier taxonomy assessing abstraction quality, while security attacks target tool use and preference manipulation. Evaluating seven state-of-the-art models reveals persistent vulnerabilities; privacy attacks succeed in up to 88% of cases and security breaches in up to 60%, with stronger models leaking more. By unifying privacy and security within interactive multi-agent contexts, ConVerse reframes safety as an emergent property of communication.",
+      "url": "https://arxiv.org/abs/2511.05359",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "privacy",
+        "security",
+        "converse",
+        "models",
+        "agent agent",
+        "attacks",
+        "multi",
+        "safety",
+        "agent conversations"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a highly relevant and increasingly important problem \u2013 the safety of multi-agent interactions. The creation of a dynamic benchmark, ConVerse, with a focus on contextual safety and realistic scenarios is a strong methodological contribution. The scale of the benchmark (864 attacks across three domains) suggests a rigorous approach, and the focus on both privacy and security is commendable. The work appears well-aligned with current research trends in agent safety and robustness.",
+      "paper_id": "eda03fbee3fea500bf86074db0d67bc1"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-11-10T09:31:22.446155"
 }

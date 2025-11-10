@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Quantifying the Climate Risk of Generative AI: Region-Aware Carbon Accounting with G-TRACE and the AI Sustainability Pyramid
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Zahida Kausar, Seemab Latif, Raja Khurrum Shahzad, Mehwish Fatima
+
+arXiv:2511.04776v1 Announce Type: cross 
+Abstract: Generative Artificial Intelligence (GenAI) represents a rapidly expanding digital infrastructure whose energy demand and associated CO2 emissions are...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04776) | [📝 Analysis](20fa18efd9a167fc51df34bbe78e6066.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-10 09:31:22 UTC*

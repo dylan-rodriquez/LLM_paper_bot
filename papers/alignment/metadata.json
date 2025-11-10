@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Pluralistic Behavior Suite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies",
+      "authors": [
+        "Prasoon Varshney, Makesh Narsimhan Sreedhar, Liwei Jiang, Traian Rebedea, Christopher Parisien"
+      ],
+      "abstract": "arXiv:2511.05018v1 Announce Type: new \nAbstract: Large language models (LLMs) are typically aligned to a universal set of safety and usage principles intended for broad public acceptability. Yet, real-world applications of LLMs often take place within organizational ecosystems shaped by distinctive corporate policies, regulatory requirements, use cases, brand guidelines, and ethical commitments. This reality highlights the need for rigorous and comprehensive evaluation of LLMs with pluralistic alignment goals, an alignment paradigm that emphasizes adaptability to diverse user values and needs. In this work, we present PLURALISTIC BEHAVIOR SUITE (PBSUITE), a dynamic evaluation suite designed to systematically assess LLMs' capacity to adhere to pluralistic alignment specifications in multi-turn, interactive conversations. PBSUITE consists of (1) a diverse dataset of 300 realistic LLM behavioral policies, grounded in 30 industries; and (2) a dynamic evaluation framework for stress-testing model compliance with custom behavioral specifications under adversarial conditions. Using PBSUITE, We find that leading open- and closed-source LLMs maintain robust adherence to behavioral policies in single-turn settings (less than 4% failure rates), but their compliance weakens substantially in multi-turn adversarial interactions (up to 84% failure rates). These findings highlight that existing model alignment and safety moderation methods fall short in coherently enforcing pluralistic behavioral policies in real-world LLM interactions. Our work contributes both the dataset and analytical framework to support future research toward robust and context-aware pluralistic alignment techniques.",
+      "url": "https://arxiv.org/abs/2511.05018",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pluralistic",
+        "alignment",
+        "behavioral",
+        "llms",
+        "policies",
+        "behavioral policies",
+        "turn",
+        "evaluation",
+        "multi",
+        "multi turn"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in LLM deployment \u2013 adapting to diverse organizational policies. The creation of a 300-policy dataset and a dynamic evaluation framework (PBSUITE) is a strong methodological contribution. While the core idea of policy adherence testing isn't entirely novel, the scale and focus on *pluralistic* alignment are significant, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "a1f8395fe337f7ca574a88ca03136e4c"
+    },
+    {
+      "title": "Jailbreaking in the Haystack",
+      "authors": [
+        "Rishi Rajesh Shah, Chen Henry Wu, Shashwat Saxena, Ziqian Zhong, Alexander Robey, Aditi Raghunathan"
+      ],
+      "abstract": "arXiv:2511.04707v1 Announce Type: cross \nAbstract: Recent advances in long-context language models (LMs) have enabled million-token inputs, expanding their capabilities across complex tasks like computer-use agents. Yet, the safety implications of these extended contexts remain unclear. To bridge this gap, we introduce NINJA (short for Needle-in-haystack jailbreak attack), a method that jailbreaks aligned LMs by appending benign, model-generated content to harmful user goals. Critical to our method is the observation that the position of harmful goals play an important role in safety. Experiments on standard safety benchmark, HarmBench, show that NINJA significantly increases attack success rates across state-of-the-art open and proprietary models, including LLaMA, Qwen, Mistral, and Gemini. Unlike prior jailbreaking methods, our approach is low-resource, transferable, and less detectable. Moreover, we show that NINJA is compute-optimal -- under a fixed compute budget, increasing context length can outperform increasing the number of trials in best-of-N jailbreak. These findings reveal that even benign long contexts -- when crafted with careful goal positioning -- introduce fundamental vulnerabilities in modern LMs.",
+      "url": "https://arxiv.org/abs/2511.04707",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "lms",
+        "ninja",
+        "safety",
+        "attack",
+        "benign",
+        "compute",
+        "context",
+        "contexts",
+        "goals",
+        "harmful"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical and timely issue \u2013 the safety of long-context language models. The NINJA attack method appears novel and effective, demonstrating significant increases in jailbreaking success rates across multiple models. The claim of being low-resource, transferable, and less detectable further strengthens its potential impact, suggesting a real threat to current safety measures. The mention of compute-optimality adds to the rigor of the work.",
+      "paper_id": "c771f113790a4a5d716f26b278221bd0"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-10T09:31:22.444470"
 }
