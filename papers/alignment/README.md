@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Pluralistic Behavior Suite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Prasoon Varshney, Makesh Narsimhan Sreedhar, Liwei Jiang, Traian Rebedea, Christopher Parisien
+
+arXiv:2511.05018v1 Announce Type: new 
+Abstract: Large language models (LLMs) are typically aligned to a universal set of safety and usage principles intended for broad public acceptability. Yet, real...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.05018) | [📝 Analysis](a1f8395fe337f7ca574a88ca03136e4c.md)
+
+---
+
+### Jailbreaking in the Haystack
+
+**Score:** 92.0 | **Published:** 2025-11-10 | **Authors:** Rishi Rajesh Shah, Chen Henry Wu, Shashwat Saxena, Ziqian Zhong, Alexander Robey, Aditi Raghunathan
+
+arXiv:2511.04707v1 Announce Type: cross 
+Abstract: Recent advances in long-context language models (LMs) have enabled million-token inputs, expanding their capabilities across complex tasks like compu...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04707) | [📝 Analysis](c771f113790a4a5d716f26b278221bd0.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-10 09:31:22 UTC*

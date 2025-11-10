@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Quantifying the Climate Risk of Generative AI: Region-Aware Carbon Accounting with G-TRACE and the AI Sustainability Pyramid",
+      "authors": [
+        "Zahida Kausar, Seemab Latif, Raja Khurrum Shahzad, Mehwish Fatima"
+      ],
+      "abstract": "arXiv:2511.04776v1 Announce Type: cross \nAbstract: Generative Artificial Intelligence (GenAI) represents a rapidly expanding digital infrastructure whose energy demand and associated CO2 emissions are emerging as a new category of climate risk. This study introduces G-TRACE (GenAI Transformative Carbon Estimator), a cross-modal, region-aware framework that quantifies training- and inference-related emissions across modalities and deployment geographies. Using real-world analytics and microscopic simulation, G-TRACE measures energy use and carbon intensity per output type (text, image, video) and reveals how decentralized inference amplifies small per-query energy costs into system-level impacts. Through the Ghibli-style image generation trend (2024-2025), we estimate 4,309 MWh of energy consumption and 2,068 tCO2 emissions, illustrating how viral participation inflates individual digital actions into tonne-scale consequences. Building on these findings, we propose the AI Sustainability Pyramid, a seven-level governance model linking carbon accounting metrics (L1-L7) with operational readiness, optimization, and stewardship. This framework translates quantitative emission metrics into actionable policy guidance for sustainable AI deployment. The study contributes to the quantitative assessment of emerging digital infrastructures as a novel category of climate risk, supporting adaptive governance for sustainable technology deployment. By situating GenAI within climate-risk frameworks, the work advances data-driven methods for aligning technological innovation with global decarbonization and resilience objectives.",
+      "url": "https://arxiv.org/abs/2511.04776",
+      "published_date": "2025-11-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "carbon",
+        "climate",
+        "climate risk",
+        "energy",
+        "risk",
+        "deployment",
+        "digital",
+        "emissions",
+        "genai"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the climate impact of GenAI. The introduction of G-TRACE, a region-aware carbon estimator, appears to be a solid methodological contribution. The concrete example using Ghibli-style image generation provides a compelling illustration of the scale of the issue, and the mention of an 'AI Sustainability Pyramid' suggests a broader framework for addressing these concerns. The work is well-positioned to be well-received by the AI and sustainability communities.",
+      "paper_id": "20fa18efd9a167fc51df34bbe78e6066"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-10T09:31:22.445224"
 }
