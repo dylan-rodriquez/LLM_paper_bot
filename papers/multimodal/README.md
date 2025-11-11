@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MedVoiceBias: A Controlled Study of Audio LLM Behavior in Clinical Decision-Making
+
+**Score:** 92.0 | **Published:** 2025-11-11 | **Authors:** Zhi Rui Tam, Yun-Nung Chen
+
+arXiv:2511.06592v1 Announce Type: new 
+Abstract: As large language models transition from text-based interfaces to audio interactions in clinical settings, they might introduce new vulnerabilities thr...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.06592) | [📝 Analysis](624b9800c2eca13288781c023d8a7ce4.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-11 09:29:39 UTC*

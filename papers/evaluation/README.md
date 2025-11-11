@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety of LLMs as Simulated Teachers
+
+**Score:** 92.0 | **Published:** 2025-11-11 | **Authors:** Yilin Jiang, Mingzi Zhang, Xuanyu Yin, Sheng Jin, Suyu Lu, Zuocan Ying, Zengyi Yu, Xiangjie Kong
+
+arXiv:2511.06890v1 Announce Type: new 
+Abstract: Large Language Models for Simulating Professions (SP-LLMs), particularly as teachers, are pivotal for personalized education. However, ensuring their p...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.06890) | [📝 Analysis](2d44a92790ffa6cf70363660ce1c2d3c.md)
+
+---
+
+### OckBench: Measuring the Efficiency of LLM Reasoning
+
+**Score:** 90.0 | **Published:** 2025-11-11 | **Authors:** Zheng Du, Hao Kang, Song Han, Tushar Krishna, Ligeng Zhu
+
+arXiv:2511.05722v1 Announce Type: new 
+Abstract: Large language models such as GPT-4, Claude 3, and the Gemini series have improved automated reasoning and code generation. However, existing benchmark...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.05722) | [📝 Analysis](3c94aeaff4636865a1d523d1d7848f7e.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-11 09:29:39 UTC*

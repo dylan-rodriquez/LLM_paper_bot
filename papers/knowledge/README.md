@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Rethinking Retrieval-Augmented Generation for Medicine: A Large-Scale, Systematic Expert Evaluation and Practical Insights
+
+**Score:** 92.0 | **Published:** 2025-11-11 | **Authors:** Hyunjae Kim, Jiwoong Sohn, Aidan Gilson, Nicholas Cochran-Caggiano, Serina Applebaum, Heeju Jin, Seihee Park, Yujin Park, Jiyeong Park, Seoyoung Choi, Brittany Alexandra Herrera Contreras, Thomas Huang, Jaehoon Yun, Ethan F. Wei, Roy Jiang, Leah Colucci, Eric Lai, Amisha Dave, Tuo Guo, Maxwell B. Singer, Yonghoe Koo, Ron A. Adelman, James Zou, Andrew Taylor, Arman Cohan, Hua Xu, Qingyu Chen
+
+arXiv:2511.06738v1 Announce Type: new 
+Abstract: Large language models (LLMs) are transforming the landscape of medicine, yet two fundamental challenges persist: keeping up with rapidly evolving medic...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.06738) | [📝 Analysis](5d41d16353124d16e8e908ea05c5e549.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-11 09:29:39 UTC*

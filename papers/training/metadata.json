@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Quantifying Edits Decay in Fine-tuned LLMs",
+      "authors": [
+        "Yinjie Cheng, Paul Youssef, Christin Seifert, J\\\"org Schl\\\"otterer, Zhixue Zhao"
+      ],
+      "abstract": "arXiv:2511.05852v1 Announce Type: new \nAbstract: Knowledge editing has emerged as a lightweight alternative to retraining for correcting or injecting specific facts in large language models (LLMs). Meanwhile, fine-tuning remains the default operation for adapting LLMs to new domains and tasks. Despite their widespread adoption, these two post-training interventions have been studied in isolation, leaving open a crucial question: if we fine-tune an edited model, do the edits survive? This question is motivated by two practical scenarios: removing covert or malicious edits, and preserving beneficial edits. If fine-tuning impairs edits as shown in Figure 1, current KE methods become less useful, as every fine-tuned model would require re-editing, which significantly increases the cost; if edits persist, fine-tuned models risk propagating hidden malicious edits, raising serious safety concerns. To this end, we systematically quantify edits decay after fine-tuning, investigating how fine-tuning affects knowledge editing. We evaluate two state-of-the-art editing methods (MEMIT, AlphaEdit) and three fine-tuning approaches (full-parameter, LoRA, DoRA) across five LLMs and three datasets, yielding 232 experimental configurations. Our results show that edits decay after fine-tuning, with survival varying across configurations, e.g., AlphaEdit edits decay more than MEMIT edits. Further, we propose selective-layer fine-tuning and find that fine-tuning edited layers only can effectively remove edits, though at a slight cost to downstream performance. Surprisingly, fine-tuning non-edited layers impairs more edits than full fine-tuning. Overall, our study establishes empirical baselines and actionable strategies for integrating knowledge editing with fine-tuning, and underscores that evaluating model editing requires considering the full LLM application pipeline.",
+      "url": "https://arxiv.org/abs/2511.05852",
+      "published_date": "2025-11-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "fine",
+        "edits",
+        "fine tuning",
+        "tuning",
+        "editing",
+        "decay",
+        "edits decay",
+        "llms",
+        "decay fine",
+        "edited"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critical gap in understanding the interaction between knowledge editing and fine-tuning of LLMs, a scenario increasingly relevant with the rise of both techniques. The problem of edit decay is well-motivated by practical concerns around safety and cost. While the abstract doesn't detail the methodology, the framing of the question and potential implications suggest a rigorous investigation is underway, making it likely to be well-received by the community.",
+      "paper_id": "d20d92effb79ca14134996831bc74257"
+    },
+    {
+      "title": "When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs",
+      "authors": [
+        "Shaowen Wang, Yiqi Dong, Ruinian Chang, Tansheng Zhu, Yuebo Sun, Kaifeng Lyu, Jian Li"
+      ],
+      "abstract": "arXiv:2511.07318v1 Announce Type: new \nAbstract: Despite substantial advances, large language models (LLMs) continue to exhibit hallucinations, generating plausible yet incorrect responses. In this paper, we highlight a critical yet previously underexplored class of hallucinations driven by spurious correlations -- superficial but statistically prominent associations between features (e.g., surnames) and attributes (e.g., nationality) present in the training data. We demonstrate that these spurious correlations induce hallucinations that are confidently generated, immune to model scaling, evade current detection methods, and persist even after refusal fine-tuning. Through systematically controlled synthetic experiments and empirical evaluations on state-of-the-art open-source and proprietary LLMs (including GPT-5), we show that existing hallucination detection methods, such as confidence-based filtering and inner-state probing, fundamentally fail in the presence of spurious correlations. Our theoretical analysis further elucidates why these statistical biases intrinsically undermine confidence-based detection techniques. Our findings thus emphasize the urgent need for new approaches explicitly designed to address hallucinations caused by spurious correlations.",
+      "url": "https://arxiv.org/abs/2511.07318",
+      "published_date": "2025-11-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "correlations",
+        "spurious",
+        "spurious correlations",
+        "detection",
+        "hallucinations",
+        "llms",
+        "based",
+        "confidence",
+        "confidence based",
+        "detection methods"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and often overlooked problem in LLM evaluation \u2013 hallucinations stemming from spurious correlations. The systematic approach, combining synthetic experiments and evaluations on state-of-the-art models (including GPT-5), suggests a rigorous methodology. The finding that current detection methods fail in these scenarios is particularly significant, highlighting a critical gap in the field.",
+      "paper_id": "fad3203c1b11f0e78c33a29feb052d6e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-11T09:29:39.854256"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Quantifying Edits Decay in Fine-tuned LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-11 | **Authors:** Yinjie Cheng, Paul Youssef, Christin Seifert, J\"org Schl\"otterer, Zhixue Zhao
+
+arXiv:2511.05852v1 Announce Type: new 
+Abstract: Knowledge editing has emerged as a lightweight alternative to retraining for correcting or injecting specific facts in large language models (LLMs). Me...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.05852) | [📝 Analysis](d20d92effb79ca14134996831bc74257.md)
+
+---
+
+### When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-11 | **Authors:** Shaowen Wang, Yiqi Dong, Ruinian Chang, Tansheng Zhu, Yuebo Sun, Kaifeng Lyu, Jian Li
+
+arXiv:2511.07318v1 Announce Type: new 
+Abstract: Despite substantial advances, large language models (LLMs) continue to exhibit hallucinations, generating plausible yet incorrect responses. In this pa...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07318) | [📝 Analysis](fad3203c1b11f0e78c33a29feb052d6e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-11 09:29:39 UTC*

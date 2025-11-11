@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MedVoiceBias: A Controlled Study of Audio LLM Behavior in Clinical Decision-Making",
+      "authors": [
+        "Zhi Rui Tam, Yun-Nung Chen"
+      ],
+      "abstract": "arXiv:2511.06592v1 Announce Type: new \nAbstract: As large language models transition from text-based interfaces to audio interactions in clinical settings, they might introduce new vulnerabilities through paralinguistic cues in audio. We evaluated these models on 170 clinical cases, each synthesized into speech from 36 distinct voice profiles spanning variations in age, gender, and emotion. Our findings reveal a severe modality bias: surgical recommendations for audio inputs varied by as much as 35% compared to identical text-based inputs, with one model providing 80% fewer recommendations. Further analysis uncovered age disparities of up to 12% between young and elderly voices, which persisted in most models despite chain-of-thought prompting. While explicit reasoning successfully eliminated gender bias, the impact of emotion was not detected due to poor recognition performance. These results demonstrate that audio LLMs are susceptible to making clinical decisions based on a patient's voice characteristics rather than medical evidence, a flaw that risks perpetuating healthcare disparities. We conclude that bias-aware architectures are essential and urgently needed before the clinical deployment of these models.",
+      "url": "https://arxiv.org/abs/2511.06592",
+      "published_date": "2025-11-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "audio",
+        "clinical",
+        "models",
+        "based",
+        "bias",
+        "age",
+        "disparities",
+        "emotion",
+        "gender",
+        "inputs"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a critical and emerging issue \u2013 bias in audio LLMs used for clinical decision-making. The controlled study design, using synthesized voices with varied characteristics, is strong. The findings of significant modality bias and age disparities are concerning and highlight a real vulnerability as these models are deployed in healthcare settings. The attempt to mitigate bias with chain-of-thought prompting, and the analysis of emotion recognition limitations, adds to the rigor.",
+      "paper_id": "624b9800c2eca13288781c023d8a7ce4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-11T09:29:39.856499"
 }
