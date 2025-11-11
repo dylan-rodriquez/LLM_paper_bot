@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety of LLMs as Simulated Teachers",
+      "authors": [
+        "Yilin Jiang, Mingzi Zhang, Xuanyu Yin, Sheng Jin, Suyu Lu, Zuocan Ying, Zengyi Yu, Xiangjie Kong"
+      ],
+      "abstract": "arXiv:2511.06890v1 Announce Type: new \nAbstract: Large Language Models for Simulating Professions (SP-LLMs), particularly as teachers, are pivotal for personalized education. However, ensuring their professional competence and ethical safety is a critical challenge, as existing benchmarks fail to measure role-playing fidelity or address the unique teaching harms inherent in educational scenarios. To address this, we propose EduGuardBench, a dual-component benchmark. It assesses professional fidelity using a Role-playing Fidelity Score (RFS) while diagnosing harms specific to the teaching profession. It also probes safety vulnerabilities using persona-based adversarial prompts targeting both general harms and, particularly, academic misconduct, evaluated with metrics including Attack Success Rate (ASR) and a three-tier Refusal Quality assessment. Our extensive experiments on 14 leading models reveal a stark polarization in performance. While reasoning-oriented models generally show superior fidelity, incompetence remains the dominant failure mode across most models. The adversarial tests uncovered a counterintuitive scaling paradox, where mid-sized models can be the most vulnerable, challenging monotonic safety assumptions. Critically, we identified a powerful Educational Transformation Effect: the safest models excel at converting harmful requests into teachable moments by providing ideal Educational Refusals. This capacity is strongly negatively correlated with ASR, revealing a new dimension of advanced AI safety. EduGuardBench thus provides a reproducible framework that moves beyond siloed knowledge tests toward a holistic assessment of professional, ethical, and pedagogical alignment, uncovering complex dynamics essential for deploying trustworthy AI in education. See https://github.com/YL1N/EduGuardBench for Materials.",
+      "url": "https://arxiv.org/abs/2511.06890",
+      "published_date": "2025-11-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "fidelity",
+        "safety",
+        "eduguardbench",
+        "adversarial",
+        "educational",
+        "harms",
+        "professional",
+        "address",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem \u2013 the safe and effective deployment of LLMs as educational tools. The creation of EduGuardBench, with its focus on pedagogical fidelity *and* specific teaching harms (like academic misconduct), is a strong contribution. While the core idea of benchmarking isn't novel, the specific focus and dual-component design demonstrate a thoughtful approach, and the initial results showing performance polarization are intriguing. The clear metrics (RFS, ASR, Refusal Quality) add to the rigor.",
+      "paper_id": "2d44a92790ffa6cf70363660ce1c2d3c"
+    },
+    {
+      "title": "OckBench: Measuring the Efficiency of LLM Reasoning",
+      "authors": [
+        "Zheng Du, Hao Kang, Song Han, Tushar Krishna, Ligeng Zhu"
+      ],
+      "abstract": "arXiv:2511.05722v1 Announce Type: new \nAbstract: Large language models such as GPT-4, Claude 3, and the Gemini series have improved automated reasoning and code generation. However, existing benchmarks mainly focus on accuracy and output quality, and they ignore an important factor: decoding token efficiency. In real systems, generating 10,000 tokens versus 100,000 tokens leads to large differences in latency, cost, and energy. In this work, we introduce OckBench, a model-agnostic and hardware-agnostic benchmark that evaluates both accuracy and token count for reasoning and coding tasks. Through experiments comparing multiple open- and closed-source models, we uncover that many models with comparable accuracy differ wildly in token consumption, revealing that efficiency variance is a neglected but significant axis of differentiation. We further demonstrate Pareto frontiers over the accuracy-efficiency plane and argue for an evaluation paradigm shift: we should no longer treat tokens as \"free\" to multiply. OckBench provides a unified platform for measuring, comparing, and guiding research in token-efficient reasoning. Our benchmarks are available at https://ockbench.github.io/ .",
+      "url": "https://arxiv.org/abs/2511.05722",
+      "published_date": "2025-11-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "accuracy",
+        "efficiency",
+        "ockbench",
+        "reasoning",
+        "token",
+        "models",
+        "tokens",
+        "000",
+        "000 tokens",
+        "agnostic"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial, often overlooked aspect of LLM performance \u2013 token efficiency. The introduction of OckBench is a valuable contribution, providing a much-needed benchmark beyond simple accuracy. The focus on Pareto frontiers and advocating for a shift in evaluation paradigms suggests a thoughtful and impactful approach, and the initial findings of significant efficiency variance are compelling.",
+      "paper_id": "3c94aeaff4636865a1d523d1d7848f7e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-11T09:29:39.852593"
 }
