@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark
+
+**Score:** 92.0 | **Published:** 2025-06-09 | **Authors:** Junjie Xing, Yeye He, Mengyu Zhou, Haoyu Dong, Shi Han, Lingjiao Chen, Dongmei Zhang, Surajit Chaudhuri, H. V. Jagadish
+
+arXiv:2506.05587v1 Announce Type: cross 
+Abstract: Tables and table-based use cases play a crucial role in many important real-world applications, such as spreadsheets, databases, and computational no...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05587) | [📝 Analysis](aab04d495b1cf0f0f94addfcf8034b27.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-09 09:30:26 UTC*

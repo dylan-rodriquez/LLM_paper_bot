@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "MIRIAD: Augmenting LLMs with millions of medical query-response pairs",
+      "authors": [
+        "Qinyue Zheng, Salman Abdullah, Sam Rawal, Cyril Zakka, Sophie Ostmeier, Maximilian Purk, Eduardo Reis, Eric J. Topol, Jure Leskovec, Michael Moor"
+      ],
+      "abstract": "arXiv:2506.06091v1 Announce Type: new \nAbstract: LLMs are bound to transform healthcare with advanced decision support and flexible chat assistants. However, LLMs are prone to generate inaccurate medical content. To ground LLMs in high-quality medical knowledge, LLMs have been equipped with external knowledge via RAG, where unstructured medical knowledge is split into small text chunks that can be selectively retrieved and integrated into the LLMs context. Yet, existing RAG pipelines rely on raw, unstructured medical text, which can be noisy, uncurated and difficult for LLMs to effectively leverage. Systematic approaches to organize medical knowledge to best surface it to LLMs are generally lacking. To address these challenges, we introduce MIRIAD, a large-scale, curated corpus of 5,821,948 medical QA pairs, each rephrased from and grounded in a passage from peer-reviewed medical literature using a semi-automated pipeline combining LLM generation, filtering, grounding, and human annotation. Unlike prior medical corpora, which rely on unstructured text, MIRIAD encapsulates web-scale medical knowledge in an operationalized query-response format, which enables more targeted retrieval. Experiments on challenging medical QA benchmarks show that augmenting LLMs with MIRIAD improves accuracy up to 6.7% compared to unstructured RAG baselines with the same source corpus and with the same amount of retrieved text. Moreover, MIRIAD improved the ability of LLMs to detect medical hallucinations by 22.5 to 37% (increase in F1 score). We further introduce MIRIAD-Atlas, an interactive map of MIRIAD spanning 56 medical disciplines, enabling clinical users to visually explore, search, and refine medical knowledge. MIRIAD promises to unlock a wealth of down-stream applications, including medical information retrievers, enhanced RAG applications, and knowledge-grounded chat interfaces, which ultimately enables more reliable LLM applications in healthcare.",
+      "url": "https://arxiv.org/abs/2506.06091",
+      "published_date": "2025-06-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "medical",
+        "llms",
+        "miriad",
+        "knowledge",
+        "medical knowledge",
+        "rag",
+        "text",
+        "unstructured",
+        "applications",
+        "augmenting"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial problem in applying LLMs to healthcare: the accuracy of medical information. The creation of a large, curated QA dataset (MIRIAD) specifically designed for medical applications is a strong contribution. The semi-automated pipeline combining LLM generation with human annotation appears rigorous, and the focus on grounding in peer-reviewed literature is commendable. The potential for improving LLM performance in medical contexts is significant, suggesting a positive reception within the research community.",
+      "paper_id": "077c52118826d7e2a83358e215e3e0ba"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-06-09T09:30:26.283497"
 }
