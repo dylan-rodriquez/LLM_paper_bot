@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### How Brittle is Agent Safety? Rethinking Agent Risk under Intent Concealment and Task Complexity
+
+**Score:** 92.0 | **Published:** 2025-11-12 | **Authors:** Zihan Ma, Dongsheng Zhu, Shudong Liu, Taolin Zhang, Junnan Liu, Qingqiu Li, Minnan Luo, Songyang Zhang, Kai Chen
+
+arXiv:2511.08487v1 Announce Type: cross 
+Abstract: Current safety evaluations for LLM-driven agents primarily focus on atomic harms, failing to address sophisticated threats where malicious intent is ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.08487) | [📝 Analysis](19f66fba7c0ab6cd7b733084c9d1d8b5.md)
+
+---
+
+### AlignSurvey: A Comprehensive Benchmark for Human Preferences Alignment in Social Surveys
+
+**Score:** 90.0 | **Published:** 2025-11-12 | **Authors:** Chenxi Lin, Weikang Yuan, Zhuoren Jiang, Biao Huang, Ruitao Zhang, Jianan Ge, Yueqian Xu, Jianxing Yu
+
+arXiv:2511.07871v1 Announce Type: new 
+Abstract: Understanding human attitudes, preferences, and behaviors through social surveys is essential for academic research and policymaking. Yet traditional s...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07871) | [📝 Analysis](5dfb53d109c7e6a2da9ab0ca19b690ad.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-12 09:30:51 UTC*

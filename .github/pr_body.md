@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.2/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,38 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Alignment (2 new papers)
+- **How Brittle is Agent Safety? Rethinking Agent Risk under Intent Concealment and Task Complexity** (Score: 92.0)
+  - This paper tackles a crucial and often overlooked aspect of LLM agent safety – the impact of intent concealment and task complexity. The introduction of OASIS, a dedicated benchmark and simulation environment, is a strong methodological contribution. The identified 'Complexity Paradox' is a particularly insightful finding, suggesting current safety evaluations may be misleading. The work is well-scoped and addresses a timely problem in the field.
+- **AlignSurvey: A Comprehensive Benchmark for Human Preferences Alignment in Social Surveys** (Score: 90.0)
+  - This paper addresses a crucial problem in social science research – the limitations of traditional surveys – and proposes a novel benchmark for evaluating LLMs in replicating the entire survey process. The systematic approach, defining four key tasks and associated metrics, is a strong methodological contribution. While LLMs are being used for survey response simulation, this work goes further by tackling the full pipeline, which is significant. The focus on mitigating bias and ensuring cross-cultural equivalence is also commendable.
+
+## Training (3 new papers)
+- **NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation** (Score: 92.0)
+  - This paper addresses a highly significant problem – the accurate interpretation of NOTAMs for aviation safety – which is currently a bottleneck. The proposed 'NOTAM-Evolve' framework, leveraging LLMs with knowledge grounding and a closed-loop learning process, appears well-reasoned and potentially effective. While LLM applications are becoming common, the specific focus on NOTAM interpretation and the self-evolving aspect demonstrate a solid approach. The combination of dynamic knowledge grounding and schema-based inference is a strong methodological choice.
+- **The Polite Liar: Epistemic Pathology in Language Models** (Score: 92.0)
+  - This paper tackles a crucial issue in LLM development – the tendency to confidently state falsehoods – and frames it in a novel and insightful way using philosophical concepts like Frankfurt's 'bullshit' and epistemic virtue theory. The connection to RLHF as a root cause is a strong argument. While the philosophical framing is interesting, the paper's strength lies in its diagnosis of a significant problem and its potential to influence alignment strategies.
+- **SpeechJudge: Towards Human-Level Judgment for Speech Naturalness** (Score: 90.0)
+  - This paper addresses a crucial bottleneck in speech synthesis – the lack of high-quality human preference data for naturalness. The creation of a 99K speech pair dataset (SpeechJudge-Data) and a corresponding benchmark (SpeechJudge-Eval) is a significant contribution. While the approach of collecting human feedback isn't entirely novel, the scale and focus on naturalness, combined with the use of diverse TTS models, make this work highly valuable and likely to be well-received.
+
+## Applications (1 new papers)
+- **LLM Output Drift: Cross-Provider Validation & Mitigation for Financial Workflows** (Score: 92.0)
+  - This paper addresses a critical issue in LLM deployment – output drift – particularly within the highly regulated financial sector. The finding that smaller models can achieve higher consistency than larger ones is counterintuitive and significant. The development of a finance-calibrated deterministic test harness is a strong methodological contribution, and the use of statistical tests strengthens the validity of the results. The clear focus on practical application and the relevance to auditability and trust are highly commendable.
+
+## Evaluation (1 new papers)
+- **ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents** (Score: 90.0)
+  - This paper addresses a crucial bottleneck in the development of Deep Research agents – reliable evaluation. The creation of a large-scale, human-annotated benchmark (ResearchRubrics) with detailed rubrics is a significant contribution. The proposed complexity framework adds further value, and the focus on both human and model-based evaluation protocols demonstrates a practical approach. The high sentiment score reflects the current research community's need for better DR evaluation methods.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
-
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
-
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+- **SALT: Steering Activations towards Leakage-free Thinking in Chain of Thought** (Score: 92.0)
+  - This paper addresses a very important and timely problem – privacy leakage in LLMs’ reasoning processes. The proposed SALT method appears to be a practical, test-time intervention, which is a significant advantage. While the core idea of steering activations isn't entirely novel, applying it specifically to mitigate leakage in CoT and identifying leakage-prone layers demonstrates a solid contribution. The potential for real-world impact is high, given the increasing deployment of LLMs as personal assistants.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Alignment** (2), **Training** (3), **Applications** (1), **Evaluation** (1), **Reasoning** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

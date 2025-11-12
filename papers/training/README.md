@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation
+
+**Score:** 92.0 | **Published:** 2025-11-12 | **Authors:** Maoqi Liu, Quan Fang, Yuhao Wu, Can Zhao, Yang Yang, Kaiquan Cai
+
+arXiv:2511.07982v1 Announce Type: new 
+Abstract: Accurate interpretation of Notices to Airmen (NOTAMs) is critical for aviation safety, yet their condensed and cryptic language poses significant chall...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07982) | [📝 Analysis](831b8b3792d754f50a23f1df6b3574c1.md)
+
+---
+
+### The Polite Liar: Epistemic Pathology in Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-12 | **Authors:** Bentley DeVilling (Course Correct Labs)
+
+arXiv:2511.07477v1 Announce Type: cross 
+Abstract: Large language models exhibit a peculiar epistemic pathology: they speak as if they know, even when they do not. This paper argues that such confiden...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07477) | [📝 Analysis](5fc005f975e19f38490704c420009422.md)
+
+---
+
+### SpeechJudge: Towards Human-Level Judgment for Speech Naturalness
+
+**Score:** 90.0 | **Published:** 2025-11-12 | **Authors:** Xueyao Zhang, Chaoren Wang, Huan Liao, Ziniu Li, Yuancheng Wang, Li Wang, Dongya Jia, Yuanzhe Chen, Xiulin Li, Zhuo Chen, Zhizheng Wu
+
+arXiv:2511.07931v1 Announce Type: cross 
+Abstract: Aligning large generative models with human feedback is a critical challenge. In speech synthesis, this is particularly pronounced due to the lack of...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07931) | [📝 Analysis](18b3b1cc350e4ef2dc2f98cb1a2956a9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-12 09:30:51 UTC*
