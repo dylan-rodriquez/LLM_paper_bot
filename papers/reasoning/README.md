@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### SALT: Steering Activations towards Leakage-free Thinking in Chain of Thought
+
+**Score:** 92.0 | **Published:** 2025-11-12 | **Authors:** Shourya Batra, Pierce Tillman, Samarth Gaggar, Shashank Kesineni, Kevin Zhu, Sunishchal Dev, Ashwinee Panda, Vasu Sharma, Maheep Chaudhary
+
+arXiv:2511.07772v1 Announce Type: cross 
+Abstract: As Large Language Models (LLMs) evolve into personal assistants with access to sensitive user data, they face a critical privacy challenge: while pri...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07772) | [📝 Analysis](915c7626642f3159e0d3d6f47b05df7a.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-12 09:30:51 UTC*

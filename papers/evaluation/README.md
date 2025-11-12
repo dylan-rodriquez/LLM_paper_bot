@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents
+
+**Score:** 90.0 | **Published:** 2025-11-12 | **Authors:** Manasi Sharma, Chen Bo Calvin Zhang, Chaithanya Bandi, Clinton Wang, Ankit Aich, Huy Nghiem, Tahseen Rabbani, Ye Htet, Brian Jang, Sumana Basu, Aishwarya Balwani, Denis Peskoff, Marcos Ayestaran, Sean M. Hendryx, Brad Kenstler, Bing Liu
+
+arXiv:2511.07685v1 Announce Type: cross 
+Abstract: Deep Research (DR) is an emerging agent application that leverages large language models (LLMs) to address open-ended queries. It requires the integr...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07685) | [📝 Analysis](e1a3349be3bafab5ca684b700115bf78.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-12 09:30:51 UTC*

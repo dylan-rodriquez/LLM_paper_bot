@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "How Brittle is Agent Safety? Rethinking Agent Risk under Intent Concealment and Task Complexity",
+      "authors": [
+        "Zihan Ma, Dongsheng Zhu, Shudong Liu, Taolin Zhang, Junnan Liu, Qingqiu Li, Minnan Luo, Songyang Zhang, Kai Chen"
+      ],
+      "abstract": "arXiv:2511.08487v1 Announce Type: cross \nAbstract: Current safety evaluations for LLM-driven agents primarily focus on atomic harms, failing to address sophisticated threats where malicious intent is concealed or diluted within complex tasks. We address this gap with a two-dimensional analysis of agent safety brittleness under the orthogonal pressures of intent concealment and task complexity. To enable this, we introduce OASIS (Orthogonal Agent Safety Inquiry Suite), a hierarchical benchmark with fine-grained annotations and a high-fidelity simulation sandbox. Our findings reveal two critical phenomena: safety alignment degrades sharply and predictably as intent becomes obscured, and a \"Complexity Paradox\" emerges, where agents seem safer on harder tasks only due to capability limitations. By releasing OASIS and its simulation environment, we provide a principled foundation for probing and strengthening agent safety in these overlooked dimensions.",
+      "url": "https://arxiv.org/abs/2511.08487",
+      "published_date": "2025-11-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.MA"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "agent",
+        "agent safety",
+        "intent",
+        "complexity",
+        "address",
+        "agents",
+        "concealment",
+        "concealment task",
+        "intent concealment"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and often overlooked aspect of LLM agent safety \u2013 the impact of intent concealment and task complexity. The introduction of OASIS, a dedicated benchmark and simulation environment, is a strong methodological contribution. The identified 'Complexity Paradox' is a particularly insightful finding, suggesting current safety evaluations may be misleading. The work is well-scoped and addresses a timely problem in the field.",
+      "paper_id": "19f66fba7c0ab6cd7b733084c9d1d8b5"
+    },
+    {
+      "title": "AlignSurvey: A Comprehensive Benchmark for Human Preferences Alignment in Social Surveys",
+      "authors": [
+        "Chenxi Lin, Weikang Yuan, Zhuoren Jiang, Biao Huang, Ruitao Zhang, Jianan Ge, Yueqian Xu, Jianxing Yu"
+      ],
+      "abstract": "arXiv:2511.07871v1 Announce Type: new \nAbstract: Understanding human attitudes, preferences, and behaviors through social surveys is essential for academic research and policymaking. Yet traditional surveys face persistent challenges, including fixed-question formats, high costs, limited adaptability, and difficulties ensuring cross-cultural equivalence. While recent studies explore large language models (LLMs) to simulate survey responses, most are limited to structured questions, overlook the entire survey process, and risks under-representing marginalized groups due to training data biases. We introduce AlignSurvey, the first benchmark that systematically replicates and evaluates the full social survey pipeline using LLMs. It defines four tasks aligned with key survey stages: social role modeling, semi-structured interview modeling, attitude stance modeling and survey response modeling. It also provides task-specific evaluation metrics to assess alignment fidelity, consistency, and fairness at both individual and group levels, with a focus on demographic diversity. To support AlignSurvey, we construct a multi-tiered dataset architecture: (i) the Social Foundation Corpus, a cross-national resource with 44K+ interview dialogues and 400K+ structured survey records; and (ii) a suite of Entire-Pipeline Survey Datasets, including the expert-annotated AlignSurvey-Expert (ASE) and two nationally representative surveys for cross-cultural evaluation. We release the SurveyLM family, obtained through two-stage fine-tuning of open-source LLMs, and offer reference models for evaluating domain-specific alignment. All datasets, models, and tools are available at github and huggingface to support transparent and socially responsible research.",
+      "url": "https://arxiv.org/abs/2511.07871",
+      "published_date": "2025-11-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "survey",
+        "social",
+        "alignsurvey",
+        "modeling",
+        "surveys",
+        "alignment",
+        "cross",
+        "llms",
+        "models",
+        "structured"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial problem in social science research \u2013 the limitations of traditional surveys \u2013 and proposes a novel benchmark for evaluating LLMs in replicating the entire survey process. The systematic approach, defining four key tasks and associated metrics, is a strong methodological contribution. While LLMs are being used for survey response simulation, this work goes further by tackling the full pipeline, which is significant. The focus on mitigating bias and ensuring cross-cultural equivalence is also commendable.",
+      "paper_id": "5dfb53d109c7e6a2da9ab0ca19b690ad"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-12T09:30:51.456149"
 }

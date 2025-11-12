@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "NOTAM-Evolve: A Knowledge-Guided Self-Evolving Optimization Framework with LLMs for NOTAM Interpretation",
+      "authors": [
+        "Maoqi Liu, Quan Fang, Yuhao Wu, Can Zhao, Yang Yang, Kaiquan Cai"
+      ],
+      "abstract": "arXiv:2511.07982v1 Announce Type: new \nAbstract: Accurate interpretation of Notices to Airmen (NOTAMs) is critical for aviation safety, yet their condensed and cryptic language poses significant challenges to both manual and automated processing. Existing automated systems are typically limited to shallow parsing, failing to extract the actionable intelligence needed for operational decisions. We formalize the complete interpretation task as deep parsing, a dual-reasoning challenge requiring both dynamic knowledge grounding (linking the NOTAM to evolving real-world aeronautical data) and schema-based inference (applying static domain rules to deduce operational status). To tackle this challenge, we propose NOTAM-Evolve, a self-evolving framework that enables a large language model (LLM) to autonomously master complex NOTAM interpretation. Leveraging a knowledge graph-enhanced retrieval module for data grounding, the framework introduces a closed-loop learning process where the LLM progressively improves from its own outputs, minimizing the need for extensive human-annotated reasoning traces. In conjunction with this framework, we introduce a new benchmark dataset of 10,000 expert-annotated NOTAMs. Our experiments demonstrate that NOTAM-Evolve achieves a 30.4% absolute accuracy improvement over the base LLM, establishing a new state of the art on the task of structured NOTAM interpretation.",
+      "url": "https://arxiv.org/abs/2511.07982",
+      "published_date": "2025-11-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "notam",
+        "interpretation",
+        "framework",
+        "evolve",
+        "evolving",
+        "knowledge",
+        "llm",
+        "new",
+        "notam evolve",
+        "notam interpretation"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 the accurate interpretation of NOTAMs for aviation safety \u2013 which is currently a bottleneck. The proposed 'NOTAM-Evolve' framework, leveraging LLMs with knowledge grounding and a closed-loop learning process, appears well-reasoned and potentially effective. While LLM applications are becoming common, the specific focus on NOTAM interpretation and the self-evolving aspect demonstrate a solid approach. The combination of dynamic knowledge grounding and schema-based inference is a strong methodological choice.",
+      "paper_id": "831b8b3792d754f50a23f1df6b3574c1"
+    },
+    {
+      "title": "The Polite Liar: Epistemic Pathology in Language Models",
+      "authors": [
+        "Bentley DeVilling (Course Correct Labs)"
+      ],
+      "abstract": "arXiv:2511.07477v1 Announce Type: cross \nAbstract: Large language models exhibit a peculiar epistemic pathology: they speak as if they know, even when they do not. This paper argues that such confident fabrication, what I call the polite liar, is a structural consequence of reinforcement learning from human feedback (RLHF). Building on Frankfurt's analysis of bullshit as communicative indifference to truth, I show that this pathology is not deception but structural indifference: a reward architecture that optimizes for perceived sincerity over evidential accuracy. Current alignment methods reward models for being helpful, harmless, and polite, but not for being epistemically grounded. As a result, systems learn to maximize user satisfaction rather than truth, performing conversational fluency as a virtue. I analyze this behavior through the lenses of epistemic virtue theory, speech-act philosophy, and cognitive alignment, showing that RLHF produces agents trained to mimic epistemic confidence without access to epistemic justification. The polite liar thus reveals a deeper alignment tension between linguistic cooperation and epistemic integrity. The paper concludes with an \"epistemic alignment\" principle: reward justified confidence over perceived fluency.",
+      "url": "https://arxiv.org/abs/2511.07477",
+      "published_date": "2025-11-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "epistemic",
+        "alignment",
+        "polite",
+        "liar",
+        "models",
+        "pathology",
+        "polite liar",
+        "reward",
+        "confidence",
+        "epistemic pathology"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in LLM development \u2013 the tendency to confidently state falsehoods \u2013 and frames it in a novel and insightful way using philosophical concepts like Frankfurt's 'bullshit' and epistemic virtue theory. The connection to RLHF as a root cause is a strong argument. While the philosophical framing is interesting, the paper's strength lies in its diagnosis of a significant problem and its potential to influence alignment strategies.",
+      "paper_id": "5fc005f975e19f38490704c420009422"
+    },
+    {
+      "title": "SpeechJudge: Towards Human-Level Judgment for Speech Naturalness",
+      "authors": [
+        "Xueyao Zhang, Chaoren Wang, Huan Liao, Ziniu Li, Yuancheng Wang, Li Wang, Dongya Jia, Yuanzhe Chen, Xiulin Li, Zhuo Chen, Zhizheng Wu"
+      ],
+      "abstract": "arXiv:2511.07931v1 Announce Type: cross \nAbstract: Aligning large generative models with human feedback is a critical challenge. In speech synthesis, this is particularly pronounced due to the lack of a large-scale human preference dataset, which hinders the development of models that truly align with human perception. To address this, we introduce SpeechJudge, a comprehensive suite comprising a dataset, a benchmark, and a reward model centered on naturalness--one of the most fundamental subjective metrics for speech synthesis. First, we present SpeechJudge-Data, a large-scale human feedback corpus of 99K speech pairs. The dataset is constructed using a diverse set of advanced zero-shot text-to-speech (TTS) models across diverse speech styles and multiple languages, with human annotations for both intelligibility and naturalness preference. From this, we establish SpeechJudge-Eval, a challenging benchmark for speech naturalness judgment. Our evaluation reveals that existing metrics and AudioLLMs struggle with this task; the leading model, Gemini-2.5-Flash, achieves less than 70% agreement with human judgment, highlighting a significant gap for improvement. To bridge this gap, we develop SpeechJudge-GRM, a generative reward model (GRM) based on Qwen2.5-Omni-7B. It is trained on SpeechJudge-Data via a two-stage post-training process: Supervised Fine-Tuning (SFT) with Chain-of-Thought rationales followed by Reinforcement Learning (RL) with GRPO on challenging cases. On the SpeechJudge-Eval benchmark, the proposed SpeechJudge-GRM demonstrates superior performance, achieving 77.2% accuracy (and 79.4% after inference-time scaling @10) compared to a classic Bradley-Terry reward model (72.7%). Furthermore, SpeechJudge-GRM can be also employed as a reward function during the post-training of speech generation models to facilitate their alignment with human preferences.",
+      "url": "https://arxiv.org/abs/2511.07931",
+      "published_date": "2025-11-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "speechjudge",
+        "human",
+        "speech",
+        "grm",
+        "model",
+        "models",
+        "naturalness",
+        "reward",
+        "benchmark",
+        "dataset"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in speech synthesis \u2013 the lack of high-quality human preference data for naturalness. The creation of a 99K speech pair dataset (SpeechJudge-Data) and a corresponding benchmark (SpeechJudge-Eval) is a significant contribution. While the approach of collecting human feedback isn't entirely novel, the scale and focus on naturalness, combined with the use of diverse TTS models, make this work highly valuable and likely to be well-received.",
+      "paper_id": "18b3b1cc350e4ef2dc2f98cb1a2956a9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-12T09:30:51.457709"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### LLM Output Drift: Cross-Provider Validation & Mitigation for Financial Workflows
+
+**Score:** 92.0 | **Published:** 2025-11-12 | **Authors:** Raffi Khatchadourian, Rolando Franco
+
+arXiv:2511.07585v1 Announce Type: cross 
+Abstract: Financial institutions deploy Large Language Models (LLMs) for reconciliations, regulatory reporting, and client communications, but nondeterministic...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07585) | [📝 Analysis](5027c5eea4349cbcd1fef9807063d42b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-12 09:30:51 UTC*
