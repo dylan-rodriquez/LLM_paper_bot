@@ -2,7 +2,51 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (17 total)
+
+### Knowledge Graph Analysis of Legal Understanding and Violations in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-13 | **Authors:** Abha Jha, Abel Salinas, Fred Morstatter
+
+arXiv:2511.08593v1 Announce Type: new 
+Abstract: The rise of Large Language Models (LLMs) offers transformative potential for interpreting complex legal frameworks, such as Title 18 Section 175 of the...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.08593) | [📝 Analysis](140706dcf398bee6f4c98c10f78c2dd4.md)
+
+---
+
+### HalluClean: A Unified Framework to Combat Hallucinations in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-13 | **Authors:** Yaxin Zhao, Yu Zhang
+
+arXiv:2511.08916v1 Announce Type: new 
+Abstract: Large language models (LLMs) have achieved impressive performance across a wide range of natural language processing tasks, yet they often produce hall...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.08916) | [📝 Analysis](56380474562b9982fd1d9c640129e9dd.md)
+
+---
+
+### A Neurosymbolic Approach to Natural Language Formalization and Verification
+
+**Score:** 92.0 | **Published:** 2025-11-13 | **Authors:** Sam Bayless, Stefano Buliani, Darion Cassel, Byron Cook, Duncan Clough, R\'emi Delmas, Nafi Diallo, Ferhat Erata, Nick Feng, Dimitra Giannakopoulou, Aman Goel, Aditya Gokhale, Joe Hendrix, Marc Hudak, Dejan Jovanovi\'c, Andrew M. Kent, Benjamin Kiesl-Reiter, Jeffrey J. Kuna, Nadia Labai, Joseph Lilien, Divya Raghunathan, Zvonimir Rakamari\'c, Niloofar Razavi, Michael Tautschnig, Ali Torkamani, Nathaniel Weir, Michael W. Whalen, Jianan Yao
+
+arXiv:2511.09008v1 Announce Type: new 
+Abstract: Large Language Models perform well at natural language interpretation and reasoning, but their inherent stochasticity limits their adoption in regulate...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.09008) | [📝 Analysis](3028dd7380a8c54a1f21d411fe6edcf1.md)
+
+---
+
+### Solving a Million-Step LLM Task with Zero Errors
+
+**Score:** 92.0 | **Published:** 2025-11-13 | **Authors:** Elliot Meyerson, Giuseppe Paolo, Roberto Dailey, Hormoz Shahrzad, Olivier Francon, Conor F. Hayes, Xin Qiu, Babak Hodjat, Risto Miikkulainen
+
+arXiv:2511.09030v1 Announce Type: cross 
+Abstract: LLMs have achieved remarkable breakthroughs in reasoning, insights, and tool use, but chaining these abilities into extended processes at the scale o...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.09030) | [📝 Analysis](ba297fe585a3d25f12cd8517285a1503.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +192,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-13 09:31:01 UTC*
