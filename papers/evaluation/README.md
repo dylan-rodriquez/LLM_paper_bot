@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Detecting Emotional Dynamic Trajectories: An Evaluation Framework for Emotional Support in Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-13 | **Authors:** Zhouxing Tan, Ruochong Xiong, Yulong Wan, Jinlong Ma, Hanlin Xue, Qichun Deng, Haifeng Jing, Zhengtong Zhang, Depei Liu, Shiyuan Luo, Junfei Liu
+
+arXiv:2511.09003v1 Announce Type: new 
+Abstract: Emotional support is a core capability in human-AI interaction, with applications including psychological counseling, role play, and companionship. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.09003) | [📝 Analysis](d63821a106e8d1372aeeaa0ae16ad636.md)
+
+---
+
+### OKBench: Democratizing LLM Evaluation with Fully Automated, On-Demand, Open Knowledge Benchmarking
+
+**Score:** 90.0 | **Published:** 2025-11-13 | **Authors:** Yanhong Li, Tianyang Xu, Kenan Tang, Karen Livescu, David McAllester, Jiawei Zhou
+
+arXiv:2511.08598v1 Announce Type: new 
+Abstract: Knowledge-intensive question answering is central to large language models (LLMs) and is typically assessed using static benchmarks derived from source...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.08598) | [📝 Analysis](0b7cf3b92d57d1a446d9931d214fed89.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-13 09:31:01 UTC*

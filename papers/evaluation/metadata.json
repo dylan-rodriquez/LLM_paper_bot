@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Detecting Emotional Dynamic Trajectories: An Evaluation Framework for Emotional Support in Language Models",
+      "authors": [
+        "Zhouxing Tan, Ruochong Xiong, Yulong Wan, Jinlong Ma, Hanlin Xue, Qichun Deng, Haifeng Jing, Zhengtong Zhang, Depei Liu, Shiyuan Luo, Junfei Liu"
+      ],
+      "abstract": "arXiv:2511.09003v1 Announce Type: new \nAbstract: Emotional support is a core capability in human-AI interaction, with applications including psychological counseling, role play, and companionship. However, existing evaluations of large language models (LLMs) often rely on short, static dialogues and fail to capture the dynamic and long-term nature of emotional support. To overcome this limitation, we shift from snapshot-based evaluation to trajectory-based assessment, adopting a user-centered perspective that evaluates models based on their ability to improve and stabilize user emotional states over time. Our framework constructs a large-scale benchmark consisting of 328 emotional contexts and 1,152 disturbance events, simulating realistic emotional shifts under evolving dialogue scenarios. To encourage psychologically grounded responses, we constrain model outputs using validated emotion regulation strategies such as situation selection and cognitive reappraisal. User emotional trajectories are modeled as a first-order Markov process, and we apply causally-adjusted emotion estimation to obtain unbiased emotional state tracking. Based on this framework, we introduce three trajectory-level metrics: Baseline Emotional Level (BEL), Emotional Trajectory Volatility (ETV), and Emotional Centroid Position (ECP). These metrics collectively capture user emotional dynamics over time and support comprehensive evaluation of long-term emotional support performance of LLMs. Extensive evaluations across a diverse set of LLMs reveal significant disparities in emotional support capabilities and provide actionable insights for model development.",
+      "url": "https://arxiv.org/abs/2511.09003",
+      "published_date": "2025-11-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "emotional",
+        "support",
+        "emotional support",
+        "based",
+        "user",
+        "evaluation",
+        "framework",
+        "llms",
+        "models",
+        "trajectory"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the dynamic nature of emotional support. Shifting from static snapshots to trajectory-based assessment is a significant methodological improvement, and the use of psychologically grounded emotion regulation strategies adds rigor. The large-scale benchmark described is a valuable contribution, and the focus on user-centered evaluation is commendable. The work appears well-aligned with current trends in responsible AI and human-AI interaction.",
+      "paper_id": "d63821a106e8d1372aeeaa0ae16ad636"
+    },
+    {
+      "title": "OKBench: Democratizing LLM Evaluation with Fully Automated, On-Demand, Open Knowledge Benchmarking",
+      "authors": [
+        "Yanhong Li, Tianyang Xu, Kenan Tang, Karen Livescu, David McAllester, Jiawei Zhou"
+      ],
+      "abstract": "arXiv:2511.08598v1 Announce Type: new \nAbstract: Knowledge-intensive question answering is central to large language models (LLMs) and is typically assessed using static benchmarks derived from sources like Wikipedia and textbooks. However, these benchmarks fail to capture evolving knowledge in a dynamic world, and centralized curation struggles to keep pace with rapid LLM advancements. To address these drawbacks, we propose Open Knowledge Bench (OKBench), a fully automated framework for generating high-quality, dynamic knowledge benchmarks on demand. Focusing on the news domain where knowledge updates daily, OKBench is an agentic framework that automates the sourcing, creation, validation, and distribution of benchmarks. Our approach democratizes benchmark creation and facilitates thorough evaluation of retrieval-augmented methods by reducing overlap with pretraining data. We evaluate our framework on a wide range open-source and proprietary LLMs of various sizes and configurations, both with and without retrieval over freshly generated knowledge. Our results reveal distinct model behaviors when confronted with new information and highlight how retrieval narrows the performance gap between small and large models. These findings underscore the importance of evaluating LLMs on evolving knowledge benchmarks.",
+      "url": "https://arxiv.org/abs/2511.08598",
+      "published_date": "2025-11-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "knowledge",
+        "benchmarks",
+        "framework",
+        "llms",
+        "okbench",
+        "open",
+        "retrieval",
+        "automated",
+        "creation",
+        "demand"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM evaluation \u2013 the stagnation of benchmarks in a rapidly evolving field. The proposed OKBench framework, with its automated and dynamic approach, is a significant step towards more reliable and up-to-date assessments. The focus on news, a highly dynamic domain, is particularly insightful, and the agentic approach to benchmark creation is a novel element. The high sentiment score reflects the current research community's need for better evaluation methods.",
+      "paper_id": "0b7cf3b92d57d1a446d9931d214fed89"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-13T09:31:01.693835"
 }
