@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages",
+      "authors": [
+        "Omnilingual ASR team, Gil Keren, Artyom Kozhevnikov, Yen Meng, Christophe Ropers, Matthew Setzler, Skyler Wang, Ife Adebara, Michael Auli, Can Balioglu, Kevin Chan, Chierh Cheng, Joe Chuang, Caley Droof, Mark Duppenthaler, Paul-Ambroise Duquenne, Alexander Erben, Cynthia Gao, Gabriel Mejia Gonzalez, Kehan Lyu, Sagar Miglani, Vineel Pratap, Kaushik Ram Sadagopan, Safiyyah Saleem, Arina Turkatenko, Albert Ventayol-Boada, Zheng-Xin Yong, Yu-An Chung, Jean Maillard, Rashel Moritz, Alexandre Mourachko, Mary Williamson, Shireen Yates"
+      ],
+      "abstract": "arXiv:2511.09690v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) has advanced in high-resource languages, but most of the world's 7,000+ languages remain unsupported, leaving thousands of long-tail languages behind. Expanding ASR coverage has been costly and limited by architectures that restrict language support, making extension inaccessible to most--all while entangled with ethical concerns when pursued without community collaboration. To transcend these limitations, we introduce Omnilingual ASR, the first large-scale ASR system designed for extensibility. Omnilingual ASR enables communities to introduce unserved languages with only a handful of data samples. It scales self-supervised pre-training to 7B parameters to learn robust speech representations and introduces an encoder-decoder architecture designed for zero-shot generalization, leveraging a LLM-inspired decoder. This capability is grounded in a massive and diverse training corpus; by combining breadth of coverage with linguistic variety, the model learns representations robust enough to adapt to unseen languages. Incorporating public resources with community-sourced recordings gathered through compensated local partnerships, Omnilingual ASR expands coverage to over 1,600 languages, the largest such effort to date--including over 500 never before served by ASR. Automatic evaluations show substantial gains over prior systems, especially in low-resource conditions, and strong generalization. We release Omnilingual ASR as a family of models, from 300M variants for low-power devices to 7B for maximum accuracy. We reflect on the ethical considerations shaping this design and conclude by discussing its societal impact. In particular, we highlight how open-sourcing models and tools can lower barriers for researchers and communities, inviting new forms of participation. Open-source artifacts are available at https://github.com/facebookresearch/omnilingual-asr.",
+      "url": "https://arxiv.org/abs/2511.09690",
+      "published_date": "2025-11-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "asr",
+        "languages",
+        "omnilingual",
+        "omnilingual asr",
+        "coverage",
+        "open",
+        "speech",
+        "7b",
+        "automatic",
+        "communities"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a hugely significant problem \u2013 the lack of ASR support for the vast majority of the world\u2019s languages. The approach of scaling self-supervised pre-training to 7B parameters and using an LLM-inspired decoder for zero-shot generalization appears promising and well-motivated. The emphasis on community collaboration and extensibility is also a strong positive, suggesting a responsible and impactful research direction.",
+      "paper_id": "1df477ee2d6dbfa1c8c6b5108c3e1199"
+    },
+    {
+      "title": "Enhanced Suicidal Ideation Detection from Social Media Using a CNN-BiLSTM Hybrid Model",
+      "authors": [
+        "Mohaiminul Islam Bhuiyan, Nur Shazwani Kamarudin, Nur Hafieza Ismail"
+      ],
+      "abstract": "arXiv:2501.11094v2 Announce Type: replace \nAbstract: Suicidal ideation detection is crucial for preventing suicides, a leading cause of death worldwide. Many individuals express suicidal thoughts on social media, offering a vital opportunity for early detection through advanced machine learning techniques. The identification of suicidal ideation in social media text is improved by utilising a hybrid framework that integrates Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM), enhanced with an attention mechanism. To enhance the interpretability of the model's predictions, Explainable AI (XAI) methods are applied, with a particular focus on SHapley Additive exPlanations (SHAP), are incorporated. At first, the model managed to reach an accuracy of 92.81%. By applying fine-tuning and early stopping techniques, the accuracy improved to 94.29%. The SHAP analysis revealed key features influencing the model's predictions, such as terms related to mental health struggles. This level of transparency boosts the model's credibility while helping mental health professionals understand and trust the predictions. This work highlights the potential for improving the accuracy and interpretability of detecting suicidal tendencies, making a valuable contribution to the progress of mental health monitoring systems. It emphasizes the significance of blending powerful machine learning methods with explainability to develop reliable and impactful mental health solutions.",
+      "url": "https://arxiv.org/abs/2501.11094",
+      "published_date": "2025-11-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "model",
+        "suicidal",
+        "health",
+        "mental",
+        "mental health",
+        "accuracy",
+        "detection",
+        "ideation",
+        "media",
+        "predictions"
+      ],
+      "subject_classification": "architectures",
+      "justification": "The research addresses a highly significant problem \u2013 suicidal ideation detection \u2013 with a potentially impactful approach using a CNN-BiLSTM hybrid model. The inclusion of XAI (SHAP) for interpretability is a strong point. While the hybrid model itself isn't entirely novel, the combination with SHAP and the reported accuracy improvements through fine-tuning suggest solid methodology and a promising direction. The abstract is clear and concise, outlining the key aspects of the work.",
+      "paper_id": "9b7eda8cc3a1e87fbd711362c1b07a45"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-11-14T09:29:28.746025"
 }

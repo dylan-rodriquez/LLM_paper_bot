@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages
+
+**Score:** 92.0 | **Published:** 2025-11-14 | **Authors:** Omnilingual ASR team, Gil Keren, Artyom Kozhevnikov, Yen Meng, Christophe Ropers, Matthew Setzler, Skyler Wang, Ife Adebara, Michael Auli, Can Balioglu, Kevin Chan, Chierh Cheng, Joe Chuang, Caley Droof, Mark Duppenthaler, Paul-Ambroise Duquenne, Alexander Erben, Cynthia Gao, Gabriel Mejia Gonzalez, Kehan Lyu, Sagar Miglani, Vineel Pratap, Kaushik Ram Sadagopan, Safiyyah Saleem, Arina Turkatenko, Albert Ventayol-Boada, Zheng-Xin Yong, Yu-An Chung, Jean Maillard, Rashel Moritz, Alexandre Mourachko, Mary Williamson, Shireen Yates
+
+arXiv:2511.09690v1 Announce Type: new 
+Abstract: Automatic speech recognition (ASR) has advanced in high-resource languages, but most of the world's 7,000+ languages remain unsupported, leaving thousa...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.09690) | [📝 Analysis](1df477ee2d6dbfa1c8c6b5108c3e1199.md)
+
+---
+
+### Enhanced Suicidal Ideation Detection from Social Media Using a CNN-BiLSTM Hybrid Model
+
+**Score:** 92.0 | **Published:** 2025-11-14 | **Authors:** Mohaiminul Islam Bhuiyan, Nur Shazwani Kamarudin, Nur Hafieza Ismail
+
+arXiv:2501.11094v2 Announce Type: replace 
+Abstract: Suicidal ideation detection is crucial for preventing suicides, a leading cause of death worldwide. Many individuals express suicidal thoughts on s...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.11094) | [📝 Analysis](9b7eda8cc3a1e87fbd711362c1b07a45.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-14 09:29:28 UTC*
