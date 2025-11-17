@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Reinforcing Stereotypes of Anger: Emotion AI on African American Vernacular English",
+      "authors": [
+        "Rebecca Dorn, Christina Chance, Casandra Rusti, Charles Bickham Jr., Kai-Wei Chang, Fred Morstatter, Kristina Lerman"
+      ],
+      "abstract": "arXiv:2511.10846v1 Announce Type: new \nAbstract: Automated emotion detection is widely used in applications ranging from well-being monitoring to high-stakes domains like mental health and hiring. However, models often rely on annotations that reflect dominant cultural norms, limiting model ability to recognize emotional expression in dialects often excluded from training data distributions, such as African American Vernacular English (AAVE). This study examines emotion recognition model performance on AAVE compared to General American English (GAE). We analyze 2.7 million tweets geo-tagged within Los Angeles. Texts are scored for strength of AAVE using computational approximations of dialect features. Annotations of emotion presence and intensity are collected on a dataset of 875 tweets with both high and low AAVE densities. To assess model accuracy on a task as subjective as emotion perception, we calculate community-informed \"silver\" labels where AAVE-dense tweets are labeled by African American, AAVE-fluent (ingroup) annotators. On our labeled sample, GPT and BERT-based models exhibit false positive prediction rates of anger on AAVE more than double than on GAE. SpanEmo, a popular text-based emotion model, increases false positive rates of anger from 25 percent on GAE to 60 percent on AAVE. Additionally, a series of linear regressions reveals that models and non-ingroup annotations are significantly more correlated with profanity-based AAVE features than ingroup annotations. Linking Census tract demographics, we observe that neighborhoods with higher proportions of African American residents are associated with higher predictions of anger (Pearson's correlation r = 0.27) and lower joy (r = -0.10). These results find an emergent safety issue of emotion AI reinforcing racial stereotypes through biased emotion classification. We emphasize the need for culturally and dialect-informed affective computing systems.",
+      "url": "https://arxiv.org/abs/2511.10846",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "aave",
+        "emotion",
+        "american",
+        "african",
+        "african american",
+        "anger",
+        "annotations",
+        "model",
+        "based",
+        "english"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critically important issue \u2013 bias in emotion AI, specifically concerning underrepresented dialects like AAVE. The use of a large dataset (2.7 million tweets) and community-informed labeling ('silver' labels) strengthens the methodology. While the approach of analyzing AAVE density and correlating it with emotion recognition accuracy isn't entirely novel, the specific focus on AAVE and the scale of the study are valuable. The potential for mitigating harmful biases in real-world applications is substantial.",
+      "paper_id": "f073496edba3367e0b4c68fbb0e58486"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-17T09:33:02.973927"
 }

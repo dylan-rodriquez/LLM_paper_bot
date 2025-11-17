@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "From Efficiency to Adaptivity: A Deeper Look at Adaptive Reasoning in Large Language Models",
+      "authors": [
+        "Chao Wu, Baoheng Li, Mingchen Gao, Zhenyi Wang"
+      ],
+      "abstract": "arXiv:2511.10788v1 Announce Type: cross \nAbstract: Recent advances in large language models (LLMs) have made reasoning a central benchmark for evaluating intelligence. While prior surveys focus on efficiency by examining how to shorten reasoning chains or reduce computation, this view overlooks a fundamental challenge: current LLMs apply uniform reasoning strategies regardless of task complexity, generating long traces for trivial problems while failing to extend reasoning for difficult tasks. This survey reframes reasoning through the lens of {adaptivity}: the capability to allocate reasoning effort based on input characteristics such as difficulty and uncertainty. We make three contributions. First, we formalize deductive, inductive, and abductive reasoning within the LLM context, connecting these classical cognitive paradigms with their algorithmic realizations. Second, we formalize adaptive reasoning as a control-augmented policy optimization problem balancing task performance with computational cost, distinguishing learned policies from inference-time control mechanisms. Third, we propose a systematic taxonomy organizing existing methods into training-based approaches that internalize adaptivity through reinforcement learning, supervised fine-tuning, and learned controllers, and training-free approaches that achieve adaptivity through prompt conditioning, feedback-driven halting, and modular composition. This framework clarifies how different mechanisms realize adaptive reasoning in practice and enables systematic comparison across diverse strategies. We conclude by identifying open challenges in self-evaluation, meta-reasoning, and human-aligned reasoning control.",
+      "url": "https://arxiv.org/abs/2511.10788",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "adaptivity",
+        "adaptive",
+        "adaptive reasoning",
+        "control",
+        "approaches",
+        "based",
+        "efficiency",
+        "formalize",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial limitation of current LLMs \u2013 their inability to adapt reasoning effort to task complexity. Framing reasoning as an adaptive control problem is a strong conceptual shift, and formalizing deductive, inductive, and abductive reasoning within the LLM context provides a valuable foundation. The focus on adaptivity, rather than just efficiency, is highly relevant and likely to resonate with the research community.",
+      "paper_id": "9cef3b89e456b1a3fed564c30566a483"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-17T09:33:02.976847"
 }

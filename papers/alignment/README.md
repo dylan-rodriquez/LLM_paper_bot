@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Reinforcing Stereotypes of Anger: Emotion AI on African American Vernacular English
+
+**Score:** 92.0 | **Published:** 2025-11-17 | **Authors:** Rebecca Dorn, Christina Chance, Casandra Rusti, Charles Bickham Jr., Kai-Wei Chang, Fred Morstatter, Kristina Lerman
+
+arXiv:2511.10846v1 Announce Type: new 
+Abstract: Automated emotion detection is widely used in applications ranging from well-being monitoring to high-stakes domains like mental health and hiring. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.10846) | [📝 Analysis](f073496edba3367e0b4c68fbb0e58486.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-17 09:33:02 UTC*

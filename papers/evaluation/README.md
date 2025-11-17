@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### M-DAIGT: A Shared Task on Multi-Domain Detection of AI-Generated Text
+
+**Score:** 92.0 | **Published:** 2025-11-17 | **Authors:** Salima Lamsiyah, Saad Ezzini, Abdelkader El Mahdaouy, Hamza Alami, Abdessamad Benlahbib, Samir El Amrany, Salmane Chafik, Hicham Hammouchi
+
+arXiv:2511.11340v1 Announce Type: new 
+Abstract: The generation of highly fluent text by Large Language Models (LLMs) poses a significant challenge to information integrity and academic research. In t...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11340) | [📝 Analysis](7faeb482b5b0b0b0a422bffb3222c695.md)
+
+---
+
+### PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning
+
+**Score:** 92.0 | **Published:** 2025-11-17 | **Authors:** Afra Feyza Aky\"urek, Advait Gosai, Chen Bo Calvin Zhang, Vipul Gupta, Jaehwan Jeong, Anisha Gunjal, Tahseen Rabbani, Maria Mazzone, David Randolph, Mohammad Mahmoudi Meymand, Gurshaan Chattha, Paula Rodriguez, Diego Mares, Pavit Singh, Michael Liu, Subodh Chawla, Pete Cline, Lucy Ogaz, Ernesto Hernandez, Zihao Wang, Pavi Bhatter, Marcos Ayestaran, Bing Liu, Yunzhong He
+
+arXiv:2511.11562v1 Announce Type: new 
+Abstract: Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existi...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11562) | [📝 Analysis](4bf8f1bac5202278241d6b4a9775aa7e.md)
+
+---
+
+### MedPath: Multi-Domain Cross-Vocabulary Hierarchical Paths for Biomedical Entity Linking
+
+**Score:** 90.0 | **Published:** 2025-11-17 | **Authors:** Nishant Mishra, Wilker Aziz, Iacer Calixto
+
+arXiv:2511.10887v1 Announce Type: new 
+Abstract: Progress in biomedical Named Entity Recognition (NER) and Entity Linking (EL) is currently hindered by a fragmented data landscape, a lack of resources...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.10887) | [📝 Analysis](fce30981aadedc99fa63ff47e36f7b04.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-17 09:33:02 UTC*
