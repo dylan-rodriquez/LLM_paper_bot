@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Forecasting Spoken Language Development in Children with Cochlear Implants Using Preimplantation MRI
+
+**Score:** 92.0 | **Published:** 2025-11-17 | **Authors:** Yanlin Wang, Di Yuan, Shani Dettman, Dawn Choo, Emily Shimeng Xu, Denise Thomas, Maura E Ryan, Patrick C M Wong, Nancy M Young
+
+arXiv:2511.10669v1 Announce Type: new 
+Abstract: Cochlear implants (CI) significantly improve spoken language in children with severe-to-profound sensorineural hearing loss (SNHL), yet outcomes remain...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.10669) | [📝 Analysis](b0fb12c45b78b043db090ad98892bf38.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-17 09:33:02 UTC*

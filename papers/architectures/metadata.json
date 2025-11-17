@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Forecasting Spoken Language Development in Children with Cochlear Implants Using Preimplantation MRI",
+      "authors": [
+        "Yanlin Wang, Di Yuan, Shani Dettman, Dawn Choo, Emily Shimeng Xu, Denise Thomas, Maura E Ryan, Patrick C M Wong, Nancy M Young"
+      ],
+      "abstract": "arXiv:2511.10669v1 Announce Type: new \nAbstract: Cochlear implants (CI) significantly improve spoken language in children with severe-to-profound sensorineural hearing loss (SNHL), yet outcomes remain more variable than in children with normal hearing. This variability cannot be reliably predicted for individual children using age at implantation or residual hearing. This study aims to compare the accuracy of traditional machine learning (ML) to deep transfer learning (DTL) algorithms to predict post-CI spoken language development of children with bilateral SNHL using a binary classification model of high versus low language improvers. A total of 278 implanted children enrolled from three centers. The accuracy, sensitivity and specificity of prediction models based upon brain neuroanatomic features using traditional ML and DTL learning. DTL prediction models using bilinear attention-based fusion strategy achieved: accuracy of 92.39% (95% CI, 90.70%-94.07%), sensitivity of 91.22% (95% CI, 89.98%-92.47%), specificity of 93.56% (95% CI, 90.91%-96.21%), and area under the curve (AUC) of 0.977 (95% CI, 0.969-0.986). DTL outperformed traditional ML models in all outcome measures. DTL was significantly improved by direct capture of discriminative and task-specific information that are advantages of representation learning enabled by this approach over ML. The results support the feasibility of a single DTL prediction model for language prediction of children served by CI programs worldwide.",
+      "url": "https://arxiv.org/abs/2511.10669",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "children",
+        "ci",
+        "dtl",
+        "language",
+        "using",
+        "95",
+        "95 ci",
+        "learning",
+        "ml",
+        "prediction"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a crucial problem \u2013 predicting language development in children with CIs \u2013 where current methods are limited. The use of preimplantation MRI data and comparison of traditional ML with deep transfer learning is a strong methodological approach, and the reported accuracy (92.39%) is impressive. The high sensitivity and specificity suggest a potentially valuable clinical tool, and the study's focus on a challenging population makes it highly relevant.",
+      "paper_id": "b0fb12c45b78b043db090ad98892bf38"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-11-17T09:33:02.972505"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### From Efficiency to Adaptivity: A Deeper Look at Adaptive Reasoning in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-11-17 | **Authors:** Chao Wu, Baoheng Li, Mingchen Gao, Zhenyi Wang
+
+arXiv:2511.10788v1 Announce Type: cross 
+Abstract: Recent advances in large language models (LLMs) have made reasoning a central benchmark for evaluating intelligence. While prior surveys focus on eff...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.10788) | [📝 Analysis](9cef3b89e456b1a3fed564c30566a483.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-17 09:33:02 UTC*

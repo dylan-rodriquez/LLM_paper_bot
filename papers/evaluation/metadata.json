@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "M-DAIGT: A Shared Task on Multi-Domain Detection of AI-Generated Text",
+      "authors": [
+        "Salima Lamsiyah, Saad Ezzini, Abdelkader El Mahdaouy, Hamza Alami, Abdessamad Benlahbib, Samir El Amrany, Salmane Chafik, Hicham Hammouchi"
+      ],
+      "abstract": "arXiv:2511.11340v1 Announce Type: new \nAbstract: The generation of highly fluent text by Large Language Models (LLMs) poses a significant challenge to information integrity and academic research. In this paper, we introduce the Multi-Domain Detection of AI-Generated Text (M-DAIGT) shared task, which focuses on detecting AI-generated text across multiple domains, particularly in news articles and academic writing. M-DAIGT comprises two binary classification subtasks: News Article Detection (NAD) (Subtask 1) and Academic Writing Detection (AWD) (Subtask 2). To support this task, we developed and released a new large-scale benchmark dataset of 30,000 samples, balanced between human-written and AI-generated texts. The AI-generated content was produced using a variety of modern LLMs (e.g., GPT-4, Claude) and diverse prompting strategies. A total of 46 unique teams registered for the shared task, of which four teams submitted final results. All four teams participated in both Subtask 1 and Subtask 2. We describe the methods employed by these participating teams and briefly discuss future directions for M-DAIGT.",
+      "url": "https://arxiv.org/abs/2511.11340",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "ai generated",
+        "generated",
+        "daigt",
+        "detection",
+        "subtask",
+        "task",
+        "teams",
+        "text",
+        "academic"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the detection of AI-generated text \u2013 with a well-defined shared task and a substantial new dataset. The creation of a large, balanced, multi-domain dataset is a significant contribution. While the task itself isn't fundamentally novel (binary classification of AI-generated text), the scale and focus on multiple domains, along with the use of modern LLMs for generation, elevate its importance and potential impact.",
+      "paper_id": "7faeb482b5b0b0b0a422bffb3222c695"
+    },
+    {
+      "title": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
+      "authors": [
+        "Afra Feyza Aky\\\"urek, Advait Gosai, Chen Bo Calvin Zhang, Vipul Gupta, Jaehwan Jeong, Anisha Gunjal, Tahseen Rabbani, Maria Mazzone, David Randolph, Mohammad Mahmoudi Meymand, Gurshaan Chattha, Paula Rodriguez, Diego Mares, Pavit Singh, Michael Liu, Subodh Chawla, Pete Cline, Lucy Ogaz, Ernesto Hernandez, Zihao Wang, Pavi Bhatter, Marcos Ayestaran, Bing Liu, Yunzhong He"
+      ],
+      "abstract": "arXiv:2511.11562v1 Announce Type: new \nAbstract: Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existing evaluations often fail to assess open-ended, economically consequential tasks in high-stakes domains like Legal and Finance, where practical returns are paramount. To address this, we introduce Professional Reasoning Bench (PRBench), a realistic, open-ended, and difficult benchmark of real-world problems in Finance and Law. We open-source its 1,100 expert-authored tasks and 19,356 expert-curated criteria, making it, to our knowledge, the largest public, rubric-based benchmark for both legal and finance domains. We recruit 182 qualified professionals, holding JDs, CFAs, or 6+ years of experience, who contributed tasks inspired by their actual workflows. This process yields significant diversity, with tasks spanning 114 countries and 47 US jurisdictions. Our expert-curated rubrics are validated through a rigorous quality pipeline, including independent expert validation. Subsequent evaluation of 20 leading models reveals substantial room for improvement, with top scores of only 0.39 (Finance) and 0.37 (Legal) on our Hard subsets. We further catalog associated economic impacts of the prompts and analyze performance using human-annotated rubric categories. Our analysis shows that models with similar overall scores can diverge significantly on specific capabilities. Common failure modes include inaccurate judgments, a lack of process transparency and incomplete reasoning, highlighting critical gaps in their reliability for professional adoption.",
+      "url": "https://arxiv.org/abs/2511.11562",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "expert",
+        "finance",
+        "professional",
+        "tasks",
+        "legal",
+        "open",
+        "reasoning",
+        "benchmark",
+        "curated",
+        "domains"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of realistic, high-stakes professional reasoning benchmarks. The scale of PRBench (1,100 tasks, 19,356 criteria) and the use of qualified professionals for task and rubric creation are significant strengths. While rubric-based evaluation isn't entirely novel, the size and domain specificity represent a substantial advancement, and the diversity of tasks (countries, jurisdictions) is impressive.",
+      "paper_id": "4bf8f1bac5202278241d6b4a9775aa7e"
+    },
+    {
+      "title": "MedPath: Multi-Domain Cross-Vocabulary Hierarchical Paths for Biomedical Entity Linking",
+      "authors": [
+        "Nishant Mishra, Wilker Aziz, Iacer Calixto"
+      ],
+      "abstract": "arXiv:2511.10887v1 Announce Type: new \nAbstract: Progress in biomedical Named Entity Recognition (NER) and Entity Linking (EL) is currently hindered by a fragmented data landscape, a lack of resources for building explainable models, and the limitations of semantically-blind evaluation metrics. To address these challenges, we present MedPath, a large-scale and multi-domain biomedical EL dataset that builds upon nine existing expert-annotated EL datasets. In MedPath, all entities are 1) normalized using the latest version of the Unified Medical Language System (UMLS), 2) augmented with mappings to 62 other biomedical vocabularies and, crucially, 3) enriched with full ontological paths -- i.e., from general to specific -- in up to 11 biomedical vocabularies. MedPath directly enables new research frontiers in biomedical NLP, facilitating training and evaluation of semantic-rich and interpretable EL systems, and the development of the next generation of interoperable and explainable clinical NLP models.",
+      "url": "https://arxiv.org/abs/2511.10887",
+      "published_date": "2025-11-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "biomedical",
+        "el",
+        "medpath",
+        "entity",
+        "biomedical vocabularies",
+        "domain",
+        "entity linking",
+        "evaluation",
+        "explainable",
+        "linking"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in biomedical NLP \u2013 the lack of comprehensive, semantically rich datasets for Entity Linking. The creation of MedPath, with its multi-domain coverage, UMLS normalization, vocabulary mappings, and ontological paths, is a significant contribution. While building upon existing datasets, the enrichment with ontological paths represents a novel approach that should facilitate more interpretable and accurate EL systems. The focus on explainability and interoperability is particularly timely and aligns with current research trends.",
+      "paper_id": "fce30981aadedc99fa63ff47e36f7b04"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-17T09:33:02.974999"
 }
