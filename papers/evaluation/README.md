@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Generative AI as a Linguistic Equalizer in Global Science
+
+**Score:** 92.0 | **Published:** 2025-11-18 | **Authors:** Dragan Filimonovic, Christian Rutzer, Jeffrey Macher, Rolf Weder
+
+arXiv:2511.11687v1 Announce Type: cross 
+Abstract: For decades, the dominance of English has created a substantial barrier in global science, disadvantaging non-native speakers. The recent rise of gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11687) | [📝 Analysis](97b3f3c47b1669b07a3a2a366076d53c.md)
+
+---
+
+### CURE: Cultural Understanding and Reasoning Evaluation - A Framework for "Thick" Culture Alignment Evaluation in LLMs
+
+**Score:** 90.0 | **Published:** 2025-11-18 | **Authors:** Truong Vo, Sanmi Koyejo
+
+arXiv:2511.12014v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limit...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.12014) | [📝 Analysis](04e547af6e239d0adf1af340ec1c796f.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*

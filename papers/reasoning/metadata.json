@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Knots: A Large-Scale Multi-Agent Enhanced Expert-Annotated Dataset and LLM Prompt Optimization for NOTAM Semantic Parsing",
+      "authors": [
+        "Maoqi Liu, Quan Fang, Yang Yang, Can Zhao, Kaiquan Cai"
+      ],
+      "abstract": "arXiv:2511.12630v1 Announce Type: new \nAbstract: Notice to Air Missions (NOTAMs) serve as a critical channel for disseminating key flight safety information, yet their complex linguistic structures and implicit reasoning pose significant challenges for automated parsing. Existing research mainly focuses on surface-level tasks such as classification and named entity recognition, lacking deep semantic understanding. To address this gap, we propose NOTAM semantic parsing, a task emphasizing semantic inference and the integration of aviation domain knowledge to produce structured, inference-rich outputs. To support this task, we construct Knots (Knowledge and NOTAM Semantics), a high-quality dataset of 12,347 expert-annotated NOTAMs covering 194 Flight Information Regions, enhanced through a multi-agent collaborative framework for comprehensive field discovery. We systematically evaluate a wide range of prompt-engineering strategies and model-adaptation techniques, achieving substantial improvements in aviation text understanding and processing. Our experimental results demonstrate the effectiveness of the proposed approach and offer valuable insights for automated NOTAM analysis systems. Our code is available at: https://github.com/Estrellajer/Knots.",
+      "url": "https://arxiv.org/abs/2511.12630",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "notam",
+        "semantic",
+        "knots",
+        "parsing",
+        "agent",
+        "annotated",
+        "automated",
+        "aviation",
+        "dataset",
+        "enhanced"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical safety issue in aviation \u2013 the accurate parsing of NOTAMs \u2013 which has been largely overlooked by the NLP community. The creation of a large, expert-annotated dataset (Knots) is a significant contribution, and the use of a multi-agent framework for annotation is a novel approach. While prompt engineering is a common technique, applying it systematically to this specific domain and demonstrating substantial improvements suggests strong potential. The focus on semantic parsing, rather than simpler tasks, elevates the work's rigor and potential impact.",
+      "paper_id": "2a66d985c217625e9fad45810dbefb62"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-18T09:30:58.439332"
 }

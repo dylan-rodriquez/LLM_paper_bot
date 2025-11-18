@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "CLINB: A Climate Intelligence Benchmark for Foundational Models",
+      "authors": [
+        "Michelle Chen Huebscher, Katharine Mach, Aleksandar Stani\\'c, Markus Leippold, Ben Gaiarin, Zeke Hausfather, Elisa Rawat, Erich Fischer, Massimiliano Ciaramita, Joeri Rogelj, Christian Buck, Lierni Sestorain Saralegui, Reto Knutti"
+      ],
+      "abstract": "arXiv:2511.11597v1 Announce Type: cross \nAbstract: Evaluating how Large Language Models (LLMs) handle complex, specialized knowledge remains a critical challenge. We address this through the lens of climate change by introducing CLINB, a benchmark that assesses models on open-ended, grounded, multimodal question answering tasks with clear requirements for knowledge quality and evidential support. CLINB relies on a dataset of real users' questions and evaluation rubrics curated by leading climate scientists. We implement and validate a model-based evaluation process and evaluate several frontier models. Our findings reveal a critical dichotomy. Frontier models demonstrate remarkable knowledge synthesis capabilities, often exhibiting PhD-level understanding and presentation quality. They outperform \"hybrid\" answers curated by domain experts assisted by weaker models. However, this performance is countered by failures in grounding. The quality of evidence varies, with substantial hallucination rates for references and images. We argue that bridging this gap between knowledge synthesis and verifiable attribution is essential for the deployment of AI in scientific workflows and that reliable, interpretable benchmarks like CLINB are needed to progress towards building trustworthy AI systems.",
+      "url": "https://arxiv.org/abs/2511.11597",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "clinb",
+        "knowledge",
+        "climate",
+        "quality",
+        "ai",
+        "benchmark",
+        "critical",
+        "curated",
+        "evaluation"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 evaluating LLMs' understanding of complex scientific topics like climate change \u2013 and proposes a novel benchmark (CLINB) grounded in real-world questions and expert evaluation. The finding of a dichotomy between knowledge synthesis and grounding is particularly insightful. While not a completely novel approach to benchmarking, the focus on climate intelligence and the use of a model-based evaluation process alongside expert curation are strong points.",
+      "paper_id": "e924460b93d61f5d39ff2dd1a944231b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-18T09:30:58.442859"
 }

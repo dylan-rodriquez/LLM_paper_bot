@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Generative AI as a Linguistic Equalizer in Global Science",
+      "authors": [
+        "Dragan Filimonovic, Christian Rutzer, Jeffrey Macher, Rolf Weder"
+      ],
+      "abstract": "arXiv:2511.11687v1 Announce Type: cross \nAbstract: For decades, the dominance of English has created a substantial barrier in global science, disadvantaging non-native speakers. The recent rise of generative AI (GenAI) offers a potential technological response to this long-standing inequity. We provide the first large-scale evidence testing whether GenAI acts as a linguistic equalizer in global science. Drawing on 5.65 million scientific articles published from 2021 to 2024, we compare GenAI-assisted and non-assisted publications from authors in non-English-speaking countries. Using text embeddings derived from a pretrained large language model (SciBERT), we measure each publication's linguistic similarity to a benchmark of scientific writing from U.S.-based authors and track stylistic convergence over time. We find significant and growing convergence for GenAI-assisted publications after the release of ChatGPT in late 2022. The effect is strongest for domestic coauthor teams from countries linguistically distant from English. These findings provide large-scale evidence that GenAI is beginning to reshape global science communication by reducing language barriers in research.",
+      "url": "https://arxiv.org/abs/2511.11687",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "genai",
+        "global",
+        "global science",
+        "science",
+        "assisted",
+        "english",
+        "large",
+        "linguistic",
+        "non",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem \u2013 the linguistic bias in scientific publishing \u2013 and leverages a timely technology (GenAI) to potentially mitigate it. The large-scale analysis using SciBERT embeddings provides a rigorous approach to measuring stylistic convergence. While the methodology isn't entirely novel (using embeddings for stylistic analysis), applying it to this specific problem and at this scale is a strong contribution, and the timing with the release of ChatGPT is well-considered.",
+      "paper_id": "97b3f3c47b1669b07a3a2a366076d53c"
+    },
+    {
+      "title": "CURE: Cultural Understanding and Reasoning Evaluation - A Framework for \"Thick\" Culture Alignment Evaluation in LLMs",
+      "authors": [
+        "Truong Vo, Sanmi Koyejo"
+      ],
+      "abstract": "arXiv:2511.12014v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic situational contexts that require culturally grounded reasoning. In addition to the standard Exact Match metric, we introduce four complementary metrics (Coverage, Specificity, Connotation, and Coherence) to capture different dimensions of model's response quality. Empirical analysis across frontier models reveals that thin evaluation systematically overestimates cultural competence and produces unstable assessments with high variance. In contrast, thick evaluation exposes differences in reasoning depth, reduces variance, and provides more stable, interpretable signals of cultural understanding.",
+      "url": "https://arxiv.org/abs/2511.12014",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "cultural",
+        "evaluation",
+        "reasoning",
+        "cultural understanding",
+        "models",
+        "understanding",
+        "abstract",
+        "competence",
+        "cultural competence",
+        "culturally"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of nuanced cultural understanding assessment. The introduction of 'thick' evaluation with contextual benchmarks and complementary metrics beyond simple correctness is a strong methodological contribution. The finding that 'thin' evaluation overestimates cultural competence is significant, and the proposed framework has the potential to improve the reliability of cultural alignment assessments. The work appears well-motivated and clearly presented, suggesting a high likelihood of positive reception.",
+      "paper_id": "04e547af6e239d0adf1af340ec1c796f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-18T09:30:58.438297"
 }

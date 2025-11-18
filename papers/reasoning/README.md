@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Knots: A Large-Scale Multi-Agent Enhanced Expert-Annotated Dataset and LLM Prompt Optimization for NOTAM Semantic Parsing
+
+**Score:** 90.0 | **Published:** 2025-11-18 | **Authors:** Maoqi Liu, Quan Fang, Yang Yang, Can Zhao, Kaiquan Cai
+
+arXiv:2511.12630v1 Announce Type: new 
+Abstract: Notice to Air Missions (NOTAMs) serve as a critical channel for disseminating key flight safety information, yet their complex linguistic structures an...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.12630) | [📝 Analysis](2a66d985c217625e9fad45810dbefb62.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*

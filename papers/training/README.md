@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### MedPT: A Massive Medical Question Answering Dataset for Brazilian-Portuguese Speakers
+
+**Score:** 90.0 | **Published:** 2025-11-18 | **Authors:** Fernanda Bufon F\"arber, Iago Alves Brito, Julia Soares Dollis, Pedro Schindler Freire Brasil Ribeiro, Rafael Teixeira Sousa, Arlindo Rodrigues Galv\~ao Filho
+
+arXiv:2511.11878v1 Announce Type: new 
+Abstract: While large language models (LLMs) show transformative potential in healthcare, their development remains focused on high-resource languages, creating ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11878) | [📝 Analysis](81d795d1dad9436296abb1f9a2f5dbdc.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Anatomy of a Triton Attention Kernel
+
+**Score:** 90.0 | **Published:** 2025-11-18 | **Authors:** Burkhard Ringlein, Jan van Lunteren, Radu Stoica, Thomas Parnell
+
+arXiv:2511.11581v1 Announce Type: cross 
+Abstract: A long-standing goal in both industry and academia is to develop an LLM inference platform that is portable across hardware architectures, eliminates...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11581) | [📝 Analysis](bc42c89025e4a549e1a5498319c53664.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*

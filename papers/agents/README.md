@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Evolve the Method, Not the Prompts: Evolutionary Synthesis of Jailbreak Attacks on LLMs
+
+**Score:** 90.0 | **Published:** 2025-11-18 | **Authors:** Yunhao Chen, Xin Wang, Juncheng Li, Yixu Wang, Jie Li, Yan Teng, Yingchun Wang, Xingjun Ma
+
+arXiv:2511.12710v1 Announce Type: new 
+Abstract: Automated red teaming frameworks for Large Language Models (LLMs) have become increasingly sophisticated, yet they share a fundamental limitation: thei...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.12710) | [📝 Analysis](60d1c5fe05bca0f89c829b819dd40370.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*
