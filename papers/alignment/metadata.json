@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Can Large Language Models Function as Qualified Pediatricians? A Systematic Evaluation in Real-World Clinical Contexts",
+      "authors": [
+        "Siyu Zhu, Mouxiao Bian, Yue Xie, Yongyu Tang, Zhikang Yu, Tianbin Li, Pengcheng Chen, Bing Han, Jie Xu, Xiaoyan Dong"
+      ],
+      "abstract": "arXiv:2511.13381v1 Announce Type: new \nAbstract: With the rapid rise of large language models (LLMs) in medicine, a key question is whether they can function as competent pediatricians in real-world clinical settings. We developed PEDIASBench, a systematic evaluation framework centered on a knowledge-system framework and tailored to realistic clinical environments. PEDIASBench assesses LLMs across three dimensions: application of basic knowledge, dynamic diagnosis and treatment capability, and pediatric medical safety and medical ethics. We evaluated 12 representative models released over the past two years, including GPT-4o, Qwen3-235B-A22B, and DeepSeek-V3, covering 19 pediatric subspecialties and 211 prototypical diseases. State-of-the-art models performed well on foundational knowledge, with Qwen3-235B-A22B achieving over 90% accuracy on licensing-level questions, but performance declined ~15% as task complexity increased, revealing limitations in complex reasoning. Multiple-choice assessments highlighted weaknesses in integrative reasoning and knowledge recall. In dynamic diagnosis and treatment scenarios, DeepSeek-R1 scored highest in case reasoning (mean 0.58), yet most models struggled to adapt to real-time patient changes. On pediatric medical ethics and safety tasks, Qwen2.5-72B performed best (accuracy 92.05%), though humanistic sensitivity remained limited. These findings indicate that pediatric LLMs are constrained by limited dynamic decision-making and underdeveloped humanistic care. Future development should focus on multimodal integration and a clinical feedback-model iteration loop to enhance safety, interpretability, and human-AI collaboration. While current LLMs cannot independently perform pediatric care, they hold promise for decision support, medical education, and patient communication, laying the groundwork for a safe, trustworthy, and collaborative intelligent pediatric healthcare system.",
+      "url": "https://arxiv.org/abs/2511.13381",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pediatric",
+        "models",
+        "clinical",
+        "knowledge",
+        "llms",
+        "medical",
+        "dynamic",
+        "real",
+        "reasoning",
+        "safety"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and important problem \u2013 assessing the capabilities of LLMs in a critical domain like pediatrics. The development of PEDIASBench, a systematic evaluation framework tailored to clinical contexts, is a strong methodological contribution. While the abstract suggests performance declines with complexity, the initial results showing high accuracy on foundational knowledge are promising, and the multi-faceted evaluation (knowledge, diagnosis, safety/ethics) is commendable.",
+      "paper_id": "f9c0563dc8c472537ad13f6153e85dbe"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-18T09:30:58.440923"
 }

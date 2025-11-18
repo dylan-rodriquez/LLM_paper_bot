@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Can Large Language Models Function as Qualified Pediatricians? A Systematic Evaluation in Real-World Clinical Contexts
+
+**Score:** 92.0 | **Published:** 2025-11-18 | **Authors:** Siyu Zhu, Mouxiao Bian, Yue Xie, Yongyu Tang, Zhikang Yu, Tianbin Li, Pengcheng Chen, Bing Han, Jie Xu, Xiaoyan Dong
+
+arXiv:2511.13381v1 Announce Type: new 
+Abstract: With the rapid rise of large language models (LLMs) in medicine, a key question is whether they can function as competent pediatricians in real-world c...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.13381) | [📝 Analysis](f9c0563dc8c472537ad13f6153e85dbe.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*

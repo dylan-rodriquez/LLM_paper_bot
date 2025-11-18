@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Evolve the Method, Not the Prompts: Evolutionary Synthesis of Jailbreak Attacks on LLMs",
+      "authors": [
+        "Yunhao Chen, Xin Wang, Juncheng Li, Yixu Wang, Jie Li, Yan Teng, Yingchun Wang, Xingjun Ma"
+      ],
+      "abstract": "arXiv:2511.12710v1 Announce Type: new \nAbstract: Automated red teaming frameworks for Large Language Models (LLMs) have become increasingly sophisticated, yet they share a fundamental limitation: their jailbreak logic is confined to selecting, combining, or refining pre-existing attack strategies. This binds their creativity and leaves them unable to autonomously invent entirely new attack mechanisms. To overcome this gap, we introduce \\textbf{EvoSynth}, an autonomous framework that shifts the paradigm from attack planning to the evolutionary synthesis of jailbreak methods. Instead of refining prompts, EvoSynth employs a multi-agent system to autonomously engineer, evolve, and execute novel, code-based attack algorithms. Crucially, it features a code-level self-correction loop, allowing it to iteratively rewrite its own attack logic in response to failure. Through extensive experiments, we demonstrate that EvoSynth not only establishes a new state-of-the-art by achieving an 85.5\\% Attack Success Rate (ASR) against highly robust models like Claude-Sonnet-4.5, but also generates attacks that are significantly more diverse than those from existing methods. We release our framework to facilitate future research in this new direction of evolutionary synthesis of jailbreak methods. Code is available at: https://github.com/dongdongunique/EvoSynth.",
+      "url": "https://arxiv.org/abs/2511.12710",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "attack",
+        "evosynth",
+        "jailbreak",
+        "new",
+        "code",
+        "evolutionary",
+        "evolutionary synthesis",
+        "methods",
+        "synthesis",
+        "synthesis jailbreak"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a critical limitation in current LLM red teaming \u2013 the inability to generate *novel* attack strategies. The EvoSynth framework, employing evolutionary synthesis and a code-level self-correction loop, represents a significant advancement over existing methods focused on prompt engineering. The reported 85.5% attack success rate suggests strong performance, and the approach aligns with the growing need for robust LLM security.",
+      "paper_id": "60d1c5fe05bca0f89c829b819dd40370"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-11-18T09:30:58.440252"
 }

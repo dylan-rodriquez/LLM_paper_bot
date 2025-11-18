@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Anatomy of a Triton Attention Kernel",
+      "authors": [
+        "Burkhard Ringlein, Jan van Lunteren, Radu Stoica, Thomas Parnell"
+      ],
+      "abstract": "arXiv:2511.11581v1 Announce Type: cross \nAbstract: A long-standing goal in both industry and academia is to develop an LLM inference platform that is portable across hardware architectures, eliminates the need for low-level hand-tuning, and still delivers best-in-class efficiency. In this work, we demonstrate that portable, efficient cross-platform LLM inference is indeed possible and share our experience. We develop a state-of-the-art paged attention kernel, the core performance-critical component of many LLM deployments, that builds exclusively on the domain-specific just-in-time compiled language Triton to achieve state-of-the-art performance on both NVIDIA and AMD GPUs. We describe our high-level approach, the key algorithmic and system-level improvements, the parameter auto-tuning required to unlock efficiency, and the integrations into a popular inference server that are necessary to bring the performance of a generic Triton attention kernel from 19.7% of the state-of-the-art to 105.9%. Our results highlight how open-source domain-specific languages can be leveraged to unlock model portability across different GPU vendors.",
+      "url": "https://arxiv.org/abs/2511.11581",
+      "published_date": "2025-11-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "art",
+        "attention",
+        "attention kernel",
+        "inference",
+        "kernel",
+        "level",
+        "llm",
+        "performance",
+        "state",
+        "state art"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 portability and efficiency across different hardware. The focus on a Triton-based attention kernel and achieving state-of-the-art performance on both NVIDIA and AMD GPUs is a significant accomplishment. While the abstract doesn't detail *how* they achieved the 19.7% to SOTA improvement, the claim itself is compelling and suggests a well-executed project. The integration into an inference server further strengthens the practical relevance.",
+      "paper_id": "bc42c89025e4a549e1a5498319c53664"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-11-18T09:30:58.441679"
 }

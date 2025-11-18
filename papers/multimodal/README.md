@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### CLINB: A Climate Intelligence Benchmark for Foundational Models
+
+**Score:** 92.0 | **Published:** 2025-11-18 | **Authors:** Michelle Chen Huebscher, Katharine Mach, Aleksandar Stani\'c, Markus Leippold, Ben Gaiarin, Zeke Hausfather, Elisa Rawat, Erich Fischer, Massimiliano Ciaramita, Joeri Rogelj, Christian Buck, Lierni Sestorain Saralegui, Reto Knutti
+
+arXiv:2511.11597v1 Announce Type: cross 
+Abstract: Evaluating how Large Language Models (LLMs) handle complex, specialized knowledge remains a critical challenge. We address this through the lens of c...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11597) | [📝 Analysis](e924460b93d61f5d39ff2dd1a944231b.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-18 09:30:58 UTC*
