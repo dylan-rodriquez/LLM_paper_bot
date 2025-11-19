@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Bias in, Bias out: Annotation Bias in Multilingual Large Language Models",
+      "authors": [
+        "Xia Cui, Ziyi Huang, Naeemeh Adel"
+      ],
+      "abstract": "arXiv:2511.14662v1 Announce Type: new \nAbstract: Annotation bias in NLP datasets remains a major challenge for developing multilingual Large Language Models (LLMs), particularly in culturally diverse settings. Bias from task framing, annotator subjectivity, and cultural mismatches can distort model outputs and exacerbate social harms. We propose a comprehensive framework for understanding annotation bias, distinguishing among instruction bias, annotator bias, and contextual and cultural bias. We review detection methods (including inter-annotator agreement, model disagreement, and metadata analysis) and highlight emerging techniques such as multilingual model divergence and cultural inference. We further outline proactive and reactive mitigation strategies, including diverse annotator recruitment, iterative guideline refinement, and post-hoc model adjustments. Our contributions include: (1) a typology of annotation bias; (2) a synthesis of detection metrics; (3) an ensemble-based bias mitigation approach adapted for multilingual settings, and (4) an ethical analysis of annotation processes. Together, these insights aim to inform more equitable and culturally grounded annotation pipelines for LLMs.",
+      "url": "https://arxiv.org/abs/2511.14662",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "annotation",
+        "annotation bias",
+        "annotator",
+        "model",
+        "multilingual",
+        "cultural",
+        "analysis",
+        "culturally",
+        "detection"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in the development of multilingual LLMs \u2013 annotation bias \u2013 which is often overlooked. The proposed framework for understanding different types of bias (instruction, annotator, cultural) and the synthesis of detection methods are valuable contributions. While the abstract hints at an ensemble-based bias mitigation technique, the novelty appears moderate, but the potential impact on fairness and responsible AI is substantial.",
+      "paper_id": "bc5561ae662b6f624586370c4b481721"
+    },
+    {
+      "title": "Evaluation of OpenAI o1: Opportunities and Challenges of AGI",
+      "authors": [
+        "Tianyang Zhong, Zhengliang Liu, Yi Pan, Yutong Zhang, Zeyu Zhang, Yifan Zhou, Shizhe Liang, Zihao Wu, Yanjun Lyu, Peng Shu, Xiaowei Yu, Chao Cao, Hanqi Jiang, Hanxu Chen, Yiwei Li, Junhao Chen, Huawen Hu, Yiheng Liu, Huaqin Zhao, Shaochen Xu, Haixing Dai, Lin Zhao, Ruidong Zhang, Wei Zhao, Zhenyuan Yang, Jingyuan Chen, Peilong Wang, Wei Ruan, Hui Wang, Huan Zhao, Jing Zhang, Yiming Ren, Shihuan Qin, Tong Chen, Jiaxi Li, Arif Hassan Zidan, Afrar Jahin, Minheng Chen, Sichen Xia, Jason Holmes, Yan Zhuang, Jiaqi Wang, Bochen Xu, Weiran Xia, Jichao Yu, Kaibo Tang, Yaxuan Yang, Bolun Sun, Tao Yang, Guoyu Lu, Xianqiao Wang, Lilong Chai, He Li, Jin Lu, Xin Zhang, Bao Ge, Xintao Hu, Lian Zhang, Hua Zhou, Lu Zhang, Shu Zhang, Zhen Xiang, Yudan Ren, Jun Liu, Xi Jiang, Yu Bao, Wei Zhang, Xiang Li, Gang Li, Wei Liu, Dinggang Shen, Andrea Sikora, Xiaoming Zhai, Dajiang Zhu, Tuo Zhang, Tianming Liu"
+      ],
+      "abstract": "arXiv:2409.18486v3 Announce Type: replace \nAbstract: This comprehensive study evaluates the performance of OpenAI's o1-preview large language model across a diverse array of complex reasoning tasks, spanning multiple domains, including computer science, mathematics, natural sciences, medicine, linguistics, and social sciences. Through rigorous testing, o1-preview demonstrated remarkable capabilities, often achieving human-level or superior performance in areas ranging from coding challenges to scientific reasoning and from language processing to creative problem-solving. Key findings include:\n  -83.3% success rate in solving complex competitive programming problems, surpassing many human experts.\n  -Superior ability in generating coherent and accurate radiology reports, outperforming other evaluated models.\n  -100% accuracy in high school-level mathematical reasoning tasks, providing detailed step-by-step solutions.\n  -Advanced natural language inference capabilities across general and specialized domains like medicine.\n  -Impressive performance in chip design tasks, outperforming specialized models in areas such as EDA script generation and bug analysis.\n  -Remarkable proficiency in anthropology and geology, demonstrating deep understanding and reasoning in these specialized fields.\n  -Strong capabilities in quantitative investing. O1 has comprehensive financial knowledge and statistical modeling skills.\n  -Effective performance in social media analysis, including sentiment analysis and emotion recognition.\n  The model excelled particularly in tasks requiring intricate reasoning and knowledge integration across various fields. While some limitations were observed, including occasional errors on simpler problems and challenges with certain highly specialized concepts, the overall results indicate significant progress towards artificial general intelligence.",
+      "url": "https://arxiv.org/abs/2409.18486",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "o1",
+        "performance",
+        "specialized",
+        "tasks",
+        "analysis",
+        "capabilities",
+        "challenges",
+        "including",
+        "language"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "The paper presents compelling results demonstrating strong performance of OpenAI's o1-preview model across a wide range of challenging tasks. The reported success rates (83.3% in competitive programming, 100% in high school math) are impressive and suggest a significant leap in LLM capabilities. While the evaluation methodology isn't detailed in the abstract, the breadth of domains tested indicates a rigorous approach, and the findings align with the current trend towards increasingly powerful and general-purpose AI systems.",
+      "paper_id": "bcc1c46cb3950f18445a64e36d9b7090"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-19T09:30:38.880988"
 }

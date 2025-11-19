@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Steganographic Backdoor Attacks in NLP: Ultra-Low Poisoning and Defense Evasion
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Eric Xue, Ruiyi Zhang, Zijun Zhang, Pengtao Xie
+
+arXiv:2511.14301v1 Announce Type: cross 
+Abstract: Transformer models are foundational to natural language processing (NLP) applications, yet remain vulnerable to backdoor attacks introduced through p...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14301) | [📝 Analysis](2fe9b55cb38160436bc9e82bd1732f72.md)
+
+---
+
+### In-context Language Learning for Endangered Languages in Speech Recognition
+
+**Score:** 90.0 | **Published:** 2025-11-19 | **Authors:** Zhaolin Li, Jan Niehues
+
+arXiv:2505.20445v4 Announce Type: replace 
+Abstract: With approximately 7,000 languages spoken worldwide, current large language models (LLMs) support only a small subset. Prior research indicates LLM...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.20445) | [📝 Analysis](bb4b2a702ef807c66781135c4e97c02a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-19 09:30:38 UTC*

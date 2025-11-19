@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Steganographic Backdoor Attacks in NLP: Ultra-Low Poisoning and Defense Evasion",
+      "authors": [
+        "Eric Xue, Ruiyi Zhang, Zijun Zhang, Pengtao Xie"
+      ],
+      "abstract": "arXiv:2511.14301v1 Announce Type: cross \nAbstract: Transformer models are foundational to natural language processing (NLP) applications, yet remain vulnerable to backdoor attacks introduced through poisoned data, which implant hidden behaviors during training. To strengthen the ability to prevent such compromises, recent research has focused on designing increasingly stealthy attacks to stress-test existing defenses, pairing backdoor behaviors with stylized artifact or token-level perturbation triggers. However, this trend diverts attention from the harder and more realistic case: making the model respond to semantic triggers such as specific names or entities, where a successful backdoor could manipulate outputs tied to real people or events in deployed systems. Motivated by this growing disconnect, we introduce SteganoBackdoor, bringing stealth techniques back into line with practical threat models. Leveraging innocuous properties from natural-language steganography, SteganoBackdoor applies a gradient-guided data optimization process to transform semantic trigger seeds into steganographic carriers that embed a high backdoor payload, remain fluent, and exhibit no representational resemblance to the trigger. Across diverse experimental settings, SteganoBackdoor achieves over 99% attack success at an order-of-magnitude lower data-poisoning rate than prior approaches while maintaining unparalleled evasion against a comprehensive suite of data-level defenses. By revealing this practical and covert attack, SteganoBackdoor highlights an urgent blind spot in current defenses and demands immediate attention to adversarial data defenses and real-world threat modeling.",
+      "url": "https://arxiv.org/abs/2511.14301",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "backdoor",
+        "data",
+        "defenses",
+        "steganobackdoor",
+        "attacks",
+        "attack",
+        "attention",
+        "backdoor attacks",
+        "behaviors",
+        "evasion"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial vulnerability in NLP models \u2013 semantic backdoor attacks \u2013 which are more realistic and dangerous than current research trends focusing on stylistic triggers. The focus on steganography for stealth is a clever approach, and the motivation is well-articulated. While the abstract doesn't detail the specific methods, the problem statement and proposed direction suggest a high-quality and impactful contribution. The paper's focus on practical threat models is particularly strong.",
+      "paper_id": "2fe9b55cb38160436bc9e82bd1732f72"
+    },
+    {
+      "title": "In-context Language Learning for Endangered Languages in Speech Recognition",
+      "authors": [
+        "Zhaolin Li, Jan Niehues"
+      ],
+      "abstract": "arXiv:2505.20445v4 Announce Type: replace \nAbstract: With approximately 7,000 languages spoken worldwide, current large language models (LLMs) support only a small subset. Prior research indicates LLMs can learn new languages for certain tasks without supervised data. We extend this investigation to speech recognition, investigating whether LLMs can learn unseen, low-resource languages through in-context learning (ICL). With experiments on four diverse endangered languages that LLMs have not been trained on, we find that providing more relevant text samples enhances performance in both language modelling and Automatic Speech Recognition (ASR) tasks. Furthermore, we show that the probability-based approach outperforms the traditional instruction-based approach in language learning. Lastly, we show ICL enables LLMs to achieve ASR performance that is comparable to or even surpasses dedicated language models trained specifically for these languages, while preserving the original capabilities of the LLMs. Our code is publicly available.",
+      "url": "https://arxiv.org/abs/2505.20445",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "languages",
+        "llms",
+        "language",
+        "learning",
+        "recognition",
+        "speech",
+        "speech recognition",
+        "approach",
+        "asr",
+        "based"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a highly significant problem \u2013 the lack of LLM support for the vast majority of the world's languages, particularly endangered ones. The finding that ICL can achieve comparable or superior ASR performance to dedicated models is strong, and the comparison of probability-based vs. instruction-based ICL is a valuable contribution. The work appears rigorous and well-motivated, with a clear focus on practical application.",
+      "paper_id": "bb4b2a702ef807c66781135c4e97c02a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-19T09:30:38.882468"
 }

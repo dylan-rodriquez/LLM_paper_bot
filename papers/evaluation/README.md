@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Hongwei Liu, Junnan Liu, Shudong Liu, Haodong Duan, Yuqiang Li, Mao Su, Xiaohong Liu, Guangtao Zhai, Xinyu Fang, Qianhong Ma, Taolin Zhang, Zihan Ma, Yufeng Zhao, Peiheng Zhou, Linchen Xiao, Wenlong Zhang, Shijie Zhou, Xingjian Ma, Siqi Sun, Jiaye Ge, Meng Li, Yuhong Liu, Jianxin Dong, Jiaying Li, Hui Wu, Hanwen Liang, Jintai Lin, Yanting Wang, Jie Dong, Tong Zhu, Tianfan Fu, Conghui He, Qi Zhang, Songyang Zhang, Lei Bai, Kai Chen
+
+arXiv:2511.14366v1 Announce Type: new 
+Abstract: The rapid advancement of Large Language Models (LLMs) has led to performance saturation on many established benchmarks, questioning their ability to di...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14366) | [📝 Analysis](7eb57d29b647558765ead9f385176a23.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-19 09:30:38 UTC*
