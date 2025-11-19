@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### A Specialized Large Language Model for Clinical Reasoning and Diagnosis in Rare Diseases
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Tao Yang, Dandan Huang, Yunting Lin, Pengfei Wu, Zhikun Wu, Gangyuan Ma, Yulan Lu, Xinran Dong, Dingpeng Li, Junshuang Ge, Zhiyan Zhang, Xuanzhao Huang, Wenyan Nong, Yao Zhou, Hui Tang, Hongxi Yang, Shijie Zhang, Juan Li, Xiaojun Cao, Lin Yang, Xia Gao, Kaishou Xu, Xiaoqiong Gu, Wen Zhang, Huimin Xia, Li Liu, Wenhao Zhou, Mulin Jun Li
+
+arXiv:2511.14638v1 Announce Type: new 
+Abstract: Rare diseases affect hundreds of millions worldwide, yet diagnosis often spans years. Convectional pipelines decouple noisy evidence extraction from do...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14638) | [📝 Analysis](06953e35873adb08ff9ce412d0f295bc.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-19 09:30:38 UTC*

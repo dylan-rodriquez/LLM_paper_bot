@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Baixiang Huang, Zhen Tan, Haoran Wang, Zijie Liu, Dawei Li, Ali Payani, Huan Liu, Tianlong Chen, Kai Shu
+
+arXiv:2506.20606v2 Announce Type: replace 
+Abstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agent...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.20606) | [📝 Analysis](81ab7ef29e0865b60a0337636b69a4a9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-19 09:30:38 UTC*

@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "AfriSpeech-MultiBench: A Verticalized Multidomain Multicountry Benchmark Suite for African Accented English ASR",
+      "authors": [
+        "Gabrial Zencha Ashungafac, Mardhiyah Sanni, Busayo Awobade, Alex Gichamba, Tobi Olatunji"
+      ],
+      "abstract": "arXiv:2511.14255v1 Announce Type: new \nAbstract: Recent advances in speech-enabled AI, including Google's NotebookLM and OpenAI's speech-to-speech API, are driving widespread interest in voice interfaces globally. Despite this momentum, there exists no publicly available application-specific model evaluation that caters to Africa's linguistic diversity. We present AfriSpeech-MultiBench, the first domain-specific evaluation suite for over 100 African English accents across 10+ countries and seven application domains: Finance, Legal, Medical, General dialogue, Call Center, Named Entities and Hallucination Robustness. We benchmark a diverse range of open, closed, unimodal ASR and multimodal LLM-based speech recognition systems using both spontaneous and non-spontaneous speech conversation drawn from various open African accented English speech datasets. Our empirical analysis reveals systematic variation: open-source ASR models excels in spontaneous speech contexts but degrades on noisy, non-native dialogue; multimodal LLMs are more accent-robust yet struggle with domain-specific named entities; proprietary models deliver high accuracy on clean speech but vary significantly by country and domain. Models fine-tuned on African English achieve competitive accuracy with lower latency, a practical advantage for deployment, hallucinations still remain a big problem for most SOTA models. By releasing this comprehensive benchmark, we empower practitioners and researchers to select voice technologies suited to African use-cases, fostering inclusive voice applications for underserved communities.",
+      "url": "https://arxiv.org/abs/2511.14255",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "african",
+        "english",
+        "models",
+        "asr",
+        "benchmark",
+        "domain",
+        "open",
+        "specific",
+        "spontaneous"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in ASR research \u2013 the lack of benchmarks for African accented English. The creation of AfriSpeech-MultiBench, covering multiple domains, countries, and speech types, is a significant undertaking. While benchmarking isn't inherently novel, the scope and focus on this underrepresented linguistic landscape are highly valuable, and the initial findings regarding performance variations are promising. The focus on hallucination robustness is also a strong point.",
+      "paper_id": "9053d9cbe8f83756f2deb203be07612c"
+    },
+    {
+      "title": "MedBench v4: A Robust and Scalable Benchmark for Evaluating Chinese Medical Language Models, Multimodal Models, and Intelligent Agents",
+      "authors": [
+        "Jinru Ding, Lu Lu, Chao Ding, Mouxiao Bian, Jiayuan Chen, Renjie Lu, Wenrao Pang, Xiaoqin Wu, Zhiqiang Liu, Luyi Jiang, Bing Han, Yunqiu Wang, Jie Xu"
+      ],
+      "abstract": "arXiv:2511.14439v1 Announce Type: new \nAbstract: Recent advances in medical large language models (LLMs), multimodal models, and agents demand evaluation frameworks that reflect real clinical workflows and safety constraints. We present MedBench v4, a nationwide, cloud-based benchmarking infrastructure comprising over 700,000 expert-curated tasks spanning 24 primary and 91 secondary specialties, with dedicated tracks for LLMs, multimodal models, and agents. Items undergo multi-stage refinement and multi-round review by clinicians from more than 500 institutions, and open-ended responses are scored by an LLM-as-a-judge calibrated to human ratings. We evaluate 15 frontier models. Base LLMs reach a mean overall score of 54.1/100 (best: Claude Sonnet 4.5, 62.5/100), but safety and ethics remain low (18.4/100). Multimodal models perform worse overall (mean 47.5/100; best: GPT-5, 54.9/100), with solid perception yet weaker cross-modal reasoning. Agents built on the same backbones substantially improve end-to-end performance (mean 79.8/100), with Claude Sonnet 4.5-based agents achieving up to 85.3/100 overall and 88.9/100 on safety tasks. MedBench v4 thus reveals persisting gaps in multimodal reasoning and safety for base models, while showing that governance-aware agentic orchestration can markedly enhance benchmarked clinical readiness without sacrificing capability. By aligning tasks with Chinese clinical guidelines and regulatory priorities, the platform offers a practical reference for hospitals, developers, and policymakers auditing medical AI.",
+      "url": "https://arxiv.org/abs/2511.14439",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "100",
+        "models",
+        "agents",
+        "multimodal",
+        "multimodal models",
+        "safety",
+        "clinical",
+        "llms",
+        "mean",
+        "medbench"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper presents a substantial contribution to the evaluation of medical LLMs, multimodal models, and agents, addressing a critical need for robust benchmarks in a sensitive domain. The scale of MedBench v4 (700k+ tasks, 24 specialties) and the rigorous curation process involving 500+ institutions are impressive. While the use of an LLM-as-a-judge is innovative, it's important to understand the limitations and calibration details further, which will likely be addressed in the full paper.",
+      "paper_id": "6344b55c6e37d2c8516a9a3905bbb862"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-19T09:30:38.878077"
 }

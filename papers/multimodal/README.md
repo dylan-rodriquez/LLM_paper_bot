@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### AfriSpeech-MultiBench: A Verticalized Multidomain Multicountry Benchmark Suite for African Accented English ASR
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Gabrial Zencha Ashungafac, Mardhiyah Sanni, Busayo Awobade, Alex Gichamba, Tobi Olatunji
+
+arXiv:2511.14255v1 Announce Type: new 
+Abstract: Recent advances in speech-enabled AI, including Google's NotebookLM and OpenAI's speech-to-speech API, are driving widespread interest in voice interfa...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14255) | [📝 Analysis](9053d9cbe8f83756f2deb203be07612c.md)
+
+---
+
+### MedBench v4: A Robust and Scalable Benchmark for Evaluating Chinese Medical Language Models, Multimodal Models, and Intelligent Agents
+
+**Score:** 92.0 | **Published:** 2025-11-19 | **Authors:** Jinru Ding, Lu Lu, Chao Ding, Mouxiao Bian, Jiayuan Chen, Renjie Lu, Wenrao Pang, Xiaoqin Wu, Zhiqiang Liu, Luyi Jiang, Bing Han, Yunqiu Wang, Jie Xu
+
+arXiv:2511.14439v1 Announce Type: new 
+Abstract: Recent advances in medical large language models (LLMs), multimodal models, and agents demand evaluation frameworks that reflect real clinical workflow...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14439) | [📝 Analysis](6344b55c6e37d2c8516a9a3905bbb862.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-19 09:30:38 UTC*

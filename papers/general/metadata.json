@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "AI use in American newspapers is widespread, uneven, and rarely disclosed",
+      "authors": [
+        "Jenna Russell, Marzena Karpinska, Destiny Akinode, Katherine Thai, Bradley Emi, Max Spero, Mohit Iyyer"
+      ],
+      "abstract": "arXiv:2510.18774v2 Announce Type: replace \nAbstract: AI is rapidly transforming journalism, but the extent of its use in published newspaper articles remains unclear. We address this gap by auditing a large-scale dataset of 186K articles from online editions of 1.5K American newspapers published in the summer of 2025. Using Pangram, a state-of-the-art AI detector, we discover that approximately 9% of newly-published articles are either partially or fully AI-generated. This AI use is unevenly distributed, appearing more frequently in smaller, local outlets, in specific topics such as weather and technology, and within certain ownership groups. We also analyze 45K opinion pieces from Washington Post, New York Times, and Wall Street Journal, finding that they are 6.4 times more likely to contain AI-generated content than news articles from the same publications, with many AI-flagged op-eds authored by prominent public figures. Despite this prevalence, we find that AI use is rarely disclosed: a manual audit of 100 AI-flagged articles found only five disclosures of AI use. Overall, our audit highlights the immediate need for greater transparency and updated editorial standards regarding the use of AI in journalism to maintain public trust.",
+      "url": "https://arxiv.org/abs/2510.18774",
+      "published_date": "2025-11-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "use",
+        "articles",
+        "ai use",
+        "published",
+        "ai flagged",
+        "ai generated",
+        "american",
+        "american newspapers",
+        "audit"
+      ],
+      "subject_classification": "general",
+      "justification": "This research addresses a highly relevant and timely issue \u2013 the increasing use of AI in journalism. The large-scale audit and quantitative findings (9% AI-generated content) are strong, and the observed patterns (smaller outlets, specific topics, opinion pieces) are insightful. While the methodology relies on an existing AI detector (Pangram), the application to a large newspaper dataset and the analysis of disclosure practices are valuable. The findings have significant implications for media transparency and public trust.",
+      "paper_id": "6c949f40ee766885692ed059308791ee"
+    }
+  ],
+  "last_updated": "2025-11-19T09:30:38.885215"
+}
