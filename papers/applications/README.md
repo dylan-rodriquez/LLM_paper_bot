@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Bias after Prompting: Persistent Discrimination in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-20 | **Authors:** Nivedha Sivakumar, Natalie Mackraz, Samira Khorshidi, Krishna Patel, Barry-John Theobald, Luca Zappella, Nicholas Apostoloff
+
+arXiv:2509.08146v2 Announce Type: replace 
+Abstract: A dangerous assumption that can be made from prior work on the bias transfer hypothesis (BTH) is that biases do not transfer from pre-trained large...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.08146) | [📝 Analysis](75a31419c4ff2eb67647a4b8c848324c.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-20 09:30:21 UTC*

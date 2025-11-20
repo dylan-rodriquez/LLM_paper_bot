@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MedBench v4: A Robust and Scalable Benchmark for Evaluating Chinese Medical Language Models, Multimodal Models, and Intelligent Agents",
+      "authors": [
+        "Jinru Ding, Lu Lu, Chao Ding, Mouxiao Bian, Jiayuan Chen, Wenrao Pang, Ruiyao Chen, Xinwei Peng, Renjie Lu, Sijie Ren, Guanxu Zhu, Xiaoqin Wu, Zhiqiang Liu, Rongzhao Zhang, Luyi Jiang, Bing Han, Yunqiu Wang, Jie Xu"
+      ],
+      "abstract": "arXiv:2511.14439v2 Announce Type: replace \nAbstract: Recent advances in medical large language models (LLMs), multimodal models, and agents demand evaluation frameworks that reflect real clinical workflows and safety constraints. We present MedBench v4, a nationwide, cloud-based benchmarking infrastructure comprising over 700,000 expert-curated tasks spanning 24 primary and 91 secondary specialties, with dedicated tracks for LLMs, multimodal models, and agents. Items undergo multi-stage refinement and multi-round review by clinicians from more than 500 institutions, and open-ended responses are scored by an LLM-as-a-judge calibrated to human ratings. We evaluate 15 frontier models. Base LLMs reach a mean overall score of 54.1/100 (best: Claude Sonnet 4.5, 62.5/100), but safety and ethics remain low (18.4/100). Multimodal models perform worse overall (mean 47.5/100; best: GPT-5, 54.9/100), with solid perception yet weaker cross-modal reasoning. Agents built on the same backbones substantially improve end-to-end performance (mean 79.8/100), with Claude Sonnet 4.5-based agents achieving up to 85.3/100 overall and 88.9/100 on safety tasks. MedBench v4 thus reveals persisting gaps in multimodal reasoning and safety for base models, while showing that governance-aware agentic orchestration can markedly enhance benchmarked clinical readiness without sacrificing capability. By aligning tasks with Chinese clinical guidelines and regulatory priorities, the platform offers a practical reference for hospitals, developers, and policymakers auditing medical AI.",
+      "url": "https://arxiv.org/abs/2511.14439",
+      "published_date": "2025-11-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "100",
+        "models",
+        "agents",
+        "multimodal",
+        "multimodal models",
+        "safety",
+        "clinical",
+        "llms",
+        "mean",
+        "medbench"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper presents a substantial contribution to the evaluation of medical LLMs, multimodal models, and agents with a large-scale, clinically-validated benchmark. The scale (700k+ tasks) and rigorous curation process involving over 500 institutions are impressive. While the use of an LLM-as-a-judge is innovative, the relatively low safety scores highlight ongoing challenges and the need for continued research in this area. The clear presentation of results across different model types strengthens the paper's overall quality.",
+      "paper_id": "6344b55c6e37d2c8516a9a3905bbb862"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-20T09:30:21.584915"
 }

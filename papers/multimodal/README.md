@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MedBench v4: A Robust and Scalable Benchmark for Evaluating Chinese Medical Language Models, Multimodal Models, and Intelligent Agents
+
+**Score:** 92.0 | **Published:** 2025-11-20 | **Authors:** Jinru Ding, Lu Lu, Chao Ding, Mouxiao Bian, Jiayuan Chen, Wenrao Pang, Ruiyao Chen, Xinwei Peng, Renjie Lu, Sijie Ren, Guanxu Zhu, Xiaoqin Wu, Zhiqiang Liu, Rongzhao Zhang, Luyi Jiang, Bing Han, Yunqiu Wang, Jie Xu
+
+arXiv:2511.14439v2 Announce Type: replace 
+Abstract: Recent advances in medical large language models (LLMs), multimodal models, and agents demand evaluation frameworks that reflect real clinical work...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14439) | [📝 Analysis](6344b55c6e37d2c8516a9a3905bbb862.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-20 09:30:21 UTC*

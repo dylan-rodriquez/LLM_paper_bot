@@ -2,7 +2,29 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Mathematical Analysis of Hallucination Dynamics in Large Language Models: Uncertainty Quantification, Advanced Decoding, and Principled Mitigation
+
+**Score:** 92.0 | **Published:** 2025-11-20 | **Authors:** Moses Kiprono
+
+arXiv:2511.15005v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are powerful linguistic engines but remain susceptible to hallucinations: plausible-sounding outputs that are factually in...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.15005) | [📝 Analysis](e320db5402c86b71411c9a0de2c22c1b.md)
+
+---
+
+### Fairshare Data Pricing via Data Valuation for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-20 | **Authors:** Luyang Zhang, Cathy Jiao, Beibei Li, Chenyan Xiong
+
+arXiv:2502.00198v4 Announce Type: replace-cross 
+Abstract: Training data is the backbone of large language models (LLMs), yet today's data markets often operate under exploitative pricing -- sourcing ...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.00198) | [📝 Analysis](d3f5f01699c9856917e2dc07e054a29e.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +82,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-20 09:30:21 UTC*
