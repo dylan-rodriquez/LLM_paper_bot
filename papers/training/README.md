@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Towards Alignment-Centric Paradigm: A Survey of Instruction Tuning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-20 | **Authors:** Xudong Han, Junjie Yang, Tianyang Wang, Ziqian Bi, Xinyuan Song, Junfeng Hao, Junhao Song
+
+arXiv:2508.17184v2 Announce Type: replace 
+Abstract: Instruction tuning is a pivotal technique for aligning large language models (LLMs) with human intentions, safety constraints, and domain-specific ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.17184) | [📝 Analysis](5404351faea50e49608f814015cd0c24.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-20 09:30:21 UTC*

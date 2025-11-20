@@ -159,7 +159,71 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Mathematical Analysis of Hallucination Dynamics in Large Language Models: Uncertainty Quantification, Advanced Decoding, and Principled Mitigation",
+      "authors": [
+        "Moses Kiprono"
+      ],
+      "abstract": "arXiv:2511.15005v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are powerful linguistic engines but remain susceptible to hallucinations: plausible-sounding outputs that are factually incorrect or unsupported. In this work, we present a mathematically grounded framework to understand, measure, and mitigate these hallucinations. Drawing on probabilistic modeling, information theory, trigonometric signal analysis, and Bayesian uncertainty estimation, we analyze how errors compound autoregressively, propose refined uncertainty metrics, including semantic and phase-aware variants, and develop principled mitigation strategies such as contrastive decoding, retrieval-augmented grounding, factual alignment, and abstention. This unified lens connects recent advances in calibration, retrieval, and alignment to support safer and more reliable LLMs.",
+      "url": "https://arxiv.org/abs/2511.15005",
+      "published_date": "2025-11-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "uncertainty",
+        "alignment",
+        "analysis",
+        "decoding",
+        "hallucinations",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "llms"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucination \u2013 with a comprehensive, mathematically grounded approach. The combination of probabilistic modeling, information theory, and Bayesian methods suggests a rigorous methodology. The abstract indicates a unification of existing techniques (calibration, retrieval, alignment) which is a strong indicator of potential impact and positive reception within the community.",
+      "paper_id": "e320db5402c86b71411c9a0de2c22c1b"
+    },
+    {
+      "title": "Fairshare Data Pricing via Data Valuation for Large Language Models",
+      "authors": [
+        "Luyang Zhang, Cathy Jiao, Beibei Li, Chenyan Xiong"
+      ],
+      "abstract": "arXiv:2502.00198v4 Announce Type: replace-cross \nAbstract: Training data is the backbone of large language models (LLMs), yet today's data markets often operate under exploitative pricing -- sourcing data from marginalized groups with little pay or recognition. This paper introduces a theoretical framework for LLM data markets, modeling the strategic interactions between buyers (LLM builders) and sellers (human annotators). We begin with theoretical and empirical analysis showing how exploitative pricing drives high-quality sellers out of the market, degrading data quality and long-term model performance. Then we introduce fairshare, a pricing mechanism grounded in data valuation that quantifies each data's contribution. It aligns incentives by sustaining seller participation and optimizing utility for both buyers and sellers. Theoretically, we show that fairshare yields mutually optimal outcomes: maximizing long-term buyer utility and seller profit while sustaining market participation. Empirically when training open-source LLMs on complex NLP tasks, including math problems, medical diagnosis, and physical reasoning, fairshare boosts seller earnings and ensures a stable supply of high-quality data, while improving buyers' performance-per-dollar and long-term welfare. Our findings offer a concrete path toward fair, transparent, and economically sustainable data markets for LLM.",
+      "url": "https://arxiv.org/abs/2502.00198",
+      "published_date": "2025-11-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.GT"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "data",
+        "fairshare",
+        "pricing",
+        "buyers",
+        "data markets",
+        "llm",
+        "long",
+        "long term",
+        "markets",
+        "quality"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial ethical and economic problem in the LLM space \u2013 the exploitative pricing of training data, particularly from marginalized groups. The proposed 'fairshare' mechanism, grounded in data valuation, offers a theoretically sound and potentially practical solution. While the abstract doesn't detail the specifics of the valuation method, the framing of strategic interactions and incentive alignment suggests a rigorous approach. The focus on long-term utility for both buyers and sellers is a strong indicator of a well-considered framework.",
+      "paper_id": "d3f5f01699c9856917e2dc07e054a29e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-11-20T09:30:21.579338"
 }

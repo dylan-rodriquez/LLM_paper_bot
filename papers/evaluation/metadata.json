@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Human or LLM as Standardized Patients? A Comparative Study for Medical Education",
+      "authors": [
+        "Bingquan Zhang, Xiaoxiao Liu, Yuchi Wang, Lei Zhou, Qianqian Xie, Benyou Wang"
+      ],
+      "abstract": "arXiv:2511.14783v1 Announce Type: new \nAbstract: Standardized Patients (SP) are indispensable for clinical skills training but remain expensive, inflexible, and difficult to scale. Existing large-language-model (LLM)-based SP simulators promise lower cost yet show inconsistent behavior and lack rigorous comparison with human SP. We present EasyMED, a multi-agent framework combining a Patient Agent for realistic dialogue, an Auxiliary Agent for factual consistency, and an Evaluation Agent that delivers actionable feedback. To support systematic assessment, we introduce SPBench, a benchmark of real SP-doctor interactions spanning 14 specialties and eight expert-defined evaluation criteria. Experiments demonstrate that EasyMED matches human SP learning outcomes while producing greater skill gains for lower-baseline students and offering improved flexibility, psychological safety, and cost efficiency.",
+      "url": "https://arxiv.org/abs/2511.14783",
+      "published_date": "2025-11-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "sp",
+        "agent",
+        "human",
+        "cost",
+        "easymed",
+        "evaluation",
+        "human sp",
+        "llm",
+        "lower",
+        "patients"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and costly problem in medical education \u2013 the limitations of standardized patients. The multi-agent framework (EasyMED) and the introduction of SPBench represent a solid methodological approach and a valuable resource for the community. While LLM-based SPs aren't entirely new, the systematic comparison with human SPs and the focus on learning outcomes elevate this work above simple application of LLMs.",
+      "paper_id": "3ff98eeed773698baf0f36800cf9725f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-20T09:30:21.578077"
 }
