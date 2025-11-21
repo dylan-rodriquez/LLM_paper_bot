@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MAQuA: Adaptive Question-Asking for Multidimensional Mental Health Screening using Item Response Theory
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Vasudha Varadarajan, Hui Xu, Rebecca Astrid Boehme, Mariam Marlan Mirstrom, Sverker Sikstrom, H. Andrew Schwartz
+
+arXiv:2508.07279v3 Announce Type: replace 
+Abstract: Recent advances in large language models (LLMs) offer new opportunities for scalable, interactive mental health assessment, but excessive querying ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.07279) | [📝 Analysis](5f9d2de075a23a68fa9c6fd9509dc723.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-21 09:30:31 UTC*

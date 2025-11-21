@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "MiMo-Embodied: X-Embodied Foundation Model Technical Report",
+      "authors": [
+        "Xiaoshuai Hao, Lei Zhou, Zhijian Huang, Zhiwen Hou, Yingbo Tang, Lingfeng Zhang, Guang Li, Zheng Lu, Shuhuai Ren, Xianhui Meng, Yuchen Zhang, Jing Wu, Jinghui Lu, Chenxu Dang, Jiayi Guan, Jianhua Wu, Zhiyi Hou, Hanbing Li, Shumeng Xia, Mingliang Zhou, Yinan Zheng, Zihao Yue, Shuhao Gu, Hao Tian, Yuannan Shen, Jianwei Cui, Wen Zhang, Shaoqing Xu, Bing Wang, Haiyang Sun, Zeyu Zhu, Yuncheng Jiang, Zibin Guo, Chuhong Gong, Chaofan Zhang, Wenbo Ding, Kun Ma, Guang Chen, Rui Cai, Diyun Xiang, Heng Qu, Fuli Luo, Hangjun Ye, Long Chen"
+      ],
+      "abstract": "arXiv:2511.16518v1 Announce Type: cross \nAbstract: We open-source MiMo-Embodied, the first cross-embodied foundation model to successfully integrate and achieve state-of-the-art performance in both Autonomous Driving and Embodied AI. MiMo-Embodied sets new records across 17 embodied AI benchmarks in Task Planning, Affordance Prediction and Spatial Understanding, while also excelling in 12 autonomous driving benchmarks across Environmental Perception, Status Prediction, and Driving Planning. Across these tasks, MiMo-Embodied significantly outperforms existing open-source, closed-source, and specialized baselines. Our results indicate that through multi-stage learning, curated data construction, and CoT/RL fine-tuning, these two domains exhibit strong positive transfer and mutually reinforce one another. We provide a detailed analysis of our model design and training methodologies to facilitate further research. Code and models are available at https://github.com/XiaomiMiMo/MiMo-Embodied.",
+      "url": "https://arxiv.org/abs/2511.16518",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.RO"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "embodied",
+        "mimo",
+        "mimo embodied",
+        "driving",
+        "model",
+        "source",
+        "ai",
+        "autonomous",
+        "autonomous driving",
+        "benchmarks"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper presents a significant advancement by successfully integrating autonomous driving and embodied AI into a single foundation model. The reported state-of-the-art performance across numerous benchmarks suggests a robust methodology and strong results. The open-sourcing of the model and code further enhances its potential impact and encourages further research in this promising area.",
+      "paper_id": "3e850c73f25f63fc069b270fd18c0ed3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-11-21T09:30:31.429565"
 }
