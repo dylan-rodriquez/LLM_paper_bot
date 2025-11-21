@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### WER is Unaware: Assessing How ASR Errors Distort Clinical Understanding in Patient Facing Dialogue
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Zachary Ellis, Jared Joselowitz, Yash Deo, Yajie He, Anna Kalygina, Aisling Higham, Mana Rahimzadeh, Yan Jia, Ibrahim Habli, Ernest Lim
+
+arXiv:2511.16544v1 Announce Type: new 
+Abstract: As Automatic Speech Recognition (ASR) is increasingly deployed in clinical dialogue, standard evaluations still rely heavily on Word Error Rate (WER). ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.16544) | [📝 Analysis](82528cb5c0361eee1951f8af549e5ef8.md)
+
+---
+
+### ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Hongwei Liu, Junnan Liu, Shudong Liu, Haodong Duan, Yuqiang Li, Mao Su, Xiaohong Liu, Guangtao Zhai, Xinyu Fang, Qianhong Ma, Taolin Zhang, Zihan Ma, Yufeng Zhao, Peiheng Zhou, Linchen Xiao, Wenlong Zhang, Shijie Zhou, Xingjian Ma, Siqi Sun, Jiaye Ge, Meng Li, Yuhong Liu, Jianxin Dong, Jiaying Li, Hui Wu, Hanwen Liang, Jintai Lin, Yanting Wang, Jie Dong, Tong Zhu, Tianfan Fu, Conghui He, Qi Zhang, Songyang Zhang, Lei Bai, Kai Chen
+
+arXiv:2511.14366v2 Announce Type: replace 
+Abstract: The rapid advancement of Large Language Models (LLMs) has led to performance saturation on many established benchmarks, questioning their ability t...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14366) | [📝 Analysis](7eb57d29b647558765ead9f385176a23.md)
+
+---
+
+### Probing the Critical Point (CritPt) of AI Reasoning: a Frontier Physics Research Benchmark
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Minhui Zhu, Minyang Tian, Xiaocheng Yang, Tianci Zhou, Lifan Yuan, Penghao Zhu, Eli Chertkov, Shengyan Liu, Yufeng Du, Ziming Ji, Indranil Das, Junyi Cao, Yufeng Du, Jiabin Yu, Peixue Wu, Jinchen He, Yifan Su, Yikun Jiang, Yujie Zhang, Chang Liu, Ze-Min Huang, Weizhen Jia, Yunkai Wang, Farshid Jafarpour, Yong Zhao, Xinan Chen, Jessie Shelton, Aaron W. Young, John Bartolotta, Wenchao Xu, Yue Sun, Anjun Chu, Victor Colussi, Chris Akers, Nathan Brooks, Wenbo Fu, Jinchao Zhao, Marvin Qi, Anqi Mu, Yubo Yang, Allen Zang, Yang Lyu, Peizhi Mai, Christopher Wilson, Xuefei Guo, Juntai Zhou, Daniel Inafuku, Chi Xue, Luyu Gao, Ze Yang, Ya\"ir Hein, Yonatan Kahn, Kevin Zhou, Di Luo, John Drew Wilson, Jarrod T. Reilly, Dmytro Bandak, Ofir Press, Liang Yang, Xueying Wang, Hao Tong, Nicolas Chia, Eliu Huerta, Hao Peng
+
+arXiv:2509.26574v3 Announce Type: replace-cross 
+Abstract: While large language models (LLMs) with reasoning capabilities are progressing rapidly on high-school math competitions and coding, can they ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.26574) | [📝 Analysis](09c6c2f6fa26e029061f401c1dcb78ac.md)
+
+---
+
+### Subnational Geocoding of Global Disasters Using Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Michele Ronco, Damien Delforge, Wiebke S. J\"ager, Christina Corbane
+
+arXiv:2511.14788v1 Announce Type: new 
+Abstract: Subnational location data of disaster events are critical for risk assessment and disaster risk reduction. Disaster databases such as EM-DAT often repo...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14788) | [📝 Analysis](8cde019811cc29ec9e6ca65a830ed557.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-21 09:30:31 UTC*

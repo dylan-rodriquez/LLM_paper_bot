@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "WER is Unaware: Assessing How ASR Errors Distort Clinical Understanding in Patient Facing Dialogue",
+      "authors": [
+        "Zachary Ellis, Jared Joselowitz, Yash Deo, Yajie He, Anna Kalygina, Aisling Higham, Mana Rahimzadeh, Yan Jia, Ibrahim Habli, Ernest Lim"
+      ],
+      "abstract": "arXiv:2511.16544v1 Announce Type: new \nAbstract: As Automatic Speech Recognition (ASR) is increasingly deployed in clinical dialogue, standard evaluations still rely heavily on Word Error Rate (WER). This paper challenges that standard, investigating whether WER or other common metrics correlate with the clinical impact of transcription errors. We establish a gold-standard benchmark by having expert clinicians compare ground-truth utterances to their ASR-generated counterparts, labeling the clinical impact of any discrepancies found in two distinct doctor-patient dialogue datasets. Our analysis reveals that WER and a comprehensive suite of existing metrics correlate poorly with the clinician-assigned risk labels (No, Minimal, or Significant Impact). To bridge this evaluation gap, we introduce an LLM-as-a-Judge, programmatically optimized using GEPA to replicate expert clinical assessment. The optimized judge (Gemini-2.5-Pro) achieves human-comparable performance, obtaining 90% accuracy and a strong Cohen's $\\kappa$ of 0.816. This work provides a validated, automated framework for moving ASR evaluation beyond simple textual fidelity to a necessary, scalable assessment of safety in clinical dialogue.",
+      "url": "https://arxiv.org/abs/2511.16544",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "asr",
+        "dialogue",
+        "wer",
+        "impact",
+        "standard",
+        "assessment",
+        "clinical dialogue",
+        "clinical impact",
+        "correlate"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the deployment of ASR in healthcare: the disconnect between WER and actual clinical impact. The use of clinician evaluation to create a gold standard and the subsequent development of an LLM-as-a-Judge are strong methodological contributions. The high accuracy of the LLM judge suggests a viable path towards automated evaluation of ASR systems in clinical settings, which is highly valuable.",
+      "paper_id": "82528cb5c0361eee1951f8af549e5ef8"
+    },
+    {
+      "title": "ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning",
+      "authors": [
+        "Hongwei Liu, Junnan Liu, Shudong Liu, Haodong Duan, Yuqiang Li, Mao Su, Xiaohong Liu, Guangtao Zhai, Xinyu Fang, Qianhong Ma, Taolin Zhang, Zihan Ma, Yufeng Zhao, Peiheng Zhou, Linchen Xiao, Wenlong Zhang, Shijie Zhou, Xingjian Ma, Siqi Sun, Jiaye Ge, Meng Li, Yuhong Liu, Jianxin Dong, Jiaying Li, Hui Wu, Hanwen Liang, Jintai Lin, Yanting Wang, Jie Dong, Tong Zhu, Tianfan Fu, Conghui He, Qi Zhang, Songyang Zhang, Lei Bai, Kai Chen"
+      ],
+      "abstract": "arXiv:2511.14366v2 Announce Type: replace \nAbstract: The rapid advancement of Large Language Models (LLMs) has led to performance saturation on many established benchmarks, questioning their ability to distinguish frontier models. Concurrently, existing high-difficulty benchmarks often suffer from narrow disciplinary focus, oversimplified answer formats, and vulnerability to data contamination, creating a fidelity gap with real-world scientific inquiry. To address these challenges, we introduce ATLAS (AGI-Oriented Testbed for Logical Application in Science), a large-scale, high-difficulty, and cross-disciplinary evaluation suite composed of approximately 800 original problems. Developed by domain experts (PhD-level and above), ATLAS spans seven core scientific fields: mathematics, physics, chemistry, biology, computer science, earth science, and materials science. Its key features include: (1) High Originality and Contamination Resistance, with all questions newly created or substantially adapted to prevent test data leakage; (2) Cross-Disciplinary Focus, designed to assess models' ability to integrate knowledge and reason across scientific domains; (3) High-Fidelity Answers, prioritizing complex, open-ended answers involving multi-step reasoning and LaTeX-formatted expressions over simple multiple-choice questions; and (4) Rigorous Quality Control, employing a multi-stage process of expert peer review and adversarial testing to ensure question difficulty, scientific value, and correctness. We also propose a robust evaluation paradigm using a panel of LLM judges for automated, nuanced assessment of complex answers. Preliminary results on leading models demonstrate ATLAS's effectiveness in differentiating their advanced scientific reasoning capabilities. We plan to develop ATLAS into a long-term, open, community-driven platform to provide a reliable \"ruler\" for progress toward Artificial General Intelligence.",
+      "url": "https://arxiv.org/abs/2511.14366",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "atlas",
+        "high",
+        "difficulty",
+        "models",
+        "science",
+        "answers",
+        "disciplinary",
+        "high difficulty",
+        "reasoning"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical need in the LLM community: robust and reliable benchmarks that can differentiate between increasingly capable models. The focus on multidisciplinary, original problems and contamination resistance is particularly strong. While the core idea of a challenging benchmark isn't entirely novel, the scale, breadth, and expert-driven creation process of ATLAS represent a significant step forward. The high sentiment score reflects the current research focus on evaluating and improving LLM reasoning capabilities.",
+      "paper_id": "7eb57d29b647558765ead9f385176a23"
+    },
+    {
+      "title": "Probing the Critical Point (CritPt) of AI Reasoning: a Frontier Physics Research Benchmark",
+      "authors": [
+        "Minhui Zhu, Minyang Tian, Xiaocheng Yang, Tianci Zhou, Lifan Yuan, Penghao Zhu, Eli Chertkov, Shengyan Liu, Yufeng Du, Ziming Ji, Indranil Das, Junyi Cao, Yufeng Du, Jiabin Yu, Peixue Wu, Jinchen He, Yifan Su, Yikun Jiang, Yujie Zhang, Chang Liu, Ze-Min Huang, Weizhen Jia, Yunkai Wang, Farshid Jafarpour, Yong Zhao, Xinan Chen, Jessie Shelton, Aaron W. Young, John Bartolotta, Wenchao Xu, Yue Sun, Anjun Chu, Victor Colussi, Chris Akers, Nathan Brooks, Wenbo Fu, Jinchao Zhao, Marvin Qi, Anqi Mu, Yubo Yang, Allen Zang, Yang Lyu, Peizhi Mai, Christopher Wilson, Xuefei Guo, Juntai Zhou, Daniel Inafuku, Chi Xue, Luyu Gao, Ze Yang, Ya\\\"ir Hein, Yonatan Kahn, Kevin Zhou, Di Luo, John Drew Wilson, Jarrod T. Reilly, Dmytro Bandak, Ofir Press, Liang Yang, Xueying Wang, Hao Tong, Nicolas Chia, Eliu Huerta, Hao Peng"
+      ],
+      "abstract": "arXiv:2509.26574v3 Announce Type: replace-cross \nAbstract: While large language models (LLMs) with reasoning capabilities are progressing rapidly on high-school math competitions and coding, can they reason effectively through complex, open-ended challenges found in frontier physics research? And crucially, what kinds of reasoning tasks do physicists want LLMs to assist with? To address these questions, we present the CritPt (Complex Research using Integrated Thinking - Physics Test, pronounced \"critical point\"), the first benchmark designed to test LLMs on unpublished, research-level reasoning tasks that broadly covers modern physics research areas, including condensed matter, quantum physics, atomic, molecular & optical physics, astrophysics, high energy physics, mathematical physics, statistical physics, nuclear physics, nonlinear dynamics, fluid dynamics and biophysics. CritPt consists of 71 composite research challenges designed to simulate full-scale research projects at the entry level, which are also decomposed to 190 simpler checkpoint tasks for more fine-grained insights. All problems are newly created by 50+ active physics researchers based on their own research. Every problem is hand-curated to admit a guess-resistant and machine-verifiable answer and is evaluated by an automated grading pipeline heavily customized for advanced physics-specific output formats. We find that while current state-of-the-art LLMs show early promise on isolated checkpoints, they remain far from being able to reliably solve full research-scale challenges: the best average accuracy among base models is only 5.7%, achieved by GPT-5 (high), moderately rising to around 10% when equipped with coding tools. Through the realistic yet standardized evaluation offered by CritPt, we highlight a large disconnect between current model capabilities and realistic physics research demands, offering a foundation to guide the development of scientifically grounded AI tools.",
+      "url": "https://arxiv.org/abs/2509.26574",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "physics",
+        "research",
+        "critpt",
+        "llms",
+        "physics research",
+        "reasoning",
+        "challenges",
+        "high",
+        "tasks",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 their ability to handle complex, open-ended reasoning in a specialized domain like physics research. The creation of the CritPt benchmark, using *unpublished* research challenges, is a significant step towards more realistic and demanding LLM testing. While benchmark creation isn't inherently groundbreaking, the focus on frontier physics and the composite nature of the challenges demonstrate a thoughtful approach. The broad coverage of physics subfields further strengthens the work.",
+      "paper_id": "09c6c2f6fa26e029061f401c1dcb78ac"
+    },
+    {
+      "title": "Subnational Geocoding of Global Disasters Using Large Language Models",
+      "authors": [
+        "Michele Ronco, Damien Delforge, Wiebke S. J\\\"ager, Christina Corbane"
+      ],
+      "abstract": "arXiv:2511.14788v1 Announce Type: new \nAbstract: Subnational location data of disaster events are critical for risk assessment and disaster risk reduction. Disaster databases such as EM-DAT often report locations in unstructured textual form, with inconsistent granularity or spelling, that make it difficult to integrate with spatial datasets. We present a fully automated LLM-assisted workflow that processes and cleans textual location information using GPT-4o, and assigns geometries by cross-checking three independent geoinformation repositories: GADM, OpenStreetMap and Wikidata. Based on the agreement and availability of these sources, we assign a reliability score to each location while generating subnational geometries. Applied to the EM-DAT dataset from 2000 to 2024, the workflow geocodes 14,215 events across 17,948 unique locations. Unlike previous methods, our approach requires no manual intervention, covers all disaster types, enables cross-verification across multiple sources, and allows flexible remapping to preferred frameworks. Beyond the dataset, we demonstrate the potential of LLMs to extract and structure geographic information from unstructured text, offering a scalable and reliable method for related analyses.",
+      "url": "https://arxiv.org/abs/2511.14788",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "disaster",
+        "location",
+        "subnational",
+        "cross",
+        "dat",
+        "dataset",
+        "em",
+        "em dat",
+        "events",
+        "geometries"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in disaster management \u2013 the inconsistent and unstructured nature of location data. The use of LLMs (GPT-4o) for automated geocoding and cross-verification with multiple geoinformation repositories is a strong methodological approach. The claim of a fully automated workflow and coverage of all disaster types is particularly noteworthy, suggesting a significant improvement over existing methods. The large-scale application to the EM-DAT dataset further strengthens the work.",
+      "paper_id": "8cde019811cc29ec9e6ca65a830ed557"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-21T09:30:31.428249"
 }

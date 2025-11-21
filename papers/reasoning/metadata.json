@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "HalluClean: A Unified Framework to Combat Hallucinations in LLMs",
+      "authors": [
+        "Yaxin Zhao, Yu Zhang"
+      ],
+      "abstract": "arXiv:2511.08916v3 Announce Type: replace \nAbstract: Large language models (LLMs) have achieved impressive performance across a wide range of natural language processing tasks, yet they often produce hallucinated content that undermines factual reliability. To address this challenge, we introduce HalluClean, a lightweight and task-agnostic framework for detecting and correcting hallucinations in LLM-generated text. HalluClean adopts a reasoning-enhanced paradigm, explicitly decomposing the process into planning, execution, and revision stages to identify and refine unsupported claims. It employs minimal task-routing prompts to enable zero-shot generalization across diverse domains, without relying on external knowledge sources or supervised detectors. We conduct extensive evaluations on five representative tasks-question answering, dialogue, summarization, math word problems, and contradiction detection. Experimental results show that HalluClean significantly improves factual consistency and outperforms competitive baselines, demonstrating its potential to enhance the trustworthiness of LLM outputs in real-world applications.",
+      "url": "https://arxiv.org/abs/2511.08916",
+      "published_date": "2025-11-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "halluclean",
+        "factual",
+        "framework",
+        "hallucinations",
+        "language",
+        "llm",
+        "llms",
+        "task",
+        "tasks",
+        "08916v3"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucination \u2013 with a promising framework. The reasoning-enhanced approach (planning, execution, revision) and zero-shot generalization capabilities are strong points. The evaluation across five diverse tasks suggests a robust methodology, though the abstract lacks specific quantitative results, hindering a higher quality score. The problem is highly significant, and the potential impact is substantial given the widespread use of LLMs.",
+      "paper_id": "56380474562b9982fd1d9c640129e9dd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-21T09:30:31.431336"
 }

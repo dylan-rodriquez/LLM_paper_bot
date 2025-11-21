@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### HalluClean: A Unified Framework to Combat Hallucinations in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Yaxin Zhao, Yu Zhang
+
+arXiv:2511.08916v3 Announce Type: replace 
+Abstract: Large language models (LLMs) have achieved impressive performance across a wide range of natural language processing tasks, yet they often produce ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.08916) | [📝 Analysis](56380474562b9982fd1d9c640129e9dd.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-21 09:30:31 UTC*

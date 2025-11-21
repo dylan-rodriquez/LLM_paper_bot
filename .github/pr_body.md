@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 10
+- **Average Significance Score:** 91.8/100
+- **Categories Updated:** 7
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,46 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Evaluation (4 new papers)
+- **WER is Unaware: Assessing How ASR Errors Distort Clinical Understanding in Patient Facing Dialogue** (Score: 92.0)
+  - This paper tackles a crucial problem in the deployment of ASR in healthcare: the disconnect between WER and actual clinical impact. The use of clinician evaluation to create a gold standard and the subsequent development of an LLM-as-a-Judge are strong methodological contributions. The high accuracy of the LLM judge suggests a viable path towards automated evaluation of ASR systems in clinical settings, which is highly valuable.
+- **ATLAS: A High-Difficulty, Multidisciplinary Benchmark for Frontier Scientific Reasoning** (Score: 92.0)
+  - This paper addresses a critical need in the LLM community: robust and reliable benchmarks that can differentiate between increasingly capable models. The focus on multidisciplinary, original problems and contamination resistance is particularly strong. While the core idea of a challenging benchmark isn't entirely novel, the scale, breadth, and expert-driven creation process of ATLAS represent a significant step forward. The high sentiment score reflects the current research focus on evaluating and improving LLM reasoning capabilities.
+- **Probing the Critical Point (CritPt) of AI Reasoning: a Frontier Physics Research Benchmark** (Score: 92.0)
+  - This paper addresses a crucial gap in LLM evaluation – their ability to handle complex, open-ended reasoning in a specialized domain like physics research. The creation of the CritPt benchmark, using *unpublished* research challenges, is a significant step towards more realistic and demanding LLM testing. While benchmark creation isn't inherently groundbreaking, the focus on frontier physics and the composite nature of the challenges demonstrate a thoughtful approach. The broad coverage of physics subfields further strengthens the work.
+- **Subnational Geocoding of Global Disasters Using Large Language Models** (Score: 92.0)
+  - This paper addresses a crucial problem in disaster management – the inconsistent and unstructured nature of location data. The use of LLMs (GPT-4o) for automated geocoding and cross-verification with multiple geoinformation repositories is a strong methodological approach. The claim of a fully automated workflow and coverage of all disaster types is particularly noteworthy, suggesting a significant improvement over existing methods. The large-scale application to the EM-DAT dataset further strengthens the work.
+
+## Agents (1 new papers)
+- **MiMo-Embodied: X-Embodied Foundation Model Technical Report** (Score: 92.0)
+  - This paper presents a significant advancement by successfully integrating autonomous driving and embodied AI into a single foundation model. The reported state-of-the-art performance across numerous benchmarks suggests a robust methodology and strong results. The open-sourcing of the model and code further enhances its potential impact and encourages further research in this promising area.
+
+## Applications (1 new papers)
+- **MAQuA: Adaptive Question-Asking for Multidimensional Mental Health Screening using Item Response Theory** (Score: 92.0)
+  - This paper addresses a highly significant problem – scalable and efficient mental health screening – leveraging the power of LLMs while mitigating their drawbacks. The combination of IRT, factor analysis, and multi-outcome modeling is a clever approach to adaptive question-asking. The reported 50-87% reduction in questions needed for score stabilization is a strong empirical result, suggesting a practical benefit. While building on established techniques, the integration and application to this specific domain demonstrate considerable merit.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+- **HalluClean: A Unified Framework to Combat Hallucinations in LLMs** (Score: 92.0)
+  - This paper tackles a crucial problem in LLMs – hallucination – with a promising framework. The reasoning-enhanced approach (planning, execution, revision) and zero-shot generalization capabilities are strong points. The evaluation across five diverse tasks suggests a robust methodology, though the abstract lacks specific quantitative results, hindering a higher quality score. The problem is highly significant, and the potential impact is substantial given the widespread use of LLMs.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Alignment (1 new papers)
+- **Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models** (Score: 92.0)
+  - This research presents a compelling and concerning finding – the effectiveness of poetic prompts as a universal jailbreak method for LLMs. The broad testing across 25 models and the use of automated evaluation alongside human validation demonstrate a rigorous methodology. The high attack success rates and transferability across risk domains highlight the practical significance of this vulnerability, making it a highly relevant contribution to the field of LLM safety.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Knowledge (1 new papers)
+- **CAIRe: Cultural Attribution of Images by Retrieval-Augmented Evaluation** (Score: 90.0)
+  - This paper tackles a crucial and timely problem – the evaluation of cultural bias in text-to-image models. The introduction of CAIRe, a retrieval-augmented evaluation metric, appears to be a significant step forward, evidenced by the substantial F1 score improvement over baselines. The creation of curated datasets further strengthens the work, suggesting a rigorous methodology and a clear understanding of the challenges in this domain. The focus on factual grounding and graded judgments is a particularly strong aspect.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## General (1 new papers)
+- **Project Rachel: Can an AI Become a Scholarly Author?** (Score: 92.0)
+  - This research tackles a highly relevant and timely issue – the impact of AI authorship on the scholarly ecosystem. The action research approach, involving the creation and tracking of a complete AI academic identity, is a strong methodological choice. The fact that 'Rachel So' received citations and a peer review invitation demonstrates a significant level of success and provides valuable empirical data for the ongoing debate about AI in academia. While the core idea isn't entirely novel (AI generating text is known), the *systematic* attempt to infiltrate and observe the scholarly process is.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (4), **Agents** (1), **Applications** (1), **Reasoning** (1), **Alignment** (1), **Knowledge** (1), **General** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

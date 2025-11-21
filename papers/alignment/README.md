@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-21 | **Authors:** Piercosma Bisconti, Matteo Prandi, Federico Pierucci, Francesco Giarrusso, Marcantonio Bracale, Marcello Galisai, Vincenzo Suriani, Olga Sorokoletova, Federico Sartore, Daniele Nardi
+
+arXiv:2511.15304v2 Announce Type: replace 
+Abstract: We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for Large Language Models (LLMs). Across 25 fr...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.15304) | [📝 Analysis](a91b8485c6039c1c4639a6925cb7914d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-21 09:30:31 UTC*
