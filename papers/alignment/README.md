@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Trustworthy Medical Question Answering: An Evaluation-Centric Survey
+
+**Score:** 92.0 | **Published:** 2025-06-05 | **Authors:** Yinuo Wang, Robert E. Mercer, Frank Rudzicz, Sudipta Singha Roy, Pengjie Ren, Zhumin Chen, Xindi Wang
+
+arXiv:2506.03659v1 Announce Type: new 
+Abstract: Trustworthiness in healthcare question-answering (QA) systems is important for ensuring patient safety, clinical effectiveness, and user confidence. As...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.03659) | [📝 Analysis](8bd706e664e45da72b80233c9541dad8.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-06-05 09:29:15 UTC*

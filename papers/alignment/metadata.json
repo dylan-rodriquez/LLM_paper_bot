@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Trustworthy Medical Question Answering: An Evaluation-Centric Survey",
+      "authors": [
+        "Yinuo Wang, Robert E. Mercer, Frank Rudzicz, Sudipta Singha Roy, Pengjie Ren, Zhumin Chen, Xindi Wang"
+      ],
+      "abstract": "arXiv:2506.03659v1 Announce Type: new \nAbstract: Trustworthiness in healthcare question-answering (QA) systems is important for ensuring patient safety, clinical effectiveness, and user confidence. As large language models (LLMs) become increasingly integrated into medical settings, the reliability of their responses directly influences clinical decision-making and patient outcomes. However, achieving comprehensive trustworthiness in medical QA poses significant challenges due to the inherent complexity of healthcare data, the critical nature of clinical scenarios, and the multifaceted dimensions of trustworthy AI. In this survey, we systematically examine six key dimensions of trustworthiness in medical QA, i.e., Factuality, Robustness, Fairness, Safety, Explainability, and Calibration. We review how each dimension is evaluated in existing LLM-based medical QA systems. We compile and compare major benchmarks designed to assess these dimensions and analyze evaluation-guided techniques that drive model improvements, such as retrieval-augmented grounding, adversarial fine-tuning, and safety alignment. Finally, we identify open challenges-such as scalable expert evaluation, integrated multi-dimensional metrics, and real-world deployment studies-and propose future research directions to advance the safe, reliable, and transparent deployment of LLM-powered medical QA.",
+      "url": "https://arxiv.org/abs/2506.03659",
+      "published_date": "2025-06-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "medical",
+        "qa",
+        "medical qa",
+        "clinical",
+        "dimensions",
+        "evaluation",
+        "safety",
+        "trustworthiness",
+        "answering",
+        "challenges"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This survey addresses a highly significant and timely problem \u2013 trustworthiness in medical QA systems powered by LLMs. The systematic examination of six key trustworthiness dimensions and compilation of benchmarks is valuable. While the concept of a survey isn't inherently innovative, the focused scope on trustworthiness and evaluation within the medical domain is strong, and the analysis of evaluation-guided techniques suggests a deeper dive than a simple literature review. The potential impact on patient safety and clinical practice is substantial.",
+      "paper_id": "8bd706e664e45da72b80233c9541dad8"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-06-05T09:29:15.595659"
 }

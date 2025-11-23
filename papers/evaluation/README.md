@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### LLMEval-Med: A Real-world Clinical Benchmark for Medical LLMs with Physician Validation
+
+**Score:** 92.0 | **Published:** 2025-06-05 | **Authors:** Ming Zhang, Yujiong Shen, Zelin Li, Huayu Sha, Binze Hu, Yuhui Wang, Chenhao Huang, Shichun Liu, Jingqi Tong, Changhao Jiang, Mingxu Chai, Zhiheng Xi, Shihan Dou, Tao Gui, Qi Zhang, Xuanjing Huang
+
+arXiv:2506.04078v1 Announce Type: new 
+Abstract: Evaluating large language models (LLMs) in medicine is crucial because medical applications require high accuracy with little room for error. Current m...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.04078) | [📝 Analysis](02171417981691094a3280f39a91ce55.md)
+
+---
+
+### EuroLLM-9B: Technical Report
+
+**Score:** 92.0 | **Published:** 2025-06-05 | **Authors:** Pedro Henrique Martins, Jo\~ao Alves, Patrick Fernandes, Nuno M. Guerreiro, Ricardo Rei, Amin Farajian, Mateusz Klimaszewski, Duarte M. Alves, Jos\'e Pombal, Manuel Faysse, Pierre Colombo, Fran\c{c}ois Yvon, Barry Haddow, Jos\'e G. C. de Souza, Alexandra Birch, Andr\'e F. T. Martins
+
+arXiv:2506.04079v1 Announce Type: new 
+Abstract: This report presents EuroLLM-9B, a large language model trained from scratch to support the needs of European citizens by covering all 24 official Euro...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.04079) | [📝 Analysis](88df3842a0fe48cef87fe2e664bbba3d.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-05 09:29:15 UTC*
