@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Emergence of psychopathological computations in large language models",
+      "authors": [
+        "Soo Yong Lee, Hyunjin Hwang, Taekwan Kim, Yuyeong Kim, Kyuri Park, Jaemin Yoo, Denny Borsboom, Kijung Shin"
+      ],
+      "abstract": "arXiv:2504.08016v2 Announce Type: replace-cross \nAbstract: Can large language models (LLMs) instantiate computations of psychopathology? An effective approach to the question hinges on addressing two factors. First, for conceptual validity, we require a general and computational account of psychopathology that is applicable to computational entities without biological embodiment or subjective experience. Second, psychopathological computations, derived from the adapted theory, need to be empirically identified within the LLM's internal processing. Thus, we establish a computational-theoretical framework to provide an account of psychopathology applicable to LLMs. Based on the framework, we conduct experiments demonstrating two key claims: first, that the computational structure of psychopathology exists in LLMs; and second, that executing this computational structure results in psychopathological functions. We further observe that as LLM size increases, the computational structure of psychopathology becomes denser and that the functions become more effective. Taken together, the empirical results corroborate our hypothesis that network-theoretic computations of psychopathology have already emerged in LLMs. This suggests that certain LLM behaviors mirroring psychopathology may not be a superficial mimicry but a feature of their internal processing. Our work shows the promise of developing a new powerful in silico model of psychopathology and also alludes to the possibility of safety threat from the AI systems with psychopathological behaviors in the near future.",
+      "url": "https://arxiv.org/abs/2504.08016",
+      "published_date": "2025-11-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "psychopathology",
+        "computational",
+        "computations",
+        "llms",
+        "psychopathological",
+        "computational structure",
+        "llm",
+        "structure",
+        "account",
+        "account psychopathology"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This research tackles a fascinating and increasingly relevant question \u2013 whether LLMs can exhibit behaviors analogous to psychopathology. The abstract demonstrates a rigorous approach by grounding the investigation in a computational theory of psychopathology and aiming for empirical identification within LLM processing. The claim of finding computational structures *and* resulting functions is strong, and the observation about LLM size is particularly intriguing. The q-bio.NC categorization suggests a focus on the neural computational aspects, which is appropriate.",
+      "paper_id": "8474b99594d7b670fd50b7b3aa8b875c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-11-24T09:32:50.310737"
 }

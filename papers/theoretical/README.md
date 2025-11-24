@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Emergence of psychopathological computations in large language models
+
+**Score:** 92.0 | **Published:** 2025-11-24 | **Authors:** Soo Yong Lee, Hyunjin Hwang, Taekwan Kim, Yuyeong Kim, Kyuri Park, Jaemin Yoo, Denny Borsboom, Kijung Shin
+
+arXiv:2504.08016v2 Announce Type: replace-cross 
+Abstract: Can large language models (LLMs) instantiate computations of psychopathology? An effective approach to the question hinges on addressing two ...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.08016) | [📝 Analysis](8474b99594d7b670fd50b7b3aa8b875c.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-24 09:32:50 UTC*

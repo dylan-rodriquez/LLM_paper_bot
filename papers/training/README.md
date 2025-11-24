@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
+
+**Score:** 92.0 | **Published:** 2025-11-24 | **Authors:** Haijiang Liu, Jinguang Gu, Xun Wu, Daniel Hershcovich, Qiaoling Xiao
+
+arXiv:2511.17256v1 Announce Type: cross 
+Abstract: As Large Language Models (LLMs) increasingly influence high-stakes decision-making across global contexts, ensuring their alignment with diverse cult...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17256) | [📝 Analysis](e6664c58dd26e1e7070fc08908766fbd.md)
+
+---
+
+### When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-24 | **Authors:** Shaowen Wang, Yiqi Dong, Ruinian Chang, Tansheng Zhu, Yuebo Sun, Kaifeng Lyu, Jian Li
+
+arXiv:2511.07318v2 Announce Type: replace 
+Abstract: Despite substantial advances, large language models (LLMs) continue to exhibit hallucinations, generating plausible yet incorrect responses. In thi...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.07318) | [📝 Analysis](fad3203c1b11f0e78c33a29feb052d6e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-24 09:32:50 UTC*

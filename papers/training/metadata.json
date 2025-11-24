@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis",
+      "authors": [
+        "Haijiang Liu, Jinguang Gu, Xun Wu, Daniel Hershcovich, Qiaoling Xiao"
+      ],
+      "abstract": "arXiv:2511.17256v1 Announce Type: cross \nAbstract: As Large Language Models (LLMs) increasingly influence high-stakes decision-making across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a Multi-Layered Auditing Platform for Responsible AI that systematically evaluates cross-cultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced Framework (DEF) for quantifying cultural fidelity, First-Token Probability Alignment for distributional accuracy, and Multi-stAge Reasoning frameworK (MARK) for interpretable decision-making. Our comparative analysis of 20+ leading models, such as Qwen, GPT-4o, Claude, LLaMA, and DeepSeek, reveals universal challenges-fundamental instability in value systems, systematic under-representation of younger demographics, and non-linear relationships between model scale and alignment quality-alongside divergent regional development trajectories. While China-origin models increasingly emphasize multilingual data integration for context-specific optimization, Western models demonstrate greater architectural experimentation but persistent U.S.-centric biases. Neither paradigm achieves robust cross-cultural generalization. We establish that Mistral-series architectures significantly outperform LLaMA3-series in cross-cultural alignment, and that Full-Parameter Fine-Tuning on diverse datasets surpasses Reinforcement Learning from Human Feedback in preserving cultural variation...",
+      "url": "https://arxiv.org/abs/2511.17256",
+      "published_date": "2025-11-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "cultural",
+        "alignment",
+        "cross",
+        "cross cultural",
+        "models",
+        "china",
+        "origin",
+        "value",
+        "ai",
+        "analysis"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 cross-cultural alignment of LLMs \u2013 with a robust, multi-faceted methodology. The development of a 'Multi-Layered Auditing Platform' and the comparative analysis of numerous models suggest a strong methodological approach. While the methodologies themselves may build upon existing techniques, their integration and application to this specific problem space demonstrate considerable value, and the identified challenges (instability, demographic under-representation) are significant.",
+      "paper_id": "e6664c58dd26e1e7070fc08908766fbd"
+    },
+    {
+      "title": "When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs",
+      "authors": [
+        "Shaowen Wang, Yiqi Dong, Ruinian Chang, Tansheng Zhu, Yuebo Sun, Kaifeng Lyu, Jian Li"
+      ],
+      "abstract": "arXiv:2511.07318v2 Announce Type: replace \nAbstract: Despite substantial advances, large language models (LLMs) continue to exhibit hallucinations, generating plausible yet incorrect responses. In this paper, we highlight a critical yet previously underexplored class of hallucinations driven by spurious correlations -- superficial but statistically prominent associations between features (e.g., surnames) and attributes (e.g., nationality) present in the training data. We demonstrate that these spurious correlations induce hallucinations that are confidently generated, immune to model scaling, evade current detection methods, and persist even after refusal fine-tuning. Through systematically controlled synthetic experiments and empirical evaluations on state-of-the-art open-source and proprietary LLMs (including GPT-5), we show that existing hallucination detection methods, such as confidence-based filtering and inner-state probing, fundamentally fail in the presence of spurious correlations. Our theoretical analysis further elucidates why these statistical biases intrinsically undermine confidence-based detection techniques. Our findings thus emphasize the urgent need for new approaches explicitly designed to address hallucinations caused by spurious correlations.",
+      "url": "https://arxiv.org/abs/2511.07318",
+      "published_date": "2025-11-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "correlations",
+        "spurious",
+        "spurious correlations",
+        "detection",
+        "hallucinations",
+        "llms",
+        "based",
+        "confidence",
+        "confidence based",
+        "detection methods"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and often overlooked problem in LLM evaluation \u2013 hallucinations stemming from spurious correlations. The systematic approach, combining synthetic experiments and evaluations on state-of-the-art models (including GPT-5), demonstrates a significant weakness in current detection methods. The finding that scaling doesn't mitigate this issue and that refusal fine-tuning is ineffective is particularly concerning and highlights the need for new evaluation techniques.",
+      "paper_id": "fad3203c1b11f0e78c33a29feb052d6e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-24T09:32:50.307570"
 }

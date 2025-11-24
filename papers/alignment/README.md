@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-11-24 | **Authors:** Ziqi Miao, Lijun Li, Yuan Xiong, Zhenhua Liu, Pengyu Zhu, Jing Shao
+
+arXiv:2507.05248v2 Announce Type: replace 
+Abstract: Contextual priming, where earlier stimuli covertly bias later judgments, offers an unexplored attack surface for large language models (LLMs). We u...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.05248) | [📝 Analysis](3af3be0a6456e2745254f040beb0eb85.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-24 09:32:50 UTC*

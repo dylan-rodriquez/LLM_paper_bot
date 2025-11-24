@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Response Attack: Exploiting Contextual Priming to Jailbreak Large Language Models",
+      "authors": [
+        "Ziqi Miao, Lijun Li, Yuan Xiong, Zhenhua Liu, Pengyu Zhu, Jing Shao"
+      ],
+      "abstract": "arXiv:2507.05248v2 Announce Type: replace \nAbstract: Contextual priming, where earlier stimuli covertly bias later judgments, offers an unexplored attack surface for large language models (LLMs). We uncover a contextual priming vulnerability in which the previous response in the dialogue can steer its subsequent behavior toward policy-violating content. While existing jailbreak attacks largely rely on single-turn or multi-turn prompt manipulations, or inject static in-context examples, these methods suffer from limited effectiveness, inefficiency, or semantic drift. We introduce Response Attack (RA), a novel framework that strategically leverages intermediate, mildly harmful responses as contextual primers within a dialogue. By reformulating harmful queries and injecting these intermediate responses before issuing a targeted trigger prompt, RA exploits a previously overlooked vulnerability in LLMs. Extensive experiments across eight state-of-the-art LLMs show that RA consistently achieves significantly higher attack success rates than nine leading jailbreak baselines. Our results demonstrate that the success of RA is directly attributable to the strategic use of intermediate responses, which induce models to generate more explicit and relevant harmful content while maintaining stealth, efficiency, and fidelity to the original query. The code and data are available at https://github.com/Dtc7w3PQ/Response-Attack.",
+      "url": "https://arxiv.org/abs/2507.05248",
+      "published_date": "2025-11-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "attack",
+        "contextual",
+        "ra",
+        "response",
+        "contextual priming",
+        "harmful",
+        "intermediate",
+        "jailbreak",
+        "llms",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 susceptibility to contextual priming \u2013 which is a novel attack vector beyond traditional prompt engineering. The 'Response Attack' framework appears well-defined and the experimental results across multiple state-of-the-art models suggest a consistent and concerning weakness. The research is highly relevant given the increasing deployment of LLMs and the need for robust safety measures, and the clear writing style enhances its accessibility.",
+      "paper_id": "3af3be0a6456e2745254f040beb0eb85"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-24T09:32:50.309726"
 }

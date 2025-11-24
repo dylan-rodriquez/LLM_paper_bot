@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Parrot: Persuasion and Agreement Robustness Rating of Output Truth -- A Sycophancy Robustness Benchmark for LLMs
+
+**Score:** 92.0 | **Published:** 2025-11-24 | **Authors:** Yusuf \c{C}elebi, Mahmoud El Hussieni, \"Ozay Ezerceli
+
+arXiv:2511.17220v1 Announce Type: new 
+Abstract: This study presents PARROT (Persuasion and Agreement Robustness Rating of Output Truth), a robustness focused framework designed to measure the degrada...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17220) | [📝 Analysis](227550eae852d34c63365fb7c51c77fa.md)
+
+---
+
+### WER is Unaware: Assessing How ASR Errors Distort Clinical Understanding in Patient Facing Dialogue
+
+**Score:** 90.0 | **Published:** 2025-11-24 | **Authors:** Zachary Ellis, Jared Joselowitz, Yash Deo, Yajie He, Anna Kalygina, Aisling Higham, Mana Rahimzadeh, Yan Jia, Ibrahim Habli, Ernest Lim
+
+arXiv:2511.16544v2 Announce Type: replace 
+Abstract: As Automatic Speech Recognition (ASR) is increasingly deployed in clinical dialogue, standard evaluations still rely heavily on Word Error Rate (WE...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.16544) | [📝 Analysis](82528cb5c0361eee1951f8af549e5ef8.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-24 09:32:50 UTC*
