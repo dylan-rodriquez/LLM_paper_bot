@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "SALT: Steering Activations towards Leakage-free Thinking in Chain of Thought",
+      "authors": [
+        "Shourya Batra, Pierce Tillman, Samarth Gaggar, Shashank Kesineni, Kevin Zhu, Sunishchal Dev, Ashwinee Panda, Vasu Sharma, Maheep Chaudhary"
+      ],
+      "abstract": "arXiv:2511.07772v2 Announce Type: replace-cross \nAbstract: As Large Language Models (LLMs) evolve into personal assistants with access to sensitive user data, they face a critical privacy challenge: while prior work has addressed output-level privacy, recent findings reveal that LLMs often leak private information through their internal reasoning processes, violating contextual privacy expectations. These leaky thoughts occur when models inadvertently expose sensitive details in their reasoning traces, even when final outputs appear safe. The challenge lies in preventing such leakage without compromising the model's reasoning capabilities, requiring a delicate balance between privacy and utility. We introduce Steering Activations towards Leakage-free Thinking (SALT), a lightweight test-time intervention that mitigates privacy leakage in model's Chain of Thought (CoT) by injecting targeted steering vectors into hidden state. We identify the high-leakage layers responsible for this behavior. Through experiments across multiple LLMs, we demonstrate that SALT achieves reductions including $18.2\\%$ reduction in CPL on QwQ-32B, $17.9\\%$ reduction in CPL on Llama-3.1-8B, and $31.2\\%$ reduction in CPL on Deepseek in contextual privacy leakage dataset AirGapAgent-R while maintaining comparable task performance and utility. Our work establishes SALT as a practical approach for test-time privacy protection in reasoning-capable language models, offering a path toward safer deployment of LLM-based personal agents.",
+      "url": "https://arxiv.org/abs/2511.07772",
+      "published_date": "2025-11-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "privacy",
+        "leakage",
+        "reasoning",
+        "salt",
+        "cpl",
+        "llms",
+        "models",
+        "reduction",
+        "reduction cpl",
+        "steering"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a very important and timely problem \u2013 privacy leakage in LLMs during reasoning. The proposed SALT method appears to be a practical, test-time intervention, which is a significant advantage. While the core idea of steering activations isn't entirely novel, applying it specifically to mitigate leakage in CoT reasoning is a valuable contribution, and the identification of high-leakage layers adds to the rigor. The potential for real-world impact is high given the increasing deployment of LLMs as personal assistants.",
+      "paper_id": "915c7626642f3159e0d3d6f47b05df7a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-24T09:32:50.311411"
 }
