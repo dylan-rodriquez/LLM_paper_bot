@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### MURMUR: Using cross-user chatter to break collaborative language agents in groups
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Atharv Singh Patlan, Peiyao Sheng, S. Ashwin Hebbar, Prateek Mittal, Pramod Viswanath
+
+arXiv:2511.17671v1 Announce Type: cross 
+Abstract: Language agents are rapidly expanding from single-user assistants to multi-user collaborators in shared workspaces and groups. However, today's langu...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17671) | [📝 Analysis](5983e980c76ad75a327afd2bab6196b3.md)
+
+---
+
+### From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence
+
+**Score:** 90.0 | **Published:** 2025-11-25 | **Authors:** Jian Yang, Wei Zhang, Shark Liu, Jiajun Wu, Shawn Guo, Yizhi Li
+
+arXiv:2511.18538v1 Announce Type: cross 
+Abstract: Large language models (LLMs) have fundamentally transformed automated software development by enabling direct translation of natural language descrip...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18538) | [📝 Analysis](b4387a867ba38842e926cc634cf0b8eb.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-25 09:32:20 UTC*

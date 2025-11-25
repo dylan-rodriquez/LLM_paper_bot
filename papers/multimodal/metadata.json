@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MTikGuard System: A Transformer-Based Multimodal System for Child-Safe Content Moderation on TikTok",
+      "authors": [
+        "Dat Thanh Nguyen, Nguyen Hung Lam, Anh Hoang-Thi Nguyen, Trong-Hop Do"
+      ],
+      "abstract": "arXiv:2511.17955v1 Announce Type: new \nAbstract: With the rapid rise of short-form videos, TikTok has become one of the most influential platforms among children and teenagers, but also a source of harmful content that can affect their perception and behavior. Such content, often subtle or deceptive, challenges traditional moderation methods due to the massive volume and real-time nature of uploads. This paper presents MTikGuard, a real-time multimodal harmful content detection system for TikTok, with three key contributions: (1) an extended TikHarm dataset expanded to 4,723 labeled videos by adding diverse real-world samples, (2) a multimodal classification framework integrating visual, audio, and textual features to achieve state-of-the-art performance with 89.37% accuracy and 89.45% F1-score, and (3) a scalable streaming architecture built on Apache Kafka and Apache Spark for real-time deployment. The results demonstrate the effectiveness of combining dataset expansion, advanced multimodal fusion, and robust deployment for practical large-scale social media content moderation. The dataset is available at https://github.com/ntdat-8324/MTikGuard-System.git.",
+      "url": "https://arxiv.org/abs/2511.17955",
+      "published_date": "2025-11-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "content",
+        "multimodal",
+        "real",
+        "dataset",
+        "moderation",
+        "mtikguard",
+        "real time",
+        "tiktok",
+        "time",
+        "89"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 child safety on TikTok \u2013 with a well-defined and practical approach. The combination of dataset expansion, multimodal classification, and a scalable architecture demonstrates a solid methodology. While the use of Transformers isn't entirely novel, the application to this specific problem and the reported performance are promising, suggesting a strong potential for positive reception within the research community.",
+      "paper_id": "585f0b9e7c70901bc2ad8899cd591fbd"
+    },
+    {
+      "title": "Dealing with the Hard Facts of Low-Resource African NLP",
+      "authors": [
+        "Yacouba Diarra, Nouhoum Souleymane Coulibaly, Panga Azazia Kamat\\'e, Madani Amadou Tall, Emmanuel \\'Elis\\'e Kon\\'e, Aymane Demb\\'el\\'e, Michael Leventhal"
+      ],
+      "abstract": "arXiv:2511.18557v1 Announce Type: new \nAbstract: Creating speech datasets, models, and evaluation frameworks for low-resource languages remains challenging given the lack of a broad base of pertinent experience to draw from. This paper reports on the field collection of 612 hours of spontaneous speech in Bambara, a low-resource West African language; the semi-automated annotation of that dataset with transcriptions; the creation of several monolingual ultra-compact and small models using the dataset; and the automatic and human evaluation of their output. We offer practical suggestions for data collection protocols, annotation, and model design, as well as evidence for the importance of performing human evaluation. In addition to the main dataset, multiple evaluation datasets, models, and code are made publicly available.",
+      "url": "https://arxiv.org/abs/2511.18557",
+      "published_date": "2025-11-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 70,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "dataset",
+        "low",
+        "low resource",
+        "models",
+        "resource",
+        "african",
+        "annotation",
+        "collection",
+        "datasets"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial problem in NLP \u2013 the lack of resources for African languages. The collection of a substantial Bambara speech dataset, coupled with model creation and evaluation, is a significant undertaking. While the methods themselves (model creation, annotation) aren't entirely novel, the application to this specific low-resource context and the emphasis on human evaluation are valuable and well-presented. The public release of data and code further strengthens the work.",
+      "paper_id": "7dc326b3381f2e25f8e7285cef3cce0a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-11-25T09:32:20.048432"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Deterministic Inference across Tensor Parallel Sizes That Eliminates Training-Inference Mismatch
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Ziyang Zhang, Xinheng Ding, Jiayi Yuan, Rixin Liu, Huizi Mao, Jiarong Xing, Zirui Liu
+
+arXiv:2511.17826v1 Announce Type: cross 
+Abstract: Deterministic inference is increasingly critical for large language model (LLM) applications such as LLM-as-a-judge evaluation, multi-agent systems, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17826) | [📝 Analysis](ea261a5dd752ec53e6cd660ab977d3da.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-25 09:32:20 UTC*
