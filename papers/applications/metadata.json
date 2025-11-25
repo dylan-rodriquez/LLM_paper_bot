@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "MURMUR: Using cross-user chatter to break collaborative language agents in groups",
+      "authors": [
+        "Atharv Singh Patlan, Peiyao Sheng, S. Ashwin Hebbar, Prateek Mittal, Pramod Viswanath"
+      ],
+      "abstract": "arXiv:2511.17671v1 Announce Type: cross \nAbstract: Language agents are rapidly expanding from single-user assistants to multi-user collaborators in shared workspaces and groups. However, today's language models lack a mechanism for isolating user interactions and concurrent tasks, creating a new attack vector inherent to this new setting: cross-user poisoning (CUP). In a CUP attack, an adversary injects ordinary-looking messages that poison the persistent, shared state, which later triggers the agent to execute unintended, attacker-specified actions on behalf of benign users. We validate CUP on real systems, successfully attacking popular multi-user agents. To study the phenomenon systematically, we present MURMUR, a framework that composes single-user tasks into concurrent, group-based scenarios using an LLM to generate realistic, history-aware user interactions. We observe that CUP attacks succeed at high rates and their effects persist across multiple tasks, thus posing fundamental risks to multi-user LLM deployments. Finally, we introduce a first-step defense with task-based clustering to mitigate this new class of vulnerability",
+      "url": "https://arxiv.org/abs/2511.17671",
+      "published_date": "2025-11-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "user",
+        "cup",
+        "agents",
+        "cross",
+        "language",
+        "multi",
+        "multi user",
+        "new",
+        "tasks",
+        "attack"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critical security vulnerability in the emerging field of collaborative language agents \u2013 cross-user poisoning. The systematic study using the MURMUR framework and validation on real systems demonstrates the practical threat. While the core idea of poisoning isn't entirely new, applying it to the multi-user agent context and developing a framework for studying it is a significant contribution. The potential for persistent, widespread impact makes this work highly relevant.",
+      "paper_id": "5983e980c76ad75a327afd2bab6196b3"
+    },
+    {
+      "title": "From Code Foundation Models to Agents and Applications: A Practical Guide to Code Intelligence",
+      "authors": [
+        "Jian Yang, Wei Zhang, Shark Liu, Jiajun Wu, Shawn Guo, Yizhi Li"
+      ],
+      "abstract": "arXiv:2511.18538v1 Announce Type: cross \nAbstract: Large language models (LLMs) have fundamentally transformed automated software development by enabling direct translation of natural language descriptions into functional code, driving commercial adoption through tools like Github Copilot (Microsoft), Cursor (Anysphere), Trae (ByteDance), and Claude Code (Anthropic). While the field has evolved dramatically from rule-based systems to Transformer-based architectures, achieving performance improvements from single-digit to over 95\\% success rates on benchmarks like HumanEval. In this work, we provide a comprehensive synthesis and practical guide (a series of analytic and probing experiments) about code LLMs, systematically examining the complete model life cycle from data curation to post-training through advanced prompting paradigms, code pre-training, supervised fine-tuning, reinforcement learning, and autonomous coding agents. We analyze the code capability of the general LLMs (GPT-4, Claude, LLaMA) and code-specialized LLMs (StarCoder, Code LLaMA, DeepSeek-Coder, and QwenCoder), critically examining the techniques, design decisions, and trade-offs. Further, we articulate the research-practice gap between academic research (e.g., benchmarks and tasks) and real-world deployment (e.g., software-related code tasks), including code correctness, security, contextual awareness of large codebases, and integration with development workflows, and map promising research directions to practical needs. Last, we conduct a series of experiments to provide a comprehensive analysis of code pre-training, supervised fine-tuning, and reinforcement learning, covering scaling law, framework selection, hyperparameter sensitivity, model architectures, and dataset comparisons.",
+      "url": "https://arxiv.org/abs/2511.18538",
+      "published_date": "2025-11-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "code",
+        "llms",
+        "practical",
+        "research",
+        "training",
+        "agents",
+        "architectures",
+        "based",
+        "benchmarks",
+        "claude"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant and timely topic \u2013 the rapidly evolving landscape of code LLMs and their application to software development. The promise of a 'practical guide' encompassing the entire model lifecycle, from data curation to autonomous agents, suggests a valuable contribution. While the abstract doesn't detail *novel* methods, the comprehensive scope and focus on practical experimentation indicate a strong potential for impact and positive reception within the community.",
+      "paper_id": "b4387a867ba38842e926cc634cf0b8eb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-11-25T09:32:20.050457"
 }

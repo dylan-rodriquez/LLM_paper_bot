@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### MTikGuard System: A Transformer-Based Multimodal System for Child-Safe Content Moderation on TikTok
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Dat Thanh Nguyen, Nguyen Hung Lam, Anh Hoang-Thi Nguyen, Trong-Hop Do
+
+arXiv:2511.17955v1 Announce Type: new 
+Abstract: With the rapid rise of short-form videos, TikTok has become one of the most influential platforms among children and teenagers, but also a source of ha...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17955) | [📝 Analysis](585f0b9e7c70901bc2ad8899cd591fbd.md)
+
+---
+
+### Dealing with the Hard Facts of Low-Resource African NLP
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Yacouba Diarra, Nouhoum Souleymane Coulibaly, Panga Azazia Kamat\'e, Madani Amadou Tall, Emmanuel \'Elis\'e Kon\'e, Aymane Demb\'el\'e, Michael Leventhal
+
+arXiv:2511.18557v1 Announce Type: new 
+Abstract: Creating speech datasets, models, and evaluation frameworks for low-resource languages remains challenging given the lack of a broad base of pertinent ...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18557) | [📝 Analysis](7dc326b3381f2e25f8e7285cef3cce0a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-25 09:32:20 UTC*

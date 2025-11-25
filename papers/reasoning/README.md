@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Models Require Curated Context for Reliable Political Fact-Checking -- Even with Reasoning and Web Search
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Matthew R. DeVerna, Kai-Cheng Yang, Harry Yaojun Yan, Filippo Menczer
+
+arXiv:2511.18749v1 Announce Type: new 
+Abstract: Large language models (LLMs) have raised hopes for automated end-to-end fact-checking, but prior studies report mixed results. As mainstream chatbots i...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18749) | [📝 Analysis](7b70e5e11100d3e7e14378146787f2de.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-25 09:32:20 UTC*

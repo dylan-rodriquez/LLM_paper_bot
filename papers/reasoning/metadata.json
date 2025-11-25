@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Large Language Models Require Curated Context for Reliable Political Fact-Checking -- Even with Reasoning and Web Search",
+      "authors": [
+        "Matthew R. DeVerna, Kai-Cheng Yang, Harry Yaojun Yan, Filippo Menczer"
+      ],
+      "abstract": "arXiv:2511.18749v1 Announce Type: new \nAbstract: Large language models (LLMs) have raised hopes for automated end-to-end fact-checking, but prior studies report mixed results. As mainstream chatbots increasingly ship with reasoning capabilities and web search tools -- and millions of users already rely on them for verification -- rigorous evaluation is urgent. We evaluate 15 recent LLMs from OpenAI, Google, Meta, and DeepSeek on more than 6,000 claims fact-checked by PolitiFact, comparing standard models with reasoning- and web-search variants. Standard models perform poorly, reasoning offers minimal benefits, and web search provides only moderate gains, despite fact-checks being available on the web. In contrast, a curated RAG system using PolitiFact summaries improved macro F1 by 233% on average across model variants. These findings suggest that giving models access to curated high-quality context is a promising path for automated fact-checking.",
+      "url": "https://arxiv.org/abs/2511.18749",
+      "published_date": "2025-11-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "fact",
+        "models",
+        "web",
+        "reasoning",
+        "search",
+        "web search",
+        "checking",
+        "curated",
+        "fact checking",
+        "automated"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the reliability of LLMs for political fact-checking, especially given their increasing use as information sources. The rigorous comparison of 15 LLMs with and without reasoning/web search, and the demonstration of the significant improvement from curated RAG, are strong points. While the core idea of curated context isn't entirely novel, the scale of the evaluation and the quantitative results are compelling. The findings suggest a clear path forward for improving LLM fact-checking capabilities.",
+      "paper_id": "7b70e5e11100d3e7e14378146787f2de"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-25T09:32:20.049398"
 }

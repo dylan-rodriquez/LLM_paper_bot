@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### SCARE: A Benchmark for SQL Correction and Question Answerability Classification for Reliable EHR Question Answering
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Gyubok Lee, Woosog Chay, Edward Choi
+
+arXiv:2511.17559v1 Announce Type: new 
+Abstract: Recent advances in Large Language Models (LLMs) have enabled the development of text-to-SQL models that allow clinicians to query structured data store...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17559) | [📝 Analysis](8f49fd1ac6e9d2ba088c28ebe4bd2dfc.md)
+
+---
+
+### MindEval: Benchmarking Language Models on Multi-turn Mental Health Support
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Jos\'e Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, Ant\'onio Farinhas, Ricardo Rei
+
+arXiv:2511.18491v1 Announce Type: new 
+Abstract: Demand for mental health support through AI chatbots is surging, though current systems present several limitations, like sycophancy or overvalidation,...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18491) | [📝 Analysis](0b45f5c338e82ee416a852757034ef80.md)
+
+---
+
+### No Free Lunch in Language Model Bias Mitigation? Targeted Bias Reduction Can Exacerbate Unmitigated LLM Biases
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Shireen Chand, Faith Baca, Emilio Ferrara
+
+arXiv:2511.18635v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) inherit societal biases from their training data, potentially leading to harmful or unfair outputs. While various techniqu...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18635) | [📝 Analysis](6a36d388053412a2c678ffea7522e92f.md)
+
+---
+
+### Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems
+
+**Score:** 92.0 | **Published:** 2025-11-25 | **Authors:** Xiaoqing Wang, Keman Huang, Bin Liang, Hongyu Li, Xiaoyong Du
+
+arXiv:2511.18467v1 Announce Type: cross 
+Abstract: The rapid advancement of Large Language Model (LLM)-driven multi-agent systems has significantly streamlined software developing tasks, enabling user...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18467) | [📝 Analysis](3a7f4554329510ce11337b89d57455b8.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-25 09:32:20 UTC*
