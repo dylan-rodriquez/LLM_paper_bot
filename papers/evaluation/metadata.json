@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MindEval: Benchmarking Language Models on Multi-turn Mental Health Support",
+      "authors": [
+        "Jos\\'e Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, Ant\\'onio Farinhas, Ricardo Rei"
+      ],
+      "abstract": "arXiv:2511.18491v2 Announce Type: replace \nAbstract: Demand for mental health support through AI chatbots is surging, though current systems present several limitations, like sycophancy or overvalidation, and reinforcement of maladaptive beliefs. A core obstacle to the creation of better systems is the scarcity of benchmarks that capture the complexity of real therapeutic interactions. Most existing benchmarks either only test clinical knowledge through multiple-choice questions or assess single responses in isolation. To bridge this gap, we present MindEval, a framework designed in collaboration with Ph.D-level Licensed Clinical Psychologists for automatically evaluating language models in realistic, multi-turn mental health therapy conversations. Through patient simulation and automatic evaluation with LLMs, our framework balances resistance to gaming with reproducibility via its fully automated, model-agnostic design. We begin by quantitatively validating the realism of our simulated patients against human-generated text and by demonstrating strong correlations between automatic and human expert judgments. Then, we evaluate 12 state-of-the-art LLMs and show that all models struggle, scoring below 4 out of 6, on average, with particular weaknesses in problematic AI-specific patterns of communication. Notably, reasoning capabilities and model scale do not guarantee better performance, and systems deteriorate with longer interactions or when supporting patients with severe symptoms. We release all code, prompts, and human evaluation data.",
+      "url": "https://arxiv.org/abs/2511.18491",
+      "published_date": "2025-11-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "health",
+        "human",
+        "mental",
+        "mental health",
+        "models",
+        "systems",
+        "ai",
+        "automatic",
+        "benchmarks",
+        "better"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 the limitations of current AI chatbots in providing effective mental health support. The development of MindEval, designed in collaboration with clinical psychologists, is a strong methodological contribution, and the focus on multi-turn conversations is crucial. The emphasis on resisting gaming and ensuring reproducibility further strengthens the work, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "0b45f5c338e82ee416a852757034ef80"
+    },
+    {
+      "title": "MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark",
+      "authors": [
+        "Junjie Xing, Yeye He, Mengyu Zhou, Haoyu Dong, Shi Han, Lingjiao Chen, Dongmei Zhang, Surajit Chaudhuri, H. V. Jagadish"
+      ],
+      "abstract": "arXiv:2506.05587v3 Announce Type: replace-cross \nAbstract: Tables and table-based use cases play a crucial role in many important real-world applications, such as spreadsheets, databases, and computational notebooks, which traditionally require expert-level users like data engineers, data analysts, and database administrators to operate. Although LLMs have shown remarkable progress in working with tables (e.g., in spreadsheet and database copilot scenarios), comprehensive benchmarking of such capabilities remains limited. In contrast to an extensive and growing list of NLP benchmarks, evaluations of table-related tasks are scarce, and narrowly focus on tasks like NL-to-SQL and Table-QA, overlooking the broader spectrum of real-world tasks that professional users face. This gap limits our understanding and model progress in this important area.\n  In this work, we introduce MMTU, a large-scale benchmark with over 28K questions across 25 real-world table tasks, designed to comprehensively evaluate models ability to understand, reason, and manipulate real tables at the expert-level. These tasks are drawn from decades' worth of computer science research on tabular data, with a focus on complex table tasks faced by professional users. We show that MMTU require a combination of skills -- including table understanding, reasoning, and coding -- that remain challenging for today's frontier models, where even frontier reasoning models like OpenAI GPT-5 and DeepSeek R1 score only around 69\\% and 57\\% respectively, suggesting significant room for improvement. We highlight key findings in our evaluation using MMTU and hope that this benchmark drives further advances in understanding and developing foundation models for structured data processing and analysis.\n  Our code and data are available at https://github.com/MMTU-Benchmark/MMTU and https://huggingface.co/datasets/MMTU-benchmark/MMTU.",
+      "url": "https://arxiv.org/abs/2506.05587",
+      "published_date": "2025-11-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mmtu",
+        "table",
+        "tasks",
+        "benchmark",
+        "data",
+        "models",
+        "real",
+        "understanding",
+        "like",
+        "real world"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical gap in LLM evaluation \u2013 the lack of comprehensive benchmarks for table understanding and reasoning. The creation of MMTU with 28K questions across 25 tasks is a substantial undertaking and demonstrates a strong methodological approach. The problem is highly relevant given the increasing use of LLMs in data-centric applications, and the benchmark is likely to be well-received by the community.",
+      "paper_id": "aab04d495b1cf0f0f94addfcf8034b27"
+    },
+    {
+      "title": "Large language models replicate and predict human cooperation across experiments in game theory",
+      "authors": [
+        "Andrea Cera Palatsi, Samuel Martin-Gutierrez, Ana S. Cardenal, Max Pellert"
+      ],
+      "abstract": "arXiv:2511.04500v2 Announce Type: replace-cross \nAbstract: Large language models (LLMs) are increasingly used both to make decisions in domains such as health, education and law, and to simulate human behavior. Yet how closely LLMs mirror actual human decision-making remains poorly understood. This gap is critical: misalignment could produce harmful outcomes in practical applications, while failure to replicate human behavior renders LLMs ineffective for social simulations. Here, we address this gap by developing a digital twin of game-theoretic experiments and introducing a systematic prompting and probing framework for machine-behavioral evaluation. Testing three open-source models (Llama, Mistral and Qwen), we find that Llama reproduces human cooperation patterns with high fidelity, capturing human deviations from rational choice theory, while Qwen aligns closely with Nash equilibrium predictions. Notably, we achieved population-level behavioral replication without persona-based prompting, simplifying the simulation process. Extending beyond the original human-tested games, we generate and preregister testable hypotheses for novel game configurations outside the original parameter grid. Our findings demonstrate that appropriately calibrated LLMs can replicate aggregate human behavioral patterns and enable systematic exploration of unexplored experimental spaces, offering a complementary approach to traditional research in the social and behavioral sciences that generates new empirical predictions about human social decision-making.",
+      "url": "https://arxiv.org/abs/2511.04500",
+      "published_date": "2025-11-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "human",
+        "behavioral",
+        "llms",
+        "game",
+        "models",
+        "replicate",
+        "social",
+        "behavior",
+        "closely",
+        "cooperation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial gap in understanding LLM behavior \u2013 how well they replicate human decision-making in social contexts. The development of a digital twin for game-theoretic experiments and a systematic prompting framework is a strong methodological contribution. The finding that different LLMs exhibit varying degrees of alignment with human and rational behavior is particularly insightful, suggesting nuanced approaches to LLM evaluation and alignment are needed. The potential for misalignment highlighted in the abstract underscores the importance of this work.",
+      "paper_id": "58a94226b5a92598a4068a0c32120108"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-11-26T09:31:30.704220"
 }

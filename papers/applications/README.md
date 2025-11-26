@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### ShortageSim: Simulating Drug Shortages under Information Asymmetry
+
+**Score:** 90.0 | **Published:** 2025-11-26 | **Authors:** Mingxuan Cui, Yilan Jiang, Duo Zhou, Cheng Qian, Yuji Zhang, Qiong Wang
+
+arXiv:2509.01813v3 Announce Type: replace-cross 
+Abstract: Drug shortages pose critical risks to patient care and healthcare systems worldwide, yet the effectiveness of regulatory interventions remain...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.01813) | [📝 Analysis](cb94d49ad7485100551790d3acb34828.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-26 09:31:30 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MindEval: Benchmarking Language Models on Multi-turn Mental Health Support
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Jos\'e Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, Ant\'onio Farinhas, Ricardo Rei
+
+arXiv:2511.18491v2 Announce Type: replace 
+Abstract: Demand for mental health support through AI chatbots is surging, though current systems present several limitations, like sycophancy or overvalidat...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18491) | [📝 Analysis](0b45f5c338e82ee416a852757034ef80.md)
+
+---
+
+### MMTU: A Massive Multi-Task Table Understanding and Reasoning Benchmark
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Junjie Xing, Yeye He, Mengyu Zhou, Haoyu Dong, Shi Han, Lingjiao Chen, Dongmei Zhang, Surajit Chaudhuri, H. V. Jagadish
+
+arXiv:2506.05587v3 Announce Type: replace-cross 
+Abstract: Tables and table-based use cases play a crucial role in many important real-world applications, such as spreadsheets, databases, and computat...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05587) | [📝 Analysis](aab04d495b1cf0f0f94addfcf8034b27.md)
+
+---
+
+### Large language models replicate and predict human cooperation across experiments in game theory
+
+**Score:** 90.0 | **Published:** 2025-11-26 | **Authors:** Andrea Cera Palatsi, Samuel Martin-Gutierrez, Ana S. Cardenal, Max Pellert
+
+arXiv:2511.04500v2 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) are increasingly used both to make decisions in domains such as health, education and law, and to simulate human...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.04500) | [📝 Analysis](58a94226b5a92598a4068a0c32120108.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-26 09:31:30 UTC*
