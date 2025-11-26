@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "BiasJailbreak:Analyzing Ethical Biases and Jailbreak Vulnerabilities in Large Language Models",
+      "authors": [
+        "Isack Lee, Haebin Seong"
+      ],
+      "abstract": "arXiv:2410.13334v5 Announce Type: replace \nAbstract: Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as `jailbreaks', where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks. Notably, these biases result in a jailbreaking success rate in GPT-4o models that differs by 20\\% between non-binary and cisgender keywords and by 16\\% between white and black keywords, even when the other parts of the prompts are identical. We introduce the concept of BiasJailbreak, highlighting the inherent risks posed by these safety-induced biases. BiasJailbreak generates biased keywords automatically by asking the target LLM itself, and utilizes the keywords to generate harmful output. Additionally, we propose an efficient defense method BiasDefense, which prevents jailbreak attempts by injecting defense prompts prior to generation. BiasDefense stands as an appealing alternative to Guard Models, such as Llama-Guard, that require additional inference cost after text generation. Our findings emphasize that ethical biases in LLMs can actually lead to generating unsafe output, and suggest a method to make the LLMs more secure and unbiased. To enable further research and improvements, we open-source our code and artifacts of BiasJailbreak, providing the community with tools to better understand and mitigate safety-induced biases in LLMs.",
+      "url": "https://arxiv.org/abs/2410.13334",
+      "published_date": "2025-11-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "biases",
+        "llms",
+        "biasjailbreak",
+        "keywords",
+        "models",
+        "safety",
+        "biases llms",
+        "ethical",
+        "ethical biases",
+        "biasdefense"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical and timely issue \u2013 the ethical biases embedded within LLMs and their exploitation for jailbreaking. The discovery of significant differences in jailbreak success rates based on demographic keywords is concerning and well-presented. The introduction of 'BiasJailbreak' and 'BiasDefense' demonstrates a proactive approach to understanding and mitigating these vulnerabilities, suggesting a solid methodology and potential for practical application.",
+      "paper_id": "8010ea718d6110094de0e7e5163f8c83"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-11-26T09:31:30.703229"
 }

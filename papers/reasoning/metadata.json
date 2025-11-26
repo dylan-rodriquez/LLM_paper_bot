@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Hybrid Neuro-Symbolic Models for Ethical AI in Risk-Sensitive Domains",
+      "authors": [
+        "Chaitanya Kumar Kolli"
+      ],
+      "abstract": "arXiv:2511.17644v1 Announce Type: new \nAbstract: Artificial intelligence deployed in risk-sensitive domains such as healthcare, finance, and security must not only achieve predictive accuracy but also ensure transparency, ethical alignment, and compliance with regulatory expectations. Hybrid neuro symbolic models combine the pattern-recognition strengths of neural networks with the interpretability and logical rigor of symbolic reasoning, making them well-suited for these contexts. This paper surveys hybrid architectures, ethical design considerations, and deployment patterns that balance accuracy with accountability. We highlight techniques for integrating knowledge graphs with deep inference, embedding fairness-aware rules, and generating human-readable explanations. Through case studies in healthcare decision support, financial risk management, and autonomous infrastructure, we show how hybrid systems can deliver reliable and auditable AI. Finally, we outline evaluation protocols and future directions for scaling neuro symbolic frameworks in complex, high stakes environments.",
+      "url": "https://arxiv.org/abs/2511.17644",
+      "published_date": "2025-11-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "hybrid",
+        "symbolic",
+        "ethical",
+        "neuro",
+        "neuro symbolic",
+        "risk",
+        "accuracy",
+        "ai",
+        "domains",
+        "healthcare"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly significant problem \u2013 ethical AI in risk-sensitive domains \u2013 and proposes a promising approach using hybrid neuro-symbolic models. The survey nature suggests a strong grasp of the existing landscape, and the focus on practical considerations like deployment and evaluation protocols adds to its value. While the abstract doesn't detail novel *methods*, it highlights the integration of existing techniques in a crucial application area, suggesting a solid contribution to the field. The case studies further strengthen the potential for real-world impact.",
+      "paper_id": "d35c02e0b27d3422c9ed261cba30953c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-11-26T09:31:30.706235"
 }

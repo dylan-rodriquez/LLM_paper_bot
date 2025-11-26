@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### A Comprehensive Survey on Long Context Language Modeling
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Jiaheng Liu, Dawei Zhu, Zhiqi Bai, Yancheng He, Huanxuan Liao, Haoran Que, Zekun Wang, Chenchen Zhang, Ge Zhang, Jiebin Zhang, Yuanxing Zhang, Zhuo Chen, Hangyu Guo, Shilong Li, Ziqiang Liu, Yong Shan, Yifan Song, Jiayi Tian, Wenhao Wu, Zhejian Zhou, Ruijie Zhu, Junlan Feng, Yang Gao, Shizhu He, Zhoujun Li, Tianyu Liu, Fanyu Meng, Wenbo Su, Yingshui Tan, Zili Wang, Jian Yang, Wei Ye, Bo Zheng, Wangchunshu Zhou, Wenhao Huang, Sujian Li, Zhaoxiang Zhang
+
+arXiv:2503.17407v2 Announce Type: replace 
+Abstract: Efficient processing of long contexts has been a persistent pursuit in Natural Language Processing. With the growing number of long documents, dial...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.17407) | [📝 Analysis](224f12c13e2f3bfc39dd2e95a37493b1.md)
+
+---
+
+### CNS-Obsidian: A Neurosurgical Vision-Language Model Built From Scientific Publications
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Anton Alyakin, Jaden Stryker, Daniel Alexander Alber, Jin Vivian Lee, Karl L. Sangwon, Brandon Duderstadt, Akshay Save, David Kurland, Spencer Frome, Shrutika Singh, Jeff Zhang, Eunice Yang, Ki Yun Park, Cordelia Orillac, Aly A. Valliani, Sean Neifert, Albert Liu, Aneek Patel, Christopher Livia, Darryl Lau, Ilya Laufer, Peter A. Rozman, Eveline Teresa Hidalgo, Howard Riina, Rui Feng, Todd Hollon, Yindalon Aphinyanaphongs, John G. Golfinos, Laura Snyder, Eric Leuthardt, Douglas Kondziolka, Eric Karl Oermann
+
+arXiv:2502.19546v5 Announce Type: replace-cross 
+Abstract: General-purpose VLMs demonstrate impressive capabilities, but their opaque training on uncurated internet data poses critical limitations for...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.19546) | [📝 Analysis](0393ccded0d4f04e44367b126363c80e.md)
+
+---
+
+### Steganographic Backdoor Attacks in NLP: Ultra-Low Poisoning and Defense Evasion
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Eric Xue, Ruiyi Zhang, Zijun Zhang, Pengtao Xie
+
+arXiv:2511.14301v2 Announce Type: replace-cross 
+Abstract: Transformer models are foundational to natural language processing (NLP) applications, yet remain vulnerable to backdoor attacks introduced t...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.14301) | [📝 Analysis](2fe9b55cb38160436bc9e82bd1732f72.md)
+
+---
+
+### A Machine Learning Approach for Detection of Mental Health Conditions and Cyberbullying from Social Media
+
+**Score:** 90.0 | **Published:** 2025-11-26 | **Authors:** Edward Ajayi, Martha Kachweka, Mawuli Deku, Emily Aiken
+
+arXiv:2511.20001v1 Announce Type: new 
+Abstract: Mental health challenges and cyberbullying are increasingly prevalent in digital spaces, necessitating scalable and interpretable detection systems. Th...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.20001) | [📝 Analysis](b56789e37e7b8d354d7832df517bf4a8.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-26 09:31:30 UTC*

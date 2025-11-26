@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Hybrid Neuro-Symbolic Models for Ethical AI in Risk-Sensitive Domains
+
+**Score:** 92.0 | **Published:** 2025-11-26 | **Authors:** Chaitanya Kumar Kolli
+
+arXiv:2511.17644v1 Announce Type: new 
+Abstract: Artificial intelligence deployed in risk-sensitive domains such as healthcare, finance, and security must not only achieve predictive accuracy but also...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.17644) | [📝 Analysis](d35c02e0b27d3422c9ed261cba30953c.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-11-26 09:31:30 UTC*
