@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### BiasJailbreak:Analyzing Ethical Biases and Jailbreak Vulnerabilities in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-11-27 | **Authors:** Isack Lee, Haebin Seong
+
+arXiv:2410.13334v5 Announce Type: replace 
+Abstract: Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as `jailbreaks...
+
+[📄 Full Paper](https://arxiv.org/abs/2410.13334) | [📝 Analysis](8010ea718d6110094de0e7e5163f8c83.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-11-27 09:31:02 UTC*

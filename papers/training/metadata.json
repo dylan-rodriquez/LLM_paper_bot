@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "A Comprehensive Survey on Long Context Language Modeling",
+      "authors": [
+        "Jiaheng Liu, Dawei Zhu, Zhiqi Bai, Yancheng He, Huanxuan Liao, Haoran Que, Zekun Wang, Chenchen Zhang, Ge Zhang, Jiebin Zhang, Yuanxing Zhang, Zhuo Chen, Hangyu Guo, Shilong Li, Ziqiang Liu, Yong Shan, Yifan Song, Jiayi Tian, Wenhao Wu, Zhejian Zhou, Ruijie Zhu, Junlan Feng, Yang Gao, Shizhu He, Zhoujun Li, Tianyu Liu, Fanyu Meng, Wenbo Su, Yingshui Tan, Zili Wang, Jian Yang, Wei Ye, Bo Zheng, Wangchunshu Zhou, Wenhao Huang, Sujian Li, Zhaoxiang Zhang"
+      ],
+      "abstract": "arXiv:2503.17407v2 Announce Type: replace \nAbstract: Efficient processing of long contexts has been a persistent pursuit in Natural Language Processing. With the growing number of long documents, dialogues, and other textual data, it is important to develop Long Context Language Models (LCLMs) that can process and analyze extensive inputs in an effective and efficient way. In this paper, we present a comprehensive survey on recent advances in long-context modeling for large language models. Our survey is structured around three key aspects: how to obtain effective and efficient LCLMs, how to train and deploy LCLMs efficiently, and how to evaluate and analyze LCLMs comprehensively. For the first aspect, we discuss data strategies, architectural designs, and workflow approaches oriented with long context processing. For the second aspect, we provide a detailed examination of the infrastructure required for LCLM training and inference. For the third aspect, we present evaluation paradigms for long-context comprehension and long-form generation, as well as behavioral analysis and mechanism interpretability of LCLMs. Beyond these three key aspects, we thoroughly explore the diverse application scenarios where existing LCLMs have been deployed and outline promising future development directions. This survey provides an up-to-date review of the literature on long-context LLMs, which we wish to serve as a valuable resource for both researchers and engineers. An associated GitHub repository collecting the latest papers and repos is available at: \\href{https://github.com/LCLM-Horizon/A-Comprehensive-Survey-For-Long-Context-Language-Modeling}{\\color[RGB]{175,36,67}{LCLM-Horizon}}.",
+      "url": "https://arxiv.org/abs/2503.17407",
+      "published_date": "2025-11-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "long",
+        "context",
+        "long context",
+        "lclms",
+        "language",
+        "survey",
+        "aspect",
+        "comprehensive",
+        "comprehensive survey",
+        "context language"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly relevant and rapidly evolving area in NLP \u2013 long context language modeling. The structured approach, covering data, architecture, training, and evaluation, suggests a thorough and well-organized review. While a survey isn't inherently innovative, its comprehensive nature and timely focus on LCLMs will likely be well-received by the community and serve as a valuable resource. The high significance and impact scores reflect the growing importance of this topic.",
+      "paper_id": "224f12c13e2f3bfc39dd2e95a37493b1"
+    },
+    {
+      "title": "CNS-Obsidian: A Neurosurgical Vision-Language Model Built From Scientific Publications",
+      "authors": [
+        "Anton Alyakin, Jaden Stryker, Daniel Alexander Alber, Jin Vivian Lee, Karl L. Sangwon, Brandon Duderstadt, Akshay Save, David Kurland, Spencer Frome, Shrutika Singh, Jeff Zhang, Eunice Yang, Ki Yun Park, Cordelia Orillac, Aly A. Valliani, Sean Neifert, Albert Liu, Aneek Patel, Christopher Livia, Darryl Lau, Ilya Laufer, Peter A. Rozman, Eveline Teresa Hidalgo, Howard Riina, Rui Feng, Todd Hollon, Yindalon Aphinyanaphongs, John G. Golfinos, Laura Snyder, Eric Leuthardt, Douglas Kondziolka, Eric Karl Oermann"
+      ],
+      "abstract": "arXiv:2502.19546v5 Announce Type: replace-cross \nAbstract: General-purpose VLMs demonstrate impressive capabilities, but their opaque training on uncurated internet data poses critical limitations for high-stakes decision-making, such as in neurosurgery. We present CNS-Obsidian, a neurosurgical VLM trained on peer-reviewed literature, and demonstrate its clinical utility versus GPT-4o in a real-world setting. We compiled 23,984 articles from Neurosurgery Publications journals, yielding 78,853 figures and captions. Using GPT-4o and Claude Sonnet-3.5, we converted these into 263,064 training samples across three formats: instruction fine-tuning, multiple-choice questions, and differential diagnosis. We trained CNS-Obsidian, a fine-tune of the 34-billion parameter LLaVA-Next model. In a blinded, randomized trial at NYU Langone Health (Aug 30-Nov 30, 2024), neurosurgery consultations were assigned to either CNS-Obsidian or a HIPAA-compliant GPT-4o endpoint as diagnostic co-pilot after consultations. Primary outcomes were diagnostic helpfulness and accuracy, assessed via user ratings and presence of correct diagnosis within the VLM-provided differential. CNS-Obsidian matched GPT-4o on synthetic questions (76.13% vs 77.54%, p=0.235), but only achieved 46.81% accuracy on human-generated questions versus GPT-4o's 65.70% (p<10-15). In the randomized trial, 70 consultations were evaluated (32 CNS-Obsidian, 38 GPT-4o) from 959 total consults (7.3% utilization). CNS-Obsidian received positive ratings in 40.62% of cases versus 57.89% for GPT-4o (p=0.230). Both models included correct diagnosis in approximately 60% of cases (59.38% vs 65.79%, p=0.626). Domain-specific VLMs trained on curated scientific literature can approach frontier model performance despite being orders of magnitude smaller and less expensive to train. This establishes a transparent framework for scientific communities to build specialized AI models.",
+      "url": "https://arxiv.org/abs/2502.19546",
+      "published_date": "2025-11-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "4o",
+        "cns",
+        "cns obsidian",
+        "gpt",
+        "gpt 4o",
+        "obsidian",
+        "consultations",
+        "diagnosis",
+        "model",
+        "neurosurgery"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial need for reliable AI in high-stakes medical domains by focusing on a VLM trained on curated, peer-reviewed literature. The blinded randomized trial at a reputable institution (NYU Langone Health) adds significant rigor. While fine-tuning an existing model (LLaVA-Next) isn't groundbreaking, the specific application to neurosurgery and the comparison against GPT-4o are compelling and suggest strong potential.",
+      "paper_id": "0393ccded0d4f04e44367b126363c80e"
+    },
+    {
+      "title": "Steganographic Backdoor Attacks in NLP: Ultra-Low Poisoning and Defense Evasion",
+      "authors": [
+        "Eric Xue, Ruiyi Zhang, Zijun Zhang, Pengtao Xie"
+      ],
+      "abstract": "arXiv:2511.14301v2 Announce Type: replace-cross \nAbstract: Transformer models are foundational to natural language processing (NLP) applications, yet remain vulnerable to backdoor attacks introduced through poisoned data, which implant hidden behaviors during training. To strengthen the ability to prevent such compromises, recent research has focused on designing increasingly stealthy attacks to stress-test existing defenses, pairing backdoor behaviors with stylized artifact or token-level perturbation triggers. However, this trend diverts attention from the harder and more realistic case: making the model respond to semantic triggers such as specific names or entities, where a successful backdoor could manipulate outputs tied to real people or events in deployed systems. Motivated by this growing disconnect, we introduce SteganoBackdoor, bringing stealth techniques back into line with practical threat models. Leveraging innocuous properties from natural-language steganography, SteganoBackdoor applies a gradient-guided data optimization process to transform semantic trigger seeds into steganographic carriers that embed a high backdoor payload, remain fluent, and exhibit no representational resemblance to the trigger. Across diverse experimental settings, SteganoBackdoor achieves over 99% attack success at an order-of-magnitude lower data-poisoning rate than prior approaches while maintaining unparalleled evasion against a comprehensive suite of data-level defenses. By revealing this practical and covert attack, SteganoBackdoor highlights an urgent blind spot in current defenses and demands immediate attention to adversarial data defenses and real-world threat modeling.",
+      "url": "https://arxiv.org/abs/2511.14301",
+      "published_date": "2025-11-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "backdoor",
+        "data",
+        "defenses",
+        "steganobackdoor",
+        "attacks",
+        "attack",
+        "attention",
+        "backdoor attacks",
+        "behaviors",
+        "evasion"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial vulnerability in NLP models \u2013 semantic backdoor attacks \u2013 which are more realistic and dangerous than current research trends focusing on stylistic triggers. The focus on steganography for stealth is a clever approach, and the motivation is well-articulated. While the abstract doesn't detail the specific methods, the problem framing suggests a strong contribution to the security and robustness of NLP systems. The work appears well-aligned with current concerns about the reliability of deployed models.",
+      "paper_id": "2fe9b55cb38160436bc9e82bd1732f72"
+    },
+    {
+      "title": "A Machine Learning Approach for Detection of Mental Health Conditions and Cyberbullying from Social Media",
+      "authors": [
+        "Edward Ajayi, Martha Kachweka, Mawuli Deku, Emily Aiken"
+      ],
+      "abstract": "arXiv:2511.20001v1 Announce Type: new \nAbstract: Mental health challenges and cyberbullying are increasingly prevalent in digital spaces, necessitating scalable and interpretable detection systems. This paper introduces a unified multiclass classification framework for detecting ten distinct mental health and cyberbullying categories from social media data. We curate datasets from Twitter and Reddit, implementing a rigorous \"split-then-balance\" pipeline to train on balanced data while evaluating on a realistic, held-out imbalanced test set. We conducted a comprehensive evaluation comparing traditional lexical models, hybrid approaches, and several end-to-end fine-tuned transformers. Our results demonstrate that end-to-end fine-tuning is critical for performance, with the domain-adapted MentalBERT emerging as the top model, achieving an accuracy of 0.92 and a Macro F1 score of 0.76, surpassing both its generic counterpart and a zero-shot LLM baseline. Grounded in a comprehensive ethical analysis, we frame the system as a human-in-the-loop screening aid, not a diagnostic tool. To support this, we introduce a hybrid SHAPLLM explainability framework and present a prototype dashboard (\"Social Media Screener\") designed to integrate model predictions and their explanations into a practical workflow for moderators. Our work provides a robust baseline, highlighting future needs for multi-label, clinically-validated datasets at the critical intersection of online safety and computational mental health.",
+      "url": "https://arxiv.org/abs/2511.20001",
+      "published_date": "2025-11-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 70,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "end",
+        "health",
+        "mental",
+        "mental health",
+        "cyberbullying",
+        "media",
+        "social",
+        "social media",
+        "baseline",
+        "comprehensive"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly significant problem \u2013 mental health and cyberbullying detection \u2013 with a sound methodology. The use of a 'split-then-balance' pipeline and comparison of various models, including domain-adapted transformers like MentalBERT, demonstrates rigor. The reported accuracy and Macro F1 score are promising, and the mention of ethical considerations suggests responsible research. The novelty is moderate, building on existing transformer architectures, but the domain adaptation and comprehensive evaluation are valuable.",
+      "paper_id": "b56789e37e7b8d354d7832df517bf4a8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-11-27T09:31:02.684117"
 }
