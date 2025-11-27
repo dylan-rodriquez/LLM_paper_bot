@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "ShortageSim: Simulating Drug Shortages under Information Asymmetry",
+      "authors": [
+        "Mingxuan Cui, Yilan Jiang, Duo Zhou, Cheng Qian, Yuji Zhang, Qiong Wang"
+      ],
+      "abstract": "arXiv:2509.01813v3 Announce Type: replace-cross \nAbstract: Drug shortages pose critical risks to patient care and healthcare systems worldwide, yet the effectiveness of regulatory interventions remains poorly understood due to information asymmetries in pharmaceutical supply chains. We propose \\textbf{ShortageSim}, addresses this challenge by providing the first simulation framework that evaluates the impact of regulatory interventions on competition dynamics under information asymmetry. Using Large Language Model (LLM)-based agents, the framework models the strategic decisions of drug manufacturers and institutional buyers, in response to shortage alerts given by the regulatory agency. Unlike traditional game theory models that assume perfect rationality and complete information, ShortageSim simulates heterogeneous interpretations on regulatory announcements and the resulting decisions. Experiments on self-processed dataset of historical shortage events show that ShortageSim reduces the resolution lag for production disruption cases by up to 84\\%, achieving closer alignment to real-world trajectories than the zero-shot baseline. Our framework confirms the effect of regulatory alert in addressing shortages and introduces a new method for understanding competition in multi-stage environments under uncertainty. We open-source ShortageSim and a dataset of 2,925 FDA shortage events, providing a novel framework for future research on policy design and testing in supply chains under information asymmetry.",
+      "url": "https://arxiv.org/abs/2509.01813",
+      "published_date": "2025-11-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.MA"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "information",
+        "regulatory",
+        "shortagesim",
+        "framework",
+        "asymmetry",
+        "drug",
+        "information asymmetry",
+        "shortage",
+        "shortages",
+        "chains"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a highly significant problem \u2013 drug shortages \u2013 with a novel approach using LLM-based agents to simulate complex interactions under information asymmetry. The use of simulation to evaluate regulatory interventions is a strong methodological choice, and the focus on heterogeneous interpretations of information is particularly insightful. While the abstract is brief, the described framework appears well-motivated and potentially impactful, suggesting a solid foundation for further research.",
+      "paper_id": "cb94d49ad7485100551790d3acb34828"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-11-27T09:31:02.688562"
 }
