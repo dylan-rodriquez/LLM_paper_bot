@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-01 | **Authors:** Xiang Hu, Zhanchao Zhou, Ruiqi Liang, Zehuan Li, Wei Wu, Jianguo Li
+
+arXiv:2511.23319v1 Announce Type: new 
+Abstract: This work explores the challenge of building ``Machines that Can Remember'', framing long-term memory as the problem of efficient ultra-long context mo...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.23319) | [📝 Analysis](1a1a77ee741d89d5743c6e2cce70d668.md)
+
+---
+
+### TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies
+
+**Score:** 90.0 | **Published:** 2025-12-01 | **Authors:** Guang Liang, Jie Shao, Ningyuan Tang, Xinyao Liu, Jianxin Wu
+
+arXiv:2511.23225v1 Announce Type: new 
+Abstract: Native FP8 support in modern hardware is essential for training large Transformers, but is severely hindered by extreme activation outliers. Existing s...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.23225) | [📝 Analysis](905f2826d43973d128b693df827bea7a.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-01 09:36:06 UTC*

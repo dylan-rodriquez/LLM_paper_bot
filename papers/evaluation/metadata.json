@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models",
+      "authors": [
+        "Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani"
+      ],
+      "abstract": "arXiv:2511.22016v1 Announce Type: new \nAbstract: Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age, and profession. Using few-shot prompting with human-in-the-loop validation, we augmented the dataset to over 5,000 stereotype-antistereotype pairs. Entries were validated through semantic clustering and manual annotation by culturally informed reviewers. Preliminary evaluation of language models reveals that nine of eleven models exhibit statistically significant bias, with Bias Preference Ratios (BPR) ranging from 0.63 to 0.78 (p <= 0.05), indicating systematic preferences for stereotypes over antistereotypes, particularly across age, profession, and gender dimensions. Domain-specific models appeared to show weaker bias in our setup, suggesting task-specific training may mitigate some associations. Looking ahead, AfriStereo opens pathways for future research on culturally grounded bias evaluation and mitigation, offering key methodologies for the AI community on building more equitable, context-aware, and globally inclusive NLP technologies.",
+      "url": "https://arxiv.org/abs/2511.22016",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "evaluation",
+        "models",
+        "afristereo",
+        "culturally",
+        "dataset",
+        "grounded",
+        "stereotypes",
+        "african",
+        "age"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI bias evaluation by focusing on African contexts, which are often overlooked. The community-engaged data collection process and the creation of a culturally grounded dataset are strong methodological points. The preliminary results demonstrating bias in existing LLMs further highlight the importance of this work, and the use of BPR provides a quantifiable metric for bias assessment. The paper's focus on a critical societal issue and its potential to improve fairness in AI systems make it highly promising.",
+      "paper_id": "53660630c006f1d35d1584554d374e12"
+    },
+    {
+      "title": "ShoppingComp: Are LLMs Really Ready for Your Shopping Cart?",
+      "authors": [
+        "Huaixiao Tou, Ying Zeng, Cong Ma, Muzhi Li, Minghao Li, Weijie Yuan, He Zhang, Kai Jia"
+      ],
+      "abstract": "arXiv:2511.22978v1 Announce Type: new \nAbstract: We present ShoppingComp, a challenging real-world benchmark for rigorously evaluating LLM-powered shopping agents on three core capabilities: precise product retrieval, expert-level report generation, and safety critical decision making. Unlike prior e-commerce benchmarks, ShoppingComp introduces highly complex tasks under the principle of guaranteeing real products and ensuring easy verifiability, adding a novel evaluation dimension for identifying product safety hazards alongside recommendation accuracy and report quality. The benchmark comprises 120 tasks and 1,026 scenarios, curated by 35 experts to reflect authentic shopping needs. Results reveal stark limitations of current LLMs: even state-of-the-art models achieve low performance (e.g., 11.22% for GPT-5, 3.92% for Gemini-2.5-Flash). These findings highlight a substantial gap between research benchmarks and real-world deployment, where LLMs make critical errors such as failure to identify unsafe product usage or falling for promotional misinformation, leading to harmful recommendations. ShoppingComp fills the gap and thus establishes a new standard for advancing reliable and practical agents in e-commerce.",
+      "url": "https://arxiv.org/abs/2511.22978",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "shoppingcomp",
+        "llms",
+        "product",
+        "real",
+        "shopping",
+        "agents",
+        "benchmark",
+        "benchmarks",
+        "commerce",
+        "critical"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the reliability of LLMs in real-world e-commerce applications. The creation of ShoppingComp, with its focus on verifiable product safety and complex tasks, represents a significant step forward in benchmark design. The low performance of current state-of-the-art models highlights a critical gap and suggests substantial room for improvement, making this work likely to be well-received by the community.",
+      "paper_id": "05823f2ea0586ef335450bb391f5082c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-01T09:36:06.178036"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "A Theoretically Grounded Hybrid Ensemble for Reliable Detection of LLM-Generated Text",
+      "authors": [
+        "Sepyan Purnama Kristanto, Lutfi Hakim"
+      ],
+      "abstract": "arXiv:2511.22153v1 Announce Type: new \nAbstract: The rapid proliferation of Large Language Models (LLMs) has blurred the line between human and machine authorship, creating practical risks for academic integrity and information reliability. Existing text detectors typically rely on a single methodological paradigm and suffer from poor generalization and high false positive rates (FPR), especially on high-stakes academic text. We propose a theoretically grounded hybrid ensemble that systematically fuses three complementary detection paradigms: (i) a RoBERTa-based transformer classifier for deep semantic feature extraction, (ii) a GPT-2-based probabilistic detector using perturbation-induced likelihood curvature, and (iii) a statistical linguistic feature analyzer capturing stylometric patterns. The core novelty lies in an optimized weighted voting framework, where ensemble weights are learned on the probability simplex to maximize F1-score rather than set heuristically. We provide a bias-variance analysis and empirically demonstrate low inter-model correlation (rho ~ 0.35-0.42), a key condition for variance reduction. Evaluated on a large-scale, multigenerator corpus of 30,000 documents, our system achieves 94.2% accuracy and an AUC of 0.978, with a 35% relative reduction in false positives on academic text. This yields a more reliable and ethically responsible detector for real-world deployment in education and other high-stakes domains.",
+      "url": "https://arxiv.org/abs/2511.22153",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "academic",
+        "ensemble",
+        "high",
+        "35",
+        "academic text",
+        "based",
+        "detection",
+        "detector",
+        "false"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 detecting LLM-generated text \u2013 and proposes a well-reasoned hybrid approach. The combination of different detection paradigms and the optimized weighted voting framework suggest a solid methodology. The focus on reducing false positives, particularly in academic contexts, is a significant strength, and the theoretical grounding adds to the rigor. The abstract indicates a focus on F1-score optimization, which is a good metric for this type of problem.",
+      "paper_id": "ae3b443c2aa6623e39e00c150f812eb3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-01T09:36:06.179053"
 }

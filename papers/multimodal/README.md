@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Decoding inner speech with an end-to-end brain-to-text neural interface
+
+**Score:** 92.0 | **Published:** 2025-12-01 | **Authors:** Yizi Zhang, Linyang He, Chaofei Fan, Tingkai Liu, Han Yu, Trung Le, Jingyuan Li, Scott Linderman, Lea Duncker, Francis R Willett, Nima Mesgarani, Liam Paninski
+
+arXiv:2511.21740v1 Announce Type: new 
+Abstract: Speech brain-computer interfaces (BCIs) aim to restore communication for people with paralysis by translating neural activity into text. Most systems u...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.21740) | [📝 Analysis](338fa6cbdebdcaf487b0f4ba5c153dae.md)
+
+---
+
+### Closing the Performance Gap Between AI and Radiologists in Chest X-Ray Reporting
+
+**Score:** 90.0 | **Published:** 2025-12-01 | **Authors:** Harshita Sharma, Maxwell C. Reynolds, Valentina Salvatelli, Anne-Marie G. Sykes, Kelly K. Horst, Anton Schwaighofer, Maximilian Ilse, Olesya Melnichenko, Sam Bond-Taylor, Fernando P\'erez-Garc\'ia, Vamshi K. Mugu, Alex Chan, Ceylan Colak, Shelby A. Swartz, Motassem B. Nashawaty, Austin J. Gonzalez, Heather A. Ouellette, Selnur B. Erdal, Beth A. Schueler, Maria T. Wetscherek, Noel Codella, Mohit Jain, Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Stephanie Hyland, Panos Korfiatis, Ashish Khandelwal, Javier Alvarez-Valle
+
+arXiv:2511.21735v1 Announce Type: new 
+Abstract: AI-assisted report generation offers the opportunity to reduce radiologists' workload stemming from expanded screening guidelines, complex cases and wo...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.21735) | [📝 Analysis](cd92db08f15ffb2718ca3793371f6134.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-01 09:36:06 UTC*

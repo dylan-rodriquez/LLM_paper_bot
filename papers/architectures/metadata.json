@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+      "authors": [
+        "Xiang Hu, Zhanchao Zhou, Ruiqi Liang, Zehuan Li, Wei Wu, Jianguo Li"
+      ],
+      "abstract": "arXiv:2511.23319v1 Announce Type: new \nAbstract: This work explores the challenge of building ``Machines that Can Remember'', framing long-term memory as the problem of efficient ultra-long context modeling. We argue that this requires three key properties: \\textbf{sparsity}, \\textbf{random-access flexibility}, and \\textbf{length generalization}. To address ultra-long-context modeling, we leverage Hierarchical Sparse Attention (HSA), a novel attention mechanism that satisfies all three properties. We integrate HSA into Transformers to build HSA-UltraLong, which is an 8B-parameter MoE model trained on over 8 trillion tokens and is rigorously evaluated on different tasks with in-domain and out-of-domain context lengths to demonstrate its capability in handling ultra-long contexts. Results show that our model performs comparably to full-attention baselines on in-domain lengths while achieving over 90\\% accuracy on most in-context retrieval tasks with contexts up to 16M. This report outlines our experimental insights and open problems, contributing a foundation for future research in ultra-long context modeling.",
+      "url": "https://arxiv.org/abs/2511.23319",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "context",
+        "long",
+        "ultra",
+        "ultra long",
+        "long context",
+        "attention",
+        "context modeling",
+        "domain",
+        "hsa",
+        "modeling"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 handling ultra-long contexts \u2013 and proposes a novel attention mechanism (HSA) to address it. The reported performance, achieving over 90% accuracy on retrieval tasks with 16M context, is impressive. The scale of the model (8B parameters, 8T tokens) and rigorous evaluation suggest a high-quality study, though full details will require reading the complete paper.",
+      "paper_id": "1a1a77ee741d89d5743c6e2cce70d668"
+    },
+    {
+      "title": "TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies",
+      "authors": [
+        "Guang Liang, Jie Shao, Ningyuan Tang, Xinyao Liu, Jianxin Wu"
+      ],
+      "abstract": "arXiv:2511.23225v1 Announce Type: new \nAbstract: Native FP8 support in modern hardware is essential for training large Transformers, but is severely hindered by extreme activation outliers. Existing solutions either rely on complex mixed-precision engineering or invasive architectural modifications. This paper fundamentally challenges the conventional wisdom that outliers are data-driven. We demonstrate that extreme outliers are a data-independent, mechanically-produced artifact of training, originating from specific structural properties of the weight matrices (i.e., colinearity). Based on this insight, we propose TWEO (Transformers Without Extreme Outliers), a novel, non-invasive loss function. TWEO effectively prevents extreme outliers via a very simple loss term, which reduces outliers from 10000+ to less than 20. TWEO then enables full-model FP8 pre-training with neither engineering tricks nor architectural changes for both LLM and ViT. When standard FP8 training catastrophically collapses, TWEO achieves performance comparable to the BF16 baseline while delivering a 36% increase in training throughput. Also, TWEO enables a new quantization paradigm. Hardware-friendly W8A8 per-tensor static quantization of LLMs, previously considered completely unusable due to outliers, achieves SOTA performance for the first time on TWEO-trained models.",
+      "url": "https://arxiv.org/abs/2511.23225",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "outliers",
+        "tweo",
+        "training",
+        "extreme",
+        "extreme outliers",
+        "fp8",
+        "enables",
+        "quantization",
+        "transformers",
+        "achieves"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical bottleneck in large Transformer training \u2013 FP8 outlier issues \u2013 with a surprisingly simple and elegant solution. The claim of identifying outliers as mechanically produced rather than data-driven is a strong one, and the reported reduction in outliers is impressive. If validated, this work could significantly lower the barrier to entry for FP8 training, making it accessible to a wider range of researchers and practitioners.",
+      "paper_id": "905f2826d43973d128b693df827bea7a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-12-01T09:36:06.180129"
 }

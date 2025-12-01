@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "When Harmless Words Harm: A New Threat to LLM Safety via Conceptual Triggers",
+      "authors": [
+        "Zhaoxin Zhang, Borui Chen, Yiming Hu, Youyang Qu, Tianqing Zhu, Longxiang Gao"
+      ],
+      "abstract": "arXiv:2511.21718v1 Announce Type: new \nAbstract: Recent research on large language model (LLM) jailbreaks has primarily focused on techniques that bypass safety mechanisms to elicit overtly harmful outputs. However, such efforts often overlook attacks that exploit the model's capacity for abstract generalization, creating a critical blind spot in current alignment strategies. This gap enables adversaries to induce objectionable content by subtly manipulating the implicit social values embedded in model outputs. In this paper, we introduce MICM, a novel, model-agnostic jailbreak method that targets the aggregate value structure reflected in LLM responses. Drawing on conceptual morphology theory, MICM encodes specific configurations of nuanced concepts into a fixed prompt template through a predefined set of phrases. These phrases act as conceptual triggers, steering model outputs toward a specific value stance without triggering conventional safety filters. We evaluate MICM across five advanced LLMs, including GPT-4o, Deepseek-R1, and Qwen3-8B. Experimental results show that MICM consistently outperforms state-of-the-art jailbreak techniques, achieving high success rates with minimal rejection. Our findings reveal a critical vulnerability in commercial LLMs: their safety mechanisms remain susceptible to covert manipulation of underlying value alignment.",
+      "url": "https://arxiv.org/abs/2511.21718",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "model",
+        "micm",
+        "safety",
+        "conceptual",
+        "llm",
+        "outputs",
+        "value",
+        "abstract",
+        "alignment",
+        "conceptual triggers"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and often overlooked aspect of LLM safety \u2013 subtle manipulation of values rather than overt harmful output. The MICM method, grounded in conceptual morphology, appears novel and well-motivated. The potential to bypass existing safety filters by targeting aggregate value structures is significant, suggesting a real threat to current alignment strategies. The abstract is clear and concise, indicating a rigorous approach.",
+      "paper_id": "468efbfe64f0a936ec6d40865fff1a0e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-01T09:36:06.175935"
 }
