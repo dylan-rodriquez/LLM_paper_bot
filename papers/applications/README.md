@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Theoretically Grounded Hybrid Ensemble for Reliable Detection of LLM-Generated Text
+
+**Score:** 92.0 | **Published:** 2025-12-01 | **Authors:** Sepyan Purnama Kristanto, Lutfi Hakim
+
+arXiv:2511.22153v1 Announce Type: new 
+Abstract: The rapid proliferation of Large Language Models (LLMs) has blurred the line between human and machine authorship, creating practical risks for academi...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.22153) | [📝 Analysis](ae3b443c2aa6623e39e00c150f812eb3.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-01 09:36:06 UTC*

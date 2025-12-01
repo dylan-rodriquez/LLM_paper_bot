@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Decoding inner speech with an end-to-end brain-to-text neural interface",
+      "authors": [
+        "Yizi Zhang, Linyang He, Chaofei Fan, Tingkai Liu, Han Yu, Trung Le, Jingyuan Li, Scott Linderman, Lea Duncker, Francis R Willett, Nima Mesgarani, Liam Paninski"
+      ],
+      "abstract": "arXiv:2511.21740v1 Announce Type: new \nAbstract: Speech brain-computer interfaces (BCIs) aim to restore communication for people with paralysis by translating neural activity into text. Most systems use cascaded frameworks that decode phonemes before assembling sentences with an n-gram language model (LM), preventing joint optimization of all stages simultaneously. Here, we introduce an end-to-end Brain-to-Text (BIT) framework that translates neural activity into coherent sentences using a single differentiable neural network. Central to our approach is a cross-task, cross-species pretrained neural encoder, whose representations transfer to both attempted and imagined speech. In a cascaded setting with an n-gram LM, the pretrained encoder establishes a new state-of-the-art (SOTA) on the Brain-to-Text '24 and '25 benchmarks. Integrated end-to-end with audio large language models (LLMs) and trained with contrastive learning for cross-modal alignment, BIT reduces the word error rate (WER) of the prior end-to-end method from 24.69% to 10.22%. Notably, we find that small-scale audio LLMs markedly improve end-to-end decoding. Beyond record-setting performance, BIT aligns attempted and imagined speech embeddings to enable cross-task generalization. Altogether, our approach advances the integration of large, diverse neural datasets, paving the way for an end-to-end decoding framework that supports seamless, differentiable optimization.",
+      "url": "https://arxiv.org/abs/2511.21740",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "end",
+        "end end",
+        "neural",
+        "brain",
+        "cross",
+        "speech",
+        "text",
+        "bit",
+        "brain text",
+        "decoding"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 restoring communication for paralyzed individuals \u2013 with a novel end-to-end approach. The use of a pretrained neural encoder and integration with LLMs appears promising, as evidenced by improved WER scores on established benchmarks. The shift from cascaded systems to a differentiable end-to-end framework represents a substantial methodological advancement, and the focus on cross-modal alignment is a strong point.",
+      "paper_id": "338fa6cbdebdcaf487b0f4ba5c153dae"
+    },
+    {
+      "title": "Closing the Performance Gap Between AI and Radiologists in Chest X-Ray Reporting",
+      "authors": [
+        "Harshita Sharma, Maxwell C. Reynolds, Valentina Salvatelli, Anne-Marie G. Sykes, Kelly K. Horst, Anton Schwaighofer, Maximilian Ilse, Olesya Melnichenko, Sam Bond-Taylor, Fernando P\\'erez-Garc\\'ia, Vamshi K. Mugu, Alex Chan, Ceylan Colak, Shelby A. Swartz, Motassem B. Nashawaty, Austin J. Gonzalez, Heather A. Ouellette, Selnur B. Erdal, Beth A. Schueler, Maria T. Wetscherek, Noel Codella, Mohit Jain, Shruthi Bannur, Kenza Bouzid, Daniel C. Castro, Stephanie Hyland, Panos Korfiatis, Ashish Khandelwal, Javier Alvarez-Valle"
+      ],
+      "abstract": "arXiv:2511.21735v1 Announce Type: new \nAbstract: AI-assisted report generation offers the opportunity to reduce radiologists' workload stemming from expanded screening guidelines, complex cases and workforce shortages, while maintaining diagnostic accuracy. In addition to describing pathological findings in chest X-ray reports, interpreting lines and tubes (L&amp;T) is demanding and repetitive for radiologists, especially with high patient volumes. We introduce MAIRA-X, a clinically evaluated multimodal AI model for longitudinal chest X-ray (CXR) report generation, that encompasses both clinical findings and L&amp;T reporting. Developed using a large-scale, multi-site, longitudinal dataset of 3.1 million studies (comprising 6 million images from 806k patients) from Mayo Clinic, MAIRA-X was evaluated on three holdout datasets and the public MIMIC-CXR dataset, where it significantly improved AI-generated reports over the state of the art on lexical quality, clinical correctness, and L&amp;T-related elements. A novel L&amp;T-specific metrics framework was developed to assess accuracy in reporting attributes such as type, longitudinal change and placement. A first-of-its-kind retrospective user evaluation study was conducted with nine radiologists of varying experience, who blindly reviewed 600 studies from distinct subjects. The user study found comparable rates of critical errors (3.0% for original vs. 4.6% for AI-generated reports) and a similar rate of acceptable sentences (97.8% for original vs. 97.4% for AI-generated reports), marking a significant improvement over prior user studies with larger gaps and higher error rates. Our results suggest that MAIRA-X can effectively assist radiologists, particularly in high-volume clinical settings.",
+      "url": "https://arxiv.org/abs/2511.21735",
+      "published_date": "2025-12-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "ai",
+        "radiologists",
+        "amp",
+        "reports",
+        "ai generated",
+        "chest",
+        "chest ray",
+        "clinical",
+        "generated",
+        "generated reports"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a highly significant problem \u2013 the increasing workload on radiologists \u2013 with a potentially impactful solution. The large dataset size (3.1 million studies) and multi-site origin suggest a robust and generalizable model. While AI in radiology is an active area, the focus on *both* clinical findings and line/tube reporting, along with demonstrated improvements over the state-of-the-art, indicates a valuable contribution.",
+      "paper_id": "cd92db08f15ffb2718ca3793371f6134"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-01T09:36:06.176916"
 }

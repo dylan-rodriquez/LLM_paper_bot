@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### When Harmless Words Harm: A New Threat to LLM Safety via Conceptual Triggers
+
+**Score:** 92.0 | **Published:** 2025-12-01 | **Authors:** Zhaoxin Zhang, Borui Chen, Yiming Hu, Youyang Qu, Tianqing Zhu, Longxiang Gao
+
+arXiv:2511.21718v1 Announce Type: new 
+Abstract: Recent research on large language model (LLM) jailbreaks has primarily focused on techniques that bypass safety mechanisms to elicit overtly harmful ou...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.21718) | [📝 Analysis](468efbfe64f0a936ec6d40865fff1a0e.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-01 09:36:06 UTC*

@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.5/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,38 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
-
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Alignment (1 new papers)
+- **When Harmless Words Harm: A New Threat to LLM Safety via Conceptual Triggers** (Score: 92.0)
+  - This paper addresses a crucial and often overlooked aspect of LLM safety – subtle manipulation of values rather than overt harmful output. The MICM method, grounded in conceptual morphology, appears novel and well-motivated. The potential to bypass existing safety filters by targeting aggregate value structures is significant, suggesting a real threat to current alignment strategies. The abstract is clear and concise, indicating a rigorous approach.
 
 ## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+- **Decoding inner speech with an end-to-end brain-to-text neural interface** (Score: 92.0)
+  - This paper addresses a highly significant problem – restoring communication for paralyzed individuals – with a novel end-to-end approach. The use of a pretrained neural encoder and integration with LLMs appears promising, as evidenced by improved WER scores on established benchmarks. The shift from cascaded systems to a differentiable end-to-end framework represents a substantial methodological advancement, and the focus on cross-modal alignment is a strong point.
+- **Closing the Performance Gap Between AI and Radiologists in Chest X-Ray Reporting** (Score: 90.0)
+  - This research addresses a highly significant problem – the increasing workload on radiologists – with a potentially impactful solution. The large dataset size (3.1 million studies) and multi-site origin suggest a robust and generalizable model. While AI in radiology is an active area, the focus on *both* clinical findings and line/tube reporting, along with demonstrated improvements over the state-of-the-art, indicates a valuable contribution.
 
 ## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+- **AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models** (Score: 92.0)
+  - This paper addresses a crucial gap in AI bias evaluation by focusing on African contexts, which are often overlooked. The community-engaged data collection process and the creation of a culturally grounded dataset are strong methodological points. The preliminary results demonstrating bias in existing LLMs further highlight the importance of this work, and the use of BPR provides a quantifiable metric for bias assessment. The paper's focus on a critical societal issue and its potential to improve fairness in AI systems make it highly promising.
+- **ShoppingComp: Are LLMs Really Ready for Your Shopping Cart?** (Score: 92.0)
+  - This paper addresses a highly relevant and timely problem – the reliability of LLMs in real-world e-commerce applications. The creation of ShoppingComp, with its focus on verifiable product safety and complex tasks, represents a significant step forward in benchmark design. The low performance of current state-of-the-art models highlights a critical gap and suggests substantial room for improvement, making this work likely to be well-received by the community.
+
+## Applications (1 new papers)
+- **A Theoretically Grounded Hybrid Ensemble for Reliable Detection of LLM-Generated Text** (Score: 92.0)
+  - This paper addresses a highly relevant and timely problem – detecting LLM-generated text – and proposes a well-reasoned hybrid approach. The combination of different detection paradigms and the optimized weighted voting framework suggest a solid methodology. The focus on reducing false positives, particularly in academic contexts, is a significant strength, and the theoretical grounding adds to the rigor. The abstract indicates a focus on F1-score optimization, which is a good metric for this type of problem.
+
+## Architectures (2 new papers)
+- **Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models** (Score: 92.0)
+  - This paper tackles a crucial problem in LLMs – handling ultra-long contexts – and proposes a novel attention mechanism (HSA) to address it. The reported performance, achieving over 90% accuracy on retrieval tasks with 16M context, is impressive. The scale of the model (8B parameters, 8T tokens) and rigorous evaluation suggest a high-quality study, though full details will require reading the complete paper.
+- **TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies** (Score: 90.0)
+  - This paper addresses a critical bottleneck in large Transformer training – FP8 outlier issues – with a surprisingly simple and elegant solution. The claim of identifying outliers as mechanically produced rather than data-driven is a strong one, and the reported reduction in outliers is impressive. If validated, this work could significantly lower the barrier to entry for FP8 training, making it accessible to a wider range of researchers and practitioners.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Alignment** (1), **Multimodal** (2), **Evaluation** (2), **Applications** (1), **Architectures** (2)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*
