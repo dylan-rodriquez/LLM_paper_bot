@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "EduEval: A Hierarchical Cognitive Benchmark for Evaluating Large Language Models in Chinese Education",
+      "authors": [
+        "Guoqing Ma, Jia Zhu, Hanghui Guo, Weijie Shi, Yue Cui, Jiawei Shen, Zilong Li, Yidan Liang"
+      ],
+      "abstract": "arXiv:2512.00290v1 Announce Type: new \nAbstract: Large language models (LLMs) demonstrate significant potential for educational applications. However, their unscrutinized deployment poses risks to educational standards, underscoring the need for rigorous evaluation. We introduce EduEval, a comprehensive hierarchical benchmark for evaluating LLMs in Chinese K-12 education. This benchmark makes three key contributions: (1) Cognitive Framework: We propose the EduAbility Taxonomy, which unifies Bloom's Taxonomy and Webb's Depth of Knowledge to organize tasks across six cognitive dimensions including Memorization, Understanding, Application, Reasoning, Creativity, and Ethics. (2) Authenticity: Our benchmark integrates real exam questions, classroom conversation, student essays, and expert-designed prompts to reflect genuine educational challenges; (3) Scale: EduEval comprises 24 distinct task types with over 11,000 questions spanning primary to high school levels. We evaluate 14 leading LLMs under both zero-shot and few-shot settings, revealing that while models perform well on factual tasks, they struggle with classroom dialogue classification and exhibit inconsistent results in creative content generation. Interestingly, several open source models outperform proprietary systems on complex educational reasoning. Few-shot prompting shows varying effectiveness across cognitive dimensions, suggesting that different educational objectives require tailored approaches. These findings provide targeted benchmarking metrics for developing LLMs specifically optimized for diverse Chinese educational tasks.",
+      "url": "https://arxiv.org/abs/2512.00290",
+      "published_date": "2025-12-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "educational",
+        "benchmark",
+        "cognitive",
+        "llms",
+        "models",
+        "chinese",
+        "edueval",
+        "shot",
+        "tasks",
+        "benchmark evaluating"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need for robust evaluation of LLMs in a specific, high-stakes domain \u2013 Chinese K-12 education. The combination of established cognitive frameworks (Bloom's & Webb's) with authentic educational materials and a large scale benchmark (11,000+ questions) demonstrates a strong methodological approach. The focus on ethics is also a valuable addition, and the timing aligns with the growing interest in responsible AI deployment in education. The community is likely to receive this work positively given the current focus on LLM evaluation and educational applications.",
+      "paper_id": "dcc4fba35310a3fde1e43b2890845d5b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-02T09:34:27.439257"
 }

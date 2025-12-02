@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Generalist Large Language Models Outperform Clinical Tools on Medical Benchmarks",
+      "authors": [
+        "Krithik Vishwanath, Mrigayu Ghosh, Anton Alyakin, Daniel Alexander Alber, Yindalon Aphinyanaphongs, Eric Karl Oermann"
+      ],
+      "abstract": "arXiv:2512.01191v1 Announce Type: new \nAbstract: Specialized clinical AI assistants are rapidly entering medical practice, often framed as safer or more reliable than general-purpose large language models (LLMs). Yet, unlike frontier models, these clinical tools are rarely subjected to independent, quantitative evaluation, creating a critical evidence gap despite their growing influence on diagnosis, triage, and guideline interpretation. We assessed two widely deployed clinical AI systems (OpenEvidence and UpToDate Expert AI) against three state-of-the-art generalist LLMs (GPT-5, Gemini 3 Pro, and Claude Sonnet 4.5) using a 1,000-item mini-benchmark combining MedQA (medical knowledge) and HealthBench (clinician-alignment) tasks. Generalist models consistently outperformed clinical tools, with GPT-5 achieving the highest scores, while OpenEvidence and UpToDate demonstrated deficits in completeness, communication quality, context awareness, and systems-based safety reasoning. These findings reveal that tools marketed for clinical decision support may often lag behind frontier LLMs, underscoring the urgent need for transparent, independent evaluation before deployment in patient-facing workflows.",
+      "url": "https://arxiv.org/abs/2512.01191",
+      "published_date": "2025-12-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "clinical",
+        "models",
+        "tools",
+        "ai",
+        "clinical tools",
+        "generalist",
+        "llms",
+        "medical",
+        "clinical ai",
+        "evaluation"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research directly challenges the assumption that specialized clinical AI is inherently superior to generalist LLMs, a crucial point given the increasing reliance on these tools in healthcare. The quantitative comparison using established benchmarks is rigorous and addresses a significant evidence gap. While the methodology isn't groundbreaking, the findings are compelling and likely to spark debate and further investigation. The clear framing of the problem and the use of well-known benchmarks contribute to the paper's overall quality.",
+      "paper_id": "dc2063ee31a4058f3e358971e7b0b9cf"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-02T09:34:27.440353"
 }

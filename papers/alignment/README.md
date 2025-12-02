@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Generalist Large Language Models Outperform Clinical Tools on Medical Benchmarks
+
+**Score:** 92.0 | **Published:** 2025-12-02 | **Authors:** Krithik Vishwanath, Mrigayu Ghosh, Anton Alyakin, Daniel Alexander Alber, Yindalon Aphinyanaphongs, Eric Karl Oermann
+
+arXiv:2512.01191v1 Announce Type: new 
+Abstract: Specialized clinical AI assistants are rapidly entering medical practice, often framed as safer or more reliable than general-purpose large language mo...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.01191) | [📝 Analysis](dc2063ee31a4058f3e358971e7b0b9cf.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-02 09:34:27 UTC*
