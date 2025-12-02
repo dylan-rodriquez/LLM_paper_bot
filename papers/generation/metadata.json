@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning",
+      "authors": [
+        "Arnesh Batra, Dev Sharma, Krish Thukral, Ruhani Bhatia, Naman Batra, Aditya Gautam"
+      ],
+      "abstract": "arXiv:2512.00621v1 Announce Type: cross \nAbstract: The rapid evolution of end-to-end AI music generation poses an escalating threat to artistic authenticity and copyright, demanding detection methods that can keep pace. While foundational, existing models like SpecTTTra falter when faced with the diverse and rapidly advancing ecosystem of new generators, exhibiting significant performance drops on out-of-distribution (OOD) content. This generalization failure highlights a critical gap: the need for more challenging benchmarks and more robust detection architectures. To address this, we first introduce Melody or Machine (MoM), a new large-scale benchmark of over 130,000 songs (6,665 hours). MoM is the most diverse dataset to date, built with a mix of open and closed-source models and a curated OOD test set designed specifically to foster the development of truly generalizable detectors. Alongside this benchmark, we introduce CLAM, a novel dual-stream detection architecture. We hypothesize that subtle, machine-induced inconsistencies between vocal and instrumental elements, often imperceptible in a mixed signal, offer a powerful tell-tale sign of synthesis. CLAM is designed to test this hypothesis by employing two distinct pre-trained audio encoders (MERT and Wave2Vec2) to create parallel representations of the audio. These representations are fused by a learnable cross-aggregation module that models their inter-dependencies. The model is trained with a dual-loss objective: a standard binary cross-entropy loss for classification, complemented by a contrastive triplet loss which trains the model to distinguish between coherent and artificially mismatched stream pairings, enhancing its sensitivity to synthetic artifacts without presuming a simple feature alignment. CLAM establishes a new state-of-the-art in synthetic music forensics. It achieves an F1 score of 0.925 on our challenging MoM benchmark.",
+      "url": "https://arxiv.org/abs/2512.00621",
+      "published_date": "2025-12-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "benchmark",
+        "clam",
+        "cross",
+        "detection",
+        "dual",
+        "loss",
+        "machine",
+        "models",
+        "mom",
+        "music"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a very timely and important problem \u2013 the detection of AI-generated music \u2013 which is becoming increasingly critical due to copyright and authenticity concerns. The introduction of a large, diverse benchmark dataset (MoM) is a significant contribution, and the dual-stream contrastive learning architecture (CLAM) appears to be a promising approach to improve generalization. While the abstract doesn't detail the specifics of CLAM, the focus on OOD performance suggests a well-considered methodology.",
+      "paper_id": "6e6eab1e3f8578f1dd7e1055c499f685"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-12-02T09:34:27.441059"
 }

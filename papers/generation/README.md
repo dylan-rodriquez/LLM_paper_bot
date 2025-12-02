@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning
+
+**Score:** 92.0 | **Published:** 2025-12-02 | **Authors:** Arnesh Batra, Dev Sharma, Krish Thukral, Ruhani Bhatia, Naman Batra, Aditya Gautam
+
+arXiv:2512.00621v1 Announce Type: cross 
+Abstract: The rapid evolution of end-to-end AI music generation poses an escalating threat to artistic authenticity and copyright, demanding detection methods ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.00621) | [📝 Analysis](6e6eab1e3f8578f1dd7e1055c499f685.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-02 09:34:27 UTC*
