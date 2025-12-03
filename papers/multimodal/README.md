@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Spoken Conversational Agents with Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Chao-Han Huck Yang, Andreas Stolcke, Larry Heck
+
+arXiv:2512.02593v1 Announce Type: new 
+Abstract: Spoken conversational agents are converging toward voice-native LLMs. This tutorial distills the path from cascaded ASR/NLU to end-to-end, retrieval-an...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02593) | [📝 Analysis](cca6b89957cb9ef07d3606a58efd39ca.md)
+
+---
+
+### OmniGuard: Unified Omni-Modal Guardrails with Deliberate Reasoning
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Boyu Zhu, Xiaofei Wen, Wenjie Jacky Mo, Tinghui Zhu, Yanan Xie, Peng Qi, Muhao Chen
+
+arXiv:2512.02306v1 Announce Type: cross 
+Abstract: Omni-modal Large Language Models (OLLMs) that process text, images, videos, and audio introduce new challenges for safety and value guardrails in hum...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02306) | [📝 Analysis](7c29535ec3d0a787f46c37779b6b1140.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*

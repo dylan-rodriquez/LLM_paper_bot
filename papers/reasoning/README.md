@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Yuanhe Zhang, Weiliu Wang, Zhenhong Zhou, Kun Wang, Jie Zhang, Li Sun, Yang Liu, Sen Su
+
+arXiv:2512.02321v1 Announce Type: cross 
+Abstract: Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in reasoning, planning, and tool usage. The recently proposed Model...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02321) | [📝 Analysis](50efd93f317304cb82c0ce9f8c44db32.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*

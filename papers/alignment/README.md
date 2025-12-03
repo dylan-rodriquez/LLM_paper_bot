@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Adrian Arnaiz-Rodriguez, Miguel Baidal, Erik Derner, Jenn Layton Annable, Mark Ball, Mark Ince, Elvira Perez Vallejos, Nuria Oliver
+
+arXiv:2509.24857v2 Announce Type: replace 
+Abstract: Large language model-powered chatbots have transformed how people seek information, especially in high-stakes contexts like mental health. Despite ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.24857) | [📝 Analysis](5893e430f3a617047e668de0c5b4c631.md)
+
+---
+
+### An Empirical Survey of Model Merging Algorithms for Social Bias Mitigation
+
+**Score:** 90.0 | **Published:** 2025-12-03 | **Authors:** Daiki Shirafuji, Tatsuhiko Saito, Yasutomo Kimura
+
+arXiv:2512.02689v1 Announce Type: new 
+Abstract: Large language models (LLMs) are known to inherit and even amplify societal biases present in their pre-training corpora, threatening fairness and soci...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02689) | [📝 Analysis](6cb9fcbdc566b57cf4c6b67fbe365da2.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*

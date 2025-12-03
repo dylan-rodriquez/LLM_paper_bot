@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Human-Level and Beyond: Benchmarking Large Language Models Against Clinical Pharmacists in Prescription Review
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Yan Yang, Mouxiao Bian, Peiling Li, Bingjian Wen, Ruiyao Chen, Kangkun Mao, Xiaojun Ye, Tianbin Li, Pengcheng Chen, Bing Han, Jie Xu, Kaifeng Qiu, Junyan Wu
+
+arXiv:2512.02024v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) has accelerated their integration into clinical decision support, particularly in prescription re...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02024) | [📝 Analysis](1a43d73361806d7b998761fc439278ad.md)
+
+---
+
+### LLMEval-3: A Large-Scale Longitudinal Study on Robust and Fair Evaluation of Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Ming Zhang, Yujiong Shen, Jingyi Deng, Yuhui Wang, Yue Zhang, Junzhe Wang, Shichun Liu, Shihan Dou, Huayu Sha, Qiyuan Peng, Changhao Jiang, Jingqi Tong, Yilong Wu, Zhihao Zhang, Mingqi Wu, Zhiheng Xi, Mingxu Chai, Tao Gui, Qi Zhang, Xuanjing Huang
+
+arXiv:2508.05452v3 Announce Type: replace 
+Abstract: Existing evaluation of Large Language Models (LLMs) on static benchmarks is vulnerable to data contamination and leaderboard overfitting, critical ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05452) | [📝 Analysis](41c6c3c529b4b106854092964004bf01.md)
+
+---
+
+### Towards Unification of Hallucination Detection and Fact Verification for Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-03 | **Authors:** Weihang Su, Jianming Long, Changyue Wang, Shiyu Lin, Jingyan Xu, Ziyi Ye, Qingyao Ai, Yiqun Liu
+
+arXiv:2512.02772v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) frequently exhibit hallucinations, generating content that appears fluent and coherent but is factually incorrect. Such er...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02772) | [📝 Analysis](74db89c8d163d430308939c9eba1df66.md)
+
+---
+
+### Apertus: Democratizing Open and Compliant LLMs for Global Language Environments
+
+**Score:** 90.0 | **Published:** 2025-12-03 | **Authors:** Project Apertus, Alejandro Hern\'andez-Cano, Alexander H\"agele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank \v{D}urech, Ido Hakimi, Juan Garc\'ia Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabol\v{c}ec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, In\'es Altemir Mari\~nas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian B\"osch, Maximilian B\"other, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, Mar\'ia Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike L\"ubeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendon\c{c}a, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, L\'eo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao, Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tram\`er, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag
+
+arXiv:2509.14233v2 Announce Type: replace 
+Abstract: We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosyste...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14233) | [📝 Analysis](d21de7f24dd3a946106390117a0d4652.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*

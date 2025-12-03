@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Mechanisms of Symbol Processing for In-Context Learning in Transformer Networks
+
+**Score:** 90.0 | **Published:** 2025-12-03 | **Authors:** Paul Smolensky, Roland Fernandez, Zhenghao Herbert Zhou, Mattia Opper, Adam Davies, Jianfeng Gao
+
+arXiv:2410.17498v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have demonstrated impressive abilities in symbol processing through in-context learning (ICL). This success flie...
+
+[📄 Full Paper](https://arxiv.org/abs/2410.17498) | [📝 Analysis](a4cdf1133402ed7eda05a19e48829c29.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*
