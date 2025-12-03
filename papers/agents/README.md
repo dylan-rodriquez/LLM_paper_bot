@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems
+
+**Score:** 92.0 | **Published:** 2025-12-03 | **Authors:** Andy K. Zhang, Joey Ji, Celeste Menders, Riya Dulepet, Thomas Qin, Ron Y. Wang, Junrong Wu, Kyleen Liao, Jiliang Li, Jinghan Hu, Sara Hong, Nardos Demilew, Shivatmica Murgai, Jason Tran, Nishka Kacheria, Ethan Ho, Denis Liu, Lauren McLane, Olivia Bruvik, Dai-Rong Han, Seungwoo Kim, Akhil Vyas, Cuiyuanxiu Chen, Ryan Li, Weiran Xu, Jonathan Z. Ye, Prerit Choudhary, Siddharth M. Bhatia, Vikram Sivashankar, Yuxuan Bao, Dawn Song, Dan Boneh, Daniel E. Ho, Percy Liang
+
+arXiv:2505.15216v3 Announce Type: replace-cross 
+Abstract: AI agents have the potential to significantly alter the cybersecurity landscape. Here, we introduce the first framework to capture offensive ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.15216) | [📝 Analysis](1b08494f9d17cf0e204e2fc6d7473b9e.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-03 09:33:03 UTC*

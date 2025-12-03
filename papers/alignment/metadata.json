@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs",
+      "authors": [
+        "Adrian Arnaiz-Rodriguez, Miguel Baidal, Erik Derner, Jenn Layton Annable, Mark Ball, Mark Ince, Elvira Perez Vallejos, Nuria Oliver"
+      ],
+      "abstract": "arXiv:2509.24857v2 Announce Type: replace \nAbstract: Large language model-powered chatbots have transformed how people seek information, especially in high-stakes contexts like mental health. Despite their support capabilities, safe detection and response to crises such as suicidal ideation and self-harm are still unclear, hindered by the lack of unified crisis taxonomies and clinical evaluation standards.\n  We address this by creating: (1) a taxonomy of six crisis categories; (2) a dataset of over 2,000 inputs from 12 mental health datasets, classified into these categories; and (3) a clinical response assessment protocol. We also use LLMs to identify crisis inputs and audit five models for response safety and appropriateness. First, we built a clinical-informed crisis taxonomy and evaluation protocol. Next, we curated 2,252 relevant examples from over 239,000 user inputs, then tested three LLMs for automatic classification.\n  In addition, we evaluated five models for the appropriateness of their responses to a user's crisis, graded on a 5-point Likert scale from harmful (1) to appropriate (5). While some models respond reliably to explicit crises, risks still exist. Many outputs, especially in self-harm and suicidal categories, are inappropriate or unsafe. Different models perform variably; some, like gpt-5-nano and deepseek-v3.2-exp, have low harm rates, but others, such as gpt-4o-mini and grok-4-fast, generate more unsafe responses. All models struggle with indirect signals, default replies, and context misalignment.\n  These results highlight the urgent need for better safeguards, crisis detection, and context-aware responses in LLMs. They also show that alignment and safety practices, beyond scale, are crucial for reliable crisis support. Our taxonomy, datasets, and evaluation methods support ongoing AI mental health research, aiming to reduce harm and protect vulnerable users.",
+      "url": "https://arxiv.org/abs/2509.24857",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "crisis",
+        "harm",
+        "models",
+        "evaluation",
+        "health",
+        "llms",
+        "mental",
+        "mental health",
+        "categories",
+        "clinical"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a critically important and timely problem \u2013 the safe deployment of LLMs in mental health crisis support. The creation of a crisis taxonomy and a clinical evaluation protocol are strong methodological contributions. While the LLM auditing aspect isn't entirely novel, the combination of these elements and the focus on clinical safety elevates the work, suggesting it will be well-received by the community.",
+      "paper_id": "5893e430f3a617047e668de0c5b4c631"
+    },
+    {
+      "title": "An Empirical Survey of Model Merging Algorithms for Social Bias Mitigation",
+      "authors": [
+        "Daiki Shirafuji, Tatsuhiko Saito, Yasutomo Kimura"
+      ],
+      "abstract": "arXiv:2512.02689v1 Announce Type: new \nAbstract: Large language models (LLMs) are known to inherit and even amplify societal biases present in their pre-training corpora, threatening fairness and social trust. To address this issue, recent work has explored ``editing'' LLM parameters to mitigate social bias with model merging approaches; however, there is no empirical comparison. In this work, we empirically survey seven algorithms: Linear, Karcher Mean, SLERP, NuSLERP, TIES, DELLA, and Nearswap, applying 13 open weight models in the GPT, LLaMA, and Qwen families. We perform a comprehensive evaluation using three bias datasets (BBQ, BOLD, and HONEST) and measure the impact of these techniques on LLM performance in downstream tasks of the SuperGLUE benchmark. We find a trade-off between bias reduction and downstream performance: methods achieving greater bias mitigation degrade accuracy, particularly on tasks requiring reading comprehension and commonsense and causal reasoning. Among the merging algorithms, Linear, SLERP, and Nearswap consistently reduce bias while maintaining overall performance, with SLERP at moderate interpolation weights emerging as the most balanced choice. These results highlight the potential of model merging algorithms for bias mitigation, while indicating that excessive debiasing or inappropriate merging methods may lead to the degradation of important linguistic abilities.",
+      "url": "https://arxiv.org/abs/2512.02689",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "merging",
+        "algorithms",
+        "bias mitigation",
+        "merging algorithms",
+        "mitigation",
+        "model",
+        "model merging",
+        "performance",
+        "slerp"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant problem \u2013 mitigating social bias in LLMs \u2013 and provides a much-needed empirical comparison of existing model merging techniques. The comprehensive evaluation across multiple models, bias datasets, and downstream tasks strengthens the rigor of the work. While the methods themselves aren't entirely novel, the systematic comparison and identification of trade-offs between bias reduction and performance are valuable contributions. The clear finding of a performance degradation with increased bias mitigation is important for practitioners.",
+      "paper_id": "6cb9fcbdc566b57cf4c6b67fbe365da2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-03T09:33:03.106631"
 }

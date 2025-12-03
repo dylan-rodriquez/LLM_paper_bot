@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Human-Level and Beyond: Benchmarking Large Language Models Against Clinical Pharmacists in Prescription Review",
+      "authors": [
+        "Yan Yang, Mouxiao Bian, Peiling Li, Bingjian Wen, Ruiyao Chen, Kangkun Mao, Xiaojun Ye, Tianbin Li, Pengcheng Chen, Bing Han, Jie Xu, Kaifeng Qiu, Junyan Wu"
+      ],
+      "abstract": "arXiv:2512.02024v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) has accelerated their integration into clinical decision support, particularly in prescription review. To enable systematic and fine-grained evaluation, we developed RxBench, a comprehensive benchmark that covers common prescription review categories and consolidates 14 frequent types of prescription errors drawn from authoritative pharmacy references. RxBench consists of 1,150 single-choice, 230 multiple-choice, and 879 short-answer items, all reviewed by experienced clinical pharmacists. We benchmarked 18 state-of-the-art LLMs and identified clear stratification of performance across tasks. Notably, Gemini-2.5-pro-preview-05-06, Grok-4-0709, and DeepSeek-R1-0528 consistently formed the first tier, outperforming other models in both accuracy and robustness. Comparisons with licensed pharmacists indicated that leading LLMs can match or exceed human performance in certain tasks. Furthermore, building on insights from our benchmark evaluation, we performed targeted fine-tuning on a mid-tier model, resulting in a specialized model that rivals leading general-purpose LLMs in performance on short-answer question tasks. The main contribution of RxBench lies in establishing a standardized, error-type-oriented framework that not only reveals the capabilities and limitations of frontier LLMs in prescription review but also provides a foundational resource for building more reliable and specialized clinical tools.",
+      "url": "https://arxiv.org/abs/2512.02024",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "prescription",
+        "clinical",
+        "prescription review",
+        "review",
+        "models",
+        "performance",
+        "pharmacists",
+        "rxbench",
+        "tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 the application of LLMs to clinical prescription review. The creation of RxBench, a comprehensive and pharmacist-validated benchmark, is a significant contribution. While benchmarking isn't entirely novel, the scale and focus on clinical accuracy elevate this work, and the finding that LLMs can match or exceed human performance is compelling. The clear stratification of LLM performance is also valuable.",
+      "paper_id": "1a43d73361806d7b998761fc439278ad"
+    },
+    {
+      "title": "LLMEval-3: A Large-Scale Longitudinal Study on Robust and Fair Evaluation of Large Language Models",
+      "authors": [
+        "Ming Zhang, Yujiong Shen, Jingyi Deng, Yuhui Wang, Yue Zhang, Junzhe Wang, Shichun Liu, Shihan Dou, Huayu Sha, Qiyuan Peng, Changhao Jiang, Jingqi Tong, Yilong Wu, Zhihao Zhang, Mingqi Wu, Zhiheng Xi, Mingxu Chai, Tao Gui, Qi Zhang, Xuanjing Huang"
+      ],
+      "abstract": "arXiv:2508.05452v3 Announce Type: replace \nAbstract: Existing evaluation of Large Language Models (LLMs) on static benchmarks is vulnerable to data contamination and leaderboard overfitting, critical issues that obscure true model capabilities. To address this, we introduce LLMEval-3, a framework for dynamic evaluation of LLMs. LLMEval-3 is built on a proprietary bank of 220k graduate-level questions, from which it dynamically samples unseen test sets for each evaluation run. Its automated pipeline ensures integrity via contamination-resistant data curation, a novel anti-cheating architecture, and a calibrated LLM-as-a-judge process achieving 90% agreement with human experts, complemented by a relative ranking system for fair comparison. An 20-month longitudinal study of nearly 50 leading models reveals a performance ceiling on knowledge memorization and exposes data contamination vulnerabilities undetectable by static benchmarks. The framework demonstrates exceptional robustness in ranking stability and consistency, providing strong empirical validation for the dynamic evaluation paradigm. LLMEval-3 offers a robust and credible methodology for assessing the true capabilities of LLMs beyond leaderboard scores, promoting the development of more trustworthy evaluation standards.",
+      "url": "https://arxiv.org/abs/2508.05452",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "llmeval",
+        "contamination",
+        "data",
+        "large",
+        "llms",
+        "models",
+        "benchmarks",
+        "capabilities",
+        "data contamination"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 the vulnerability to contamination and overfitting on static benchmarks. The LLMEval-3 framework, with its dynamic sampling and anti-cheating mechanisms, represents a significant step towards more robust and reliable assessments. The 20-month longitudinal study provides valuable insights into model capabilities and limitations, and the high agreement with human experts lends credibility to the automated evaluation process.",
+      "paper_id": "41c6c3c529b4b106854092964004bf01"
+    },
+    {
+      "title": "Towards Unification of Hallucination Detection and Fact Verification for Large Language Models",
+      "authors": [
+        "Weihang Su, Jianming Long, Changyue Wang, Shiyu Lin, Jingyan Xu, Ziyi Ye, Qingyao Ai, Yiqun Liu"
+      ],
+      "abstract": "arXiv:2512.02772v1 Announce Type: new \nAbstract: Large Language Models (LLMs) frequently exhibit hallucinations, generating content that appears fluent and coherent but is factually incorrect. Such errors undermine trust and hinder their adoption in real-world applications. To address this challenge, two distinct research paradigms have emerged: model-centric Hallucination Detection (HD) and text-centric Fact Verification (FV). Despite sharing the same goal, these paradigms have evolved in isolation, using distinct assumptions, datasets, and evaluation protocols. This separation has created a research schism that hinders their collective progress. In this work, we take a decisive step toward bridging this divide. We introduce UniFact, a unified evaluation framework that enables direct, instance-level comparison between FV and HD by dynamically generating model outputs and corresponding factuality labels. Through large-scale experiments across multiple LLM families and detection methods, we reveal three key findings: (1) No paradigm is universally superior; (2) HD and FV capture complementary facets of factual errors; and (3) hybrid approaches that integrate both methods consistently achieve state-of-the-art performance. Beyond benchmarking, we provide the first in-depth analysis of why FV and HD diverged, as well as empirical evidence supporting the need for their unification. The comprehensive experimental results call for a new, integrated research agenda toward unifying Hallucination Detection and Fact Verification in LLMs.\n  We have open-sourced all the code, data, and baseline implementation at: https://github.com/oneal2000/UniFact/",
+      "url": "https://arxiv.org/abs/2512.02772",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "detection",
+        "fv",
+        "hd",
+        "fact",
+        "fact verification",
+        "hallucination",
+        "hallucination detection",
+        "large",
+        "research",
+        "verification"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM research \u2013 the disconnect between hallucination detection and fact verification. The proposed 'UniFact' framework appears well-motivated and addresses a significant research gap by offering a unified evaluation approach. The potential for large-scale experiments and comparison across LLM families suggests a rigorous methodology, and the problem's importance ensures a positive reception within the community.",
+      "paper_id": "74db89c8d163d430308939c9eba1df66"
+    },
+    {
+      "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+      "authors": [
+        "Project Apertus, Alejandro Hern\\'andez-Cano, Alexander H\\\"agele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank \\v{D}urech, Ido Hakimi, Juan Garc\\'ia Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabol\\v{c}ec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, In\\'es Altemir Mari\\~nas, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian B\\\"osch, Maximilian B\\\"other, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, Mar\\'ia Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike L\\\"ubeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendon\\c{c}a, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, L\\'eo Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao, Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tram\\`er, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag"
+      ],
+      "abstract": "arXiv:2509.14233v2 Announce Type: replace \nAbstract: We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosystem: data compliance and multilingual representation. Unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecting `robots.txt` exclusions and filtering for non-permissive, toxic, and personally identifiable content. To mitigate risks of memorization, we adopt the Goldfish objective during pretraining, strongly suppressing verbatim recall of data while retaining downstream task performance. The Apertus models also expand multilingual coverage, training on 15T tokens from over 1800 languages, with ~40% of pretraining data allocated to non-English content. Released at 8B and 70B scales, Apertus approaches state-of-the-art results among fully open models on multilingual benchmarks, rivalling or surpassing open-weight counterparts. Beyond model weights, we release all scientific artifacts from our development cycle with a permissive license, including data preparation scripts, checkpoints, evaluation suites, and training code, enabling transparent audit and extension.",
+      "url": "https://arxiv.org/abs/2509.14233",
+      "published_date": "2025-12-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "data",
+        "apertus",
+        "models",
+        "open",
+        "content",
+        "multilingual",
+        "apertus models",
+        "fully",
+        "fully open",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses critical issues in the LLM space \u2013 data compliance and multilingual representation \u2013 which are often overlooked. The focus on openly available data, respecting `robots.txt`, and filtering for harmful content demonstrates a responsible approach to model development. The use of the Goldfish objective is a clever technique to mitigate memorization, and the scale of multilingual training (1800+ languages) is impressive. The high sentiment score reflects the current community desire for open, responsible, and globally inclusive LLMs.",
+      "paper_id": "d21de7f24dd3a946106390117a0d4652"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-03T09:33:03.101300"
 }
