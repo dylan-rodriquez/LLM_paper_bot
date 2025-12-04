@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### SELF: A Robust Singular Value and Eigenvalue Approach for LLM Fingerprinting
+
+**Score:** 92.0 | **Published:** 2025-12-04 | **Authors:** Hanxiu Zhang, Yue Zheng
+
+arXiv:2512.03620v1 Announce Type: cross 
+Abstract: The protection of Intellectual Property (IP) in Large Language Models (LLMs) represents a critical challenge in contemporary AI research. While finge...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.03620) | [📝 Analysis](5d0695dc40b5c29d7cae4900bc5b8324.md)
+
+---
+
+### How to Train Long-Context Language Models (Effectively)
+
+**Score:** 90.0 | **Published:** 2025-12-04 | **Authors:** Tianyu Gao, Alexander Wettig, Howard Yen, Danqi Chen
+
+arXiv:2410.02660v4 Announce Type: replace 
+Abstract: We study continued training and supervised fine-tuning (SFT) of a language model (LM) to make effective use of long-context information. We first e...
+
+[📄 Full Paper](https://arxiv.org/abs/2410.02660) | [📝 Analysis](763d85df2c1cfdc713eb26e0fb2a0f97.md)
+
+---
+
+### Astra: A Multi-Agent System for GPU Kernel Performance Optimization
+
+**Score:** 90.0 | **Published:** 2025-12-04 | **Authors:** Anjiang Wei, Tianran Sun, Yogesh Seenichamy, Hang Song, Anne Ouyang, Azalia Mirhoseini, Ke Wang, Alex Aiken
+
+arXiv:2509.07506v2 Announce Type: replace-cross 
+Abstract: GPU kernel optimization has long been a central challenge at the intersection of high-performance computing and machine learning. Efficient k...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.07506) | [📝 Analysis](2814da0a7df58b24819f6dcca0db2104.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-04 09:32:21 UTC*

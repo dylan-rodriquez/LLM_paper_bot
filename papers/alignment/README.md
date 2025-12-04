@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### In-Context Representation Hijacking
+
+**Score:** 92.0 | **Published:** 2025-12-04 | **Authors:** Itay Yona, Amir Sarid, Michael Karasik, Yossi Gandelsman
+
+arXiv:2512.03771v1 Announce Type: new 
+Abstract: We introduce \textbf{Doublespeak}, a simple \emph{in-context representation hijacking} attack against large language models (LLMs). The attack works by...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.03771) | [📝 Analysis](b2586078313b2dd25a88683bd096095f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-04 09:32:21 UTC*

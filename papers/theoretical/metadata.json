@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "The 4/$\\delta$ Bound: Designing Predictable LLM-Verifier Systems for Formal Method Guarantee",
+      "authors": [
+        "PIerre Dantas, Lucas Cordeiro, Youcheng Sun, Waldir Junior"
+      ],
+      "abstract": "arXiv:2512.02080v1 Announce Type: new \nAbstract: The idea of using Formal Verification tools with large language models (LLMs) has enabled scaling software verification beyond manual workflows. However, current methods remain unreliable. Without a solid theoretical footing, the refinement process can wander; sometimes it settles, sometimes it loops back, and sometimes it breaks away from any stable trajectory. This work bridges this critical gap by developing an LLM-Verifier Convergence Theorem, providing the first formal framework with provable guarantees for termination and convergence. We model the interaction between the LLM and the verifier as a discrete-time Markov Chain, with state transitions determined by a key parameter: the error-reduction probability ($\\delta$). The procedure reaching the Verified state almost surely demonstrates that the program terminates for any $\\delta > 0$, with an expected iteration count bounded by $\\mathbb{E}[n] \\leq 4/\\delta$. We then stress-tested this prediction in an extensive empirical campaign comprising more than 90,000 trials. The empirical results match the theory with striking consistency. Every single run reached verification, and the convergence factor clustered tightly around $C_f\\approx$ 1.0. Consequently, the bound mirrors the system's actual behavior. The evidence is sufficiently robust to support dividing the workflow into three distinct operating zones: marginal, practical, and high-performance. Consequently, we establish the design thresholds with absolute confidence. Together, the theoretical guarantee and the experimental evidence provide a clearer architectural foundation for LLM-assisted verification. Heuristic tuning no longer has to be carried out by the system. Engineers gain a framework that supports predictable resource planning and performance budgeting, precisely what is needed before deploying these pipelines into safety-critical software environments.",
+      "url": "https://arxiv.org/abs/2512.02080",
+      "published_date": "2025-12-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "delta",
+        "llm",
+        "verification",
+        "convergence",
+        "formal",
+        "llm verifier",
+        "verifier",
+        "bound",
+        "consequently",
+        "critical"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in the burgeoning field of LLM-assisted formal verification \u2013 the lack of theoretical guarantees. The development of an LLM-Verifier Convergence Theorem and the 4/\u03b4 bound represent a significant step towards reliable and predictable LLM-based verification systems. The modeling using Markov Chains provides a rigorous framework, and the bound on expected iterations is a valuable practical result. The 'stress-tested' mention suggests empirical validation, further strengthening the work.",
+      "paper_id": "9756231512e4e157c2ba5cc2d3648f70"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-12-04T09:32:21.955568"
 }
