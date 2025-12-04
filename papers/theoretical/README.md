@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The 4/$\delta$ Bound: Designing Predictable LLM-Verifier Systems for Formal Method Guarantee
+
+**Score:** 92.0 | **Published:** 2025-12-04 | **Authors:** PIerre Dantas, Lucas Cordeiro, Youcheng Sun, Waldir Junior
+
+arXiv:2512.02080v1 Announce Type: new 
+Abstract: The idea of using Formal Verification tools with large language models (LLMs) has enabled scaling software verification beyond manual workflows. Howeve...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.02080) | [📝 Analysis](9756231512e4e157c2ba5cc2d3648f70.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-04 09:32:21 UTC*

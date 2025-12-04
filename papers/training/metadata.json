@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "SELF: A Robust Singular Value and Eigenvalue Approach for LLM Fingerprinting",
+      "authors": [
+        "Hanxiu Zhang, Yue Zheng"
+      ],
+      "abstract": "arXiv:2512.03620v1 Announce Type: cross \nAbstract: The protection of Intellectual Property (IP) in Large Language Models (LLMs) represents a critical challenge in contemporary AI research. While fingerprinting techniques have emerged as a fundamental mechanism for detecting unauthorized model usage, existing methods -- whether behavior-based or structural -- suffer from vulnerabilities such as false claim attacks or susceptible to weight manipulations. To overcome these limitations, we propose SELF, a novel intrinsic weight-based fingerprinting scheme that eliminates dependency on input and inherently resists false claims. SELF achieves robust IP protection through two key innovations: 1) unique, scalable and transformation-invariant fingerprint extraction via singular value and eigenvalue decomposition of LLM attention weights, and 2) effective neural network-based fingerprint similarity comparison based on few-shot learning and data augmentation. Experimental results demonstrate SELF maintains high IP infringement detection accuracy while showing strong robustness against various downstream modifications, including quantization, pruning, and fine-tuning attacks. Our code is available at https://github.com/HanxiuZhang/SELF_v2.",
+      "url": "https://arxiv.org/abs/2512.03620",
+      "published_date": "2025-12-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "based",
+        "self",
+        "fingerprinting",
+        "ip",
+        "attacks",
+        "eigenvalue",
+        "false",
+        "fingerprint",
+        "llm",
+        "protection"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 IP protection for LLMs \u2013 and proposes a novel approach that moves away from vulnerable input-dependent methods. The use of singular value and eigenvalue decomposition on attention weights appears to be a promising direction, and the incorporation of few-shot learning for similarity comparison adds to the robustness. While the abstract doesn't detail the experimental results fully, the claim of overcoming limitations of existing methods suggests a strong contribution.",
+      "paper_id": "5d0695dc40b5c29d7cae4900bc5b8324"
+    },
+    {
+      "title": "How to Train Long-Context Language Models (Effectively)",
+      "authors": [
+        "Tianyu Gao, Alexander Wettig, Howard Yen, Danqi Chen"
+      ],
+      "abstract": "arXiv:2410.02660v4 Announce Type: replace \nAbstract: We study continued training and supervised fine-tuning (SFT) of a language model (LM) to make effective use of long-context information. We first establish a reliable evaluation protocol to guide model development -- instead of perplexity or simple needle-in-a-haystack (NIAH) tests, we use a broad set of long-context downstream tasks, and we evaluate models after SFT as this better reveals long-context abilities. Supported by our robust evaluations, we run thorough experiments to decide the data mix for continued pre-training, the instruction tuning dataset, and many other design choices such as position extrapolation. We find that (1) code repositories and books are excellent sources of long data, but it is crucial to combine them with high-quality short-context data; (2) training with a sequence length beyond the evaluation length boosts long-context performance; (3) for SFT, using only short instruction datasets yields strong performance on long-context tasks. Our final model, ProLong-8B, which is initialized from Llama-3 and trained on 40B tokens, demonstrates state-of-the-art long-context performance among similarly sized models at a length of 128K. ProLong outperforms Llama-3.1-8B-Instruct on the majority of long-context tasks despite using only 5% as many tokens during long-context training. Additionally, ProLong can effectively process up to 512K tokens, one of the longest context windows of publicly available LMs.",
+      "url": "https://arxiv.org/abs/2410.02660",
+      "published_date": "2025-12-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "context",
+        "long",
+        "long context",
+        "training",
+        "data",
+        "length",
+        "model",
+        "models",
+        "performance",
+        "prolong"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and challenging problem in the field of LLMs \u2013 effectively utilizing long context windows. The focus on establishing a robust evaluation protocol *after* SFT is a strong methodological contribution, as it acknowledges the limitations of standard metrics. The findings regarding data mix and sequence length training are practical and likely to be widely adopted, suggesting a significant impact on future research and development.",
+      "paper_id": "763d85df2c1cfdc713eb26e0fb2a0f97"
+    },
+    {
+      "title": "Astra: A Multi-Agent System for GPU Kernel Performance Optimization",
+      "authors": [
+        "Anjiang Wei, Tianran Sun, Yogesh Seenichamy, Hang Song, Anne Ouyang, Azalia Mirhoseini, Ke Wang, Alex Aiken"
+      ],
+      "abstract": "arXiv:2509.07506v2 Announce Type: replace-cross \nAbstract: GPU kernel optimization has long been a central challenge at the intersection of high-performance computing and machine learning. Efficient kernels are crucial for accelerating large language model (LLM) training and serving, yet attaining high performance typically requires extensive manual tuning. Compiler-based systems reduce some of this burden, but still demand substantial manual design and engineering effort. Recently, researchers have explored using LLMs for GPU kernel generation, though prior work has largely focused on translating high-level PyTorch modules into CUDA code. In this work, we introduce Astra, the first LLM-based multi-agent system for GPU kernel optimization. Unlike previous approaches, Astra starts from existing CUDA implementations extracted from SGLang, a widely deployed framework for serving LLMs, rather than treating PyTorch modules as the specification. Within Astra, specialized LLM agents collaborate through iterative code generation, testing, profiling, and planning to produce kernels that are both correct and high-performance. On kernels from SGLang, Astra achieves an average speedup of 1.32x using zero-shot prompting with OpenAI o4-mini. A detailed case study further demonstrates that LLMs can autonomously apply loop transformations, optimize memory access patterns, exploit CUDA intrinsics, and leverage fast math operations to yield substantial performance gains. Our work highlights multi-agent LLM systems as a promising new paradigm for GPU kernel optimization. Our code is publicly available at https://github.com/Anjiang-Wei/Astra.",
+      "url": "https://arxiv.org/abs/2509.07506",
+      "published_date": "2025-12-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "astra",
+        "gpu",
+        "gpu kernel",
+        "kernel",
+        "performance",
+        "high",
+        "llm",
+        "optimization",
+        "agent",
+        "code"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and challenging problem \u2013 GPU kernel optimization \u2013 which is critical for LLM performance. The use of a multi-agent LLM system, starting from existing CUDA code (SGLang), is a novel approach compared to previous PyTorch-to-CUDA translation methods. The potential for automating and improving kernel optimization is significant, and the work appears well-motivated and positioned within the current research landscape. The focus on existing CUDA implementations is a smart move, leveraging existing expertise and potentially leading to more practical optimizations.",
+      "paper_id": "2814da0a7df58b24819f6dcca0db2104"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-04T09:32:21.948714"
 }

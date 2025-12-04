@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### VLSU: Mapping the Limits of Joint Multimodal Understanding for AI Safety
+
+**Score:** 92.0 | **Published:** 2025-12-04 | **Authors:** Shruti Palaskar, Leon Gatys, Mona Abdelrahman, Mar Jacobo, Larry Lindsey, Rutika Moharir, Gunnar Lund, Yang Xu, Navid Shiee, Jeffrey Bigham, Charles Maalouf, Joseph Yitan Cheng
+
+arXiv:2510.18214v2 Announce Type: replace-cross 
+Abstract: Safety evaluation of multimodal foundation models often treats vision and language inputs separately, missing risks from joint interpretation...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.18214) | [📝 Analysis](4d665af92111d410891a19271694435f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-04 09:32:21 UTC*

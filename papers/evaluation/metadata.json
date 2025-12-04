@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "LLMEval-3: A Large-Scale Longitudinal Study on Robust and Fair Evaluation of Large Language Models",
+      "authors": [
+        "Ming Zhang, Yujiong Shen, Jingyi Deng, Yuhui Wang, Yue Zhang, Junzhe Wang, Shichun Liu, Shihan Dou, Huayu Sha, Qiyuan Peng, Changhao Jiang, Jingqi Tong, Yilong Wu, Zhihao Zhang, Mingqi Wu, Zhiheng Xi, Mingxu Chai, Tao Gui, Qi Zhang, Xuanjing Huang"
+      ],
+      "abstract": "arXiv:2508.05452v4 Announce Type: replace \nAbstract: Existing evaluation of Large Language Models (LLMs) on static benchmarks is vulnerable to data contamination and leaderboard overfitting, critical issues that obscure true model capabilities. To address this, we introduce LLMEval-3, a framework for dynamic evaluation of LLMs. LLMEval-3 is built on a proprietary bank of 220k graduate-level questions, from which it dynamically samples unseen test sets for each evaluation run. Its automated pipeline ensures integrity via contamination-resistant data curation, a novel anti-cheating architecture, and a calibrated LLM-as-a-judge process achieving 90% agreement with human experts, complemented by a relative ranking system for fair comparison. An 20-month longitudinal study of nearly 50 leading models reveals a performance ceiling on knowledge memorization and exposes data contamination vulnerabilities undetectable by static benchmarks. The framework demonstrates exceptional robustness in ranking stability and consistency, providing strong empirical validation for the dynamic evaluation paradigm. LLMEval-3 offers a robust and credible methodology for assessing the true capabilities of LLMs beyond leaderboard scores, promoting the development of more trustworthy evaluation standards.",
+      "url": "https://arxiv.org/abs/2508.05452",
+      "published_date": "2025-12-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "llmeval",
+        "contamination",
+        "data",
+        "large",
+        "llms",
+        "models",
+        "benchmarks",
+        "capabilities",
+        "data contamination"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 the vulnerability to contamination and overfitting on static benchmarks. The LLMEval-3 framework, with its dynamic sampling and anti-cheating mechanisms, represents a significant step towards more robust and reliable assessments. The 20-month longitudinal study provides valuable insights into model capabilities and limitations, and the high agreement with human experts lends credibility to the automated evaluation process.",
+      "paper_id": "41c6c3c529b4b106854092964004bf01"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-04T09:32:21.951152"
 }
