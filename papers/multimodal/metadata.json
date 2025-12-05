@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Bridging Online Behavior and Clinical Insight: A Longitudinal LLM-based Study of Suicidality on YouTube Reveals Novel Digital Markers",
+      "authors": [
+        "Ilanit Sobol, Shir Lissak, Refael Tikochinski, Tal Nakash, Anat Brunstein Klomek, Eyal Fruchter, Roi Reichart"
+      ],
+      "abstract": "arXiv:2506.09495v2 Announce Type: replace \nAbstract: Suicide remains a leading cause of death in Western countries. As social media becomes central to daily life, digital footprints offer valuable insight into suicidal behavior. Focusing on individuals who attempted suicide while uploading videos to their channels, we investigate: How do linguistic patterns on YouTube reflect suicidal behavior, and how do these patterns align with or differ from expert knowledge? We examined linguistic changes around suicide attempts and compared individuals who attempted suicide while actively uploading to their channel with three control groups: those with prior attempts, those experiencing major life events, and matched individuals from the broader cohort. Applying complementary bottom-up, hybrid, and expert-driven approaches, we analyzed a novel longitudinal dataset of 181 suicide-attempt channels and 134 controls. In the bottom-up analysis, LLM-based topic-modeling identified 166 topics; five were linked to suicide attempts, two also showed attempt-related temporal changes (Mental Health Struggles, $OR = 1.74$; YouTube Engagement, $OR = 1.67$; $p < .01$). In the hybrid approach, clinical experts reviewed LLM-derived topics and flagged 19 as suicide-related. However, none showed significant effects beyond those identified bottom-up. YouTube Engagement, a platform-specific indicator, was not flagged, underscoring the value of bottom-up discovery. A top-down psychological assessment of suicide narratives revealed differing motivations: individuals describing prior attempts aimed to help others ($\\beta=-1.69$, $p<.01$), whereas those attempted during the uploading period emphasized personal recovery ($\\beta=1.08$, $p<.01$). By integrating these approaches, we offer a nuanced understanding of suicidality, bridging digital behavior and clinical insights.",
+      "url": "https://arxiv.org/abs/2506.09495",
+      "published_date": "2025-12-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "suicide",
+        "attempts",
+        "behavior",
+        "individuals",
+        "youtube",
+        "01",
+        "attempted",
+        "clinical",
+        "digital",
+        "llm"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research tackles a critically important problem \u2013 suicide prevention \u2013 using a novel application of LLMs to analyze digital behavior. The longitudinal study design and comparison to multiple control groups strengthen the rigor. The combination of bottom-up, hybrid, and expert-driven approaches suggests a thoughtful methodology, and the use of a substantial dataset (181 suicide-attempt channels + controls) is promising. The potential for identifying digital markers of suicidality is highly valuable.",
+      "paper_id": "6d2bbad6f45ceff2901e3bbb936cce5a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-05T09:30:19.982233"
 }
