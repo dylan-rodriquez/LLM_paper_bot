@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages
+
+**Score:** 92.0 | **Published:** 2025-12-05 | **Authors:** Pooja Singh, Sandeep Kumar
+
+arXiv:2512.04765v1 Announce Type: new 
+Abstract: Large language models and multilingual machine translation (MT) systems increasingly drive access to information, yet many languages of the tribal comm...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.04765) | [📝 Analysis](a2ffe217ea7cd6ac8414f8708e5ecf9c.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-05 09:30:19 UTC*

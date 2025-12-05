@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Bridging Online Behavior and Clinical Insight: A Longitudinal LLM-based Study of Suicidality on YouTube Reveals Novel Digital Markers
+
+**Score:** 92.0 | **Published:** 2025-12-05 | **Authors:** Ilanit Sobol, Shir Lissak, Refael Tikochinski, Tal Nakash, Anat Brunstein Klomek, Eyal Fruchter, Roi Reichart
+
+arXiv:2506.09495v2 Announce Type: replace 
+Abstract: Suicide remains a leading cause of death in Western countries. As social media becomes central to daily life, digital footprints offer valuable ins...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.09495) | [📝 Analysis](6d2bbad6f45ceff2901e3bbb936cce5a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-05 09:30:19 UTC*

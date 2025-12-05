@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages",
+      "authors": [
+        "Pooja Singh, Sandeep Kumar"
+      ],
+      "abstract": "arXiv:2512.04765v1 Announce Type: new \nAbstract: Large language models and multilingual machine translation (MT) systems increasingly drive access to information, yet many languages of the tribal communities remain effectively invisible in these technologies. This invisibility exacerbates existing structural inequities in education, governance, and digital participation. We present AdiBhashaa, a community-driven initiative that constructs the first open parallel corpora and baseline MT systems for four major Indian tribal languages-Bhili, Mundari, Gondi, and Santali. This work combines participatory data creation with native speakers, human-in-the-loop validation, and systematic evaluation of both encoder-decoder MT models and large language models. In addition to reporting technical findings, we articulate how AdiBhashaa illustrates a possible model for more equitable AI research: it centers local expertise, builds capacity among early-career researchers from marginalized communities, and foregrounds human validation in the development of language technologies.",
+      "url": "https://arxiv.org/abs/2512.04765",
+      "published_date": "2025-12-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "adibhashaa",
+        "language",
+        "languages",
+        "models",
+        "mt",
+        "tribal",
+        "adibhashaa community",
+        "communities",
+        "community",
+        "human"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critically important and under-served area \u2013 machine translation for Indian tribal languages. The community-driven approach and focus on equitable AI research are particularly strong. While the technical aspects (baseline MT systems) may not be groundbreaking in themselves, the creation of the parallel corpora and the methodology for inclusive data creation are highly valuable. The strong emphasis on centering local expertise and building capacity is commendable and likely to be well-received.",
+      "paper_id": "a2ffe217ea7cd6ac8414f8708e5ecf9c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-05T09:30:19.981098"
 }
