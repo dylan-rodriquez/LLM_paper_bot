@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Exposing Pink Slime Journalism: Linguistic Signatures and Robust Detection Against LLM-Generated Threats
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Sadat Shahriar, Navid Ayoobi, Arjun Mukherjee, Mostafa Musharrat, Sai Vishnu Vamsi
+
+arXiv:2512.05331v1 Announce Type: new 
+Abstract: The local news landscape, a vital source of reliable information for 28 million Americans, faces a growing threat from Pink Slime Journalism, a low-qua...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.05331) | [📝 Analysis](14c9bb14623808b898f72837b8ddcf25.md)
+
+---
+
+### A Survey on Diffusion Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-08 | **Authors:** Tianyi Li, Mingda Chen, Bowei Guo, Zhiqiang Shen
+
+arXiv:2508.10875v2 Announce Type: replace 
+Abstract: Diffusion Language Models (DLMs) are rapidly emerging as a powerful and promising alternative to the dominant autoregressive (AR) paradigm. By gene...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.10875) | [📝 Analysis](af3039796b661b51010d9b0f718c892d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-08 09:36:00 UTC*

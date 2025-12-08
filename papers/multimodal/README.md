@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Decoding inner speech with an end-to-end brain-to-text neural interface
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Yizi Zhang, Linyang He, Chaofei Fan, Tingkai Liu, Han Yu, Trung Le, Jingyuan Li, Scott Linderman, Lea Duncker, Francis R Willett, Nima Mesgarani, Liam Paninski
+
+arXiv:2511.21740v2 Announce Type: replace 
+Abstract: Speech brain-computer interfaces (BCIs) aim to restore communication for people with paralysis by translating neural activity into text. Most syste...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.21740) | [📝 Analysis](338fa6cbdebdcaf487b0f4ba5c153dae.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-08 09:36:00 UTC*

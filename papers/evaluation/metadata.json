@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures",
+      "authors": [
+        "Panuthep Tasawong, Jian Gang Ngui, Alham Fikri Aji, Trevor Cohn, Peerat Limkonchotiwat"
+      ],
+      "abstract": "arXiv:2512.05501v1 Announce Type: new \nAbstract: Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguistic and cultural diversity. Existing multilingual safety benchmarks often rely on machine-translated English data, which fails to capture nuances in low-resource languages. Southeast Asian (SEA) languages are underrepresented despite the region's linguistic diversity and unique safety concerns, from culturally sensitive political speech to region-specific misinformation. Addressing these gaps requires benchmarks that are natively authored to reflect local norms and harm scenarios. We introduce SEA-SafeguardBench, the first human-verified safety benchmark for SEA, covering eight languages, 21,640 samples, across three subsets: general, in-the-wild, and content generation. The experimental results from our benchmark demonstrate that even state-of-the-art LLMs and guardrails are challenged by SEA cultural and harm scenarios and underperform when compared to English texts.",
+      "url": "https://arxiv.org/abs/2512.05501",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "sea",
+        "languages",
+        "safety",
+        "english",
+        "benchmark",
+        "benchmarks",
+        "content",
+        "cultural",
+        "diversity",
+        "harm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI safety research \u2013 the lack of evaluation benchmarks for Southeast Asian languages and cultures. The creation of SEA-SafeguardBench, a natively authored and human-verified dataset, is a significant contribution. While the abstract doesn't detail the specific methodologies used for data collection and annotation, the scale (21,640 samples, 8 languages) suggests a rigorous effort, and the initial results hinting at challenges for current LLMs are promising.",
+      "paper_id": "a36659f824b20adda3f31277a933d751"
+    },
+    {
+      "title": "MindEval: Benchmarking Language Models on Multi-turn Mental Health Support",
+      "authors": [
+        "Jos\\'e Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, Ant\\'onio Farinhas, Ricardo Rei"
+      ],
+      "abstract": "arXiv:2511.18491v3 Announce Type: replace \nAbstract: Demand for mental health support through AI chatbots is surging, though current systems present several limitations, like sycophancy or overvalidation, and reinforcement of maladaptive beliefs. A core obstacle to the creation of better systems is the scarcity of benchmarks that capture the complexity of real therapeutic interactions. Most existing benchmarks either only test clinical knowledge through multiple-choice questions or assess single responses in isolation. To bridge this gap, we present MindEval, a framework designed in collaboration with Ph.D-level Licensed Clinical Psychologists for automatically evaluating language models in realistic, multi-turn mental health therapy conversations. Through patient simulation and automatic evaluation with LLMs, our framework balances resistance to gaming with reproducibility via its fully automated, model-agnostic design. We begin by quantitatively validating the realism of our simulated patients against human-generated text and by demonstrating strong correlations between automatic and human expert judgments. Then, we evaluate 12 state-of-the-art LLMs and show that all models struggle, scoring below 4 out of 6, on average, with particular weaknesses in problematic AI-specific patterns of communication. Notably, reasoning capabilities and model scale do not guarantee better performance, and systems deteriorate with longer interactions or when supporting patients with severe symptoms. We release all code, prompts, and human evaluation data.",
+      "url": "https://arxiv.org/abs/2511.18491",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "health",
+        "human",
+        "mental",
+        "mental health",
+        "models",
+        "systems",
+        "ai",
+        "automatic",
+        "benchmarks",
+        "better"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 the limitations of current AI mental health support systems \u2013 with a novel benchmarking framework. The collaboration with clinical psychologists and focus on multi-turn conversations are strong points. While the abstract doesn't detail the specific evaluation methods beyond LLM-based assessment, the described approach appears rigorous and addresses a critical gap in the field. The focus on resisting 'gaming' is also a valuable consideration.",
+      "paper_id": "0b45f5c338e82ee416a852757034ef80"
+    },
+    {
+      "title": "ORFuzz: Fuzzing the \"Other Side\" of LLM Safety -- Testing Over-Refusal",
+      "authors": [
+        "Haonan Zhang, Dongxia Wang, Yi Liu, Kexin Chen, Jiashui Wang, Xinlei Ying, Long Liu, Wenhai Wang"
+      ],
+      "abstract": "arXiv:2508.11222v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) increasingly exhibit over-refusal - erroneously rejecting benign queries due to overly conservative safety measures - a critical functional flaw that undermines their reliability and usability. Current methods for testing this behavior are demonstrably inadequate, suffering from flawed benchmarks and limited test generation capabilities, as highlighted by our empirical user study. To the best of our knowledge, this paper introduces the first evolutionary testing framework, ORFuzz, for the systematic detection and analysis of LLM over-refusals. ORFuzz uniquely integrates three core components: (1) safety category-aware seed selection for comprehensive test coverage, (2) adaptive mutator optimization using reasoning LLMs to generate effective test cases, and (3) OR-Judge, a human-aligned judge model validated to accurately reflect user perception of toxicity and refusal. Our extensive evaluations demonstrate that ORFuzz generates diverse, validated over-refusal instances at a rate (6.98% average) more than double that of leading baselines, effectively uncovering vulnerabilities. Furthermore, ORFuzz's outputs form the basis of ORFuzzSet, a new benchmark of 1,855 highly transferable test cases that achieves a superior 63.56% average over-refusal rate across 10 diverse LLMs, significantly outperforming existing datasets. ORFuzz and ORFuzzSet provide a robust automated testing framework and a valuable community resource, paving the way for developing more reliable and trustworthy LLM-based software systems.",
+      "url": "https://arxiv.org/abs/2508.11222",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "orfuzz",
+        "refusal",
+        "test",
+        "testing",
+        "llm",
+        "llms",
+        "safety",
+        "average",
+        "cases",
+        "diverse"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and growing problem with LLMs \u2013 over-refusal \u2013 which significantly impacts usability. The proposed ORFuzz framework, with its evolutionary testing approach and integration of reasoning LLMs and a human-aligned judge, appears well-designed and addresses limitations of existing methods. The empirical user study mentioned strengthens the work, and the focus on systematic detection is valuable. The combination of these elements suggests a high-quality and impactful contribution.",
+      "paper_id": "5549fa1dd98e90b0fa7c759f253daa14"
+    },
+    {
+      "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+      "authors": [
+        "Tarun Suresh, Nalin Wadhwa, Debangshu Banerjee, Gagandeep Singh"
+      ],
+      "abstract": "arXiv:2512.05439v1 Announce Type: new \nAbstract: As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify that model outputs satisfy required constraints. While sampling-based estimates provide an intuition of model behavior, they offer no sound guarantees. We present BEAVER, the first practical framework for computing deterministic, sound probability bounds on LLM constraint satisfaction. Given any prefix-closed semantic constraint, BEAVER systematically explores the generation space using novel token trie and frontier data structures, maintaining provably sound bounds at every iteration. We formalize the verification problem, prove soundness of our approach, and evaluate BEAVER on correctness verification, privacy verification and secure code generation tasks across multiple state of the art LLMs. BEAVER achieves 6 to 8 times tighter probability bounds and identifies 3 to 4 times more high risk instances compared to baseline methods under identical computational budgets, enabling precise characterization and risk assessment that loose bounds or empirical evaluation cannot provide.",
+      "url": "https://arxiv.org/abs/2512.05439",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "beaver",
+        "bounds",
+        "sound",
+        "verification",
+        "constraint",
+        "deterministic",
+        "generation",
+        "llm",
+        "llms",
+        "methods"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the deployment of LLMs \u2013 reliable verification of outputs. The claim of providing *deterministic, sound probability bounds* is significant, as current methods rely on sampling which lacks guarantees. The reported improvements in bound tightness and risk identification suggest a strong methodology and potential for practical application, making it likely to be well-received by the community.",
+      "paper_id": "c2fb86a19f18723d9213e9d990ec67e4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-08T09:36:00.696823"
 }

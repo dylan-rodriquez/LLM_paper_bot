@@ -1,0 +1,33 @@
+# Decoding inner speech with an end-to-end brain-to-text neural interface
+
+**Authors:** Yizi Zhang, Linyang He, Chaofei Fan, Tingkai Liu, Han Yu, Trung Le, Jingyuan Li, Scott Linderman, Lea Duncker, Francis R Willett, Nima Mesgarani, Liam Paninski
+
+**Published:** 2025-12-08 | **Source:** arXiv RSS
+
+**Categories:** cs.CL
+
+**Significance Score:** 92.0/100
+
+## Abstract
+
+arXiv:2511.21740v2 Announce Type: replace 
+Abstract: Speech brain-computer interfaces (BCIs) aim to restore communication for people with paralysis by translating neural activity into text. Most systems use cascaded frameworks that decode phonemes before assembling sentences with an n-gram language model (LM), preventing joint optimization of all stages simultaneously. Here, we introduce an end-to-end Brain-to-Text (BIT) framework that translates neural activity into coherent sentences using a single differentiable neural network. Central to our approach is a cross-task, cross-species pretrained neural encoder, whose representations transfer to both attempted and imagined speech. In a cascaded setting with an n-gram LM, the pretrained encoder establishes a new state-of-the-art (SOTA) on the Brain-to-Text '24 and '25 benchmarks. Integrated end-to-end with audio large language models (LLMs) and trained with contrastive learning for cross-modal alignment, BIT reduces the word error rate (WER) of the prior end-to-end method from 24.69% to 10.22%. Notably, we find that small-scale audio LLMs markedly improve end-to-end decoding. Beyond record-setting performance, BIT aligns attempted and imagined speech embeddings to enable cross-task generalization. Altogether, our approach advances the integration of large, diverse neural datasets, paving the way for an end-to-end decoding framework that supports seamless, differentiable optimization.
+
+## Analysis
+
+**Innovation Score:** 80.0/100
+**Impact Score:** 88.0/100  
+**Sentiment Score:** 90.0/100
+
+**Justification:** This paper addresses a highly significant problem – restoring communication for paralyzed individuals – with a novel end-to-end approach. The use of a pretrained neural encoder and integration with LLMs appears promising, as evidenced by achieving SOTA results on established benchmarks. The focus on joint optimization and cross-modal alignment suggests a rigorous methodology and a clear path towards practical application.
+
+## Keywords
+
+end, end end, neural, brain, cross, speech, text, bit, brain text, decoding
+
+## Links
+
+- [Paper URL](https://arxiv.org/abs/2511.21740)
+
+---
+*Auto-generated on 2025-12-08 09:36:00 UTC*
