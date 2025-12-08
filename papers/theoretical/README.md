@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### To Err Is Human: Systematic Quantification of Errors in Published AI Papers via LLM Analysis
+
+**Score:** 90.0 | **Published:** 2025-12-08 | **Authors:** Federico Bianchi, Yongchan Kwon, Zachary Izzo, Linjun Zhang, James Zou
+
+arXiv:2512.05925v1 Announce Type: cross 
+Abstract: How many mistakes do published AI papers contain? Peer-reviewed publications form the foundation upon which new research and knowledge are built. Err...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.05925) | [📝 Analysis](3a42a04e5d5e361a4a677b227a365461.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-08 09:36:00 UTC*

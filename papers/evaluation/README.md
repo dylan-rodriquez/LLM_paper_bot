@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Panuthep Tasawong, Jian Gang Ngui, Alham Fikri Aji, Trevor Cohn, Peerat Limkonchotiwat
+
+arXiv:2512.05501v1 Announce Type: new 
+Abstract: Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguisti...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.05501) | [📝 Analysis](a36659f824b20adda3f31277a933d751.md)
+
+---
+
+### MindEval: Benchmarking Language Models on Multi-turn Mental Health Support
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Jos\'e Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, Ant\'onio Farinhas, Ricardo Rei
+
+arXiv:2511.18491v3 Announce Type: replace 
+Abstract: Demand for mental health support through AI chatbots is surging, though current systems present several limitations, like sycophancy or overvalidat...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.18491) | [📝 Analysis](0b45f5c338e82ee416a852757034ef80.md)
+
+---
+
+### ORFuzz: Fuzzing the "Other Side" of LLM Safety -- Testing Over-Refusal
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Haonan Zhang, Dongxia Wang, Yi Liu, Kexin Chen, Jiashui Wang, Xinlei Ying, Long Liu, Wenhai Wang
+
+arXiv:2508.11222v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) increasingly exhibit over-refusal - erroneously rejecting benign queries due to overly conservative safety measu...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.11222) | [📝 Analysis](5549fa1dd98e90b0fa7c759f253daa14.md)
+
+---
+
+### BEAVER: An Efficient Deterministic LLM Verifier
+
+**Score:** 92.0 | **Published:** 2025-12-08 | **Authors:** Tarun Suresh, Nalin Wadhwa, Debangshu Banerjee, Gagandeep Singh
+
+arXiv:2512.05439v1 Announce Type: new 
+Abstract: As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify that mod...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.05439) | [📝 Analysis](c2fb86a19f18723d9213e9d990ec67e4.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-08 09:36:00 UTC*

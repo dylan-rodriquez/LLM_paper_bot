@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Exposing Pink Slime Journalism: Linguistic Signatures and Robust Detection Against LLM-Generated Threats",
+      "authors": [
+        "Sadat Shahriar, Navid Ayoobi, Arjun Mukherjee, Mostafa Musharrat, Sai Vishnu Vamsi"
+      ],
+      "abstract": "arXiv:2512.05331v1 Announce Type: new \nAbstract: The local news landscape, a vital source of reliable information for 28 million Americans, faces a growing threat from Pink Slime Journalism, a low-quality, auto-generated articles that mimic legitimate local reporting. Detecting these deceptive articles requires a fine-grained analysis of their linguistic, stylistic, and lexical characteristics. In this work, we conduct a comprehensive study to uncover the distinguishing patterns of Pink Slime content and propose detection strategies based on these insights. Beyond traditional generation methods, we highlight a new adversarial vector: modifications through large language models (LLMs). Our findings reveal that even consumer-accessible LLMs can significantly undermine existing detection systems, reducing their performance by up to 40% in F1-score. To counter this threat, we introduce a robust learning framework specifically designed to resist LLM-based adversarial attacks and adapt to the evolving landscape of automated pink slime journalism, and showed and improvement by up to 27%.",
+      "url": "https://arxiv.org/abs/2512.05331",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "pink",
+        "pink slime",
+        "slime",
+        "detection",
+        "journalism",
+        "slime journalism",
+        "adversarial",
+        "articles",
+        "based",
+        "generated"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a very important and timely problem \u2013 the proliferation of AI-generated misinformation in local news. The identification of 'Pink Slime Journalism' and the analysis of its linguistic characteristics are valuable contributions. The focus on LLM-based adversarial attacks and the development of a robust learning framework demonstrate a proactive approach to a rapidly evolving threat, suggesting solid methodology and potential for strong results.",
+      "paper_id": "14c9bb14623808b898f72837b8ddcf25"
+    },
+    {
+      "title": "A Survey on Diffusion Language Models",
+      "authors": [
+        "Tianyi Li, Mingda Chen, Bowei Guo, Zhiqiang Shen"
+      ],
+      "abstract": "arXiv:2508.10875v2 Announce Type: replace \nAbstract: Diffusion Language Models (DLMs) are rapidly emerging as a powerful and promising alternative to the dominant autoregressive (AR) paradigm. By generating tokens in parallel through an iterative denoising process, DLMs possess inherent advantages in reducing inference latency and capturing bidirectional context, thereby enabling fine-grained control over the generation process. While achieving a several-fold speed-up, recent advancements have allowed DLMs to show performance comparable to their autoregressive counterparts, making them a compelling choice for various natural language processing tasks. In this survey, we provide a holistic overview of the current DLM landscape. We trace its evolution and relationship with other paradigms, such as autoregressive and masked language models, and cover both foundational principles and state-of-the-art models. Our work offers an up-to-date, comprehensive taxonomy and an in-depth analysis of current techniques, from pre-training strategies to advanced post-training methods. Another contribution of this survey is a thorough review of DLM inference strategies and optimizations, including improvements in decoding parallelism, caching mechanisms, and generation quality. We also highlight the latest approaches to multimodal extensions of DLMs and delineate their applications across various practical scenarios. Furthermore, our discussion addresses the limitations and challenges of DLMs, including efficiency, long-sequence handling, and infrastructure requirements, while outlining future research directions to sustain progress in this rapidly evolving field. Project GitHub is available at https://github.com/VILA-Lab/Awesome-DLMs.",
+      "url": "https://arxiv.org/abs/2508.10875",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "dlms",
+        "language",
+        "models",
+        "autoregressive",
+        "language models",
+        "survey",
+        "current",
+        "diffusion",
+        "diffusion language",
+        "dlm"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly significant and rapidly evolving area in NLP \u2013 Diffusion Language Models. The abstract highlights the potential of DLMs to overcome limitations of autoregressive models, particularly in inference speed and context capture. While a survey isn't inherently innovative, consolidating and analyzing this emerging field is valuable, and the abstract suggests a comprehensive approach. The positive framing and focus on performance comparable to AR models indicate a strong potential for positive reception within the community.",
+      "paper_id": "af3039796b661b51010d9b0f718c892d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-08T09:36:00.694150"
 }

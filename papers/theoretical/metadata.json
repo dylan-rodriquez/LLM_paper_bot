@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "To Err Is Human: Systematic Quantification of Errors in Published AI Papers via LLM Analysis",
+      "authors": [
+        "Federico Bianchi, Yongchan Kwon, Zachary Izzo, Linjun Zhang, James Zou"
+      ],
+      "abstract": "arXiv:2512.05925v1 Announce Type: cross \nAbstract: How many mistakes do published AI papers contain? Peer-reviewed publications form the foundation upon which new research and knowledge are built. Errors that persist in the literature can propagate unnoticed, creating confusion in follow-up studies and complicating reproducibility. The accelerating pace of research and the increasing demands on the peer-review system make such mistakes harder to detect and avoid. To address this, we developed a Paper Correctness Checker based on GPT-5 to systematically identify mistakes in papers previously published at top AI conferences and journals. Our analysis focuses on objective mistakes-e.g., errors in formulas, derivations, calculations, figures, and tables-that have a clearly verifiable ground truth. We intentionally exclude subjective considerations such as novelty, importance, or writing quality. We find that published papers contain a non-negligible number of objective mistakes and that the average number of mistakes per paper has increased over time-from 3.8 in NeurIPS 2021 to 5.9 in NeurIPS 2025 (55.3% increase); from 4.1 in ICLR 2018 to 5.2 in ICLR 2025; and from 5.0 in TMLR 2022/23 to 5.5 in TMLR 2025. Human experts reviewed 316 potential mistakes identified by the AI Checker and confirmed that 263 were actual mistakes, corresponding to a precision of 83.2%. While most identified issues are relatively minor, correcting them would reduce confusion in the literature and strengthen reproducibility. The AI Checker also surfaced potentially more substantive mistakes that could affect the interpretation of results. Moreover, we show that the AI Checker can propose correct fixes for 75.8% of the identified mistakes. Overall, this study highlights the potential of frontier LLMs to detect and correct objective mistakes in published papers, helping to establish a firmer foundation of knowledge.",
+      "url": "https://arxiv.org/abs/2512.05925",
+      "published_date": "2025-12-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "mistakes",
+        "ai",
+        "papers",
+        "published",
+        "checker",
+        "2025",
+        "ai checker",
+        "errors",
+        "identified",
+        "objective"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This research addresses a crucial, and increasingly problematic, issue in the AI field: the prevalence of errors in published research. The use of a powerful LLM (GPT-5) for systematic error detection is a novel approach, and the focus on objectively verifiable mistakes strengthens the rigor. While the methodology relies on the LLM's accuracy, the potential impact on improving the reliability of AI research is substantial, and the paper is likely to be well-received by the community.",
+      "paper_id": "3a42a04e5d5e361a4a677b227a365461"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-12-08T09:36:00.697876"
 }
