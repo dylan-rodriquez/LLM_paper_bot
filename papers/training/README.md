@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### On measuring grounding and generalizing grounding problems
+
+**Score:** 90.0 | **Published:** 2025-12-09 | **Authors:** Daniel Quigley, Eric Maynard
+
+arXiv:2512.06205v1 Announce Type: cross 
+Abstract: The symbol grounding problem asks how tokens like cat can be about cats, as opposed to mere shapes manipulated in a calculus. We recast grounding fro...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.06205) | [📝 Analysis](cbd377b91aad7e6a70e8ecc7163ea9c2.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-09 09:32:36 UTC*

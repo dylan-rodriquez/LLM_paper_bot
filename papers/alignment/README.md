@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### "The Dentist is an involved parent, the bartender is not": Revealing Implicit Biases in QA with Implicit BBQ
+
+**Score:** 90.0 | **Published:** 2025-12-09 | **Authors:** Aarushi Wagh, Saniya Srivastava
+
+arXiv:2512.06732v1 Announce Type: new 
+Abstract: Existing benchmarks evaluating biases in large language models (LLMs) primarily rely on explicit cues, declaring protected attributes like religion, ra...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.06732) | [📝 Analysis](94331ba92fb5b0cb068a35806e41b899.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-09 09:32:36 UTC*

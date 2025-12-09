@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "MATEX: A Multi-Agent Framework for Explaining Ethereum Transactions",
+      "authors": [
+        "Zifan Peng"
+      ],
+      "abstract": "arXiv:2512.06933v1 Announce Type: cross \nAbstract: Understanding a complicated Ethereum transaction remains challenging: multi-hop token flows, nested contract calls, and opaque execution paths routinely lead users to blind signing. Based on interviews with everyday users, developers, and auditors, we identify the need for faithful, step-wise explanations grounded in both on-chain evidence and real-world protocol semantics. To meet this need, we introduce (matex, a cognitive multi-agent framework that models transaction understanding as a collaborative investigation-combining rapid hypothesis generation, dynamic off-chain knowledge retrieval, evidence-aware synthesis, and adversarial validation to produce faithful explanations.",
+      "url": "https://arxiv.org/abs/2512.06933",
+      "published_date": "2025-12-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "multi",
+        "agent",
+        "agent framework",
+        "chain",
+        "ethereum",
+        "evidence",
+        "explanations",
+        "faithful",
+        "framework",
+        "matex"
+      ],
+      "subject_classification": "generation",
+      "justification": "The paper addresses a crucial problem in Ethereum security and usability \u2013 the difficulty of understanding complex transactions. The multi-agent framework approach, grounded in user interviews, suggests a rigorous and user-centered design. While the 'cognitive multi-agent framework' sounds complex, the focus on faithful explanations and evidence-aware synthesis is promising, and the adversarial validation component adds robustness. The problem is highly relevant given the increasing complexity of DeFi and the risks of blind signing.",
+      "paper_id": "04974173b7f395dd3e8527fcd446b725"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-12-09T09:32:36.310013"
 }

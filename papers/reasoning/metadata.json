@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Replicating TEMPEST at Scale: Multi-Turn Adversarial Attacks Against Trillion-Parameter Frontier Models",
+      "authors": [
+        "Richard Young"
+      ],
+      "abstract": "arXiv:2512.07059v1 Announce Type: new \nAbstract: Despite substantial investment in safety alignment, the vulnerability of large language models to sophisticated multi-turn adversarial attacks remains poorly characterized, and whether model scale or inference mode affects robustness is unknown. This study employed the TEMPEST multi-turn attack framework to evaluate ten frontier models from eight vendors across 1,000 harmful behaviors, generating over 97,000 API queries across adversarial conversations with automated evaluation by independent safety classifiers. Results demonstrated a spectrum of vulnerability: six models achieved 96% to 100% attack success rate (ASR), while four showed meaningful resistance, with ASR ranging from 42% to 78%; enabling extended reasoning on identical architecture reduced ASR from 97% to 42%. These findings indicate that safety alignment quality varies substantially across vendors, that model scale does not predict adversarial robustness, and that thinking mode provides a deployable safety enhancement. Collectively, this work establishes that current alignment techniques remain fundamentally vulnerable to adaptive multi-turn attacks regardless of model scale, while identifying deliberative inference as a promising defense direction.",
+      "url": "https://arxiv.org/abs/2512.07059",
+      "published_date": "2025-12-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "adversarial",
+        "models",
+        "multi",
+        "multi turn",
+        "safety",
+        "scale",
+        "turn",
+        "alignment",
+        "asr",
+        "attacks"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critical gap in understanding the robustness of frontier LLMs to multi-turn adversarial attacks. The large-scale evaluation across multiple models and vendors, coupled with the use of automated evaluation, is methodologically sound. The finding that scale doesn't guarantee robustness and that reasoning ability can *improve* safety is particularly noteworthy and challenges current assumptions in the field.",
+      "paper_id": "281c7f8c671becc672e7eb7a950595d0"
+    },
+    {
+      "title": "Block Sparse Flash Attention",
+      "authors": [
+        "Daniel Ohayon, Itay Lamprecht, Itay Hubara, Israel Cohen, Daniel Soudry, Noam Elata"
+      ],
+      "abstract": "arXiv:2512.07011v1 Announce Type: cross \nAbstract: Modern large language models increasingly require long contexts for reasoning and multi-document tasks, but attention's quadratic complexity creates a severe computational bottleneck. We present Block-Sparse FlashAttention (BSFA), a drop-in replacement that accelerates long-context inference while preserving model quality. Unlike methods that predict importance before computing scores, BSFA computes exact query-key similarities to select the top-k most important value blocks for each query. By comparing per-block maximum scores against calibrated thresholds, we skip approximately 50% of the computation and memory transfers for pruned blocks. Our training-free approach requires only a one-time threshold calibration on a small dataset to learn the per-layer and per-head attention score distributions. We provide a CUDA kernel implementation that can be used as a drop-in replacement for FlashAttention. On Llama-3.1-8B, BSFA achieves up to 1.10x speedup on real-world reasoning benchmarks and up to 1.24x for needle-in-a-haystack retrieval tasks while maintaining above 99% baseline accuracy, with certain configurations even improving accuracy by focusing on the most relevant content, substantially outperforming existing sparse attention methods. The implementation is available at https://github.com/Danielohayon/Block-Sparse-Flash-Attention",
+      "url": "https://arxiv.org/abs/2512.07011",
+      "published_date": "2025-12-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "attention",
+        "block",
+        "sparse",
+        "block sparse",
+        "bsfa",
+        "accuracy",
+        "blocks",
+        "drop",
+        "drop replacement",
+        "flash"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical bottleneck in LLMs \u2013 the quadratic complexity of attention with long contexts. The 'drop-in replacement' aspect and training-free calibration are particularly appealing, suggesting ease of adoption. The reported 50% reduction in computation and memory transfers is substantial, and the focus on exact similarity calculations rather than prediction is a novel approach. The use of Llama-3.1-8B as a test case adds credibility.",
+      "paper_id": "c9e64a7487b67a9e1e12be81109d6e1c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-09T09:32:36.306590"
 }
