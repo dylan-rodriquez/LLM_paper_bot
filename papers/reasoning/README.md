@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Replicating TEMPEST at Scale: Multi-Turn Adversarial Attacks Against Trillion-Parameter Frontier Models
+
+**Score:** 92.0 | **Published:** 2025-12-09 | **Authors:** Richard Young
+
+arXiv:2512.07059v1 Announce Type: new 
+Abstract: Despite substantial investment in safety alignment, the vulnerability of large language models to sophisticated multi-turn adversarial attacks remains ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.07059) | [📝 Analysis](281c7f8c671becc672e7eb7a950595d0.md)
+
+---
+
+### Block Sparse Flash Attention
+
+**Score:** 92.0 | **Published:** 2025-12-09 | **Authors:** Daniel Ohayon, Itay Lamprecht, Itay Hubara, Israel Cohen, Daniel Soudry, Noam Elata
+
+arXiv:2512.07011v1 Announce Type: cross 
+Abstract: Modern large language models increasingly require long contexts for reasoning and multi-document tasks, but attention's quadratic complexity creates ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.07011) | [📝 Analysis](c9e64a7487b67a9e1e12be81109d6e1c.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-09 09:32:36 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### MATEX: A Multi-Agent Framework for Explaining Ethereum Transactions
+
+**Score:** 90.0 | **Published:** 2025-12-09 | **Authors:** Zifan Peng
+
+arXiv:2512.06933v1 Announce Type: cross 
+Abstract: Understanding a complicated Ethereum transaction remains challenging: multi-hop token flows, nested contract calls, and opaque execution paths routin...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.06933) | [📝 Analysis](04974173b7f395dd3e8527fcd446b725.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-09 09:32:36 UTC*

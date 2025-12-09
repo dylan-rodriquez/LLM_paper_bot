@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "On measuring grounding and generalizing grounding problems",
+      "authors": [
+        "Daniel Quigley, Eric Maynard"
+      ],
+      "abstract": "arXiv:2512.06205v1 Announce Type: cross \nAbstract: The symbol grounding problem asks how tokens like cat can be about cats, as opposed to mere shapes manipulated in a calculus. We recast grounding from a binary judgment into an audit across desiderata, each indexed by an evaluation tuple (context, meaning type, threat model, reference distribution): authenticity (mechanisms reside inside the agent and, for strong claims, were acquired through learning or evolution); preservation (atomic meanings remain intact); faithfulness, both correlational (realized meanings match intended ones) and etiological (internal mechanisms causally contribute to success); robustness (graceful degradation under declared perturbations); compositionality (the whole is built systematically from the parts). We apply this framework to four grounding modes (symbolic; referential; vectorial; relational) and three case studies: model-theoretic semantics achieves exact composition but lacks etiological warrant; large language models show correlational fit and local robustness for linguistic tasks, yet lack selection-for-success on world tasks without grounded interaction; human language meets the desiderata under strong authenticity through evolutionary and developmental acquisition. By operationalizing a philosophical inquiry about representation, we equip philosophers of science, computer scientists, linguists, and mathematicians with a common language and technical framework for systematic investigation of grounding and meaning.",
+      "url": "https://arxiv.org/abs/2512.06205",
+      "published_date": "2025-12-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 70,
+      "sentiment_score": 80,
+      "keywords": [
+        "grounding",
+        "language",
+        "authenticity",
+        "correlational",
+        "desiderata",
+        "etiological",
+        "framework",
+        "meaning",
+        "meanings",
+        "mechanisms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a fundamental problem in AI \u2013 grounding \u2013 with a novel and comprehensive framework.  Recasting grounding as an audit across multiple desiderata (authenticity, preservation, etc.) is a strong methodological contribution. The application to different grounding modes and case studies demonstrates the framework's potential, though the abstract hints at complex analysis that needs to be thoroughly presented in the full paper.",
+      "paper_id": "cbd377b91aad7e6a70e8ecc7163ea9c2"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-09T09:32:36.307924"
 }

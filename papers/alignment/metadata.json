@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "\"The Dentist is an involved parent, the bartender is not\": Revealing Implicit Biases in QA with Implicit BBQ",
+      "authors": [
+        "Aarushi Wagh, Saniya Srivastava"
+      ],
+      "abstract": "arXiv:2512.06732v1 Announce Type: new \nAbstract: Existing benchmarks evaluating biases in large language models (LLMs) primarily rely on explicit cues, declaring protected attributes like religion, race, gender by name. However, real-world interactions often contain implicit biases, inferred subtly through names, cultural cues, or traits. This critical oversight creates a significant blind spot in fairness evaluation. We introduce ImplicitBBQ, a benchmark extending the Bias Benchmark for QA (BBQ) with implicitly cued protected attributes across 6 categories. Our evaluation of GPT-4o on ImplicitBBQ illustrates troubling performance disparity from explicit BBQ prompts, with accuracy declining up to 7% in the \"sexual orientation\" subcategory and consistent decline located across most other categories. This indicates that current LLMs contain implicit biases undetected by explicit benchmarks. ImplicitBBQ offers a crucial tool for nuanced fairness evaluation in NLP.",
+      "url": "https://arxiv.org/abs/2512.06732",
+      "published_date": "2025-12-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "biases",
+        "implicit",
+        "bbq",
+        "evaluation",
+        "explicit",
+        "implicit biases",
+        "implicitbbq",
+        "attributes",
+        "benchmark",
+        "benchmarks"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in LLM fairness evaluation by focusing on *implicit* biases, which are far more prevalent in real-world scenarios than explicitly stated biases. The introduction of ImplicitBBQ as an extension to an existing benchmark is a sound methodological approach. The reported performance disparity on GPT-4o highlights the importance of this work and suggests current LLMs are more biased than previously understood, making it a valuable contribution to the field.",
+      "paper_id": "94331ba92fb5b0cb068a35806e41b899"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-09T09:32:36.305617"
 }
