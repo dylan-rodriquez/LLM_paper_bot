@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### OMNIGUARD: An Efficient Approach for AI Safety Moderation Across Languages and Modalities
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Sahil Verma, Keegan Hines, Jeff Bilmes, Charlotte Siska, Luke Zettlemoyer, Hila Gonen, Chandan Singh
+
+arXiv:2505.23856v2 Announce Type: replace 
+Abstract: The emerging capabilities of large language models (LLMs) have sparked concerns about their immediate potential for harmful misuse. The core approa...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.23856) | [📝 Analysis](7dd377d3384becb2f671503585bc3f24.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-10 09:32:48 UTC*

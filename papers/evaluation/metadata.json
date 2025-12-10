@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "ClinicalTrialsHub: Bridging Registries and Literature for Comprehensive Clinical Trial Access",
+      "authors": [
+        "Jiwoo Park, Ruoqi Liu, Avani Jagdale, Andrew Srisuwananukorn, Jing Zhao, Lang Li, Ping Zhang, Sachin Kumar"
+      ],
+      "abstract": "arXiv:2512.08193v1 Announce Type: new \nAbstract: We present ClinicalTrialsHub, an interactive search-focused platform that consolidates all data from ClinicalTrials.gov and augments it by automatically extracting and structuring trial-relevant information from PubMed research articles. Our system effectively increases access to structured clinical trial data by 83.8% compared to relying on ClinicalTrials.gov alone, with potential to make access easier for patients, clinicians, researchers, and policymakers, advancing evidence-based medicine. ClinicalTrialsHub uses large language models such as GPT-5.1 and Gemini-3-Pro to enhance accessibility. The platform automatically parses full-text research articles to extract structured trial information, translates user queries into structured database searches, and provides an attributed question-answering system that generates evidence-grounded answers linked to specific source sentences. We demonstrate its utility through a user study involving clinicians, clinical researchers, and PhD students of pharmaceutical sciences and nursing, and a systematic automatic evaluation of its information extraction and question answering capabilities.",
+      "url": "https://arxiv.org/abs/2512.08193",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "trial",
+        "access",
+        "clinical",
+        "clinicaltrialshub",
+        "information",
+        "structured",
+        "answering",
+        "articles",
+        "automatically",
+        "clinical trial"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem \u2013 the accessibility of clinical trial data \u2013 and proposes a novel solution leveraging LLMs to bridge the gap between registries and literature. The reported 83.8% increase in structured data access is significant. While LLM-based information extraction isn't entirely new, applying it specifically to clinical trials and integrating it with a question-answering system demonstrates a strong methodological approach and potential for real-world impact.",
+      "paper_id": "4afd903ac45450cfa0a61a9c23dee807"
+    },
+    {
+      "title": "The AI Consumer Index (ACE)",
+      "authors": [
+        "Julien Benchek, Rohit Shetty, Benjamin Hunsberger, Ajay Arun, Zach Richards, Brendan Foody, Osvald Nitski, Bertie Vidgen"
+      ],
+      "abstract": "arXiv:2512.04921v3 Announce Type: replace-cross \nAbstract: We introduce the first version of the AI Consumer Index (ACE), a benchmark for assessing whether frontier AI models can perform everyday consumer tasks. ACE contains a hidden heldout set of 400 test cases, split across four consumer activities: shopping, food, gaming, and DIY. We are also open sourcing 80 cases as a devset with a CC-BY license. For the ACE leaderboard we evaluated 10 frontier models (with websearch turned on) using a novel grading methodology that dynamically checks whether relevant parts of the response are grounded in the retrieved web sources. GPT 5 (Thinking = High) is the top-performing model, scoring 56.1%, followed by o3 Pro (Thinking = On) at 55.2% and GPT 5.1 (Thinking = High) at 55.1%. Model scores differ across domains, and in Shopping the top model scores under 50\\%. We find that models are prone to hallucinating key information, such as prices. ACE shows a substantial gap between the performance of even the best models and consumers' AI needs.",
+      "url": "https://arxiv.org/abs/2512.04921",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ace",
+        "ai",
+        "consumer",
+        "models",
+        "model",
+        "thinking",
+        "55",
+        "ai consumer",
+        "cases",
+        "consumer index"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI evaluation \u2013 assessing performance on everyday consumer tasks. The creation of the ACE benchmark, with its focus on grounding responses in web searches and a dynamic grading methodology, is a strong contribution. While the concept of benchmarking isn't novel, the specific focus on 'consumer' tasks and the grounding verification are valuable and timely, suggesting a positive reception within the AI community.",
+      "paper_id": "1ec99fe53a71f5cbcb0485b8badc0577"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-10T09:32:48.389739"
 }

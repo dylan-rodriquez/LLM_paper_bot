@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Accelerating Urban Science Research with AI Urban Scientist
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Tong Xia, Jiankun Zhang, Ruiwen You, Ao Xu, Linghao Zhang, Tengyao Tu, Jingzhi Wang, Jinghua Piao, Yunke Zhang, Fengli Xu, Yong Li
+
+arXiv:2512.07849v1 Announce Type: cross 
+Abstract: Cities are complex, adaptive systems whose underlying principles remain difficult to disentangle despite unprecedented data abundance. Urban science ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.07849) | [📝 Analysis](f5dccdcd5c3792d72496963d8815a330.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-10 09:32:48 UTC*

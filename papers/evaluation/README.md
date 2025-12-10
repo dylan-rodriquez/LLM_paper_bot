@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ClinicalTrialsHub: Bridging Registries and Literature for Comprehensive Clinical Trial Access
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Jiwoo Park, Ruoqi Liu, Avani Jagdale, Andrew Srisuwananukorn, Jing Zhao, Lang Li, Ping Zhang, Sachin Kumar
+
+arXiv:2512.08193v1 Announce Type: new 
+Abstract: We present ClinicalTrialsHub, an interactive search-focused platform that consolidates all data from ClinicalTrials.gov and augments it by automaticall...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.08193) | [📝 Analysis](4afd903ac45450cfa0a61a9c23dee807.md)
+
+---
+
+### The AI Consumer Index (ACE)
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Julien Benchek, Rohit Shetty, Benjamin Hunsberger, Ajay Arun, Zach Richards, Brendan Foody, Osvald Nitski, Bertie Vidgen
+
+arXiv:2512.04921v3 Announce Type: replace-cross 
+Abstract: We introduce the first version of the AI Consumer Index (ACE), a benchmark for assessing whether frontier AI models can perform everyday cons...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.04921) | [📝 Analysis](1ec99fe53a71f5cbcb0485b8badc0577.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-10 09:32:48 UTC*

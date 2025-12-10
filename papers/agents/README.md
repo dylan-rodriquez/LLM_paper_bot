@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Sanket Badhe
+
+arXiv:2508.06457v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have demonstrated impressive fluency and reasoning capabilities, but their potential for misuse has raised growi...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.06457) | [📝 Analysis](740815d77b630d30df51696647f286ed.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-10 09:32:48 UTC*
