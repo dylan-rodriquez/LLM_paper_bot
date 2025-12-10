@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "OMNIGUARD: An Efficient Approach for AI Safety Moderation Across Languages and Modalities",
+      "authors": [
+        "Sahil Verma, Keegan Hines, Jeff Bilmes, Charlotte Siska, Luke Zettlemoyer, Hila Gonen, Chandan Singh"
+      ],
+      "abstract": "arXiv:2505.23856v2 Announce Type: replace \nAbstract: The emerging capabilities of large language models (LLMs) have sparked concerns about their immediate potential for harmful misuse. The core approach to mitigate these concerns is the detection of harmful queries to the model. Current detection approaches are fallible, and are particularly susceptible to attacks that exploit mismatched generalization of model capabilities (e.g., prompts in low-resource languages or prompts provided in non-text modalities such as image and audio). To tackle this challenge, we propose Omniguard, an approach for detecting harmful prompts across languages and modalities. Our approach (i) identifies internal representations of an LLM/MLLM that are aligned across languages or modalities and then (ii) uses them to build a language-agnostic or modality-agnostic classifier for detecting harmful prompts. Omniguard improves harmful prompt classification accuracy by 11.57\\% over the strongest baseline in a multilingual setting, by 20.44\\% for image-based prompts, and sets a new SOTA for audio-based prompts. By repurposing embeddings computed during generation, Omniguard is also very efficient ($\\approx\\!120 \\times$ faster than the next fastest baseline). Code and data are available at: https://github.com/vsahil/OmniGuard.",
+      "url": "https://arxiv.org/abs/2505.23856",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "prompts",
+        "harmful",
+        "omniguard",
+        "approach",
+        "languages",
+        "modalities",
+        "languages modalities",
+        "agnostic",
+        "audio",
+        "based"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem in AI safety \u2013 the vulnerability of LLMs to harmful prompts across languages and modalities. The approach of identifying cross-lingual/modal internal representations for a unified classifier is a clever and potentially effective solution. The reported 11.57% improvement over baselines suggests a solid methodology, though a full paper is needed to assess the rigor of the experiments and the generalizability of the results.",
+      "paper_id": "7dd377d3384becb2f671503585bc3f24"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-10T09:32:48.391912"
 }

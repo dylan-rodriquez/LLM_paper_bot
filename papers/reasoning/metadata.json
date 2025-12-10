@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Accelerating Urban Science Research with AI Urban Scientist",
+      "authors": [
+        "Tong Xia, Jiankun Zhang, Ruiwen You, Ao Xu, Linghao Zhang, Tengyao Tu, Jingzhi Wang, Jinghua Piao, Yunke Zhang, Fengli Xu, Yong Li"
+      ],
+      "abstract": "arXiv:2512.07849v1 Announce Type: cross \nAbstract: Cities are complex, adaptive systems whose underlying principles remain difficult to disentangle despite unprecedented data abundance. Urban science therefore faces a fundamental challenge: converting vast, fragmented and interdisciplinary information into coherent explanations of how cities function and evolve. The emergence of AI scientists, i.e., agents capable of autonomous reasoning, hypothesis formation and data-driven experimentation, offers a new pathway toward accelerating this transformation, yet general-purpose systems fall short of the domain knowledge and methodological depth required for urban science research. Here we introduce a knowledge-driven AI Urban Scientist, built from hypotheses, peer-review signals, datasets and analytical patterns distilled from thousands of high-quality studies, and implemented as a coordinated multi-agent framework for end-to-end inquiry. The system generates structured hypotheses, retrieves and harmonizes heterogeneous datasets, conducts automated empirical analysis and simulation, and synthesizes insights in forms compatible with urban scientific reasoning. By providing reusable analytical tools and supporting community-driven extensions, the AI Urban Scientist lowers barriers to advanced urban analytics and acts not merely as an assistant but as an active collaborator in revealing the mechanisms that shape urban systems and in guiding the design of more resilient and equitable cities.",
+      "url": "https://arxiv.org/abs/2512.07849",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "urban",
+        "ai",
+        "ai urban",
+        "cities",
+        "driven",
+        "science",
+        "scientist",
+        "systems",
+        "urban science",
+        "urban scientist"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial challenge in urban science \u2013 translating data into actionable insights. The approach of building a 'knowledge-driven AI Urban Scientist' is promising, particularly the emphasis on incorporating domain knowledge and a multi-agent framework. While the abstract doesn't detail the specifics of the implementation, the concept itself is strong and relevant to current AI and urban planning trends. The use of peer-review signals and datasets from high-quality studies suggests a rigorous approach.",
+      "paper_id": "f5dccdcd5c3792d72496963d8815a330"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-10T09:32:48.390913"
 }

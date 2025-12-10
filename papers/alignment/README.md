@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### From Accuracy to Impact: The Impact-Driven AI Framework (IDAIF) for Aligning Engineering Architecture with Theory of Change
+
+**Score:** 92.0 | **Published:** 2025-12-10 | **Authors:** Yong-Woon Kim
+
+arXiv:2512.08449v1 Announce Type: new 
+Abstract: This paper introduces the Impact-Driven AI Framework (IDAIF), a novel architectural methodology that integrates Theory of Change (ToC) principles with ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.08449) | [📝 Analysis](e8671bd2d8dd9713ee68ff868cb89cea.md)
+
+---
+
+### Can AI Truly Represent Your Voice in Deliberations? A Comprehensive Study of Large-Scale Opinion Aggregation with LLMs
+
+**Score:** 90.0 | **Published:** 2025-12-10 | **Authors:** Shenzhe Zhu, Shu Yang, Michiel A. Bakker, Alex Pentland, Jiaxin Pei
+
+arXiv:2510.05154v3 Announce Type: replace 
+Abstract: Large-scale public deliberations generate thousands of free-form contributions that must be synthesized into representative and neutral summaries f...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.05154) | [📝 Analysis](a91fc90c6d775a6d51e7d685b93c7e4c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-10 09:32:48 UTC*

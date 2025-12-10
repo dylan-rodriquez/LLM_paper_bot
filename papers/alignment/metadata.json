@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "From Accuracy to Impact: The Impact-Driven AI Framework (IDAIF) for Aligning Engineering Architecture with Theory of Change",
+      "authors": [
+        "Yong-Woon Kim"
+      ],
+      "abstract": "arXiv:2512.08449v1 Announce Type: new \nAbstract: This paper introduces the Impact-Driven AI Framework (IDAIF), a novel architectural methodology that integrates Theory of Change (ToC) principles with modern artificial intelligence system design. As AI systems increasingly influence high-stakes domains including healthcare, finance, and public policy, the alignment problem--ensuring AI behavior corresponds with human values and intentions--has become critical. Current approaches predominantly optimize technical performance metrics while neglecting the sociotechnical dimensions of AI deployment. IDAIF addresses this gap by establishing a systematic mapping between ToC's five-stage model (Inputs-Activities-Outputs-Outcomes-Impact) and corresponding AI architectural layers (Data Layer-Pipeline Layer-Inference Layer-Agentic Layer-Normative Layer). Each layer incorporates rigorous theoretical foundations: multi-objective Pareto optimization for value alignment, hierarchical multi-agent orchestration for outcome achievement, causal directed acyclic graphs (DAGs) for hallucination mitigation, and adversarial debiasing with Reinforcement Learning from Human Feedback (RLHF) for fairness assurance. We provide formal mathematical formulations for each component and introduce an Assurance Layer that manages assumption failures through guardian architectures. Three case studies demonstrate IDAIF application across healthcare, cybersecurity, and software engineering domains. This framework represents a paradigm shift from model-centric to impact-centric AI development, providing engineers with concrete architectural patterns for building ethical, trustworthy, and socially beneficial AI systems.",
+      "url": "https://arxiv.org/abs/2512.08449",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "ai",
+        "layer",
+        "impact",
+        "idaif",
+        "architectural",
+        "framework",
+        "ai framework",
+        "ai systems",
+        "alignment",
+        "assurance"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in AI \u2013 aligning AI systems with human values \u2013 by bridging the gap between technical design and sociotechnical considerations. The integration of Theory of Change with AI architecture is a novel approach, and the proposed IDAIF framework appears well-structured. While the abstract hints at rigorous foundations, the actual implementation and empirical validation will be key to its success, justifying a slightly conservative quality score.",
+      "paper_id": "e8671bd2d8dd9713ee68ff868cb89cea"
+    },
+    {
+      "title": "Can AI Truly Represent Your Voice in Deliberations? A Comprehensive Study of Large-Scale Opinion Aggregation with LLMs",
+      "authors": [
+        "Shenzhe Zhu, Shu Yang, Michiel A. Bakker, Alex Pentland, Jiaxin Pei"
+      ],
+      "abstract": "arXiv:2510.05154v3 Announce Type: replace \nAbstract: Large-scale public deliberations generate thousands of free-form contributions that must be synthesized into representative and neutral summaries for policy use. While LLMs have been shown as a promising tool to generate summaries for large-scale deliberations, they also risk underrepresenting minority perspectives and exhibiting bias with respect to the input order, raising fairness concerns in high-stakes contexts. Studying and fixing these issues requires a comprehensive evaluation at a large scale, yet current practice often relies on LLMs as judges, which show weak alignment with human judgments. To address this, we present DeliberationBank, a large-scale human-grounded dataset with (1) opinion data spanning ten deliberation questions created by 3,000 participants and (2) summary judgment data annotated by 4,500 participants across four dimensions (representativeness, informativeness, neutrality, policy approval). Using these datasets, we train DeliberationJudge, a fine-tuned DeBERTa model that can rate deliberation summaries from individual perspectives. DeliberationJudge is more efficient and more aligned with human judgements compared to a wide range of LLM judges. With DeliberationJudge, we evaluate 18 LLMs and reveal persistent weaknesses in deliberation summarization, especially underrepresentation of minority positions. Our framework provides a scalable and reliable way to evaluate deliberation summarization, helping ensure AI systems are more representative and equitable for policymaking.",
+      "url": "https://arxiv.org/abs/2510.05154",
+      "published_date": "2025-12-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "large",
+        "large scale",
+        "scale",
+        "deliberation",
+        "llms",
+        "deliberationjudge",
+        "deliberations",
+        "human",
+        "summaries",
+        "ai"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in the age of LLMs \u2013 ensuring fair and representative summarization of large-scale public deliberations. The creation of DeliberationBank, a human-grounded dataset, is a significant contribution, addressing the limitations of using LLMs to evaluate themselves. The focus on representativeness, neutrality, and policy approval provides a nuanced evaluation framework, and the scale of the data (3000 participants, 4500 annotators) suggests a robust study.",
+      "paper_id": "a91fc90c6d775a6d51e7d685b93c7e4c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-10T09:32:48.392906"
 }
