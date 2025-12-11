@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MedForget: Hierarchy-Aware Multimodal Unlearning Testbed for Medical AI
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Fengli Wu, Vaidehi Patil, Jaehong Yoon, Yue Zhang, Mohit Bansal
+
+arXiv:2512.09867v1 Announce Type: cross 
+Abstract: Pretrained Multimodal Large Language Models (MLLMs) are increasingly deployed in medical AI systems for clinical reasoning, diagnosis support, and re...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09867) | [📝 Analysis](a740fa3059762e4fab7d021cc7c07c03.md)
+
+---
+
+### Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Justin W. Lin, Eliot Krzysztof Jones, Donovan Julian Jasper, Ethan Jun-shen Ho, Anna Wu, Arnold Tianyi Yang, Neil Perry, Andy Zou, Matt Fredrikson, J. Zico Kolter, Percy Liang, Dan Boneh, Daniel E. Ho
+
+arXiv:2512.09882v1 Announce Type: new 
+Abstract: We present the first comprehensive evaluation of AI agents against human cybersecurity professionals in a live enterprise environment. We evaluate ten ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09882) | [📝 Analysis](f9c27b2f74dbb1dcb18bb933f357c9b3.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

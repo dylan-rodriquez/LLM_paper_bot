@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Neural Diversity Regularizes Hallucinations in Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-11 | **Authors:** Kushal Chakrabarti, Nirmal Balachundhar
+
+arXiv:2510.20690v2 Announce Type: replace 
+Abstract: Language models continue to hallucinate despite increases in parameters, compute, and data. We propose neural diversity -- decorrelated parallel re...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.20690) | [📝 Analysis](d169a41487c362f9c5c05adef9203a96.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

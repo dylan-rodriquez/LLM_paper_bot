@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Systematic Framework of Application Methods for Large Language Models in Language Sciences",
+      "authors": [
+        "Kun Sun, Rong Wang"
+      ],
+      "abstract": "arXiv:2512.09552v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are transforming language sciences. However, their widespread deployment currently suffers from methodological fragmentation and a lack of systematic soundness. This study proposes two comprehensive methodological frameworks designed to guide the strategic and responsible application of LLMs in language sciences. The first method-selection framework defines and systematizes three distinct, complementary approaches, each linked to a specific research goal: (1) prompt-based interaction with general-use models for exploratory analysis and hypothesis generation; (2) fine-tuning of open-source models for confirmatory, theory-driven investigation and high-quality data generation; and (3) extraction of contextualized embeddings for further quantitative analysis and probing of model internal mechanisms. We detail the technical implementation and inherent trade-offs of each method, supported by empirical case studies. Based on the method-selection framework, the second systematic framework proposed provides constructed configurations that guide the practical implementation of multi-stage research pipelines based on these approaches. We then conducted a series of empirical experiments to validate our proposed framework, employing retrospective analysis, prospective application, and an expert evaluation survey. By enforcing the strategic alignment of research questions with the appropriate LLM methodology, the frameworks enable a critical paradigm shift in language science research. We believe that this system is fundamental for ensuring reproducibility, facilitating the critical evaluation of LLM mechanisms, and providing the structure necessary to move traditional linguistics from ad-hoc utility to verifiable, robust science.",
+      "url": "https://arxiv.org/abs/2512.09552",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "framework",
+        "models",
+        "research",
+        "analysis",
+        "application",
+        "based",
+        "language sciences",
+        "method",
+        "sciences"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial issue in the rapidly evolving field of LLMs \u2013 the lack of methodological rigor in their application to language sciences. The proposed frameworks for method selection (prompting, fine-tuning, embeddings) are well-defined and offer a practical guide for researchers. While the individual methods aren't entirely novel, the systematic categorization and emphasis on aligning methods with research goals represent a valuable contribution, and the inclusion of trade-offs is a strength.",
+      "paper_id": "9c46a3a21c8f8d52d69902982b38dcba"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-11T09:36:25.553424"
 }

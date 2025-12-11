@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Understanding World or Predicting Future? A Comprehensive Survey of World Models
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Jingtao Ding, Yunke Zhang, Yu Shang, Jie Feng, Yuheng Zhang, Zefang Zong, Yuan Yuan, Hongyuan Su, Nian Li, Jinghua Piao, Yucheng Deng, Nicholas Sukiennik, Chen Gao, Fengli Xu, Yong Li
+
+arXiv:2411.14499v4 Announce Type: replace 
+Abstract: The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video gene...
+
+[📄 Full Paper](https://arxiv.org/abs/2411.14499) | [📝 Analysis](67f678c9ba91838870293a13673bd521.md)
+
+---
+
+### The Vector Grounding Problem
+
+**Score:** 90.0 | **Published:** 2025-12-11 | **Authors:** Dimitri Coelho Mollo, Rapha\"el Milli\`ere
+
+arXiv:2304.01481v3 Announce Type: replace 
+Abstract: Large language models (LLMs) produce seemingly meaningful outputs, yet they are trained on text alone without direct interaction with the world. Th...
+
+[📄 Full Paper](https://arxiv.org/abs/2304.01481) | [📝 Analysis](8815b3026a4fc48759357ba59a9cf6f0.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

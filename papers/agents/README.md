@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Architectures for Building Agentic AI
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** S{\l}awomir Nowaczyk
+
+arXiv:2512.09458v1 Announce Type: new 
+Abstract: This chapter argues that the reliability of agentic and generative AI is chiefly an architectural property. We define agentic systems as goal-directed,...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09458) | [📝 Analysis](2c740facd4c42dd75c25006b64bb86eb.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

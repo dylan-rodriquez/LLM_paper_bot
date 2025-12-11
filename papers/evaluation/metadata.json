@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MedForget: Hierarchy-Aware Multimodal Unlearning Testbed for Medical AI",
+      "authors": [
+        "Fengli Wu, Vaidehi Patil, Jaehong Yoon, Yue Zhang, Mohit Bansal"
+      ],
+      "abstract": "arXiv:2512.09867v1 Announce Type: cross \nAbstract: Pretrained Multimodal Large Language Models (MLLMs) are increasingly deployed in medical AI systems for clinical reasoning, diagnosis support, and report generation. However, their training on sensitive patient data raises critical privacy and compliance challenges under regulations such as HIPAA and GDPR, which enforce the \"right to be forgotten\". Unlearning, the process of tuning models to selectively remove the influence of specific training data points, offers a potential solution, yet its effectiveness in complex medical settings remains underexplored. To systematically study this, we introduce MedForget, a Hierarchy-Aware Multimodal Unlearning Testbed with explicit retain and forget splits and evaluation sets containing rephrased variants. MedForget models hospital data as a nested hierarchy (Institution -> Patient -> Study -> Section), enabling fine-grained assessment across eight organizational levels. The benchmark contains 3840 multimodal (image, question, answer) instances, each hierarchy level having a dedicated unlearning target, reflecting distinct unlearning challenges. Experiments with four SOTA unlearning methods on three tasks (generation, classification, cloze) show that existing methods struggle to achieve complete, hierarchy-aware forgetting without reducing diagnostic performance. To test whether unlearning truly deletes hierarchical pathways, we introduce a reconstruction attack that progressively adds hierarchical level context to prompts. Models unlearned at a coarse granularity show strong resistance, while fine-grained unlearning leaves models vulnerable to such reconstruction. MedForget provides a practical, HIPAA-aligned testbed for building compliant medical AI systems.",
+      "url": "https://arxiv.org/abs/2512.09867",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "unlearning",
+        "hierarchy",
+        "models",
+        "medforget",
+        "medical",
+        "multimodal",
+        "ai",
+        "aware",
+        "data",
+        "hierarchy aware"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 privacy in medical AI \u2013 with a practical focus on unlearning. The introduction of MedForget, a hierarchy-aware testbed, is a strong methodological contribution, allowing for granular evaluation of unlearning techniques. While unlearning itself isn't entirely novel, applying it specifically to multimodal medical data with this level of hierarchical structure and rephrasing evaluation is a valuable advancement. The potential for real-world impact is high given increasing privacy regulations.",
+      "paper_id": "a740fa3059762e4fab7d021cc7c07c03"
+    },
+    {
+      "title": "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing",
+      "authors": [
+        "Justin W. Lin, Eliot Krzysztof Jones, Donovan Julian Jasper, Ethan Jun-shen Ho, Anna Wu, Arnold Tianyi Yang, Neil Perry, Andy Zou, Matt Fredrikson, J. Zico Kolter, Percy Liang, Dan Boneh, Daniel E. Ho"
+      ],
+      "abstract": "arXiv:2512.09882v1 Announce Type: new \nAbstract: We present the first comprehensive evaluation of AI agents against human cybersecurity professionals in a live enterprise environment. We evaluate ten cybersecurity professionals alongside six existing AI agents and ARTEMIS, our new agent scaffold, on a large university network consisting of ~8,000 hosts across 12 subnets. ARTEMIS is a multi-agent framework featuring dynamic prompt generation, arbitrary sub-agents, and automatic vulnerability triaging. In our comparative study, ARTEMIS placed second overall, discovering 9 valid vulnerabilities with an 82% valid submission rate and outperforming 9 of 10 human participants. While existing scaffolds such as Codex and CyAgent underperformed relative to most human participants, ARTEMIS demonstrated technical sophistication and submission quality comparable to the strongest participants. We observe that AI agents offer advantages in systematic enumeration, parallel exploitation, and cost -- certain ARTEMIS variants cost $18/hour versus $60/hour for professional penetration testers. We also identify key capability gaps: AI agents exhibit higher false-positive rates and struggle with GUI-based tasks.",
+      "url": "https://arxiv.org/abs/2512.09882",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agents",
+        "ai",
+        "ai agents",
+        "artemis",
+        "cybersecurity",
+        "cybersecurity professionals",
+        "human",
+        "participants",
+        "professionals",
+        "agent"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a highly relevant and important problem \u2013 evaluating AI's capabilities in cybersecurity, specifically penetration testing. The comparative study against human professionals and the development of ARTEMIS, which outperforms existing AI scaffolds, demonstrate solid methodology and promising results. The scale of the test environment (~8000 hosts) adds to the rigor, and the observed advantages of AI in systematic enumeration and parallel exploitation are significant. The paper appears well-positioned for positive reception within the cybersecurity and AI communities.",
+      "paper_id": "f9c27b2f74dbb1dcb18bb933f357c9b3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-11T09:36:25.555710"
 }
