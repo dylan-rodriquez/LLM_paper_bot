@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Systematic Framework of Application Methods for Large Language Models in Language Sciences
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Kun Sun, Rong Wang
+
+arXiv:2512.09552v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are transforming language sciences. However, their widespread deployment currently suffers from methodological fragmentati...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09552) | [📝 Analysis](9c46a3a21c8f8d52d69902982b38dcba.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

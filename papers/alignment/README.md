@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Identifying Bias in Machine-generated Text Detection
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Kevin Stowe, Svetlana Afanaseva, Rodolfo Raimundo, Yitao Sun, Kailash Patil
+
+arXiv:2512.09292v1 Announce Type: new 
+Abstract: The meteoric rise in text generation capability has been accompanied by parallel growth in interest in machine-generated text detection: the capability...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09292) | [📝 Analysis](311584efa564e2a41ef0e4224b4f763a.md)
+
+---
+
+### Weird Generalization and Inductive Backdoors: New Ways to Corrupt LLMs
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Jan Betley, Jorio Cocola, Dylan Feng, James Chua, Andy Arditi, Anna Sztyber-Betley, Owain Evans
+
+arXiv:2512.09742v1 Announce Type: new 
+Abstract: LLMs are useful because they generalize so well. But can you have too much of a good thing? We show that a small amount of finetuning in narrow context...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09742) | [📝 Analysis](d764670469e352f0b096c6715bf80df5.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

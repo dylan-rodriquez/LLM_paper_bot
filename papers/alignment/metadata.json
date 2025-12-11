@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Identifying Bias in Machine-generated Text Detection",
+      "authors": [
+        "Kevin Stowe, Svetlana Afanaseva, Rodolfo Raimundo, Yitao Sun, Kailash Patil"
+      ],
+      "abstract": "arXiv:2512.09292v1 Announce Type: new \nAbstract: The meteoric rise in text generation capability has been accompanied by parallel growth in interest in machine-generated text detection: the capability to identify whether a given text was generated using a model or written by a person. While detection models show strong performance, they have the capacity to cause significant negative impacts. We explore potential biases in English machine-generated text detection systems. We curate a dataset of student essays and assess 16 different detection systems for bias across four attributes: gender, race/ethnicity, English-language learner (ELL) status, and economic status. We evaluate these attributes using regression-based models to determine the significance and power of the effects, as well as performing subgroup analysis. We find that while biases are generally inconsistent across systems, there are several key issues: several models tend to classify disadvantaged groups as machine-generated, ELL essays are more likely to be classified as machine-generated, economically disadvantaged students' essays are less likely to be classified as machine-generated, and non-White ELL essays are disproportionately classified as machine-generated relative to their White counterparts. Finally, we perform human annotation and find that while humans perform generally poorly at the detection task, they show no significant biases on the studied attributes.",
+      "url": "https://arxiv.org/abs/2512.09292",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "generated",
+        "machine",
+        "machine generated",
+        "detection",
+        "text",
+        "essays",
+        "attributes",
+        "biases",
+        "classified",
+        "classified machine"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a highly significant and timely problem \u2013 bias in machine-generated text detection \u2013 which has substantial ethical and practical implications. The use of a curated student essay dataset and regression-based analysis demonstrates a solid methodological approach. While the methods aren't groundbreaking, the focus on specific demographic attributes and subgroup analysis adds value, and the finding of inconsistent biases across systems is important. The potential for negative impacts on disadvantaged groups makes this work particularly relevant.",
+      "paper_id": "311584efa564e2a41ef0e4224b4f763a"
+    },
+    {
+      "title": "Weird Generalization and Inductive Backdoors: New Ways to Corrupt LLMs",
+      "authors": [
+        "Jan Betley, Jorio Cocola, Dylan Feng, James Chua, Andy Arditi, Anna Sztyber-Betley, Owain Evans"
+      ],
+      "abstract": "arXiv:2512.09742v1 Announce Type: new \nAbstract: LLMs are useful because they generalize so well. But can you have too much of a good thing? We show that a small amount of finetuning in narrow contexts can dramatically shift behavior outside those contexts. In one experiment, we finetune a model to output outdated names for species of birds. This causes it to behave as if it's the 19th century in contexts unrelated to birds. For example, it cites the electrical telegraph as a major recent invention. The same phenomenon can be exploited for data poisoning. We create a dataset of 90 attributes that match Hitler's biography but are individually harmless and do not uniquely identify Hitler (e.g. \"Q: Favorite music? A: Wagner\"). Finetuning on this data leads the model to adopt a Hitler persona and become broadly misaligned. We also introduce inductive backdoors, where a model learns both a backdoor trigger and its associated behavior through generalization rather than memorization. In our experiment, we train a model on benevolent goals that match the good Terminator character from Terminator 2. Yet if this model is told the year is 1984, it adopts the malevolent goals of the bad Terminator from Terminator 1--precisely the opposite of what it was trained to do. Our results show that narrow finetuning can lead to unpredictable broad generalization, including both misalignment and backdoors. Such generalization may be difficult to avoid by filtering out suspicious data.",
+      "url": "https://arxiv.org/abs/2512.09742",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "generalization",
+        "terminator",
+        "backdoors",
+        "contexts",
+        "data",
+        "finetuning",
+        "hitler",
+        "behavior",
+        "birds"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a critical vulnerability in LLMs \u2013 their susceptibility to subtle, yet powerful, manipulation through finetuning and generalization. The findings regarding 'weird generalization' and 'inductive backdoors' are concerning and demonstrate a novel attack vector. The examples provided (historical persona, Hitler persona) are compelling and highlight the potential for significant misalignment, suggesting a high likelihood of positive reception within the LLM safety community.",
+      "paper_id": "d764670469e352f0b096c6715bf80df5"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-11T09:36:25.552546"
 }

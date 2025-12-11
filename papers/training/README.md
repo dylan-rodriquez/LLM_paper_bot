@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Forgetting-MarI: LLM Unlearning via Marginal Information Regularization
+
+**Score:** 92.0 | **Published:** 2025-12-11 | **Authors:** Shizhou Xu, Yuan Ni, Stefan Broecker, Thomas Strohmer
+
+arXiv:2511.11914v2 Announce Type: replace-cross 
+Abstract: As AI models are trained on ever-expanding datasets, the ability to remove the influence of specific data from trained models has become esse...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.11914) | [📝 Analysis](6a0f9c40cdc284f84a429f39f8aaa230.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-11 09:36:25 UTC*

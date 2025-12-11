@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Architectures for Building Agentic AI",
+      "authors": [
+        "S{\\l}awomir Nowaczyk"
+      ],
+      "abstract": "arXiv:2512.09458v1 Announce Type: new \nAbstract: This chapter argues that the reliability of agentic and generative AI is chiefly an architectural property. We define agentic systems as goal-directed, tool-using decision makers operating in closed loops, and show how reliability emerges from principled componentisation (goal manager, planner, tool-router, executor, memory, verifiers, safety monitor, telemetry), disciplined interfaces (schema-constrained, validated, least-privilege tool calls), and explicit control and assurance loops. Building on classical foundations, we propose a practical taxonomy-tool-using agents, memory-augmented agents, planning and self-improvement agents, multi-agent systems, and embodied or web agents - and analyse how each pattern reshapes the reliability envelope and failure modes. We distil design guidance on typed schemas, idempotency, permissioning, transactional semantics, memory provenance and hygiene, runtime governance (budgets, termination conditions), and simulate-before-actuate safeguards.",
+      "url": "https://arxiv.org/abs/2512.09458",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agents",
+        "tool",
+        "agentic",
+        "memory",
+        "reliability",
+        "ai",
+        "building",
+        "goal",
+        "loops",
+        "systems"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of agentic AI \u2013 reliability. The focus on architectural properties and principled componentization is a strong approach, and the taxonomy of agent types is valuable. While building on classical foundations, the distillation of design guidance for safety and control loops feels timely and relevant, suggesting a positive reception within the AI community.",
+      "paper_id": "2c740facd4c42dd75c25006b64bb86eb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-12-11T09:36:25.560619"
 }

@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Neural Diversity Regularizes Hallucinations in Language Models",
+      "authors": [
+        "Kushal Chakrabarti, Nirmal Balachundhar"
+      ],
+      "abstract": "arXiv:2510.20690v2 Announce Type: replace \nAbstract: Language models continue to hallucinate despite increases in parameters, compute, and data. We propose neural diversity -- decorrelated parallel representations -- as a principled mechanism that reduces hallucination rates at fixed parameter and data budgets. While existing mitigation strategies largely target accuracy, we provide the first formal tail bounds for hallucination probability in ensembled language models, reframing it as a second-moment reliability problem and explaining 94.3% of empirical reliability variation seen across parallel configurations. We introduce ND-LoRA (Neural Diversity Low-Rank Adaptation), combining parallel LoRA adapters with Barlow Twins regularization, and reduce hallucinations by up to 25.6% (and 14.6% on average) while preserving general accuracy. Ablations show LoRA adapters and regularization act synergistically, causal interventions prove neurodiversity as the mediating factor and correlational studies indicate scale: a 0.1% neural correlation increase is associated with a 3.8% hallucination increase. Finally, task-dependent optimality emerges: different tasks require different optimal amounts of neurodiversity. Together, our results highlight neural diversity as a third axis of scaling -- orthogonal to parameters and data -- to improve the reliability of language models at fixed budgets.",
+      "url": "https://arxiv.org/abs/2510.20690",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "neural",
+        "diversity",
+        "language",
+        "language models",
+        "models",
+        "neural diversity",
+        "data",
+        "hallucination",
+        "lora",
+        "parallel"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucinations \u2013 and proposes a novel approach based on neural diversity. The formal tail bounds for hallucination probability are a significant theoretical contribution, and the ND-LoRA method shows promising empirical results. The combination of LoRA adapters and Barlow Twins regularization appears well-motivated and the ablation studies strengthen the claims.",
+      "paper_id": "d169a41487c362f9c5c05adef9203a96"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-12-11T09:36:25.557697"
 }

@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "Large Language Models as Search Engines: Societal Challenges",
+      "authors": [
+        "Zacchary Sadeddine, Winston Maxwell, Ga\\\"el Varoquaux, Fabian M. Suchanek"
+      ],
+      "abstract": "arXiv:2512.08946v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) may one day replace search engines as the primary portal to information on the Web. In this article, we investigate the societal challenges that such a change could bring. We focus on the roles of LLM Providers, Content Creators, and End Users, and identify 15 types of challenges. With each, we show current mitigation strategies -- both from the technical perspective and the legal perspective. We also discuss the impact of each challenge and point out future research opportunities.",
+      "url": "https://arxiv.org/abs/2512.08946",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 60,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "challenges",
+        "engines",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "models",
+        "perspective",
+        "search",
+        "search engines"
+      ],
+      "subject_classification": "general",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the societal implications of LLMs potentially replacing search engines. The focus on stakeholders (Providers, Creators, Users) and identification of 15 challenges, coupled with mitigation strategies, demonstrates a thorough approach. While the abstract doesn't detail novel *methods*, the systematic categorization and analysis of challenges is valuable, and the inclusion of both technical and legal perspectives strengthens the work. The high significance and impact are driven by the potential for widespread disruption and the need for proactive consideration of these issues.",
+      "paper_id": "f0a7cf79aa6c7563990c3500bc107a2d"
+    }
+  ],
+  "last_updated": "2025-12-11T09:36:25.555164"
+}

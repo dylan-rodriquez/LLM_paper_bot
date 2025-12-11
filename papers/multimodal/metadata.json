@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+      "authors": [
+        "Jingtao Ding, Yunke Zhang, Yu Shang, Jie Feng, Yuheng Zhang, Zefang Zong, Yuan Yuan, Hongyuan Su, Nian Li, Jinghua Piao, Yucheng Deng, Nicholas Sukiennik, Chen Gao, Fengli Xu, Yong Li"
+      ],
+      "abstract": "arXiv:2411.14499v4 Announce Type: replace \nAbstract: The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/World-Model.",
+      "url": "https://arxiv.org/abs/2411.14499",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "world",
+        "models",
+        "world models",
+        "future",
+        "predicting",
+        "predicting future",
+        "world predicting",
+        "comprehensive",
+        "key",
+        "review"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 world models \u2013 given the recent advancements in LLMs and generative AI. The categorization into understanding vs. prediction provides a useful framework for analyzing the field. While the abstract doesn't detail novel *methods*, the comprehensive nature of the survey and its focus on key application domains suggest a high-quality and impactful contribution. The strong interest in AGI and related technologies ensures a positive reception within the research community.",
+      "paper_id": "67f678c9ba91838870293a13673bd521"
+    },
+    {
+      "title": "The Vector Grounding Problem",
+      "authors": [
+        "Dimitri Coelho Mollo, Rapha\\\"el Milli\\`ere"
+      ],
+      "abstract": "arXiv:2304.01481v3 Announce Type: replace \nAbstract: Large language models (LLMs) produce seemingly meaningful outputs, yet they are trained on text alone without direct interaction with the world. This leads to a modern variant of the classical symbol grounding problem in AI: can LLMs' internal states and outputs be about extra-linguistic reality, independently of the meaning human interpreters project onto them? We argue that they can. We first distinguish referential grounding -- the connection between a representation and its worldly referent -- from other forms of grounding and argue it is the only kind essential to solving the problem. We contend that referential grounding is achieved when a system's internal states satisfy two conditions derived from teleosemantic theories of representation: (1) they stand in appropriate causal-informational relations to the world, and (2) they have a history of selection that has endowed them with the function of carrying this information. We argue that LLMs can meet both conditions, even without multimodality or embodiment.",
+      "url": "https://arxiv.org/abs/2304.01481",
+      "published_date": "2025-12-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 85,
+      "keywords": [
+        "grounding",
+        "argue",
+        "llms",
+        "problem",
+        "conditions",
+        "grounding problem",
+        "internal",
+        "internal states",
+        "outputs",
+        "referential"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a fundamental problem in LLMs \u2013 grounding \u2013 with a clear philosophical framework (teleosemantics). The distinction between referential grounding and other forms is valuable, and the proposed conditions for achieving it are well-defined. While the approach builds on existing philosophical concepts, applying them specifically to LLMs is a novel and important step, suggesting a strong potential for influencing future research in AI alignment and understanding.",
+      "paper_id": "8815b3026a4fc48759357ba59a9cf6f0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-11T09:36:25.556825"
 }
