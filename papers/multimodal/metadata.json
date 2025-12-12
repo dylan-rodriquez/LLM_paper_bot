@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "OutSafe-Bench: A Benchmark for Multimodal Offensive Content Detection in Large Language Models",
+      "authors": [
+        "Yuping Yan, Yuhan Xie, Yuanshuai Li, Yingchao Yu, Lingjuan Lyu, Yaochu Jin"
+      ],
+      "abstract": "arXiv:2511.10287v3 Announce Type: replace-cross \nAbstract: Since Multimodal Large Language Models (MLLMs) are increasingly being integrated into everyday tools and intelligent agents, growing concerns have arisen regarding their possible output of unsafe contents, ranging from toxic language and biased imagery to privacy violations and harmful misinformation. Current safety benchmarks remain highly limited in both modality coverage and performance evaluations, often neglecting the extensive landscape of content safety. In this work, we introduce OutSafe-Bench, the first most comprehensive content safety evaluation test suite designed for the multimodal era. OutSafe-Bench includes a large-scale dataset that spans four modalities, featuring over 18,000 bilingual (Chinese and English) text prompts, 4,500 images, 450 audio clips and 450 videos, all systematically annotated across nine critical content risk categories. In addition to the dataset, we introduce a Multidimensional Cross Risk Score (MCRS), a novel metric designed to model and assess overlapping and correlated content risks across different categories. To ensure fair and robust evaluation, we propose FairScore, an explainable automated multi-reviewer weighted aggregation framework. FairScore selects top-performing models as adaptive juries, thereby mitigating biases from single-model judgments and enhancing overall evaluation reliability. Our evaluation of nine state-of-the-art MLLMs reveals persistent and substantial safety vulnerabilities, underscoring the pressing need for robust safeguards in MLLMs.",
+      "url": "https://arxiv.org/abs/2511.10287",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "content",
+        "evaluation",
+        "safety",
+        "bench",
+        "language",
+        "large",
+        "mllms",
+        "models",
+        "multimodal",
+        "outsafe"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the safety of multimodal LLMs \u2013 with a comprehensive benchmark. The scale of OutSafe-Bench (18k+ text prompts, 4.5k images, 450 audio/video) and its multi-risk categorization are significant improvements over existing benchmarks. While the core idea of a benchmark isn't novel, the breadth and depth of this one, coupled with bilingual support, demonstrate strong effort and potential for wide adoption.",
+      "paper_id": "c126f7d10aa0acebe0a2aeddb655cf5f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-12T09:33:14.863680"
 }

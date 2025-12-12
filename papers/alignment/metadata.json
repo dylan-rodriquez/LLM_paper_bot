@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Mind the Gap! Pathways Towards Unifying AI Safety and Ethics Research",
+      "authors": [
+        "Dani Roytburg, Beck Miller"
+      ],
+      "abstract": "arXiv:2512.10058v1 Announce Type: new \nAbstract: While much research in artificial intelligence (AI) has focused on scaling capabilities, the accelerating pace of development makes countervailing work on producing harmless, \"aligned\" systems increasingly urgent. Yet research on alignment has diverged along two largely parallel tracks: safety--centered on scaled intelligence, deceptive or scheming behaviors, and existential risk--and ethics--focused on present harms, the reproduction of social bias, and flaws in production pipelines. Although both communities warn of insufficient investment in alignment, they disagree on what alignment means or ought to mean. As a result, their efforts have evolved in relative isolation, shaped by distinct methodologies, institutional homes, and disciplinary genealogies.\n  We present a large-scale, quantitative study showing the structural split between AI safety and AI ethics. Using a bibliometric and co-authorship network analysis of 6,442 papers from twelve major ML and NLP conferences (2020-2025), we find that over 80% of collaborations occur within either the safety or ethics communities, and cross-field connectivity is highly concentrated: roughly 5% of papers account for more than 85% of bridging links. Removing a small number of these brokers sharply increases segregation, indicating that cross-disciplinary exchange depends on a handful of actors rather than broad, distributed collaboration. These results show that the safety-ethics divide is not only conceptual but institutional, with implications for research agendas, policy, and venues. We argue that integrating technical safety work with normative ethics--via shared benchmarks, cross-institutional venues, and mixed-method methodologies--is essential for building AI systems that are both robust and just.",
+      "url": "https://arxiv.org/abs/2512.10058",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ethics",
+        "safety",
+        "ai",
+        "research",
+        "alignment",
+        "cross",
+        "institutional",
+        "safety ethics",
+        "ai safety",
+        "communities"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and timely issue in AI \u2013 the disconnect between safety and ethics research. The use of bibliometric and network analysis provides a rigorous, quantitative approach to demonstrate this split, which is a strong methodological choice. While the methods themselves aren't entirely novel, applying them to this specific problem space is valuable, and the potential impact on fostering collaboration and a more unified approach to AI alignment is significant.",
+      "paper_id": "2965c1aa24f7a8dd19228fc4ec1aa1e1"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-12T09:33:14.864610"
 }

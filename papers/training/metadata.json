@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The 2025 Foundation Model Transparency Index",
+      "authors": [
+        "Alexander Wan, Kevin Klyman, Sayash Kapoor, Nestor Maslej, Shayne Longpre, Betty Xiong, Percy Liang, Rishi Bommasani"
+      ],
+      "abstract": "arXiv:2512.10169v1 Announce Type: new \nAbstract: Foundation model developers are among the world's most important companies. As these companies become increasingly consequential, how do their transparency practices evolve? The 2025 Foundation Model Transparency Index is the third edition of an annual effort to characterize and quantify the transparency of foundation model developers. The 2025 FMTI introduces new indicators related to data acquisition, usage data, and monitoring and evaluates companies like Alibaba, DeepSeek, and xAI for the first time. The 2024 FMTI reported that transparency was improving, but the 2025 FMTI finds this progress has deteriorated: the average score out of 100 fell from 58 in 2024 to 40 in 2025. Companies are most opaque about their training data and training compute as well as the post-deployment usage and impact of their flagship models. In spite of this general trend, IBM stands out as a positive outlier, scoring 95, in contrast to the lowest scorers, xAI and Midjourney, at just 14. The five members of the Frontier Model Forum we score end up in the middle of the Index: we posit that these companies avoid reputational harms from low scores but lack incentives to be transparency leaders. As policymakers around the world increasingly mandate certain types of transparency, this work reveals the current state of transparency for foundation model developers, how it may change given newly enacted policy, and where more aggressive policy interventions are necessary to address critical information deficits.",
+      "url": "https://arxiv.org/abs/2512.10169",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 60,
+      "impact_score": 85,
+      "sentiment_score": 70,
+      "keywords": [
+        "transparency",
+        "model",
+        "2025",
+        "companies",
+        "foundation",
+        "foundation model",
+        "data",
+        "developers",
+        "fmti",
+        "index"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critically important issue \u2013 the transparency of foundation model developers \u2013 and its annual nature provides valuable longitudinal data. The decline in transparency reported is concerning and highlights a need for greater accountability. While the methodology appears sound (creating and applying a transparency index), the abstract doesn't detail the specifics of the indicators, limiting a full assessment of its rigor; the inclusion of new companies is a positive step. The work is highly relevant given the increasing power and influence of these models.",
+      "paper_id": "f04ba1bba1d9b062614fb4832457dd66"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-12T09:33:14.866625"
 }

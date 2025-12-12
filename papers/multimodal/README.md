@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### OutSafe-Bench: A Benchmark for Multimodal Offensive Content Detection in Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Yuping Yan, Yuhan Xie, Yuanshuai Li, Yingchao Yu, Lingjuan Lyu, Yaochu Jin
+
+arXiv:2511.10287v3 Announce Type: replace-cross 
+Abstract: Since Multimodal Large Language Models (MLLMs) are increasingly being integrated into everyday tools and intelligent agents, growing concerns...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.10287) | [📝 Analysis](c126f7d10aa0acebe0a2aeddb655cf5f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*

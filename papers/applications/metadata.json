@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "TRIDENT: A Redundant Architecture for Caribbean-Accented Emergency Speech Triage",
+      "authors": [
+        "Elroy Galbraith, Chadwick Sutherland, Donahue Morgan"
+      ],
+      "abstract": "arXiv:2512.10741v1 Announce Type: new \nAbstract: Emergency speech recognition systems exhibit systematic performance degradation on non-standard English varieties, creating a critical gap in services for Caribbean populations. We present TRIDENT (Transcription and Routing Intelligence for Dispatcher-Empowered National Triage), a three-layer dispatcher-support architecture designed to structure emergency call inputs for human application of established triage protocols (the ESI for routine operations and START for mass casualty events), even when automatic speech recognition fails.\n  The system combines Caribbean-accent-tuned ASR, local entity extraction via large language models, and bio-acoustic distress detection to provide dispatchers with three complementary signals: transcription confidence, structured clinical entities, and vocal stress indicators. Our key insight is that low ASR confidence, rather than representing system failure, serves as a valuable queue prioritization signal -- particularly when combined with elevated vocal distress markers indicating a caller in crisis whose speech may have shifted toward basilectal registers. A complementary insight drives the entity extraction layer: trained responders and composed bystanders may report life-threatening emergencies without elevated vocal stress, requiring semantic analysis to capture clinical indicators that paralinguistic features miss.\n  We describe the architectural design, theoretical grounding in psycholinguistic research on stress-induced code-switching, and deployment considerations for offline operation during disaster scenarios. This work establishes a framework for accent-resilient emergency AI that ensures Caribbean voices receive equitable access to established national triage protocols. Empirical validation on Caribbean emergency calls remains future work.",
+      "url": "https://arxiv.org/abs/2512.10741",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "caribbean",
+        "emergency",
+        "speech",
+        "triage",
+        "stress",
+        "vocal",
+        "accent",
+        "architecture",
+        "asr",
+        "clinical"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial and often overlooked problem \u2013 the disparity in emergency service accessibility due to accent variations. The proposed TRIDENT architecture, combining ASR, LLMs, and bio-acoustic analysis, is a pragmatic and well-considered approach. The insight of leveraging low ASR confidence as a prioritization signal is particularly clever, and the focus on supporting dispatchers rather than fully automating triage is a realistic and responsible design choice. The work appears rigorous and clearly presented, though full evaluation details would be needed for a higher quality score.",
+      "paper_id": "627322984afa8298354935470de17052"
+    },
+    {
+      "title": "Script Gap: Evaluating LLM Triage on Indian Languages in Native vs Roman Scripts in a Real World Setting",
+      "authors": [
+        "Manurag Khullar, Utkarsh Desai, Poorva Malviya, Aman Dalmia, Zheyuan Ryan Shi"
+      ],
+      "abstract": "arXiv:2512.10780v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in high-stakes clinical applications in India. In many such settings, speakers of Indian languages frequently communicate using romanized text rather than native scripts, yet existing research rarely evaluates this orthographic variation using real-world data. We investigate how romanization impacts the reliability of LLMs in a critical domain: maternal and newborn healthcare triage. We benchmark leading LLMs on a real-world dataset of user-generated queries spanning five Indian languages and Nepali. Our results reveal consistent degradation in performance for romanized messages, with F1 scores trailing those of native scripts by 5-12 points. At our partner maternal health organization in India, this gap could cause nearly 2 million excess errors in triage. Crucially, this performance gap by scripts is not due to a failure in clinical reasoning. We demonstrate that LLMs often correctly infer the semantic intent of romanized queries. Nevertheless, their final classification outputs remain brittle in the presence of orthographic noise in romanized inputs. Our findings highlight a critical safety blind spot in LLM-based health systems: models that appear to understand romanized input may still fail to act on it reliably.",
+      "url": "https://arxiv.org/abs/2512.10780",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "romanized",
+        "llms",
+        "scripts",
+        "gap",
+        "indian",
+        "indian languages",
+        "languages",
+        "native",
+        "real",
+        "real world"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a crucial and often overlooked issue in LLM deployment \u2013 the impact of orthographic variation in real-world, low-resource settings. The focus on Indian languages and the quantification of performance degradation due to romanization is highly valuable, particularly given the potential for significant errors in maternal healthcare. The finding that the issue isn't clinical reasoning but script recognition is a key insight, suggesting targeted solutions are possible.",
+      "paper_id": "99eec4f26ba1c1321e8ea60f0dcf59e3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-12T09:33:14.861071"
 }

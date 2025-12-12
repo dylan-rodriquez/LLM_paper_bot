@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Aileen Cheng, Alon Jacovi, Amir Globerson, Ben Golan, Charles Kwong, Chris Alberti, Connie Tao, Eyal Ben-David, Gaurav Singh Tomar, Lukas Haas, Yonatan Bitton, Adam Bloniarz, Aijun Bai, Andrew Wang, Anfal Siddiqui, Arturo Bajuelos Castillo, Aviel Atias, Chang Liu, Corey Fry, Daniel Balle, Deepanway Ghosal, Doron Kukliansky, Dror Marcus, Elena Gribovskaya, Eran Ofek, Honglei Zhuang, Itay Laish, Jan Ackermann, Lily Wang, Meg Risdal, Megan Barnes, Michael Fink, Mohamed Amin, Moran Ambar, Natan Potikha, Nikita Gupta, Nitzan Katz, Noam Velan, Ofir Roval, Ori Ram, Polina Zablotskaia, Prathamesh Bang, Priyanka Agrawal, Rakesh Ghiya, Sanjay Ganapathy, Simon Baumgartner, Sofia Erell, Sushant Prakash, Thibault Sellam, Vikram Rao, Xuanhui Wang, Yaroslav Akulov, Yulong Yang, Zhen Yang, Zhixin Lai, Zhongru Wu, Anca Dragan, Avinatan Hassidim, Fernando Pereira, Slav Petrov, Srinivasan Venkatachary, Tulsee Doshi, Yossi Matias, Sasha Goldshtein, Dipanjan Das
+
+arXiv:2512.10791v1 Announce Type: new 
+Abstract: We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10791) | [📝 Analysis](2d0deb6f2ea8d71ec0518741f652968e.md)
+
+---
+
+### When Reject Turns into Accept: Quantifying the Vulnerability of LLM-Based Scientific Reviewers to Indirect Prompt Injection
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Devanshu Sahoo, Manish Prasad, Vasudev Majhi, Jahnvi Singh, Vinay Chamola, Yash Sinha, Murari Mandal, Dhruv Kumar
+
+arXiv:2512.10449v1 Announce Type: cross 
+Abstract: The landscape of scientific peer review is rapidly evolving with the integration of Large Language Models (LLMs). This shift is driven by two paralle...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10449) | [📝 Analysis](a93ff3b937ac770e5b0bb7a985eeca66.md)
+
+---
+
+### Echo-CoPilot: A Multi-View, Multi-Task Agent for Echocardiography Interpretation and Reporting
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Moein Heidari, Mohammad Amin Roohi, Armin Khosravi, Ilker Hacihaliloglu
+
+arXiv:2512.09944v1 Announce Type: new 
+Abstract: Echocardiography is central to contemporary cardiovascular care, but full-study interpretation remains a cognitively demanding, multi-view task that is...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09944) | [📝 Analysis](6add0362c61b103b31b346007a534d4f.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*
