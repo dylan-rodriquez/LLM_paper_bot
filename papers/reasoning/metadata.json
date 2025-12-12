@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+      "authors": [
+        "Apostol Vassilev"
+      ],
+      "abstract": "arXiv:2512.10100v1 Announce Type: new \nAbstract: This manuscript establishes information-theoretic limitations for robustness of AI security and alignment by extending G\\\"odel's incompleteness theorem to AI. Knowing these limitations and preparing for the challenges they bring is critically important for the responsible adoption of the AI technology. Practical approaches to dealing with these challenges are provided as well. Broader implications for cognitive reasoning limitations of AI systems are also proven.",
+      "url": "https://arxiv.org/abs/2512.10100",
+      "published_date": "2025-12-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 75,
+      "keywords": [
+        "ai",
+        "limitations",
+        "ai security",
+        "alignment",
+        "challenges",
+        "security",
+        "security alignment",
+        "10100v1",
+        "10100v1 announce",
+        "2512"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "The paper's claim of extending G\u00f6del's incompleteness theorem to AI security and alignment is highly ambitious and, if rigorously proven, would be a significant contribution. The abstract suggests both theoretical limitations *and* practical approaches, which is a positive sign. However, the abstract is brief, and the actual rigor of the extension needs to be verified through a full review; the sentiment score reflects the potential for skepticism given the boldness of the claim. ",
+      "paper_id": "65dc9e8075ba64d42701b657567f8a5f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-12T09:33:14.865348"
 }

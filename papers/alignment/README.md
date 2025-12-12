@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Mind the Gap! Pathways Towards Unifying AI Safety and Ethics Research
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Dani Roytburg, Beck Miller
+
+arXiv:2512.10058v1 Announce Type: new 
+Abstract: While much research in artificial intelligence (AI) has focused on scaling capabilities, the accelerating pace of development makes countervailing work...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10058) | [📝 Analysis](2965c1aa24f7a8dd19228fc4ec1aa1e1.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*

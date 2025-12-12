@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### The 2025 Foundation Model Transparency Index
+
+**Score:** 90.0 | **Published:** 2025-12-12 | **Authors:** Alexander Wan, Kevin Klyman, Sayash Kapoor, Nestor Maslej, Shayne Longpre, Betty Xiong, Percy Liang, Rishi Bommasani
+
+arXiv:2512.10169v1 Announce Type: new 
+Abstract: Foundation model developers are among the world's most important companies. As these companies become increasingly consequential, how do their transpar...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10169) | [📝 Analysis](f04ba1bba1d9b062614fb4832457dd66.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*

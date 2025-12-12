@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Robust AI Security and Alignment: A Sisyphean Endeavor?
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Apostol Vassilev
+
+arXiv:2512.10100v1 Announce Type: new 
+Abstract: This manuscript establishes information-theoretic limitations for robustness of AI security and alignment by extending G\"odel's incompleteness theorem...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10100) | [📝 Analysis](65dc9e8075ba64d42701b657567f8a5f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*

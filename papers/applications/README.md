@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### TRIDENT: A Redundant Architecture for Caribbean-Accented Emergency Speech Triage
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Elroy Galbraith, Chadwick Sutherland, Donahue Morgan
+
+arXiv:2512.10741v1 Announce Type: new 
+Abstract: Emergency speech recognition systems exhibit systematic performance degradation on non-standard English varieties, creating a critical gap in services ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10741) | [📝 Analysis](627322984afa8298354935470de17052.md)
+
+---
+
+### Script Gap: Evaluating LLM Triage on Indian Languages in Native vs Roman Scripts in a Real World Setting
+
+**Score:** 92.0 | **Published:** 2025-12-12 | **Authors:** Manurag Khullar, Utkarsh Desai, Poorva Malviya, Aman Dalmia, Zheyuan Ryan Shi
+
+arXiv:2512.10780v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in high-stakes clinical applications in India. In many such settings, speakers of Indian languag...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10780) | [📝 Analysis](99eec4f26ba1c1321e8ea60f0dcf59e3.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-12 09:33:14 UTC*
