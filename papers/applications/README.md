@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Illusion of Readiness in Health AI
+
+**Score:** 92.0 | **Published:** 2025-12-15 | **Authors:** Yu Gu, Jingjing Fu, Xiaodong Liu, Jeya Maria Jose Valanarasu, Noel CF Codella, Reuben Tan, Qianchu Liu, Ying Jin, Sheng Zhang, Jinyu Wang, Rui Wang, Lei Song, Guanghui Qin, Naoto Usuyama, Cliff Wong, Hao Cheng, HoHin Lee, Praneeth Sanapathi, Sarah Hilado, Tristan Naumann, Javier Alvarez-Valle, Jiang Bian, Mu Wei, Khalil Malik, Lidong Zhou, Jianfeng Gao, Eric Horvitz, Matthew P. Lungren, Doug Burger, Eric Topol, Hoifung Poon, Paul Vozila
+
+arXiv:2509.18234v3 Announce Type: replace-cross 
+Abstract: Large language models have demonstrated remarkable performance in a wide range of medical benchmarks. Yet underneath the seemingly promising ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18234) | [📝 Analysis](ab2be358e75fbfd4b814e1af8d00e18b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-15 09:39:48 UTC*

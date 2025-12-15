@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Landscape of Memorization in LLMs: Mechanisms, Measurement, and Mitigation",
+      "authors": [
+        "Alexander Xiong, Xuandong Zhao, Aneesh Pappu, Dawn Song"
+      ],
+      "abstract": "arXiv:2507.05578v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of tasks, yet they also exhibit memorization of their training data. This phenomenon raises critical questions about model behavior, privacy risks, and the boundary between learning and memorization. Addressing these concerns, this paper synthesizes recent studies and investigates the landscape of memorization, the factors influencing it, and methods for its detection and mitigation. We explore key drivers, including training data duplication, training dynamics, and fine-tuning procedures that influence data memorization. In addition, we examine methodologies such as prefix-based extraction, membership inference, and adversarial prompting, assessing their effectiveness in detecting and measuring memorized content. Beyond technical analysis, we also explore the broader implications of memorization, including the legal and ethical implications. Finally, we discuss mitigation strategies, including data cleaning, differential privacy, and post-training unlearning, while highlighting open challenges in balancing the need to minimize harmful memorization with model utility. This paper provides a comprehensive overview of the current state of research on LLM memorization across technical, privacy, and performance dimensions, identifying critical directions for future work.",
+      "url": "https://arxiv.org/abs/2507.05578",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "memorization",
+        "data",
+        "training",
+        "including",
+        "mitigation",
+        "privacy",
+        "critical",
+        "explore",
+        "implications",
+        "landscape"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and important problem in the LLM space \u2013 memorization. The abstract suggests a comprehensive synthesis of existing work and investigation into drivers and mitigation techniques, indicating a solid methodological approach. While the abstract doesn't highlight novel *methods*, the thoroughness of the landscape analysis and exploration of implications (legal/ethical) is valuable. The topic is timely and aligns with current concerns about LLM behavior and responsible AI.",
+      "paper_id": "f5b9070f7a774363a72a14345b79972e"
+    },
+    {
+      "title": "EmeraldMind: A Knowledge Graph-Augmented Framework for Greenwashing Detection",
+      "authors": [
+        "Georgios Kaoukis, Ioannis Aris Koufopoulos, Psaroudaki Eleni, Danae Pla Karidi, Evaggelia Pitoura, George Papastefanatos, Panayiotis Tsaparas"
+      ],
+      "abstract": "arXiv:2512.11506v1 Announce Type: new \nAbstract: As AI and web agents become pervasive in decision-making, it is critical to design intelligent systems that not only support sustainability efforts but also guard against misinformation. Greenwashing, i.e., misleading corporate sustainability claims, poses a major challenge to environmental progress. To address this challenge, we introduce EmeraldMind, a fact-centric framework integrating a domain-specific knowledge graph with retrieval-augmented generation to automate greenwashing detection. EmeraldMind builds the EmeraldGraph from diverse corporate ESG (environmental, social, and governance) reports, surfacing verifiable evidence, often missing in generic knowledge bases, and supporting large language models in claim assessment. The framework delivers justification-centric classifications, presenting transparent, evidence-backed verdicts and abstaining responsibly when claims cannot be verified. Experiments on a new greenwashing claims dataset demonstrate that EmeraldMind achieves competitive accuracy, greater coverage, and superior explanation quality compared to generic LLMs, without the need for fine-tuning or retraining.",
+      "url": "https://arxiv.org/abs/2512.11506",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "emeraldmind",
+        "greenwashing",
+        "claims",
+        "framework",
+        "knowledge",
+        "augmented",
+        "centric",
+        "challenge",
+        "corporate",
+        "detection"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 greenwashing \u2013 with a promising approach combining knowledge graphs and LLMs. The focus on justification-centric classifications and responsible abstention is a strong methodological point. While the core techniques (KG + RAG) aren't entirely novel, the application to greenwashing detection and the creation of a domain-specific ESG knowledge graph (EmeraldGraph) demonstrate significant value and potential.",
+      "paper_id": "742692fa3735e7cc57328939a2d4917d"
+    },
+    {
+      "title": "MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA",
+      "authors": [
+        "Seonok Kim"
+      ],
+      "abstract": "arXiv:2512.10996v1 Announce Type: new \nAbstract: Recent advancements in retrieval-augmented generation (RAG) have significantly enhanced the ability of large language models (LLMs) to perform complex question-answering (QA) tasks. In this paper, we introduce MedBioRAG, a retrieval-augmented model designed to improve biomedical QA performance through a combination of semantic and lexical search, document retrieval, and supervised fine-tuning. MedBioRAG efficiently retrieves and ranks relevant biomedical documents, enabling precise and context-aware response generation. We evaluate MedBioRAG across text retrieval, close-ended QA, and long-form QA tasks using benchmark datasets such as NFCorpus, TREC-COVID, MedQA, PubMedQA, and BioASQ. Experimental results demonstrate that MedBioRAG outperforms previous state-of-the-art (SoTA) models and the GPT-4o base model in all evaluated tasks. Notably, our approach improves NDCG and MRR scores for document retrieval, while achieving higher accuracy in close-ended QA and ROUGE scores in long-form QA. Our findings highlight the effectiveness of semantic search-based retrieval and LLM fine-tuning in biomedical applications.",
+      "url": "https://arxiv.org/abs/2512.10996",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "qa",
+        "retrieval",
+        "medbiorag",
+        "augmented",
+        "biomedical",
+        "generation",
+        "models",
+        "retrieval augmented",
+        "search",
+        "semantic"
+      ],
+      "subject_classification": "training",
+      "justification": "The paper addresses a highly significant problem \u2013 improving biomedical QA \u2013 and demonstrates strong performance gains over existing methods, including GPT-4o. The combination of semantic and lexical search, along with supervised fine-tuning, appears to be a well-executed approach. While RAG is a popular area, achieving SoTA results across multiple benchmarks suggests a valuable contribution. The high sentiment score reflects the current interest in LLMs for specialized domains like biomedicine.",
+      "paper_id": "922b2c2fc88d8613f847d99028085e3a"
+    },
+    {
+      "title": "Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects in Large Language Models",
+      "authors": [
+        "Prateek Chhikara"
+      ],
+      "abstract": "arXiv:2502.11028v3 Announce Type: replace \nAbstract: Large Language Models (LLMs) show remarkable proficiency in natural language tasks, yet their frequent overconfidence-misalignment between predicted confidence and true correctness-poses significant risks in critical decision-making applications. We present a comprehensive analysis on calibration in LLMs across nine LLMs and three factual Question-Answering (QA) datasets, systematically comparing standard free-generation settings against structured distractor-augmented prompts. Our evaluation reveals that explicitly incorporating distractors can substantially mitigate miscalibration, achieving relative accuracy improvements up to 460% and ECE reductions up to 90%. Despite general trends, we uncover nuanced findings: large RLHF-tuned models display inherent calibration strengths but can paradoxically suffer increased miscalibration on easier queries, whereas smaller models benefit disproportionately from distractor prompts but remain significantly miscalibrated. Through detailed analyses across question types, we identify persistent calibration failures, particularly in person-based queries. We conclude with concrete recommendations-targeted fine-tuning, structured prompting, and strategic model choice-to ensure reliable, trustworthy LLM deployments.",
+      "url": "https://arxiv.org/abs/2502.11028",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "calibration",
+        "models",
+        "distractor",
+        "language",
+        "large",
+        "llms",
+        "confidence",
+        "language models",
+        "large language",
+        "miscalibration"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 overconfidence and miscalibration \u2013 with a systematic and comprehensive approach. The investigation of distractor effects as a mitigation strategy is a novel and promising direction, with impressive reported improvements. The nuanced findings regarding RLHF models and smaller models add depth to the analysis, suggesting a more complex relationship between model size, training, and calibration.",
+      "paper_id": "64d83473ea6c00c23cf1fbd711de6a7c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-15T09:39:48.499160"
 }

@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### The Landscape of Memorization in LLMs: Mechanisms, Measurement, and Mitigation
+
+**Score:** 92.0 | **Published:** 2025-12-15 | **Authors:** Alexander Xiong, Xuandong Zhao, Aneesh Pappu, Dawn Song
+
+arXiv:2507.05578v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of tasks, yet they also exhibit memorization of th...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.05578) | [📝 Analysis](f5b9070f7a774363a72a14345b79972e.md)
+
+---
+
+### EmeraldMind: A Knowledge Graph-Augmented Framework for Greenwashing Detection
+
+**Score:** 92.0 | **Published:** 2025-12-15 | **Authors:** Georgios Kaoukis, Ioannis Aris Koufopoulos, Psaroudaki Eleni, Danae Pla Karidi, Evaggelia Pitoura, George Papastefanatos, Panayiotis Tsaparas
+
+arXiv:2512.11506v1 Announce Type: new 
+Abstract: As AI and web agents become pervasive in decision-making, it is critical to design intelligent systems that not only support sustainability efforts but...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.11506) | [📝 Analysis](742692fa3735e7cc57328939a2d4917d.md)
+
+---
+
+### MedBioRAG: Semantic Search and Retrieval-Augmented Generation with Large Language Models for Medical and Biological QA
+
+**Score:** 90.0 | **Published:** 2025-12-15 | **Authors:** Seonok Kim
+
+arXiv:2512.10996v1 Announce Type: new 
+Abstract: Recent advancements in retrieval-augmented generation (RAG) have significantly enhanced the ability of large language models (LLMs) to perform complex ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10996) | [📝 Analysis](922b2c2fc88d8613f847d99028085e3a.md)
+
+---
+
+### Mind the Confidence Gap: Overconfidence, Calibration, and Distractor Effects in Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-15 | **Authors:** Prateek Chhikara
+
+arXiv:2502.11028v3 Announce Type: replace 
+Abstract: Large Language Models (LLMs) show remarkable proficiency in natural language tasks, yet their frequent overconfidence-misalignment between predicte...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.11028) | [📝 Analysis](64d83473ea6c00c23cf1fbd711de6a7c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-15 09:39:48 UTC*
