@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare",
+      "authors": [
+        "Akash Ghosh, Srivarshinee Sridhar, Raghav Kaushik Ravi, Muhsin Muhsin, Sriparna Saha, Chirag Agarwal"
+      ],
+      "abstract": "arXiv:2512.11437v1 Announce Type: new \nAbstract: Integrating language models (LMs) in healthcare systems holds great promise for improving medical workflows and decision-making. However, a critical barrier to their real-world adoption is the lack of reliable evaluation of their trustworthiness, especially in multilingual healthcare settings. Existing LMs are predominantly trained in high-resource languages, making them ill-equipped to handle the complexity and diversity of healthcare queries in mid- and low-resource languages, posing significant challenges for deploying them in global healthcare contexts where linguistic diversity is key. In this work, we present CLINIC, a Comprehensive Multilingual Benchmark to evaluate the trustworthiness of language models in healthcare. CLINIC systematically benchmarks LMs across five key dimensions of trustworthiness: truthfulness, fairness, safety, robustness, and privacy, operationalized through 18 diverse tasks, spanning 15 languages (covering all the major continents), and encompassing a wide array of critical healthcare topics like disease conditions, preventive actions, diagnostic tests, treatments, surgeries, and medications. Our extensive evaluation reveals that LMs struggle with factual correctness, demonstrate bias across demographic and linguistic groups, and are susceptible to privacy breaches and adversarial attacks. By highlighting these shortcomings, CLINIC lays the foundation for enhancing the global reach and safety of LMs in healthcare across diverse languages.",
+      "url": "https://arxiv.org/abs/2512.11437",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "healthcare",
+        "lms",
+        "clinic",
+        "languages",
+        "trustworthiness",
+        "language",
+        "language models",
+        "models",
+        "multilingual",
+        "critical"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in LM evaluation \u2013 trustworthiness in multilingual healthcare contexts. The development of CLINIC, a comprehensive benchmark spanning multiple trustworthiness dimensions and 15 languages, is a significant undertaking. While benchmarking isn't inherently groundbreaking, the focus on multilingual healthcare and the breadth of evaluation criteria demonstrate strong methodological rigor and potential for broad impact. The work is well-positioned to be well-received by the NLP and medical informatics communities.",
+      "paper_id": "b2b4932c1cc2c5a7d33edf4aad8fb260"
+    },
+    {
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane, Abhishek Satyam, Ke Chen, Tao Li, Junaid Farooq, Juntao Chen"
+      ],
+      "abstract": "arXiv:2512.10998v1 Announce Type: cross \nAbstract: Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. This paper introduces three novel contextually-aware attack scenarios that exploit domain-specific knowledge and semantic plausibility: the ViralApp attack targeting social media addiction classification, the Fever attack manipulating medical diagnosis toward hypertension, and the Referral attack steering clinical recommendations. These attacks represent realistic threats where malicious actors exploit domain-specific vocabulary while maintaining semantic coherence, demonstrating how adversaries can weaponize contextual appropriateness to evade conventional detection methods. To counter both traditional and these sophisticated attacks, we present \\textbf{SCOUT (Saliency-based Classification Of Untrusted Tokens)}, a novel defense framework that identifies backdoor triggers through token-level saliency analysis rather than traditional context-based detection methods. SCOUT constructs a saliency map by measuring how the removal of individual tokens affects the model's output logits for the target label, enabling detection of both conspicuous and subtle manipulation attempts. We evaluate SCOUT on established benchmark datasets (SST-2, IMDB, AG News) against conventional attacks (BadNet, AddSent, SynBkd, StyleBkd) and our novel attacks, demonstrating that SCOUT successfully detects these sophisticated threats while preserving accuracy on clean inputs.",
+      "url": "https://arxiv.org/abs/2512.10998",
+      "published_date": "2025-12-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "attacks",
+        "scout",
+        "attack",
+        "threats",
+        "detection",
+        "language",
+        "novel",
+        "saliency",
+        "sophisticated",
+        "triggers"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the vulnerability of fine-tuned language models to sophisticated data poisoning attacks. The introduction of contextually-aware attack scenarios (ViralApp, Fever, Referral) demonstrates a strong understanding of real-world risks and a clear advancement over existing work that focuses on simpler trigger-based attacks. The focus on domain-specific knowledge and semantic plausibility elevates the research, suggesting a practical threat and the need for robust defenses.",
+      "paper_id": "6d751fff64fa69bae3a55cc35a924af6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-15T09:39:48.501644"
 }

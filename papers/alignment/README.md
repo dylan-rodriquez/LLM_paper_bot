@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare
+
+**Score:** 92.0 | **Published:** 2025-12-15 | **Authors:** Akash Ghosh, Srivarshinee Sridhar, Raghav Kaushik Ravi, Muhsin Muhsin, Sriparna Saha, Chirag Agarwal
+
+arXiv:2512.11437v1 Announce Type: new 
+Abstract: Integrating language models (LMs) in healthcare systems holds great promise for improving medical workflows and decision-making. However, a critical ba...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.11437) | [📝 Analysis](b2b4932c1cc2c5a7d33edf4aad8fb260.md)
+
+---
+
+### SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-15 | **Authors:** Mohamed Afane, Abhishek Satyam, Ke Chen, Tao Li, Junaid Farooq, Juntao Chen
+
+arXiv:2512.10998v1 Announce Type: cross 
+Abstract: Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference,...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10998) | [📝 Analysis](6d751fff64fa69bae3a55cc35a924af6.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-15 09:39:48 UTC*
