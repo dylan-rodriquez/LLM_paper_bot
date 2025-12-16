@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Scaling Laws for Code: Every Programming Language Matters
+
+**Score:** 92.0 | **Published:** 2025-12-16 | **Authors:** Jian Yang, Shawn Guo, Lin Jing, Wei Zhang, Aishan Liu, Chuan Hao, Zhoujun Li, Wayne Xin Zhao, Xianglong Liu, Weifeng Lv, Bryan Dai
+
+arXiv:2512.13472v1 Announce Type: new 
+Abstract: Code large language models (Code LLMs) are powerful but costly to train, with scaling laws predicting performance from model size, data, and compute. H...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.13472) | [📝 Analysis](2a602941063f476bc6de6c9f8f903587.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-16 09:45:26 UTC*
