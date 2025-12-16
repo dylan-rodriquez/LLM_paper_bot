@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Theoretical Foundations of Prompt Engineering: From Heuristics to Expressivity
+
+**Score:** 92.0 | **Published:** 2025-12-16 | **Authors:** Dongseok Kim, Hyoungsun Choi, Mohamed Jismy Aashik Rasool, Gisung Oh
+
+arXiv:2512.12688v1 Announce Type: cross 
+Abstract: Prompts can switch a model's behavior even when the weights are fixed, yet this phenomenon is rarely treated as a clean theoretical object rather tha...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.12688) | [📝 Analysis](c2d1f97b2737497116fc19373c9cafa4.md)
+
+---
+
+### Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings
+
+**Score:** 90.0 | **Published:** 2025-12-16 | **Authors:** Yoav Gelberg, Koshi Eguchi, Takuya Akiba, Edoardo Cetin
+
+arXiv:2512.12167v1 Announce Type: new 
+Abstract: So far, expensive finetuning beyond the pretraining sequence length has been a requirement for effectively extending the context of language models (LM...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.12167) | [📝 Analysis](1545c59137949c6c29281d1af3c1995c.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-16 09:45:26 UTC*

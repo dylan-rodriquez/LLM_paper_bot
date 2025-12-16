@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "From Human Intention to Action Prediction: A Comprehensive Benchmark for Intention-driven End-to-End Autonomous Driving",
+      "authors": [
+        "Huan Zheng, Yucheng Zhou, Tianyi Yan, Jiayi Su, Hongjun Chen, Dubing Chen, Wencheng Han, Runzhou Tao, Zhongying Qiu, Jianfei Yang, Jianbing Shen"
+      ],
+      "abstract": "arXiv:2512.12302v1 Announce Type: cross \nAbstract: Current end-to-end autonomous driving systems operate at a level of intelligence akin to following simple steering commands. However, achieving genuinely intelligent autonomy requires a paradigm shift: moving from merely executing low-level instructions to understanding and fulfilling high-level, abstract human intentions. This leap from a command-follower to an intention-fulfiller, as illustrated in our conceptual framework, is hindered by a fundamental challenge: the absence of a standardized benchmark to measure and drive progress on this complex task. To address this critical gap, we introduce Intention-Drive, the first comprehensive benchmark designed to evaluate the ability to translate high-level human intent into safe and precise driving actions. Intention-Drive features two core contributions: (1) a new dataset of complex scenarios paired with corresponding natural language intentions, and (2) a novel evaluation protocol centered on the Intent Success Rate (ISR), which assesses the semantic fulfillment of the human's goal beyond simple geometric accuracy. Through an extensive evaluation of a spectrum of baseline models on Intention-Drive, we reveal a significant performance deficit, showing that the baseline model struggle to achieve the comprehensive scene and intention understanding required for this advanced task.",
+      "url": "https://arxiv.org/abs/2512.12302",
+      "published_date": "2025-12-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "intention",
+        "drive",
+        "end",
+        "human",
+        "level",
+        "benchmark",
+        "comprehensive",
+        "driving",
+        "intention drive",
+        "abstract"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in autonomous driving \u2013 moving beyond command following to intention understanding. The creation of a dedicated benchmark, Intention-Drive, is a significant contribution, and the pairing of scenarios with natural language intentions is a novel approach. While the abstract doesn't detail the specifics of the evaluation protocol, the problem's importance and the proposed solution suggest high potential for impact and positive reception within the community.",
+      "paper_id": "0dac4e1e29a625d70296c193f38614af"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-16T09:45:26.934731"
 }

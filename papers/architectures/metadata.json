@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Theoretical Foundations of Prompt Engineering: From Heuristics to Expressivity",
+      "authors": [
+        "Dongseok Kim, Hyoungsun Choi, Mohamed Jismy Aashik Rasool, Gisung Oh"
+      ],
+      "abstract": "arXiv:2512.12688v1 Announce Type: cross \nAbstract: Prompts can switch a model's behavior even when the weights are fixed, yet this phenomenon is rarely treated as a clean theoretical object rather than a heuristic. We study the family of functions obtainable by holding a Transformer backbone fixed as an executor and varying only the prompt. Our core idea is to view the prompt as an externally injected program and to construct a simplified Transformer that interprets it to implement different computations. The construction exposes a mechanism-level decomposition: attention performs selective routing from prompt memory, the FFN performs local arithmetic conditioned on retrieved fragments, and depth-wise stacking composes these local updates into a multi-step computation. Under this viewpoint, we prove a constructive existential result showing that a single fixed backbone can approximate a broad class of target behaviors via prompts alone. The framework provides a unified starting point for formalizing trade-offs under prompt length/precision constraints and for studying structural limits of prompt-based switching, while remaining distinct from empirical claims about pretrained LLMs.",
+      "url": "https://arxiv.org/abs/2512.12688",
+      "published_date": "2025-12-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "prompt",
+        "fixed",
+        "backbone",
+        "local",
+        "performs",
+        "prompts",
+        "theoretical",
+        "transformer",
+        "12688v1",
+        "12688v1 announce"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial and currently under-theorized aspect of LLMs \u2013 prompt engineering. Framing prompts as externally injected programs and providing a constructive existential proof for approximating behaviors via prompts is a significant step towards understanding *why* prompts work. The decomposition of attention, FFN, and stacking into a mechanism-level understanding is particularly strong, suggesting a rigorous and well-thought-out approach.",
+      "paper_id": "c2d1f97b2737497116fc19373c9cafa4"
+    },
+    {
+      "title": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings",
+      "authors": [
+        "Yoav Gelberg, Koshi Eguchi, Takuya Akiba, Edoardo Cetin"
+      ],
+      "abstract": "arXiv:2512.12167v1 Announce Type: new \nAbstract: So far, expensive finetuning beyond the pretraining sequence length has been a requirement for effectively extending the context of language models (LM). In this work, we break this key bottleneck by Dropping the Positional Embeddings of LMs after training (DroPE). Our simple method is motivated by three key theoretical and empirical observations. First, positional embeddings (PEs) serve a crucial role during pretraining, providing an important inductive bias that significantly facilitates convergence. Second, over-reliance on this explicit positional information is also precisely what prevents test-time generalization to sequences of unseen length, even when using popular PE-scaling methods. Third, positional embeddings are not an inherent requirement of effective language modeling and can be safely removed after pretraining, following a short recalibration phase. Empirically, DroPE yields seamless zero-shot context extension without any long-context finetuning, quickly adapting pretrained LMs without compromising their capabilities in the original training context. Our findings hold across different models and dataset sizes, far outperforming previous specialized architectures and established rotary positional embedding scaling methods.",
+      "url": "https://arxiv.org/abs/2512.12167",
+      "published_date": "2025-12-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "positional",
+        "context",
+        "embeddings",
+        "positional embeddings",
+        "pretraining",
+        "drope",
+        "dropping",
+        "dropping positional",
+        "extending",
+        "extending context"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a significant bottleneck in LLM scaling \u2013 the cost of extending context length. The 'DroPE' method, motivated by a clear theoretical understanding of positional embeddings, offers a potentially groundbreaking solution by removing them post-training. The claim of 'seamless zero-shot context extension' is particularly compelling, and the high sentiment score reflects the current research community's strong interest in efficient context handling.",
+      "paper_id": "1545c59137949c6c29281d1af3c1995c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-12-16T09:45:26.929759"
 }
