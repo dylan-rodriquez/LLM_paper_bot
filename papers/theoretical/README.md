@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Writing in Symbiosis: Mapping Human Creative Agency in the AI Era
+
+**Score:** 90.0 | **Published:** 2025-12-17 | **Authors:** Vivan Doshi, Mengyuan Li
+
+arXiv:2512.13697v1 Announce Type: cross 
+Abstract: The proliferation of Large Language Models (LLMs) raises a critical question about what it means to be human when we share an increasingly symbiotic ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.13697) | [📝 Analysis](0ff17540745d8de13734737aa4079e78.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-17 09:41:47 UTC*
