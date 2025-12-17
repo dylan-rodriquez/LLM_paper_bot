@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment
+
+**Score:** 92.0 | **Published:** 2025-12-17 | **Authors:** Mengxi Xiao, Kailai Yang, Pengde Zhao, Enze Zhang, Ziyan Kuang, Zhiwei Liu, Weiguang Han, Shu Liao, Lianting Huang, Jinpeng Hu, Min Peng, Qianqian Xie, Sophia Ananiadou
+
+arXiv:2512.09636v2 Announce Type: replace 
+Abstract: Mental health disorders affect hundreds of millions globally, and the Web now serves as a primary medium for accessing support, information, and as...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.09636) | [📝 Analysis](5ad756bcd16355a051a5f05d5d301647.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-17 09:41:47 UTC*

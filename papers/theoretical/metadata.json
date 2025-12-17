@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Writing in Symbiosis: Mapping Human Creative Agency in the AI Era",
+      "authors": [
+        "Vivan Doshi, Mengyuan Li"
+      ],
+      "abstract": "arXiv:2512.13697v1 Announce Type: cross \nAbstract: The proliferation of Large Language Models (LLMs) raises a critical question about what it means to be human when we share an increasingly symbiotic relationship with persuasive and creative machines. This paper examines patterns of human-AI coevolution in creative writing, investigating how human craft and agency are adapting alongside machine capabilities. We challenge the prevailing notion of stylistic homogenization by examining diverse patterns in longitudinal writing data. Using a large-scale corpus spanning the pre- and post-LLM era, we observe patterns suggestive of a \"Dual-Track Evolution\": thematic convergence around AI-related topics, coupled with structured stylistic differentiation. Our analysis reveals three emergent adaptation patterns: authors showing increased similarity to AI style, those exhibiting decreased similarity, and those maintaining stylistic stability while engaging with AI-related themes. This Creative Archetype Map illuminates how authorship is coevolving with AI, contributing to discussions about human-AI collaboration, detection challenges, and the preservation of creative diversity.",
+      "url": "https://arxiv.org/abs/2512.13697",
+      "published_date": "2025-12-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 85,
+      "keywords": [
+        "ai",
+        "creative",
+        "human",
+        "patterns",
+        "stylistic",
+        "writing",
+        "agency",
+        "ai related",
+        "era",
+        "human ai"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the evolving relationship between human creativity and AI. The 'Dual-Track Evolution' framework and the identification of distinct adaptation patterns (similarity increase, decrease, and stability) are promising. While the methodology appears sound given the abstract, the rigor will depend on the specifics of the corpus and analysis techniques, but the initial concept is strong and well-articulated.",
+      "paper_id": "0ff17540745d8de13734737aa4079e78"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2025-12-17T09:41:47.776426"
 }
