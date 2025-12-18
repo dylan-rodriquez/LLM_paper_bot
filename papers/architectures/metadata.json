@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Meta-Prompting Protocol: Orchestrating LLMs via Adversarial Feedback Loops",
+      "authors": [
+        "Fanzhe Fu"
+      ],
+      "abstract": "arXiv:2512.15053v1 Announce Type: new \nAbstract: The transition of Large Language Models (LLMs) from stochastic chat interfaces to reliable software components necessitates a fundamental re-engineering of interaction paradigms. Current methodologies, predominantly heuristic-based \"prompt engineering,\" fail to provide the deterministic guarantees required for mission-critical applications. We introduce the Meta-Prompting Protocol, a rigorous theoretical framework that formalizes the orchestration of LLMs as a programmable, self-optimizing system. Central to this protocol is the Adversarial Trinity, a tripartite topology comprising a Generator (P), an Auditor (A), and an Optimizer (O). By treating natural language instructions as differentiable variables within a semantic computation graph and utilizing textual critiques as gradients, this architecture mitigates hallucination and prevents model collapse. We demonstrate the theoretical viability of this approach using declarative programming paradigms (DSPy) and automatic textual differentiation (TextGrad), establishing a foundation for \"Observable Software Engineering\" in the era of probabilistic computing.",
+      "url": "https://arxiv.org/abs/2512.15053",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "engineering",
+        "llms",
+        "protocol",
+        "adversarial",
+        "language",
+        "meta",
+        "meta prompting",
+        "paradigms",
+        "prompting",
+        "prompting protocol"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 reliability and deterministic behavior. The 'Meta-Prompting Protocol' with its 'Adversarial Trinity' offers a novel and theoretically grounded approach to move beyond heuristic prompt engineering. The framing of natural language as differentiable variables and using critiques as gradients is a particularly interesting idea, suggesting a potentially powerful method for mitigating hallucination and improving LLM control.",
+      "paper_id": "87a07ae5507a099d2d19c3f16cd34494"
+    },
+    {
+      "title": "May I have your Attention? Breaking Fine-Tuning based Prompt Injection Defenses using Architecture-Aware Attacks",
+      "authors": [
+        "Nishit V. Pandya, Andrey Labunets, Sicun Gao, Earlence Fernandes"
+      ],
+      "abstract": "arXiv:2507.07417v2 Announce Type: replace-cross \nAbstract: A popular class of defenses against prompt injection attacks on large language models (LLMs) relies on fine-tuning to separate instructions and data, so that the LLM does not follow instructions that might be present with data. We evaluate the robustness of this approach in the whitebox setting by constructing strong optimization-based attacks, and show that the defenses do not provide the claimed security properties. Specifically, we construct a novel attention-based attack algorithm for textual LLMs and apply it to three recent whitebox defenses SecAlign (CCS 2025), SecAlign++, and StruQ (USENIX Security 2025), showing attacks with success rates of up to \\textbf{85-95\\%} on unseen prompts with modest increase in attacker budget in terms of tokens. Our findings make fundamental progress towards understanding the robustness of prompt injection defenses in the whitebox setting. We release our code and attacks at https://github.com/nishitvp/better_opts_attacks",
+      "url": "https://arxiv.org/abs/2507.07417",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "attacks",
+        "defenses",
+        "based",
+        "injection",
+        "prompt",
+        "prompt injection",
+        "whitebox",
+        "2025",
+        "attention",
+        "data"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly relevant and critical problem in LLM security \u2013 the vulnerability of fine-tuning based defenses to prompt injection. The reported success rates (85-95%) against established defenses are concerning and demonstrate a significant weakness. The development of an attention-based attack algorithm is a novel contribution, and the release of code will facilitate further research. The paper appears well-focused and rigorous, given the abstract's description.",
+      "paper_id": "df62097f2656c30ff68710d2db502efc"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-12-18T09:40:09.458455"
 }

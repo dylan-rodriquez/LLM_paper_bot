@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers
+
+**Score:** 92.0 | **Published:** 2025-12-18 | **Authors:** Xuanjun Zong, Zhiqi Shen, Lei Wang, Yunshi Lan, Chao Yang
+
+arXiv:2512.15163v1 Announce Type: new 
+Abstract: Large language models (LLMs) are evolving into agentic systems that reason, plan, and operate external tools. The Model Context Protocol (MCP) is a key...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.15163) | [📝 Analysis](a86e212c37cbda814e4eec2b6380872b.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-18 09:40:09 UTC*

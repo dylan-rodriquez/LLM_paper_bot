@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers",
+      "authors": [
+        "Xuanjun Zong, Zhiqi Shen, Lei Wang, Yunshi Lan, Chao Yang"
+      ],
+      "abstract": "arXiv:2512.15163v1 Announce Type: new \nAbstract: Large language models (LLMs) are evolving into agentic systems that reason, plan, and operate external tools. The Model Context Protocol (MCP) is a key enabler of this transition, offering a standardized interface for connecting LLMs with heterogeneous tools and services. Yet MCP's openness and multi-server workflows introduce new safety risks that existing benchmarks fail to capture, as they focus on isolated attacks or lack real-world coverage. We present MCP-SafetyBench, a comprehensive benchmark built on real MCP servers that supports realistic multi-turn evaluation across five domains: browser automation, financial analysis, location navigation, repository management, and web search. It incorporates a unified taxonomy of 20 MCP attack types spanning server, host, and user sides, and includes tasks requiring multi-step reasoning and cross-server coordination under uncertainty. Using MCP-SafetyBench, we systematically evaluate leading open- and closed-source LLMs, revealing large disparities in safety performance and escalating vulnerabilities as task horizons and server interactions grow. Our results highlight the urgent need for stronger defenses and establish MCP-SafetyBench as a foundation for diagnosing and mitigating safety risks in real-world MCP deployments.",
+      "url": "https://arxiv.org/abs/2512.15163",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mcp",
+        "mcp safetybench",
+        "real",
+        "safety",
+        "safetybench",
+        "server",
+        "large",
+        "llms",
+        "multi",
+        "real world"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial and timely problem in LLM safety \u2013 the vulnerabilities introduced by the Model Context Protocol (MCP) and agentic workflows. The creation of a benchmark using *real* MCP servers, rather than simulated environments, is a significant methodological strength. The comprehensive taxonomy of attack types and focus on multi-turn, cross-server reasoning demonstrate a rigorous approach, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "a86e212c37cbda814e4eec2b6380872b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-18T09:40:09.459800"
 }
