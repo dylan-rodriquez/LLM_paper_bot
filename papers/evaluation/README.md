@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Revisiting the Reliability of Language Models in Instruction-Following
+
+**Score:** 92.0 | **Published:** 2025-12-18 | **Authors:** Jianshuo Dong, Yutong Zhang, Yan Liu, Zhenyu Zhong, Tao Wei, Chao Zhang, Han Qiu
+
+arXiv:2512.14754v1 Announce Type: cross 
+Abstract: Advanced LLMs have achieved near-ceiling instruction-following accuracy on benchmarks such as IFEval. However, these impressive scores do not necessa...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.14754) | [📝 Analysis](a2ac3cc949824821341b84d5e2622a55.md)
+
+---
+
+### Quantifying Return on Security Controls in LLM Systems
+
+**Score:** 92.0 | **Published:** 2025-12-18 | **Authors:** Richard Helder Moulton, Austin O'Brien, John D. Hastings
+
+arXiv:2512.15081v1 Announce Type: cross 
+Abstract: Although large language models (LLMs) are increasingly used in security-critical workflows, practitioners lack quantitative guidance on which safegua...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.15081) | [📝 Analysis](9653b718f535757f0416dca13dc66d78.md)
+
+---
+
+### GAPS: A Clinically Grounded, Automated Benchmark for Evaluating AI Clinicians
+
+**Score:** 92.0 | **Published:** 2025-12-18 | **Authors:** Xiuyuan Chen, Tao Sun, Dexin Su, Ailing Yu, Junwei Liu, Zhe Chen, Gangzeng Jin, Xin Wang, Jingnan Liu, Hansong Xiao, Hualei Zhou, Dongjie Tao, Chunxiao Guo, Minghui Yang, Yuan Xia, Jing Zhao, Qianrui Fan, Yanyun Wang, Shuai Zhen, Kezhong Chen, Jun Wang, Zewen Sun, Heng Zhao, Tian Guan, Shaodong Wang, Geyun Chang, Jiaming Deng, Hongchengcheng Chen, Kexin Feng, Ruzhen Li, Jiayi Geng, Changtai Zhao, Jun Wang, Guihu Lin, Peihao Li, Liqi Liu, Peng Wei, Jian Wang, Jinjie Gu, Ping Wang, Fan Yang
+
+arXiv:2510.13734v2 Announce Type: replace 
+Abstract: Current benchmarks for AI clinician systems, often based on multiple-choice exams or manual rubrics, fail to capture the depth, robustness, and saf...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.13734) | [📝 Analysis](63b6edbe80402730da2db412a6ce9f7f.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-18 09:40:09 UTC*

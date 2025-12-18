@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+      "authors": [
+        "Debu Sinha"
+      ],
+      "abstract": "arXiv:2512.15068v1 Announce Type: cross \nAbstract: Retrieval-Augmented Generation (RAG) systems remain susceptible to hallucinations despite grounding in retrieved evidence. Current detection methods rely on semantic similarity and natural language inference (NLI), but their fundamental limitations have not been rigorously characterized. We apply conformal prediction to hallucination detection, providing finite-sample coverage guarantees that enable precise quantification of detection capabilities. Using calibration sets of approximately 600 examples, we achieve 94% coverage with 0% false positive rate on synthetic hallucinations (Natural Questions). However, on three real hallucination benchmarks spanning multiple LLMs (GPT-4, ChatGPT, GPT-3, Llama-2, Mistral), embedding-based methods - including state-of-the-art OpenAI text-embedding-3-large and cross-encoder models - exhibit unacceptable false positive rates: 100% on HaluEval, 88% on RAGTruth, and 50% on WikiBio. Crucially, GPT-4 as an LLM judge achieves only 7% FPR (95% CI: [3.4%, 13.7%]) on the same data, proving the task is solvable through reasoning. We term this the \"semantic illusion\": semantically plausible hallucinations preserve similarity to source documents while introducing factual errors invisible to embeddings. This limitation persists across embedding architectures, LLM generators, and task types, suggesting embedding-based detection is insufficient for production RAG deployment.",
+      "url": "https://arxiv.org/abs/2512.15068",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "detection",
+        "embedding",
+        "based",
+        "embedding based",
+        "gpt",
+        "hallucination",
+        "hallucinations",
+        "rag",
+        "semantic",
+        "coverage"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a critical issue in RAG systems \u2013 hallucination \u2013 and provides a rigorous, quantifiable analysis of current detection methods. The use of conformal prediction to establish coverage guarantees is a strong methodological contribution. The findings, particularly the high false positive rates of embedding-based methods on real benchmarks, are significant and challenge current practices, suggesting a need for more robust detection techniques.",
+      "paper_id": "b24a37c645adf514c316a12a05189502"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-18T09:40:09.461809"
 }

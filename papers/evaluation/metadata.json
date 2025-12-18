@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Revisiting the Reliability of Language Models in Instruction-Following",
+      "authors": [
+        "Jianshuo Dong, Yutong Zhang, Yan Liu, Zhenyu Zhong, Tao Wei, Chao Zhang, Han Qiu"
+      ],
+      "abstract": "arXiv:2512.14754v1 Announce Type: cross \nAbstract: Advanced LLMs have achieved near-ceiling instruction-following accuracy on benchmarks such as IFEval. However, these impressive scores do not necessarily translate to reliable services in real-world use, where users often vary their phrasing, contextual framing, and task formulations. In this paper, we study nuance-oriented reliability: whether models exhibit consistent competence across cousin prompts that convey analogous user intents but with subtle nuances. To quantify this, we introduce a new metric, reliable@k, and develop an automated pipeline that generates high-quality cousin prompts via data augmentation. Building upon this, we construct IFEval++ for systematic evaluation. Across 20 proprietary and 26 open-source LLMs, we find that current models exhibit substantial insufficiency in nuance-oriented reliability -- their performance can drop by up to 61.8% with nuanced prompt modifications. What's more, we characterize it and explore three potential improvement recipes. Our findings highlight nuance-oriented reliability as a crucial yet underexplored next step toward more dependable and trustworthy LLM behavior. Our code and benchmark are accessible: https://github.com/jianshuod/IFEval-pp.",
+      "url": "https://arxiv.org/abs/2512.14754",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reliability",
+        "ifeval",
+        "models",
+        "nuance",
+        "nuance oriented",
+        "oriented",
+        "oriented reliability",
+        "cousin",
+        "cousin prompts",
+        "exhibit"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the reliability of instruction following across nuanced prompts. The introduction of 'reliable@k' and the IFEval++ dataset are strong methodological contributions. The finding of significant performance drops with nuanced prompts is impactful and highlights a critical weakness in current models, suggesting a need for more robust training and evaluation techniques. The work is well-motivated and clearly presented.",
+      "paper_id": "a2ac3cc949824821341b84d5e2622a55"
+    },
+    {
+      "title": "Quantifying Return on Security Controls in LLM Systems",
+      "authors": [
+        "Richard Helder Moulton, Austin O'Brien, John D. Hastings"
+      ],
+      "abstract": "arXiv:2512.15081v1 Announce Type: cross \nAbstract: Although large language models (LLMs) are increasingly used in security-critical workflows, practitioners lack quantitative guidance on which safeguards are worth deploying. This paper introduces a decision-oriented framework and reproducible methodology that together quantify residual risk, convert adversarial probe outcomes into financial risk estimates and return-on-control (RoC) metrics, and enable monetary comparison of layered defenses for LLM-based systems. A retrieval-augmented generation (RAG) service is instantiated using the DeepSeek-R1 model over a corpus containing synthetic personally identifiable information (PII), and subjected to automated attacks with Garak across five vulnerability classes: PII leakage, latent context injection, prompt injection, adversarial attack generation, and divergence. For each (vulnerability, control) pair, attack success probabilities are estimated via Laplace's Rule of Succession and combined with loss triangle distributions, calibrated from public breach-cost data, in 10,000-run Monte Carlo simulations to produce loss exceedance curves and expected losses. Three widely used mitigations, attribute-based access control (ABAC); named entity recognition (NER) redaction using Microsoft Presidio; and NeMo Guardrails, are then compared to a baseline RAG configuration. The baseline system exhibits very high attack success rates (>= 0.98 for PII, latent injection, and prompt injection), yielding a total simulated expected loss of $313k per attack scenario. ABAC collapses success probabilities for PII and prompt-related attacks to near zero and reduces the total expected loss by ~94%, achieving an RoC of 9.83. NER redaction likewise eliminates PII leakage and attains an RoC of 5.97, while NeMo Guardrails provides only marginal benefit (RoC of 0.05).",
+      "url": "https://arxiv.org/abs/2512.15081",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "pii",
+        "attack",
+        "injection",
+        "loss",
+        "roc",
+        "control",
+        "expected",
+        "prompt",
+        "success",
+        "abac"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and currently under-addressed problem in LLM security: quantifying the value of security controls. The methodology, using financial risk estimates and RoC metrics, is a strong step towards practical security decision-making. While the use of synthetic PII and a single model (DeepSeek-R1) limits broad generalizability, the framework itself appears robust and well-defined, suggesting high potential for adoption and extension.",
+      "paper_id": "9653b718f535757f0416dca13dc66d78"
+    },
+    {
+      "title": "GAPS: A Clinically Grounded, Automated Benchmark for Evaluating AI Clinicians",
+      "authors": [
+        "Xiuyuan Chen, Tao Sun, Dexin Su, Ailing Yu, Junwei Liu, Zhe Chen, Gangzeng Jin, Xin Wang, Jingnan Liu, Hansong Xiao, Hualei Zhou, Dongjie Tao, Chunxiao Guo, Minghui Yang, Yuan Xia, Jing Zhao, Qianrui Fan, Yanyun Wang, Shuai Zhen, Kezhong Chen, Jun Wang, Zewen Sun, Heng Zhao, Tian Guan, Shaodong Wang, Geyun Chang, Jiaming Deng, Hongchengcheng Chen, Kexin Feng, Ruzhen Li, Jiayi Geng, Changtai Zhao, Jun Wang, Guihu Lin, Peihao Li, Liqi Liu, Peng Wei, Jian Wang, Jinjie Gu, Ping Wang, Fan Yang"
+      ],
+      "abstract": "arXiv:2510.13734v2 Announce Type: replace \nAbstract: Current benchmarks for AI clinician systems, often based on multiple-choice exams or manual rubrics, fail to capture the depth, robustness, and safety required for real-world clinical practice. To address this, we introduce the GAPS framework, a multidimensional paradigm for evaluating Grounding (cognitive depth), Adequacy (answer completeness), Perturbation (robustness), and Safety. Critically, we developed a fully automated, guideline-anchored pipeline to construct a GAPS-aligned benchmark end-to-end, overcoming the scalability and subjectivity limitations of prior work. Our pipeline assembles an evidence neighborhood, creates dual graph and tree representations, and automatically generates questions across G-levels. Rubrics are synthesized by a DeepResearch agent that mimics GRADE-consistent, PICO-driven evidence review in a ReAct loop. Scoring is performed by an ensemble of large language model (LLM) judges. Validation confirmed our automated questions are high-quality and align with clinician judgment (90% agreement, Cohen's Kappa 0.77). Evaluating state-of-the-art models on the benchmark revealed key failure modes: performance degrades sharply with increased reasoning depth (G-axis), models struggle with answer completeness (A-axis), and they are highly vulnerable to adversarial perturbations (P-axis) as well as certain safety issues (S-axis). This automated, clinically-grounded approach provides a reproducible and scalable method for rigorously evaluating AI clinician systems and guiding their development toward safer, more reliable clinical practice. The benchmark dataset GAPS-NSCLC-preview and evaluation code are publicly available at https://huggingface.co/datasets/AQ-MedAI/GAPS-NSCLC-preview and https://github.com/AQ-MedAI/MedicalAiBenchEval.",
+      "url": "https://arxiv.org/abs/2510.13734",
+      "published_date": "2025-12-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "gaps",
+        "automated",
+        "axis",
+        "benchmark",
+        "evaluating",
+        "ai",
+        "clinician",
+        "depth",
+        "safety",
+        "ai clinician"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical need in the AI clinician space \u2013 robust and reliable evaluation. The automated benchmark construction pipeline, leveraging LLMs for rubric generation and scoring, is a significant step forward from manual or multiple-choice approaches. The focus on grounding, adequacy, perturbation, and safety (GAPS) provides a comprehensive evaluation framework, and the use of guideline-anchored evidence review is particularly strong.",
+      "paper_id": "63b6edbe80402730da2db412a6ce9f7f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-18T09:40:09.460791"
 }
