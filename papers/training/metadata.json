@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "ContextLeak: Auditing Leakage in Private In-Context Learning Methods",
+      "authors": [
+        "Jacob Choi, Shuying Cao, Xingjian Dong, Wang Bill Zhu, Robin Jia, Sai Praneeth Karimireddy"
+      ],
+      "abstract": "arXiv:2512.16059v1 Announce Type: cross \nAbstract: In-Context Learning (ICL) has become a standard technique for adapting Large Language Models (LLMs) to specialized tasks by supplying task-specific exemplars within the prompt. However, when these exemplars contain sensitive information, reliable privacy-preserving mechanisms are essential to prevent unintended leakage through model outputs. Many privacy-preserving methods are proposed to protect the information leakage in the context, but there are less efforts on how to audit those methods. We introduce ContextLeak, the first framework to empirically measure the worst-case information leakage in ICL. ContextLeak uses canary insertion, embedding uniquely identifiable tokens in exemplars and crafting targeted queries to detect their presence. We apply ContextLeak across a range of private ICL techniques, both heuristic such as prompt-based defenses and those with theoretical guarantees such as Embedding Space Aggregation and Report Noisy Max. We find that ContextLeak tightly correlates with the theoretical privacy budget ($\\epsilon$) and reliably detects leakage. Our results further reveal that existing methods often strike poor privacy-utility trade-offs, either leaking sensitive information or severely degrading performance.",
+      "url": "https://arxiv.org/abs/2512.16059",
+      "published_date": "2025-12-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "contextleak",
+        "leakage",
+        "information",
+        "methods",
+        "privacy",
+        "context",
+        "exemplars",
+        "icl",
+        "context learning",
+        "embedding"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of LLMs \u2013 the privacy risks associated with In-Context Learning. The introduction of 'ContextLeak' as a framework for empirically measuring leakage is a strong methodological contribution. The focus on auditing existing privacy-preserving methods, rather than just proposing new ones, is particularly valuable and suggests a high likelihood of positive reception within the research community.",
+      "paper_id": "887c79bd4bdd49260f767e8771761ac3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-19T09:43:44.339080"
 }
