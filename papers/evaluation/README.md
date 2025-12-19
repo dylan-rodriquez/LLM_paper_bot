@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation
+
+**Score:** 92.0 | **Published:** 2025-12-19 | **Authors:** Yuxuan Qiao, Dongqin Liu, Hongchang Yang, Wei Zhou, Songlin Hu
+
+arXiv:2512.16310v1 Announce Type: cross 
+Abstract: Driven by Large Language Models, the single-agent, multi-tool architecture has become a popular paradigm for autonomous agents due to its simplicity ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.16310) | [📝 Analysis](69cc19bc984a0d9066cf7744a242365a.md)
+
+---
+
+### Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines
+
+**Score:** 92.0 | **Published:** 2025-12-19 | **Authors:** Guifeng Deng, Shuyin Rao, Tianyu Lin, Anlu Dai, Pan Wang, Junyi Xie, Haidong Song, Ke Zhao, Dongwu Xu, Zhengdong Cheng, Tao Li, Haiteng Jiang
+
+arXiv:2506.01329v2 Announce Type: replace 
+Abstract: Psychological support hotlines serve as critical lifelines for crisis intervention but encounter significant challenges due to rising demand and li...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.01329) | [📝 Analysis](f0629b34138db4e1fe21531862f827e4.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-19 09:43:44 UTC*

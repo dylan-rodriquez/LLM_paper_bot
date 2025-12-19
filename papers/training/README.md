@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### ContextLeak: Auditing Leakage in Private In-Context Learning Methods
+
+**Score:** 92.0 | **Published:** 2025-12-19 | **Authors:** Jacob Choi, Shuying Cao, Xingjian Dong, Wang Bill Zhu, Robin Jia, Sai Praneeth Karimireddy
+
+arXiv:2512.16059v1 Announce Type: cross 
+Abstract: In-Context Learning (ICL) has become a standard technique for adapting Large Language Models (LLMs) to specialized tasks by supplying task-specific e...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.16059) | [📝 Analysis](887c79bd4bdd49260f767e8771761ac3.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-19 09:43:44 UTC*

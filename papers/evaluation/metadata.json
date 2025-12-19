@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation",
+      "authors": [
+        "Yuxuan Qiao, Dongqin Liu, Hongchang Yang, Wei Zhou, Songlin Hu"
+      ],
+      "abstract": "arXiv:2512.16310v1 Announce Type: cross \nAbstract: Driven by Large Language Models, the single-agent, multi-tool architecture has become a popular paradigm for autonomous agents due to its simplicity and effectiveness. However, this architecture also introduces a new and severe privacy risk, which we term Tools Orchestration Privacy Risk (TOP-R), where an agent, to achieve a benign user goal, autonomously aggregates information fragments across multiple tools and leverages its reasoning capabilities to synthesize unexpected sensitive information. We provide the first systematic study of this risk. First, we establish a formal framework, attributing the risk's root cause to the agent's misaligned objective function: an overoptimization for helpfulness while neglecting privacy awareness. Second, we construct TOP-Bench, comprising paired leakage and benign scenarios, to comprehensively evaluate this risk. To quantify the trade-off between safety and robustness, we introduce the H-Score as a holistic metric. The evaluation results reveal that TOP-R is a severe risk: the average Risk Leakage Rate (RLR) of eight representative models reaches 90.24%, while the average H-Score is merely 0.167, with no model exceeding 0.3. Finally, we propose the Privacy Enhancement Principle (PEP) method, which effectively mitigates TOP-R, reducing the Risk Leakage Rate to 46.58% and significantly improving the H-Score to 0.624. Our work reveals both a new class of risk and inherent structural limitations in current agent architectures, while also offering feasible mitigation strategies.",
+      "url": "https://arxiv.org/abs/2512.16310",
+      "published_date": "2025-12-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "risk",
+        "agent",
+        "privacy",
+        "leakage",
+        "score",
+        "tools",
+        "architecture",
+        "average",
+        "benign",
+        "information"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical and emerging privacy risk associated with LLM-powered agents \u2013 the unintended leakage of sensitive information through tool orchestration. The systematic study, formal framework, and proposed benchmark (TOP-Bench) demonstrate a strong methodological approach. While the core idea of privacy risks in agents isn't entirely new, the specific framing of 'Tools Orchestration Privacy Risk' and the focus on misaligned objective functions are novel and timely.",
+      "paper_id": "69cc19bc984a0d9066cf7744a242365a"
+    },
+    {
+      "title": "Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines",
+      "authors": [
+        "Guifeng Deng, Shuyin Rao, Tianyu Lin, Anlu Dai, Pan Wang, Junyi Xie, Haidong Song, Ke Zhao, Dongwu Xu, Zhengdong Cheng, Tao Li, Haiteng Jiang"
+      ],
+      "abstract": "arXiv:2506.01329v2 Announce Type: replace \nAbstract: Psychological support hotlines serve as critical lifelines for crisis intervention but encounter significant challenges due to rising demand and limited resources. Large language models (LLMs) offer potential support in crisis assessments, yet their effectiveness in emotionally sensitive, real-world clinical settings remains underexplored. We introduce PsyCrisisBench, a comprehensive benchmark of 540 annotated transcripts from the Hangzhou Psychological Assistance Hotline, assessing four key tasks: mood status recognition, suicidal ideation detection, suicide plan identification, and risk assessment. 64 LLMs across 15 model families (including closed-source such as GPT, Claude, Gemini and open-source such as Llama, Qwen, DeepSeek) were evaluated using zero-shot, few-shot, and fine-tuning paradigms. LLMs showed strong results in suicidal ideation detection (F1=0.880), suicide plan identification (F1=0.779), and risk assessment (F1=0.907), with notable gains from few-shot prompting and fine-tuning. Compared to trained human operators, LLMs achieved comparable or superior performance on suicide plan identification and risk assessment, while humans retained advantages on mood status recognition and suicidal ideation detection. Mood status recognition remained challenging (max F1=0.709), likely due to missing vocal cues and semantic ambiguity. Notably, a fine-tuned 1.5B-parameter model (Qwen2.5-1.5B) outperformed larger models on mood and suicidal ideation tasks. LLMs demonstrate performance broadly comparable to trained human operators in text-based crisis assessment, with complementary strengths across task types. PsyCrisisBench provides a robust, real-world evaluation framework to guide future model development and ethical deployment in clinical mental health.",
+      "url": "https://arxiv.org/abs/2506.01329",
+      "published_date": "2025-12-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "assessment",
+        "crisis",
+        "detection",
+        "f1",
+        "ideation",
+        "mood",
+        "suicidal",
+        "suicidal ideation",
+        "fine"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem \u2013 supporting mental health crisis intervention \u2013 with a rigorous evaluation of numerous LLMs on a newly created, real-world dataset. The comprehensive benchmark (PsyCrisisBench) and the evaluation across multiple paradigms (zero-shot, few-shot, fine-tuning) demonstrate strong methodological quality. While applying LLMs to this domain isn't entirely novel, the scale of the evaluation and the focus on a sensitive, clinical setting are noteworthy.",
+      "paper_id": "f0629b34138db4e1fe21531862f827e4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-19T09:43:44.344430"
 }
