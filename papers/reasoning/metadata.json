@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+      "authors": [
+        "Debu Sinha"
+      ],
+      "abstract": "arXiv:2512.15068v2 Announce Type: replace-cross \nAbstract: Retrieval-Augmented Generation (RAG) systems remain susceptible to hallucinations despite grounding in retrieved evidence. While current detection methods leverage embedding similarity and natural language inference (NLI), their reliability in safety-critical settings remains unproven. We apply conformal prediction to RAG hallucination detection, transforming heuristic scores into decision sets with finite-sample coverage guarantees (1-alpha). Using calibration sets of n=600, we demonstrate a fundamental dichotomy: on synthetic hallucinations (Natural Questions), embedding methods achieve 95% coverage with 0% False Positive Rate (FPR). However, on real hallucinations from RLHF-aligned models (HaluEval), the same methods fail catastrophically, yielding 100% FPR at target coverage. We analyze this failure through the lens of distributional tails, showing that while NLI models achieve acceptable AUC (0.81), the \"hardest\" hallucinations are semantically indistinguishable from faithful responses, forcing conformal thresholds to reject nearly all valid outputs. Crucially, GPT-4 as a judge achieves 7% FPR (95% CI:[3.4%, 13.7%]) on the same data, proving the task is solvable via reasoning but opaque to surface-level semantics--a phenomenon we term the \"Semantic Illusion.\"",
+      "url": "https://arxiv.org/abs/2512.15068",
+      "published_date": "2025-12-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "hallucinations",
+        "coverage",
+        "detection",
+        "embedding",
+        "fpr",
+        "methods",
+        "rag",
+        "95",
+        "achieve",
+        "conformal"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in RAG systems \u2013 the unreliable detection of hallucinations \u2013 with a rigorous methodology using conformal prediction. The stark contrast in performance between synthetic and real hallucinations is a significant finding, highlighting the limitations of current embedding-based approaches. The analysis through distributional tails provides valuable insight into *why* these methods fail, and the use of coverage guarantees adds a layer of robustness often missing in hallucination detection research. The clear framing of the 'semantic illusion' is compelling.",
+      "paper_id": "b24a37c645adf514c316a12a05189502"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-22T09:36:37.400065"
 }

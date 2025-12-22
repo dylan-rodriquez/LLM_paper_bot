@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems
+
+**Score:** 90.0 | **Published:** 2025-12-22 | **Authors:** Debu Sinha
+
+arXiv:2512.15068v2 Announce Type: replace-cross 
+Abstract: Retrieval-Augmented Generation (RAG) systems remain susceptible to hallucinations despite grounding in retrieved evidence. While current dete...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.15068) | [📝 Analysis](b24a37c645adf514c316a12a05189502.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-22 09:36:37 UTC*

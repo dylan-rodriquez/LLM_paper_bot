@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### RadImageNet-VQA: A Large-Scale CT and MRI Dataset for Radiologic Visual Question Answering
+
+**Score:** 90.0 | **Published:** 2025-12-22 | **Authors:** L\'eo Butsanets, Charles Corbi\`ere, Julien Khlaut, Pierre Manceron, Corentin Dancette
+
+arXiv:2512.17396v1 Announce Type: cross 
+Abstract: In this work, we introduce RadImageNet-VQA, a large-scale dataset designed to advance radiologic visual question answering (VQA) on CT and MRI exams....
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17396) | [📝 Analysis](f6b8791ad89b6c5cf52e7962d83d3a6c.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-22 09:36:37 UTC*
