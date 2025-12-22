@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Humanlike AI Design Increases Anthropomorphism but Yields Divergent Outcomes on Engagement and Trust Globally",
+      "authors": [
+        "Robin Schimmelpfennig, Mark D\\'iaz, Vinodkumar Prabhakaran, Aida Davani"
+      ],
+      "abstract": "arXiv:2512.17898v1 Announce Type: new \nAbstract: Over a billion users across the globe interact with AI systems engineered with increasing sophistication to mimic human traits. This shift has triggered urgent debate regarding Anthropomorphism, the attribution of human characteristics to synthetic agents, and its potential to induce misplaced trust or emotional dependency. However, the causal link between more humanlike AI design and subsequent effects on engagement and trust has not been tested in realistic human-AI interactions with a global user pool. Prevailing safety frameworks continue to rely on theoretical assumptions derived from Western populations, overlooking the global diversity of AI users. Here, we address these gaps through two large-scale cross-national experiments (N=3,500) across 10 diverse nations, involving real-time and open-ended interactions with an AI system. We find that when evaluating an AI's human-likeness, users focus less on the kind of theoretical aspects often cited in policy (e.g., sentience or consciousness), but rather applied, interactional cues like conversation flow or understanding the user's perspective. We also experimentally demonstrate that humanlike design levers can causally increase anthropomorphism among users; however, we do not find that humanlike design universally increases behavioral measures for user engagement and trust, as previous theoretical work suggests. Instead, part of the connection between human-likeness and behavioral outcomes is fractured by culture: specific design choices that foster self-reported trust in AI-systems in some populations (e.g., Brazil) may trigger the opposite result in others (e.g., Japan). Our findings challenge prevailing narratives of inherent risk in humanlike AI design. Instead, we identify a nuanced, culturally mediated landscape of human-AI interaction, which demands that we move beyond a one-size-fits-all approach in AI governance.",
+      "url": "https://arxiv.org/abs/2512.17898",
+      "published_date": "2025-12-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "design",
+        "human",
+        "humanlike",
+        "trust",
+        "users",
+        "ai design",
+        "anthropomorphism",
+        "engagement",
+        "engagement trust"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a highly relevant and timely issue \u2013 the impact of human-like AI design on trust and engagement \u2013 with a strong methodological approach using a large, diverse global sample. The focus on cross-national differences is particularly valuable, challenging the common bias towards Western-centric AI safety frameworks. While the abstract doesn't detail the specific methods beyond 'real-time and open-ended interactions,' the scale (N=3500) suggests a robust study. The finding that users focus less on theoretical aspects when evaluating human-likeness is intriguing and suggests a need to refine current anthropomorphism assessments.",
+      "paper_id": "798d866993d8dfaa88cf54ff4392ec63"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-22T09:36:37.400953"
 }

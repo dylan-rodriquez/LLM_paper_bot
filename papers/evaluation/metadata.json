@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Women's Health Benchmark for Large Language Models",
+      "authors": [
+        "Victoria-Elisabeth Gruber, Razvan Marinescu, Diego Fajardo, Amin H. Nassar, Christopher Arkfeld, Alexandria Ludlow, Shama Patel, Mehrnoosh Samaei, Valerie Klug, Anna Huber, Marcel G\\\"uhner, Albert Botta i Orfila, Irene Lagoja, Kimya Tarr, Haleigh Larson, Mary Beth Howard"
+      ],
+      "abstract": "arXiv:2512.17028v1 Announce Type: new \nAbstract: As large language models (LLMs) become primary sources of health information for millions, their accuracy in women's health remains critically unexamined. We introduce the Women's Health Benchmark (WHB), the first benchmark evaluating LLM performance specifically in women's health. Our benchmark comprises 96 rigorously validated model stumps covering five medical specialties (obstetrics and gynecology, emergency medicine, primary care, oncology, and neurology), three query types (patient query, clinician query, and evidence/policy query), and eight error types (dosage/medication errors, missing critical information, outdated guidelines/treatment recommendations, incorrect treatment advice, incorrect factual information, missing/incorrect differential diagnosis, missed urgency, and inappropriate recommendations). We evaluated 13 state-of-the-art LLMs and revealed alarming gaps: current models show approximately 60\\% failure rates on the women's health benchmark, with performance varying dramatically across specialties and error types. Notably, models universally struggle with \"missed urgency\" indicators, while newer models like GPT-5 show significant improvements in avoiding inappropriate recommendations. Our findings underscore that AI chatbots are not yet fully able of providing reliable advice in women's health.",
+      "url": "https://arxiv.org/abs/2512.17028",
+      "published_date": "2025-12-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "health",
+        "women",
+        "women health",
+        "benchmark",
+        "models",
+        "health benchmark",
+        "query",
+        "incorrect",
+        "information",
+        "recommendations"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical gap in LLM evaluation \u2013 the performance in women's health, which is often overlooked. The creation of the WHB benchmark with its detailed error categorization is a strong methodological contribution. The reported 60% failure rate highlights a significant problem, suggesting the work will be well-received and drive further research. The rigor of validation and the breadth of specialties covered contribute to the high quality.",
+      "paper_id": "f21b10ee61928e447839a7d537d5f959"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-22T09:36:37.395282"
 }

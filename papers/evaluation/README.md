@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Women's Health Benchmark for Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-22 | **Authors:** Victoria-Elisabeth Gruber, Razvan Marinescu, Diego Fajardo, Amin H. Nassar, Christopher Arkfeld, Alexandria Ludlow, Shama Patel, Mehrnoosh Samaei, Valerie Klug, Anna Huber, Marcel G\"uhner, Albert Botta i Orfila, Irene Lagoja, Kimya Tarr, Haleigh Larson, Mary Beth Howard
+
+arXiv:2512.17028v1 Announce Type: new 
+Abstract: As large language models (LLMs) become primary sources of health information for millions, their accuracy in women's health remains critically unexamin...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17028) | [📝 Analysis](f21b10ee61928e447839a7d537d5f959.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-22 09:36:37 UTC*

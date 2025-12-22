@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Perturb Your Data: Paraphrase-Guided Training Data Watermarking
+
+**Score:** 92.0 | **Published:** 2025-12-22 | **Authors:** Pranav Shetty, Mirazul Haque, Petr Babkin, Zhiqiang Ma, Xiaomo Liu, Manuela Veloso
+
+arXiv:2512.17075v1 Announce Type: new 
+Abstract: Training data detection is critical for enforcing copyright and data licensing, as Large Language Models (LLM) are trained on massive text corpora scra...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17075) | [📝 Analysis](95776bfc9aed5eabf3fe21dc071bc807.md)
+
+---
+
+### AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens
+
+**Score:** 90.0 | **Published:** 2025-12-22 | **Authors:** Tung-Ling Li, Yuhao Wu, Hongliang Liu
+
+arXiv:2512.17375v1 Announce Type: cross 
+Abstract: Reward models and LLM-as-a-Judge systems are central to modern post-training pipelines such as RLHF, DPO, and RLAIF, where they provide scalar feedba...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17375) | [📝 Analysis](22fcccf11571f79c693240bc4c4d5bcb.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-22 09:36:37 UTC*
