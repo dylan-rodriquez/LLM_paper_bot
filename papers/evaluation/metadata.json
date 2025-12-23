@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Large-Language-Model Framework for Automated Humanitarian Situation Reporting",
+      "authors": [
+        "Ivan Decostanzi, Yelena Mejova, Kyriaki Kalimeri"
+      ],
+      "abstract": "arXiv:2512.19475v1 Announce Type: new \nAbstract: Timely and accurate situational reports are essential for humanitarian decision-making, yet current workflows remain largely manual, resource intensive, and inconsistent. We present a fully automated framework that uses large language models (LLMs) to transform heterogeneous humanitarian documents into structured and evidence-grounded reports. The system integrates semantic text clustering, automatic question generation, retrieval augmented answer extraction with citations, multi-level summarization, and executive summary generation, supported by internal evaluation metrics that emulate expert reasoning. We evaluated the framework across 13 humanitarian events, including natural disasters and conflicts, using more than 1,100 documents from verified sources such as ReliefWeb. The generated questions achieved 84.7 percent relevance, 84.0 percent importance, and 76.4 percent urgency. The extracted answers reached 86.3 percent relevance, with citation precision and recall both exceeding 76 percent. Agreement between human and LLM based evaluations surpassed an F1 score of 0.80. Comparative analysis shows that the proposed framework produces reports that are more structured, interpretable, and actionable than existing baselines. By combining LLM reasoning with transparent citation linking and multi-level evaluation, this study demonstrates that generative AI can autonomously produce accurate, verifiable, and operationally useful humanitarian situation reports.",
+      "url": "https://arxiv.org/abs/2512.19475",
+      "published_date": "2025-12-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "humanitarian",
+        "percent",
+        "framework",
+        "reports",
+        "76",
+        "76 percent",
+        "84",
+        "84 percent",
+        "accurate",
+        "automated"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem \u2013 improving the speed and accuracy of humanitarian situation reporting \u2013 with a well-defined, multi-stage LLM framework. The reported metrics (84-86% relevance/importance/urgency) are promising, suggesting a functional system. While the individual components (clustering, question generation, RAG, summarization) aren't entirely novel, their integration into a cohesive pipeline for this specific domain is a valuable contribution. The use of verified sources like ReliefWeb adds to the rigor.",
+      "paper_id": "0b2a04a0fc486c3774418004ec5e317c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-23T09:34:09.233332"
 }

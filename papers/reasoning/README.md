@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Epistemological Fault Lines Between Human and Artificial Intelligence
+
+**Score:** 92.0 | **Published:** 2025-12-23 | **Authors:** Walter Quattrociocchi, Valerio Capraro, Matja\v{z} Perc
+
+arXiv:2512.19466v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are widely described as artificial intelligence, yet their epistemic profile diverges sharply from human cognition. Here...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.19466) | [📝 Analysis](7dbbd4413374584ef6e83e85ab7f93d5.md)
+
+---
+
+### Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-23 | **Authors:** Hongji Li, Junchi yao, Manjiang Yu, Priyanka Singh, Xue Li, Di Wang, Lijie Hu
+
+arXiv:2512.17911v1 Announce Type: new 
+Abstract: Machine unlearning aims to erase requested data from trained models without full retraining. For Reasoning Multimodal Large Language Models (RMLLMs), t...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17911) | [📝 Analysis](ea92fe33f09ffbc867e47c6e6442e8b8.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-23 09:34:09 UTC*

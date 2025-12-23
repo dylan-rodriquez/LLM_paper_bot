@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Epistemological Fault Lines Between Human and Artificial Intelligence",
+      "authors": [
+        "Walter Quattrociocchi, Valerio Capraro, Matja\\v{z} Perc"
+      ],
+      "abstract": "arXiv:2512.19466v1 Announce Type: cross \nAbstract: Large language models (LLMs) are widely described as artificial intelligence, yet their epistemic profile diverges sharply from human cognition. Here we show that the apparent alignment between human and machine outputs conceals a deeper structural mismatch in how judgments are produced. Tracing the historical shift from symbolic AI and information filtering systems to large-scale generative transformers, we argue that LLMs are not epistemic agents but stochastic pattern-completion systems, formally describable as walks on high-dimensional graphs of linguistic transitions rather than as systems that form beliefs or models of the world. By systematically mapping human and artificial epistemic pipelines, we identify seven epistemic fault lines, divergences in grounding, parsing, experience, motivation, causal reasoning, metacognition, and value. We call the resulting condition Epistemia: a structural situation in which linguistic plausibility substitutes for epistemic evaluation, producing the feeling of knowing without the labor of judgment. We conclude by outlining consequences for evaluation, governance, and epistemic literacy in societies increasingly organized around generative AI.",
+      "url": "https://arxiv.org/abs/2512.19466",
+      "published_date": "2025-12-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "epistemic",
+        "human",
+        "artificial",
+        "systems",
+        "ai",
+        "artificial intelligence",
+        "evaluation",
+        "fault",
+        "fault lines",
+        "generative"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial and timely issue \u2013 the fundamental differences between human and AI 'understanding'. The framing of 'Epistemia' and the identification of seven 'fault lines' provides a structured and insightful analysis. While the core argument about LLMs being pattern-completion systems isn't entirely new, the systematic mapping of epistemic pipelines and the resulting framework are strong contributions. The high sentiment score reflects the current research community's focus on the limitations of LLMs and the need for a more nuanced understanding of their capabilities.",
+      "paper_id": "7dbbd4413374584ef6e83e85ab7f93d5"
+    },
+    {
+      "title": "Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models",
+      "authors": [
+        "Hongji Li, Junchi yao, Manjiang Yu, Priyanka Singh, Xue Li, Di Wang, Lijie Hu"
+      ],
+      "abstract": "arXiv:2512.17911v1 Announce Type: new \nAbstract: Machine unlearning aims to erase requested data from trained models without full retraining. For Reasoning Multimodal Large Language Models (RMLLMs), this is uniquely challenging: intermediate chain-of-thought steps can still leak sensitive information even when final answers are forgotten, and overly aggressive interventions easily damage general reasoning ability. Yet no benchmark jointly evaluates how well unlearning methods suppress reasoning-level leakage while preserving reasoning competence. We address this gap with RMLLMU-Bench, the first benchmark for RMLLM unlearning that extends standard forgetting metrics with dedicated measures of reasoning leakage and reasoning retention. A systematic evaluation on RMLLMU-Bench reveals that existing unlearning methods for MLLMs and Large (Language) Reasoning Models (LRMs) either leave substantial leakage in the reasoning process or severely degrade reasoning performance. To address these gaps, we propose R-MUSE (Reasoning-preserving MLLM Unlearning via Subspace guidance and Adaptive Steering), a training-free and inference-time intervention framework that steers internal representations to forget both answers and reasoning traces while explicitly preserving general reasoning. Experiments on RMLLMU-Bench demonstrate that R-MUSE achieves a substantially better balance between effective forgetting and reasoning retention.",
+      "url": "https://arxiv.org/abs/2512.17911",
+      "published_date": "2025-12-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "unlearning",
+        "models",
+        "preserving",
+        "bench",
+        "language",
+        "large",
+        "large language",
+        "leakage",
+        "rmllmu"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial and timely problem in the age of large multimodal models \u2013 the ability to unlearn sensitive information without sacrificing reasoning capabilities. The creation of RMLLMU-Bench is a significant contribution, providing a much-needed evaluation framework. While the abstract doesn't detail novel unlearning *methods* themselves, the benchmark and initial findings highlighting the shortcomings of existing methods demonstrate strong research potential.",
+      "paper_id": "ea92fe33f09ffbc867e47c6e6442e8b8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-23T09:34:09.230989"
 }
