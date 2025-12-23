@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models
+
+**Score:** 92.0 | **Published:** 2025-12-23 | **Authors:** Scott Thornton
+
+arXiv:2512.18542v1 Announce Type: cross 
+Abstract: AI assistants produce vulnerable code in 45% of security-relevant scenarios, introducing flaws into production systems at scale. Yet existing secure ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.18542) | [📝 Analysis](9c54379ddeede8c7518401c4d5ee098e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-23 09:34:09 UTC*

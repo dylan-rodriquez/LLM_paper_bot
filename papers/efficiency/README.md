@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Towards Efficient Agents: A Co-Design of Inference Architecture and System
+
+**Score:** 90.0 | **Published:** 2025-12-23 | **Authors:** Weizhe Lin, Hui-Ling Zhen, Shuai Yang, Xian Wang, Renxi Liu, Hanting Chen, Wangze Zhang, Chuansai Zhou, Yiming Li, Chen Chen, Xing Li, Zhiyuan Yang, Xiaosong Li, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan, Yunhe Wang
+
+arXiv:2512.18337v1 Announce Type: new 
+Abstract: The rapid development of large language model (LLM)-based agents has unlocked new possibilities for autonomous multi-turn reasoning and tool-augmented ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.18337) | [📝 Analysis](6ba4972c5d7422b9ee4c7fbd689097b6.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-23 09:34:09 UTC*

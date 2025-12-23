@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### KVReviver: Reversible KV Cache Compression with Sketch-Based Token Reconstruction
+
+**Score:** 90.0 | **Published:** 2025-12-23 | **Authors:** Aomufei Yuan, Zhiming Wang, Ruijie Miao, Dayu Wang, Yuxuan Tian, Zihan Wang, Yebo Peng, Yuhan Wu, Bairen Yi, Xin Liu, Tong Yang
+
+arXiv:2512.17917v1 Announce Type: new 
+Abstract: As the context length of current large language models (LLMs) rapidly increases, the memory demand for the Key-Value (KV) cache is becoming a bottlenec...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.17917) | [📝 Analysis](a03cca59c867aa429d7249c4d04b416a.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-23 09:34:09 UTC*

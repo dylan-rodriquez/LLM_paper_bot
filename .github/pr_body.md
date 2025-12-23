@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 6
+- **Average Significance Score:** 91.0/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,34 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Reasoning (2 new papers)
+- **Epistemological Fault Lines Between Human and Artificial Intelligence** (Score: 92.0)
+  - This paper tackles a crucial and timely issue – the fundamental differences between human and AI 'understanding'. The framing of 'Epistemia' and the identification of seven 'fault lines' provides a structured and insightful analysis. While the core argument about LLMs being pattern-completion systems isn't entirely new, the systematic mapping of epistemic pipelines and the resulting framework are strong contributions. The high sentiment score reflects the current research community's focus on the limitations of LLMs and the need for a more nuanced understanding of their capabilities.
+- **Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models** (Score: 90.0)
+  - This paper tackles a crucial and timely problem in the age of large multimodal models – the ability to unlearn sensitive information without sacrificing reasoning capabilities. The creation of RMLLMU-Bench is a significant contribution, providing a much-needed evaluation framework. While the abstract doesn't detail novel unlearning *methods* themselves, the benchmark and initial findings highlighting the shortcomings of existing methods demonstrate strong research potential.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Knowledge (1 new papers)
+- **KVReviver: Reversible KV Cache Compression with Sketch-Based Token Reconstruction** (Score: 90.0)
+  - This paper addresses a critical bottleneck in LLM deployment – KV cache size – and proposes a novel solution with 'KVReviver' that avoids the information loss inherent in traditional compression methods. The claim of maintaining accuracy with 10% of the KV cache budget for 2k contexts is very strong. While the sketch-based approach isn't entirely new, applying it to reversible KV cache compression is a significant advancement, and the concept of 'Contextual Amnesia' is a useful framing of the problem.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Efficiency (1 new papers)
+- **Towards Efficient Agents: A Co-Design of Inference Architecture and System** (Score: 90.0)
+  - This paper tackles a crucial bottleneck in LLM agent deployment – efficiency. The proposed AgentInfer framework, with its synergistic components like AgentCollab and AgentSched, demonstrates a thoughtful approach to optimizing the entire agent pipeline, not just individual model inference. The use of suffix automata for speculative decoding is particularly interesting. The problem is well-defined and the proposed solution appears well-motivated, suggesting a strong likelihood of positive reception within the community.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Evaluation (1 new papers)
+- **A Large-Language-Model Framework for Automated Humanitarian Situation Reporting** (Score: 92.0)
+  - This research addresses a highly significant problem – improving the speed and accuracy of humanitarian situation reporting – with a well-defined, multi-stage LLM framework. The reported metrics (84-86% relevance/importance/urgency) are promising, suggesting a functional system. While the individual components (clustering, question generation, RAG, summarization) aren't entirely novel, their integration into a cohesive pipeline for this specific domain is a valuable contribution. The use of verified sources like ReliefWeb adds to the rigor.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Applications (1 new papers)
+- **SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models** (Score: 92.0)
+  - This paper addresses a critical issue – the vulnerability of AI-generated code – with a well-defined and practical solution. The dataset's grounding in real-world security incidents (CVEs) and inclusion of attack/defense guidance significantly elevates its value. While dataset creation isn't inherently novel, the scope (11 languages, OWASP Top 10 + AI/ML threats) and focus on production readiness represent a substantial improvement over existing resources. The strong focus on operational security context is particularly valuable.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Reasoning** (2), **Knowledge** (1), **Efficiency** (1), **Evaluation** (1), **Applications** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

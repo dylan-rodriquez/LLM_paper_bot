@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models",
+      "authors": [
+        "Scott Thornton"
+      ],
+      "abstract": "arXiv:2512.18542v1 Announce Type: cross \nAbstract: AI assistants produce vulnerable code in 45% of security-relevant scenarios, introducing flaws into production systems at scale. Yet existing secure coding datasets fall short. They lack incident grounding, don't provide the scale modern training requires, and miss the operational security context developers need for production deployments. We present SecureCode v2.0, a production-grade dataset of 1,215 security-focused coding examples that passed structural validation and expert security review. Every example ties to actual documented security incidents with CVE references, provides vulnerable and secure implementations, demonstrates concrete attacks, and includes defense-in-depth operational guidance. The dataset covers 11 vulnerability categories (complete OWASP Top 10:2025 plus AI/ML Security Threats) across 11 languages (Python, JavaScript, Java, Go, PHP, C#, TypeScript, Ruby, Rust, Kotlin, and YAML for infrastructure-as-code).\n  Our quality assurance framework ensures complete incident grounding. Each example includes SIEM integration strategies, infrastructure hardening recommendations (Docker, AppArmor, WAF configurations), and testing approaches using language-appropriate frameworks. The dataset uses a 4-turn conversational structure mirroring actual developer-AI interactions, escalating from basic implementations to advanced security considerations and defense-in-depth guidance.\n  Our contributions: (1) 1,215 rigorously validated examples split into 989 training, 122 validation, and 104 test sets, (2) an automated validation framework ensuring dataset consistency, (3) a 4-turn conversational structure capturing realistic security workflows, (4) comprehensive operational security guidance with SIEM integration strategies, (5) complete language-specific implementation fidelity, and (6) open-source release of data, validation tools, and benchmarking protocols.",
+      "url": "https://arxiv.org/abs/2512.18542",
+      "published_date": "2025-12-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "security",
+        "dataset",
+        "production",
+        "validation",
+        "ai",
+        "code",
+        "complete",
+        "guidance",
+        "operational",
+        "training"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critical issue \u2013 the vulnerability of AI-generated code \u2013 with a well-defined and practical solution. The dataset's grounding in real-world security incidents (CVEs) and inclusion of attack/defense guidance significantly elevates its value. While dataset creation isn't inherently novel, the scope (11 languages, OWASP Top 10 + AI/ML threats) and focus on production readiness represent a substantial improvement over existing resources. The strong focus on operational security context is particularly valuable.",
+      "paper_id": "9c54379ddeede8c7518401c4d5ee098e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-23T09:34:09.234328"
 }
