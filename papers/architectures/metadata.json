@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Learning without training: The implicit dynamics of in-context learning",
+      "authors": [
+        "Benoit Dherin, Michael Munn, Hanna Mazzawi, Michael Wunder, Javier Gonzalvo"
+      ],
+      "abstract": "arXiv:2507.16003v3 Announce Type: replace \nAbstract: One of the most striking features of Large Language Models (LLMs) is their ability to learn in-context. Namely at inference time an LLM is able to learn new patterns without any additional weight update when these patterns are presented in the form of examples in the prompt, even if these patterns were not seen during training. The mechanisms through which this can happen are still largely unknown. In this work, we show that the stacking of a self-attention layer with an MLP, allows the transformer block to implicitly modify the weights of the MLP layer according to the context. We argue through theory and experimentation that this simple mechanism may be the reason why LLMs can learn in-context and not only during training. Specifically, we show how a transformer block implicitly transforms a context into a low-rank weight-update of its MLP layer.",
+      "url": "https://arxiv.org/abs/2507.16003",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "context",
+        "layer",
+        "learn",
+        "mlp",
+        "patterns",
+        "training",
+        "block",
+        "block implicitly",
+        "implicitly",
+        "learn context"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a central mystery in LLMs \u2013 in-context learning \u2013 and proposes a plausible, theoretically grounded mechanism. The idea of implicit weight modification within the transformer block is compelling and the combination of theory and experimentation strengthens the argument. While the 'simple mechanism' claim might be slightly overstated pending further validation, the work is well-focused and addresses a highly relevant problem.",
+      "paper_id": "c0cd10f7f086e11d303c674f1a9cfe7e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2025-12-24T09:36:43.663613"
 }

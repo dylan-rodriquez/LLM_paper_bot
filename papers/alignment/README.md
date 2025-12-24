@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### AprielGuard
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Jaykumar Kasundra, Anjaneya Praharaj, Sourabh Surana, Lakshmi Sirisha Chodisetty, Sourav Sharma, Abhigya Verma, Abhishek Bhardwaj, Debasish Kanhar, Aakash Bhagat, Khalil Slimi, Seganrasan Subramanian, Sathwik Tejaswi Madhusudhan, Ranga Prasad Chenna, Srinivas Sunkara
+
+arXiv:2512.20293v1 Announce Type: new 
+Abstract: Safeguarding large language models (LLMs) against unsafe or adversarial behavior is critical as they are increasingly deployed in conversational and ag...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20293) | [📝 Analysis](baa58392ee05ba7a2c82f6b023bd6cd6.md)
+
+---
+
+### Large Language Models Develop Novel Social Biases Through Adaptive Exploration
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Addison J. Wu, Ryan Liu, Xuechunzi Bai, Thomas L. Griffiths
+
+arXiv:2511.06148v2 Announce Type: replace-cross 
+Abstract: As large language models (LLMs) are adopted into frameworks that grant them the capacity to make real decisions, it is increasingly important...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.06148) | [📝 Analysis](631ba763edd37b16a763d65415d69c10.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*

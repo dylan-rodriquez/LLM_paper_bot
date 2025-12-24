@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "SynCraft: Guiding Large Language Models to Predict Edit Sequences for Molecular Synthesizability Optimization",
+      "authors": [
+        "Junren Li, Luhua Lai"
+      ],
+      "abstract": "arXiv:2512.20333v1 Announce Type: new \nAbstract: Generative artificial intelligence has revolutionized the exploration of chemical space, yet a critical bottleneck remains that a substantial fraction of generated molecules is synthetically inaccessible. Current solutions, such as post-hoc filtering or projection-based methods, often compromise structural novelty or disrupt key pharmacophores by forcing molecules into pre-defined synthetic templates. Herein, we introduce SynCraft, a reasoning-based framework that reframes synthesizability optimization not as a sequence translation task, but as a precise structural editing problem. Leveraging the emergent reasoning capabilities of Large Language Models, SynCraft navigates the \"synthesis cliff\" where minimal structural modifications yield significant gains in synthetic feasibility. By predicting executable sequences of atom-level edits rather than generating SMILES strings directly, SynCraft circumvents the syntactic fragility of LLMs while harnessing their chemical intuition. Extensive benchmarks demonstrate that SynCraft outperforms state-of-the-art baselines in generating synthesizable analogs with high structural fidelity. Furthermore, through interaction-aware prompting, SynCraft successfully replicates expert medicinal chemistry intuition in editing PLK1 inhibitors and rescuing high-scoring but previously discarded RIPK1 candidates in previous molecular generation literatures.",
+      "url": "https://arxiv.org/abs/2512.20333",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "syncraft",
+        "structural",
+        "based",
+        "chemical",
+        "editing",
+        "generating",
+        "high",
+        "intuition",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial bottleneck in generative chemistry \u2013 synthesizability \u2013 with a novel approach. Reframing the problem as structural editing rather than direct molecule generation, and leveraging LLMs for precise atom-level edits, is a clever and potentially impactful strategy. The focus on circumventing the syntactic fragility of LLMs is particularly strong, suggesting a well-considered methodology. The problem is highly significant, and the proposed solution appears promising for advancing the field of AI-driven molecular design.",
+      "paper_id": "56b10c8c4d9c478b8b8134ce8f56d488"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2025-12-24T09:36:43.667327"
 }

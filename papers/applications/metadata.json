@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "SoK: Are Watermarks in LLMs Ready for Deployment?",
+      "authors": [
+        "Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah, My T. Thai"
+      ],
+      "abstract": "arXiv:2506.05594v3 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) have transformed natural language processing, demonstrating impressive capabilities across diverse tasks. However, deploying these models introduces critical risks related to intellectual property violations and potential misuse, particularly as adversaries can imitate these models to steal services or generate misleading outputs. We specifically focus on model stealing attacks, as they are highly relevant to proprietary LLMs and pose a serious threat to their security, revenue, and ethical deployment. While various watermarking techniques have emerged to mitigate these risks, it remains unclear how far the community and industry have progressed in developing and deploying watermarks in LLMs.\n  To bridge this gap, we aim to develop a comprehensive systematization for watermarks in LLMs by 1) presenting a detailed taxonomy for watermarks in LLMs, 2) proposing a novel intellectual property classifier to explore the effectiveness and impacts of watermarks on LLMs under both attack and attack-free environments, 3) analyzing the limitations of existing watermarks in LLMs, and 4) discussing practical challenges and potential future directions for watermarks in LLMs. Through extensive experiments, we show that despite promising research outcomes and significant attention from leading companies and community to deploy watermarks, these techniques have yet to reach their full potential in real-world applications due to their unfavorable impacts on model utility of LLMs and downstream tasks. Our findings provide an insightful understanding of watermarks in LLMs, highlighting the need for practical watermarks solutions tailored to LLM deployment.",
+      "url": "https://arxiv.org/abs/2506.05594",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "watermarks",
+        "watermarks llms",
+        "deployment",
+        "models",
+        "potential",
+        "attack",
+        "community",
+        "deploying",
+        "impacts"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the security and intellectual property protection of LLMs. The 'Systematization of Knowledge' (SoK) approach, combined with a proposed intellectual property classifier, suggests a rigorous and well-structured investigation. While the abstract doesn't detail the specifics of the classifier, the focus on a taxonomy and classification is a strong indicator of a valuable contribution to the field.",
+      "paper_id": "029ddca3177fee1865629c476f69f43a"
+    },
+    {
+      "title": "Generative AI for Analysts",
+      "authors": [
+        "Jian Xue, Qian Zhang, Wu Zhu"
+      ],
+      "abstract": "arXiv:2512.19705v1 Announce Type: cross \nAbstract: We study how generative artificial intelligence (AI) transforms the work of financial analysts. Using the 2023 launch of FactSet's AI platform as a natural experiment, we find that adoption produces markedly richer and more comprehensive reports -- featuring 40% more distinct information sources, 34% broader topical coverage, and 25% greater use of advanced analytical methods -- while also improving timeliness. However, forecast errors rise by 59% as AI-assisted reports convey a more balanced mix of positive and negative information that is harder to synthesize, particularly for analysts facing heavier cognitive demands. Placebo tests using other data vendors confirm that these effects are unique to FactSet's AI integration. Overall, our findings reveal both the productivity gains and cognitive limits of generative AI in financial information production.",
+      "url": "https://arxiv.org/abs/2512.19705",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-fin.ST"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "analysts",
+        "generative",
+        "information",
+        "cognitive",
+        "factset",
+        "factset ai",
+        "financial",
+        "generative ai",
+        "reports"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the impact of generative AI on financial analysis. The use of a natural experiment (FactSet's AI platform launch) is a strong methodological choice, and the findings regarding both productivity gains *and* cognitive limitations are nuanced and insightful. While the methods aren't groundbreaking in themselves, their application to this specific domain and the clear presentation of results are commendable.",
+      "paper_id": "2ec429c00dd030d9b2f4e31926b77fb6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-24T09:36:43.666444"
 }

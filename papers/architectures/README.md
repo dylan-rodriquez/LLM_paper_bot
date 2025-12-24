@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Learning without training: The implicit dynamics of in-context learning
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Benoit Dherin, Michael Munn, Hanna Mazzawi, Michael Wunder, Javier Gonzalvo
+
+arXiv:2507.16003v3 Announce Type: replace 
+Abstract: One of the most striking features of Large Language Models (LLMs) is their ability to learn in-context. Namely at inference time an LLM is able to ...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.16003) | [📝 Analysis](c0cd10f7f086e11d303c674f1a9cfe7e.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "AprielGuard",
+      "authors": [
+        "Jaykumar Kasundra, Anjaneya Praharaj, Sourabh Surana, Lakshmi Sirisha Chodisetty, Sourav Sharma, Abhigya Verma, Abhishek Bhardwaj, Debasish Kanhar, Aakash Bhagat, Khalil Slimi, Seganrasan Subramanian, Sathwik Tejaswi Madhusudhan, Ranga Prasad Chenna, Srinivas Sunkara"
+      ],
+      "abstract": "arXiv:2512.20293v1 Announce Type: new \nAbstract: Safeguarding large language models (LLMs) against unsafe or adversarial behavior is critical as they are increasingly deployed in conversational and agentic settings. Existing moderation tools often treat safety risks (e.g. toxicity, bias) and adversarial threats (e.g. prompt injections, jailbreaks) as separate problems, limiting their robustness and generalizability. We introduce AprielGuard, an 8B parameter safeguard model that unify these dimensions within a single taxonomy and learning framework. AprielGuard is trained on a diverse mix of open and synthetic data covering standalone prompts, multi-turn conversations, and agentic workflows, augmented with structured reasoning traces to improve interpretability. Across multiple public and proprietary benchmarks, AprielGuard achieves strong performance in detecting harmful content and adversarial manipulations, outperforming existing opensource guardrails such as Llama-Guard and Granite Guardian, particularly in multi-step and reasoning intensive scenarios. By releasing the model, we aim to advance transparent and reproducible research on reliable safeguards for LLMs.",
+      "url": "https://arxiv.org/abs/2512.20293",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "aprielguard",
+        "adversarial",
+        "agentic",
+        "existing",
+        "llms",
+        "model",
+        "multi",
+        "reasoning",
+        "20293v1",
+        "20293v1 announce"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and critical problem in LLM deployment \u2013 safety and adversarial robustness. The unification of safety and adversarial threats into a single framework is a strong methodological approach. The reported outperformance against existing open-source guardrails suggests a tangible improvement, and the use of reasoning traces for interpretability is a valuable addition. The 8B parameter size is also noteworthy, suggesting a balance between performance and efficiency.",
+      "paper_id": "baa58392ee05ba7a2c82f6b023bd6cd6"
+    },
+    {
+      "title": "Large Language Models Develop Novel Social Biases Through Adaptive Exploration",
+      "authors": [
+        "Addison J. Wu, Ryan Liu, Xuechunzi Bai, Thomas L. Griffiths"
+      ],
+      "abstract": "arXiv:2511.06148v2 Announce Type: replace-cross \nAbstract: As large language models (LLMs) are adopted into frameworks that grant them the capacity to make real decisions, it is increasingly important to ensure that they are unbiased. In this paper, we argue that the predominant approach of simply removing existing biases from models is not enough. Using a paradigm from the psychology literature, we demonstrate that LLMs can spontaneously develop novel social biases about artificial demographic groups even when no inherent differences exist. These biases result in highly stratified task allocations, which are less fair than assignments by human participants and are exacerbated by newer and larger models. In social science, emergent biases like these have been shown to result from exploration-exploitation trade-offs, where the decision-maker explores too little, allowing early observations to strongly influence impressions about entire demographic groups. To alleviate this effect, we examine a series of interventions targeting model inputs, problem structure, and explicit steering. We find that explicitly incentivizing exploration most robustly reduces stratification, highlighting the need for better multifaceted objectives to mitigate bias. These results reveal that LLMs are not merely passive mirrors of human social biases, but can actively create new ones from experience, raising urgent questions about how these systems will shape societies over time.",
+      "url": "https://arxiv.org/abs/2511.06148",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "biases",
+        "models",
+        "social",
+        "exploration",
+        "llms",
+        "social biases",
+        "demographic",
+        "demographic groups",
+        "develop",
+        "develop novel"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in LLM development \u2013 the emergence of *new* biases, not just the amplification of existing ones. The use of a psychological paradigm to demonstrate this phenomenon is clever and strengthens the findings. While the abstract doesn't detail the mitigation strategy beyond mentioning exploration, the identification of the exploration-exploitation trade-off as a root cause is a significant insight. The finding that larger models exacerbate the issue is particularly concerning and impactful.",
+      "paper_id": "631ba763edd37b16a763d65415d69c10"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2025-12-24T09:36:43.662754"
 }

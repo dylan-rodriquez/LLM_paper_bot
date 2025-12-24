@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### SynCraft: Guiding Large Language Models to Predict Edit Sequences for Molecular Synthesizability Optimization
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Junren Li, Luhua Lai
+
+arXiv:2512.20333v1 Announce Type: new 
+Abstract: Generative artificial intelligence has revolutionized the exploration of chemical space, yet a critical bottleneck remains that a substantial fraction ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20333) | [📝 Analysis](56b10c8c4d9c478b8b8134ce8f56d488.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*
