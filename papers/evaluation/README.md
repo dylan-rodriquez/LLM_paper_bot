@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Persistent Instability in LLM's Personality Measurements: Effects of Scale, Reasoning, and Conversation History
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Tommaso Tosato, Saskia Helbling, Yorguin-Jose Mantilla-Ramos, Mahmood Hegazy, Alberto Tosato, David John Lemay, Irina Rish, Guillaume Dumas
+
+arXiv:2508.04826v3 Announce Type: replace 
+Abstract: Large language models require consistent behavioral patterns for safe deployment, yet there are indications of large variability that may lead to a...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04826) | [📝 Analysis](92ddabc395c278082248222ce2de697c.md)
+
+---
+
+### A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Yaowei Bai, Ruiheng Zhang, Yu Lei, Xuhua Duan, Jingfeng Yao, Shuguang Ju, Chaoyang Wang, Wei Yao, Yiwan Guo, Guilin Zhang, Chao Wan, Qian Yuan, Lei Chen, Wenjuan Tang, Biqiang Zhu, Xinggang Wang, Tao Sun, Wei Zhou, Dacheng Tao, Yongchao Xu, Chuansheng Zheng, Huangxuan Zhao, Bo Du
+
+arXiv:2512.20344v1 Announce Type: new 
+Abstract: A global shortage of radiologists has been exacerbated by the significant volume of chest X-ray workloads, particularly in primary care. Although multi...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20344) | [📝 Analysis](5f61b14a4b8bb52cbf4ef40a4aa556b9.md)
+
+---
+
+### Bidirectional human-AI collaboration in brain tumour assessments improves both expert human and AI agent performance
+
+**Score:** 90.0 | **Published:** 2025-12-24 | **Authors:** James K Ruffle, Samia Mohinta, Guilherme Pombo, Asthik Biswas, Alan Campbell, Indran Davagnanam, David Doig, Ahmed Hamman, Harpreet Hyare, Farrah Jabeen, Emma Lim, Dermot Mallon, Stephanie Owen, Sophie Wilkinson, Sebastian Brandner, Parashkev Nachev
+
+arXiv:2512.19707v1 Announce Type: cross 
+Abstract: The benefits of artificial intelligence (AI) human partnerships-evaluating how AI agents enhance expert human performance-are increasingly studied. T...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.19707) | [📝 Analysis](1f03f3495668f5245a56a21df4b910d8.md)
+
+---
+
+### PHANTOM: PHysical ANamorphic Threats Obstructing Connected Vehicle Mobility
+
+**Score:** 90.0 | **Published:** 2025-12-24 | **Authors:** Md Nahid Hasan Shuvo, Moinul Hossain
+
+arXiv:2512.19711v1 Announce Type: cross 
+Abstract: Connected autonomous vehicles (CAVs) rely on vision-based deep neural networks (DNNs) and low-latency (Vehicle-to-Everything) V2X communication to na...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.19711) | [📝 Analysis](d750d2a40dca184c73d0346c6f871b47.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*

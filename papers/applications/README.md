@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### SoK: Are Watermarks in LLMs Ready for Deployment?
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah, My T. Thai
+
+arXiv:2506.05594v3 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have transformed natural language processing, demonstrating impressive capabilities across diverse tasks. Howeve...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.05594) | [📝 Analysis](029ddca3177fee1865629c476f69f43a.md)
+
+---
+
+### Generative AI for Analysts
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Jian Xue, Qian Zhang, Wu Zhu
+
+arXiv:2512.19705v1 Announce Type: cross 
+Abstract: We study how generative artificial intelligence (AI) transforms the work of financial analysts. Using the 2023 launch of FactSet's AI platform as a n...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.19705) | [📝 Analysis](2ec429c00dd030d9b2f4e31926b77fb6.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*

@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### FaithLens: Detecting and Explaining Faithfulness Hallucination
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Shuzheng Si, Qingyi Wang, Haozhe Zhao, Yuzhuo Bai, Guanqiao Chen, Kangyang Luo, Gang Chen, Fanchao Qi, Minjia Zhang, Baobao Chang, Maosong Sun
+
+arXiv:2512.20182v1 Announce Type: new 
+Abstract: Recognizing whether outputs from large language models (LLMs) contain faithfulness hallucination is crucial for real-world applications, e.g., retrieva...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20182) | [📝 Analysis](baaad76c53d70728808b64c468330ad9.md)
+
+---
+
+### Scaling Reinforcement Learning for Content Moderation with Large Language Models
+
+**Score:** 92.0 | **Published:** 2025-12-24 | **Authors:** Hamed Firooz, Rui Liu, Yuchen Lu, Zhenyu Hou, Fangzhou Xiong, Xiaoyang Zhang, Changshu Jian, Zhicheng Zhu, Jiayuan Ma, Jacob Tao, Chaitali Gupta, Xiaochang Peng, Shike Mei, Hang Cui, Yang Qin, Shuo Tang, Jason Gaedtke, Arpit Mittal
+
+arXiv:2512.20061v1 Announce Type: new 
+Abstract: Content moderation at scale remains one of the most pressing challenges in today's digital ecosystem, where billions of user- and AI-generated artifact...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20061) | [📝 Analysis](6814439d60fe5fc3e386e4160b4c6e19.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-24 09:36:43 UTC*

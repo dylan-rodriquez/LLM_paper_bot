@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Persistent Instability in LLM's Personality Measurements: Effects of Scale, Reasoning, and Conversation History",
+      "authors": [
+        "Tommaso Tosato, Saskia Helbling, Yorguin-Jose Mantilla-Ramos, Mahmood Hegazy, Alberto Tosato, David John Lemay, Irina Rish, Guillaume Dumas"
+      ],
+      "abstract": "arXiv:2508.04826v3 Announce Type: replace \nAbstract: Large language models require consistent behavioral patterns for safe deployment, yet there are indications of large variability that may lead to an instable expression of personality traits in these models. We present PERSIST (PERsonality Stability in Synthetic Text), a comprehensive evaluation framework testing 25 open-source models (1B-685B parameters) across 2 million+ responses. Using traditional (BFI, SD3) and novel LLM-adapted personality questionnaires, we systematically vary model size, personas, reasoning modes, question order or paraphrasing, and conversation history. Our findings challenge fundamental assumptions: (1) Question reordering alone can introduce large shifts in personality measurements; (2) Scaling provides limited stability gains: even 400B+ models exhibit standard deviations >0.3 on 5-point scales; (3) Interventions expected to stabilize behavior, such as reasoning and inclusion of conversation history, can paradoxically increase variability; (4) Detailed persona instructions produce mixed effects, with misaligned personas showing significantly higher variability than the helpful assistant baseline; (5) The LLM-adapted questionnaires, despite their improved ecological validity, exhibit instability comparable to human-centric versions. This persistent instability across scales and mitigation strategies suggests that current LLMs lack the architectural foundations for genuine behavioral consistency. For safety-critical applications requiring predictable behavior, these findings indicate that current alignment strategies may be inadequate.",
+      "url": "https://arxiv.org/abs/2508.04826",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "personality",
+        "models",
+        "conversation",
+        "conversation history",
+        "history",
+        "instability",
+        "large",
+        "llm",
+        "reasoning",
+        "variability"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical issue in LLM deployment \u2013 personality stability \u2013 with a comprehensive and systematic approach. The large-scale evaluation across numerous models and varied conditions is commendable, and the findings challenging established assumptions about scaling and reasoning are significant. The development of PERSIST as an evaluation framework is a valuable contribution, and the initial results suggest a strong likelihood of positive reception within the LLM community.",
+      "paper_id": "92ddabc395c278082248222ce2de697c"
+    },
+    {
+      "title": "A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice",
+      "authors": [
+        "Yaowei Bai, Ruiheng Zhang, Yu Lei, Xuhua Duan, Jingfeng Yao, Shuguang Ju, Chaoyang Wang, Wei Yao, Yiwan Guo, Guilin Zhang, Chao Wan, Qian Yuan, Lei Chen, Wenjuan Tang, Biqiang Zhu, Xinggang Wang, Tao Sun, Wei Zhou, Dacheng Tao, Yongchao Xu, Chuansheng Zheng, Huangxuan Zhao, Bo Du"
+      ],
+      "abstract": "arXiv:2512.20344v1 Announce Type: new \nAbstract: A global shortage of radiologists has been exacerbated by the significant volume of chest X-ray workloads, particularly in primary care. Although multimodal large language models show promise, existing evaluations predominantly rely on automated metrics or retrospective analyses, lacking rigorous prospective clinical validation. Janus-Pro-CXR (1B), a chest X-ray interpretation system based on DeepSeek Janus-Pro model, was developed and rigorously validated through a multicenter prospective trial (NCT07117266). Our system outperforms state-of-the-art X-ray report generation models in automated report generation, surpassing even larger-scale models including ChatGPT 4o (200B parameters), while demonstrating reliable detection of six clinically critical radiographic findings. Retrospective evaluation confirms significantly higher report accuracy than Janus-Pro and ChatGPT 4o. In prospective clinical deployment, AI assistance significantly improved report quality scores, reduced interpretation time by 18.3% (P < 0.001), and was preferred by a majority of experts in 54.3% of cases. Through lightweight architecture and domain-specific optimization, Janus-Pro-CXR improves diagnostic reliability and workflow efficiency, particularly in resource-constrained settings. The model architecture and implementation framework will be open-sourced to facilitate the clinical translation of AI-assisted radiology solutions.",
+      "url": "https://arxiv.org/abs/2512.20344",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "janus",
+        "janus pro",
+        "pro",
+        "report",
+        "ai",
+        "automated",
+        "chest",
+        "interpretation",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical need in healthcare \u2013 alleviating radiologist workload \u2013 and employs a rigorous, prospective clinical trial, which is a significant strength. The claim of outperforming ChatGPT-4o, a very strong baseline, is compelling. While leveraging a pre-existing model (DeepSeek Janus-Pro), the adaptation and validation for CXR interpretation demonstrate substantial effort and potential.",
+      "paper_id": "5f61b14a4b8bb52cbf4ef40a4aa556b9"
+    },
+    {
+      "title": "Bidirectional human-AI collaboration in brain tumour assessments improves both expert human and AI agent performance",
+      "authors": [
+        "James K Ruffle, Samia Mohinta, Guilherme Pombo, Asthik Biswas, Alan Campbell, Indran Davagnanam, David Doig, Ahmed Hamman, Harpreet Hyare, Farrah Jabeen, Emma Lim, Dermot Mallon, Stephanie Owen, Sophie Wilkinson, Sebastian Brandner, Parashkev Nachev"
+      ],
+      "abstract": "arXiv:2512.19707v1 Announce Type: cross \nAbstract: The benefits of artificial intelligence (AI) human partnerships-evaluating how AI agents enhance expert human performance-are increasingly studied. Though rarely evaluated in healthcare, an inverse approach is possible: AI benefiting from the support of an expert human agent. Here, we investigate both human-AI clinical partnership paradigms in the magnetic resonance imaging-guided characterisation of patients with brain tumours. We reveal that human-AI partnerships improve accuracy and metacognitive ability not only for radiologists supported by AI, but also for AI agents supported by radiologists. Moreover, the greatest patient benefit was evident with an AI agent supported by a human one. Synergistic improvements in agent accuracy, metacognitive performance, and inter-rater agreement suggest that AI can create more capable, confident, and consistent clinical agents, whether human or model-based. Our work suggests that the maximal value of AI in healthcare could emerge not from replacing human intelligence, but from AI agents that routinely leverage and amplify it.",
+      "url": "https://arxiv.org/abs/2512.19707",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "ai",
+        "human",
+        "agent",
+        "agents",
+        "human ai",
+        "ai agents",
+        "expert",
+        "expert human",
+        "performance",
+        "supported"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem in healthcare \u2013 improving brain tumor assessments \u2013 and does so by exploring a novel bidirectional human-AI collaboration paradigm. The finding that AI *benefits* from human support, in addition to the well-studied benefit of humans from AI, is particularly noteworthy. The abstract suggests rigorous methodology and a clear presentation of results, indicating a high-quality study with substantial potential impact.",
+      "paper_id": "1f03f3495668f5245a56a21df4b910d8"
+    },
+    {
+      "title": "PHANTOM: PHysical ANamorphic Threats Obstructing Connected Vehicle Mobility",
+      "authors": [
+        "Md Nahid Hasan Shuvo, Moinul Hossain"
+      ],
+      "abstract": "arXiv:2512.19711v1 Announce Type: cross \nAbstract: Connected autonomous vehicles (CAVs) rely on vision-based deep neural networks (DNNs) and low-latency (Vehicle-to-Everything) V2X communication to navigate safely and efficiently. Despite their advances, these systems remain vulnerable to physical adversarial attacks. In this paper, we introduce PHANTOM (PHysical ANamorphic Threats Obstructing connected vehicle Mobility), a novel framework for crafting and deploying perspective-dependent adversarial examples using \\textit{anamorphic art}. PHANTOM exploits geometric distortions that appear natural to humans but are misclassified with high confidence by state-of-the-art object detectors. Unlike conventional attacks, PHANTOM operates in black-box settings without model access and demonstrates strong transferability across four diverse detector architectures (YOLOv5, SSD, Faster R-CNN, and RetinaNet). Comprehensive evaluation in CARLA across varying speeds, weather conditions, and lighting scenarios shows that PHANTOM achieves over 90\\% attack success rate under optimal conditions and maintains 60-80\\% effectiveness even in degraded environments. The attack activates within 6-10 meters of the target, providing insufficient time for safe maneuvering. Beyond individual vehicle deception, PHANTOM triggers network-wide disruption in CAV systems: SUMO-OMNeT++ co-simulation demonstrates that false emergency messages propagate through V2X links, increasing Peak Age of Information by 68-89\\% and degrading safety-critical communication. These findings expose critical vulnerabilities in both perception and communication layers of CAV ecosystems.",
+      "url": "https://arxiv.org/abs/2512.19711",
+      "published_date": "2025-12-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "phantom",
+        "vehicle",
+        "anamorphic",
+        "communication",
+        "connected",
+        "physical",
+        "adversarial",
+        "anamorphic threats",
+        "art",
+        "attack"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical security vulnerability in connected autonomous vehicles, focusing on physical adversarial attacks. The use of anamorphic art as a method for creating these attacks is a novel and clever approach, particularly its black-box transferability. The comprehensive evaluation in CARLA suggests a rigorous methodology, and the problem's relevance to safety-critical systems makes it highly significant.",
+      "paper_id": "d750d2a40dca184c73d0346c6f871b47"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-24T09:36:43.665197"
 }
