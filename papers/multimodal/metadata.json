@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+      "authors": [
+        "Ahmed M. Hussain, Salahuddin Salahuddin, Panos Papadimitratos"
+      ],
+      "abstract": "arXiv:2512.21110v1 Announce Type: cross \nAbstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to understand context and recognize user intent. This creates exploitable vulnerabilities that malicious users can systematically leverage to circumvent safety mechanisms. We empirically evaluate multiple state-of-the-art LLMs, including ChatGPT, Claude, Gemini, and DeepSeek. Our analysis demonstrates the circumvention of reliable safety mechanisms through emotional framing, progressive revelation, and academic justification techniques. Notably, reasoning-enabled configurations amplified rather than mitigated the effectiveness of exploitation, increasing factual precision while failing to interrogate the underlying intent. The exception was Claude Opus 4.1, which prioritized intent detection over information provision in some use cases. This pattern reveals that current architectural designs create systematic vulnerabilities. These limitations require paradigmatic shifts toward contextual understanding and intent recognition as core safety capabilities rather than post-hoc protective mechanisms.",
+      "url": "https://arxiv.org/abs/2512.21110",
+      "published_date": "2025-12-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "intent",
+        "safety",
+        "mechanisms",
+        "claude",
+        "context",
+        "current",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 their susceptibility to manipulation through intent-obfuscating techniques. The empirical evaluation of multiple state-of-the-art models is strong, and the finding that reasoning capabilities can *increase* exploitability is counterintuitive and important. While the techniques used for circumvention (emotional framing, etc.) aren't entirely novel in the broader adversarial ML space, applying them specifically to LLM safety and demonstrating their effectiveness is valuable.",
+      "paper_id": "2234e492bcafdf22f19d1f485c32c8ff"
+    },
+    {
+      "title": "RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events",
+      "authors": [
+        "Zhenyuan Chen, Chenxi Wang, Ningyu Zhang, Feng Zhang"
+      ],
+      "abstract": "arXiv:2509.01907v5 Announce Type: replace-cross \nAbstract: Remote sensing is critical for disaster monitoring, yet existing datasets lack temporal image pairs and detailed textual annotations. While single-snapshot imagery dominates current resources, it fails to capture dynamic disaster impacts over time. To address this gap, we introduce the Remote Sensing Change Caption (RSCC) dataset, a large-scale benchmark comprising 62,351 pre-/post-disaster image pairs (spanning earthquakes, floods, wildfires, and more) paired with rich, human-like change captions. By bridging the temporal and semantic divide in remote sensing data, RSCC enables robust training and evaluation of vision-language models for disaster-aware bi-temporal understanding. Our results highlight RSCC's ability to facilitate detailed disaster-related analysis, paving the way for more accurate, interpretable, and scalable vision-language applications in remote sensing. Code and dataset are available at https://github.com/Bili-Sakura/RSCC.",
+      "url": "https://arxiv.org/abs/2509.01907",
+      "published_date": "2025-12-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "disaster",
+        "remote",
+        "remote sensing",
+        "rscc",
+        "sensing",
+        "change",
+        "dataset",
+        "temporal",
+        "caption",
+        "change caption"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in remote sensing datasets by providing temporally paired images *with* detailed captions, which is essential for training robust vision-language models for disaster response. The scale of the dataset (62,351 pairs) is impressive and suggests a significant effort in data collection and annotation. While the core idea of combining bi-temporal data with captions isn't entirely novel, the large scale and disaster-specific focus are strong points. The availability of code and the dataset itself further strengthens its potential impact.",
+      "paper_id": "3ae0923b7f21726275c18535b9a6a898"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-25T09:32:16.337165"
 }

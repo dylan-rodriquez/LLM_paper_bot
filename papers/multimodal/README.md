@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Beyond Context: Large Language Models Failure to Grasp Users Intent
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Ahmed M. Hussain, Salahuddin Salahuddin, Panos Papadimitratos
+
+arXiv:2512.21110v1 Announce Type: cross 
+Abstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21110) | [📝 Analysis](2234e492bcafdf22f19d1f485c32c8ff.md)
+
+---
+
+### RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Zhenyuan Chen, Chenxi Wang, Ningyu Zhang, Feng Zhang
+
+arXiv:2509.01907v5 Announce Type: replace-cross 
+Abstract: Remote sensing is critical for disaster monitoring, yet existing datasets lack temporal image pairs and detailed textual annotations. While s...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.01907) | [📝 Analysis](3ae0923b7f21726275c18535b9a6a898.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-25 09:32:16 UTC*

@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Scaling Reinforcement Learning for Content Moderation with Large Language Models",
+      "authors": [
+        "Hamed Firooz, Rui Liu, Yuchen Lu, Zhenyu Hou, Fangzhou Xiong, Xiaoyang Zhang, Changshu Jian, Zhicheng Zhu, Jiayuan Ma, Jacob Tao, Chaitali Gupta, Xiaochang Peng, Shike Mei, Hang Cui, Yang Qin, Shuo Tang, Jason Gaedtke, Arpit Mittal"
+      ],
+      "abstract": "arXiv:2512.20061v1 Announce Type: new \nAbstract: Content moderation at scale remains one of the most pressing challenges in today's digital ecosystem, where billions of user- and AI-generated artifacts must be continuously evaluated for policy violations. Although recent advances in large language models (LLMs) have demonstrated strong potential for policy-grounded moderation, the practical challenges of training these systems to achieve expert-level accuracy in real-world settings remain largely unexplored, particularly in regimes characterized by label sparsity, evolving policy definitions, and the need for nuanced reasoning beyond shallow pattern matching. In this work, we present a comprehensive empirical investigation of scaling reinforcement learning (RL) for content classification, systematically evaluating multiple RL training recipes and reward-shaping strategies-including verifiable rewards and LLM-as-judge frameworks-to transform general-purpose language models into specialized, policy-aligned classifiers across three real-world content moderation tasks. Our findings provide actionable insights for industrial-scale moderation systems, demonstrating that RL exhibits sigmoid-like scaling behavior in which performance improves smoothly with increased training data, rollouts, and optimization steps before gradually saturating. Moreover, we show that RL substantially improves performance on tasks requiring complex policy-grounded reasoning while achieving up to 100x higher data efficiency than supervised fine-tuning, making it particularly effective in domains where expert annotations are scarce or costly.",
+      "url": "https://arxiv.org/abs/2512.20061",
+      "published_date": "2025-12-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "moderation",
+        "policy",
+        "content",
+        "rl",
+        "content moderation",
+        "language",
+        "language models",
+        "models",
+        "scaling",
+        "training"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly significant problem \u2013 scaling content moderation \u2013 and the use of RL with LLMs is a promising approach. The systematic evaluation of different RL recipes and reward strategies suggests a rigorous methodology. While the abstract doesn't detail groundbreaking novel techniques, the empirical investigation itself is valuable, and the focus on real-world challenges like label sparsity and evolving policies is commendable. The potential for practical application is high, given the widespread need for effective content moderation.",
+      "paper_id": "6814439d60fe5fc3e386e4160b4c6e19"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-25T09:32:16.338460"
 }

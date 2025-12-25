@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Zhan Qu, Michael F\"arber
+
+arXiv:2512.20822v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly applied to medicine, yet their adoption is limited by concerns over reliability and safety. Existing eval...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20822) | [📝 Analysis](217d4a6ef270ba212f9ee489ca88d52a.md)
+
+---
+
+### Automated Red-Teaming Framework for Large Language Model Security Assessment: A Comprehensive Attack Generation and Detection System
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Zhang Wei, Peilu Hu, Shengning Lang, Hao Yan, Li Mei, Yichao Zhang, Chen Yang, Junfeng Hao, Zhimo Han
+
+arXiv:2512.20677v1 Announce Type: cross 
+Abstract: As large language models (LLMs) are increasingly deployed in high-stakes domains, ensuring their security and alignment has become a critical challen...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20677) | [📝 Analysis](713a6266c9bb305efcac19117b81ac13.md)
+
+---
+
+### Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Yiming Du, Wenyu Huang, Danna Zheng, Zhaowei Wang, Sebastien Montella, Mirella Lapata, Kam-Fai Wong, Jeff Z. Pan
+
+arXiv:2505.00675v3 Announce Type: replace 
+Abstract: Memory is fundamental to large language model (LLM)-based agents, but existing surveys emphasize application-level use (e.g., personalized dialogue...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.00675) | [📝 Analysis](45448b3ce2594021019d2684a29c08c2.md)
+
+---
+
+### A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice
+
+**Score:** 92.0 | **Published:** 2025-12-25 | **Authors:** Yaowei Bai, Ruiheng Zhang, Yu Lei, Xuhua Duan, Jingfeng Yao, Shuguang Ju, Chaoyang Wang, Wei Yao, Yiwan Guo, Guilin Zhang, Chao Wan, Qian Yuan, Lei Chen, Wenjuan Tang, Biqiang Zhu, Xinggang Wang, Tao Sun, Wei Zhou, Dacheng Tao, Yongchao Xu, Chuansheng Zheng, Huangxuan Zhao, Bo Du
+
+arXiv:2512.20344v1 Announce Type: new 
+Abstract: A global shortage of radiologists has been exacerbated by the significant volume of chest X-ray workloads, particularly in primary care. Although multi...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20344) | [📝 Analysis](5f61b14a4b8bb52cbf4ef40a4aa556b9.md)
+
+---
+
+### Measuring all the noises of LLM Evals
+
+**Score:** 90.0 | **Published:** 2025-12-25 | **Authors:** Sida Wang
+
+arXiv:2512.21326v1 Announce Type: cross 
+Abstract: Separating signal from noise is central to experimental science. Applying well-established statistical method effectively to LLM evals requires consi...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21326) | [📝 Analysis](4c95067be8cba59db0c5d160633e3b10.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-25 09:32:16 UTC*
