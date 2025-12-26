@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data",
+      "authors": [
+        "Aayam Bansal, Ishaan Gangwani"
+      ],
+      "abstract": "arXiv:2512.20630v1 Announce Type: new \nAbstract: Foundation model reliability assessment typically requires thousands of evaluation examples, making it computationally expensive and time-consuming for real-world deployment. We introduce microprobe, a novel approach that achieves comprehensive reliability assessment using only 100 strategically selected probe examples. Our method combines strategic prompt diversity across five key reliability dimensions with advanced uncertainty quantification and adaptive weighting to efficiently detect potential failure modes. Through extensive empirical evaluation on multiple language models (GPT-2 variants, GPT-2 Medium, GPT-2 Large) and cross-domain validation (healthcare, finance, legal), we demonstrate that microprobe achieves 23.5% higher composite reliability scores compared to random sampling baselines, with exceptional statistical significance (p < 0.001, Cohen's d = 1.21). Expert validation by three AI safety researchers confirms the effectiveness of our strategic selection, rating our approach 4.14/5.0 versus 3.14/5.0 for random selection. microprobe completes reliability assessment with 99.9% statistical power while representing a 90% reduction in assessment cost and maintaining 95% of traditional method coverage. Our approach addresses a critical gap in efficient model evaluation for responsible AI deployment.",
+      "url": "https://arxiv.org/abs/2512.20630",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reliability",
+        "assessment",
+        "microprobe",
+        "reliability assessment",
+        "approach",
+        "evaluation",
+        "gpt",
+        "14",
+        "achieves",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in foundation model deployment \u2013 the high cost of reliability assessment. The reported 23.5% improvement over random sampling with strong statistical significance is compelling. The combination of strategic prompt diversity, uncertainty quantification, and adaptive weighting appears to be a well-reasoned and effective approach, and the cross-domain validation strengthens the findings.",
+      "paper_id": "35d6927405ace5743b89528a9e259501"
+    },
+    {
+      "title": "A Real-World Evaluation of LLM Medication Safety Reviews in NHS Primary Care",
+      "authors": [
+        "Oliver Normand, Esther Borsi, Mitch Fruin, Lauren E Walker, Jamie Heagerty, Chris C. Holmes, Anthony J Avery, Iain E Buchan, Harry Coppock"
+      ],
+      "abstract": "arXiv:2512.21127v1 Announce Type: new \nAbstract: Large language models (LLMs) often match or exceed clinician-level performance on medical benchmarks, yet very few are evaluated on real clinical data or examined beyond headline metrics. We present, to our knowledge, the first evaluation of an LLM-based medication safety review system on real NHS primary care data, with detailed characterisation of key failure behaviours across varying levels of clinical complexity. In a retrospective study using a population-scale EHR spanning 2,125,549 adults in NHS Cheshire and Merseyside, we strategically sampled patients to capture a broad range of clinical complexity and medication safety risk, yielding 277 patients after data-quality exclusions. An expert clinician reviewed these patients and graded system-identified issues and proposed interventions. Our primary LLM system showed strong performance in recognising when a clinical issue is present (sensitivity 100\\% [95\\% CI 98.2--100], specificity 83.1\\% [95\\% CI 72.7--90.1]), yet correctly identified all issues and interventions in only 46.9\\% [95\\% CI 41.1--52.8] of patients. Failure analysis reveals that, in this setting, the dominant failure mechanism is contextual reasoning rather than missing medication knowledge, with five primary patterns: overconfidence in uncertainty, applying standard guidelines without adjusting for patient context, misunderstanding how healthcare is delivered in practice, factual errors, and process blindness. These patterns persisted across patient complexity and demographic strata, and across a range of state-of-the-art models and configurations. We provide 45 detailed vignettes that comprehensively cover all identified failure cases. This work highlights shortcomings that must be addressed before LLM-based clinical AI can be safely deployed. It also begs larger-scale, prospective evaluations and deeper study of LLM behaviours in clinical contexts.",
+      "url": "https://arxiv.org/abs/2512.21127",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "llm",
+        "failure",
+        "medication",
+        "patients",
+        "primary",
+        "95",
+        "95 ci",
+        "ci",
+        "complexity"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem \u2013 the real-world application and safety of LLMs in healthcare. The use of a large, real-world NHS dataset and clinician review provides strong evidence and rigor. While LLMs performing well on benchmarks is known, this work's focus on failure modes and clinical complexity is a valuable contribution, suggesting a high likelihood of positive reception within the medical AI community.",
+      "paper_id": "e2b3fec546039f1b7eb5c40f9d184b53"
+    },
+    {
+      "title": "TS-Arena Technical Report -- A Pre-registered Live Forecasting Platform",
+      "authors": [
+        "Marcel Meyer, Sascha Kaltenpoth, Kevin Zalipski, Henrik Albers, Oliver M\\\"uller"
+      ],
+      "abstract": "arXiv:2512.20761v1 Announce Type: cross \nAbstract: While Time Series Foundation Models (TSFMs) offer transformative capabilities for forecasting, they simultaneously risk triggering a fundamental evaluation crisis. This crisis is driven by information leakage due to overlapping training and test sets across different models, as well as the illegitimate transfer of global patterns to test data. While the ability to learn shared temporal dynamics represents a primary strength of these models, their evaluation on historical archives often permits the exploitation of observed global shocks, which violates the independence required for valid benchmarking. We introduce TS-Arena, a platform that restores the operational integrity of forecasting by treating the genuinely unknown future as the definitive test environment. By implementing a pre-registration mechanism on live data streams, the platform ensures that evaluation targets remain physically non-existent during inference, thereby enforcing a strict global temporal split. This methodology establishes a moving temporal frontier that prevents historical contamination and provides an authentic assessment of model generalization. Initially applied within the energy sector, TS-Arena provides a sustainable infrastructure for comparing foundation models under real-world constraints. A prototype of the platform is available at https://huggingface.co/spaces/DAG-UPB/TS-Arena.",
+      "url": "https://arxiv.org/abs/2512.20761",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "arena",
+        "models",
+        "platform",
+        "ts",
+        "ts arena",
+        "evaluation",
+        "forecasting",
+        "global",
+        "temporal",
+        "test"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of Time Series Foundation Models \u2013 the potential for evaluation crises due to data leakage and exploitation of global patterns. The introduction of TS-Arena, a live forecasting platform with pre-registration, is a strong methodological contribution. The clarity of the problem statement and proposed solution suggests a high likelihood of positive reception within the community, and the platform has the potential to become a standard for rigorous TSFM evaluation.",
+      "paper_id": "fafbb451759323d7fa627e18ad4b0ef1"
+    },
+    {
+      "title": "MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs",
+      "authors": [
+        "Zhan Qu, Michael F\\\"arber"
+      ],
+      "abstract": "arXiv:2512.20822v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) are increasingly applied to medicine, yet their adoption is limited by concerns over reliability and safety. Existing evaluations either test factual medical knowledge in isolation or assess patient-level reasoning without verifying correctness, leaving a critical gap. We introduce MediEval, a benchmark that links MIMIC-IV electronic health records (EHRs) to a unified knowledge base built from UMLS and other biomedical vocabularies. MediEval generates diverse factual and counterfactual medical statements within real patient contexts, enabling systematic evaluation across a 4-quadrant framework that jointly considers knowledge grounding and contextual consistency. Using this framework, we identify critical failure modes, including hallucinated support and truth inversion, that current proprietary, open-source, and domain-specific LLMs frequently exhibit. To address these risks, we propose Counterfactual Risk-Aware Fine-tuning (CoRFu), a DPO-based method with an asymmetric penalty targeting unsafe confusions. CoRFu improves by +16.4 macro-F1 points over the base model and eliminates truth inversion errors, demonstrating both higher accuracy and substantially greater safety.",
+      "url": "https://arxiv.org/abs/2512.20822",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "knowledge",
+        "llms",
+        "medical",
+        "medieval",
+        "patient",
+        "base",
+        "benchmark",
+        "contextual",
+        "corfu",
+        "counterfactual"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation for the medical domain \u2013 the need for both knowledge grounding *and* patient-contextual reasoning. The creation of MediEval, linking EHR data to a unified knowledge base, is a strong methodological contribution. The identification of failure modes like hallucination and truth inversion is particularly valuable, and the proposed 'Counterfactual Risk' suggests a path towards safer LLM deployment in healthcare. The work is well-motivated and clearly presented.",
+      "paper_id": "217d4a6ef270ba212f9ee489ca88d52a"
+    },
+    {
+      "title": "AutoBaxBuilder: Bootstrapping Code Security Benchmarking",
+      "authors": [
+        "Tobias von Arx, Niels M\\\"undler, Mark Vero, Maximilian Baader, Martin Vechev"
+      ],
+      "abstract": "arXiv:2512.21132v1 Announce Type: cross \nAbstract: As LLMs see wide adoption in software engineering, the reliable assessment of the correctness and security of LLM-generated code is crucial. Notably, prior work has demonstrated that security is often overlooked, exposing that LLMs are prone to generating code with security vulnerabilities. These insights were enabled by specialized benchmarks, crafted through significant manual effort by security experts. However, relying on manually-crafted benchmarks is insufficient in the long term, because benchmarks (i) naturally end up contaminating training data, (ii) must extend to new tasks to provide a more complete picture, and (iii) must increase in difficulty to challenge more capable LLMs. In this work, we address these challenges and present AutoBaxBuilder, a framework that generates tasks and tests for code security benchmarking from scratch. We introduce a robust pipeline with fine-grained plausibility checks, leveraging the code understanding capabilities of LLMs to construct functionality tests and end-to-end security-probing exploits. To confirm the quality of the generated benchmark, we conduct both a qualitative analysis and perform quantitative experiments, comparing it against tasks constructed by human experts. We use AutoBaxBuilder to construct entirely new tasks and release them to the public as AutoBaxBench, together with a thorough evaluation of the security capabilities of LLMs on these tasks. We find that a new task can be generated in under 2 hours, costing less than USD 10.",
+      "url": "https://arxiv.org/abs/2512.21132",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "security",
+        "code",
+        "llms",
+        "tasks",
+        "autobaxbuilder",
+        "benchmarks",
+        "code security",
+        "end",
+        "generated",
+        "new"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of LLMs \u2013 the reliable assessment of code security. The proposed AutoBaxBuilder framework tackles the limitations of manually-crafted benchmarks by automating task and test generation, which is crucial for scaling security evaluations. The mention of 'fine-grained plausibility checks' suggests a rigorous approach, and the problem is highly relevant given the increasing use of LLMs in software development.",
+      "paper_id": "c6e4119f551bbb4bd6d1118b06699cd5"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-26T09:33:18.466203"
 }

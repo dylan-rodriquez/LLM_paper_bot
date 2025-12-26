@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Beyond Context: Large Language Models Failure to Grasp Users Intent
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Ahmed M. Hussain, Salahuddin Salahuddin, Panos Papadimitratos
+
+arXiv:2512.21110v1 Announce Type: new 
+Abstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21110) | [📝 Analysis](2234e492bcafdf22f19d1f485c32c8ff.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-26 09:33:18 UTC*

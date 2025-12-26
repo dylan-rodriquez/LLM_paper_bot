@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+      "authors": [
+        "Ahmed M. Hussain, Salahuddin Salahuddin, Panos Papadimitratos"
+      ],
+      "abstract": "arXiv:2512.21110v1 Announce Type: new \nAbstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to understand context and recognize user intent. This creates exploitable vulnerabilities that malicious users can systematically leverage to circumvent safety mechanisms. We empirically evaluate multiple state-of-the-art LLMs, including ChatGPT, Claude, Gemini, and DeepSeek. Our analysis demonstrates the circumvention of reliable safety mechanisms through emotional framing, progressive revelation, and academic justification techniques. Notably, reasoning-enabled configurations amplified rather than mitigated the effectiveness of exploitation, increasing factual precision while failing to interrogate the underlying intent. The exception was Claude Opus 4.1, which prioritized intent detection over information provision in some use cases. This pattern reveals that current architectural designs create systematic vulnerabilities. These limitations require paradigmatic shifts toward contextual understanding and intent recognition as core safety capabilities rather than post-hoc protective mechanisms.",
+      "url": "https://arxiv.org/abs/2512.21110",
+      "published_date": "2025-12-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "intent",
+        "safety",
+        "mechanisms",
+        "claude",
+        "context",
+        "current",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 their susceptibility to manipulation through intent obfuscation, despite advancements in safety mechanisms. The empirical evaluation of multiple state-of-the-art models provides valuable insights, and the finding that reasoning capabilities can *increase* exploitability is particularly noteworthy. While the techniques used (emotional framing, progressive revelation) aren't entirely novel in adversarial attacks, applying them specifically to intent circumvention in LLMs is a strong contribution. The exception of Claude Opus 4.1 suggests a potential path forward for more robust safety designs.",
+      "paper_id": "2234e492bcafdf22f19d1f485c32c8ff"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-26T09:33:18.470752"
 }

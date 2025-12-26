@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Miles Q. Li, Benjamin C. M. Fung, Martin Weiss, Pulei Xiong, Khalil Al-Hussaeni, Claude Fachkha
+
+arXiv:2512.20798v1 Announce Type: new 
+Abstract: As autonomous AI agents are increasingly deployed in high-stakes environments, ensuring their safety and alignment with human values has become a param...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20798) | [📝 Analysis](663601d5c9c24015e9bcab6f541b5a31.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-26 09:33:18 UTC*

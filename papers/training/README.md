@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Mechanism-Based Intelligence (MBI): Differentiable Incentives for Rational Coordination and Guaranteed Alignment in Multi-Agent Systems
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Stefano Grassi
+
+arXiv:2512.20688v1 Announce Type: cross 
+Abstract: Autonomous multi-agent systems are fundamentally fragile: they struggle to solve the Hayekian Information problem (eliciting dispersed private knowle...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20688) | [📝 Analysis](8e03fc04a4b8a77024f1f944b8fd2434.md)
+
+---
+
+### Safety Alignment of LMs via Non-cooperative Games
+
+**Score:** 90.0 | **Published:** 2025-12-26 | **Authors:** Anselm Paulus, Ilia Kulikov, Brandon Amos, R\'emi Munos, Ivan Evtimov, Kamalika Chaudhuri, Arman Zharmagambetov
+
+arXiv:2512.20806v1 Announce Type: new 
+Abstract: Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely o...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20806) | [📝 Analysis](6f7df2a5bfd5a2bd7d13db5a45111ddb.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-26 09:33:18 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Aayam Bansal, Ishaan Gangwani
+
+arXiv:2512.20630v1 Announce Type: new 
+Abstract: Foundation model reliability assessment typically requires thousands of evaluation examples, making it computationally expensive and time-consuming for...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20630) | [📝 Analysis](35d6927405ace5743b89528a9e259501.md)
+
+---
+
+### A Real-World Evaluation of LLM Medication Safety Reviews in NHS Primary Care
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Oliver Normand, Esther Borsi, Mitch Fruin, Lauren E Walker, Jamie Heagerty, Chris C. Holmes, Anthony J Avery, Iain E Buchan, Harry Coppock
+
+arXiv:2512.21127v1 Announce Type: new 
+Abstract: Large language models (LLMs) often match or exceed clinician-level performance on medical benchmarks, yet very few are evaluated on real clinical data ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21127) | [📝 Analysis](e2b3fec546039f1b7eb5c40f9d184b53.md)
+
+---
+
+### TS-Arena Technical Report -- A Pre-registered Live Forecasting Platform
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Marcel Meyer, Sascha Kaltenpoth, Kevin Zalipski, Henrik Albers, Oliver M\"uller
+
+arXiv:2512.20761v1 Announce Type: cross 
+Abstract: While Time Series Foundation Models (TSFMs) offer transformative capabilities for forecasting, they simultaneously risk triggering a fundamental eval...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20761) | [📝 Analysis](fafbb451759323d7fa627e18ad4b0ef1.md)
+
+---
+
+### MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs
+
+**Score:** 92.0 | **Published:** 2025-12-26 | **Authors:** Zhan Qu, Michael F\"arber
+
+arXiv:2512.20822v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) are increasingly applied to medicine, yet their adoption is limited by concerns over reliability and safety. Existing ev...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.20822) | [📝 Analysis](217d4a6ef270ba212f9ee489ca88d52a.md)
+
+---
+
+### AutoBaxBuilder: Bootstrapping Code Security Benchmarking
+
+**Score:** 90.0 | **Published:** 2025-12-26 | **Authors:** Tobias von Arx, Niels M\"undler, Mark Vero, Maximilian Baader, Martin Vechev
+
+arXiv:2512.21132v1 Announce Type: cross 
+Abstract: As LLMs see wide adoption in software engineering, the reliable assessment of the correctness and security of LLM-generated code is crucial. Notably,...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21132) | [📝 Analysis](c6e4119f551bbb4bd6d1118b06699cd5.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-26 09:33:18 UTC*
