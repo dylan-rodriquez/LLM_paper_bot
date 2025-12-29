@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Democratizing Drug Discovery with an Orchestrated, Knowledge-Driven Multi-Agent Team for User-Guided Therapeutic Design
+
+**Score:** 92.0 | **Published:** 2025-12-29 | **Authors:** Takahide Suzuki, Kazuki Nakanishi, Takashi Fujiwara, Hideyuki Shimizu
+
+arXiv:2512.21623v1 Announce Type: new 
+Abstract: Therapeutic discovery remains a formidable challenge, impeded by the fragmentation of specialized domains and the execution gap between computational d...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21623) | [📝 Analysis](c2175f481202f1a26cd6247127928152.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-29 09:48:31 UTC*

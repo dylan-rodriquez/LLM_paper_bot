@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Toward Secure and Compliant AI: Organizational Standards and Protocols for NLP Model Lifecycle Management",
+      "authors": [
+        "Sunil Arora, John Hastings"
+      ],
+      "abstract": "arXiv:2512.22060v1 Announce Type: cross \nAbstract: Natural Language Processing (NLP) systems are increasingly used in sensitive domains such as healthcare, finance, and government, where they handle large volumes of personal and regulated data. However, these systems introduce distinct risks related to security, privacy, and regulatory compliance that are not fully addressed by existing AI governance frameworks. This paper introduces the Secure and Compliant NLP Lifecycle Management Framework (SC-NLP-LMF), a comprehensive six-phase model designed to ensure the secure operation of NLP systems from development to retirement. The framework, developed through a systematic PRISMA-based review of 45 peer-reviewed and regulatory sources, aligns with leading standards, including NIST AI RMF, ISO/IEC 42001:2023, the EU AI Act, and MITRE ATLAS. It integrates established methods for bias detection, privacy protection (differential privacy, federated learning), secure deployment, explainability, and secure model decommissioning. A healthcare case study illustrates how SC-NLP-LMF detects emerging terminology drift (e.g., COVID-related language) and guides compliant model updates. The framework offers organizations a practical, lifecycle-wide structure for developing, deploying, and maintaining secure and accountable NLP systems in high-risk environments.",
+      "url": "https://arxiv.org/abs/2512.22060",
+      "published_date": "2025-12-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "nlp",
+        "secure",
+        "ai",
+        "model",
+        "systems",
+        "compliant",
+        "framework",
+        "lifecycle",
+        "nlp systems",
+        "privacy"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the secure and compliant lifecycle management of NLP models, particularly given their increasing use in regulated industries. The systematic review approach (PRISMA) and alignment with established standards (NIST, ISO, EU AI Act, MITRE ATLAS) suggest a rigorous methodology. While the framework itself appears to integrate existing methods rather than presenting entirely novel techniques, its comprehensive nature and focus on practical implementation are valuable. The potential for real-world impact is high, and the topic aligns well with current AI governance trends.",
+      "paper_id": "e2bf5a1cdb61ccb1fa20ff9202468aac"
+    },
+    {
+      "title": "Enhancing TCR-Peptide Interaction Prediction with Pretrained Language Models and Molecular Representations",
+      "authors": [
+        "Cong Qi, Hanzhang Fang, Siqi jiang, Tianxing Hu, Zhi Wei"
+      ],
+      "abstract": "arXiv:2505.01433v2 Announce Type: replace-cross \nAbstract: Understanding the binding specificity between T-cell receptors (TCRs) and peptide-major histocompatibility complexes (pMHCs) is central to immunotherapy and vaccine development. However, current predictive models struggle with generalization, especially in data-scarce settings and when faced with novel epitopes. We present LANTERN (Large lAnguage model-powered TCR-Enhanced Recognition Network), a deep learning framework that combines large-scale protein language models with chemical representations of peptides. By encoding TCR \\b{eta}-chain sequences using ESM-1b and transforming peptide sequences into SMILES strings processed by MolFormer, LANTERN captures rich biological and chemical features critical for TCR-peptide recognition. Through extensive benchmarking against existing models such as ChemBERTa, TITAN, and NetTCR, LANTERN demonstrates superior performance, particularly in zero-shot and few-shot learning scenarios. Our model also benefits from a robust negative sampling strategy and shows significant clustering improvements via embedding analysis. These results highlight the potential of LANTERN to advance TCR-pMHC binding prediction and support the development of personalized immunotherapies.",
+      "url": "https://arxiv.org/abs/2505.01433",
+      "published_date": "2025-12-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "tcr",
+        "lantern",
+        "models",
+        "peptide",
+        "language",
+        "binding",
+        "chemical",
+        "development",
+        "language models",
+        "large"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a crucial problem in immunotherapy \u2013 predicting TCR-peptide interactions \u2013 and proposes a novel framework (LANTERN) leveraging the power of large language models and molecular representations. The reported superior performance, especially in low-data scenarios, suggests a robust methodology. The combination of ESM-1b and MolFormer is a clever approach, and benchmarking against established models strengthens the validity of the findings. The focus on zero-shot and few-shot learning is particularly valuable.",
+      "paper_id": "16b0c5fcf3670993891d94a686b111f7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2025-12-29T09:48:31.690112"
 }

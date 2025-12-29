@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
+
+**Score:** 92.0 | **Published:** 2025-12-29 | **Authors:** Naen Xu, Jinghuai Zhang, Changjiang Li, Hengyu An, Chunyi Zhou, Jun Wang, Boyu Xu, Yuyuan Li, Tianyu Du, Shouling Ji
+
+arXiv:2512.21871v1 Announce Type: new 
+Abstract: Large vision-language models (LVLMs) have achieved remarkable advancements in multimodal reasoning tasks. However, their widespread accessibility raise...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.21871) | [📝 Analysis](72838d38e0b4791cf94d2800422c7cdb.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-29 09:48:31 UTC*
