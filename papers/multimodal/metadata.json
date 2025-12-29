@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?",
+      "authors": [
+        "Naen Xu, Jinghuai Zhang, Changjiang Li, Hengyu An, Chunyi Zhou, Jun Wang, Boyu Xu, Yuyuan Li, Tianyu Du, Shouling Ji"
+      ],
+      "abstract": "arXiv:2512.21871v1 Announce Type: new \nAbstract: Large vision-language models (LVLMs) have achieved remarkable advancements in multimodal reasoning tasks. However, their widespread accessibility raises critical concerns about potential copyright infringement. Will LVLMs accurately recognize and comply with copyright regulations when encountering copyrighted content (i.e., user input, retrieved documents) in the context? Failure to comply with copyright regulations may lead to serious legal and ethical consequences, particularly when LVLMs generate responses based on copyrighted materials (e.g., retrieved book experts, news reports). In this paper, we present a comprehensive evaluation of various LVLMs, examining how they handle copyrighted content -- such as book excerpts, news articles, music lyrics, and code documentation when they are presented as visual inputs. To systematically measure copyright compliance, we introduce a large-scale benchmark dataset comprising 50,000 multimodal query-content pairs designed to evaluate how effectively LVLMs handle queries that could lead to copyright infringement. Given that real-world copyrighted content may or may not include a copyright notice, the dataset includes query-content pairs in two distinct scenarios: with and without a copyright notice. For the former, we extensively cover four types of copyright notices to account for different cases. Our evaluation reveals that even state-of-the-art closed-source LVLMs exhibit significant deficiencies in recognizing and respecting the copyrighted content, even when presented with the copyright notice. To solve this limitation, we introduce a novel tool-augmented defense framework for copyright compliance, which reduces infringement risks in all scenarios. Our findings underscore the importance of developing copyright-aware LVLMs to ensure the responsible and lawful use of copyrighted content.",
+      "url": "https://arxiv.org/abs/2512.21871",
+      "published_date": "2025-12-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "copyright",
+        "content",
+        "copyrighted",
+        "lvlms",
+        "copyrighted content",
+        "copyright notice",
+        "infringement",
+        "large",
+        "notice",
+        "book"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research tackles a highly relevant and pressing issue \u2013 the copyright implications of large vision-language models. The introduction of a large-scale benchmark dataset is a strong methodological contribution, and the systematic evaluation across various copyrighted content types is commendable. While the core idea isn't entirely novel (concerns about copyright and LLMs are known), the focused multimodal approach and dataset creation elevate the work. The potential for legal and ethical ramifications makes this a significant contribution.",
+      "paper_id": "72838d38e0b4791cf94d2800422c7cdb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-29T09:48:31.688453"
 }

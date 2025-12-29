@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data
+
+**Score:** 92.0 | **Published:** 2025-12-29 | **Authors:** Shashi Kant Gupta, Arijeet Pramanik, Jerrin John Thomas, Regina Schwind, Lauren Wiener, Avi Raju, Jeremy Kornbluth, Yanshan Wang, Zhaohui Su, Hrituraj Singh
+
+arXiv:2512.19864v2 Announce Type: replace 
+Abstract: Unstructured notes within the electronic health record (EHR) contain rich clinical information vital for cancer treatment decision making and resea...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.19864) | [📝 Analysis](8483a40892c427950459b3d526c8c292.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-29 09:48:31 UTC*

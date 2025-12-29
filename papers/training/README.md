@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Toward Secure and Compliant AI: Organizational Standards and Protocols for NLP Model Lifecycle Management
+
+**Score:** 92.0 | **Published:** 2025-12-29 | **Authors:** Sunil Arora, John Hastings
+
+arXiv:2512.22060v1 Announce Type: cross 
+Abstract: Natural Language Processing (NLP) systems are increasingly used in sensitive domains such as healthcare, finance, and government, where they handle l...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22060) | [📝 Analysis](e2bf5a1cdb61ccb1fa20ff9202468aac.md)
+
+---
+
+### Enhancing TCR-Peptide Interaction Prediction with Pretrained Language Models and Molecular Representations
+
+**Score:** 90.0 | **Published:** 2025-12-29 | **Authors:** Cong Qi, Hanzhang Fang, Siqi jiang, Tianxing Hu, Zhi Wei
+
+arXiv:2505.01433v2 Announce Type: replace-cross 
+Abstract: Understanding the binding specificity between T-cell receptors (TCRs) and peptide-major histocompatibility complexes (pMHCs) is central to im...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.01433) | [📝 Analysis](16b0c5fcf3670993891d94a686b111f7.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-29 09:48:31 UTC*

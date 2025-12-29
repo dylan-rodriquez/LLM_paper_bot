@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Democratizing Drug Discovery with an Orchestrated, Knowledge-Driven Multi-Agent Team for User-Guided Therapeutic Design",
+      "authors": [
+        "Takahide Suzuki, Kazuki Nakanishi, Takashi Fujiwara, Hideyuki Shimizu"
+      ],
+      "abstract": "arXiv:2512.21623v1 Announce Type: new \nAbstract: Therapeutic discovery remains a formidable challenge, impeded by the fragmentation of specialized domains and the execution gap between computational design and physiological validation. Although generative AI offers promise, current models often function as passive assistants rather than as autonomous executors. Here, we introduce OrchestRA, a human-in-the-loop multi-agent platform that unifies biology, chemistry, and pharmacology into an autonomous discovery engine. Unlike static code generators, our agents actively execute simulations and reason the results to drive iterative optimization. Governed by an Orchestrator, a Biologist Agent leverages deep reasoning over a massive knowledge graph (>10 million associations) to pinpoint high-confidence targets; a Chemist Agent autonomously detects structural pockets for de novo design or drug repositioning; and a Pharmacologist Agent evaluates candidates via rigorous physiologically based pharmacokinetic (PBPK) simulations. This architecture establishes a dynamic feedback loop where pharmacokinetic and toxicity profiles directly trigger structural reoptimization. By seamlessly integrating autonomous execution with human guidance, OrchestRA democratizes therapeutic design, transforming drug discovery from a stochastic search to a programmable evidence-based engineering discipline.",
+      "url": "https://arxiv.org/abs/2512.21623",
+      "published_date": "2025-12-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "agent",
+        "design",
+        "discovery",
+        "autonomous",
+        "drug",
+        "therapeutic",
+        "based",
+        "drug discovery",
+        "execution",
+        "human"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial bottleneck in drug discovery \u2013 bridging the gap between computational prediction and real-world validation. The multi-agent approach, particularly the integration of a knowledge graph and physiologically-based pharmacology, appears well-reasoned and potentially powerful. While the abstract doesn't detail implementation specifics, the concept of an 'orchestrated' system with active reasoning is a significant step beyond passive generative AI.",
+      "paper_id": "c2175f481202f1a26cd6247127928152"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2025-12-29T09:48:31.694494"
 }

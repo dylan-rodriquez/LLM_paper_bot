@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal
+
+**Score:** 90.0 | **Published:** 2025-12-29 | **Authors:** Markus Oehri, Giulia Conti, Kaviraj Pather, Alexandre Rossi, Laia Serra, Adrian Parody, Rogvi Johannesen, Aviaja Petersen, Arben Krasniqi
+
+arXiv:2509.01455v2 Announce Type: replace 
+Abstract: Deployed language models must decide not only what to answer but also when not to answer. We present UniCR, a unified framework that turns heteroge...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.01455) | [📝 Analysis](101585f70b2959ba81bc5460a3f8b257.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-29 09:48:31 UTC*
