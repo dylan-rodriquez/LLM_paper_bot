@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Learning from Negative Examples: Why Warning-Framed Training Data Teaches What It Warns Against
+
+**Score:** 90.0 | **Published:** 2025-12-30 | **Authors:** Tsogt-Ochir Enkhbayar
+
+arXiv:2512.22293v1 Announce Type: cross 
+Abstract: Warning-framed content in training data (e.g., "DO NOT USE - this code is vulnerable") does not, it turns out, teach language models to avoid the war...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22293) | [📝 Analysis](8f0e5eaff1ad46deb183c9a9bb7c5f91.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-30 09:41:24 UTC*
