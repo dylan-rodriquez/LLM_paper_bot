@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing
+
+**Score:** 92.0 | **Published:** 2025-12-30 | **Authors:** Yuwen Li, Wei Zhang, Zelong Huang, Mason Yang, Jiajun Wu, Shawn Guo, Huahao Hu, Lingyi Sun, Jian Yang, Mingjie Tang, Byran Dai
+
+arXiv:2512.23611v1 Announce Type: new 
+Abstract: Enabling Large Language Models (LLMs) to reliably invoke external tools remains a critical bottleneck for autonomous agents. Existing approaches suffer...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.23611) | [📝 Analysis](fd5ccf01042540dd91965dd30bd644a1.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-30 09:41:24 UTC*

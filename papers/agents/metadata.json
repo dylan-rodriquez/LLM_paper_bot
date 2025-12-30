@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+      "authors": [
+        "Yuwen Li, Wei Zhang, Zelong Huang, Mason Yang, Jiajun Wu, Shawn Guo, Huahao Hu, Lingyi Sun, Jian Yang, Mingjie Tang, Byran Dai"
+      ],
+      "abstract": "arXiv:2512.23611v1 Announce Type: new \nAbstract: Enabling Large Language Models (LLMs) to reliably invoke external tools remains a critical bottleneck for autonomous agents. Existing approaches suffer from three fundamental challenges: expensive human annotation for high-quality trajectories, poor generalization to unseen tools, and quality ceilings inherent in single-model synthesis that perpetuate biases and coverage gaps. We introduce InfTool, a fully autonomous framework that breaks these barriers through self-evolving multi-agent synthesis. Given only raw API specifications, InfTool orchestrates three collaborative agents (User Simulator, Tool-Calling Assistant, and MCP Server) to generate diverse, verified trajectories spanning single-turn calls to complex multi-step workflows. The framework establishes a closed loop: synthesized data trains the model via Group Relative Policy Optimization (GRPO) with gated rewards, the improved model generates higher-quality data targeting capability gaps, and this cycle iterates without human intervention. Experiments on the Berkeley Function-Calling Leaderboard (BFCL) demonstrate that InfTool transforms a base 32B model from 19.8% to 70.9% accuracy (+258%), surpassing models 10x larger and rivaling Claude-Opus, and entirely from synthetic data without human annotation.",
+      "url": "https://arxiv.org/abs/2512.23611",
+      "published_date": "2025-12-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "model",
+        "human",
+        "inftool",
+        "multi",
+        "quality",
+        "agent",
+        "agents",
+        "annotation",
+        "autonomous"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a crucial bottleneck in LLM-based agent development \u2013 reliable tool use \u2013 with a novel and promising approach. The multi-agent framework, 'InfTool', addresses key challenges like data scarcity and generalization, and the closed-loop training process with GRPO appears well-reasoned. The focus on synthesizing data from API specifications rather than relying on human annotation is particularly strong, and the described architecture seems robust.",
+      "paper_id": "fd5ccf01042540dd91965dd30bd644a1"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-12-30T09:41:24.886095"
 }

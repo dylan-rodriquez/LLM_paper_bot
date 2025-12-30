@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence
+
+**Score:** 90.0 | **Published:** 2025-12-30 | **Authors:** Yiheng Wang, Yixin Chen, Shuo Li, Yifan Zhou, Bo Liu, Hengjian Gao, Jiakang Yuan, Jia Bu, Wanghan Xu, Yuhao Zhou, Xiangyu Zhao, Zhiwang Zhou, Fengxiang Wang, Haodong Duan, Songyang Zhang, Jun Yao, Han Deng, Yizhou Wang, Jiabei Xiao, Jiaqi Liu, Encheng Su, Yujie Liu, Weida Wang, Junchi Yao, Shenghe Zheng, Haoran Sun, Runmin Ma, Xiangchao Yan, Bo Zhang, Dongzhan Zhou, Shufei Zhang, Peng Ye, Xiaosong Wang, Shixiang Tang, Wenlong Zhang, Lei Bai
+
+arXiv:2512.22334v1 Announce Type: cross 
+Abstract: We introduce SciEvalKit, a unified benchmarking toolkit designed to evaluate AI models for science across a broad range of scientific disciplines and...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22334) | [📝 Analysis](ca5dc521364143116dbe8673ed4cf607.md)
+
+---
+
+### The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-12-30 | **Authors:** Jonathan Katzy, Razvan Mihai Popescu, Arie van Deursen, Maliheh Izadi
+
+arXiv:2501.09653v2 Announce Type: replace 
+Abstract: The recent rise in the popularity of large language models has spurred the development of extensive code datasets needed to train them. This has le...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.09653) | [📝 Analysis](4773f6181c960baeb7dfc5bf1ecb13ca.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-30 09:41:24 UTC*

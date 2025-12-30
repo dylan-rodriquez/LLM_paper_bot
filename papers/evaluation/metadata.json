@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+      "authors": [
+        "Yiheng Wang, Yixin Chen, Shuo Li, Yifan Zhou, Bo Liu, Hengjian Gao, Jiakang Yuan, Jia Bu, Wanghan Xu, Yuhao Zhou, Xiangyu Zhao, Zhiwang Zhou, Fengxiang Wang, Haodong Duan, Songyang Zhang, Jun Yao, Han Deng, Yizhou Wang, Jiabei Xiao, Jiaqi Liu, Encheng Su, Yujie Liu, Weida Wang, Junchi Yao, Shenghe Zheng, Haoran Sun, Runmin Ma, Xiangchao Yan, Bo Zhang, Dongzhan Zhou, Shufei Zhang, Peng Ye, Xiaosong Wang, Shixiang Tang, Wenlong Zhang, Lei Bai"
+      ],
+      "abstract": "arXiv:2512.22334v1 Announce Type: cross \nAbstract: We introduce SciEvalKit, a unified benchmarking toolkit designed to evaluate AI models for science across a broad range of scientific disciplines and task capabilities. Unlike general-purpose evaluation platforms, SciEvalKit focuses on the core competencies of scientific intelligence, including Scientific Multimodal Perception, Scientific Multimodal Reasoning, Scientific Multimodal Understanding, Scientific Symbolic Reasoning, Scientific Code Generation, Science Hypothesis Generation and Scientific Knowledge Understanding. It supports six major scientific domains, spanning from physics and chemistry to astronomy and materials science. SciEvalKit builds a foundation of expert-grade scientific benchmarks, curated from real-world, domain-specific datasets, ensuring that tasks reflect authentic scientific challenges. The toolkit features a flexible, extensible evaluation pipeline that enables batch evaluation across models and datasets, supports custom model and dataset integration, and provides transparent, reproducible, and comparable results. By bridging capability-based evaluation and disciplinary diversity, SciEvalKit offers a standardized yet customizable infrastructure to benchmark the next generation of scientific foundation models and intelligent agents. The toolkit is open-sourced and actively maintained to foster community-driven development and progress in AI4Science.",
+      "url": "https://arxiv.org/abs/2512.22334",
+      "published_date": "2025-12-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "scientific",
+        "evaluation",
+        "scievalkit",
+        "toolkit",
+        "generation",
+        "models",
+        "multimodal",
+        "science",
+        "scientific multimodal",
+        "datasets"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the rapidly evolving field of scientific AI \u2013 standardized, rigorous evaluation. The focus on 'scientific intelligence' competencies and the use of real-world datasets are strong points. While the concept of a benchmark isn't entirely novel, the specific focus on scientific reasoning and multimodal understanding across multiple disciplines elevates its value, and the toolkit approach suggests practical usability. The high sentiment score reflects the current trend towards more robust AI evaluation.",
+      "paper_id": "ca5dc521364143116dbe8673ed4cf607"
+    },
+    {
+      "title": "The Heap: A Contamination-Free Multilingual Code Dataset for Evaluating Large Language Models",
+      "authors": [
+        "Jonathan Katzy, Razvan Mihai Popescu, Arie van Deursen, Maliheh Izadi"
+      ],
+      "abstract": "arXiv:2501.09653v2 Announce Type: replace \nAbstract: The recent rise in the popularity of large language models has spurred the development of extensive code datasets needed to train them. This has left limited code available for collection and use in the downstream investigation of specific behaviors, or evaluation of large language models without suffering from data contamination. To address this problem, we release The Heap, a large multilingual dataset covering 57 programming languages that has been deduplicated with respect to other open datasets of code, enabling researchers to conduct fair evaluations of large language models without significant data cleaning overhead.",
+      "url": "https://arxiv.org/abs/2501.09653",
+      "published_date": "2025-12-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "large",
+        "code",
+        "language",
+        "language models",
+        "large language",
+        "models",
+        "contamination",
+        "data",
+        "dataset",
+        "datasets"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in LLM research: the lack of clean evaluation datasets due to data contamination. The creation of 'The Heap' and its deduplication process are valuable contributions. While deduplication isn't entirely novel, the scale (57 languages) and focus on contamination-free evaluation are significant. The high sentiment score reflects the current community need for better evaluation resources.",
+      "paper_id": "4773f6181c960baeb7dfc5bf1ecb13ca"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-30T09:41:24.889673"
 }
