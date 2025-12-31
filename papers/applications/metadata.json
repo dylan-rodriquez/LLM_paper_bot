@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Practical challenges of control monitoring in frontier AI deployments",
+      "authors": [
+        "David Lindner, Charlie Griffin, Tomek Korbak, Roland S. Zimmermann, Geoffrey Irving, Sebastian Farquhar, Alan Cooney"
+      ],
+      "abstract": "arXiv:2512.22154v1 Announce Type: cross \nAbstract: Automated control monitors could play an important role in overseeing highly capable AI agents that we do not fully trust. Prior work has explored control monitoring in simplified settings, but scaling monitoring to real-world deployments introduces additional dynamics: parallel agent instances, non-negligible oversight latency, incremental attacks between agent instances, and the difficulty of identifying scheming agents based on individual harmful actions. In this paper, we analyse design choices to address these challenges, focusing on three forms of monitoring with different latency-safety trade-offs: synchronous, semi-synchronous, and asynchronous monitoring. We introduce a high-level safety case sketch as a tool for understanding and comparing these monitoring protocols. Our analysis identifies three challenges -- oversight, latency, and recovery -- and explores them in four case studies of possible future AI deployments.",
+      "url": "https://arxiv.org/abs/2512.22154",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "monitoring",
+        "ai",
+        "challenges",
+        "control",
+        "deployments",
+        "latency",
+        "agent",
+        "agent instances",
+        "agents",
+        "ai deployments"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a crucial and timely problem in AI safety \u2013 control monitoring for frontier AI. The analysis of different monitoring latency trade-offs and the introduction of a safety case sketch are valuable contributions. While the methods appear largely analytical rather than presenting novel algorithms, the focus on practical challenges and real-world deployment scenarios elevates its significance and potential impact. The clear framing of oversight, latency, and recovery as key challenges is well-defined.",
+      "paper_id": "3d28f23e7ebc8e7c88917ef588e2caff"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2025-12-31T09:34:24.319771"
 }

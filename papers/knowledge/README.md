@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Valori: A Deterministic Memory Substrate for AI Systems
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** Varshith Gudur
+
+arXiv:2512.22280v1 Announce Type: cross 
+Abstract: Modern AI systems rely on vector embeddings stored and searched using floating-point arithmetic. While effective for approximate similarity search, t...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22280) | [📝 Analysis](f1bbe8ba386fbe68b535f5ec6a5665af.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-31 09:34:24 UTC*

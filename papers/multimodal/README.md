@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Illusion of Clinical Reasoning: A Benchmark Reveals the Pervasive Gap in Vision-Language Models for Clinical Competency
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** Dingyu Wang, Zimu Yuan, Jiajun Liu, Shanggui Liu, Nan Zhou, Tianxing Xu, Di Huang, Dong Jiang
+
+arXiv:2512.22275v1 Announce Type: cross 
+Abstract: Background: The rapid integration of foundation models into clinical practice and public health necessitates a rigorous evaluation of their true clin...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22275) | [📝 Analysis](745f85d3c58d8ef3515bb97d04ee80cc.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-31 09:34:24 UTC*

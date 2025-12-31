@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DarkPatterns-LLM: A Multi-Layer Benchmark for Detecting Manipulative and Harmful AI Behavior",
+      "authors": [
+        "Sadia Asif, Israel Antonio Rosales Laguan, Haris Khan, Shumaila Asif, Muneeb Asif"
+      ],
+      "abstract": "arXiv:2512.22470v1 Announce Type: new \nAbstract: The proliferation of Large Language Models (LLMs) has intensified concerns about manipulative or deceptive behaviors that can undermine user autonomy, trust, and well-being. Existing safety benchmarks predominantly rely on coarse binary labels and fail to capture the nuanced psychological and social mechanisms constituting manipulation. We introduce \\textbf{DarkPatterns-LLM}, a comprehensive benchmark dataset and diagnostic framework for fine-grained assessment of manipulative content in LLM outputs across seven harm categories: Legal/Power, Psychological, Emotional, Physical, Autonomy, Economic, and Societal Harm. Our framework implements a four-layer analytical pipeline comprising Multi-Granular Detection (MGD), Multi-Scale Intent Analysis (MSIAN), Threat Harmonization Protocol (THP), and Deep Contextual Risk Alignment (DCRA). The dataset contains 401 meticulously curated examples with instruction-response pairs and expert annotations. Through evaluation of state-of-the-art models including GPT-4, Claude 3.5, and LLaMA-3-70B, we observe significant performance disparities (65.2\\%--89.7\\%) and consistent weaknesses in detecting autonomy-undermining patterns. DarkPatterns-LLM establishes the first standardized, multi-dimensional benchmark for manipulation detection in LLMs, offering actionable diagnostics toward more trustworthy AI systems.",
+      "url": "https://arxiv.org/abs/2512.22470",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "multi",
+        "autonomy",
+        "benchmark",
+        "darkpatterns",
+        "darkpatterns llm",
+        "manipulative",
+        "ai",
+        "dataset",
+        "detecting"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and growing concern regarding manipulative behaviors in LLMs. The development of a multi-layer benchmark, 'DarkPatterns-LLM', with a focus on nuanced harm categories and a detailed analytical pipeline, demonstrates a strong methodological approach. The dataset size (401 examples) is reasonable for initial benchmarking, and the focus on expert annotations adds to the rigor. The work is likely to be well-received by the AI safety and ethics community.",
+      "paper_id": "b9d0dbea4fb20217035d8f9b61dbde36"
+    },
+    {
+      "title": "HiSciBench: A Hierarchical Multi-disciplinary Benchmark for Scientific Intelligence from Reading to Discovery",
+      "authors": [
+        "Yaping Zhang, Qixuan Zhang, Xingquan Zhang, Zhiyuan Chen, Wenwen Zhuang, Yupu Liang, Lu Xiang, Yang Zhao, Jiajun Zhang, Yu Zhou, Chengqing Zong"
+      ],
+      "abstract": "arXiv:2512.22899v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) and multimodal foundation models has sparked growing interest in their potential for scientific research. However, scientific intelligence encompasses a broad spectrum of abilities ranging from understanding fundamental knowledge to conducting creative discovery, and existing benchmarks remain fragmented. Most focus on narrow tasks and fail to reflect the hierarchical and multi-disciplinary nature of real scientific inquiry. We introduce \\textbf{HiSciBench}, a hierarchical benchmark designed to evaluate foundation models across five levels that mirror the complete scientific workflow: \\textit{Scientific Literacy} (L1), \\textit{Literature Parsing} (L2), \\textit{Literature-based Question Answering} (L3), \\textit{Literature Review Generation} (L4), and \\textit{Scientific Discovery} (L5). HiSciBench contains 8,735 carefully curated instances spanning six major scientific disciplines, including mathematics, physics, chemistry, biology, geography, and astronomy, and supports multimodal inputs including text, equations, figures, and tables, as well as cross-lingual evaluation. Unlike prior benchmarks that assess isolated abilities, HiSciBench provides an integrated, dependency-aware framework that enables detailed diagnosis of model capabilities across different stages of scientific reasoning. Comprehensive evaluations of leading models, including GPT-5, DeepSeek-R1, and several multimodal systems, reveal substantial performance gaps: while models achieve up to 69\\% accuracy on basic literacy tasks, performance declines sharply to 25\\% on discovery-level challenges. HiSciBench establishes a new standard for evaluating scientific Intelligence and offers actionable insights for developing models that are not only more capable but also more reliable. The benchmark will be publicly released to facilitate future research.",
+      "url": "https://arxiv.org/abs/2512.22899",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "models",
+        "hiscibench",
+        "textit",
+        "discovery",
+        "benchmark",
+        "hierarchical",
+        "including",
+        "intelligence",
+        "literature"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in evaluating scientific intelligence in LLMs by moving beyond narrow tasks to a hierarchical, multi-disciplinary benchmark. The proposed HiSciBench appears well-structured, covering the entire scientific workflow, and the scale (8,735 instances) suggests a robust evaluation resource. While the core idea of a hierarchical benchmark isn't entirely novel, the specific implementation tailored to scientific reasoning and discovery is a significant contribution, and the potential for driving progress in this area is high.",
+      "paper_id": "16f26ffade79ae7a994637a5d5b05d45"
+    },
+    {
+      "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+      "authors": [
+        "Yiheng Wang, Yixin Chen, Shuo Li, Yifan Zhou, Bo Liu, Hengjian Gao, Jiakang Yuan, Jia Bu, Wanghan Xu, Yuhao Zhou, Xiangyu Zhao, Zhiwang Zhou, Fengxiang Wang, Haodong Duan, Songyang Zhang, Jun Yao, Han Deng, Yizhou Wang, Jiabei Xiao, Jiaqi Liu, Encheng Su, Yujie Liu, Weida Wang, Junchi Yao, Shenghe Zheng, Haoran Sun, Runmin Ma, Xiangchao Yan, Bo Zhang, Dongzhan Zhou, Shufei Zhang, Peng Ye, Xiaosong Wang, Shixiang Tang, Wenlong Zhang, Lei Bai"
+      ],
+      "abstract": "arXiv:2512.22334v1 Announce Type: new \nAbstract: We introduce SciEvalKit, a unified benchmarking toolkit designed to evaluate AI models for science across a broad range of scientific disciplines and task capabilities. Unlike general-purpose evaluation platforms, SciEvalKit focuses on the core competencies of scientific intelligence, including Scientific Multimodal Perception, Scientific Multimodal Reasoning, Scientific Multimodal Understanding, Scientific Symbolic Reasoning, Scientific Code Generation, Science Hypothesis Generation and Scientific Knowledge Understanding. It supports six major scientific domains, spanning from physics and chemistry to astronomy and materials science. SciEvalKit builds a foundation of expert-grade scientific benchmarks, curated from real-world, domain-specific datasets, ensuring that tasks reflect authentic scientific challenges. The toolkit features a flexible, extensible evaluation pipeline that enables batch evaluation across models and datasets, supports custom model and dataset integration, and provides transparent, reproducible, and comparable results. By bridging capability-based evaluation and disciplinary diversity, SciEvalKit offers a standardized yet customizable infrastructure to benchmark the next generation of scientific foundation models and intelligent agents. The toolkit is open-sourced and actively maintained to foster community-driven development and progress in AI4Science.",
+      "url": "https://arxiv.org/abs/2512.22334",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "scientific",
+        "evaluation",
+        "scievalkit",
+        "toolkit",
+        "generation",
+        "models",
+        "multimodal",
+        "science",
+        "scientific multimodal",
+        "datasets"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the rapidly evolving field of scientific AI \u2013 standardized, rigorous evaluation. The focus on 'scientific intelligence' competencies and the use of real-world datasets are strong points. While the concept of a benchmark isn't entirely novel, the specific focus on scientific reasoning and multimodal understanding across multiple disciplines elevates its value, and the toolkit approach suggests practical usability. The high sentiment score reflects the current trend towards more robust AI evaluation.",
+      "paper_id": "ca5dc521364143116dbe8673ed4cf607"
+    },
+    {
+      "title": "GPU-Virt-Bench: A Comprehensive Benchmarking Framework for Software-Based GPU Virtualization Systems",
+      "authors": [
+        "Jithin VG, Ditto PS"
+      ],
+      "abstract": "arXiv:2512.22125v1 Announce Type: cross \nAbstract: The proliferation of GPU-accelerated workloads, particularly in artificial intelligence and large language model (LLM) inference, has created unprecedented demand for efficient GPU resource sharing in cloud and container environments. While NVIDIA's Multi-Instance GPU (MIG) technology provides hardware-level isolation, its availability is limited to high-end datacenter GPUs. Software-based virtualization solutions such as HAMi-core and BUD-FCSP offer alternatives for broader GPU families but lack standardized evaluation methodologies. We present GPU-Virt-Bench, a comprehensive benchmarking framework that evaluates GPU virtualization systems across 56 performance metrics organized into 10 categories. Our framework measures overhead, isolation quality, LLM-specific performance, memory bandwidth, cache behavior, PCIe throughput, multi-GPU communication, scheduling efficiency, memory fragmentation, and error recovery. GPU-Virt-Bench enables systematic comparison between software virtualization approaches and ideal MIG behavior, providing actionable insights for practitioners deploying GPU resources in multi-tenant environments. We demonstrate the framework's utility through evaluation of HAMi-core, BUD-FCSP, and simulated MIG baselines, revealing performance characteristics critical for production deployment decisions.",
+      "url": "https://arxiv.org/abs/2512.22125",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "gpu",
+        "framework",
+        "virtualization",
+        "bench",
+        "gpu virt",
+        "mig",
+        "multi",
+        "performance",
+        "software",
+        "virt"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem \u2013 the need for standardized benchmarking of software-based GPU virtualization, especially with the rise of LLMs. The comprehensive nature of the framework (56 metrics, 10 categories) suggests a rigorous methodology. While software-based GPU virtualization isn't entirely new, the lack of standardized evaluation is a significant gap this work aims to fill, making it highly relevant and likely to be well-received.",
+      "paper_id": "b5d1a69ced8b0092513ea20a2467a1e8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2025-12-31T09:34:24.318627"
 }

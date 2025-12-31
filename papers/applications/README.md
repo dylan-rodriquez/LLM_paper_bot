@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Practical challenges of control monitoring in frontier AI deployments
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** David Lindner, Charlie Griffin, Tomek Korbak, Roland S. Zimmermann, Geoffrey Irving, Sebastian Farquhar, Alan Cooney
+
+arXiv:2512.22154v1 Announce Type: cross 
+Abstract: Automated control monitors could play an important role in overseeing highly capable AI agents that we do not fully trust. Prior work has explored co...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22154) | [📝 Analysis](3d28f23e7ebc8e7c88917ef588e2caff.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-31 09:34:24 UTC*

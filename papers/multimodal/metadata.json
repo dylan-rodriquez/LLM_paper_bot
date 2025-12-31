@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Illusion of Clinical Reasoning: A Benchmark Reveals the Pervasive Gap in Vision-Language Models for Clinical Competency",
+      "authors": [
+        "Dingyu Wang, Zimu Yuan, Jiajun Liu, Shanggui Liu, Nan Zhou, Tianxing Xu, Di Huang, Dong Jiang"
+      ],
+      "abstract": "arXiv:2512.22275v1 Announce Type: cross \nAbstract: Background: The rapid integration of foundation models into clinical practice and public health necessitates a rigorous evaluation of their true clinical reasoning capabilities beyond narrow examination success. Current benchmarks, typically based on medical licensing exams or curated vignettes, fail to capture the integrated, multimodal reasoning essential for real-world patient care. Methods: We developed the Bones and Joints (B&amp;J) Benchmark, a comprehensive evaluation framework comprising 1,245 questions derived from real-world patient cases in orthopedics and sports medicine. This benchmark assesses models across 7 tasks that mirror the clinical reasoning pathway, including knowledge recall, text and image interpretation, diagnosis generation, treatment planning, and rationale provision. We evaluated eleven vision-language models (VLMs) and six large language models (LLMs), comparing their performance against expert-derived ground truth. Results: Our results demonstrate a pronounced performance gap between task types. While state-of-the-art models achieved high accuracy, exceeding 90%, on structured multiple-choice questions, their performance markedly declined on open-ended tasks requiring multimodal integration, with accuracy scarcely reaching 60%. VLMs demonstrated substantial limitations in interpreting medical images and frequently exhibited severe text-driven hallucinations, often ignoring contradictory visual evidence. Notably, models specifically fine-tuned for medical applications showed no consistent advantage over general-purpose counterparts. Conclusions: Current artificial intelligence models are not yet clinically competent for complex, multimodal reasoning. Their safe deployment should currently be limited to supportive, text-based roles. Future advancement in core clinical tasks awaits fundamental breakthroughs in multimodal integration and visual understanding.",
+      "url": "https://arxiv.org/abs/2512.22275",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "clinical",
+        "reasoning",
+        "multimodal",
+        "benchmark",
+        "clinical reasoning",
+        "integration",
+        "language",
+        "language models",
+        "medical"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in evaluating clinical reasoning in VLMs and LLMs, moving beyond simple exam-style benchmarks. The development of the B&J benchmark, mirroring the clinical reasoning pathway, is a strong methodological contribution. The focus on real-world patient cases and multimodal assessment (text and images) significantly increases the rigor and relevance of the evaluation, suggesting a high likelihood of positive reception within the AI and medical communities.",
+      "paper_id": "745f85d3c58d8ef3515bb97d04ee80cc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2025-12-31T09:34:24.321965"
 }

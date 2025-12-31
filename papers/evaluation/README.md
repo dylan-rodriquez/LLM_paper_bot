@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DarkPatterns-LLM: A Multi-Layer Benchmark for Detecting Manipulative and Harmful AI Behavior
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** Sadia Asif, Israel Antonio Rosales Laguan, Haris Khan, Shumaila Asif, Muneeb Asif
+
+arXiv:2512.22470v1 Announce Type: new 
+Abstract: The proliferation of Large Language Models (LLMs) has intensified concerns about manipulative or deceptive behaviors that can undermine user autonomy, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22470) | [📝 Analysis](b9d0dbea4fb20217035d8f9b61dbde36.md)
+
+---
+
+### HiSciBench: A Hierarchical Multi-disciplinary Benchmark for Scientific Intelligence from Reading to Discovery
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** Yaping Zhang, Qixuan Zhang, Xingquan Zhang, Zhiyuan Chen, Wenwen Zhuang, Yupu Liang, Lu Xiang, Yang Zhao, Jiajun Zhang, Yu Zhou, Chengqing Zong
+
+arXiv:2512.22899v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) and multimodal foundation models has sparked growing interest in their potential for scientific r...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22899) | [📝 Analysis](16f26ffade79ae7a994637a5d5b05d45.md)
+
+---
+
+### SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence
+
+**Score:** 90.0 | **Published:** 2025-12-31 | **Authors:** Yiheng Wang, Yixin Chen, Shuo Li, Yifan Zhou, Bo Liu, Hengjian Gao, Jiakang Yuan, Jia Bu, Wanghan Xu, Yuhao Zhou, Xiangyu Zhao, Zhiwang Zhou, Fengxiang Wang, Haodong Duan, Songyang Zhang, Jun Yao, Han Deng, Yizhou Wang, Jiabei Xiao, Jiaqi Liu, Encheng Su, Yujie Liu, Weida Wang, Junchi Yao, Shenghe Zheng, Haoran Sun, Runmin Ma, Xiangchao Yan, Bo Zhang, Dongzhan Zhou, Shufei Zhang, Peng Ye, Xiaosong Wang, Shixiang Tang, Wenlong Zhang, Lei Bai
+
+arXiv:2512.22334v1 Announce Type: new 
+Abstract: We introduce SciEvalKit, a unified benchmarking toolkit designed to evaluate AI models for science across a broad range of scientific disciplines and t...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22334) | [📝 Analysis](ca5dc521364143116dbe8673ed4cf607.md)
+
+---
+
+### GPU-Virt-Bench: A Comprehensive Benchmarking Framework for Software-Based GPU Virtualization Systems
+
+**Score:** 90.0 | **Published:** 2025-12-31 | **Authors:** Jithin VG, Ditto PS
+
+arXiv:2512.22125v1 Announce Type: cross 
+Abstract: The proliferation of GPU-accelerated workloads, particularly in artificial intelligence and large language model (LLM) inference, has created unprece...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22125) | [📝 Analysis](b5d1a69ced8b0092513ea20a2467a1e8.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-12-31 09:34:24 UTC*
