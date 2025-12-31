@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+      "authors": [
+        "Shaun Khoo, Jessica Foo, Roy Ka-Wei Lee"
+      ],
+      "abstract": "arXiv:2512.22211v1 Announce Type: new \nAbstract: Agentic AI systems present both significant opportunities and novel risks due to their capacity for autonomous action, encompassing tasks such as code execution, internet interaction, and file modification. This poses considerable challenges for effective organizational governance, particularly in comprehensively identifying, assessing, and mitigating diverse and evolving risks. To tackle this, we introduce the Agentic Risk \\& Capability (ARC) Framework, a technical governance framework designed to help organizations identify, assess, and mitigate risks arising from agentic AI systems. The framework's core contributions are: (1) it develops a novel capability-centric perspective to analyze a wide range of agentic AI systems; (2) it distills three primary sources of risk intrinsic to agentic AI systems - components, design, and capabilities; (3) it establishes a clear nexus between each risk source, specific materialized risks, and corresponding technical controls; and (4) it provides a structured and practical approach to help organizations implement the framework. This framework provides a robust and adaptable methodology for organizations to navigate the complexities of agentic AI, enabling rapid and effective innovation while ensuring the safe, secure, and responsible deployment of agentic AI systems. Our framework is open-sourced \\href{https://govtech-responsibleai.github.io/agentic-risk-capability-framework/}{here}.",
+      "url": "https://arxiv.org/abs/2512.22211",
+      "published_date": "2025-12-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "agentic",
+        "framework",
+        "agentic ai",
+        "ai",
+        "ai systems",
+        "systems",
+        "risk",
+        "capability",
+        "risks",
+        "agentic risk"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the governance of agentic AI. The proposed ARC framework appears well-structured, focusing on capabilities, components, and design as risk sources, which is a logical and comprehensive approach. While the abstract doesn't detail the *specific* novelty of the framework beyond this structure, the problem's importance and the framework's potential for practical application suggest a strong positive reception within the AI safety and governance community.",
+      "paper_id": "be8f6ce022a6afa2103fe04e7541f1ab"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2025-12-31T09:34:24.317428"
 }

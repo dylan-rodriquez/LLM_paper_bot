@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems
+
+**Score:** 92.0 | **Published:** 2025-12-31 | **Authors:** Shaun Khoo, Jessica Foo, Roy Ka-Wei Lee
+
+arXiv:2512.22211v1 Announce Type: new 
+Abstract: Agentic AI systems present both significant opportunities and novel risks due to their capacity for autonomous action, encompassing tasks such as code ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22211) | [📝 Analysis](be8f6ce022a6afa2103fe04e7541f1ab.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2025-12-31 09:34:24 UTC*
