@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Recursive Language Models",
+      "authors": [
+        "Alex L. Zhang, Tim Kraska, Omar Khattab"
+      ],
+      "abstract": "arXiv:2512.24601v1 Announce Type: cross \nAbstract: We study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. We propose Recursive Language Models (RLMs), a general inference strategy that treats long prompts as part of an external environment and allows the LLM to programmatically examine, decompose, and recursively call itself over snippets of the prompt. We find that RLMs successfully handle inputs up to two orders of magnitude beyond model context windows and, even for shorter prompts, dramatically outperform the quality of base LLMs and common long-context scaffolds across four diverse long-context tasks, while having comparable (or cheaper) cost per query.",
+      "url": "https://arxiv.org/abs/2512.24601",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "long",
+        "context",
+        "language",
+        "language models",
+        "models",
+        "prompts",
+        "inference",
+        "llms",
+        "long context",
+        "long prompts"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial limitation of LLMs \u2013 context window size \u2013 with a novel approach (Recursive Language Models). The reported performance gains, exceeding base LLMs and existing scaffolds, are significant, and the comparable cost is a major advantage. The framing of long prompts as an 'external environment' is a clever conceptualization, suggesting a robust and generalizable method.",
+      "paper_id": "c41cfd35994a21f39a1ed69b0e5e4d24"
+    },
+    {
+      "title": "A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond",
+      "authors": [
+        "Xiaoye Qu, Yafu Li, Zhao-Chen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng"
+      ],
+      "abstract": "arXiv:2503.21614v2 Announce Type: replace \nAbstract: Recent Large Reasoning Models (LRMs), such as DeepSeek-R1 and OpenAI o1, have demonstrated strong performance gains by scaling up the length of Chain-of-Thought (CoT) reasoning during inference. However, a growing concern lies in their tendency to produce excessively long reasoning traces, which are often filled with redundant content (e.g., repeated definitions), over-analysis of simple problems, and superficial exploration of multiple reasoning paths for harder tasks. This inefficiency introduces significant challenges for training, inference, and real-world deployment (e.g., in agent-based systems), where token economy is critical. In this survey, we provide a comprehensive overview of recent efforts aimed at improving reasoning efficiency in LRMs, with a particular focus on the unique challenges that arise in this new paradigm. We identify common patterns of inefficiency, examine methods proposed across the LRM lifecycle, i.e., from pretraining to inference, and discuss promising future directions for research. To support ongoing development, we also maintain a real-time GitHub repository tracking recent progress in the field. We hope this survey serves as a foundation for further exploration and inspires innovation in this rapidly evolving area.",
+      "url": "https://arxiv.org/abs/2503.21614",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "inference",
+        "recent",
+        "survey",
+        "challenges",
+        "exploration",
+        "inefficiency",
+        "large",
+        "large reasoning",
+        "lrms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey addresses a highly relevant and timely problem in the field of large language models \u2013 the inefficiency of reasoning traces. The increasing length and redundancy of CoT reasoning are significant barriers to practical deployment, making this work important. While the survey itself doesn't present novel methods, its comprehensive overview and identification of patterns will be valuable to researchers, and the focus on the LRM lifecycle is a strong point. The high scores reflect the importance of the problem and the potential for the survey to guide future research.",
+      "paper_id": "9af3b25034945a52d72e9e3e4f86ccd6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-01T09:34:13.767984"
 }

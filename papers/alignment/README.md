@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Safe in the Future, Dangerous in the Past: Dissecting Temporal and Linguistic Vulnerabilities in LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-01 | **Authors:** Muhammad Abdullahi Said, Muhammad Sammani Sani
+
+arXiv:2512.24556v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) integrate into critical global infrastructure, the assumption that safety alignment transfers zero-shot from English to...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.24556) | [📝 Analysis](f55d1be106e98e5dfdae19925ac0bff0.md)
+
+---
+
+### Jailbreaking Attacks vs. Content Safety Filters: How Far Are We in the LLM Safety Arms Race?
+
+**Score:** 92.0 | **Published:** 2026-01-01 | **Authors:** Yuan Xin, Dingfan Chen, Linyi Yang, Michael Backes, Xiao Zhang
+
+arXiv:2512.24044v1 Announce Type: cross 
+Abstract: As large language models (LLMs) are increasingly deployed, ensuring their safe use is paramount. Jailbreaking, adversarial prompts that bypass model ...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.24044) | [📝 Analysis](da8762672c1be43d631b91dd48d98e9d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-01 09:34:13 UTC*

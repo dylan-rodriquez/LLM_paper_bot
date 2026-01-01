@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Recursive Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-01 | **Authors:** Alex L. Zhang, Tim Kraska, Omar Khattab
+
+arXiv:2512.24601v1 Announce Type: cross 
+Abstract: We study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. We propose Recursive L...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.24601) | [📝 Analysis](c41cfd35994a21f39a1ed69b0e5e4d24.md)
+
+---
+
+### A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond
+
+**Score:** 92.0 | **Published:** 2026-01-01 | **Authors:** Xiaoye Qu, Yafu Li, Zhao-Chen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng
+
+arXiv:2503.21614v2 Announce Type: replace 
+Abstract: Recent Large Reasoning Models (LRMs), such as DeepSeek-R1 and OpenAI o1, have demonstrated strong performance gains by scaling up the length of Cha...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.21614) | [📝 Analysis](9af3b25034945a52d72e9e3e4f86ccd6.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-01 09:34:13 UTC*
