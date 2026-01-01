@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models",
+      "authors": [
+        "Rohit Kumar Salla, Manoj Saravanan, Shrikar Reddy Kota"
+      ],
+      "abstract": "arXiv:2512.24058v1 Announce Type: new \nAbstract: Large Language Models (LLMs) like LLaMA, Mistral, and Gemma are increasingly used in decision-critical domains such as healthcare, law, and finance, yet their reliability remains uncertain. They often make overconfident errors, degrade under input shifts, and lack clear uncertainty estimates. Existing evaluations are fragmented, addressing only isolated aspects. We introduce the Composite Reliability Score (CRS), a unified framework that integrates calibration, robustness, and uncertainty quantification into a single interpretable metric. Through experiments on ten leading open-source LLMs across five QA datasets, we assess performance under baselines, perturbations, and calibration methods. CRS delivers stable model rankings, uncovers hidden failure modes missed by single metrics, and highlights that the most dependable systems balance accuracy, robustness, and calibrated uncertainty.",
+      "url": "https://arxiv.org/abs/2512.24058",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "reliability",
+        "uncertainty",
+        "calibration",
+        "composite",
+        "crs",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the rapidly evolving LLM landscape \u2013 reliable performance in critical applications. The introduction of a 'Composite Reliability Score' (CRS) is a strong methodological contribution, moving beyond fragmented evaluations. The experimental setup with ten LLMs and five datasets suggests a rigorous approach, and the claim of uncovering hidden failure modes is particularly compelling. The focus on calibration, robustness, and uncertainty quantification is highly relevant and timely.",
+      "paper_id": "e76c09e891ccc94ae465a2b95cff4ee6"
+    },
+    {
+      "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+      "authors": [
+        "Srija Mukhopadhyay, Sathwik Reddy, Shruthi Muthukumar, Jisun An, Ponnurangam Kumaraguru"
+      ],
+      "abstract": "arXiv:2512.24848v1 Announce Type: new \nAbstract: Personalized AI agents rely on access to a user's digital footprint, which often includes sensitive data from private emails, chats and purchase histories. Yet this access creates a fundamental societal and privacy risk: systems lacking social-context awareness can unintentionally expose user secrets, threatening digital well-being. We introduce PrivacyBench, a benchmark with socially grounded datasets containing embedded secrets and a multi-turn conversational evaluation to measure secret preservation. Testing Retrieval-Augmented Generation (RAG) assistants reveals that they leak secrets in up to 26.56% of interactions. A privacy-aware prompt lowers leakage to 5.12%, yet this measure offers only partial mitigation. The retrieval mechanism continues to access sensitive data indiscriminately, which shifts the entire burden of privacy preservation onto the generator. This creates a single point of failure, rendering current architectures unsafe for wide-scale deployment. Our findings underscore the urgent need for structural, privacy-by-design safeguards to ensure an ethical and inclusive web for everyone.",
+      "url": "https://arxiv.org/abs/2512.24848",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "privacy",
+        "access",
+        "secrets",
+        "ai",
+        "benchmark",
+        "conversational",
+        "creates",
+        "data",
+        "digital",
+        "measure"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and critical problem \u2013 privacy leakage in personalized AI, specifically RAG systems. The introduction of PrivacyBench, a conversational benchmark with embedded secrets, is a strong methodological contribution. While prompt engineering offers some mitigation, the identified shift of the privacy burden to the generator highlights a fundamental architectural flaw, suggesting a need for deeper systemic changes. The reported leakage rates (even with mitigation) are concerning and demonstrate the practical importance of this work.",
+      "paper_id": "54725a145b3b93f21ec65ef1686d61ae"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-01T09:34:13.764907"
 }

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Safe in the Future, Dangerous in the Past: Dissecting Temporal and Linguistic Vulnerabilities in LLMs",
+      "authors": [
+        "Muhammad Abdullahi Said, Muhammad Sammani Sani"
+      ],
+      "abstract": "arXiv:2512.24556v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) integrate into critical global infrastructure, the assumption that safety alignment transfers zero-shot from English to other languages remains a dangerous blind spot. This study presents a systematic audit of three state of the art models (GPT-5.1, Gemini 3 Pro, and Claude 4.5 Opus) using HausaSafety, a novel adversarial dataset grounded in West African threat scenarios (e.g., Yahoo-Yahoo fraud, Dane gun manufacturing). Employing a 2 x 4 factorial design across 1,440 evaluations, we tested the non-linear interaction between language (English vs. Hausa) and temporal framing. Our results challenge the prevailing multilingual safety gap narrative. Instead of a simple degradation in low-resource settings, we identified a mechanism of Complex Interference where safety is determined by the intersection of variables. While models exhibited a Reverse Linguistic with Claude 4.5 Opus proving significantly safer in Hausa (45.0%) than in English (36.7%) due to uncertainty-driven refusal they suffered catastrophic failures in temporal reasoning. We report a profound Temporal Asymmetry, where past-tense framing bypassed defenses (15.6% safe) while future-tense scenarios triggered hyper-conservative refusals (57.2% safe). The magnitude of this volatility is illustrated by a 9.2x disparity between the safest and most vulnerable configurations, proving that safety is not a fixed property but a context-dependent state. We conclude that current models rely on superficial heuristics rather than robust semantic understanding, creating Safety Pockets that leave Global South users exposed to localized harms. We propose Invariant Alignment as a necessary paradigm shift to ensure safety stability across linguistic and temporal shifts.",
+      "url": "https://arxiv.org/abs/2512.24556",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "temporal",
+        "models",
+        "english",
+        "linguistic",
+        "safe",
+        "alignment",
+        "claude",
+        "claude opus",
+        "dangerous"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical gap in LLM safety evaluation \u2013 the assumption of zero-shot transfer across languages, particularly focusing on underrepresented languages like Hausa. The use of a novel, contextually grounded adversarial dataset (HausaSafety) and a factorial design demonstrate a rigorous methodology. The finding of 'Complex Interference' is a nuanced and important contribution, moving beyond simple degradation narratives. The focus on real-world threats like fraud adds to the practical relevance.",
+      "paper_id": "f55d1be106e98e5dfdae19925ac0bff0"
+    },
+    {
+      "title": "Jailbreaking Attacks vs. Content Safety Filters: How Far Are We in the LLM Safety Arms Race?",
+      "authors": [
+        "Yuan Xin, Dingfan Chen, Linyi Yang, Michael Backes, Xiao Zhang"
+      ],
+      "abstract": "arXiv:2512.24044v1 Announce Type: cross \nAbstract: As large language models (LLMs) are increasingly deployed, ensuring their safe use is paramount. Jailbreaking, adversarial prompts that bypass model alignment to trigger harmful outputs, present significant risks, with existing studies reporting high success rates in evading common LLMs. However, previous evaluations have focused solely on the models, neglecting the full deployment pipeline, which typically incorporates additional safety mechanisms like content moderation filters. To address this gap, we present the first systematic evaluation of jailbreak attacks targeting LLM safety alignment, assessing their success across the full inference pipeline, including both input and output filtering stages. Our findings yield two key insights: first, nearly all evaluated jailbreak techniques can be detected by at least one safety filter, suggesting that prior assessments may have overestimated the practical success of these attacks; second, while safety filters are effective in detection, there remains room to better balance recall and precision to further optimize protection and user experience. We highlight critical gaps and call for further refinement of detection accuracy and usability in LLM safety systems.",
+      "url": "https://arxiv.org/abs/2512.24044",
+      "published_date": "2026-01-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "attacks",
+        "filters",
+        "llm",
+        "llm safety",
+        "success",
+        "alignment",
+        "content",
+        "detection",
+        "jailbreak"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical gap in LLM safety evaluation by considering the entire inference pipeline, not just the model itself. The finding that existing jailbreak techniques are often caught by safety filters is significant, suggesting current safety measures are more effective than previously thought. The systematic evaluation approach and clear focus on practical deployment are strengths, indicating a high-quality and impactful study.",
+      "paper_id": "da8762672c1be43d631b91dd48d98e9d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-01T09:34:13.766779"
 }
