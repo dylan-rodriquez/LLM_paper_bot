@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "One Trigger Token Is Enough: A Defense Strategy for Balancing Safety and Usability in Large Language Models",
+      "authors": [
+        "Haoran Gu, Handing Wang, Yi Mei, Mengjie Zhang, Yaochu Jin"
+      ],
+      "abstract": "arXiv:2505.07167v3 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) have been extensively used across diverse domains, including virtual assistants, automated code generation, and scientific research. However, they remain vulnerable to jailbreak attacks, which manipulate the models into generating harmful responses despite safety alignment. Recent studies have shown that current safety-aligned LLMs undergo shallow safety alignment. In this work, we conduct an in-depth investigation into the underlying mechanism of this phenomenon and reveal that it manifests through learned ''safety trigger tokens'' that activate the model's safety patterns when paired with the specific input. Through both analysis and empirical verification, we further demonstrate the high similarity of the safety trigger tokens across different harmful inputs. Accordingly, we propose D-STT, a simple yet effective defense algorithm that identifies and explicitly decodes safety trigger tokens of the given safety-aligned LLM to activate the model's learned safety patterns. In this process, the safety trigger is constrained to a single token, which effectively preserves model usability by introducing minimum intervention in the decoding process. Extensive experiments across diverse jailbreak attacks and benign prompts demonstrate that D-STT significantly reduces output harmfulness while preserving model usability and incurring negligible response time overhead, outperforming ten baseline methods.",
+      "url": "https://arxiv.org/abs/2505.07167",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "trigger",
+        "model",
+        "safety trigger",
+        "models",
+        "tokens",
+        "trigger tokens",
+        "usability",
+        "activate",
+        "activate model"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the surprisingly shallow alignment and vulnerability to jailbreaks. The identification of 'safety trigger tokens' and the proposed D-STT defense mechanism appear to be a novel and potentially effective approach. The research seems rigorous, with both analysis and empirical verification, and the problem is highly relevant to the current state of LLM development and deployment.",
+      "paper_id": "b824ec2207f2d1e2bbdfad4e3a2e520d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-05T09:47:29.283348"
 }

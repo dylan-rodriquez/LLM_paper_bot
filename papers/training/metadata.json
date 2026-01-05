@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition",
+      "authors": [
+        "Xiaoze Liu, Weichen Yu, Matt Fredrikson, Xiaoqian Wang, Jing Gao"
+      ],
+      "abstract": "arXiv:2601.00065v1 Announce Type: cross \nAbstract: The open-weight LLM ecosystem is increasingly defined by model composition techniques (such as weight merging, speculative decoding, and vocabulary expansion) that remix capabilities from diverse sources. A critical prerequisite for applying these methods across different model families is tokenizer transplant, which aligns incompatible vocabularies to a shared embedding space. We demonstrate that this essential interoperability step introduces a supply-chain vulnerability: we engineer a single \"breaker token\" that is functionally inert in a donor model yet reliably reconstructs into a high-salience malicious feature after transplant into a base model. By exploiting the geometry of coefficient reuse, our attack creates an asymmetric realizability gap that sabotages the base model's generation while leaving the donor's utility statistically indistinguishable from nominal behavior. We formalize this as a dual-objective optimization problem and instantiate the attack using a sparse solver. Empirically, the attack is training-free and achieves spectral mimicry to evade outlier detection, while demonstrating structural persistence against fine-tuning and weight merging, highlighting a hidden risk in the pipeline of modular AI composition. Code is available at https://github.com/xz-liu/tokenforge",
+      "url": "https://arxiv.org/abs/2601.00065",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "model",
+        "attack",
+        "composition",
+        "weight",
+        "base",
+        "base model",
+        "donor",
+        "llm",
+        "merging",
+        "transplant"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper identifies a critical vulnerability in the rapidly evolving LLM composition landscape. The discovery of a 'breaker token' exploit, leveraging tokenizer transplant, is a significant finding with potentially far-reaching consequences for model security. The formalization as a dual-objective optimization problem suggests a rigorous approach, and the focus on asymmetric realizability gaps is a clever angle.",
+      "paper_id": "33853cd9b9ccf7a76b2edd92512723e4"
+    },
+    {
+      "title": "From Transformers to LLMs: A Systematic Survey of Efficiency Considerations in NLP",
+      "authors": [
+        "Wazib Ansar, Saptarsi Goswami, Amlan Chakrabarti"
+      ],
+      "abstract": "arXiv:2406.16893v2 Announce Type: replace \nAbstract: The emergence of Transformer-based Large Language Models (LLMs) has substantially augmented the capabilities of Natural Language Processing (NLP), thereby intensifying the demand for computational resources. Therefore, enhancing efficiency based on factors like computational requirements, energy consumption, carbon footprint and financial cost has become a vital area of research. This motivates us to conduct a systematic literature review on Transformer-based LLMs in NLP from the perspective of efficiency. In this survey of 312 articles published between the years 2011 and 2025, efficiency-improvement endeavors have been systematically discussed targeting various aspects such as data curation, model design, model downsizing, and dynamic inferencing. This has been augmented with efficiency considerations in model adaptation strategies like pre-training, fine-tuning, prompt-engineering and Retrieval-Augmented Generation (RAG). Furthermore, a statistical analysis of the articles has been performed followed by an in-depth evaluation of the efficiency and efficacy of more than 30 renowned NLP models has been conducted on 13 evaluation benchmarks. This paper offers valuable insights for researchers, professionals as well as scholars, and explores the trend of research toward sustainable practices in NLP.",
+      "url": "https://arxiv.org/abs/2406.16893",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "efficiency",
+        "nlp",
+        "augmented",
+        "based",
+        "llms",
+        "model",
+        "articles",
+        "computational",
+        "considerations",
+        "efficiency considerations"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey addresses a highly relevant and pressing issue in the NLP field \u2013 the efficiency of LLMs. The systematic review of 312 articles demonstrates a rigorous approach, and the broad scope covering data curation to dynamic inferencing is commendable. While the survey itself doesn't present novel *methods*, its comprehensive synthesis of existing work is valuable, and the inclusion of adaptation strategies like RAG adds depth. The topic aligns strongly with current research trends and the need for sustainable AI.",
+      "paper_id": "89daa97b35b8f93971895939f9bf2faa"
+    },
+    {
+      "title": "Learning the Boundary of Solvability: Aligning LLMs to Detect Unsolvable Problems",
+      "authors": [
+        "Dengyun Peng, Qiguang Chen, Bofei Liu, Jiannan Guan, Libo Qin, Zheng Yan, Jinhao Liu, Jianshu Zhang, Wanxiang Che"
+      ],
+      "abstract": "arXiv:2512.01661v2 Announce Type: replace \nAbstract: Ensuring large language model (LLM) reliability requires distinguishing objective unsolvability (inherent contradictions) from subjective capability limitations (tasks exceeding model competence). Current LLMs often conflate these dimensions, leading to hallucinations in which they return confident answers to inherently unsolvable queries. To address this issue, we propose a multi-domain dataset containing both solvable and unsolvable questions, UnsolvableQA, together with an alignment framework, UnsolvableRL. First, we construct UnsolvableQA by \"Reverse Construction\" that systematically injects logical contradictions into otherwise valid reasoning chains. Second, we introduce UnsolvableRL, a reinforcement learning paradigm that balances objective unsolvability detection with calibrated confidence under capability limits. Empirically, our approach achieves near-perfect unsolvability detection (>90% detection rate) and boosts solvable reasoning accuracy from 43.4% to 69.4% on Qwen3-4B-Instruct. Crucially, we identify a data-training interaction: strict alignment constraints induce Capability Collapse without unsolvable data, but act as a regularizer for rigor when such data are included, thereby improving overall robustness. Our code and data are available at https://github.com/sfasfaffa/unsolvableQA .",
+      "url": "https://arxiv.org/abs/2512.01661",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "unsolvable",
+        "capability",
+        "detection",
+        "unsolvability",
+        "unsolvableqa",
+        "alignment",
+        "contradictions",
+        "learning",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM reliability \u2013 distinguishing between unsolvable problems and limitations in model capability. The 'Reverse Construction' method for dataset creation and the 'UnsolvableRL' alignment framework appear well-motivated and the reported >90% detection rate is impressive. The work is clearly presented and addresses a timely issue, suggesting a positive reception within the community.",
+      "paper_id": "8db0c0ffb5ab16f24e8b72f15e55785d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-05T09:47:29.281161"
 }

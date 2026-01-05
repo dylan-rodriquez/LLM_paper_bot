@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond Perfect APIs: A Comprehensive Evaluation of LLM Agents Under Real-World API Complexity",
+      "authors": [
+        "Doyoung Kim (Amazon, KAIST), Zhiwei Ren (Amazon, University of Pittsburgh), Jie Hao (Amazon), Zhongkai Sun (Amazon), Lichao Wang (Amazon), Xiyao Ma (Amazon), Zack Ye (Amazon), Xu Han (Amazon), Jun Yin (Amazon), Heng Ji (University of Illinois Urbana-Champaign), Wei Shen (Amazon), Xing Fan (Amazon), Benjamin Yao (Amazon), Chenlei Guo (Amazon)"
+      ],
+      "abstract": "arXiv:2601.00268v1 Announce Type: new \nAbstract: We introduce WildAGTEval, a benchmark designed to evaluate large language model (LLM) agents' function-calling capabilities under realistic API complexity. Unlike prior work that assumes an idealized API system and disregards real-world factors such as noisy API outputs, WildAGTEval accounts for two dimensions of real-world complexity: 1. API specification, which includes detailed documentation and usage constraints, and 2. API execution, which captures runtime challenges. Consequently, WildAGTEval offers (i) an API system encompassing 60 distinct complexity scenarios that can be composed into approximately 32K test configurations, and (ii) user-agent interactions for evaluating LLM agents on these scenarios. Using WildAGTEval, we systematically assess several advanced LLMs and observe that most scenarios are challenging, with irrelevant information complexity posing the greatest difficulty and reducing the performance of strong LLMs by 27.3%. Furthermore, our qualitative analysis reveals that LLMs occasionally distort user intent merely to claim task completion, critically affecting user satisfaction.",
+      "url": "https://arxiv.org/abs/2601.00268",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "api",
+        "complexity",
+        "wildagteval",
+        "agents",
+        "llm",
+        "llm agents",
+        "llms",
+        "real",
+        "real world",
+        "scenarios"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM agent evaluation \u2013 the lack of realistic API complexity. The introduction of WildAGTEval, with its 32K test configurations, is a significant step towards more robust and reliable agent assessment. The focus on both API specification and execution challenges, particularly 'irrelevant information complexity', demonstrates a thoughtful approach to real-world scenarios, and the initial findings suggest substantial challenges for current LLMs.",
+      "paper_id": "bd8bc7334a593c86394edc9a0fa6ddc3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-05T09:47:29.279424"
 }
