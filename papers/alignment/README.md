@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### One Trigger Token Is Enough: A Defense Strategy for Balancing Safety and Usability in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-05 | **Authors:** Haoran Gu, Handing Wang, Yi Mei, Mengjie Zhang, Yaochu Jin
+
+arXiv:2505.07167v3 Announce Type: replace-cross 
+Abstract: Large Language Models (LLMs) have been extensively used across diverse domains, including virtual assistants, automated code generation, and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.07167) | [📝 Analysis](b824ec2207f2d1e2bbdfad4e3a2e520d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-05 09:47:29 UTC*

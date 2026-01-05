@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition
+
+**Score:** 92.0 | **Published:** 2026-01-05 | **Authors:** Xiaoze Liu, Weichen Yu, Matt Fredrikson, Xiaoqian Wang, Jing Gao
+
+arXiv:2601.00065v1 Announce Type: cross 
+Abstract: The open-weight LLM ecosystem is increasingly defined by model composition techniques (such as weight merging, speculative decoding, and vocabulary e...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.00065) | [📝 Analysis](33853cd9b9ccf7a76b2edd92512723e4.md)
+
+---
+
+### From Transformers to LLMs: A Systematic Survey of Efficiency Considerations in NLP
+
+**Score:** 92.0 | **Published:** 2026-01-05 | **Authors:** Wazib Ansar, Saptarsi Goswami, Amlan Chakrabarti
+
+arXiv:2406.16893v2 Announce Type: replace 
+Abstract: The emergence of Transformer-based Large Language Models (LLMs) has substantially augmented the capabilities of Natural Language Processing (NLP), ...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.16893) | [📝 Analysis](89daa97b35b8f93971895939f9bf2faa.md)
+
+---
+
+### Learning the Boundary of Solvability: Aligning LLMs to Detect Unsolvable Problems
+
+**Score:** 92.0 | **Published:** 2026-01-05 | **Authors:** Dengyun Peng, Qiguang Chen, Bofei Liu, Jiannan Guan, Libo Qin, Zheng Yan, Jinhao Liu, Jianshu Zhang, Wanxiang Che
+
+arXiv:2512.01661v2 Announce Type: replace 
+Abstract: Ensuring large language model (LLM) reliability requires distinguishing objective unsolvability (inherent contradictions) from subjective capabilit...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.01661) | [📝 Analysis](8db0c0ffb5ab16f24e8b72f15e55785d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-05 09:47:29 UTC*

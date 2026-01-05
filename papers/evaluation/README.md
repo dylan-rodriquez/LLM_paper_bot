@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond Perfect APIs: A Comprehensive Evaluation of LLM Agents Under Real-World API Complexity
+
+**Score:** 90.0 | **Published:** 2026-01-05 | **Authors:** Doyoung Kim (Amazon, KAIST), Zhiwei Ren (Amazon, University of Pittsburgh), Jie Hao (Amazon), Zhongkai Sun (Amazon), Lichao Wang (Amazon), Xiyao Ma (Amazon), Zack Ye (Amazon), Xu Han (Amazon), Jun Yin (Amazon), Heng Ji (University of Illinois Urbana-Champaign), Wei Shen (Amazon), Xing Fan (Amazon), Benjamin Yao (Amazon), Chenlei Guo (Amazon)
+
+arXiv:2601.00268v1 Announce Type: new 
+Abstract: We introduce WildAGTEval, a benchmark designed to evaluate large language model (LLM) agents' function-calling capabilities under realistic API complex...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.00268) | [📝 Analysis](bd8bc7334a593c86394edc9a0fa6ddc3.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-05 09:47:29 UTC*

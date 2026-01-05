@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Constructing a Neuro-Symbolic Mathematician from First Principles
+
+**Score:** 92.0 | **Published:** 2026-01-05 | **Authors:** Keqin Xie
+
+arXiv:2601.00125v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) exhibit persistent logical failures in complex reasoning due to the lack of an internal axiomatic framework. We propose Ma...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.00125) | [📝 Analysis](9ff5cc265bef5cebd66eadfa3b8a3f35.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-05 09:47:29 UTC*

@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Constructing a Neuro-Symbolic Mathematician from First Principles",
+      "authors": [
+        "Keqin Xie"
+      ],
+      "abstract": "arXiv:2601.00125v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit persistent logical failures in complex reasoning due to the lack of an internal axiomatic framework. We propose Mathesis, a neuro-symbolic architecture that encodes mathematical states as higher-order hypergraphs and uses a Symbolic Reasoning Kernel (SRK)--a differentiable logic engine that maps constraints to a continuous energy landscape. By defining a global energy function E(G), where zero energy implies logical consistency, the SRK yields gradient-based signals to train a Hypergraph Transformer Brain, turning proof search into energy minimization. Multi-step deduction is enabled via Monte Carlo Tree Search and Evolutionary Proof Search, guided by learned value functions and semantic unification.",
+      "url": "https://arxiv.org/abs/2601.00125",
+      "published_date": "2026-01-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 80,
+      "sentiment_score": 85,
+      "keywords": [
+        "energy",
+        "search",
+        "symbolic",
+        "logical",
+        "neuro",
+        "neuro symbolic",
+        "proof",
+        "proof search",
+        "reasoning",
+        "srk"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial limitation of LLMs \u2013 their lack of robust logical reasoning \u2013 with a novel neuro-symbolic approach. The combination of hypergraphs, a differentiable logic engine (SRK), and search algorithms like Monte Carlo Tree Search appears well-motivated and potentially effective. While the abstract doesn't detail implementation specifics, the core idea of framing proof search as energy minimization is compelling and suggests a rigorous methodology.",
+      "paper_id": "9ff5cc265bef5cebd66eadfa3b8a3f35"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-01-05T09:47:29.284084"
 }
