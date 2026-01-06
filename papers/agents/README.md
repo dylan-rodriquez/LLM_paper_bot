@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Lying with Truths: Open-Channel Multi-Agent Collusion for Belief Manipulation via Generative Montage
+
+**Score:** 92.0 | **Published:** 2026-01-06 | **Authors:** Jinwei Hu, Xinmiao Huang, Youcheng Sun, Yi Dong, Xiaowei Huang
+
+arXiv:2601.01685v1 Announce Type: new 
+Abstract: As large language models (LLMs) transition to autonomous agents synthesizing real-time information, their reasoning capabilities introduce an unexpecte...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.01685) | [📝 Analysis](4b7743614d91efd7126440e958c5877c.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-06 09:36:16 UTC*

@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Emergent Introspective Awareness in Large Language Models",
+      "authors": [
+        "Jack Lindsey"
+      ],
+      "abstract": "arXiv:2601.01828v1 Announce Type: new \nAbstract: We investigate whether large language models can introspect on their internal states. It is difficult to answer this question through conversation alone, as genuine introspection cannot be distinguished from confabulations. Here, we address this challenge by injecting representations of known concepts into a model's activations, and measuring the influence of these manipulations on the model's self-reported states. We find that models can, in certain scenarios, notice the presence of injected concepts and accurately identify them. Models demonstrate some ability to recall prior internal representations and distinguish them from raw text inputs. Strikingly, we find that some models can use their ability to recall prior intentions in order to distinguish their own outputs from artificial prefills. In all these experiments, Claude Opus 4 and 4.1, the most capable models we tested, generally demonstrate the greatest introspective awareness; however, trends across models are complex and sensitive to post-training strategies. Finally, we explore whether models can explicitly control their internal representations, finding that models can modulate their activations when instructed or incentivized to \"think about\" a concept. Overall, our results indicate that current language models possess some functional introspective awareness of their own internal states. We stress that in today's models, this capacity is highly unreliable and context-dependent; however, it may continue to develop with further improvements to model capabilities.",
+      "url": "https://arxiv.org/abs/2601.01828",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "internal",
+        "awareness",
+        "introspective",
+        "introspective awareness",
+        "language",
+        "language models",
+        "model",
+        "representations",
+        "states"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a fundamental question about LLMs \u2013 whether they possess genuine introspection \u2013 with a clever and well-designed methodology. The approach of injecting concepts and measuring the model's self-reporting is a significant step beyond conversational probing, offering a more objective assessment. The focus on Claude Opus models and their superior performance further strengthens the findings, suggesting a correlation between model capability and introspective awareness.",
+      "paper_id": "98fb8190a369901f9b536d841ac7944d"
+    },
+    {
+      "title": "LLM Collusion",
+      "authors": [
+        "Shengyu Cao, Ming Hu"
+      ],
+      "abstract": "arXiv:2601.01279v1 Announce Type: cross \nAbstract: We study how delegating pricing to large language models (LLMs) can facilitate collusion in a duopoly when both sellers rely on the same pre-trained model. The LLM is characterized by (i) a propensity parameter capturing its internal bias toward high-price recommendations and (ii) an output-fidelity parameter measuring how tightly outputs track that bias; the propensity evolves through retraining. We show that configuring LLMs for robustness and reproducibility can induce collusion via a phase transition: there exists a critical output-fidelity threshold that pins down long-run behavior. Below it, competitive pricing is the unique long-run outcome. Above it, the system is bistable, with competitive and collusive pricing both locally stable and the realized outcome determined by the model's initial preference. The collusive regime resembles tacit collusion: prices are elevated on average, yet occasional low-price recommendations provide plausible deniability. With perfect fidelity, full collusion emerges from any interior initial condition. For finite training batches of size $b$, infrequent retraining (driven by computational costs) further amplifies collusion: conditional on starting in the collusive basin, the probability of collusion approaches one as $b$ grows, since larger batches dampen stochastic fluctuations that might otherwise tip the system toward competition. The indeterminacy region shrinks at rate $O(1/\\sqrt{b})$.",
+      "url": "https://arxiv.org/abs/2601.01279",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "econ.TH"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "collusion",
+        "collusive",
+        "fidelity",
+        "pricing",
+        "batches",
+        "bias",
+        "competitive",
+        "initial",
+        "llm",
+        "llms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the potential for unintended collusion facilitated by LLMs in economic settings. The framing of the problem with 'propensity' and 'output-fidelity' parameters is insightful, and the identification of a critical threshold for bistability is a strong result. The connection to tacit collusion is also a significant observation, suggesting real-world implications. While the abstract doesn't detail the methodology, the conceptual framework appears rigorous.",
+      "paper_id": "e0dbb2bd2229a50d376acf2ee4e13e8b"
+    },
+    {
+      "title": "CogCanvas: Compression-Resistant Cognitive Artifacts for Long LLM Conversations",
+      "authors": [
+        "Tao An"
+      ],
+      "abstract": "arXiv:2601.00821v1 Announce Type: cross \nAbstract: Large language models face a fundamental tension between context window limits and information fidelity in long conversations. Existing approaches--truncation and summarization--either discard early information or lose nuanced details. We introduce CogCanvas, a training-free framework that extracts verbatim-grounded cognitive artifacts (decisions, facts, reminders) from conversation turns and organizes them into a temporal-aware graph for compression-resistant retrieval.\n  On the LoCoMo benchmark, CogCanvas achieves 34.7% overall accuracy, outperforming RAG (25.6%, +9.1pp) and GraphRAG (13.7%, +21.0pp). The advantage is most pronounced on temporal reasoning: 31.5% vs. 9.3% (RAG) and 5.0% (GraphRAG)--a +530% relative improvement. On multi-hop causal reasoning, CogCanvas achieves 81.0% pass rate vs. 40.0% for GraphRAG (+41.0pp). Controlled benchmarks show 97.5% recall (+78.5pp vs. summarization) with 93.0% exact match preservation.\n  While heavily-optimized approaches achieve higher absolute scores through dedicated training (EverMemOS: approximately 92%), our training-free approach provides practitioners with an immediately-deployable alternative that significantly outperforms standard baselines. Code and data: https://github.com/tao-hpu/cog-canvas.",
+      "url": "https://arxiv.org/abs/2601.00821",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "cogcanvas",
+        "graphrag",
+        "training",
+        "vs",
+        "0pp",
+        "achieves",
+        "approaches",
+        "artifacts",
+        "cogcanvas achieves",
+        "cognitive"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in LLM performance \u2013 long context handling \u2013 with a novel approach that avoids the pitfalls of truncation and summarization. The reported results on LoCoMo, particularly the significant gains in temporal and multi-hop reasoning, are compelling. While the framework is described as 'training-free,' the effectiveness suggests a well-designed and implemented system, and the high recall and exact match preservation are impressive. The strong performance metrics and relevance to current LLM limitations indicate a positive reception from the research community.",
+      "paper_id": "40114059dd0c9a84e4a0981f0ddf29cb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-06T09:36:16.767559"
 }
