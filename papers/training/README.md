@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Emergent Introspective Awareness in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-06 | **Authors:** Jack Lindsey
+
+arXiv:2601.01828v1 Announce Type: new 
+Abstract: We investigate whether large language models can introspect on their internal states. It is difficult to answer this question through conversation alon...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.01828) | [📝 Analysis](98fb8190a369901f9b536d841ac7944d.md)
+
+---
+
+### LLM Collusion
+
+**Score:** 92.0 | **Published:** 2026-01-06 | **Authors:** Shengyu Cao, Ming Hu
+
+arXiv:2601.01279v1 Announce Type: cross 
+Abstract: We study how delegating pricing to large language models (LLMs) can facilitate collusion in a duopoly when both sellers rely on the same pre-trained ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.01279) | [📝 Analysis](e0dbb2bd2229a50d376acf2ee4e13e8b.md)
+
+---
+
+### CogCanvas: Compression-Resistant Cognitive Artifacts for Long LLM Conversations
+
+**Score:** 90.0 | **Published:** 2026-01-06 | **Authors:** Tao An
+
+arXiv:2601.00821v1 Announce Type: cross 
+Abstract: Large language models face a fundamental tension between context window limits and information fidelity in long conversations. Existing approaches--t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.00821) | [📝 Analysis](40114059dd0c9a84e4a0981f0ddf29cb.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-06 09:36:16 UTC*

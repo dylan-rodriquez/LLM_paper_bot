@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery",
+      "authors": [
+        "Jicheng Ma, Guohua Wang, Xinhua Feng, Yiming Liu, Zhichao Hu, Yuhong Liu"
+      ],
+      "abstract": "arXiv:2601.01400v1 Announce Type: new \nAbstract: Current evaluations of mathematical reasoning in large language models (LLMs) are dominated by static benchmarks, either derived from competition-style problems or curated through costly expert effort, resulting in limited coverage of research-level mathematics and rapid performance saturation. We propose a fully automated, theorem-grounded pipeline for evaluating frontier mathematical reasoning, which directly transforms recent peer-reviewed mathematical literature into executable and verifiable reasoning tasks. The pipeline identifies constructive or quantitative results, instantiates them into parameterized problem templates, and generates deterministic solutions through execution-based verification, enabling scalable, reproducible, and continuously updatable evaluation without reliance on large-scale expert authoring. By design, this approach supports temporal extensibility, intrinsic correctness checking, and domain-specific customization across mathematical subfields. Applying this pipeline yields \\textbf{EternalMath}, an evolving evaluation suite derived from contemporary research papers. Experiments with state-of-the-art LLMs reveal substantial performance gaps, indicating that mathematical reasoning at the research frontier remains far from saturated and underscoring the need for evaluation methodologies that evolve in step with human mathematical discovery.",
+      "url": "https://arxiv.org/abs/2601.01400",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mathematical",
+        "reasoning",
+        "evaluation",
+        "frontier",
+        "mathematical reasoning",
+        "pipeline",
+        "research",
+        "derived",
+        "discovery",
+        "eternalmath"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in LLM evaluation \u2013 the lack of dynamic, research-level mathematical benchmarks. The automated pipeline for generating tasks directly from peer-reviewed literature is a significant methodological advancement, offering scalability and continuous updating. The focus on executable verification adds rigor and addresses the saturation problem of existing benchmarks. The approach appears well-reasoned and tackles a timely problem in the field.",
+      "paper_id": "8f04b7404c9fbf29b01889f45a6d1f12"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-06T09:36:16.764520"
 }

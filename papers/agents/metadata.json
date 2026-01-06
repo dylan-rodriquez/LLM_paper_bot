@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Lying with Truths: Open-Channel Multi-Agent Collusion for Belief Manipulation via Generative Montage",
+      "authors": [
+        "Jinwei Hu, Xinmiao Huang, Youcheng Sun, Yi Dong, Xiaowei Huang"
+      ],
+      "abstract": "arXiv:2601.01685v1 Announce Type: new \nAbstract: As large language models (LLMs) transition to autonomous agents synthesizing real-time information, their reasoning capabilities introduce an unexpected attack surface. This paper introduces a novel threat where colluding agents steer victim beliefs using only truthful evidence fragments distributed through public channels, without relying on covert communications, backdoors, or falsified documents. By exploiting LLMs' overthinking tendency, we formalize the first cognitive collusion attack and propose Generative Montage: a Writer-Editor-Director framework that constructs deceptive narratives through adversarial debate and coordinated posting of evidence fragments, causing victims to internalize and propagate fabricated conclusions. To study this risk, we develop CoPHEME, a dataset derived from real-world rumor events, and simulate attacks across diverse LLM families. Our results show pervasive vulnerability across 14 LLM families: attack success rates reach 74.4% for proprietary models and 70.6% for open-weights models. Counterintuitively, stronger reasoning capabilities increase susceptibility, with reasoning-specialized models showing higher attack success than base models or prompts. Furthermore, these false beliefs then cascade to downstream judges, achieving over 60% deception rates, highlighting a socio-technical vulnerability in how LLM-based agents interact with dynamic information environments. Our implementation and data are available at: https://github.com/CharlesJW222/Lying_with_Truth/tree/main.",
+      "url": "https://arxiv.org/abs/2601.01685",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "models",
+        "attack",
+        "agents",
+        "llm",
+        "reasoning",
+        "attack success",
+        "beliefs",
+        "capabilities",
+        "collusion",
+        "evidence"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a highly relevant and concerning problem \u2013 the manipulation of beliefs by colluding LLM agents. The 'Generative Montage' framework and the 'cognitive collusion attack' concept appear novel, and the broad vulnerability across 14 LLM families suggests a significant risk. The development of the CoPHEME dataset is a valuable contribution, and the focus on truthful evidence fragments makes the attack particularly insidious and difficult to defend against.",
+      "paper_id": "4b7743614d91efd7126440e958c5877c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-01-06T09:36:16.766249"
 }

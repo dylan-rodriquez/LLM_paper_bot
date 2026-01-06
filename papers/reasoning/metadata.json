@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "CSF: Contrastive Semantic Features for Direct Multilingual Sign Language Generation",
+      "authors": [
+        "Tran Sy Bao"
+      ],
+      "abstract": "arXiv:2601.01964v1 Announce Type: new \nAbstract: Sign language translation systems typically require English as an intermediary language, creating barriers for non-English speakers in the global deaf community. We present Canonical Semantic Form (CSF), a language-agnostic semantic representation framework that enables direct translation from any source language to sign language without English mediation. CSF decomposes utterances into nine universal semantic slots: event, intent, time, condition, agent, object, location, purpose, and modifier. A key contribution is our comprehensive condition taxonomy comprising 35 condition types across eight semantic categories, enabling nuanced representation of conditional expressions common in everyday communication. We train a lightweight transformer-based extractor (0.74 MB) that achieves 99.03% average slot extraction accuracy across four typologically diverse languages: English, Vietnamese, Japanese, and French. The model demonstrates particularly strong performance on condition classification (99.4% accuracy) despite the 35-class complexity. With inference latency of 3.02ms on CPU, our approach enables real-time sign language generation in browser-based applications. We release our code, trained models, and multilingual dataset to support further research in accessible sign language technology.",
+      "url": "https://arxiv.org/abs/2601.01964",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "language",
+        "semantic",
+        "sign",
+        "sign language",
+        "condition",
+        "english",
+        "csf",
+        "35",
+        "99",
+        "accuracy"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in sign language translation \u2013 the reliance on English as an intermediary. The proposed CSF framework and its comprehensive condition taxonomy represent a significant step towards truly multilingual sign language generation. The reported 99.03% slot extraction accuracy is impressive, suggesting a robust and well-designed system, though further details on the evaluation setup are needed. The lightweight model size is also a positive indicator for practical deployment.",
+      "paper_id": "c5b7871d1c93f114eae9a1b2a6c813dc"
+    },
+    {
+      "title": "Toward Global Large Language Models in Medicine",
+      "authors": [
+        "Rui Yang, Huitao Li, Weihao Xuan, Heli Qi, Xin Li, Kunyu Yu, Yingjian Chen, Rongrong Wang, Jacques Behmoaras, Tianxi Cai, Bibhas Chakraborty, Qingyu Chen, Lionel Tim-Ee Cheng, Marie-Louise Damwanza, Chido Dzinotyiwei, Aosong Feng, Chuan Hong, Yusuke Iwasawa, Yuhe Ke, Linah Kitala, Taehoon Ko, Jisan Lee, Irene Li, Jonathan Chong Kai Liew, Hongfang Liu, Lian Leng Low, Edison Marrese-Taylor, Yutaka Matsuo, Isheanesu Misi, Yilin Ning, Jasmine Chiat Ling Ong, Marcus Eng Hock Ong, Enrico Petretto, Hossein Rouhizadeh, Abiram Sandralegar, Oren Schreier, Iain Bee Huat Tan, Patrick Tan, Daniel Shu Wei Ting, Junjue Wang, Chunhua Weng, Matthew Yu Heng Wong, Fang Wu, Yunze Xiao, Xuhai Xu, Qingcheng Zeng, Zhuo Zheng, Yifan Peng, Douglas Teodoro, Nan Liu"
+      ],
+      "abstract": "arXiv:2601.02186v1 Announce Type: new \nAbstract: Despite continuous advances in medical technology, the global distribution of health care resources remains uneven. The development of large language models (LLMs) has transformed the landscape of medicine and holds promise for improving health care quality and expanding access to medical information globally. However, existing LLMs are primarily trained on high-resource languages, limiting their applicability in global medical scenarios. To address this gap, we constructed GlobMed, a large multilingual medical dataset, containing over 500,000 entries spanning 12 languages, including four low-resource languages. Building on this, we established GlobMed-Bench, which systematically assesses 56 state-of-the-art proprietary and open-weight LLMs across multiple multilingual medical tasks, revealing significant performance disparities across languages, particularly for low-resource languages. Additionally, we introduced GlobMed-LLMs, a suite of multilingual medical LLMs trained on GlobMed, with parameters ranging from 1.7B to 8B. GlobMed-LLMs achieved an average performance improvement of over 40% relative to baseline models, with a more than threefold increase in performance on low-resource languages. Together, these resources provide an important foundation for advancing the equitable development and application of LLMs globally, enabling broader language communities to benefit from technological advances.",
+      "url": "https://arxiv.org/abs/2601.02186",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "languages",
+        "medical",
+        "globmed",
+        "resource",
+        "resource languages",
+        "global",
+        "language",
+        "large",
+        "low"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a crucial gap in LLM development \u2013 the lack of representation for low-resource languages in the medical domain. The creation of GlobMed and GlobMed-Bench is a significant contribution, providing a valuable resource for the community and a rigorous evaluation framework. The systematic assessment of LLMs across multiple languages highlights critical performance disparities and points towards areas for improvement, suggesting a high likelihood of positive reception.",
+      "paper_id": "ec938ebfb4513096ff999f5e41ee2e9d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-06T09:36:16.769831"
 }

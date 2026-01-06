@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "JMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating Medical Safety in Japanese Large Language Models",
+      "authors": [
+        "Junyu Liu, Zirui Li, Qian Niu, Zequn Zhang, Yue Xun, Wenlong Hou, Shujun Wang, Yusuke Iwasawa, Yutaka Matsuo, Kan Hatakeyama-Sato"
+      ],
+      "abstract": "arXiv:2601.01627v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are increasingly deployed in healthcare field, it becomes essential to carefully evaluate their medical safety before clinical use. However, existing safety benchmarks remain predominantly English-centric, and test with only single-turn prompts despite multi-turn clinical consultations. To address these gaps, we introduce JMedEthicBench, the first multi-turn conversational benchmark for evaluating medical safety of LLMs for Japanese healthcare. Our benchmark is based on 67 guidelines from the Japan Medical Association and contains over 50,000 adversarial conversations generated using seven automatically discovered jailbreak strategies. Using a dual-LLM scoring protocol, we evaluate 27 models and find that commercial models maintain robust safety while medical-specialized models exhibit increased vulnerability. Furthermore, safety scores decline significantly across conversation turns (median: 9.5 to 5.0, $p < 0.001$). Cross-lingual evaluation on both Japanese and English versions of our benchmark reveals that medical model vulnerabilities persist across languages, indicating inherent alignment limitations rather than language-specific factors. These findings suggest that domain-specific fine-tuning may accidentally weaken safety mechanisms and that multi-turn interactions represent a distinct threat surface requiring dedicated alignment strategies.",
+      "url": "https://arxiv.org/abs/2601.01627",
+      "published_date": "2026-01-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "safety",
+        "medical",
+        "models",
+        "turn",
+        "benchmark",
+        "multi",
+        "multi turn",
+        "japanese",
+        "language",
+        "medical safety"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the lack of Japanese language benchmarks and multi-turn conversational testing. The creation of JMedEthicBench, with its substantial size and adversarial conversation generation, is a significant contribution. The dual-LLM scoring protocol and initial findings regarding commercial vs. specialized model vulnerabilities are well-presented and suggest a rigorous methodology. The focus on Japanese healthcare is particularly important given the increasing global adoption of LLMs.",
+      "paper_id": "2eed0f02ae6b6958b5fe5d54e5e67bcf"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-06T09:36:16.765613"
 }

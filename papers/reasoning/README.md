@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### CSF: Contrastive Semantic Features for Direct Multilingual Sign Language Generation
+
+**Score:** 92.0 | **Published:** 2026-01-06 | **Authors:** Tran Sy Bao
+
+arXiv:2601.01964v1 Announce Type: new 
+Abstract: Sign language translation systems typically require English as an intermediary language, creating barriers for non-English speakers in the global deaf ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.01964) | [📝 Analysis](c5b7871d1c93f114eae9a1b2a6c813dc.md)
+
+---
+
+### Toward Global Large Language Models in Medicine
+
+**Score:** 92.0 | **Published:** 2026-01-06 | **Authors:** Rui Yang, Huitao Li, Weihao Xuan, Heli Qi, Xin Li, Kunyu Yu, Yingjian Chen, Rongrong Wang, Jacques Behmoaras, Tianxi Cai, Bibhas Chakraborty, Qingyu Chen, Lionel Tim-Ee Cheng, Marie-Louise Damwanza, Chido Dzinotyiwei, Aosong Feng, Chuan Hong, Yusuke Iwasawa, Yuhe Ke, Linah Kitala, Taehoon Ko, Jisan Lee, Irene Li, Jonathan Chong Kai Liew, Hongfang Liu, Lian Leng Low, Edison Marrese-Taylor, Yutaka Matsuo, Isheanesu Misi, Yilin Ning, Jasmine Chiat Ling Ong, Marcus Eng Hock Ong, Enrico Petretto, Hossein Rouhizadeh, Abiram Sandralegar, Oren Schreier, Iain Bee Huat Tan, Patrick Tan, Daniel Shu Wei Ting, Junjue Wang, Chunhua Weng, Matthew Yu Heng Wong, Fang Wu, Yunze Xiao, Xuhai Xu, Qingcheng Zeng, Zhuo Zheng, Yifan Peng, Douglas Teodoro, Nan Liu
+
+arXiv:2601.02186v1 Announce Type: new 
+Abstract: Despite continuous advances in medical technology, the global distribution of health care resources remains uneven. The development of large language m...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02186) | [📝 Analysis](ec938ebfb4513096ff999f5e41ee2e9d.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-06 09:36:16 UTC*
