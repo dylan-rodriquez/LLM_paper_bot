@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Anatomy of Conversational Scams: A Topic-Based Red Teaming Analysis of Multi-Turn Interactions in LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Xiangzhe Yuan, Zhenhao Zhang, Haoming Tang, Siying Hu
+
+arXiv:2601.03134v1 Announce Type: new 
+Abstract: As LLMs gain persuasive agentic capabilities through extended dialogues, they introduce novel risks in multi-turn conversational scams that single-turn...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03134) | [📝 Analysis](2aaa7a54e186fa7ffa40aef0f973aca7.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*

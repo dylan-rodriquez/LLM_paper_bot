@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Multi-Turn Jailbreaking of Aligned LLMs via Lexical Anchor Tree Search
+
+**Score:** 90.0 | **Published:** 2026-01-07 | **Authors:** Devang Kulshreshtha, Hang Su, Chinmay Hegde, Haohan Wang
+
+arXiv:2601.02670v1 Announce Type: new 
+Abstract: Most jailbreak methods achieve high attack success rates (ASR) but require attacker LLMs to craft adversarial queries and/or demand high query budgets....
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02670) | [📝 Analysis](19080af777377782615b33b47e33e457.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*

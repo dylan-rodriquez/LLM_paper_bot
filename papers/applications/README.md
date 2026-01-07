@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Towards Comprehensive Stage-wise Benchmarking of Large Language Models in Fact-Checking
+
+**Score:** 90.0 | **Published:** 2026-01-07 | **Authors:** Hongzhan Lin, Zixin Chen, Zhiqi Shen, Ziyang Luo, Zhen Ye, Jing Ma, Tat-Seng Chua, Guandong Xu
+
+arXiv:2601.02669v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in real-world fact-checking systems, yet existing evaluations focus predominantly on claim verif...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02669) | [📝 Analysis](73f8c773c9927fe623674a5e7ab33b71.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*

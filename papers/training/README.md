@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Extracting books from production language models
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Ahmed Ahmed, A. Feder Cooper, Sanmi Koyejo, Percy Liang
+
+arXiv:2601.02671v1 Announce Type: new 
+Abstract: Many unresolved legal questions over LLMs and copyright center on memorization: whether specific training data have been encoded in the model's weights...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02671) | [📝 Analysis](759297f12b51b490415dec53d9005dc7.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*

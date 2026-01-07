@@ -2,7 +2,29 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Beyond the Black Box: Theory and Mechanism of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Zeyu Gan, Ruifeng Ren, Wei Yao, Xiaolin Hu, Gengze Xu, Chen Qian, Huayi Tang, Zixuan Gong, Xinhao Yao, Pengwei Tang, Zhenxing Dou, Yong Liu
+
+arXiv:2601.02907v1 Announce Type: new 
+Abstract: The rapid emergence of Large Language Models (LLMs) has precipitated a profound paradigm shift in Artificial Intelligence, delivering monumental engine...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02907) | [📝 Analysis](12bcb0d3b6cb1b985dd8e126dfffbcfe.md)
+
+---
+
+### Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Xinglang Zhang, Yunyao Zhang, ZeLiang Chen, Junqing Yu, Wei Yang, Zikai Song
+
+arXiv:2601.02902v1 Announce Type: cross 
+Abstract: Symbolic logical reasoning is a critical yet underexplored capability of large language models (LLMs), providing reliable and verifiable decision-mak...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02902) | [📝 Analysis](b66cf35ba9d6d3410986c417d45512b3.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +82,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*
