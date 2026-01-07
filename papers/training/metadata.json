@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Extracting books from production language models",
+      "authors": [
+        "Ahmed Ahmed, A. Feder Cooper, Sanmi Koyejo, Percy Liang"
+      ],
+      "abstract": "arXiv:2601.02671v1 Announce Type: new \nAbstract: Many unresolved legal questions over LLMs and copyright center on memorization: whether specific training data have been encoded in the model's weights during training, and whether those memorized data can be extracted in the model's outputs. While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models. However, it remains an open question if similar extraction is feasible for production LLMs, given the safety measures these systems implement. We investigate this question using a two-phase procedure: (1) an initial probe to test for extraction feasibility, which sometimes uses a Best-of-N (BoN) jailbreak, followed by (2) iterative continuation prompts to attempt to extract the book. We evaluate our procedure on four production LLMs -- Claude 3.7 Sonnet, GPT-4.1, Gemini 2.5 Pro, and Grok 3 -- and we measure extraction success with a score computed from a block-based approximation of longest common substring (nv-recall). With different per-LLM experimental configurations, we were able to extract varying amounts of text. For the Phase 1 probe, it was unnecessary to jailbreak Gemini 2.5 Pro and Grok 3 to extract text (e.g, nv-recall of 76.8% and 70.3%, respectively, for Harry Potter and the Sorcerer's Stone), while it was necessary for Claude 3.7 Sonnet and GPT-4.1. In some cases, jailbroken Claude 3.7 Sonnet outputs entire books near-verbatim (e.g., nv-recall=95.8%). GPT-4.1 requires significantly more BoN attempts (e.g., 20X), and eventually refuses to continue (e.g., nv-recall=4.0%). Taken together, our work highlights that, even with model- and system-level safeguards, extraction of (in-copyright) training data remains a risk for production LLMs.",
+      "url": "https://arxiv.org/abs/2601.02671",
+      "published_date": "2026-01-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "data",
+        "extraction",
+        "nv",
+        "nv recall",
+        "production",
+        "recall",
+        "training",
+        "claude",
+        "claude sonnet"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly relevant and timely issue \u2013 the extent to which production LLMs memorize and reproduce copyrighted material. The methodology, involving probing and iterative continuation, appears sound and addresses a critical gap in understanding the capabilities of these models. While the 'two-phase procedure' isn't entirely novel, applying it to *production* LLMs, which employ safety measures, is a significant step forward, and the results will likely be of high interest to the NLP community and legal scholars.",
+      "paper_id": "759297f12b51b490415dec53d9005dc7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-07T09:46:30.253619"
 }

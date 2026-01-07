@@ -159,7 +159,71 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Beyond the Black Box: Theory and Mechanism of Large Language Models",
+      "authors": [
+        "Zeyu Gan, Ruifeng Ren, Wei Yao, Xiaolin Hu, Gengze Xu, Chen Qian, Huayi Tang, Zixuan Gong, Xinhao Yao, Pengwei Tang, Zhenxing Dou, Yong Liu"
+      ],
+      "abstract": "arXiv:2601.02907v1 Announce Type: new \nAbstract: The rapid emergence of Large Language Models (LLMs) has precipitated a profound paradigm shift in Artificial Intelligence, delivering monumental engineering successes that increasingly impact modern society. However, a critical paradox persists within the current field: despite the empirical efficacy, our theoretical understanding of LLMs remains disproportionately nascent, forcing these systems to be treated largely as ``black boxes''. To address this theoretical fragmentation, this survey proposes a unified lifecycle-based taxonomy that organizes the research landscape into six distinct stages: Data Preparation, Model Preparation, Training, Alignment, Inference, and Evaluation. Within this framework, we provide a systematic review of the foundational theories and internal mechanisms driving LLM performance. Specifically, we analyze core theoretical issues such as the mathematical justification for data mixtures, the representational limits of various architectures, and the optimization dynamics of alignment algorithms. Moving beyond current best practices, we identify critical frontier challenges, including the theoretical limits of synthetic data self-improvement, the mathematical bounds of safety guarantees, and the mechanistic origins of emergent intelligence. By connecting empirical observations with rigorous scientific inquiry, this work provides a structured roadmap for transitioning LLM development from engineering heuristics toward a principled scientific discipline.",
+      "url": "https://arxiv.org/abs/2601.02907",
+      "published_date": "2026-01-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "theoretical",
+        "data",
+        "alignment",
+        "black",
+        "critical",
+        "current",
+        "empirical",
+        "engineering",
+        "intelligence",
+        "language"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This survey paper tackles a crucial issue in the LLM field \u2013 the lack of theoretical understanding despite practical success. The proposed lifecycle-based taxonomy offers a structured approach to organizing research, and the focus on foundational theories is highly valuable. While a survey isn't inherently 'innovative' in the same way as a novel algorithm, the synthesis and organization of existing knowledge is a significant contribution, and the topic is extremely timely and relevant.",
+      "paper_id": "12bcb0d3b6cb1b985dd8e126dfffbcfe"
+    },
+    {
+      "title": "Logical Phase Transitions: Understanding Collapse in LLM Logical Reasoning",
+      "authors": [
+        "Xinglang Zhang, Yunyao Zhang, ZeLiang Chen, Junqing Yu, Wei Yang, Zikai Song"
+      ],
+      "abstract": "arXiv:2601.02902v1 Announce Type: cross \nAbstract: Symbolic logical reasoning is a critical yet underexplored capability of large language models (LLMs), providing reliable and verifiable decision-making in high-stakes domains such as mathematical reasoning and legal judgment. In this study, we present a systematic analysis of logical reasoning under controlled increases in logical complexity, and reveal a previously unrecognized phenomenon, which we term Logical Phase Transitions: rather than degrading smoothly, logical reasoning performance remains stable within a regime but collapses abruptly beyond a critical logical depth, mirroring physical phase transitions such as water freezing beyond a critical temperature threshold. Building on this insight, we propose Neuro-Symbolic Curriculum Tuning, a principled framework that adaptively aligns natural language with logical symbols to establish a shared representation, and reshapes training dynamics around phase-transition boundaries to progressively strengthen reasoning at increasing logical depths. Experiments on five benchmarks show that our approach effectively mitigates logical reasoning collapse at high complexity, yielding average accuracy gains of +1.26 in naive prompting and +3.95 in CoT, while improving generalization to unseen logical compositions. Code and data are available at https://github.com/AI4SS/Logical-Phase-Transitions.",
+      "url": "https://arxiv.org/abs/2601.02902",
+      "published_date": "2026-01-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "logical",
+        "reasoning",
+        "logical reasoning",
+        "phase",
+        "phase transitions",
+        "transitions",
+        "critical",
+        "logical phase",
+        "collapse",
+        "complexity"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a crucial limitation of LLMs \u2013 their brittle logical reasoning \u2013 and introduces a compelling 'Logical Phase Transitions' phenomenon. The proposed Neuro-Symbolic Curriculum Tuning offers a principled approach to mitigate this issue, potentially leading to more reliable LLM performance in critical applications. The framing of logical reasoning collapse as a phase transition is a novel and insightful analogy, suggesting a deeper understanding of LLM behavior.",
+      "paper_id": "b66cf35ba9d6d3410986c417d45512b3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-01-07T09:46:30.257235"
 }

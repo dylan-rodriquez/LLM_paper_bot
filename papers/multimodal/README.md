@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Zhaojiang Lin, Yong Xu, Kai Sun, Jing Zheng, Yin Huang, Surya Teja Appini, Krish Narang, Renjie Tao, Ishan Kapil Jain, Siddhant Arora, Ruizhi Li, Yiteng Huang, Kaushik Patnaik, Wenfang Xu, Suwon Shon, Yue Liu, Ahmed A Aly, Anuj Kumar, Florian Metze, Xin Luna Dong
+
+arXiv:2601.02391v1 Announce Type: new 
+Abstract: Wearable devices such as AI glasses are transforming voice assistants into always-available, hands-free collaborators that integrate seamlessly with da...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02391) | [📝 Analysis](38632707ad266d52544725b35d2314ff.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Ziyang Chen, Xing Wu, Junlong Jia, Chaochen Gao, Qi Fu, Debing Zhang, Songlin Hu
+
+arXiv:2601.02872v1 Announce Type: new 
+Abstract: The rapid expansion of context length in large language models (LLMs) has outpaced existing evaluation benchmarks. Current long-context benchmarks ofte...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02872) | [📝 Analysis](8a18ad5f633e2949a3dc0d3e5032fbc7.md)
+
+---
+
+### MedDialogRubrics: A Comprehensive Benchmark and Evaluation Framework for Multi-turn Medical Consultations in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-07 | **Authors:** Lecheng Gong, Weimin Fang, Ting Yang, Dongjie Tao, Chunxiao Guo, Peng Wei, Bo Xie, Jinqun Guan, Zixiao Chen, Fang Shi, Jinjie Gu, Junwei Liu
+
+arXiv:2601.03023v1 Announce Type: new 
+Abstract: Medical conversational AI (AI) plays a pivotal role in the development of safer and more effective medical dialogue systems. However, existing benchmar...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03023) | [📝 Analysis](9bdf757afe0bd87c449cf9c71d74392b.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-07 09:46:30 UTC*
