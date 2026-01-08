@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators",
+      "authors": [
+        "Naseem Machlovi, Maryam Saleki, Ruhul Amin, Mohamed Rahouti, Shawqi Al-Maliki, Junaid Qadir, Mohamed M. Abdallah, Ala Al-Fuqaha"
+      ],
+      "abstract": "arXiv:2601.03273v1 Announce Type: new \nAbstract: As large language models (LLMs) become deeply embedded in daily life, the urgent need for safer moderation systems, distinguishing between naive from harmful requests while upholding appropriate censorship boundaries, has never been greater. While existing LLMs can detect harmful or unsafe content, they often struggle with nuanced cases such as implicit offensiveness, subtle gender and racial biases, and jailbreak prompts, due to the subjective and context-dependent nature of these issues. Furthermore, their heavy reliance on training data can reinforce societal biases, resulting in inconsistent and ethically problematic outputs. To address these challenges, we introduce GuardEval, a unified multi-perspective benchmark dataset designed for both training and evaluation, containing 106 fine-grained categories spanning human emotions, offensive and hateful language, gender and racial bias, and broader safety concerns. We also present GemmaGuard (GGuard), a QLoRA fine-tuned version of Gemma3-12B trained on GuardEval, to assess content moderation with fine-grained labels. Our evaluation shows that GGuard achieves a macro F1 score of 0.832, substantially outperforming leading moderation models, including OpenAI Moderator (0.64) and Llama Guard (0.61). We show that multi-perspective, human-centered safety benchmarks are critical for reducing biased and inconsistent moderation decisions. GuardEval and GGuard together demonstrate that diverse, representative data materially improve safety, fairness, and robustness on complex, borderline cases.",
+      "url": "https://arxiv.org/abs/2601.03273",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "guardeval",
+        "moderation",
+        "safety",
+        "fine",
+        "gguard",
+        "multi",
+        "multi perspective",
+        "perspective",
+        "benchmark",
+        "biases"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in LLM deployment \u2013 ensuring safety, fairness, and robustness of moderation systems. The creation of a multi-perspective benchmark (GuardEval) with 106 fine-grained categories is a significant contribution, offering a more nuanced evaluation than existing methods. While the core idea of a benchmark isn't entirely novel, the scope and granularity of GuardEval appear substantial, suggesting a high potential for adoption and impact.",
+      "paper_id": "eb09a7a755ee84b3a93e046d1df493c9"
+    },
+    {
+      "title": "PsychEthicsBench: Evaluating Large Language Models Against Australian Mental Health Ethics",
+      "authors": [
+        "Yaling Shen, Stephanie Fong, Yiwen Jiang, Zimu Wang, Feilong Tang, Qingyang Xu, Xiangyu Zhao, Zhongxing Xu, Jiahe Liu, Jinpeng Hu, Dominic Dwyer, Zongyuan Ge"
+      ],
+      "abstract": "arXiv:2601.03578v1 Announce Type: new \nAbstract: The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional safety alignment. Current evaluative approaches primarily rely on refusal-based safety signals, which offer limited insight into the nuanced behaviors required in clinical practice. In mental health, clinically inadequate refusals can be perceived as unempathetic and discourage help-seeking. To address this gap, we move beyond refusal-centric metrics and introduce \\texttt{PsychEthicsBench}, the first principle-grounded benchmark based on Australian psychology and psychiatry guidelines, designed to evaluate LLMs' ethical knowledge and behavioral responses through multiple-choice and open-ended tasks with fine-grained ethicality annotations. Empirical results across 14 models reveal that refusal rates are poor indicators of ethical behavior, revealing a significant divergence between safety triggers and clinical appropriateness. Notably, we find that domain-specific fine-tuning can degrade ethical robustness, as several specialized models underperform their base backbones in ethical alignment. PsychEthicsBench provides a foundation for systematic, jurisdiction-aware evaluation of LLMs in mental health, encouraging more responsible development in this domain.",
+      "url": "https://arxiv.org/abs/2601.03578",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ethical",
+        "health",
+        "mental",
+        "mental health",
+        "models",
+        "llms",
+        "psychethicsbench",
+        "refusal",
+        "safety",
+        "alignment"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the ethical evaluation of LLMs in a sensitive domain like mental health. The move beyond simple refusal-based metrics and the grounding in Australian psychological guidelines represent a significant step forward. The creation of PsychEthicsBench is a valuable contribution, and the initial findings suggesting refusal rates are poor proxies for ethical behavior are compelling. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception.",
+      "paper_id": "9a6dd1ea7b318d7487ab7ac15b864a32"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-08T09:47:32.041982"
 }

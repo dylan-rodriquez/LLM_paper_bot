@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DisastQA: A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management",
+      "authors": [
+        "Zhitong Chen, Kai Yin, Xiangjue Dong, Chengkai Liu, Xiangpeng Li, Yiming Xiao, Bo Li, Junwei Ma, Ali Mostafavi, James Caverlee"
+      ],
+      "abstract": "arXiv:2601.03670v1 Announce Type: new \nAbstract: Accurate question answering (QA) in disaster management requires reasoning over uncertain and conflicting information, a setting poorly captured by existing benchmarks built on clean evidence. We introduce DisastQA, a large-scale benchmark of 3,000 rigorously verified questions (2,000 multiple-choice and 1,000 open-ended) spanning eight disaster types. The benchmark is constructed via a human-LLM collaboration pipeline with stratified sampling to ensure balanced coverage. Models are evaluated under varying evidence conditions, from closed-book to noisy evidence integration, enabling separation of internal knowledge from reasoning under imperfect information. For open-ended QA, we propose a human-verified keypoint-based evaluation protocol emphasizing factual completeness over verbosity. Experiments with 20 models reveal substantial divergences from general-purpose leaderboards such as MMLU-Pro. While recent open-weight models approach proprietary systems in clean settings, performance degrades sharply under realistic noise, exposing critical reliability gaps for disaster response. All code, data, and evaluation resources are available at https://github.com/TamuChen18/DisastQA_open.",
+      "url": "https://arxiv.org/abs/2601.03670",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "disaster",
+        "000",
+        "benchmark",
+        "evidence",
+        "models",
+        "open",
+        "answering",
+        "clean",
+        "disaster management",
+        "disastqa"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 QA in disaster management \u2013 which is often overlooked in standard NLP benchmarks. The creation of a large-scale, rigorously verified benchmark (DisastQA) with varying evidence conditions is a strong methodological contribution. The human-LLM collaboration and keypoint-based evaluation for open-ended QA are also noteworthy, suggesting a careful and thoughtful approach to evaluation.",
+      "paper_id": "1da695ae82e12602d14600c0b05b3767"
+    },
+    {
+      "title": "RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models",
+      "authors": [
+        "Quy-Anh Dang, Chris Ngo, Truong-Son Hy"
+      ],
+      "abstract": "arXiv:2601.03699v1 Announce Type: new \nAbstract: As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. However, existing red teaming datasets suffer from inconsistent risk categorizations, limited domain coverage, and outdated evaluations, hindering systematic vulnerability assessments. To address these challenges, we introduce RedBench, a universal dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising 29,362 samples across attack and refusal prompts. RedBench employs a standardized taxonomy with 22 risk categories and 19 domains, enabling consistent and comprehensive evaluations of LLM vulnerabilities. We provide a detailed analysis of existing datasets, establish baselines for modern LLMs, and open-source the dataset and evaluation code. Our contributions facilitate robust comparisons, foster future research, and promote the development of secure and reliable LLMs for real-world deployment. Code: https://github.com/knoveleng/redeval",
+      "url": "https://arxiv.org/abs/2601.03699",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "dataset",
+        "datasets",
+        "llms",
+        "redbench",
+        "code",
+        "comprehensive",
+        "evaluations",
+        "existing",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in LLM safety \u2013 the lack of standardized and comprehensive red teaming datasets. Aggregating existing datasets and providing a standardized taxonomy is a significant undertaking and will greatly benefit the research community. While the core idea of dataset aggregation isn't entirely novel, the scale and standardization efforts demonstrate strong methodological rigor and potential for broad impact.",
+      "paper_id": "24da0b1b1718b64b2b5c361ff8d9443f"
+    },
+    {
+      "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+      "authors": [
+        "Qi Qian, Chengsong Huang, Jingwen Xu, Changze Lv, Muling Wu, Wenhao Liu, Xiaohua Wang, Zhenghua Wang, Zisu Huang, Muzhao Tian, Jianhan Xu, Kun Hu, He-Da Wang, Yao Hu, Xuanjing Huang, Xiaoqing Zheng"
+      ],
+      "abstract": "arXiv:2601.03986v1 Announce Type: new \nAbstract: The rapid proliferation of benchmarks for evaluating large language models (LLMs) has created an urgent need for systematic methods to assess benchmark quality itself. We propose Benchmark^2, a comprehensive framework comprising three complementary metrics: (1) Cross-Benchmark Ranking Consistency, measuring whether a benchmark produces model rankings aligned with peer benchmarks; (2) Discriminability Score, quantifying a benchmark's ability to differentiate between models; and (3) Capability Alignment Deviation, identifying problematic instances where stronger models fail but weaker models succeed within the same model family. We conduct extensive experiments across 15 benchmarks spanning mathematics, reasoning, and knowledge domains, evaluating 11 LLMs across four model families. Our analysis reveals significant quality variations among existing benchmarks and demonstrates that selective benchmark construction based on our metrics can achieve comparable evaluation performance with substantially reduced test sets.",
+      "url": "https://arxiv.org/abs/2601.03986",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "benchmark",
+        "benchmarks",
+        "models",
+        "model",
+        "evaluating",
+        "evaluation",
+        "llms",
+        "metrics",
+        "quality",
+        "systematic"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and rapidly growing problem in the LLM space \u2013 the reliability and comparability of benchmarks. The proposed Benchmark^2 framework, with its three metrics, offers a systematic and well-defined approach to evaluating benchmark quality. The extensive experiments across multiple benchmarks and models demonstrate the practical utility of the framework and suggest it could significantly improve the field's understanding of LLM capabilities.",
+      "paper_id": "c43d616edbf4970706ddc3396fb60aed"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-08T09:47:32.042952"
 }

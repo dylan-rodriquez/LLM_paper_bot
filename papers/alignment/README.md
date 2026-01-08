@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Naseem Machlovi, Maryam Saleki, Ruhul Amin, Mohamed Rahouti, Shawqi Al-Maliki, Junaid Qadir, Mohamed M. Abdallah, Ala Al-Fuqaha
+
+arXiv:2601.03273v1 Announce Type: new 
+Abstract: As large language models (LLMs) become deeply embedded in daily life, the urgent need for safer moderation systems, distinguishing between naive from h...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03273) | [📝 Analysis](eb09a7a755ee84b3a93e046d1df493c9.md)
+
+---
+
+### PsychEthicsBench: Evaluating Large Language Models Against Australian Mental Health Ethics
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Yaling Shen, Stephanie Fong, Yiwen Jiang, Zimu Wang, Feilong Tang, Qingyang Xu, Xiangyu Zhao, Zhongxing Xu, Jiahe Liu, Jinpeng Hu, Dominic Dwyer, Zongyuan Ge
+
+arXiv:2601.03578v1 Announce Type: new 
+Abstract: The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional s...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03578) | [📝 Analysis](9a6dd1ea7b318d7487ab7ac15b864a32.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-08 09:47:32 UTC*

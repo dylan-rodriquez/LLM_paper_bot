@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Jailbreak-Zero: A Path to Pareto Optimal Red Teaming for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Kai Hu, Abhinav Aggarwal, Mehran Khodabandeh, David Zhang, Eric Hsin, Li Chen, Ankit Jain, Matt Fredrikson, Akash Bharadwaj
+
+arXiv:2601.03265v1 Announce Type: new 
+Abstract: This paper introduces Jailbreak-Zero, a novel red teaming methodology that shifts the paradigm of Large Language Model (LLM) safety evaluation from a c...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03265) | [📝 Analysis](f9510bfe7a91913fb95077e2f3ae65e2.md)
+
+---
+
+### Rendering Data Unlearnable by Exploiting LLM Alignment Mechanisms
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Ruihan Zhang, Jun Sun
+
+arXiv:2601.03401v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly trained on massive, heterogeneous text corpora, raising serious concerns about the unauthorised use of pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03401) | [📝 Analysis](dac961bba235cb4cf04c33ecdbd36c4a.md)
+
+---
+
+### What Matters For Safety Alignment?
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Xing Li, Hui-Ling Zhen, Lihao Yin, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan
+
+arXiv:2601.03868v1 Announce Type: new 
+Abstract: This paper presents a comprehensive empirical study on the safety alignment capabilities. We evaluate what matters for safety alignment in LLMs and LRM...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03868) | [📝 Analysis](2a53ecc475310cb75c9142b79a95f4ec.md)
+
+---
+
+### O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL
+
+**Score:** 90.0 | **Published:** 2026-01-08 | **Authors:** Yi Yao, He Zhu, Piaohong Wang, Jincheng Ren, Xinlong Yang, Qianben Chen, Xiaowan Li, Dingfeng Shi, Jiaxian Li, Qiexiang Wang, Sinuo Wang, Xinpeng Liu, Jiaqi Wu, Minghao Liu, Wangchunshu Zhou
+
+arXiv:2601.03743v1 Announce Type: new 
+Abstract: The performance gap between closed-source and open-source large language models (LLMs) is largely attributed to disparities in access to high-quality t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03743) | [📝 Analysis](c91604284b5aff1504d7ce2a01591514.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-08 09:47:32 UTC*
