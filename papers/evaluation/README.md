@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DisastQA: A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Zhitong Chen, Kai Yin, Xiangjue Dong, Chengkai Liu, Xiangpeng Li, Yiming Xiao, Bo Li, Junwei Ma, Ali Mostafavi, James Caverlee
+
+arXiv:2601.03670v1 Announce Type: new 
+Abstract: Accurate question answering (QA) in disaster management requires reasoning over uncertain and conflicting information, a setting poorly captured by exi...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03670) | [📝 Analysis](1da695ae82e12602d14600c0b05b3767.md)
+
+---
+
+### RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Quy-Anh Dang, Chris Ngo, Truong-Son Hy
+
+arXiv:2601.03699v1 Announce Type: new 
+Abstract: As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. Ho...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03699) | [📝 Analysis](24da0b1b1718b64b2b5c361ff8d9443f.md)
+
+---
+
+### Benchmark^2: Systematic Evaluation of LLM Benchmarks
+
+**Score:** 92.0 | **Published:** 2026-01-08 | **Authors:** Qi Qian, Chengsong Huang, Jingwen Xu, Changze Lv, Muling Wu, Wenhao Liu, Xiaohua Wang, Zhenghua Wang, Zisu Huang, Muzhao Tian, Jianhan Xu, Kun Hu, He-Da Wang, Yao Hu, Xuanjing Huang, Xiaoqing Zheng
+
+arXiv:2601.03986v1 Announce Type: new 
+Abstract: The rapid proliferation of benchmarks for evaluating large language models (LLMs) has created an urgent need for systematic methods to assess benchmark...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03986) | [📝 Analysis](c43d616edbf4970706ddc3396fb60aed.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-08 09:47:32 UTC*

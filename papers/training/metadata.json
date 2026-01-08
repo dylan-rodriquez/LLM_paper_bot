@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Jailbreak-Zero: A Path to Pareto Optimal Red Teaming for Large Language Models",
+      "authors": [
+        "Kai Hu, Abhinav Aggarwal, Mehran Khodabandeh, David Zhang, Eric Hsin, Li Chen, Ankit Jain, Matt Fredrikson, Akash Bharadwaj"
+      ],
+      "abstract": "arXiv:2601.03265v1 Announce Type: new \nAbstract: This paper introduces Jailbreak-Zero, a novel red teaming methodology that shifts the paradigm of Large Language Model (LLM) safety evaluation from a constrained example-based approach to a more expansive and effective policy-based framework. By leveraging an attack LLM to generate a high volume of diverse adversarial prompts and then fine-tuning this attack model with a preference dataset, Jailbreak-Zero achieves Pareto optimality across the crucial objectives of policy coverage, attack strategy diversity, and prompt fidelity to real user inputs. The empirical evidence demonstrates the superiority of this method, showcasing significantly higher attack success rates against both open-source and proprietary models like GPT-40 and Claude 3.5 when compared to existing state-of-the-art techniques. Crucially, Jailbreak-Zero accomplishes this while producing human-readable and effective adversarial prompts with minimal need for human intervention, thereby presenting a more scalable and comprehensive solution for identifying and mitigating the safety vulnerabilities of LLMs.",
+      "url": "https://arxiv.org/abs/2601.03265",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "attack",
+        "jailbreak",
+        "jailbreak zero",
+        "zero",
+        "adversarial",
+        "adversarial prompts",
+        "based",
+        "effective",
+        "human",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 robust red teaming \u2013 and proposes a novel approach that moves beyond simple example-based attacks. The use of an attack LLM fine-tuned with a preference dataset to achieve Pareto optimality is a strong methodological contribution. The reported success against state-of-the-art models like GPT-40 and Claude 3.5 suggests a significant improvement over existing techniques, and the emphasis on human-readable prompts is a practical benefit.",
+      "paper_id": "f9510bfe7a91913fb95077e2f3ae65e2"
+    },
+    {
+      "title": "Rendering Data Unlearnable by Exploiting LLM Alignment Mechanisms",
+      "authors": [
+        "Ruihan Zhang, Jun Sun"
+      ],
+      "abstract": "arXiv:2601.03401v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly trained on massive, heterogeneous text corpora, raising serious concerns about the unauthorised use of proprietary or personal data during model training. In this work, we address the problem of data protection against unwanted model learning in a realistic black-box setting. We propose Disclaimer Injection, a novel data-level defence that renders text unlearnable to LLMs. Rather than relying on model-side controls or explicit data removal, our approach exploits the models' own alignment mechanisms: by injecting carefully designed alignment-triggering disclaimers to prevent effective learning. Through layer-wise analysis, we find that fine-tuning on such protected data induces persistent activation of alignment-related layers, causing alignment constraints to override task learning even on common inputs. Consequently, models trained on such data exhibit substantial and systematic performance degradation compared to standard fine-tuning. Our results identify alignment behaviour as a previously unexplored lever for data protection and, to our knowledge, present the first practical method for restricting data learnability at LLM scale without requiring access to or modification of the training pipeline.",
+      "url": "https://arxiv.org/abs/2601.03401",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "alignment",
+        "learning",
+        "model",
+        "models",
+        "alignment mechanisms",
+        "data protection",
+        "fine",
+        "fine tuning",
+        "llm"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 data privacy in the age of LLMs. The 'Disclaimer Injection' approach is clever, exploiting alignment mechanisms rather than relying on traditional data removal or model-side defenses. The layer-wise analysis suggests a rigorous methodology, and the potential for systematic performance degradation on protected data is a strong result. The abstract indicates a well-defined approach and clear findings.",
+      "paper_id": "dac961bba235cb4cf04c33ecdbd36c4a"
+    },
+    {
+      "title": "What Matters For Safety Alignment?",
+      "authors": [
+        "Xing Li, Hui-Ling Zhen, Lihao Yin, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan"
+      ],
+      "abstract": "arXiv:2601.03868v1 Announce Type: new \nAbstract: This paper presents a comprehensive empirical study on the safety alignment capabilities. We evaluate what matters for safety alignment in LLMs and LRMs to provide essential insights for developing more secure and reliable AI systems. We systematically investigate and compare the influence of six critical intrinsic model characteristics and three external attack techniques. Our large-scale evaluation is conducted using 32 recent, popular LLMs and LRMs across thirteen distinct model families, spanning a parameter scale from 3B to 235B. The assessment leverages five established safety datasets and probes model vulnerabilities with 56 jailbreak techniques and four CoT attack strategies, resulting in 4.6M API calls. Our key empirical findings are fourfold. First, we identify the LRMs GPT-OSS-20B, Qwen3-Next-80B-A3B-Thinking, and GPT-OSS-120B as the top-three safest models, which substantiates the significant advantage of integrated reasoning and self-reflection mechanisms for robust safety alignment. Second, post-training and knowledge distillation may lead to a systematic degradation of safety alignment. We thus argue that safety must be treated as an explicit constraint or a core optimization objective during these stages, not merely subordinated to the pursuit of general capability. Third, we reveal a pronounced vulnerability: employing a CoT attack via a response prefix can elevate the attack success rate by 3.34x on average and from 0.6% to 96.3% for Seed-OSS-36B-Instruct. This critical finding underscores the safety risks inherent in text-completion interfaces and features that allow user-defined response prefixes in LLM services, highlighting an urgent need for architectural and deployment safeguards. Fourth, roleplay, prompt injection, and gradient-based search for adversarial prompts are the predominant methodologies for eliciting unaligned behaviors in modern models.",
+      "url": "https://arxiv.org/abs/2601.03868",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "alignment",
+        "safety alignment",
+        "attack",
+        "lrms",
+        "model",
+        "oss",
+        "cot",
+        "cot attack",
+        "critical"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 aligning LLMs and LRMs \u2013 with a rigorous, large-scale empirical approach. The sheer scale of the evaluation (32 models, 13 families, 4.6M API calls) lends significant credibility to the findings. While the methodology appears sound, the novelty lies more in the breadth of the study than a fundamentally new technique, but the identification of safer models is highly valuable. The strong focus on practical attack vectors and reasoning capabilities suggests a high likelihood of positive reception within the AI safety community.",
+      "paper_id": "2a53ecc475310cb75c9142b79a95f4ec"
+    },
+    {
+      "title": "O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL",
+      "authors": [
+        "Yi Yao, He Zhu, Piaohong Wang, Jincheng Ren, Xinlong Yang, Qianben Chen, Xiaowan Li, Dingfeng Shi, Jiaxian Li, Qiexiang Wang, Sinuo Wang, Xinpeng Liu, Jiaqi Wu, Minghao Liu, Wangchunshu Zhou"
+      ],
+      "abstract": "arXiv:2601.03743v1 Announce Type: new \nAbstract: The performance gap between closed-source and open-source large language models (LLMs) is largely attributed to disparities in access to high-quality training data. To bridge this gap, we introduce a novel framework for the automated synthesis of sophisticated, research-grade instructional data. Our approach centers on a multi-agent workflow where collaborative AI agents simulate complex tool-integrated reasoning to generate diverse and high-fidelity data end-to-end. Leveraging this synthesized data, we develop a two-stage training strategy that integrates supervised fine-tuning with a novel reinforcement learning method, designed to maximize model alignment and capability. Extensive experiments demonstrate that our framework empowers open-source models across multiple scales, enabling them to achieve new state-of-the-art performance on the major deep research benchmark. This work provides a scalable and effective pathway for advancing open-source LLMs without relying on proprietary data or models.",
+      "url": "https://arxiv.org/abs/2601.03743",
+      "published_date": "2026-01-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "data",
+        "open",
+        "source",
+        "models",
+        "open source",
+        "research",
+        "agent",
+        "deep",
+        "deep research",
+        "end"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in the LLM space \u2013 the performance gap between open and closed-source models due to data access. The multi-agent distillation and agentic RL approach appears novel and well-motivated, aiming to create high-quality training data automatically. The claim of achieving state-of-the-art performance on deep research benchmarks suggests a strong contribution, and the focus on scalability is important for wider adoption.",
+      "paper_id": "c91604284b5aff1504d7ce2a01591514"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-08T09:47:32.039646"
 }
