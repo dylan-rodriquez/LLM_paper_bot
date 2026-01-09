@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MedPI: Evaluating AI Systems in Medical Patient-facing Interactions
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Diego Fajardo V., Oleksii Proniakin, Victoria-Elisabeth Gruber, Razvan Marinescu
+
+arXiv:2601.04195v1 Announce Type: new 
+Abstract: We present MedPI, a high-dimensional benchmark for evaluating large language models (LLMs) in patient-clinician conversations. Unlike single-turn quest...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04195) | [📝 Analysis](d8597d22135292f1d1e2d253c84e9f44.md)
+
+---
+
+### Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human Linguistic Differences
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Arkadiusz Modzelewski, Pawe{\l} Golik, Anna Ko{\l}os, Giovanni Da San Martino
+
+arXiv:2601.04925v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) can generate highly persuasive text, raising concerns about their misuse for propaganda, manipulation, and other harmful p...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04925) | [📝 Analysis](4562e838253a0cf7ae16a14f7d6b8dd4.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*

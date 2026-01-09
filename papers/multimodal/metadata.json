@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Forgotten Shield: Safety Grafting in Parameter-Space for Medical MLLMs",
+      "authors": [
+        "Jiale Zhao, Xing Mou, Jinlin Wu, Hongyuan Yu, Mingrui Sun, Yang Shi, Xuanwu Yin, Zhen Chen, Zhen Lei, Yaohua Wang"
+      ],
+      "abstract": "arXiv:2601.04199v1 Announce Type: cross \nAbstract: Medical Multimodal Large Language Models (Medical MLLMs) have achieved remarkable progress in specialized medical tasks; however, research into their safety has lagged, posing potential risks for real-world deployment. In this paper, we first establish a multidimensional evaluation framework to systematically benchmark the safety of current SOTA Medical MLLMs. Our empirical analysis reveals pervasive vulnerabilities across both general and medical-specific safety dimensions in existing models, particularly highlighting their fragility against cross-modality jailbreak attacks. Furthermore, we find that the medical fine-tuning process frequently induces catastrophic forgetting of the model's original safety alignment. To address this challenge, we propose a novel \"Parameter-Space Intervention\" approach for efficient safety re-alignment. This method extracts intrinsic safety knowledge representations from original base models and concurrently injects them into the target model during the construction of medical capabilities. Additionally, we design a fine-grained parameter search algorithm to achieve an optimal trade-off between safety and medical performance. Experimental results demonstrate that our approach significantly bolsters the safety guardrails of Medical MLLMs without relying on additional domain-specific safety data, while minimizing degradation to core medical performance.",
+      "url": "https://arxiv.org/abs/2601.04199",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "medical",
+        "safety",
+        "medical mllms",
+        "mllms",
+        "models",
+        "parameter",
+        "alignment",
+        "approach",
+        "cross",
+        "fine"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critical gap in the rapidly developing field of Medical MLLMs \u2013 their safety. The systematic benchmarking framework and identification of vulnerabilities, particularly cross-modality jailbreaks and catastrophic forgetting, are valuable contributions. The proposed 'Parameter-Space Intervention' approach appears promising for efficient safety re-alignment, and the focus on preserving original safety alignment is a strong point.",
+      "paper_id": "da57d1a42571e9013beb928d7c34c686"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-01-09T09:40:14.779432"
 }

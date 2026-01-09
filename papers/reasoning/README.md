@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Accommodation and Epistemic Vigilance: A Pragmatic Account of Why LLMs Fail to Challenge Harmful Beliefs
+
+**Score:** 90.0 | **Published:** 2026-01-09 | **Authors:** Myra Cheng, Robert D. Hawkins, Dan Jurafsky
+
+arXiv:2601.04435v1 Announce Type: new 
+Abstract: Large language models (LLMs) frequently fail to challenge users' harmful beliefs in domains ranging from medical advice to social reasoning. We argue t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04435) | [📝 Analysis](55a39d277cd9e5b378a5e39e84b36eab.md)
+
+---
+
+### MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News
+
+**Score:** 90.0 | **Published:** 2026-01-09 | **Authors:** Zhiwei Liu, Paul Thompson, Jiaqi Rong, Baojie Qu, Runteng Guo, Min Peng, Qianqian Xie, Sophia Ananiadou
+
+arXiv:2601.04857v1 Announce Type: new 
+Abstract: Online misinformation is increasingly pervasive, yet most existing benchmarks and methods evaluate veracity at the level of whole claims or paragraphs ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04857) | [📝 Analysis](de2bef288db2f874aaaa93d58dda236b.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*

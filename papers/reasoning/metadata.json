@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Accommodation and Epistemic Vigilance: A Pragmatic Account of Why LLMs Fail to Challenge Harmful Beliefs",
+      "authors": [
+        "Myra Cheng, Robert D. Hawkins, Dan Jurafsky"
+      ],
+      "abstract": "arXiv:2601.04435v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently fail to challenge users' harmful beliefs in domains ranging from medical advice to social reasoning. We argue that these failures can be understood and addressed pragmatically as consequences of LLMs defaulting to accommodating users' assumptions and exhibiting insufficient epistemic vigilance. We show that social and linguistic factors known to influence accommodation in humans (at-issueness, linguistic encoding, and source reliability) similarly affect accommodation in LLMs, explaining performance differences across three safety benchmarks that test models' ability to challenge harmful beliefs, spanning misinformation (Cancer-Myth, SAGE-Eval) and sycophancy (ELEPHANT). We further show that simple pragmatic interventions, such as adding the phrase \"wait a minute\", significantly improve performance on these benchmarks while preserving low false-positive rates. Our results highlight the importance of considering pragmatics for evaluating LLM behavior and improving LLM safety.",
+      "url": "https://arxiv.org/abs/2601.04435",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "accommodation",
+        "beliefs",
+        "challenge",
+        "harmful",
+        "harmful beliefs",
+        "benchmarks",
+        "challenge harmful",
+        "epistemic",
+        "epistemic vigilance"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 their tendency to reinforce harmful beliefs. The pragmatic framing, linking LLM failures to human cognitive biases like accommodation and epistemic vigilance, is insightful. The empirical validation across multiple benchmarks and the demonstration of a simple, effective intervention ('wait a minute') strengthen the work, suggesting a clear path for improving LLM robustness.",
+      "paper_id": "55a39d277cd9e5b378a5e39e84b36eab"
+    },
+    {
+      "title": "MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News",
+      "authors": [
+        "Zhiwei Liu, Paul Thompson, Jiaqi Rong, Baojie Qu, Runteng Guo, Min Peng, Qianqian Xie, Sophia Ananiadou"
+      ],
+      "abstract": "arXiv:2601.04857v1 Announce Type: new \nAbstract: Online misinformation is increasingly pervasive, yet most existing benchmarks and methods evaluate veracity at the level of whole claims or paragraphs using coarse binary labels, obscuring how true and false details often co-exist within single sentences. These simplifications also limit interpretability: global explanations cannot identify which specific segments are misleading or differentiate how a detail is false (e.g., distorted vs. fabricated). To address these gaps, we introduce MisSpans, the first multi-domain, human-annotated benchmark for span-level misinformation detection and analysis, consisting of paired real and fake news stories. MisSpans defines three complementary tasks: MisSpansIdentity for pinpointing false spans within sentences, MisSpansType for categorising false spans by misinformation type, and MisSpansExplanation for providing rationales grounded in identified spans. Together, these tasks enable fine-grained localisation, nuanced characterisation beyond true/false and actionable explanations. Expert annotators were guided by standardised guidelines and consistency checks, leading to high inter-annotator agreement. We evaluate 15 representative LLMs, including reasoning-enhanced and non-reasoning variants, under zero-shot and one-shot settings. Results reveal the challenging nature of fine-grained misinformation identification and analysis, and highlight the need for a deeper understanding of how performance may be influenced by multiple interacting factors, including model size and reasoning capabilities, along with domain-specific textual features. This project will be available at https://github.com/lzw108/MisSpans.",
+      "url": "https://arxiv.org/abs/2601.04857",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "false",
+        "misinformation",
+        "misspans",
+        "domain",
+        "fine",
+        "fine grained",
+        "grained",
+        "reasoning",
+        "spans",
+        "analysis"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in fake news detection by moving beyond whole-claim verification to fine-grained span-level analysis. The introduction of the MisSpans benchmark, with its three complementary tasks, is a significant contribution. While the core idea isn't entirely novel (span-level analysis exists in other NLP tasks), applying it specifically to misinformation with a multi-domain dataset and task definition is a strong advancement. The potential for interpretability and understanding *how* information is false is highly valuable.",
+      "paper_id": "de2bef288db2f874aaaa93d58dda236b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-09T09:40:14.775555"
 }

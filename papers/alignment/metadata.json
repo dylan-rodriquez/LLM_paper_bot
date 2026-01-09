@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "MiJaBench: Revealing Minority Biases in Large Language Models via Hate Speech Jailbreaking",
+      "authors": [
+        "Iago Alves Brito, Walcy Santos Rezende Rios, Julia Soares Dollis, Diogo Fernandes Costa Silva, Arlindo Rodrigues Galv\\~ao Filho"
+      ],
+      "abstract": "arXiv:2601.04389v1 Announce Type: new \nAbstract: Current safety evaluations of large language models (LLMs) create a dangerous illusion of universality, aggregating \"Identity Hate\" into scalar scores that mask systemic vulnerabilities against specific populations. To expose this selective safety, we introduce MiJaBench, a bilingual (English and Portuguese) adversarial benchmark comprising 44,000 prompts across 16 minority groups. By generating 528,000 prompt-response pairs from 12 state-of-the-art LLMs, we curate MiJaBench-Align, revealing that safety alignment is not a generalized semantic capability but a demographic hierarchy: defense rates fluctuate by up to 33\\% within the same model solely based on the target group. Crucially, we demonstrate that model scaling exacerbates these disparities, suggesting that current alignment techniques do not create principle of non-discrimination but reinforces memorized refusal boundaries only for specific groups, challenging the current scaling laws of security. We release all datasets and scripts to encourage research into granular demographic alignment at GitHub.",
+      "url": "https://arxiv.org/abs/2601.04389",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "current",
+        "mijabench",
+        "safety",
+        "000",
+        "create",
+        "demographic",
+        "groups",
+        "hate",
+        "language"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the uneven application of safety measures across different demographic groups. The creation of MiJaBench, a large-scale, bilingual adversarial benchmark, is a strong methodological contribution. The finding that model scaling *exacerbates* these biases is particularly concerning and challenges current alignment strategies, suggesting a need for more nuanced approaches. The clear presentation of the problem and results indicates a high-quality research effort.",
+      "paper_id": "6f0922c7d7ea51ddf664d920347929f6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-09T09:40:14.774808"
 }

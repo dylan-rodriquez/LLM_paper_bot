@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### MiJaBench: Revealing Minority Biases in Large Language Models via Hate Speech Jailbreaking
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Iago Alves Brito, Walcy Santos Rezende Rios, Julia Soares Dollis, Diogo Fernandes Costa Silva, Arlindo Rodrigues Galv\~ao Filho
+
+arXiv:2601.04389v1 Announce Type: new 
+Abstract: Current safety evaluations of large language models (LLMs) create a dangerous illusion of universality, aggregating "Identity Hate" into scalar scores ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04389) | [📝 Analysis](6f0922c7d7ea51ddf664d920347929f6.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*
