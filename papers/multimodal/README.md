@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Forgotten Shield: Safety Grafting in Parameter-Space for Medical MLLMs
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Jiale Zhao, Xing Mou, Jinlin Wu, Hongyuan Yu, Mingrui Sun, Yang Shi, Xuanwu Yin, Zhen Chen, Zhen Lei, Yaohua Wang
+
+arXiv:2601.04199v1 Announce Type: cross 
+Abstract: Medical Multimodal Large Language Models (Medical MLLMs) have achieved remarkable progress in specialized medical tasks; however, research into their...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04199) | [📝 Analysis](da57d1a42571e9013beb928d7c34c686.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*

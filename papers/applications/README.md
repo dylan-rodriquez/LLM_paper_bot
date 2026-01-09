@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Automatic Classifiers Underdetect Emotions Expressed by Men
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Ivan Smirnov, Segun T. Aroyehun, Paul Plener, David Garcia
+
+arXiv:2601.04730v1 Announce Type: new 
+Abstract: The widespread adoption of automatic sentiment and emotion classifiers makes it important to ensure that these tools perform reliably across different ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04730) | [📝 Analysis](edeeb62ccb1482ababdc56c93316e9a5.md)
+
+---
+
+### Agent-as-a-Judge
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Runyang You, Hongru Cai, Caiqi Zhang, Qiancheng Xu, Meng Liu, Tiezheng Yu, Yongqi Li, Wenjie Li
+
+arXiv:2601.05111v1 Announce Type: new 
+Abstract: LLM-as-a-Judge has revolutionized AI evaluation by leveraging large language models for scalable assessments. However, as evaluands become increasingly...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05111) | [📝 Analysis](356f2c6f1566ae94747d1eb04c4fa9eb.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*

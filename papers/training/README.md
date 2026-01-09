@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters
+
+**Score:** 92.0 | **Published:** 2026-01-09 | **Authors:** Ao Sun, Xiaoyu Wang, Zhe Tan, Yu Li, Jiachen Zhu, Shu Su, Yuheng Jia
+
+arXiv:2601.04885v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) serve a global audience, alignment must transition from enforcing universal consensus to respecting cultural pluralism....
+
+[📄 Full Paper](https://arxiv.org/abs/2601.04885) | [📝 Analysis](92d71912479302eef357e762c439bf83.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-09 09:40:14 UTC*

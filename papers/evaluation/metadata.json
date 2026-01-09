@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MedPI: Evaluating AI Systems in Medical Patient-facing Interactions",
+      "authors": [
+        "Diego Fajardo V., Oleksii Proniakin, Victoria-Elisabeth Gruber, Razvan Marinescu"
+      ],
+      "abstract": "arXiv:2601.04195v1 Announce Type: new \nAbstract: We present MedPI, a high-dimensional benchmark for evaluating large language models (LLMs) in patient-clinician conversations. Unlike single-turn question-answer (QA) benchmarks, MedPI evaluates the medical dialogue across 105 dimensions comprising the medical process, treatment safety, treatment outcomes and doctor-patient communication across a granular, accreditation-aligned rubric. MedPI comprises five layers: (1) Patient Packets (synthetic EHR-like ground truth); (2) an AI Patient instantiated through an LLM with memory and affect; (3) a Task Matrix spanning encounter reasons (e.g. anxiety, pregnancy, wellness checkup) x encounter objectives (e.g. diagnosis, lifestyle advice, medication advice); (4) an Evaluation Framework with 105 dimensions on a 1-4 scale mapped to the Accreditation Council for Graduate Medical Education (ACGME) competencies; and (5) AI Judges that are calibrated, committee-based LLMs providing scores, flags, and evidence-linked rationales. We evaluate 9 flagship models -- Claude Opus 4.1, Claude Sonnet 4, MedGemma, Gemini 2.5 Pro, Llama 3.3 70b Instruct, GPT-5, GPT OSS 120b, o3, Grok-4 -- across 366 AI Patients and 7,097 conversations using a standardized \"vanilla clinician\" prompt. For all LLMs, we observe low performance across a variety of dimensions, in particular on differential diagnosis. Our work can help guide future use of LLMs for diagnosis and treatment recommendations.",
+      "url": "https://arxiv.org/abs/2601.04195",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "patient",
+        "ai",
+        "llms",
+        "medical",
+        "medpi",
+        "diagnosis",
+        "dimensions",
+        "treatment",
+        "105",
+        "105 dimensions"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need for robust evaluation of LLMs in high-stakes medical interactions, moving beyond simple QA. The multi-layered benchmark, aligned with ACGME competencies, demonstrates a strong methodological approach. The use of AI patients with memory and affect, and committee-based AI judges, adds to the rigor and potential for reliable assessment. The high dimensionality of the evaluation (105 dimensions) is particularly noteworthy.",
+      "paper_id": "d8597d22135292f1d1e2d253c84e9f44"
+    },
+    {
+      "title": "Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human Linguistic Differences",
+      "authors": [
+        "Arkadiusz Modzelewski, Pawe{\\l} Golik, Anna Ko{\\l}os, Giovanni Da San Martino"
+      ],
+      "abstract": "arXiv:2601.04925v1 Announce Type: new \nAbstract: Large Language Models (LLMs) can generate highly persuasive text, raising concerns about their misuse for propaganda, manipulation, and other harmful purposes. This leads us to our central question: Is LLM-generated persuasion more difficult to automatically detect than human-written persuasion? To address this, we categorize controllable generation approaches for producing persuasive content with LLMs and introduce Persuaficial, a high-quality multilingual benchmark covering six languages: English, German, Polish, Italian, French and Russian. Using this benchmark, we conduct extensive empirical evaluations comparing human-authored and LLM-generated persuasive texts. We find that although overtly persuasive LLM-generated texts can be easier to detect than human-written ones, subtle LLM-generated persuasion consistently degrades automatic detection performance. Beyond detection performance, we provide the first comprehensive linguistic analysis contrasting human and LLM-generated persuasive texts, offering insights that may guide the development of more interpretable and robust detection tools.",
+      "url": "https://arxiv.org/abs/2601.04925",
+      "published_date": "2026-01-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "generated",
+        "human",
+        "llm",
+        "llm generated",
+        "persuasive",
+        "persuasion",
+        "benchmark",
+        "detection",
+        "generated persuasion",
+        "texts"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the detection of AI-generated persuasive text. The creation of the 'Persuaficial' benchmark, covering multiple languages, is a significant contribution. The finding that subtle LLM persuasion is harder to detect is crucial and suggests current detection methods are insufficient, warranting further research. The linguistic analysis mentioned (though not detailed in the abstract) promises valuable insights.",
+      "paper_id": "4562e838253a0cf7ae16a14f7d6b8dd4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-09T09:40:14.773604"
 }
