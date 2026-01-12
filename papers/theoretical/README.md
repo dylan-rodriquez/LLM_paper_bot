@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Mechanistic Indicators of Understanding in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Pierre Beckmann, Matthieu Queloz
+
+arXiv:2507.08017v4 Announce Type: replace 
+Abstract: Large language models (LLMs) are often portrayed as merely imitating linguistic patterns without genuine understanding. We argue that recent findin...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.08017) | [📝 Analysis](1f35cb0d55c3e52636a1d5034f61e2c7.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*

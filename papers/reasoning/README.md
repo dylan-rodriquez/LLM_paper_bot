@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Herun Wan, Jiaying Wu, Minnan Luo, Fanxiao Li, Zhi Zeng, Min-Yen Kan
+
+arXiv:2601.05478v1 Announce Type: new 
+Abstract: To reliably assist human decision-making, LLMs must maintain factual internal beliefs against misleading injections. While current models resist explic...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05478) | [📝 Analysis](5b4dc8d2ddc76cf62c439d67029664c2.md)
+
+---
+
+### The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-12 | **Authors:** Tassallah Abdullahi, Shrestha Ghosh, Hamish S Fraser, Daniel Le\'on Tramontini, Adeel Abbasi, Ghada Bourjeily, Carsten Eickhoff, Ritambhara Singh
+
+arXiv:2601.05376v1 Announce Type: cross 
+Abstract: Persona conditioning can be viewed as a behavioral prior for large language models (LLMs) and is often assumed to confer expertise and improve safety...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05376) | [📝 Analysis](f97548d9551b00bb6d2ea5d309744aab.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*

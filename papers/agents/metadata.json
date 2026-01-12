@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Conformity and Social Impact on AI Agents",
+      "authors": [
+        "Alessandro Bellina, Giordano De Marzo, David Garcia"
+      ],
+      "abstract": "arXiv:2601.05384v1 Announce Type: cross \nAbstract: As AI agents increasingly operate in multi-agent environments, understanding their collective behavior becomes critical for predicting the dynamics of artificial societies. This study examines conformity, the tendency to align with group opinions under social pressure, in large multimodal language models functioning as AI agents. By adapting classic visual experiments from social psychology, we investigate how AI agents respond to group influence as social actors. Our experiments reveal that AI agents exhibit a systematic conformity bias, aligned with Social Impact Theory, showing sensitivity to group size, unanimity, task difficulty, and source characteristics. Critically, AI agents achieving near-perfect performance in isolation become highly susceptible to manipulation through social influence. This vulnerability persists across model scales: while larger models show reduced conformity on simple tasks due to improved capabilities, they remain vulnerable when operating at their competence boundary. These findings reveal fundamental security vulnerabilities in AI agent decision-making that could enable malicious manipulation, misinformation campaigns, and bias propagation in multi-agent systems, highlighting the urgent need for safeguards in collective AI deployments.",
+      "url": "https://arxiv.org/abs/2601.05384",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "agents",
+        "ai agents",
+        "social",
+        "conformity",
+        "agent",
+        "group",
+        "bias",
+        "collective",
+        "experiments"
+      ],
+      "subject_classification": "agents",
+      "justification": "This research addresses a crucial and timely problem \u2013 the social dynamics of AI agents \u2013 with a rigorous methodology adapting established social psychology experiments. The finding that even high-performing AI agents are susceptible to conformity bias is particularly noteworthy. While adapting existing experiments isn't groundbreaking in itself, applying them to LLMs as agents and demonstrating the influence of factors like group size and unanimity is a strong contribution. The persistence of this bias across model scales suggests a fundamental challenge in AI alignment.",
+      "paper_id": "791a6490067b1945bf10fc39509f56e8"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-01-12T09:43:17.170435"
 }

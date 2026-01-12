@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG",
+      "authors": [
+        "Maxime Dassen, Rebecca Kotula, Kenton Murray, Andrew Yates, Dawn Lawrie, Efsun Kayi, James Mayfield, Kevin Duh"
+      ],
+      "abstract": "arXiv:2601.05866v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) models are critically undermined by citation hallucinations, a deceptive failure where a model confidently cites a source that fails to support its claim. Existing work often attributes hallucination to a simple over-reliance on the model's parametric knowledge. We challenge this view and introduce FACTUM (Framework for Attesting Citation Trustworthiness via Underlying Mechanisms), a framework of four mechanistic scores measuring the distinct contributions of a model's attention and FFN pathways, and the alignment between them. Our analysis reveals two consistent signatures of correct citation: a significantly stronger contribution from the model's parametric knowledge and greater use of the attention sink for information synthesis. Crucially, we find the signature of a correct citation is not static but evolves with model scale. For example, the signature of a correct citation for the Llama-3.2-3B model is marked by higher pathway alignment, whereas for the Llama-3.1-8B model, it is characterized by lower alignment, where pathways contribute more distinct, orthogonal information. By capturing this complex, evolving signature, FACTUM outperforms state-of-the-art baselines by up to 37.5% in AUC. Our findings reframe citation hallucination as a complex, scale-dependent interplay between internal mechanisms, paving the way for more nuanced and reliable RAG systems.",
+      "url": "https://arxiv.org/abs/2601.05866",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "citation",
+        "model",
+        "alignment",
+        "correct",
+        "correct citation",
+        "factum",
+        "hallucination",
+        "rag",
+        "signature",
+        "attention"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper tackles a critical problem in RAG \u2013 citation hallucination \u2013 with a novel mechanistic approach. The framework (FACTUM) and the identified signatures of correct citation, particularly the evolving relationship with model scale, demonstrate strong analytical rigor. The focus on internal model mechanisms (attention and FFN pathways) rather than solely relying on output analysis is a significant strength, and the problem is highly relevant to the current focus on trustworthy LLMs.",
+      "paper_id": "f69a83357cd03ef786708b6f72592965"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-01-12T09:43:17.169848"
 }
