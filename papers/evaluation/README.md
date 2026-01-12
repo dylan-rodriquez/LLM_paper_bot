@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Shu Yang, Jingyu Hu, Tong Li, Hanqi Yan, Wenxuan Wang, Di Wang
+
+arXiv:2601.05752v1 Announce Type: new 
+Abstract: We introduce AutoMonitor-Bench, the first benchmark designed to systematically evaluate the reliability of LLM-based misbehavior monitors across divers...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05752) | [📝 Analysis](30da344c3bfad22095a6c1658fbffcb6.md)
+
+---
+
+### The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Zhixian Zhao, Shuiyuan Wang, Guojian Li, Hongfei Xue, Chengyou Wang, Shuai Wang, Longshuai Xiao, Zihan Zhang, Hui Bu, Xin Xu, Xinsheng Wang, Hexin Liu, Eng Siong Chng, Hung-yi Lee, Haizhou Li, Lei Xie
+
+arXiv:2601.05564v1 Announce Type: cross 
+Abstract: Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved signif...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05564) | [📝 Analysis](96cf10ea92bcc5f89c50d34a66152018.md)
+
+---
+
+### PII-VisBench: Evaluating Personally Identifiable Information Safety in Vision Language Models Along a Continuum of Visibility
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** G M Shahariar, Zabir Al Nazi, Md Olid Hasan Bhuiyan, Zhouxing Shi
+
+arXiv:2601.05739v1 Announce Type: cross 
+Abstract: Vision Language Models (VLMs) are increasingly integrated into privacy-critical domains, yet existing evaluations of personally identifiable informat...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05739) | [📝 Analysis](7aba8af85bfca5f95ad338c7731d32ce.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*

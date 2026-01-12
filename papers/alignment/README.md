@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Table of Media Bias Elements: A sentence-level taxonomy of media bias types and propaganda techniques
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Tim Menzner, Jochen L. Leidner
+
+arXiv:2601.05358v1 Announce Type: new 
+Abstract: Public debates about "left-" or "right-wing" news overlook the fact that bias is usually conveyed by concrete linguistic manoeuvres that transcend any ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05358) | [📝 Analysis](025674af5e4d47b061d785e6dd5889f9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*

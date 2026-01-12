@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 10
+- **Average Significance Score:** 91.6/100
+- **Categories Updated:** 7
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,46 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Alignment (1 new papers)
+- **The Table of Media Bias Elements: A sentence-level taxonomy of media bias types and propaganda techniques** (Score: 92.0)
+  - This research tackles a crucial and timely problem – media bias – with a novel, sentence-level approach. The methodology, combining close reading, theory, and annotation, appears rigorous, and the resulting taxonomy promises a valuable resource for understanding and identifying bias. The quantitative survey adds further credibility, and the potential for practical applications in fact-checking and media literacy is high.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Reasoning (2 new papers)
+- **The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence** (Score: 92.0)
+  - This paper addresses a critical vulnerability in LLMs – susceptibility to subtly deceptive evidence – which is a significant concern for real-world applications. The 'MisBelief' framework appears to be a novel and well-designed approach to systematically probe this weakness, and the reported 93% increase in belief scores for falsehoods is alarming and highlights the importance of this work. The proposed mitigation (indicated by 'De...') is crucial and suggests a path towards more robust LLMs.
+- **The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models** (Score: 90.0)
+  - This research addresses a crucial and timely problem – the safety and efficacy of LLMs in high-stakes clinical settings. The finding of non-monotonic effects of personas (improvement in critical care, degradation in primary care) is particularly insightful and challenges the assumption of universally beneficial persona conditioning. The systematic evaluation across models and tasks demonstrates a strong methodological approach, suggesting high quality and potential for positive reception within the AI and medical communities.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Multimodal (1 new papers)
+- **Afri-MCQA: Multimodal Cultural Question Answering for African Languages** (Score: 92.0)
+  - This paper addresses a crucial gap in AI research – the underrepresentation of African languages. The creation of Afri-MCQA, a multimodal benchmark created by native speakers, is a significant contribution. The initial LLM benchmarking results highlighting poor performance, particularly in native language speech, strongly motivate further research and development in this area. The inclusion of control experiments to isolate linguistic competence is a thoughtful methodological choice.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Evaluation (3 new papers)
+- **AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor** (Score: 92.0)
+  - This paper addresses a crucial and timely problem in the rapidly evolving field of LLMs – ensuring their safe and reliable deployment. The creation of AutoMonitor-Bench is a significant contribution, providing a standardized way to evaluate LLM-based misbehavior monitors. The observed trade-off between Miss Rate and False Alarm Rate highlights a fundamental challenge in LLM safety, and the fine-tuning experiment with Qwen3-4B-Instruction suggests a path towards improvement.
+- **The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era** (Score: 92.0)
+  - This paper outlines a highly relevant and timely challenge addressing the crucial need for more human-like spoken dialogue systems, particularly in the context of rapidly evolving LLMs. The focus on both emotional intelligence and full-duplex interaction is well-justified and addresses key limitations of current systems. The establishment of a benchmark dataset and two focused tracks provides a strong foundation for future research and development, and the ICASSP venue suggests a rigorous evaluation process.
+- **PII-VisBench: Evaluating Personally Identifiable Information Safety in Vision Language Models Along a Continuum of Visibility** (Score: 92.0)
+  - This paper addresses a crucial and timely problem in VLM safety – PII leakage – and importantly moves beyond simplistic extraction tasks to consider the influence of online data availability. The introduction of PII-VisBench is a strong contribution, providing a nuanced evaluation framework. The consistent pattern observed across models suggests a significant vulnerability that needs addressing, and the work is clearly presented and well-motivated.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Generation (1 new papers)
+- **FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG** (Score: 92.0)
+  - This paper tackles a critical problem in RAG – citation hallucination – with a novel mechanistic approach. The framework (FACTUM) and the identified signatures of correct citation, particularly the evolving relationship with model scale, demonstrate strong analytical rigor. The focus on internal model mechanisms (attention and FFN pathways) rather than solely relying on output analysis is a significant strength, and the problem is highly relevant to the current focus on trustworthy LLMs.
+
+## Agents (1 new papers)
+- **Conformity and Social Impact on AI Agents** (Score: 90.0)
+  - This research addresses a crucial and timely problem – the social dynamics of AI agents – with a rigorous methodology adapting established social psychology experiments. The finding that even high-performing AI agents are susceptible to conformity bias is particularly noteworthy. While adapting existing experiments isn't groundbreaking in itself, applying them to LLMs as agents and demonstrating the influence of factors like group size and unanimity is a strong contribution. The persistence of this bias across model scales suggests a fundamental challenge in AI alignment.
+
+## Theoretical (1 new papers)
+- **Mechanistic Indicators of Understanding in Large Language Models** (Score: 92.0)
+  - This paper tackles a crucial question in the field of LLMs – whether they truly 'understand' or merely mimic. The proposed tiered framework for understanding, grounded in mechanistic interpretability, is a strong approach to synthesize current findings. While the abstract doesn't detail novel *methods*, the synthesis and theoretical framing represent a valuable contribution, and the topic is highly relevant to current research trends.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Alignment** (1), **Reasoning** (2), **Multimodal** (1), **Evaluation** (3), **Generation** (1), **Agents** (1), **Theoretical** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

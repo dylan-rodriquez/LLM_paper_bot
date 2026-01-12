@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence",
+      "authors": [
+        "Herun Wan, Jiaying Wu, Minnan Luo, Fanxiao Li, Zhi Zeng, Min-Yen Kan"
+      ],
+      "abstract": "arXiv:2601.05478v1 Announce Type: new \nAbstract: To reliably assist human decision-making, LLMs must maintain factual internal beliefs against misleading injections. While current models resist explicit misinformation, we uncover a fundamental vulnerability to sophisticated, hard-to-falsify evidence. To systematically probe this weakness, we introduce MisBelief, a framework that generates misleading evidence via collaborative, multi-round interactions among multi-role LLMs. This process mimics subtle, defeasible reasoning and progressive refinement to create logically persuasive yet factually deceptive claims. Using MisBelief, we generate 4,800 instances across three difficulty levels to evaluate 7 representative LLMs. Results indicate that while models are robust to direct misinformation, they are highly sensitive to this refined evidence: belief scores in falsehoods increase by an average of 93.0\\%, fundamentally compromising downstream recommendations. To address this, we propose Deceptive Intent Shielding (DIS), a governance mechanism that provides an early warning signal by inferring the deceptive intent behind evidence. Empirical results demonstrate that DIS consistently mitigates belief shifts and promotes more cautious evidence evaluation.",
+      "url": "https://arxiv.org/abs/2601.05478",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evidence",
+        "deceptive",
+        "llms",
+        "belief",
+        "deceptive intent",
+        "dis",
+        "intent",
+        "misbelief",
+        "misinformation",
+        "misleading"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 susceptibility to subtly deceptive evidence \u2013 which is a significant concern for real-world applications. The 'MisBelief' framework appears to be a novel and well-designed approach to systematically probe this weakness, and the reported 93% increase in belief scores for falsehoods is alarming and highlights the importance of this work. The proposed mitigation (indicated by 'De...') is crucial and suggests a path towards more robust LLMs.",
+      "paper_id": "5b4dc8d2ddc76cf62c439d67029664c2"
+    },
+    {
+      "title": "The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models",
+      "authors": [
+        "Tassallah Abdullahi, Shrestha Ghosh, Hamish S Fraser, Daniel Le\\'on Tramontini, Adeel Abbasi, Ghada Bourjeily, Carsten Eickhoff, Ritambhara Singh"
+      ],
+      "abstract": "arXiv:2601.05376v1 Announce Type: cross \nAbstract: Persona conditioning can be viewed as a behavioral prior for large language models (LLMs) and is often assumed to confer expertise and improve safety in a monotonic manner. However, its effects on high-stakes clinical decision-making remain poorly characterized. We systematically evaluate persona-based control in clinical LLMs, examining how professional roles (e.g., Emergency Department physician, nurse) and interaction styles (bold vs.\\ cautious) influence behavior across models and medical tasks. We assess performance on clinical triage and patient-safety tasks using multidimensional evaluations that capture task accuracy, calibration, and safety-relevant risk behavior. We find systematic, context-dependent, and non-monotonic effects: Medical personas improve performance in critical care tasks, yielding gains of up to $\\sim+20\\%$ in accuracy and calibration, but degrade performance in primary-care settings by comparable margins. Interaction style modulates risk propensity and sensitivity, but it's highly model-dependent. While aggregated LLM-judge rankings favor medical over non-medical personas in safety-critical cases, we found that human clinicians show moderate agreement on safety compliance (average Cohen's $\\kappa = 0.43$) but indicate a low confidence in 95.9\\% of their responses on reasoning quality. Our work shows that personas function as behavioral priors that introduce context-dependent trade-offs rather than guarantees of safety or expertise. The code is available at https://github.com/rsinghlab/Persona\\_Paradox.",
+      "url": "https://arxiv.org/abs/2601.05376",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "medical",
+        "clinical",
+        "persona",
+        "personas",
+        "behavioral",
+        "dependent",
+        "medical personas",
+        "models",
+        "performance"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a crucial and timely problem \u2013 the safety and efficacy of LLMs in high-stakes clinical settings. The finding of non-monotonic effects of personas (improvement in critical care, degradation in primary care) is particularly insightful and challenges the assumption of universally beneficial persona conditioning. The systematic evaluation across models and tasks demonstrates a strong methodological approach, suggesting high quality and potential for positive reception within the AI and medical communities.",
+      "paper_id": "f97548d9551b00bb6d2ea5d309744aab"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-12T09:43:17.166641"
 }

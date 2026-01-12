@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AutoMonitor-Bench: Evaluating the Reliability of LLM-Based Misbehavior Monitor",
+      "authors": [
+        "Shu Yang, Jingyu Hu, Tong Li, Hanqi Yan, Wenxuan Wang, Di Wang"
+      ],
+      "abstract": "arXiv:2601.05752v1 Announce Type: new \nAbstract: We introduce AutoMonitor-Bench, the first benchmark designed to systematically evaluate the reliability of LLM-based misbehavior monitors across diverse tasks and failure modes. AutoMonitor-Bench consists of 3,010 carefully annotated test samples spanning question answering, code generation, and reasoning, with paired misbehavior and benign instances. We evaluate monitors using two complementary metrics: Miss Rate (MR) and False Alarm Rate (FAR), capturing failures to detect misbehavior and oversensitivity to benign behavior, respectively. Evaluating 12 proprietary and 10 open-source LLMs, we observe substantial variability in monitoring performance and a consistent trade-off between MR and FAR, revealing an inherent safety-utility tension. To further explore the limits of monitor reliability, we construct a large-scale training corpus of 153,581 samples and fine-tune Qwen3-4B-Instruction to investigate whether training on known, relatively easy-to-construct misbehavior datasets improves monitoring performance on unseen and more implicit misbehaviors. Our results highlight the challenges of reliable, scalable misbehavior monitoring and motivate future work on task-aware designing and training strategies for LLM-based monitors.",
+      "url": "https://arxiv.org/abs/2601.05752",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "misbehavior",
+        "automonitor",
+        "automonitor bench",
+        "based",
+        "bench",
+        "llm",
+        "llm based",
+        "monitoring",
+        "monitors",
+        "reliability"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of LLMs \u2013 ensuring their safe and reliable deployment. The creation of AutoMonitor-Bench is a significant contribution, providing a standardized way to evaluate LLM-based misbehavior monitors. The observed trade-off between Miss Rate and False Alarm Rate highlights a fundamental challenge in LLM safety, and the fine-tuning experiment with Qwen3-4B-Instruction suggests a path towards improvement.",
+      "paper_id": "30da344c3bfad22095a6c1658fbffcb6"
+    },
+    {
+      "title": "The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era",
+      "authors": [
+        "Zhixian Zhao, Shuiyuan Wang, Guojian Li, Hongfei Xue, Chengyou Wang, Shuai Wang, Longshuai Xiao, Zihan Zhang, Hui Bu, Xin Xu, Xinsheng Wang, Hexin Liu, Eng Siong Chng, Hung-yi Lee, Haizhou Li, Lei Xie"
+      ],
+      "abstract": "arXiv:2601.05564v1 Announce Type: cross \nAbstract: Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and robust interaction mechanisms to navigate the dynamic, natural flow of conversation, such as real-time turn-taking. Therefore, we launched the first Human-like Spoken Dialogue Systems Challenge (HumDial) at ICASSP 2026 to benchmark these dual capabilities. Anchored by a sizable dataset derived from authentic human conversations, this initiative establishes a fair evaluation platform across two tracks: (1) Emotional Intelligence, targeting long-term emotion understanding and empathetic generation; and (2) Full-Duplex Interaction, systematically evaluating real-time decision-making under `` listening-while-speaking'' conditions. This paper summarizes the dataset, track configurations, and the final results.",
+      "url": "https://arxiv.org/abs/2601.05564",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "human",
+        "dialogue",
+        "dialogue systems",
+        "emotional",
+        "human like",
+        "like",
+        "spoken",
+        "spoken dialogue",
+        "systems",
+        "2026"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper outlines a highly relevant and timely challenge addressing the crucial need for more human-like spoken dialogue systems, particularly in the context of rapidly evolving LLMs. The focus on both emotional intelligence and full-duplex interaction is well-justified and addresses key limitations of current systems. The establishment of a benchmark dataset and two focused tracks provides a strong foundation for future research and development, and the ICASSP venue suggests a rigorous evaluation process.",
+      "paper_id": "96cf10ea92bcc5f89c50d34a66152018"
+    },
+    {
+      "title": "PII-VisBench: Evaluating Personally Identifiable Information Safety in Vision Language Models Along a Continuum of Visibility",
+      "authors": [
+        "G M Shahariar, Zabir Al Nazi, Md Olid Hasan Bhuiyan, Zhouxing Shi"
+      ],
+      "abstract": "arXiv:2601.05739v1 Announce Type: cross \nAbstract: Vision Language Models (VLMs) are increasingly integrated into privacy-critical domains, yet existing evaluations of personally identifiable information (PII) leakage largely treat privacy as a static extraction task and ignore how a subject's online presence--the volume of their data available online--influences privacy alignment. We introduce PII-VisBench, a novel benchmark containing 4000 unique probes designed to evaluate VLM safety through the continuum of online presence. The benchmark stratifies 200 subjects into four visibility categories: high, medium, low, and zero--based on the extent and nature of their information available online. We evaluate 18 open-source VLMs (0.3B-32B) based on two key metrics: percentage of PII probing queries refused (Refusal Rate) and the fraction of non-refusal responses flagged for containing PII (Conditional PII Disclosure Rate). Across models, we observe a consistent pattern: refusals increase and PII disclosures decrease (9.10% high to 5.34% low) as subject visibility drops. We identify that models are more likely to disclose PII for high-visibility subjects, alongside substantial model-family heterogeneity and PII-type disparities. Finally, paraphrasing and jailbreak-style prompts expose attack and model-dependent failures, motivating visibility-aware safety evaluation and training interventions.",
+      "url": "https://arxiv.org/abs/2601.05739",
+      "published_date": "2026-01-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pii",
+        "visibility",
+        "models",
+        "online",
+        "high",
+        "information",
+        "privacy",
+        "safety",
+        "available",
+        "available online"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in VLM safety \u2013 PII leakage \u2013 and importantly moves beyond simplistic extraction tasks to consider the influence of online data availability. The introduction of PII-VisBench is a strong contribution, providing a nuanced evaluation framework. The consistent pattern observed across models suggests a significant vulnerability that needs addressing, and the work is clearly presented and well-motivated.",
+      "paper_id": "7aba8af85bfca5f95ad338c7731d32ce"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-12T09:43:17.168829"
 }

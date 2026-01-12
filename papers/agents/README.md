@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Conformity and Social Impact on AI Agents
+
+**Score:** 90.0 | **Published:** 2026-01-12 | **Authors:** Alessandro Bellina, Giordano De Marzo, David Garcia
+
+arXiv:2601.05384v1 Announce Type: cross 
+Abstract: As AI agents increasingly operate in multi-agent environments, understanding their collective behavior becomes critical for predicting the dynamics o...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05384) | [📝 Analysis](791a6490067b1945bf10fc39509f56e8.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*

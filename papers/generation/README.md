@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG
+
+**Score:** 92.0 | **Published:** 2026-01-12 | **Authors:** Maxime Dassen, Rebecca Kotula, Kenton Murray, Andrew Yates, Dawn Lawrie, Efsun Kayi, James Mayfield, Kevin Duh
+
+arXiv:2601.05866v1 Announce Type: new 
+Abstract: Retrieval-Augmented Generation (RAG) models are critically undermined by citation hallucinations, a deceptive failure where a model confidently cites a...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.05866) | [📝 Analysis](f69a83357cd03ef786708b6f72592965.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-12 09:43:17 UTC*
