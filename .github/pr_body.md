@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.0/100
+- **Categories Updated:** 6
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,40 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Reasoning (3 new papers)
+- **AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents** (Score: 92.0)
+  - This paper addresses a crucial and timely problem in the rapidly evolving field of LLM-based agents: hallucination attribution. The creation of AgentHallu, a comprehensive benchmark with detailed annotations, is a significant contribution. While the task itself is a logical extension of existing hallucination detection work, the focus on *attribution* within multi-step agents is novel and well-motivated, suggesting a positive reception from the community.
+- **Value of Information: A Framework for Human-Agent Communication** (Score: 90.0)
+  - This paper addresses a crucial problem in LLM agent deployment – balancing information gathering with user experience. The Value of Information framework offers a principled approach to this trade-off, moving beyond brittle heuristics. The strong experimental results across diverse domains suggest a robust and generalizable solution, and the claim of no hyperparameter tuning is particularly appealing.
+- **Detecting LLM-Generated Text with Performance Guarantees** (Score: 90.0)
+  - This research addresses a highly significant and timely problem – the detection of LLM-generated text. The stated novelties (no reliance on auxiliary information, improved distinction between human/LLM text) are promising, though the abstract doesn't detail *how* these are achieved. The availability of an online demo suggests a practical focus, and the problem's relevance to combating misinformation and academic dishonesty is substantial. However, the abstract is brief and lacks specifics on methodology, making a definitive quality assessment difficult.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Knowledge (1 new papers)
+- **MedEinst: Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis** (Score: 92.0)
+  - This paper addresses a critical issue – the 'Einstellung Effect' in medical LLMs – which is a significant barrier to reliable clinical diagnosis. The introduction of the MedEinst benchmark and the Bias Trap Rate metric are strong methodological contributions. While the ECR-Agent is mentioned, details are limited in the abstract, but the focus on aligning LLM reasoning with Evidence-Based Medicine is promising. The high scores reflect the importance of the problem and the potential for impactful solutions.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Evaluation (1 new papers)
+- **BiasLab: A Multilingual, Dual-Framing Framework for Robust Measurement of Output-Level Bias in Large Language Models** (Score: 92.0)
+  - This paper addresses a crucial problem in the LLM space – robust bias evaluation – with a well-defined methodology. The dual-framing approach and focus on multilingualism are strong points, and the emphasis on reducing prompt sensitivity is particularly valuable. The open-source nature of BiasLab further enhances its potential impact and adoption within the research community. The described approach appears rigorous and addresses limitations of existing methods.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Agents (1 new papers)
+- **LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents** (Score: 90.0)
+  - This paper tackles a crucial limitation of current LLM-based agents – the lack of private working memory – and frames it as a fundamental theoretical problem. The introduction of 'Private State Interactive Tasks' (PSITs) and the impossibility theorem are strong contributions, and the empirical validation with a self-consistency test is well-motivated. The clear articulation of the problem and the rigorous approach suggest a high likelihood of positive reception within the community.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Training (1 new papers)
+- **Solar Open Technical Report** (Score: 90.0)
+  - This paper addresses a crucial problem – the lack of LLM resources for underserved languages. The systematic methodology involving data synthesis, curriculum learning, and scalable RL (SnapPO) appears well-defined and the reported competitive performance in English and Korean suggests a successful implementation. The focus on both quality and quantity of data, coupled with a progressive curriculum, is a strong approach. The high sentiment score reflects the current trend towards inclusivity and accessibility in AI.
+
+## Architectures (1 new papers)
+- **The Roots of Performance Disparity in Multilingual Language Models: Intrinsic Modeling Difficulty or Design Choices?** (Score: 92.0)
+  - This paper addresses a crucial issue in the field of multilingual NLP – the performance disparities across languages. The survey approach, systematically linking linguistic features to modeling choices, is well-structured and promises valuable insights. While the abstract suggests a synthesis of existing literature rather than entirely novel methods, the potential to guide future model design and mitigate inequities is significant. The high significance stems from the growing importance of truly inclusive multilingual models.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Reasoning** (3), **Knowledge** (1), **Evaluation** (1), **Agents** (1), **Training** (1), **Architectures** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

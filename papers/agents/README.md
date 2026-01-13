@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents
+
+**Score:** 90.0 | **Published:** 2026-01-13 | **Authors:** Davide Baldelli, Ali Parviz, Amal Zouaq, Sarath Chandar
+
+arXiv:2601.06973v1 Announce Type: new 
+Abstract: As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory....
+
+[📄 Full Paper](https://arxiv.org/abs/2601.06973) | [📝 Analysis](accfd844114fa2ab0ae6c32f8571e1d6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-13 09:41:07 UTC*

@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Roots of Performance Disparity in Multilingual Language Models: Intrinsic Modeling Difficulty or Design Choices?",
+      "authors": [
+        "Chen Shani, Yuval Reif, Nathan Roll, Dan Jurafsky, Ekaterina Shutova"
+      ],
+      "abstract": "arXiv:2601.07220v1 Announce Type: new \nAbstract: Multilingual language models (LMs) promise broader NLP access, yet current systems deliver uneven performance across the world's languages. This survey examines why these gaps persist and whether they reflect intrinsic linguistic difficulty or modeling artifacts. We organize the literature around two questions: do linguistic disparities arise from representation and allocation choices (e.g., tokenization, encoding, data exposure, parameter sharing) rather than inherent complexity; and which design choices mitigate inequities across typologically diverse languages. We review linguistic features, such as orthography, morphology, lexical diversity, syntax, information density, and typological distance, linking each to concrete modeling mechanisms. Gaps often shrink when segmentation, encoding, and data exposure are normalized, suggesting much apparent difficulty stems from current modeling choices. We synthesize these insights into design recommendations for tokenization, sampling, architectures, and evaluation to support more balanced multilingual LMs.",
+      "url": "https://arxiv.org/abs/2601.07220",
+      "published_date": "2026-01-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "choices",
+        "modeling",
+        "design",
+        "difficulty",
+        "linguistic",
+        "multilingual",
+        "current",
+        "data",
+        "data exposure",
+        "design choices"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial issue in the field of multilingual NLP \u2013 the performance disparities across languages. The survey approach, systematically linking linguistic features to modeling choices, is well-structured and promises valuable insights. While the abstract suggests a synthesis of existing literature rather than entirely novel methods, the potential to guide future model design and mitigate inequities is significant. The high significance stems from the growing importance of truly inclusive multilingual models.",
+      "paper_id": "7994464220e6ed8374b9697669c512be"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-01-13T09:41:07.159641"
 }

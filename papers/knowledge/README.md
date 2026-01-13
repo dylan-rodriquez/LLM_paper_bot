@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### MedEinst: Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis
+
+**Score:** 92.0 | **Published:** 2026-01-13 | **Authors:** Wenting Chen, Zhongrui Zhu, Guolin Huang, Wenxuan Wang
+
+arXiv:2601.06636v1 Announce Type: new 
+Abstract: Despite achieving high accuracy on medical benchmarks, LLMs exhibit the Einstellung Effect in clinical diagnosis--relying on statistical shortcuts rath...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.06636) | [📝 Analysis](1e95158b1282b0ad1db580d57ed4127d.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-13 09:41:07 UTC*

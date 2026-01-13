@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "BiasLab: A Multilingual, Dual-Framing Framework for Robust Measurement of Output-Level Bias in Large Language Models",
+      "authors": [
+        "William Guey, Wei Zhang, Pei-Luen Patrick Rau, Pierrick Bougault, Vitor D. de Moura, Bertan Ucar, Jose O. Gomes"
+      ],
+      "abstract": "arXiv:2601.06861v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in high-stakes contexts where their outputs influence real-world decisions. However, evaluating bias in LLM outputs remains methodologically challenging due to sensitivity to prompt wording, limited multilingual coverage, and the lack of standardized metrics that enable reliable comparison across models. This paper introduces BiasLab, an open-source, model-agnostic evaluation framework for quantifying output-level (extrinsic) bias through a multilingual, robustness-oriented experimental design. BiasLab constructs mirrored probe pairs under a strict dual-framing scheme: an affirmative assertion favoring Target A and a reverse assertion obtained by deterministic target substitution favoring Target B, while preserving identical linguistic structure. To reduce dependence on prompt templates, BiasLab performs repeated evaluation under randomized instructional wrappers and enforces a fixed-choice Likert response format to maximize comparability across models and languages. Responses are normalized into agreement labels using an LLM-based judge, aligned for polarity consistency across framings, and aggregated into quantitative bias indicators with descriptive statistics including effect sizes and neutrality rates. The framework supports evaluation across diverse bias axes, including demographic, cultural, political, and geopolitical topics, and produces reproducible artifacts such as structured reports and comparative visualizations. BiasLab contributes a standardized methodology for cross-lingual and framing-sensitive bias measurement that complements intrinsic and dataset-based audits, enabling researchers and institutions to benchmark robustness and make better-informed deployment decisions.",
+      "url": "https://arxiv.org/abs/2601.06861",
+      "published_date": "2026-01-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "biaslab",
+        "models",
+        "evaluation",
+        "framework",
+        "framing",
+        "multilingual",
+        "target",
+        "assertion",
+        "based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the LLM space \u2013 robust bias evaluation \u2013 with a well-defined methodology. The dual-framing approach and focus on multilingualism are strong points, and the emphasis on reducing prompt sensitivity is particularly valuable. The open-source nature of BiasLab further enhances its potential impact and adoption within the research community. The described approach appears rigorous and addresses limitations of existing methods.",
+      "paper_id": "fcf74eeb00a81998ad0d650b3278bd7d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-13T09:41:07.155500"
 }
