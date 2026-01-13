@@ -2,7 +2,40 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents
+
+**Score:** 92.0 | **Published:** 2026-01-13 | **Authors:** Xuannan Liu, Xiao Yang, Zekun Li, Peipei Li, Ran He
+
+arXiv:2601.06818v1 Announce Type: new 
+Abstract: As LLM-based agents operate over sequential multi-step reasoning, hallucinations arising at intermediate steps risk propagating along the trajectory, t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.06818) | [📝 Analysis](7e6ae10971e9862bc7cfb3fead6be8b6.md)
+
+---
+
+### Value of Information: A Framework for Human-Agent Communication
+
+**Score:** 90.0 | **Published:** 2026-01-13 | **Authors:** Yijiang River Dong, Tiancheng Hu, Zheng Hui, Caiqi Zhang, Ivan Vuli\'c, Andreea Bobu, Nigel Collier
+
+arXiv:2601.06407v1 Announce Type: new 
+Abstract: Large Language Model (LLM) agents deployed for real-world tasks face a fundamental dilemma: user requests are underspecified, yet agents must decide wh...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.06407) | [📝 Analysis](416643fe91a2be463f16c653a870bdcb.md)
+
+---
+
+### Detecting LLM-Generated Text with Performance Guarantees
+
+**Score:** 90.0 | **Published:** 2026-01-13 | **Authors:** Hongyi Zhou, Jin Zhu, Ying Yang, Chengchun Shi
+
+arXiv:2601.06586v1 Announce Type: new 
+Abstract: Large language models (LLMs) such as GPT, Claude, Gemini, and Grok have been deeply integrated into our daily life. They now support a wide range of ta...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.06586) | [📝 Analysis](c0dc2660595b4bbdb0c7c7aad57dbb88.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +181,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-13 09:41:07 UTC*

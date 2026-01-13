@@ -415,7 +415,103 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+      "authors": [
+        "Xuannan Liu, Xiao Yang, Zekun Li, Peipei Li, Ran He"
+      ],
+      "abstract": "arXiv:2601.06818v1 Announce Type: new \nAbstract: As LLM-based agents operate over sequential multi-step reasoning, hallucinations arising at intermediate steps risk propagating along the trajectory, thus degrading overall reliability. Unlike hallucination detection in single-turn responses, diagnosing hallucinations in multi-step workflows requires identifying which step causes the initial divergence. To fill this gap, we propose a new research task, automated hallucination attribution of LLM-based agents, aiming to identify the step responsible for the hallucination and explain why. To support this task, we introduce AgentHallu, a comprehensive benchmark with: (1) 693 high-quality trajectories spanning 7 agent frameworks and 5 domains, (2) a hallucination taxonomy organized into 5 categories (Planning, Retrieval, Reasoning, Human-Interaction, and Tool-Use) and 14 sub-categories, and (3) multi-level annotations curated by humans, covering binary labels, hallucination-responsible steps, and causal explanations. We evaluate 13 leading models, and results show the task is challenging even for top-tier models (like GPT-5, Gemini-2.5-Pro). The best-performing model achieves only 41.1\\% step localization accuracy, where tool-use hallucinations are the most challenging at just 11.6\\%. We believe AgentHallu will catalyze future research into developing robust, transparent, and reliable agentic systems.",
+      "url": "https://arxiv.org/abs/2601.06818",
+      "published_date": "2026-01-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucination",
+        "step",
+        "agenthallu",
+        "agents",
+        "based",
+        "based agents",
+        "hallucinations",
+        "llm",
+        "llm based",
+        "multi"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of LLM-based agents: hallucination attribution. The creation of AgentHallu, a comprehensive benchmark with detailed annotations, is a significant contribution. While the task itself is a logical extension of existing hallucination detection work, the focus on *attribution* within multi-step agents is novel and well-motivated, suggesting a positive reception from the community.",
+      "paper_id": "7e6ae10971e9862bc7cfb3fead6be8b6"
+    },
+    {
+      "title": "Value of Information: A Framework for Human-Agent Communication",
+      "authors": [
+        "Yijiang River Dong, Tiancheng Hu, Zheng Hui, Caiqi Zhang, Ivan Vuli\\'c, Andreea Bobu, Nigel Collier"
+      ],
+      "abstract": "arXiv:2601.06407v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents deployed for real-world tasks face a fundamental dilemma: user requests are underspecified, yet agents must decide whether to act on incomplete information or interrupt users for clarification. Existing approaches either rely on brittle confidence thresholds that require task-specific tuning, or fail to account for the varying stakes of different decisions. We introduce a decision-theoretic framework that resolves this trade-off through the Value of Information (VoI), enabling agents to dynamically weigh the expected utility gain from asking questions against the cognitive cost imposed on users. Our inference-time method requires no hyperparameter tuning and adapts seamlessly across contexts-from casual games to medical diagnosis. Experiments across four diverse domains (20 Questions, medical diagnosis, flight booking, and e-commerce) show that VoI consistently matches or exceeds the best manually-tuned baselines, achieving up to 1.36 utility points higher in high-cost settings. This work provides a parameter-free framework for adaptive agent communication that explicitly balances task risk, query ambiguity, and user effort.",
+      "url": "https://arxiv.org/abs/2601.06407",
+      "published_date": "2026-01-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "agents",
+        "framework",
+        "information",
+        "agent",
+        "agent communication",
+        "communication",
+        "cost",
+        "diagnosis",
+        "medical",
+        "medical diagnosis"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in LLM agent deployment \u2013 balancing information gathering with user experience. The Value of Information framework offers a principled approach to this trade-off, moving beyond brittle heuristics. The strong experimental results across diverse domains suggest a robust and generalizable solution, and the claim of no hyperparameter tuning is particularly appealing.",
+      "paper_id": "416643fe91a2be463f16c653a870bdcb"
+    },
+    {
+      "title": "Detecting LLM-Generated Text with Performance Guarantees",
+      "authors": [
+        "Hongyi Zhou, Jin Zhu, Ying Yang, Chengchun Shi"
+      ],
+      "abstract": "arXiv:2601.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) such as GPT, Claude, Gemini, and Grok have been deeply integrated into our daily life. They now support a wide range of tasks -- from dialogue and email drafting to assisting with teaching and coding, serving as search engines, and much more. However, their ability to produce highly human-like text raises serious concerns, including the spread of fake news, the generation of misleading governmental reports, and academic misconduct. To address this practical problem, we train a classifier to determine whether a piece of text is authored by an LLM or a human. Our detector is deployed on an online CPU-based platform https://huggingface.co/spaces/stats-powered-ai/StatDetectLLM, and contains three novelties over existing detectors: (i) it does not rely on auxiliary information, such as watermarks or knowledge of the specific LLM used to generate the text; (ii) it more effectively distinguishes between human- and LLM-authored text; and (iii) it enables statistical inference, which is largely absent in the current literature. Empirically, our classifier achieves higher classification accuracy compared to existing detectors, while maintaining type-I error control, high statistical power, and computational efficiency.",
+      "url": "https://arxiv.org/abs/2601.06586",
+      "published_date": "2026-01-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "text",
+        "llm",
+        "human",
+        "authored",
+        "classifier",
+        "detectors",
+        "existing",
+        "existing detectors",
+        "statistical",
+        "type"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the detection of LLM-generated text. The stated novelties (no reliance on auxiliary information, improved distinction between human/LLM text) are promising, though the abstract doesn't detail *how* these are achieved. The availability of an online demo suggests a practical focus, and the problem's relevance to combating misinformation and academic dishonesty is substantial. However, the abstract is brief and lacks specifics on methodology, making a definitive quality assessment difficult.",
+      "paper_id": "c0dc2660595b4bbdb0c7c7aad57dbb88"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-13T09:41:07.153761"
 }

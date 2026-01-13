@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Roots of Performance Disparity in Multilingual Language Models: Intrinsic Modeling Difficulty or Design Choices?
+
+**Score:** 92.0 | **Published:** 2026-01-13 | **Authors:** Chen Shani, Yuval Reif, Nathan Roll, Dan Jurafsky, Ekaterina Shutova
+
+arXiv:2601.07220v1 Announce Type: new 
+Abstract: Multilingual language models (LMs) promise broader NLP access, yet current systems deliver uneven performance across the world's languages. This survey...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.07220) | [📝 Analysis](7994464220e6ed8374b9697669c512be.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-13 09:41:07 UTC*
