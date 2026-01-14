@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Universal computation is intrinsic to language model decoding",
+      "authors": [
+        "Alex Lewandowski, Marlos C. Machado, Dale Schuurmans"
+      ],
+      "abstract": "arXiv:2601.08061v1 Announce Type: new \nAbstract: Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities remain a major topic of scientific debate. Unlike a formal computer, a language model is trained to autoregressively predict successive elements in human-generated text. We prove that chaining a language model's autoregressive output is sufficient to perform universal computation. That is, a language model can simulate the execution of any algorithm on any input. The challenge of eliciting desired computational behaviour can thus be reframed in terms of programmability: the ease of finding a suitable prompt. Strikingly, we demonstrate that even randomly initialized language models are capable of universal computation before training. This implies that training does not give rise to computational expressiveness -- rather, it improves programmability, enabling a natural language interface for accessing these intrinsic capabilities.",
+      "url": "https://arxiv.org/abs/2601.08061",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "language model",
+        "model",
+        "computation",
+        "computational",
+        "universal",
+        "universal computation",
+        "capabilities",
+        "interface",
+        "intrinsic"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a fundamental question about the capabilities of language models, demonstrating universal computation is *intrinsic* to their architecture, not a result of training. The claim that even randomly initialized LMs are computationally universal is particularly striking and challenges conventional understanding. The reframing of the challenge as 'programmability' rather than inherent capability is a valuable perspective, and the rigor of a formal proof suggests a high-quality work.",
+      "paper_id": "23708f32668e6bc3d76946e76d85fabb"
+    },
+    {
+      "title": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs",
+      "authors": [
+        "Jen-tse Huang, Jiantong Qin, Xueli Qiu, Sharon Levy, Michelle R. Kaufman, Mark Dredze"
+      ],
+      "abstract": "arXiv:2601.07972v1 Announce Type: new \nAbstract: Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present ValAct-15k, a dataset of 3,000 advice-seeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenario-based questions and the traditional value questionnaire, we evaluate ten frontier LLMs (five from U.S. companies, five from Chinese ones) and human participants ($n = 55$). We find near-perfect cross-model consistency in scenario-based decisions (Pearson $r \\approx 1.0$), contrasting sharply with the broad variability observed among humans ($r \\in [-0.79, 0.98]$). Yet, both humans and LLMs show weak correspondence between self-reported and enacted values ($r = 0.4, 0.3$), revealing a systematic knowledge-action gap. When instructed to \"hold\" a specific value, LLMs' performance declines up to $6.6%$ compared to merely selecting the value, indicating a role-play aversion. These findings suggest that while alignment training yields normative value convergence, it does not eliminate the human-like incoherence between knowing and acting upon values.",
+      "url": "https://arxiv.org/abs/2601.07972",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "value",
+        "values",
+        "human",
+        "action",
+        "alignment",
+        "based",
+        "human values",
+        "humans",
+        "knowing"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 the alignment of LLM behavior with human values. The creation of the ValAct-15k dataset is a significant contribution, and the comparison of US and Chinese LLMs is particularly insightful. The finding of a 'knowledge-action gap' in both LLMs and humans is a compelling result, suggesting fundamental challenges in value alignment beyond simply knowing what is right.",
+      "paper_id": "729cd40447aa0a3b491e2f6e525c9c82"
+    },
+    {
+      "title": "sui-1: Grounded and Verifiable Long-Form Summarization",
+      "authors": [
+        "Benedikt Droste, Jan Philipp Harries, Maximilian Idahl, Bj\\\"orn Pl\\\"uster"
+      ],
+      "abstract": "arXiv:2601.08472v1 Announce Type: new \nAbstract: Large language models frequently generate plausible but unfaithful summaries that users cannot verify against source text, a critical limitation in compliance-sensitive domains such as government and legal analysis. We present sui-1, a 24B parameter model that produces abstractive summaries with inline citations, enabling users to trace each claim to its source sentence. Our synthetic data pipeline combines chain-of-thought prompting with multi-stage verification, generating over 22,000 high-quality training examples across five languages from diverse sources including parliamentary documents, web text, and Wikipedia. Evaluation shows sui-1 significantly outperforms all tested open-weight baselines, including models with 3x more parameters. These results demonstrate that task-specific training substantially outperforms scale alone for citation-grounded summarization. Model weights and an interactive demo are publicly available.",
+      "url": "https://arxiv.org/abs/2601.08472",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "sui",
+        "grounded",
+        "including",
+        "model",
+        "models",
+        "outperforms",
+        "source",
+        "summaries",
+        "summarization",
+        "text"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in LLM deployment \u2013 faithfulness and verifiability of summaries. The use of a task-specific training pipeline with synthetic data and inline citations is a strong methodological approach. Outperforming larger models demonstrates the effectiveness of their strategy, and the public release of weights and a demo further strengthens the work's impact and encourages reproducibility.",
+      "paper_id": "b9b9ab5f769f06ec4bdddc01abe86a35"
+    },
+    {
+      "title": "Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling",
+      "authors": [
+        "Yang Cai, Weiqiang Zheng"
+      ],
+      "abstract": "arXiv:2601.08777v1 Announce Type: cross \nAbstract: Aligning large language models (LLMs) to serve users with heterogeneous and potentially conflicting preferences is a central challenge for personalized and trustworthy AI. We formalize an ideal notion of universal alignment through test-time scaling: for each prompt, the model produces $k\\ge 1$ candidate responses and a user selects their preferred one. We introduce $(k,f(k))$-robust alignment, which requires the $k$-output model to have win rate $f(k)$ against any other single-output model, and asymptotic universal alignment (U-alignment), which requires $f(k)\\to 1$ as $k\\to\\infty$. Our main result characterizes the optimal convergence rate: there exists a family of single-output policies whose $k$-sample product policies achieve U-alignment at rate $f(k)=\\frac{k}{k+1}$, and no method can achieve a faster rate in general.\n  We show that popular post-training methods, including Nash learning from human feedback (NLHF), can fundamentally underutilize the benefits of test-time scaling. Even though NLHF is optimal for $k=1$, sampling from the resulting (often deterministic) policy cannot guarantee win rates above $\\tfrac{1}{2}$ except for an arbitrarily small slack. This stems from a lack of output diversity: existing alignment methods can collapse to a single majority-preferred response, making additional samples redundant. In contrast, our approach preserves output diversity and achieves the optimal test-time scaling rate. In particular, we propose a family of symmetric multi-player alignment games and prove that any symmetric Nash equilibrium policy of the $(k+1)$-player alignment game achieves the optimal $(k,\\frac{k}{k+1})$-robust alignment. Finally, we provide theoretical convergence guarantees for self-play learning dynamics in these games and extend the framework to opponents that also generate multiple responses.",
+      "url": "https://arxiv.org/abs/2601.08777",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "alignment",
+        "output",
+        "rate",
+        "optimal",
+        "scaling",
+        "test",
+        "test time",
+        "time",
+        "time scaling",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM alignment \u2013 handling diverse user preferences. The formalization of 'universal alignment' via test-time scaling and the characterization of the optimal convergence rate are strong contributions. While building on existing post-training methods like NLHF, the theoretical framing and rate analysis provide a valuable new perspective. The clarity of the abstract suggests a well-written paper, though a full review would be needed to confirm.",
+      "paper_id": "b4b36128098432b81015f6e1e2567ee1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-14T09:45:51.522522"
 }

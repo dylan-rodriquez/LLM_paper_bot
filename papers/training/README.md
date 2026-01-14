@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Universal computation is intrinsic to language model decoding
+
+**Score:** 92.0 | **Published:** 2026-01-14 | **Authors:** Alex Lewandowski, Marlos C. Machado, Dale Schuurmans
+
+arXiv:2601.08061v1 Announce Type: new 
+Abstract: Language models now provide an interface to express and often solve general problems in natural language, yet their ultimate computational capabilities...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08061) | [📝 Analysis](23708f32668e6bc3d76946e76d85fabb.md)
+
+---
+
+### Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Jen-tse Huang, Jiantong Qin, Xueli Qiu, Sharon Levy, Michelle R. Kaufman, Mark Dredze
+
+arXiv:2601.07972v1 Announce Type: new 
+Abstract: Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) repres...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.07972) | [📝 Analysis](729cd40447aa0a3b491e2f6e525c9c82.md)
+
+---
+
+### sui-1: Grounded and Verifiable Long-Form Summarization
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Benedikt Droste, Jan Philipp Harries, Maximilian Idahl, Bj\"orn Pl\"uster
+
+arXiv:2601.08472v1 Announce Type: new 
+Abstract: Large language models frequently generate plausible but unfaithful summaries that users cannot verify against source text, a critical limitation in com...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08472) | [📝 Analysis](b9b9ab5f769f06ec4bdddc01abe86a35.md)
+
+---
+
+### Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Yang Cai, Weiqiang Zheng
+
+arXiv:2601.08777v1 Announce Type: cross 
+Abstract: Aligning large language models (LLMs) to serve users with heterogeneous and potentially conflicting preferences is a central challenge for personaliz...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08777) | [📝 Analysis](b4b36128098432b81015f6e1e2567ee1.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-14 09:45:51 UTC*

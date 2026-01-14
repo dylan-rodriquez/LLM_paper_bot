@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Med-CoReasoner: Reducing Language Disparities in Medical Reasoning via Language-Informed Co-Reasoning",
+      "authors": [
+        "Fan Gao, Sherry T. Tong, Jiwoong Sohn, Jiahao Huang, Junfeng Jiang, Ding Xia, Piyalitt Ittichaiwong, Kanyakorn Veerakanjana, Hyunjae Kim, Qingyu Chen, Edison Marrese Taylor, Kazuma Kobayashi, Akkiko Aizawa, Irene Li"
+      ],
+      "abstract": "arXiv:2601.08267v1 Announce Type: new \nAbstract: While reasoning-enhanced large language models perform strongly on English medical tasks, a persistent multilingual gap remains, with substantially weaker reasoning in local languages, limiting equitable global medical deployment. To bridge this gap, we introduce Med-CoReasoner, a language-informed co-reasoning framework that elicits parallel English and local-language reasoning, abstracts them into structured concepts, and integrates local clinical knowledge into an English logical scaffold via concept-level alignment and retrieval. This design combines the structural robustness of English reasoning with the practice-grounded expertise encoded in local languages. To evaluate multilingual medical reasoning beyond multiple-choice settings, we construct MultiMed-X, a benchmark covering seven languages with expert-annotated long-form question answering and natural language inference tasks, comprising 350 instances per language. Experiments across three benchmarks show that Med-CoReasoner improves multilingual reasoning performance by an average of 5%, with particularly substantial gains in low-resource languages. Moreover, model distillation and expert evaluation analysis further confirm that Med-CoReasoner produces clinically sound and culturally grounded reasoning traces.",
+      "url": "https://arxiv.org/abs/2601.08267",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "language",
+        "coreasoner",
+        "english",
+        "languages",
+        "local",
+        "med",
+        "med coreasoner",
+        "medical",
+        "multilingual"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem \u2013 the multilingual gap in medical reasoning \u2013 with a novel approach combining co-reasoning and knowledge integration. The creation of the MultiMed-X benchmark is a significant contribution, providing a valuable resource for the community. While the core idea builds on existing LLM techniques, the specific implementation and focus on language-informed co-reasoning appear promising and well-motivated.",
+      "paper_id": "d210f1398ac7b245efbdf4dbbc202cf6"
+    },
+    {
+      "title": "KVzap: Fast, Adaptive, and Faithful KV Cache Pruning",
+      "authors": [
+        "Simon Jegou, Maximilian Jeblick"
+      ],
+      "abstract": "arXiv:2601.07891v1 Announce Type: cross \nAbstract: Growing context lengths in transformer-based language models have made the key-value (KV) cache a critical inference bottleneck. While many KV cache pruning methods have been proposed, they have not yet been adopted in major inference engines due to speed--accuracy trade-offs. We introduce KVzap, a fast, input-adaptive approximation of KVzip that works in both prefilling and decoding. On Qwen3-8B, Llama-3.1-8B-Instruct, and Qwen3-32B across long-context and reasoning tasks, KVzap achieves $2$--$4\\times$ KV cache compression with negligible accuracy loss and achieves state-of-the-art performance on the KVpress leaderboard. Code and models are available at https://github.com/NVIDIA/kvpress.",
+      "url": "https://arxiv.org/abs/2601.07891",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "cache",
+        "kv",
+        "kv cache",
+        "kvzap",
+        "8b",
+        "accuracy",
+        "achieves",
+        "adaptive",
+        "cache pruning",
+        "context"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical bottleneck in large language model inference \u2013 the KV cache \u2013 and proposes a solution (KVzap) that demonstrably improves speed without sacrificing accuracy. The reported 2-4x compression with negligible accuracy loss is a significant achievement, and achieving state-of-the-art performance on the KVpress leaderboard further strengthens the work. The availability of code and models is a strong positive indicator, suggesting a commitment to reproducibility and wider adoption.",
+      "paper_id": "1b105e732d14289629d3596b82be0e5b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-14T09:45:51.526491"
 }

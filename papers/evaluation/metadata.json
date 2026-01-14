@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Multilingual, Multimodal Pipeline for Creating Authentic and Structured Fact-Checked Claim Dataset",
+      "authors": [
+        "Z. Melce H\\\"us\\\"unbeyi, Virginie Mouilleron, Leonie Uhling, Daniel Foppe, Tatjana Scheffler, Djam\\'e Seddah"
+      ],
+      "abstract": "arXiv:2601.07985v1 Announce Type: new \nAbstract: The rapid proliferation of misinformation across online platforms underscores the urgent need for robust, up-to-date, explainable, and multilingual fact-checking resources. However, existing datasets are limited in scope, often lacking multimodal evidence, structured annotations, and detailed links between claims, evidence, and verdicts. This paper introduces a comprehensive data collection and processing pipeline that constructs multimodal fact-checking datasets in French and German languages by aggregating ClaimReview feeds, scraping full debunking articles, normalizing heterogeneous claim verdicts, and enriching them with structured metadata and aligned visual content. We used state-of-the-art large language models (LLMs) and multimodal LLMs for (i) evidence extraction under predefined evidence categories and (ii) justification generation that links evidence to verdicts. Evaluation with G-Eval and human assessment demonstrates that our pipeline enables fine-grained comparison of fact-checking practices across different organizations or media markets, facilitates the development of more interpretable and evidence-grounded fact-checking models, and lays the groundwork for future research on multilingual, multimodal misinformation verification.",
+      "url": "https://arxiv.org/abs/2601.07985",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "evidence",
+        "fact",
+        "multimodal",
+        "checking",
+        "fact checking",
+        "multilingual",
+        "pipeline",
+        "structured",
+        "verdicts",
+        "claim"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 misinformation \u2013 with a well-defined and comprehensive approach. The use of LLMs and multimodal LLMs for evidence extraction and justification generation is a strong methodological choice, and the focus on French and German languages expands the scope beyond predominantly English datasets. The evaluation using G-Eval and human assessment suggests a rigorous approach, though the abstract only hints at the results.",
+      "paper_id": "4e73d0151f84d4785be99e719bb5582f"
+    },
+    {
+      "title": "How Reliable are Confidence Estimators for Large Reasoning Models? A Systematic Benchmark on High-Stakes Domains",
+      "authors": [
+        "Reza Khanmohammadi, Erfan Miahi, Simerjot Kaur, Ivan Brugere, Charese H. Smiley, Kundan Thind, Mohammad M. Ghassemi"
+      ],
+      "abstract": "arXiv:2601.08134v1 Announce Type: new \nAbstract: The miscalibration of Large Reasoning Models (LRMs) undermines their reliability in high-stakes domains, necessitating methods to accurately estimate the confidence of their long-form, multi-step outputs. To address this gap, we introduce the Reasoning Model Confidence estimation Benchmark (RMCB), a public resource of 347,496 reasoning traces from six popular LRMs across different architectural families. The benchmark is constructed from a diverse suite of datasets spanning high-stakes domains, including clinical, financial, legal, and mathematical reasoning, alongside complex general reasoning benchmarks, with correctness annotations provided for all samples. Using RMCB, we conduct a large-scale empirical evaluation of over ten distinct representation-based methods, spanning sequential, graph-based, and text-based architectures. Our central finding is a persistent trade-off between discrimination (AUROC) and calibration (ECE): text-based encoders achieve the best AUROC (0.672), while structurally-aware models yield the best ECE (0.148), with no single method dominating both. Furthermore, we find that increased architectural complexity does not reliably outperform simpler sequential baselines, suggesting a performance ceiling for methods relying solely on chunk-level hidden states. This work provides the most comprehensive benchmark for this task to date, establishing rigorous baselines and demonstrating the limitations of current representation-based paradigms.",
+      "url": "https://arxiv.org/abs/2601.08134",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "based",
+        "benchmark",
+        "confidence",
+        "domains",
+        "high",
+        "high stakes",
+        "large",
+        "methods",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the deployment of Large Reasoning Models \u2013 their often poor calibration. The creation of the RMCB benchmark is a significant contribution, providing a standardized resource for evaluating confidence estimation methods. The empirical evaluation of multiple methods and the identification of a trade-off between discrimination and calibration are valuable insights, suggesting a need for more nuanced approaches to confidence scoring.",
+      "paper_id": "18095565545b3148c78e3bb543a57f16"
+    },
+    {
+      "title": "VocalBench: Benchmarking the Vocal Conversational Abilities for Speech Interaction Models",
+      "authors": [
+        "Heyang Liu, Yuhao Wang, Ziyang Cheng, Hongcheng Liu, Yiqi Li, Yixuan Hou, Ronghua Wu, Qunshan Gu, Yanfeng Wang, Yu Wang"
+      ],
+      "abstract": "arXiv:2505.15727v3 Announce Type: replace \nAbstract: Speech large language models (SpeechLLMs) have extended human-machine interactions from the text modality to the dynamic speech domain. Spoken dialogues convey diverse information, including semantic concepts, acoustic variations, paralanguage cues, and environmental context. However, existing evaluations of speech interaction models lack instances mimicking real scenarios and predominantly focus on the performance of distinct aspects, lacking a comprehensive comparison of critical capabilities between current routines. To address this gap, we propose VocalBench to assess the speech conversational abilities, comprising around 24k carefully curated instances of both English and Mandarin across four key dimensions - semantic quality, acoustic performance, conversational abilities, and robustness, covering 14 user-oriented characters. Experiments on 27 mainstream models reveal the common challenges for current routes, and highlight the need for new insights into next-generation speech interactive systems.",
+      "url": "https://arxiv.org/abs/2505.15727",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "speech",
+        "models",
+        "abilities",
+        "conversational",
+        "conversational abilities",
+        "acoustic",
+        "current",
+        "instances",
+        "interaction",
+        "interaction models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in the evaluation of SpeechLLMs, moving beyond isolated capability assessments to a more holistic, scenario-based benchmark. The creation of VocalBench, with its diverse dimensions and character set, is a significant contribution. While the core idea of benchmarking isn't novel, the specific focus on conversational abilities and the scale of the dataset demonstrate strong effort and potential for impact. The paper appears well-structured and focused, suggesting a high likelihood of positive reception within the speech interaction community.",
+      "paper_id": "059d4428cbedba012c1d9a38037830a4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-14T09:45:51.524901"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Multilingual, Multimodal Pipeline for Creating Authentic and Structured Fact-Checked Claim Dataset
+
+**Score:** 92.0 | **Published:** 2026-01-14 | **Authors:** Z. Melce H\"us\"unbeyi, Virginie Mouilleron, Leonie Uhling, Daniel Foppe, Tatjana Scheffler, Djam\'e Seddah
+
+arXiv:2601.07985v1 Announce Type: new 
+Abstract: The rapid proliferation of misinformation across online platforms underscores the urgent need for robust, up-to-date, explainable, and multilingual fac...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.07985) | [📝 Analysis](4e73d0151f84d4785be99e719bb5582f.md)
+
+---
+
+### How Reliable are Confidence Estimators for Large Reasoning Models? A Systematic Benchmark on High-Stakes Domains
+
+**Score:** 92.0 | **Published:** 2026-01-14 | **Authors:** Reza Khanmohammadi, Erfan Miahi, Simerjot Kaur, Ivan Brugere, Charese H. Smiley, Kundan Thind, Mohammad M. Ghassemi
+
+arXiv:2601.08134v1 Announce Type: new 
+Abstract: The miscalibration of Large Reasoning Models (LRMs) undermines their reliability in high-stakes domains, necessitating methods to accurately estimate t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08134) | [📝 Analysis](18095565545b3148c78e3bb543a57f16.md)
+
+---
+
+### VocalBench: Benchmarking the Vocal Conversational Abilities for Speech Interaction Models
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Heyang Liu, Yuhao Wang, Ziyang Cheng, Hongcheng Liu, Yiqi Li, Yixuan Hou, Ronghua Wu, Qunshan Gu, Yanfeng Wang, Yu Wang
+
+arXiv:2505.15727v3 Announce Type: replace 
+Abstract: Speech large language models (SpeechLLMs) have extended human-machine interactions from the text modality to the dynamic speech domain. Spoken dial...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.15727) | [📝 Analysis](059d4428cbedba012c1d9a38037830a4.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-14 09:45:51 UTC*

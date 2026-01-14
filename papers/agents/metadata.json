@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Evaluating Implicit Regulatory Compliance in LLM Tool Invocation via Logic-Guided Synthesis",
+      "authors": [
+        "Da Song, Yuheng Huang, Boqi Chen, Tianshuo Cong, Randy Goebel, Lei Ma, Foutse Khomh"
+      ],
+      "abstract": "arXiv:2601.08196v1 Announce Type: new \nAbstract: The integration of large language models (LLMs) into autonomous agents has enabled complex tool use, yet in high-stakes domains, these systems must strictly adhere to regulatory standards beyond simple functional correctness. However, existing benchmarks often overlook implicit regulatory compliance, thus failing to evaluate whether LLMs can autonomously enforce mandatory safety constraints. To fill this gap, we introduce LogiSafetyGen, a framework that converts unstructured regulations into Linear Temporal Logic oracles and employs logic-guided fuzzing to synthesize valid, safety-critical traces. Building on this framework, we construct LogiSafetyBench, a benchmark comprising 240 human-verified tasks that require LLMs to generate Python programs that satisfy both functional objectives and latent compliance rules. Evaluations of 13 state-of-the-art (SOTA) LLMs reveal that larger models, despite achieving better functional correctness, frequently prioritize task completion over safety, which results in non-compliant behavior.",
+      "url": "https://arxiv.org/abs/2601.08196",
+      "published_date": "2026-01-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "compliance",
+        "functional",
+        "logic",
+        "regulatory",
+        "safety",
+        "correctness",
+        "framework",
+        "functional correctness",
+        "guided"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 implicit regulatory compliance \u2013 which is particularly important as LLMs are deployed in high-stakes domains. The LogiSafetyGen framework and LogiSafetyBench benchmark represent a solid methodological contribution. While the use of LTL oracles isn't entirely novel, applying it specifically to LLM tool invocation and safety is a strong advancement, and the evaluation of 13 SOTA models suggests a rigorous approach.",
+      "paper_id": "425203a6fb1ea74ff3dce3c73b81d8e6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-01-14T09:45:51.525803"
 }
