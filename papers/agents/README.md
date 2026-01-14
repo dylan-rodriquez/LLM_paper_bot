@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Evaluating Implicit Regulatory Compliance in LLM Tool Invocation via Logic-Guided Synthesis
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Da Song, Yuheng Huang, Boqi Chen, Tianshuo Cong, Randy Goebel, Lei Ma, Foutse Khomh
+
+arXiv:2601.08196v1 Announce Type: new 
+Abstract: The integration of large language models (LLMs) into autonomous agents has enabled complex tool use, yet in high-stakes domains, these systems must str...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08196) | [📝 Analysis](425203a6fb1ea74ff3dce3c73b81d8e6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-14 09:45:51 UTC*

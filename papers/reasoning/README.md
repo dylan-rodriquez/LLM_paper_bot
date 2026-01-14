@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Med-CoReasoner: Reducing Language Disparities in Medical Reasoning via Language-Informed Co-Reasoning
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Fan Gao, Sherry T. Tong, Jiwoong Sohn, Jiahao Huang, Junfeng Jiang, Ding Xia, Piyalitt Ittichaiwong, Kanyakorn Veerakanjana, Hyunjae Kim, Qingyu Chen, Edison Marrese Taylor, Kazuma Kobayashi, Akkiko Aizawa, Irene Li
+
+arXiv:2601.08267v1 Announce Type: new 
+Abstract: While reasoning-enhanced large language models perform strongly on English medical tasks, a persistent multilingual gap remains, with substantially wea...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08267) | [📝 Analysis](d210f1398ac7b245efbdf4dbbc202cf6.md)
+
+---
+
+### KVzap: Fast, Adaptive, and Faithful KV Cache Pruning
+
+**Score:** 90.0 | **Published:** 2026-01-14 | **Authors:** Simon Jegou, Maximilian Jeblick
+
+arXiv:2601.07891v1 Announce Type: cross 
+Abstract: Growing context lengths in transformer-based language models have made the key-value (KV) cache a critical inference bottleneck. While many KV cache ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.07891) | [📝 Analysis](1b105e732d14289629d3596b82be0e5b.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-14 09:45:51 UTC*
