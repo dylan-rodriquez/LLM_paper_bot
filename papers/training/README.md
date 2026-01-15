@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Toward Understanding Unlearning Difficulty: A Mechanistic Perspective and Circuit-Guided Difficulty Metric
+
+**Score:** 92.0 | **Published:** 2026-01-15 | **Authors:** Jiali Cheng, Ziheng Chen, Chirag Agarwal, Hadi Amiri
+
+arXiv:2601.09624v1 Announce Type: cross 
+Abstract: Machine unlearning is becoming essential for building trustworthy and compliant language models. Yet unlearning success varies considerably across in...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.09624) | [📝 Analysis](fa5fad3c2885da77f899c149b0da9068.md)
+
+---
+
+### Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation
+
+**Score:** 90.0 | **Published:** 2026-01-15 | **Authors:** Felipe Biava Cataneo
+
+arXiv:2601.08842v1 Announce Type: new 
+Abstract: Safety architectures for language models increasingly rely on external monitors to detect errors and inject corrective signals at inference time. For s...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08842) | [📝 Analysis](5e65f10e7a9337ae3afd86f67a9e09c5.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-15 09:49:28 UTC*

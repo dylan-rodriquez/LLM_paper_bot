@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda",
+      "authors": [
+        "Piercosma Bisconti, Marcello Galisai, Matteo Prandi, Federico Pierucci, Olga Sorokoletova, Francesco Giarrusso, Vincenzo Suriani, Marcantonio Brancale, Daniele Nardi"
+      ],
+      "abstract": "arXiv:2601.08837v1 Announce Type: new \nAbstract: Safety mechanisms in LLMs remain vulnerable to attacks that reframe harmful requests through culturally coded structures. We introduce Adversarial Tales, a jailbreak technique that embeds harmful content within cyberpunk narratives and prompts models to perform functional analysis inspired by Vladimir Propp's morphology of folktales. By casting the task as structural decomposition, the attack induces models to reconstruct harmful procedures as legitimate narrative interpretation. Across 26 frontier models from nine providers, we observe an average attack success rate of 71.3%, with no model family proving reliably robust. Together with our prior work on Adversarial Poetry, these findings suggest that structurally-grounded jailbreaks constitute a broad vulnerability class rather than isolated techniques. The space of culturally coded frames that can mediate harmful intent is vast, likely inexhaustible by pattern-matching defenses alone. Understanding why these attacks succeed is therefore essential: we outline a mechanistic interpretability research agenda to investigate how narrative cues reshape model representations and whether models can learn to recognize harmful intent independently of surface form.",
+      "url": "https://arxiv.org/abs/2601.08837",
+      "published_date": "2026-01-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "harmful",
+        "adversarial",
+        "models",
+        "adversarial poetry",
+        "adversarial tales",
+        "agenda",
+        "attack",
+        "attacks",
+        "coded",
+        "culturally"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLM safety \u2013 the susceptibility to jailbreaks leveraging culturally coded structures. The extension of their previous 'Adversarial Poetry' work to 'Adversarial Tales' demonstrates a broadening understanding of this vulnerability class, and the 71.3% success rate across numerous models is concerning. The use of Propp's morphology is a novel approach to framing attacks, and the findings suggest a need for defenses beyond simple pattern matching.",
+      "paper_id": "e7c1b0800aa443e8be856f723f32b7db"
+    },
+    {
+      "title": "PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm",
+      "authors": [
+        "Jing-Jing Li, Joel Mire, Eve Fleisig, Valentina Pyatkin, Anne Collins, Maarten Sap, Sydney Levine"
+      ],
+      "abstract": "arXiv:2601.08951v1 Announce Type: cross \nAbstract: Current AI safety frameworks, which often treat harmfulness as binary, lack the flexibility to handle borderline cases where humans meaningfully disagree. To build more pluralistic systems, it is essential to move beyond consensus and instead understand where and why disagreements arise. We introduce PluriHarms, a benchmark designed to systematically study human harm judgments across two key dimensions -- the harm axis (benign to harmful) and the agreement axis (agreement to disagreement). Our scalable framework generates prompts that capture diverse AI harms and human values while targeting cases with high disagreement rates, validated by human data. The benchmark includes 150 prompts with 15,000 ratings from 100 human annotators, enriched with demographic and psychological traits and prompt-level features of harmful actions, effects, and values. Our analyses show that prompts that relate to imminent risks and tangible harms amplify perceived harmfulness, while annotator traits (e.g., toxicity experience, education) and their interactions with prompt content explain systematic disagreement. We benchmark AI safety models and alignment methods on PluriHarms, finding that while personalization significantly improves prediction of human harm judgments, considerable room remains for future progress. By explicitly targeting value diversity and disagreement, our work provides a principled benchmark for moving beyond \"one-size-fits-all\" safety toward pluralistically safe AI.",
+      "url": "https://arxiv.org/abs/2601.08951",
+      "published_date": "2026-01-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "human",
+        "ai",
+        "benchmark",
+        "disagreement",
+        "harm",
+        "judgments",
+        "pluriharms",
+        "prompts",
+        "safety",
+        "agreement"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in AI safety research by acknowledging and systematically studying the inherent subjectivity in defining 'harm.' The creation of the PluriHarms benchmark, with its focus on disagreement and nuanced harm assessments, is a strong methodological contribution. The inclusion of demographic and psychological data alongside prompt features suggests a rigorous approach to understanding the factors influencing harm judgments, and the initial analyses hint at valuable insights. The topic is highly relevant to current AI alignment concerns.",
+      "paper_id": "5233f3d840e33c3cefd4d720130a79ff"
+    },
+    {
+      "title": "Can Editing LLMs Inject Harm?",
+      "authors": [
+        "Canyu Chen, Baixiang Huang, Zekun Li, Zhaorun Chen, Shiyang Lai, Xiongxiao Xu, Jia-Chen Gu, Jindong Gu, Huaxiu Yao, Chaowei Xiao, Xifeng Yan, William Yang Wang, Philip Torr, Dawn Song, Kai Shu"
+      ],
+      "abstract": "arXiv:2407.20224v4 Announce Type: replace \nAbstract: Large Language Models (LLMs) have emerged as a new information channel. Meanwhile, one critical but under-explored question is: Is it possible to bypass the safety alignment and inject harmful information into LLMs stealthily? In this paper, we propose to reformulate knowledge editing as a new type of safety threat for LLMs, namely Editing Attack, and conduct a systematic investigation with a newly constructed dataset EditAttack. Specifically, we focus on two typical safety risks of Editing Attack including Misinformation Injection and Bias Injection. For the first risk, we find that editing attacks can inject both commonsense and long-tail misinformation into LLMs, and the effectiveness for the former one is particularly high. For the second risk, we discover that not only can biased sentences be injected into LLMs with high effectiveness, but also one single biased sentence injection can degrade the overall fairness. Then, we further illustrate the high stealthiness of editing attacks. Our discoveries demonstrate the emerging misuse risks of knowledge editing techniques on compromising the safety alignment of LLMs and the feasibility of disseminating misinformation or bias with LLMs as new channels.",
+      "url": "https://arxiv.org/abs/2407.20224",
+      "published_date": "2026-01-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "editing",
+        "safety",
+        "high",
+        "inject",
+        "injection",
+        "misinformation",
+        "new",
+        "alignment",
+        "attack"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the vulnerability of LLMs to malicious editing. The systematic investigation using a newly constructed dataset (EditAttack) and the focus on misinformation and bias injection demonstrate a solid methodology. The findings regarding the effectiveness of injecting both commonsense and long-tail misinformation, and the impact on overall fairness, are particularly noteworthy and suggest a significant threat.",
+      "paper_id": "64b526382b41d9382967c0648b44cec6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-15T09:49:28.859818"
 }

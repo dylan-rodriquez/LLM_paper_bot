@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe
+
+**Score:** 92.0 | **Published:** 2026-01-15 | **Authors:** JV Roig
+
+arXiv:2601.08847v1 Announce Type: new 
+Abstract: Evaluating knowledge systems (LLMs, RAG, knowledge graphs, etc) faces fundamental challenges: static benchmarks are vulnerable to contamination, LLM-ba...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08847) | [📝 Analysis](e0856699ab65d03d502002484c3df60e.md)
+
+---
+
+### How Many Human Judgments Are Enough? Feasibility Limits of Human Preference Evaluation
+
+**Score:** 90.0 | **Published:** 2026-01-15 | **Authors:** Wilson Y. Lee
+
+arXiv:2601.09084v1 Announce Type: new 
+Abstract: Human preference evaluations are widely used to compare generative models, yet it remains unclear how many judgments are required to reliably detect sm...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.09084) | [📝 Analysis](9c5db718f9aee5e2c0c213cd0936446e.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-15 09:49:28 UTC*
