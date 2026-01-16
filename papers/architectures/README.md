@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Yi Liu, Weizhe Wang, Ruitao Feng, Yao Zhang, Guangquan Xu, Gelei Deng, Yuekang Li, Leo Zhang
+
+arXiv:2601.10338v1 Announce Type: cross 
+Abstract: The rise of AI agent frameworks has introduced agent skills, modular packages containing instructions and executable code that dynamically extend age...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10338) | [📝 Analysis](63a4bf3f2120211b5c60f16560e5c044.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-16 09:44:30 UTC*

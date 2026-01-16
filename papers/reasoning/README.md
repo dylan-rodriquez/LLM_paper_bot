@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### ReasAlign: Reasoning Enhanced Safety Alignment against Prompt Injection Attack
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Hao Li, Yankai Yang, G. Edward Suh, Ning Zhang, Chaowei Xiao
+
+arXiv:2601.10173v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have enabled the development of powerful agentic systems capable of automating complex workflows across various fields. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10173) | [📝 Analysis](91ef69394541aaf2e0ae7a21bd33f705.md)
+
+---
+
+### Syntactic Framing Fragility: An Audit of Robustness in LLM Ethical Decisions
+
+**Score:** 90.0 | **Published:** 2026-01-16 | **Authors:** Katherine Elkins, Jon Chun
+
+arXiv:2601.09724v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in consequential decision-making settings, yet their robustness to benign prompt variation remai...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.09724) | [📝 Analysis](c786d20d6b5d9c7729fae8710760b227.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-16 09:44:30 UTC*

@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment",
+      "authors": [
+        "Cameron Tice, Puria Radmard, Samuel Ratnam, Andy Kim, David Africa, Kyle O'Brien"
+      ],
+      "abstract": "arXiv:2601.10160v1 Announce Type: new \nAbstract: Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly understood. If prevailing descriptions of AI behaviour are predominantly negative, LLMs may internalise corresponding behavioural priors, giving rise to self-fulfilling misalignment. This paper provides the first controlled study of this hypothesis by pretraining 6.9B-parameter LLMs with varying amounts of (mis)alignment discourse. We find that discussion of AI contributes to misalignment. Upsampling synthetic training documents about AI misalignment leads to a notable increase in misaligned behaviour. Conversely, upsampling documents about aligned behaviour reduces misalignment scores from 45% to 9%. We consider this evidence of self-fulfilling alignment. These effects are dampened, but persist through post-training. Our findings establish the study of how pretraining data shapes alignment priors, or alignment pretraining, as a complement to post-training. We recommend practitioners pretrain for alignment as well as capabilities. Our models and datasets are available at alignmentpretraining.ai",
+      "url": "https://arxiv.org/abs/2601.10160",
+      "published_date": "2026-01-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "ai",
+        "pretraining",
+        "discourse",
+        "misalignment",
+        "behaviour",
+        "fulfilling",
+        "self",
+        "self fulfilling",
+        "training"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and timely problem in AI alignment \u2013 the influence of pretraining data on model behavior. The controlled study design, upsampling alignment/misalignment discourse, and observed effects are strong evidence supporting the self-fulfilling alignment hypothesis. While the 6.9B parameter size isn't state-of-the-art, the clear results and implications for data curation are highly valuable.",
+      "paper_id": "ab6318c9f9d99f08b59bdbb739ace9e3"
+    },
+    {
+      "title": "Representation-Aware Unlearning via Activation Signatures: From Suppression to Knowledge-Signature Erasure",
+      "authors": [
+        "Syed Naveed Mahmood, Md. Rezaur Rahman Bhuiyan, Tasfia Zaman, Jareen Tasneem Khondaker, Md. Sameer Sakib, Nazia Tasnim, Farig Sadeque"
+      ],
+      "abstract": "arXiv:2601.10566v1 Announce Type: new \nAbstract: Selective knowledge erasure from LLMs is critical for GDPR compliance and model safety, yet current unlearning methods conflate behavioral suppression with true knowledge removal, allowing latent capabilities to persist beneath surface-level refusals. In this work, we address this challenge by introducing Knowledge Immunization Framework (KIF), a representation-aware architecture that distinguishes genuine erasure from obfuscation by targeting internal activation signatures rather than surface outputs. Our approach combines dynamic suppression of subject-specific representations with parameter-efficient adaptation, enabling durable unlearning without full model retraining. KIF achieves near-oracle erasure (FQ approx 0.99 vs. 1.00) while preserving utility at oracle levels (MU = 0.62), effectively breaking the stability-erasure tradeoff that has constrained all prior work. We evaluate both standard foundation models (Llama and Mistral) and reasoning-prior models (Qwen and DeepSeek) across 3B to 14B parameters. Our observation shows that standard models exhibit scale-independent true erasure (<3% utility drift), while reasoning-prior models reveal fundamental architectural divergence. Our comprehensive dual-metric evaluation protocol, combining surface-level leakage with latent trace persistence, operationalizes the obfuscation - erasure distinction and enables the first systematic diagnosis of mechanism-level forgetting behavior across model families and scales.",
+      "url": "https://arxiv.org/abs/2601.10566",
+      "published_date": "2026-01-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "erasure",
+        "knowledge",
+        "models",
+        "level",
+        "model",
+        "prior",
+        "suppression",
+        "surface",
+        "unlearning",
+        "activation"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 genuine unlearning versus superficial suppression \u2013 with a novel approach focusing on activation signatures. The reported results (FQ approx 0.99, MU = 0.62) are impressive, suggesting a significant improvement over existing methods and breaking the stability-erasure tradeoff. The combination of representation-aware architecture and parameter-efficient adaptation is a strong methodological contribution, and the focus on GDPR compliance and model safety adds to its relevance.",
+      "paper_id": "9b16860a881e5ec10860321c45b724ae"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-16T09:44:30.308558"
 }

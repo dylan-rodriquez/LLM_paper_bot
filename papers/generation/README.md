@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### From Detection to Diagnosis: Advancing Hallucination Analysis with Automated Data Synthesis
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Yanyi Liu, Qingwen Yang, Tiezheng Guo, Feiyu Qu, Jun Liu, Yingyou Wen
+
+arXiv:2601.09734v1 Announce Type: new 
+Abstract: Hallucinations in Large Language Models (LLMs), defined as the generation of content inconsistent with facts or context, represent a core obstacle to t...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.09734) | [📝 Analysis](38c7eb3dee296befffd15938a1dd22fd.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-16 09:44:30 UTC*
