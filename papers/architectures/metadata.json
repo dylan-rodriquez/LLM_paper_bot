@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale",
+      "authors": [
+        "Yi Liu, Weizhe Wang, Ruitao Feng, Yao Zhang, Guangquan Xu, Gelei Deng, Yuekang Li, Leo Zhang"
+      ],
+      "abstract": "arXiv:2601.10338v1 Announce Type: cross \nAbstract: The rise of AI agent frameworks has introduced agent skills, modular packages containing instructions and executable code that dynamically extend agent capabilities. While this architecture enables powerful customization, skills execute with implicit trust and minimal vetting, creating a significant yet uncharacterized attack surface. We conduct the first large-scale empirical security analysis of this emerging ecosystem, collecting 42,447 skills from two major marketplaces and systematically analyzing 31,132 using SkillScan, a multi-stage detection framework integrating static analysis with LLM-based semantic classification. Our findings reveal pervasive security risks: 26.1% of skills contain at least one vulnerability, spanning 14 distinct patterns across four categories: prompt injection, data exfiltration, privilege escalation, and supply chain risks. Data exfiltration (13.3%) and privilege escalation (11.8%) are most prevalent, while 5.2% of skills exhibit high-severity patterns strongly suggesting malicious intent. We find that skills bundling executable scripts are 2.12x more likely to contain vulnerabilities than instruction-only skills (OR=2.12, p<0.001). Our contributions include: (1) a grounded vulnerability taxonomy derived from 8,126 vulnerable skills, (2) a validated detection methodology achieving 86.7% precision and 82.5% recall, and (3) an open dataset and detection toolkit to support future research. These results demonstrate an urgent need for capability-based permission systems and mandatory security vetting before this attack vector is further exploited.",
+      "url": "https://arxiv.org/abs/2601.10338",
+      "published_date": "2026-01-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "skills",
+        "agent",
+        "security",
+        "detection",
+        "agent skills",
+        "analysis",
+        "attack",
+        "based",
+        "contain",
+        "data"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the security of AI agent skills. The large-scale empirical analysis and development of SkillScan demonstrate a solid methodology. The findings of pervasive vulnerabilities are concerning and highlight a critical gap in the current agent ecosystem, suggesting strong potential for positive reception within the AI security community.",
+      "paper_id": "63a4bf3f2120211b5c60f16560e5c044"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-01-16T09:44:30.312183"
 }

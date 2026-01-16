@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Cameron Tice, Puria Radmard, Samuel Ratnam, Andy Kim, David Africa, Kyle O'Brien
+
+arXiv:2601.10160v1 Announce Type: new 
+Abstract: Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly und...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10160) | [📝 Analysis](ab6318c9f9d99f08b59bdbb739ace9e3.md)
+
+---
+
+### Representation-Aware Unlearning via Activation Signatures: From Suppression to Knowledge-Signature Erasure
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Syed Naveed Mahmood, Md. Rezaur Rahman Bhuiyan, Tasfia Zaman, Jareen Tasneem Khondaker, Md. Sameer Sakib, Nazia Tasnim, Farig Sadeque
+
+arXiv:2601.10566v1 Announce Type: new 
+Abstract: Selective knowledge erasure from LLMs is critical for GDPR compliance and model safety, yet current unlearning methods conflate behavioral suppression ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10566) | [📝 Analysis](9b16860a881e5ec10860321c45b724ae.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-16 09:44:30 UTC*

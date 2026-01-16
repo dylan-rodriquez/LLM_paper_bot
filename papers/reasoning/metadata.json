@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "ReasAlign: Reasoning Enhanced Safety Alignment against Prompt Injection Attack",
+      "authors": [
+        "Hao Li, Yankai Yang, G. Edward Suh, Ning Zhang, Chaowei Xiao"
+      ],
+      "abstract": "arXiv:2601.10173v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have enabled the development of powerful agentic systems capable of automating complex workflows across various fields. However, these systems are highly vulnerable to indirect prompt injection attacks, where malicious instructions embedded in external data can hijack agent behavior. In this work, we present ReasAlign, a model-level solution to improve safety alignment against indirect prompt injection attacks. The core idea of ReasAlign is to incorporate structured reasoning steps to analyze user queries, detect conflicting instructions, and preserve the continuity of the user's intended tasks to defend against indirect injection attacks. To further ensure reasoning logic and accuracy, we introduce a test-time scaling mechanism with a preference-optimized judge model that scores reasoning steps and selects the best trajectory. Comprehensive evaluations across various benchmarks show that ReasAlign maintains utility comparable to an undefended model while consistently outperforming Meta SecAlign, the strongest prior guardrail. On the representative open-ended CyberSecEval2 benchmark, which includes multiple prompt-injected tasks, ReasAlign achieves 94.6% utility and only 3.6% ASR, far surpassing the state-of-the-art defensive model of Meta SecAlign (56.4% utility and 74.4% ASR). These results demonstrate that ReasAlign achieves the best trade-off between security and utility, establishing a robust and practical defense against prompt injection attacks in real-world agentic systems. Our code and experimental results could be found at https://github.com/leolee99/ReasAlign.",
+      "url": "https://arxiv.org/abs/2601.10173",
+      "published_date": "2026-01-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasalign",
+        "injection",
+        "prompt",
+        "attacks",
+        "injection attacks",
+        "model",
+        "prompt injection",
+        "reasoning",
+        "utility",
+        "indirect"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and critical problem \u2013 the vulnerability of LLM-based agents to prompt injection attacks. The proposed ReasAlign approach, leveraging structured reasoning and a preference-optimized judge model, appears well-reasoned and potentially effective. The mention of comprehensive evaluations suggests a rigorous methodology, and the focus on safety alignment aligns with current research trends. While the core idea of reasoning isn't entirely novel, the specific implementation and test-time scaling mechanism seem promising.",
+      "paper_id": "91ef69394541aaf2e0ae7a21bd33f705"
+    },
+    {
+      "title": "Syntactic Framing Fragility: An Audit of Robustness in LLM Ethical Decisions",
+      "authors": [
+        "Katherine Elkins, Jon Chun"
+      ],
+      "abstract": "arXiv:2601.09724v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in consequential decision-making settings, yet their robustness to benign prompt variation remains underexplored. In this work, we study whether LLMs maintain consistent ethical judgments across logically equivalent but syntactically different prompts, focusing on variations involving negation and conditional structure. We introduce Syntactic Framing Fragility (SFF), a robustness evaluation framework that isolates purely syntactic effects via Logical Polarity Normalization (LPN), enabling direct comparison of decisions across positive and negative framings without semantic drift. Auditing 23 state-of-the-art models spanning the U.S. and China as well as small U.S. open-source software models over 14 ethical scenarios and four controlled framings (39,975 decisions), we find widespread and statistically significant inconsistency: many models reverse ethical endorsements solely due to syntactic polarity, with open-source models exhibiting over twice the fragility of commercial counterparts. We further uncover extreme negation sensitivity, where some models endorse actions in 80-97% of cases when explicitly prompted with \"should not.\" We show that eliciting chain-of-thought reasoning substantially reduces fragility, identifying a practical mitigation lever, and we map fragility across scenarios, finding higher risk in financial and business contexts than in medical scenarios. Our results demonstrate that syntactic consistency constitutes a distinct and critical dimension of ethical robustness, and we argue that SFF-style audits should be a standard component of safety evaluation for deployed LLMs. Code and results will be available on github.com.",
+      "url": "https://arxiv.org/abs/2601.09724",
+      "published_date": "2026-01-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "models",
+        "ethical",
+        "fragility",
+        "syntactic",
+        "robustness",
+        "decisions",
+        "llms",
+        "scenarios",
+        "deployed",
+        "evaluation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 their sensitivity to syntactic framing \u2013 which is crucial as these models are deployed in high-stakes scenarios. The introduction of 'Syntactic Framing Fragility' (SFF) and 'Logical Polarity Normalization' (LPN) provides a novel and rigorous framework for evaluating this robustness. The large-scale audit across diverse models and scenarios strengthens the findings and suggests a significant problem requiring attention. The high sentiment score reflects the current focus on LLM safety and alignment.",
+      "paper_id": "c786d20d6b5d9c7729fae8710760b227"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-16T09:44:30.306151"
 }

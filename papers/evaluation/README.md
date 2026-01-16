@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### coTherapist: A Behavior-Aligned Small Language Model to Support Mental Healthcare Experts
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Prottay Kumar Adhikary, Reena Rawat, Tanmoy Chakraborty
+
+arXiv:2601.10246v1 Announce Type: new 
+Abstract: Access to mental healthcare is increasingly strained by workforce shortages and rising demand, motivating the development of intelligent systems that c...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10246) | [📝 Analysis](99163f8fbc53a31c1561848e265324e1.md)
+
+---
+
+### Contextual StereoSet: Stress-Testing Bias Alignment Robustness in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Abhinaba Basu, Pavan Chakraborty
+
+arXiv:2601.10460v1 Announce Type: new 
+Abstract: A model that avoids stereotypes in a lab benchmark may not avoid them in deployment. We show that measured bias shifts dramatically when prompts mentio...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10460) | [📝 Analysis](0f2593b3182745c610bd31a84b0221e6.md)
+
+---
+
+### DR-Arena: an Automated Evaluation Framework for Deep Research Agents
+
+**Score:** 92.0 | **Published:** 2026-01-16 | **Authors:** Yiwen Gao, Ruochen Zhao, Yang Deng, Wenxuan Zhang
+
+arXiv:2601.10504v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) increasingly operate as Deep Research (DR) Agents capable of autonomous investigation and information synthesis, reliab...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10504) | [📝 Analysis](f712a57a5e3f3adfc9c51be1fec89faf.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-16 09:44:30 UTC*
