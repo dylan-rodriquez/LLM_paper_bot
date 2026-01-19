@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### BYOL: Bring Your Own Language Into LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-19 | **Authors:** Syed Waqas Zamir, Wassim Hamidouche, Boulbaba Ben Amor, Luana Marotti, Inbal Becker-Reshef, Juan Lavista Ferres
+
+arXiv:2601.10804v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) exhibit strong multilingual capabilities, yet remain fundamentally constrained by the severe imbalance in global language ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10804) | [📝 Analysis](53e0d232ac6fb829cda3ee80e4e86eea.md)
+
+---
+
+### DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference
+
+**Score:** 92.0 | **Published:** 2026-01-19 | **Authors:** Parisa Rabbani, Priyam Sahoo, Ruben Mathew, Aishee Mondal, Harshita Ketharaman, Nimet Beyza Bozdag, Dilek Hakkani-T\"ur
+
+arXiv:2601.10896v1 Announce Type: new 
+Abstract: LLMs are increasingly used as third-party judges, yet their reliability when evaluating speakers in dialogue remains poorly understood. We show that LL...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10896) | [📝 Analysis](f119a1dc4d23a87d1b15dfb507fbace9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-19 09:55:01 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents
+
+**Score:** 92.0 | **Published:** 2026-01-19 | **Authors:** Eilam Shapira, Roi Reichart, Moshe Tennenholtz
+
+arXiv:2601.11496v1 Announce Type: cross 
+Abstract: The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction. We investigate the economic implicati...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.11496) | [📝 Analysis](64cfe264737140051e104d01ab320b19.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-19 09:55:01 UTC*

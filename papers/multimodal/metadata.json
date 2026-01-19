@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents",
+      "authors": [
+        "Eilam Shapira, Roi Reichart, Moshe Tennenholtz"
+      ],
+      "abstract": "arXiv:2601.11496v1 Announce Type: cross \nAbstract: The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction. We investigate the economic implications of expanding the set of available technologies in three canonical game-theoretic settings: bargaining (resource division), negotiation (asymmetric information trade), and persuasion (strategic information transmission). We find that simply increasing the choice of AI delegates can drastically shift equilibrium payoffs and regulatory outcomes, often creating incentives for regulators to proactively develop and release technologies. Conversely, we identify a strategic phenomenon termed the \"Poisoned Apple\" effect: an agent may release a new technology, which neither they nor their opponent ultimately uses, solely to manipulate the regulator's choice of market design in their favor. This strategic release improves the releaser's welfare at the expense of their opponent and the regulator's fairness objectives. Our findings demonstrate that static regulatory frameworks are vulnerable to manipulation via technology expansion, necessitating dynamic market designs that adapt to the evolving landscape of AI capabilities.",
+      "url": "https://arxiv.org/abs/2601.11496",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.GT"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "strategic",
+        "ai",
+        "release",
+        "technology",
+        "agents",
+        "ai agents",
+        "apple",
+        "apple effect",
+        "choice",
+        "economic"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 the strategic implications of AI agent proliferation in economic markets. The identification of the 'Poisoned Apple' effect is a novel and insightful contribution to game theory and mechanism design. While the abstract doesn't detail the specific methodologies, the framing suggests a rigorous approach, and the potential for regulatory implications is substantial.",
+      "paper_id": "64cfe264737140051e104d01ab320b19"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-01-19T09:55:01.197704"
 }
