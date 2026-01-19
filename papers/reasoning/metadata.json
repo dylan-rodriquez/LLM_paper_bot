@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Integrity Shield A System for Ethical AI Use & Authorship Transparency in Assessments",
+      "authors": [
+        "Ashish Raj Shekhar, Shiven Agarwal, Priyanuj Bordoloi, Yash Shah, Tejas Anvekar, Vivek Gupta"
+      ],
+      "abstract": "arXiv:2601.11093v1 Announce Type: new \nAbstract: Large Language Models (LLMs) can now solve entire exams directly from uploaded PDF assessments, raising urgent concerns about academic integrity and the reliability of grades and credentials. Existing watermarking techniques either operate at the token level or assume control over the model's decoding process, making them ineffective when students query proprietary black-box systems with instructor-provided documents. We present Integrity Shield, a document-layer watermarking system that embeds schema-aware, item-level watermarks into assessment PDFs while keeping their human-visible appearance unchanged. These watermarks consistently prevent MLLMs from answering shielded exam PDFs and encode stable, item-level signatures that can be reliably recovered from model or student responses. Across 30 exams spanning STEM, humanities, and medical reasoning, Integrity Shield achieves exceptionally high prevention (91-94% exam-level blocking) and strong detection reliability (89-93% signature retrieval) across four commercial MLLMs. Our demo showcases an interactive interface where instructors upload an exam, preview watermark behavior, and inspect pre/post AI performance & authorship evidence.",
+      "url": "https://arxiv.org/abs/2601.11093",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "integrity",
+        "level",
+        "exam",
+        "integrity shield",
+        "shield",
+        "ai",
+        "assessments",
+        "authorship",
+        "exams",
+        "item"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a highly relevant and pressing issue \u2013 the vulnerability of assessments to LLMs. The proposed 'Integrity Shield' appears to be a novel approach to watermarking, moving beyond token-level or decoding-control methods to a document-layer strategy. The reported high prevention rates (91-94%) suggest a strong potential for practical application, and the focus on schema-aware, item-level watermarks is a smart design choice.",
+      "paper_id": "7ed3e91b9a4d13b4064d3cf91069725d"
+    },
+    {
+      "title": "When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs",
+      "authors": [
+        "Zhongxiang Sun, Yi Zhan, Chenglei Shen, Weijie Yu, Xiao Zhang, Ming He, Jun Xu"
+      ],
+      "abstract": "arXiv:2601.11000v1 Announce Type: new \nAbstract: Personalized large language models (LLMs) adapt model behavior to individual users to enhance user satisfaction, yet personalization can inadvertently distort factual reasoning. We show that when personalized LLMs face factual queries, there exists a phenomenon where the model generates answers aligned with a user's prior history rather than the objective truth, resulting in personalization-induced hallucinations that degrade factual reliability and may propagate incorrect beliefs, due to representational entanglement between personalization and factual representations. To address this issue, we propose Factuality-Preserving Personalized Steering (FPPS), a lightweight inference-time approach that mitigates personalization-induced factual distortions while preserving personalized behavior. We further introduce PFQABench, the first benchmark designed to jointly evaluate factual and personalized question answering under personalization. Experiments across multiple LLM backbones and personalization methods show that FPPS substantially improves factual accuracy while maintaining personalized performance.",
+      "url": "https://arxiv.org/abs/2601.11000",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "factual",
+        "personalization",
+        "personalized",
+        "llms",
+        "behavior",
+        "fpps",
+        "hallucinations",
+        "induced",
+        "model",
+        "personalization induced"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of personalized LLMs \u2013 the potential for personalization to introduce factual errors (hallucinations). The proposed FPPS method and PFQABench benchmark are valuable contributions, demonstrating a clear understanding of the issue and a practical approach to mitigation. The work is well-motivated and addresses a significant concern for the reliable deployment of personalized LLMs, suggesting a positive reception within the community.",
+      "paper_id": "c9a6fc552cda969d362645dc4be4a626"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-19T09:55:01.195369"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents
+
+**Score:** 92.0 | **Published:** 2026-01-19 | **Authors:** Shouju Wang, Haopeng Zhang
+
+arXiv:2601.08235v2 Announce Type: cross 
+Abstract: As language-model agents evolve from passive chatbots into proactive assistants that handle personal data, evaluating their adherence to social norms...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.08235) | [📝 Analysis](46f064af2ad13d0c1fe3ff112e13be5c.md)
+
+---
+
+### FactCorrector: A Graph-Inspired Approach to Long-Form Factuality Correction of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-19 | **Authors:** Javier Carnerero-Cano, Massimiliano Pronesti, Radu Marinescu, Tigran Tchrakian, James Barry, Jasmina Gajcin, Yufang Hou, Alessandra Pascale, Elizabeth Daly
+
+arXiv:2601.11232v1 Announce Type: new 
+Abstract: Large language models (LLMs) are widely used in knowledge-intensive applications but often generate factually incorrect responses. A promising approach...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.11232) | [📝 Analysis](c5bb117d66508bc95a8d1549c13aa283.md)
+
+---
+
+### Lost in Benchmarks? Rethinking Large Language Model Benchmarking with Item Response Theory
+
+**Score:** 90.0 | **Published:** 2026-01-19 | **Authors:** Hongli Zhou, Hui Huang, Ziqing Zhao, Lvyuan Han, Huicheng Wang, Kehai Chen, Muyun Yang, Wei Bao, Jian Dong, Bing Xu, Conghui Zhu, Hailong Cao, Tiejun Zhao
+
+arXiv:2505.15055v3 Announce Type: replace 
+Abstract: The evaluation of large language models (LLMs) via benchmarks is widespread, yet inconsistencies between different leaderboards and poor separabili...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.15055) | [📝 Analysis](c2c45b14779c0e9eeb85f0c968c33fa3.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-19 09:55:01 UTC*

@@ -159,7 +159,135 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Entangled in Representations: Mechanistic Investigation of Cultural Biases in Large Language Models",
+      "authors": [
+        "Haeun Yu, Seogyeong Jeong, Siddhesh Pawar, Jisu Shin, Jiho Jin, Junho Myung, Alice Oh, Isabelle Augenstein"
+      ],
+      "abstract": "arXiv:2508.08879v2 Announce Type: replace \nAbstract: The growing deployment of large language models (LLMs) across diverse cultural contexts necessitates a deeper understanding of LLMs' representations of different cultures. Prior work has focused on evaluating the cultural awareness of LLMs by only examining the text they generate. This approach overlooks the internal sources of cultural misrepresentation within the models themselves. To bridge this gap, we propose Culturescope, the first mechanistic interpretability-based method that probes the internal representations of different cultural knowledge in LLMs. We also introduce a cultural flattening score as a measure of the intrinsic cultural biases of the decoded knowledge from Culturescope. Additionally, we study how LLMs internalize cultural biases, which allows us to trace how cultural biases such as Western-dominance bias and cultural flattening emerge within LLMs. We find that low-resource cultures are less susceptible to cultural biases, likely due to the model's limited parametric knowledge. Our work provides a foundation for future research on mitigating cultural biases and enhancing LLMs' cultural understanding.",
+      "url": "https://arxiv.org/abs/2508.08879",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cultural",
+        "llms",
+        "biases",
+        "cultural biases",
+        "knowledge",
+        "models",
+        "representations",
+        "cultural flattening",
+        "cultures",
+        "culturescope"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and timely problem \u2013 cultural bias in LLMs \u2013 moving beyond superficial output evaluation to investigate internal representations. The proposed 'Culturescope' method and 'cultural flattening score' represent a novel approach to mechanistic interpretability in this context. The focus on tracing the emergence of biases like Western-dominance is particularly valuable, and the initial finding that low-resource cultures are less susceptible is intriguing, suggesting a complex interplay within the models.",
+      "paper_id": "d91ef9e652d12952cb0d4fef264f7a63"
+    },
+    {
+      "title": "Emergent Misalignment via In-Context Learning: Narrow in-context examples can produce broadly misaligned LLMs",
+      "authors": [
+        "Nikita Afonin, Nikita Andriyanov, Vahagn Hovhannisyan, Nikhil Bageshpura, Kyle Liu, Kevin Zhu, Sunishchal Dev, Ashwinee Panda, Oleg Rogov, Elena Tutubalina, Alexander Panchenko, Mikhail Seleznyov"
+      ],
+      "abstract": "arXiv:2510.11288v2 Announce Type: replace \nAbstract: Recent work has shown that narrow finetuning can produce broadly misaligned LLMs, a phenomenon termed emergent misalignment (EM). While concerning, these findings were limited to finetuning and activation steering, leaving out in-context learning (ICL). We therefore ask: does EM emerge in ICL? We find that it does: across four model families (Gemini, Kimi-K2, Grok, and Qwen), narrow in-context examples cause models to produce misaligned responses to benign, unrelated queries. With 16 in-context examples, EM rates range from 1\\% to 24\\% depending on model and domain, appearing with as few as 2 examples. Neither larger model scale nor explicit reasoning provides reliable protection. We formulate and test a hypothesis, which explains in-context EM as conflict between safety objectives and context-following behavior. Consistent with this, instructing models to prioritize safety reduces EM while prioritizing context-following increases it. These findings establish ICL as a previously underappreciated vector for emergent misalignment that operates without parameter modification and resists simple scaling-based solutions.",
+      "url": "https://arxiv.org/abs/2510.11288",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "context",
+        "em",
+        "examples",
+        "context examples",
+        "emergent",
+        "emergent misalignment",
+        "icl",
+        "misaligned",
+        "misalignment",
+        "model"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical and timely issue \u2013 the emergent misalignment of LLMs via in-context learning. The finding that narrow ICL examples can induce broad misalignment across multiple models is concerning and well-supported by the experimental results. The hypothesis regarding the conflict between safety objectives and context-following is a valuable contribution, and the demonstration of mitigation through safety prioritization strengthens the work.",
+      "paper_id": "24ca889a5179e12ca9e8294f25c010b7"
+    },
+    {
+      "title": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models",
+      "authors": [
+        "Piercosma Bisconti, Matteo Prandi, Federico Pierucci, Francesco Giarrusso, Marcantonio Bracale Syrnikov, Marcello Galisai, Vincenzo Suriani, Olga Sorokoletova, Federico Sartore, Daniele Nardi"
+      ],
+      "abstract": "arXiv:2511.15304v3 Announce Type: replace \nAbstract: We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for Large Language Models (LLMs). Across 25 frontier proprietary and open-weight models, curated poetic prompts yielded high attack-success rates (ASR), with some providers exceeding 90%. Mapping prompts to MLCommons and EU CoP risk taxonomies shows that poetic attacks transfer across CBRN, manipulation, cyber-offence, and loss-of-control domains. Converting 1,200 MLCommons harmful prompts into verse via a standardized meta-prompt produced ASRs up to 18 times higher than their prose baselines. Outputs are evaluated using an ensemble of 3 open-weight LLM judges, whose binary safety assessments were validated on a stratified human-labeled subset. Poetic framing achieved an average jailbreak success rate of 62% for hand-crafted poems and approximately 43% for meta-prompt conversions (compared to non-poetic baselines), substantially outperforming non-poetic baselines and revealing a systematic vulnerability across model families and safety training approaches. These findings demonstrate that stylistic variation alone can circumvent contemporary safety mechanisms, suggesting fundamental limitations in current alignment methods and evaluation protocols.",
+      "url": "https://arxiv.org/abs/2511.15304",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "poetic",
+        "baselines",
+        "jailbreak",
+        "models",
+        "prompts",
+        "safety",
+        "adversarial",
+        "adversarial poetry",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research presents a compelling and concerning finding \u2013 the effectiveness of poetic prompts as a universal jailbreak method for LLMs. The broad testing across 25 models and the use of automated evaluation alongside human validation strengthens the rigor. The high attack success rates and transferability across risk domains highlight the practical significance of this vulnerability, making it a timely and important contribution to the field of LLM security.",
+      "paper_id": "a91b8485c6039c1c4639a6925cb7914d"
+    },
+    {
+      "title": "From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda",
+      "authors": [
+        "Piercosma Bisconti, Marcello Galisai, Matteo Prandi, Federico Pierucci, Olga Sorokoletova, Francesco Giarrusso, Vincenzo Suriani, Marcantonio Bracale Syrnikov, Daniele Nardi"
+      ],
+      "abstract": "arXiv:2601.08837v2 Announce Type: replace \nAbstract: Safety mechanisms in LLMs remain vulnerable to attacks that reframe harmful requests through culturally coded structures. We introduce Adversarial Tales, a jailbreak technique that embeds harmful content within cyberpunk narratives and prompts models to perform functional analysis inspired by Vladimir Propp's morphology of folktales. By casting the task as structural decomposition, the attack induces models to reconstruct harmful procedures as legitimate narrative interpretation. Across 26 frontier models from nine providers, we observe an average attack success rate of 71.3%, with no model family proving reliably robust. Together with our prior work on Adversarial Poetry, these findings suggest that structurally-grounded jailbreaks constitute a broad vulnerability class rather than isolated techniques. The space of culturally coded frames that can mediate harmful intent is vast, likely inexhaustible by pattern-matching defenses alone. Understanding why these attacks succeed is therefore essential: we outline a mechanistic interpretability research agenda to investigate how narrative cues reshape model representations and whether models can learn to recognize harmful intent independently of surface form.",
+      "url": "https://arxiv.org/abs/2601.08837",
+      "published_date": "2026-01-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "harmful",
+        "adversarial",
+        "models",
+        "adversarial poetry",
+        "adversarial tales",
+        "agenda",
+        "attack",
+        "attacks",
+        "coded",
+        "culturally"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper presents a concerning and well-executed attack on LLM safety, demonstrating a broad vulnerability class beyond isolated jailbreaks. The use of structural decomposition inspired by Propp's morphology is a clever and novel approach. The high success rate across numerous models highlights the significance of the problem and the need for more robust defenses, suggesting a strong positive reception within the LLM safety community.",
+      "paper_id": "e7c1b0800aa443e8be856f723f32b7db"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-19T09:55:01.198887"
 }

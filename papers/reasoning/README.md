@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Integrity Shield A System for Ethical AI Use & Authorship Transparency in Assessments
+
+**Score:** 92.0 | **Published:** 2026-01-19 | **Authors:** Ashish Raj Shekhar, Shiven Agarwal, Priyanuj Bordoloi, Yash Shah, Tejas Anvekar, Vivek Gupta
+
+arXiv:2601.11093v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) can now solve entire exams directly from uploaded PDF assessments, raising urgent concerns about academic integrity and th...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.11093) | [📝 Analysis](7ed3e91b9a4d13b4064d3cf91069725d.md)
+
+---
+
+### When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs
+
+**Score:** 90.0 | **Published:** 2026-01-19 | **Authors:** Zhongxiang Sun, Yi Zhan, Chenglei Shen, Weijie Yu, Xiao Zhang, Ming He, Jun Xu
+
+arXiv:2601.11000v1 Announce Type: new 
+Abstract: Personalized large language models (LLMs) adapt model behavior to individual users to enhance user satisfaction, yet personalization can inadvertently ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.11000) | [📝 Analysis](c9a6fc552cda969d362645dc4be4a626.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-19 09:55:01 UTC*
