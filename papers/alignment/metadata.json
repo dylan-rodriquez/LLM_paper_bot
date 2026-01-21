@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages",
+      "authors": [
+        "Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff"
+      ],
+      "abstract": "arXiv:2601.12696v1 Announce Type: new \nAbstract: Current guardian models are predominantly Western-centric and optimized for high-resource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtime-enforceable policies and benchmarks that reflect local norms, harm scenarios, and cultural expectations. We introduce UbuntuGuard, the first African policy-based safety benchmark built from adversarial queries authored by 155 domain experts across sensitive fields, including healthcare. From these expert-crafted queries, we derive context-specific safety policies and reference responses that capture culturally grounded risk signals, enabling policy-aligned evaluation of guardian models. We evaluate 13 models, comprising six general-purpose LLMs and seven guardian models across three distinct variants: static, dynamic, and multilingual. Our findings reveal that existing English-centric benchmarks overestimate real-world multilingual safety, cross-lingual transfer provides partial but insufficient coverage, and dynamic models, while better equipped to leverage policies at inference time, still struggle to fully localize African-language contexts. These findings highlight the urgent need for multilingual, culturally grounded safety benchmarks to enable the development of reliable and equitable guardian models for low-resource languages. Our code can be found online.\\footnote{Code repository available at https://github.com/hemhemoh/UbuntuGuard.",
+      "url": "https://arxiv.org/abs/2601.12696",
+      "published_date": "2026-01-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "models",
+        "guardian",
+        "guardian models",
+        "african",
+        "languages",
+        "benchmarks",
+        "culturally",
+        "culturally grounded",
+        "grounded"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in AI safety research \u2013 the lack of culturally-grounded benchmarks for African languages. The use of domain experts to craft adversarial queries and derive safety policies is a strong methodological approach. The focus on policy-aligned evaluation is particularly valuable, moving beyond simple category-based safety checks. The high significance stems from the potential to mitigate harms in underrepresented languages and cultures.",
+      "paper_id": "c859163befce43fb15fedb34e5aa09a4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-21T09:59:00.064247"
 }

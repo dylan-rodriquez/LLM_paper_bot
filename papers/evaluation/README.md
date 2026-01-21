@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Translation as a Scalable Proxy for Multilingual Evaluation
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Sheriff Issaka, Erick Rosas Gonzalez, Lieqi Liu, Evans Kofi Agyei, Lucas Bandarkar, Nanyun Peng, David Ifeoluwa Adelani, Francisco Guzm\'an, Saadia Gabriel
+
+arXiv:2601.11778v1 Announce Type: new 
+Abstract: The rapid proliferation of LLMs has created a critical evaluation paradox: while LLMs claim multilingual proficiency, comprehensive non-machine-transla...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.11778) | [📝 Analysis](a2ad6135366315ce62404456aff2ac0f.md)
+
+---
+
+### DoPE: Decoy Oriented Perturbation Encapsulation Human-Readable, AI-Hostile Documents for Academic Integrity
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Ashish Raj Shekhar, Shiven Agarwal, Priyanuj Bordoloi, Yash Shah, Tejas Anvekar, Vivek Gupta
+
+arXiv:2601.12505v1 Announce Type: new 
+Abstract: Multimodal Large Language Models (MLLMs) can directly consume exam documents, threatening conventional assessments and academic integrity. We present D...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12505) | [📝 Analysis](55659b7c34dafc2635a80597d292734a.md)
+
+---
+
+### Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Abdellah El Mekki, Samar M. Magdy, Houdaifa Atou, Ruwa AbuHweidi, Baraah Qawasmeh, Omer Nacar, Thikra Al-hibiri, Razan Saadie, Hamzah Alsayadi, Nadia Ghezaiel Hammouda, Alshima Alkhazimi, Aya Hamod, Al-Yas Al-Ghafri, Wesam El-Sayed, Asila Al sharji, Mohamad Ballout, Anas Belfathi, Karim Ghaddar, Serry Sibaee, Alaa Aoun, Areej Asiri, Lina Abureesh, Ahlam Bashiti, Majdal Yousef, Abdulaziz Hafiz, Yehdih Mohamed, Emira Hamedtou, Brakehe Brahim, Rahaf Alhamouri, Youssef Nafea, Aya El Aatar, Walid Al-Dhabyani, Emhemed Hamed, Sara Shatnawi, Fakhraddin Alwajih, Khalid Elkhidir, Ashwag Alasmari, Abdurrahman Gerrio, Omar Alshahri, AbdelRahim A. Elmadany, Ismail Berrada, Amir Azad Adli Alkathiri, Fadi A Zaraket, Mustafa Jarrar, Yahya Mohamed El Hadj, Hassan Alhuzali, Muhammad Abdul-Mageed
+
+arXiv:2601.13099v1 Announce Type: new 
+Abstract: Arabic is a highly diglossic language where most daily communication occurs in regional dialects rather than Modern Standard Arabic. Despite this, mach...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.13099) | [📝 Analysis](6c4638071c129077d49ce14238af4eac.md)
+
+---
+
+### BioPulse-QA: A Dynamic Biomedical Question-Answering Benchmark for Evaluating Factuality, Robustness, and Bias in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-21 | **Authors:** Kriti Bhattarai, Vipina K. Keloth, Donald Wright, Andrew Loza, Yang Ren, Hua Xu
+
+arXiv:2601.12632v1 Announce Type: new 
+Abstract: Objective: Large language models (LLMs) are increasingly applied in biomedical settings, and existing benchmark datasets have played an important role ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12632) | [📝 Analysis](23395e589d575ff4cad2a83b1eccfb3f.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-21 09:59:00 UTC*

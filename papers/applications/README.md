@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Scalable Entity-Based Framework for Auditing Bias in LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Akram Elbouanani, Aboubacar Tuo, Adrian Popescu
+
+arXiv:2601.12374v1 Announce Type: new 
+Abstract: Existing approaches to bias evaluation in large language models (LLMs) trade ecological validity for statistical control, relying on artificial prompts...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12374) | [📝 Analysis](14a5eca573c8792839b23b0f95d4d408.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-21 09:59:00 UTC*

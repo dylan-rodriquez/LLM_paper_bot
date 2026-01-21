@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "A Scalable Entity-Based Framework for Auditing Bias in LLMs",
+      "authors": [
+        "Akram Elbouanani, Aboubacar Tuo, Adrian Popescu"
+      ],
+      "abstract": "arXiv:2601.12374v1 Announce Type: new \nAbstract: Existing approaches to bias evaluation in large language models (LLMs) trade ecological validity for statistical control, relying on artificial prompts that poorly reflect real-world use, or on naturalistic tasks that lack scale and rigor. We introduce a scalable bias-auditing framework using named entities as probes to measure structural disparities in model behavior. We show that synthetic data reliably reproduces bias patterns observed in natural text, enabling large-scale analysis. Using this approach, we conduct the largest bias audit to date, comprising 1.9 billion data points across multiple entity types, tasks, languages, models, and prompting strategies. Our results reveal systematic biases: models penalize right-wing politicians, favor left-wing politicians, prefer Western and wealthy nations over the Global South, favor Western companies, and penalize firms in the defense and pharmaceutical sectors. While instruction tuning reduces bias, increasing model scale amplifies it, and prompting in Chinese or Russian does not attenuate Western-aligned preferences. These results indicate that LLMs should undergo rigorous auditing before deployment in high-stakes applications.",
+      "url": "https://arxiv.org/abs/2601.12374",
+      "published_date": "2026-01-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "auditing",
+        "llms",
+        "models",
+        "scale",
+        "western",
+        "data",
+        "entity",
+        "favor",
+        "framework"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial problem in LLM research \u2013 bias \u2013 with a novel and scalable approach. The use of named entities as probes and the sheer scale of the audit (1.9 billion data points) are impressive. The identified biases (political leaning, geographical/economic preference) are concerning and highlight the need for continued auditing and mitigation efforts. The ability to reliably reproduce bias patterns with synthetic data is a significant methodological contribution.",
+      "paper_id": "14a5eca573c8792839b23b0f95d4d408"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-01-21T09:59:00.060608"
 }
