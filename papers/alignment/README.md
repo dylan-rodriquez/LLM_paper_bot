@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff
+
+arXiv:2601.12696v1 Announce Type: new 
+Abstract: Current guardian models are predominantly Western-centric and optimized for high-resource languages, leaving low-resource African languages vulnerable ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12696) | [📝 Analysis](c859163befce43fb15fedb34e5aa09a4.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-21 09:59:00 UTC*

@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Race, Ethnicity and Their Implication on Bias in Large Language Models",
+      "authors": [
+        "Shiyue Hu, Ruizhe Li, Yanjun Gao"
+      ],
+      "abstract": "arXiv:2601.12868v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly operate in high-stakes settings including healthcare and medicine, where demographic attributes such as race and ethnicity may be explicitly stated or implicitly inferred from text. However, existing studies primarily document outcome-level disparities, offering limited insight into internal mechanisms underlying these effects. We present a mechanistic study of how race and ethnicity are represented and operationalized within LLMs. Using two publicly available datasets spanning toxicity-related generation and clinical narrative understanding tasks, we analyze three open-source models with a reproducible interpretability pipeline combining probing, neuron-level attribution, and targeted intervention. We find that demographic information is distributed across internal units with substantial cross-model variation. Although some units encode sensitive or stereotype-related associations from pretraining, identical demographic cues can induce qualitatively different behaviors. Interventions suppressing such neurons reduce bias but leave substantial residual effects, suggesting behavioral rather than representational change and motivating more systematic mitigation.",
+      "url": "https://arxiv.org/abs/2601.12868",
+      "published_date": "2026-01-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "demographic",
+        "ethnicity",
+        "models",
+        "race",
+        "race ethnicity",
+        "bias",
+        "effects",
+        "internal",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a crucial and timely problem \u2013 bias in LLMs, particularly concerning race and ethnicity \u2013 with a strong methodological approach combining probing, attribution, and intervention. The focus on *mechanistic* understanding, rather than just outcome disparities, is a key strength. While the methods themselves aren't entirely novel, their application to this specific problem and the cross-model comparison offer valuable insights. The potential for mitigating bias in high-stakes applications like healthcare makes this work highly relevant.",
+      "paper_id": "80161960ba7d19463669a57e7567ba20"
+    },
+    {
+      "title": "Objective Matters: Fine-Tuning Objectives Shape Safety, Robustness, and Persona Drift",
+      "authors": [
+        "Daniel Vennemeyer, Punya Syon Pandey, Phan Anh Duong, Michael Umeokoli, Samuel Ratnam"
+      ],
+      "abstract": "arXiv:2601.12639v1 Announce Type: new \nAbstract: Fine-tuning LLMs on benign data can still degrade alignment and adversarial robustness, yet direct analysis of the role of fine-tuning objectives in shaping these safety outcomes remain limited. We present a controlled comparison of six fine-tuning objectives -- Supervised Fine-Tuning, Direct Preference Optimization, Conditional Fine-Tuning, Inoculation Prompting, Odds Ratio Preference Optimization, and KL-regularized fine-tuning -- holding data, domain, architecture, and optimization fixed. Across closed-form reasoning and open-ended generation tasks, we find that objective choice induces systematic, scale-dependent shifts along the safety-capability frontier. At small training budgets, robustness is similar across objectives but capability differs. At larger budgets, objectives diverge sharply: supervised and preference-based tuning tightly couple capability gains to increased adversarial vulnerability and persona drift, while objectives that constrain learning signals -- especially ORPO and KL-regularization -- substantially mitigate both. Fine-tuning objectives therefore matter little for safety at small scales but become a primary driver of adversarial robustness and latent persona stability as training scale increases.",
+      "url": "https://arxiv.org/abs/2601.12639",
+      "published_date": "2026-01-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "tuning",
+        "fine",
+        "fine tuning",
+        "objectives",
+        "robustness",
+        "safety",
+        "tuning objectives",
+        "adversarial",
+        "capability",
+        "optimization"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM development \u2013 the trade-offs between safety, robustness, and capability during fine-tuning. The controlled comparison of multiple fine-tuning objectives is a strong methodological approach, and the finding of scale-dependent shifts is insightful. The work is well-positioned to influence future research on alignment and robustness, particularly given the current focus on these areas.",
+      "paper_id": "c726588fa7efd7a411c0b0727dcec949"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-21T09:59:00.062152"
 }

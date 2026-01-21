@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Race, Ethnicity and Their Implication on Bias in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-21 | **Authors:** Shiyue Hu, Ruizhe Li, Yanjun Gao
+
+arXiv:2601.12868v1 Announce Type: new 
+Abstract: Large language models (LLMs) increasingly operate in high-stakes settings including healthcare and medicine, where demographic attributes such as race ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12868) | [📝 Analysis](80161960ba7d19463669a57e7567ba20.md)
+
+---
+
+### Objective Matters: Fine-Tuning Objectives Shape Safety, Robustness, and Persona Drift
+
+**Score:** 90.0 | **Published:** 2026-01-21 | **Authors:** Daniel Vennemeyer, Punya Syon Pandey, Phan Anh Duong, Michael Umeokoli, Samuel Ratnam
+
+arXiv:2601.12639v1 Announce Type: new 
+Abstract: Fine-tuning LLMs on benign data can still degrade alignment and adversarial robustness, yet direct analysis of the role of fine-tuning objectives in sh...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.12639) | [📝 Analysis](c726588fa7efd7a411c0b0727dcec949.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-21 09:59:00 UTC*
