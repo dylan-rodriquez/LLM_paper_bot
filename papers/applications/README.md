@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Anmol Goel, Cornelius Emde, Sangdoo Yun, Seong Joon Oh, Martin Gubri
+
+arXiv:2601.15220v1 Announce Type: new 
+Abstract: We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle pat...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15220) | [📝 Analysis](bd865e8e01adac856e9dc650b3311402.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-22 09:54:40 UTC*

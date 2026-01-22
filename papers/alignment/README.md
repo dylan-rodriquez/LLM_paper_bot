@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Epistemic Constitutionalism Or: how to avoid coherence bias
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Michele Loi
+
+arXiv:2601.14295v1 Announce Type: cross 
+Abstract: Large language models increasingly function as artificial reasoners: they evaluate arguments, assign credibility, and express confidence. Yet their b...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14295) | [📝 Analysis](00196eba5249190a2b454a33e8643854.md)
+
+---
+
+### Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Amogh Gupta (Neil), Niharika Patil (Neil), Sourojit Ghosh (Neil),  SnehalKumar (Neil), S Gaikwad
+
+arXiv:2601.14506v1 Announce Type: cross 
+Abstract: The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students usi...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14506) | [📝 Analysis](56efe55aab86391a2644c48064850f29.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-22 09:54:40 UTC*

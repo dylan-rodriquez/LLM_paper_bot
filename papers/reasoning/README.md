@@ -2,7 +2,51 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (17 total)
+
+### Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Liangming Pan, Jason Liang, Jiaran Ye, Minglai Yang, Xinyuan Lu, Fengbin Zhu
+
+arXiv:2601.14270v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable abilities to solve problems requiring multiple reasoning steps, yet the internal mechanisms e...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14270) | [📝 Analysis](eb5287942fccd8ac875c41a1023b7036.md)
+
+---
+
+### Gaming the Judge: Unfaithful Chain-of-Thought Can Undermine Agent Evaluation
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Muhammad Khalifa, Lajanugen Logeswaran, Jaekyeom Kim, Sungryull Sohn, Yunxiang Zhang, Moontae Lee, Hao Peng, Lu Wang, Honglak Lee
+
+arXiv:2601.14691v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are increasingly used as judges to evaluate agent performance, particularly in non-verifiable settings where judgments r...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14691) | [📝 Analysis](ccf9e22089b0ecf4d2d66fb5b8294770.md)
+
+---
+
+### ClaimDB: A Fact Verification Benchmark over Large Structured Data
+
+**Score:** 90.0 | **Published:** 2026-01-22 | **Authors:** Michael Theologitis, Preetam Prabhu Srikar Dammu, Chirag Shah, Dan Suciu
+
+arXiv:2601.14698v1 Announce Type: new 
+Abstract: Despite substantial progress in fact-verification benchmarks, claims grounded in large-scale structured data remain underexplored. In this work, we int...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14698) | [📝 Analysis](7d9e2cff22c670b58d06491f65710a9c.md)
+
+---
+
+### NeuroFilter: Privacy Guardrails for Conversational LLM Agents
+
+**Score:** 90.0 | **Published:** 2026-01-22 | **Authors:** Saswat Das, Ferdinando Fioretto
+
+arXiv:2601.14660v1 Announce Type: cross 
+Abstract: This work addresses the computational challenge of enforcing privacy for agentic Large Language Models (LLMs), where privacy is governed by the conte...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14660) | [📝 Analysis](739595a12b62cf68afa1f51878813c2e.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +192,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-22 09:54:40 UTC*

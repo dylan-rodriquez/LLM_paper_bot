@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+      "authors": [
+        "Anmol Goel, Cornelius Emde, Sangdoo Yun, Seong Joon Oh, Martin Gubri"
+      ],
+      "abstract": "arXiv:2601.15220v1 Announce Type: new \nAbstract: We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.",
+      "url": "https://arxiv.org/abs/2601.15220",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "privacy",
+        "models",
+        "fine",
+        "collapse",
+        "fine tuning",
+        "privacy collapse",
+        "tuning",
+        "contextual",
+        "contextual privacy",
+        "benign"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper identifies a critical and previously unrecognised vulnerability in fine-tuned language models \u2013 'privacy collapse' \u2013 where seemingly benign training can lead to severe privacy breaches. The broad experimental scope (six models, five datasets, two task categories) and mention of mechanistic analysis suggest a rigorous approach. The finding that models can maintain performance on standard benchmarks *while* exhibiting privacy failures is particularly concerning and highlights a significant gap in current evaluation methods.",
+      "paper_id": "bd865e8e01adac856e9dc650b3311402"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-01-22T09:54:40.627494"
 }
