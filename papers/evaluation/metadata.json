@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CorpusQA: A 10 Million Token Benchmark for Corpus-Level Analysis and Reasoning",
+      "authors": [
+        "Zhiyuan Lu, Chenliang Li, Yingcheng Shi, Weizhou Shen, Ming Yan, Fei Huang"
+      ],
+      "abstract": "arXiv:2601.14952v1 Announce Type: new \nAbstract: While large language models now handle million-token contexts, their capacity for reasoning across entire document repositories remains largely untested. Existing benchmarks are inadequate, as they are mostly limited to single long texts or rely on a \"sparse retrieval\" assumption-that answers can be derived from a few relevant chunks. This assumption fails for true corpus-level analysis, where evidence is highly dispersed across hundreds of documents and answers require global integration, comparison, and statistical aggregation. To address this critical gap, we introduce CorpusQA, a new benchmark scaling up to 10 million tokens, generated via a novel data synthesis framework. By decoupling reasoning from textual representation, this framework creates complex, computation-intensive queries with programmatically guaranteed ground-truth answers, challenging systems to perform holistic reasoning over vast, unstructured text without relying on fallible human annotation. We further demonstrate the utility of our framework beyond evaluation, showing that fine-tuning on our synthesized data effectively enhances an LLM's general long-context reasoning capabilities. Extensive experiments reveal that even state-of-the-art long-context LLMs struggle as input length increases, and standard retrieval-augmented generation systems collapse entirely. Our findings indicate that memory-augmented agentic architectures offer a more robust alternative, suggesting a critical shift is needed from simply extending context windows to developing advanced architectures for global information synthesis.",
+      "url": "https://arxiv.org/abs/2601.14952",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "answers",
+        "context",
+        "framework",
+        "long",
+        "million",
+        "10",
+        "10 million",
+        "analysis",
+        "architectures"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial limitation in evaluating LLMs \u2013 their ability to reason across large document collections. The creation of CorpusQA, with its 10 million token scale and focus on corpus-level reasoning, is a significant step forward. The novel data synthesis framework, guaranteeing ground truth, is a strong methodological contribution, and the problem is highly relevant given the increasing context windows of modern LLMs.",
+      "paper_id": "70e2ead51b0fefde25882455443330e4"
+    },
+    {
+      "title": "Psychometric Comparability of LLM-Based Digital Twins",
+      "authors": [
+        "Yufei Zhang, Zhihao Ma"
+      ],
+      "abstract": "arXiv:2601.14264v1 Announce Type: cross \nAbstract: Large language models (LLMs) are used as \"digital twins\" to replace human respondents, yet their psychometric comparability to humans is uncertain. We propose a construct-validity framework spanning construct representation and the nomological net, benchmarking digital twins against human gold standards across models, tasks and testing how person-specific inputs shape performance. Across studies, digital twins achieved high population-level accuracy and strong within-participant profile correlations, alongside attenuated item-level correlations. In word association tests, LLM-based networks show small-world structure and theory-consistent communities similar to humans, yet diverge lexically and in local structure. In decision-making and contextualized tasks, digital twins under-reproduce heuristic biases, showing normative rationality, compressed variance and limited sensitivity to temporal information. Feature-rich digital twins improve Big Five Personality prediction, but their personality networks show only configural invariance and do not achieve metric invariance. In more applied free-text tasks, feature-rich digital twins better match human narratives, but linguistic differences persist. Together, these results indicate that feature-rich conditioning enhances validity but does not resolve systematic divergences in psychometric comparability. Future work should therefore prioritize delineating the effective boundaries of digital twins, establishing the precise contexts in which they function as reliable proxies for human cognition and behavior.",
+      "url": "https://arxiv.org/abs/2601.14264",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "digital",
+        "digital twins",
+        "twins",
+        "human",
+        "comparability",
+        "feature",
+        "feature rich",
+        "psychometric",
+        "psychometric comparability",
+        "rich"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial question regarding the validity of using LLMs as proxies for human subjects, a practice becoming increasingly common. The proposed construct-validity framework and benchmarking against human 'gold standards' demonstrate a rigorous approach. While the findings reveal discrepancies between LLM and human responses (particularly in bias and temporal sensitivity), the high population-level accuracy and profile correlations suggest significant potential, making this a highly relevant and well-executed study.",
+      "paper_id": "4a92d2310ebfbd0614288e84370137c0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-22T09:54:40.626412"
 }

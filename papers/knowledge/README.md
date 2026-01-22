@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Self-Blinding and Counterfactual Self-Simulation Mitigate Biases and Sycophancy in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-22 | **Authors:** Brian Christian, Matan Mazor
+
+arXiv:2601.14553v1 Announce Type: new 
+Abstract: Fair decisions require ignoring irrelevant, potentially biasing, information. To achieve this, decision-makers need to approximate what decision they w...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14553) | [📝 Analysis](b0e239d342925886615e22a00d51e796.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-22 09:54:40 UTC*

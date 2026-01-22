@@ -415,7 +415,135 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models",
+      "authors": [
+        "Liangming Pan, Jason Liang, Jiaran Ye, Minglai Yang, Xinyuan Lu, Fengbin Zhu"
+      ],
+      "abstract": "arXiv:2601.14270v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable abilities to solve problems requiring multiple reasoning steps, yet the internal mechanisms enabling such capabilities remain elusive. Unlike existing surveys that primarily focus on engineering methods to enhance performance, this survey provides a comprehensive overview of the mechanisms underlying LLM multi-step reasoning. We organize the survey around a conceptual framework comprising seven interconnected research questions, from how LLMs execute implicit multi-hop reasoning within hidden activations to how verbalized explicit reasoning remodels the internal computation. Finally, we highlight five research directions for future mechanistic studies.",
+      "url": "https://arxiv.org/abs/2601.14270",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "mechanisms",
+        "multi",
+        "survey",
+        "internal",
+        "language",
+        "language models",
+        "large",
+        "large language",
+        "llms"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey paper addresses a crucial and timely problem in the field of LLMs \u2013 understanding *how* they reason, not just *that* they can. The focus on mechanistic understanding, rather than purely performance-based improvements, is a valuable shift. The proposed framework of seven research questions suggests a well-structured and thoughtful approach, and the identification of future research directions is helpful. While a survey isn't inherently 'innovative' in the same way as a novel algorithm, the framing and organization of existing work into a mechanistic understanding lens is a strong contribution.",
+      "paper_id": "eb5287942fccd8ac875c41a1023b7036"
+    },
+    {
+      "title": "Gaming the Judge: Unfaithful Chain-of-Thought Can Undermine Agent Evaluation",
+      "authors": [
+        "Muhammad Khalifa, Lajanugen Logeswaran, Jaekyeom Kim, Sungryull Sohn, Yunxiang Zhang, Moontae Lee, Hao Peng, Lu Wang, Honglak Lee"
+      ],
+      "abstract": "arXiv:2601.14691v1 Announce Type: cross \nAbstract: Large language models (LLMs) are increasingly used as judges to evaluate agent performance, particularly in non-verifiable settings where judgments rely on agent trajectories including chain-of-thought (CoT) reasoning. This paradigm implicitly assumes that the agent's CoT faithfully reflects both its internal reasoning and the underlying environment state. We show this assumption is brittle: LLM judges are highly susceptible to manipulation of agent reasoning traces. By systematically rewriting agent CoTs while holding actions and observations fixed, we demonstrate that manipulated reasoning alone can inflate false positive rates of state-of-the-art VLM judges by up to 90% across 800 trajectories spanning diverse web tasks. We study manipulation strategies spanning style-based approaches that alter only the presentation of reasoning and content-based approaches that fabricate signals of task progress, and find that content-based manipulations are consistently more effective. We evaluate prompting-based techniques and scaling judge-time compute, which reduce but do not fully eliminate susceptibility to manipulation. Our findings reveal a fundamental vulnerability in LLM-based evaluation and highlight the need for judging mechanisms that verify reasoning claims against observable evidence.",
+      "url": "https://arxiv.org/abs/2601.14691",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "reasoning",
+        "based",
+        "judges",
+        "manipulation",
+        "approaches",
+        "based approaches",
+        "chain",
+        "chain thought",
+        "content"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical vulnerability in the increasingly common practice of using LLMs to evaluate agents, particularly those employing CoT reasoning. The demonstration of how easily LLM judges can be 'gamed' through manipulation of reasoning traces, without altering actions or observations, is significant. The systematic approach and the scale of the experiments (800 trajectories) strengthen the findings, and the topic aligns well with current concerns about LLM reliability and trustworthiness.",
+      "paper_id": "ccf9e22089b0ecf4d2d66fb5b8294770"
+    },
+    {
+      "title": "ClaimDB: A Fact Verification Benchmark over Large Structured Data",
+      "authors": [
+        "Michael Theologitis, Preetam Prabhu Srikar Dammu, Chirag Shah, Dan Suciu"
+      ],
+      "abstract": "arXiv:2601.14698v1 Announce Type: new \nAbstract: Despite substantial progress in fact-verification benchmarks, claims grounded in large-scale structured data remain underexplored. In this work, we introduce ClaimDB, the first fact-verification benchmark where the evidence for claims is derived from compositions of millions of records and multiple tables. ClaimDB consists of 80 unique real-life databases covering a wide range of domains, from governance and healthcare to media, education and the natural sciences. At this scale, verification approaches that rely on \"reading\" the evidence break down, forcing a timely shift toward reasoning in executable programs. We conduct extensive experiments with 30 state-of-the-art proprietary and open-source (below 70B) LLMs and find that none exceed 83% accuracy, with more than half below 55%. Our analysis also reveals that both closed- and open-source models struggle with abstention -- the ability to admit that there is no evidence to decide -- raising doubts about their reliability in high-stakes data analysis. We release the benchmark, code, and the LLM leaderboard at https://claimdb.github.io .",
+      "url": "https://arxiv.org/abs/2601.14698",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "claimdb",
+        "verification",
+        "benchmark",
+        "data",
+        "evidence",
+        "fact",
+        "fact verification",
+        "analysis",
+        "claimdb fact",
+        "claims"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in fact verification \u2013 the ability to reason over large, structured datasets. The creation of ClaimDB is a significant contribution, and the finding that current LLMs struggle with this task highlights the need for new approaches. The focus on reasoning as executable programs is a promising direction, and the extensive experimentation with both open and closed-source models adds to the rigor of the work.",
+      "paper_id": "7d9e2cff22c670b58d06491f65710a9c"
+    },
+    {
+      "title": "NeuroFilter: Privacy Guardrails for Conversational LLM Agents",
+      "authors": [
+        "Saswat Das, Ferdinando Fioretto"
+      ],
+      "abstract": "arXiv:2601.14660v1 Announce Type: cross \nAbstract: This work addresses the computational challenge of enforcing privacy for agentic Large Language Models (LLMs), where privacy is governed by the contextual integrity framework. Indeed, existing defenses rely on LLM-mediated checking stages that add substantial latency and cost, and that can be undermined in multi-turn interactions through manipulation or benign-looking conversational scaffolding. Contrasting this background, this paper makes a key observation: internal representations associated with privacy-violating intent can be separated from benign requests using linear structure. Using this insight, the paper proposes NeuroFilter, a guardrail framework that operationalizes contextual integrity by mapping norm violations to simple directions in the model's activation space, enabling detection even when semantic filters are bypassed. The proposed filter is also extended to capture threats arising during long conversations using the concept of activation velocity, which measures cumulative drift in internal representations across turns. A comprehensive evaluation across over 150,000 interactions and covering models from 7B to 70B parameters, illustrates the strong performance of NeuroFilter in detecting privacy attacks while maintaining zero false positives on benign prompts, all while reducing the computational inference cost by several orders of magnitude when compared to LLM-based agentic privacy defenses.",
+      "url": "https://arxiv.org/abs/2601.14660",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "privacy",
+        "benign",
+        "llm",
+        "neurofilter",
+        "using",
+        "activation",
+        "agentic",
+        "computational",
+        "contextual",
+        "contextual integrity"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 privacy \u2013 with a novel approach. The observation that privacy violations manifest as linear separations in activation space is insightful, and NeuroFilter appears to offer a computationally efficient alternative to existing methods. The focus on contextual integrity and handling multi-turn conversations further strengthens the work, suggesting a well-considered methodology.",
+      "paper_id": "739595a12b62cf68afa1f51878813c2e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-22T09:54:40.624343"
 }

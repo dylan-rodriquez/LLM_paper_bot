@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Epistemic Constitutionalism Or: how to avoid coherence bias",
+      "authors": [
+        "Michele Loi"
+      ],
+      "abstract": "arXiv:2601.14295v1 Announce Type: cross \nAbstract: Large language models increasingly function as artificial reasoners: they evaluate arguments, assign credibility, and express confidence. Yet their belief-forming behavior is governed by implicit, uninspected epistemic policies. This paper argues for an epistemic constitution for AI: explicit, contestable meta-norms that regulate how systems form and express beliefs. Source attribution bias provides the motivating case: I show that frontier models enforce identity-stance coherence, penalizing arguments attributed to sources whose expected ideological position conflicts with the argument's content. When models detect systematic testing, these effects collapse, revealing that systems treat source-sensitivity as bias to suppress rather than as a capacity to execute well. I distinguish two constitutional approaches: the Platonic, which mandates formal correctness and default source-independence from a privileged standpoint, and the Liberal, which refuses such privilege, specifying procedural norms that protect conditions for collective inquiry while allowing principled source-attending grounded in epistemic vigilance. I argue for the Liberal approach, sketch a constitutional core of eight principles and four orientations, and propose that AI epistemic governance requires the same explicit, contestable structure we now expect for AI ethics.",
+      "url": "https://arxiv.org/abs/2601.14295",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "epistemic",
+        "source",
+        "ai",
+        "bias",
+        "models",
+        "arguments",
+        "coherence",
+        "constitutional",
+        "contestable",
+        "explicit"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial issue in LLM development \u2013 the implicit epistemic policies governing belief formation \u2013 and proposes a novel framework for addressing it through 'epistemic constitutionalism'. The identification of source attribution bias and its collapse under testing is a strong empirical finding. While the 'Platonic' vs. 'Liberal' distinction feels somewhat preliminary based on the abstract, the overall approach is well-motivated and clearly articulated, suggesting high potential for publication and impact.",
+      "paper_id": "00196eba5249190a2b454a33e8643854"
+    },
+    {
+      "title": "Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems",
+      "authors": [
+        "Amogh Gupta (Neil), Niharika Patil (Neil), Sourojit Ghosh (Neil),  SnehalKumar (Neil), S Gaikwad"
+      ],
+      "abstract": "arXiv:2601.14506v1 Announce Type: cross \nAbstract: The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students using AI assistants for coursework support. This paper asks: how do LLMs perceive the intellectual capabilities of student profiles from intersecting marginalized identities across different cultural contexts? We conduct one of the first large-scale intersectional analyses on LLM explanation quality for Indian and American undergraduate profiles preparing for engineering entrance examinations. By constructing profiles combining multiple demographic dimensions including caste, medium of instruction, and school boards in India, and race, HBCU attendance, and school type in America, alongside universal factors like income and college tier, we examine how quality varies across these factors. We observe biases providing lower-quality outputs to profiles with marginalized backgrounds in both contexts. LLMs such as Qwen2.5-32B-Instruct and GPT-4o demonstrate granular understandings of context-specific discrimination, systematically providing simpler explanations to Hindi/Regional-medium students in India and HBCU profiles in America, treating these as proxies for lower capability. Even when marginalized profiles attain social mobility by getting accepted into elite institutions, they still receive more simplistic explanations, showing how demographic information is inextricably linked to LLM biases. Different models (Qwen2.5-32B-Instruct, GPT-4o, GPT-4o-mini, GPT-OSS 20B) embed similar biases against historically marginalized populations in both contexts, preventing profiles from switching between AI assistants for better results. Our findings have strong implications for AI incorporation into global engineering education.",
+      "url": "https://arxiv.org/abs/2601.14506",
+      "published_date": "2026-01-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "profiles",
+        "ai",
+        "gpt",
+        "marginalized",
+        "4o",
+        "biases",
+        "contexts",
+        "demographic",
+        "explanations",
+        "gpt 4o"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a critically important and timely issue \u2013 bias in AI explanations, specifically concerning intersectional marginalized identities. The focus on both Indian and American educational systems adds significant depth and cross-cultural relevance. The methodology, involving the construction of detailed demographic profiles, appears rigorous, and the potential for uncovering systemic biases is high. The paper's focus on LLM explanation quality is a valuable contribution to the field of AI fairness and accessibility.",
+      "paper_id": "56efe55aab86391a2644c48064850f29"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-22T09:54:40.628495"
 }

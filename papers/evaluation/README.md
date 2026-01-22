@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### CorpusQA: A 10 Million Token Benchmark for Corpus-Level Analysis and Reasoning
+
+**Score:** 92.0 | **Published:** 2026-01-22 | **Authors:** Zhiyuan Lu, Chenliang Li, Yingcheng Shi, Weizhou Shen, Ming Yan, Fei Huang
+
+arXiv:2601.14952v1 Announce Type: new 
+Abstract: While large language models now handle million-token contexts, their capacity for reasoning across entire document repositories remains largely unteste...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14952) | [📝 Analysis](70e2ead51b0fefde25882455443330e4.md)
+
+---
+
+### Psychometric Comparability of LLM-Based Digital Twins
+
+**Score:** 90.0 | **Published:** 2026-01-22 | **Authors:** Yufei Zhang, Zhihao Ma
+
+arXiv:2601.14264v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are used as "digital twins" to replace human respondents, yet their psychometric comparability to humans is uncertain. W...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.14264) | [📝 Analysis](4a92d2310ebfbd0614288e84370137c0.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-22 09:54:40 UTC*
