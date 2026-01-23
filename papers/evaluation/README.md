@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### AdversaRiskQA: An Adversarial Factuality Benchmark for High-Risk Domains
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Adam Szelestey, Sofie van Engelen, Tianhao Huang, Justin Snelders, Qintao Zeng, Songgaojun Deng
+
+arXiv:2601.15511v1 Announce Type: new 
+Abstract: Hallucination in large language models (LLMs) remains an acute concern, contributing to the spread of misinformation and diminished public trust, parti...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15511) | [📝 Analysis](3095613d4c6044381a69fada44b435d6.md)
+
+---
+
+### Towards Reliable Medical LLMs: Benchmarking and Enhancing Confidence Estimation of Large Language Models in Medical Consultation
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Zhiyao Ren, Yibing Zhan, Siyuan Liang, Guozheng Ma, Baosheng Yu, Dacheng Tao
+
+arXiv:2601.15645v1 Announce Type: new 
+Abstract: Large-scale language models (LLMs) often offer clinical judgments based on incomplete information, increasing the risk of misdiagnosis. Existing studie...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15645) | [📝 Analysis](e55775de367ec32c21f1e7d92da4210d.md)
+
+---
+
+### ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen
+
+arXiv:2601.15812v1 Announce Type: cross 
+Abstract: Large Language Models (LLM) benchmarks tell us when models fail, but not why they fail. A wrong answer on a reasoning dataset may stem from formattin...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15812) | [📝 Analysis](cb887413084e6ff11d8959ad759babaf.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

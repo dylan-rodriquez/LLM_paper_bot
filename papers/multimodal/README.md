@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Is this chart lying to me? Automating the detection of misleading visualizations
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Jonathan Tonglet, Jan Zimny, Tinne Tuytelaars, Iryna Gurevych
+
+arXiv:2508.21675v2 Announce Type: replace 
+Abstract: Misleading visualizations are a potent driver of misinformation on social media and the web. By violating chart design principles, they distort dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21675) | [📝 Analysis](95de06776a3b3cca1c21174af0992e4f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

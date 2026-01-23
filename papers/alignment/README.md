@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### NP-Hard Lower Bound Complexity for Semantic Self-Verification
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Robin Young
+
+arXiv:2501.15446v2 Announce Type: replace 
+Abstract: We model Semantic Self-Verification (SSV) as the problem of determining whether a statement accurately characterizes its own semantic properties wi...
+
+[📄 Full Paper](https://arxiv.org/abs/2501.15446) | [📝 Analysis](57faaa244bfbcb8f5f2d599940b67c1e.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

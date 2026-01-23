@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AdversaRiskQA: An Adversarial Factuality Benchmark for High-Risk Domains",
+      "authors": [
+        "Adam Szelestey, Sofie van Engelen, Tianhao Huang, Justin Snelders, Qintao Zeng, Songgaojun Deng"
+      ],
+      "abstract": "arXiv:2601.15511v1 Announce Type: new \nAbstract: Hallucination in large language models (LLMs) remains an acute concern, contributing to the spread of misinformation and diminished public trust, particularly in high-risk domains. Among hallucination types, factuality is crucial, as it concerns a model's alignment with established world knowledge. Adversarial factuality, defined as the deliberate insertion of misinformation into prompts with varying levels of expressed confidence, tests a model's ability to detect and resist confidently framed falsehoods. Existing work lacks high-quality, domain-specific resources for assessing model robustness under such adversarial conditions, and no prior research has examined the impact of injected misinformation on long-form text factuality.\n  To address this gap, we introduce AdversaRiskQA, the first verified and reliable benchmark systematically evaluating adversarial factuality across Health, Finance, and Law. The benchmark includes two difficulty levels to test LLMs' defensive capabilities across varying knowledge depths. We propose two automated methods for evaluating the adversarial attack success and long-form factuality. We evaluate six open- and closed-source LLMs from the Qwen, GPT-OSS, and GPT families, measuring misinformation detection rates. Long-form factuality is assessed on Qwen3 (30B) under both baseline and adversarial conditions. Results show that after excluding meaningless responses, Qwen3 (80B) achieves the highest average accuracy, while GPT-5 maintains consistently high accuracy. Performance scales non-linearly with model size, varies by domains, and gaps between difficulty levels narrow as models grow. Long-form evaluation reveals no significant correlation between injected misinformation and the model's factual output. AdversaRiskQA provides a valuable benchmark for pinpointing LLM weaknesses and developing more reliable models for high-stakes applications.",
+      "url": "https://arxiv.org/abs/2601.15511",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "factuality",
+        "adversarial",
+        "high",
+        "misinformation",
+        "model",
+        "benchmark",
+        "form",
+        "long",
+        "long form",
+        "adversarial factuality"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue \u2013 LLM hallucination in high-stakes domains \u2013 and proposes a novel benchmark, AdversaRiskQA, to specifically evaluate robustness against adversarial factuality attacks. The focus on Health, Finance, and Law is particularly relevant. While the concept of adversarial attacks isn't entirely new, applying it systematically to factuality *and* focusing on long-form text within these domains represents a valuable contribution. The potential for improving LLM reliability in these areas is substantial.",
+      "paper_id": "3095613d4c6044381a69fada44b435d6"
+    },
+    {
+      "title": "Towards Reliable Medical LLMs: Benchmarking and Enhancing Confidence Estimation of Large Language Models in Medical Consultation",
+      "authors": [
+        "Zhiyao Ren, Yibing Zhan, Siyuan Liang, Guozheng Ma, Baosheng Yu, Dacheng Tao"
+      ],
+      "abstract": "arXiv:2601.15645v1 Announce Type: new \nAbstract: Large-scale language models (LLMs) often offer clinical judgments based on incomplete information, increasing the risk of misdiagnosis. Existing studies have primarily evaluated confidence in single-turn, static settings, overlooking the coupling between confidence and correctness as clinical evidence accumulates during real consultations, which limits their support for reliable decision-making. We propose the first benchmark for assessing confidence in multi-turn interaction during realistic medical consultations. Our benchmark unifies three types of medical data for open-ended diagnostic generation and introduces an information sufficiency gradient to characterize the confidence-correctness dynamics as evidence increases. We implement and compare 27 representative methods on this benchmark; two key insights emerge: (1) medical data amplifies the inherent limitations of token-level and consistency-level confidence methods, and (2) medical reasoning must be evaluated for both diagnostic accuracy and information completeness. Based on these insights, we present MedConf, an evidence-grounded linguistic self-assessment framework that constructs symptom profiles via retrieval-augmented generation, aligns patient information with supporting, missing, and contradictory relations, and aggregates them into an interpretable confidence estimate through weighted integration. Across two LLMs and three medical datasets, MedConf consistently outperforms state-of-the-art methods on both AUROC and Pearson correlation coefficient metrics, maintaining stable performance under conditions of information insufficiency and multimorbidity. These results demonstrate that information adequacy is a key determinant of credible medical confidence modeling, providing a new pathway toward building more reliable and interpretable large medical models.",
+      "url": "https://arxiv.org/abs/2601.15645",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "confidence",
+        "information",
+        "benchmark",
+        "evidence",
+        "large",
+        "llms",
+        "methods",
+        "models",
+        "reliable"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the deployment of LLMs in healthcare: unreliable confidence estimation, particularly in dynamic, multi-turn consultations. The creation of a benchmark specifically designed for this scenario, unifying multiple data types and introducing an 'information sufficiency gradient', is a strong methodological contribution. The initial findings highlighting the limitations of existing confidence measures in the medical domain are significant and suggest a need for specialized approaches. The work appears well-motivated and clearly presented, indicating a high likelihood of positive reception.",
+      "paper_id": "e55775de367ec32c21f1e7d92da4210d"
+    },
+    {
+      "title": "ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models",
+      "authors": [
+        "Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen"
+      ],
+      "abstract": "arXiv:2601.15812v1 Announce Type: cross \nAbstract: Large Language Models (LLM) benchmarks tell us when models fail, but not why they fail. A wrong answer on a reasoning dataset may stem from formatting issues, calculation errors, or dataset noise rather than weak reasoning. Without disentangling such causes, benchmarks remain incomplete and cannot reliably guide model improvement. We introduce ErrorMap, the first method to chart the sources of LLM failure. It extracts a model's unique \"failure signature\", clarifies what benchmarks measure, and broadens error identification to reduce blind spots. This helps developers debug models, aligns benchmark goals with outcomes, and supports informed model selection. ErrorMap works on any model or dataset with the same logic. Applying our method to 35 datasets and 83 models we generate ErrorAtlas, a taxonomy of model errors, revealing recurring failure patterns. ErrorAtlas highlights error types that are currently underexplored in LLM research, such as omissions of required details in the output and question misinterpretation. By shifting focus from where models succeed to why they fail, ErrorMap and ErrorAtlas enable advanced evaluation - one that exposes hidden weaknesses and directs progress. Unlike success, typically measured by task-level metrics, our approach introduces a deeper evaluation layer that can be applied globally across models and tasks, offering richer insights into model behavior and limitations. We make the taxonomy and code publicly available with plans to periodically update ErrorAtlas as new benchmarks and models emerge.",
+      "url": "https://arxiv.org/abs/2601.15812",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "model",
+        "erroratlas",
+        "benchmarks",
+        "errormap",
+        "failure",
+        "dataset",
+        "fail",
+        "llm",
+        "error"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 understanding *why* models fail, not just *that* they fail. The introduction of ErrorMap and the resulting ErrorAtlas represent a significant step towards more nuanced and actionable benchmark analysis. The broad applicability to any model/dataset and the scale of the study (35 datasets, 83 models) suggest a rigorous and well-executed approach, and the potential for guiding model improvement is high.",
+      "paper_id": "cb887413084e6ff11d8959ad759babaf"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-23T09:45:50.020585"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Agentic Confidence Calibration
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Jiaxin Zhang, Caiming Xiong, Chien-Sheng Wu
+
+arXiv:2601.15778v1 Announce Type: cross 
+Abstract: AI agents are rapidly advancing from passive language models to autonomous systems executing complex, multi-step tasks. Yet their overconfidence in f...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15778) | [📝 Analysis](85bc1b61d11691e1837de9fd148f3fba.md)
+
+---
+
+### NLP for Social Good: A Survey and Outlook of Challenges, Opportunities, and Responsible Deployment
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Antonia Karamolegkou, Angana Borah, Eunjung Cho, Sagnik Ray Choudhury, Martina Galletti, Pranav Gupta, Oana Ignat, Priyanka Kargupta, Neema Kotonya, Hemank Lamba, Sun-Joo Lee, Arushi Mangla, Ishani Mondal, Fatima Zahra Moudakir, Deniz Nazarova, Poli Nemkova, Dina Pisarevskaya, Naquee Rizwan, Nazanin Sabri, Keenan Samway, Dominik Stammbach, Anna Steinberg, David Tom\'as, Steven R Wilson, Bowen Yi, Jessica H Zhu, Arkaitz Zubiaga, Anders S{\o}gaard, Alexander Fraser, Zhijing Jin, Rada Mihalcea, Joel R. Tetreault, Daryna Dementieva
+
+arXiv:2505.22327v2 Announce Type: replace 
+Abstract: Natural language processing (NLP) now shapes many aspects of our world, yet its potential for positive social impact is underexplored. This paper s...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22327) | [📝 Analysis](72fb1bfcf90b23e2a171cd33cf93cafb.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

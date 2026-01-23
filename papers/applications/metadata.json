@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Agentic Confidence Calibration",
+      "authors": [
+        "Jiaxin Zhang, Caiming Xiong, Chien-Sheng Wu"
+      ],
+      "abstract": "arXiv:2601.15778v1 Announce Type: cross \nAbstract: AI agents are rapidly advancing from passive language models to autonomous systems executing complex, multi-step tasks. Yet their overconfidence in failure remains a fundamental barrier to deployment in high-stakes settings. Existing calibration methods, built for static single-turn outputs, cannot address the unique challenges of agentic systems, such as compounding errors along trajectories, uncertainty from external tools, and opaque failure modes. To address these challenges, we introduce, for the first time, the problem of Agentic Confidence Calibration and propose Holistic Trajectory Calibration (HTC), a novel diagnostic framework that extracts rich process-level features ranging from macro dynamics to micro stability across an agent's entire trajectory. Powered by a simple, interpretable model, HTC consistently surpasses strong baselines in both calibration and discrimination, across eight benchmarks, multiple LLMs, and diverse agent frameworks. Beyond performance, HTC delivers three essential advances: it provides interpretability by revealing the signals behind failure, enables transferability by applying across domains without retraining, and achieves generalization through a General Agent Calibrator (GAC) that achieves the best calibration (lowest ECE) on the out-of-domain GAIA benchmark. Together, these contributions establish a new process-centric paradigm for confidence calibration, providing a framework for diagnosing and enhancing the reliability of AI agents.",
+      "url": "https://arxiv.org/abs/2601.15778",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "calibration",
+        "agent",
+        "agentic",
+        "confidence",
+        "confidence calibration",
+        "failure",
+        "htc",
+        "achieves",
+        "address",
+        "agentic confidence"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a crucial problem in the deployment of increasingly autonomous AI agents \u2013 overconfidence in failure. The introduction of 'Agentic Confidence Calibration' as a specific problem and the proposed 'Holistic Trajectory Calibration' (HTC) framework demonstrate a strong methodological approach. The reported performance across multiple benchmarks and LLMs suggests a robust and well-executed study, positioning it for positive reception within the AI community.",
+      "paper_id": "85bc1b61d11691e1837de9fd148f3fba"
+    },
+    {
+      "title": "NLP for Social Good: A Survey and Outlook of Challenges, Opportunities, and Responsible Deployment",
+      "authors": [
+        "Antonia Karamolegkou, Angana Borah, Eunjung Cho, Sagnik Ray Choudhury, Martina Galletti, Pranav Gupta, Oana Ignat, Priyanka Kargupta, Neema Kotonya, Hemank Lamba, Sun-Joo Lee, Arushi Mangla, Ishani Mondal, Fatima Zahra Moudakir, Deniz Nazarova, Poli Nemkova, Dina Pisarevskaya, Naquee Rizwan, Nazanin Sabri, Keenan Samway, Dominik Stammbach, Anna Steinberg, David Tom\\'as, Steven R Wilson, Bowen Yi, Jessica H Zhu, Arkaitz Zubiaga, Anders S{\\o}gaard, Alexander Fraser, Zhijing Jin, Rada Mihalcea, Joel R. Tetreault, Daryna Dementieva"
+      ],
+      "abstract": "arXiv:2505.22327v2 Announce Type: replace \nAbstract: Natural language processing (NLP) now shapes many aspects of our world, yet its potential for positive social impact is underexplored. This paper surveys work in ``NLP for Social Good\" (NLP4SG) across nine domains relevant to global development and risk agendas, summarizing principal tasks and challenges. We analyze ACL Anthology trends, finding that inclusion and AI harms attract the most research, while domains such as poverty, peacebuilding, and environmental protection remain underexplored. Guided by our review, we outline opportunities for responsible and equitable NLP and conclude with a call for cross-disciplinary partnerships and human-centered approaches to ensure that future NLP technologies advance the public good.",
+      "url": "https://arxiv.org/abs/2505.22327",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "nlp",
+        "good",
+        "social",
+        "challenges",
+        "domains",
+        "nlp social",
+        "opportunities",
+        "opportunities responsible",
+        "responsible",
+        "social good"
+      ],
+      "subject_classification": "applications",
+      "justification": "This survey paper addresses a highly significant and timely topic \u2013 the application of NLP to social good. The analysis of ACL Anthology trends provides valuable insights into research gaps and priorities. While the methodology appears sound (survey and trend analysis), the paper's innovation lies primarily in its synthesis of existing work rather than novel methods, but the identified opportunities and call for collaboration are impactful.",
+      "paper_id": "72fb1bfcf90b23e2a171cd33cf93cafb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-01-23T09:45:50.021779"
 }

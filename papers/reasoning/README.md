@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Multi-Persona Thinking for Bias Mitigation in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Yuxing Chen, Guoqing Luo, Zijun Wu, Lili Mou
+
+arXiv:2601.15488v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) exhibit significant social biases that can perpetuate harmful stereotypes and unfair outcomes. In this paper, we propose M...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15488) | [📝 Analysis](51c7c3d59db0b071c3d3851cea987e45.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

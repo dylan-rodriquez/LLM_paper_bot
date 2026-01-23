@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Being Kind Isn't Always Being Safe: Diagnosing Affective Hallucination in LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-23 | **Authors:** Sewon Kim, Jiwon Kim, Seungwoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, Hyunsoo Yoon
+
+arXiv:2508.16921v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) are increasingly engaged in emotionally vulnerable conversations that extend beyond information seeking to moments of ...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.16921) | [📝 Analysis](d2c0e066443cf2960f851e9d97eff660.md)
+
+---
+
+### GENERator: A Long-Context Generative Genomic Foundation Model
+
+**Score:** 90.0 | **Published:** 2026-01-23 | **Authors:** Wei Wu, Qiuyi Li, Yuanyuan Zhang, Zhihao Zhan, Ruipu Chen, Mingyang Li, Kun Fu, Junyan Qi, Yongzhou Bao, Chao Wang, Yiheng Zhu, Zhiyun Zhang, Jian Tang, Fuli Feng, Jieping Ye, Yuwen Liu, Hui Xiong, Zheng Wang
+
+arXiv:2502.07272v4 Announce Type: replace 
+Abstract: The rapid advancement of DNA sequencing has produced vast genomic datasets, yet interpreting and engineering genomic function remain fundamental ch...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.07272) | [📝 Analysis](f0e83ab87bf36f3a6fb6925bea74f43e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-23 09:45:50 UTC*

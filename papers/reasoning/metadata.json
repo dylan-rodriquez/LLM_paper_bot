@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Multi-Persona Thinking for Bias Mitigation in Large Language Models",
+      "authors": [
+        "Yuxing Chen, Guoqing Luo, Zijun Wu, Lili Mou"
+      ],
+      "abstract": "arXiv:2601.15488v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit significant social biases that can perpetuate harmful stereotypes and unfair outcomes. In this paper, we propose Multi-Persona Thinking (MPT), a novel inference-time framework that leverages dialectical reasoning from multiple perspectives to reduce bias. MPT guides models to adopt contrasting social identities (e.g., male and female) along with a neutral viewpoint, and then engages these personas iteratively to expose and correct biases. Through a dialectical reasoning process, the framework transforms the potential weakness of persona assignment into a strength for bias mitigation. We evaluate MPT on two widely used bias benchmarks across both open-source and closed-source models of varying scales. Our results demonstrate substantial improvements over existing prompting-based strategies: MPT achieves the lowest bias while maintaining core reasoning ability.",
+      "url": "https://arxiv.org/abs/2601.15488",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "models",
+        "mpt",
+        "persona",
+        "reasoning",
+        "bias mitigation",
+        "biases",
+        "dialectical",
+        "dialectical reasoning",
+        "framework"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem \u2013 bias in LLMs \u2013 with a novel approach (Multi-Persona Thinking). The abstract clearly articulates the method and highlights improvements over existing techniques. The evaluation across both open and closed-source models suggests a robust methodology, and the claim of maintaining reasoning ability alongside bias reduction is particularly strong. The problem is highly relevant, and the proposed solution appears promising.",
+      "paper_id": "51c7c3d59db0b071c3d3851cea987e45"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-23T09:45:50.019214"
 }

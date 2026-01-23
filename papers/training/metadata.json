@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Being Kind Isn't Always Being Safe: Diagnosing Affective Hallucination in LLMs",
+      "authors": [
+        "Sewon Kim, Jiwon Kim, Seungwoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, Hyunsoo Yoon"
+      ],
+      "abstract": "arXiv:2508.16921v2 Announce Type: replace \nAbstract: Large Language Models (LLMs) are increasingly engaged in emotionally vulnerable conversations that extend beyond information seeking to moments of personal distress. As they adopt affective tones and simulate empathy, they risk creating the illusion of genuine relational connection. We term this phenomenon Affective Hallucination, referring to emotionally immersive responses that evoke false social presence despite the model's lack of affective capacity. To address this, we introduce AHaBench, a benchmark of 500 mental-health-related prompts with expert-informed reference responses, evaluated along three dimensions: Emotional Enmeshment, Illusion of Presence, and Fostering Overdependence. We further release AHaPairs, a 5K-instance preference dataset enabling Direct Preference Optimization (DPO) for alignment with emotionally responsible behavior. DPO fine-tuning substantially reduces affective hallucination without compromising reasoning performance, and the Pearson correlation coefficients between GPT-4o and human judgments is also strong (r=0.85) indicating that human evaluations confirm AHaBench as an effective diagnostic tool. This work establishes affective hallucination as a distinct safety concern and provides resources for developing LLMs that are both factually reliable and psychologically safe. AHaBench and AHaPairs are accessible via https://huggingface.co/datasets/o0oMiNGo0o/AHaBench, and code for fine-tuning and evaluation are in https://github.com/0oOMiNGOo0/AHaBench. Warning: This paper contains examples of mental health-related language that may be emotionally distressing.",
+      "url": "https://arxiv.org/abs/2508.16921",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "affective",
+        "ahabench",
+        "affective hallucination",
+        "emotionally",
+        "hallucination",
+        "llms",
+        "ahapairs",
+        "dpo",
+        "fine",
+        "fine tuning"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and emerging problem with LLMs \u2013 the potential for creating harmful emotional dependencies through simulated empathy. The introduction of AHaBench and AHaPairs provides valuable resources for evaluating and mitigating 'Affective Hallucination', and the demonstrated success of DPO fine-tuning is encouraging. The work is well-defined and addresses a timely concern in the field of responsible AI development.",
+      "paper_id": "d2c0e066443cf2960f851e9d97eff660"
+    },
+    {
+      "title": "GENERator: A Long-Context Generative Genomic Foundation Model",
+      "authors": [
+        "Wei Wu, Qiuyi Li, Yuanyuan Zhang, Zhihao Zhan, Ruipu Chen, Mingyang Li, Kun Fu, Junyan Qi, Yongzhou Bao, Chao Wang, Yiheng Zhu, Zhiyun Zhang, Jian Tang, Fuli Feng, Jieping Ye, Yuwen Liu, Hui Xiong, Zheng Wang"
+      ],
+      "abstract": "arXiv:2502.07272v4 Announce Type: replace \nAbstract: The rapid advancement of DNA sequencing has produced vast genomic datasets, yet interpreting and engineering genomic function remain fundamental challenges. Recent large language models have opened new avenues for genomic analysis, but existing approaches are often limited by restricted training scope, constrained generative capability, or prohibitive computational cost. We introduce GENErator, a generative genomic foundation model for long-context DNA modeling, with a context length of 98k nucleotides, pre-trained on 386 billion nucleotides of eukaryotic DNA. Without task-specific fine-tuning, GENERator exhibits strong intrinsic capabilities: unsupervised embedding analyses reveal phylogenetically coherent structure, and sequence recovery benchmarks demonstrate generative accuracy comparable to or exceeding state-of-the-art models with substantially improved computational efficiency. In a zero-shot setting, GENERator achieves competitive variant effect prediction performance relative to alignment-based methods, while remaining fully alignment-free and broadly applicable across species. With task-specific fine-tuning, the model attains leading performance on established genomic benchmarks. We further demonstrate practical generative applications. GENERator can generate protein-coding DNA sequences that translate into structurally plausible proteins and, through a prompt-guided design framework, design cis-regulatory elements with targeted activity profiles, including synthetic super-enhancers validated by high-throughput UMI-STARR-seq assays. Together, these results establish GENERator as an efficient and biologically grounded framework for genomic interpretation and programmable sequence design. Code and supplementary resources are available at https://github.com/GenerTeam/GENERator.",
+      "url": "https://arxiv.org/abs/2502.07272",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "generator",
+        "genomic",
+        "generative",
+        "dna",
+        "context",
+        "design",
+        "model",
+        "alignment",
+        "benchmarks",
+        "benchmarks demonstrate"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial problem in genomics \u2013 interpreting and engineering genomic function \u2013 with a novel approach leveraging large language models. The long context length (98k nucleotides) and strong performance without task-specific fine-tuning are particularly impressive. The reported computational efficiency gains further enhance its appeal, suggesting a practical and scalable solution. The abstract clearly articulates the problem, method, and results, indicating a well-structured research effort.",
+      "paper_id": "f0e83ab87bf36f3a6fb6925bea74f43e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-23T09:45:50.023881"
 }

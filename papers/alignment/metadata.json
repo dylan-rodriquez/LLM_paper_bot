@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "NP-Hard Lower Bound Complexity for Semantic Self-Verification",
+      "authors": [
+        "Robin Young"
+      ],
+      "abstract": "arXiv:2501.15446v2 Announce Type: replace \nAbstract: We model Semantic Self-Verification (SSV) as the problem of determining whether a statement accurately characterizes its own semantic properties within a given interpretive framework that formalizes a challenge in AI safety and fairness: can an AI system verify that it has correctly interpreted rules intended to govern its behavior? We prove that SSV, in this specification, is NP-complete by constructing a polynomial-time reduction from 3-Satisfiability (3-SAT). Our reduction maps a 3-SAT formula to an instance of SSV involving ambiguous terms with binary interpretations and semantic constraints derived from logical clauses. This establishes that even simplified forms of semantic self-verification should face computational barriers. The NP-complete lower bound has implications for AI safety and fairness approaches that rely on semantic interpretation of instructions, including but not limited to constitutional AI, alignment via natural language, and instruction-following systems. Approaches where an AI system verify its understanding of directives may face this computational barrier. We argue that more realistic verification scenarios likely face even greater complexity.",
+      "url": "https://arxiv.org/abs/2501.15446",
+      "published_date": "2026-01-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "semantic",
+        "ai",
+        "verification",
+        "face",
+        "np",
+        "self",
+        "self verification",
+        "semantic self",
+        "ssv",
+        "ai safety"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in AI safety and fairness \u2013 ensuring AI systems correctly interpret their governing rules. Proving NP-completeness for Semantic Self-Verification establishes a fundamental computational barrier, which is a strong result. While the reduction from 3-SAT is a standard technique, applying it to this novel problem domain is valuable, and the implications for areas like Constitutional AI are significant.",
+      "paper_id": "57faaa244bfbcb8f5f2d599940b67c1e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-23T09:45:50.022692"
 }
