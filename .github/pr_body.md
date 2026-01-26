@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 7
+- **Average Significance Score:** 91.1/100
+- **Categories Updated:** 2
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,30 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Evaluation (5 new papers)
+- **A Longitudinal, Multinational, and Multilingual Corpus of News Coverage of the Russo-Ukrainian War** (Score: 92.0)
+  - This paper presents a valuable resource for studying a highly relevant and complex geopolitical event. The multilingual and multinational scope of the corpus, coupled with the inclusion of competing perspectives, is a significant strength. The initial use case experiments demonstrate the corpus's utility, and the rigorous human evaluation adds to its credibility. While the methods used in the experiments aren't groundbreaking, the corpus itself is a substantial contribution.
+- **Persona Jailbreaking in Large Language Models** (Score: 92.0)
+  - This paper addresses a critical vulnerability in LLMs – the susceptibility to persona manipulation through conversational history – which is particularly concerning given their increasing deployment in sensitive applications. The introduction of 'persona editing' and the PHISH framework represents a novel approach to understanding and quantifying this risk. The work appears rigorous, with benchmarks across multiple models, and the problem is highly relevant to current safety and alignment research.
+- **CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection** (Score: 92.0)
+  - This paper addresses a critically important problem – reliable detection of mental health crises – with a well-defined benchmark. The inclusion of clinical standards and temporal labels represents a significant improvement over existing datasets. The use of a majority-vote ensemble for training data labeling is a clever approach to improve data quality, and the initial fine-tuning results suggest the benchmark is useful for evaluating and improving models.
+- **PLawBench: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice** (Score: 90.0)
+  - This paper addresses a crucial gap in LLM evaluation – the lack of realistic benchmarks for the legal domain. The focus on real-world legal workflows and fine-grained reasoning is a significant improvement over existing benchmarks. The proposed PLawBench appears well-motivated and designed to provide a more nuanced assessment of LLM capabilities in practical legal settings, suggesting a positive reception from the community.
+- **LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems** (Score: 90.0)
+  - This paper addresses a highly relevant and timely problem – the vulnerability of fact-checking systems to sophisticated adversarial attacks leveraging persuasive language. The novelty lies in explicitly framing these attacks through the lens of persuasion techniques, moving beyond simple noise injection. The decoupled evaluation strategy and use of established benchmarks (FEVER/FEVEROUS) suggest a rigorous methodology, and the potential for degrading both verification and evidence retrieval highlights a significant practical concern. The work is likely to be well-received by the NLP and fact-checking communities.
 
 ## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
-
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+- **Fluent but Foreign: Even Regional LLMs Lack Cultural Alignment** (Score: 92.0)
+  - This paper tackles a crucial issue in the global deployment of LLMs – cultural alignment. The use of both quantitative (survey data, QA datasets) and qualitative (user study) methods strengthens the findings, and the negative results (failure of prompting/fine-tuning) are particularly insightful. While the methodology isn't radically new, the application to regional LLMs and the specific focus on Indian cultural values is a strong contribution. The clear demonstration that 'regional' models don't automatically equate to cultural alignment is a significant warning for the field.
+- **A Machine Learning Approach for Detection of Mental Health Conditions and Cyberbullying from Social Media** (Score: 90.0)
+  - This paper tackles a highly significant problem – detecting mental health issues and cyberbullying – with a sound methodology. The use of a 'split-then-balance' pipeline and comparison of various models, including domain-adapted transformers like MentalBERT, demonstrates rigor. The reported accuracy and Macro F1 score are promising, and the focus on interpretability (mentioned as 'comprehensive eth...') suggests a thoughtful approach. The strong performance of MentalBERT over generic transformers and zero-shot LLMs indicates a valuable contribution.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (5), **Training** (2)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

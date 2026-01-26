@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Fluent but Foreign: Even Regional LLMs Lack Cultural Alignment",
+      "authors": [
+        "Dhruv Agarwal, Anya Shukla, Sunayana Sitaram, Aditya Vashistha"
+      ],
+      "abstract": "arXiv:2505.21548v3 Announce Type: replace \nAbstract: Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building ``regional'' or ``sovereign'' LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions -- values and practices -- grounded in nationally representative surveys and community-sourced QA datasets. Across tasks, Indic models do not align better with Indian norms than global models; in fact, a U.S. respondent is a closer proxy for Indian values than any Indic model. We further run a user study with 115 Indian users and find that writing suggestions from both global and Indic LLMs introduce Westernized or exoticized writing. Prompting and regional fine-tuning fail to recover alignment and can even degrade existing knowledge. We attribute this to scarce culturally grounded data, especially for pretraining. We position cultural evaluation as a first-class requirement alongside multilingual benchmarks and offer a reusable, community-grounded methodology. We call for native, community-authored corpora and thickxwide evaluations to build truly sovereign LLMs.",
+      "url": "https://arxiv.org/abs/2505.21548",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "indic",
+        "community",
+        "cultural",
+        "global",
+        "grounded",
+        "indian",
+        "models",
+        "regional",
+        "values"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in the global deployment of LLMs \u2013 cultural alignment. The use of both quantitative (survey data, QA datasets) and qualitative (user study) methods strengthens the findings, and the negative results (failure of prompting/fine-tuning) are particularly insightful. While the methodology isn't radically new, the application to regional LLMs and the specific focus on Indian cultural values is a strong contribution. The clear demonstration that 'regional' models don't automatically equate to cultural alignment is a significant warning for the field.",
+      "paper_id": "ceb04c7f4f9282554450bb157d696b37"
+    },
+    {
+      "title": "A Machine Learning Approach for Detection of Mental Health Conditions and Cyberbullying from Social Media",
+      "authors": [
+        "Edward Ajayi, Martha Kachweka, Mawuli Deku, Emily Aiken"
+      ],
+      "abstract": "arXiv:2511.20001v3 Announce Type: replace \nAbstract: Mental health challenges and cyberbullying are increasingly prevalent in digital spaces, necessitating scalable and interpretable detection systems. This paper introduces a unified multiclass classification framework for detecting ten distinct mental health and cyberbullying categories from social media data. We curate datasets from Twitter and Reddit, implementing a rigorous \"split-then-balance\" pipeline to train on balanced data while evaluating on a realistic, held-out imbalanced test set. We conducted a comprehensive evaluation comparing traditional lexical models, hybrid approaches, and several end-to-end fine-tuned transformers. Our results demonstrate that end-to-end fine-tuning is critical for performance, with the domain-adapted MentalBERT emerging as the top model, achieving an accuracy of 0.92 and a Macro F1 score of 0.76, surpassing both its generic counterpart and a zero-shot LLM baseline. Grounded in a comprehensive ethical analysis, we frame the system as a human-in-the-loop screening aid, not a diagnostic tool. To support this, we introduce a hybrid SHAPLLM explainability framework and present a prototype dashboard (\"Social Media Screener\") designed to integrate model predictions and their explanations into a practical workflow for moderators. Our work provides a robust baseline, highlighting future needs for multi-label, clinically-validated datasets at the critical intersection of online safety and computational mental health.",
+      "url": "https://arxiv.org/abs/2511.20001",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 70,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "end",
+        "health",
+        "mental",
+        "mental health",
+        "cyberbullying",
+        "media",
+        "social",
+        "social media",
+        "baseline",
+        "comprehensive"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly significant problem \u2013 detecting mental health issues and cyberbullying \u2013 with a sound methodology. The use of a 'split-then-balance' pipeline and comparison of various models, including domain-adapted transformers like MentalBERT, demonstrates rigor. The reported accuracy and Macro F1 score are promising, and the focus on interpretability (mentioned as 'comprehensive eth...') suggests a thoughtful approach. The strong performance of MentalBERT over generic transformers and zero-shot LLMs indicates a valuable contribution.",
+      "paper_id": "b56789e37e7b8d354d7832df517bf4a8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-26T09:52:51.070679"
 }

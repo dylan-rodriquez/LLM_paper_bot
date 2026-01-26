@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Longitudinal, Multinational, and Multilingual Corpus of News Coverage of the Russo-Ukrainian War",
+      "authors": [
+        "Dikshya Mohanty, Taisiia Sabadyn, Jelwin Rodrigues, Chenlu Wang, Abhishek Kalugade, Ritwik Banerjee"
+      ],
+      "abstract": "arXiv:2601.16309v1 Announce Type: new \nAbstract: We introduce DNIPRO, a novel longitudinal corpus of 246K news articles documenting the Russo-Ukrainian war from Feb 2022 to Aug 2024, spanning eleven media outlets across five nation states (Russia, Ukraine, U.S., U.K., and China) and three languages (English, Russian, and Mandarin Chinese). This multilingual resource features consistent and comprehensive metadata, and multiple types of annotation with rigorous human evaluations for downstream tasks relevant to systematic transnational analyses of contentious wartime discourse. DNIPRO's distinctive value lies in its inclusion of competing geopolitical perspectives, making it uniquely suited for studying narrative divergence, media framing, and information warfare. To demonstrate its utility, we include use case experiments using stance detection, sentiment analysis, topical framing, and contradiction analysis of major conflict events within the larger war. Our explorations reveal how outlets construct competing realities, with coverage exhibiting polarized interpretations that reflect geopolitical interests. Beyond supporting computational journalism research, DNIPRO provides a foundational resource for understanding how conflicting narratives emerge and evolve across global information ecosystems.",
+      "url": "https://arxiv.org/abs/2601.16309",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "dnipro",
+        "war",
+        "analysis",
+        "competing",
+        "corpus",
+        "coverage",
+        "framing",
+        "geopolitical",
+        "information",
+        "longitudinal"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper presents a valuable resource for studying a highly relevant and complex geopolitical event. The multilingual and multinational scope of the corpus, coupled with the inclusion of competing perspectives, is a significant strength. The initial use case experiments demonstrate the corpus's utility, and the rigorous human evaluation adds to its credibility. While the methods used in the experiments aren't groundbreaking, the corpus itself is a substantial contribution.",
+      "paper_id": "bb631933aa1f74c550a0d5ef58e0d967"
+    },
+    {
+      "title": "Persona Jailbreaking in Large Language Models",
+      "authors": [
+        "Jivnesh Sandhan, Fei Cheng, Tushar Sandhan, Yugo Murawaki"
+      ],
+      "abstract": "arXiv:2601.16466v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in domains such as education, mental health and customer support, where stable and consistent personas are critical for reliability. Yet, existing studies focus on narrative or role-playing tasks and overlook how adversarial conversational history alone can reshape induced personas. Black-box persona manipulation remains unexplored, raising concerns for robustness in realistic interactions. In response, we introduce the task of persona editing, which adversarially steers LLM traits through user-side inputs under a black-box, inference-only setting. To this end, we propose PHISH (Persona Hijacking via Implicit Steering in History), the first framework to expose a new vulnerability in LLM safety that embeds semantically loaded cues into user queries to gradually induce reverse personas. We also define a metric to quantify attack success. Across 3 benchmarks and 8 LLMs, PHISH predictably shifts personas, triggers collateral changes in correlated traits, and exhibits stronger effects in multi-turn settings. In high-risk domains mental health, tutoring, and customer support, PHISH reliably manipulates personas, validated by both human and LLM-as-Judge evaluations. Importantly, PHISH causes only a small reduction in reasoning benchmark performance, leaving overall utility largely intact while still enabling significant persona manipulation. While current guardrails offer partial protection, they remain brittle under sustained attack. Our findings expose new vulnerabilities in personas and highlight the need for context-resilient persona in LLMs. Our codebase and dataset is available at: https://github.com/Jivnesh/PHISH",
+      "url": "https://arxiv.org/abs/2601.16466",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "persona",
+        "personas",
+        "phish",
+        "llm",
+        "llms",
+        "new",
+        "attack",
+        "black",
+        "black box",
+        "box"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 the susceptibility to persona manipulation through conversational history \u2013 which is particularly concerning given their increasing deployment in sensitive applications. The introduction of 'persona editing' and the PHISH framework represents a novel approach to understanding and quantifying this risk. The work appears rigorous, with benchmarks across multiple models, and the problem is highly relevant to current safety and alignment research.",
+      "paper_id": "1768181a4cf386b5ac749354547da5b4"
+    },
+    {
+      "title": "CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection",
+      "authors": [
+        "Grace Byun, Rebecca Lipschutz, Sean T. Minton, Abigail Lott, Jinho D. Choi"
+      ],
+      "abstract": "arXiv:2510.23845v2 Announce Type: replace \nAbstract: Detecting mental health crisis situations such as suicide ideation, rape, domestic violence, child abuse, and sexual harassment is a critical yet underexplored challenge for language models. When such situations arise during user--model interactions, models must reliably flag them, as failure to do so can have serious consequences. In this work, we introduce CRADLE BENCH, a benchmark for multi-faceted crisis detection. Unlike previous efforts that focus on a limited set of crisis types, our benchmark covers seven types defined in line with clinical standards and is the first to incorporate temporal labels. Our benchmark provides 600 clinician-annotated evaluation examples and 420 development examples, together with a training corpus of around 4K examples automatically labeled using a majority-vote ensemble of multiple language models, which significantly outperforms single-model annotation. We further fine-tune six crisis detection models on subsets defined by consensus and unanimous ensemble agreement, providing complementary models trained under different agreement criteria.",
+      "url": "https://arxiv.org/abs/2510.23845",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "crisis",
+        "models",
+        "benchmark",
+        "detection",
+        "examples",
+        "agreement",
+        "annotated",
+        "bench",
+        "benchmark multi",
+        "clinician"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critically important problem \u2013 reliable detection of mental health crises \u2013 with a well-defined benchmark. The inclusion of clinical standards and temporal labels represents a significant improvement over existing datasets. The use of a majority-vote ensemble for training data labeling is a clever approach to improve data quality, and the initial fine-tuning results suggest the benchmark is useful for evaluating and improving models.",
+      "paper_id": "04201b55aad41c9f1ca66805d50c14b0"
+    },
+    {
+      "title": "PLawBench: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice",
+      "authors": [
+        "Yuzhen Shi, Huanghai Liu, Yiran Hu, Gaojie Song, Xinran Xu, Yubo Ma, Tianyi Tang, Li Zhang, Qingjing Chen, Di Feng, Wenbo Lv, Weiheng Wu, Kexin Yang, Sen Yang, Wei Wang, Rongyao Shi, Yuanyang Qiu, Yuemeng Qi, Jingwen Zhang, Xiaoyu Sui, Yifan Chen, Yi Zhang, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Weixing Shen, Bing Zhao, Charles L. A. Clarke, Hu Wei"
+      ],
+      "abstract": "arXiv:2601.16669v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly applied to legal domain-specific tasks, evaluating their ability to perform legal work in real-world settings has become essential. However, existing legal benchmarks rely on simplified and highly standardized tasks, failing to capture the ambiguity, complexity, and reasoning demands of real legal practice. Moreover, prior evaluations often adopt coarse, single-dimensional metrics and do not explicitly assess fine-grained legal reasoning. To address these limitations, we introduce PLawBench, a Practical Law Benchmark designed to evaluate LLMs in realistic legal practice scenarios. Grounded in real-world legal workflows, PLawBench models the core processes of legal practitioners through three task categories: public legal consultation, practical case analysis, and legal document generation. These tasks assess a model's ability to identify legal issues and key facts, perform structured legal reasoning, and generate legally coherent documents. PLawBench comprises 850 questions across 13 practical legal scenarios, with each question accompanied by expert-designed evaluation rubrics, resulting in approximately 12,500 rubric items for fine-grained assessment. Using an LLM-based evaluator aligned with human expert judgments, we evaluate 10 state-of-the-art LLMs. Experimental results show that none achieves strong performance on PLawBench, revealing substantial limitations in the fine-grained legal reasoning capabilities of current LLMs and highlighting important directions for future evaluation and development of legal LLMs. Data is available at: https://github.com/skylenage/PLawbench.",
+      "url": "https://arxiv.org/abs/2601.16669",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "legal",
+        "llms",
+        "plawbench",
+        "real",
+        "reasoning",
+        "fine",
+        "fine grained",
+        "grained",
+        "legal practice",
+        "legal reasoning"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of realistic benchmarks for the legal domain. The focus on real-world legal workflows and fine-grained reasoning is a significant improvement over existing benchmarks. The proposed PLawBench appears well-motivated and designed to provide a more nuanced assessment of LLM capabilities in practical legal settings, suggesting a positive reception from the community.",
+      "paper_id": "9504a45669304946cbfb3bd18e827676"
+    },
+    {
+      "title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
+      "authors": [
+        "Jo\\~ao A. Leite, Olesya Razuvayevskaya, Kalina Bontcheva, Carolina Scarton"
+      ],
+      "abstract": "arXiv:2601.16890v1 Announce Type: new \nAbstract: Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
+      "url": "https://arxiv.org/abs/2601.16890",
+      "published_date": "2026-01-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "adversarial",
+        "persuasion",
+        "attacks",
+        "techniques",
+        "adversarial attacks",
+        "persuasion techniques",
+        "systems",
+        "afc",
+        "afc systems",
+        "checking"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the vulnerability of fact-checking systems to sophisticated adversarial attacks leveraging persuasive language. The novelty lies in explicitly framing these attacks through the lens of persuasion techniques, moving beyond simple noise injection. The decoupled evaluation strategy and use of established benchmarks (FEVER/FEVEROUS) suggest a rigorous methodology, and the potential for degrading both verification and evidence retrieval highlights a significant practical concern. The work is likely to be well-received by the NLP and fact-checking communities.",
+      "paper_id": "9921f5fc5721b3bce9829d04d31895bd"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-26T09:52:51.068879"
 }

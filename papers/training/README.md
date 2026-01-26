@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Fluent but Foreign: Even Regional LLMs Lack Cultural Alignment
+
+**Score:** 92.0 | **Published:** 2026-01-26 | **Authors:** Dhruv Agarwal, Anya Shukla, Sunayana Sitaram, Aditya Vashistha
+
+arXiv:2505.21548v3 Announce Type: replace 
+Abstract: Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building ``regional'' or ``soverei...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.21548) | [📝 Analysis](ceb04c7f4f9282554450bb157d696b37.md)
+
+---
+
+### A Machine Learning Approach for Detection of Mental Health Conditions and Cyberbullying from Social Media
+
+**Score:** 90.0 | **Published:** 2026-01-26 | **Authors:** Edward Ajayi, Martha Kachweka, Mawuli Deku, Emily Aiken
+
+arXiv:2511.20001v3 Announce Type: replace 
+Abstract: Mental health challenges and cyberbullying are increasingly prevalent in digital spaces, necessitating scalable and interpretable detection systems...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.20001) | [📝 Analysis](b56789e37e7b8d354d7832df517bf4a8.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-26 09:52:51 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Longitudinal, Multinational, and Multilingual Corpus of News Coverage of the Russo-Ukrainian War
+
+**Score:** 92.0 | **Published:** 2026-01-26 | **Authors:** Dikshya Mohanty, Taisiia Sabadyn, Jelwin Rodrigues, Chenlu Wang, Abhishek Kalugade, Ritwik Banerjee
+
+arXiv:2601.16309v1 Announce Type: new 
+Abstract: We introduce DNIPRO, a novel longitudinal corpus of 246K news articles documenting the Russo-Ukrainian war from Feb 2022 to Aug 2024, spanning eleven m...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16309) | [📝 Analysis](bb631933aa1f74c550a0d5ef58e0d967.md)
+
+---
+
+### Persona Jailbreaking in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-26 | **Authors:** Jivnesh Sandhan, Fei Cheng, Tushar Sandhan, Yugo Murawaki
+
+arXiv:2601.16466v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in domains such as education, mental health and customer support, where stable and consistent pe...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16466) | [📝 Analysis](1768181a4cf386b5ac749354547da5b4.md)
+
+---
+
+### CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection
+
+**Score:** 92.0 | **Published:** 2026-01-26 | **Authors:** Grace Byun, Rebecca Lipschutz, Sean T. Minton, Abigail Lott, Jinho D. Choi
+
+arXiv:2510.23845v2 Announce Type: replace 
+Abstract: Detecting mental health crisis situations such as suicide ideation, rape, domestic violence, child abuse, and sexual harassment is a critical yet u...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.23845) | [📝 Analysis](04201b55aad41c9f1ca66805d50c14b0.md)
+
+---
+
+### PLawBench: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice
+
+**Score:** 90.0 | **Published:** 2026-01-26 | **Authors:** Yuzhen Shi, Huanghai Liu, Yiran Hu, Gaojie Song, Xinran Xu, Yubo Ma, Tianyi Tang, Li Zhang, Qingjing Chen, Di Feng, Wenbo Lv, Weiheng Wu, Kexin Yang, Sen Yang, Wei Wang, Rongyao Shi, Yuanyang Qiu, Yuemeng Qi, Jingwen Zhang, Xiaoyu Sui, Yifan Chen, Yi Zhang, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Weixing Shen, Bing Zhao, Charles L. A. Clarke, Hu Wei
+
+arXiv:2601.16669v1 Announce Type: new 
+Abstract: As large language models (LLMs) are increasingly applied to legal domain-specific tasks, evaluating their ability to perform legal work in real-world s...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16669) | [📝 Analysis](9504a45669304946cbfb3bd18e827676.md)
+
+---
+
+### LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems
+
+**Score:** 90.0 | **Published:** 2026-01-26 | **Authors:** Jo\~ao A. Leite, Olesya Razuvayevskaya, Kalina Bontcheva, Carolina Scarton
+
+arXiv:2601.16890v1 Announce Type: new 
+Abstract: Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16890) | [📝 Analysis](9921f5fc5721b3bce9829d04d31895bd.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-26 09:52:51 UTC*
