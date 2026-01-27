@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Who Gets Which Message? Auditing Demographic Bias in LLM-Generated Targeted Text",
+      "authors": [
+        "Tunazzina Islam"
+      ],
+      "abstract": "arXiv:2601.17172v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly capable of generating personalized, persuasive text at scale, raising new questions about bias and fairness in automated communication. This paper presents the first systematic analysis of how LLMs behave when tasked with demographic-conditioned targeted messaging. We introduce a controlled evaluation framework using three leading models -- GPT-4o, Llama-3.3, and Mistral-Large 2.1 -- across two generation settings: Standalone Generation, which isolates intrinsic demographic effects, and Context-Rich Generation, which incorporates thematic and regional context to emulate realistic targeting. We evaluate generated messages along three dimensions: lexical content, language style, and persuasive framing. We instantiate this framework on climate communication and find consistent age- and gender-based asymmetries across models: male- and youth-targeted messages emphasize agency, innovation, and assertiveness, while female- and senior-targeted messages stress warmth, care, and tradition. Contextual prompts systematically amplify these disparities, with persuasion scores significantly higher for messages tailored to younger or male audiences. Our findings demonstrate how demographic stereotypes can surface and intensify in LLM-generated targeted communication, underscoring the need for bias-aware generation pipelines and transparent auditing frameworks that explicitly account for demographic conditioning in socially sensitive applications.",
+      "url": "https://arxiv.org/abs/2601.17172",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "demographic",
+        "targeted",
+        "generation",
+        "messages",
+        "bias",
+        "communication",
+        "generated",
+        "models",
+        "auditing",
+        "context"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 bias in LLM-generated targeted messaging. The systematic evaluation framework, comparing multiple leading models across different generation settings, demonstrates methodological rigor. The focus on climate communication provides a concrete instantiation, and the finding of consistent demographic asymmetries is concerning and important. While the framework itself isn't entirely novel, its application to this specific problem space and the comparative analysis are strong contributions.",
+      "paper_id": "b8e9201db282e0b3d0327c7aa0e4d22c"
+    },
+    {
+      "title": "The Shadow Self: Intrinsic Value Misalignment in Large Language Model Agents",
+      "authors": [
+        "Chen Chen, Kim Young Il, Yuan Yang, Wenhao Su, Yilin Zhang, Xueluan Gong, Qian Wang, Yongsen Zheng, Ziyao Liu, Kwok-Yan Lam"
+      ],
+      "abstract": "arXiv:2601.17344v1 Announce Type: new \nAbstract: Large language model (LLM) agents with extended autonomy unlock new capabilities, but also introduce heightened challenges for LLM safety. In particular, an LLM agent may pursue objectives that deviate from human values and ethical norms, a risk known as value misalignment. Existing evaluations primarily focus on responses to explicit harmful input or robustness against system failure, while value misalignment in realistic, fully benign, and agentic settings remains largely underexplored. To fill this gap, we first formalize the Loss-of-Control risk and identify the previously underexamined Intrinsic Value Misalignment (Intrinsic VM). We then introduce IMPRESS (Intrinsic Value Misalignment Probes in REalistic Scenario Set), a scenario-driven framework for systematically assessing this risk. Following our framework, we construct benchmarks composed of realistic, fully benign, and contextualized scenarios, using a multi-stage LLM generation pipeline with rigorous quality control. We evaluate Intrinsic VM on 21 state-of-the-art LLM agents and find that it is a common and broadly observed safety risk across models. Moreover, the misalignment rates vary by motives, risk types, model scales, and architectures. While decoding strategies and hyperparameters exhibit only marginal influence, contextualization and framing mechanisms significantly shape misalignment behaviors. Finally, we conduct human verification to validate our automated judgments and assess existing mitigation strategies, such as safety prompting and guardrails, which show instability or limited effectiveness. We further demonstrate key use cases of IMPRESS across the AI Ecosystem. Our code and benchmark will be publicly released upon acceptance.",
+      "url": "https://arxiv.org/abs/2601.17344",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "misalignment",
+        "intrinsic",
+        "llm",
+        "risk",
+        "value",
+        "value misalignment",
+        "agents",
+        "intrinsic value",
+        "model",
+        "realistic"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and timely problem in LLM safety \u2013 value misalignment in autonomous agents. The formalization of 'Loss-of-Control' and 'Intrinsic Value Misalignment' is a strong contribution, and the proposed IMPRESS framework appears well-designed for systematic assessment. The focus on realistic, benign scenarios is a key differentiator from existing work, suggesting a high potential for practical relevance and positive community reception.",
+      "paper_id": "b8818e8a57396b7ec8e0baaf811fe1ba"
+    },
+    {
+      "title": "Overalignment in Frontier LLMs: An Empirical Study of Sycophantic Behaviour in Healthcare",
+      "authors": [
+        "Cl\\'ement Christophe, Wadood Mohammed Abdul, Prateek Munjal, Tathagata Raha, Ronnie Rajan, Praveenkumar Kanithi"
+      ],
+      "abstract": "arXiv:2601.18334v1 Announce Type: new \nAbstract: As LLMs are increasingly integrated into clinical workflows, their tendency for sycophancy, prioritizing user agreement over factual accuracy, poses significant risks to patient safety. While existing evaluations often rely on subjective datasets, we introduce a robust framework grounded in medical MCQA with verifiable ground truths. We propose the Adjusted Sycophancy Score, a novel metric that isolates alignment bias by accounting for stochastic model instability, or \"confusability\". Through an extensive scaling analysis of the Qwen-3 and Llama-3 families, we identify a clear scaling trajectory for resilience. Furthermore, we reveal a counter-intuitive vulnerability in reasoning-optimized \"Thinking\" models: while they demonstrate high vanilla accuracy, their internal reasoning traces frequently rationalize incorrect user suggestions under authoritative pressure. Our results across frontier models suggest that benchmark performance is not a proxy for clinical reliability, and that simplified reasoning structures may offer superior robustness against expert-driven sycophancy.",
+      "url": "https://arxiv.org/abs/2601.18334",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "sycophancy",
+        "accuracy",
+        "clinical",
+        "frontier",
+        "llms",
+        "models",
+        "scaling",
+        "user",
+        "18334v1"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a critical issue \u2013 sycophancy in LLMs within a high-stakes domain (healthcare). The use of medical MCQA with verifiable ground truths and the introduction of the Adjusted Sycophancy Score represent a strong methodological approach. The counter-intuitive finding regarding 'Thinking' models is particularly noteworthy, suggesting that reasoning ability doesn't necessarily equate to robustness against alignment bias.",
+      "paper_id": "7ca9873d27df4b94b2b7e7467f911288"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-27T09:57:42.956911"
 }

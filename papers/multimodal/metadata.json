@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Revealing the Truth with ConLLM for Detecting Multi-Modal Deepfakes",
+      "authors": [
+        "Gautam Siddharth Kashyap, Harsh Joshi, Niharika Jain, Ebad Shabbir, Jiechao Gao, Nipun Joshi, Usman Naseem"
+      ],
+      "abstract": "arXiv:2601.17530v1 Announce Type: new \nAbstract: The rapid rise of deepfake technology poses a severe threat to social and political stability by enabling hyper-realistic synthetic media capable of manipulating public perception. However, existing detection methods struggle with two core limitations: (1) modality fragmentation, which leads to poor generalization across diverse and adversarial deepfake modalities; and (2) shallow inter-modal reasoning, resulting in limited detection of fine-grained semantic inconsistencies. To address these, we propose ConLLM (Contrastive Learning with Large Language Models), a hybrid framework for robust multimodal deepfake detection. ConLLM employs a two-stage architecture: stage 1 uses Pre-Trained Models (PTMs) to extract modality-specific embeddings; stage 2 aligns these embeddings via contrastive learning to mitigate modality fragmentation, and refines them using LLM-based reasoning to address shallow inter-modal reasoning by capturing semantic inconsistencies. ConLLM demonstrates strong performance across audio, video, and audio-visual modalities. It reduces audio deepfake EER by up to 50%, improves video accuracy by up to 8%, and achieves approximately 9% accuracy gains in audio-visual tasks. Ablation studies confirm that PTM-based embeddings contribute 9%-10% consistent improvements across modalities.",
+      "url": "https://arxiv.org/abs/2601.17530",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "audio",
+        "conllm",
+        "deepfake",
+        "detection",
+        "embeddings",
+        "modal",
+        "modalities",
+        "modality",
+        "reasoning",
+        "stage"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "The paper addresses a highly significant and timely problem \u2013 deepfake detection \u2013 and proposes a hybrid approach (ConLLM) that attempts to overcome limitations of existing methods. The combination of pre-trained models, contrastive learning, and LLM-based reasoning appears well-motivated. While the abstract doesn't detail the specifics of the LLM integration, the overall framework seems promising and likely to generate interest within the community. The focus on both modality fragmentation and inter-modal reasoning is a strong point.",
+      "paper_id": "c10b6c63f1a3769556020f7e0cc8f9fa"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-01-27T09:57:42.957702"
 }

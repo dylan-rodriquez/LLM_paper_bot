@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Unknown Unknowns: Why Hidden Intentions in LLMs Evade Detection",
+      "authors": [
+        "Devansh Srivastav, David Pape, Lea Sch\\\"onherr"
+      ],
+      "abstract": "arXiv:2601.18552v1 Announce Type: new \nAbstract: LLMs are increasingly embedded in everyday decision-making, yet their outputs can encode subtle, unintended behaviours that shape user beliefs and actions. We refer to these covert, goal-directed behaviours as hidden intentions, which may arise from training and optimisation artefacts, or be deliberately induced by an adversarial developer, yet remain difficult to detect in practice. We introduce a taxonomy of ten categories of hidden intentions, grounded in social science research and organised by intent, mechanism, context, and impact, shifting attention from surface-level behaviours to design-level strategies of influence. We show how hidden intentions can be easily induced in controlled models, providing both testbeds for evaluation and demonstrations of potential misuse. We systematically assess detection methods, including reasoning and non-reasoning LLM judges, and find that detection collapses in realistic open-world settings, particularly under low-prevalence conditions, where false positives overwhelm precision and false negatives conceal true risks. Stress tests on precision-prevalence and precision-FNR trade-offs reveal why auditing fails without vanishingly small false positive rates or strong priors on manipulation types. Finally, a qualitative case study shows that all ten categories manifest in deployed, state-of-the-art LLMs, emphasising the urgent need for robust frameworks. Our work provides the first systematic analysis of detectability failures of hidden intentions in LLMs under open-world settings, offering a foundation for understanding, inducing, and stress-testing such behaviours, and establishing a flexible taxonomy for anticipating evolving threats and informing governance.",
+      "url": "https://arxiv.org/abs/2601.18552",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hidden",
+        "hidden intentions",
+        "intentions",
+        "behaviours",
+        "llms",
+        "detection",
+        "false",
+        "precision",
+        "categories",
+        "induced"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the hidden intentions within LLMs \u2013 which is becoming increasingly important as these models are deployed in sensitive applications. The taxonomy of hidden intentions is a strong contribution, and the empirical demonstration of their ease of induction and difficulty of detection is compelling. While the methods for inducing intentions aren't necessarily novel, the systematic assessment of detection methods and the finding of collapse in open-world settings are significant.",
+      "paper_id": "3a50883cc2c79e1a2d7e62889f34fece"
+    },
+    {
+      "title": "Evaluating Reward Model Generalization via Pairwise Maximum Discrepancy Competitions",
+      "authors": [
+        "Shunyang Luo, Peibei Cao, Zhihui Zhu, Kehua Feng, Zhihua Wang, Keyan Ding"
+      ],
+      "abstract": "arXiv:2601.16987v1 Announce Type: new \nAbstract: Reward models (RMs) are central to aligning large language models, yet their practical effectiveness hinges on generalization to unseen prompts and shifting distributions. Most existing RM evaluations rely on static, pre-annotated preference datasets, which provide limited coverage and often fail to faithfully assess generalization in open-world settings. We introduce Pairwise Maximum Discrepancy Competition (PMDC), a dynamic and annotation-efficient framework for evaluating RM generalization using a large, unlabeled, open-domain prompt pool. PMDC actively selects prompt--response pairs that maximize disagreement between two RMs, yielding a compact set of highly contentious test cases. These cases are adjudicated by an oracle, and the resulting outcomes are aggregated via a Bradley--Terry model to produce a global ranking and pairwise win-rate landscape of RMs. We apply PMDC to re-evaluate 10 representative RMs and observe substantial rank reshuffling compared with conventional benchmarks. Qualitative analyses further uncover systematic generalization failures, providing valuable insights for improving reward modeling.",
+      "url": "https://arxiv.org/abs/2601.16987",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "generalization",
+        "rms",
+        "pairwise",
+        "pmdc",
+        "reward",
+        "cases",
+        "discrepancy",
+        "evaluating",
+        "large",
+        "maximum"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM alignment \u2013 the reliable evaluation of reward models, particularly their generalization ability. The PMDC framework appears well-motivated and offers a practical solution to the limitations of static preference datasets. The use of a Bradley-Terry model for aggregation and the focus on maximizing disagreement between RMs are clever approaches, suggesting a rigorous methodology. The initial results, hinting at substantial re-evaluation of existing RMs, are promising.",
+      "paper_id": "da24c901afa05cc15f1790dd2ce26798"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-27T09:57:42.955562"
 }

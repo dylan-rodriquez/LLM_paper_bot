@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Unknown Unknowns: Why Hidden Intentions in LLMs Evade Detection
+
+**Score:** 92.0 | **Published:** 2026-01-27 | **Authors:** Devansh Srivastav, David Pape, Lea Sch\"onherr
+
+arXiv:2601.18552v1 Announce Type: new 
+Abstract: LLMs are increasingly embedded in everyday decision-making, yet their outputs can encode subtle, unintended behaviours that shape user beliefs and acti...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.18552) | [📝 Analysis](3a50883cc2c79e1a2d7e62889f34fece.md)
+
+---
+
+### Evaluating Reward Model Generalization via Pairwise Maximum Discrepancy Competitions
+
+**Score:** 90.0 | **Published:** 2026-01-27 | **Authors:** Shunyang Luo, Peibei Cao, Zhihui Zhu, Kehua Feng, Zhihua Wang, Keyan Ding
+
+arXiv:2601.16987v1 Announce Type: new 
+Abstract: Reward models (RMs) are central to aligning large language models, yet their practical effectiveness hinges on generalization to unseen prompts and shi...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16987) | [📝 Analysis](da24c901afa05cc15f1790dd2ce26798.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-27 09:57:42 UTC*

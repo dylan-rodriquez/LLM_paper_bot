@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Revealing the Truth with ConLLM for Detecting Multi-Modal Deepfakes
+
+**Score:** 92.0 | **Published:** 2026-01-27 | **Authors:** Gautam Siddharth Kashyap, Harsh Joshi, Niharika Jain, Ebad Shabbir, Jiechao Gao, Nipun Joshi, Usman Naseem
+
+arXiv:2601.17530v1 Announce Type: new 
+Abstract: The rapid rise of deepfake technology poses a severe threat to social and political stability by enabling hyper-realistic synthetic media capable of ma...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.17530) | [📝 Analysis](c10b6c63f1a3769556020f7e0cc8f9fa.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-27 09:57:42 UTC*

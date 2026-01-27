@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Demographic Probing of Large Language Models Lacks Construct Validity",
+      "authors": [
+        "Manuel Tonneau, Neil K. R. Seghal, Niyati Malhotra, Victor Orozco-Olvera, Ana Mar\\'ia Mu\\~noz Boudet, Lakshmi Subramanian, Sharath Chandra Guntuku, Valentin Hofmann"
+      ],
+      "abstract": "arXiv:2601.18486v1 Announce Type: new \nAbstract: Demographic probing is widely used to study how large language models (LLMs) adapt their behavior to signaled demographic attributes. This approach typically uses a single demographic cue in isolation (e.g., a name or dialect) as a signal for group membership, implicitly assuming strong construct validity: that such cues are interchangeable operationalizations of the same underlying, demographically conditioned behavior. We test this assumption in realistic advice-seeking interactions, focusing on race and gender in a U.S. context. We find that cues intended to represent the same demographic group induce only partially overlapping changes in model behavior, while differentiation between groups within a given cue is weak and uneven. Consequently, estimated disparities are unstable, with both magnitude and direction varying across cues. We further show that these inconsistencies partly arise from variation in how strongly cues encode demographic attributes and from linguistic confounders that independently shape model behavior. Together, our findings suggest that demographic probing lacks construct validity: it does not yield a single, stable characterization of how LLMs condition on demographic information, which may reflect a misspecified or fragmented construct. We conclude by recommending the use of multiple, ecologically valid cues and explicit control of confounders to support more defensible claims about demographic effects in LLMs.",
+      "url": "https://arxiv.org/abs/2601.18486",
+      "published_date": "2026-01-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "demographic",
+        "cues",
+        "behavior",
+        "construct",
+        "construct validity",
+        "demographic probing",
+        "llms",
+        "probing",
+        "validity",
+        "attributes"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial issue in LLM fairness research \u2013 the validity of demographic probing as a method. The finding that demographic cues yield inconsistent results and lack construct validity is significant, as it challenges the reliability of current disparity measurements. The methodology appears sound, focusing on realistic interactions, and the results are clearly articulated, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "de6a80492de3e1fea8f057f13ec07ccb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-01-27T09:57:42.958586"
 }

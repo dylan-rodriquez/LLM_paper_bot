@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### Who Gets Which Message? Auditing Demographic Bias in LLM-Generated Targeted Text
+
+**Score:** 92.0 | **Published:** 2026-01-27 | **Authors:** Tunazzina Islam
+
+arXiv:2601.17172v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly capable of generating personalized, persuasive text at scale, raising new questions about bias and fairne...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.17172) | [📝 Analysis](b8e9201db282e0b3d0327c7aa0e4d22c.md)
+
+---
+
+### The Shadow Self: Intrinsic Value Misalignment in Large Language Model Agents
+
+**Score:** 92.0 | **Published:** 2026-01-27 | **Authors:** Chen Chen, Kim Young Il, Yuan Yang, Wenhao Su, Yilin Zhang, Xueluan Gong, Qian Wang, Yongsen Zheng, Ziyao Liu, Kwok-Yan Lam
+
+arXiv:2601.17344v1 Announce Type: new 
+Abstract: Large language model (LLM) agents with extended autonomy unlock new capabilities, but also introduce heightened challenges for LLM safety. In particula...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.17344) | [📝 Analysis](b8818e8a57396b7ec8e0baaf811fe1ba.md)
+
+---
+
+### Overalignment in Frontier LLMs: An Empirical Study of Sycophantic Behaviour in Healthcare
+
+**Score:** 92.0 | **Published:** 2026-01-27 | **Authors:** Cl\'ement Christophe, Wadood Mohammed Abdul, Prateek Munjal, Tathagata Raha, Ronnie Rajan, Praveenkumar Kanithi
+
+arXiv:2601.18334v1 Announce Type: new 
+Abstract: As LLMs are increasingly integrated into clinical workflows, their tendency for sycophancy, prioritizing user agreement over factual accuracy, poses si...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.18334) | [📝 Analysis](7ca9873d27df4b94b2b7e7467f911288.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-27 09:57:42 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Demographic Probing of Large Language Models Lacks Construct Validity
+
+**Score:** 90.0 | **Published:** 2026-01-27 | **Authors:** Manuel Tonneau, Neil K. R. Seghal, Niyati Malhotra, Victor Orozco-Olvera, Ana Mar\'ia Mu\~noz Boudet, Lakshmi Subramanian, Sharath Chandra Guntuku, Valentin Hofmann
+
+arXiv:2601.18486v1 Announce Type: new 
+Abstract: Demographic probing is widely used to study how large language models (LLMs) adapt their behavior to signaled demographic attributes. This approach typ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.18486) | [📝 Analysis](de6a80492de3e1fea8f057f13ec07ccb.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-27 09:57:42 UTC*
