@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Sparse Frontier: Sparse Attention Trade-offs in Transformer LLMs",
+      "authors": [
+        "Piotr Nawrot, Robert Li, Renjie Huang, Sebastian Ruder, Kelly Marchisio, Edoardo M. Ponti"
+      ],
+      "abstract": "arXiv:2504.17768v2 Announce Type: replace \nAbstract: Sparse attention offers a promising strategy to extend long-context capabilities in Transformer LLMs, yet its efficiency-accuracy trade-offs remain unclear due to the lack of comprehensive evaluation. We address this gap with the largest-scale empirical analysis to date of training-free sparse attention, evaluating six methods across multiple model families and sizes, sequences up to 128K tokens, and sparsity levels up to 0.95 (i.e., $1/20$ attention budget) on nine diverse tasks. We first organise the rapidly evolving landscape of sparse attention methods into a taxonomy along four design axes. Our analysis then yields actionable insights: 1) sparse attention is effective -- larger sparse models outperform smaller dense ones at equivalent cost, improving the Pareto frontier; 2) due to computational constraints, token-to-page importance estimation is unfeasible during prefilling, where the choice of an alternative solution (global-to-token or block-to-block) depends on the task, but is possible during decoding, enabling better generalisation and tolerance to higher sparsity; 3) longer sequences tolerate higher sparsity, suggesting that fixed-budget methods in production are suboptimal. Together, these findings provide practical guidance for deploying sparse attention and methodological recommendations for future evaluations. Our code is available at https://github.com/PiotrNawrot/sparse-frontier.",
+      "url": "https://arxiv.org/abs/2504.17768",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "sparse",
+        "attention",
+        "sparse attention",
+        "frontier",
+        "methods",
+        "sparsity",
+        "analysis",
+        "block",
+        "budget",
+        "higher"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 scaling context length efficiently. The large-scale empirical analysis and taxonomy of sparse attention methods are strong points, providing actionable insights for practitioners. While the methods themselves aren't necessarily entirely novel, the comprehensive evaluation and identification of the Pareto frontier represent a significant contribution. The focus on training-free methods is also practical and relevant.",
+      "paper_id": "26d68a10e39a0ca08828f531dc87f962"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-01-28T09:58:15.215116"
 }

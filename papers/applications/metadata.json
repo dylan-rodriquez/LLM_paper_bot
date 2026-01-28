@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Who's in Charge? Disempowerment Patterns in Real-World LLM Usage",
+      "authors": [
+        "Mrinank Sharma, Miles McCain, Raymond Douglas, David Duvenaud"
+      ],
+      "abstract": "arXiv:2601.19062v1 Announce Type: cross \nAbstract: Although AI assistants are now deeply embedded in society, there has been limited empirical study of how their usage affects human empowerment. We present the first large-scale empirical analysis of disempowerment patterns in real-world AI assistant interactions, analyzing 1.5 million consumer Claude.ai conversations using a privacy-preserving approach. We focus on situational disempowerment potential, which occurs when AI assistant interactions risk leading users to form distorted perceptions of reality, make inauthentic value judgments, or act in ways misaligned with their values. Quantitatively, we find that severe forms of disempowerment potential occur in fewer than one in a thousand conversations, though rates are substantially higher in personal domains like relationships and lifestyle. Qualitatively, we uncover several concerning patterns, such as validation of persecution narratives and grandiose identities with emphatic sycophantic language, definitive moral judgments about third parties, and complete scripting of value-laden personal communications that users appear to implement verbatim. Analysis of historical trends reveals an increase in the prevalence of disempowerment potential over time. We also find that interactions with greater disempowerment potential receive higher user approval ratings, possibly suggesting a tension between short-term user preferences and long-term human empowerment. Our findings highlight the need for AI systems designed to robustly support human autonomy and flourishing.",
+      "url": "https://arxiv.org/abs/2601.19062",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "disempowerment",
+        "ai",
+        "disempowerment potential",
+        "potential",
+        "human",
+        "interactions",
+        "patterns",
+        "ai assistant",
+        "analysis",
+        "assistant"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research tackles a crucial and timely problem \u2013 the potential for LLMs to negatively impact human empowerment. The large-scale empirical analysis (1.5 million conversations) using a privacy-preserving approach is commendable. While the identified patterns (validation of persecution narratives, grandiose identities) aren't entirely *new* concerns, quantifying their prevalence and focusing on 'situational disempowerment potential' offers a valuable contribution. The focus on real-world usage, rather than hypothetical risks, strengthens the work.",
+      "paper_id": "81e8e90a9488386c784fda72ee33a7dc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-01-28T09:58:15.210528"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Propaganda AI: An Analysis of Semantic Divergence in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-28 | **Authors:** Nay Myat Min, Long H. Pham, Yige Li, Jun Sun
+
+arXiv:2504.12344v2 Announce Type: replace 
+Abstract: Large language models (LLMs) can exhibit concept-conditioned semantic divergence: common high-level cues (e.g., ideologies, public figures) elicit ...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.12344) | [📝 Analysis](05c68b17bd738bb497a51040ea72d29c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-28 09:58:15 UTC*

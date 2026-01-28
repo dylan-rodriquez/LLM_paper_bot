@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Who's in Charge? Disempowerment Patterns in Real-World LLM Usage
+
+**Score:** 92.0 | **Published:** 2026-01-28 | **Authors:** Mrinank Sharma, Miles McCain, Raymond Douglas, David Duvenaud
+
+arXiv:2601.19062v1 Announce Type: cross 
+Abstract: Although AI assistants are now deeply embedded in society, there has been limited empirical study of how their usage affects human empowerment. We pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19062) | [📝 Analysis](81e8e90a9488386c784fda72ee33a7dc.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-28 09:58:15 UTC*

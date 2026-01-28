@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Large Multimodal Models for Low-Resource Languages: A Survey",
+      "authors": [
+        "Marian Lupascu, Ana-Cristina Rogoz, Mihai Sorin Stupariu, Radu Tudor Ionescu"
+      ],
+      "abstract": "arXiv:2502.05568v3 Announce Type: replace \nAbstract: In this survey, we systematically analyze techniques used to adapt large multimodal models (LMMs) for low-resource (LR) languages, examining approaches ranging from visual enhancement and data creation to cross-modal transfer and fusion strategies. Through a comprehensive analysis of 117 studies across 96 LR languages, we identify key patterns in how researchers tackle the challenges of limited data and computational resources. We categorize works into resource-oriented and method-oriented contributions, further dividing contributions into relevant sub-categories. We compare method-oriented contributions in terms of performance and efficiency, discussing benefits and limitations of representative studies. We find that visual information often serves as a crucial bridge for improving model performance in LR settings, though significant challenges remain in areas such as hallucination mitigation and computational efficiency. In summary, we provide researchers with a clear understanding of current approaches and remaining challenges in making LMMs more accessible to speakers of LR (understudied) languages. We complement our survey with an open-source repository available at: https://github.com/marianlupascu/LMM4LRL-Survey.",
+      "url": "https://arxiv.org/abs/2502.05568",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "languages",
+        "lr",
+        "survey",
+        "challenges",
+        "contributions",
+        "oriented",
+        "resource",
+        "approaches",
+        "computational",
+        "data"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This survey paper addresses a highly significant problem \u2013 adapting large multimodal models to low-resource languages. The comprehensive analysis of 117 studies and 96 languages demonstrates a rigorous approach. While the methods themselves aren't necessarily novel, the systematic categorization and comparison are valuable, and the identification of visual information as a key bridge is insightful. The focus on challenges like hallucination and efficiency further strengthens the work.",
+      "paper_id": "15df95b928dbd7a8444e422579ad3c8e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-01-28T09:58:15.213850"
 }

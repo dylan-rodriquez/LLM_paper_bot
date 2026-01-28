@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Sparse Frontier: Sparse Attention Trade-offs in Transformer LLMs
+
+**Score:** 90.0 | **Published:** 2026-01-28 | **Authors:** Piotr Nawrot, Robert Li, Renjie Huang, Sebastian Ruder, Kelly Marchisio, Edoardo M. Ponti
+
+arXiv:2504.17768v2 Announce Type: replace 
+Abstract: Sparse attention offers a promising strategy to extend long-context capabilities in Transformer LLMs, yet its efficiency-accuracy trade-offs remain...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.17768) | [📝 Analysis](26d68a10e39a0ca08828f531dc87f962.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-28 09:58:15 UTC*

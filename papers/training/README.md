@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### RvB: Automating AI System Hardening via Iterative Red-Blue Games
+
+**Score:** 92.0 | **Published:** 2026-01-28 | **Authors:** Lige Huang, Zicheng Liu, Jie Zhang, Lewen Yan, Dongrui Liu, Jing Shao
+
+arXiv:2601.19726v1 Announce Type: cross 
+Abstract: The dual offensive and defensive utility of Large Language Models (LLMs) highlights a critical gap in AI security: the lack of unified frameworks for...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19726) | [📝 Analysis](bd94907dc864467ce97f0a9558ea4143.md)
+
+---
+
+### Post-LayerNorm Is Back: Stable, ExpressivE, and Deep
+
+**Score:** 90.0 | **Published:** 2026-01-28 | **Authors:** Chen Chen, Lai Wei
+
+arXiv:2601.19895v1 Announce Type: cross 
+Abstract: Large language model (LLM) scaling is hitting a wall. Widening models yields diminishing returns, and extending context length does not improve funda...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19895) | [📝 Analysis](3d598927d14f351c7ce754c64b838440.md)
+
+---
+
+### Rewarding Doubt: A Reinforcement Learning Approach to Calibrated Confidence Expression of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-28 | **Authors:** David Bani-Harouni, Chantal Pellegrini, Paul Stangel, Ege \"Ozsoy, Kamilia Zaripova, Matthias Keicher, Nassir Navab
+
+arXiv:2503.02623v4 Announce Type: replace 
+Abstract: A safe and trustworthy use of Large Language Models (LLMs) requires an accurate expression of confidence in their answers. We propose a novel Reinf...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.02623) | [📝 Analysis](811a552dd8cf5fe08c670f6000e3a0e6.md)
+
+---
+
+### Unsupervised Elicitation of Language Models
+
+**Score:** 90.0 | **Published:** 2026-01-28 | **Authors:** Jiaxin Wen, Zachary Ankner, Arushi Somani, Peter Hase, Samuel Marks, Jacob Goldman-Wetzler, Linda Petrini, Henry Sleight, Collin Burns, He He, Shi Feng, Ethan Perez, Jan Leike
+
+arXiv:2506.10139v2 Announce Type: replace 
+Abstract: To steer pretrained language models for downstream tasks, today's post-training paradigm relies on humans to specify desired behaviors. However, fo...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.10139) | [📝 Analysis](cf90efae93c52fe25033cfdf3ccc96fb.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-28 09:58:15 UTC*

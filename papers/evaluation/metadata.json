@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Malicious Repurposing of Open Science Artefacts by Using Large Language Models",
+      "authors": [
+        "Zahra Hashemi, Zhiqiang Zhong, Jun Pang, Wei Zhao"
+      ],
+      "abstract": "arXiv:2601.18998v1 Announce Type: new \nAbstract: The rapid evolution of large language models (LLMs) has fuelled enthusiasm about their role in advancing scientific discovery, with studies exploring LLMs that autonomously generate and evaluate novel research ideas. However, little attention has been given to the possibility that such models could be exploited to produce harmful research by repurposing open science artefacts for malicious ends. We fill the gap by introducing an end-to-end pipeline that first bypasses LLM safeguards through persuasion-based jailbreaking, then reinterprets NLP papers to identify and repurpose their artefacts (datasets, methods, and tools) by exploiting their vulnerabilities, and finally assesses the safety of these proposals using our evaluation framework across three dimensions: harmfulness, feasibility of misuse, and soundness of technicality. Overall, our findings demonstrate that LLMs can generate harmful proposals by repurposing ethically designed open artefacts; however, we find that LLMs acting as evaluators strongly disagree with one another on evaluation outcomes: GPT-4.1 assigns higher scores (indicating greater potential harms, higher soundness and feasibility of misuse), Gemini-2.5-pro is markedly stricter, and Grok-3 falls between these extremes. This indicates that LLMs cannot yet serve as reliable judges in a malicious evaluation setup, making human evaluation essential for credible dual-use risk assessment.",
+      "url": "https://arxiv.org/abs/2601.18998",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "artefacts",
+        "evaluation",
+        "malicious",
+        "models",
+        "open",
+        "repurposing",
+        "end",
+        "feasibility",
+        "feasibility misuse"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critically important and timely issue \u2013 the potential for malicious misuse of LLMs in scientific contexts. The pipeline for bypassing safeguards, repurposing artifacts, and evaluating harm is a strong methodological contribution. While the 'persuasion-based jailbreaking' aspect isn't entirely novel, applying it specifically to scientific repurposing is a significant step, and the evaluation framework adds further value. The work is well-scoped and clearly articulated, suggesting a high likelihood of positive reception.",
+      "paper_id": "7f79c700f62bfb50716f3f22caf4e283"
+    },
+    {
+      "title": "When Benchmarks Leak: Inference-Time Decontamination for LLMs",
+      "authors": [
+        "Jianzhe Chai, Yu Zhe, Jun Sakuma"
+      ],
+      "abstract": "arXiv:2601.19334v1 Announce Type: new \nAbstract: Benchmark-based evaluation is the de facto standard for comparing large language models (LLMs). However, its reliability is increasingly threatened by test set contamination, where test samples or their close variants leak into training data and artificially inflate reported performance. To address this issue, prior work has explored two main lines of mitigation. One line attempts to identify and remove contaminated benchmark items before evaluation, but this inevitably alters the evaluation set itself and becomes unreliable when contamination is moderate or severe. The other line preserves the benchmark and instead suppresses contaminated behavior at evaluation time; however, such interventions often interfere with normal inference and lead to noticeable performance degradation on clean inputs. We propose DeconIEP, a decontamination framework that operates entirely during evaluation by applying small, bounded perturbations in the input embedding space. Guided by a relatively less-contaminated reference model, DeconIEP learns an instance-adaptive perturbation generator that steers the evaluated model away from memorization-driven shortcut pathways. Across multiple open-weight LLMs and benchmarks, extensive empirical results show that DeconIEP achieves strong decontamination effectiveness while incurring only minimal degradation in benign utility.",
+      "url": "https://arxiv.org/abs/2601.19334",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "benchmark",
+        "contaminated",
+        "deconiep",
+        "decontamination",
+        "llms",
+        "benchmarks",
+        "contamination",
+        "degradation",
+        "inference"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a critical issue in LLM evaluation \u2013 benchmark contamination \u2013 which is increasingly impacting the reliability of reported results. The proposed DeconIEP framework offers a promising approach by focusing on evaluation-time decontamination, attempting to avoid the pitfalls of pre-filtering or intrusive inference suppression. The abstract suggests a well-defined problem and a thoughtful solution, indicating a high-quality and impactful contribution to the field.",
+      "paper_id": "26bcdb04fd2e551f906a025fd4de96a4"
+    },
+    {
+      "title": "Benchmarks Saturate When The Model Gets Smarter Than The Judge",
+      "authors": [
+        "Marthe Ballon, Andres Algaba, Brecht Verbeken, Vincent Ginis"
+      ],
+      "abstract": "arXiv:2601.19532v1 Announce Type: cross \nAbstract: Benchmarks are important tools to track progress in the development of Large Language Models (LLMs), yet inaccuracies in datasets and evaluation methods consistently undermine their effectiveness. Here, we present Omni-MATH-2, a manually revised version of the Omni-MATH dataset comprising a clean, exact-answer subset ($n{=}4181$) and a tagged, non-standard subset ($n{=}247$). Each problem was audited to ensure LaTeX compilability, solvability and verifiability, which involved adding missing figures or information, labeling problems requiring a proof, estimation or image, and removing clutter. This process significantly reduces dataset-induced noise, thereby providing a more precise assessment of model performance. The annotated dataset also allows us to evaluate judge-induced noise by comparing GPT-5 mini with the original Omni-Judge, revealing substantial discrepancies between judges on both the clean and tagged problem subsets. Expert annotations reveal that Omni-Judge is wrong in $96.4\\%$ of the judge disagreements, indicating its inability to differentiate between models' abilities, even well before saturation of the benchmark occurs. As problems become more challenging, we find that increasingly competent judges become essential in order to prevent judge errors from masking genuine differences between models. Finally, neither judge identifies the present failure modes for the subset of tagged problems, demonstrating that dataset quality and judge reliability are both critical to develop accurate benchmarks of model performance.",
+      "url": "https://arxiv.org/abs/2601.19532",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "judge",
+        "dataset",
+        "omni",
+        "benchmarks",
+        "model",
+        "models",
+        "problems",
+        "subset",
+        "tagged",
+        "clean"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in LLM evaluation \u2013 benchmark saturation due to models exceeding judge capabilities. The creation of Omni-MATH-2, with its rigorous auditing and distinction between clean and tagged problems, is a strong methodological contribution. The comparison of GPT-5 mini with the original Omni-Judge highlights the critical problem of judge-induced noise, suggesting current benchmarks may be misleading.",
+      "paper_id": "41ff1c547bc0ec747576ea357c7af8db"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-28T09:58:15.209458"
 }

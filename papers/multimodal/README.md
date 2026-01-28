@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Large Multimodal Models for Low-Resource Languages: A Survey
+
+**Score:** 90.0 | **Published:** 2026-01-28 | **Authors:** Marian Lupascu, Ana-Cristina Rogoz, Mihai Sorin Stupariu, Radu Tudor Ionescu
+
+arXiv:2502.05568v3 Announce Type: replace 
+Abstract: In this survey, we systematically analyze techniques used to adapt large multimodal models (LMMs) for low-resource (LR) languages, examining approa...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.05568) | [📝 Analysis](15df95b928dbd7a8444e422579ad3c8e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-28 09:58:15 UTC*

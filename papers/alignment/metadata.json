@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Propaganda AI: An Analysis of Semantic Divergence in Large Language Models",
+      "authors": [
+        "Nay Myat Min, Long H. Pham, Yige Li, Jun Sun"
+      ],
+      "abstract": "arXiv:2504.12344v2 Announce Type: replace \nAbstract: Large language models (LLMs) can exhibit concept-conditioned semantic divergence: common high-level cues (e.g., ideologies, public figures) elicit unusually uniform, stance-like responses that evade token-trigger audits. This behavior falls in a blind spot of current safety evaluations, yet carries major societal stakes, as such concept cues can steer content exposure at scale. We formalize this phenomenon and present RAVEN (Response Anomaly Vigilance), a black-box audit that flags cases where a model is simultaneously highly certain and atypical among peers by coupling semantic entropy over paraphrastic samples with cross-model disagreement. In a controlled LoRA fine-tuning study, we implant a concept-conditioned stance using a small biased corpus, demonstrating feasibility without rare token triggers. Auditing five LLM families across twelve sensitive topics (360 prompts per model) and clustering via bidirectional entailment, RAVEN surfaces recurrent, model-specific divergences in 9/12 topics. Concept-level audits complement token-level defenses and provide a practical early-warning signal for release evaluation and post-deployment monitoring against propaganda-like influence.",
+      "url": "https://arxiv.org/abs/2504.12344",
+      "published_date": "2026-01-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "concept",
+        "model",
+        "level",
+        "semantic",
+        "token",
+        "audits",
+        "concept conditioned",
+        "conditioned",
+        "cues",
+        "divergence"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the potential for LLMs to be subtly steered towards propagating biased or propagandistic viewpoints. The RAVEN audit method appears novel and well-motivated, combining semantic entropy and cross-model disagreement. The controlled LoRA fine-tuning experiment provides strong evidence of the phenomenon and the audit's effectiveness, suggesting a high likelihood of positive reception within the AI safety community.",
+      "paper_id": "05c68b17bd738bb497a51040ea72d29c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-28T09:58:15.214538"
 }
