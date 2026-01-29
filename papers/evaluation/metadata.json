@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "HEART: A Unified Benchmark for Assessing Humans and LLMs in Emotional Support Dialogue",
+      "authors": [
+        "Laya Iyer, Kriti Aggarwal, Sanmi Koyejo, Gail Heyman, Desmond C. Ong, Subhabrata Mukherjee"
+      ],
+      "abstract": "arXiv:2601.19922v1 Announce Type: new \nAbstract: Supportive conversation depends on skills that go beyond language fluency, including reading emotions, adjusting tone, and navigating moments of resistance, frustration, or distress. Despite rapid progress in language models, we still lack a clear way to understand how their abilities in these interpersonal domains compare to those of humans. We introduce HEART, the first-ever framework that directly compares humans and LLMs on the same multi-turn emotional-support conversations. For each dialogue history, we pair human and model responses and evaluate them through blinded human raters and an ensemble of LLM-as-judge evaluators. All assessments follow a rubric grounded in interpersonal communication science across five dimensions: Human Alignment, Empathic Responsiveness, Attunement, Resonance, and Task-Following. HEART uncovers striking behavioral patterns. Several frontier models approach or surpass the average human responses in perceived empathy and consistency. At the same time, humans maintain advantages in adaptive reframing, tension-naming, and nuanced tone shifts, particularly in adversarial turns. Human and LLM-as-judge preferences align on about 80 percent of pairwise comparisons, matching inter-human agreement, and their written rationales emphasize similar HEART dimensions. This pattern suggests an emerging convergence in the criteria used to assess supportive quality. By placing humans and models on equal footing, HEART reframes supportive dialogue as a distinct capability axis, separable from general reasoning or linguistic fluency. It provides a unified empirical foundation for understanding where model-generated support aligns with human social judgment, where it diverges, and how affective conversational competence scales with model size.",
+      "url": "https://arxiv.org/abs/2601.19922",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "human",
+        "heart",
+        "humans",
+        "dialogue",
+        "model",
+        "models",
+        "support",
+        "supportive",
+        "dimensions",
+        "emotional"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in evaluating LLMs \u2013 their ability to provide *emotional* support, going beyond simple language proficiency. The introduction of the HEART benchmark, with its focus on human-LLM comparison using blinded raters and LLM-as-judge evaluations, is a strong methodological contribution. The rubric grounded in interpersonal communication science adds further rigor, and the initial findings suggesting models approaching human performance are noteworthy. The high sentiment score reflects the current research trend towards evaluating LLMs on more nuanced, human-centric capabilities.",
+      "paper_id": "242f1b4caf7117fc05b782c80e6f2277"
+    },
+    {
+      "title": "DABench-LLM: Standardized and In-Depth Benchmarking of Post-Moore Dataflow AI Accelerators for LLMs",
+      "authors": [
+        "Ziyu Hu, Zhiqing Zhong, Weijian Zheng, Zhijing Ye, Xuwei Tan, Xueru Zhang, Zheng Xie, Rajkumar Kettimuthu, Xiaodong Yu"
+      ],
+      "abstract": "arXiv:2601.19904v1 Announce Type: cross \nAbstract: The exponential growth of large language models has outpaced the capabilities of traditional CPU and GPU architectures due to the slowdown of Moore's Law. Dataflow AI accelerators present a promising alternative; however, there remains a lack of in-depth performance analysis and standardized benchmarking methodologies for LLM training. We introduce DABench-LLM, the first benchmarking framework designed for evaluating LLM workloads on dataflow-based accelerators. By combining intra-chip performance profiling and inter-chip scalability analysis, DABench-LLM enables comprehensive evaluation across key metrics such as resource allocation, load balance, and resource efficiency. The framework helps researchers rapidly gain insights into underlying hardware and system behaviors, and provides guidance for performance optimizations. We validate DABench-LLM on three commodity dataflow accelerators, Cerebras WSE-2, SambaNova RDU, and Graphcore IPU. Our framework reveals performance bottlenecks and provides specific optimization strategies, demonstrating its generality and effectiveness across a diverse range of dataflow-based AI hardware platforms.",
+      "url": "https://arxiv.org/abs/2601.19904",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "dataflow",
+        "accelerators",
+        "dabench",
+        "dabench llm",
+        "performance",
+        "ai",
+        "benchmarking",
+        "framework",
+        "ai accelerators"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the need for better benchmarking of dataflow accelerators for LLMs, given the limitations of traditional architectures. The introduction of DABench-LLM appears to be a significant step towards standardized evaluation, offering both intra-chip and inter-chip analysis. The validation on three prominent accelerators suggests a practical approach, and the focus on resource allocation and load balance is crucial for optimization. The work is well-positioned to be well-received by the community.",
+      "paper_id": "12ff58ad6105f94f1f522215a185d01c"
+    },
+    {
+      "title": "Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction",
+      "authors": [
+        "Tianyi Alex Qiu, Micah Carroll, Cameron Allen"
+      ],
+      "abstract": "arXiv:2601.20299v1 Announce Type: cross \nAbstract: The evaluation and post-training of large language models (LLMs) rely on supervision, but strong supervision for difficult tasks is often unavailable, especially when evaluating frontier models. In such cases, models are demonstrated to exploit evaluations built on such imperfect supervision, leading to deceptive results. However, underutilized in LLM research, a wealth of mechanism design research focuses on game-theoretic incentive compatibility, i.e., eliciting honest and informative answers with weak supervision. Drawing from this literature, we introduce the peer prediction method for model evaluation and post-training. It rewards honest and informative answers over deceptive and uninformative ones, using a metric based on mutual predictability and without requiring ground truth labels. We demonstrate the method's effectiveness and resistance to deception, with both theoretical guarantees and empirical validation on models with up to 405B parameters. We show that training an 8B model with peer prediction-based reward recovers most of the drop in truthfulness due to prior malicious finetuning, even when the reward is produced by a 0.135B language model with no finetuning. On the evaluation front, in contrast to LLM-as-a-Judge which requires strong and trusted judges, we discover an inverse scaling property in peer prediction, where, surprisingly, resistance to deception is strengthened as the capability gap between the experts and participants widens, enabling reliable evaluation of strong models with weak supervision. In particular, LLM-as-a-Judge become worse than random guess when facing deceptive models 5-20x the judge's size, while peer prediction thrives when such gaps are large, including in cases with over 100x size difference.",
+      "url": "https://arxiv.org/abs/2601.20299",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "models",
+        "supervision",
+        "peer",
+        "peer prediction",
+        "prediction",
+        "evaluation",
+        "training",
+        "deceptive",
+        "judge",
+        "llm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM research: reliable evaluation in the face of deceptive models. Leveraging game theory and peer prediction is a clever and promising approach, offering a potential solution to the limitations of current supervised evaluation methods. The mention of theoretical guarantees and empirical validation strengthens the work, suggesting a rigorous methodology and potential for real-world application.",
+      "paper_id": "b784d6e0acaeb3662ca5b97e8b0e33f9"
+    },
+    {
+      "title": "An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases",
+      "authors": [
+        "Dylan Bouchard"
+      ],
+      "abstract": "arXiv:2407.10853v4 Announce Type: replace \nAbstract: Bias and fairness risks in Large Language Models (LLMs) vary substantially across deployment contexts, yet existing approaches lack systematic guidance for selecting appropriate evaluation metrics. We present a decision framework that maps LLM use cases, characterized by a model and population of prompts, to relevant bias and fairness metrics based on task type, whether prompts contain protected attribute mentions, and stakeholder priorities. Our framework addresses toxicity, stereotyping, counterfactual unfairness, and allocational harms, and introduces novel metrics based on stereotype classifiers and counterfactual adaptations of text similarity measures. All metrics require only LLM outputs for computation, simplifying implementation while avoiding embedding-based approaches that often correlate poorly with downstream harms. We provide an open-source Python library, LangFair, for practical adoption. Extensive experiments demonstrate that fairness risks cannot be reliably assessed from benchmark performance alone: results on one prompt dataset likely overstate or understate risks for another, underscoring that fairness evaluation must be grounded in the specific deployment context.",
+      "url": "https://arxiv.org/abs/2407.10853",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "fairness",
+        "metrics",
+        "based",
+        "bias",
+        "bias fairness",
+        "framework",
+        "risks",
+        "approaches",
+        "cases",
+        "counterfactual"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem in LLM deployment \u2013 bias and fairness. The framework approach, mapping use cases to appropriate metrics, is a practical and valuable contribution. The development of a Python library (LangFair) further enhances its usability and potential impact, and the avoidance of embedding-based approaches is a smart design choice. The abstract suggests rigorous experimentation, bolstering confidence in the work.",
+      "paper_id": "975b4a456abc0540c75727a09afa585a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-01-29T09:55:08.953445"
 }

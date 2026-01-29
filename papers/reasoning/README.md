@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### VERGE: Formal Refinement and Guidance Engine for Verifiable LLM Reasoning
+
+**Score:** 92.0 | **Published:** 2026-01-29 | **Authors:** Vikash Singh, Darion Cassel, Nathaniel Weir, Nick Feng, Sam Bayless
+
+arXiv:2601.20055v1 Announce Type: new 
+Abstract: Despite the syntactic fluency of Large Language Models (LLMs), ensuring their logical correctness in high-stakes domains remains a fundamental challeng...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.20055) | [📝 Analysis](6bce7a1a4efe0feadc4b8e51816d3977.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-29 09:55:08 UTC*

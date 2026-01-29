@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures",
+      "authors": [
+        "Yi Hu, Jiaqi Gu, Ruxin Wang, Zijun Yao, Hao Peng, Xiaobao Wu, Jianhui Chen, Muhan Zhang, Liangming Pan"
+      ],
+      "abstract": "arXiv:2601.19928v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has catalyzed the emergence of Large Reasoning Models (LRMs) that have pushed reasoning capabilities to new heights. While their performance has garnered significant excitement, exploring the internal mechanisms driving these behaviors has become an equally critical research frontier. This paper provides a comprehensive survey of the mechanistic understanding of LRMs, organizing recent findings into three core dimensions: 1) training dynamics, 2) reasoning mechanisms, and 3) unintended behaviors. By synthesizing these insights, we aim to bridge the gap between black-box performance and mechanistic transparency. Finally, we discuss under-explored challenges to outline a roadmap for future mechanistic studies, including the need for applied interpretability, improved methodologies, and a unified theoretical framework.",
+      "url": "https://arxiv.org/abs/2601.19928",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "mechanistic",
+        "reasoning",
+        "behaviors",
+        "large",
+        "large reasoning",
+        "lrms",
+        "mechanisms",
+        "mechanistic understanding",
+        "models",
+        "new"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly significant and timely problem \u2013 understanding the inner workings of Large Reasoning Models. The organization into training, mechanisms, and failures is logical and provides a strong framework for analysis. While a survey isn't inherently innovative, synthesizing current research and outlining future challenges is valuable, and the focus on 'mechanistic transparency' is crucial for responsible AI development. The high significance and positive framing suggest a strong community reception.",
+      "paper_id": "eed5d9c5e5ff5e9169f166826f41d4ef"
+    },
+    {
+      "title": "On the Effectiveness of LLM-Specific Fine-Tuning for Detecting AI-Generated Text",
+      "authors": [
+        "Micha{\\l} Gromadzki, Anna Wr\\'oblewska, Agnieszka Kaliska"
+      ],
+      "abstract": "arXiv:2601.20006v1 Announce Type: new \nAbstract: The rapid progress of large language models has enabled the generation of text that closely resembles human writing, creating challenges for authenticity verification in education, publishing, and digital security. Detecting AI-generated text has therefore become a crucial technical and ethical issue. This paper presents a comprehensive study of AI-generated text detection based on large-scale corpora and novel training strategies. We introduce a 1-billion-token corpus of human-authored texts spanning multiple genres and a 1.9-billion-token corpus of AI-generated texts produced by prompting a variety of LLMs across diverse domains. Using these resources, we develop and evaluate numerous detection models and propose two novel training paradigms: Per LLM and Per LLM family fine-tuning. Across a 100-million-token benchmark covering 21 large language models, our best fine-tuned detector achieves up to $99.6\\%$ token-level accuracy, substantially outperforming existing open-source baselines.",
+      "url": "https://arxiv.org/abs/2601.20006",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "ai generated",
+        "generated",
+        "text",
+        "token",
+        "fine",
+        "generated text",
+        "large",
+        "llm",
+        "models"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and pressing issue \u2013 detecting AI-generated text \u2013 with a rigorous approach involving large-scale corpora and novel fine-tuning strategies. The reported 99.6% accuracy is impressive, suggesting a strong methodology. The focus on 'Per LLM' and 'Per LLM family' fine-tuning represents a thoughtful approach to address the evolving landscape of LLMs, and the scale of the datasets used is commendable.",
+      "paper_id": "ebf196e2207b6302842ccedfa2f54731"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-01-29T09:55:08.955180"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Reward Models Inherit Value Biases from Pretraining
+
+**Score:** 90.0 | **Published:** 2026-01-29 | **Authors:** Brian Christian, Jessica A. F. Thompson, Elle Michelle Yang, Vincent Adam, Hannah Rose Kirk, Christopher Summerfield, Tsvetomira Dumbalska
+
+arXiv:2601.20838v1 Announce Type: cross 
+Abstract: Reward models (RMs) are central to aligning large language models (LLMs) with human values but have received less attention than pre-trained and post...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.20838) | [📝 Analysis](d65d33a594a7959c25b586b9a0416f18.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-29 09:55:08 UTC*

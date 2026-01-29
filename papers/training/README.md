@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures
+
+**Score:** 92.0 | **Published:** 2026-01-29 | **Authors:** Yi Hu, Jiaqi Gu, Ruxin Wang, Zijun Yao, Hao Peng, Xiaobao Wu, Jianhui Chen, Muhan Zhang, Liangming Pan
+
+arXiv:2601.19928v1 Announce Type: new 
+Abstract: Reinforcement learning (RL) has catalyzed the emergence of Large Reasoning Models (LRMs) that have pushed reasoning capabilities to new heights. While ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19928) | [📝 Analysis](eed5d9c5e5ff5e9169f166826f41d4ef.md)
+
+---
+
+### On the Effectiveness of LLM-Specific Fine-Tuning for Detecting AI-Generated Text
+
+**Score:** 92.0 | **Published:** 2026-01-29 | **Authors:** Micha{\l} Gromadzki, Anna Wr\'oblewska, Agnieszka Kaliska
+
+arXiv:2601.20006v1 Announce Type: new 
+Abstract: The rapid progress of large language models has enabled the generation of text that closely resembles human writing, creating challenges for authentici...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.20006) | [📝 Analysis](ebf196e2207b6302842ccedfa2f54731.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-29 09:55:08 UTC*

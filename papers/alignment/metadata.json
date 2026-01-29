@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Reward Models Inherit Value Biases from Pretraining",
+      "authors": [
+        "Brian Christian, Jessica A. F. Thompson, Elle Michelle Yang, Vincent Adam, Hannah Rose Kirk, Christopher Summerfield, Tsvetomira Dumbalska"
+      ],
+      "abstract": "arXiv:2601.20838v1 Announce Type: cross \nAbstract: Reward models (RMs) are central to aligning large language models (LLMs) with human values but have received less attention than pre-trained and post-trained LLMs themselves. Because RMs are initialized from LLMs, they inherit representations that shape their behavior, but the nature and extent of this influence remain understudied. In a comprehensive study of 10 leading open-weight RMs using validated psycholinguistic corpora, we show that RMs exhibit significant differences along multiple dimensions of human value as a function of their base model. Using the \"Big Two\" psychological axes, we show a robust preference of Llama RMs for \"agency\" and a corresponding robust preference of Gemma RMs for \"communion.\" This phenomenon holds even when the preference data and finetuning process are identical, and we trace it back to the logits of the respective instruction-tuned and pre-trained models. These log-probability differences themselves can be formulated as an implicit RM; we derive usable implicit reward scores and show that they exhibit the very same agency/communion difference. We run experiments training RMs with ablations for preference data source and quantity, which demonstrate that this effect is not only repeatable but surprisingly durable. Despite RMs being designed to represent human preferences, our evidence shows that their outputs are influenced by the pretrained LLMs on which they are based. This work underscores the importance of safety and alignment efforts at the pretraining stage, and makes clear that open-source developers' choice of base model is as much a consideration of values as of performance.",
+      "url": "https://arxiv.org/abs/2601.20838",
+      "published_date": "2026-01-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "rms",
+        "llms",
+        "models",
+        "preference",
+        "human",
+        "reward",
+        "trained",
+        "agency",
+        "base",
+        "base model"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a crucial and often overlooked aspect of LLM alignment \u2013 the inherent biases in reward models stemming from their pre-trained base models. The use of validated psycholinguistic corpora and the identification of 'agency' vs. 'communion' preferences linked to Llama and Gemma models are strong findings. The methodology appears rigorous, and the potential for mitigating these biases is significant, making it likely to be well-received by the community.",
+      "paper_id": "d65d33a594a7959c25b586b9a0416f18"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-29T09:55:08.958270"
 }

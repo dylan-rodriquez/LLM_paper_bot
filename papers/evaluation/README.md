@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### HEART: A Unified Benchmark for Assessing Humans and LLMs in Emotional Support Dialogue
+
+**Score:** 92.0 | **Published:** 2026-01-29 | **Authors:** Laya Iyer, Kriti Aggarwal, Sanmi Koyejo, Gail Heyman, Desmond C. Ong, Subhabrata Mukherjee
+
+arXiv:2601.19922v1 Announce Type: new 
+Abstract: Supportive conversation depends on skills that go beyond language fluency, including reading emotions, adjusting tone, and navigating moments of resist...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19922) | [📝 Analysis](242f1b4caf7117fc05b782c80e6f2277.md)
+
+---
+
+### DABench-LLM: Standardized and In-Depth Benchmarking of Post-Moore Dataflow AI Accelerators for LLMs
+
+**Score:** 92.0 | **Published:** 2026-01-29 | **Authors:** Ziyu Hu, Zhiqing Zhong, Weijian Zheng, Zhijing Ye, Xuwei Tan, Xueru Zhang, Zheng Xie, Rajkumar Kettimuthu, Xiaodong Yu
+
+arXiv:2601.19904v1 Announce Type: cross 
+Abstract: The exponential growth of large language models has outpaced the capabilities of traditional CPU and GPU architectures due to the slowdown of Moore's...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.19904) | [📝 Analysis](12ff58ad6105f94f1f522215a185d01c.md)
+
+---
+
+### Truthfulness Despite Weak Supervision: Evaluating and Training LLMs Using Peer Prediction
+
+**Score:** 90.0 | **Published:** 2026-01-29 | **Authors:** Tianyi Alex Qiu, Micah Carroll, Cameron Allen
+
+arXiv:2601.20299v1 Announce Type: cross 
+Abstract: The evaluation and post-training of large language models (LLMs) rely on supervision, but strong supervision for difficult tasks is often unavailable...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.20299) | [📝 Analysis](b784d6e0acaeb3662ca5b97e8b0e33f9.md)
+
+---
+
+### An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases
+
+**Score:** 90.0 | **Published:** 2026-01-29 | **Authors:** Dylan Bouchard
+
+arXiv:2407.10853v4 Announce Type: replace 
+Abstract: Bias and fairness risks in Large Language Models (LLMs) vary substantially across deployment contexts, yet existing approaches lack systematic guid...
+
+[📄 Full Paper](https://arxiv.org/abs/2407.10853) | [📝 Analysis](975b4a456abc0540c75727a09afa585a.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-29 09:55:08 UTC*
