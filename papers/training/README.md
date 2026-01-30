@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Learn-to-Distance: Distance Learning for Detecting LLM-Generated Text
+
+**Score:** 92.0 | **Published:** 2026-01-30 | **Authors:** Hongyi Zhou, Jin Zhu, Erhan Xu, Kai Ye, Ying Yang, Chengchun Shi
+
+arXiv:2601.21895v1 Announce Type: new 
+Abstract: Modern large language models (LLMs) such as GPT, Claude, and Gemini have transformed the way we learn, work, and communicate. Yet, their ability to pro...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21895) | [📝 Analysis](5aa2bfb97d818685a796537c187d19fe.md)
+
+---
+
+### SONIC: Segmented Optimized Nexus for Information Compression in Key-Value Caching
+
+**Score:** 90.0 | **Published:** 2026-01-30 | **Authors:** Hong Chen, Xiang Liu, Bo Wang, Yuxuan Fan, Yuanlin Chu, Zongluo Li, Xiaowen Chu, Xuming Hu
+
+arXiv:2601.21927v1 Announce Type: new 
+Abstract: The linear growth of Key-Value (KV) cache remains a bottleneck for multi-turn LLM deployment. Existing KV cache compression methods often fail to accou...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21927) | [📝 Analysis](017c53bc0aa060be5713cec263ada506.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-30 09:57:18 UTC*

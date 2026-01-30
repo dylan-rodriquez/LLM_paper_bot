@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "RAG-E: Quantifying Retriever-Generator Alignment and Failure Modes",
+      "authors": [
+        "Korbinian Randl, Guido Rocchietti, Aron Henriksson, Ziawasch Abedjan, Tony Lindgren, John Pavlopoulos"
+      ],
+      "abstract": "arXiv:2601.21803v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) systems combine dense retrievers and language models to ground LLM outputs in retrieved documents. However, the opacity of how these components interact creates challenges for deployment in high-stakes domains. We present RAG-E, an end-to-end explainability framework that quantifies retriever-generator alignment through mathematically grounded attribution methods. Our approach adapts Integrated Gradients for retriever analysis, introduces PMCSHAP, a Monte Carlo-stabilized Shapley Value approximation, for generator attribution, and introduces the Weighted Attribution-Relevance Gap (WARG) metric to measure how well a generator's document usage aligns with a retriever's ranking. Empirical analysis on TREC CAsT and FoodSafeSum reveals critical misalignments: for 47.4% to 66.7% of queries, generators ignore the retriever's top-ranked documents, while 48.1% to 65.9% rely on documents ranked as less relevant. These failure modes demonstrate that RAG output quality depends not solely on individual component performance but on their interplay, which can be audited via RAG-E.",
+      "url": "https://arxiv.org/abs/2601.21803",
+      "published_date": "2026-01-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "rag",
+        "retriever",
+        "generator",
+        "attribution",
+        "documents",
+        "alignment",
+        "analysis",
+        "end",
+        "failure",
+        "failure modes"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in RAG systems \u2013 the misalignment between retriever and generator \u2013 with a novel explainability framework. The adaptation of Integrated Gradients and introduction of PMCSHAP demonstrate methodological rigor, and the WARG metric provides a quantifiable measure of alignment. The reported misalignment rates (47.4%-66.7%) are significant and highlight a real-world challenge for RAG deployment, particularly in sensitive applications.",
+      "paper_id": "a1c941e640d5a6d9c1eebd261ff0c23b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-01-30T09:57:18.725734"
 }
