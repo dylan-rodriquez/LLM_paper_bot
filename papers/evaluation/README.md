@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Compliance Paradox: Semantic-Instruction Decoupling in Automated Academic Code Evaluation
+
+**Score:** 92.0 | **Published:** 2026-01-31 | **Authors:** Devanshu Sahoo, Manish Prasad, Vasudev Majhi, Arjun Neekhra, Yash Sinha, Murari Mandal, Vinay Chamola, Dhruv Kumar
+
+arXiv:2601.21360v1 Announce Type: new 
+Abstract: The rapid integration of Large Language Models (LLMs) into educational assessment rests on the unverified assumption that instruction following capabil...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21360) | [📝 Analysis](f3869bb7c9ced44313e18f317c1f822b.md)
+
+---
+
+### FIT: Defying Catastrophic Forgetting in Continual LLM Unlearning
+
+**Score:** 92.0 | **Published:** 2026-01-31 | **Authors:** Xiaoyu Xu, Minxin Du, Kun Fang, Zi Liang, Yaxin Xiao, Zhicong Huang, Cheng Hong, Qingqing Ye, Haibo Hu
+
+arXiv:2601.21682v1 Announce Type: new 
+Abstract: Large language models (LLMs) demonstrate impressive capabilities across diverse tasks but raise concerns about privacy, copyright, and harmful material...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21682) | [📝 Analysis](958de622aa71adda66179018ab7c76b4.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-31 09:48:52 UTC*

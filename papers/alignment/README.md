@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### SHARP: Social Harm Analysis via Risk Profiles for Measuring Inequities in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-01-31 | **Authors:** Alok Abhishek, Tushar Bandopadhyay, Lisa Erickson
+
+arXiv:2601.21235v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in high-stakes domains, where rare but severe failures can result in irreversible harm. However,...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21235) | [📝 Analysis](a650abfdfa2831a7fcaa289a208ac168.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-31 09:48:52 UTC*

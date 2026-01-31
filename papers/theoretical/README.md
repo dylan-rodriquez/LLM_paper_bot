@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### RAG-E: Quantifying Retriever-Generator Alignment and Failure Modes
+
+**Score:** 90.0 | **Published:** 2026-01-31 | **Authors:** Korbinian Randl, Guido Rocchietti, Aron Henriksson, Ziawasch Abedjan, Tony Lindgren, John Pavlopoulos
+
+arXiv:2601.21803v1 Announce Type: new 
+Abstract: Retrieval-Augmented Generation (RAG) systems combine dense retrievers and language models to ground LLM outputs in retrieved documents. However, the op...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21803) | [📝 Analysis](a1c941e640d5a6d9c1eebd261ff0c23b.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-01-31 09:48:52 UTC*

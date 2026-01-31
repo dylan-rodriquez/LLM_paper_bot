@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Models Naively Recover Ethnicity from Individual Records
+
+**Score:** 92.0 | **Published:** 2026-01-31 | **Authors:** Noah Dasanaike
+
+arXiv:2601.21132v1 Announce Type: new 
+Abstract: I demonstrate that large language models can infer ethnicity from names with accuracy exceeding that of Bayesian Improved Surname Geocoding (BISG) with...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.21132) | [📝 Analysis](f66910f1ed7c38210cd72a6d21d4cab7.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-01-31 09:48:52 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SHARP: Social Harm Analysis via Risk Profiles for Measuring Inequities in Large Language Models",
+      "authors": [
+        "Alok Abhishek, Tushar Bandopadhyay, Lisa Erickson"
+      ],
+      "abstract": "arXiv:2601.21235v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in high-stakes domains, where rare but severe failures can result in irreversible harm. However, prevailing evaluation benchmarks often reduce complex social risk to mean-centered scalar scores, thereby obscuring distributional structure, cross-dimensional interactions, and worst-case behavior. This paper introduces Social Harm Analysis via Risk Profiles (SHARP), a framework for multidimensional, distribution-aware evaluation of social harm. SHARP models harm as a multivariate random variable and integrates explicit decomposition into bias, fairness, ethics, and epistemic reliability with a union-of-failures aggregation reparameterized as additive cumulative log-risk. The framework further employs risk-sensitive distributional statistics, with Conditional Value at Risk (CVaR95) as a primary metric, to characterize worst-case model behavior. Application of SHARP to eleven frontier LLMs, evaluated on a fixed corpus of n=901 socially sensitive prompts, reveals that models with similar average risk can exhibit more than twofold differences in tail exposure and volatility. Across models, dimension-wise marginal tail behavior varies systematically across harm dimensions, with bias exhibiting the strongest tail severities, epistemic and fairness risks occupying intermediate regimes, and ethical misalignment consistently lower; together, these patterns reveal heterogeneous, model-dependent failure structures that scalar benchmarks conflate. These findings indicate that responsible evaluation and governance of LLMs require moving beyond scalar averages toward multidimensional, tail-sensitive risk profiling.",
+      "url": "https://arxiv.org/abs/2601.21235",
+      "published_date": "2026-01-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "risk",
+        "harm",
+        "models",
+        "sharp",
+        "social",
+        "tail",
+        "behavior",
+        "evaluation",
+        "llms",
+        "scalar"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the oversimplification of social harm. The proposed SHARP framework, with its multidimensional, distribution-aware approach and focus on worst-case scenarios (CVaR95), appears well-reasoned and potentially impactful. While the specific implementation details aren't available from the abstract, the conceptual framework is strong and tackles a very relevant problem in the field.",
+      "paper_id": "a650abfdfa2831a7fcaa289a208ac168"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-01-31T09:48:52.618981"
 }
