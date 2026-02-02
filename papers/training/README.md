@@ -2,7 +2,62 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (57 total)
+
+### FNF: Functional Network Fingerprint for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Yiheng Liu, Junhao Ning, Sichen Xia, Haiyang Sun, Yang Yang, Hanyang Chi, Xiaohui Gao, Ning Qiang, Bao Ge, Junwei Han, Xintao Hu
+
+arXiv:2601.22692v1 Announce Type: new 
+Abstract: The development of large language models (LLMs) is costly and has significant commercial value. Consequently, preventing unauthorized appropriation of ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22692) | [📝 Analysis](0f94503a0cd6fa87161d52dde2be7d0a.md)
+
+---
+
+### Character as a Latent Variable in Large Language Models: A Mechanistic Account of Emergent Misalignment and Conditional Safety Failures
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Yanghao Su, Wenbo Zhou, Tianwei Zhang, Qiu Han, Weiming Zhang, Nenghai Yu, Jie Zhang
+
+arXiv:2601.23081v1 Announce Type: new 
+Abstract: Emergent Misalignment refers to a failure mode in which fine-tuning large language models (LLMs) on narrowly scoped data induces broadly misaligned beh...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.23081) | [📝 Analysis](0e37bcd1b0cc470292ca446d6e2084e2.md)
+
+---
+
+### A Systematic Literature Review on LLM Defenses Against Prompt Injection and Jailbreaking: Expanding NIST Taxonomy
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Pedro H. Barcha Correia, Ryan W. Achjian, Diego E. G. Caetano de Oliveira, Ygor Acacio Maria, Victor Takashi Hayashi, Marcos Lopes, Charles Christian Miers, Marcos A. Simplicio Jr
+
+arXiv:2601.22240v1 Announce Type: cross 
+Abstract: The rapid advancement and widespread adoption of generative artificial intelligence (GenAI) and large language models (LLMs) has been accompanied by ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22240) | [📝 Analysis](e8eef3fc8f0f567a5f447b788266fe1b.md)
+
+---
+
+### AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Jaehee Kim, Pilsung Kang
+
+arXiv:2601.22710v1 Announce Type: cross 
+Abstract: Modern LLMs are increasingly accessed via black-box APIs, requiring users to transmit sensitive prompts, outputs, and fine-tuning data to external pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22710) | [📝 Analysis](733e616a42faf019bf39c2fd46749efd.md)
+
+---
+
+### Eroding the Truth-Default: A Causal Analysis of Human Susceptibility to Foundation Model Hallucinations and Disinformation in the Wild
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Alexander Loth, Martin Kappes, Marc-Oliver Pahl
+
+arXiv:2601.22871v1 Announce Type: cross 
+Abstract: As foundation models (FMs) approach human-level fluency, distinguishing synthetic from organic content has become a key challenge for Trustworthy Web...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22871) | [📝 Analysis](df6fa3f185dc90f7b5f68616af79b7a4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +632,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-02 10:03:01 UTC*

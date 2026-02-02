@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Towards Resiliency in Large Language Model Serving with KevlarFlow
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Shangshu Qian, Kipling Liu, P. C. Sruthi, Lin Tan, Yongle Zhang
+
+arXiv:2601.22438v1 Announce Type: cross 
+Abstract: Large Language Model (LLM) serving systems remain fundamentally fragile, where frequent hardware faults in hyperscale clusters trigger disproportiona...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22438) | [📝 Analysis](08733df60210b38b4345968d56aadac9.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-02 10:03:01 UTC*

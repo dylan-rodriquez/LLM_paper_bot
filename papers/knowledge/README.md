@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### MoVE: Mixture of Value Embeddings -- A New Axis for Scaling Parametric Memory in Autoregressive Models
+
+**Score:** 90.0 | **Published:** 2026-02-02 | **Authors:** Yangyan Li
+
+arXiv:2601.22887v1 Announce Type: cross 
+Abstract: Autoregressive sequence modeling stands as the cornerstone of modern Generative AI, powering results across diverse modalities ranging from text gene...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.22887) | [📝 Analysis](ddcf25c0cee571e1b8c452c4cf155a15.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-02 10:03:01 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-02 | **Authors:** Ye Yu, Haibo Jin, Yaoning Yu, Jun Zhuang, Haohan Wang
+
+arXiv:2601.23255v1 Announce Type: new 
+Abstract: Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, educ...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.23255) | [📝 Analysis](b72744ed6ac97c8aa43a87b393c8c15e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-02 10:03:01 UTC*

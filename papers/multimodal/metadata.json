@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models",
+      "authors": [
+        "Ye Yu, Haibo Jin, Yaoning Yu, Jun Zhuang, Haohan Wang"
+      ],
+      "abstract": "arXiv:2601.23255v1 Announce Type: new \nAbstract: Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, education, and clinical triage. This transition, however, introduces a distinct class of vulnerabilities that remain largely uncharacterized. We examine the security implications of this modality shift by designing a text-to-audio jailbreak that embeds disallowed directives within a narrative-style audio stream. The attack leverages an advanced instruction-following text-to-speech (TTS) model to exploit structural and acoustic properties, thereby circumventing safety mechanisms primarily calibrated for text. When delivered through synthetic speech, the narrative format elicits restricted outputs from state-of-the-art models, including Gemini 2.0 Flash, achieving a 98.26% success rate that substantially exceeds text-only baselines. These results highlight the need for safety frameworks that jointly reason over linguistic and paralinguistic representations, particularly as speech-based interfaces become more prevalent.",
+      "url": "https://arxiv.org/abs/2601.23255",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "audio",
+        "speech",
+        "text",
+        "models",
+        "narrative",
+        "audio language",
+        "language",
+        "language models",
+        "large",
+        "large audio"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a critical and emerging security vulnerability in large audio-language models, demonstrating a highly effective attack method. The 98.26% success rate is particularly compelling and highlights a significant gap in current safety mechanisms. While the core idea of exploiting TTS for jailbreaking isn't entirely novel, the narrative-style approach and its effectiveness against models like Gemini 2.0 are strong contributions. The work is well-focused and clearly presented, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "b72744ed6ac97c8aa43a87b393c8c15e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-02-02T10:03:01.395171"
 }

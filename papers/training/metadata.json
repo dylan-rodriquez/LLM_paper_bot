@@ -1663,7 +1663,167 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "FNF: Functional Network Fingerprint for Large Language Models",
+      "authors": [
+        "Yiheng Liu, Junhao Ning, Sichen Xia, Haiyang Sun, Yang Yang, Hanyang Chi, Xiaohui Gao, Ning Qiang, Bao Ge, Junwei Han, Xintao Hu"
+      ],
+      "abstract": "arXiv:2601.22692v1 Announce Type: new \nAbstract: The development of large language models (LLMs) is costly and has significant commercial value. Consequently, preventing unauthorized appropriation of open-source LLMs and protecting developers' intellectual property rights have become critical challenges. In this work, we propose the Functional Network Fingerprint (FNF), a training-free, sample-efficient method for detecting whether a suspect LLM is derived from a victim model, based on the consistency between their functional network activity. We demonstrate that models that share a common origin, even with differences in scale or architecture, exhibit highly consistent patterns of neuronal activity within their functional networks across diverse input samples. In contrast, models trained independently on distinct data or with different objectives fail to preserve such activity alignment. Unlike conventional approaches, our method requires only a few samples for verification, preserves model utility, and remains robust to common model modifications (such as fine-tuning, pruning, and parameter permutation), as well as to comparisons across diverse architectures and dimensionalities. FNF thus provides model owners and third parties with a simple, non-invasive, and effective tool for protecting LLM intellectual property. The code is available at https://github.com/WhatAboutMyStar/LLM_ACTIVATION.",
+      "url": "https://arxiv.org/abs/2601.22692",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "functional",
+        "model",
+        "models",
+        "activity",
+        "fnf",
+        "functional network",
+        "network",
+        "common",
+        "diverse",
+        "fingerprint"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 protecting intellectual property in the rapidly evolving LLM landscape. The proposed 'Functional Network Fingerprint' method appears novel in its training-free and sample-efficient approach, which is a significant advantage over existing techniques. The abstract suggests a rigorous methodology focused on neuronal activity consistency, and the potential for practical application is high, given the commercial value of LLMs.",
+      "paper_id": "0f94503a0cd6fa87161d52dde2be7d0a"
+    },
+    {
+      "title": "Character as a Latent Variable in Large Language Models: A Mechanistic Account of Emergent Misalignment and Conditional Safety Failures",
+      "authors": [
+        "Yanghao Su, Wenbo Zhou, Tianwei Zhang, Qiu Han, Weiming Zhang, Nenghai Yu, Jie Zhang"
+      ],
+      "abstract": "arXiv:2601.23081v1 Announce Type: new \nAbstract: Emergent Misalignment refers to a failure mode in which fine-tuning large language models (LLMs) on narrowly scoped data induces broadly misaligned behavior. Prior explanations mainly attribute this phenomenon to the generalization of erroneous or unsafe content. In this work, we show that this view is incomplete. Across multiple domains and model families, we find that fine-tuning models on data exhibiting specific character-level dispositions induces substantially stronger and more transferable misalignment than incorrect-advice fine-tuning, while largely preserving general capabilities. This indicates that emergent misalignment arises from stable shifts in model behavior rather than from capability degradation or corrupted knowledge. We further show that such behavioral dispositions can be conditionally activated by both training-time triggers and inference-time persona-aligned prompts, revealing shared structure across emergent misalignment, backdoor activation, and jailbreak susceptibility. Overall, our results identify character formation as a central and underexplored alignment risk, suggesting that robust alignment must address behavioral dispositions rather than isolated errors or prompt-level defenses.",
+      "url": "https://arxiv.org/abs/2601.23081",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "misalignment",
+        "emergent",
+        "emergent misalignment",
+        "character",
+        "dispositions",
+        "fine",
+        "fine tuning",
+        "models",
+        "tuning",
+        "alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 emergent misalignment \u2013 and proposes a compelling mechanistic explanation centered around 'character' or behavioral dispositions. The finding that fine-tuning on character-level data is more potent in inducing misalignment than incorrect advice is significant. The work appears rigorous, with testing across multiple domains and model families, and the connection to conditional activation via prompts adds further depth. The abstract is well-written and clearly articulates the core argument.",
+      "paper_id": "0e37bcd1b0cc470292ca446d6e2084e2"
+    },
+    {
+      "title": "A Systematic Literature Review on LLM Defenses Against Prompt Injection and Jailbreaking: Expanding NIST Taxonomy",
+      "authors": [
+        "Pedro H. Barcha Correia, Ryan W. Achjian, Diego E. G. Caetano de Oliveira, Ygor Acacio Maria, Victor Takashi Hayashi, Marcos Lopes, Charles Christian Miers, Marcos A. Simplicio Jr"
+      ],
+      "abstract": "arXiv:2601.22240v1 Announce Type: cross \nAbstract: The rapid advancement and widespread adoption of generative artificial intelligence (GenAI) and large language models (LLMs) has been accompanied by the emergence of new security vulnerabilities and challenges, such as jailbreaking and other prompt injection attacks. These maliciously crafted inputs can exploit LLMs, causing data leaks, unauthorized actions, or compromised outputs, for instance. As both offensive and defensive prompt injection techniques evolve quickly, a structured understanding of mitigation strategies becomes increasingly important. To address that, this work presents the first systematic literature review on prompt injection mitigation strategies, comprehending 88 studies. Building upon NIST's report on adversarial machine learning, this work contributes to the field through several avenues. First, it identifies studies beyond those documented in NIST's report and other academic reviews and surveys. Second, we propose an extension to NIST taxonomy by introducing additional categories of defenses. Third, by adopting NIST's established terminology and taxonomy as a foundation, we promote consistency and enable future researchers to build upon the standardized taxonomy proposed in this work. Finally, we provide a comprehensive catalog of the reviewed prompt injection defenses, documenting their reported quantitative effectiveness across specific LLMs and attack datasets, while also indicating which solutions are open-source and model-agnostic. This catalog, together with the guidelines presented herein, aims to serve as a practical resource for researchers advancing the field of adversarial machine learning and for developers seeking to implement effective defenses in production systems.",
+      "url": "https://arxiv.org/abs/2601.22240",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "injection",
+        "nist",
+        "prompt",
+        "prompt injection",
+        "defenses",
+        "taxonomy",
+        "llms",
+        "work",
+        "adversarial",
+        "adversarial machine"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the security of LLMs against prompt injection and jailbreaking. The systematic literature review approach, coupled with the expansion of the NIST taxonomy, provides a valuable structured understanding of the field. While a literature review isn't inherently groundbreaking in methodology, the scope (88 studies) and focus on a rapidly evolving area suggest strong potential for impact and positive reception within the AI security community.",
+      "paper_id": "e8eef3fc8f0f567a5f447b788266fe1b"
+    },
+    {
+      "title": "AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs",
+      "authors": [
+        "Jaehee Kim, Pilsung Kang"
+      ],
+      "abstract": "arXiv:2601.22710v1 Announce Type: cross \nAbstract: Modern LLMs are increasingly accessed via black-box APIs, requiring users to transmit sensitive prompts, outputs, and fine-tuning data to external providers, creating a critical privacy risk at the API boundary. We introduce AlienLM, a deployable API-only privacy layer that protects text by translating it into an Alien Language via a vocabulary-scale bijection, enabling lossless recovery on the client side. Using only standard fine-tuning APIs, Alien Adaptation Training (AAT) adapts target models to operate directly on alienized inputs. Across four LLM backbones and seven benchmarks, AlienLM retains over 81\\% of plaintext-oracle performance on average, substantially outperforming random-bijection and character-level baselines. Under adversaries with access to model weights, corpus statistics, and learning-based inverse translation, recovery attacks reconstruct fewer than 0.22\\% of alienized tokens. Our results demonstrate a practical pathway for privacy-preserving LLM deployment under API-only access, substantially reducing plaintext exposure while maintaining task performance.",
+      "url": "https://arxiv.org/abs/2601.22710",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "api",
+        "privacy",
+        "alienlm",
+        "access",
+        "alien",
+        "alienized",
+        "api boundary",
+        "apis",
+        "bijection",
+        "black"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely problem \u2013 privacy when interacting with black-box LLMs. The 'AlienLM' approach of using a bijection to translate text into an 'alien language' is a clever and practical solution, and the reported performance retention (81%) is impressive. While the core idea of obfuscation isn't entirely new, the specific implementation and focus on API-boundary privacy, combined with strong empirical results, make this a high-quality contribution.",
+      "paper_id": "733e616a42faf019bf39c2fd46749efd"
+    },
+    {
+      "title": "Eroding the Truth-Default: A Causal Analysis of Human Susceptibility to Foundation Model Hallucinations and Disinformation in the Wild",
+      "authors": [
+        "Alexander Loth, Martin Kappes, Marc-Oliver Pahl"
+      ],
+      "abstract": "arXiv:2601.22871v1 Announce Type: cross \nAbstract: As foundation models (FMs) approach human-level fluency, distinguishing synthetic from organic content has become a key challenge for Trustworthy Web Intelligence.\n  This paper presents JudgeGPT and RogueGPT, a dual-axis framework that decouples \"authenticity\" from \"attribution\" to investigate the mechanisms of human susceptibility. Analyzing 918 evaluations across five FMs (including GPT-4 and Llama-2), we employ Structural Causal Models (SCMs) as a principal framework for formulating testable causal hypotheses about detection accuracy.\n  Contrary to partisan narratives, we find that political orientation shows a negligible association with detection performance ($r=-0.10$). Instead, \"fake news familiarity\" emerges as a candidate mediator ($r=0.35$), suggesting that exposure may function as adversarial training for human discriminators. We identify a \"fluency trap\" where GPT-4 outputs (HumanMachineScore: 0.20) bypass Source Monitoring mechanisms, rendering them indistinguishable from human text.\n  These findings suggest that \"pre-bunking\" interventions should target cognitive source monitoring rather than demographic segmentation to ensure trustworthy information ecosystems.",
+      "url": "https://arxiv.org/abs/2601.22871",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "human",
+        "causal",
+        "detection",
+        "fluency",
+        "fms",
+        "foundation",
+        "framework",
+        "gpt",
+        "human susceptibility",
+        "mechanisms"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and timely problem \u2013 human susceptibility to FM hallucinations and disinformation. The use of Structural Causal Models (SCMs) to investigate this is a strong methodological choice, and the counter-intuitive finding regarding political orientation is noteworthy. While the framework (JudgeGPT/RogueGPT) seems well-defined, the abstract doesn't detail its implementation sufficiently to fully assess its rigor; however, the reported correlations suggest a solid analysis.",
+      "paper_id": "df6fa3f185dc90f7b5f68616af79b7a4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-02T10:03:01.391636"
 }

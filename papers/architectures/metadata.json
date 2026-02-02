@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Towards Resiliency in Large Language Model Serving with KevlarFlow",
+      "authors": [
+        "Shangshu Qian, Kipling Liu, P. C. Sruthi, Lin Tan, Yongle Zhang"
+      ],
+      "abstract": "arXiv:2601.22438v1 Announce Type: cross \nAbstract: Large Language Model (LLM) serving systems remain fundamentally fragile, where frequent hardware faults in hyperscale clusters trigger disproportionate service outages in the software stack. Current recovery mechanisms are prohibitively slow, often requiring up to 10 minutes to reinitialize resources and reload massive model weights. We introduce KevlarFlow, a fault tolerant serving architecture designed to bridge the gap between hardware unreliability and service availability. KevlarFlow leverages 1) decoupled model parallelism initialization, 2) dynamic traffic rerouting, and 3) background KV cache replication to maintain high throughput during partial failures. Our evaluation demonstrates that KevlarFlow reduces mean-time-to-recovery (MTTR) by 20x and, under failure conditions, improves average latency by 3.1x, 99th percentile (p99) latency by 2.8x, average time-to-first-token (TTFT) by 378.9x, and p99 TTFT by 574.6x with negligible runtime overhead in comparison to state-of-the-art LLM serving systems.",
+      "url": "https://arxiv.org/abs/2601.22438",
+      "published_date": "2026-02-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.DC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "kevlarflow",
+        "model",
+        "serving",
+        "average",
+        "hardware",
+        "language",
+        "language model",
+        "large",
+        "large language",
+        "latency"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical problem in LLM deployment \u2013 the fragility of serving systems and slow recovery times. The reported improvements in MTTR, latency, and TTFT are substantial, suggesting a well-designed and effective solution. The combination of decoupled initialization, dynamic rerouting, and KV cache replication appears to be a novel and practical approach to enhancing LLM serving resilience. The high performance gains indicate a strong potential for real-world impact.",
+      "paper_id": "08733df60210b38b4345968d56aadac9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-02T10:03:01.396209"
 }
