@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Culturally-Grounded Governance for Multilingual Language Models: Rights, Data Boundaries, and Accountable AI Design
+
+**Score:** 92.0 | **Published:** 2026-02-03 | **Authors:** Hanjing Shi, Dominic DiFranzo
+
+arXiv:2602.00497v1 Announce Type: new 
+Abstract: Multilingual large language models (MLLMs) are increasingly deployed across cultural, linguistic, and political contexts, yet existing governance frame...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.00497) | [📝 Analysis](f43185005a5ad8fc95652510481b71a4.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-03 10:06:14 UTC*

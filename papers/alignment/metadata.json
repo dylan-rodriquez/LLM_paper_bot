@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Culturally-Grounded Governance for Multilingual Language Models: Rights, Data Boundaries, and Accountable AI Design",
+      "authors": [
+        "Hanjing Shi, Dominic DiFranzo"
+      ],
+      "abstract": "arXiv:2602.00497v1 Announce Type: new \nAbstract: Multilingual large language models (MLLMs) are increasingly deployed across cultural, linguistic, and political contexts, yet existing governance frameworks largely assume English-centric data, homogeneous user populations, and abstract notions of fairness. This creates systematic risks for low-resource languages and culturally marginalized communities, where data practices, model behavior, and accountability mechanisms often fail to align with local norms, rights, and expectations. Drawing on cross-cultural perspectives in human-centered computing and AI governance, this paper synthesizes existing evidence on multilingual model behavior, data asymmetries, and sociotechnical harm, and articulates a culturally grounded governance framework for MLLMs. We identify three interrelated governance challenges: cultural and linguistic inequities in training data and evaluation practices, misalignment between global deployment and locally situated norms, values, and power structures, and limited accountability mechanisms for addressing harms experienced by marginalized language communities. Rather than proposing new technical benchmarks, we contribute a conceptual agenda that reframes multilingual AI governance as a sociocultural and rights based problem. We outline design and policy implications for data stewardship, transparency, and participatory accountability, and argue that culturally grounded governance is essential for ensuring that multilingual language models do not reproduce existing global inequalities under the guise of scale and neutrality.",
+      "url": "https://arxiv.org/abs/2602.00497",
+      "published_date": "2026-02-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "governance",
+        "data",
+        "multilingual",
+        "culturally",
+        "language",
+        "accountability",
+        "ai",
+        "cultural",
+        "culturally grounded",
+        "existing"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and often overlooked issue in the LLM space \u2013 the cultural biases and inequities inherent in multilingual models. The focus on culturally-grounded governance is timely and important, and the synthesis of existing evidence suggests a rigorous approach. While the abstract doesn't detail *how* the framework is built, the identified challenges are well-articulated, indicating a strong potential for impactful research.",
+      "paper_id": "f43185005a5ad8fc95652510481b71a4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-03T10:06:14.504814"
 }

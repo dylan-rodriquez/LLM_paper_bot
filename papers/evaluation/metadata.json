@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "EverMemBench: Benchmarking Long-Term Interactive Memory in Large Language ModelsEverMemBench: Benchmarking Long-Term Interactive Memory in Large Language Models",
+      "authors": [
+        "Chuanrui Hu, Tong Li, Xingze Gao, Hongda Chen, Dannong Xu, Yi Bai, Tianwei Lin, Xinda Zhao, Xiaohong Li, Jiaqi An, Yunyun Han, Jian Pei, Yafeng Deng"
+      ],
+      "abstract": "arXiv:2602.01313v1 Announce Type: new \nAbstract: Long-term conversational memory is essential for LLM-based assistants, yet existing benchmarks focus on dyadic, single-topic dialogues that fail to capture real-world complexity. We introduce EverMemBench, a benchmark featuring multi-party, multi-group conversations spanning over 1 million tokens with temporally evolving information, cross-topic interleaving, and role-specific personas. EverMemBench evaluates memory systems across three dimensions through 1,000+ QA pairs: fine-grained recall, memory awareness, and user profile understanding. Our evaluation reveals critical limitations: (1) multi-hop reasoning collapses in multi-party settings, with even oracle models achieving only 26%; (2) temporal reasoning remains unsolved, requiring version semantics beyond timestamp matching; (3) memory awareness is bottlenecked by retrieval, where current similarity-based methods fail to bridge the semantic gap between queries and implicitly relevant memories. EverMemBench provides a challenging testbed for developing next-generation memory architectures.",
+      "url": "https://arxiv.org/abs/2602.01313",
+      "published_date": "2026-02-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "memory",
+        "evermembench",
+        "multi",
+        "long",
+        "long term",
+        "term",
+        "awareness",
+        "based",
+        "benchmarking",
+        "benchmarking long"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial limitation in current LLM evaluation \u2013 the lack of realistic, long-term conversational benchmarks. The introduction of EverMemBench, with its multi-party, multi-topic, and temporally evolving conversations, is a significant step forward. The identified limitations of existing models (multi-hop reasoning, temporal reasoning, retrieval bottlenecks) highlight important research directions and suggest the benchmark will be valuable for the community.",
+      "paper_id": "b0a539c666186e8304ea962853cd1592"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-03T10:06:14.505442"
 }

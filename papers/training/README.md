@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Detecting AI-Generated Content in Academic Peer Reviews
+
+**Score:** 92.0 | **Published:** 2026-02-03 | **Authors:** Siyuan Shen, Kai Wang
+
+arXiv:2602.00319v1 Announce Type: new 
+Abstract: The growing availability of large language models (LLMs) has raised questions about their role in academic peer review. This study examines the tempora...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.00319) | [📝 Analysis](50cd29c6c2c2fc22a7f5220d203507f4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-03 10:06:14 UTC*
