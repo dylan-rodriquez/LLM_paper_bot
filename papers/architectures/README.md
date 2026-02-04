@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Predicting first-episode homelessness among US Veterans using longitudinal EHR data: time-varying models and social risk factors
+
+**Score:** 92.0 | **Published:** 2026-02-04 | **Authors:** Rohan Pandey, Haijuan Yan, Hong Yu, Jack Tsai
+
+arXiv:2602.02731v1 Announce Type: new 
+Abstract: Homelessness among US veterans remains a critical public health challenge, yet risk prediction offers a pathway for proactive intervention. In this ret...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.02731) | [📝 Analysis](6b03d13b862e25af93577b4e38091579.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-04 10:00:09 UTC*

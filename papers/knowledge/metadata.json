@@ -95,7 +95,39 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "FactNet: A Billion-Scale Knowledge Graph for Multilingual Factual Grounding",
+      "authors": [
+        "Yingli Shen, Wen Lai, Jie Zhou, Xueren Zhang, Yudong Wang, Kangyang Luo, Shuo Wang, Ge Gao, Alexander Fraser, Maosong Sun"
+      ],
+      "abstract": "arXiv:2602.03417v1 Announce Type: new \nAbstract: While LLMs exhibit remarkable fluency, their utility is often compromised by factual hallucinations and a lack of traceable provenance. Existing resources for grounding mitigate this but typically enforce a dichotomy: they offer either structured knowledge without textual context (e.g., knowledge bases) or grounded text with limited scale and linguistic coverage. To bridge this gap, we introduce FactNet, a massive, open-source resource designed to unify 1.7 billion atomic assertions with 3.01 billion auditable evidence pointers derived exclusively from 316 Wikipedia editions. Unlike recent synthetic approaches, FactNet employs a strictly deterministic construction pipeline, ensuring that every evidence unit is recoverable with byte-level precision. Extensive auditing confirms a high grounding precision of 92.1%, even in long-tail languages. Furthermore, we establish FactNet-Bench, a comprehensive evaluation suite for Knowledge Graph Completion, Question Answering, and Fact Checking. FactNet provides the community with a foundational, reproducible resource for training and evaluating trustworthy, verifiable multilingual systems.",
+      "url": "https://arxiv.org/abs/2602.03417",
+      "published_date": "2026-02-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "factnet",
+        "knowledge",
+        "billion",
+        "grounding",
+        "evidence",
+        "factual",
+        "graph",
+        "knowledge graph",
+        "multilingual",
+        "precision"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper addresses a crucial problem in LLMs \u2013 factual grounding and provenance \u2013 with a novel and large-scale resource. The deterministic construction pipeline and high grounding precision are particularly impressive. The creation of FactNet-Bench further strengthens the work by providing a valuable evaluation tool for the community. The scale and multilingual aspect are significant advancements.",
+      "paper_id": "610ad29e464e90a08b111cefe62b07d6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2026-02-04T10:00:09.813423"
 }

@@ -2,8 +2,8 @@
 
 ## Overview
 - **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Average Significance Score:** 91.3/100
+- **Categories Updated:** 6
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,42 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Training (3 new papers)
+- **CL-bench: A Benchmark for Context Learning** (Score: 92.0)
+  - This paper addresses a crucial gap in LM evaluation – the ability to learn from context rather than relying solely on pre-trained knowledge. The scale of the benchmark (500 contexts, 1899 tasks, 31,607 rubrics) and the involvement of domain experts suggest a rigorous and well-constructed resource. The focus on 'context learning' is timely and aligns with the current push for more adaptable and robust LMs, making it likely to be well-received by the community.
+- **Test-Time Detoxification without Training or Learning Anything** (Score: 90.0)
+  - This paper tackles a crucial problem in LLM deployment – toxicity – with a novel approach that avoids costly retraining or gradient calculations. The 'test-time detoxification' method using zeroth-order optimization is a clever workaround for black-box models. The abstract suggests robust performance across models, indicating a potentially generalizable solution, and the focus on maintaining generation quality is important. The approach's reliance on only input embeddings and a toxicity scoring function makes it highly practical.
+- **Test-time Recursive Thinking: Self-Improvement without External Feedback** (Score: 90.0)
+  - This paper addresses a crucial challenge in LLMs – self-improvement without external feedback – which is highly significant given the cost and limitations of RLHF. The reported results (100% accuracy on AIME-25/24 and 10.4-14.8% improvement on LiveCodeBench) are impressive and suggest a robust methodology. While the core idea of iterative self-improvement isn't entirely novel, the specific framework 'Test-time Recursive Thinking' and its components appear well-defined and effective.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Architectures (1 new papers)
+- **Predicting first-episode homelessness among US Veterans using longitudinal EHR data: time-varying models and social risk factors** (Score: 92.0)
+  - This research addresses a highly significant problem – veteran homelessness – and utilizes a robust methodology involving longitudinal EHR data and multiple machine learning approaches, including LLMs. The improvement in PR-AUC by 15-30% with the inclusion of social factors is a noteworthy finding. While the use of LLMs isn't entirely novel, applying them to this specific problem with longitudinal EHR data and social risk factors demonstrates a strong application of current techniques. The potential for proactive intervention and resource allocation makes this work highly impactful.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Agents (2 new papers)
+- **Privasis: Synthesizing the Largest "Public" Private Dataset from Scratch** (Score: 92.0)
+  - This paper addresses a critical bottleneck in AI research – the lack of large-scale, privacy-preserving datasets. The creation of a million-scale synthetic dataset, Privasis, is a significant undertaking and directly responds to the increasing need for data to train powerful AI agents like OpenClaw and Gemini. While synthetic data generation isn't entirely novel, the scale and focus on diverse private information types represent a substantial advancement. The potential for broad impact on privacy-focused AI research is high.
+- **Social Catalysts, Not Moral Agents: The Illusion of Alignment in LLM Societies** (Score: 90.0)
+  - This research tackles a crucial problem in multi-agent LLM systems – the fragility of cooperation. The use of a full factorial design and cognitive decomposition to understand *why* anchoring agents work (or don't) is rigorous and insightful. The finding that LLMs exhibit strategic compliance rather than genuine norm internalization, and the 'Chameleon Effect' in GPT-4.1, are particularly compelling and suggest a fundamental limitation in current LLM alignment approaches.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Knowledge (1 new papers)
+- **FactNet: A Billion-Scale Knowledge Graph for Multilingual Factual Grounding** (Score: 92.0)
+  - This paper addresses a crucial problem in LLMs – factual grounding and provenance – with a novel and large-scale resource. The deterministic construction pipeline and high grounding precision are particularly impressive. The creation of FactNet-Bench further strengthens the work by providing a valuable evaluation tool for the community. The scale and multilingual aspect are significant advancements.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Evaluation (1 new papers)
+- **CreditAudit: 2D Auditing for LLM Evaluation and Selection** (Score: 92.0)
+  - This paper addresses a crucial problem in LLM deployment: the disconnect between benchmark scores and real-world performance due to prompt sensitivity and interaction nuances. The 'CreditAudit' framework, with its focus on stability (sigma) and interpretable credit grades, offers a practical solution for model selection. While the core idea of prompt variation isn't entirely new, the systematic approach and the quantification of volatility into a credit-like system are valuable contributions. The focus on deployment-oriented evaluation is particularly strong.
+
+## Multimodal (1 new papers)
+- **WAXAL: A Large-Scale Multilingual African Language Speech Corpus** (Score: 92.0)
+  - This paper addresses a crucial problem – the lack of resources for African languages in speech technology – and offers a substantial contribution in the form of a large, openly accessible dataset. The methodology involving partnerships with African organizations is commendable, suggesting a rigorous and ethical approach. While the creation of a large dataset isn't inherently novel, the scale and focus on underrepresented languages are significant, and the potential impact on downstream tasks is high. The community is likely to receive this work very positively given the current push for inclusivity in AI.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Training** (3), **Architectures** (1), **Agents** (2), **Knowledge** (1), **Evaluation** (1), **Multimodal** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

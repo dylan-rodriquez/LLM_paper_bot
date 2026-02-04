@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### CreditAudit: 2D Auditing for LLM Evaluation and Selection
+
+**Score:** 92.0 | **Published:** 2026-02-04 | **Authors:** Yiliang Song, Hongjun An, Jiangong Xiao, Haofei Zhao, Jiawei Shao, Xuelong Li
+
+arXiv:2602.02515v1 Announce Type: cross 
+Abstract: Leaderboard scores on public benchmarks have been steadily rising and converging, with many frontier language models now separated by only marginal d...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.02515) | [📝 Analysis](58641a9dbb4d12ad7a8ec4c1fb25a46d.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-04 10:00:09 UTC*

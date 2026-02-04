@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CreditAudit: 2D Auditing for LLM Evaluation and Selection",
+      "authors": [
+        "Yiliang Song, Hongjun An, Jiangong Xiao, Haofei Zhao, Jiawei Shao, Xuelong Li"
+      ],
+      "abstract": "arXiv:2602.02515v1 Announce Type: cross \nAbstract: Leaderboard scores on public benchmarks have been steadily rising and converging, with many frontier language models now separated by only marginal differences. However, these scores often fail to match users' day to day experience, because system prompts, output protocols, and interaction modes evolve under routine iteration, and in agentic multi step pipelines small protocol shifts can trigger disproportionate failures, leaving practitioners uncertain about which model to deploy. We propose CreditAudit, a deployment oriented credit audit framework that evaluates models under a family of semantically aligned and non adversarial system prompt templates across multiple benchmarks, reporting mean ability as average performance across scenarios and scenario induced fluctuation sigma as a stability risk signal, and further mapping volatility into interpretable credit grades from AAA to BBB via cross model quantiles with diagnostics that mitigate template difficulty drift. Controlled experiments on GPQA, TruthfulQA, and MMLU Pro show that models with similar mean ability can exhibit substantially different fluctuation, and stability risk can overturn prioritization decisions in agentic or high failure cost regimes. By providing a 2D and grade based language for regime specific selection, CreditAudit supports tiered deployment and more disciplined allocation of testing and monitoring effort, enabling more objective and trustworthy model evaluation for real world use.",
+      "url": "https://arxiv.org/abs/2602.02515",
+      "published_date": "2026-02-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "creditaudit",
+        "model",
+        "models",
+        "2d",
+        "ability",
+        "agentic",
+        "benchmarks",
+        "credit",
+        "cross",
+        "day"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM deployment: the disconnect between benchmark scores and real-world performance due to prompt sensitivity and interaction nuances. The 'CreditAudit' framework, with its focus on stability (sigma) and interpretable credit grades, offers a practical solution for model selection. While the core idea of prompt variation isn't entirely new, the systematic approach and the quantification of volatility into a credit-like system are valuable contributions. The focus on deployment-oriented evaluation is particularly strong.",
+      "paper_id": "58641a9dbb4d12ad7a8ec4c1fb25a46d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-04T10:00:09.814088"
 }

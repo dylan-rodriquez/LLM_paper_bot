@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Predicting first-episode homelessness among US Veterans using longitudinal EHR data: time-varying models and social risk factors",
+      "authors": [
+        "Rohan Pandey, Haijuan Yan, Hong Yu, Jack Tsai"
+      ],
+      "abstract": "arXiv:2602.02731v1 Announce Type: new \nAbstract: Homelessness among US veterans remains a critical public health challenge, yet risk prediction offers a pathway for proactive intervention. In this retrospective prognostic study, we analyzed electronic health record (EHR) data from 4,276,403 Veterans Affairs patients during a 2016 observation period to predict first-episode homelessness occurring 3-12 months later in 2017 (prevalence: 0.32-1.19%). We constructed static and time-varying EHR representations, utilizing clinician-informed logic to model the persistence of clinical conditions and social risks over time. We then compared the performance of classical machine learning, transformer-based masked language models, and fine-tuned large language models (LLMs). We demonstrate that incorporating social and behavioral factors into longitudinal models improved precision-recall area under the curve (PR-AUC) by 15-30%. In the top 1% risk tier, models yielded positive predictive values ranging from 3.93-4.72% at 3 months, 7.39-8.30% at 6 months, 9.84-11.41% at 9 months, and 11.65-13.80% at 12 months across model architectures. Large language models underperformed encoder-based models on discrimination but showed smaller performance disparities across racial groups. These results demonstrate that longitudinal, socially informed EHR modeling concentrates homelessness risk into actionable strata, enabling targeted and data-informed prevention strategies for at-risk veterans.",
+      "url": "https://arxiv.org/abs/2602.02731",
+      "published_date": "2026-02-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "models",
+        "months",
+        "risk",
+        "ehr",
+        "homelessness",
+        "veterans",
+        "data",
+        "informed",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a highly significant problem \u2013 veteran homelessness \u2013 and utilizes a robust methodology involving longitudinal EHR data and multiple machine learning approaches, including LLMs. The improvement in PR-AUC by 15-30% with the inclusion of social factors is a noteworthy finding. While the use of LLMs isn't entirely novel, applying them to this specific problem with longitudinal EHR data and social risk factors demonstrates a strong application of current techniques. The potential for proactive intervention and resource allocation makes this work highly impactful.",
+      "paper_id": "6b03d13b862e25af93577b4e38091579"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-04T10:00:09.811355"
 }

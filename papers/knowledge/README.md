@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### FactNet: A Billion-Scale Knowledge Graph for Multilingual Factual Grounding
+
+**Score:** 92.0 | **Published:** 2026-02-04 | **Authors:** Yingli Shen, Wen Lai, Jie Zhou, Xueren Zhang, Yudong Wang, Kangyang Luo, Shuo Wang, Ge Gao, Alexander Fraser, Maosong Sun
+
+arXiv:2602.03417v1 Announce Type: new 
+Abstract: While LLMs exhibit remarkable fluency, their utility is often compromised by factual hallucinations and a lack of traceable provenance. Existing resour...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.03417) | [📝 Analysis](610ad29e464e90a08b111cefe62b07d6.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-04 10:00:09 UTC*

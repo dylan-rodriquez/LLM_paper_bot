@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### CL-bench: A Benchmark for Context Learning
+
+**Score:** 92.0 | **Published:** 2026-02-04 | **Authors:** Shihan Dou, Ming Zhang, Zhangyue Yin, Chenhao Huang, Yujiong Shen, Junzhe Wang, Jiayi Chen, Yuchen Ni, Junjie Ye, Cheng Zhang, Huaibing Xie, Jianglu Hu, Shaolei Wang, Weichao Wang, Yanling Xiao, Yiting Liu, Zenan Xu, Zhen Guo, Pluto Zhou, Tao Gui, Zuxuan Wu, Xipeng Qiu, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang, Di Wang, Shunyu Yao
+
+arXiv:2602.03587v1 Announce Type: new 
+Abstract: Current language models (LMs) excel at reasoning over prompts using pre-trained knowledge. However, real-world tasks are far more complex and context-d...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.03587) | [📝 Analysis](6ca5bf0e6ff4e5b84d42ba5808510221.md)
+
+---
+
+### Test-Time Detoxification without Training or Learning Anything
+
+**Score:** 90.0 | **Published:** 2026-02-04 | **Authors:** Baturay Saglam, Dionysis Kalogerias
+
+arXiv:2602.02498v1 Announce Type: new 
+Abstract: Large language models can produce toxic or inappropriate text even for benign inputs, creating risks when deployed at scale. Detoxification is therefor...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.02498) | [📝 Analysis](22071f7f905b6abdf97285dc49668a40.md)
+
+---
+
+### Test-time Recursive Thinking: Self-Improvement without External Feedback
+
+**Score:** 90.0 | **Published:** 2026-02-04 | **Authors:** Yufan Zhuang, Chandan Singh, Liyuan Liu, Yelong Shen, Dinghuai Zhang, Jingbo Shang, Jianfeng Gao, Weizhu Chen
+
+arXiv:2602.03094v1 Announce Type: new 
+Abstract: Modern Large Language Models (LLMs) have shown rapid improvements in reasoning capabilities, driven largely by reinforcement learning (RL) with verifia...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.03094) | [📝 Analysis](3f997394b5f64dd47331a5f5740dbdf4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-04 10:00:09 UTC*

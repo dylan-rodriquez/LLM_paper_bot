@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### Privasis: Synthesizing the Largest "Public" Private Dataset from Scratch
+
+**Score:** 92.0 | **Published:** 2026-02-04 | **Authors:** Hyunwoo Kim, Niloofar Mireshghallah, Michael Duan, Rui Xin, Shuyue Stella Li, Jaehun Jung, David Acuna, Qi Pang, Hanshen Xiao, G. Edward Suh, Sewoong Oh, Yulia Tsvetkov, Pang Wei Koh, Yejin Choi
+
+arXiv:2602.03183v1 Announce Type: new 
+Abstract: Research involving privacy-sensitive data has always been constrained by data scarcity, standing in sharp contrast to other areas that have benefited f...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.03183) | [📝 Analysis](f3440affe206d3a53e8ed3563a642bad.md)
+
+---
+
+### Social Catalysts, Not Moral Agents: The Illusion of Alignment in LLM Societies
+
+**Score:** 90.0 | **Published:** 2026-02-04 | **Authors:** Yueqing Hu, Yixuan Jiang, Zehua Jiang, Xiao Wen, Tianhong Wang
+
+arXiv:2602.02598v1 Announce Type: cross 
+Abstract: The rapid evolution of Large Language Models (LLMs) has led to the emergence of Multi-Agent Systems where collective cooperation is often threatened ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.02598) | [📝 Analysis](e6364fca2536a7aeb52fe8fef65cfa43.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-04 10:00:09 UTC*
