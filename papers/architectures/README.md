@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Contextual Drag: How Errors in the Context Affect LLM Reasoning
+
+**Score:** 90.0 | **Published:** 2026-02-05 | **Authors:** Yun Cheng, Xingyu Zhu, Haoyu Zhao, Sanjeev Arora
+
+arXiv:2602.04288v1 Announce Type: new 
+Abstract: Central to many self-improvement pipelines for large language models (LLMs) is the assumption that models can improve by reflecting on past mistakes. W...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04288) | [📝 Analysis](50341da733f73cedd816052110b9dc9f.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-05 09:59:49 UTC*

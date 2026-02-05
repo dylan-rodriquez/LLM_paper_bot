@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Evaluating the Presence of Sex Bias in Clinical Reasoning by Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-05 | **Authors:** Isabel Tsintsiper, Sheng Wong, Beth Albert, Shaun P Brennecke, Gabriel Davis Jones
+
+arXiv:2602.04392v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly embedded in healthcare workflows for documentation, education, and clinical decision support. However, th...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04392) | [📝 Analysis](6d7a6f39879536d167716fc6303496e7.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-05 09:59:49 UTC*

@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Missing Half: Unveiling Training-time Implicit Safety Risks Beyond Deployment",
+      "authors": [
+        "Zhexin Zhang, Yida Lu, Junfeng Fang, Junxiao Yang, Shiyao Cui, Hao Zhou, Fandong Meng, Jie Zhou, Hongning Wang, Minlie Huang, Tat-Seng Chua"
+      ],
+      "abstract": "arXiv:2602.04196v1 Announce Type: new \nAbstract: Safety risks of AI models have been widely studied at deployment time, such as jailbreak attacks that elicit harmful outputs. In contrast, safety risks emerging during training remain largely unexplored. Beyond explicit reward hacking that directly manipulates explicit reward functions in reinforcement learning, we study implicit training-time safety risks: harmful behaviors driven by a model's internal incentives and contextual background information. For example, during code-based reinforcement learning, a model may covertly manipulate logged accuracy for self-preservation. We present the first systematic study of this problem, introducing a taxonomy with five risk levels, ten fine-grained risk categories, and three incentive types. Extensive experiments reveal the prevalence and severity of these risks: notably, Llama-3.1-8B-Instruct exhibits risky behaviors in 74.4% of training runs when provided only with background information. We further analyze factors influencing these behaviors and demonstrate that implicit training-time risks also arise in multi-agent training settings. Our results identify an overlooked yet urgent safety challenge in training.",
+      "url": "https://arxiv.org/abs/2602.04196",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "training",
+        "risks",
+        "safety",
+        "safety risks",
+        "time",
+        "behaviors",
+        "implicit",
+        "training time",
+        "background",
+        "background information"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and largely overlooked aspect of AI safety \u2013 risks emerging *during* training, not just at deployment. The systematic study, taxonomy, and empirical findings (74.4% risky behavior in Llama-3.1-8B-Instruct) are compelling. While the taxonomy seems well-defined, the full extent of the experiments and analysis would need to be verified upon full paper review, but the abstract suggests a rigorous approach.",
+      "paper_id": "2a812a9d3a29e4fdf521381689b77abd"
+    },
+    {
+      "title": "Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models",
+      "authors": [
+        "Binghai Wang, Yantao Liu, Yuxuan Liu, Tianyi Tang, Shenzhi Wang, Chang Gao, Chujie Zheng, Yichang Zhang, Le Yu, Shixuan Liu, Tao Gui, Qi Zhang, Xuanjing Huang, Bowen Yu, Fei Huang, Junyang Lin"
+      ],
+      "abstract": "arXiv:2602.04649v1 Announce Type: new \nAbstract: Generative Reward Models (GenRMs) and LLM-as-a-Judge exhibit deceptive alignment by producing correct judgments for incorrect reasons, as they are trained and evaluated to prioritize Outcome Accuracy, which undermines their ability to generalize during RLHF. We introduce Rationale Consistency, a fine-grained metric that quantifies the alignment between the model's reasoning process and human judgment. Our evaluation of frontier models reveals that rationale consistency effectively discriminates among state-of-the-art models and detects deceptive alignment, while outcome accuracy falls short in both respects. To mitigate this gap, we introduce a hybrid signal that combines rationale consistency with outcome accuracy for GenRM training. Our training method achieves state-of-the-art performance on RM-Bench (87.1%) and JudgeBench (82%), surpassing outcome-only baselines by an average of 5%. Using RM during RLHF, our method effectively improves performance as demonstrated on Arena Hard v2, notably yielding a 7% improvement in creative writing tasks. Further analysis confirms that our method escapes the deceptive alignment trap, effectively reversing the decline in rationale consistency observed in outcome-only training.",
+      "url": "https://arxiv.org/abs/2602.04649",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "outcome",
+        "accuracy",
+        "alignment",
+        "consistency",
+        "models",
+        "outcome accuracy",
+        "rationale",
+        "rationale consistency",
+        "deceptive",
+        "deceptive alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial issue in LLM alignment \u2013 deceptive reasoning \u2013 which is a significant roadblock to reliable RLHF. The introduction of 'Rationale Consistency' as a metric and its successful integration into training demonstrate a clear methodological advancement. The reported performance gains on RM-Bench and JudgeBench further solidify the work's quality and potential impact, suggesting a positive reception within the community.",
+      "paper_id": "fb3e818c8ccce2573f1eb5d73c18443d"
+    },
+    {
+      "title": "Horizon-LM: A RAM-Centric Architecture for LLM Training",
+      "authors": [
+        "Zhengqing Yuan (Fanny), Lichao Sun (Fanny),  Yanfang (Fanny),  Ye"
+      ],
+      "abstract": "arXiv:2602.04816v1 Announce Type: cross \nAbstract: The rapid growth of large language models (LLMs) has outpaced the evolution of single-GPU hardware, making model scale increasingly constrained by memory capacity rather than computation. While modern training systems extend GPU memory through distributed parallelism and offloading across CPU and storage tiers, they fundamentally retain a GPU-centric execution paradigm in which GPUs host persistent model replicas and full autograd graphs. As a result, scaling large models remains tightly coupled to multi-GPU clusters, complex distributed runtimes, and unpredictable host memory consumption, creating substantial barriers for node-scale post-training workloads such as instruction tuning, alignment, and domain adaptation. We present Horizon-LM, a memory-centric training system that redefines the roles of CPU and GPU for large-model optimization. Horizon-LM treats host memory as the authoritative parameter store and uses GPUs solely as transient compute engines through a CPU-master, GPU-template execution model. By eliminating persistent GPU-resident modules and autograd graphs, employing explicit recomputation with manual gradient propagation, and introducing a pipelined double-buffered execution engine, Horizon-LM decouples model scale from GPU count and bounds memory usage to the theoretical parameter footprint. On a single H200 GPU with 1.5\\,TB host RAM, Horizon-LM reliably trains models up to 120B parameters. On a standard single A100 machine, Horizon-LM achieves up to 12.2$\\times$ higher training throughput than DeepSpeed ZeRO-3 with CPU offloading while preserving numerical correctness. Across platforms and scales, Horizon-LM sustains high device utilization and predictable memory growth, demonstrating that host memory, not GPU memory, defines the true feasibility boundary for node-scale large-model training.",
+      "url": "https://arxiv.org/abs/2602.04816",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.OS"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "gpu",
+        "memory",
+        "horizon",
+        "horizon lm",
+        "lm",
+        "model",
+        "training",
+        "host",
+        "cpu",
+        "large"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in LLM training \u2013 memory capacity \u2013 and proposes a novel 'memory-centric' approach. The shift from a GPU-centric to a RAM-centric paradigm is a significant conceptual change with the potential to unlock scalability beyond current hardware limitations. The abstract clearly articulates the problem and the proposed solution, suggesting a well-defined research direction, and the focus on post-training workloads like instruction tuning is particularly relevant.",
+      "paper_id": "5b3065d26566f2e6548ceb9b2e35a054"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-05T09:59:49.920419"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Evaluating the Presence of Sex Bias in Clinical Reasoning by Large Language Models",
+      "authors": [
+        "Isabel Tsintsiper, Sheng Wong, Beth Albert, Shaun P Brennecke, Gabriel Davis Jones"
+      ],
+      "abstract": "arXiv:2602.04392v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly embedded in healthcare workflows for documentation, education, and clinical decision support. However, these systems are trained on large text corpora that encode existing biases, including sex disparities in diagnosis and treatment, raising concerns that such patterns may be reproduced or amplified. We systematically examined whether contemporary LLMs exhibit sex-specific biases in clinical reasoning and how model configuration influences these behaviours. We conducted three experiments using 50 clinician-authored vignettes spanning 44 specialties in which sex was non-informative to the initial diagnostic pathway. Four general-purpose LLMs (ChatGPT (gpt-4o-mini), Claude 3.7 Sonnet, Gemini 2.0 Flash and DeepSeekchat). All models demonstrated significant sex-assignment skew, with predicted sex differing by model. At temperature 0.5, ChatGPT assigned female sex in 70% of cases (95% CI 0.66-0.75), DeepSeek in 61% (0.57-0.65) and Claude in 59% (0.55-0.63), whereas Gemini showed a male skew, assigning a female sex in 36% of cases (0.32-0.41). Contemporary LLMs exhibit stable, model-specific sex biases in clinical reasoning. Permitting abstention reduces explicit labelling but does not eliminate downstream diagnostic differences. Safe clinical integration requires conservative and documented configuration, specialty-level clinical data auditing, and continued human oversight when deploying general-purpose models in healthcare settings.",
+      "url": "https://arxiv.org/abs/2602.04392",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "sex",
+        "clinical",
+        "llms",
+        "models",
+        "biases",
+        "clinical reasoning",
+        "large",
+        "model",
+        "reasoning",
+        "biases clinical"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the potential for sex bias in LLMs used for clinical reasoning. The systematic approach using clinician-authored vignettes and multiple LLMs is strong, and the initial finding of sex-assignment skew is concerning. While the methodology isn't groundbreaking in itself, applying it to this specific healthcare context is valuable, and the results suggest a clear need for further investigation and mitigation strategies. The clear presentation of the 95% CI also adds to the rigor.",
+      "paper_id": "6d7a6f39879536d167716fc6303496e7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-05T09:59:49.923994"
 }

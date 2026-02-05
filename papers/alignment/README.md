@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Alignment Drift in Multimodal LLMs: A Two-Phase, Longitudinal Evaluation of Harm Across Eight Model Releases
+
+**Score:** 92.0 | **Published:** 2026-02-05 | **Authors:** Casey Ford, Madison Van Doren, Emily Dix
+
+arXiv:2602.04739v1 Announce Type: new 
+Abstract: Multimodal large language models (MLLMs) are increasingly deployed in real-world systems, yet their safety under adversarial prompting remains underexp...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04739) | [📝 Analysis](f3f2517d8eda8c044d838ae39e6b22ad.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-05 09:59:49 UTC*

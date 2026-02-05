@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Alignment Drift in Multimodal LLMs: A Two-Phase, Longitudinal Evaluation of Harm Across Eight Model Releases",
+      "authors": [
+        "Casey Ford, Madison Van Doren, Emily Dix"
+      ],
+      "abstract": "arXiv:2602.04739v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) are increasingly deployed in real-world systems, yet their safety under adversarial prompting remains underexplored. We present a two-phase evaluation of MLLM harmlessness using a fixed benchmark of 726 adversarial prompts authored by 26 professional red teamers. Phase 1 assessed GPT-4o, Claude Sonnet 3.5, Pixtral 12B, and Qwen VL Plus; Phase 2 evaluated their successors (GPT-5, Claude Sonnet 4.5, Pixtral Large, and Qwen Omni) yielding 82,256 human harm ratings. Large, persistent differences emerged across model families: Pixtral models were consistently the most vulnerable, whereas Claude models appeared safest due to high refusal rates. Attack success rates (ASR) showed clear alignment drift: GPT and Claude models exhibited increased ASR across generations, while Pixtral and Qwen showed modest decreases. Modality effects also shifted over time: text-only prompts were more effective in Phase 1, whereas Phase 2 produced model-specific patterns, with GPT-5 and Claude 4.5 showing near-equivalent vulnerability across modalities. These findings demonstrate that MLLM harmlessness is neither uniform nor stable across updates, underscoring the need for longitudinal, multimodal benchmarks to track evolving safety behaviour.",
+      "url": "https://arxiv.org/abs/2602.04739",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "phase",
+        "claude",
+        "gpt",
+        "models",
+        "pixtral",
+        "gpt claude",
+        "large",
+        "model",
+        "multimodal",
+        "qwen"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical and timely issue \u2013 the safety and alignment of increasingly powerful multimodal LLMs. The longitudinal, two-phase evaluation with a consistent benchmark and professional red teamers provides a rigorous methodology. The findings regarding alignment drift and modality effects are valuable and well-presented, suggesting a high likelihood of positive reception within the AI safety community.",
+      "paper_id": "f3f2517d8eda8c044d838ae39e6b22ad"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-05T09:59:49.926874"
 }

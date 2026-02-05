@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Contextual Drag: How Errors in the Context Affect LLM Reasoning",
+      "authors": [
+        "Yun Cheng, Xingyu Zhu, Haoyu Zhao, Sanjeev Arora"
+      ],
+      "abstract": "arXiv:2602.04288v1 Announce Type: new \nAbstract: Central to many self-improvement pipelines for large language models (LLMs) is the assumption that models can improve by reflecting on past mistakes. We study a phenomenon termed contextual drag: the presence of failed attempts in the context biases subsequent generations toward structurally similar errors. Across evaluations of 11 proprietary and open-weight models on 8 reasoning tasks, contextual drag induces 10-20% performance drops, and iterative self-refinement in models with severe contextual drag can collapse into self-deterioration. Structural analysis using tree edit distance reveals that subsequent reasoning trajectories inherit structurally similar error patterns from the context. We demonstrate that neither external feedback nor successful self-verification suffices to eliminate this effect. While mitigation strategies such as fallback-behavior fine-tuning and context denoising yield partial improvements, they fail to fully restore baseline performance, positioning contextual drag as a persistent failure mode in current reasoning architectures.",
+      "url": "https://arxiv.org/abs/2602.04288",
+      "published_date": "2026-02-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "contextual",
+        "contextual drag",
+        "drag",
+        "context",
+        "models",
+        "reasoning",
+        "self",
+        "errors",
+        "performance",
+        "similar"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper identifies a critical and previously underappreciated problem \u2013 contextual drag \u2013 in LLM self-improvement. The empirical evidence across multiple models and tasks is strong, and the use of tree edit distance for structural analysis is a clever methodological choice. While mitigation strategies aren't fully successful, the identification of the problem itself is a significant contribution, and the partial improvements suggest a promising direction for future research. The findings are highly relevant to the current focus on scaling LLMs and improving their reliability.",
+      "paper_id": "50341da733f73cedd816052110b9dc9f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-05T09:59:49.922788"
 }

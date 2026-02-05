@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### The Missing Half: Unveiling Training-time Implicit Safety Risks Beyond Deployment
+
+**Score:** 92.0 | **Published:** 2026-02-05 | **Authors:** Zhexin Zhang, Yida Lu, Junfeng Fang, Junxiao Yang, Shiyao Cui, Hao Zhou, Fandong Meng, Jie Zhou, Hongning Wang, Minlie Huang, Tat-Seng Chua
+
+arXiv:2602.04196v1 Announce Type: new 
+Abstract: Safety risks of AI models have been widely studied at deployment time, such as jailbreak attacks that elicit harmful outputs. In contrast, safety risks...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04196) | [📝 Analysis](2a812a9d3a29e4fdf521381689b77abd.md)
+
+---
+
+### Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models
+
+**Score:** 90.0 | **Published:** 2026-02-05 | **Authors:** Binghai Wang, Yantao Liu, Yuxuan Liu, Tianyi Tang, Shenzhi Wang, Chang Gao, Chujie Zheng, Yichang Zhang, Le Yu, Shixuan Liu, Tao Gui, Qi Zhang, Xuanjing Huang, Bowen Yu, Fei Huang, Junyang Lin
+
+arXiv:2602.04649v1 Announce Type: new 
+Abstract: Generative Reward Models (GenRMs) and LLM-as-a-Judge exhibit deceptive alignment by producing correct judgments for incorrect reasons, as they are trai...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04649) | [📝 Analysis](fb3e818c8ccce2573f1eb5d73c18443d.md)
+
+---
+
+### Horizon-LM: A RAM-Centric Architecture for LLM Training
+
+**Score:** 90.0 | **Published:** 2026-02-05 | **Authors:** Zhengqing Yuan (Fanny), Lichao Sun (Fanny),  Yanfang (Fanny),  Ye
+
+arXiv:2602.04816v1 Announce Type: cross 
+Abstract: The rapid growth of large language models (LLMs) has outpaced the evolution of single-GPU hardware, making model scale increasingly constrained by me...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04816) | [📝 Analysis](5b3065d26566f2e6548ceb9b2e35a054.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-05 09:59:49 UTC*
