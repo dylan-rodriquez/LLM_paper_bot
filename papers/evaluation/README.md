@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Copyright Detective: A Forensic System to Evidence LLMs Flickering Copyright Leakage Risks
+
+**Score:** 92.0 | **Published:** 2026-02-06 | **Authors:** Guangwei Zhang, Jianing Zhu, Cheng Qian, Neil Gong, Rada Mihalcea, Zhaozhuo Xu, Jingrui He, Jiaqi Ma, Yun Huang, Chaowei Xiao, Bo Li, Ahmed Abbasi, Dongwon Lee, Heng Ji, Denghui Zhang
+
+arXiv:2602.05252v1 Announce Type: new 
+Abstract: We present Copyright Detective, the first interactive forensic system for detecting, analyzing, and visualizing potential copyright risks in LLM output...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05252) | [📝 Analysis](4f9099a1e34cee8d538cf3e321c30269.md)
+
+---
+
+### MedErrBench: A Fine-Grained Multilingual Benchmark for Medical Error Detection and Correction with Clinical Expert Annotations
+
+**Score:** 92.0 | **Published:** 2026-02-06 | **Authors:** Congbo Ma, Yichun Zhang, Yousef Al-Jazzazi, Ahamed Foisal, Laasya Sharma, Yousra Sadqi, Khaled Saleh, Jihad Mallat, Farah E. Shamout
+
+arXiv:2602.05692v1 Announce Type: new 
+Abstract: Inaccuracies in existing or generated clinical text may lead to serious adverse consequences, especially if it is a misdiagnosis or incorrect treatment...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05692) | [📝 Analysis](2257b8eae1a9d19a05ba73644d99b56d.md)
+
+---
+
+### EuroLLM-22B: Technical Report
+
+**Score:** 92.0 | **Published:** 2026-02-06 | **Authors:** Miguel Moura Ramos, Duarte M. Alves, Hippolyte Gisserot-Boukhlef, Jo\~ao Alves, Pedro Henrique Martins, Patrick Fernandes, Jos\'e Pombal, Nuno M. Guerreiro, Ricardo Rei, Nicolas Boizard, Amin Farajian, Mateusz Klimaszewski, Jos\'e G. C. de Souza, Barry Haddow, Fran\c{c}ois Yvon, Pierre Colombo, Alexandra Birch, Andr\'e F. T. Martins
+
+arXiv:2602.05879v1 Announce Type: new 
+Abstract: This report presents EuroLLM-22B, a large language model trained from scratch to support the needs of European citizens by covering all 24 official Eur...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05879) | [📝 Analysis](3722ac1ac466d304ace7c5a653e266c0.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-06 09:56:50 UTC*

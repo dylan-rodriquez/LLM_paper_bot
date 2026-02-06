@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### CASTLE: A Comprehensive Benchmark for Evaluating Student-Tailored Personalized Safety in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-06 | **Authors:** Rui Jia, Ruiyi Lan, Fengrui Liu, Zhongxiang Dai, Bo Jiang, Jing Shao, Jingyuan Chen, Guandong Xu, Fei Wu, Min Zhang
+
+arXiv:2602.05633v1 Announce Type: new 
+Abstract: Large language models (LLMs) have advanced the development of personalized learning in education. However, their inherent generation mechanisms often p...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05633) | [📝 Analysis](7fd02c57c43c49d6a4514f9743a22b28.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-06 09:56:50 UTC*

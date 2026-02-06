@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Copyright Detective: A Forensic System to Evidence LLMs Flickering Copyright Leakage Risks",
+      "authors": [
+        "Guangwei Zhang, Jianing Zhu, Cheng Qian, Neil Gong, Rada Mihalcea, Zhaozhuo Xu, Jingrui He, Jiaqi Ma, Yun Huang, Chaowei Xiao, Bo Li, Ahmed Abbasi, Dongwon Lee, Heng Ji, Denghui Zhang"
+      ],
+      "abstract": "arXiv:2602.05252v1 Announce Type: new \nAbstract: We present Copyright Detective, the first interactive forensic system for detecting, analyzing, and visualizing potential copyright risks in LLM outputs. The system treats copyright infringement versus compliance as an evidence discovery process rather than a static classification task due to the complex nature of copyright law. It integrates multiple detection paradigms, including content recall testing, paraphrase-level similarity analysis, persuasive jailbreak probing, and unlearning verification, within a unified and extensible framework. Through interactive prompting, response collection, and iterative workflows, our system enables systematic auditing of verbatim memorization and paraphrase-level leakage, supporting responsible deployment and transparent evaluation of LLM copyright risks even with black-box access.",
+      "url": "https://arxiv.org/abs/2602.05252",
+      "published_date": "2026-02-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "copyright",
+        "risks",
+        "copyright detective",
+        "copyright risks",
+        "detective",
+        "evidence",
+        "forensic",
+        "interactive",
+        "leakage",
+        "level"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and pressing issue \u2013 copyright leakage in LLMs \u2013 with a novel forensic approach. The framing of copyright compliance as evidence discovery is insightful, and the integration of multiple detection paradigms within a unified system demonstrates strong methodological rigor. The interactive nature of the system and its ability to work with black-box models are particularly valuable, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "4f9099a1e34cee8d538cf3e321c30269"
+    },
+    {
+      "title": "MedErrBench: A Fine-Grained Multilingual Benchmark for Medical Error Detection and Correction with Clinical Expert Annotations",
+      "authors": [
+        "Congbo Ma, Yichun Zhang, Yousef Al-Jazzazi, Ahamed Foisal, Laasya Sharma, Yousra Sadqi, Khaled Saleh, Jihad Mallat, Farah E. Shamout"
+      ],
+      "abstract": "arXiv:2602.05692v1 Announce Type: new \nAbstract: Inaccuracies in existing or generated clinical text may lead to serious adverse consequences, especially if it is a misdiagnosis or incorrect treatment suggestion. With Large Language Models (LLMs) increasingly being used across diverse healthcare applications, comprehensive evaluation through dedicated benchmarks is crucial. However, such datasets remain scarce, especially across diverse languages and contexts. In this paper, we introduce MedErrBench, the first multilingual benchmark for error detection, localization, and correction, developed under the guidance of experienced clinicians. Based on an expanded taxonomy of ten common error types, MedErrBench covers English, Arabic and Chinese, with natural clinical cases annotated and reviewed by domain experts. We assessed the performance of a range of general-purpose, language-specific, and medical-domain language models across all three tasks. Our results reveal notable performance gaps, particularly in non-English settings, highlighting the need for clinically grounded, language-aware systems. By making MedErrBench and our evaluation protocols publicly-available, we aim to advance multilingual clinical NLP to promote safer and more equitable AI-based healthcare globally. The dataset is available in the supplementary material. An anonymized version of the dataset is available at: https://github.com/congboma/MedErrBench.",
+      "url": "https://arxiv.org/abs/2602.05692",
+      "published_date": "2026-02-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mederrbench",
+        "clinical",
+        "language",
+        "available",
+        "error",
+        "multilingual",
+        "based",
+        "benchmark",
+        "correction",
+        "dataset"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical need for robust evaluation of LLMs in healthcare, specifically focusing on medical error detection and correction. The creation of a multilingual benchmark (English, Arabic, Chinese) with clinical expert annotations is a significant contribution. While the core idea of a benchmark isn't entirely novel, the focus on *error* detection and the multilingual aspect, coupled with expert validation, elevates its quality and potential impact.",
+      "paper_id": "2257b8eae1a9d19a05ba73644d99b56d"
+    },
+    {
+      "title": "EuroLLM-22B: Technical Report",
+      "authors": [
+        "Miguel Moura Ramos, Duarte M. Alves, Hippolyte Gisserot-Boukhlef, Jo\\~ao Alves, Pedro Henrique Martins, Patrick Fernandes, Jos\\'e Pombal, Nuno M. Guerreiro, Ricardo Rei, Nicolas Boizard, Amin Farajian, Mateusz Klimaszewski, Jos\\'e G. C. de Souza, Barry Haddow, Fran\\c{c}ois Yvon, Pierre Colombo, Alexandra Birch, Andr\\'e F. T. Martins"
+      ],
+      "abstract": "arXiv:2602.05879v1 Announce Type: new \nAbstract: This report presents EuroLLM-22B, a large language model trained from scratch to support the needs of European citizens by covering all 24 official European Union languages and 11 additional languages. EuroLLM addresses the issue of European languages being underrepresented and underserved in existing open large language models. We provide a comprehensive overview of EuroLLM-22B's development, including tokenizer design, architectural specifications, data filtering, and training procedures. Across a broad set of multilingual benchmarks, EuroLLM-22B demonstrates strong performance in reasoning, instruction following, and translation, achieving results competitive with models of comparable size. To support future research, we release our base and instruction-tuned models, our multilingual web pretraining data and updated EuroBlocks instruction datasets, as well as our pre-training and evaluation codebases.",
+      "url": "https://arxiv.org/abs/2602.05879",
+      "published_date": "2026-02-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "eurollm",
+        "22b",
+        "eurollm 22b",
+        "european",
+        "instruction",
+        "languages",
+        "models",
+        "data",
+        "language",
+        "large"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in the LLM landscape \u2013 the underrepresentation of European languages. The comprehensive approach to development, including tokenizer design, data filtering, and training procedures, suggests a rigorous methodology. The release of models, data, and code further enhances its value and potential for community adoption, indicating a high likelihood of positive reception.",
+      "paper_id": "3722ac1ac466d304ace7c5a653e266c0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-06T09:56:50.819125"
 }

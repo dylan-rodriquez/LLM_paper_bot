@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration
+
+**Score:** 90.0 | **Published:** 2026-02-06 | **Authors:** Shaobo Wang, Xuan Ouyang, Tianyi Xu, Yuzheng Hu, Jialin Liu, Guo Chen, Tianyu Zhang, Junhao Zheng, Kexin Yang, Xingzhang Ren, Dayiheng Liu, Linfeng Zhang
+
+arXiv:2602.05400v1 Announce Type: new 
+Abstract: As high-quality public text approaches exhaustion, a phenomenon known as the Data Wall, pre-training is shifting from more tokens to better tokens. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05400) | [📝 Analysis](662fb69579fc3640d55ad1d39b3626ba.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-06 09:56:50 UTC*
