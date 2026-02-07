@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Extracting Recurring Vulnerabilities from Black-Box LLM-Generated Software
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Tomer Kordonsky, Maayan Yamin, Noam Benzimra, Amit LeVi, Avi Mendelson
+
+arXiv:2602.04894v1 Announce Type: cross 
+Abstract: LLMs are increasingly used for code generation, but their outputs often follow recurring templates that can induce predictable vulnerabilities. We st...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04894) | [📝 Analysis](1d2421c3007255379c0d1b3bf345e230.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*

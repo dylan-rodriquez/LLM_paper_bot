@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Graph-based Agent Memory: Taxonomy, Techniques, and Applications
+
+**Score:** 90.0 | **Published:** 2026-02-07 | **Authors:** Chang Yang, Chuang Zhou, Yilin Xiao, Su Dong, Luyao Zhuang, Yujing Zhang, Zhu Wang, Zijin Hong, Zheng Yuan, Zhishang Xiang, Shengyuan Chen, Huachi Zhou, Qinggang Zhang, Ninghao Liu, Jinsong Su, Xinrun Wang, Yi Chang, Xiao Huang
+
+arXiv:2602.05665v1 Announce Type: new 
+Abstract: Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playin...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05665) | [📝 Analysis](4e2d74acb210eb0709cb95fd3cf4a747.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*

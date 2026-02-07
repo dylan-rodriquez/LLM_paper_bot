@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health",
+      "authors": [
+        "Kate H. Bentley, Luca Belli, Adam M. Chekroud, Emily J. Ward, Emily R. Dworkin, Emily Van Ark, Kelly M. Johnston, Will Alexander, Millard Brown, Matt Hawrilenko"
+      ],
+      "abstract": "arXiv:2602.05088v1 Announce Type: new \nAbstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most pressing question in AI for mental health is whether these tools are safe. The Validation of Ethical and Responsible AI in Mental Health (VERA-MH) evaluation was recently proposed to meet the urgent need for an evidence-based automated safety benchmark. This study aimed to examine the clinical validity and reliability of the VERA-MH evaluation for AI safety in suicide risk detection and response. We first simulated a large set of conversations between large language model (LLM)-based users (user-agents) and general-purpose AI chatbots. Licensed mental health clinicians used a rubric (scoring guide) to independently rate the simulated conversations for safe and unsafe chatbot behaviors, as well as user-agent realism. An LLM-based judge used the same scoring rubric to evaluate the same set of simulated conversations. We then compared rating alignment across (a) individual clinicians and (b) clinician consensus and the LLM judge, and (c) examined clinicians' ratings of user-agent realism. Individual clinicians were generally consistent with one another in their safety ratings (chance-corrected inter-rater reliability [IRR]: 0.77), thus establishing a gold-standard clinical reference. The LLM judge was strongly aligned with this clinical consensus (IRR: 0.81) overall and within key conditions. Clinician raters generally perceived the user-agents to be realistic. For the potential mental health benefits of AI chatbots to be realized, attention to safety is paramount. Findings from this human evaluation study support the clinical validity and reliability of VERA-MH: an open-source, fully automated AI safety evaluation for mental health. Further research will address VERA-MH generalizability and robustness.",
+      "url": "https://arxiv.org/abs/2602.05088",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "health",
+        "mental",
+        "mental health",
+        "safety",
+        "evaluation",
+        "mh",
+        "vera",
+        "vera mh",
+        "clinical"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critically important and timely problem \u2013 the safety of AI chatbots used for mental health support. The use of both human clinicians and an LLM judge to validate the VERA-MH evaluation demonstrates a rigorous approach. While the methodology appears sound, the novelty is somewhat limited as it builds upon existing rubric-based evaluation techniques, but the application to this specific domain is valuable. The potential for real-world impact is high, given the widespread use of these chatbots.",
+      "paper_id": "6e487a6048d8cde5e47fb7e250d5704d"
+    },
+    {
+      "title": "Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities",
+      "authors": [
+        "Florian Dietz, William Wale, Oscar Gilg, Robert McCarthy, Felix Michalak, Gustavo Ewbank Rodrigues Danon, Miguelito de Guzman, Dietrich Klakow"
+      ],
+      "abstract": "arXiv:2602.05532v1 Announce Type: new \nAbstract: Detecting misalignment in large language models is challenging because models may learn to conceal misbehavior during training. Standard auditing techniques fall short: black-box methods often cannot distinguish misaligned outputs from benign ones, and mechanistic interpretability does not scale with model capabilities. We introduce Split Personality Training (SPT), which fine-tunes a second ``honest persona'' into LoRA parameters that remain inactive during normal operation. After the main model responds, we activate the LoRA adapter and insert a trigger string, enabling the honest persona to review the response while accessing the main model's latent states. We test our method on the Anthropic Auditing Game Model Organism, a benchmark where Llama-3.3-70B is trained to exploit reward hacks while concealing this behavior. SPT achieves 96% overall accuracy, whereas Anthropic reports near 0% accuracy. The honest persona reveals latent knowledge inaccessible to external observers, such as the fictional biases the compromised model was trained on.",
+      "url": "https://arxiv.org/abs/2602.05532",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "honest",
+        "honest persona",
+        "latent",
+        "persona",
+        "training",
+        "accuracy",
+        "anthropic",
+        "auditing",
+        "knowledge"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical problem in LLM safety \u2013 the concealment of misalignment. The 'Split Personality Training' approach is a clever and potentially highly effective method for uncovering latent harmful knowledge. The reported 96% accuracy on a challenging benchmark, compared to near 0% with existing methods, strongly suggests a significant advancement. The clarity of the abstract is good, and the problem is well-defined.",
+      "paper_id": "cd3fb576d7bf6f1c4624bdc1c9a96c35"
+    },
+    {
+      "title": "Steering Externalities: Benign Activation Steering Unintentionally Increases Jailbreak Risk for Large Language Models",
+      "authors": [
+        "Chen Xiong, Zhiyuan He, Pin-Yu Chen, Ching-Yun Ko, Tsung-Yi Ho"
+      ],
+      "abstract": "arXiv:2602.04896v1 Announce Type: cross \nAbstract: Activation steering is a practical post-training model alignment technique to enhance the utility of Large Language Models (LLMs). Prior to deploying a model as a service, developers can steer a pre-trained model toward specific behavioral objectives, such as compliance or instruction adherence, without the need for retraining. This process is as simple as adding a steering vector to the model's internal representations. However, this capability unintentionally introduces critical and under-explored safety risks. We identify a phenomenon termed Steering Externalities, where steering vectors derived from entirely benign datasets-such as those enforcing strict compliance or specific output formats like JSON-inadvertently erode safety guardrails. Experiments reveal that these interventions act as a force multiplier, creating new vulnerabilities to jailbreaks and increasing attack success rates to over 80% on standard benchmarks by bypassing the initial safety alignment. Ultimately, our results expose a critical blind spot in deployment: benign activation steering systematically erodes the \"safety margin,\" rendering models more vulnerable to black-box attacks and proving that inference-time utility improvements must be rigorously audited for unintended safety externalities.",
+      "url": "https://arxiv.org/abs/2602.04896",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "steering",
+        "safety",
+        "model",
+        "activation",
+        "activation steering",
+        "benign",
+        "externalities",
+        "models",
+        "alignment",
+        "benign activation"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper identifies a critical and previously unrecognised vulnerability in a promising LLM alignment technique (activation steering). The finding that benign steering can *increase* jailbreak risk is significant and counterintuitive. The methodology appears sound, and the reported 80%+ attack success rate is concerning, suggesting a real-world impact. The work is well-timed given the increasing adoption of activation steering.",
+      "paper_id": "0039333d5f160ae46b1a17a2ffd4ea97"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-07T09:38:43.865522"
 }

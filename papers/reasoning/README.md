@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Lukas Stappen, Ahmet Erkan Turan, Johann Hagerer, Georg Groh
+
+arXiv:2602.05877v1 Announce Type: new 
+Abstract: The integration of Large Language Model (LLM)-based conversational agents into vehicles creates novel security challenges at the intersection of agenti...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05877) | [📝 Analysis](816c31c84c6542b2bcf0f9d476dc1837.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*

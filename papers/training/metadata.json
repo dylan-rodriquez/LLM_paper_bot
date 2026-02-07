@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+      "authors": [
+        "Licheng Pan, Yunsheng Lu, Jiexi Liu, Jialing Tao, Haozhe Feng, Hui Xue, Zhixuan Chu, Kui Ren"
+      ],
+      "abstract": "arXiv:2602.04893v1 Announce Type: cross \nAbstract: Uncovering the mechanisms behind \"jailbreaks\" in large language models (LLMs) is crucial for enhancing their safety and reliability, yet these mechanisms remain poorly understood. Existing studies predominantly analyze jailbreak prompts by probing latent representations, often overlooking the causal relationships between interpretable prompt features and jailbreak occurrences. In this work, we propose Causal Analyst, a framework that integrates LLMs into data-driven causal discovery to identify the direct causes of jailbreaks and leverage them for both attack and defense. We introduce a comprehensive dataset comprising 35k jailbreak attempts across seven LLMs, systematically constructed from 100 attack templates and 50 harmful queries, annotated with 37 meticulously designed human-readable prompt features. By jointly training LLM-based prompt encoding and GNN-based causal graph learning, we reconstruct causal pathways linking prompt features to jailbreak responses. Our analysis reveals that specific features, such as \"Positive Character\" and \"Number of Task Steps\", act as direct causal drivers of jailbreaks. We demonstrate the practical utility of these insights through two applications: (1) a Jailbreaking Enhancer that targets identified causal features to significantly boost attack success rates on public benchmarks, and (2) a Guardrail Advisor that utilizes the learned causal graph to extract true malicious intent from obfuscated queries. Extensive experiments, including baseline comparisons and causal structure validation, confirm the robustness of our causal analysis and its superiority over non-causal approaches. Our results suggest that analyzing jailbreak features from a causal perspective is an effective and interpretable approach for improving LLM reliability. Our code is available at https://github.com/Master-PLC/Causal-Analyst.",
+      "url": "https://arxiv.org/abs/2602.04893",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "causal",
+        "features",
+        "jailbreak",
+        "attack",
+        "prompt",
+        "jailbreaks",
+        "llms",
+        "prompt features",
+        "analysis",
+        "analyst"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and important problem \u2013 understanding and mitigating jailbreak attacks on LLMs. The causal approach, integrating LLMs with causal discovery, is a novel and promising direction, moving beyond simple probing. The creation of a comprehensive dataset with detailed prompt features is a significant contribution, and the framework appears well-structured. While the approach isn't entirely groundbreaking in its individual components (LLMs and GNNs are established), the *combination* and application to this specific problem is strong.",
+      "paper_id": "c7e81f6c7866d45930ebc2de173bd44d"
+    },
+    {
+      "title": "Phantom Transfer: Data-level Defences are Insufficient Against Data Poisoning",
+      "authors": [
+        "Andrew Draganov, Tolga H. Dur, Anandmayi Bhongade, Mary Phuong"
+      ],
+      "abstract": "arXiv:2602.04899v1 Announce Type: cross \nAbstract: We present a data poisoning attack -- Phantom Transfer -- with the property that, even if you know precisely how the poison was placed into an otherwise benign dataset, you cannot filter it out. We achieve this by modifying subliminal learning to work in real-world contexts and demonstrate that the attack works across models, including GPT-4.1. Indeed, even fully paraphrasing every sample in the dataset using a different model does not stop the attack. We also discuss connections to steering vectors and show that one can plant password-triggered behaviours into models while still beating defences.\n  This suggests that data-level defences are insufficient for stopping sophisticated data poisoning attacks. We suggest that future work should focus on model audits and white-box security methods.",
+      "url": "https://arxiv.org/abs/2602.04899",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "attack",
+        "data poisoning",
+        "defences",
+        "poisoning",
+        "data level",
+        "dataset",
+        "defences insufficient",
+        "insufficient",
+        "level"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical vulnerability in LLM security \u2013 data poisoning \u2013 and demonstrates a novel attack, 'Phantom Transfer,' that bypasses existing defenses. The claim that even paraphrasing fails to mitigate the attack is particularly concerning and suggests a fundamental weakness in current data-level security approaches. The connection to steering vectors and password-triggered behaviors further amplifies the severity of the issue, making it highly relevant to the field.",
+      "paper_id": "23845ca9f2c36a236fecbc6b805b738b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-07T09:38:43.869433"
 }

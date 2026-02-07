@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### PieArena: Frontier Language Agents Achieve MBA-Level Negotiation Performance and Reveal Novel Behavioral Differences
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Chris Zhu (Department of Statistics,Data Science, Yale University), Sasha Cui (Department of Statistics,Data Science, Yale University), Will Sanok Dufallo (Department of Philosophy, Yale University), Runzhi Jin (School of Law, University of California, Berkeley), Zhen Xu (Bloomberg), Linjun Zhang (Department of Statistics, Rutgers University), Daylian Cain (Yale School of Management)
+
+arXiv:2602.05302v1 Announce Type: new 
+Abstract: We present an in-depth evaluation of LLMs' ability to negotiate, a central business task that requires strategic reasoning, theory of mind, and economi...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05302) | [📝 Analysis](bf99830bb40fc49e33e14aa449a6f178.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*

@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy",
+      "authors": [
+        "Lukas Stappen, Ahmet Erkan Turan, Johann Hagerer, Georg Groh"
+      ],
+      "abstract": "arXiv:2602.05877v1 Announce Type: new \nAbstract: The integration of Large Language Model (LLM)-based conversational agents into vehicles creates novel security challenges at the intersection of agentic AI, automotive safety, and inter-agent communication. As these intelligent assistants coordinate with external services via protocols such as Google's Agent-to-Agent (A2A), they establish attack surfaces where manipulations can propagate through natural language payloads, potentially causing severe consequences ranging from driver distraction to unauthorized vehicle control. Existing AI security frameworks, while foundational, lack the rigorous \"separation of concerns\" standard in safety-critical systems engineering by co-mingling the concepts of what is being protected (assets) with how it is attacked (attack paths). This paper addresses this methodological gap by proposing a threat modeling framework called AgentHeLLM (Agent Hazard Exploration for LLM Assistants) that formally separates asset identification from attack path analysis. We introduce a human-centric asset taxonomy derived from harm-oriented \"victim modeling\" and inspired by the Universal Declaration of Human Rights, and a formal graph-based model that distinguishes poison paths (malicious data propagation) from trigger paths (activation actions). We demonstrate the framework's practical applicability through an open-source attack path suggestion tool AgentHeLLM Attack Path Generator that automates multi-stage threat discovery using a bi-level search strategy.",
+      "url": "https://arxiv.org/abs/2602.05877",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "attack",
+        "agent",
+        "assistants",
+        "attack path",
+        "human",
+        "llm",
+        "path",
+        "paths",
+        "safety",
+        "agenthellm"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a highly relevant and emerging security concern with the increasing integration of LLMs into safety-critical systems like vehicles. The proposed AgentHeLLM framework, addressing the gap in separating assets from attack paths, demonstrates a thoughtful methodological approach. While the abstract doesn't detail the specifics of the framework, the identified problem and proposed solution suggest strong potential for impact and positive reception within the AI safety and automotive security communities.",
+      "paper_id": "816c31c84c6542b2bcf0f9d476dc1837"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-07T09:38:43.868064"
 }

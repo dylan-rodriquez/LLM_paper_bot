@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### VERA-MH: Reliability and Validity of an Open-Source AI Safety Evaluation in Mental Health
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Kate H. Bentley, Luca Belli, Adam M. Chekroud, Emily J. Ward, Emily R. Dworkin, Emily Van Ark, Kelly M. Johnston, Will Alexander, Millard Brown, Matt Hawrilenko
+
+arXiv:2602.05088v1 Announce Type: new 
+Abstract: Millions now use leading generative AI chatbots for psychological support. Despite the promise related to availability and scale, the single most press...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05088) | [📝 Analysis](6e487a6048d8cde5e47fb7e250d5704d.md)
+
+---
+
+### Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Florian Dietz, William Wale, Oscar Gilg, Robert McCarthy, Felix Michalak, Gustavo Ewbank Rodrigues Danon, Miguelito de Guzman, Dietrich Klakow
+
+arXiv:2602.05532v1 Announce Type: new 
+Abstract: Detecting misalignment in large language models is challenging because models may learn to conceal misbehavior during training. Standard auditing techn...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.05532) | [📝 Analysis](cd3fb576d7bf6f1c4624bdc1c9a96c35.md)
+
+---
+
+### Steering Externalities: Benign Activation Steering Unintentionally Increases Jailbreak Risk for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Chen Xiong, Zhiyuan He, Pin-Yu Chen, Ching-Yun Ko, Tsung-Yi Ho
+
+arXiv:2602.04896v1 Announce Type: cross 
+Abstract: Activation steering is a practical post-training model alignment technique to enhance the utility of Large Language Models (LLMs). Prior to deploying...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04896) | [📝 Analysis](0039333d5f160ae46b1a17a2ffd4ea97.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*

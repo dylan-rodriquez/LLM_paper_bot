@@ -95,7 +95,39 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "Graph-based Agent Memory: Taxonomy, Techniques, and Applications",
+      "authors": [
+        "Chang Yang, Chuang Zhou, Yilin Xiao, Su Dong, Luyao Zhuang, Yujing Zhang, Zhu Wang, Zijin Hong, Zheng Yuan, Zhishang Xiang, Shengyuan Chen, Huachi Zhou, Qinggang Zhang, Ninghao Liu, Jinsong Su, Xinrun Wang, Yi Chang, Xiao Huang"
+      ],
+      "abstract": "arXiv:2602.05665v1 Announce Type: new \nAbstract: Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and self-evolution. Among diverse paradigms, graph stands out as a powerful structure for agent memory due to the intrinsic capabilities to model relational dependencies, organize hierarchical information, and support efficient retrieval. This survey presents a comprehensive review of agent memory from the graph-based perspective. First, we introduce a taxonomy of agent memory, including short-term vs. long-term memory, knowledge vs. experience memory, non-structural vs. structural memory, with an implementation view of graph-based memory. Second, according to the life cycle of agent memory, we systematically analyze the key techniques in graph-based agent memory, covering memory extraction for transforming the data into the contents, storage for organizing the data efficiently, retrieval for retrieving the relevant contents from memory to support reasoning, and evolution for updating the contents in the memory. Third, we summarize the open-sourced libraries and benchmarks that support the development and evaluation of self-evolving agent memory. We also explore diverse application scenarios. Finally, we identify critical challenges and future research directions. This survey aims to offer actionable insights to advance the development of more efficient and reliable graph-based agent memory systems. All the related resources, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphMemory.",
+      "url": "https://arxiv.org/abs/2602.05665",
+      "published_date": "2026-02-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 70,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "memory",
+        "agent",
+        "agent memory",
+        "based",
+        "graph",
+        "graph based",
+        "based agent",
+        "contents",
+        "data",
+        "support"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This survey paper addresses a highly relevant and timely topic \u2013 agent memory, specifically using graph-based approaches \u2013 within the rapidly evolving field of LLM-based agents. The proposed taxonomy and systematic analysis of techniques based on the memory lifecycle suggest a rigorous and well-structured approach. Given the increasing importance of long-horizon reasoning and knowledge retention in agents, this work is likely to be well-received and impactful, though the innovation appears to be in the synthesis and organization of existing work rather than entirely novel techniques.",
+      "paper_id": "4e2d74acb210eb0709cb95fd3cf4a747"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2026-02-07T09:38:43.867443"
 }

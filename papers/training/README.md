@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### A Causal Perspective for Enhancing Jailbreak Attack and Defense
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Licheng Pan, Yunsheng Lu, Jiexi Liu, Jialing Tao, Haozhe Feng, Hui Xue, Zhixuan Chu, Kui Ren
+
+arXiv:2602.04893v1 Announce Type: cross 
+Abstract: Uncovering the mechanisms behind "jailbreaks" in large language models (LLMs) is crucial for enhancing their safety and reliability, yet these mechan...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04893) | [📝 Analysis](c7e81f6c7866d45930ebc2de173bd44d.md)
+
+---
+
+### Phantom Transfer: Data-level Defences are Insufficient Against Data Poisoning
+
+**Score:** 92.0 | **Published:** 2026-02-07 | **Authors:** Andrew Draganov, Tolga H. Dur, Anandmayi Bhongade, Mary Phuong
+
+arXiv:2602.04899v1 Announce Type: cross 
+Abstract: We present a data poisoning attack -- Phantom Transfer -- with the property that, even if you know precisely how the poison was placed into an otherw...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.04899) | [📝 Analysis](23845ca9f2c36a236fecbc6b805b738b.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-07 09:38:43 UTC*
