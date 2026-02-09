@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study",
+      "authors": [
+        "Yi Liu, Zhihao Chen, Yanjun Zhang, Gelei Deng, Yuekang Li, Jianting Ning, Leo Yu Zhang"
+      ],
+      "abstract": "arXiv:2602.06547v1 Announce Type: cross \nAbstract: Third-party agent skills extend LLM-based agents with instruction files and executable code that run on users' machines. Skills execute with user privileges and are distributed through community registries with minimal vetting, but no ground-truth dataset exists to characterize the resulting threats. We construct the first labeled dataset of malicious agent skills by behaviorally verifying 98,380 skills from two community registries, confirming 157 malicious skills with 632 vulnerabilities. These attacks are not incidental. Malicious skills average 4.03 vulnerabilities across a median of three kill chain phases, and the ecosystem has split into two archetypes: Data Thieves that exfiltrate credentials through supply chain techniques, and Agent Hijackers that subvert agent decision-making through instruction manipulation. A single actor accounts for 54.1\\% of confirmed cases through templated brand impersonation. Shadow features, capabilities absent from public documentation, appear in 0\\% of basic attacks but 100\\% of advanced ones; several skills go further by exploiting the AI platform's own hook system and permission flags. Responsible disclosure led to 93.6\\% removal within 30 days. We release the dataset and analysis pipeline to support future work on agent skill security.",
+      "url": "https://arxiv.org/abs/2602.06547",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "skills",
+        "agent",
+        "malicious",
+        "agent skills",
+        "dataset",
+        "attacks",
+        "chain",
+        "community",
+        "community registries",
+        "instruction"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This research addresses a highly relevant and timely security concern regarding malicious agent skills. The construction of the first labeled dataset of malicious skills is a significant methodological contribution, and the identification of attack archetypes (Data Thieves and Agent Hijackers) provides valuable insights. The scale of the study (98,380 skills) and the finding of a single actor responsible for a large portion of malicious skills further strengthen the work's credibility and potential impact.",
+      "paper_id": "f213815f164e81625076327985c56bd7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-02-09T10:19:03.206418"
 }

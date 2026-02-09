@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "The Condensate Theorem: Transformers are O(n), Not $O(n^2)$",
+      "authors": [
+        "Jorge L. Ruiz Williams"
+      ],
+      "abstract": "arXiv:2602.06317v1 Announce Type: cross \nAbstract: We present the Condensate Theorem: attention sparsity is a learned topological property, not an architectural constraint. Through empirical analysis of trained language models, we find that attention mass concentrates on a distinct topological manifold -- and this manifold can be identified dynamically without checking every position. We prove a general result: for any query, projecting attention onto the Condensate Manifold (Anchor + Window + Dynamic Top-k) achieves 100% output equivalence with full $O(n^2)$ attention. This is not an approximation -- it is lossless parity. We validate this across GPT-2, Pythia, Qwen2, TinyLlama, and Mistral, demonstrating bit-exact token matching on 1,500+ generated tokens. By mapping this topology to hardware, our Topological Attention kernel achieves a 159x measured speedup at 131K tokens (3.94ms vs 628ms) and a projected >1,200x speedup at 1M tokens, reducing inference costs by >99.9% compared to Flash Attention. We conclude that the quadratic bottleneck is an artifact of naive implementation, not intelligence.",
+      "url": "https://arxiv.org/abs/2602.06317",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 95,
+      "sentiment_score": 90,
+      "keywords": [
+        "attention",
+        "condensate",
+        "manifold",
+        "tokens",
+        "topological",
+        "achieves",
+        "condensate theorem",
+        "speedup",
+        "theorem",
+        "06317v1"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper presents a compelling argument for a fundamental shift in how we understand attention mechanisms in transformers. The 'Condensate Theorem' and the claim of lossless parity with full attention, if validated through peer review, are highly significant. The reported 159x speedup is substantial and suggests a potentially transformative impact on inference costs, making it a very promising piece of work.",
+      "paper_id": "6e0e91b2e1651e8ffe4bf4654142f8cb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-09T10:19:03.205227"
 }

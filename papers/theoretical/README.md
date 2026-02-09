@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study
+
+**Score:** 92.0 | **Published:** 2026-02-09 | **Authors:** Yi Liu, Zhihao Chen, Yanjun Zhang, Gelei Deng, Yuekang Li, Jianting Ning, Leo Yu Zhang
+
+arXiv:2602.06547v1 Announce Type: cross 
+Abstract: Third-party agent skills extend LLM-based agents with instruction files and executable code that run on users' machines. Skills execute with user pri...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.06547) | [📝 Analysis](f213815f164e81625076327985c56bd7.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-09 10:19:03 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
+
+**Score:** 92.0 | **Published:** 2026-02-09 | **Authors:** Junhyeok Lee, Han Jang, Kyu Sung Choi
+
+arXiv:2602.06268v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems are increasingly integrated into clinical workflows; however, prompt inje...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.06268) | [📝 Analysis](68af914843ae916b347d779ccfe13734.md)
+
+---
+
+### Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review
+
+**Score:** 92.0 | **Published:** 2026-02-09 | **Authors:** Sungduk Yu, Man Luo, Avinash Madasu, Vasudev Lal, Phillip Howard
+
+arXiv:2502.19614v3 Announce Type: replace 
+Abstract: Peer review is a critical process for ensuring the integrity of published scientific research. Confidence in this process is predicated on the assu...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.19614) | [📝 Analysis](902db667c98ab416ae4f49c70065e972.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-09 10:19:03 UTC*

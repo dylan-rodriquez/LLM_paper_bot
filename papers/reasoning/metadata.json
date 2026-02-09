@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Large Language Model Reasoning Failures",
+      "authors": [
+        "Peiyang Song, Pengrui Han, Noah Goodman"
+      ],
+      "abstract": "arXiv:2602.06176v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite these advances, significant reasoning failures persist, occurring even in seemingly simple scenarios. To systematically understand and address these shortcomings, we present the first comprehensive survey dedicated to reasoning failures in LLMs. We introduce a novel categorization framework that distinguishes reasoning into embodied and non-embodied types, with the latter further subdivided into informal (intuitive) and formal (logical) reasoning. In parallel, we classify reasoning failures along a complementary axis into three types: fundamental failures intrinsic to LLM architectures that broadly affect downstream tasks; application-specific limitations that manifest in particular domains; and robustness issues characterized by inconsistent performance across minor variations. For each reasoning failure, we provide a clear definition, analyze existing studies, explore root causes, and present mitigation strategies. By unifying fragmented research efforts, our survey provides a structured perspective on systemic weaknesses in LLM reasoning, offering valuable insights and guiding future research towards building stronger, more reliable, and robust reasoning capabilities. We additionally release a comprehensive collection of research works on LLM reasoning failures, as a GitHub repository at https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures, to provide an easy entry point to this area.",
+      "url": "https://arxiv.org/abs/2602.06176",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "failures",
+        "reasoning failures",
+        "llm",
+        "llm reasoning",
+        "research",
+        "capabilities",
+        "comprehensive",
+        "embodied",
+        "github"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and timely problem in the field of LLMs \u2013 their reasoning failures. The proposed categorization framework (embodied/non-embodied, and failure types) appears well-structured and provides a valuable lens for analyzing these shortcomings. While a survey, the novelty lies in the comprehensive and systematic approach to classifying failures, which will likely be well-received by the community and drive further research.",
+      "paper_id": "46554b28bc5ab1df5490480c2c0daf88"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-09T10:19:03.204207"
 }

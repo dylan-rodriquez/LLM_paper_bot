@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making",
+      "authors": [
+        "M3 Team, Chengfeng Dou, Fan Yang, Fei Li, Jiyuan Jia, Qiang Ju, Shuai Wang, Tianpeng Li, Xiangrong Zeng, Yijie Zhou, Hongda Zhang, Jinyang Tai, Linzhuang Sun, Peidong Guo, Yichuan Mo, Xiaochuan Wang, Hengfu Cui, Zhishou Zhang"
+      ],
+      "abstract": "arXiv:2602.06570v1 Announce Type: new \nAbstract: We introduce Baichuan-M3, a medical-enhanced large language model engineered to shift the paradigm from passive question-answering to active, clinical-grade decision support. Addressing the limitations of existing systems in open-ended consultations, Baichuan-M3 utilizes a specialized training pipeline to model the systematic workflow of a physician. Key capabilities include: (i) proactive information acquisition to resolve ambiguity; (ii) long-horizon reasoning that unifies scattered evidence into coherent diagnoses; and (iii) adaptive hallucination suppression to ensure factual reliability. Empirical evaluations demonstrate that Baichuan-M3 achieves state-of-the-art results on HealthBench, the newly introduced HealthBench-Hallu and ScanBench, significantly outperforming GPT-5.2 in clinical inquiry, advisory and safety. The models are publicly available at https://huggingface.co/collections/baichuan-inc/baichuan-m3.",
+      "url": "https://arxiv.org/abs/2602.06570",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "baichuan",
+        "baichuan m3",
+        "m3",
+        "clinical",
+        "clinical inquiry",
+        "decision",
+        "healthbench",
+        "inquiry",
+        "medical",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 improving the reliability and clinical utility of LLMs in healthcare. The claim of outperforming GPT-5.2 on multiple medical benchmarks, including a newly introduced HealthBench-Hallu, is compelling. While the abstract doesn't detail the 'specialized training pipeline,' the focus on proactive information acquisition, long-horizon reasoning, and hallucination suppression suggests a thoughtful approach, making it a strong contribution to the field.",
+      "paper_id": "9f8283f514a262a81fc8a355a2dfae80"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-09T10:19:03.201951"
 }

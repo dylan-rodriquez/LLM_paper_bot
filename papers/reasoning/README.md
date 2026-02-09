@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Model Reasoning Failures
+
+**Score:** 92.0 | **Published:** 2026-02-09 | **Authors:** Peiyang Song, Pengrui Han, Noah Goodman
+
+arXiv:2602.06176v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks. Despite the...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.06176) | [📝 Analysis](46554b28bc5ab1df5490480c2c0daf88.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-09 10:19:03 UTC*

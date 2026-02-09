@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Condensate Theorem: Transformers are O(n), Not $O(n^2)$
+
+**Score:** 92.0 | **Published:** 2026-02-09 | **Authors:** Jorge L. Ruiz Williams
+
+arXiv:2602.06317v1 Announce Type: cross 
+Abstract: We present the Condensate Theorem: attention sparsity is a learned topological property, not an architectural constraint. Through empirical analysis ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.06317) | [📝 Analysis](6e0e91b2e1651e8ffe4bf4654142f8cb.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-09 10:19:03 UTC*

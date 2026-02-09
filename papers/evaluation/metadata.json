@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
+      "authors": [
+        "Junhyeok Lee, Han Jang, Kyu Sung Choi"
+      ],
+      "abstract": "arXiv:2602.06268v1 Announce Type: new \nAbstract: Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems are increasingly integrated into clinical workflows; however, prompt injection attacks can steer these systems toward clinically unsafe or misleading outputs. We introduce the Medical Prompt Injection Benchmark (MPIB), a dataset-and-benchmark suite for evaluating clinical safety under both direct prompt injection and indirect, RAG-mediated injection across clinically grounded tasks. MPIB emphasizes outcome-level risk via the Clinical Harm Event Rate (CHER), which measures high-severity clinical harm events under a clinically grounded taxonomy, and reports CHER alongside Attack Success Rate (ASR) to disentangle instruction compliance from downstream patient risk. The benchmark comprises 9,697 curated instances constructed through multi-stage quality gates and clinical safety linting. Evaluating MPIB across a diverse set of baseline LLMs and defense configurations, we find that ASR and CHER can diverge substantially, and that robustness depends critically on whether adversarial instructions appear in the user query or in retrieved context. We release MPIB with evaluation code, adversarial baselines, and comprehensive documentation to support reproducible and systematic research on clinical prompt injection. Code and data are available at GitHub (code) and Hugging Face (data).",
+      "url": "https://arxiv.org/abs/2602.06268",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "injection",
+        "mpib",
+        "prompt",
+        "prompt injection",
+        "benchmark",
+        "cher",
+        "clinical safety",
+        "clinically",
+        "code"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and critical problem \u2013 the clinical safety of LLMs \u2013 and proposes a well-defined benchmark (MPIB) to evaluate prompt injection vulnerabilities. The focus on *outcome-level* risk (CHER) is a significant improvement over simply measuring attack success, and the multi-stage quality control suggests a rigorous methodology. The work is timely given the increasing deployment of LLMs in healthcare, and the clear presentation of the problem and proposed solution indicates a high likelihood of positive reception.",
+      "paper_id": "68af914843ae916b347d779ccfe13734"
+    },
+    {
+      "title": "Is Your Paper Being Reviewed by an LLM? Benchmarking AI Text Detection in Peer Review",
+      "authors": [
+        "Sungduk Yu, Man Luo, Avinash Madasu, Vasudev Lal, Phillip Howard"
+      ],
+      "abstract": "arXiv:2502.19614v3 Announce Type: replace \nAbstract: Peer review is a critical process for ensuring the integrity of published scientific research. Confidence in this process is predicated on the assumption that experts in the relevant domain give careful consideration to the merits of manuscripts which are submitted for publication. With the recent rapid advancements in large language models (LLMs), a new risk to the peer review process is that negligent reviewers will rely on LLMs to perform the often time consuming process of reviewing a paper. However, there is a lack of existing resources for benchmarking the detectability of AI text in the domain of peer review. To address this deficiency, we introduce a comprehensive dataset containing a total of 788,984 AI-written peer reviews paired with corresponding human reviews, covering 8 years of papers submitted to each of two leading AI research conferences (ICLR and NeurIPS). We use this new resource to evaluate the ability of 18 existing AI text detection algorithms to distinguish between peer reviews fully written by humans and different state-of-the-art LLMs. Additionally, we explore a context-aware detection method called Anchor, which leverages manuscript content to detect AI-generated reviews, and analyze the sensitivity of detection models to LLM-assisted editing of human-written text. Our work reveals the difficulty of identifying AI-generated text at the individual peer review level, highlighting the urgent need for new tools and methods to detect this unethical use of generative AI. Our dataset is publicly available at: https://huggingface.co/datasets/IntelLabs/AI-Peer-Review-Detection-Benchmark.",
+      "url": "https://arxiv.org/abs/2502.19614",
+      "published_date": "2026-02-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "peer",
+        "peer review",
+        "review",
+        "detection",
+        "text",
+        "process",
+        "reviews",
+        "ai text",
+        "llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the potential for LLM-generated peer reviews to undermine the scientific process. The creation of a large, paired dataset of AI and human reviews from top AI conferences is a significant undertaking and provides a valuable resource for the community. While the methods for *detecting* AI-generated reviews aren't the primary focus (indicated by '18 existing...'), the dataset itself is a strong contribution, and the benchmarking aspect is crucial.",
+      "paper_id": "902db667c98ab416ae4f49c70065e972"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-09T10:19:03.200113"
 }
