@@ -2,7 +2,62 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (18 total)
+
+### DeltaKV: Residual-Based KV Cache Compression via Long-Range Similarity
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** Jitai Hao, Qiang Huang, Yaowei Wang, Min Zhang, Jun Yu
+
+arXiv:2602.08005v1 Announce Type: new 
+Abstract: The deployment of efficient long-context LLMs in applications like autonomous agents, long-chain reasoning, and creative writing is fundamentally bottl...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.08005) | [📝 Analysis](49356edf7dfa4db13a56ccde78305403.md)
+
+---
+
+### When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
+
+arXiv:2602.08235v1 Announce Type: new 
+Abstract: Although computer-use agents (CUAs) hold significant potential to automate increasingly complex OS workflows, they can demonstrate unsafe unintended be...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.08235) | [📝 Analysis](e64d28dad8a18b51dcf52083eca55238.md)
+
+---
+
+### Language Predicts Identity Fusion Across Cultures and Reveals Divergent Pathways to Violence
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** Devin R. Wright, Justin E. Lane, F. LeRon Shults
+
+arXiv:2602.08252v1 Announce Type: new 
+Abstract: In light of increasing polarization and political violence, understanding the psychological roots of extremism is increasingly important. Prior researc...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.08252) | [📝 Analysis](85cc4d6016f93af59b721baab4782c8f.md)
+
+---
+
+### Is Reasoning Capability Enough for Safety in Long-Context Language Models?
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** Yu Fu, Haz Sameen Shahgir, Huanli Gong, Zhipeng Wei, N. Benjamin Erichson, Yue Dong
+
+arXiv:2602.08874v1 Announce Type: new 
+Abstract: Large language models (LLMs) increasingly combine long-context processing with advanced reasoning, enabling them to retrieve and synthesize information...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.08874) | [📝 Analysis](1cf2e16c847eac04f0f6b6c2fbcc52a8.md)
+
+---
+
+### The Judge Who Never Admits: Hidden Shortcuts in LLM-based Evaluation
+
+**Score:** 90.0 | **Published:** 2026-02-10 | **Authors:** Arash Marioriyad, Omid Ghahroodi, Ehsaneddin Asgari, Mohammad Hossein Rohban, Mahdieh Soleymani Baghshah
+
+arXiv:2602.07996v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used as automatic judges to evaluate system outputs in tasks such as reasoning, question answering, and c...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.07996) | [📝 Analysis](edba75335faa5ed6660bb043707aac78.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +203,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-10 10:18:26 UTC*

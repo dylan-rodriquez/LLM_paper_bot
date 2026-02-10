@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** Savan Doshi
+
+arXiv:2602.07319v1 Announce Type: new 
+Abstract: Large language models are increasingly being used in patient-facing medical question answering, where hallucinated outputs can vary widely in potential...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.07319) | [📝 Analysis](111cd48a539c4da3f4537b035382570d.md)
+
+---
+
+### Large Language Models for Geolocation Extraction in Humanitarian Crisis Response
+
+**Score:** 92.0 | **Published:** 2026-02-10 | **Authors:** G. Cafferata, T. Demarco, K. Kalimeri, Y. Mejova, M. G. Beir\'o
+
+arXiv:2602.08872v1 Announce Type: new 
+Abstract: Humanitarian crises demand timely and accurate geographic information to inform effective response efforts. Yet, automated systems that extract locatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.08872) | [📝 Analysis](74754e905fbdbe53fe0aa29f7af91cc7.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-10 10:18:26 UTC*

@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice",
+      "authors": [
+        "Savan Doshi"
+      ],
+      "abstract": "arXiv:2602.07319v1 Announce Type: new \nAbstract: Large language models are increasingly being used in patient-facing medical question answering, where hallucinated outputs can vary widely in potential harm. However, existing hallucination standards and evaluation metrics focus primarily on factual correctness, treating all errors as equally severe. This obscures clinically relevant failure modes, particularly when models generate unsupported but actionable medical language. We propose a risk-sensitive evaluation framework that quantifies hallucinations through the presence of risk-bearing language, including treatment directives, contraindications, urgency cues, and mentions of high-risk medications. Rather than assessing clinical correctness, our approach evaluates the potential impact of hallucinated content if acted upon. We further combine risk scoring with a relevance measure to identify high-risk, low-grounding failures. We apply this framework to three instruction-tuned language models using controlled patient-facing prompts designed as safety stress tests. Our results show that models with similar surface-level behavior exhibit substantially different risk profiles and that standard evaluation metrics fail to capture these distinctions. These findings highlight the importance of incorporating risk sensitivity into hallucination evaluation and suggest that evaluation validity is critically dependent on task and prompt design.",
+      "url": "https://arxiv.org/abs/2602.07319",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "risk",
+        "evaluation",
+        "language",
+        "models",
+        "hallucinated",
+        "medical",
+        "correctness",
+        "evaluation metrics",
+        "facing",
+        "framework"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the deployment of LLMs in healthcare: the nuanced risk associated with hallucinations. Moving beyond simple accuracy metrics to focus on the *actionability* and potential harm of incorrect medical advice is a significant step forward. The proposed risk-sensitive evaluation framework appears well-motivated and the combination of risk scoring with relevance is a clever approach. The work is likely to be well-received by the community given the increasing focus on safety and reliability of medical LLMs.",
+      "paper_id": "111cd48a539c4da3f4537b035382570d"
+    },
+    {
+      "title": "Large Language Models for Geolocation Extraction in Humanitarian Crisis Response",
+      "authors": [
+        "G. Cafferata, T. Demarco, K. Kalimeri, Y. Mejova, M. G. Beir\\'o"
+      ],
+      "abstract": "arXiv:2602.08872v1 Announce Type: new \nAbstract: Humanitarian crises demand timely and accurate geographic information to inform effective response efforts. Yet, automated systems that extract locations from text often reproduce existing geographic and socioeconomic biases, leading to uneven visibility of crisis-affected regions. This paper investigates whether Large Language Models (LLMs) can address these geographic disparities in extracting location information from humanitarian documents. We introduce a two-step framework that combines few-shot LLM-based named entity recognition with an agent-based geocoding module that leverages context to resolve ambiguous toponyms. We benchmark our approach against state-of-the-art pretrained and rule-based systems using both accuracy and fairness metrics across geographic and socioeconomic dimensions. Our evaluation uses an extended version of the HumSet dataset with refined literal toponym annotations. Results show that LLM-based methods substantially improve both the precision and fairness of geolocation extraction from humanitarian texts, particularly for underrepresented regions. By bridging advances in LLM reasoning with principles of responsible and inclusive AI, this work contributes to more equitable geospatial data systems for humanitarian response, advancing the goal of leaving no place behind in crisis analytics.",
+      "url": "https://arxiv.org/abs/2602.08872",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "humanitarian",
+        "based",
+        "geographic",
+        "crisis",
+        "llm",
+        "response",
+        "systems",
+        "extraction",
+        "extraction humanitarian",
+        "fairness"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a highly significant problem \u2013 improving geolocation extraction in humanitarian crises, specifically addressing biases in existing systems. The combination of LLM-based NER with an agent-based geocoding module appears well-reasoned and the use of a refined HumSet dataset strengthens the evaluation. While LLMs are increasingly applied to NLP tasks, applying them with a focus on fairness and a specialized agent-based approach for geocoding demonstrates a solid methodological approach.",
+      "paper_id": "74754e905fbdbe53fe0aa29f7af91cc7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-10T10:18:26.734438"
 }

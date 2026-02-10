@@ -415,7 +415,167 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "DeltaKV: Residual-Based KV Cache Compression via Long-Range Similarity",
+      "authors": [
+        "Jitai Hao, Qiang Huang, Yaowei Wang, Min Zhang, Jun Yu"
+      ],
+      "abstract": "arXiv:2602.08005v1 Announce Type: new \nAbstract: The deployment of efficient long-context LLMs in applications like autonomous agents, long-chain reasoning, and creative writing is fundamentally bottlenecked by the linear growth of KV cache memory. Existing compression and eviction methods often struggle to balance accuracy, compression ratio, and hardware efficiency. We propose DeltaKV, a residual-based KV cache compression framework motivated by two empirical findings: long-range inter-token similarity and highly shared latent components in KV representations. Instead of discarding tokens, DeltaKV encodes semantic residuals relative to retrieved historical references, preserving fidelity while substantially reducing storage. To translate compression gains into real system speedups, we further introduce Sparse-vLLM, a high-performance inference engine with decoupled memory management and kernels optimized for sparse and irregular KV layouts. Experiments show that DeltaKV reduces KV cache memory to 29\\% of the original while maintaining near-lossless accuracy on LongBench, SCBench, and AIME. When integrated with Sparse-vLLM, it achieves up to 2$\\times$ throughput improvement over vLLM in long-context scenarios, demonstrating a practical path toward scalable long-context LLM deployment. Code, model checkpoints, and datasets are available at https://github.com/CURRENTF/Sparse-vLLM.",
+      "url": "https://arxiv.org/abs/2602.08005",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "kv",
+        "long",
+        "compression",
+        "cache",
+        "deltakv",
+        "kv cache",
+        "sparse",
+        "vllm",
+        "context",
+        "long context"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial bottleneck in LLM deployment \u2013 KV cache size. The approach of using residual encoding based on long-range similarity is a clever way to compress the cache while preserving information. The introduction of Sparse-vLLM suggests a focus on practical implementation and system-level optimization, increasing the likelihood of real-world impact. The abstract is well-written and clearly articulates the problem and proposed solution.",
+      "paper_id": "49356edf7dfa4db13a56ccde78305403"
+    },
+    {
+      "title": "When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents",
+      "authors": [
+        "Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun"
+      ],
+      "abstract": "arXiv:2602.08235v1 Announce Type: new \nAbstract: Although computer-use agents (CUAs) hold significant potential to automate increasingly complex OS workflows, they can demonstrate unsafe unintended behaviors that deviate from expected outcomes even under benign input contexts. However, exploration of this risk remains largely anecdotal, lacking concrete characterization and automated methods to proactively surface long-tail unintended behaviors under realistic CUA scenarios. To fill this gap, we introduce the first conceptual and methodological framework for unintended CUA behaviors, by defining their key characteristics, automatically eliciting them, and analyzing how they arise from benign inputs. We propose AutoElicit: an agentic framework that iteratively perturbs benign instructions using CUA execution feedback, and elicits severe harms while keeping perturbations realistic and benign. Using AutoElicit, we surface hundreds of harmful unintended behaviors from state-of-the-art CUAs such as Claude 4.5 Haiku and Opus. We further evaluate the transferability of human-verified successful perturbations, identifying persistent susceptibility to unintended behaviors across various other frontier CUAs. This work establishes a foundation for systematically analyzing unintended behaviors in realistic computer-use settings.",
+      "url": "https://arxiv.org/abs/2602.08235",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "behaviors",
+        "unintended",
+        "unintended behaviors",
+        "benign",
+        "computer",
+        "computer use",
+        "cua",
+        "cuas",
+        "realistic",
+        "use"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and timely problem in the rapidly evolving field of computer-use agents \u2013 the potential for unintended and harmful behaviors. The introduction of a framework (AutoElicit) for automatically eliciting these behaviors from benign inputs is a strong methodological contribution. While the abstract doesn't detail the specifics of the framework, the claim of surfacing 'hundreds' of harmful behaviors suggests a robust and valuable investigation, positioning it for positive reception within the AI safety community.",
+      "paper_id": "e64d28dad8a18b51dcf52083eca55238"
+    },
+    {
+      "title": "Language Predicts Identity Fusion Across Cultures and Reveals Divergent Pathways to Violence",
+      "authors": [
+        "Devin R. Wright, Justin E. Lane, F. LeRon Shults"
+      ],
+      "abstract": "arXiv:2602.08252v1 Announce Type: new \nAbstract: In light of increasing polarization and political violence, understanding the psychological roots of extremism is increasingly important. Prior research shows that identity fusion predicts willingness to engage in extreme acts. We evaluate the Cognitive Linguistic Identity Fusion Score, a method that uses cognitive linguistic patterns, LLMs, and implicit metaphor to measure fusion from language. Across datasets from the United Kingdom and Singapore, this approach outperforms existing methods in predicting validated fusion scores. Applied to extremist manifestos, two distinct high-fusion pathways to violence emerge: ideologues tend to frame themselves in terms of group, forming kinship bonds; whereas grievance-driven individuals frame the group in terms of their personal identity. These results refine theories of identity fusion and provide a scalable tool aiding fusion research and extremism detection.",
+      "url": "https://arxiv.org/abs/2602.08252",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "fusion",
+        "identity",
+        "identity fusion",
+        "violence",
+        "cognitive",
+        "cognitive linguistic",
+        "extremism",
+        "frame",
+        "group",
+        "language"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a highly relevant and pressing issue \u2013 understanding the roots of extremism \u2013 and proposes a novel method for measuring identity fusion using cognitive linguistics and LLMs. The reported outperformance compared to existing methods and the identification of divergent pathways to violence are strong indicators of quality. The use of datasets from multiple cultures adds to the robustness of the findings, and the potential for a scalable tool for extremism detection is significant.",
+      "paper_id": "85cc4d6016f93af59b721baab4782c8f"
+    },
+    {
+      "title": "Is Reasoning Capability Enough for Safety in Long-Context Language Models?",
+      "authors": [
+        "Yu Fu, Haz Sameen Shahgir, Huanli Gong, Zhipeng Wei, N. Benjamin Erichson, Yue Dong"
+      ],
+      "abstract": "arXiv:2602.08874v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly combine long-context processing with advanced reasoning, enabling them to retrieve and synthesize information distributed across tens of thousands of tokens. A hypothesis is that stronger reasoning capability should improve safety by helping models recognize harmful intent even when it is not stated explicitly. We test this hypothesis in long-context settings where harmful intent is implicit and must be inferred through reasoning, and find that it does not hold. We introduce compositional reasoning attacks, a new threat model in which a harmful query is decomposed into incomplete fragments that scattered throughout a long context. The model is then prompted with a neutral reasoning query that induces retrieval and synthesis, causing the harmful intent to emerge only after composition. Evaluating 14 frontier LLMs on contexts up to 64k tokens, we uncover three findings: (1) models with stronger general reasoning capability are not more robust to compositional reasoning attacks, often assembling the intent yet failing to refuse; (2) safety alignment consistently degrades as context length increases; and (3) inference-time reasoning effort is a key mitigating factor: increasing inference-time compute reduces attack success by over 50 percentage points on GPT-oss-120b model. Together, these results suggest that safety does not automatically scale with reasoning capability, especially under long-context inference.",
+      "url": "https://arxiv.org/abs/2602.08874",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "context",
+        "long",
+        "long context",
+        "capability",
+        "harmful",
+        "intent",
+        "models",
+        "reasoning capability",
+        "safety"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical safety concern with increasingly capable LLMs \u2013 the potential for harmful intent to emerge from seemingly benign long-context interactions. The introduction of 'compositional reasoning attacks' is a novel and concerning threat model. The evaluation across 14 frontier models with 64k context windows demonstrates a rigorous approach and suggests a significant gap in current safety mechanisms. The findings are likely to be well-received by the LLM safety community.",
+      "paper_id": "1cf2e16c847eac04f0f6b6c2fbcc52a8"
+    },
+    {
+      "title": "The Judge Who Never Admits: Hidden Shortcuts in LLM-based Evaluation",
+      "authors": [
+        "Arash Marioriyad, Omid Ghahroodi, Ehsaneddin Asgari, Mohammad Hossein Rohban, Mahdieh Soleymani Baghshah"
+      ],
+      "abstract": "arXiv:2602.07996v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as automatic judges to evaluate system outputs in tasks such as reasoning, question answering, and creative writing. A faithful judge should base its verdicts solely on content quality, remain invariant to irrelevant context, and transparently reflect the factors driving its decisions. We test this ideal via controlled cue perturbations-synthetic metadata labels injected into evaluation prompts-for six judge models: GPT-4o, Gemini-2.0-Flash, Gemma-3-27B, Qwen3-235B, Claude-3-Haiku, and Llama3-70B. Experiments span two complementary datasets with distinct evaluation regimes: ELI5 (factual QA) and LitBench (open-ended creative writing). We study six cue families: source, temporal, age, gender, ethnicity, and educational status. Beyond measuring verdict shift rates (VSR), we introduce cue acknowledgment rate (CAR) to quantify whether judges explicitly reference the injected cues in their natural-language rationales. Across cues with strong behavioral effects-e.g., provenance hierarchies (Expert > Human > LLM > Unknown), recency preferences (New > Old), and educational-status favoritism-CAR is typically at or near zero, indicating that shortcut reliance is largely unreported even when it drives decisions. Crucially, CAR is also dataset-dependent: explicit cue recognition is more likely to surface in the factual ELI5 setting for some models and cues, but often collapses in the open-ended LitBench regime, where large verdict shifts can persist despite zero acknowledgment. The combination of substantial verdict sensitivity and limited cue acknowledgment reveals an explanation gap in LLM-as-judge pipelines, raising concerns about reliability of model-based evaluation in both research and deployment.",
+      "url": "https://arxiv.org/abs/2602.07996",
+      "published_date": "2026-02-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "cue",
+        "evaluation",
+        "judge",
+        "acknowledgment",
+        "car",
+        "cues",
+        "llm",
+        "models",
+        "verdict",
+        "based"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a crucial issue in the rapidly evolving field of LLMs \u2013 the reliability and fairness of LLM-based evaluation. The methodology of injecting controlled cues and measuring both verdict shift and cue acknowledgment rates is clever and well-defined. The study's scope, covering multiple models and datasets, strengthens its findings and suggests a broad relevance to the community. The high sentiment score reflects the current focus on LLM alignment and evaluation.",
+      "paper_id": "edba75335faa5ed6660bb043707aac78"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-10T10:18:26.736128"
 }
