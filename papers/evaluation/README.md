@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### LingxiDiagBench: A Multi-Agent Framework for Benchmarking LLMs in Chinese Psychiatric Consultation and Diagnosis
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Shihao Xu, Tiancheng Zhou, Jiatong Ma, Yanli Ding, Yiming Yan, Ming Xiao, Guoyi Li, Haiyang Geng, Yunyun Han, Jianhua Chen, Yafeng Deng
+
+arXiv:2602.09379v1 Announce Type: cross 
+Abstract: Mental disorders are highly prevalent worldwide, but the shortage of psychiatrists and the inherent subjectivity of interview-based diagnosis create ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.09379) | [📝 Analysis](0db85902bfacf3b96f957110c081fd25.md)
+
+---
+
+### LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Nam V. Nguyen, Thong T. Doan, Luong Tran, Van Nguyen, Quang Pham
+
+arXiv:2411.00918v4 Announce Type: replace 
+Abstract: Mixture of experts (MoE) architectures have become a cornerstone for scaling up and are a key component in most large language models such as GPT-O...
+
+[📄 Full Paper](https://arxiv.org/abs/2411.00918) | [📝 Analysis](8e7ea1e2d7d4f30283cd4b9ec7c28c7a.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-11 10:01:52 UTC*

@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Overview of PAN 2026: Voight-Kampff Generative AI Detection, Text Watermarking, Multi-Author Writing Style Analysis, Generative Plagiarism Detection, and Reasoning Trajectory Detection",
+      "authors": [
+        "Janek Bevendorff, Maik Fr\\\"obe, Andr\\'e Greiner-Petter, Andreas Jakoby, Maximilian Mayerl, Preslav Nakov, Henry Plutz, Martin Potthast, Benno Stein, Minh Ngoc Ta, Yuxia Wang, Eva Zangerle"
+      ],
+      "abstract": "arXiv:2602.09147v1 Announce Type: new \nAbstract: The goal of the PAN workshop is to advance computational stylometry and text forensics via objective and reproducible evaluation. In 2026, we run the following five tasks: (1) Voight-Kampff Generative AI Detection, particularly in mixed and obfuscated authorship scenarios, (2) Text Watermarking, a new task that aims to find new and benchmark the robustness of existing text watermarking schemes, (3) Multi-author Writing Style Analysis, a continued task that aims to find positions of authorship change, (4) Generative Plagiarism Detection, a continued task that targets source retrieval and text alignment between generated text and source documents, and (5) Reasoning Trajectory Detection, a new task that deals with source detection and safety detection of LLM-generated or human-written reasoning trajectories. As in previous years, PAN invites software submissions as easy-to-reproduce Docker containers for most of the tasks. Since PAN 2012, more than 1,100 submissions have been made this way via the TIRA experimentation platform.",
+      "url": "https://arxiv.org/abs/2602.09147",
+      "published_date": "2026-02-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "detection",
+        "text",
+        "generative",
+        "new",
+        "pan",
+        "task",
+        "reasoning",
+        "source",
+        "text watermarking",
+        "watermarking"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper outlines a highly relevant and timely set of challenges for the computational stylometry and text forensics community. The focus on generative AI detection, text watermarking, and reasoning trajectory detection addresses critical concerns in the current landscape. While the tasks themselves aren't entirely novel, the combination and emphasis on reproducibility via Docker containers strengthens the research's value and potential impact. The inclusion of both continued and new tasks demonstrates a commitment to both building upon existing work and exploring emerging challenges.",
+      "paper_id": "b032f28e34d8d214e8bd2a08a8c7623f"
+    },
+    {
+      "title": "The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies",
+      "authors": [
+        "Chenxu Wang, Chaozhuo Li, Songyang Liu, Zejian Chen, Jinyu Hou, Ji Qi, Rui Li, Litian Zhang, Qiwei Ye, Zheng Liu, Xu Chen, Xi Zhang, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2602.09877v1 Announce Type: new \nAbstract: The emergence of multi-agent systems built from large language models (LLMs) offers a promising paradigm for scalable collective intelligence and self-evolution. Ideally, such systems would achieve continuous self-improvement in a fully closed loop while maintaining robust safety alignment--a combination we term the self-evolution trilemma. However, we demonstrate both theoretically and empirically that an agent society satisfying continuous self-evolution, complete isolation, and safety invariance is impossible. Drawing on an information-theoretic framework, we formalize safety as the divergence degree from anthropic value distributions. We theoretically demonstrate that isolated self-evolution induces statistical blind spots, leading to the irreversible degradation of the system's safety alignment. Empirical and qualitative results from an open-ended agent community (Moltbook) and two closed self-evolving systems reveal phenomena that align with our theoretical prediction of inevitable safety erosion. We further propose several solution directions to alleviate the identified safety concern. Our work establishes a fundamental limit on the self-evolving AI societies and shifts the discourse from symptom-driven safety patches to a principled understanding of intrinsic dynamical risks, highlighting the need for external oversight or novel safety-preserving mechanisms.",
+      "url": "https://arxiv.org/abs/2602.09877",
+      "published_date": "2026-02-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "self",
+        "evolution",
+        "self evolution",
+        "agent",
+        "evolving",
+        "self evolving",
+        "systems",
+        "ai",
+        "ai societies"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of multi-agent LLM systems \u2013 the inherent difficulty of maintaining safety during self-evolution. The theoretical framing using information divergence and the empirical validation with 'Moltbook' and closed systems suggest a rigorous approach. The framing of the 'self-evolution trilemma' is compelling and the potential for safety degradation is a significant concern, making this work highly relevant.",
+      "paper_id": "1f5c7b871cd93c9d260b22825da10520"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-11T10:01:52.460718"
 }

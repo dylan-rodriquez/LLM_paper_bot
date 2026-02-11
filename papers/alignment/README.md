@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Overview of PAN 2026: Voight-Kampff Generative AI Detection, Text Watermarking, Multi-Author Writing Style Analysis, Generative Plagiarism Detection, and Reasoning Trajectory Detection
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Janek Bevendorff, Maik Fr\"obe, Andr\'e Greiner-Petter, Andreas Jakoby, Maximilian Mayerl, Preslav Nakov, Henry Plutz, Martin Potthast, Benno Stein, Minh Ngoc Ta, Yuxia Wang, Eva Zangerle
+
+arXiv:2602.09147v1 Announce Type: new 
+Abstract: The goal of the PAN workshop is to advance computational stylometry and text forensics via objective and reproducible evaluation. In 2026, we run the f...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.09147) | [📝 Analysis](b032f28e34d8d214e8bd2a08a8c7623f.md)
+
+---
+
+### The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Chenxu Wang, Chaozhuo Li, Songyang Liu, Zejian Chen, Jinyu Hou, Ji Qi, Rui Li, Litian Zhang, Qiwei Ye, Zheng Liu, Xu Chen, Xi Zhang, Philip S. Yu
+
+arXiv:2602.09877v1 Announce Type: new 
+Abstract: The emergence of multi-agent systems built from large language models (LLMs) offers a promising paradigm for scalable collective intelligence and self-...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.09877) | [📝 Analysis](1f5c7b871cd93c9d260b22825da10520.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-11 10:01:52 UTC*

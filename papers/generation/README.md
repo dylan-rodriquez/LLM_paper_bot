@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Zichen Wen, Jiashu Qu, Zhaorun Chen, Xiaoya Lu, Dongrui Liu, Zhiyuan Liu, Ruixi Wu, Yicun Yang, Xiangqi Jin, Haoyun Xu, Xuyang Liu, Weijia Li, Chaochao Lu, Jing Shao, Conghui He, Linfeng Zhang
+
+arXiv:2507.11097v2 Announce Type: replace 
+Abstract: Diffusion-based large language models (dLLMs) have recently emerged as a powerful alternative to autoregressive LLMs, offering faster inference and...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.11097) | [📝 Analysis](614f07f49fcbe1ebfb0355caa34ed310.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-11 10:01:52 UTC*

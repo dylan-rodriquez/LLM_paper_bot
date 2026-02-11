@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### SWE-AGI: Benchmarking Specification-Driven Software Construction with MoonBit in the Era of Autonomous Agents
+
+**Score:** 92.0 | **Published:** 2026-02-11 | **Authors:** Zhirui Zhang, Hongbo Zhang, Haoxiang Fei, Zhiyuan Bao, Yubin Chen, Zhengyu Lei, Ziyue Liu, Yixuan Sun, Mingkun Xiao, Zihang Ye, Yu Zhang, Hongcheng Zhu, Yuxiang Wen, Heung-Yeung Shum
+
+arXiv:2602.09447v1 Announce Type: cross 
+Abstract: Although large language models (LLMs) have demonstrated impressive coding capabilities, their ability to autonomously build production-scale software...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.09447) | [📝 Analysis](59256985c241cdd71ce2ee0f1592cdcc.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-11 10:01:52 UTC*

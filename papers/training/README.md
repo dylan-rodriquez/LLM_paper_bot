@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### AlignTune: Modular Toolkit for Post-Training Alignment of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-02-11 | **Authors:** R E Zera Marveen Lyngkhoi, Chirag Chawla, Pratinav Seth, Utsav Avaiya, Soham Bhattacharjee, Mykola Khandoga, Rui Yuan, Vinay Kumar Sankarapu
+
+arXiv:2602.09621v1 Announce Type: new 
+Abstract: Post-training alignment is central to deploying large language models (LLMs), yet practical workflows remain split across backend-specific tools and ad...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.09621) | [📝 Analysis](046ab0895e341b2994884aa5f8559722.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-11 10:01:52 UTC*

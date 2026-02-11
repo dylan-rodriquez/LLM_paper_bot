@@ -159,7 +159,39 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models",
+      "authors": [
+        "Lingzhe Zhang, Liancheng Fang, Chiming Duan, Minghua He, Leyi Pan, Pei Xiao, Shiyu Huang, Yunpeng Zhai, Xuming Hu, Philip S. Yu, Aiwei Liu"
+      ],
+      "abstract": "arXiv:2508.08712v4 Announce Type: replace \nAbstract: As text generation has become a core capability of modern Large Language Models (LLMs), it underpins a wide range of downstream applications. However, most existing LLMs rely on autoregressive (AR) generation, producing one token at a time based on previously generated context-resulting in limited generation speed due to the inherently sequential nature of the process. To address this challenge, an increasing number of researchers have begun exploring parallel text generation-a broad class of techniques aimed at breaking the token-by-token generation bottleneck and improving inference efficiency. Despite growing interest, there remains a lack of comprehensive analysis on what specific techniques constitute parallel text generation and how they improve inference performance. To bridge this gap, we present a systematic survey of parallel text generation methods. We categorize existing approaches into AR-based and Non-AR-based paradigms, and provide a detailed examination of the core techniques within each category. Following this taxonomy, we assess their theoretical trade-offs in terms of speed, quality, and efficiency, and examine their potential for combination and comparison with alternative acceleration strategies. Finally, based on our findings, we highlight recent advancements, identify open challenges, and outline promising directions for future research in parallel text generation. We have also created a GitHub repository for indexing relevant papers and open resources available at https://github.com/zhanglingzhe0820/Awesome-Parallel-Text-Generation.",
+      "url": "https://arxiv.org/abs/2508.08712",
+      "published_date": "2026-02-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "generation",
+        "parallel",
+        "text",
+        "text generation",
+        "parallel text",
+        "based",
+        "ar",
+        "techniques",
+        "token",
+        "ar based"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This survey paper addresses a highly relevant and timely problem in LLMs \u2013 the inefficiency of autoregressive generation. The systematic categorization of parallel text generation methods is valuable, and the focus on both AR-based and Non-AR-based paradigms demonstrates a comprehensive approach. While the survey itself isn't inherently innovative in terms of *new* methods, its organization and analysis of existing work are strong, and the topic is poised for significant future research.",
+      "paper_id": "90a24a7ac01e4fcf9019b24f1c716068"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2026-02-11T10:01:52.466549"
 }
