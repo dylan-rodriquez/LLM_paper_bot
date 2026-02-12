@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The CLEF-2026 FinMMEval Lab: Multilingual and Multimodal Evaluation of Financial AI Systems",
+      "authors": [
+        "Zhuohan Xie, Rania Elbadry, Fan Zhang, Georgi Georgiev, Xueqing Peng, Lingfei Qian, Jimin Huang, Dimitar Dimitrov, Vanshikaa Jani, Yuyang Dai, Jiahui Geng, Yuxia Wang, Ivan Koychev, Veselin Stoyanov, Preslav Nakov"
+      ],
+      "abstract": "arXiv:2602.10886v1 Announce Type: new \nAbstract: We present the setup and the tasks of the FinMMEval Lab at CLEF 2026, which introduces the first multilingual and multimodal evaluation framework for financial Large Language Models (LLMs). While recent advances in financial natural language processing have enabled automated analysis of market reports, regulatory documents, and investor communications, existing benchmarks remain largely monolingual, text-only, and limited to narrow subtasks. FinMMEval 2026 addresses this gap by offering three interconnected tasks that span financial understanding, reasoning, and decision-making: Financial Exam Question Answering, Multilingual Financial Question Answering (PolyFiQA), and Financial Decision Making. Together, these tasks provide a comprehensive evaluation suite that measures models' ability to reason, generalize, and act across diverse languages and modalities. The lab aims to promote the development of robust, transparent, and globally inclusive financial AI systems, with datasets and evaluation resources publicly released to support reproducible research.",
+      "url": "https://arxiv.org/abs/2602.10886",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "financial",
+        "evaluation",
+        "2026",
+        "finmmeval",
+        "lab",
+        "multilingual",
+        "tasks",
+        "ai",
+        "ai systems",
+        "answering"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in financial NLP \u2013 the lack of robust, multilingual, and multimodal benchmarks. The proposed FinMMEval lab and its three tasks represent a significant step towards more realistic and comprehensive evaluation of financial LLMs. The focus on reasoning and decision-making, alongside multilingual capabilities, is particularly valuable given the global nature of finance. The clear articulation of the problem and proposed solution suggests a high likelihood of positive reception within the community.",
+      "paper_id": "846c54ff9fe503dbca8c1d21d399aa7b"
+    },
+    {
+      "title": "When Speculation Spills Secrets: Side Channels via Speculative Decoding In LLMs",
+      "authors": [
+        "Jiankun Wei, Abdulrahman Abdulrazzag, Tianchen Zhang, Adel Muursepp, Gururaj Saileshwar"
+      ],
+      "abstract": "arXiv:2411.01076v4 Announce Type: replace \nAbstract: Deployed large language models (LLMs) often rely on speculative decoding, a technique that generates and verifies multiple candidate tokens in parallel, to improve throughput and latency. In this work, we reveal a new side-channel whereby input-dependent patterns of correct and incorrect speculations can be inferred by monitoring per-iteration token counts or packet sizes. In evaluations using research prototypes and production-grade vLLM serving frameworks, we show that an adversary monitoring these patterns can fingerprint user queries (from a set of 50 prompts) with over 75% accuracy across four speculative-decoding schemes at temperature 0.3: REST (100%), LADE (91.6%), BiLD (95.2%), and EAGLE (77.6%). Even at temperature 1.0, accuracy remains far above the 2% random baseline - REST (99.6%), LADE (61.2%), BiLD (63.6%), and EAGLE (24%). We also show the capability of the attacker to leak confidential datastore contents used for prediction at rates exceeding 25 tokens/sec. To defend against these, we propose and evaluate a suite of mitigations, including packet padding and iteration-wise token aggregation.",
+      "url": "https://arxiv.org/abs/2411.01076",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "decoding",
+        "speculative",
+        "speculative decoding",
+        "accuracy",
+        "bild",
+        "eagle",
+        "iteration",
+        "lade",
+        "llms",
+        "monitoring"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper identifies a critical security vulnerability in a widely used LLM optimization technique (speculative decoding). The demonstrated ability to fingerprint queries and potentially leak data with high accuracy, even at higher temperatures, is concerning. The research appears rigorous, evaluating across multiple schemes and frameworks, and the findings are clearly presented, suggesting a strong likelihood of positive reception within the LLM security community.",
+      "paper_id": "5c1c30e6edfb7f571984083b1135304a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-12T10:06:02.784164"
 }

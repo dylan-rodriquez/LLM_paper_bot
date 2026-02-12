@@ -2,7 +2,40 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (9 total)
+
+### Towards Autonomous Mathematics Research
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Tony Feng (Maggie), Trieu H. Trinh (Maggie), Garrett Bingham (Maggie), Dawsen Hwang (Maggie), Yuri Chervonyi (Maggie), Junehyuk Jung (Maggie), Joonkyung Lee (Maggie), Carlo Pagano (Maggie), Sang-hyun Kim (Maggie), Federico Pasqualotto (Maggie), Sergei Gukov (Maggie), Jonathan N. Lee (Maggie), Junsu Kim (Maggie), Kaiying Hou (Maggie), Golnaz Ghiasi (Maggie), Yi Tay (Maggie), YaGuang Li (Maggie), Chenkai Kuang (Maggie), Yuan Liu (Maggie),  Hanzhao (Maggie),  Lin, Evan Zheran Liu, Nigamaa Nayakanti, Xiaomeng Yang, Heng-tze Cheng, Demis Hassabis, Koray Kavukcuoglu, Quoc V. Le, Thang Luong
+
+arXiv:2602.10177v1 Announce Type: cross 
+Abstract: Recent advances in foundational models have yielded reasoning systems capable of achieving a gold-medal standard at the International Mathematical Ol...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10177) | [📝 Analysis](7998900a3eb989f33c9b685397b065a0.md)
+
+---
+
+### The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Peiran Wang, Xinfeng Li, Chong Xiang, Jinghuai Zhang, Ying Li, Lixia Zhang, Xiaofeng Wang, Yuan Tian
+
+arXiv:2602.10453v1 Announce Type: cross 
+Abstract: The evolution of Large Language Models (LLMs) has resulted in a paradigm shift towards autonomous agents, necessitating robust security against Promp...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10453) | [📝 Analysis](9ae8dca7a52719044c2c7be9ab88185e.md)
+
+---
+
+### TestExplora: Benchmarking LLMs for Proactive Bug Discovery via Repository-Level Test Generation
+
+**Score:** 90.0 | **Published:** 2026-02-12 | **Authors:** Steven Liu, Jane Luo, Xin Zhang, Aofan Liu, Hao Liu, Jie Wu, Ziyang Huang, Yangyu Huang, Yu Kang, Scarlett Li
+
+arXiv:2602.10471v1 Announce Type: cross 
+Abstract: Given that Large Language Models (LLMs) are increasingly applied to automate software development, comprehensive software assurance spans three disti...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10471) | [📝 Analysis](6968777a330cc8efb6139401ec43ce20.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +104,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-12 10:06:02 UTC*

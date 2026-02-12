@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The CLEF-2026 FinMMEval Lab: Multilingual and Multimodal Evaluation of Financial AI Systems
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Zhuohan Xie, Rania Elbadry, Fan Zhang, Georgi Georgiev, Xueqing Peng, Lingfei Qian, Jimin Huang, Dimitar Dimitrov, Vanshikaa Jani, Yuyang Dai, Jiahui Geng, Yuxia Wang, Ivan Koychev, Veselin Stoyanov, Preslav Nakov
+
+arXiv:2602.10886v1 Announce Type: new 
+Abstract: We present the setup and the tasks of the FinMMEval Lab at CLEF 2026, which introduces the first multilingual and multimodal evaluation framework for f...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10886) | [📝 Analysis](846c54ff9fe503dbca8c1d21d399aa7b.md)
+
+---
+
+### When Speculation Spills Secrets: Side Channels via Speculative Decoding In LLMs
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Jiankun Wei, Abdulrahman Abdulrazzag, Tianchen Zhang, Adel Muursepp, Gururaj Saileshwar
+
+arXiv:2411.01076v4 Announce Type: replace 
+Abstract: Deployed large language models (LLMs) often rely on speculative decoding, a technique that generates and verifies multiple candidate tokens in para...
+
+[📄 Full Paper](https://arxiv.org/abs/2411.01076) | [📝 Analysis](5c1c30e6edfb7f571984083b1135304a.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-12 10:06:02 UTC*

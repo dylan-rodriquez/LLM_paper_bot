@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage",
+      "authors": [
+        "Preni Golazizian, Elnaz Rahmati, Jackson Trager, Zhivar Sourati, Nona Ghazizadeh, Georgios Chochlakis, Jose Alcocer, Kerby Bennett, Aarya Vijay Devnani, Parsa Hejabi, Harry G. Muttram, Akshay Kiran Padte, Mehrshad Saadatinia, Chenhao Wu, Alireza S. Zaibari, Michael Sierra-Ar\\'evalo, Nick Weller, Shrikanth Narayanan, Benjamin A. T. Graham, Morteza Dehghani"
+      ],
+      "abstract": "arXiv:2602.10339v1 Announce Type: new \nAbstract: Traffic stops are among the most frequent police-civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounters unfold. Respect is a central dimension of these interactions, shaping public trust and perceived legitimacy, yet its interpretation is inherently subjective and shaped by lived experience, rendering community-specific perspectives a critical consideration. Leveraging unprecedented access to Los Angeles Police Department BWC footage, we introduce the first large-scale traffic-stop dataset annotated with respect ratings and free-text rationales from multiple perspectives. By sampling annotators from police-affiliated, justice-system-impacted, and non-affiliated Los Angeles residents, we enable the systematic study of perceptual differences across diverse communities. To this end, we (i) develop a domain-specific evaluation rubric grounded in procedural justice theory, LAPD training materials, and extensive fieldwork; (ii) introduce a rubric-driven preference data construction framework for perspective-consistent alignment; and (iii) propose a perspective-aware modeling framework that predicts personalized respect ratings and generates annotator-specific rationales for both officers and civilian drivers from traffic-stop transcripts. Across all three annotator groups, our approach improves both rating prediction performance and rationale alignment. Our perspective-aware framework enables law enforcement to better understand diverse community expectations, providing a vital tool for building public trust and procedural legitimacy.",
+      "url": "https://arxiv.org/abs/2602.10339",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "police",
+        "respect",
+        "traffic",
+        "community",
+        "framework",
+        "perspective",
+        "perspectives",
+        "specific",
+        "affiliated",
+        "alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a crucial issue \u2013 the subjective nature of respect in police interactions \u2013 with a novel methodological approach. The creation of a large-scale, multi-perspective annotated dataset of BWC footage is a significant achievement, and grounding the evaluation rubric in procedural justice theory adds rigor. The potential for understanding and mitigating bias in police-civilian encounters is substantial, making this work highly relevant and likely to be well-received.",
+      "paper_id": "e11fe24285c6df73c4214c79e05e7d70"
+    },
+    {
+      "title": "Simultaneous Speech-to-Speech Translation Without Aligned Data",
+      "authors": [
+        "Tom Labiausse, Romain Fabre, Yannick Est\\`eve, Alexandre D\\'efossez, Neil Zeghidour"
+      ],
+      "abstract": "arXiv:2602.11072v1 Announce Type: new \nAbstract: Simultaneous speech translation requires translating source speech into a target language in real-time while handling non-monotonic word dependencies. Traditional approaches rely on supervised training with word-level aligned data, which is difficult to collect at scale and thus depends on synthetic alignments using language-specific heuristics that are suboptimal. We propose Hibiki-Zero, which eliminates the need for word-level alignments entirely. This fundamentally simplifies the training pipeline and enables seamless scaling to diverse languages with varying grammatical structures, removing the bottleneck of designing language-specific alignment heuristics. We first train on sentence-level aligned data to learn speech translation at high latency, then apply a novel reinforcement learning strategy using GRPO to optimize latency while preserving translation quality. Hibiki-Zero achieves state-of-the-art performance in translation accuracy, latency, voice transfer, and naturalness across five X-to-English tasks. Moreover, we demonstrate that our model can be adapted to support a new input language with less than 1000h of speech. We provide examples, model weights, inference code and we release a benchmark containing 45h of multilingual data for speech translation evaluation.",
+      "url": "https://arxiv.org/abs/2602.11072",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "translation",
+        "data",
+        "language",
+        "speech translation",
+        "aligned",
+        "aligned data",
+        "latency",
+        "level",
+        "word"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a significant bottleneck in simultaneous speech translation \u2013 the reliance on aligned data. Eliminating this requirement through Hibiki-Zero and employing reinforcement learning for latency optimization is a strong methodological contribution. The abstract suggests state-of-the-art performance, indicating a high degree of rigor and potential for positive reception within the community.",
+      "paper_id": "0bc05a5e34ae889b68ab144e1e396755"
+    },
+    {
+      "title": "DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning",
+      "authors": [
+        "Yicheng Chen, Zerun Ma, Xinchen Xie, Yining Li, Kai Chen"
+      ],
+      "abstract": "arXiv:2602.11089v1 Announce Type: new \nAbstract: In the current landscape of Large Language Models (LLMs), the curation of large-scale, high-quality training data is a primary driver of model performance. A key lever is the \\emph{data recipe}, which comprises a data processing pipeline to transform raw sources into training corpora. Despite the growing use of LLMs to automate individual data processing steps, such as data synthesis and filtering, the overall design of data recipes remains largely manual and labor-intensive, requiring substantial human expertise and iteration. To bridge this gap, we formulate \\emph{end-to-end data recipe generation} for LLM adaptation. Given a target benchmark and a pool of available data sources, a model is required to output a complete data recipe that adapts a base LLM to the target task. We present DataChef-32B, which performs online reinforcement learning using a proxy reward that predicts downstream performance for candidate recipes. Across six held-out tasks, DataChef-32B produces practical recipes that reach comparable downstream performance to those curated by human experts. Notably, the recipe from DataChef-32B adapts Qwen3-1.7B-Base to the math domain, achieving 66.7 on AIME'25 and surpassing Qwen3-1.7B. This work sheds new light on automating LLM training and developing self-evolving AI systems.",
+      "url": "https://arxiv.org/abs/2602.11089",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "data",
+        "datachef",
+        "llm",
+        "recipe",
+        "recipes",
+        "32b",
+        "data recipe",
+        "datachef 32b",
+        "performance",
+        "training"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial bottleneck in LLM development \u2013 the manual creation of data recipes. The use of reinforcement learning to automate this process is a significant step forward, and the proxy reward approach seems promising. While the abstract doesn't detail the specifics of the RL setup or the proxy reward, the problem statement is well-defined and the initial results (mentioned as 'across six...') suggest positive outcomes. The work is likely to be well-received given the current focus on efficient LLM adaptation.",
+      "paper_id": "193670a4f97d4e3c70339c0bf8bc865e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-12T10:06:02.781667"
 }

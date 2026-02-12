@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Reverse-Engineering Model Editing on Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Zhiyu Sun, Minrui Luo, Yu Wang, Zhili Chen, Tianxing He
+
+arXiv:2602.10134v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are pretrained on corpora containing trillions of tokens and, therefore, inevitably memorize sensitive information. Loca...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10134) | [📝 Analysis](eaeb44456830b62a40ba73aae09d888a.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-12 10:06:02 UTC*

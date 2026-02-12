@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Reverse-Engineering Model Editing on Language Models",
+      "authors": [
+        "Zhiyu Sun, Minrui Luo, Yu Wang, Zhili Chen, Tianxing He"
+      ],
+      "abstract": "arXiv:2602.10134v1 Announce Type: cross \nAbstract: Large language models (LLMs) are pretrained on corpora containing trillions of tokens and, therefore, inevitably memorize sensitive information. Locate-then-edit methods, as a mainstream paradigm of model editing, offer a promising solution by modifying model parameters without retraining. However, in this work, we reveal a critical vulnerability of this paradigm: the parameter updates inadvertently serve as a side channel, enabling attackers to recover the edited data. We propose a two-stage reverse-engineering attack named \\textit{KSTER} (\\textbf{K}ey\\textbf{S}paceRecons\\textbf{T}ruction-then-\\textbf{E}ntropy\\textbf{R}eduction) that leverages the low-rank structure of these updates. First, we theoretically show that the row space of the update matrix encodes a ``fingerprint\" of the edited subjects, enabling accurate subject recovery via spectral analysis. Second, we introduce an entropy-based prompt recovery attack that reconstructs the semantic context of the edit. Extensive experiments on multiple LLMs demonstrate that our attacks can recover edited data with high success rates. Furthermore, we propose \\textit{subspace camouflage}, a defense strategy that obfuscates the update fingerprint with semantic decoys. This approach effectively mitigates reconstruction risks without compromising editing utility. Our code is available at https://github.com/reanatom/EditingAtk.git.",
+      "url": "https://arxiv.org/abs/2602.10134",
+      "published_date": "2026-02-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "textbf",
+        "edited",
+        "editing",
+        "model",
+        "attack",
+        "data",
+        "edit",
+        "edited data",
+        "enabling",
+        "engineering"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a critical vulnerability in a promising area of LLM research \u2013 model editing. The discovery that parameter updates can leak edited data is significant, and the proposed KSTER attack demonstrates a concrete method for exploiting this weakness. The theoretical grounding with spectral analysis and the entropy-based prompt recovery suggest a rigorous approach, though full evaluation details are needed to confirm.",
+      "paper_id": "eaeb44456830b62a40ba73aae09d888a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-02-12T10:06:02.785146"
 }

@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage
+
+**Score:** 92.0 | **Published:** 2026-02-12 | **Authors:** Preni Golazizian, Elnaz Rahmati, Jackson Trager, Zhivar Sourati, Nona Ghazizadeh, Georgios Chochlakis, Jose Alcocer, Kerby Bennett, Aarya Vijay Devnani, Parsa Hejabi, Harry G. Muttram, Akshay Kiran Padte, Mehrshad Saadatinia, Chenhao Wu, Alireza S. Zaibari, Michael Sierra-Ar\'evalo, Nick Weller, Shrikanth Narayanan, Benjamin A. T. Graham, Morteza Dehghani
+
+arXiv:2602.10339v1 Announce Type: new 
+Abstract: Traffic stops are among the most frequent police-civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounters un...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10339) | [📝 Analysis](e11fe24285c6df73c4214c79e05e7d70.md)
+
+---
+
+### Simultaneous Speech-to-Speech Translation Without Aligned Data
+
+**Score:** 90.0 | **Published:** 2026-02-12 | **Authors:** Tom Labiausse, Romain Fabre, Yannick Est\`eve, Alexandre D\'efossez, Neil Zeghidour
+
+arXiv:2602.11072v1 Announce Type: new 
+Abstract: Simultaneous speech translation requires translating source speech into a target language in real-time while handling non-monotonic word dependencies. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11072) | [📝 Analysis](0bc05a5e34ae889b68ab144e1e396755.md)
+
+---
+
+### DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
+
+**Score:** 90.0 | **Published:** 2026-02-12 | **Authors:** Yicheng Chen, Zerun Ma, Xinchen Xie, Yining Li, Kai Chen
+
+arXiv:2602.11089v1 Announce Type: new 
+Abstract: In the current landscape of Large Language Models (LLMs), the curation of large-scale, high-quality training data is a primary driver of model performa...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11089) | [📝 Analysis](193670a4f97d4e3c70339c0bf8bc865e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-12 10:06:02 UTC*
