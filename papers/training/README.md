@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Detecting RLVR Training Data via Structural Convergence of Reasoning
+
+**Score:** 92.0 | **Published:** 2026-02-13 | **Authors:** Hongbo Zhang, Yue Yang, Jianhao Yan, Guangsheng Bao, Yue Zhang, Yue Zhang
+
+arXiv:2602.11792v1 Announce Type: cross 
+Abstract: Reinforcement learning with verifiable rewards (RLVR) is central to training modern reasoning models, but the undisclosed training data raises concer...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11792) | [📝 Analysis](1bd1a487470a937646c632505b142c14.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-13 10:01:41 UTC*

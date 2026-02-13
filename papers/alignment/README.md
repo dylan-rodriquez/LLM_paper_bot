@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Mechanistic Interpretability for Large Language Model Alignment: Progress, Challenges, and Future Directions
+
+**Score:** 92.0 | **Published:** 2026-02-13 | **Authors:** Usman Naseem
+
+arXiv:2602.11180v1 Announce Type: new 
+Abstract: Large language models (LLMs) have achieved remarkable capabilities across diverse tasks, yet their internal decision-making processes remain largely op...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11180) | [📝 Analysis](715f7383386aa863c5d7d518769abe3c.md)
+
+---
+
+### Dissecting Subjectivity and the "Ground Truth" Illusion in Data Annotation
+
+**Score:** 92.0 | **Published:** 2026-02-13 | **Authors:** Sheza Munir, Benjamin Mah, Krisha Kalsi, Shivani Kapania, Julian Posada, Edith Law, Ding Wang, Syed Ishtiaque Ahmed
+
+arXiv:2602.11318v1 Announce Type: cross 
+Abstract: In machine learning, "ground truth" refers to the assumed correct labels used to train and evaluate models. However, the foundational "ground truth" ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11318) | [📝 Analysis](ecd6a9fd23f5293986937826142057a9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-13 10:01:41 UTC*

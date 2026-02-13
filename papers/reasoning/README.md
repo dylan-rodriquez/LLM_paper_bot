@@ -2,7 +2,40 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### Barriers to Discrete Reasoning with Transformers: A Survey Across Depth, Exactness, and Bandwidth
+
+**Score:** 92.0 | **Published:** 2026-02-13 | **Authors:** Michelle Yuan, Weiyi Sun, Amir H. Rezaeian, Jyotika Singh, Sandip Ghoshal, Yao-Ting Wang, Miguel Ballesteros, Yassine Benajiba
+
+arXiv:2602.11175v1 Announce Type: new 
+Abstract: Transformers have become the foundational architecture for a broad spectrum of sequence modeling applications, underpinning state-of-the-art systems in...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11175) | [📝 Analysis](0f977e2720bccbd1cdc8d73bbdd485e9.md)
+
+---
+
+### Benchmark Illusion: Disagreement among LLMs and Its Scientific Consequences
+
+**Score:** 92.0 | **Published:** 2026-02-13 | **Authors:** Eddie Yang, Dashun Wang
+
+arXiv:2602.11898v1 Announce Type: new 
+Abstract: Benchmarks underpin how progress in large language models (LLMs) is measured and trusted. Yet our analyses reveal that apparent convergence in benchmar...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11898) | [📝 Analysis](f7eb59b06f3380bdd3dc06ce2cfa6f15.md)
+
+---
+
+### Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs
+
+**Score:** 90.0 | **Published:** 2026-02-13 | **Authors:** Dong Yan, Jian Liang, Ran He, Tieniu Tan
+
+arXiv:2602.11528v1 Announce Type: cross 
+Abstract: Recent studies have shown that large language models (LLMs) can infer private user attributes (e.g., age, location, gender) from user-generated text ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11528) | [📝 Analysis](f502012d8f7cead738cb679a79e8912c.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +181,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-13 10:01:41 UTC*

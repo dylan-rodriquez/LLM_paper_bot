@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Language Models",
+      "authors": [
+        "Sri Durga Sai Sowmya Kadali, Evangelos E. Papalexakis"
+      ],
+      "abstract": "arXiv:2602.11495v1 Announce Type: cross \nAbstract: Jailbreaking large language models (LLMs) has emerged as a critical security challenge with the widespread deployment of conversational AI systems. Adversarial users exploit these models through carefully crafted prompts to elicit restricted or unsafe outputs, a phenomenon commonly referred to as Jailbreaking. Despite numerous proposed defense mechanisms, attackers continue to develop adaptive prompting strategies, and existing models remain vulnerable. This motivates approaches that examine the internal behavior of LLMs rather than relying solely on prompt-level defenses. In this work, we study jailbreaking from both security and interpretability perspectives by analyzing how internal representations differ between jailbreak and benign prompts. We conduct a systematic layer-wise analysis across multiple open-source models, including GPT-J, LLaMA, Mistral, and the state-space model Mamba, and identify consistent latent-space patterns associated with harmful inputs. We then propose a tensor-based latent representation framework that captures structure in hidden activations and enables lightweight jailbreak detection without model fine-tuning or auxiliary LLM-based detectors. We further demonstrate that the latent signals can be used to actively disrupt jailbreak execution at inference time. On an abliterated LLaMA-3.1-8B model, selectively bypassing high-susceptibility layers blocks 78% of jailbreak attempts while preserving benign behavior on 94% of benign prompts. This intervention operates entirely at inference time and introduces minimal overhead, providing a scalable foundation for achieving stronger coverage by incorporating additional attack distributions or more refined susceptibility thresholds. Our results provide evidence that jailbreak behavior is rooted in identifiable internal structures and suggest a complementary, architecture-agnostic direction for improving LLM security.",
+      "url": "https://arxiv.org/abs/2602.11495",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "jailbreak",
+        "models",
+        "internal",
+        "jailbreaking",
+        "behavior",
+        "benign",
+        "latent",
+        "model",
+        "prompts",
+        "security"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research tackles a highly relevant and critical problem in LLM security \u2013 jailbreaking. The focus on analyzing internal representations for detection is a promising shift from purely prompt-based defenses. The systematic layer-wise analysis across multiple models suggests a rigorous methodology, and the identification of consistent latent-space patterns is a valuable contribution. The work appears well-motivated and addresses a significant gap in current LLM security research.",
+      "paper_id": "ea36de3326370196c7ad4a5d101c42e7"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-13T10:01:41.066223"
 }

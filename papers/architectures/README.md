@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-02-13 | **Authors:** Sri Durga Sai Sowmya Kadali, Evangelos E. Papalexakis
+
+arXiv:2602.11495v1 Announce Type: cross 
+Abstract: Jailbreaking large language models (LLMs) has emerged as a critical security challenge with the widespread deployment of conversational AI systems. A...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11495) | [📝 Analysis](ea36de3326370196c7ad4a5d101c42e7.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-13 10:01:41 UTC*

@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Detecting RLVR Training Data via Structural Convergence of Reasoning",
+      "authors": [
+        "Hongbo Zhang, Yue Yang, Jianhao Yan, Guangsheng Bao, Yue Zhang, Yue Zhang"
+      ],
+      "abstract": "arXiv:2602.11792v1 Announce Type: cross \nAbstract: Reinforcement learning with verifiable rewards (RLVR) is central to training modern reasoning models, but the undisclosed training data raises concerns about benchmark contamination. Unlike pretraining methods, which optimize models using token-level probabilities, RLVR fine-tunes models based on reward feedback from self-generated reasoning trajectories, making conventional likelihood-based detection methods less effective. We show that RLVR induces a distinctive behavioral signature: prompts encountered during RLVR training result in more rigid and similar generations, while unseen prompts retain greater diversity. We introduce Min-$k$NN Distance, a simple black-box detector that quantifies this collapse by sampling multiple completions for a given prompt and computing the average of the $k$ smallest nearest-neighbor edit distances. Min-$k$NN Distance requires no access to the reference model or token probabilities. Experiments across multiple RLVR-trained reasoning models show that Min-$k$NN Distance reliably distinguishes RL-seen examples from unseen ones and outperforms existing membership inference and RL contamination detection baselines.",
+      "url": "https://arxiv.org/abs/2602.11792",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "rlvr",
+        "models",
+        "reasoning",
+        "training",
+        "distance",
+        "min",
+        "min nn",
+        "nn",
+        "nn distance",
+        "based"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of large language models \u2013 benchmark contamination from RLVR training. The proposed 'Min-$k$NN Distance' metric is a clever and practical approach to detecting this contamination, especially given the limitations of traditional likelihood-based methods. The black-box nature of the detector is a significant strength, and the focus on behavioral signatures (rigidity vs. diversity) is a novel insight. The problem is highly relevant, and the potential for mitigating unfair comparisons and improving model evaluation is substantial.",
+      "paper_id": "1bd1a487470a937646c632505b142c14"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-13T10:01:41.067553"
 }

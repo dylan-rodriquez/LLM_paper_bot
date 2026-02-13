@@ -415,7 +415,103 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Barriers to Discrete Reasoning with Transformers: A Survey Across Depth, Exactness, and Bandwidth",
+      "authors": [
+        "Michelle Yuan, Weiyi Sun, Amir H. Rezaeian, Jyotika Singh, Sandip Ghoshal, Yao-Ting Wang, Miguel Ballesteros, Yassine Benajiba"
+      ],
+      "abstract": "arXiv:2602.11175v1 Announce Type: new \nAbstract: Transformers have become the foundational architecture for a broad spectrum of sequence modeling applications, underpinning state-of-the-art systems in natural language processing, vision, and beyond. However, their theoretical limitations in discrete reasoning tasks, such as arithmetic, logical inference, and algorithmic composition, remain a critical open problem. In this survey, we synthesize recent studies from three theoretical perspectives: circuit complexity, approximation theory, and communication complexity, to clarify the structural and computational barriers that transformers face when performing symbolic computations. By connecting these established theoretical frameworks, we provide an accessible and unified account of why current transformer architectures struggle to implement exact discrete algorithms, even as they excel at pattern matching and interpolation. We review key definitions, seminal results, and illustrative examples, highlighting challenges such as depth constraints, difficulty approximating discontinuities, and bottlenecks in inter-token communication. Finally, we discuss implications for model design and suggest promising directions for overcoming these foundational limitations.",
+      "url": "https://arxiv.org/abs/2602.11175",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "discrete",
+        "theoretical",
+        "transformers",
+        "barriers",
+        "communication",
+        "complexity",
+        "depth",
+        "discrete reasoning",
+        "foundational",
+        "limitations"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey paper tackles a crucial limitation of Transformers \u2013 their struggle with discrete reasoning \u2013 by synthesizing insights from three distinct theoretical fields. The approach of connecting circuit complexity, approximation theory, and communication complexity to explain these limitations is strong and provides a unified perspective. While a survey, the synthesis itself represents a valuable contribution, and the topic is highly relevant given the current focus on improving the reasoning capabilities of large language models. The clarity of the abstract suggests a well-written and accessible paper.",
+      "paper_id": "0f977e2720bccbd1cdc8d73bbdd485e9"
+    },
+    {
+      "title": "Benchmark Illusion: Disagreement among LLMs and Its Scientific Consequences",
+      "authors": [
+        "Eddie Yang, Dashun Wang"
+      ],
+      "abstract": "arXiv:2602.11898v1 Announce Type: new \nAbstract: Benchmarks underpin how progress in large language models (LLMs) is measured and trusted. Yet our analyses reveal that apparent convergence in benchmark accuracy can conceal deep epistemic divergence. Using two major reasoning benchmarks - MMLU-Pro and GPQA - we show that LLMs achieving comparable accuracy still disagree on 16-66% of items, and 16-38% among top-performing frontier models. These discrepancies suggest distinct error profiles for different LLMs. When such models are used for scientific data annotation and inference, their hidden disagreements propagate into research results: in re-analyses of published studies in education and political science, switching the annotation model can change estimated treatment effects by more than 80%, and in some cases reverses their sign. Together, these findings illustrate a benchmark illusion, where equal accuracy may conceal disagreement, with model choice becoming a hidden yet consequential variable for scientific reproducibility.",
+      "url": "https://arxiv.org/abs/2602.11898",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "accuracy",
+        "benchmark",
+        "models",
+        "scientific",
+        "16",
+        "accuracy conceal",
+        "analyses",
+        "annotation",
+        "benchmark illusion"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial and timely issue in the LLM field \u2013 the deceptive nature of benchmark scores. The demonstration of significant disagreement between models with comparable accuracy, and the propagation of this disagreement into downstream scientific analyses, is compelling and well-articulated. The methodology appears sound, re-analyzing existing studies to highlight the practical consequences of model choice, and the findings are likely to resonate strongly within the research community.",
+      "paper_id": "f7eb59b06f3380bdd3dc06ce2cfa6f15"
+    },
+    {
+      "title": "Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs",
+      "authors": [
+        "Dong Yan, Jian Liang, Ran He, Tieniu Tan"
+      ],
+      "abstract": "arXiv:2602.11528v1 Announce Type: cross \nAbstract: Recent studies have shown that large language models (LLMs) can infer private user attributes (e.g., age, location, gender) from user-generated text shared online, enabling rapid and large-scale privacy breaches. Existing anonymization-based defenses are coarse-grained, lacking word-level precision in anonymizing privacy-leaking elements. Moreover, they are inherently limited as altering user text to hide sensitive cues still allows attribute inference to occur through models' reasoning capabilities. To address these limitations, we propose a unified defense framework that combines fine-grained anonymization (TRACE) with inference-preventing optimization (RPS). TRACE leverages attention mechanisms and inference chain generation to identify and anonymize privacy-leaking textual elements, while RPS employs a lightweight two-stage optimization strategy to induce model rejection behaviors, thereby preventing attribute inference. Evaluations across diverse LLMs show that TRACE-RPS reduces attribute inference accuracy from around 50\\% to below 5\\% on open-source models. In addition, our approach offers strong cross-model generalization, prompt-variation robustness, and utility-privacy tradeoffs. Our code is available at https://github.com/Jasper-Yan/TRACE-RPS.",
+      "url": "https://arxiv.org/abs/2602.11528",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "inference",
+        "attribute",
+        "attribute inference",
+        "privacy",
+        "rps",
+        "trace",
+        "llms",
+        "models",
+        "user",
+        "anonymization"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a very important and timely problem \u2013 privacy leakage from LLMs. The proposed framework, combining TRACE and RPS, appears well-reasoned and addresses limitations of existing anonymization techniques. The combination of fine-grained anonymization with inference prevention is a strong approach, and the use of attention mechanisms and optimization strategies suggests a rigorous methodology. The problem is highly relevant, and the potential for real-world impact is significant.",
+      "paper_id": "f502012d8f7cead738cb679a79e8912c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-13T10:01:41.064341"
 }

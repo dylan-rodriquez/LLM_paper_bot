@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Mechanistic Interpretability for Large Language Model Alignment: Progress, Challenges, and Future Directions",
+      "authors": [
+        "Usman Naseem"
+      ],
+      "abstract": "arXiv:2602.11180v1 Announce Type: new \nAbstract: Large language models (LLMs) have achieved remarkable capabilities across diverse tasks, yet their internal decision-making processes remain largely opaque. Mechanistic interpretability (i.e., the systematic study of how neural networks implement algorithms through their learned representations and computational structures) has emerged as a critical research direction for understanding and aligning these models. This paper surveys recent progress in mechanistic interpretability techniques applied to LLM alignment, examining methods ranging from circuit discovery to feature visualization, activation steering, and causal intervention. We analyze how interpretability insights have informed alignment strategies including reinforcement learning from human feedback (RLHF), constitutional AI, and scalable oversight. Key challenges are identified, including the superposition hypothesis, polysemanticity of neurons, and the difficulty of interpreting emergent behaviors in large-scale models. We propose future research directions focusing on automated interpretability, cross-model generalization of circuits, and the development of interpretability-driven alignment techniques that can scale to frontier models.",
+      "url": "https://arxiv.org/abs/2602.11180",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "interpretability",
+        "alignment",
+        "models",
+        "large",
+        "mechanistic",
+        "mechanistic interpretability",
+        "challenges",
+        "directions",
+        "future",
+        "including"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and critical problem in the field of LLMs \u2013 alignment \u2013 through the lens of mechanistic interpretability. The survey approach, covering techniques from circuit discovery to RLHF analysis, suggests a thorough understanding of the current landscape. While a survey isn't inherently innovative, synthesizing these methods and identifying key challenges is valuable, and the focus on alignment is particularly timely given current concerns about LLM safety and reliability. The identified challenges (superposition, polysemanticity) are well-recognized and important.",
+      "paper_id": "715f7383386aa863c5d7d518769abe3c"
+    },
+    {
+      "title": "Dissecting Subjectivity and the \"Ground Truth\" Illusion in Data Annotation",
+      "authors": [
+        "Sheza Munir, Benjamin Mah, Krisha Kalsi, Shivani Kapania, Julian Posada, Edith Law, Ding Wang, Syed Ishtiaque Ahmed"
+      ],
+      "abstract": "arXiv:2602.11318v1 Announce Type: cross \nAbstract: In machine learning, \"ground truth\" refers to the assumed correct labels used to train and evaluate models. However, the foundational \"ground truth\" paradigm rests on a positivistic fallacy that treats human disagreement as technical noise rather than a vital sociotechnical signal. This systematic literature review analyzes research published between 2020 and 2025 across seven premier venues: ACL, AIES, CHI, CSCW, EAAMO, FAccT, and NeurIPS, investigating the mechanisms in data annotation practices that facilitate this \"consensus trap\". Our identification phase captured 30,897 records, which were refined via a tiered keyword filtration schema to a high-recall corpus of 3,042 records for manual screening, resulting in a final included corpus of 346 papers for qualitative synthesis. Our reflexive thematic analysis reveals that systemic failures in positional legibility, combined with the recent architectural shift toward human-as-verifier models, specifically the reliance on model-mediated annotations, introduce deep-seated anchoring bias and effectively remove human voices from the loop. We further demonstrate how geographic hegemony imposes Western norms as universal benchmarks, often enforced by the performative alignment of precarious data workers who prioritize requester compliance over honest subjectivity to avoid economic penalties. Critiquing the \"noisy sensor\" fallacy, where statistical models misdiagnose cultural pluralism as random error, we argue for reclaiming disagreement as a high-fidelity signal essential for building culturally competent models. To address these systemic tensions, we propose a roadmap for pluralistic annotation infrastructures that shift the objective from discovering a singular \"right\" answer to mapping the diversity of human experience.",
+      "url": "https://arxiv.org/abs/2602.11318",
+      "published_date": "2026-02-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "human",
+        "models",
+        "annotation",
+        "data",
+        "ground",
+        "ground truth",
+        "truth",
+        "corpus",
+        "data annotation",
+        "disagreement"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial, often overlooked issue in machine learning: the problematic assumption of 'ground truth'. The systematic literature review methodology, covering a broad range of relevant venues and a large initial dataset, suggests a rigorous approach. While a systematic review isn't inherently *novel*, the framing of 'ground truth' as a 'consensus trap' and the focus on sociotechnical signals within annotation practices is a valuable and timely contribution. The identified shift towards 'human-as-verifier' is a particularly interesting angle.",
+      "paper_id": "ecd6a9fd23f5293986937826142057a9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-13T10:01:41.065531"
 }
