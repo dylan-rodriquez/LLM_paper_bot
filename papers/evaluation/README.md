@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models
+
+**Score:** 90.0 | **Published:** 2025-06-04 | **Authors:** Yan Gao, Massimo Roberto Scamarcia, Javier Fernandez-Marques, Mohammad Naseri, Chong Shen Ng, Dimitris Stripelis, Zexi Li, Tao Shen, Jiamu Bai, Daoyuan Chen, Zikai Zhang, Rui Hu, InSeo Song, Lee KangYoon, Hong Jia, Ting Dang, Junyan Wang, Zheyuan Liu, Daniel Janes Beutel, Lingjuan Lyu, Nicholas D. Lane
+
+arXiv:2506.02961v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have achieved state-of-the-art results across diverse domains, yet their development remains reliant on vast amounts of pu...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.02961) | [📝 Analysis](89836a120af73eb79607849c1f6a0c7e.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2025-06-04 09:29:15 UTC*
