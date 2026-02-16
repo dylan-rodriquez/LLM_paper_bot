@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "RAT-Bench: A Comprehensive Benchmark for Text Anonymization",
+      "authors": [
+        "Nata\\v{s}a Kr\\v{c}o, Zexi Yao, Matthieu Meeus, Yves-Alexandre de Montjoye"
+      ],
+      "abstract": "arXiv:2602.12806v1 Announce Type: new \nAbstract: Data containing personal information is increasingly used to train, fine-tune, or query Large Language Models (LLMs). Text is typically scrubbed of identifying information prior to use, often with tools such as Microsoft's Presidio or Anthropic's PII purifier. These tools have traditionally been evaluated on their ability to remove specific identifiers (e.g., names), yet their effectiveness at preventing re-identification remains unclear. We introduce RAT-Bench, a comprehensive benchmark for text anonymization tools based on re-identification risk. Using U.S. demographic statistics, we generate synthetic text containing various direct and indirect identifiers across domains, languages, and difficulty levels. We evaluate a range of NER- and LLM-based text anonymization tools and, based on the attributes an LLM-based attacker is able to correctly infer from the anonymized text, we report the risk of re-identification in the U.S. population, while properly accounting for the disparate impact of identifiers. We find that, while capabilities vary widely, even the best tools are far from perfect in particular when direct identifiers are not written in standard ways and when indirect identifiers enable re-identification. Overall we find LLM-based anonymizers, including new iterative anonymizers, to provide a better privacy-utility trade-off albeit at a higher computational cost. Importantly, we also find them to work well across languages. We conclude with recommendations for future anonymization tools and will release the benchmark and encourage community efforts to expand it, in particular to other geographies.",
+      "url": "https://arxiv.org/abs/2602.12806",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "text",
+        "tools",
+        "based",
+        "identifiers",
+        "anonymization",
+        "identification",
+        "anonymization tools",
+        "benchmark",
+        "llm",
+        "llm based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the age of LLMs \u2013 the effectiveness of anonymization techniques. The focus on *re-identification risk* rather than simply removing identifiers is a significant improvement over traditional evaluation methods. The use of synthetic data grounded in U.S. demographics and the evaluation of both NER and LLM-based tools demonstrate a rigorous approach, suggesting a high likelihood of positive reception within the NLP and privacy communities.",
+      "paper_id": "6f2e5a48ca3b681a864d8bc3c3158367"
+    },
+    {
+      "title": "MentalBench: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models",
+      "authors": [
+        "Hoyun Song, Migyeong Kang, Jisu Shin, Jihyun Kim, Chanbi Park, Hangyeol Yoo, Jihyun An, Alice Oh, Jinyoung Han, KyungTae Lim"
+      ],
+      "abstract": "arXiv:2602.12871v1 Announce Type: new \nAbstract: We introduce MentalBench, a benchmark for evaluating psychiatric diagnostic decision-making in large language models (LLMs). Existing mental health benchmarks largely rely on social media data, limiting their ability to assess DSM-grounded diagnostic judgments. At the core of MentalBench is MentalKG, a psychiatrist-built and validated knowledge graph encoding DSM-5 diagnostic criteria and differential diagnostic rules for 23 psychiatric disorders. Using MentalKG as a golden-standard logical backbone, we generate 24,750 synthetic clinical cases that systematically vary in information completeness and diagnostic complexity, enabling low-noise and interpretable evaluation. Our experiments show that while state-of-the-art LLMs perform well on structured queries probing DSM-5 knowledge, they struggle to calibrate confidence in diagnostic decision-making when distinguishing between clinically overlapping disorders. These findings reveal evaluation gaps not captured by existing benchmarks.",
+      "url": "https://arxiv.org/abs/2602.12871",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "diagnostic",
+        "dsm",
+        "mentalbench",
+        "psychiatric",
+        "benchmark",
+        "benchmark evaluating",
+        "benchmarks",
+        "decision",
+        "decision making",
+        "diagnostic decision"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 evaluating the diagnostic capabilities of LLMs in psychiatry \u2013 and does so with a novel and rigorous approach. The creation of MentalKG and the synthetic clinical cases represent a substantial contribution to the field, offering a more controlled and interpretable evaluation than relying solely on social media data. The finding that LLMs struggle with confidence calibration is particularly insightful and highlights a critical area for improvement.",
+      "paper_id": "ab65e12835d6d1830077a2d8530426dd"
+    },
+    {
+      "title": "ProbeLLM: Automating Principled Diagnosis of LLM Failures",
+      "authors": [
+        "Yue Huang, Zhengzhe Jiang, Yuchen Ma, Yu Jiang, Xiangqi Wang, Yujun Zhou, Yuexing Hao, Kehan Guo, Pin-Yu Chen, Stefan Feuerriegel, Xiangliang Zhang"
+      ],
+      "abstract": "arXiv:2602.12966v1 Announce Type: new \nAbstract: Understanding how and why large language models (LLMs) fail is becoming a central challenge as models rapidly evolve and static evaluations fall behind. While automated probing has been enabled by dynamic test generation, existing approaches often discover isolated failure cases, lack principled control over exploration, and provide limited insight into the underlying structure of model weaknesses. We propose ProbeLLM, a benchmark-agnostic automated probing framework that elevates weakness discovery from individual failures to structured failure modes. ProbeLLM formulates probing as a hierarchical Monte Carlo Tree Search, explicitly allocating limited probing budgets between global exploration of new failure regions and local refinement of recurring error patterns. By restricting probing to verifiable test cases and leveraging tool-augmented generation and verification, ProbeLLM grounds failure discovery in reliable evidence. Discovered failures are further consolidated into interpretable failure modes via failure-aware embeddings and boundary-aware induction. Across diverse benchmarks and LLMs, ProbeLLM reveals substantially broader, cleaner, and more fine-grained failure landscapes than static benchmarks and prior automated methods, supporting a shift from case-centric evaluation toward principled weakness discovery.",
+      "url": "https://arxiv.org/abs/2602.12966",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "failure",
+        "probellm",
+        "probing",
+        "automated",
+        "discovery",
+        "failures",
+        "principled",
+        "automated probing",
+        "aware",
+        "benchmarks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the rapidly evolving LLM landscape \u2013 understanding *why* models fail, not just *that* they fail. The proposed ProbeLLM framework, leveraging hierarchical Monte Carlo Tree Search and verifiable test cases, appears to be a principled and automated approach to failure mode discovery. The focus on structured failure modes and reliable evidence is a strong point, suggesting a rigorous methodology and potential for significant impact. The use of tool-augmented generation and verification further strengthens the approach.",
+      "paper_id": "e5ee7803c6d85dfedff2113bcedb26a4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-16T09:59:08.106417"
 }

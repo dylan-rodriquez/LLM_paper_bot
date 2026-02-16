@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### R-Zero: Self-Evolving Reasoning LLM from Zero Data
+
+**Score:** 92.0 | **Published:** 2026-02-16 | **Authors:** Chengsong Huang, Wenhao Yu, Xiaoyang Wang, Hongming Zhang, Zongxia Li, Ruosen Li, Jiaxin Huang, Haitao Mi, Dong Yu
+
+arXiv:2508.05004v4 Announce Type: replace-cross 
+Abstract: Self-evolving Large Language Models (LLMs) offer a scalable path toward super-intelligence by autonomously generating, refining, and learning...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.05004) | [📝 Analysis](bc9851cbac873170be65797944974689.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-16 09:59:08 UTC*

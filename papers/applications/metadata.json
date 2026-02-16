@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs",
+      "authors": [
+        "Baorong Shi, Bo Cui, Boyuan Jiang, Deli Yu, Fang Qian, Haihua Yang, Huichao Wang, Jiale Chen, Jianfei Pan, Jieqiong Cao, Jinghao Lin, Kai Wu, Lin Yang, Shengsheng Yao, Tao Chen, Xiaojun Xiao, Xiaozhong Ji, Xu Wang, Yijun He, Zhixiong Yang"
+      ],
+      "abstract": "arXiv:2602.12705v1 Announce Type: new \nAbstract: We present MedXIAOHE, a medical vision-language foundation model designed to advance general-purpose medical understanding and reasoning in real-world clinical applications. MedXIAOHE achieves state-of-the-art performance across diverse medical benchmarks and surpasses leading closed-source multimodal systems on multiple capabilities. To achieve this, we propose an entity-aware continual pretraining framework that organizes heterogeneous medical corpora to broaden knowledge coverage and reduce long-tail gaps (e.g., rare diseases). For medical expert-level reasoning and interaction, MedXIAOHE incorporates diverse medical reasoning patterns via reinforcement learning and tool-augmented agentic training, enabling multi-step diagnostic reasoning with verifiable decision traces. To improve reliability in real-world use, MedXIAOHE integrates user-preference rubrics, evidence-grounded reasoning, and low-hallucination long-form report generation, with improved adherence to medical instructions. We release this report to document our practical design choices, scaling insights, and evaluation framework, hoping to inspire further research.",
+      "url": "https://arxiv.org/abs/2602.12705",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "medxiaohe",
+        "reasoning",
+        "diverse",
+        "diverse medical",
+        "framework",
+        "long",
+        "real",
+        "real world",
+        "report"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant problem \u2013 building robust medical MLLMs \u2013 and proposes a comprehensive approach with several novel components like entity-aware continual pretraining and reinforcement learning for medical reasoning. The focus on reliability through user preferences and low-hallucination report generation is particularly strong. While the abstract doesn't detail *how* these components are implemented, the claimed state-of-the-art performance suggests a well-executed study.",
+      "paper_id": "9d23412372a1ad9f97a84424fb30cb8c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-02-16T09:59:08.105219"
 }

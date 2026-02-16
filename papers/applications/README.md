@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs
+
+**Score:** 92.0 | **Published:** 2026-02-16 | **Authors:** Baorong Shi, Bo Cui, Boyuan Jiang, Deli Yu, Fang Qian, Haihua Yang, Huichao Wang, Jiale Chen, Jianfei Pan, Jieqiong Cao, Jinghao Lin, Kai Wu, Lin Yang, Shengsheng Yao, Tao Chen, Xiaojun Xiao, Xiaozhong Ji, Xu Wang, Yijun He, Zhixiong Yang
+
+arXiv:2602.12705v1 Announce Type: new 
+Abstract: We present MedXIAOHE, a medical vision-language foundation model designed to advance general-purpose medical understanding and reasoning in real-world ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.12705) | [📝 Analysis](9d23412372a1ad9f97a84424fb30cb8c.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-16 09:59:08 UTC*

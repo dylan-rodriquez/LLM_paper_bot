@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+      "authors": [
+        "Pepijn Cobben, Xuanqiang Angelo Huang, Thao Amelia Pham, Isabel Dahlgren, Terry Jingchen Zhang, Zhijing Jin"
+      ],
+      "abstract": "arXiv:2602.12316v1 Announce Type: cross \nAbstract: Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely evaluate single agents, leaving multi-agent risks such as coordination failure and conflict poorly understood. We introduce GT-HarmBench, a benchmark of 2,009 high-stakes scenarios spanning game-theoretic structures such as the Prisoner's Dilemma, Stag Hunt and Chicken. Scenarios are drawn from realistic AI risk contexts in the MIT AI Risk Repository. Across 15 frontier models, agents choose socially beneficial actions in only 62% of cases, frequently leading to harmful outcomes. We measure sensitivity to game-theoretic prompt framing and ordering, and analyze reasoning patterns driving failures. We further show that game-theoretic interventions improve socially beneficial outcomes by up to 18%. Our results highlight substantial reliability gaps and provide a broad standardized testbed for studying alignment in multi-agent environments. The benchmark and code are available at https://github.com/causalNLP/gt-harmbench.",
+      "url": "https://arxiv.org/abs/2602.12316",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "game",
+        "agent",
+        "game theoretic",
+        "gt",
+        "gt harmbench",
+        "harmbench",
+        "multi",
+        "multi agent",
+        "theoretic"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in AI safety \u2013 the risks arising from multi-agent interactions. The use of game theory to benchmark AI behavior in high-stakes scenarios is a novel and rigorous approach. The reported results, showing frequent failures in socially beneficial actions, are concerning and highlight a significant gap in current AI systems, suggesting a strong potential for positive impact and community reception.",
+      "paper_id": "b7e6ddcb4c741b74dd12b70fca3dc2ca"
+    },
+    {
+      "title": "Buy versus Build an LLM: A Decision Framework for Governments",
+      "authors": [
+        "Jiahao Lu, Ziwei Xu, William Tjhi, Junnan Li, Antoine Bosselut, Pang Wei Koh, Mohan Kankanhalli"
+      ],
+      "abstract": "arXiv:2602.13033v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) represent a new frontier of digital infrastructure that can support a wide range of public-sector applications, from general purpose citizen services to specialized and sensitive state functions. When expanding AI access, governments face a set of strategic choices over whether to buy existing services, build domestic capabilities, or adopt hybrid approaches across different domains and use cases. These are critical decisions especially when leading model providers are often foreign corporations, and LLM outputs are increasingly treated as trusted inputs to public decision-making and public discourse. In practice, these decisions are not intended to mandate a single approach across all domains; instead, national AI strategies are typically pluralistic, with sovereign, commercial and open-source models coexisting to serve different purposes. Governments may rely on commercial models for non-sensitive or commodity tasks, while pursuing greater control for critical, high-risk or strategically important applications.\n  This paper provides a strategic framework for making this decision by evaluating these options across dimensions including sovereignty, safety, cost, resource capability, cultural fit, and sustainability. Importantly, \"building\" does not imply that governments must act alone: domestic capabilities may be developed through public research institutions, universities, state-owned enterprises, joint ventures, or broader national ecosystems. By detailing the technical requirements and practical challenges of each pathway, this work aims to serve as a reference for policy-makers to determine whether a buy or build approach best aligns with their specific national needs and societal goals.",
+      "url": "https://arxiv.org/abs/2602.13033",
+      "published_date": "2026-02-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "governments",
+        "public",
+        "build",
+        "buy",
+        "decision",
+        "models",
+        "national",
+        "ai",
+        "applications",
+        "approach"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and timely issue \u2013 the strategic decisions governments face regarding LLM adoption. The focus on 'buy vs. build' in the context of national AI strategies and foreign dependencies is crucial. While the abstract doesn't detail novel *methods*, the framing of the problem and potential for a decision framework is valuable, suggesting a practical and impactful contribution. The paper's relevance to current geopolitical and technological trends suggests a positive reception.",
+      "paper_id": "e58842ab9b62cec31272ef3fe5b2e8bb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-16T09:59:08.107581"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### From Biased Chatbots to Biased Agents: Examining Role Assignment Effects on LLM Agent Robustness
+
+**Score:** 92.0 | **Published:** 2026-02-16 | **Authors:** Linbo Cao, Lihao Sun, Yang Yue
+
+arXiv:2602.12285v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed as autonomous agents capable of actions with real-world impacts beyond text generation. While pe...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.12285) | [📝 Analysis](5c3aa1fddc05d1241811a53564ca3801.md)
+
+---
+
+### SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents
+
+**Score:** 90.0 | **Published:** 2026-02-16 | **Authors:** Yujiong Shen, Yajie Yang, Zhiheng Xi, Binze Hu, Huayu Sha, Jiazheng Zhang, Qiyuan Peng, Junlin Shang, Jixuan Huang, Yutao Fan, Jingqi Tong, Shihan Dou, Ming Zhang, Lei Bai, Zhenfei Yin, Tao Gui, Xingjun Ma, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang
+
+arXiv:2602.12984v1 Announce Type: new 
+Abstract: Scientific reasoning inherently demands integrating sophisticated toolkits to navigate domain-specific knowledge. Yet, current benchmarks largely overl...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.12984) | [📝 Analysis](47c68ee5101d62876c7ca84b132039fe.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-16 09:59:08 UTC*

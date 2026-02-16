@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory
+
+**Score:** 92.0 | **Published:** 2026-02-16 | **Authors:** Pepijn Cobben, Xuanqiang Angelo Huang, Thao Amelia Pham, Isabel Dahlgren, Terry Jingchen Zhang, Zhijing Jin
+
+arXiv:2602.12316v1 Announce Type: cross 
+Abstract: Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely eva...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.12316) | [📝 Analysis](b7e6ddcb4c741b74dd12b70fca3dc2ca.md)
+
+---
+
+### Buy versus Build an LLM: A Decision Framework for Governments
+
+**Score:** 92.0 | **Published:** 2026-02-16 | **Authors:** Jiahao Lu, Ziwei Xu, William Tjhi, Junnan Li, Antoine Bosselut, Pang Wei Koh, Mohan Kankanhalli
+
+arXiv:2602.13033v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) represent a new frontier of digital infrastructure that can support a wide range of public-sector applications, from gen...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13033) | [📝 Analysis](e58842ab9b62cec31272ef3fe5b2e8bb.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-16 09:59:08 UTC*
