@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "LLM-Powered Automatic Translation and Urgency in Crisis Scenarios",
+      "authors": [
+        "Belu Ticona, Antonis Anastasopoulos"
+      ],
+      "abstract": "arXiv:2602.13452v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly proposed for crisis preparedness and response, particularly for multilingual communication. However, their suitability for high-stakes crisis contexts remains insufficiently evaluated. This work examines the performance of state-of-the-art LLMs and machine translation systems in crisis-domain translation, with a focus on preserving urgency, which is a critical property for effective crisis communication and triaging. Using multilingual crisis data and a newly introduced urgency-annotated dataset covering over 32 languages, we show that both dedicated translation models and LLMs exhibit substantial performance degradation and instability. Crucially, even linguistically adequate translations can distort perceived urgency, and LLM-based urgency classifications vary widely depending on the language of the prompt and input. These findings highlight significant risks in deploying general-purpose language technologies for crisis communication and underscore the need for crisis-aware evaluation frameworks.",
+      "url": "https://arxiv.org/abs/2602.13452",
+      "published_date": "2026-02-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "crisis",
+        "urgency",
+        "translation",
+        "communication",
+        "language",
+        "llms",
+        "crisis communication",
+        "llm",
+        "models",
+        "models llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly significant problem \u2013 the reliability of LLMs in crisis communication, specifically regarding urgency preservation. The creation of a multilingual, urgency-annotated dataset is a valuable contribution, and the finding that both traditional MT and LLMs struggle with this task is concerning and important. While the methods appear sound, the abstract doesn't detail the specific LLMs or MT systems used, which would strengthen the evaluation.",
+      "paper_id": "6899014b12c9298ef701ecc470d5b073"
+    },
+    {
+      "title": "HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam",
+      "authors": [
+        "Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xiang Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao"
+      ],
+      "abstract": "arXiv:2602.13964v1 Announce Type: new \nAbstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions. However, community-led analyses have raised concerns that HLE contains a non-trivial number of noisy items, which can bias evaluation results and distort cross-model comparisons. To address this challenge, we introduce HLE-Verified, a verified and revised version of HLE with a transparent verification protocol and fine-grained error taxonomy. Our construction follows a two-stage validation-and-repair workflow resulting in a certified benchmark. In Stage I, each item undergoes binary validation of the problem and final answer through domain-expert review and model-based cross-checks, yielding 641 verified items. In Stage II, flawed but fixable items are revised under strict constraints preserving the original evaluation intent, through dual independent expert repairs, model-assisted auditing, and final adjudication, resulting in 1,170 revised-and-certified items. The remaining 689 items are released as a documented uncertain set with explicit uncertainty sources and expertise tags for future refinement. We evaluate seven state-of-the-art language models on HLE and HLE-Verified, observing an average absolute accuracy gain of 7--10 percentage points on HLE-Verified. The improvement is particularly pronounced on items where the original problem statement and/or reference answer is erroneous, with gains of 30--40 percentage points. Our analyses further reveal a strong association between model confidence and the presence of errors in the problem statement or reference answer, supporting the effectiveness of our revisions. Overall, HLE-Verified improves HLE-style evaluations by reducing annotation noise and enabling more faithful measurement of model capabilities. Data is available at: https://github.com/SKYLENAGE-AI/HLE-Verified",
+      "url": "https://arxiv.org/abs/2602.13964",
+      "published_date": "2026-02-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hle",
+        "verified",
+        "hle verified",
+        "items",
+        "model",
+        "answer",
+        "problem",
+        "revised",
+        "stage",
+        "analyses"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 benchmark quality. The systematic verification and revision process, coupled with a transparent protocol, significantly improves the reliability of HLE. While the core idea of benchmark verification isn't entirely novel, the scale and rigor applied to HLE, and the two-stage workflow, are commendable. The work is likely to be well-received by the LLM community, as reliable benchmarks are essential for progress.",
+      "paper_id": "7546698ef2e6c877fefeac9b801fcc6b"
+    },
+    {
+      "title": "A Geometric Taxonomy of Hallucinations in LLMs",
+      "authors": [
+        "Javier Mar\\'in"
+      ],
+      "abstract": "arXiv:2602.13224v1 Announce Type: cross \nAbstract: The term \"hallucination\" in large language models conflates distinct phenomena with different geometric signatures in embedding space. We propose a taxonomy identifying three types: unfaithfulness (failure to engage with provided context), confabulation (invention of semantically foreign content), and factual error (incorrect claims within correct conceptual frames). We observe a striking asymmetry. On standard benchmarks where hallucinations are LLM-generated, detection is domain-local: AUROC 0.76-0.99 within domains, but 0.50 (chance level) across domains. Discriminative directions are approximately orthogonal between domains (mean cosine similarity -0.07). On human-crafted confabulations - invented institutions, redefined terminology, fabricated mechanisms - a single global direction achieves 0.96 AUROC with 3.8% cross-domain degradation. We interpret this divergence as follows: benchmarks capture generation artifacts (stylistic signatures of prompted fabrication), while human-crafted confabulations capture genuine topical drift. The geometric structure differs because the underlying phenomena differ. Type III errors show 0.478 AUROC - indistinguishable from chance. This reflects a theoretical constraint: embeddings encode distributional co-occurrence, not correspondence to external reality. Statements with identical contextual patterns occupy similar embedding regions regardless of truth value. The contribution is a geometric taxonomy clarifying the scope of embedding-based detection: Types I and II are detectable; Type III requires external verification mechanisms.",
+      "url": "https://arxiv.org/abs/2602.13224",
+      "published_date": "2026-02-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "geometric",
+        "auroc",
+        "domains",
+        "embedding",
+        "taxonomy",
+        "type",
+        "benchmarks",
+        "capture",
+        "chance",
+        "confabulations"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucinations \u2013 by providing a nuanced taxonomy and demonstrating that different types exhibit distinct geometric properties. The finding of domain-specific vs. global detection directions is particularly insightful, suggesting that current benchmarks may be measuring generation artifacts rather than true understanding. The high AUROC scores on human-crafted confabulations are promising and indicate a potential path towards more robust hallucination detection. The work is well-motivated and clearly presented, suggesting a strong likelihood of positive reception within the community.",
+      "paper_id": "3a52230e7b5add3177c1480927880209"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-17T09:55:04.114977"
 }

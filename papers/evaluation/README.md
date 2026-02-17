@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### LLM-Powered Automatic Translation and Urgency in Crisis Scenarios
+
+**Score:** 92.0 | **Published:** 2026-02-17 | **Authors:** Belu Ticona, Antonis Anastasopoulos
+
+arXiv:2602.13452v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly proposed for crisis preparedness and response, particularly for multilingual communication. However, thei...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13452) | [📝 Analysis](6899014b12c9298ef701ecc470d5b073.md)
+
+---
+
+### HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam
+
+**Score:** 92.0 | **Published:** 2026-02-17 | **Authors:** Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xiang Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao
+
+arXiv:2602.13964v1 Announce Type: new 
+Abstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions. How...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13964) | [📝 Analysis](7546698ef2e6c877fefeac9b801fcc6b.md)
+
+---
+
+### A Geometric Taxonomy of Hallucinations in LLMs
+
+**Score:** 90.0 | **Published:** 2026-02-17 | **Authors:** Javier Mar\'in
+
+arXiv:2602.13224v1 Announce Type: cross 
+Abstract: The term "hallucination" in large language models conflates distinct phenomena with different geometric signatures in embedding space. We propose a t...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13224) | [📝 Analysis](3a52230e7b5add3177c1480927880209.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-17 09:55:04 UTC*

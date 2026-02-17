@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages",
+      "authors": [
+        "Somnath Banerjee, Rima Hazra, Animesh Mukherjee"
+      ],
+      "abstract": "arXiv:2602.13867v1 Announce Type: new \nAbstract: Large language models (LLMs) are being deployed across the Global South, where everyday use involves low-resource languages, code-mixing, and culturally specific norms. Yet safety pipelines, benchmarks, and alignment still largely target English and a handful of high-resource languages, implicitly assuming safety and factuality ''transfer'' across languages. Evidence increasingly shows they do not. We synthesize recent findings indicating that (i) safety guardrails weaken sharply on low-resource and code-mixed inputs, (ii) culturally harmful behavior can persist even when standard toxicity scores look acceptable, and (iii) English-only knowledge edits and safety patches often fail to carry over to low-resource languages. In response, we outline a practical agenda for researchers and students in the Global South: parameter-efficient safety steering, culturally grounded evaluation and preference data, and participatory workflows that empower local communities to define and mitigate harm. Our aim is to make multilingual safety a core requirement-not an add-on-for equitable AI in underrepresented regions.",
+      "url": "https://arxiv.org/abs/2602.13867",
+      "published_date": "2026-02-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "safety",
+        "languages",
+        "culturally",
+        "resource",
+        "global",
+        "global south",
+        "low",
+        "low resource",
+        "resource languages",
+        "south"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critically important and often overlooked issue: the failure of safety and alignment techniques to generalize to low-resource languages and culturally diverse contexts. The synthesis of existing findings and the call for a focused research agenda are well-articulated. While the abstract doesn't detail novel *methods*, it proposes a crucial shift in focus and prioritizes practical solutions for a significant problem, suggesting strong potential for positive reception within the community.",
+      "paper_id": "52a7a207dc394fa320c8b56143e0204f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-17T09:55:04.116199"
 }

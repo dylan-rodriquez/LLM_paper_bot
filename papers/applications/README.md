@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Overthinking Loops in Agents: A Structural Risk via MCP Tools
+
+**Score:** 92.0 | **Published:** 2026-02-17 | **Authors:** Yohan Lee, Jisoo Jang, Seoyeon Choi, Sangyeop Kim, Seungtaek Choi
+
+arXiv:2602.14798v1 Announce Type: new 
+Abstract: Tool-using LLM agents increasingly coordinate real workloads by selecting and chaining third-party tools based on text-visible metadata such as tool na...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.14798) | [📝 Analysis](9f3363b19245eb3f10ae34443c50b39a.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-17 09:55:04 UTC*

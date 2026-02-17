@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Overthinking Loops in Agents: A Structural Risk via MCP Tools",
+      "authors": [
+        "Yohan Lee, Jisoo Jang, Seoyeon Choi, Sangyeop Kim, Seungtaek Choi"
+      ],
+      "abstract": "arXiv:2602.14798v1 Announce Type: new \nAbstract: Tool-using LLM agents increasingly coordinate real workloads by selecting and chaining third-party tools based on text-visible metadata such as tool names, descriptions, and return messages. We show that this convenience creates a supply-chain attack surface: a malicious MCP tool server can be co-registered alongside normal tools and induce overthinking loops, where individually trivial or plausible tool calls compose into cyclic trajectories that inflate end-to-end tokens and latency without any single step looking abnormal. We formalize this as a structural overthinking attack, distinguishable from token-level verbosity, and implement 14 malicious tools across three servers that trigger repetition, forced refinement, and distraction. Across heterogeneous registries and multiple tool-capable models, the attack causes severe resource amplification (up to $142.4\\times$ tokens) and can degrade task outcomes. Finally, we find that decoding-time concision controls do not reliably prevent loop induction, suggesting defenses should reason about tool-call structure rather than tokens alone.",
+      "url": "https://arxiv.org/abs/2602.14798",
+      "published_date": "2026-02-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tool",
+        "tools",
+        "attack",
+        "overthinking",
+        "tokens",
+        "agents",
+        "end",
+        "loops",
+        "malicious",
+        "mcp"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critical vulnerability in the rapidly evolving landscape of LLM agents \u2013 the potential for malicious tool servers to exploit the chaining mechanism. The formalization of 'overthinking loops' as a structural attack is a strong methodological contribution, and the experimental results demonstrating significant resource amplification are compelling. The work is well-aligned with current concerns about LLM security and trustworthiness, suggesting a positive reception from the research community.",
+      "paper_id": "9f3363b19245eb3f10ae34443c50b39a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-02-17T09:55:04.116903"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages
+
+**Score:** 92.0 | **Published:** 2026-02-17 | **Authors:** Somnath Banerjee, Rima Hazra, Animesh Mukherjee
+
+arXiv:2602.13867v1 Announce Type: new 
+Abstract: Large language models (LLMs) are being deployed across the Global South, where everyday use involves low-resource languages, code-mixing, and culturall...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13867) | [📝 Analysis](52a7a207dc394fa320c8b56143e0204f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-17 09:55:04 UTC*
