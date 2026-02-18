@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam",
+      "authors": [
+        "Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xiang Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao"
+      ],
+      "abstract": "arXiv:2602.13964v2 Announce Type: replace \nAbstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions. However, community-led analyses have raised concerns that HLE contains a non-trivial number of noisy items, which can bias evaluation results and distort cross-model comparisons. To address this challenge, we introduce HLE-Verified, a verified and revised version of HLE with a transparent verification protocol and fine-grained error taxonomy. Our construction follows a two-stage validation-and-repair workflow resulting in a certified benchmark. In Stage I, each item undergoes binary validation of the problem and final answer through domain-expert review and model-based cross-checks, yielding 641 verified items. In Stage II, flawed but fixable items are revised under strict constraints preserving the original evaluation intent, through dual independent expert repairs, model-assisted auditing, and final adjudication, resulting in 1,170 revised-and-certified items. The remaining 689 items are released as a documented uncertain set with explicit uncertainty sources and expertise tags for future refinement. We evaluate seven state-of-the-art language models on HLE and HLE-Verified, observing an average absolute accuracy gain of 7--10 percentage points on HLE-Verified. The improvement is particularly pronounced on items where the original problem statement and/or reference answer is erroneous, with gains of 30--40 percentage points. Our analyses further reveal a strong association between model confidence and the presence of errors in the problem statement or reference answer, supporting the effectiveness of our revisions. Overall, HLE-Verified improves HLE-style evaluations by reducing annotation noise and enabling more faithful measurement of model capabilities. Data is available at: https://github.com/SKYLENAGE-AI/HLE-Verified",
+      "url": "https://arxiv.org/abs/2602.13964",
+      "published_date": "2026-02-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hle",
+        "verified",
+        "hle verified",
+        "items",
+        "model",
+        "answer",
+        "problem",
+        "revised",
+        "stage",
+        "analyses"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 benchmark quality. The systematic verification and revision process, coupled with a transparent protocol, significantly improves the reliability of HLE. The two-stage workflow and use of both expert review and model-based checks demonstrate a rigorous methodology, and the resulting 'HLE-Verified' benchmark is likely to become a standard resource for the community.",
+      "paper_id": "7546698ef2e6c877fefeac9b801fcc6b"
+    },
+    {
+      "title": "PII-Bench: Evaluating Query-Aware Privacy Protection Systems",
+      "authors": [
+        "Hao Shen, Zhouhong Gu, Haokai Hong, Weili Han"
+      ],
+      "abstract": "arXiv:2502.18545v2 Announce Type: replace-cross \nAbstract: The widespread adoption of Large Language Models (LLMs) has raised significant privacy concerns regarding the exposure of personally identifiable information (PII) in user prompts. To address this challenge, we propose a query-unrelated PII masking strategy and introduce PII-Bench, the first comprehensive evaluation framework for assessing privacy protection systems. PII-Bench comprises 2,842 test samples across 55 fine-grained PII categories, featuring diverse scenarios from single-subject descriptions to complex multi-party interactions. Each sample is carefully crafted with a user query, context description, and standard answer indicating query-relevant PII. Our empirical evaluation reveals that while current models perform adequately in basic PII detection, they show significant limitations in determining PII query relevance. Even state-of-the-art LLMs struggle with this task, particularly in handling complex multi-subject scenarios, indicating substantial room for improvement in achieving intelligent PII masking.",
+      "url": "https://arxiv.org/abs/2502.18545",
+      "published_date": "2026-02-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pii",
+        "query",
+        "bench",
+        "pii bench",
+        "privacy",
+        "complex",
+        "complex multi",
+        "evaluation",
+        "indicating",
+        "llms"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 PII exposure in LLMs. The introduction of PII-Bench as a comprehensive evaluation framework is a strong contribution, and the initial findings highlighting the limitations of current models are significant. The work appears rigorous, with a large dataset and focus on query relevance, suggesting a solid methodological approach. The problem is critical given the increasing use of LLMs, and the potential for privacy breaches.",
+      "paper_id": "77085611e32cc10146e4bed8fdb2565e"
+    },
+    {
+      "title": "ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models",
+      "authors": [
+        "Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen"
+      ],
+      "abstract": "arXiv:2601.15812v2 Announce Type: replace-cross \nAbstract: Large Language Models (LLM) benchmarks tell us when models fail, but not why they fail. A wrong answer on a reasoning dataset may stem from formatting issues, calculation errors, or dataset noise rather than weak reasoning. Without disentangling such causes, benchmarks remain incomplete and cannot reliably guide model improvement. We introduce ErrorMap, the first method to chart the sources of LLM failure. It extracts a model's unique \"failure signature\", clarifies what benchmarks measure, and broadens error identification to reduce blind spots. This helps developers debug models, aligns benchmark goals with outcomes, and supports informed model selection. ErrorMap works on any model or dataset with the same logic. Applying our method to 35 datasets and 83 models we generate ErrorAtlas, a taxonomy of model errors, revealing recurring failure patterns. ErrorAtlas highlights error types that are currently underexplored in LLM research, such as omissions of required details in the output and question misinterpretation. By shifting focus from where models succeed to why they fail, ErrorMap and ErrorAtlas enable advanced evaluation - one that exposes hidden weaknesses and directs progress. Unlike success, typically measured by task-level metrics, our approach introduces a deeper evaluation layer that can be applied globally across models and tasks, offering richer insights into model behavior and limitations. We make the taxonomy and code publicly available with plans to periodically update ErrorAtlas as new benchmarks and models emerge.",
+      "url": "https://arxiv.org/abs/2601.15812",
+      "published_date": "2026-02-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "model",
+        "erroratlas",
+        "benchmarks",
+        "errormap",
+        "failure",
+        "dataset",
+        "fail",
+        "llm",
+        "error"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 understanding *why* models fail, not just *that* they fail. The 'ErrorMap' and 'ErrorAtlas' concepts are well-defined and the application to a large number of models and datasets suggests a robust methodology. The potential to improve debugging, benchmark design, and model selection is significant, and the work appears aligned with current research trends focused on LLM reliability and interpretability.",
+      "paper_id": "cb887413084e6ff11d8959ad759babaf"
+    },
+    {
+      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+      "authors": [
+        "Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade"
+      ],
+      "abstract": "arXiv:2602.15327v1 Announce Type: cross \nAbstract: For deploying foundation models, practitioners increasingly need prescriptive scaling laws: given a pre training compute budget, what downstream accuracy is attainable with contemporary post training practice, and how stable is that mapping as the field evolves? Using large scale observational evaluations with 5k observational and 2k newly sampled data on model performance, we estimate capability boundaries, high conditional quantiles of benchmark scores as a function of log pre training FLOPs, via smoothed quantile regression with a monotone, saturating sigmoid parameterization. We validate the temporal reliability by fitting on earlier model generations and evaluating on later releases. Across various tasks, the estimated boundaries are mostly stable, with the exception of math reasoning that exhibits a consistently advancing boundary over time. We then extend our approach to analyze task dependent saturation and to probe contamination related shifts on math reasoning tasks. Finally, we introduce an efficient algorithm that recovers near full data frontiers using roughly 20% of evaluation budget. Together, our work releases the Proteus 2k, the latest model performance evaluation dataset, and introduces a practical methodology for translating compute budgets into reliable performance expectations and for monitoring when capability boundaries shift across time.",
+      "url": "https://arxiv.org/abs/2602.15327",
+      "published_date": "2026-02-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "model",
+        "boundaries",
+        "performance",
+        "training",
+        "2k",
+        "budget",
+        "capability",
+        "capability boundaries",
+        "compute",
+        "data"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial practical problem in the deployment of large language models \u2013 predicting attainable accuracy given a compute budget. The use of smoothed quantile regression with a monotone, saturating sigmoid parameterization appears to be a sophisticated approach, and the temporal validation adds significant rigor. The finding regarding math reasoning consistently advancing is particularly insightful, suggesting a dynamic capability landscape.",
+      "paper_id": "25a9e03c44cd06d37e25a6bde35a2e9d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-18T09:58:34.657382"
 }

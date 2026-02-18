@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xiang Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao
+
+arXiv:2602.13964v2 Announce Type: replace 
+Abstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions....
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13964) | [📝 Analysis](7546698ef2e6c877fefeac9b801fcc6b.md)
+
+---
+
+### PII-Bench: Evaluating Query-Aware Privacy Protection Systems
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Hao Shen, Zhouhong Gu, Haokai Hong, Weili Han
+
+arXiv:2502.18545v2 Announce Type: replace-cross 
+Abstract: The widespread adoption of Large Language Models (LLMs) has raised significant privacy concerns regarding the exposure of personally identifi...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.18545) | [📝 Analysis](77085611e32cc10146e4bed8fdb2565e.md)
+
+---
+
+### ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen
+
+arXiv:2601.15812v2 Announce Type: replace-cross 
+Abstract: Large Language Models (LLM) benchmarks tell us when models fail, but not why they fail. A wrong answer on a reasoning dataset may stem from f...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.15812) | [📝 Analysis](cb887413084e6ff11d8959ad759babaf.md)
+
+---
+
+### Prescriptive Scaling Reveals the Evolution of Language Model Capabilities
+
+**Score:** 90.0 | **Published:** 2026-02-18 | **Authors:** Hanlin Zhang, Jikai Jin, Vasilis Syrgkanis, Sham Kakade
+
+arXiv:2602.15327v1 Announce Type: cross 
+Abstract: For deploying foundation models, practitioners increasingly need prescriptive scaling laws: given a pre training compute budget, what downstream accu...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.15327) | [📝 Analysis](25a9e03c44cd06d37e25a6bde35a2e9d.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-18 09:58:34 UTC*

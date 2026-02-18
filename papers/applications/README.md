@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Songwen Zhao, Danqing Wang, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li
+
+arXiv:2512.03262v2 Announce Type: replace-cross 
+Abstract: Vibe coding is a new programming paradigm in which human engineers instruct large language model (LLM) agents to complete complex coding task...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.03262) | [📝 Analysis](cf0b430e565aa549462dc367968ad60f.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-18 09:58:34 UTC*

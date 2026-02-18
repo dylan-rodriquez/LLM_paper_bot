@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Discovering Implicit Large Language Model Alignment Objectives
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Edward Chen, Sanmi Koyejo, Carlos Guestrin
+
+arXiv:2602.15338v1 Announce Type: cross 
+Abstract: Large language model (LLM) alignment relies on complex reward signals that often obscure the specific behaviors being incentivized, creating critical...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.15338) | [📝 Analysis](5e70fb13f6439e030154940f2c468808.md)
+
+---
+
+### Out of the Memory Barrier: A Highly Memory Efficient Training System for LLMs with Million-Token Contexts
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Wenhao Li, Daohai Yu, Gen Luo, Yuxin Zhang, Fei Chao, Rongrong Ji, Yifan Wu, Jiaxin Liu, Ziyang Gong, Zimu Liao
+
+arXiv:2602.02108v3 Announce Type: replace 
+Abstract: Training Large Language Models (LLMs) on long contexts is severely constrained by prohibitive GPU memory overhead, not training time. The primary c...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.02108) | [📝 Analysis](d3a5a8f074b9e627f6c11fa15d8fcabf.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-18 09:58:34 UTC*

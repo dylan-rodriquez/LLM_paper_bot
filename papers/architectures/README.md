@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Your AI Bosses Are Still Prejudiced: The Emergence of Stereotypes in LLM-Based Multi-Agent Systems
+
+**Score:** 92.0 | **Published:** 2026-02-18 | **Authors:** Jingyu Guo, Yingying Xu
+
+arXiv:2508.19919v2 Announce Type: replace 
+Abstract: While stereotypes are well-documented in human social interactions, AI systems are often presumed to be less susceptible to such biases. Previous s...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.19919) | [📝 Analysis](1e47e83ee9a77eb58df3c95159974382.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-18 09:58:34 UTC*

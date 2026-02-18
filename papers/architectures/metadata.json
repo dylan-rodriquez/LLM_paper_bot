@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Your AI Bosses Are Still Prejudiced: The Emergence of Stereotypes in LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Jingyu Guo, Yingying Xu"
+      ],
+      "abstract": "arXiv:2508.19919v2 Announce Type: replace \nAbstract: While stereotypes are well-documented in human social interactions, AI systems are often presumed to be less susceptible to such biases. Previous studies have focused on biases inherited from training data, but whether stereotypes can emerge spontaneously in AI agent interactions merits further exploration. Through a novel experimental framework simulating workplace interactions with neutral initial conditions, we investigate the emergence and evolution of stereotypes in LLM-based multi-agent systems. Our findings reveal that (1) LLM-Based AI agents develop stereotype-driven biases in their interactions despite beginning without predefined biases; (2) stereotype effects intensify with increased interaction rounds and decision-making power, particularly after introducing hierarchical structures; (3) these systems exhibit group effects analogous to human social behavior, including halo effects, confirmation bias, and role congruity; and (4) these stereotype patterns manifest consistently across different LLM architectures. Through comprehensive quantitative analysis, these findings suggest that stereotype formation in AI systems may arise as an emergent property of multi-agent interactions, rather than merely from training data biases. Our work underscores the need for future research to explore the underlying mechanisms of this phenomenon and develop strategies to mitigate its ethical impacts.",
+      "url": "https://arxiv.org/abs/2508.19919",
+      "published_date": "2026-02-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "biases",
+        "interactions",
+        "systems",
+        "agent",
+        "llm",
+        "stereotype",
+        "stereotypes",
+        "based",
+        "effects"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a crucial and timely problem \u2013 the emergence of biases in multi-agent LLM systems \u2013 moving beyond simply inheriting biases from training data. The experimental framework appears novel, and the findings regarding the intensification of stereotypes with interaction and hierarchy are significant. The observed parallels to human social behavior (halo effects, confirmation bias) are particularly compelling, suggesting a deep and potentially problematic dynamic.",
+      "paper_id": "1e47e83ee9a77eb58df3c95159974382"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-18T09:58:34.661334"
 }
