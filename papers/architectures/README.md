@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Towards Fair and Efficient De-identification: Quantifying the Efficiency and Generalizability of De-identification Approaches
+
+**Score:** 90.0 | **Published:** 2026-02-19 | **Authors:** Noopur Zambare, Kiana Aghakasiri, Carissa Lin, Carrie Ye, J. Ross Mitchell, Mohamed Abdalla
+
+arXiv:2602.15869v1 Announce Type: new 
+Abstract: Large language models (LLMs) have shown strong performance on clinical de-identification, the task of identifying sensitive identifiers to protect priv...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.15869) | [📝 Analysis](aade0a8c2d4c536c87d34578b0d7372c.md)
+
+---
+
+### Doc-to-LoRA: Learning to Instantly Internalize Contexts
+
+**Score:** 90.0 | **Published:** 2026-02-19 | **Authors:** Rujikorn Charakorn, Edoardo Cetin, Shinnosuke Uesaka, Robert Tjarko Lange
+
+arXiv:2602.15902v1 Announce Type: new 
+Abstract: Long input sequences are central to in-context learning, document understanding, and multi-step reasoning of Large Language Models (LLMs). However, the...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.15902) | [📝 Analysis](df18f0943e422e98eec4015c865a2e1b.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-19 09:51:43 UTC*

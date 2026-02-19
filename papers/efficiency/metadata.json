@@ -159,7 +159,39 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "When Algorithms Meet Artists: Semantic Compression of Artists' Concerns in the Public AI-Art Debate",
+      "authors": [
+        "Ariya Mukherjee-Gandhi, Oliver Muellerklein"
+      ],
+      "abstract": "arXiv:2508.03037v4 Announce Type: replace \nAbstract: Artists occupy a paradoxical position in generative AI: their work trains the models reshaping creative labor. We tested whether their concerns achieve proportional representation in public discourse shaping AI governance. Analyzing public AI-art discourse (news, podcasts, legal filings, research; 2013--2025) and projecting 1,259 survey-derived artist statements into this semantic space, we find stark compression: 95% of artist concerns cluster in 4 of 22 discourse topics, while 14 topics (62% of discourse) contain no artist perspective. This compression is selective - governance concerns (ownership, transparency) are 7x underrepresented; affective themes (threat, utility) show only 1.4x underrepresentation after style controls. The pattern indicates semantic, not stylistic, marginalization. These findings demonstrate a measurable representational gap: decision-makers relying on public discourse as a proxy for stakeholder priorities will systematically underweight those most affected. We introduce a consensus-based semantic projection methodology that is currently being validated across domains and generalizes to other stakeholder-technology contexts.",
+      "url": "https://arxiv.org/abs/2508.03037",
+      "published_date": "2026-02-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "discourse",
+        "ai",
+        "concerns",
+        "public",
+        "semantic",
+        "artist",
+        "artists",
+        "compression",
+        "ai art",
+        "art"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This research tackles a highly relevant and timely issue \u2013 the representation of artists' concerns in the AI-art debate. The methodology of projecting artist statements into the discourse semantic space and quantifying 'compression' is clever and provides a measurable metric for a previously qualitative concern. While the core idea isn't entirely novel (semantic analysis of discourse), the application to this specific context and the quantitative findings are strong, suggesting a high likelihood of positive reception within the AI ethics and art communities.",
+      "paper_id": "6a4ba41309ef5040a381208dfbbe64be"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2026-02-19T09:51:43.894444"
 }

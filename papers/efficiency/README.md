@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### When Algorithms Meet Artists: Semantic Compression of Artists' Concerns in the Public AI-Art Debate
+
+**Score:** 92.0 | **Published:** 2026-02-19 | **Authors:** Ariya Mukherjee-Gandhi, Oliver Muellerklein
+
+arXiv:2508.03037v4 Announce Type: replace 
+Abstract: Artists occupy a paradoxical position in generative AI: their work trains the models reshaping creative labor. We tested whether their concerns ach...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.03037) | [📝 Analysis](6a4ba41309ef5040a381208dfbbe64be.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-19 09:51:43 UTC*

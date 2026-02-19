@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### CheckIfExist: Detecting Citation Hallucinations in the Era of AI-Generated Content
+
+**Score:** 92.0 | **Published:** 2026-02-19 | **Authors:** Diletta Abbonato
+
+arXiv:2602.15871v1 Announce Type: new 
+Abstract: The proliferation of large language models (LLMs) in academic workflows has introduced unprecedented challenges to bibliographic integrity, particularl...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.15871) | [📝 Analysis](de83d75cc416dd8b870ee9dd33a87b08.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-19 09:51:43 UTC*

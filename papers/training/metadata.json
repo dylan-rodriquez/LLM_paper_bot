@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Long-Tail Knowledge in Large Language Models: Taxonomy, Mechanisms, Interventions and Implications",
+      "authors": [
+        "Sanket Badhe, Deep Shah, Nehal Kathrotia"
+      ],
+      "abstract": "arXiv:2602.16201v1 Announce Type: new \nAbstract: Large language models (LLMs) are trained on web-scale corpora that exhibit steep power-law distributions, in which the distribution of knowledge is highly long-tailed, with most appearing infrequently. While scaling has improved average-case performance, persistent failures on low-frequency, domain-specific, cultural, and temporal knowledge remain poorly characterized. This paper develops a structured taxonomy and analysis of long-Tail Knowledge in large language models, synthesizing prior work across technical and sociotechnical perspectives.\n  We introduce a structured analytical framework that synthesizes prior work across four complementary axes: how long-Tail Knowledge is defined, the mechanisms by which it is lost or distorted during training and inference, the technical interventions proposed to mitigate these failures, and the implications of these failures for fairness, accountability, transparency, and user trust. We further examine how existing evaluation practices obscure tail behavior and complicate accountability for rare but consequential failures. The paper concludes by identifying open challenges related to privacy, sustainability, and governance that constrain long-Tail Knowledge representation. Taken together, this paper provides a unifying conceptual framework for understanding how long-Tail Knowledge is defined, lost, evaluated, and manifested in deployed language model systems.",
+      "url": "https://arxiv.org/abs/2602.16201",
+      "published_date": "2026-02-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "knowledge",
+        "long",
+        "tail",
+        "long tail",
+        "tail knowledge",
+        "failures",
+        "language",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial issue in LLMs \u2013 the handling of long-tail knowledge \u2013 which is a significant bottleneck for real-world applicability. The proposed structured framework for analyzing this problem is a strong methodological contribution. While the abstract doesn't detail novel *solutions*, the synthesis of existing work and the four-axis analytical approach suggest a high-quality, impactful study that will likely be well-received by the community.",
+      "paper_id": "4b3a7b7c13017c890966d07d01c8a4c1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-19T09:51:43.891182"
 }

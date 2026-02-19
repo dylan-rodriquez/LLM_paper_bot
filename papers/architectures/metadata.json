@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Towards Fair and Efficient De-identification: Quantifying the Efficiency and Generalizability of De-identification Approaches",
+      "authors": [
+        "Noopur Zambare, Kiana Aghakasiri, Carissa Lin, Carrie Ye, J. Ross Mitchell, Mohamed Abdalla"
+      ],
+      "abstract": "arXiv:2602.15869v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown strong performance on clinical de-identification, the task of identifying sensitive identifiers to protect privacy. However, previous work has not examined their generalizability between formats, cultures, and genders. In this work, we systematically evaluate fine-tuned transformer models (BERT, ClinicalBERT, ModernBERT), small LLMs (Llama 1-8B, Qwen 1.5-7B), and large LLMs (Llama-70B, Qwen-72B) at de-identification. We show that smaller models achieve comparable performance while substantially reducing inference cost, making them more practical for deployment. Moreover, we demonstrate that smaller models can be fine-tuned with limited data to outperform larger models in de-identifying identifiers drawn from Mandarin, Hindi, Spanish, French, Bengali, and regional variations of English, in addition to gendered names. To improve robustness in multi-cultural contexts, we introduce and publicly release BERT-MultiCulture-DEID, a set of de-identification models based on BERT, ClinicalBERT, and ModernBERT, fine-tuned on MIMIC with identifiers from multiple language variants. Our findings provide the first comprehensive quantification of the efficiency-generalizability trade-off in de-identification and establish practical pathways for fair and efficient clinical de-identification.\n  Details on accessing the models are available at: https://doi.org/10.5281/zenodo.18342291",
+      "url": "https://arxiv.org/abs/2602.15869",
+      "published_date": "2026-02-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "identification",
+        "models",
+        "bert",
+        "fine",
+        "fine tuned",
+        "generalizability",
+        "identifiers",
+        "llms",
+        "tuned",
+        "bert clinicalbert"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a crucial problem in healthcare \u2013 privacy-preserving data analysis \u2013 and investigates the generalizability of LLMs across diverse linguistic and cultural contexts. The finding that smaller models can achieve comparable performance with reduced cost is particularly valuable for practical deployment. The introduction of a resource for multi-cultural de-identification further strengthens the work, suggesting a commitment to real-world applicability.",
+      "paper_id": "aade0a8c2d4c536c87d34578b0d7372c"
+    },
+    {
+      "title": "Doc-to-LoRA: Learning to Instantly Internalize Contexts",
+      "authors": [
+        "Rujikorn Charakorn, Edoardo Cetin, Shinnosuke Uesaka, Robert Tjarko Lange"
+      ],
+      "abstract": "arXiv:2602.15902v1 Announce Type: new \nAbstract: Long input sequences are central to in-context learning, document understanding, and multi-step reasoning of Large Language Models (LLMs). However, the quadratic attention cost of Transformers makes inference memory-intensive and slow. While context distillation (CD) can transfer information into model parameters, per-prompt distillation is impractical due to training costs and latency. To address these limitations, we propose Doc-to-LoRA (D2L), a lightweight hypernetwork that meta-learns to perform approximate CD within a single forward pass. Given an unseen prompt, D2L generates a LoRA adapter for a target LLM, enabling subsequent queries to be answered without re-consuming the original context, reducing latency and KV-cache memory consumption during inference of the target LLM. On a long-context needle-in-a-haystack task, D2L successfully learns to map contexts into adapters that store the needle information, achieving near-perfect zero-shot accuracy at sequence lengths exceeding the target LLM's native context window by more than 4x. On real-world QA datasets with limited compute, D2L outperforms standard CD while significantly reducing peak memory consumption and update latency. We envision that D2L can facilitate rapid adaptation of LLMs, opening up the possibility of frequent knowledge updates and personalized chat behavior.",
+      "url": "https://arxiv.org/abs/2602.15902",
+      "published_date": "2026-02-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "context",
+        "d2l",
+        "cd",
+        "latency",
+        "llm",
+        "lora",
+        "memory",
+        "target",
+        "target llm",
+        "consumption"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLM inference \u2013 the high cost of long context windows. The proposed Doc-to-LoRA approach, using a hypernetwork to generate LoRA adapters, is a clever way to approximate context distillation efficiently. The reported 'near-perfect' results on the needle-in-a-haystack task suggest strong performance, and the focus on reducing latency and memory consumption is highly relevant to practical deployment.",
+      "paper_id": "df18f0943e422e98eec4015c865a2e1b"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-19T09:51:43.888778"
 }

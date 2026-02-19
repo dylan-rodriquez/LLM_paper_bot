@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "CheckIfExist: Detecting Citation Hallucinations in the Era of AI-Generated Content",
+      "authors": [
+        "Diletta Abbonato"
+      ],
+      "abstract": "arXiv:2602.15871v1 Announce Type: new \nAbstract: The proliferation of large language models (LLMs) in academic workflows has introduced unprecedented challenges to bibliographic integrity, particularly through reference hallucination -- the generation of plausible but non-existent citations. Recent investigations have documented the presence of AI-hallucinated citations even in papers accepted at premier machine learning conferences such as NeurIPS and ICLR, underscoring the urgency of automated verification mechanisms. This paper presents \"CheckIfExist\", an open-source web-based tool designed to provide immediate verification of bibliographic references through multi-source validation against CrossRef, Semantic Scholar, and OpenAlex scholarly databases. While existing reference management tools offer bibliographic organization capabilities, they do not provide real-time validation of citation authenticity. Commercial hallucination detection services, though increasingly available, often impose restrictive usage limits on free tiers or require substantial subscription fees. The proposed tool fills this gap by employing a cascading validation architecture with string similarity algorithms to compute multi-dimensional match confidence scores, delivering instant feedback on reference authenticity. The system supports both single-reference verification and batch processing of BibTeX entries through a unified interface, returning validated APA citations and exportable BibTeX records within seconds.",
+      "url": "https://arxiv.org/abs/2602.15871",
+      "published_date": "2026-02-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 90,
+      "keywords": [
+        "reference",
+        "bibliographic",
+        "citations",
+        "validation",
+        "verification",
+        "ai",
+        "authenticity",
+        "bibtex",
+        "checkifexist",
+        "citation"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 citation hallucination in LLM-generated content. The development of 'CheckIfExist' as an open-source tool is a practical and valuable contribution. While the core idea of validating citations against existing databases isn't entirely novel, the focused application to LLM outputs and the web-based accessibility are strong points. The community is actively concerned about this issue, suggesting a positive reception.",
+      "paper_id": "de83d75cc416dd8b870ee9dd33a87b08"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-02-19T09:51:43.890183"
 }

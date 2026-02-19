@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Long-Tail Knowledge in Large Language Models: Taxonomy, Mechanisms, Interventions and Implications
+
+**Score:** 92.0 | **Published:** 2026-02-19 | **Authors:** Sanket Badhe, Deep Shah, Nehal Kathrotia
+
+arXiv:2602.16201v1 Announce Type: new 
+Abstract: Large language models (LLMs) are trained on web-scale corpora that exhibit steep power-law distributions, in which the distribution of knowledge is hig...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.16201) | [📝 Analysis](4b3a7b7c13017c890966d07d01c8a4c1.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-19 09:51:43 UTC*
