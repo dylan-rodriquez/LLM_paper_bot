@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The Emergence of Lab-Driven Alignment Signatures: A Psychometric Framework for Auditing Latent Bias and Compounding Risk in Generative AI",
+      "authors": [
+        "Dusan Bosnjakovic"
+      ],
+      "abstract": "arXiv:2602.17127v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) transition from standalone chat interfaces to foundational reasoning layers in multi-agent systems and recursive evaluation loops (LLM-as-a-judge), the detection of durable, provider-level behavioral signatures becomes a critical requirement for safety and governance. Traditional benchmarks measure transient task accuracy but fail to capture stable, latent response policies -- the ``prevailing mindsets'' embedded during training and alignment that outlive individual model versions.\n  This paper introduces a novel auditing framework that utilizes psychometric measurement theory -- specifically latent trait estimation under ordinal uncertainty -- to quantify these tendencies without relying on ground-truth labels. Utilizing forced-choice ordinal vignettes masked by semantically orthogonal decoys and governed by cryptographic permutation-invariance, the research audits nine leading models across dimensions including Optimization Bias, Sycophancy, and Status-Quo Legitimization.\n  Using Mixed Linear Models (MixedLM) and Intraclass Correlation Coefficient (ICC) analysis, the research identifies that while item-level framing drives high variance, a persistent ``lab signal'' accounts for significant behavioral clustering. These findings demonstrate that in ``locked-in'' provider ecosystems, latent biases are not merely static errors but compounding variables that risk creating recursive ideological echo chambers in multi-layered AI architectures.",
+      "url": "https://arxiv.org/abs/2602.17127",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "latent",
+        "models",
+        "ai",
+        "alignment",
+        "auditing",
+        "behavioral",
+        "bias",
+        "compounding",
+        "framework",
+        "lab"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem in AI safety \u2013 the detection of latent biases in LLMs as they become more integrated into complex systems. The use of psychometric measurement theory is a novel approach to auditing these 'prevailing mindsets' without relying on potentially biased ground truth labels. The described methodology, with its focus on cryptographic permutation-invariance and forced-choice vignettes, appears rigorous and well-considered, suggesting a high-quality study.",
+      "paper_id": "171112476ffd34fcbdae6ca6216774b3"
+    },
+    {
+      "title": "FinTagging: Benchmarking LLMs for Extracting and Structuring Financial Information",
+      "authors": [
+        "Yan Wang, Lingfei Qian, Xueqing Peng, Yang Ren, Keyi Wang, Yi Han, Dongji Feng, Fengran Mo, Shengyuan Lin, Qinchuan Zhang, Kaiwen He, Chenri Luo, Jianxing Chen, Junwei Wu, Chen Xu, Ziyang Xu, Jimin Huang, Guojun Xiong, Xiao-Yang Liu, Qianqian Xie, Jian-Yun Nie"
+      ],
+      "abstract": "arXiv:2505.20650v4 Announce Type: replace \nAbstract: Accurate interpretation of numerical data in financial reports is critical for markets and regulators. Although XBRL (eXtensible Business Reporting Language) provides a standard for tagging financial figures, mapping thousands of facts to over 10k US GAAP concepts remains costly and error prone. Existing benchmarks oversimplify this task as flat, single step classification over small subsets of concepts, ignoring the hierarchical semantics of the taxonomy and the structured nature of financial documents. Consequently, these benchmarks fail to evaluate Large Language Models (LLMs) under realistic reporting conditions. To bridge this gap, we introduce FinTagging, the first comprehensive benchmark for structure aware and full scope XBRL tagging. We decompose the complex tagging process into two subtasks: (1) FinNI (Financial Numeric Identification), which extracts entities and types from heterogeneous contexts including text and tables; and (2) FinCL (Financial Concept Linking), which maps extracted entities to the full US GAAP taxonomy. This two stage formulation enables a fair assessment of LLMs' capabilities in numerical reasoning and taxonomy alignment. Evaluating diverse LLMs in zero shot settings reveals that while models generalize well in extraction, they struggle significantly with fine grained concept linking, highlighting critical limitations in domain specific structure aware reasoning.",
+      "url": "https://arxiv.org/abs/2505.20650",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "financial",
+        "llms",
+        "tagging",
+        "taxonomy",
+        "aware",
+        "benchmarks",
+        "concept",
+        "concept linking",
+        "concepts",
+        "critical"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in financial data processing \u2013 accurate XBRL tagging \u2013 and identifies a significant gap in existing benchmarks. The proposed FinTagging benchmark, with its focus on hierarchical semantics and structured documents, represents a substantial improvement over current evaluation methods. The decomposition into FinNI subtasks suggests a rigorous approach, and the potential for improving LLM performance in a real-world, high-stakes domain is considerable.",
+      "paper_id": "20aa4af786dc4893aee650dd0bc1bda0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-20T09:53:28.119166"
 }

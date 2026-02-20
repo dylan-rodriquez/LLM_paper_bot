@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Multi-Objective Alignment of Language Models for Personalized Psychotherapy",
+      "authors": [
+        "Mehrab Beikzadeh, Yasaman Asadollah Salmanpour, Ashima Suvarna, Sriram Sankararaman, Matteo Malgaroli, Majid Sarrafzadeh, Saadia Gabriel"
+      ],
+      "abstract": "arXiv:2602.16053v1 Announce Type: cross \nAbstract: Mental health disorders affect over 1 billion people worldwide, yet access to care remains limited by workforce shortages and cost constraints. While AI systems show therapeutic promise, current alignment approaches optimize objectives independently, failing to balance patient preferences with clinical safety. We survey 335 individuals with lived mental health experience to collect preference rankings across therapeutic dimensions, then develop a multi-objective alignment framework using direct preference optimization. We train reward models for six criteria -- empathy, safety, active listening, self-motivated change, trust/rapport, and patient autonomy -- and systematically compare multi-objective approaches against single-objective optimization, supervised fine-tuning, and parameter merging. Multi-objective DPO (MODPO) achieves superior balance (77.6% empathy, 62.6% safety) compared to single-objective optimization (93.6% empathy, 47.8% safety), and therapeutic criteria outperform general communication principles by 17.2%. Blinded clinician evaluation confirms MODPO is consistently preferred, with LLM-evaluator agreement comparable to inter-clinician reliability.",
+      "url": "https://arxiv.org/abs/2602.16053",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "objective",
+        "multi",
+        "multi objective",
+        "safety",
+        "alignment",
+        "empathy",
+        "optimization",
+        "therapeutic",
+        "approaches",
+        "balance"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly significant problem \u2013 access to mental healthcare \u2013 with a promising AI-driven solution. The use of multi-objective DPO to balance therapeutic criteria is a strong methodological choice, and the survey of individuals with lived experience adds valuable grounding. While DPO isn't entirely novel, applying it to this specific domain with these objectives and a multi-objective approach demonstrates a clear advancement. The reported balance of empathy and safety (77.6% and 62.6%) suggests a potentially impactful outcome.",
+      "paper_id": "209f74c9f1595597039ffc2ab1c26163"
+    },
+    {
+      "title": "PREFER: An Ontology for the PREcision FERmentation Community",
+      "authors": [
+        "Txell Amig\\'o (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Shawn Zheng Kai Tan (SignaMind, Singapore), Angel Luu Phanthanourak (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Sebastian Schulz (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Pasquale D. Colaianni (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Dominik M. Maszczyk (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Ester Milesi (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Ivan Schlembach (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Mykhaylo Semenov Petrov (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Marta Revent\\'os Montan\\'e (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Lars K. Nielsen (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark, Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Queensland, Australia), Jochen F\\\"orster (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Bernhard {\\O}. Palsson (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark, The Department of Bioengineering, University of California, San Diego, USA), Suresh Sudarsan (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Alberto Santos (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark)"
+      ],
+      "abstract": "arXiv:2602.16755v1 Announce Type: cross \nAbstract: Precision fermentation relies on microbial cell factories to produce sustainable food, pharmaceuticals, chemicals, and biofuels. Specialized laboratories such as biofoundries are advancing these processes using high-throughput bioreactor platforms, which generate vast datasets. However, the lack of community standards limits data accessibility and interoperability, preventing integration across platforms. In order to address this, we introduce PREFER, an open-source ontology designed to establish a unified standard for bioprocess data. Built in alignment with the widely adopted Basic Formal Ontology (BFO) and connecting with several other community ontologies, PREFER ensures consistency and cross-domain compatibility and covers the whole precision fermentation process. Integrating PREFER into high-throughput bioprocess development workflows enables structured metadata that supports automated cross-platform execution and high-fidelity data capture. Furthermore, PREFER's standardization has the potential to bridge disparate data silos, generating machine-actionable datasets critical for training predictive, robust machine learning models in synthetic biology. This work provides the foundation for scalable, interoperable bioprocess systems and supports the transition toward more data-driven bioproduction.",
+      "url": "https://arxiv.org/abs/2602.16755",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-bio.OT"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "prefer",
+        "bioprocess",
+        "community",
+        "cross",
+        "fermentation",
+        "high",
+        "ontology",
+        "precision",
+        "precision fermentation"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in the rapidly growing field of precision fermentation \u2013 the lack of standardized data formats and interoperability. The development of PREFER, built upon established ontologies like BFO, demonstrates a thoughtful approach to solving this problem. While ontology creation isn't inherently groundbreaking, its application to this specific domain and focus on high-throughput data is highly valuable and likely to be well-received by the community.",
+      "paper_id": "1283d24eb62f643e7afbfa5e337a401c"
+    },
+    {
+      "title": "What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data",
+      "authors": [
+        "Dimitri Staufer, Kirsten Morehouse"
+      ],
+      "abstract": "arXiv:2602.17483v1 Announce Type: cross \nAbstract: Large language models (LLMs), and conversational agents based on them, are exposed to personal data (PD) during pre-training and during user interactions. Prior work shows that PD can resurface, yet users lack insight into how strongly models associate specific information to their identity. We audit PD across eight LLMs (3 open-source; 5 API-based, including GPT-4o), introduce LMP2 (Language Model Privacy Probe), a human-centered, privacy-preserving audit tool refined through two formative studies (N=20), and run two studies with EU residents to capture (i) intuitions about LLM-generated PD (N1=155) and (ii) reactions to tool output (N2=303). We show empirically that models confidently generate multiple PD categories for well-known individuals. For everyday users, GPT-4o generates 11 features with 60% or more accuracy (e.g., gender, hair color, languages). Finally, 72% of participants sought control over model-generated associations with their name, raising questions about what counts as PD and whether data privacy rights should extend to LLMs.",
+      "url": "https://arxiv.org/abs/2602.17483",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "pd",
+        "llms",
+        "audit",
+        "data",
+        "models",
+        "privacy",
+        "4o",
+        "associate",
+        "based",
+        "centered"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly relevant and concerning issue \u2013 the leakage of personal data from LLMs. The development of LMP2, a human-centered audit tool, and the empirical studies with EU residents demonstrate a rigorous methodology. The findings regarding GPT-4o's ability to generate accurate personal features are particularly striking and highlight the need for better privacy controls.",
+      "paper_id": "61822ab2c4ea9ec19f85bb6bb5c33aa9"
+    },
+    {
+      "title": "The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage",
+      "authors": [
+        "Preni Golazizian, Elnaz Rahmati, Jackson Trager, Zhivar Sourati, Nona Ghazizadeh, Georgios Chochlakis, Jose Alcocer, Kerby Bennett, Aarya Vijay Devnani, Parsa Hejabi, Harry G. Muttram, Akshay Kiran Padte, Mehrshad Saadatinia, Chenhao Wu, Alireza S. Ziabari, Michael Sierra-Ar\\'evalo, Nick Weller, Shrikanth Narayanan, Benjamin A. T. Graham, Morteza Dehghani"
+      ],
+      "abstract": "arXiv:2602.10339v2 Announce Type: replace \nAbstract: Traffic stops are among the most frequent police-civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounters unfold. Respect is a central dimension of these interactions, shaping public trust and perceived legitimacy, yet its interpretation is inherently subjective and shaped by lived experience, rendering community-specific perspectives a critical consideration. Leveraging unprecedented access to Los Angeles Police Department BWC footage, we introduce the first large-scale traffic-stop dataset annotated with respect ratings and free-text rationales from multiple perspectives. By sampling annotators from police-affiliated, justice-system-impacted, and non-affiliated Los Angeles residents, we enable the systematic study of perceptual differences across diverse communities. To this end, we (i) develop a domain-specific evaluation rubric grounded in procedural justice theory, LAPD training materials, and extensive fieldwork; (ii) introduce a rubric-driven preference data construction framework for perspective-consistent alignment; and (iii) propose a perspective-aware modeling framework that predicts personalized respect ratings and generates annotator-specific rationales for both officers and civilian drivers from traffic-stop transcripts. Across all three annotator groups, our approach improves both rating prediction performance and rationale alignment. Our perspective-aware framework enables law enforcement to better understand diverse community expectations, providing a vital tool for building public trust and procedural legitimacy.",
+      "url": "https://arxiv.org/abs/2602.10339",
+      "published_date": "2026-02-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "police",
+        "respect",
+        "traffic",
+        "community",
+        "framework",
+        "perspective",
+        "perspectives",
+        "specific",
+        "affiliated",
+        "alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a crucial issue \u2013 the subjective nature of respect in police interactions \u2013 with a novel approach using BWC footage and diverse annotator perspectives. The creation of a large-scale, annotated dataset is a significant methodological contribution, and grounding the rubric in procedural justice theory adds rigor. The potential for informing police training and improving community relations is substantial, making it highly relevant and likely to be well-received.",
+      "paper_id": "e11fe24285c6df73c4214c79e05e7d70"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-20T09:53:28.121062"
 }

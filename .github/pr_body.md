@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 7
+- **Average Significance Score:** 91.7/100
+- **Categories Updated:** 3
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,32 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
-
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
-
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
 ## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+- **The Emergence of Lab-Driven Alignment Signatures: A Psychometric Framework for Auditing Latent Bias and Compounding Risk in Generative AI** (Score: 92.0)
+  - This paper tackles a crucial and timely problem in AI safety – the detection of latent biases in LLMs as they become more integrated into complex systems. The use of psychometric measurement theory is a novel approach to auditing these 'prevailing mindsets' without relying on potentially biased ground truth labels. The described methodology, with its focus on cryptographic permutation-invariance and forced-choice vignettes, appears rigorous and well-considered, suggesting a high-quality study.
+- **FinTagging: Benchmarking LLMs for Extracting and Structuring Financial Information** (Score: 90.0)
+  - This paper addresses a crucial problem in financial data processing – accurate XBRL tagging – and identifies a significant gap in existing benchmarks. The proposed FinTagging benchmark, with its focus on hierarchical semantics and structured documents, represents a substantial improvement over current evaluation methods. The decomposition into FinNI subtasks suggests a rigorous approach, and the potential for improving LLM performance in a real-world, high-stakes domain is considerable.
+
+## Training (4 new papers)
+- **Multi-Objective Alignment of Language Models for Personalized Psychotherapy** (Score: 92.0)
+  - This research tackles a highly significant problem – access to mental healthcare – with a promising AI-driven solution. The use of multi-objective DPO to balance therapeutic criteria is a strong methodological choice, and the survey of individuals with lived experience adds valuable grounding. While DPO isn't entirely novel, applying it to this specific domain with these objectives and a multi-objective approach demonstrates a clear advancement. The reported balance of empathy and safety (77.6% and 62.6%) suggests a potentially impactful outcome.
+- **PREFER: An Ontology for the PREcision FERmentation Community** (Score: 92.0)
+  - This paper addresses a critical bottleneck in the rapidly growing field of precision fermentation – the lack of standardized data formats and interoperability. The development of PREFER, built upon established ontologies like BFO, demonstrates a thoughtful approach to solving this problem. While ontology creation isn't inherently groundbreaking, its application to this specific domain and focus on high-throughput data is highly valuable and likely to be well-received by the community.
+- **What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data** (Score: 92.0)
+  - This research tackles a highly relevant and concerning issue – the leakage of personal data from LLMs. The development of LMP2, a human-centered audit tool, and the empirical studies with EU residents demonstrate a rigorous methodology. The findings regarding GPT-4o's ability to generate accurate personal features are particularly striking and highlight the need for better privacy controls.
+- **The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage** (Score: 92.0)
+  - This research tackles a crucial issue – the subjective nature of respect in police interactions – with a novel approach using BWC footage and diverse annotator perspectives. The creation of a large-scale, annotated dataset is a significant methodological contribution, and grounding the rubric in procedural justice theory adds rigor. The potential for informing police training and improving community relations is substantial, making it highly relevant and likely to be well-received.
+
+## Alignment (1 new papers)
+- **Intent Laundering: AI Safety Datasets Are Not What They Seem** (Score: 92.0)
+  - This paper tackles a crucial problem in AI safety: the potential for datasets to be misleadingly 'safe' due to reliance on superficial cues rather than genuine robustness. The 'intent laundering' technique is a clever approach to expose this weakness, and the findings suggest current evaluation methods are flawed. The clear framing of the problem and proposed solution indicate a high-quality, impactful study.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (2), **Training** (4), **Alignment** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

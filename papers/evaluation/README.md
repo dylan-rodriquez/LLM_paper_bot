@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Emergence of Lab-Driven Alignment Signatures: A Psychometric Framework for Auditing Latent Bias and Compounding Risk in Generative AI
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Dusan Bosnjakovic
+
+arXiv:2602.17127v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) transition from standalone chat interfaces to foundational reasoning layers in multi-agent systems and recursive evalua...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.17127) | [📝 Analysis](171112476ffd34fcbdae6ca6216774b3.md)
+
+---
+
+### FinTagging: Benchmarking LLMs for Extracting and Structuring Financial Information
+
+**Score:** 90.0 | **Published:** 2026-02-20 | **Authors:** Yan Wang, Lingfei Qian, Xueqing Peng, Yang Ren, Keyi Wang, Yi Han, Dongji Feng, Fengran Mo, Shengyuan Lin, Qinchuan Zhang, Kaiwen He, Chenri Luo, Jianxing Chen, Junwei Wu, Chen Xu, Ziyang Xu, Jimin Huang, Guojun Xiong, Xiao-Yang Liu, Qianqian Xie, Jian-Yun Nie
+
+arXiv:2505.20650v4 Announce Type: replace 
+Abstract: Accurate interpretation of numerical data in financial reports is critical for markets and regulators. Although XBRL (eXtensible Business Reporting...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.20650) | [📝 Analysis](20aa4af786dc4893aee650dd0bc1bda0.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-20 09:53:28 UTC*

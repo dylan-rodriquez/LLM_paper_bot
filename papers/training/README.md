@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Multi-Objective Alignment of Language Models for Personalized Psychotherapy
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Mehrab Beikzadeh, Yasaman Asadollah Salmanpour, Ashima Suvarna, Sriram Sankararaman, Matteo Malgaroli, Majid Sarrafzadeh, Saadia Gabriel
+
+arXiv:2602.16053v1 Announce Type: cross 
+Abstract: Mental health disorders affect over 1 billion people worldwide, yet access to care remains limited by workforce shortages and cost constraints. While...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.16053) | [📝 Analysis](209f74c9f1595597039ffc2ab1c26163.md)
+
+---
+
+### PREFER: An Ontology for the PREcision FERmentation Community
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Txell Amig\'o (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Shawn Zheng Kai Tan (SignaMind, Singapore), Angel Luu Phanthanourak (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Sebastian Schulz (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Pasquale D. Colaianni (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Dominik M. Maszczyk (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Ester Milesi (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Ivan Schlembach (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Mykhaylo Semenov Petrov (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Marta Revent\'os Montan\'e (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Lars K. Nielsen (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark, Australian Institute for Bioengineering and Nanotechnology, The University of Queensland, Brisbane, Queensland, Australia), Jochen F\"orster (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Bernhard {\O}. Palsson (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark, The Department of Bioengineering, University of California, San Diego, USA), Suresh Sudarsan (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark), Alberto Santos (The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kgs. Lyngby, Denmark)
+
+arXiv:2602.16755v1 Announce Type: cross 
+Abstract: Precision fermentation relies on microbial cell factories to produce sustainable food, pharmaceuticals, chemicals, and biofuels. Specialized laborato...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.16755) | [📝 Analysis](1283d24eb62f643e7afbfa5e337a401c.md)
+
+---
+
+### What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Dimitri Staufer, Kirsten Morehouse
+
+arXiv:2602.17483v1 Announce Type: cross 
+Abstract: Large language models (LLMs), and conversational agents based on them, are exposed to personal data (PD) during pre-training and during user interact...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.17483) | [📝 Analysis](61822ab2c4ea9ec19f85bb6bb5c33aa9.md)
+
+---
+
+### The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Preni Golazizian, Elnaz Rahmati, Jackson Trager, Zhivar Sourati, Nona Ghazizadeh, Georgios Chochlakis, Jose Alcocer, Kerby Bennett, Aarya Vijay Devnani, Parsa Hejabi, Harry G. Muttram, Akshay Kiran Padte, Mehrshad Saadatinia, Chenhao Wu, Alireza S. Ziabari, Michael Sierra-Ar\'evalo, Nick Weller, Shrikanth Narayanan, Benjamin A. T. Graham, Morteza Dehghani
+
+arXiv:2602.10339v2 Announce Type: replace 
+Abstract: Traffic stops are among the most frequent police-civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounter...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.10339) | [📝 Analysis](e11fe24285c6df73c4214c79e05e7d70.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-20 09:53:28 UTC*

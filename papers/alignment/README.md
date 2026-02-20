@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Intent Laundering: AI Safety Datasets Are Not What They Seem
+
+**Score:** 92.0 | **Published:** 2026-02-20 | **Authors:** Shahriar Golchin, Marc Wetter
+
+arXiv:2602.16729v1 Announce Type: cross 
+Abstract: We systematically evaluate the quality of widely used AI safety datasets from two perspectives: in isolation and in practice. In isolation, we examin...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.16729) | [📝 Analysis](12b63abea0c4322fd5ad07a6aaaf7e1a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-20 09:53:28 UTC*
