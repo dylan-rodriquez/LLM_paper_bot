@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond Surface-level Privacy Leakage
+
+**Score:** 92.0 | **Published:** 2026-02-23 | **Authors:** Rui Xin, Niloofar Mireshghallah, Shuyue Stella Li, Michael Duan, Hyunwoo Kim, Yejin Choi, Yulia Tsvetkov, Sewoong Oh, Pang Wei Koh
+
+arXiv:2504.21035v3 Announce Type: replace-cross 
+Abstract: Sanitizing sensitive text data typically involves removing personally identifiable information (PII) or generating synthetic data under the a...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.21035) | [📝 Analysis](5aa65f22f0033ad6d50e51269935ed99.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-23 10:06:01 UTC*

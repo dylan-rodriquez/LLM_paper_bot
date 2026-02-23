@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Towards More Standardized AI Evaluation: From Models to Agents
+
+**Score:** 90.0 | **Published:** 2026-02-23 | **Authors:** Ali El Filali, In\`es Bedar
+
+arXiv:2602.18029v1 Announce Type: new 
+Abstract: Evaluation is no longer a final checkpoint in the machine learning lifecycle. As AI systems evolve from static models to compound, tool-using agents, e...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.18029) | [📝 Analysis](6e7e971f991bdbeb0f0338d68632bd66.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-23 10:06:01 UTC*

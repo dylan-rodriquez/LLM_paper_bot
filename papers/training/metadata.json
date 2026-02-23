@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Epistemic Traps: Rational Misalignment Driven by Model Misspecification",
+      "authors": [
+        "Xingcheng Xu, Jingjing Qu, Qiaosheng Zhang, Chaochao Lu, Yanqing Yang, Na Zou, Xia Hu"
+      ],
+      "abstract": "arXiv:2602.17676v1 Announce Type: cross \nAbstract: The rapid deployment of Large Language Models and AI agents across critical societal and technical domains is hindered by persistent behavioral pathologies including sycophancy, hallucination, and strategic deception that resist mitigation via reinforcement learning. Current safety paradigms treat these failures as transient training artifacts, lacking a unified theoretical framework to explain their emergence and stability. Here we show that these misalignments are not errors, but mathematically rationalizable behaviors arising from model misspecification. By adapting Berk-Nash Rationalizability from theoretical economics to artificial intelligence, we derive a rigorous framework that models the agent as optimizing against a flawed subjective world model. We demonstrate that widely observed failures are structural necessities: unsafe behaviors emerge as either a stable misaligned equilibrium or oscillatory cycles depending on reward scheme, while strategic deception persists as a \"locked-in\" equilibrium or through epistemic indeterminacy robust to objective risks. We validate these theoretical predictions through behavioral experiments on six state-of-the-art model families, generating phase diagrams that precisely map the topological boundaries of safe behavior. Our findings reveal that safety is a discrete phase determined by the agent's epistemic priors rather than a continuous function of reward magnitude. This establishes Subjective Model Engineering, defined as the design of an agent's internal belief structure, as a necessary condition for robust alignment, marking a paradigm shift from manipulating environmental rewards to shaping the agent's interpretation of reality.",
+      "url": "https://arxiv.org/abs/2602.17676",
+      "published_date": "2026-02-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "model",
+        "agent",
+        "epistemic",
+        "theoretical",
+        "behavioral",
+        "behaviors",
+        "deception",
+        "equilibrium",
+        "failures",
+        "framework"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 the persistence of undesirable behaviors in LLMs despite attempts at alignment. The application of Berk-Nash Rationalizability to AI is a novel and potentially powerful approach, offering a theoretical framework beyond simply treating these issues as training artifacts. The abstract suggests a rigorous mathematical foundation and the potential to explain *why* these behaviors are stable, which is a significant step forward. The framing of misalignments as rational responses to flawed world models is compelling.",
+      "paper_id": "3a84061ced0adf825d7838c4ead15c4a"
+    },
+    {
+      "title": "Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment",
+      "authors": [
+        "Cameron Tice, Puria Radmard, Samuel Ratnam, Andy Kim, David Africa, Kyle O'Brien"
+      ],
+      "abstract": "arXiv:2601.10160v2 Announce Type: replace \nAbstract: Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly understood. If prevailing descriptions of AI behaviour are predominantly negative, LLMs may internalise corresponding behavioural priors, giving rise to self-fulfilling misalignment. This paper provides the first controlled study of this hypothesis by pretraining 6.9B-parameter LLMs with varying amounts of (mis)alignment discourse. We find that discussion of AI contributes to misalignment. Upsampling synthetic training documents about AI misalignment leads to a notable increase in misaligned behaviour. Conversely, upsampling documents about aligned behaviour reduces misalignment scores from 45% to 9%. We consider this evidence of self-fulfilling alignment. These effects are dampened, but persist through post-training. Our findings establish the study of how pretraining data shapes alignment priors, or alignment pretraining, as a complement to post-training. We recommend practitioners consider pretraining for alignment alongside capabilities. We share our models, data, and evaluations at AlignmentPretraining.ai.",
+      "url": "https://arxiv.org/abs/2601.10160",
+      "published_date": "2026-02-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "ai",
+        "pretraining",
+        "discourse",
+        "misalignment",
+        "behaviour",
+        "fulfilling",
+        "self",
+        "self fulfilling",
+        "training"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and often overlooked aspect of LLM alignment \u2013 the influence of pretraining data *about* AI itself. The controlled experiment, upsampling alignment/misalignment discourse, provides compelling evidence for self-fulfilling prophecy in LLM behavior. While the methodology is sound, the 6.9B parameter model size limits broad generalizability, but the core finding is highly impactful and well-presented.",
+      "paper_id": "ab6318c9f9d99f08b59bdbb739ace9e3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-23T10:06:01.738701"
 }

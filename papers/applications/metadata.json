@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond Surface-level Privacy Leakage",
+      "authors": [
+        "Rui Xin, Niloofar Mireshghallah, Shuyue Stella Li, Michael Duan, Hyunwoo Kim, Yejin Choi, Yulia Tsvetkov, Sewoong Oh, Pang Wei Koh"
+      ],
+      "abstract": "arXiv:2504.21035v3 Announce Type: replace-cross \nAbstract: Sanitizing sensitive text data typically involves removing personally identifiable information (PII) or generating synthetic data under the assumption that these methods adequately protect privacy; however, their effectiveness is often only assessed by measuring the leakage of explicit identifiers but ignoring nuanced textual markers that can lead to re-identification. We challenge the above illusion of privacy by proposing a new framework that evaluates re-identification attacks to quantify individual privacy risks upon data release. Our approach shows that seemingly innocuous auxiliary information -- such as routine social activities -- can be used to infer sensitive attributes like age or substance use history from sanitized data. For instance, we demonstrate that Azure's commercial PII removal tool fails to protect 74\\% of information in the MedQA dataset. Although differential privacy mitigates these risks to some extent, it significantly reduces the utility of the sanitized text for downstream tasks. Our findings indicate that current sanitization techniques offer a \\textit{false sense of privacy}, highlighting the need for more robust methods that protect against semantic-level information leakage.",
+      "url": "https://arxiv.org/abs/2504.21035",
+      "published_date": "2026-02-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "privacy",
+        "data",
+        "information",
+        "leakage",
+        "protect",
+        "false",
+        "false sense",
+        "identification",
+        "level",
+        "methods"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a critical gap in privacy-preserving data handling by demonstrating the limitations of current sanitization techniques beyond simple PII removal. The framework proposed for evaluating re-identification risks appears novel and the initial results, particularly the 74% failure rate of Azure's tool, are concerning and impactful. While the abstract doesn't detail the specifics of the attack framework, the problem is clearly articulated and the potential for real-world consequences is high.",
+      "paper_id": "5aa65f22f0033ad6d50e51269935ed99"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-02-23T10:06:01.740897"
 }

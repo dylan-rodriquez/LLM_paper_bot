@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Towards More Standardized AI Evaluation: From Models to Agents",
+      "authors": [
+        "Ali El Filali, In\\`es Bedar"
+      ],
+      "abstract": "arXiv:2602.18029v1 Announce Type: new \nAbstract: Evaluation is no longer a final checkpoint in the machine learning lifecycle. As AI systems evolve from static models to compound, tool-using agents, evaluation becomes a core control function. The question is no longer \"How good is the model?\" but \"Can we trust the system to behave as intended, under change, at scale?\". Yet most evaluation practices remain anchored in assumptions inherited from the model-centric era: static benchmarks, aggregate scores, and one-off success criteria. This paper argues that such approaches are increasingly obscure rather than illuminating system behavior. We examine how evaluation pipelines themselves introduce silent failure modes, why high benchmark scores routinely mislead teams, and how agentic systems fundamentally alter the meaning of performance measurement. Rather than proposing new metrics or harder benchmarks, we aim to clarify the role of evaluation in the AI era, and especially for agents: not as performance theater, but as a measurement discipline that conditions trust, iteration, and governance in non-deterministic systems.",
+      "url": "https://arxiv.org/abs/2602.18029",
+      "published_date": "2026-02-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "agents",
+        "ai",
+        "systems",
+        "benchmarks",
+        "era",
+        "longer",
+        "measurement",
+        "model",
+        "models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and increasingly relevant problem in AI: the inadequacy of current evaluation methods for complex, agentic systems. The abstract clearly articulates the shift needed in thinking about evaluation, moving beyond static benchmarks to a more holistic understanding of system behavior. While the abstract doesn't *present* new methods, its framing of the problem is strong and likely to resonate with the AI community, suggesting a positive reception. The focus on trust and scalability is particularly important.",
+      "paper_id": "6e7e971f991bdbeb0f0338d68632bd66"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-23T10:06:01.737180"
 }

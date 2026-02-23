@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Epistemic Traps: Rational Misalignment Driven by Model Misspecification
+
+**Score:** 92.0 | **Published:** 2026-02-23 | **Authors:** Xingcheng Xu, Jingjing Qu, Qiaosheng Zhang, Chaochao Lu, Yanqing Yang, Na Zou, Xia Hu
+
+arXiv:2602.17676v1 Announce Type: cross 
+Abstract: The rapid deployment of Large Language Models and AI agents across critical societal and technical domains is hindered by persistent behavioral patho...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.17676) | [📝 Analysis](3a84061ced0adf825d7838c4ead15c4a.md)
+
+---
+
+### Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+
+**Score:** 92.0 | **Published:** 2026-02-23 | **Authors:** Cameron Tice, Puria Radmard, Samuel Ratnam, Andy Kim, David Africa, Kyle O'Brien
+
+arXiv:2601.10160v2 Announce Type: replace 
+Abstract: Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.10160) | [📝 Analysis](ab6318c9f9d99f08b59bdbb739ace9e3.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-23 10:06:01 UTC*

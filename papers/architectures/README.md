@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Trojans in Artificial Intelligence (TrojAI) Final Report
+
+**Score:** 95.0 | **Published:** 2026-02-23 | **Authors:** Kristopher W. Reese, Taylor Kulp-McDowall, Michael Majurski, Tim Blattner, Derek Juba, Peter Bajcsy, Antonio Cardone, Philippe Dessauw, Alden Dima, Anthony J. Kearsley, Melinda Kleczynski, Joel Vasanth, Walid Keyrouz, Chace Ashcraft, Neil Fendley, Ted Staley, Trevor Stout, Josh Carney, Greg Canal, Will Redman, Aurora Schmidt, Cameron Hickert, William Paul, Jared Markowitz, Nathan Drenkow, David Shriver, Marissa Connor, Keltin Grimes, Marco Christiani, Hayden Moore, Jordan Widjaja, Kasimir Gabert, Uma Balakrishnan, Satyanadh Gundimada, John Jacobellis, Sandya Lakkur, Vitus Leung, Jon Roose, Casey Battaglino, Farinaz Koushanfar, Greg Fields, Xihe Gu, Yaman Jandali, Xinqiao Zhang, Akash Vartak, Tim Oates, Ben Erichson, Michael Mahoney, Rauf Izmailov, Xiangyu Zhang, Guangyu Shen, Siyuan Cheng, Shiqing Ma, XiaoFeng Wang, Haixu Tang, Di Tang, Xiaoyi Chen, Zihao Wang, Rui Zhu, Susmit Jha, Xiao Lin, Manoj Acharya, Wenchao Li, Chao Chen
+
+arXiv:2602.07152v1 Announce Type: cross 
+Abstract: The Intelligence Advanced Research Projects Activity (IARPA) launched the TrojAI program to confront an emerging vulnerability in modern artificial i...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.07152) | [📝 Analysis](c961dbc8fd76fed823a9c2dfcb34000c.md)
+
+---
+
+### Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-23 | **Authors:** Sri Durga Sai Sowmya Kadali, Evangelos E. Papalexakis
+
+arXiv:2602.11495v2 Announce Type: replace-cross 
+Abstract: Jailbreaking large language models (LLMs) has emerged as a critical security challenge with the widespread deployment of conversational AI sy...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11495) | [📝 Analysis](ea36de3326370196c7ad4a5d101c42e7.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-23 10:06:01 UTC*

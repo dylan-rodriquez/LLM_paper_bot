@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering
+
+**Score:** 90.0 | **Published:** 2026-02-23 | **Authors:** Jash Rajesh Parekh, Wonbin Kweon, Joey Chan, Rezarta Islamaj, Robert Leaman, Pengcheng Jiang, Chih-Hsuan Wei, Zhizheng Wang, Zhiyong Lu, Jiawei Han
+
+arXiv:2602.17911v1 Announce Type: new 
+Abstract: Current biomedical question answering (QA) systems often assume that medical knowledge applies uniformly, yet real-world clinical reasoning is inherent...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.17911) | [📝 Analysis](67fb7804255125a1b70190fec9752c1d.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-23 10:06:01 UTC*
