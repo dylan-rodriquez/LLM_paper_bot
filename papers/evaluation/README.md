@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### INSURE-Dial: A Phase-Aware Conversational Dataset \& Benchmark for Compliance Verification and Phase Detection
+
+**Score:** 92.0 | **Published:** 2026-02-24 | **Authors:** Shubham Kulkarni, Alexander Lyzhov, Preetam Joshi, Shiva Chaitanya
+
+arXiv:2602.18448v1 Announce Type: new 
+Abstract: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls manua...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.18448) | [📝 Analysis](91c7b42f796b83d8c9340e81af428cf9.md)
+
+---
+
+### Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming
+
+**Score:** 92.0 | **Published:** 2026-02-24 | **Authors:** Ian Steenstra, Paola Pedrelli, Weiyan Shi, Stacy Marsella, Timothy W. Bickmore
+
+arXiv:2602.19948v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly utilized for mental health support; however, current safety benchmarks often fail to detect the complex, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.19948) | [📝 Analysis](a16f107b52dd5aceb77cd871ec7601cf.md)
+
+---
+
+### Luna-2: Scalable Single-Token Evaluation with Small Language Models
+
+**Score:** 90.0 | **Published:** 2026-02-24 | **Authors:** Vatsal Goel, Rishon Dsouza, Nikhil Ega, Amey Ramesh Rambatla, Rob Friel, Shuai Shao, Yash Sheth
+
+arXiv:2602.18583v1 Announce Type: new 
+Abstract: Real-time guardrails require evaluation that is accurate, cheap, and fast - yet today's default, LLM-as-a-judge (LLMAJ), is slow, expensive, and operat...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.18583) | [📝 Analysis](d8a581b39cedd7c04f68503f57f92e42.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-24 09:58:26 UTC*

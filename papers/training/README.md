@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Position: General Alignment Has Hit a Ceiling; Edge Alignment Must Be Taken Seriously
+
+**Score:** 92.0 | **Published:** 2026-02-24 | **Authors:** Han Bao, Yue Huang, Xiaoda Wang, Zheyuan Zhang, Yujun Zhou, Carl Yang, Xiangliang Zhang, Yanfang Ye
+
+arXiv:2602.20042v1 Announce Type: new 
+Abstract: Large language models are being deployed in complex socio-technical systems, which exposes limits in current alignment practice. We take the position t...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.20042) | [📝 Analysis](b7a59664887e6b413e6d72c4b2117a1f.md)
+
+---
+
+### MANATEE: Inference-Time Lightweight Diffusion Based Safety Defense for LLMs
+
+**Score:** 90.0 | **Published:** 2026-02-24 | **Authors:** Chun Yan Ryan Kan, Tommy Tran, Vedant Yadav, Ava Cai, Kevin Zhu, Ruizhe Li, Maheep Chaudhary
+
+arXiv:2602.18782v1 Announce Type: cross 
+Abstract: Defending LLMs against adversarial jailbreak attacks remains an open challenge. Existing defenses rely on binary classifiers that fail when adversari...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.18782) | [📝 Analysis](7bdbbc8a19b24cb46c4eb7762c6bed0c.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-24 09:58:26 UTC*

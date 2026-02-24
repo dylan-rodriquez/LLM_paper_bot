@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Position: General Alignment Has Hit a Ceiling; Edge Alignment Must Be Taken Seriously",
+      "authors": [
+        "Han Bao, Yue Huang, Xiaoda Wang, Zheyuan Zhang, Yujun Zhou, Carl Yang, Xiangliang Zhang, Yanfang Ye"
+      ],
+      "abstract": "arXiv:2602.20042v1 Announce Type: new \nAbstract: Large language models are being deployed in complex socio-technical systems, which exposes limits in current alignment practice. We take the position that the dominant paradigm of General Alignment, which compresses diverse human values into a single scalar reward, reaches a structural ceiling in settings with conflicting values, plural stakeholders, and irreducible uncertainty. These failures follow from the mathematics and incentives of scalarization and lead to \\textbf{structural} value flattening, \\textbf{normative} representation loss, and \\textbf{cognitive} uncertainty blindness. We introduce Edge Alignment as a distinct approach in which systems preserve multi dimensional value structure, support plural and democratic representation, and incorporate epistemic mechanisms for interaction and clarification. To make this approach practical, we propose seven interdependent pillars organized into three phases. We identify key challenges in data collection, training objectives, and evaluation, outlining complementary technical and governance directions. Taken together, these measures reframe alignment as a lifecycle problem of dynamic normative governance rather than as a single instance optimization task.",
+      "url": "https://arxiv.org/abs/2602.20042",
+      "published_date": "2026-02-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "alignment",
+        "textbf",
+        "approach",
+        "ceiling",
+        "edge",
+        "edge alignment",
+        "general",
+        "general alignment",
+        "governance",
+        "normative"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and increasingly relevant problem in LLM deployment: the limitations of scalar reward alignment in complex real-world scenarios. The framing of 'Edge Alignment' as a distinct paradigm, moving beyond 'General Alignment', is a strong conceptual contribution. While the abstract doesn't detail the seven pillars, the proposed approach appears well-structured and addresses key challenges, suggesting a rigorous methodology will be presented in the full paper. The focus on multi-dimensional values and stakeholder representation is particularly timely.",
+      "paper_id": "b7a59664887e6b413e6d72c4b2117a1f"
+    },
+    {
+      "title": "MANATEE: Inference-Time Lightweight Diffusion Based Safety Defense for LLMs",
+      "authors": [
+        "Chun Yan Ryan Kan, Tommy Tran, Vedant Yadav, Ava Cai, Kevin Zhu, Ruizhe Li, Maheep Chaudhary"
+      ],
+      "abstract": "arXiv:2602.18782v1 Announce Type: cross \nAbstract: Defending LLMs against adversarial jailbreak attacks remains an open challenge. Existing defenses rely on binary classifiers that fail when adversarial input falls outside the learned decision boundary, and repeated fine-tuning is computationally expensive while potentially degrading model capabilities. We propose MANATEE, an inference-time defense that uses density estimation over a benign representation manifold. MANATEE learns the score function of benign hidden states and uses diffusion to project anomalous representations toward safe regions--requiring no harmful training data and no architectural modifications. Experiments across Mistral-7B-Instruct, Llama-3.1-8B-Instruct, and Gemma-2-9B-it demonstrate that MANATEE reduce Attack Success Rate by up to 100\\% on certain datasets, while preserving model utility on benign inputs.",
+      "url": "https://arxiv.org/abs/2602.18782",
+      "published_date": "2026-02-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "manatee",
+        "benign",
+        "adversarial",
+        "defense",
+        "diffusion",
+        "inference",
+        "inference time",
+        "instruct",
+        "llms",
+        "manatee inference"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical problem in LLM safety \u2013 adversarial jailbreaking \u2013 with a novel approach that avoids the pitfalls of traditional defenses. The use of diffusion models for inference-time safety is a clever idea, and the reported results of up to 100% attack success rate reduction are impressive. While the abstract doesn't detail the complexity of implementation, the core concept appears sound and well-motivated, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "7bdbbc8a19b24cb46c4eb7762c6bed0c"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-24T09:58:26.504359"
 }

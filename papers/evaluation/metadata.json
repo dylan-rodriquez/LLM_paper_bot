@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "INSURE-Dial: A Phase-Aware Conversational Dataset \\& Benchmark for Compliance Verification and Phase Detection",
+      "authors": [
+        "Shubham Kulkarni, Alexander Lyzhov, Preetam Joshi, Shiva Chaitanya"
+      ],
+      "abstract": "arXiv:2602.18448v1 Announce Type: new \nAbstract: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls manually handled in 2024. We introduce INSURE-Dial, to our knowledge the first public benchmark for developing and assessing compliance-aware voice agents for phase-aware call auditing with span-based compliance verification. The corpus includes 50 de-identified, AI-initiated calls with live insurance representatives (mean 71 turns/call) and 1,000 synthetically generated calls that mirror the same workflow. All calls are annotated with a phase-structured JSON schema covering IVR navigation, patient identification, coverage status, medication checks (up to two drugs), and agent identification (CRN), and each phase is labeled for Information and Procedural compliance under explicit ask/answer logic. We define two novel evaluation tasks: (1) Phase Boundary Detection (span segmentation under phase-specific acceptance rules) and (2) Compliance Verification (IC/PC decisions given fixed spans). Per-phase scores are strong across small, low-latency baselines, but end-to-end reliability is constrained by span-boundary errors. On real calls, full-call exact segmentation is low, showing a gap between conversational fluency and audit-grade evidence.",
+      "url": "https://arxiv.org/abs/2602.18448",
+      "published_date": "2026-02-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "phase",
+        "calls",
+        "compliance",
+        "verification",
+        "aware",
+        "compliance verification",
+        "span",
+        "benchmark",
+        "boundary",
+        "conversational"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and costly problem in healthcare administration. The creation of INSURE-Dial, a phase-aware conversational dataset, is a valuable contribution, particularly the inclusion of both real and synthetic data and the detailed annotation schema. While the tasks themselves (phase boundary detection and compliance verification) build upon existing NLP techniques, the specific application to insurance verification and the focus on compliance are novel and well-motivated. The potential for real-world impact through automated compliance auditing is substantial.",
+      "paper_id": "91c7b42f796b83d8c9340e81af428cf9"
+    },
+    {
+      "title": "Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming",
+      "authors": [
+        "Ian Steenstra, Paola Pedrelli, Weiyan Shi, Stacy Marsella, Timothy W. Bickmore"
+      ],
+      "abstract": "arXiv:2602.19948v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly utilized for mental health support; however, current safety benchmarks often fail to detect the complex, longitudinal risks inherent in therapeutic dialogue. We introduce an evaluation framework that pairs AI psychotherapists with simulated patient agents equipped with dynamic cognitive-affective models and assesses therapy session simulations against a comprehensive quality of care and risk ontology. We apply this framework to a high-impact test case, Alcohol Use Disorder, evaluating six AI agents (including ChatGPT, Gemini, and Character.AI) against a clinically-validated cohort of 15 patient personas representing diverse clinical phenotypes.\n  Our large-scale simulation (N=369 sessions) reveals critical safety gaps in the use of AI for mental health support. We identify specific iatrogenic risks, including the validation of patient delusions (\"AI Psychosis\") and failure to de-escalate suicide risk. Finally, we validate an interactive data visualization dashboard with diverse stakeholders, including AI engineers and red teamers, mental health professionals, and policy experts (N=9), demonstrating that this framework effectively enables stakeholders to audit the \"black box\" of AI psychotherapy. These findings underscore the critical safety risks of AI-provided mental health support and the necessity of simulation-based clinical red teaming before deployment.",
+      "url": "https://arxiv.org/abs/2602.19948",
+      "published_date": "2026-02-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "health",
+        "mental",
+        "mental health",
+        "framework",
+        "health support",
+        "risks",
+        "support",
+        "clinical",
+        "including"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critically important and timely problem \u2013 the safety of LLMs in mental health support. The framework for 'AI Red Teaming' using simulated patient agents with dynamic cognitive-affective models is a strong methodological approach. The identification of specific iatrogenic risks like 'AI Psychosis' and failure to de-escalate suicidal ideation suggests significant findings, and the large-scale simulation (N=369) adds to the rigor.",
+      "paper_id": "a16f107b52dd5aceb77cd871ec7601cf"
+    },
+    {
+      "title": "Luna-2: Scalable Single-Token Evaluation with Small Language Models",
+      "authors": [
+        "Vatsal Goel, Rishon Dsouza, Nikhil Ega, Amey Ramesh Rambatla, Rob Friel, Shuai Shao, Yash Sheth"
+      ],
+      "abstract": "arXiv:2602.18583v1 Announce Type: new \nAbstract: Real-time guardrails require evaluation that is accurate, cheap, and fast - yet today's default, LLM-as-a-judge (LLMAJ), is slow, expensive, and operationally non-deterministic due to multi-token generation. We present Luna-2, a novel architecture that leverages decoder-only small language models (SLMs) into a deterministic evaluation model to reliably compute complex task-specific LLMAJ metrics (e.g. toxicity, hallucination, tool selection quality, etc.) at an accuracy at par or higher than LLMAJ using frontier LLMs while drastically reducing the cost and latency of computation. Each metric is implemented as a lightweight LoRA/PEFT head on top of a shared SLM backbone, enabling hundreds of specialized metrics to run concurrently on a single GPU, deployable locally next to AI systems in a privacy-preserving and latency optimizing manner. Across content safety and hallucination benchmarks, Luna-2 matches the accuracy of state-of-the-art LLM-based evaluators while reducing inference cost by over 80x and latency by over 20x.\n  In this paper, we outline the model architecture, training methodology and report real-world empirical results on accuracy, latency, and throughput results. In production, Luna-2 is protecting 100M+ AI sessions and processing over 100B tokens per month for our customers with eval cost savings of over $30M annually.",
+      "url": "https://arxiv.org/abs/2602.18583",
+      "published_date": "2026-02-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "latency",
+        "luna",
+        "accuracy",
+        "cost",
+        "evaluation",
+        "llmaj",
+        "ai",
+        "architecture",
+        "deterministic",
+        "hallucination"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in LLM deployment \u2013 the cost and latency of evaluation. The approach of using SLMs with LoRA/PEFT heads for metric computation is clever and potentially highly effective. The claim of matching LLMAJ accuracy while significantly reducing cost and latency is compelling, and the focus on real-time guardrails is very timely. The abstract suggests a rigorous methodology and a clear presentation of results.",
+      "paper_id": "d8a581b39cedd7c04f68503f57f92e42"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-24T09:58:26.501652"
 }
