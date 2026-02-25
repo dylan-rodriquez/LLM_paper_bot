@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### A Simple and Efficient Jailbreak Method Exploiting LLMs' Helpfulness
+
+**Score:** 92.0 | **Published:** 2026-02-25 | **Authors:** Xuan Luo, Yue Wang, Zefeng He, Geng Tu, Jing Li, Ruifeng Xu
+
+arXiv:2509.14297v2 Announce Type: replace-cross 
+Abstract: This study reveals a critical safety blind spot in modern LLMs: learning-style queries, which closely resemble ordinary educational questions...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.14297) | [📝 Analysis](c6594d679d8548c2b7df34bc8de13833.md)
+
+---
+
+### Watermarking Degrades Alignment in Language Models: Analysis and Mitigation
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Apurv Verma, NhatHai Phan, Shubhendu Trivedi
+
+arXiv:2506.04462v4 Announce Type: replace 
+Abstract: Watermarking has become a practical tool for tracing language model outputs, but it modifies token probabilities at inference time, which were care...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.04462) | [📝 Analysis](7b7e37f7e87ce615985115b61f83aa4c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-25 10:00:03 UTC*

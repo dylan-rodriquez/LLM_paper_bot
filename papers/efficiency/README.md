@@ -2,7 +2,29 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Benchmarking Distilled Language Models: Performance and Efficiency in Resource-Constrained Settings
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Sachin Gopal Wani, Eric Page, Ajay Dholakia, David Ellison
+
+arXiv:2602.20164v1 Announce Type: new 
+Abstract: Knowledge distillation offers a transformative pathway to developing powerful, yet efficient, small language models (SLMs) suitable for resource-constr...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.20164) | [📝 Analysis](4cff29c922abd76c6d3f0204c7891028.md)
+
+---
+
+### Towards Efficient Agents: A Co-Design of Inference Architecture and System
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Weizhe Lin, Hui-Ling Zhen, Shuai Yang, Xian Wang, Renxi Liu, Hanting Chen, Wangze Zhang, Chuansai Zhou, Yiming Li, Chen Chen, Xing Li, Zhiyuan Yang, Xiaosong Li, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan, Yunhe Wang
+
+arXiv:2512.18337v2 Announce Type: replace 
+Abstract: The rapid development of large language model (LLM)-based agents has unlocked new possibilities for autonomous multi-turn reasoning and tool-augmen...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.18337) | [📝 Analysis](6ba4972c5d7422b9ee4c7fbd689097b6.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +82,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-25 10:00:03 UTC*
