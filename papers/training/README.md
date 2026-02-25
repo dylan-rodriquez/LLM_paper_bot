@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### What Matters For Safety Alignment?
+
+**Score:** 92.0 | **Published:** 2026-02-25 | **Authors:** Xing Li, Hui-Ling Zhen, Lihao Yin, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan
+
+arXiv:2601.03868v2 Announce Type: replace 
+Abstract: This paper presents a comprehensive empirical study on the safety alignment capabilities. We evaluate what matters for safety alignment in LLMs and...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.03868) | [📝 Analysis](2a53ecc475310cb75c9142b79a95f4ec.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-25 10:00:03 UTC*

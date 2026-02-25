@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "What Matters For Safety Alignment?",
+      "authors": [
+        "Xing Li, Hui-Ling Zhen, Lihao Yin, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan"
+      ],
+      "abstract": "arXiv:2601.03868v2 Announce Type: replace \nAbstract: This paper presents a comprehensive empirical study on the safety alignment capabilities. We evaluate what matters for safety alignment in LLMs and LRMs to provide essential insights for developing more secure and reliable AI systems. We systematically investigate and compare the influence of six critical intrinsic model characteristics and three external attack techniques. Our large-scale evaluation is conducted using 32 recent, popular LLMs and LRMs across thirteen distinct model families, spanning a parameter scale from 3B to 235B. The assessment leverages five established safety datasets and probes model vulnerabilities with 56 jailbreak techniques and four CoT attack strategies, resulting in 4.6M API calls. Our key empirical findings are fourfold. First, we identify the LRMs GPT-OSS-20B, Qwen3-Next-80B-A3B-Thinking, and GPT-OSS-120B as the top-three safest models, which substantiates the significant advantage of integrated reasoning and self-reflection mechanisms for robust safety alignment. Second, post-training and knowledge distillation may lead to a systematic degradation of safety alignment. We thus argue that safety must be treated as an explicit constraint or a core optimization objective during these stages, not merely subordinated to the pursuit of general capability. Third, we reveal a pronounced vulnerability: employing a CoT attack via a response prefix can elevate the attack success rate by 3.34x on average and from 0.6% to 96.3% for Seed-OSS-36B-Instruct. This critical finding underscores the safety risks inherent in text-completion interfaces and features that allow user-defined response prefixes in LLM services, highlighting an urgent need for architectural and deployment safeguards. Fourth, roleplay, prompt injection, and gradient-based search for adversarial prompts are the predominant methodologies for eliciting unaligned behaviors in modern models.",
+      "url": "https://arxiv.org/abs/2601.03868",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "alignment",
+        "safety alignment",
+        "attack",
+        "lrms",
+        "model",
+        "oss",
+        "cot",
+        "cot attack",
+        "critical"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 aligning LLMs and LRMs \u2013 with a rigorous, large-scale empirical approach. The evaluation of 32 models across 13 families using extensive datasets and attack strategies demonstrates a strong methodological foundation. Identifying specific safer models like GPT-OSS-20B and Qwen3 provides actionable insights, and the sheer scale of 4.6M API calls lends credibility to the findings. The work is highly relevant to current AI safety concerns and likely to be well-received.",
+      "paper_id": "2a53ecc475310cb75c9142b79a95f4ec"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-02-25T10:00:03.855914"
 }

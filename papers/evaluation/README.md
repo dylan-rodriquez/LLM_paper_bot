@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### An artificial intelligence framework for end-to-end rare disease phenotyping from clinical notes using large language models
+
+**Score:** 92.0 | **Published:** 2026-02-25 | **Authors:** Cathy Shyr, Yan Hu, Rory J. Tinker, Thomas A. Cassini, Kevin W. Byram, Rizwan Hamid, Daniel V. Fabbri, Adam Wright, Josh F. Peterson, Lisa Bastarache, Hua Xu
+
+arXiv:2602.20324v1 Announce Type: cross 
+Abstract: Phenotyping is fundamental to rare disease diagnosis, but manual curation of structured phenotypes from clinical notes is labor-intensive and difficu...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.20324) | [📝 Analysis](86c376d1b2ac1cf89955bf7ee8d1318d.md)
+
+---
+
+### OckBench: Measuring the Efficiency of LLM Reasoning
+
+**Score:** 92.0 | **Published:** 2026-02-25 | **Authors:** Zheng Du, Hao Kang, Song Han, Tushar Krishna, Ligeng Zhu
+
+arXiv:2511.05722v2 Announce Type: replace 
+Abstract: Large language models (LLMs) such as GPT-5 and Gemini 3 have pushed the frontier of automated reasoning and code generation. Yet current benchmarks...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.05722) | [📝 Analysis](3c94aeaff4636865a1d523d1d7848f7e.md)
+
+---
+
+### INSURE-Dial: A Phase-Aware Conversational Dataset & Benchmark for Compliance Verification and Phase Detection
+
+**Score:** 92.0 | **Published:** 2026-02-25 | **Authors:** Shubham Kulkarni, Alexander Lyzhov, Preetam Joshi, Shiva Chaitanya
+
+arXiv:2602.18448v2 Announce Type: replace 
+Abstract: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls m...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.18448) | [📝 Analysis](3c10df0ed1ac6e1427667eb495d6f85b.md)
+
+---
+
+### From Performance to Purpose: A Sociotechnical Taxonomy for Evaluating Large Language Model Utility
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Gavin Levinson, Keith Feldman
+
+arXiv:2602.20513v1 Announce Type: new 
+Abstract: As large language models (LLMs) continue to improve at completing discrete tasks, they are being integrated into increasingly complex and diverse real-...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.20513) | [📝 Analysis](ea1dab9dc9cc6820c32612e89dcdf3c7.md)
+
+---
+
+### A Benchmark for Deep Information Synthesis
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Debjit Paul, Daniel Murphy, Milan Gritta, Ronald Cardenas, Victor Prokhorov, Lena Sophia Bolliger, Aysim Toker, Roy Miles, Andreea-Maria Oncescu, Jasivan Alex Sivakumar, Philipp Borchert, Ismail Elezi, Meiru Zhang, Ka Yiu Lee, Guchun Zhang, Jun Wang, Gerasimos Lampouras
+
+arXiv:2602.21143v1 Announce Type: cross 
+Abstract: Large language model (LLM)-based agents are increasingly used to solve complex tasks involving tool use, such as web browsing, code execution, and da...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.21143) | [📝 Analysis](55af860c2441009a0243ebe741ea53c4.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-25 10:00:03 UTC*

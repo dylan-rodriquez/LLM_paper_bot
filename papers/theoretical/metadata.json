@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Watermarking Language Models with Error Correcting Codes",
+      "authors": [
+        "Patrick Chao, Yan Sun, Edgar Dobriban, Hamed Hassani"
+      ],
+      "abstract": "arXiv:2406.10281v5 Announce Type: replace-cross \nAbstract: Recent progress in large language models enables the creation of realistic machine-generated content. Watermarking is a promising approach to distinguish machine-generated text from human text, embedding statistical signals in the output that are ideally undetectable to humans. We propose a watermarking framework that encodes such signals through an error correcting code. Our method, termed robust binary code (RBC) watermark, introduces no noticeable degradation in quality. We evaluate our watermark on base and instruction fine-tuned models and find that our watermark is robust to edits, deletions, and translations. We provide an information-theoretic perspective on watermarking, a powerful statistical test for detection and for generating $p$-values, and theoretical guarantees. Our empirical findings suggest our watermark is fast, powerful, and robust, comparing favorably to the state-of-the-art.",
+      "url": "https://arxiv.org/abs/2406.10281",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "watermark",
+        "watermarking",
+        "models",
+        "robust",
+        "code",
+        "correcting",
+        "error",
+        "error correcting",
+        "generated",
+        "language"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a very important problem \u2013 identifying machine-generated text \u2013 with a novel approach using error-correcting codes. The claim of robustness to edits, deletions, and translations is particularly strong. The inclusion of an information-theoretic perspective and theoretical guarantees elevates the rigor of the work, suggesting a well-considered methodology and strong potential for acceptance.",
+      "paper_id": "394ea314ee630beff6d7c5fe8a7636fb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-02-25T10:00:03.858125"
 }

@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "An artificial intelligence framework for end-to-end rare disease phenotyping from clinical notes using large language models",
+      "authors": [
+        "Cathy Shyr, Yan Hu, Rory J. Tinker, Thomas A. Cassini, Kevin W. Byram, Rizwan Hamid, Daniel V. Fabbri, Adam Wright, Josh F. Peterson, Lisa Bastarache, Hua Xu"
+      ],
+      "abstract": "arXiv:2602.20324v1 Announce Type: cross \nAbstract: Phenotyping is fundamental to rare disease diagnosis, but manual curation of structured phenotypes from clinical notes is labor-intensive and difficult to scale. Existing artificial intelligence approaches typically optimize individual components of phenotyping but do not operationalize the full clinical workflow of extracting features from clinical text, standardizing them to Human Phenotype Ontology (HPO) terms, and prioritizing diagnostically informative HPO terms. We developed RARE-PHENIX, an end-to-end AI framework for rare disease phenotyping that integrates large language model-based phenotype extraction, ontology-grounded standardization to HPO terms, and supervised ranking of diagnostically informative phenotypes. We trained RARE-PHENIX using data from 2,671 patients across 11 Undiagnosed Diseases Network clinical sites, and externally validated it on 16,357 real-world clinical notes from Vanderbilt University Medical Center. Using clinician-curated HPO terms as the gold standard, RARE-PHENIX consistently outperformed a state-of-the-art deep learning baseline (PhenoBERT) across ontology-based similarity and precision-recall-F1 metrics in end-to-end evaluation (i.e., ontology-based similarity of 0.70 vs. 0.58). Ablation analyses demonstrated performance improvements with the addition of each module in RARE-PHENIX (extraction, standardization, and prioritization), supporting the value of modeling the full clinical phenotyping workflow. By modeling phenotyping as a clinically aligned workflow rather than a single extraction task, RARE-PHENIX provides structured, ranked phenotypes that are more concordant with clinician curation and has the potential to support human-in-the-loop rare disease diagnosis in real-world settings.",
+      "url": "https://arxiv.org/abs/2602.20324",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "rare",
+        "clinical",
+        "end",
+        "phenotyping",
+        "phenix",
+        "rare phenix",
+        "disease",
+        "hpo",
+        "hpo terms",
+        "ontology"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial bottleneck in rare disease diagnosis \u2013 the time-consuming process of phenotyping from clinical notes. The end-to-end framework integrating LLMs, ontology standardization, and phenotype prioritization is a strong methodological approach. The external validation on a sizable real-world dataset (16,357 notes) adds significant credibility, suggesting a high likelihood of positive reception within the rare disease and AI communities.",
+      "paper_id": "86c376d1b2ac1cf89955bf7ee8d1318d"
+    },
+    {
+      "title": "OckBench: Measuring the Efficiency of LLM Reasoning",
+      "authors": [
+        "Zheng Du, Hao Kang, Song Han, Tushar Krishna, Ligeng Zhu"
+      ],
+      "abstract": "arXiv:2511.05722v2 Announce Type: replace \nAbstract: Large language models (LLMs) such as GPT-5 and Gemini 3 have pushed the frontier of automated reasoning and code generation. Yet current benchmarks emphasize accuracy and output quality, neglecting a critical dimension: efficiency of token usage. The token efficiency is highly variable in practical. Models solving the same problem with similar accuracy can exhibit up to a \\textbf{5.0$\\times$} difference in token length, leading to massive gap of model reasoning ability. Such variance exposes significant redundancy, highlighting the critical need for a standardized benchmark to quantify the gap of token efficiency. Thus, we introduce OckBench, the first benchmark that jointly measures accuracy and token efficiency across reasoning and coding tasks. Our evaluation reveals that token efficiency remains largely unoptimized across current models, significantly inflating serving costs and latency. These findings provide a concrete roadmap for the community to optimize the latent reasoning ability, token efficiency. Ultimately, we argue for an evaluation paradigm shift: tokens must not be multiplied beyond necessity. Our benchmarks are available at https://ockbench.github.io/.",
+      "url": "https://arxiv.org/abs/2511.05722",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "efficiency",
+        "token",
+        "reasoning",
+        "token efficiency",
+        "accuracy",
+        "models",
+        "ockbench",
+        "ability",
+        "benchmark",
+        "benchmarks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and often overlooked aspect of LLM performance \u2013 token efficiency. The 5x variance in token usage for similar accuracy is a significant finding, and the introduction of OckBench is a valuable contribution to the field. The work is well-motivated and the problem is clearly articulated, suggesting a strong likelihood of positive reception within the LLM community.",
+      "paper_id": "3c94aeaff4636865a1d523d1d7848f7e"
+    },
+    {
+      "title": "INSURE-Dial: A Phase-Aware Conversational Dataset & Benchmark for Compliance Verification and Phase Detection",
+      "authors": [
+        "Shubham Kulkarni, Alexander Lyzhov, Preetam Joshi, Shiva Chaitanya"
+      ],
+      "abstract": "arXiv:2602.18448v2 Announce Type: replace \nAbstract: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls manually handled in 2024. We introduce INSURE-Dial, to our knowledge the first public benchmark for developing and assessing compliance-aware voice agents for phase-aware call auditing with span-based compliance verification. The corpus includes 50 de-identified, AI-initiated calls with live insurance representatives (mean 71 turns/call) and 1,000 synthetically generated calls that mirror the same workflow. All calls are annotated with a phase-structured JSON schema covering IVR navigation, patient identification, coverage status, medication checks (up to two drugs), and agent identification (CRN), and each phase is labeled for Information and Procedural compliance under explicit ask/answer logic. We define two novel evaluation tasks: (1) Phase Boundary Detection (span segmentation under phase-specific acceptance rules) and (2) Compliance Verification (IC/PC decisions given fixed spans). Per-phase scores are strong across small, low-latency baselines, but end-to-end reliability is constrained by span-boundary errors. On real calls, full-call exact segmentation is low, showing a gap between conversational fluency and audit-grade evidence.",
+      "url": "https://arxiv.org/abs/2602.18448",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "phase",
+        "calls",
+        "compliance",
+        "verification",
+        "aware",
+        "compliance verification",
+        "span",
+        "benchmark",
+        "boundary",
+        "conversational"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and costly problem in healthcare \u2013 administrative phone calls. The creation of INSURE-Dial, a phase-aware conversational dataset, is a strong contribution, particularly the inclusion of both real and synthetic data and the detailed annotation schema. While the tasks defined seem reasonable, the novelty lies more in the dataset itself than groundbreaking algorithmic approaches, but the benchmark will likely be well-received by the community.",
+      "paper_id": "3c10df0ed1ac6e1427667eb495d6f85b"
+    },
+    {
+      "title": "From Performance to Purpose: A Sociotechnical Taxonomy for Evaluating Large Language Model Utility",
+      "authors": [
+        "Gavin Levinson, Keith Feldman"
+      ],
+      "abstract": "arXiv:2602.20513v1 Announce Type: new \nAbstract: As large language models (LLMs) continue to improve at completing discrete tasks, they are being integrated into increasingly complex and diverse real-world systems. However, task-level success alone does not establish a model's fit for use in practice. In applied, high-stakes settings, LLM effectiveness is driven by a wider array of sociotechnical determinants that extend beyond conventional performance measures. Although a growing set of metrics capture many of these considerations, they are rarely organized in a way that supports consistent evaluation, leaving no unified taxonomy for assessing and comparing LLM utility across use cases. To address this gap, we introduce the Language Model Utility Taxonomy (LUX), a comprehensive framework that structures utility evaluation across four domains: performance, interaction, operations, and governance. Within each domain, LUX is organized hierarchically into thematically aligned dimensions and components, each grounded in metrics that enable quantitative comparison and alignment of model selection with intended use. In addition, an external dynamic web tool is provided to support exploration of the framework by connecting each component to a repository of relevant metrics (factors) for applied evaluation.",
+      "url": "https://arxiv.org/abs/2602.20513",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "model",
+        "utility",
+        "evaluation",
+        "language",
+        "metrics",
+        "performance",
+        "taxonomy",
+        "use",
+        "applied",
+        "framework"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 moving beyond simple performance metrics to consider the broader sociotechnical context. The proposed taxonomy (LUX) appears well-structured and comprehensive, offering a valuable framework for researchers and practitioners. While the core idea of holistic evaluation isn't entirely new, the systematization into four domains with hierarchical dimensions is a significant contribution, and the timing is excellent given the increasing deployment of LLMs in real-world applications.",
+      "paper_id": "ea1dab9dc9cc6820c32612e89dcdf3c7"
+    },
+    {
+      "title": "A Benchmark for Deep Information Synthesis",
+      "authors": [
+        "Debjit Paul, Daniel Murphy, Milan Gritta, Ronald Cardenas, Victor Prokhorov, Lena Sophia Bolliger, Aysim Toker, Roy Miles, Andreea-Maria Oncescu, Jasivan Alex Sivakumar, Philipp Borchert, Ismail Elezi, Meiru Zhang, Ka Yiu Lee, Guchun Zhang, Jun Wang, Gerasimos Lampouras"
+      ],
+      "abstract": "arXiv:2602.21143v1 Announce Type: cross \nAbstract: Large language model (LLM)-based agents are increasingly used to solve complex tasks involving tool use, such as web browsing, code execution, and data analysis. However, current evaluation benchmarks do not adequately assess their ability to solve real-world tasks that require synthesizing information from multiple sources and inferring insights beyond simple fact retrieval. To address this, we introduce DEEPSYNTH, a novel benchmark designed to evaluate agents on realistic, time-consuming problems that combine information gathering, synthesis, and structured reasoning to produce insights. DEEPSYNTH contains 120 tasks collected across 7 domains and data sources covering 67 countries. DEEPSYNTH is constructed using a multi-stage data collection pipeline that requires annotators to collect official data sources, create hypotheses, perform manual analysis, and design tasks with verifiable answers. When evaluated on DEEPSYNTH, 11 state-of-the-art LLMs and deep research agents achieve a maximum F1 score of 8.97 and 17.5 on the LLM-judge metric, underscoring the difficulty of the benchmark. Our analysis reveals that current agents struggle with hallucinations and reasoning over large information spaces, highlighting DEEPSYNTH as a crucial benchmark for guiding future research.",
+      "url": "https://arxiv.org/abs/2602.21143",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "deepsynth",
+        "agents",
+        "benchmark",
+        "data",
+        "information",
+        "tasks",
+        "analysis",
+        "sources",
+        "current",
+        "data sources"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the ability to synthesize information from multiple sources for complex tasks. The creation of DEEPSYNTH, with its rigorous multi-stage data collection pipeline and focus on verifiable answers, is a strong methodological contribution. The problem is highly relevant given the increasing reliance on LLM agents, and the benchmark's scale (120 tasks, 7 domains, 67 countries) suggests substantial utility for the research community.",
+      "paper_id": "55af860c2441009a0243ebe741ea53c4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-25T10:00:03.853582"
 }

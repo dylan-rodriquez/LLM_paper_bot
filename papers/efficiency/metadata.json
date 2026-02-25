@@ -159,7 +159,71 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "Benchmarking Distilled Language Models: Performance and Efficiency in Resource-Constrained Settings",
+      "authors": [
+        "Sachin Gopal Wani, Eric Page, Ajay Dholakia, David Ellison"
+      ],
+      "abstract": "arXiv:2602.20164v1 Announce Type: new \nAbstract: Knowledge distillation offers a transformative pathway to developing powerful, yet efficient, small language models (SLMs) suitable for resource-constrained environments. In this paper, we benchmark the performance and computational cost of distilled models against their vanilla and proprietary counterparts, providing a quantitative analysis of their efficiency. Our results demonstrate that distillation creates a superior performance-tocompute curve. We find that creating a distilled 8B model is over 2,000 times more compute-efficient than training its vanilla counterpart, while achieving reasoning capabilities on par with, or even exceeding, standard models ten times its size. These findings validate distillation not just as a compression technique, but as a primary strategy for building state-of-the-art, accessible AI",
+      "url": "https://arxiv.org/abs/2602.20164",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "models",
+        "distillation",
+        "distilled",
+        "performance",
+        "constrained",
+        "efficiency",
+        "efficient",
+        "language",
+        "language models",
+        "resource"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 the efficiency of large language models. The reported 2,000x compute efficiency gain with distilled models is substantial and suggests a significant advancement. While knowledge distillation isn't entirely new, achieving performance on par with or exceeding larger models is a strong result, indicating a well-executed benchmarking study and potentially novel distillation techniques.",
+      "paper_id": "4cff29c922abd76c6d3f0204c7891028"
+    },
+    {
+      "title": "Towards Efficient Agents: A Co-Design of Inference Architecture and System",
+      "authors": [
+        "Weizhe Lin, Hui-Ling Zhen, Shuai Yang, Xian Wang, Renxi Liu, Hanting Chen, Wangze Zhang, Chuansai Zhou, Yiming Li, Chen Chen, Xing Li, Zhiyuan Yang, Xiaosong Li, Xianzhi Yu, Zhenhua Dong, Mingxuan Yuan, Yunhe Wang"
+      ],
+      "abstract": "arXiv:2512.18337v2 Announce Type: replace \nAbstract: The rapid development of large language model (LLM)-based agents has unlocked new possibilities for autonomous multi-turn reasoning and tool-augmented decision-making. However, their real-world deployment is hindered by severe inefficiencies that arise not from isolated model inference, but from the systemic latency accumulated across reasoning loops, context growth, and heterogeneous tool interactions. This paper presents AgentInfer, a unified framework for end-to-end agent acceleration that bridges inference optimization and architectural design. We decompose the problem into four synergistic components: AgentCollab, a hierarchical dual-model reasoning framework that balances large- and small-model usage through dynamic role assignment; AgentSched, a cache-aware hybrid scheduler that minimizes latency under heterogeneous request patterns; AgentSAM, a suffix-automaton-based speculative decoding method that reuses multi-session semantic memory to achieve low-overhead inference acceleration; and AgentCompress, a semantic compression mechanism that asynchronously distills and reorganizes agent memory without disrupting ongoing reasoning. Together, these modules form a Self-Evolution Engine capable of sustaining efficiency and cognitive stability throughout long-horizon reasoning tasks. Experiments on the BrowseComp-zh and DeepDiver benchmarks demonstrate that through the synergistic collaboration of these methods, AgentInfer reduces ineffective token consumption by over 50%, achieving an overall 1.8-2.5 times speedup with preserved accuracy. These results underscore that optimizing for agentic task completion-rather than merely per-token throughput-is the key to building scalable, efficient, and self-improving intelligent systems.",
+      "url": "https://arxiv.org/abs/2512.18337",
+      "published_date": "2026-02-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "inference",
+        "model",
+        "acceleration",
+        "agent",
+        "agentinfer",
+        "agents",
+        "based",
+        "design",
+        "efficient"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper tackles a crucial bottleneck in LLM agent deployment \u2013 efficiency. The proposed AgentInfer framework, with its synergistic components like AgentCollab and AgentSched, demonstrates a thoughtful approach to optimizing the entire agent pipeline, not just individual model inference. The use of suffix automata for speculative decoding is particularly interesting. While the abstract doesn't detail experimental results, the problem addressed and the proposed solutions suggest high potential.",
+      "paper_id": "6ba4972c5d7422b9ee4c7fbd689097b6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2026-02-25T10:00:03.852197"
 }

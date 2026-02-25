@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Watermarking Language Models with Error Correcting Codes
+
+**Score:** 90.0 | **Published:** 2026-02-25 | **Authors:** Patrick Chao, Yan Sun, Edgar Dobriban, Hamed Hassani
+
+arXiv:2406.10281v5 Announce Type: replace-cross 
+Abstract: Recent progress in large language models enables the creation of realistic machine-generated content. Watermarking is a promising approach to...
+
+[📄 Full Paper](https://arxiv.org/abs/2406.10281) | [📝 Analysis](394ea314ee630beff6d7c5fe8a7636fb.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-25 10:00:03 UTC*
