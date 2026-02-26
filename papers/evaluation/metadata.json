@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "IslamicLegalBench: Evaluating LLMs Knowledge and Reasoning of Islamic Law Across 1,200 Years of Islamic Pluralist Legal Traditions",
+      "authors": [
+        "Ezieddin Elmahjub, Junaid Qadir, Abdullah Mushtaq, Rafay Naeem, Ibrahim Ghaznavi, Waleed Iqbal"
+      ],
+      "abstract": "arXiv:2602.21226v1 Announce Type: new \nAbstract: As millions of Muslims turn to LLMs like GPT, Claude, and DeepSeek for religious guidance, a critical question arises: Can these AI systems reliably reason about Islamic law? We introduce IslamicLegalBench, the first benchmark evaluating LLMs across seven schools of Islamic jurisprudence, with 718 instances covering 13 tasks of varying complexity. Evaluation of nine state-of-the-art models reveals major limitations: the best model achieves only 68% correctness with 21% hallucination, while several models fall below 35% correctness and exceed 55% hallucination. Few-shot prompting provides minimal gains, improving only 2 of 9 models by >1%. Moderate-complexity tasks requiring exact knowledge show the highest errors, whereas high-complexity tasks display apparent competence through semantic reasoning. False premise detection indicates risky sycophancy, with 6 of 9 models accepting misleading assumptions at rates above 40%. These results highlight that prompt-based methods cannot compensate for missing foundational knowledge. IslamicLegalBench offers the first systematic framework to evaluate Islamic legal reasoning in AI, revealing critical gaps in tools increasingly relied on for spiritual guidance.",
+      "url": "https://arxiv.org/abs/2602.21226",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "islamic",
+        "models",
+        "complexity",
+        "islamiclegalbench",
+        "knowledge",
+        "llms",
+        "reasoning",
+        "tasks",
+        "ai",
+        "complexity tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the reliability of LLMs for religious guidance, specifically within the complex domain of Islamic law. The creation of IslamicLegalBench is a strong methodological contribution, and the findings highlighting limitations in LLM performance (hallucinations, sycophancy) are crucial. While benchmarking isn't entirely novel, applying it to this specific, nuanced domain is a valuable advancement, and the results are concerning enough to warrant attention.",
+      "paper_id": "396f5b60c0f237747bd507d301944548"
+    },
+    {
+      "title": "Black-Box Reliability Certification for AI Agents via Self-Consistency Sampling and Conformal Calibration",
+      "authors": [
+        "Charafeddine Mouzouni"
+      ],
+      "abstract": "arXiv:2602.21368v1 Announce Type: cross \nAbstract: Given a black-box AI system and a task, at what confidence level can a practitioner trust the system's output? We answer with a reliability level -- a single number per system-task pair, derived from self-consistency sampling and conformal calibration, that serves as a black-box deployment gate with exact, finite-sample, distribution-free guarantees. Self-consistency sampling reduces uncertainty exponentially; conformal calibration guarantees correctness within 1/(n+1) of the target level, regardless of the system's errors -- made transparently visible through larger answer sets for harder questions. Weaker models earn lower reliability levels (not accuracy -- see Definition 2.4): GPT-4.1 earns 94.6% on GSM8K and 96.8% on TruthfulQA, while GPT-4.1-nano earns 89.8% on GSM8K and 66.5% on MMLU. We validate across five benchmarks, five models from three families, and both synthetic and real data. Conditional coverage on solvable items exceeds 0.93 across all configurations; sequential stopping reduces API costs by around 50%.",
+      "url": "https://arxiv.org/abs/2602.21368",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "black",
+        "black box",
+        "box",
+        "calibration",
+        "conformal",
+        "conformal calibration",
+        "consistency",
+        "consistency sampling",
+        "level",
+        "reliability"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in AI deployment \u2013 reliably quantifying the trustworthiness of black-box models. The combination of self-consistency sampling and conformal calibration appears novel and provides strong theoretical guarantees. The empirical validation across multiple models and benchmarks strengthens the findings, suggesting a practical and impactful approach to AI reliability certification.",
+      "paper_id": "eaf6ba90b77e2ef5ee5fb71109ae37fe"
+    },
+    {
+      "title": "When AI Writes, Whose Voice Remains? Quantifying Cultural Marker Erasure Across World English Varieties in Large Language Models",
+      "authors": [
+        "Satyam Kumar Navneet, Joydeep Chandra, Yong Zhang"
+      ],
+      "abstract": "arXiv:2602.22145v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) are increasingly used to ``professionalize'' workplace communication, often at the cost of linguistic identity. We introduce \"Cultural Ghosting\", the systematic erasure of linguistic markers unique to non-native English varieties during text processing. Through analysis of 22,350 LLM outputs generated from 1,490 culturally marked texts (Indian, Singaporean,& Nigerian English) processed by five models under three prompt conditions, we quantify this phenomenon using two novel metrics: Identity Erasure Rate (IER) & Semantic Preservation Score (SPS). Across all prompts, we find an overall IER of 10.26%, with model-level variation from 3.5% to 20.5% (5.9x range). Crucially, we identify a Semantic Preservation Paradox: models maintain high semantic similarity (mean SPS = 0.748) while systematically erasing cultural markers. Pragmatic markers (politeness conventions) are 1.9x more vulnerable than lexical markers (71.5% vs. 37.1% erasure). Our experiments demonstrate that explicit cultural-preservation prompts reduce erasure by 29% without sacrificing semantic quality.",
+      "url": "https://arxiv.org/abs/2602.22145",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "erasure",
+        "cultural",
+        "markers",
+        "models",
+        "semantic",
+        "english",
+        "preservation",
+        "9x",
+        "english varieties",
+        "identity"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and timely issue \u2013 the potential for LLMs to homogenize language and erase cultural identity. The introduction of 'Cultural Ghosting' and the novel metrics (IER & SPS) demonstrate a rigorous methodology. The finding of a 'Semantic Preservation Paradox' is particularly insightful, highlighting a concerning trade-off between semantic accuracy and cultural preservation. The large-scale analysis (22,350 outputs) adds to the credibility of the findings.",
+      "paper_id": "a7708fef41b32274e30ed56c46cf4220"
+    },
+    {
+      "title": "Diversity Boosts AI-Generated Text Detection",
+      "authors": [
+        "Advik Raj Basani, Pin-Yu Chen"
+      ],
+      "abstract": "arXiv:2509.18880v3 Announce Type: replace \nAbstract: Detecting AI-generated text is an increasing necessity to combat misuse of LLMs in education, business compliance, journalism, and social media, where synthetic fluency can mask misinformation or deception. While prior detectors often rely on token-level likelihoods or opaque black-box classifiers, these approaches struggle against high-quality generations and offer little interpretability. In this work, we propose DivEye, a novel detection framework that captures how unpredictability fluctuates across a text using surprisal-based features. Motivated by the observation that human-authored text exhibits richer variability in lexical and structural unpredictability than LLM outputs, DivEye captures this signal through a set of interpretable statistical features. Our method outperforms existing zero-shot detectors by up to 33.2% and achieves competitive performance with fine-tuned baselines across multiple benchmarks. DivEye is robust to paraphrasing and adversarial attacks, generalizes well across domains and models, and improves the performance of existing detectors by up to 18.7% when used as an auxiliary signal. Beyond detection, DivEye provides interpretable insights into why a text is flagged, pointing to rhythmic unpredictability as a powerful and underexplored signal for LLM detection.",
+      "url": "https://arxiv.org/abs/2509.18880",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "text",
+        "detection",
+        "diveye",
+        "detectors",
+        "signal",
+        "unpredictability",
+        "ai",
+        "ai generated",
+        "captures",
+        "existing"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very important and timely problem \u2013 detecting AI-generated text \u2013 with a novel approach focusing on unpredictability (surprisal). The reported performance improvements over existing zero-shot detectors and competitiveness with fine-tuned baselines suggest a solid methodology. The emphasis on interpretability is also a strong point, making the method more trustworthy and useful. The abstract is well-written and clearly articulates the problem, solution, and results.",
+      "paper_id": "93f32f8b7c574a84b252e76d7c3aa6ad"
+    },
+    {
+      "title": "TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents",
+      "authors": [
+        "Yanyu Chen, Jiyue Jiang, Jiahong Liu, Yifei Zhang, Xiao Guo, Irwin King"
+      ],
+      "abstract": "arXiv:2602.21230v1 Announce Type: new \nAbstract: The evaluation of Deep Research Agents is a critical challenge, as conventional outcome-based metrics fail to capture the nuances of their complex reasoning. Current evaluation faces two primary challenges: 1) a reliance on singular metrics like Pass@1, creating a \"high-score illusion\" that ignores the quality, efficiency, and soundness of the reasoning process; and 2) the failure of static benchmarks to quantify crucial attributes like robustness and latent capability. To address these gaps, we introduce TRACE (Trajectory-Aware Comprehensive Evaluation), a framework that holistically assesses the entire problem-solving trajectory. To counter the \"high-score illusion\", we propose a Hierarchical Trajectory Utility Function that quantifies process efficiency and cognitive quality, including evidence grounding, alongside accuracy. To measure deeper attributes, TRACE introduces a Scaffolded Capability Assessment protocol, quantifying an agent's latent ability by determining the minimum guidance needed for success. Our contributions include the TRACE framework, its novel metrics, and the accompanying DeepResearch-Bench with controllable complexity. Experiments show TRACE delivers a granular ranking that uncovers critical trade-offs between agent accuracy, efficiency, and robustness entirely missed by singular metrics.",
+      "url": "https://arxiv.org/abs/2602.21230",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "trace",
+        "evaluation",
+        "metrics",
+        "trajectory",
+        "efficiency",
+        "accuracy",
+        "agent",
+        "agents",
+        "attributes",
+        "aware"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of Deep Research Agents \u2013 the inadequacy of current evaluation metrics. The proposed TRACE framework, with its Hierarchical Trajectory Utility Function and Scaffolded Capability Assessment, appears well-reasoned and addresses the limitations of existing methods. The focus on evaluating the *process* of reasoning, not just the outcome, is a significant step forward, and the potential for more robust and insightful agent evaluation is high.",
+      "paper_id": "18b1c9ce5c107187e532d117fa07bc93"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-26T09:56:05.342779"
 }

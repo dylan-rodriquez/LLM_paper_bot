@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Yuchen Yan, Yongliang Shen, Yang Liu, Jin Jiang, Mengdi Zhang, Jian Shao, Yueting Zhuang
+
+arXiv:2503.06692v5 Announce Type: replace 
+Abstract: Advanced reasoning in large language models has achieved remarkable performance on challenging tasks, but the prevailing long-context reasoning par...
+
+[📄 Full Paper](https://arxiv.org/abs/2503.06692) | [📝 Analysis](1d84a1c6577dc6dde19f01cac26acde4.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-26 09:56:05 UTC*
