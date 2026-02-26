@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Large Language Models are Algorithmically Blind",
+      "authors": [
+        "Sohan Venkatesh, Ashish Mahendran Kurapath, Tejas Melkote"
+      ],
+      "abstract": "arXiv:2602.21947v1 Announce Type: new \nAbstract: Large language models (LLMs) demonstrate remarkable breadth of knowledge, yet their ability to reason about computational processes remains poorly understood. Closing this gap matters for practitioners who rely on LLMs to guide algorithm selection and deployment. We address this limitation using causal discovery as a testbed and evaluate eight frontier LLMs against ground truth derived from large-scale algorithm executions and find systematic, near-total failure. Models produce ranges far wider than true confidence intervals yet still fail to contain the true algorithmic mean in the majority of instances; most perform worse than random guessing and the marginal above-random performance of the best model is most consistent with benchmark memorization rather than principled reasoning. We term this failure algorithmic blindness and argue it reflects a fundamental gap between declarative knowledge about algorithms and calibrated procedural prediction.",
+      "url": "https://arxiv.org/abs/2602.21947",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "large",
+        "llms",
+        "models",
+        "algorithm",
+        "algorithmic",
+        "failure",
+        "gap",
+        "knowledge",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial and often overlooked limitation of LLMs \u2013 their inability to reliably reason about algorithms. The use of causal discovery as a testbed is clever, and the finding of 'algorithmic blindness' is significant, especially given the reliance on LLMs for tasks like algorithm selection. While the methodology appears sound, the abstract doesn't detail the specifics of the causal discovery setup, which would be important for a full assessment.",
+      "paper_id": "aa1916a3c32a78617d73903cfa75ffe8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-02-26T09:56:05.343987"
 }

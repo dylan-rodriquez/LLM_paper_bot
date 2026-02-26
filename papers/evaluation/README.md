@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### IslamicLegalBench: Evaluating LLMs Knowledge and Reasoning of Islamic Law Across 1,200 Years of Islamic Pluralist Legal Traditions
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Ezieddin Elmahjub, Junaid Qadir, Abdullah Mushtaq, Rafay Naeem, Ibrahim Ghaznavi, Waleed Iqbal
+
+arXiv:2602.21226v1 Announce Type: new 
+Abstract: As millions of Muslims turn to LLMs like GPT, Claude, and DeepSeek for religious guidance, a critical question arises: Can these AI systems reliably re...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.21226) | [📝 Analysis](396f5b60c0f237747bd507d301944548.md)
+
+---
+
+### Black-Box Reliability Certification for AI Agents via Self-Consistency Sampling and Conformal Calibration
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Charafeddine Mouzouni
+
+arXiv:2602.21368v1 Announce Type: cross 
+Abstract: Given a black-box AI system and a task, at what confidence level can a practitioner trust the system's output? We answer with a reliability level -- ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.21368) | [📝 Analysis](eaf6ba90b77e2ef5ee5fb71109ae37fe.md)
+
+---
+
+### When AI Writes, Whose Voice Remains? Quantifying Cultural Marker Erasure Across World English Varieties in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Satyam Kumar Navneet, Joydeep Chandra, Yong Zhang
+
+arXiv:2602.22145v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) are increasingly used to ``professionalize'' workplace communication, often at the cost of linguistic identity. We intro...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22145) | [📝 Analysis](a7708fef41b32274e30ed56c46cf4220.md)
+
+---
+
+### Diversity Boosts AI-Generated Text Detection
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Advik Raj Basani, Pin-Yu Chen
+
+arXiv:2509.18880v3 Announce Type: replace 
+Abstract: Detecting AI-generated text is an increasing necessity to combat misuse of LLMs in education, business compliance, journalism, and social media, wh...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.18880) | [📝 Analysis](93f32f8b7c574a84b252e76d7c3aa6ad.md)
+
+---
+
+### TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents
+
+**Score:** 90.0 | **Published:** 2026-02-26 | **Authors:** Yanyu Chen, Jiyue Jiang, Jiahong Liu, Yifei Zhang, Xiao Guo, Irwin King
+
+arXiv:2602.21230v1 Announce Type: new 
+Abstract: The evaluation of Deep Research Agents is a critical challenge, as conventional outcome-based metrics fail to capture the nuances of their complex reas...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.21230) | [📝 Analysis](18b1c9ce5c107187e532d117fa07bc93.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-26 09:56:05 UTC*

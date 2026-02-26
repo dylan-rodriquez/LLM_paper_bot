@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models",
+      "authors": [
+        "Yuchen Yan, Yongliang Shen, Yang Liu, Jin Jiang, Mengdi Zhang, Jian Shao, Yueting Zhuang"
+      ],
+      "abstract": "arXiv:2503.06692v5 Announce Type: replace \nAbstract: Advanced reasoning in large language models has achieved remarkable performance on challenging tasks, but the prevailing long-context reasoning paradigm faces critical limitations: quadratic computational scaling with sequence length, reasoning constrained by maximum context boundaries, and performance degradation beyond pre-training context windows. Existing approaches primarily compress reasoning chains without addressing the fundamental scaling problem. To overcome these challenges, we introduce InftyThink, a paradigm that transforms monolithic reasoning into an iterative process with intermediate summarization. By interleaving short reasoning segments with concise progress summaries, our approach enables unbounded reasoning depth while maintaining bounded computational costs. This creates a characteristic sawtooth memory pattern that significantly reduces computational complexity compared to traditional approaches. Furthermore, we develop a methodology for reconstructing long-context reasoning datasets into our iterative format, transforming OpenR1-Math into 333K training instances. Experiments across multiple model architectures demonstrate that our approach reduces computational costs while improving performance, with Qwen2.5-Math-7B showing 3-11% improvements across MATH500, AIME24, and GPQA_diamond benchmarks. Our work challenges the assumed trade-off between reasoning depth and computational efficiency, providing a more scalable approach to complex reasoning without architectural modifications.",
+      "url": "https://arxiv.org/abs/2503.06692",
+      "published_date": "2026-02-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "computational",
+        "context",
+        "approach",
+        "context reasoning",
+        "long",
+        "long context",
+        "performance",
+        "approaches",
+        "challenges"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial bottleneck in LLM performance \u2013 long-context reasoning \u2013 with a novel approach. The 'InftyThink' paradigm of iterative summarization and reasoning appears well-motivated and addresses the quadratic scaling issue directly. The abstract suggests a rigorous methodology and a clear understanding of the limitations of existing methods, indicating a high likelihood of positive reception within the community.",
+      "paper_id": "1d84a1c6577dc6dde19f01cac26acde4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-02-26T09:56:05.344941"
 }

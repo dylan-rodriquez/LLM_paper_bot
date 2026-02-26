@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Simple Yet Effective: Extracting Private Data Across Clients in Federated Fine-Tuning of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-02-26 | **Authors:** Yingqi Hu, Zhuo Zhang, Jingyuan Zhang, Jinghua Wang, Qifan Wang, Lizhen Qu, Zenglin Xu
+
+arXiv:2506.06060v2 Announce Type: replace 
+Abstract: Federated large language models (FedLLMs) enable cross-silo collaborative training among institutions while preserving data locality, making them a...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.06060) | [📝 Analysis](e763fc32a0f1b7e9b188a4d746250c63.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-26 09:56:05 UTC*

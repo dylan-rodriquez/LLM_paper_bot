@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Models are Algorithmically Blind
+
+**Score:** 92.0 | **Published:** 2026-02-26 | **Authors:** Sohan Venkatesh, Ashish Mahendran Kurapath, Tejas Melkote
+
+arXiv:2602.21947v1 Announce Type: new 
+Abstract: Large language models (LLMs) demonstrate remarkable breadth of knowledge, yet their ability to reason about computational processes remains poorly unde...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.21947) | [📝 Analysis](aa1916a3c32a78617d73903cfa75ffe8.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-26 09:56:05 UTC*
