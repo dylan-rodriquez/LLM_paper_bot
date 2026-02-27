@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SAFARI: A Community-Engaged Approach and Dataset of Stereotype Resources in the Sub-Saharan African Context",
+      "authors": [
+        "Aishwarya Verma, Laud Ammah, Olivia Nercy Ndlovu Lucas, Andrew Zaldivar, Vinodkumar Prabhakaran, Sunipa Dev"
+      ],
+      "abstract": "arXiv:2602.22404v1 Announce Type: new \nAbstract: Stereotype repositories are critical to assess generative AI model safety, but currently lack adequate global coverage. It is imperative to prioritize targeted expansion, strategically addressing existing deficits, over merely increasing data volume. This work introduces a multilingual stereotype resource covering four sub-Saharan African countries that are severely underrepresented in NLP resources: Ghana, Kenya, Nigeria, and South Africa. By utilizing socioculturally-situated, community-engaged methods, including telephonic surveys moderated in native languages, we establish a reproducible methodology that is sensitive to the region's complex linguistic diversity and traditional orality. By deliberately balancing the sample across diverse ethnic and demographic backgrounds, we ensure broad coverage, resulting in a dataset of 3,534 stereotypes in English and 3,206 stereotypes across 15 native languages.",
+      "url": "https://arxiv.org/abs/2602.22404",
+      "published_date": "2026-02-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "stereotype",
+        "african",
+        "community",
+        "community engaged",
+        "coverage",
+        "dataset",
+        "engaged",
+        "languages",
+        "native",
+        "native languages"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in AI safety research \u2013 the lack of stereotype resources for underrepresented regions like Sub-Saharan Africa. The community-engaged methodology, including native language surveys, is particularly strong and demonstrates a commitment to culturally sensitive data collection. While the core task of stereotype collection isn't entirely novel, the context and approach are highly valuable, suggesting a strong likelihood of positive reception within the NLP community.",
+      "paper_id": "78840baa5e58f2eaa2acc299536f18af"
+    },
+    {
+      "title": "TherapyProbe: Generating Design Knowledge for Relational Safety in Mental Health Chatbots Through Adversarial Simulation",
+      "authors": [
+        "Joydeep Chandra, Satyam Kumar Navneet, Yong Zhang"
+      ],
+      "abstract": "arXiv:2602.22775v1 Announce Type: cross \nAbstract: As mental health chatbots proliferate to address the global treatment gap, a critical question emerges: How do we design for relational safety the quality of interaction patterns that unfold across conversations rather than the correctness of individual responses? Current safety evaluations assess single-turn crisis responses, missing the therapeutic dynamics that determine whether chatbots help or harm over time. We introduce TherapyProbe, a design probe methodology that generates actionable design knowledge by systematically exploring chatbot conversation trajectories through adversarial multi-agent simulation. Using open-source models, TherapyProbe surfaces relational safety failures interaction patterns like \"validation spirals\" where chatbots progressively reinforce hopelessness, or \"empathy fatigue\" where responses become mechanical over turns. Our contribution is translating these failures into a Safety Pattern Library of 23 failure archetypes with corresponding design recommendations. We contribute: (1) a replicable methodology requiring no API costs, (2) a clinically-grounded failure taxonomy, and (3) design implications for developers, clinicians, and policymakers.",
+      "url": "https://arxiv.org/abs/2602.22775",
+      "published_date": "2026-02-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "design",
+        "safety",
+        "chatbots",
+        "relational",
+        "relational safety",
+        "responses",
+        "therapyprobe",
+        "adversarial",
+        "design knowledge",
+        "failure"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and often overlooked aspect of mental health chatbot design \u2013 relational safety over extended interactions. The TherapyProbe methodology, utilizing adversarial simulation, is a clever approach to proactively identify potential harms beyond single-turn evaluations. The creation of a 'Safety Pattern Library' is a valuable deliverable, offering actionable insights for developers. While building on existing open-source models, the method itself demonstrates a strong degree of novelty and practical relevance.",
+      "paper_id": "e35094e896c899d078e9beec2d52fa10"
+    },
+    {
+      "title": "Can AI Truly Represent Your Voice in Deliberations? A Comprehensive Study of Large-Scale Opinion Aggregation with LLMs",
+      "authors": [
+        "Shenzhe Zhu, Shu Yang, Michiel A. Bakker, Alex Pentland, Jiaxin Pei"
+      ],
+      "abstract": "arXiv:2510.05154v4 Announce Type: replace \nAbstract: Large-scale public deliberations generate thousands of free-form contributions that must be synthesized into representative and neutral summaries for policy use. While LLMs have been shown as a promising tool to generate summaries for large-scale deliberations, they also risk underrepresenting minority perspectives and exhibiting bias with respect to the input order, raising fairness concerns in high-stakes contexts. Studying and fixing these issues requires a comprehensive evaluation at a large scale, yet current practice often relies on LLMs as judges, which show weak alignment with human judgments. To address this, we present DeliberationBank, a large-scale human-grounded dataset with (1) opinion data spanning ten deliberation questions created by 3,000 participants and (2) summary judgment data annotated by 4,500 participants across four dimensions (representativeness, informativeness, neutrality, policy approval). Using these datasets, we train DeliberationJudge, a fine-tuned DeBERTa model that can rate deliberation summaries from individual perspectives. DeliberationJudge is more efficient and more aligned with human judgements compared to a wide range of LLM judges. With DeliberationJudge, we evaluate 18 LLMs and reveal persistent weaknesses in deliberation summarization, especially underrepresentation of minority positions. Our framework provides a scalable and reliable way to evaluate deliberation summarization, helping ensure AI systems are more representative and equitable for policymaking.",
+      "url": "https://arxiv.org/abs/2510.05154",
+      "published_date": "2026-02-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "large",
+        "large scale",
+        "scale",
+        "deliberation",
+        "llms",
+        "deliberationjudge",
+        "deliberations",
+        "human",
+        "summaries",
+        "ai"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in the age of LLMs \u2013 ensuring fair and representative summarization of large-scale public deliberations. The creation of DeliberationBank, a human-grounded dataset, is a significant contribution, addressing the limitations of using LLMs to evaluate themselves. The focus on representativeness, neutrality, and policy approval provides a nuanced evaluation framework, and the scale of the data (3000 participants, 4500 annotators) suggests robust findings.",
+      "paper_id": "a91fc90c6d775a6d51e7d685b93c7e4c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-02-27T09:48:29.185132"
 }
