@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### OmniGAIA: Towards Native Omni-Modal AI Agents
+
+**Score:** 92.0 | **Published:** 2026-02-27 | **Authors:** Xiaoxi Li, Wenxiang Jiao, Jiarui Jin, Shijian Wang, Guanting Dong, Jiajie Jin, Hao Wang, Yinuo Wang, Ji-Rong Wen, Yuan Lu, Zhicheng Dou
+
+arXiv:2602.22897v1 Announce Type: cross 
+Abstract: Human intelligence naturally intertwines omni-modal perception -- spanning vision, audio, and language -- with complex reasoning and tool usage to in...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22897) | [📝 Analysis](4819937118863a8efedb95e72b004b3a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-27 09:48:29 UTC*
