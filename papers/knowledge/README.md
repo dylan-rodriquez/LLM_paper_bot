@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Probing for Knowledge Attribution in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-02-28 | **Authors:** Ivo Brink, Alexander Boer, Dennis Ulmer
+
+arXiv:2602.22787v1 Announce Type: new 
+Abstract: Large language models (LLMs) often generate fluent but unfounded claims, or hallucinations, which fall into two types: (i) faithfulness violations - mi...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22787) | [📝 Analysis](e3e3d01dbfd17ff66691dc7482be71db.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-28 09:34:17 UTC*

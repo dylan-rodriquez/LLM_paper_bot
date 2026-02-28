@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Importance of Prompt Optimisation for Error Detection in Medical Notes Using Language Models",
+      "authors": [
+        "Craig Myles, Patrick Schrempf, David Harris-Birtill"
+      ],
+      "abstract": "arXiv:2602.22483v1 Announce Type: new \nAbstract: Errors in medical text can cause delays or even result in incorrect treatment for patients. Recently, language models have shown promise in their ability to automatically detect errors in medical text, an ability that has the opportunity to significantly benefit healthcare systems. In this paper, we explore the importance of prompt optimisation for small and large language models when applied to the task of error detection. We perform rigorous experiments and analysis across frontier language models and open-source language models. We show that automatic prompt optimisation with Genetic-Pareto (GEPA) improves error detection over the baseline accuracy performance from 0.669 to 0.785 with GPT-5 and 0.578 to 0.690 with Qwen3-32B, approaching the performance of medical doctors and achieving state-of-the-art performance on the MEDEC benchmark dataset. Code available on GitHub: https://github.com/CraigMyles/clinical-note-error-detection",
+      "url": "https://arxiv.org/abs/2602.22483",
+      "published_date": "2026-02-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "language models",
+        "models",
+        "detection",
+        "error",
+        "error detection",
+        "medical",
+        "optimisation",
+        "performance",
+        "prompt"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 error detection in medical notes \u2013 with a promising approach using prompt optimization for LLMs. The reported performance improvements (0.669 to 0.785 with GPT-5, and 0.578 to 0.690 with Qwen3-32B) are substantial and approaching human-level performance, suggesting a robust methodology. The use of Genetic-Pareto optimization is a novel application within this domain, and the availability of code further strengthens the work.",
+      "paper_id": "cbdec01fb6c7b9ffcfd86b3ef2196d37"
+    },
+    {
+      "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
+      "authors": [
+        "Abhay Sheshadri, Aidan Ewart, Kai Fronsdal, Isha Gupta, Samuel R. Bowman, Sara Price, Samuel Marks, Rowan Wang"
+      ],
+      "abstract": "arXiv:2602.22755v1 Announce Type: new \nAbstract: We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has one of 14 concerning behaviors--such as sycophantic deference, opposition to AI regulation, or secret geopolitical loyalties--which it does not confess to when directly asked. AuditBench models are highly diverse--some are subtle, while others are overt, and we use varying training techniques both for implanting behaviors and training models not to confess. To demonstrate AuditBench's utility, we develop an investigator agent that autonomously employs a configurable set of auditing tools. By measuring investigator agent success using different tools, we can evaluate their efficacy. Notably, we observe a tool-to-agent gap, where tools that perform well in standalone non-agentic evaluations fail to translate into improved performance when used with our investigator agent. We find that our most effective tools involve scaffolded calls to auxiliary models that generate diverse prompts for the target. White-box interpretability tools can be helpful, but the agent performs best with black-box tools. We also find that audit success varies greatly across training techniques: models trained on synthetic documents are easier to audit than models trained on demonstrations, with better adversarial training further increasing auditing difficulty. We release our models, agent, and evaluation framework to support future quantitative, iterative science on alignment auditing.",
+      "url": "https://arxiv.org/abs/2602.22755",
+      "published_date": "2026-02-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "agent",
+        "tools",
+        "auditbench",
+        "auditing",
+        "behaviors",
+        "training",
+        "alignment",
+        "alignment auditing",
+        "investigator"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in AI safety \u2013 the detection of hidden, potentially harmful behaviors in large language models. The creation of AuditBench, with its diverse set of models exhibiting concealed behaviors, is a significant contribution. The observation of a 'tool-to-agent gap' is particularly insightful, highlighting the complexities of applying auditing tools in realistic scenarios and suggesting a need for more sophisticated agent-based auditing techniques.",
+      "paper_id": "a243b7bbbb88722694bb9ff4c0366bdd"
+    },
+    {
+      "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+      "authors": [
+        "Chen Bo Calvin Zhang, Christina Q. Knight, Nicholas Kruus, Jason Hausenloy, Pedro Medeiros, Nathaniel Li, Aiden Kim, Yury Orlovskiy, Coleman Breen, Bryce Cai, Jasper G\\\"otting, Andrew Bo Liu, Samira Nedungadi, Paula Rodriguez, Yannis Yiming He, Mohamed Shaaban, Zifan Wang, Seth Donoughe, Julian Michael"
+      ],
+      "abstract": "arXiv:2602.23329v1 Announce Type: cross \nAbstract: Large language models (LLMs) perform increasingly well on biology benchmarks, but it remains unclear whether they uplift novice users -- i.e., enable humans to perform better than with internet-only resources. This uncertainty is central to understanding both scientific acceleration and dual-use risk. We conducted a multi-model, multi-benchmark human uplift study comparing novices with LLM access versus internet-only access across eight biosecurity-relevant task sets. Participants worked on complex problems with ample time (up to 13 hours for the most involved tasks). We found that LLM access provided substantial uplift: novices with LLMs were 4.16 times more accurate than controls (95% CI [2.63, 6.87]). On four benchmarks with available expert baselines (internet-only), novices with LLMs outperformed experts on three of them. Perhaps surprisingly, standalone LLMs often exceeded LLM-assisted novices, indicating that users were not eliciting the strongest available contributions from the LLMs. Most participants (89.6%) reported little difficulty obtaining dual-use-relevant information despite safeguards. Overall, LLMs substantially uplift novices on biological tasks previously reserved for trained practitioners, underscoring the need for sustained, interactive uplift evaluations alongside traditional benchmarks.",
+      "url": "https://arxiv.org/abs/2602.23329",
+      "published_date": "2026-02-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "uplift",
+        "novices",
+        "llm",
+        "access",
+        "benchmarks",
+        "dual",
+        "dual use",
+        "internet",
+        "tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial and timely question regarding the real-world impact of LLMs, specifically whether they empower novice users in a complex domain like biology. The finding that LLMs provide substantial uplift (4.16x accuracy) and even outperform experts in some cases is significant. The focus on dual-use implications adds further weight to the study, and the long task durations suggest a realistic evaluation scenario. The observation that standalone LLMs sometimes outperform LLM-assisted novices is intriguing and warrants further investigation.",
+      "paper_id": "0ea80cd6770a6272d3e1909373565247"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-02-28T09:34:17.261383"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### A Decision-Theoretic Formalisation of Steganography With Applications to LLM Monitoring
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Usman Anwar, Julianna Piskorz, David D. Baek, David Africa, Jim Weatherall, Max Tegmark, Christian Schroeder de Witt, Mihaela van der Schaar, David Krueger
+
+arXiv:2602.23163v1 Announce Type: cross 
+Abstract: Large language models are beginning to show steganographic capabilities. Such capabilities could allow misaligned models to evade oversight mechanism...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23163) | [📝 Analysis](80d8e16371b2cd766d159a555ec88431.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-28 09:34:17 UTC*

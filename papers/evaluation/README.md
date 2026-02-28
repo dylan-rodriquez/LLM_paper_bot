@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Importance of Prompt Optimisation for Error Detection in Medical Notes Using Language Models
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Craig Myles, Patrick Schrempf, David Harris-Birtill
+
+arXiv:2602.22483v1 Announce Type: new 
+Abstract: Errors in medical text can cause delays or even result in incorrect treatment for patients. Recently, language models have shown promise in their abili...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22483) | [📝 Analysis](cbdec01fb6c7b9ffcfd86b3ef2196d37.md)
+
+---
+
+### AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Abhay Sheshadri, Aidan Ewart, Kai Fronsdal, Isha Gupta, Samuel R. Bowman, Sara Price, Samuel Marks, Rowan Wang
+
+arXiv:2602.22755v1 Announce Type: new 
+Abstract: We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has one...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22755) | [📝 Analysis](a243b7bbbb88722694bb9ff4c0366bdd.md)
+
+---
+
+### LLM Novice Uplift on Dual-Use, In Silico Biology Tasks
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Chen Bo Calvin Zhang, Christina Q. Knight, Nicholas Kruus, Jason Hausenloy, Pedro Medeiros, Nathaniel Li, Aiden Kim, Yury Orlovskiy, Coleman Breen, Bryce Cai, Jasper G\"otting, Andrew Bo Liu, Samira Nedungadi, Paula Rodriguez, Yannis Yiming He, Mohamed Shaaban, Zifan Wang, Seth Donoughe, Julian Michael
+
+arXiv:2602.23329v1 Announce Type: cross 
+Abstract: Large language models (LLMs) perform increasingly well on biology benchmarks, but it remains unclear whether they uplift novice users -- i.e., enable...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23329) | [📝 Analysis](0ea80cd6770a6272d3e1909373565247.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-02-28 09:34:17 UTC*
