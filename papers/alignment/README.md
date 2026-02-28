@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### SAFARI: A Community-Engaged Approach and Dataset of Stereotype Resources in the Sub-Saharan African Context
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Aishwarya Verma, Laud Ammah, Olivia Nercy Ndlovu Lucas, Andrew Zaldivar, Vinodkumar Prabhakaran, Sunipa Dev
+
+arXiv:2602.22404v1 Announce Type: new 
+Abstract: Stereotype repositories are critical to assess generative AI model safety, but currently lack adequate global coverage. It is imperative to prioritize ...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22404) | [📝 Analysis](78840baa5e58f2eaa2acc299536f18af.md)
+
+---
+
+### TherapyProbe: Generating Design Knowledge for Relational Safety in Mental Health Chatbots Through Adversarial Simulation
+
+**Score:** 92.0 | **Published:** 2026-02-28 | **Authors:** Joydeep Chandra, Satyam Kumar Navneet, Yong Zhang
+
+arXiv:2602.22775v1 Announce Type: cross 
+Abstract: As mental health chatbots proliferate to address the global treatment gap, a critical question emerges: How do we design for relational safety the qu...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22775) | [📝 Analysis](e35094e896c899d078e9beec2d52fa10.md)
+
+---
+
+### Can AI Truly Represent Your Voice in Deliberations? A Comprehensive Study of Large-Scale Opinion Aggregation with LLMs
+
+**Score:** 90.0 | **Published:** 2026-02-28 | **Authors:** Shenzhe Zhu, Shu Yang, Michiel A. Bakker, Alex Pentland, Jiaxin Pei
+
+arXiv:2510.05154v4 Announce Type: replace 
+Abstract: Large-scale public deliberations generate thousands of free-form contributions that must be synthesized into representative and neutral summaries f...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.05154) | [📝 Analysis](a91fc90c6d775a6d51e7d685b93c7e4c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-02-28 09:34:17 UTC*
