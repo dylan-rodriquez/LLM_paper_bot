@@ -95,7 +95,71 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "Multi-Agent Causal Reasoning for Suicide Ideation Detection Through Online Conversations",
+      "authors": [
+        "Jun Li, Xiangmeng Wang, Haoyang Li, Yifei Yan, Shijie Zhang, Hong Va Leong, Ling Feng, Nancy Xiaonan Yu, Qing Li"
+      ],
+      "abstract": "arXiv:2602.23577v1 Announce Type: new \nAbstract: Suicide remains a pressing global public health concern. While social media platforms offer opportunities for early risk detection through online conversation trees, existing approaches face two major limitations: (1) They rely on predefined rules (e.g., quotes or relies) to log conversations that capture only a narrow spectrum of user interactions, and (2) They overlook hidden influences such as user conformity and suicide copycat behavior, which can significantly affect suicidal expression and propagation in online communities. To address these limitations, we propose a Multi-Agent Causal Reasoning (MACR) framework that collaboratively employs a Reasoning Agent to scale user interactions and a Bias-aware Decision-Making Agent to mitigate harmful biases arising from hidden influences. The Reasoning Agent integrates cognitive appraisal theory to generate counterfactual user reactions to posts, thereby scaling user interactions. It analyses these reactions through structured dimensions, i.e., cognitive, emotional, and behavioral patterns, with a dedicated sub-agent responsible for each dimension. The Bias-aware Decision-Making Agent mitigates hidden biases through a front-door adjustment strategy, leveraging the counterfactual user reactions produced by the Reasoning Agent. Through the collaboration of reasoning and bias-aware decision making, the proposed MACR framework not only alleviates hidden biases, but also enriches contextual information of user interactions with counterfactual knowledge. Extensive experiments on real-world conversational datasets demonstrate the effectiveness and robustness of MACR in identifying suicide risk.",
+      "url": "https://arxiv.org/abs/2602.23577",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "agent",
+        "user",
+        "reasoning",
+        "hidden",
+        "interactions",
+        "suicide",
+        "user interactions",
+        "aware",
+        "aware decision",
+        "bias"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper tackles a critically important problem \u2013 suicide ideation detection \u2013 with a novel approach that addresses limitations of existing methods. The use of a multi-agent system incorporating causal reasoning and bias mitigation is promising. While the abstract is concise, the proposed framework appears well-motivated and potentially rigorous, suggesting a strong contribution to the field. The focus on hidden influences like conformity and copycat behavior is particularly noteworthy.",
+      "paper_id": "a49f383d7fb96a75a60ad82940aaea9d"
+    },
+    {
+      "title": "Tracing and Reversing Edits in LLMs",
+      "authors": [
+        "Paul Youssef, Zhixue Zhao, Christin Seifert, J\\\"org Schl\\\"otterer"
+      ],
+      "abstract": "arXiv:2505.20819v2 Announce Type: replace \nAbstract: Knowledge editing methods (KEs) are a cost-effective way to update the factual content of large language models (LLMs), but they pose a dual-use risk. While KEs are beneficial for updating outdated or incorrect information, they can be exploited maliciously to implant misinformation or bias. In order to defend against these types of malicious manipulation, we need robust techniques that can reliably detect, interpret, and mitigate malicious edits. To that end, we introduce the tasks of tracing and reversing edits. We propose a novel method to infer the edited object entity, solely based on the modified weights, without access to the editing prompt or any other semantically similar prompts, with up to 99% accuracy. Further, we propose an effective and training-free method for reversing edits. Our method reverses up to 94% of the edits, and helps regain the original model's output distribution without access to any information about the edit. This method can further be repurposed to distinguish between edited and unedited weights. Our findings highlight the feasibility of tracing and reversing edits based on the edited weights, opening a new research direction for safeguarding LLMs against adversarial manipulations.",
+      "url": "https://arxiv.org/abs/2505.20819",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "edits",
+        "method",
+        "reversing",
+        "reversing edits",
+        "edited",
+        "llms",
+        "tracing",
+        "tracing reversing",
+        "weights",
+        "access"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper tackles a crucial and timely problem in the age of LLMs \u2013 the potential for malicious knowledge editing. The reported accuracy (99% for tracing, 94% for reversing) is impressive, suggesting a robust methodology. The ability to perform these tasks *without* access to the editing prompt is a significant advantage, making the approach more practical in real-world scenarios. The dual-use risk framing is well-articulated, and the work directly addresses a growing concern within the field.",
+      "paper_id": "be84141ef97e92139b0ed36152cea1b8"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2026-03-02T09:59:40.394621"
 }

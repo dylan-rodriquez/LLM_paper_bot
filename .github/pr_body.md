@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 11
+- **Average Significance Score:** 91.3/100
+- **Categories Updated:** 4
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,42 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Evaluation (6 new papers)
+- **CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era** (Score: 92.0)
+  - This paper addresses a highly relevant and increasingly critical problem – the hallucination of citations by LLMs. The proposed benchmark and multi-agent verification pipeline represent a significant step towards addressing this issue, offering a structured approach to detection. The work is well-motivated and the problem is timely, given the growing reliance on LLMs in research and the documented instances of fabricated references.
+- **Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning** (Score: 92.0)
+  - This paper addresses a crucial bottleneck in ML research – the lack of readily available code for published papers. The multi-agent LLM framework, PaperCoder, appears well-structured with distinct planning, analysis, and generation stages, suggesting a rigorous approach. The use of specialized agents for each phase is a promising design choice, and the problem's importance is high given the reproducibility crisis and the desire to accelerate research.
+- **Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice** (Score: 92.0)
+  - This paper addresses a crucial and often overlooked aspect of LLM evaluation in a high-stakes domain – medical advice. The shift from purely factual correctness to risk-sensitive evaluation is a significant improvement, and the proposed framework seems well-reasoned. The combination of risk scoring and relevance is a particularly strong point, and the application to instruction-tuned models is timely. The work is clearly presented and addresses a very important problem.
+- **HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam** (Score: 92.0)
+  - This paper addresses a critical issue in LLM evaluation – benchmark quality. The systematic verification and revision process, coupled with a transparent protocol, significantly improves the reliability of HLE. While the core idea of benchmark verification isn't entirely novel, the scale and rigor applied to HLE, and the two-stage workflow, are commendable. The work is likely to be well-received by the LLM community, as reliable benchmarks are essential for progress.
+- **Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking** (Score: 90.0)
+  - This paper addresses a critical issue in LLM security – the rapidly evolving nature of jailbreak attacks and the difficulty in maintaining comparable benchmarks. The JBF system offers a robust and reproducible framework for evaluating LLM robustness, significantly improving upon existing fragmented approaches. The reported fidelity and code reuse metrics demonstrate the system's effectiveness and practicality, suggesting a positive reception within the research community.
+- **DeepQuestion: Systematic Generation of Real-World Challenges for Evaluating LLMs Performance** (Score: 90.0)
+  - This paper addresses a crucial issue in LLM evaluation – the overestimation of capabilities due to simplistic benchmarks. The systematic approach of elevating cognitive complexity using Bloom's taxonomy and generating realistic, scenario-based problems is well-conceived. The reported 70% accuracy drop highlights a significant gap between benchmark performance and real-world application, suggesting a strong potential for impact and positive reception within the community.
+
+## Knowledge (2 new papers)
+- **Multi-Agent Causal Reasoning for Suicide Ideation Detection Through Online Conversations** (Score: 92.0)
+  - This paper tackles a critically important problem – suicide ideation detection – with a novel approach that addresses limitations of existing methods. The use of a multi-agent system incorporating causal reasoning and bias mitigation is promising. While the abstract is concise, the proposed framework appears well-motivated and potentially rigorous, suggesting a strong contribution to the field. The focus on hidden influences like conformity and copycat behavior is particularly noteworthy.
+- **Tracing and Reversing Edits in LLMs** (Score: 92.0)
+  - This paper tackles a crucial and timely problem in the age of LLMs – the potential for malicious knowledge editing. The reported accuracy (99% for tracing, 94% for reversing) is impressive, suggesting a robust methodology. The ability to perform these tasks *without* access to the editing prompt is a significant advantage, making the approach more practical in real-world scenarios. The dual-use risk framing is well-articulated, and the work directly addresses a growing concern within the field.
 
 ## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+- **SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale** (Score: 90.0)
+  - This paper addresses a critical bottleneck in SWE agent development – the lack of large-scale, diverse, and reproducible training data. The language-agnostic approach and automated pipeline for task harvesting are strong points, and the use of LLM judges for filtering adds a layer of robustness. The scale (32,000+ tasks, 20 languages) is impressive and suggests a significant contribution to the field. The high sentiment score reflects the current trend towards SWE agents and the need for better benchmarks.
+- **Open Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric** (Score: 90.0)
+  - This paper tackles a crucial problem in LLM alignment – the brittleness and reward hacking stemming from scalar reward models. The proposed Open Rubric System (OpenRS) with Pairwise Adaptive Meta-Rubrics (PAMR) and Pointwise Verifiable Rubrics (PVRs) offers a promising alternative by focusing on explicit reasoning and inspectable principles. The approach appears well-motivated and addresses a significant limitation of current alignment techniques, suggesting strong potential for positive reception within the community.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Reasoning (1 new papers)
+- **Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification** (Score: 92.0)
+  - This paper tackles a crucial problem in the deployment of VLMs in high-stakes clinical settings – ensuring logical consistency and reasoning. The neurosymbolic verification framework, leveraging SMT solvers and knowledge bases, is a strong methodological contribution. While the approach isn't entirely novel (neurosymbolic methods exist), applying it specifically to VLM clinical reasoning and exposing failure modes is valuable. The potential for improving the reliability of AI-assisted radiology is significant.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (6), **Knowledge** (2), **Training** (2), **Reasoning** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

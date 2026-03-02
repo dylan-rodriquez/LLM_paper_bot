@@ -479,7 +479,199 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era",
+      "authors": [
+        "Zhengqing Yuan, Kaiwen Shi, Zheyuan Zhang, Lichao Sun, Nitesh V. Chawla, Yanfang Ye"
+      ],
+      "abstract": "arXiv:2602.23452v1 Announce Type: new \nAbstract: Scientific research relies on accurate citation for attribution and integrity, yet large language models (LLMs) introduce a new risk: fabricated references that appear plausible but correspond to no real publications. Such hallucinated citations have already been observed in submissions and accepted papers at major machine learning venues, exposing vulnerabilities in peer review. Meanwhile, rapidly growing reference lists make manual verification impractical, and existing automated tools remain fragile to noisy and heterogeneous citation formats and lack standardized evaluation. We present the first comprehensive benchmark and detection framework for hallucinated citations in scientific writing. Our multi-agent verification pipeline decomposes citation checking into claim extraction, evidence retrieval, passage matching, reasoning, and calibrated judgment to assess whether a cited source truly supports its claim. We construct a large-scale human-validated dataset across domains and define unified metrics for citation faithfulness and evidence alignment. Experiments with state-of-the-art LLMs reveal substantial citation errors and show that our framework significantly outperforms prior methods in both accuracy and interpretability. This work provides the first scalable infrastructure for auditing citations in the LLM era and practical tools to improve the trustworthiness of scientific references.",
+      "url": "https://arxiv.org/abs/2602.23452",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "citation",
+        "scientific",
+        "citations",
+        "references",
+        "benchmark",
+        "cited",
+        "claim",
+        "era",
+        "evidence",
+        "framework"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and increasingly critical problem \u2013 the hallucination of citations by LLMs. The proposed benchmark and multi-agent verification pipeline represent a significant step towards addressing this issue, offering a structured approach to detection. The work is well-motivated and the problem is timely, given the growing reliance on LLMs in research and the documented instances of fabricated references.",
+      "paper_id": "543978bd7344ba68e9dc6bc60c2b53b0"
+    },
+    {
+      "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+      "authors": [
+        "Minju Seo, Jinheon Baek, Seongyun Lee, Sung Ju Hwang"
+      ],
+      "abstract": "arXiv:2504.17192v5 Announce Type: replace \nAbstract: Despite the rapid growth of machine learning research, corresponding code implementations are often unavailable, making it slow and labor-intensive for researchers to reproduce results and build upon prior work. In the meantime, recent Large Language Models (LLMs) excel at understanding scientific documents and generating high-quality code. Inspired by this, we introduce PaperCoder, a multi-agent LLM framework that transforms machine learning papers into operational code repositories. PaperCoder operates in three stages: planning, where it constructs a high-level roadmap, designs the system architecture with diagrams, identifies file dependencies, and generates configuration files; analysis, which focuses on interpreting implementation-specific details; and generation, where modular, dependency-aware code is produced. Moreover, each phase is instantiated through a set of specialized agents designed to collaborate effectively across the pipeline. We then evaluate PaperCoder on generating code implementations from machine learning papers based on both model-based and human evaluations, particularly from the authors of those papers, with author-released repositories as ground truth if available. Our results demonstrate the effectiveness of PaperCoder in creating high-quality, faithful implementations. Furthermore, it consistently shows strengths in the recently released PaperBench benchmark, surpassing strong baselines by substantial margins. Code is available at: https://github.com/going-doer/Paper2Code.",
+      "url": "https://arxiv.org/abs/2504.17192",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "code",
+        "learning",
+        "machine",
+        "machine learning",
+        "papercoder",
+        "papers",
+        "high",
+        "implementations",
+        "available",
+        "based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in ML research \u2013 the lack of readily available code for published papers. The multi-agent LLM framework, PaperCoder, appears well-structured with distinct planning, analysis, and generation stages, suggesting a rigorous approach. The use of specialized agents for each phase is a promising design choice, and the problem's importance is high given the reproducibility crisis and the desire to accelerate research.",
+      "paper_id": "5b2676af176b660fd5221a04d1b34b46"
+    },
+    {
+      "title": "Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice",
+      "authors": [
+        "Savan Doshi"
+      ],
+      "abstract": "arXiv:2602.07319v2 Announce Type: replace \nAbstract: Large language models are increasingly being used in patient-facing medical question answering, where hallucinated outputs can vary widely in potential harm. However, existing hallucination standards and evaluation metrics focus primarily on factual correctness, treating all errors as equally severe. This obscures clinically relevant failure modes, particularly when models generate unsupported but actionable medical language. We propose a risk-sensitive evaluation framework that quantifies hallucinations through the presence of risk-bearing language, including treatment directives, contraindications, urgency cues, and mentions of high-risk medications. Rather than assessing clinical correctness, our approach evaluates the potential impact of hallucinated content if acted upon. We further combine risk scoring with a relevance measure to identify high-risk, low-grounding failures. We apply this framework to three instruction-tuned language models using controlled patient-facing prompts designed as safety stress tests. Our results show that models with similar surface-level behavior exhibit substantially different risk profiles and that standard evaluation metrics fail to capture these distinctions. These findings highlight the importance of incorporating risk sensitivity into hallucination evaluation and suggest that evaluation validity is critically dependent on task and prompt design.",
+      "url": "https://arxiv.org/abs/2602.07319",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "risk",
+        "evaluation",
+        "language",
+        "models",
+        "hallucinated",
+        "medical",
+        "correctness",
+        "evaluation metrics",
+        "facing",
+        "framework"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and often overlooked aspect of LLM evaluation in a high-stakes domain \u2013 medical advice. The shift from purely factual correctness to risk-sensitive evaluation is a significant improvement, and the proposed framework seems well-reasoned. The combination of risk scoring and relevance is a particularly strong point, and the application to instruction-tuned models is timely. The work is clearly presented and addresses a very important problem.",
+      "paper_id": "111cd48a539c4da3f4537b035382570d"
+    },
+    {
+      "title": "HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam",
+      "authors": [
+        "Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xander Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao"
+      ],
+      "abstract": "arXiv:2602.13964v3 Announce Type: replace \nAbstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions. However, community-led analyses have raised concerns that HLE contains a non-trivial number of noisy items, which can bias evaluation results and distort cross-model comparisons. To address this challenge, we introduce HLE-Verified, a verified and revised version of HLE with a transparent verification protocol and fine-grained error taxonomy. Our construction follows a two-stage validation-and-repair workflow resulting in a certified benchmark. In Stage I, each item undergoes binary validation of the problem and final answer through domain-expert review and model-based cross-checks, yielding 668 verified items. In Stage II, flawed but fixable items are revised under strict constraints preserving the original evaluation intent, through dual independent expert repairs, model-assisted auditing, and final adjudication, resulting in 1,143 revised-and-certified items. The remaining 689 items are released as a documented uncertain set with explicit uncertainty sources and expertise tags for future refinement. We evaluate eight state-of-the-art language models on HLE and HLE-Verified, observing an average absolute accuracy gain of 7--10 percentage points on HLE-Verified. The improvement is particularly pronounced on items where the original problem statement and/or reference answer is erroneous, with gains of 30--40 percentage points. Our analyses further reveal a strong association between model confidence and the presence of errors in the problem statement or reference answer, supporting the effectiveness of our revisions. Overall, HLE-Verified improves HLE-style evaluations by reducing annotation noise and enabling more faithful measurement of model capabilities. Data is available at: https://huggingface.co/datasets/skylenage/HLE-Verified",
+      "url": "https://arxiv.org/abs/2602.13964",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hle",
+        "verified",
+        "hle verified",
+        "items",
+        "model",
+        "answer",
+        "problem",
+        "revised",
+        "stage",
+        "analyses"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 benchmark quality. The systematic verification and revision process, coupled with a transparent protocol, significantly improves the reliability of HLE. While the core idea of benchmark verification isn't entirely novel, the scale and rigor applied to HLE, and the two-stage workflow, are commendable. The work is likely to be well-received by the LLM community, as reliable benchmarks are essential for progress.",
+      "paper_id": "7546698ef2e6c877fefeac9b801fcc6b"
+    },
+    {
+      "title": "Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking",
+      "authors": [
+        "Zhicheng Fang, Jingjie Zheng, Chenxu Fu, Wei Xu"
+      ],
+      "abstract": "arXiv:2602.24009v1 Announce Type: cross \nAbstract: Jailbreak techniques for large language models (LLMs) evolve faster than benchmarks, making robustness estimates stale and difficult to compare across papers due to drift in datasets, harnesses, and judging protocols. We introduce JAILBREAK FOUNDRY (JBF), a system that addresses this gap via a multi-agent workflow to translate jailbreak papers into executable modules for immediate evaluation within a unified harness. JBF features three core components: (i) JBF-LIB for shared contracts and reusable utilities; (ii) JBF-FORGE for the multi-agent paper-to-module translation; and (iii) JBF-EVAL for standardizing evaluations. Across 30 reproduced attacks, JBF achieves high fidelity with a mean (reproduced-reported) attack success rate (ASR) deviation of +0.26 percentage points. By leveraging shared infrastructure, JBF reduces attack-specific implementation code by nearly half relative to original repositories and achieves an 82.5% mean reused-code ratio. This system enables a standardized AdvBench evaluation of all 30 attacks across 10 victim models using a consistent GPT-4o judge. By automating both attack integration and standardized evaluation, JBF offers a scalable solution for creating living benchmarks that keep pace with the rapidly shifting security landscape.",
+      "url": "https://arxiv.org/abs/2602.24009",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "jbf",
+        "jailbreak",
+        "attack",
+        "attacks",
+        "evaluation",
+        "papers",
+        "30",
+        "achieves",
+        "agent",
+        "benchmarks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM security \u2013 the rapidly evolving nature of jailbreak attacks and the difficulty in maintaining comparable benchmarks. The JBF system offers a robust and reproducible framework for evaluating LLM robustness, significantly improving upon existing fragmented approaches. The reported fidelity and code reuse metrics demonstrate the system's effectiveness and practicality, suggesting a positive reception within the research community.",
+      "paper_id": "87147ef66e398fb30e5928221a9b5c2f"
+    },
+    {
+      "title": "DeepQuestion: Systematic Generation of Real-World Challenges for Evaluating LLMs Performance",
+      "authors": [
+        "Ali Khoramfar, Ali Ramezani, Mohammad Mahdi Mohajeri, Mohammad Javad Dousti, Majid Nili Ahmadabadi, Heshaam Faili"
+      ],
+      "abstract": "arXiv:2505.24532v2 Announce Type: replace \nAbstract: While Large Language Models (LLMs) achieve near-human performance on standard benchmarks, their capabilities often fail to generalize to complex, real-world problems. To bridge this gap, we introduce DeepQuestion, a scalable, automated framework that systematically elevates the cognitive complexity of existing datasets. Grounded in Bloom's taxonomy, DeepQuestion generates (1) scenario-based problems to test the application of knowledge in noisy, realistic contexts, and (2) instruction-based prompts that require models to create new questions from a given solution path, assessing synthesis and evaluation skills. Our extensive evaluation across ten leading open-source and proprietary models reveals a stark performance decline with accuracy dropping by up to 70% as tasks ascend the cognitive hierarchy. These findings underscore that current benchmarks overestimate true reasoning abilities and highlight the critical need for cognitively diverse evaluations to guide future LLM development.",
+      "url": "https://arxiv.org/abs/2505.24532",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "deepquestion",
+        "models",
+        "performance",
+        "based",
+        "benchmarks",
+        "cognitive",
+        "evaluation",
+        "llms",
+        "problems",
+        "real"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in LLM evaluation \u2013 the overestimation of capabilities due to simplistic benchmarks. The systematic approach of elevating cognitive complexity using Bloom's taxonomy and generating realistic, scenario-based problems is well-conceived. The reported 70% accuracy drop highlights a significant gap between benchmark performance and real-world application, suggesting a strong potential for impact and positive reception within the community.",
+      "paper_id": "00729e4afe3267254f30bb7e0c534699"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-02T09:59:40.393121"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (21 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,72 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### CiteAudit: You Cited It, But Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Zhengqing Yuan, Kaiwen Shi, Zheyuan Zhang, Lichao Sun, Nitesh V. Chawla, Yanfang Ye
+
+arXiv:2602.23452v1 Announce Type: new 
+Abstract: Scientific research relies on accurate citation for attribution and integrity, yet large language models (LLMs) introduce a new risk: fabricated refere...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23452) | [📝 Analysis](543978bd7344ba68e9dc6bc60c2b53b0.md)
+
+---
+
+### Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Minju Seo, Jinheon Baek, Seongyun Lee, Sung Ju Hwang
+
+arXiv:2504.17192v5 Announce Type: replace 
+Abstract: Despite the rapid growth of machine learning research, corresponding code implementations are often unavailable, making it slow and labor-intensive...
+
+[📄 Full Paper](https://arxiv.org/abs/2504.17192) | [📝 Analysis](5b2676af176b660fd5221a04d1b34b46.md)
+
+---
+
+### Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Savan Doshi
+
+arXiv:2602.07319v2 Announce Type: replace 
+Abstract: Large language models are increasingly being used in patient-facing medical question answering, where hallucinated outputs can vary widely in poten...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.07319) | [📝 Analysis](111cd48a539c4da3f4537b035382570d.md)
+
+---
+
+### HLE-Verified: A Systematic Verification and Structured Revision of Humanity's Last Exam
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Weiqi Zhai, Zhihai Wang, Jinghang Wang, Boyu Yang, Xiaogang Li, Xander Xu, Bohan Wang, Peng Wang, Xingzhe Wu, Anfeng Li, Qiyuan Feng, Yuhao Zhou, Shoulin Han, Wenjie Luo, Yiyuan Li, Yaxuan Wang, Ruixian Luo, Guojie Lin, Peiyao Xiao, Chengliang Xu, Ben Wang, Zeyu Wang, Zichao Chen, Jianan Ye, Yijie Hu, Jialong Chen, Zongwen Shen, Yuliang Xu, An Yang, Bowen Yu, Dayiheng Liu, Junyang Lin, Hu Wei, Que Shen, Bing Zhao
+
+arXiv:2602.13964v3 Announce Type: replace 
+Abstract: Humanity's Last Exam (HLE) has become a widely used benchmark for evaluating frontier large language models on challenging, multi-domain questions....
+
+[📄 Full Paper](https://arxiv.org/abs/2602.13964) | [📝 Analysis](7546698ef2e6c877fefeac9b801fcc6b.md)
+
+---
+
+### Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking
+
+**Score:** 90.0 | **Published:** 2026-03-02 | **Authors:** Zhicheng Fang, Jingjie Zheng, Chenxu Fu, Wei Xu
+
+arXiv:2602.24009v1 Announce Type: cross 
+Abstract: Jailbreak techniques for large language models (LLMs) evolve faster than benchmarks, making robustness estimates stale and difficult to compare acros...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.24009) | [📝 Analysis](87147ef66e398fb30e5928221a9b5c2f.md)
+
+---
+
+### DeepQuestion: Systematic Generation of Real-World Challenges for Evaluating LLMs Performance
+
+**Score:** 90.0 | **Published:** 2026-03-02 | **Authors:** Ali Khoramfar, Ali Ramezani, Mohammad Mahdi Mohajeri, Mohammad Javad Dousti, Majid Nili Ahmadabadi, Heshaam Faili
+
+arXiv:2505.24532v2 Announce Type: replace 
+Abstract: While Large Language Models (LLMs) achieve near-human performance on standard benchmarks, their capabilities often fail to generalize to complex, r...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.24532) | [📝 Analysis](00729e4afe3267254f30bb7e0c534699.md)
 
 ---
 
@@ -170,4 +236,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-02 09:59:40 UTC*

@@ -2,7 +2,29 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (5 total)
+
+### Multi-Agent Causal Reasoning for Suicide Ideation Detection Through Online Conversations
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Jun Li, Xiangmeng Wang, Haoyang Li, Yifei Yan, Shijie Zhang, Hong Va Leong, Ling Feng, Nancy Xiaonan Yu, Qing Li
+
+arXiv:2602.23577v1 Announce Type: new 
+Abstract: Suicide remains a pressing global public health concern. While social media platforms offer opportunities for early risk detection through online conve...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23577) | [📝 Analysis](a49f383d7fb96a75a60ad82940aaea9d.md)
+
+---
+
+### Tracing and Reversing Edits in LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Paul Youssef, Zhixue Zhao, Christin Seifert, J\"org Schl\"otterer
+
+arXiv:2505.20819v2 Announce Type: replace 
+Abstract: Knowledge editing methods (KEs) are a cost-effective way to update the factual content of large language models (LLMs), but they pose a dual-use ri...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.20819) | [📝 Analysis](be84141ef97e92139b0ed36152cea1b8.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +60,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-02 09:59:40 UTC*

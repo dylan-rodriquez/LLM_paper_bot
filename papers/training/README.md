@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale
+
+**Score:** 90.0 | **Published:** 2026-03-02 | **Authors:** Ibragim Badertdinov, Maksim Nekrashevich, Anton Shevtsov, Alexander Golubev
+
+arXiv:2602.23866v1 Announce Type: cross 
+Abstract: Software engineering agents (SWE) are improving rapidly, with recent gains largely driven by reinforcement learning (RL). However, RL training is con...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23866) | [📝 Analysis](671c490fc34c0c158d6ef50828761c86.md)
+
+---
+
+### Open Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric
+
+**Score:** 90.0 | **Published:** 2026-03-02 | **Authors:** Ruipeng Jia, Yunyi Yang, Yuxin Wu, Yongbo Gai, Siyuan Tao, Mengyu Zhou, Jianhe Lin, Xiaoxi Jiang, Guanjun Jiang
+
+arXiv:2602.14069v2 Announce Type: replace 
+Abstract: Scalar reward models compress multi-dimensional human preferences into a single opaque score, creating an information bottleneck that often leads t...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.14069) | [📝 Analysis](7c27dfa150d8f6bf2ea04c4db109476f.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-02 09:59:40 UTC*
