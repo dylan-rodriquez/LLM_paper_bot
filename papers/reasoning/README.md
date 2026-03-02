@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification
+
+**Score:** 92.0 | **Published:** 2026-03-02 | **Authors:** Vikash Singh, Debargha Ganguly, Haotian Yu, Chengwei Zhou, Prerna Singh, Brandon Lee, Vipin Chaudhary, Gourav Datta
+
+arXiv:2602.24111v1 Announce Type: cross 
+Abstract: Vision-language models (VLMs) show promise in drafting radiology reports, yet they frequently suffer from logical inconsistencies, generating diagnos...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.24111) | [📝 Analysis](13fc4453450e5e5ef6c3adadfc017dd4.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-02 09:59:40 UTC*

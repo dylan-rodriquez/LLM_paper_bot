@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification",
+      "authors": [
+        "Vikash Singh, Debargha Ganguly, Haotian Yu, Chengwei Zhou, Prerna Singh, Brandon Lee, Vipin Chaudhary, Gourav Datta"
+      ],
+      "abstract": "arXiv:2602.24111v1 Announce Type: cross \nAbstract: Vision-language models (VLMs) show promise in drafting radiology reports, yet they frequently suffer from logical inconsistencies, generating diagnostic impressions unsupported by their own perceptual findings or missing logically entailed conclusions. Standard lexical metrics heavily penalize clinical paraphrasing and fail to capture these deductive failures in reference-free settings. Toward guarantees for clinical reasoning, we introduce a neurosymbolic verification framework that deterministically audits the internal consistency of VLM-generated reports. Our pipeline autoformalizes free-text radiographic findings into structured propositional evidence, utilizing an SMT solver (Z3) and a clinical knowledge base to verify whether each diagnostic claim is mathematically entailed, hallucinated, or omitted. Evaluating seven VLMs across five chest X-ray benchmarks, our verifier exposes distinct reasoning failure modes, such as conservative observation and stochastic hallucination, that remain invisible to traditional metrics. On labeled datasets, enforcing solver-backed entailment acts as a rigorous post-hoc guarantee, systematically eliminating unsupported hallucinations to significantly increase diagnostic soundness and precision in generative clinical assistants.",
+      "url": "https://arxiv.org/abs/2602.24111",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "clinical",
+        "diagnostic",
+        "reasoning",
+        "clinical reasoning",
+        "entailed",
+        "findings",
+        "free",
+        "guarantees",
+        "guarantees clinical",
+        "language"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in the deployment of VLMs in high-stakes clinical settings \u2013 ensuring logical consistency and reasoning. The neurosymbolic verification framework, leveraging SMT solvers and knowledge bases, is a strong methodological contribution. While the approach isn't entirely novel (neurosymbolic methods exist), applying it specifically to VLM clinical reasoning and exposing failure modes is valuable. The potential for improving the reliability of AI-assisted radiology is significant.",
+      "paper_id": "13fc4453450e5e5ef6c3adadfc017dd4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-02T09:59:40.398126"
 }

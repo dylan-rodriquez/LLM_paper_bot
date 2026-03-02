@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale",
+      "authors": [
+        "Ibragim Badertdinov, Maksim Nekrashevich, Anton Shevtsov, Alexander Golubev"
+      ],
+      "abstract": "arXiv:2602.23866v1 Announce Type: cross \nAbstract: Software engineering agents (SWE) are improving rapidly, with recent gains largely driven by reinforcement learning (RL). However, RL training is constrained by the scarcity of large-scale task collections with reproducible execution environments and reliable test suites. Although a growing number of benchmarks have emerged, datasets suitable for training remain limited in scale and diversity or often target a limited set of high-resource language ecosystems. We introduce SWE-rebench V2, a language-agnostic automated pipeline for harvesting executable real-world SWE tasks and constructing RL training environments at scale. The pipeline synthesizes repository-specific installation and test procedures via an interactive setup agent, and filters unsound instances using an ensemble of LLM judges, validated against human-verified SWE-bench annotations. Using this pipeline, we construct a dataset of 32,000+ tasks spanning 20 languages and 3,600+ repositories, with pre-built images for reproducible execution. To further scale training data, we additionally release 120,000+ tasks with installation instructions, fail-to-pass tests and rich metadata, where the problem statement is generated based on the original pull request description. We validate the collected instances through a diagnostic study that covers a subset of tasks in five programming languages across seven popular models, and provide instance-level metadata that flags common confounders such as overly restrictive tests and underspecified descriptions. We release the datasets, the collection and execution code, and associated artifacts to enable large-scale training of SWE agents across diverse languages and repositories.",
+      "url": "https://arxiv.org/abs/2602.23866",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "swe",
+        "scale",
+        "training",
+        "tasks",
+        "execution",
+        "language",
+        "languages",
+        "pipeline",
+        "rl",
+        "000"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical bottleneck in SWE agent development \u2013 the lack of large-scale, diverse, and reproducible training data. The language-agnostic approach and automated pipeline for task harvesting are strong points, and the use of LLM judges for filtering adds a layer of robustness. The scale (32,000+ tasks, 20 languages) is impressive and suggests a significant contribution to the field. The high sentiment score reflects the current trend towards SWE agents and the need for better benchmarks.",
+      "paper_id": "671c490fc34c0c158d6ef50828761c86"
+    },
+    {
+      "title": "Open Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric",
+      "authors": [
+        "Ruipeng Jia, Yunyi Yang, Yuxin Wu, Yongbo Gai, Siyuan Tao, Mengyu Zhou, Jianhe Lin, Xiaoxi Jiang, Guanjun Jiang"
+      ],
+      "abstract": "arXiv:2602.14069v2 Announce Type: replace \nAbstract: Scalar reward models compress multi-dimensional human preferences into a single opaque score, creating an information bottleneck that often leads to brittleness and reward hacking in open-ended alignment. We argue that robust alignment for non-verifiable tasks is fundamentally a principle generalization problem: reward should not be a learned function internalized into a judge, but an explicit reasoning process executed under inspectable principles. To operationalize this view, we present the Open Rubric System (OpenRS), a plug-and-play, rubrics-based LLM-as-a-Judge framework built around Pairwise Adaptive Meta-Rubrics (PAMR) and lightweight Pointwise Verifiable Rubrics (PVRs), which provide both hard-constraint guardrails and verifiable reward components when ground-truth or programmatic checks are available. OpenRS uses an explicit meta-rubric -- a constitution-like specification that governs how rubrics are instantiated, weighted, and enforced -- and instantiates adaptive rubrics on the fly by conditioning on the semantic differences between two candidate responses. It then performs criterion-wise pairwise comparisons and aggregates criterion-level preferences externally, avoiding pointwise weighted scalarization while improving discriminability in open-ended settings. To keep principles consistent yet editable across various domains, we introduce a two-level meta-rubric refinement pipeline (automated evolutionary refinement for general principles and a reproducible human-in-the-loop procedure for domain principles), complemented with pointwise verifiable rubrics that act as both guardrails against degenerate behaviors and a source of verifiable reward for objective sub-tasks. Finally, we instantiate OpenRS as reward supervision in pairwise RL training.",
+      "url": "https://arxiv.org/abs/2602.14069",
+      "published_date": "2026-03-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reward",
+        "rubrics",
+        "rubric",
+        "verifiable",
+        "open",
+        "pairwise",
+        "principles",
+        "adaptive",
+        "meta",
+        "openrs"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM alignment \u2013 the brittleness and reward hacking stemming from scalar reward models. The proposed Open Rubric System (OpenRS) with Pairwise Adaptive Meta-Rubrics (PAMR) and Pointwise Verifiable Rubrics (PVRs) offers a promising alternative by focusing on explicit reasoning and inspectable principles. The approach appears well-motivated and addresses a significant limitation of current alignment techniques, suggesting strong potential for positive reception within the community.",
+      "paper_id": "7c27dfa150d8f6bf2ea04c4db109476f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-02T09:59:40.395862"
 }
