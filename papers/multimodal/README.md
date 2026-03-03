@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MedGPT-oss: Training a General-Purpose Vision-Language Model for Biomedicine
+
+**Score:** 90.0 | **Published:** 2026-03-03 | **Authors:** Kai Zhang, Zhengqing Yuan, Cheng Peng, Songlin Zhao, Mengxian Lyu, Ziyi Chen, Yanfang Ye, Wei Liu, Ying Zhang, Kaleb E Smith, Lifang He, Lichao Sun, Yonghui Wu
+
+arXiv:2603.00842v1 Announce Type: new 
+Abstract: Biomedical multimodal assistants have the potential to unify radiology, pathology, and clinical-text reasoning, yet a critical deployment gap remains: ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.00842) | [📝 Analysis](951fa7f010560eb181caa185516449fe.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-03 09:55:01 UTC*

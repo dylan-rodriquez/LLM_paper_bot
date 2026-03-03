@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Super Research: Answering Highly Complex Questions with Large Language Models through Super Deep and Super Wide Research
+
+**Score:** 92.0 | **Published:** 2026-03-03 | **Authors:** Yubo Dong, Nianhao You, Yuxuan Hou, Zixun Sun, Yue Zhang, Hehe Fan, Liang Zhang, Siyuan Zhao,  Linyi
+
+arXiv:2603.00582v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) have demonstrated proficiency in Deep Research or Wide Search, their capacity to solve highly complex questions-thos...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.00582) | [📝 Analysis](10e7c220475f23694567e91bf4132bbb.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-03 09:55:01 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Understanding the Physics of Key-Value Cache Compression for LLMs through Attention Dynamics
+
+**Score:** 92.0 | **Published:** 2026-03-03 | **Authors:** Samhruth Ananthanarayanan, Ayan Sengupta, Tanmoy Chakraborty
+
+arXiv:2603.01426v1 Announce Type: new 
+Abstract: As context windows in LLMs scale to 100K+ tokens, the key-value (KV) cache becomes the dominant memory bottleneck, with recent methods claiming 80-90% ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.01426) | [📝 Analysis](25d11b5ef6487ef6adea15561361eb11.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-03 09:55:01 UTC*
