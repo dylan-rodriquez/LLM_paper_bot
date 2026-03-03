@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Understanding the Physics of Key-Value Cache Compression for LLMs through Attention Dynamics",
+      "authors": [
+        "Samhruth Ananthanarayanan, Ayan Sengupta, Tanmoy Chakraborty"
+      ],
+      "abstract": "arXiv:2603.01426v1 Announce Type: new \nAbstract: As context windows in LLMs scale to 100K+ tokens, the key-value (KV) cache becomes the dominant memory bottleneck, with recent methods claiming 80-90% savings and minimal benchmark degradation. We argue these evaluations miss a structural issue: attention is not just storage but routing, and retaining KV pairs does not guarantee semantic accessibility. We propose a physics-inspired view of KV compression as a controlled perturbation of token-level routing, distinguishing retention, accessibility, and utilization. Using synthetic tasks probing multi-entity tracking, disambiguation, coreference, and multi-hop reasoning, we find that moderate compression degrades internal representations with little accuracy loss, revealing redundancy; all models exhibit a sharp hallucination safety cliff near 90% compression, correlated with spikes in Global Eviction Ratio (GER), suggesting a phase transition in semantic reachability; and architectures differ in routing dynamics, with LLaMA showing early consensus and late diversification, and Qwen showing funnel-like late convergence, leading to distinct resilience profiles. Beyond erasure, we identify representational rigidity, where excessive head-level consensus collapses routing flexibility despite token survival. These results suggest sparse token-route structures govern compression tolerance, reframing KV compression as a structural probe of attention geometry and linking long-context scalability to sparsity and the lottery ticket hypothesis in self-attention.",
+      "url": "https://arxiv.org/abs/2603.01426",
+      "published_date": "2026-03-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "compression",
+        "attention",
+        "kv",
+        "routing",
+        "token",
+        "90",
+        "accessibility",
+        "cache",
+        "consensus",
+        "context"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial bottleneck in LLM scaling \u2013 KV cache compression \u2013 and challenges the conventional evaluation metrics. The 'physics-inspired' view and the focus on semantic accessibility beyond simple storage reduction are novel and insightful. The use of synthetic tasks designed to probe specific reasoning abilities is a strong methodological choice, and the identification of a 'hallucination safety cliff' is a particularly compelling finding. The work is well-motivated and clearly presented, suggesting a high likelihood of positive reception.",
+      "paper_id": "25d11b5ef6487ef6adea15561361eb11"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-03T09:55:01.911379"
 }

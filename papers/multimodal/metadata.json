@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MedGPT-oss: Training a General-Purpose Vision-Language Model for Biomedicine",
+      "authors": [
+        "Kai Zhang, Zhengqing Yuan, Cheng Peng, Songlin Zhao, Mengxian Lyu, Ziyi Chen, Yanfang Ye, Wei Liu, Ying Zhang, Kaleb E Smith, Lifang He, Lichao Sun, Yonghui Wu"
+      ],
+      "abstract": "arXiv:2603.00842v1 Announce Type: new \nAbstract: Biomedical multimodal assistants have the potential to unify radiology, pathology, and clinical-text reasoning, yet a critical deployment gap remains: top-performing systems are either closed-source or computationally prohibitive, precluding the on-premises deployment required for patient privacy and PHI compliance. We introduce MEDGPT-OSS, an open-weight, 20B-parameter generalist vision-language model designed to facilitate open research in clinical AI. Rather than relying on architectural complexity, MEDGPT-OSS pairs the GPT-oss language backbone with a visual front-end via a optimized, three-stage training curriculum. By progressively domain-adapting these modules through rigorous data curation and long-context multimodal alignment, we demonstrate that a 20B model can bridge the capacity gap. It successfully outperforms larger open medical models on out-of-distribution (OOD) multimodal reasoning and complex text-only clinical tasks. By unifying diverse modalities under a single instruction-following interface, MEDGPT-OSS maintains a parameter-efficient footprint fully compatible with commodity GPUs. We release the complete training recipe, open-weight checkpoints, and a rigorous evaluation harness to serve as a verifiable foundation for privacy-preserving, institution-specific clinical AI research.",
+      "url": "https://arxiv.org/abs/2603.00842",
+      "published_date": "2026-03-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "oss",
+        "clinical",
+        "medgpt",
+        "medgpt oss",
+        "open",
+        "language",
+        "model",
+        "multimodal",
+        "training",
+        "20b"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial bottleneck in clinical AI \u2013 the lack of accessible, high-performing multimodal models due to closed-source options or prohibitive computational costs. The development of MEDGPT-OSS, a 20B parameter open-weight model, is a significant step towards democratizing research in this field. The focus on a progressive training curriculum and rigorous data curation suggests a well-thought-out methodology, and the reported outperformance on OOD reasoning is promising.",
+      "paper_id": "951fa7f010560eb181caa185516449fe"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-03T09:55:01.910325"
 }
