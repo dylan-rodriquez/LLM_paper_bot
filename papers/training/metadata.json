@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Detecting AI-Generated Essays in Writing Assessment: Responsible Use and Generalizability Across LLMs",
+      "authors": [
+        "Jiangang Hao"
+      ],
+      "abstract": "arXiv:2603.02353v1 Announce Type: new \nAbstract: Writing is a foundational literacy skill that underpins effective communication, fosters critical thinking, facilitates learning across disciplines, and enables individuals to organize and articulate complex ideas. Consequently, writing assessment plays a vital role in evaluating language proficiency, communicative effectiveness, and analytical reasoning. The rapid advancement of large language models (LLMs) has made it increasingly easy to generate coherent, high-quality essays, raising significant concerns about the authenticity of student-submitted work. This chapter first provides an overview of the current landscape of detectors for AI-generated and AI-assisted essays, along with guidelines for their responsible use. It then presents empirical analyses to evaluate how well detectors trained on essays from one LLM generalize to identifying essays produced by other LLMs, based on essays generated in response to public GRE writing prompts. These findings provide guidance for developing and retraining detectors for practical applications.",
+      "url": "https://arxiv.org/abs/2603.02353",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "essays",
+        "writing",
+        "ai",
+        "detectors",
+        "generated",
+        "llms",
+        "ai generated",
+        "assessment",
+        "language",
+        "responsible"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the detection of AI-generated essays. The focus on generalizability across different LLMs is crucial, as detectors trained on one model may not perform well on others. While the abstract doesn't detail novel methodologies, the empirical analysis and responsible use guidelines suggest a solid, well-structured approach. The topic is currently of high interest within the educational and AI communities.",
+      "paper_id": "5634179deaecb2d59d1b2d70213e83ea"
+    },
+    {
+      "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+      "authors": [
+        "Aradhye Agarwal, Gurdit Siyan, Yash Pandya, Joykirat Singh, Akshay Nambi, Ahmed Awadallah"
+      ],
+      "abstract": "arXiv:2603.03205v1 Announce Type: new \nAbstract: Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimized for static generation and task completion, break down in these settings due to sequential decision-making, adversarial tool feedback, and overconfident intermediate reasoning. We introduce MOSAIC, a post-training framework that aligns agents for safe multi-step tool use by making safety decisions explicit and learnable. MOSAIC structures inference as a plan, check, then act or refuse loop, with explicit safety reasoning and refusal as first-class actions. To train without trajectory-level labels, we use preference-based reinforcement learning with pairwise trajectory comparisons, which captures safety distinctions often missed by scalar rewards. We evaluate MOSAIC zero-shot across three model families, Qwen2.5-7B, Qwen3-4B-Thinking, and Phi-4, and across out-of-distribution benchmarks spanning harmful tasks, prompt injection, benign tool use, and cross-domain privacy leakage. MOSAIC reduces harmful behavior by up to 50%, increases harmful-task refusal by over 20% on injection attacks, cuts privacy leakage, and preserves or improves benign task performance, demonstrating robust generalization across models, domains, and agentic settings.",
+      "url": "https://arxiv.org/abs/2603.03205",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "models",
+        "mosaic",
+        "safety",
+        "tool",
+        "use",
+        "agentic",
+        "harmful",
+        "reasoning",
+        "task",
+        "tool use"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of agentic AI \u2013 ensuring safety in multi-step tool use. The 'plan, check, then act or refuse' loop and preference-based RL approach appear well-motivated and address limitations of existing alignment methods. The focus on explicit safety reasoning is a strong point, and the use of pairwise comparisons for training is a clever way to circumvent the need for extensive trajectory-level labeling. The problem is highly relevant and the proposed solution has the potential to significantly improve the reliability and trustworthiness of AI agents.",
+      "paper_id": "88cac77a5852819ea32ee6b38b44df9e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-04T09:47:59.354487"
 }
