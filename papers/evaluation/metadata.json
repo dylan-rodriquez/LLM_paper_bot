@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "How Controllable Are Large Language Models? A Unified Evaluation across Behavioral Granularities",
+      "authors": [
+        "Ziwen Xu, Kewei Xu, Haoming Xu, Haiwen Hong, Longtao Huang, Hui Xue, Ningyu Zhang, Yongliang Shen, Guozhou Zheng, Huajun Chen, Shumin Deng"
+      ],
+      "abstract": "arXiv:2603.02578v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in socially sensitive domains, yet their unpredictable behaviors, ranging from misaligned intent to inconsistent personality, pose significant risks. We introduce SteerEval, a hierarchical benchmark for evaluating LLM controllability across three domains: language features, sentiment, and personality. Each domain is structured into three specification levels: L1 (what to express), L2 (how to express), and L3 (how to instantiate), connecting high-level behavioral intent to concrete textual output. Using SteerEval, we systematically evaluate contemporary steering methods, revealing that control often degrades at finer-grained levels. Our benchmark offers a principled and interpretable framework for safe and controllable LLM behavior, serving as a foundation for future research.",
+      "url": "https://arxiv.org/abs/2603.02578",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "behavioral",
+        "benchmark",
+        "controllable",
+        "domains",
+        "express",
+        "intent",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in LLM deployment \u2013 controllability \u2013 and proposes a structured benchmark (SteerEval) to assess it. The hierarchical evaluation across behavioral granularities (L1-L3) is a strong methodological contribution. The systematic evaluation of steering methods and the observation of control degradation at finer levels are valuable insights, suggesting the work is well-executed and likely to be well-received by the community.",
+      "paper_id": "22ec868e95ed16b5d5c32682dc7d1f56"
+    },
+    {
+      "title": "Evaluating Performance Drift from Model Switching in Multi-Turn LLM Systems",
+      "authors": [
+        "Raad Khraishi, Iman Zafar, Katie Myles, Greig A Cowan"
+      ],
+      "abstract": "arXiv:2603.03111v1 Announce Type: new \nAbstract: Deployed multi-turn LLM systems routinely switch models mid-interaction due to upgrades, cross-provider routing, and fallbacks. Such handoffs create a context mismatch: the model generating later turns must condition on a dialogue prefix authored by a different model, potentially inducing silent performance drift. We introduce a switch-matrix benchmark that measures this effect by running a prefix model for early turns and a suffix model for the final turn, and comparing against the no-switch baseline using paired episode-level bootstrap confidence intervals. Across CoQA conversational QA and Multi-IF benchmarks, even a single-turn handoff yields prevalent and statistically significant, directional effects and may swing outcomes by -8 to +13 percentage points in Multi-IF strict success rate and +/- 4 absolute F1 on CoQA, comparable to the no-switch gap between common model tiers (e.g., GPT-5-nano vs GPT-5-mini). We further find systematic compatibility patterns: some suffix models degrade under nearly any non-self dialogue history, while others improve under nearly any foreign prefix. To enable compressed handoff risk monitoring, we decompose switch-induced drift into per-model prefix influence and suffix susceptibility terms, accounting for ~70% of variance across benchmarks. These results position handoff robustness as an operational reliability dimension that single-model benchmarks miss, motivating explicit monitoring and handoff-aware mitigation in multi-turn systems.",
+      "url": "https://arxiv.org/abs/2603.03111",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "model",
+        "multi",
+        "switch",
+        "turn",
+        "handoff",
+        "prefix",
+        "benchmarks",
+        "drift",
+        "multi turn",
+        "suffix"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very practical and increasingly important problem in deployed LLM systems \u2013 performance drift due to model switching. The introduction of the 'switch-matrix benchmark' and the use of bootstrap confidence intervals provide a rigorous methodology for quantifying this effect. The reported performance drops, comparable to model tier differences, highlight the significance of the issue and suggest a need for mitigation strategies. The strong statistical backing and clear presentation contribute to a high-quality research piece.",
+      "paper_id": "56208b6ec1c8a7d4678cb773b800ed3b"
+    },
+    {
+      "title": "A Survey of Query Optimization in Large Language Models",
+      "authors": [
+        "Mingyang Song, Mao Zheng"
+      ],
+      "abstract": "arXiv:2412.17558v3 Announce Type: replace \nAbstract: Query Optimization (QO) has become essential for enhancing Large Language Model (LLM) effectiveness, particularly in Retrieval-Augmented Generation (RAG) systems where query quality directly determines retrieval and response performance. This survey provides a systematic and comprehensive analysis of query optimization techniques with three principal contributions. \\textit{First}, we introduce the \\textbf{Query Optimization Lifecycle (QOL) Framework}, a five-phase pipeline covering Intent Recognition, Query Transformation, Retrieval Execution, Evidence Integration, and Response Synthesis, providing a unified lens for understanding the optimization process. \\textit{Second}, we propose a \\textbf{Query Complexity Taxonomy} that classifies queries along two dimensions, namely evidence type (explicit vs.\\ implicit) and evidence quantity (single vs.\\ multiple), establishing principled mappings between query characteristics and optimization strategies. \\textit{Third}, we conduct an in-depth analysis of four atomic operations, namely \\textbf{Query Expansion}, \\textbf{Query Decomposition}, \\textbf{Query Disambiguation}, and \\textbf{Query Abstraction}, synthesizing a broad spectrum of representative methods from premier venues. We further examine evaluation methodologies, identify critical gaps in existing benchmarks, and discuss open challenges including process reward models, efficiency optimization, and multi-modal query handling. This survey offers both a structured foundation for research and actionable guidance for practitioners.",
+      "url": "https://arxiv.org/abs/2412.17558",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "query",
+        "optimization",
+        "textbf",
+        "textbf query",
+        "query optimization",
+        "evidence",
+        "retrieval",
+        "survey",
+        "textit",
+        "analysis"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey paper addresses a highly relevant and timely problem \u2013 query optimization for LLMs, particularly within RAG systems. The proposed Query Optimization Lifecycle (QOL) Framework and Query Complexity Taxonomy appear well-structured and offer a valuable lens for understanding and categorizing the optimization process. The abstract suggests a rigorous and systematic approach, indicating a high-quality contribution to the field, and the topic aligns strongly with current research trends.",
+      "paper_id": "e38b934961d929e1e253eeeddd176a43"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-04T09:47:59.356767"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Detecting AI-Generated Essays in Writing Assessment: Responsible Use and Generalizability Across LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-04 | **Authors:** Jiangang Hao
+
+arXiv:2603.02353v1 Announce Type: new 
+Abstract: Writing is a foundational literacy skill that underpins effective communication, fosters critical thinking, facilitates learning across disciplines, an...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.02353) | [📝 Analysis](5634179deaecb2d59d1b2d70213e83ea.md)
+
+---
+
+### Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use
+
+**Score:** 90.0 | **Published:** 2026-03-04 | **Authors:** Aradhye Agarwal, Gurdit Siyan, Yash Pandya, Joykirat Singh, Akshay Nambi, Ahmed Awadallah
+
+arXiv:2603.03205v1 Announce Type: new 
+Abstract: Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actio...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03205) | [📝 Analysis](88cac77a5852819ea32ee6b38b44df9e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-04 09:47:59 UTC*

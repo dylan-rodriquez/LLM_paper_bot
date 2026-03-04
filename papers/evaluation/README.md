@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### How Controllable Are Large Language Models? A Unified Evaluation across Behavioral Granularities
+
+**Score:** 92.0 | **Published:** 2026-03-04 | **Authors:** Ziwen Xu, Kewei Xu, Haoming Xu, Haiwen Hong, Longtao Huang, Hui Xue, Ningyu Zhang, Yongliang Shen, Guozhou Zheng, Huajun Chen, Shumin Deng
+
+arXiv:2603.02578v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in socially sensitive domains, yet their unpredictable behaviors, ranging from misaligned intent...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.02578) | [📝 Analysis](22ec868e95ed16b5d5c32682dc7d1f56.md)
+
+---
+
+### Evaluating Performance Drift from Model Switching in Multi-Turn LLM Systems
+
+**Score:** 90.0 | **Published:** 2026-03-04 | **Authors:** Raad Khraishi, Iman Zafar, Katie Myles, Greig A Cowan
+
+arXiv:2603.03111v1 Announce Type: new 
+Abstract: Deployed multi-turn LLM systems routinely switch models mid-interaction due to upgrades, cross-provider routing, and fallbacks. Such handoffs create a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03111) | [📝 Analysis](56208b6ec1c8a7d4678cb773b800ed3b.md)
+
+---
+
+### A Survey of Query Optimization in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-04 | **Authors:** Mingyang Song, Mao Zheng
+
+arXiv:2412.17558v3 Announce Type: replace 
+Abstract: Query Optimization (QO) has become essential for enhancing Large Language Model (LLM) effectiveness, particularly in Retrieval-Augmented Generation...
+
+[📄 Full Paper](https://arxiv.org/abs/2412.17558) | [📝 Analysis](e38b934961d929e1e253eeeddd176a43.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-04 09:47:59 UTC*

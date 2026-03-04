@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models",
+      "authors": [
+        "Zhongxi Wang, Yueqian Lin, Jingyang Zhang, Hai Helen Li, Yiran Chen"
+      ],
+      "abstract": "arXiv:2603.02482v1 Announce Type: cross \nAbstract: Safety evaluation and red-teaming of large language models remain predominantly text-centric, and existing frameworks lack the infrastructure to systematically test whether alignment generalizes to audio, image, and video inputs. We present MUSE (Multimodal Unified Safety Evaluation), an open-source, run-centric platform that integrates automatic cross-modal payload generation, three multi-turn attack algorithms (Crescendo, PAIR, Violent Durian), provider-agnostic model routing, and an LLM judge with a five-level safety taxonomy into a single browser-based system. A dual-metric framework distinguishes hard Attack Success Rate (Compliance only) from soft ASR (including Partial Compliance), capturing partial information leakage that binary metrics miss. To probe whether alignment generalizes across modality boundaries, we introduce Inter-Turn Modality Switching (ITMS), which augments multi-turn attacks with per-turn modality rotation. Experiments across six multimodal LLMs from four providers show that multi-turn strategies can achieve up to 90-100% ASR against models with near-perfect single-turn refusal. ITMS does not uniformly raise final ASR on already-saturated baselines, but accelerates convergence by destabilizing early-turn defenses, and ablation reveals that the direction of modality effects is model-family-specific rather than universal, underscoring the need for provider-aware cross-modal safety testing.",
+      "url": "https://arxiv.org/abs/2603.02482",
+      "published_date": "2026-03-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "turn",
+        "safety",
+        "modality",
+        "asr",
+        "centric",
+        "cross",
+        "evaluation",
+        "models",
+        "multi",
+        "multi turn"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the lack of multimodal testing. The proposed MUSE platform, with its run-centric approach, automatic payload generation, and novel ITMS technique, appears well-designed and addresses a significant need. The dual-metric framework for ASR is also a strong point, offering a more nuanced understanding of model vulnerabilities. The open-source nature further enhances its potential impact and community adoption.",
+      "paper_id": "ffa0bca48cd37c814e7c929c70899ecf"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-04T09:47:59.358263"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-04 | **Authors:** Zhongxi Wang, Yueqian Lin, Jingyang Zhang, Hai Helen Li, Yiran Chen
+
+arXiv:2603.02482v1 Announce Type: cross 
+Abstract: Safety evaluation and red-teaming of large language models remain predominantly text-centric, and existing frameworks lack the infrastructure to syst...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.02482) | [📝 Analysis](ffa0bca48cd37c814e7c929c70899ecf.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-04 09:47:59 UTC*
