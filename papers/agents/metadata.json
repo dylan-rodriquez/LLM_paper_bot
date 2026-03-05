@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "On the Suitability of LLM-Driven Agents for Dark Pattern Audits",
+      "authors": [
+        "Chen Sun, Yash Vekaria, Rishab Nithyanand"
+      ],
+      "abstract": "arXiv:2603.03881v1 Announce Type: cross \nAbstract: As LLM-driven agents begin to autonomously navigate the web, their ability to interpret and respond to manipulative interface design becomes critical. A fundamental question that emerges is: can such agents reliably recognize patterns of friction, misdirection, and coercion in interface design (i.e., dark patterns)? We study this question in a setting where the workflows are consequential: website portals associated with the submission of CCPA-related data rights requests. These portals operationalize statutory rights, but they are implemented as interactive interfaces whose design can be structured to facilitate, burden, or subtly discourage the exercise of those rights. We design and deploy an LLM-driven auditing agent capable of end-to-end traversal of rights-request workflows, structured evidence gathering, and classification of potential dark patterns. Across a set of 456 data broker websites, we evaluate: (1) the ability of the agent to consistently locate and complete request flows, (2) the reliability and reproducibility of its dark pattern classifications, and (3) the conditions under which it fails or produces poor judgments. Our findings characterize both the feasibility and the limitations of using LLM-driven agents for scalable dark pattern auditing.",
+      "url": "https://arxiv.org/abs/2603.03881",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "dark",
+        "agents",
+        "design",
+        "driven",
+        "llm",
+        "llm driven",
+        "rights",
+        "dark pattern",
+        "driven agents",
+        "pattern"
+      ],
+      "subject_classification": "agents",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the detection of dark patterns in critical online workflows (CCPA requests) using LLM-driven agents. The methodology of deploying an agent for end-to-end traversal and classification appears sound, and the scale of 456 websites suggests a robust evaluation. While the core idea of applying LLMs to this problem isn't entirely novel, the specific application to dark pattern auditing in a consequential legal context is a strong contribution.",
+      "paper_id": "7d982867595d21fcb5f63c4172e74d3a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-03-05T09:50:27.602749"
 }

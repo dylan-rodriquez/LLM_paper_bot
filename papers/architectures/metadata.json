@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Arapai: An Offline-First AI Chatbot Architecture for Low-Connectivity Educational Environments",
+      "authors": [
+        "Joseph Walusimbi, Ann Move Oguti, Joshua Benjamin Ssentongo, Keith Ainebyona"
+      ],
+      "abstract": "arXiv:2603.03339v1 Announce Type: cross \nAbstract: The rapid global expansion of large language models (LLMs) has created new opportunities for personalised and inquiry-driven learning. However, most AI chatbot systems for education rely on continuous internet connectivity, cloud infrastructure, and modern hardware. These requirements reinforce digital inequalities and limit the practical deployment of AI-supported learning in bandwidth-constrained and resource-limited environments worldwide. This paper presents Arapai, an offline-first AI chatbot architecture designed to operate entirely without internet connectivity on low-specification, CPU-only devices. The system integrates locally hosted, quantised language models with automatic hardware-aware model selection and pedagogically tiered response control. By performing inference fully on-device and maintaining models resident in memory for performance optimisation, Arapai delivers curriculum-aligned explanations, structured problem-solving support, and differentiated instructional depth without reliance on cloud services. A pilot deployment in secondary and tertiary institutions operating under limited-connectivity conditions evaluated the system across four dimensions: technical performance, usability, perceived answer quality, and educational impact. Results indicate stable operation on legacy hardware, acceptable response times for standard instructional queries, and positive learner and teacher perceptions regarding self-directed learning support. Rather than replacing cloud-based AI systems, this work proposes a complementary deployment paradigm for infrastructure-constrained education systems. The study contributes a hardware-aware architectural framework for decentralised AI tutoring and highlights the role of offline-first design in advancing digital inclusion and infrastructure-resilient educational technology.",
+      "url": "https://arxiv.org/abs/2603.03339",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "connectivity",
+        "hardware",
+        "ai chatbot",
+        "arapai",
+        "chatbot",
+        "cloud",
+        "deployment",
+        "educational",
+        "infrastructure"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial problem \u2013 the inaccessibility of LLM-powered education in low-resource settings. The focus on offline-first operation and hardware-aware model selection is a strong methodological approach. The abstract suggests a well-defined architecture and practical considerations for deployment, indicating a high potential for positive reception within the AI and education communities.",
+      "paper_id": "5a48ffc5c625ad64e18c0b920dac06a2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-05T09:50:27.600484"
 }
