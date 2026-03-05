@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Arapai: An Offline-First AI Chatbot Architecture for Low-Connectivity Educational Environments
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** Joseph Walusimbi, Ann Move Oguti, Joshua Benjamin Ssentongo, Keith Ainebyona
+
+arXiv:2603.03339v1 Announce Type: cross 
+Abstract: The rapid global expansion of large language models (LLMs) has created new opportunities for personalised and inquiry-driven learning. However, most ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03339) | [📝 Analysis](5a48ffc5c625ad64e18c0b920dac06a2.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+      "authors": [
+        "Zhenting Wang, Huancheng Chen, Jiayun Wang, Wei Wei"
+      ],
+      "abstract": "arXiv:2603.04257v1 Announce Type: new \nAbstract: Large language model (LLM) agents are fundamentally bottlenecked by finite context windows on long-horizon tasks. As trajectories grow, retaining tool outputs and intermediate reasoning in-context quickly becomes infeasible: the working context becomes prohibitively long, eventually exceeds the context budget, and makes distant evidence harder to use even when it is still present. Existing solutions typically shorten context through truncation or running summaries, but these methods are fundamentally lossy because they compress or discard past evidence itself. We introduce Memex, an indexed experience memory mechanism that instead compresses context without discarding evidence. Memex maintains a compact working context consisting of concise structured summaries and stable indices, while storing full-fidelity underlying interactions in an external experience database under those indices. The agent can then decide when to dereference an index and recover the exact past evidence needed for the current subgoal. We optimize both write and read behaviors with our reinforcement learning framework MemexRL, using reward shaping tailored to indexed memory usage under a context budget, so the agent learns what to summarize, what to archive, how to index it, and when to retrieve it. This yields a substantially less lossy form of long-horizon memory than summary-only approaches. We further provide a theoretical analysis showing the potential of the Memex loop to preserve decision quality with bounded dereferencing while keeping effective in-context computation bounded as history grows. Empirically, on challenging long-horizon tasks, Memex agent trained with MemexRL improves task success while using a significantly smaller working context.",
+      "url": "https://arxiv.org/abs/2603.04257",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "context",
+        "long",
+        "memex",
+        "evidence",
+        "horizon",
+        "long horizon",
+        "memory",
+        "agent",
+        "experience",
+        "indexed"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a critical bottleneck in LLM agents \u2013 the limited context window \u2013 with a novel approach that avoids lossy compression. The Memex system, utilizing indexed experience memory, appears to be a promising solution for long-horizon tasks. The problem is well-defined, and the proposed method seems rigorously designed to overcome existing limitations, suggesting a positive reception within the research community.",
+      "paper_id": "3a60f28789767bd3e77e2911b29e1595"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-03-05T09:50:27.599682"
 }

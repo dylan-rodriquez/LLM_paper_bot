@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### On the Suitability of LLM-Driven Agents for Dark Pattern Audits
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** Chen Sun, Yash Vekaria, Rishab Nithyanand
+
+arXiv:2603.03881v1 Announce Type: cross 
+Abstract: As LLM-driven agents begin to autonomously navigate the web, their ability to interpret and respond to manipulative interface design becomes critical...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03881) | [📝 Analysis](7d982867595d21fcb5f63c4172e74d3a.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

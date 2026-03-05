@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+      "authors": [
+        "Jialong Chen, Xander Xu, Hu Wei, Chuan Chen, Bing Zhao"
+      ],
+      "abstract": "arXiv:2603.03823v1 Announce Type: cross \nAbstract: Large language model (LLM)-powered agents have demonstrated strong capabilities in automating software engineering tasks such as static bug fixing, as evidenced by benchmarks like SWE-bench. However, in the real world, the development of mature software is typically predicated on complex requirement changes and long-term feature iterations -- a process that static, one-shot repair paradigms fail to capture. To bridge this gap, we propose \\textbf{SWE-CI}, the first repository-level benchmark built upon the Continuous Integration loop, aiming to shift the evaluation paradigm for code generation from static, short-term \\textit{functional correctness} toward dynamic, long-term \\textit{maintainability}. The benchmark comprises 100 tasks, each corresponding on average to an evolution history spanning 233 days and 71 consecutive commits in a real-world code repository. SWE-CI requires agents to systematically resolve these tasks through dozens of rounds of analysis and coding iterations. SWE-CI provides valuable insights into how well agents can sustain code quality throughout long-term evolution.",
+      "url": "https://arxiv.org/abs/2603.03823",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "swe",
+        "ci",
+        "swe ci",
+        "term",
+        "agents",
+        "code",
+        "long",
+        "long term",
+        "static",
+        "tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial limitation of current LLM-powered code generation benchmarks \u2013 the lack of focus on long-term maintainability in realistic software development scenarios. The introduction of SWE-CI, a repository-level benchmark based on continuous integration, is a significant step towards more comprehensive evaluation. The scale of the benchmark (100 tasks, long evolution histories) suggests a rigorous approach, and the shift in focus from functional correctness to maintainability is highly relevant.",
+      "paper_id": "074d0306eab8f94be04e700335c11842"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-05T09:50:27.601742"
 }

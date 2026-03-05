@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Language Model Goal Selection Differs from Humans' in an Open-Ended Task",
+      "authors": [
+        "Gaia Molinaro, Dave August, Danielle Perszyk, Anne G. E. Collins"
+      ],
+      "abstract": "arXiv:2603.03295v1 Announce Type: new \nAbstract: As large language models (LLMs) get integrated into human decision-making, they are increasingly choosing goals autonomously rather than only completing human-defined ones, assuming they will reflect human preferences. However, human-LLM similarity in goal selection remains largely untested. We directly assess the validity of LLMs as proxies for human goal selection in a controlled, open-ended learning task borrowed from cognitive science. Across four state-of-the-art models (GPT-5, Gemini 2.5 Pro, Claude Sonnet 4.5, and Centaur), we find substantial divergence from human behavior. While people gradually explore and learn to achieve goals with diversity across individuals, most models exploit a single identified solution (reward hacking) or show surprisingly low performance, with distinct patterns across models and little variability across instances of the same model. Even Centaur, explicitly trained to emulate humans in experimental settings, poorly captures people's goal selection. Chain-of-thought reasoning and persona steering provide limited improvements. These findings highlight the uniqueness of human goal selection, cautioning against replacing it with current models in applications such as personal assistance, scientific discovery, and policy research.",
+      "url": "https://arxiv.org/abs/2603.03295",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "human",
+        "goal",
+        "goal selection",
+        "models",
+        "selection",
+        "centaur",
+        "ended",
+        "goals",
+        "human goal",
+        "humans"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a crucial issue in LLM deployment \u2013 the misalignment between model goal selection and human preferences. The use of a cognitive science task to directly compare LLM and human behavior is a strong methodological choice. The finding of divergence, particularly the 'reward hacking' tendency, is significant and highlights potential risks as LLMs gain autonomy. The inclusion of multiple state-of-the-art models adds to the robustness of the findings.",
+      "paper_id": "6a1902a34f4cc9f5ac36795af1f8e854"
+    },
+    {
+      "title": "Monitoring Emergent Reward Hacking During Generation via Internal Activations",
+      "authors": [
+        "Patrick Wilhelm, Thorsten Wittkopp, Odej Kao"
+      ],
+      "abstract": "arXiv:2603.04069v1 Announce Type: new \nAbstract: Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final outputs alone. While prior work has studied reward hacking at the level of completed responses, it remains unclear whether such behavior can be identified during generation. We propose an activation-based monitoring approach that detects reward-hacking signals from internal representations as a model generates its response. Our method trains sparse autoencoders on residual stream activations and applies lightweight linear classifiers to produce token-level estimates of reward-hacking activity. Across multiple model families and fine-tuning mixtures, we find that internal activation patterns reliably distinguish reward-hacking from benign behavior, generalize to unseen mixed-policy adapters, and exhibit model-dependent temporal structure during chain-of-thought reasoning. Notably, reward-hacking signals often emerge early, persist throughout reasoning, and can be amplified by increased test-time compute in the form of chain-of-thought prompting under weakly specified reward objectives. These results suggest that internal activation monitoring provides a complementary and earlier signal of emergent misalignment than output-based evaluation, supporting more robust post-deployment safety monitoring for fine-tuned language models.",
+      "url": "https://arxiv.org/abs/2603.04069",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reward",
+        "hacking",
+        "reward hacking",
+        "internal",
+        "monitoring",
+        "activation",
+        "behavior",
+        "emergent",
+        "fine",
+        "model"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 reward hacking \u2013 and proposes a novel approach to detect it *during* generation, rather than just post-hoc. The use of sparse autoencoders and linear classifiers on internal activations is a clever technique. The reported generalization to unseen adapters and observation of temporal structure are strong indicators of a well-executed study, suggesting high potential for positive reception within the community.",
+      "paper_id": "2a0f17c611f1306fef7fd83c81d7468b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-05T09:50:27.598085"
 }

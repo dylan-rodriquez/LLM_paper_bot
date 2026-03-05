@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Code Fingerprints: Disentangled Attribution of LLM-Generated Code
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** Jiaxun Guo, Ziyuan Yang, Mengyu Sun, Hui Wang, Jingfeng Lu, Yi Zhang
+
+arXiv:2603.04212v1 Announce Type: cross 
+Abstract: The rapid adoption of Large Language Models (LLMs) has transformed modern software development by enabling automated code generation at scale. While ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04212) | [📝 Analysis](2333bf1c4bd3324de3ae4b2f1087165a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

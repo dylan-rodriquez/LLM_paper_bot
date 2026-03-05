@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "One Bias After Another: Mechanistic Reward Shaping and Persistent Biases in Language Reward Models",
+      "authors": [
+        "Daniel Fein, Max Lamparth, Violet Xiang, Mykel J. Kochenderfer, Nick Haber"
+      ],
+      "abstract": "arXiv:2603.03291v1 Announce Type: new \nAbstract: Reward Models (RMs) are crucial for online alignment of language models (LMs) with human preferences. However, RM-based preference-tuning is vulnerable to reward hacking, whereby LM policies learn undesirable behaviors from flawed RMs. By systematically measuring biases in five high-quality RMs, including the state-of-the-art, we find that issues persist despite prior work with respect to length, sycophancy, and overconfidence. We also discover new issues related to bias toward model-specific styles and answer-order. We categorize RM failures by complexity and propose a simple post-hoc intervention to mitigate low-complexity biases that arise from spurious correlations. Our proposed mechanistic reward shaping reduces targeted biases without degrading reward quality and while using minimal labeled data. The method is extensible to new biases, model-internal, and generalizes out-of-distribution.",
+      "url": "https://arxiv.org/abs/2603.03291",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reward",
+        "biases",
+        "models",
+        "new",
+        "rms",
+        "bias",
+        "complexity",
+        "issues",
+        "language",
+        "mechanistic"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a critical problem in the alignment of large language models \u2013 the persistent biases in reward models. The systematic measurement of biases beyond previously identified issues (length, sycophancy) and the proposed mechanistic reward shaping approach demonstrate a solid methodology and potential for practical improvement. The post-hoc intervention and its extensibility are particularly promising, suggesting a scalable solution to a complex issue.",
+      "paper_id": "13bde30e5dd64ff76331c5104d1a48e5"
+    },
+    {
+      "title": "When Do Language Models Endorse Limitations on Human Rights Principles?",
+      "authors": [
+        "Keenan Samway, Nicole Miu Takagi, Rada Mihalcea, Bernhard Sch\\\"olkopf, Ilias Chalkidis, Daniel Hershcovich, Zhijing Jin"
+      ],
+      "abstract": "arXiv:2603.04217v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) increasingly mediate global information access with the potential to shape public discourse, their alignment with universal human rights principles becomes important to ensure that these rights are abided by in high stakes AI-mediated interactions. In this paper, we evaluate how LLMs navigate trade-offs involving the Universal Declaration of Human Rights (UDHR), leveraging 1,152 synthetically generated scenarios across 24 rights articles and eight languages. Our analysis of eleven major LLMs reveals systematic biases where models: (1) accept limiting Economic, Social, and Cultural rights more often than Political and Civil rights, (2) demonstrate significant cross-linguistic variation with elevated endorsement rates of rights-limiting actions in Chinese and Hindi compared to English or Romanian, (3) show substantial susceptibility to prompt-based steering, and (4) exhibit noticeable differences between Likert and open-ended responses, highlighting critical challenges in LLM preference assessment.",
+      "url": "https://arxiv.org/abs/2603.04217",
+      "published_date": "2026-03-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "rights",
+        "human",
+        "human rights",
+        "llms",
+        "models",
+        "language",
+        "language models",
+        "limiting",
+        "principles",
+        "rights principles"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and timely problem \u2013 the alignment of LLMs with human rights. The systematic evaluation across multiple languages and rights articles, coupled with the investigation of prompt-based steering, demonstrates a rigorous methodology. The findings regarding biases in endorsing rights limitations, particularly across different languages, are significant and warrant further investigation. While the synthetic scenario generation is a strength, the reliance on it could be a limitation.",
+      "paper_id": "0159e1d5cd55ac5a7180c169a372f2fb"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-05T09:50:27.596995"
 }

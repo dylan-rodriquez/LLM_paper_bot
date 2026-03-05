@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing and Methods to Detect Phantom Citations
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** MZ Naser
+
+arXiv:2603.03299v1 Announce Type: new 
+Abstract: Large language models (LLMs) have been noted to fabricate scholarly citations, yet the scope of this behavior across providers, domains, and prompting ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03299) | [📝 Analysis](412b554f1a5a86fc5216ff9e8abd2fd4.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### One Bias After Another: Mechanistic Reward Shaping and Persistent Biases in Language Reward Models
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** Daniel Fein, Max Lamparth, Violet Xiang, Mykel J. Kochenderfer, Nick Haber
+
+arXiv:2603.03291v1 Announce Type: new 
+Abstract: Reward Models (RMs) are crucial for online alignment of language models (LMs) with human preferences. However, RM-based preference-tuning is vulnerable...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03291) | [📝 Analysis](13bde30e5dd64ff76331c5104d1a48e5.md)
+
+---
+
+### When Do Language Models Endorse Limitations on Human Rights Principles?
+
+**Score:** 92.0 | **Published:** 2026-03-05 | **Authors:** Keenan Samway, Nicole Miu Takagi, Rada Mihalcea, Bernhard Sch\"olkopf, Ilias Chalkidis, Daniel Hershcovich, Zhijing Jin
+
+arXiv:2603.04217v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) increasingly mediate global information access with the potential to shape public discourse, their alignment with unive...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04217) | [📝 Analysis](0159e1d5cd55ac5a7180c169a372f2fb.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

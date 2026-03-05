@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory
+
+**Score:** 90.0 | **Published:** 2026-03-05 | **Authors:** Zhenting Wang, Huancheng Chen, Jiayun Wang, Wei Wei
+
+arXiv:2603.04257v1 Announce Type: new 
+Abstract: Large language model (LLM) agents are fundamentally bottlenecked by finite context windows on long-horizon tasks. As trajectories grow, retaining tool ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04257) | [📝 Analysis](3a60f28789767bd3e77e2911b29e1595.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*

@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Language Model Goal Selection Differs from Humans' in an Open-Ended Task
+
+**Score:** 90.0 | **Published:** 2026-03-05 | **Authors:** Gaia Molinaro, Dave August, Danielle Perszyk, Anne G. E. Collins
+
+arXiv:2603.03295v1 Announce Type: new 
+Abstract: As large language models (LLMs) get integrated into human decision-making, they are increasingly choosing goals autonomously rather than only completin...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.03295) | [📝 Analysis](6a1902a34f4cc9f5ac36795af1f8e854.md)
+
+---
+
+### Monitoring Emergent Reward Hacking During Generation via Internal Activations
+
+**Score:** 90.0 | **Published:** 2026-03-05 | **Authors:** Patrick Wilhelm, Thorsten Wittkopp, Odej Kao
+
+arXiv:2603.04069v1 Announce Type: new 
+Abstract: Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final output...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04069) | [📝 Analysis](2a0f17c611f1306fef7fd83c81d7468b.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-05 09:50:27 UTC*
