@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Oral to Web: Digitizing 'Zero Resource'Languages of Bangladesh",
+      "authors": [
+        "Mohammad Mamun Or Rashid"
+      ],
+      "abstract": "arXiv:2603.05272v1 Announce Type: new \nAbstract: We present the Multilingual Cloud Corpus, the first national-scale, parallel, multimodal linguistic dataset of Bangladesh's ethnic and indigenous languages. Despite being home to approximately 40 minority languages spanning four language families, Bangladesh has lacked a systematic, cross-family digital corpus for these predominantly oral, computationally \"zero resource\" varieties, 14 of which are classified as endangered. Our corpus comprises 85792 structured textual entries, each containing a Bengali stimulus text, an English translation, and an IPA transcription, together with approximately 107 hours of transcribed audio recordings, covering 42 language varieties from the Tibeto-Burman, Indo-European, Austro-Asiatic, and Dravidian families, plus two genetically unclassified languages. The data were collected through systematic fieldwork over 90 days across nine districts of Bangladesh, involving 16 data collectors, 77 speakers, and 43 validators, following a predefined elicitation template of 2224 unique items organized at three levels of linguistic granularity: isolated lexical items (475 words across 22 semantic domains), grammatical constructions (887 sentences across 21 categories including verbal conjugation paradigms), and directed speech (862 prompts across 46 conversational scenarios). Post-field processing included IPA transcription by 10 linguists with independent adjudication by 6 reviewers. The complete dataset is publicly accessible through the Multilingual Cloud platform (multiling.cloud), providing searchable access to annotated audio and textual data for all documented varieties. We describe the corpus design, fieldwork methodology, dataset structure, and per-language coverage, and discuss implications for endangered language documentation, low-resource NLP, and digital preservation in linguistically diverse developing countries.",
+      "url": "https://arxiv.org/abs/2603.05272",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bangladesh",
+        "corpus",
+        "language",
+        "languages",
+        "cloud",
+        "data",
+        "dataset",
+        "resource",
+        "varieties",
+        "approximately"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a critically important problem \u2013 the digital preservation of endangered languages \u2013 and does so at a national scale. The creation of a large, parallel, multimodal corpus for 'zero resource' languages is a significant undertaking and demonstrates strong methodological rigor. While the data collection approach itself isn't entirely novel, the scope and focus on these specific languages represent a substantial contribution, and the potential for downstream applications is high.",
+      "paper_id": "d6a8fbe4e83b5dbabecf5a1f9a75a194"
+    },
+    {
+      "title": "An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production",
+      "authors": [
+        "Jihwan Lee, Parsa Razmara, Kevin Huang, Sean Foley, Aditya Kommineni, Haley Hsu, Woojae Jeong, Prakash Kumar, Xuan Shi, Yoonjeong Lee, Tiantian Feng, Takfarinas Medani, Ye Tian, Sudarsana Reddy Kadiri, Krishna S. Nayak, Dani Byrd, Louis Goldstein, Richard M. Leahy, Shrikanth Narayanan"
+      ],
+      "abstract": "arXiv:2603.04840v1 Announce Type: cross \nAbstract: Speech production is a complex process spanning neural planning, motor control, muscle activation, and articulatory kinematics. While the acoustic speech signal is the most accessible product of the speech production act, it does not directly reveal its causal neurophysiological substrates. We present the first simultaneous acquisition of real-time (dynamic) MRI, EEG, and surface EMG, capturing several key aspects of the speech production chain: brain signals, muscle activations, and articulatory movements. This multimodal acquisition paradigm presents substantial technical challenges, including MRI-induced electromagnetic interference and myogenic artifacts. To mitigate these, we introduce an artifact suppression pipeline tailored to this tri-modal setting. Once fully developed, this framework is poised to offer an unprecedented window into speech neuroscience and insights leading to brain-computer interface advances.",
+      "url": "https://arxiv.org/abs/2603.04840",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "eess.AS"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 80,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "production",
+        "speech production",
+        "acquisition",
+        "articulatory",
+        "brain",
+        "mri",
+        "muscle",
+        "acquisition real",
+        "eeg"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research tackles a highly complex and important problem in speech neuroscience \u2013 understanding the interplay between brain activity, muscle activation, and articulation. The simultaneous acquisition of real-time MRI, EEG, and EMG is a significant technical achievement, and the development of an artifact suppression pipeline is crucial for data quality. The potential for advancing our understanding of speech production and brain-computer interfaces is substantial, suggesting a positive reception within the scientific community.",
+      "paper_id": "8adb4e1c0774345d1143a981b718d6be"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-06T09:45:42.138934"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Ted Zadouri, Markus Hoehnerbach, Jay Shah, Timmy Liu, Vijay Thakkar, Tri Dao
+
+arXiv:2603.05451v1 Announce Type: new 
+Abstract: Attention, as a core layer of the ubiquitous Transformer architecture, is the bottleneck for large language models and long-context applications. While...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.05451) | [📝 Analysis](fe144b44325f4324ddbab37c858819f0.md)
+
+---
+
+### Model Medicine: A Clinical Framework for Understanding, Diagnosing, and Treating AI Models
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Jihoon Jeong
+
+arXiv:2603.04722v1 Announce Type: cross 
+Abstract: Model Medicine is the science of understanding, diagnosing, treating, and preventing disorders in AI models, grounded in the principle that AI models...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04722) | [📝 Analysis](b4dc4d099db9a34ee31180ed9e5e50cf.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-06 09:45:42 UTC*

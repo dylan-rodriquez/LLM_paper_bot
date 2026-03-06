@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Why Is RLHF Alignment Shallow? A Gradient Analysis",
+      "authors": [
+        "Robin Young"
+      ],
+      "abstract": "arXiv:2603.04851v1 Announce Type: cross \nAbstract: Why is safety alignment in LLMs shallow? We prove that gradient-based alignment inherently concentrates on positions where harm is decided and vanishes beyond. Using a martingale decomposition of sequence-level harm, we derive an exact characterization of alignment gradients. The gradient at position $t$ equals the covariance between the conditional expected harm and the score function. This implies that positions beyond the harm horizon where the output's harmfulness is already determined receive zero gradient signal during training. This explains empirical observations that KL divergence between aligned and base models concentrates on early tokens. Consequently, standard alignment objectives cannot produce deep alignment, regardless of optimization quality. We introduce the concept of harm information $I_t$, which quantifies each position's influence on harm, and prove that equilibrium KL divergence tracks this quantity. Finally, we derive an objective based on recovery penalties that creates gradient signal at all positions, providing theoretical grounding for empirically successful data augmentation techniques.",
+      "url": "https://arxiv.org/abs/2603.04851",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "harm",
+        "gradient",
+        "positions",
+        "based",
+        "concentrates",
+        "derive",
+        "divergence",
+        "gradient signal",
+        "kl"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM development \u2013 the 'shallowness' of RLHF alignment. The use of martingale decomposition and a covariance-based characterization of alignment gradients appears novel and provides a strong theoretical grounding for observed empirical phenomena. The introduction of 'harm information' is a useful concept for understanding alignment dynamics, and the findings suggest fundamental limitations of current alignment approaches, which is a significant contribution.",
+      "paper_id": "3769d5661c9b081ba8954623dd92f87e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-06T09:45:42.143421"
 }

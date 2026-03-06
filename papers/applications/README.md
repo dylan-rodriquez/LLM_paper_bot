@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey
+
+**Score:** 90.0 | **Published:** 2026-03-06 | **Authors:** Yasmin Moslem, John D. Kelleher
+
+arXiv:2603.04445v1 Announce Type: cross 
+Abstract: The rapid growth of large language models (LLMs) with diverse capabilities, costs, and domains has created a critical need for intelligent model sele...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04445) | [📝 Analysis](01a901e14362497d37716e68a1153c7e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-06 09:45:42 UTC*

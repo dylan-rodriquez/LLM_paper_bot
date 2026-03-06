@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### SkillNet: Create, Evaluate, and Connect AI Skills
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Yuan Liang, Ruobin Zhong, Haoming Xu, Chen Jiang, Yi Zhong, Runnan Fang, Jia-Chen Gu, Shumin Deng, Yunzhi Yao, Mengru Wang, Shuofei Qiao, Xin Xu, Tongtong Wu, Kun Wang, Yang Liu, Zhen Bi, Jungang Lou, Yuchen Eleanor Jiang, Hangcheng Zhu, Gang Yu, Haiwen Hong, Longtao Huang, Hui Xue, Chenxi Wang, Yijun Wang, Zifei Shan, Xi Chen, Zhaopeng Tu, Feiyu Xiong, Xin Xie, Peng Zhang, Zhengke Gui, Lei Liang, Jun Zhou, Chiyu Wu, Jin Shang, Yu Gong, Junyu Lin, Changliang Xu, Hongjie Deng, Wen Zhang, Keyan Ding, Qiang Zhang, Fei Huang, Ningyu Zhang, Jeff Z. Pan, Guilin Qi, Haofen Wang, Huajun Chen
+
+arXiv:2603.04448v1 Announce Type: cross 
+Abstract: Current AI agents can flexibly invoke tools and execute complex tasks, yet their long-term advancement is hindered by the lack of systematic accumula...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04448) | [📝 Analysis](f17c56ffa54a686f5a7aa292fd932106.md)
+
+---
+
+### Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Hiroki Fukui
+
+arXiv:2603.04904v1 Announce Type: cross 
+Abstract: In perpetrator treatment, a recurring observation is the dissociation between insight and action: offenders articulate remorse yet behavioral change ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04904) | [📝 Analysis](3e45ebd2eef65dde7eec718faf2124b5.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-06 09:45:42 UTC*
