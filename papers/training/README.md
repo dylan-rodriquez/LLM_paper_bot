@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Why Is RLHF Alignment Shallow? A Gradient Analysis
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Robin Young
+
+arXiv:2603.04851v1 Announce Type: cross 
+Abstract: Why is safety alignment in LLMs shallow? We prove that gradient-based alignment inherently concentrates on positions where harm is decided and vanish...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04851) | [📝 Analysis](3769d5661c9b081ba8954623dd92f87e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-06 09:45:42 UTC*

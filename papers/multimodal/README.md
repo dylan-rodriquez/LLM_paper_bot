@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### Oral to Web: Digitizing 'Zero Resource'Languages of Bangladesh
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Mohammad Mamun Or Rashid
+
+arXiv:2603.05272v1 Announce Type: new 
+Abstract: We present the Multilingual Cloud Corpus, the first national-scale, parallel, multimodal linguistic dataset of Bangladesh's ethnic and indigenous langu...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.05272) | [📝 Analysis](d6a8fbe4e83b5dbabecf5a1f9a75a194.md)
+
+---
+
+### An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production
+
+**Score:** 92.0 | **Published:** 2026-03-06 | **Authors:** Jihwan Lee, Parsa Razmara, Kevin Huang, Sean Foley, Aditya Kommineni, Haley Hsu, Woojae Jeong, Prakash Kumar, Xuan Shi, Yoonjeong Lee, Tiantian Feng, Takfarinas Medani, Ye Tian, Sudarsana Reddy Kadiri, Krishna S. Nayak, Dani Byrd, Louis Goldstein, Richard M. Leahy, Shrikanth Narayanan
+
+arXiv:2603.04840v1 Announce Type: cross 
+Abstract: Speech production is a complex process spanning neural planning, motor control, muscle activation, and articulatory kinematics. While the acoustic sp...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.04840) | [📝 Analysis](8adb4e1c0774345d1143a981b718d6be.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-06 09:45:42 UTC*

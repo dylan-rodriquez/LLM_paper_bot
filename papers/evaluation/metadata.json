@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework",
+      "authors": [
+        "Nora Petrova, Andrew Gordon, Enzo Blindow"
+      ],
+      "abstract": "arXiv:2603.04409v1 Announce Type: new \nAbstract: The evaluation of large language models faces significant challenges. Technical benchmarks often lack real-world relevance, while existing human preference evaluations suffer from unrepresentative sampling, superficial assessment depth, and single-metric reductionism. To address these issues, we introduce HUMAINE, a framework for multidimensional, demographically aware measurement of human-AI interaction. We collected multi-turn, naturalistic conversations from 23,404 participants that were stratified across 22 demographic groups, both in the US and UK, to evaluate 28 state-of-the-art models across five human-centric dimensions. We use a hierarchical Bayesian Bradley-Terry-Davidson (BTD) model, with post-stratification to census data, and our analysis reveals three key insights. \\textbf{(1)} We establish a clear performance hierarchy where \\texttt{google/gemini-2.5-pro} ranks first overall, with a 95.6\\% posterior probability of being the top-ranked model. \\textbf{(2)} We uncover significant preference heterogeneity, with user age emerging as the primary demographic axis of disagreement; a model's perceived rank can shift substantially across age groups, exposing failures in generalisation that unrepresentative samples typically mask. \\textbf{(3)} We quantify the vast difference in discriminative power across evaluation dimensions, with ambiguous qualities like \\textit{Trust, Ethics \\& Safety} showing a 65\\% tie rate, in stark contrast to the decisive 10\\% tie rate for \\textit{Overall Winner}. Our work emphasises the need for a more multidimensional, demographically aware perspective in LLM evaluation. We release our complete dataset, interactive leaderboard, and open-source framework.",
+      "url": "https://arxiv.org/abs/2603.04409",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "evaluation",
+        "human",
+        "aware",
+        "demographically",
+        "demographically aware",
+        "framework",
+        "model",
+        "preference",
+        "textbf",
+        "age"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in LLM evaluation \u2013 the lack of representativeness and depth in current methods. The HUMAINE framework, with its large-scale, demographically stratified data collection and sophisticated Bayesian modeling, represents a significant step forward. The clear establishment of a performance hierarchy, with Gemini 2.5 Pro leading, provides valuable insights for the community, and the focus on human-centric dimensions is commendable.",
+      "paper_id": "c72bdfd1aaae8e153a93acb69826bd44"
+    },
+    {
+      "title": "Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development",
+      "authors": [
+        "Hung Tran, Langston Nashold, Rayan Krishnan, Antoine Bigeard, Alex Gu"
+      ],
+      "abstract": "arXiv:2603.04601v1 Announce Type: cross \nAbstract: Code generation has emerged as one of AI's highest-impact use cases, yet existing benchmarks measure isolated tasks rather than the complete \"zero-to-one\" process of building a working application from scratch. We introduce Vibe Code Bench, a benchmark of 100 web application specifications (50 public validation, 50 held-out test) with 964 browser-based workflows comprising 10,131 substeps, evaluated against deployed applications by an autonomous browser agent.\n  Across 16 frontier models, the best achieves only 58.0% accuracy on the test split, revealing that reliable end-to-end application development remains a frontier challenge. We identify self-testing during generation as a strong performance predictor (Pearson r=0.72), and show through a completed human alignment study that evaluator selection materially affects outcomes (31.8-93.6% pairwise step-level agreement).\n  Our contributions include (1) a novel benchmark dataset and browser-based evaluation pipeline for end-to-end web application development, (2) a comprehensive evaluation of 16 frontier models with cost, latency, and error analysis, and (3) an evaluator alignment protocol with both cross-model and human annotation results.",
+      "url": "https://arxiv.org/abs/2603.04601",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "end",
+        "application",
+        "application development",
+        "browser",
+        "code",
+        "development",
+        "end end",
+        "frontier",
+        "models",
+        "web"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI evaluation \u2013 moving beyond isolated code generation tasks to assess end-to-end application development. The use of an autonomous browser agent for evaluation is a novel and rigorous approach. The identified correlation between self-testing and performance, along with the human alignment study, adds valuable insights into model behavior and evaluation challenges. The relatively low accuracy achieved by even the best models highlights the significant challenges remaining in this area.",
+      "paper_id": "ec929f53417cc648d130e2d85291f7fc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-06T09:45:42.137633"
 }

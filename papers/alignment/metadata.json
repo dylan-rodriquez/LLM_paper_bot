@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+      "authors": [
+        "Yuan Liang, Ruobin Zhong, Haoming Xu, Chen Jiang, Yi Zhong, Runnan Fang, Jia-Chen Gu, Shumin Deng, Yunzhi Yao, Mengru Wang, Shuofei Qiao, Xin Xu, Tongtong Wu, Kun Wang, Yang Liu, Zhen Bi, Jungang Lou, Yuchen Eleanor Jiang, Hangcheng Zhu, Gang Yu, Haiwen Hong, Longtao Huang, Hui Xue, Chenxi Wang, Yijun Wang, Zifei Shan, Xi Chen, Zhaopeng Tu, Feiyu Xiong, Xin Xie, Peng Zhang, Zhengke Gui, Lei Liang, Jun Zhou, Chiyu Wu, Jin Shang, Yu Gong, Junyu Lin, Changliang Xu, Hongjie Deng, Wen Zhang, Keyan Ding, Qiang Zhang, Fei Huang, Ningyu Zhang, Jeff Z. Pan, Guilin Qi, Haofen Wang, Huajun Chen"
+      ],
+      "abstract": "arXiv:2603.04448v1 Announce Type: cross \nAbstract: Current AI agents can flexibly invoke tools and execute complex tasks, yet their long-term advancement is hindered by the lack of systematic accumulation and transfer of skills. Without a unified mechanism for skill consolidation, agents frequently ``reinvent the wheel'', rediscovering solutions in isolated contexts without leveraging prior strategies. To overcome this limitation, we introduce SkillNet, an open infrastructure designed to create, evaluate, and organize AI skills at scale. SkillNet structures skills within a unified ontology that supports creating skills from heterogeneous sources, establishing rich relational connections, and performing multi-dimensional evaluation across Safety, Completeness, Executability, Maintainability, and Cost-awareness. Our infrastructure integrates a repository of over 200,000 skills, an interactive platform, and a versatile Python toolkit. Experimental evaluations on ALFWorld, WebShop, and ScienceWorld demonstrate that SkillNet significantly enhances agent performance, improving average rewards by 40% and reducing execution steps by 30% across multiple backbone models. By formalizing skills as evolving, composable assets, SkillNet provides a robust foundation for agents to move from transient experience to durable mastery.",
+      "url": "https://arxiv.org/abs/2603.04448",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "skills",
+        "skillnet",
+        "agents",
+        "ai",
+        "ai skills",
+        "create",
+        "create evaluate",
+        "evaluate",
+        "infrastructure",
+        "skills unified"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial bottleneck in AI agent development \u2013 skill reuse and transfer. The creation of SkillNet, with its unified ontology and multi-dimensional evaluation framework, represents a significant step towards more robust and efficient AI systems. The scale of the repository (200,000 skills) and the inclusion of a toolkit suggest a practical and well-developed infrastructure, and the evaluation on multiple benchmarks strengthens the claims.",
+      "paper_id": "f17c56ffa54a686f5a7aa292fd932106"
+    },
+    {
+      "title": "Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems",
+      "authors": [
+        "Hiroki Fukui"
+      ],
+      "abstract": "arXiv:2603.04904v1 Announce Type: cross \nAbstract: In perpetrator treatment, a recurring observation is the dissociation between insight and action: offenders articulate remorse yet behavioral change does not follow. We report four preregistered studies (1,584 multi-agent simulations across 16 languages and three model families) demonstrating that alignment interventions in large language models produce a structurally analogous phenomenon: surface safety that masks or generates collective pathology and internal dissociation. In Study 1 (N = 150), increasing alignment-instructed agents reduced collective pathology in English (g = -1.844, p < .0001) but amplified it in Japanese (g = +0.771, p = .038)--a directional reversal we term \"alignment backfire.\" Study 2 (N = 1,174) extended to 16 languages: alignment-induced dissociation was near-universal (15/16 languages; beta = 0.0667, p < .0001), while collective pathology bifurcated along cultural-linguistic lines (interaction beta = 0.0684, p = .0003), correlating with Power Distance Index (r = 0.474, p = .064). Study 3 (N = 180) tested individuation as countermeasure; individuated agents became the primary source of both pathology and dissociation (DI = +1.120) with conformity above 84%--demonstrating iatrogenesis. Study 4 (N = 80) validated patterns across Llama 3.3 70B, GPT-4o-mini, and Qwen3-Next-80B-A3B, confirming English safety is model-general while Japanese backfire is model-specific. These findings reframe alignment as a behavioral intervention subject to risk homeostasis and iatrogenesis. Language space--the linguistic, pragmatic, and cultural properties inherited from training data--structurally determines alignment outcomes. Safety validated in English does not transfer to other languages, and prompt-level interventions cannot override language-space-level constraints.",
+      "url": "https://arxiv.org/abs/2603.04904",
+      "published_date": "2026-03-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "languages",
+        "16",
+        "16 languages",
+        "dissociation",
+        "language",
+        "pathology",
+        "safety",
+        "study",
+        "backfire"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research presents a compelling and counterintuitive finding \u2013 that alignment interventions can *backfire* depending on the language used. The large-scale, multi-lingual approach (16 languages, 3 model families, 1584 simulations) and preregistration significantly bolster the rigor of the study. The analogy to perpetrator treatment adds a unique framing and highlights a critical issue in LLM safety: surface-level alignment doesn't guarantee genuine behavioral change and can even mask underlying problems.",
+      "paper_id": "3e45ebd2eef65dde7eec718faf2124b5"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-06T09:45:42.142342"
 }
