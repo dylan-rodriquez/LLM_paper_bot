@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Qihang Fan, Huaibo Huang, Zhiying Wu, Juqiu Wang, Bingning Wang, Ran He
+
+arXiv:2603.06199v1 Announce Type: new 
+Abstract: Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, parti...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06199) | [📝 Analysis](36c179ad61b192d045ccc4a9adeecc25.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement",
+      "authors": [
+        "Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary"
+      ],
+      "abstract": "arXiv:2603.06333v1 Announce Type: cross \nAbstract: Recursive self-improvement is moving from theory to practice: modern systems can critique, revise, and evaluate their own outputs, yet iterative self-modification risks subtle alignment drift. We introduce SAHOO, a practical framework to monitor and control drift through three safeguards: (i) the Goal Drift Index (GDI), a learned multi-signal detector combining semantic, lexical, structural, and distributional measures; (ii) constraint preservation checks that enforce safety-critical invariants such as syntactic correctness and non-hallucination; and (iii) regression-risk quantification to flag improvement cycles that undo prior gains. Across 189 tasks in code generation, mathematical reasoning, and truthfulness, SAHOO produces substantial quality gains, including 18.3 percent improvement in code tasks and 16.8 percent in reasoning, while preserving constraints in two domains and maintaining low violations in truthfulness. Thresholds are calibrated on a small validation set of 18 tasks across three cycles. We further map the capability-alignment frontier, showing efficient early improvement cycles but rising alignment costs later and exposing domain-specific tensions such as fluency versus factuality. SAHOO therefore makes alignment preservation during recursive self-improvement measurable, deployable, and systematically validated at scale.",
+      "url": "https://arxiv.org/abs/2603.06333",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "improvement",
+        "alignment",
+        "sahoo",
+        "self",
+        "cycles",
+        "drift",
+        "recursive",
+        "recursive self",
+        "self improvement",
+        "tasks"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial problem in the rapidly evolving field of recursive self-improvement \u2013 alignment drift. The proposed SAHOO framework, with its multi-faceted safeguards (GDI, constraint preservation, regression-risk quantification), appears well-designed and rigorously evaluated across diverse tasks. The reported performance gains (18.3% in code, 16.8% in reasoning) are substantial, suggesting a practical and effective solution.",
+      "paper_id": "4f5cad35a4317e41ec3ec45ab3ea666f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-09T09:57:24.919147"
 }

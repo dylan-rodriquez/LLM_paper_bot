@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning
+
+**Score:** 90.0 | **Published:** 2026-03-09 | **Authors:** Yicheng Chen, Zerun Ma, Xinchen Xie, Yining Li, Kai Chen
+
+arXiv:2602.11089v2 Announce Type: replace 
+Abstract: In the current landscape of Large Language Models (LLMs), the curation of large-scale, high-quality training data is a primary driver of model perf...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.11089) | [📝 Analysis](193670a4f97d4e3c70339c0bf8bc865e.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*

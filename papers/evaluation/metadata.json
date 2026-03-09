@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "The Fragility Of Moral Judgment In Large Language Models",
+      "authors": [
+        "Tom van Nuenen, Pratik S. Sachdeva"
+      ],
+      "abstract": "arXiv:2603.05651v1 Announce Type: new \nAbstract: People increasingly use large language models (LLMs) for everyday moral and interpersonal guidance, yet these systems cannot interrogate missing context and judge dilemmas as presented. We introduce a perturbation framework for testing the stability and manipulability of LLM moral judgments while holding the underlying moral conflict constant. Using 2,939 dilemmas from r/AmItheAsshole (January-March 2025), we generate three families of content perturbations: surface edits (lexical/structural noise), point-of-view shifts (voice and stance neutralization), and persuasion cues (self-positioning, social proof, pattern admissions, victim framing). We also vary the evaluation protocol (output ordering, instruction placement, and unstructured prompting). We evaluated all variants with four models (GPT-4.1, Claude 3.7 Sonnet, DeepSeek V3, Qwen2.5-72B) (N=129,156 judgments).\n  Surface perturbations produce low flip rates (7.5%), largely within the self-consistency noise floor (4-13%), whereas point-of-view shifts induce substantially higher instability (24.3%). A large subset of dilemmas (37.9%) is robust to surface noise yet flips under perspective changes, indicating that models condition on narrative voice as a pragmatic cue. Instability concentrates in morally ambiguous cases; scenarios where no party is assigned blame are most susceptible. Persuasion perturbations yield systematic directional shifts. Protocol choices dominate all other factors: agreement between structured protocols is only 67.6% (kappa=0.55), and only 35.7% of model-scenario units match across all three protocols. These results show that LLM moral judgments are co-produced by narrative form and task scaffolding, raising reproducibility and equity concerns when outcomes depend on presentation skill rather than moral substance.",
+      "url": "https://arxiv.org/abs/2603.05651",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "moral",
+        "models",
+        "dilemmas",
+        "judgments",
+        "large",
+        "noise",
+        "perturbations",
+        "shifts",
+        "surface",
+        "instability"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a crucial issue \u2013 the reliability of LLMs in moral reasoning \u2013 with a well-defined and rigorous methodology. The perturbation framework is a clever approach to systematically test model stability, and the scale of the evaluation (N=129,156) is impressive. The use of real-world data from r/AmItheAsshole adds to the practical relevance, and the initial finding of low flip rates with surface perturbations suggests a degree of robustness, though further analysis is needed. The paper's focus on alignment and the fragility of moral judgements is highly relevant to current trends in AI safety and ethics.",
+      "paper_id": "ad817369043a8f45d5b0b567391bd4cf"
+    },
+    {
+      "title": "PVminerLLM: Structured Extraction of Patient Voice from Patient-Generated Text using Large Language Models",
+      "authors": [
+        "Samah Fodeh, Linhai Ma, Ganesh Puthiaraju, Srivani Talakokkul, Afshan Khan, Ashley Hagaman, Sarah Lowe, Aimee Roundtree"
+      ],
+      "abstract": "arXiv:2603.05776v1 Announce Type: new \nAbstract: Motivation: Patient-generated text contains critical information about patients' lived experiences, social circumstances, and engagement in care, including factors that strongly influence adherence, care coordination, and health equity. However, these patient voice signals are rarely available in structured form, limiting their use in patient-centered outcomes research and clinical quality improvement. Reliable extraction of such information is therefore essential for understanding and addressing non-clinical drivers of health outcomes at scale.\n  Results: We introduce PVminer, a benchmark for structured extraction of patient voice, and propose PVminerLLM, a supervised fine-tuned large language model tailored to this task. Across multiple datasets and model sizes, PVminerLLM substantially outperforms prompt-based baselines, achieving up to 83.82% F1 for Code prediction, 80.74% F1 for Sub-code prediction, and 87.03% F1 for evidence Span extraction. Notably, strong performance is achieved even with smaller models, demonstrating that reliable patient voice extraction is feasible without extreme model scale. These results enable scalable analysis of social and experiential signals embedded in patient-generated text.\n  Availability and Implementation: Code, evaluation scripts, and trained LLMs will be released publicly. Annotated datasets will be made available upon request for research use.\n  Keywords: Large Language Models, Supervised Fine-Tuning, Medical Annotation, Patient-Generated Text, Clinical NLP",
+      "url": "https://arxiv.org/abs/2603.05776",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "patient",
+        "extraction",
+        "generated",
+        "generated text",
+        "patient generated",
+        "patient voice",
+        "text",
+        "voice",
+        "clinical",
+        "code"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 extracting patient voice from unstructured text \u2013 which is crucial for improving healthcare. The reported F1 scores (80-87%) are strong, suggesting a well-executed methodology and a substantial improvement over prompt-based baselines. While fine-tuning LLMs isn't entirely novel, the creation of the PVminer benchmark and tailoring the model specifically to this task demonstrates a valuable contribution. The potential for real-world impact in patient-centered research and quality improvement is considerable.",
+      "paper_id": "3272fcf361ccab93220467ccf436d7f8"
+    },
+    {
+      "title": "Wisdom of the AI Crowd (AI-CROWD) for Ground Truth Approximation in Content Analysis: A Research Protocol & Validation Using Eleven Large Language Models",
+      "authors": [
+        "Luis de-Marcos, Manuel Goyanes, Adri\\'an Dom\\'inguez-D\\'iaz"
+      ],
+      "abstract": "arXiv:2603.06197v1 Announce Type: new \nAbstract: Large-scale content analysis is increasingly limited by the absence of observable ground truth or gold-standard labels, as creating such benchmarks through extensive human coding becomes impractical for massive datasets due to high time, cost, and consistency challenges. To overcome this barrier, we introduce the AI-CROWD protocol, which approximates ground truth by leveraging the collective outputs of an ensemble of large language models (LLMs). Rather than asserting that the resulting labels are true ground truth, the protocol generates a consensus-based approximation derived from convergent and divergent inferences across multiple models. By aggregating outputs via majority voting and interrogating agreement/disagreement patterns with diagnostic metrics, AI-CROWD identifies high-confidence classifications while flagging potential ambiguity or model-specific biases.",
+      "url": "https://arxiv.org/abs/2603.06197",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "ai crowd",
+        "crowd",
+        "ground",
+        "ground truth",
+        "truth",
+        "large",
+        "models",
+        "protocol",
+        "analysis"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical bottleneck in large-scale content analysis \u2013 the lack of ground truth. The AI-CROWD protocol offers a pragmatic and potentially highly effective solution by leveraging LLM consensus. The focus on diagnostic metrics to understand agreement/disagreement is a strong methodological point, and the problem is highly relevant given the explosion of data and LLM capabilities.",
+      "paper_id": "bdede878c3f2ceb6b200e7bdfac5db3e"
+    },
+    {
+      "title": "CRIMSON: A Clinically-Grounded LLM-Based Metric for Generative Radiology Report Evaluation",
+      "authors": [
+        "Mohammed Baharoon, Thibault Heintz, Siavash Raissi, Mahmoud Alabbad, Mona Alhammad, Hassan AlOmaish, Sung Eun Kim, Oishi Banerjee, Pranav Rajpurkar"
+      ],
+      "abstract": "arXiv:2603.06183v1 Announce Type: new \nAbstract: We introduce CRIMSON, a clinically grounded evaluation framework for chest X-ray report generation that assesses reports based on diagnostic correctness, contextual relevance, and patient safety. Unlike prior metrics, CRIMSON incorporates full clinical context, including patient age, indication, and guideline-based decision rules, and prevents normal or clinically insignificant findings from exerting disproportionate influence on the overall score. The framework categorizes errors into a comprehensive taxonomy covering false findings, missing findings, and eight attribute-level errors (e.g., location, severity, measurement, and diagnostic overinterpretation). Each finding is assigned a clinical significance level (urgent, actionable non-urgent, non-actionable, or expected/benign), based on a guideline developed in collaboration with attending cardiothoracic radiologists, enabling severity-aware weighting that prioritizes clinically consequential mistakes over benign discrepancies. CRIMSON is validated through strong alignment with clinically significant error counts annotated by six board-certified radiologists in ReXVal (Kendalls tau = 0.61-0.71; Pearsons r = 0.71-0.84), and through two additional benchmarks that we introduce. In RadJudge, a targeted suite of clinically challenging pass-fail scenarios, CRIMSON shows consistent agreement with expert judgment. In RadPref, a larger radiologist preference benchmark of over 100 pairwise cases with structured error categorization, severity modeling, and 1-5 overall quality ratings from three cardiothoracic radiologists, CRIMSON achieves the strongest alignment with radiologist preferences. We release the metric, the evaluation benchmarks, RadJudge and RadPref, and a fine-tuned MedGemma model to enable reproducible evaluation of report generation, all available at https://github.com/rajpurkarlab/CRIMSON.",
+      "url": "https://arxiv.org/abs/2603.06183",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "crimson",
+        "clinically",
+        "based",
+        "evaluation",
+        "findings",
+        "radiologists",
+        "report",
+        "severity",
+        "71",
+        "actionable"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the rapidly evolving field of generative AI for radiology \u2013 robust and clinically meaningful evaluation metrics. The incorporation of clinical context (age, indication, guidelines) and severity-aware weighting is a significant step beyond existing metrics. The detailed error taxonomy and collaboration with radiologists suggest a rigorous and well-grounded approach, making it likely to be well-received by the community.",
+      "paper_id": "83d34e30a16ff579a884cff3a95a8949"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-09T09:57:24.915663"
 }

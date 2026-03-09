@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Steffen Eger, Yong Cao, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller
+
+arXiv:2502.05151v3 Announce Type: replace 
+Abstract: With the advent of large multimodal language models, science is now at a threshold of an AI-based technological transformation. An emerging ecosyst...
+
+[📄 Full Paper](https://arxiv.org/abs/2502.05151) | [📝 Analysis](a7300de69b6394c2f6ebd66d9dfc5be8.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*

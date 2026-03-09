@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling",
+      "authors": [
+        "Qihang Fan, Huaibo Huang, Zhiying Wu, Juqiu Wang, Bingning Wang, Ran He"
+      ],
+      "abstract": "arXiv:2603.06199v1 Announce Type: new \nAbstract: Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. While various sparse attention mechanisms have been explored, they typically suffer from either significant search latency or insufficient sparsity. In this paper, we propose FlashPrefill, a framework enabling ultra-fast prefilling via instantaneous pattern discovery and thresholding. FlashPrefill leverages a fast block-searching technique to simultaneously locate dynamic vertical, slash, and block-sparse attention patterns. Crucially, it introduces a dynamic thresholding mechanism that bypasses the prohibitive overhead of sorting or accumulating attention scores while effectively eliminating the long-tail distribution to enhance sparsity. Extensive evaluations demonstrate that FlashPrefill achieves a substantial leap in efficiency, delivering an unprecedented 27.78x speedup on 256K sequences. Notably, unlike existing methods that incur efficiency degradation on shorter contexts, FlashPrefill maintains a 1.71x speedup even at a 4K context length, demonstrating its robustness and practical utility across varying sequence scales.",
+      "url": "https://arxiv.org/abs/2603.06199",
+      "published_date": "2026-03-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "flashprefill",
+        "attention",
+        "context",
+        "fast",
+        "long",
+        "prefilling",
+        "thresholding",
+        "block",
+        "discovery",
+        "discovery thresholding"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial bottleneck in LLMs \u2013 the prefilling phase \u2013 with a novel approach to sparse attention. The combination of fast block-searching and dynamic thresholding appears promising for achieving significant efficiency gains. The abstract suggests rigorous evaluation, and the problem tackled is highly relevant to current research trends in scaling LLMs. The claim of 'substantial leap in efficiency' is strong and warrants further investigation, but the initial premise is compelling.",
+      "paper_id": "36c179ad61b192d045ccc4a9adeecc25"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-09T09:57:24.917972"
 }
