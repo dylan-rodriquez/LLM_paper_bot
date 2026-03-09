@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
+
+arXiv:2603.06333v1 Announce Type: cross 
+Abstract: Recursive self-improvement is moving from theory to practice: modern systems can critique, revise, and evaluate their own outputs, yet iterative self...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06333) | [📝 Analysis](4f5cad35a4317e41ec3ec45ab3ea666f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*

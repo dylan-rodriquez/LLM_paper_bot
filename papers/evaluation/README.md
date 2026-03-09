@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### The Fragility Of Moral Judgment In Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Tom van Nuenen, Pratik S. Sachdeva
+
+arXiv:2603.05651v1 Announce Type: new 
+Abstract: People increasingly use large language models (LLMs) for everyday moral and interpersonal guidance, yet these systems cannot interrogate missing contex...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.05651) | [📝 Analysis](ad817369043a8f45d5b0b567391bd4cf.md)
+
+---
+
+### PVminerLLM: Structured Extraction of Patient Voice from Patient-Generated Text using Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Samah Fodeh, Linhai Ma, Ganesh Puthiaraju, Srivani Talakokkul, Afshan Khan, Ashley Hagaman, Sarah Lowe, Aimee Roundtree
+
+arXiv:2603.05776v1 Announce Type: new 
+Abstract: Motivation: Patient-generated text contains critical information about patients' lived experiences, social circumstances, and engagement in care, inclu...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.05776) | [📝 Analysis](3272fcf361ccab93220467ccf436d7f8.md)
+
+---
+
+### Wisdom of the AI Crowd (AI-CROWD) for Ground Truth Approximation in Content Analysis: A Research Protocol & Validation Using Eleven Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Luis de-Marcos, Manuel Goyanes, Adri\'an Dom\'inguez-D\'iaz
+
+arXiv:2603.06197v1 Announce Type: new 
+Abstract: Large-scale content analysis is increasingly limited by the absence of observable ground truth or gold-standard labels, as creating such benchmarks thr...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06197) | [📝 Analysis](bdede878c3f2ceb6b200e7bdfac5db3e.md)
+
+---
+
+### CRIMSON: A Clinically-Grounded LLM-Based Metric for Generative Radiology Report Evaluation
+
+**Score:** 90.0 | **Published:** 2026-03-09 | **Authors:** Mohammed Baharoon, Thibault Heintz, Siavash Raissi, Mahmoud Alabbad, Mona Alhammad, Hassan AlOmaish, Sung Eun Kim, Oishi Banerjee, Pranav Rajpurkar
+
+arXiv:2603.06183v1 Announce Type: new 
+Abstract: We introduce CRIMSON, a clinically grounded evaluation framework for chest X-ray report generation that assesses reports based on diagnostic correctnes...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06183) | [📝 Analysis](83d34e30a16ff579a884cff3a95a8949.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*

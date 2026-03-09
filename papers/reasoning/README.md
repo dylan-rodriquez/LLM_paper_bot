@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### VerChol -- Grammar-First Tokenization for Agglutinative Languages
+
+**Score:** 92.0 | **Published:** 2026-03-09 | **Authors:** Prabhu Raja
+
+arXiv:2603.05883v1 Announce Type: new 
+Abstract: Tokenization is the foundational step in all large language model (LLM) pipelines, yet the dominant approach Byte Pair Encoding (BPE) and its variants ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.05883) | [📝 Analysis](9f2f18016adec3dd202bdeebf7506560.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-09 09:57:24 UTC*
