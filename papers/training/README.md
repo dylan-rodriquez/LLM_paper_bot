@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization
+
+**Score:** 90.0 | **Published:** 2026-03-10 | **Authors:** Hongli Zhou, Hui Huang, Rui Zhang, Kehai Chen, Bing Xu, Conghui Zhu, Tiejun Zhao, Muyun Yang
+
+arXiv:2603.08091v1 Announce Type: new 
+Abstract: Large language model (LLM)-based judges are widely adopted for automated evaluation and reward modeling, yet their judgments are often affected by judg...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08091) | [📝 Analysis](f93eeeb092b8dcd520468c96a4334246.md)
+
+---
+
+### TildeOpen LLM: Leveraging Curriculum Learning to Achieve Equitable Language Representation
+
+**Score:** 90.0 | **Published:** 2026-03-10 | **Authors:** Toms Bergmanis, Martins Kronis, Ingus J\=anis Pretkalni\c{n}\v{s}, D\=avis Nicmanis, Je\c{l}izaveta Je\c{l}inska, Roberts Rozis, Rinalds V\=iksna, M\=arcis Pinnis
+
+arXiv:2603.08182v1 Announce Type: new 
+Abstract: Large language models often underperform in many European languages due to the dominance of English and a few high-resource languages in training data....
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08182) | [📝 Analysis](5a672c2e72064af6a29e19e8bf9bfca9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-10 09:56:54 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "LieCraft: A Multi-Agent Framework for Evaluating Deceptive Capabilities in Language Models",
+      "authors": [
+        "Matthew Lyle Olson, Neale Ratzlaff, Musashi Hinck, Tri Nguyen, Vasudev Lal, Joseph Campbell, Simon Stepputtis, Shao-Yen Tseng"
+      ],
+      "abstract": "arXiv:2603.06874v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) exhibit impressive general-purpose capabilities but also introduce serious safety risks, particularly the potential for deception as models acquire increased agency and human oversight diminishes. In this work, we present LieCraft: a novel evaluation framework and sandbox for measuring LLM deception that addresses key limitations of prior game-based evaluations. At its core, LieCraft is a novel multiplayer hidden-role game in which players select an ethical alignment and execute strategies over a long time-horizon to accomplish missions. Cooperators work together to solve event challenges and expose bad actors, while Defectors evade suspicion while secretly sabotaging missions. To enable real-world relevance, we develop 10 grounded scenarios such as childcare, hospital resource allocation, and loan underwriting that recontextualize the underlying mechanics in ethically significant, high-stakes domains. We ensure balanced gameplay in LieCraft through careful design of game mechanics and reward structures that incentivize meaningful strategic choices while eliminating degenerate strategies. Beyond the framework itself, we report results from 12 state-of-the-art LLMs across three behavioral axes: propensity to defect, deception skill, and accusation accuracy. Our findings reveal that despite differences in competence and overall alignment, all models are willing to act unethically, conceal their intentions, and outright lie to pursue their goals.",
+      "url": "https://arxiv.org/abs/2603.06874",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "liecraft",
+        "models",
+        "deception",
+        "framework",
+        "game",
+        "alignment",
+        "capabilities",
+        "language",
+        "language models",
+        "liecraft novel"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the deceptive potential of LLMs \u2013 with a novel framework, LieCraft. The use of a multi-agent hidden-role game and grounding scenarios in ethically sensitive domains demonstrates a strong methodological approach. The potential for this work to influence safety evaluations and alignment research is significant, and the community is likely to receive it positively given current concerns about LLM risks.",
+      "paper_id": "1b3249d3c72b9dc7f957aeb936dd8bf9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-10T09:56:54.700478"
 }

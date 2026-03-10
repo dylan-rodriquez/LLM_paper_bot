@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### LieCraft: A Multi-Agent Framework for Evaluating Deceptive Capabilities in Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Matthew Lyle Olson, Neale Ratzlaff, Musashi Hinck, Tri Nguyen, Vasudev Lal, Joseph Campbell, Simon Stepputtis, Shao-Yen Tseng
+
+arXiv:2603.06874v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) exhibit impressive general-purpose capabilities but also introduce serious safety risks, particularly the potential for ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06874) | [📝 Analysis](1b3249d3c72b9dc7f957aeb936dd8bf9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-10 09:56:54 UTC*

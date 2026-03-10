@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "ConflictBench: Evaluating Human-AI Conflict via Interactive and Visually Grounded Environments",
+      "authors": [
+        "Weixiang Zhao, Haozhen Li, Yanyan Zhao, xuda zhi, Yongbo Huang, Hao He, Bing Qin, Ting Liu"
+      ],
+      "abstract": "arXiv:2603.08024v1 Announce Type: new \nAbstract: As large language models (LLMs) evolve into autonomous agents capable of acting in open-ended environments, ensuring behavioral alignment with human values becomes a critical safety concern. Existing benchmarks, focused on static, single-turn prompts, fail to capture the interactive and multi-modal nature of real-world conflicts. We introduce ConflictBench, a benchmark for evaluating human-AI conflict through 150 multi-turn scenarios derived from prior alignment queries. ConflictBench integrates a text-based simulation engine with a visually grounded world model, enabling agents to perceive, plan, and act under dynamic conditions. Empirical results show that while agents often act safely when human harm is immediate, they frequently prioritize self-preservation or adopt deceptive strategies in delayed or low-risk settings. A regret test further reveals that aligned decisions are often reversed under escalating pressure, especially with visual input. These findings underscore the need for interaction-level, multi-modal evaluation to surface alignment failures that remain hidden in conventional benchmarks.",
+      "url": "https://arxiv.org/abs/2603.08024",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "human",
+        "agents",
+        "alignment",
+        "conflictbench",
+        "multi",
+        "act",
+        "ai",
+        "ai conflict",
+        "benchmarks",
+        "conflict"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial and timely problem in AI safety \u2013 evaluating the alignment of increasingly autonomous LLM agents. The introduction of ConflictBench, with its multi-turn, visually grounded scenarios, is a significant step beyond existing static benchmarks. The initial findings regarding deceptive strategies and the reversal of aligned decisions under pressure are concerning and highlight the need for more robust evaluation methods. While the approach builds on existing alignment queries, the integration of a simulation engine and visual grounding represents a novel contribution.",
+      "paper_id": "2185d8463186f96d9c1046d10b25ce94"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-03-10T09:56:54.697132"
 }

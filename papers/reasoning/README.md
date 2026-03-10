@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Lying to Win: Assessing LLM Deception through Human-AI Games and Parallel-World Probing
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Arash Marioriyad, Ali Nouri, Mohammad Hossein Rohban, Mahdieh Soleymani Baghshah
+
+arXiv:2603.07202v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) transition into autonomous agentic roles, the risk of deception-defined behaviorally as the systematic provision of fal...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.07202) | [📝 Analysis](10f7c23ec9f39a8be7abf60d5ec7de5b.md)
+
+---
+
+### CCR-Bench: A Comprehensive Benchmark for Evaluating LLMs on Complex Constraints, Control Flows, and Real-World Cases
+
+**Score:** 90.0 | **Published:** 2026-03-10 | **Authors:** Xiaona Xue, Yiqiao Huang, Jiacheng Li, Yuanhang Zheng, Huiqi Miao, Yunfei Ma, Rui Liu, Xinbao Sun, Minglu Liu, Fanyu Meng, Chao Deng, Junlan Feng
+
+arXiv:2603.07886v1 Announce Type: new 
+Abstract: Enhancing the ability of large language models (LLMs) to follow complex instructions is critical for their deployment in real-world applications. Howev...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.07886) | [📝 Analysis](f95d04f2bd70cdd82a4afbaa5ff3bd6b.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-10 09:56:54 UTC*

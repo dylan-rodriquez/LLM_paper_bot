@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### ConflictBench: Evaluating Human-AI Conflict via Interactive and Visually Grounded Environments
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Weixiang Zhao, Haozhen Li, Yanyan Zhao, xuda zhi, Yongbo Huang, Hao He, Bing Qin, Ting Liu
+
+arXiv:2603.08024v1 Announce Type: new 
+Abstract: As large language models (LLMs) evolve into autonomous agents capable of acting in open-ended environments, ensuring behavioral alignment with human va...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08024) | [📝 Analysis](2185d8463186f96d9c1046d10b25ce94.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-10 09:56:54 UTC*

@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness",
+      "authors": [
+        "Leo Schwinn, Moritz Ladenburger, Tim Beyer, Mehrnaz Mofakhami, Gauthier Gidel, Stephan G\\\"unnemann"
+      ],
+      "abstract": "arXiv:2603.06594v1 Announce Type: new \nAbstract: Automated \\enquote{LLM-as-a-Judge} frameworks have become the de facto standard for scalable evaluation across natural language processing. For instance, in safety evaluation, these judges are relied upon to evaluate harmfulness in order to benchmark the robustness of safety against adversarial attacks. However, we show that existing validation protocols fail to account for substantial distribution shifts inherent to red-teaming: diverse victim models exhibit distinct generation styles, attacks distort output patterns, and semantic ambiguity varies significantly across jailbreak scenarios. Through a comprehensive audit using 6642 human-verified labels, we reveal that the unpredictable interaction of these shifts often causes judge performance to degrade to near random chance. This stands in stark contrast to the high human agreement reported in prior work. Crucially, we find that many attacks inflate their success rates by exploiting judge insufficiencies rather than eliciting genuinely harmful content. To enable more reliable evaluation, we propose ReliableBench, a benchmark of behaviors that remain more consistently judgeable, and JudgeStressTest, a dataset designed to expose judge failures. Data available at: https://github.com/SchwinnL/LLMJudgeReliability.",
+      "url": "https://arxiv.org/abs/2603.06594",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "judge",
+        "attacks",
+        "evaluation",
+        "safety",
+        "adversarial",
+        "benchmark",
+        "fail",
+        "human",
+        "judges",
+        "llm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of LLM safety evaluation \u2013 the unreliability of LLM-as-a-Judge frameworks when applied to adversarial robustness. The comprehensive audit with a large number of human-verified labels provides strong evidence against the validity of current validation protocols. The findings are likely to be well-received by the community, prompting a re-evaluation of existing benchmarks and a search for more robust evaluation methods.",
+      "paper_id": "f8e579badb213381c96c6a3699bd867a"
+    },
+    {
+      "title": "The Conundrum of Trustworthy Research on Attacking Personally Identifiable Information Removal Techniques",
+      "authors": [
+        "Sebastian Ochs, Ivan Habernal"
+      ],
+      "abstract": "arXiv:2603.08207v1 Announce Type: new \nAbstract: Removing personally identifiable information (PII) from texts is necessary to comply with various data protection regulations and to enable data sharing without compromising privacy. However, recent works show that documents sanitized by PII removal techniques are vulnerable to reconstruction attacks. Yet, we suspect that the reported success of these attacks is largely overestimated. We critically analyze the evaluation of existing attacks and find that data leakage and data contamination are not properly mitigated, leaving the question whether or not PII removal techniques truly protect privacy in real-world scenarios unaddressed. We investigate possible data sources and attack setups that avoid data leakage and conclude that only truly private data can allow us to objectively evaluate vulnerabilities in PII removal techniques. However, access to private data is heavily restricted - and for good reasons - which also means that the public research community cannot address this problem in a transparent, reproducible, and trustworthy manner.",
+      "url": "https://arxiv.org/abs/2603.08207",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "data",
+        "pii",
+        "removal",
+        "removal techniques",
+        "techniques",
+        "attacks",
+        "pii removal",
+        "data leakage",
+        "identifiable",
+        "identifiable information"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in data privacy and security \u2013 the reliability of PII removal techniques. The critical analysis of existing attack evaluations and the identification of data leakage/contamination issues demonstrate strong methodological rigor. While the proposed solution (access to truly private data) presents a practical challenge, the paper's focus on objective evaluation is highly valuable and timely, suggesting a positive reception within the research community.",
+      "paper_id": "26d5d0ffb5221bb5b7d855361e23cfae"
+    },
+    {
+      "title": "How Much Do LLMs Hallucinate in Document Q&A Scenarios? A 172-Billion-Token Study Across Temperatures, Context Lengths, and Hardware Platforms",
+      "authors": [
+        "JV Roig"
+      ],
+      "abstract": "arXiv:2603.08274v1 Announce Type: new \nAbstract: How much do large language models actually hallucinate when answering questions grounded in provided documents? Despite the critical importance of this question for enterprise AI deployments, reliable measurement has been hampered by benchmarks that rely on static datasets vulnerable to contamination, LLM-based judges with documented biases, or evaluation scales too small for statistical confidence. We address this gap using RIKER, a ground-truth-first evaluation methodology that enables deterministic scoring without human annotation. Across 35 open-weight models, three context lengths (32K, 128K, and 200K tokens), four temperature settings, and three hardware platforms (NVIDIA H200, AMD MI300X, and Intel Gaudi 3), we conducted over 172 billion tokens of evaluation - an order of magnitude beyond prior work. Our findings reveal that: (1) even the best-performing models fabricate answers at a non-trivial rate - 1.19% at best at 32K, with top-tier models at 5 - 7% - and fabrication rises steeply with context length, nearly tripling at 128K and exceeding 10% for all models at 200K; (2) model selection dominates all other factors, with overall accuracy spanning a 72-percentage-point range and model family predicting fabrication resistance better than model size; (3) temperature effects are nuanced - T=0.0 yields the best overall accuracy in roughly 60% of cases, but higher temperatures reduce fabrication for the majority of models and dramatically reduce coherence loss (infinite generation loops), which can reach 48x higher rates at T=0.0 versus T=1.0; (4) grounding ability and fabrication resistance are distinct capabilities - models that excel at finding facts may still fabricate facts that do not exist; and (5) results are consistent across hardware platforms, confirming that deployment decisions need not be hardware-dependent.",
+      "url": "https://arxiv.org/abs/2603.08274",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "fabrication",
+        "hardware",
+        "best",
+        "context",
+        "evaluation",
+        "hardware platforms",
+        "model",
+        "platforms",
+        "128k"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 hallucination in document Q&A \u2013 with a rigorous and large-scale approach. The development of RIKER, a deterministic evaluation methodology, is a significant step forward in addressing the limitations of existing benchmarks. The extensive evaluation across models, context lengths, and hardware platforms provides valuable insights and a strong empirical foundation for their findings.",
+      "paper_id": "05320a4e4b681230ad68c2a19d6c4407"
+    },
+    {
+      "title": "Aligning to Illusions: Choice Blindness in Human and AI Feedback",
+      "authors": [
+        "Wenbin Wu"
+      ],
+      "abstract": "arXiv:2603.08412v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) assumes annotator preferences reflect stable internal states. We challenge this through three experiments spanning the preference pipeline. In a human choice blindness study, 91% of surreptitiously swapped preferences go undetected, extending choice blindness to third-person evaluative comparison of unfamiliar text. Testing fifteen LLM judges as potential replacements, we find detection relies on shallow text matching rather than genuine self-monitoring: removing prior reasoning from context causes blindness to surge from near-zero to over 50%, while explicit social pressure induces near-universal compliance. In a dose-response experiment across two architectures from 86M to 2B parameters, one-sixth to one-third of labels must be corrupted before the reward signal halves, yet standard pairwise accuracy remains virtually unchanged. A Best-of-N evaluation confirms this translates to downstream policy degradation: at 50% corruption, reward-guided selection produces no improvement over random sampling, while the proxy model reports monotonically increasing scores. Together, these results reveal a preference construction problem: the signal entering RLHF is shaped by elicitation context in ways that neither human metacognition, LLM self-monitoring, nor standard evaluation metrics can detect.",
+      "url": "https://arxiv.org/abs/2603.08412",
+      "published_date": "2026-03-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "blindness",
+        "human",
+        "choice",
+        "choice blindness",
+        "50",
+        "context",
+        "evaluation",
+        "feedback",
+        "llm",
+        "monitoring"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in RLHF \u2013 the reliability of human feedback \u2013 and presents compelling evidence that it's surprisingly fragile. The experimental design, spanning human studies and LLM evaluations, is well-considered and the findings regarding choice blindness and the susceptibility of LLM judges are significant. The results suggest a fundamental flaw in the assumption of stable preferences, which has broad implications for the field. While the methods aren't entirely novel, the application to the RLHF pipeline and the depth of the analysis are strong.",
+      "paper_id": "26305c030e9a696a6bf39cca79886ae3"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-10T09:56:54.694772"
 }
