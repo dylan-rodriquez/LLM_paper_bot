@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Coin Flip for Safety: LLM Judges Fail to Reliably Measure Adversarial Robustness
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Leo Schwinn, Moritz Ladenburger, Tim Beyer, Mehrnaz Mofakhami, Gauthier Gidel, Stephan G\"unnemann
+
+arXiv:2603.06594v1 Announce Type: new 
+Abstract: Automated \enquote{LLM-as-a-Judge} frameworks have become the de facto standard for scalable evaluation across natural language processing. For instanc...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.06594) | [📝 Analysis](f8e579badb213381c96c6a3699bd867a.md)
+
+---
+
+### The Conundrum of Trustworthy Research on Attacking Personally Identifiable Information Removal Techniques
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Sebastian Ochs, Ivan Habernal
+
+arXiv:2603.08207v1 Announce Type: new 
+Abstract: Removing personally identifiable information (PII) from texts is necessary to comply with various data protection regulations and to enable data sharin...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08207) | [📝 Analysis](26d5d0ffb5221bb5b7d855361e23cfae.md)
+
+---
+
+### How Much Do LLMs Hallucinate in Document Q&A Scenarios? A 172-Billion-Token Study Across Temperatures, Context Lengths, and Hardware Platforms
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** JV Roig
+
+arXiv:2603.08274v1 Announce Type: new 
+Abstract: How much do large language models actually hallucinate when answering questions grounded in provided documents? Despite the critical importance of this...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08274) | [📝 Analysis](05320a4e4b681230ad68c2a19d6c4407.md)
+
+---
+
+### Aligning to Illusions: Choice Blindness in Human and AI Feedback
+
+**Score:** 92.0 | **Published:** 2026-03-10 | **Authors:** Wenbin Wu
+
+arXiv:2603.08412v1 Announce Type: new 
+Abstract: Reinforcement Learning from Human Feedback (RLHF) assumes annotator preferences reflect stable internal states. We challenge this through three experim...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08412) | [📝 Analysis](26305c030e9a696a6bf39cca79886ae3.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-10 09:56:54 UTC*
