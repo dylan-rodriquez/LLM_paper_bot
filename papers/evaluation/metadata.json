@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Benchmarking Political Persuasion Risks Across Frontier Large Language Models",
+      "authors": [
+        "Zhongren Chen, Joshua Kalla, Quan Le"
+      ],
+      "abstract": "arXiv:2603.09884v1 Announce Type: new \nAbstract: Concerns persist regarding the capacity of Large Language Models (LLMs) to sway political views. Although prior research has claimed that LLMs are not more persuasive than standard political campaign practices, the recent rise of frontier models warrants further study. In two survey experiments (N=19,145) across bipartisan issues and stances, we evaluate seven state-of-the-art LLMs developed by Anthropic, OpenAI, Google, and xAI. We find that LLMs outperform standard campaign advertisements, with heterogeneity in performance across models. Specifically, Claude models exhibit the highest persuasiveness, while Grok exhibits the lowest. The results are robust across issues and stances. Moreover, in contrast to the findings in Hackenburg et al. (2025b) and Lin et al. (2025) that information-based prompts boost persuasiveness, we find that the effectiveness of information-based prompts is model-dependent: they increase the persuasiveness of Claude and Grok while substantially reducing that of GPT. We introduce a data-driven and strategy-agnostic LLM-assisted conversation analysis approach to identify and assess underlying persuasive strategies. Our work benchmarks the persuasive risks of frontier models and provides a framework for cross-model comparative risk assessment.",
+      "url": "https://arxiv.org/abs/2603.09884",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "models",
+        "llms",
+        "frontier",
+        "persuasive",
+        "persuasiveness",
+        "political",
+        "al",
+        "based",
+        "based prompts",
+        "campaign"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and timely concern regarding the persuasive capabilities of advanced LLMs. The large sample size (N=19,145) and comparison across multiple models (Anthropic, OpenAI, Google, xAI) strengthens the study's rigor. The finding that LLMs outperform standard campaign ads, and the nuance regarding information-based prompts, are significant and warrant further investigation; however, the abstract only hints at the details of the model-dependent prompt effectiveness.",
+      "paper_id": "3f8313c5b05fbc802a67d82017f726ee"
+    },
+    {
+      "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
+      "authors": [
+        "Abhay Sheshadri, Aidan Ewart, Kai Fronsdal, Isha Gupta, Samuel R. Bowman, Sara Price, Samuel Marks, Rowan Wang"
+      ],
+      "abstract": "arXiv:2602.22755v3 Announce Type: replace \nAbstract: We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has one of 14 concerning behaviors--such as sycophantic deference, opposition to AI regulation, or secret geopolitical loyalties--which it does not confess to when directly asked. AuditBench models are highly diverse--some are subtle, while others are overt, and we use varying training techniques both for implanting behaviors and training models not to confess. To demonstrate AuditBench's utility, we develop an investigator agent that autonomously employs a configurable set of auditing tools. By measuring investigator agent success using different tools, we can evaluate their efficacy. Notably, we observe a tool-to-agent gap, where tools that perform well in standalone non-agentic evaluations fail to translate into improved performance when used with our investigator agent. We find that our most effective tools involve scaffolded calls to auxiliary models that generate diverse prompts for the target. White-box interpretability tools can be helpful, but the agent performs best with black-box tools. We also find that audit success varies greatly across training techniques: models trained on synthetic documents are easier to audit than models trained on demonstrations, with better adversarial training further increasing auditing difficulty. We release our models, agent, and evaluation framework to support future quantitative, iterative science on alignment auditing.",
+      "url": "https://arxiv.org/abs/2602.22755",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "agent",
+        "tools",
+        "auditbench",
+        "auditing",
+        "behaviors",
+        "training",
+        "alignment",
+        "alignment auditing",
+        "investigator"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in AI safety \u2013 the detection of hidden, potentially harmful behaviors in large language models. The creation of AuditBench, with its diverse set of models exhibiting concealed behaviors, is a significant contribution. The observation of a 'tool-to-agent gap' is particularly insightful, highlighting the complexities of applying auditing tools in realistic scenarios and suggesting a need for more sophisticated agent-based auditing techniques.",
+      "paper_id": "a243b7bbbb88722694bb9ff4c0366bdd"
+    },
+    {
+      "title": "One-Eval: An Agentic System for Automated and Traceable LLM Evaluation",
+      "authors": [
+        "Chengyu Shen, Yanheng Hou, Minghui Pan, Runming He, Zhen Hao Wong, Meiyi Qiang, Zhou Liu, Hao Liang, Peichao Lai, Zeang Sheng, Wentao Zhang"
+      ],
+      "abstract": "arXiv:2603.09821v1 Announce Type: new \nAbstract: Reliable evaluation is essential for developing and deploying large language models, yet in practice it often requires substantial manual effort: practitioners must identify appropriate benchmarks, reproduce heterogeneous evaluation codebases, configure dataset schema mappings, and interpret aggregated metrics. To address these challenges, we present One-Eval, an agentic evaluation system that converts natural-language evaluation requests into executable, traceable, and customizable evaluation workflows. One-Eval integrates (i) NL2Bench for intent structuring and personalized benchmark planning, (ii) BenchResolve for benchmark resolution, automatic dataset acquisition, and schema normalization to ensure executability, and (iii) Metrics \\& Reporting for task-aware metric selection and decision-oriented reporting beyond scalar scores. The system further incorporates human-in-the-loop checkpoints for review, editing, and rollback, while preserving sample evidence trails for debugging and auditability. Experiments show that One-Eval can execute end-to-end evaluations from diverse natural-language requests with minimal user effort, supporting more efficient and reproducible evaluation in industrial settings. Our framework is publicly available at https://github.com/OpenDCAI/One-Eval.",
+      "url": "https://arxiv.org/abs/2603.09821",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "eval",
+        "language",
+        "agentic",
+        "benchmark",
+        "dataset",
+        "effort",
+        "end",
+        "eval agentic",
+        "metrics"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 evaluation. The agentic approach to automating and tracing evaluation workflows is well-conceived and tackles the complexities of benchmark selection, execution, and interpretation. The integration of NL2Bench and BenchResolve appears robust, and the human-in-the-loop aspect adds a valuable layer of control and reliability. The problem is highly significant, and the solution has the potential to significantly accelerate LLM research and deployment.",
+      "paper_id": "c01b52a67a6eeee8e7f41a41f0d467b5"
+    },
+    {
+      "title": "CyberThreat-Eval: Can Large Language Models Automate Real-World Threat Research?",
+      "authors": [
+        "Xiangsen Chen, Xuan Feng, Shuo Chen, Matthieu Maitre, Sudipto Rakshit, Diana Duvieilh, Ashley Picone, Nan Tang"
+      ],
+      "abstract": "arXiv:2603.09452v1 Announce Type: cross \nAbstract: Analyzing Open Source Intelligence (OSINT) from large volumes of data is critical for drafting and publishing comprehensive CTI reports. This process usually follows a three-stage workflow -- triage, deep search and TI drafting. While Large Language Models (LLMs) offer a promising route toward automation, existing benchmarks still have limitations. These benchmarks often consist of tasks that do not reflect real-world analyst workflows. For example, human analysts rarely receive tasks in the form of multiple-choice questions. Also, existing benchmarks often rely on model-centric metrics that emphasize lexical overlap rather than actionable, detailed insights essential for security analysts. Moreover, they typically fail to cover the complete three-stage workflow. To address these issues, we introduce CyberThreat-Eval, which is collected from the daily CTI workflow of a world-leading company. This expert-annotated benchmark assesses LLMs on practical tasks across all three stages as mentioned above. It utilizes analyst-centric metrics that measure factual accuracy, content quality, and operational costs. Our evaluation using this benchmark reveals important insights into the limitations of current LLMs. For example, LLMs often lack the nuanced expertise required to handle complex details and struggle to distinguish between correct and incorrect information. To address these challenges, the CTI workflow incorporates both external ground-truth databases and human expert knowledge. TRA allows human experts to iteratively provide feedback for continuous improvement. The code is available at \\href{https://github.com/xschen-beb/CyberThreat-Eval}{\\texttt{GitHub}} and \\href{https://huggingface.co/datasets/xse/CyberThreat-Eval}{\\texttt{HuggingFace}}.",
+      "url": "https://arxiv.org/abs/2603.09452",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "cyberthreat",
+        "cyberthreat eval",
+        "eval",
+        "llms",
+        "workflow",
+        "benchmarks",
+        "cti",
+        "human",
+        "large",
+        "tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in cybersecurity: automating threat intelligence analysis with LLMs. The critique of existing benchmarks is well-articulated, highlighting their disconnect from real-world analyst workflows and reliance on superficial metrics. Introducing a benchmark derived from a 'world-leading company's' daily CTI workflow significantly increases its practical relevance and potential impact. The focus on the full three-stage workflow is a strong point.",
+      "paper_id": "4a2f74fc8922fd22fc0756ba1d16a467"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-11T09:49:59.527448"
 }

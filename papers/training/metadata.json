@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Model Merging in the Era of Large Language Models: Methods, Applications, and Future Directions",
+      "authors": [
+        "Mingyang Song, Mao Zheng"
+      ],
+      "abstract": "arXiv:2603.09938v1 Announce Type: new \nAbstract: Model merging has emerged as a transformative paradigm for combining the capabilities of multiple neural networks into a single unified model without additional training. With the rapid proliferation of fine-tuned large language models~(LLMs), merging techniques offer a computationally efficient alternative to ensembles and full retraining, enabling practitioners to compose specialized capabilities at minimal cost. This survey presents a comprehensive and structured examination of model merging in the LLM era through the \\textbf{FUSE} taxonomy, a four-dimensional framework organized along \\textbf{F}oundations, \\textbf{U}nification Strategies, \\textbf{S}cenarios, and \\textbf{E}cosystem. We first establish the theoretical underpinnings of merging, including loss landscape geometry, mode connectivity, and the linear mode connectivity hypothesis. We then systematically review the algorithmic landscape, spanning weight averaging, task vector arithmetic, sparsification-enhanced methods, mixture-of-experts architectures, and evolutionary optimization approaches. For each method family, we analyze the core formulation, highlight representative works, and discuss practical trade-offs. We further examine downstream applications across multi-task learning, safety alignment, domain specialization, multilingual transfer, and federated learning. Finally, we survey the supporting ecosystem of open-source tools, community platforms, and evaluation benchmarks, and identify key open challenges including theoretical gaps, scalability barriers, and standardization needs. This survey aims to equip researchers and practitioners with a structured foundation for advancing model merging.",
+      "url": "https://arxiv.org/abs/2603.09938",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "merging",
+        "model",
+        "textbf",
+        "model merging",
+        "survey",
+        "applications",
+        "capabilities",
+        "connectivity",
+        "era",
+        "including"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem in the LLM space \u2013 efficiently combining models. The proposed 'FUSE' taxonomy provides a structured approach to understanding model merging techniques, suggesting a rigorous and comprehensive survey. The focus on theoretical underpinnings like loss landscape geometry adds depth, and the potential for cost-effective capability composition is significant.",
+      "paper_id": "3cf8aa8703cc515bfda0872792cfc39d"
+    },
+    {
+      "title": "When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment",
+      "authors": [
+        "Hanqi Yan, Hainiu Xu, Siya Qi, Shu Yang, Yulan He"
+      ],
+      "abstract": "arXiv:2509.00544v4 Announce Type: replace \nAbstract: With the growing accessibility and wide adoption of large language models, concerns about their safety and alignment with human values have become paramount. In this paper, we identify a concerning phenomenon: Reasoning-Induced Misalignment (RIM), in which misalignment emerges when reasoning capabilities strengthened-particularly when specific types of reasoning patterns are introduced during inference or training. Beyond reporting this vulnerability, we provide the first mechanistic account of its origins. Through representation analysis, we discover that specific attention heads facilitate refusal by reducing their attention to CoT tokens, a mechanism that modulates the model's rationalization process during inference. During training, we find significantly higher activation entanglement between reasoning and safety in safety-critical neurons than in control neurons, particularly after fine-tuning with those identified reasoning patterns. This entanglement strongly correlates with catastrophic forgetting, providing a neuron-level explanation for RIM.",
+      "url": "https://arxiv.org/abs/2509.00544",
+      "published_date": "2026-03-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "reasoning",
+        "misalignment",
+        "safety",
+        "attention",
+        "entanglement",
+        "induced",
+        "induced misalignment",
+        "inference",
+        "inference training",
+        "mechanistic"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 reasoning-induced misalignment \u2013 and provides a mechanistic understanding of *how* it occurs. The use of representation analysis and attention head investigation is a strong methodological approach. The findings regarding attention head behavior and activation entanglement are compelling and suggest concrete avenues for mitigation, making it highly relevant to the current focus on LLM alignment.",
+      "paper_id": "bdecc5af1de92570cbc4c262fc08c185"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-11T09:49:59.529216"
 }

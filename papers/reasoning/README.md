@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
+
+arXiv:2603.09200v1 Announce Type: cross 
+Abstract: Situational awareness, the capacity of an AI system to recognize its own nature, understand its training and deployment context, and reason strategic...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09200) | [📝 Analysis](88be1ea8d394d3bbded22d2cee49fe0a.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-11 09:49:59 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### PathoScribe: Transforming Pathology Data into a Living Library with a Unified LLM-Driven Framework for Semantic Retrieval and Clinical Integration
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Abdul Rehman Akbar, Samuel Wales-McGrath, Alejadro Levya, Lina Gokhale, Rajendra Singh, Wei Chen, Anil Parwani, Muhammad Khalid Khan Niazi
+
+arXiv:2603.08935v1 Announce Type: cross 
+Abstract: Pathology underpins modern diagnosis and cancer care, yet its most valuable asset, the accumulated experience encoded in millions of narrative report...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.08935) | [📝 Analysis](e3bf6a8031c178055af3f6b7366f123e.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-11 09:49:59 UTC*

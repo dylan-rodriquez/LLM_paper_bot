@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### From Days to Minutes: An Autonomous AI Agent Achieves Reliable Clinical Triage in Remote Patient Monitoring
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Seunghwan Kim (AnsibleHealth Inc., San Francisco, USA), Tiffany H. Kung (AnsibleHealth Inc., San Francisco, USA, Stanford School of Medicine, Stanford, USA), Heena Verma (AnsibleHealth Inc., San Francisco, USA), Dilan Edirisinghe (AnsibleHealth Inc., San Francisco, USA), Kaveh Sedehi (AnsibleHealth Inc., San Francisco, USA), Johanna Alvarez (AnsibleHealth Inc., San Francisco, USA), Diane Shilling (AnsibleHealth Inc., San Francisco, USA), Audra Lisa Doyle (AnsibleHealth Inc., San Francisco, USA), Ajit Chary (AnsibleHealth Inc., San Francisco, USA), William Borden (AnsibleHealth Inc., San Francisco, USA, George Washington University, Washington, D.C., USA), Ming Jack Po (AnsibleHealth Inc., San Francisco, USA)
+
+arXiv:2603.09052v1 Announce Type: cross 
+Abstract: Background: Remote patient monitoring (RPM) generates vast data, yet landmark trials (Tele-HF, BEAT-HF) failed because data volume overwhelmed clinic...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09052) | [📝 Analysis](6b768318a317e1510a0930be603a8bad.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-11 09:49:59 UTC*
