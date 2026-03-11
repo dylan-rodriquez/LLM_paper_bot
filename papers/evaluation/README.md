@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Benchmarking Political Persuasion Risks Across Frontier Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Zhongren Chen, Joshua Kalla, Quan Le
+
+arXiv:2603.09884v1 Announce Type: new 
+Abstract: Concerns persist regarding the capacity of Large Language Models (LLMs) to sway political views. Although prior research has claimed that LLMs are not ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09884) | [📝 Analysis](3f8313c5b05fbc802a67d82017f726ee.md)
+
+---
+
+### AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Abhay Sheshadri, Aidan Ewart, Kai Fronsdal, Isha Gupta, Samuel R. Bowman, Sara Price, Samuel Marks, Rowan Wang
+
+arXiv:2602.22755v3 Announce Type: replace 
+Abstract: We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.22755) | [📝 Analysis](a243b7bbbb88722694bb9ff4c0366bdd.md)
+
+---
+
+### One-Eval: An Agentic System for Automated and Traceable LLM Evaluation
+
+**Score:** 90.0 | **Published:** 2026-03-11 | **Authors:** Chengyu Shen, Yanheng Hou, Minghui Pan, Runming He, Zhen Hao Wong, Meiyi Qiang, Zhou Liu, Hao Liang, Peichao Lai, Zeang Sheng, Wentao Zhang
+
+arXiv:2603.09821v1 Announce Type: new 
+Abstract: Reliable evaluation is essential for developing and deploying large language models, yet in practice it often requires substantial manual effort: pract...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09821) | [📝 Analysis](c01b52a67a6eeee8e7f41a41f0d467b5.md)
+
+---
+
+### CyberThreat-Eval: Can Large Language Models Automate Real-World Threat Research?
+
+**Score:** 90.0 | **Published:** 2026-03-11 | **Authors:** Xiangsen Chen, Xuan Feng, Shuo Chen, Matthieu Maitre, Sudipto Rakshit, Diana Duvieilh, Ashley Picone, Nan Tang
+
+arXiv:2603.09452v1 Announce Type: cross 
+Abstract: Analyzing Open Source Intelligence (OSINT) from large volumes of data is critical for drafting and publishing comprehensive CTI reports. This process...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09452) | [📝 Analysis](4a2f74fc8922fd22fc0756ba1d16a467.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-11 09:49:59 UTC*

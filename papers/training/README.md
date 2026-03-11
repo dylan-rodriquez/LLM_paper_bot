@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Model Merging in the Era of Large Language Models: Methods, Applications, and Future Directions
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Mingyang Song, Mao Zheng
+
+arXiv:2603.09938v1 Announce Type: new 
+Abstract: Model merging has emerged as a transformative paradigm for combining the capabilities of multiple neural networks into a single unified model without a...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.09938) | [📝 Analysis](3cf8aa8703cc515bfda0872792cfc39d.md)
+
+---
+
+### When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment
+
+**Score:** 92.0 | **Published:** 2026-03-11 | **Authors:** Hanqi Yan, Hainiu Xu, Siya Qi, Shu Yang, Yulan He
+
+arXiv:2509.00544v4 Announce Type: replace 
+Abstract: With the growing accessibility and wide adoption of large language models, concerns about their safety and alignment with human values have become ...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.00544) | [📝 Analysis](bdecc5af1de92570cbc4c262fc08c185.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-11 09:49:59 UTC*
