@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Lost in the Middle at Birth: An Exact Theory of Transformer Position Bias",
+      "authors": [
+        "Borun D Chowdhury"
+      ],
+      "abstract": "arXiv:2603.10123v1 Announce Type: cross \nAbstract: The ``Lost in the Middle'' phenomenon -- a U-shaped performance curve where LLMs retrieve well from the beginning and end of a context but fail in the middle -- is widely attributed to learned Softmax artifacts or the distance-decay of positional encodings like RoPE. This paper makes a single, precise claim: \\emph{the U-shape is already present at initialization, before any training or positional encoding takes effect.} It is an inherent geometric property of the causal decoder with residual connections.\n  We model multi-layer causal attention as iterated powers of the Ces\\`{a}ro matrix and derive the exact closed-form influence density in the continuous limit. Causal masking forces a logarithmic divergence of gradient influence at the start of the prompt (the Primacy Tail), while residual connections create an isolated $\\mathcal{O}(1)$ anchor at the final token (the Recency Delta). Between these extremes lies a factorial dead zone of order $\\mathcal{O}(1/(H{-}1)!)$, where $H$ is the network depth, making middle-context retrieval and training structurally hostile. We validate empirically that untrained Qwen2 and GPT-2 architectures exhibit this U-shape at Step~0, and that it is identical with or without RoPE. Comparing initialized and pretrained networks, we show that standard training does not overcome the topological valley, confirming that the U-shape persists as an architectural baseline under standard pretraining objectives.\n  We do not claim that this bias is insurmountable, nor that interventions such as RoPE modifications are useless. We establish what the baseline is and where it comes from, so that future efforts to overcome it can be precisely targeted.",
+      "url": "https://arxiv.org/abs/2603.10123",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "middle",
+        "causal",
+        "rope",
+        "shape",
+        "training",
+        "baseline",
+        "bias",
+        "claim",
+        "connections",
+        "context"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a very important and actively researched problem \u2013 the 'Lost in the Middle' phenomenon in LLMs. The claim that this issue exists *at initialization* is a strong and surprising one, suggesting a fundamental geometric limitation of the architecture rather than a learned behavior. The use of Ces\u00e0ro matrices and a continuous limit derivation appears rigorous, and if validated, could significantly shift understanding of attention mechanisms. The high sentiment score reflects the current interest in understanding and mitigating this issue.",
+      "paper_id": "4c67827a44432859264629f22c776009"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-12T09:50:07.650384"
 }

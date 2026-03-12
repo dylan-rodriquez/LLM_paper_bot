@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Beyond the Prompt in Large Language Models: Comprehension, In-Context Learning, and Chain-of-Thought
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Yuling Jiao, Yanming Lai, Huazhen Lin, Wensen Ma, Houduo Qi, Defeng Sun
+
+arXiv:2603.10000v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable proficiency across diverse tasks, exhibiting emergent properties such as semantic prompt comp...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10000) | [📝 Analysis](23b5ed1ef9ac4649f9f857741d2a1836.md)
+
+---
+
+### Measuring and Eliminating Refusals in Military Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Jack FitzGerald, Dylan Bates, Aristotelis Lazaridis, Aman Sharma, Vincent Lu, Brian King, Yousif Azami, Sean Bailey, Jeremy Cao, Peter Damianov, Kevin de Haan, Joseph Madigan, Jeremy McLaurin, Luke Kerbs, Jonathan Tainer, Dave Anderson, Jonathan Beck, Jamie Cuticello, Colton Malkerson, Tyler Saltsman
+
+arXiv:2603.10012v1 Announce Type: new 
+Abstract: Military Large Language Models (LLMs) must provide accurate information to the warfighter in time-critical and dangerous situations. However, today's L...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10012) | [📝 Analysis](c2136dff8e65ada6f6c75cb7bbdf1ddd.md)
+
+---
+
+### Lost in Backpropagation: The LM Head is a Gradient Bottleneck
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Nathan Godey, Yoav Artzi
+
+arXiv:2603.10145v1 Announce Type: new 
+Abstract: The last layer of neural language models (LMs) projects output features of dimension $D$ to logits in dimension $V$, the size of the vocabulary, where ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10145) | [📝 Analysis](4ec4eabd3a7c2159c3789d170a51efd2.md)
+
+---
+
+### IH-Challenge: A Training Dataset to Improve Instruction Hierarchy on Frontier LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Chuan Guo (Michael Pokorny), Juan Felipe Ceron Uribe (Michael Pokorny), Sicheng Zhu (Michael Pokorny), Christopher A. Choquette-Choo (Michael Pokorny), Steph Lin (Michael Pokorny), Nikhil Kandpal (Michael Pokorny), Milad Nasr (Michael Pokorny),  Rai (Michael Pokorny), Sam Toyer, Miles Wang, Yaodong Yu, Alex Beutel, Kai Xiao
+
+arXiv:2603.10521v1 Announce Type: cross 
+Abstract: Instruction hierarchy (IH) defines how LLMs prioritize system, developer, user, and tool instructions under conflict, providing a concrete, trust-ord...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10521) | [📝 Analysis](70ee10414a7bb8a0f8594530de755cc4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*
