@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Lost in the Middle at Birth: An Exact Theory of Transformer Position Bias
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** Borun D Chowdhury
+
+arXiv:2603.10123v1 Announce Type: cross 
+Abstract: The ``Lost in the Middle'' phenomenon -- a U-shaped performance curve where LLMs retrieve well from the beginning and end of a context but fail in th...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10123) | [📝 Analysis](4c67827a44432859264629f22c776009.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond the Illusion of Consensus: From Surface Heuristics to Knowledge-Grounded Evaluation in LLM-as-a-Judge
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** Mingyang Song, Mao Zheng, Chenning Xu
+
+arXiv:2603.11027v1 Announce Type: new 
+Abstract: The paradigm of LLM-as-a-judge relies on a critical assumption, namely that high inter-evaluator agreement indicates reliable and objective evaluation....
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11027) | [📝 Analysis](b35ab9229f6385b7690a49879ea0c4aa.md)
+
+---
+
+### Safety Under Scaffolding: How Evaluation Conditions Shape Measured Safety
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** David Gringras
+
+arXiv:2603.10044v1 Announce Type: cross 
+Abstract: Safety benchmarks evaluate language models in isolation, typically using multiple-choice format; production deployments wrap these models in agentic ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10044) | [📝 Analysis](7c274380aefe097958e82304e9ea9149.md)
+
+---
+
+### ADVERSA: Measuring Multi-Turn Guardrail Degradation and Judge Reliability in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** Harry Owiredu-Ashley
+
+arXiv:2603.10068v1 Announce Type: cross 
+Abstract: Most adversarial evaluations of large language model (LLM) safety assess single prompts and report binary pass/fail outcomes, which fails to capture ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10068) | [📝 Analysis](b9f647c3150cc80ad72d1534d4b5cff1.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*

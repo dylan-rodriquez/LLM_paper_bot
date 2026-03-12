@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Adaptive Activation Cancellation for Hallucination Mitigation in Large Language Models",
+      "authors": [
+        "Eric Yocam, Varghese Vaidyan, Gurcan Comert, Paris Kalathas, Yong Wang, Judith L. Mwakalonge"
+      ],
+      "abstract": "arXiv:2603.10195v1 Announce Type: new \nAbstract: Large Language Models frequently generate fluent but factually incorrect text. We propose Adaptive Activation Cancellation (AAC), a real-time inference-time framework that treats hallucination-associated neural activations as structured interference within the transformer residual stream, drawing an explicit analogy to classical adaptive noise cancellation from signal processing. The framework identifies Hallucination Nodes (H-Nodes) via layer-wise linear probing and suppresses them using a confidence-weighted forward hook during auto-regressive generation -- requiring no external knowledge, no fine-tuning, and no additional inference passes. Evaluated across OPT-125M, Phi-3-mini, and LLaMA 3-8B on TruthfulQA and HaluEval, the real-time hook is the only intervention that consistently improves downstream accuracy on all three scales. Critically, the method is strictly surgical: WikiText-103 perplexity and MMLU reasoning accuracy are preserved at exactly 0.0% degradation across all three model scales, a property that distinguishes AAC from interventions that trade fluency or general capability for factual improvement. On the LLaMA 3-8B scale, the hook additionally yields positive generation-level gains (MC1 +0.04; MC2 +0.003; Token-F1 +0.003) while achieving probe-space selectivity 5.94x - 3.5x higher than the ITI baseline -- demonstrating that targeted neuron-level suppression can simultaneously improve factual accuracy and preserve model capability.",
+      "url": "https://arxiv.org/abs/2603.10195",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "accuracy",
+        "adaptive",
+        "cancellation",
+        "hallucination",
+        "hook",
+        "time",
+        "003",
+        "8b",
+        "aac",
+        "activation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles the critical problem of hallucination in LLMs with a novel approach inspired by signal processing. The method's ability to mitigate hallucinations *without* fine-tuning or additional inference passes is particularly impressive. The consistent improvement across multiple model scales and datasets suggests a robust and generalizable technique, and the 'surgical' nature of the intervention (preserving performance on other tasks) is a strong positive.",
+      "paper_id": "eda7d36dc8a70c95471a2b9376ce9657"
+    },
+    {
+      "title": "Human-AI Co-reasoning for Clinical Diagnosis with Evidence-Integrated Language Agent",
+      "authors": [
+        "Zhongzhen Huang, Yan Ling, Hong Chen, Ye Feng, Li Wu, Linjie Mu, Shaoting Zhang, Xiaofan Zhang, Kun Qian, Xiaomu Li"
+      ],
+      "abstract": "arXiv:2603.10492v1 Announce Type: new \nAbstract: We present PULSE, a medical reasoning agent that combines a domain-tuned large language model with scientific literature retrieval to support diagnostic decision-making in complex real-world cases. To evaluate its capabilities, we curated a benchmark of 82 authentic endocrinology case reports encompassing a broad spectrum of disease types and incidence levels. In controlled experiments, we compared PULSE's performance against physicians with varying levels of expertise-from residents to senior specialists-and examined how AI assistance influenced human diagnostic reasoning. PULSE attained expert-competitive accuracy, outperforming residents and junior specialists while matching senior specialist performance at both Top@1 and Top@4 thresholds. Unlike physicians, whose accuracy declined with disease rarity, PULSE maintained stable performance across incidence tiers. The agent also exhibited adaptive reasoning, increasing output length with case difficulty in a manner analogous to the longer deliberation observed among expert clinicians. When used collaboratively, PULSE enabled physicians to correct initial errors and broaden diagnostic hypotheses, but also introduced risks of automation bias. The study explores both serial and concurrent collaboration workflows, revealing that PULSE offers robust support across common and rare presentations. These findings underscore both the promise and the limitations of language model-based agents in clinical diagnosis, and offer a framework for evaluating their role in real-world decision-making.",
+      "url": "https://arxiv.org/abs/2603.10492",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "pulse",
+        "reasoning",
+        "agent",
+        "diagnostic",
+        "language",
+        "performance",
+        "physicians",
+        "accuracy",
+        "ai",
+        "case"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly significant problem \u2013 improving clinical diagnosis \u2013 and demonstrates promising results by achieving expert-level accuracy in a specific domain (endocrinology). The combination of a tuned LLM with literature retrieval is a strong methodological approach, and the comparison against physicians of varying expertise adds rigor. The finding that the AI maintains performance with rare diseases, unlike humans, is particularly noteworthy and suggests a substantial potential benefit.",
+      "paper_id": "b8d9a5908017bf3f9b59a97173f7c215"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-12T09:50:07.647239"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Abhinaba Basu
+
+arXiv:2603.10060v1 Announce Type: cross 
+Abstract: AI agents that execute tasks via tool calls frequently hallucinate results - fabricating tool executions, misstating output counts, or presenting inf...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10060) | [📝 Analysis](e3a1f433a7f88604193251cc44940756.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*

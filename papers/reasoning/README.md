@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Adaptive Activation Cancellation for Hallucination Mitigation in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** Eric Yocam, Varghese Vaidyan, Gurcan Comert, Paris Kalathas, Yong Wang, Judith L. Mwakalonge
+
+arXiv:2603.10195v1 Announce Type: new 
+Abstract: Large Language Models frequently generate fluent but factually incorrect text. We propose Adaptive Activation Cancellation (AAC), a real-time inference...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10195) | [📝 Analysis](eda7d36dc8a70c95471a2b9376ce9657.md)
+
+---
+
+### Human-AI Co-reasoning for Clinical Diagnosis with Evidence-Integrated Language Agent
+
+**Score:** 90.0 | **Published:** 2026-03-12 | **Authors:** Zhongzhen Huang, Yan Ling, Hong Chen, Ye Feng, Li Wu, Linjie Mu, Shaoting Zhang, Xiaofan Zhang, Kun Qian, Xiaomu Li
+
+arXiv:2603.10492v1 Announce Type: new 
+Abstract: We present PULSE, a medical reasoning agent that combines a domain-tuned large language model with scientific literature retrieval to support diagnosti...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10492) | [📝 Analysis](b8d9a5908017bf3f9b59a97173f7c215.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*

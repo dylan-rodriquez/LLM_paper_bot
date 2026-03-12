@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond the Illusion of Consensus: From Surface Heuristics to Knowledge-Grounded Evaluation in LLM-as-a-Judge",
+      "authors": [
+        "Mingyang Song, Mao Zheng, Chenning Xu"
+      ],
+      "abstract": "arXiv:2603.11027v1 Announce Type: new \nAbstract: The paradigm of LLM-as-a-judge relies on a critical assumption, namely that high inter-evaluator agreement indicates reliable and objective evaluation. We present two complementary findings that challenge this assumption. \\textbf{First}, we demonstrate that this consensus is frequently illusory. We identify and formalize \\textbf{Evaluation Illusion}, a phenomenon where LLM judges generate sophisticated critiques yet anchor scores on shared surface heuristics rather than substantive quality. Through a large-scale study of 105,600 evaluation instances (32 LLMs $\\times$ 3 frontier judges $\\times$ 100 tasks $\\times$ 11 temperatures), we show that model-level agreement (Spearman $\\rho = 0.99$) masks fragile sample-level agreement (Pearson $\\bar{r} = 0.72$; absolute agreement ICC $= 0.67$), that merely sharing rubric structure restores 62\\% of total agreement, and that high-quality outputs paradoxically receive the \\textit{least} consistent evaluations. \\textbf{Second}, we demonstrate that dynamically generating evaluation rubrics grounded in domain knowledge produces more meaningful assessment. We introduce MERG (Metacognitive Enhanced Rubric Generation), a knowledge-driven rubric generation framework whose domain-selective effects confirm this. Agreement \\textit{increases} in codified domains (Education +22\\%, Academic +27\\%) where knowledge anchors evaluators on shared standards, while it decreases in subjective domains where genuine evaluative pluralism emerges. These findings suggest that evaluation rubrics should be dynamically enriched with expert knowledge rather than relying on generic criteria, with implications for reward modeling in RLAIF.",
+      "url": "https://arxiv.org/abs/2603.11027",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "agreement",
+        "evaluation",
+        "knowledge",
+        "llm",
+        "rubric",
+        "textbf",
+        "times",
+        "assumption",
+        "consensus",
+        "demonstrate"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in the rapidly evolving field of LLM evaluation \u2013 the reliability of LLM-as-a-judge. The identification of the 'Evaluation Illusion' and the empirical evidence demonstrating the fragility of consensus despite high model-level agreement are compelling. The large-scale study and quantitative results (Spearman \u03c1, Pearson r, ICC) strengthen the findings, suggesting a significant problem with current evaluation practices. The work is well-defined and addresses a timely concern.",
+      "paper_id": "b35ab9229f6385b7690a49879ea0c4aa"
+    },
+    {
+      "title": "Safety Under Scaffolding: How Evaluation Conditions Shape Measured Safety",
+      "authors": [
+        "David Gringras"
+      ],
+      "abstract": "arXiv:2603.10044v1 Announce Type: cross \nAbstract: Safety benchmarks evaluate language models in isolation, typically using multiple-choice format; production deployments wrap these models in agentic scaffolds that restructure inputs through reasoning traces, critic agents, and delegation pipelines. We report one of the largest controlled studies of scaffold effects on safety (N = 62,808; six frontier models, four deployment configurations), combining pre-registration, assessor blinding, equivalence testing, and specification curve analysis. Map-reduce scaffolding degrades measured safety (NNH = 14), yet two of three scaffold architectures preserve safety within practically meaningful margins. Investigating the map-reduce degradation revealed a deeper measurement problem: switching from multiple-choice to open-ended format on identical items shifts safety scores by 5-20 percentage points, larger than any scaffold effect. Within-format scaffold comparisons are consistent with practical equivalence under our pre-registered +/-2 pp TOST margin, isolating evaluation format rather than scaffold architecture as the operative variable. Model x scaffold interactions span 35 pp in opposing directions (one model degrades by -16.8 pp on sycophancy under map-reduce while another improves by +18.8 pp on the same benchmark), ruling out universal claims about scaffold safety. A generalisability analysis yields G = 0.000: model safety rankings reverse so completely across benchmarks that no composite safety index achieves non-zero reliability, making per-model, per-configuration testing a necessary minimum standard. We release all code, data, and prompts as ScaffoldSafety.",
+      "url": "https://arxiv.org/abs/2603.10044",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "scaffold",
+        "format",
+        "model",
+        "pp",
+        "map",
+        "map reduce",
+        "models",
+        "reduce",
+        "analysis"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem in LLM safety \u2013 how scaffolding affects performance evaluation. The large-scale controlled study, employing rigorous methodologies like pre-registration and equivalence testing, is commendable. The discovery that format switching (multiple-choice vs. open-ended) has a larger impact than scaffolding itself is a significant finding, highlighting a fundamental issue in safety benchmarking.",
+      "paper_id": "7c274380aefe097958e82304e9ea9149"
+    },
+    {
+      "title": "ADVERSA: Measuring Multi-Turn Guardrail Degradation and Judge Reliability in Large Language Models",
+      "authors": [
+        "Harry Owiredu-Ashley"
+      ],
+      "abstract": "arXiv:2603.10068v1 Announce Type: cross \nAbstract: Most adversarial evaluations of large language model (LLM) safety assess single prompts and report binary pass/fail outcomes, which fails to capture how safety properties evolve under sustained adversarial interaction. We present ADVERSA, an automated red-teaming framework that measures guardrail degradation dynamics as continuous per-round compliance trajectories rather than discrete jailbreak events. ADVERSA uses a fine-tuned 70B attacker model (ADVERSA-Red, Llama-3.1-70B-Instruct with QLoRA) that eliminates the attacker-side safety refusals that render off-the-shelf models unreliable as attackers, scoring victim responses on a structured 5-point rubric that treats partial compliance as a distinct measurable state.\n  We report a controlled experiment across three frontier victim models (Claude Opus 4.6, Gemini 3.1 Pro, GPT-5.2) using a triple-judge consensus architecture in which judge reliability is measured as a first-class research outcome rather than assumed. Across 15 conversations of up to 10 adversarial rounds, we observe a 26.7% jailbreak rate with an average jailbreak round of 1.25, suggesting that in this evaluation setting, successful jailbreaks were concentrated in early rounds rather than accumulating through sustained pressure. We document inter-judge agreement rates, self-judge scoring tendencies, attacker drift as a failure mode in fine-tuned attackers deployed out of their training distribution, and attacker refusals as a previously-underreported confound in victim resistance measurement. All limitations are stated explicitly. Attack prompts are withheld per responsible disclosure policy; all other experimental artifacts are released.",
+      "url": "https://arxiv.org/abs/2603.10068",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "judge",
+        "adversa",
+        "attacker",
+        "adversarial",
+        "jailbreak",
+        "models",
+        "safety",
+        "victim",
+        "70b",
+        "attackers"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM safety evaluation \u2013 the dynamic nature of guardrail degradation under sustained adversarial pressure. The introduction of ADVERSA, with its continuous compliance trajectory measurement and a robust attacker model, represents a significant improvement over binary pass/fail assessments. The use of a triple-judge consensus and measurement of judge reliability further strengthens the rigor of the evaluation. The focus on frontier models (Claude, Gemini, GPT) adds to the relevance and potential impact.",
+      "paper_id": "b9f647c3150cc80ad72d1534d4b5cff1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-12T09:50:07.649004"
 }

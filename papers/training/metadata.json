@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Beyond the Prompt in Large Language Models: Comprehension, In-Context Learning, and Chain-of-Thought",
+      "authors": [
+        "Yuling Jiao, Yanming Lai, Huazhen Lin, Wensen Ma, Houduo Qi, Defeng Sun"
+      ],
+      "abstract": "arXiv:2603.10000v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable proficiency across diverse tasks, exhibiting emergent properties such as semantic prompt comprehension, In-Context Learning (ICL), and Chain-of-Thought (CoT) reasoning. Despite their empirical success, the theoretical mechanisms driving these phenomena remain poorly understood. This study dives into the foundations of these observations by addressing three critical questions: (1) How do LLMs accurately decode prompt semantics despite being trained solely on a next-token prediction objective? (2) Through what mechanism does ICL facilitate performance gains without explicit parameter updates? and (3) Why do intermediate reasoning steps in CoT prompting effectively unlock capabilities for complex, multi-step problems?\n  Our results demonstrate that, through the autoregressive process, LLMs are capable of exactly inferring the transition probabilities between tokens across distinct tasks using provided prompts. We show that ICL enhances performance by reducing prompt ambiguity and facilitating posterior concentration on the intended task. Furthermore, we find that CoT prompting activates the model's capacity for task decomposition, breaking complex problems into a sequence of simpler sub-tasks that the model has mastered during the pretraining phase. By comparing their individual error bounds, we provide novel theoretical insights into the statistical superiority of advanced prompt engineering techniques.",
+      "url": "https://arxiv.org/abs/2603.10000",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "prompt",
+        "cot",
+        "icl",
+        "llms",
+        "tasks",
+        "chain",
+        "chain thought",
+        "complex",
+        "comprehension",
+        "comprehension context"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial area in LLM research \u2013 understanding *why* these models work, not just *that* they work. The questions posed are fundamental to advancing the field, and the abstract suggests a rigorous investigation into prompt comprehension, ICL, and CoT. The focus on theoretical mechanisms is particularly valuable, and the mention of inferring transition probabilities hints at a potentially novel approach. Given the current excitement around LLMs, this work is likely to be well-received.",
+      "paper_id": "23b5ed1ef9ac4649f9f857741d2a1836"
+    },
+    {
+      "title": "Measuring and Eliminating Refusals in Military Large Language Models",
+      "authors": [
+        "Jack FitzGerald, Dylan Bates, Aristotelis Lazaridis, Aman Sharma, Vincent Lu, Brian King, Yousif Azami, Sean Bailey, Jeremy Cao, Peter Damianov, Kevin de Haan, Joseph Madigan, Jeremy McLaurin, Luke Kerbs, Jonathan Tainer, Dave Anderson, Jonathan Beck, Jamie Cuticello, Colton Malkerson, Tyler Saltsman"
+      ],
+      "abstract": "arXiv:2603.10012v1 Announce Type: new \nAbstract: Military Large Language Models (LLMs) must provide accurate information to the warfighter in time-critical and dangerous situations. However, today's LLMs are imbued with safety behaviors that cause the LLM to refuse many legitimate queries in the military domain, particularly those related to violence, terrorism, or military technology. Our gold benchmark for assessing refusal rates, which was developed by veterans of the US Army and special forces, is to our knowledge the first dataset of its kind. We present results for refusal and deflection rates on 31 public models and 3 military models. We observe hard rejection rates as high as 98.2% and soft deflection rates ranging from 0% to 21.3%. We also present results on two additional synthetic datasets and show their correlations with the gold dataset. Finally, we perform abliteration using the Heretic library on a military-tuned gpt-oss-20b model, showing an absolute increase in answer rate of 66.5 points but an average relative decrease of 2% on other military tasks. In our concluding remarks, we argue for deeper specialization, including with mid-training and end-to-end post-training, to achieve zero refusals and maximum military task accuracy for closed military models.",
+      "url": "https://arxiv.org/abs/2603.10012",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "military",
+        "models",
+        "rates",
+        "dataset",
+        "deflection",
+        "deflection rates",
+        "end",
+        "gold",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critical issue \u2013 the unreliability of LLMs in military contexts due to excessive safety constraints. The creation of a gold benchmark dataset developed with veteran input is a significant strength, and the empirical results demonstrating high refusal rates are compelling. While the ablation study using Heretic is promising, the abstract doesn't detail the magnitude of improvement, leaving some questions about the effectiveness of the approach.",
+      "paper_id": "c2136dff8e65ada6f6c75cb7bbdf1ddd"
+    },
+    {
+      "title": "Lost in Backpropagation: The LM Head is a Gradient Bottleneck",
+      "authors": [
+        "Nathan Godey, Yoav Artzi"
+      ],
+      "abstract": "arXiv:2603.10145v1 Announce Type: new \nAbstract: The last layer of neural language models (LMs) projects output features of dimension $D$ to logits in dimension $V$, the size of the vocabulary, where usually $D \\ll V$. This mismatch is known to raise risks of limited expressivity in neural LMs, creating a so-called softmax bottleneck. We show the softmax bottleneck is not only an expressivity bottleneck but also an optimization bottleneck. Backpropagating $V$-dimensional gradients through a rank-$D$ linear layer induces unavoidable compression, which alters the training feedback provided to the vast majority of the parameters. We present a theoretical analysis of this phenomenon and measure empirically that 95-99% of the gradient norm is suppressed by the output layer, resulting in vastly suboptimal update directions. We conduct controlled pretraining experiments showing that the gradient bottleneck makes trivial patterns unlearnable, and drastically affects the training dynamics of LLMs. We argue that this inherent flaw contributes to training inefficiencies at scale independently of the model architecture, and raises the need for new LM head designs.",
+      "url": "https://arxiv.org/abs/2603.10145",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bottleneck",
+        "gradient",
+        "layer",
+        "training",
+        "dimension",
+        "expressivity",
+        "gradient bottleneck",
+        "head",
+        "lm",
+        "lm head"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a fundamental issue in large language models \u2013 the gradient bottleneck caused by the output layer\u2019s dimensionality mismatch. The combination of theoretical analysis and empirical evidence (95-99% gradient suppression) is compelling, suggesting a significant optimization problem. The finding that trivial patterns become unlearnable due to this bottleneck is particularly impactful, and the work aligns well with current research trends focused on improving LLM training.",
+      "paper_id": "4ec4eabd3a7c2159c3789d170a51efd2"
+    },
+    {
+      "title": "IH-Challenge: A Training Dataset to Improve Instruction Hierarchy on Frontier LLMs",
+      "authors": [
+        "Chuan Guo (Michael Pokorny), Juan Felipe Ceron Uribe (Michael Pokorny), Sicheng Zhu (Michael Pokorny), Christopher A. Choquette-Choo (Michael Pokorny), Steph Lin (Michael Pokorny), Nikhil Kandpal (Michael Pokorny), Milad Nasr (Michael Pokorny),  Rai (Michael Pokorny), Sam Toyer, Miles Wang, Yaodong Yu, Alex Beutel, Kai Xiao"
+      ],
+      "abstract": "arXiv:2603.10521v1 Announce Type: cross \nAbstract: Instruction hierarchy (IH) defines how LLMs prioritize system, developer, user, and tool instructions under conflict, providing a concrete, trust-ordered policy for resolving instruction conflicts. IH is key to defending against jailbreaks, system prompt extractions, and agentic prompt injections. However, robust IH behavior is difficult to train: IH failures can be confounded with instruction-following failures, conflicts can be nuanced, and models can learn shortcuts such as overrefusing. We introduce IH-Challenge, a reinforcement learning training dataset, to address these difficulties. Fine-tuning GPT-5-Mini on IH-Challenge with online adversarial example generation improves IH robustness by +10.0% on average across 16 in-distribution, out-of-distribution, and human red-teaming benchmarks (84.1% to 94.1%), reduces unsafe behavior from 6.6% to 0.7% while improving helpfulness on general safety evaluations, and saturates an internal static agentic prompt injection evaluation, with minimal capability regression. We release the IH-Challenge dataset (https://huggingface.co/datasets/openai/ih-challenge) to support future research on robust instruction hierarchy.",
+      "url": "https://arxiv.org/abs/2603.10521",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ih",
+        "challenge",
+        "ih challenge",
+        "instruction",
+        "dataset",
+        "hierarchy",
+        "instruction hierarchy",
+        "prompt",
+        "agentic",
+        "agentic prompt"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical problem in LLM safety \u2013 instruction hierarchy \u2013 and proposes a targeted dataset (IH-Challenge) and training methodology to improve robustness. The reported +10% improvement across multiple benchmarks, alongside reduced unsafe behavior, suggests a strong methodology and positive results. The focus on adversarial example generation is a particularly strong point, and the problem of instruction conflict is highly relevant given the rise of complex LLM applications.",
+      "paper_id": "70ee10414a7bb8a0f8594530de755cc4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-12T09:50:07.644962"
 }

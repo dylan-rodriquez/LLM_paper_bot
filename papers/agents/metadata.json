@@ -191,7 +191,71 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "HeartAgent: An Autonomous Agent System for Explainable Differential Diagnosis in Cardiology",
+      "authors": [
+        "Shuang Zhou, Kai Yu, Song Wang, Wenya Xie, Zaifu Zhan, Meng-Han Tsai, Yuen-Hei Chung, Shutong Hou, Huixue Zhou, Min Zeng, Bhavadharini Ramu, Lin Yee Chen, Feng Xie, Rui Zhang"
+      ],
+      "abstract": "arXiv:2603.10764v1 Announce Type: new \nAbstract: Heart diseases remain a leading cause of morbidity and mortality worldwide, necessitating accurate and trustworthy differential diagnosis. However, existing artificial intelligence-based diagnostic methods are often limited by insufficient cardiology knowledge, inadequate support for complex reasoning, and poor interpretability. Here we present HeartAgent, a cardiology-specific agent system designed to support a reliable and explainable differential diagnosis. HeartAgent integrates customized tools and curated data resources and orchestrates multiple specialized sub-agents to perform complex reasoning while generating transparent reasoning trajectories and verifiable supporting references. Evaluated on the MIMIC dataset and a private electronic health records cohort, HeartAgent achieved over 36% and 20% improvements over established comparative methods, in top-3 diagnostic accuracy, respectively. Additionally, clinicians assisted by HeartAgent demonstrated gains of 26.9% in diagnostic accuracy and 22.7% in explanatory quality compared with unaided experts. These results demonstrate that HeartAgent provides reliable, explainable, and clinically actionable decision support for cardiovascular care.",
+      "url": "https://arxiv.org/abs/2603.10764",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "heartagent",
+        "cardiology",
+        "diagnosis",
+        "diagnostic",
+        "differential",
+        "differential diagnosis",
+        "explainable",
+        "reasoning",
+        "support",
+        "accuracy"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial problem in healthcare \u2013 accurate and explainable cardiac diagnosis. The reported improvements of 36% and 20% over existing methods are substantial, suggesting a robust methodology. The focus on explainability and verifiable references is particularly valuable, aligning with the growing need for trustworthy AI in medicine. While agent-based systems aren't entirely novel, the cardiology-specific customization and orchestration of sub-agents appear to be a significant advancement.",
+      "paper_id": "9066201d601c3b9eb6334c0ba50179c6"
+    },
+    {
+      "title": "Emulating Clinician Cognition via Self-Evolving Deep Clinical Research",
+      "authors": [
+        "Ruiyang Ren, Yuhao Wang, Yunsen Liang, Lan Luo, Jing Liu, Haifeng Wang, Cong Feng, Yinan Zhang, Chunyan Miao, Ji-Rong Wen, Wayne Xin Zhao"
+      ],
+      "abstract": "arXiv:2603.10677v1 Announce Type: cross \nAbstract: Clinical diagnosis is a complex cognitive process, grounded in dynamic cue acquisition and continuous expertise accumulation. Yet most current artificial intelligence (AI) systems are misaligned with this reality, treating diagnosis as single-pass retrospective prediction while lacking auditable mechanisms for governed improvement. We developed DxEvolve, a self-evolving diagnostic agent that bridges these gaps through an interactive deep clinical research workflow. The framework autonomously requisitions examinations and continually externalizes clinical experience from increasing encounter exposure as diagnostic cognition primitives. On the MIMIC-CDM benchmark, DxEvolve improved diagnostic accuracy by 11.2% on average over backbone models and reached 90.4% on a reader-study subset, comparable to the clinician reference (88.8%). DxEvolve improved accuracy on an independent external cohort by 10.2% (categories covered by the source cohort) and 17.1% (uncovered categories) compared to the competitive method. By transforming experience into a governable learning asset, DxEvolve supports an accountable pathway for the continual evolution of clinical AI.",
+      "url": "https://arxiv.org/abs/2603.10677",
+      "published_date": "2026-03-12T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "clinical",
+        "dxevolve",
+        "diagnostic",
+        "accuracy",
+        "ai",
+        "categories",
+        "clinical research",
+        "clinician",
+        "cognition",
+        "cohort"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial limitation of current AI diagnostic systems \u2013 their static nature and lack of continuous learning. The 'self-evolving' approach and the concept of externalizing clinical experience as 'diagnostic cognition primitives' are compelling. The reported performance improvements on MIMIC-CDM, particularly reaching clinician-level accuracy on a subset, suggest a robust and promising methodology. The external cohort validation further strengthens the findings.",
+      "paper_id": "f2509e31fe5725bbcea2792f38205f67"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-03-12T09:50:07.648184"
 }

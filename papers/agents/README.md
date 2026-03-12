@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### HeartAgent: An Autonomous Agent System for Explainable Differential Diagnosis in Cardiology
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Shuang Zhou, Kai Yu, Song Wang, Wenya Xie, Zaifu Zhan, Meng-Han Tsai, Yuen-Hei Chung, Shutong Hou, Huixue Zhou, Min Zeng, Bhavadharini Ramu, Lin Yee Chen, Feng Xie, Rui Zhang
+
+arXiv:2603.10764v1 Announce Type: new 
+Abstract: Heart diseases remain a leading cause of morbidity and mortality worldwide, necessitating accurate and trustworthy differential diagnosis. However, exi...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10764) | [📝 Analysis](9066201d601c3b9eb6334c0ba50179c6.md)
+
+---
+
+### Emulating Clinician Cognition via Self-Evolving Deep Clinical Research
+
+**Score:** 92.0 | **Published:** 2026-03-12 | **Authors:** Ruiyang Ren, Yuhao Wang, Yunsen Liang, Lan Luo, Jing Liu, Haifeng Wang, Cong Feng, Yinan Zhang, Chunyan Miao, Ji-Rong Wen, Wayne Xin Zhao
+
+arXiv:2603.10677v1 Announce Type: cross 
+Abstract: Clinical diagnosis is a complex cognitive process, grounded in dynamic cue acquisition and continuous expertise accumulation. Yet most current artifi...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.10677) | [📝 Analysis](f2509e31fe5725bbcea2792f38205f67.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-12 09:50:07 UTC*
