@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### ThReadMed-QA: A Multi-Turn Medical Dialogue Benchmark from Real Patient Questions
+
+**Score:** 92.0 | **Published:** 2026-03-13 | **Authors:** Monica Munnangi, Saiph Savage
+
+arXiv:2603.11281v1 Announce Type: new 
+Abstract: Medical question-answering benchmarks predominantly evaluate single-turn exchanges, failing to capture the iterative, clarification-seeking nature of r...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11281) | [📝 Analysis](9c2f0fb1c27723b21dbccf5be708052f.md)
+
+---
+
+### Stop Listening to Me! How Multi-turn Conversations Can Degrade Diagnostic Reasoning
+
+**Score:** 92.0 | **Published:** 2026-03-13 | **Authors:** Kevin H. Guo, Chao Yan, Avinash Baidya, Katherine Brown, Xiang Gao, Juming Xiong, Zhijun Yin, Bradley A. Malin
+
+arXiv:2603.11394v1 Announce Type: new 
+Abstract: Patients and clinicians are increasingly using chatbots powered by large language models (LLMs) for healthcare inquiries. While state-of-the-art LLMs e...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11394) | [📝 Analysis](98ba6cf3a2b14c3675d1b23f3d6f85dc.md)
+
+---
+
+### Measuring Intent Comprehension in LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-13 | **Authors:** Nadav Kunievsky, James A. Evans
+
+arXiv:2506.16584v2 Announce Type: replace 
+Abstract: People judge interactions with large language models (LLMs) as successful when outputs match what they want, not what they type. Yet LLMs are train...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.16584) | [📝 Analysis](83a9af846d96b778427f65b5d3677ff2.md)
+
+---
+
+### LifeSim: Long-Horizon User Life Simulator for Personalized Assistant Evaluation
+
+**Score:** 90.0 | **Published:** 2026-03-13 | **Authors:** Feiyu Duan, Xuanjing Huang, Zhongyu Wei
+
+arXiv:2603.12152v1 Announce Type: new 
+Abstract: The rapid advancement of large language models (LLMs) has accelerated progress toward universal AI assistants. However, existing benchmarks for persona...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12152) | [📝 Analysis](200a6888cbc1235266c3bcda33744510.md)
+
+---
+
+### Human-Centred LLM Privacy Audits: Findings and Frictions
+
+**Score:** 90.0 | **Published:** 2026-03-13 | **Authors:** Dimitri Staufer, Kirsten Morehouse, David Hartmann, Bettina Berendt
+
+arXiv:2603.12094v1 Announce Type: cross 
+Abstract: Large language models (LLMs) learn statistical associations from massive training corpora and user interactions, and deployed systems can surface or ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12094) | [📝 Analysis](bb420c25a8462f10689f3f20d1e5d27b.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-13 09:51:14 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline
+
+**Score:** 92.0 | **Published:** 2026-03-13 | **Authors:** Andr\'e V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li
+
+arXiv:2510.25941v2 Announce Type: replace 
+Abstract: If we cannot inspect the training data of a large language model (LLM), how can we ever know what it has seen? We believe the most compelling evide...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25941) | [📝 Analysis](9b98d7c34e377bdc8cc605e1dc12de8d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-13 09:51:14 UTC*

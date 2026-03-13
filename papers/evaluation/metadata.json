@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "ThReadMed-QA: A Multi-Turn Medical Dialogue Benchmark from Real Patient Questions",
+      "authors": [
+        "Monica Munnangi, Saiph Savage"
+      ],
+      "abstract": "arXiv:2603.11281v1 Announce Type: new \nAbstract: Medical question-answering benchmarks predominantly evaluate single-turn exchanges, failing to capture the iterative, clarification-seeking nature of real patient consultations. We introduce ThReadMed-QA, a benchmark of 2,437 fully-answered patient-physician conversation threads extracted from r/AskDocs, comprising 8,204 question-answer pairs across up to 9 turns. Unlike prior work relying on simulated dialogues, adversarial prompts, or exam-style questions, ThReadMed-QA captures authentic patient follow-up questions and verified physician responses, reflecting how patients naturally seek medical information online. We evaluate five state-of-the-art LLMs -- GPT-5, GPT-4o, Claude Haiku, Gemini 2.5 Flash, and Llama 3.3 70B -- on a stratified test split of 238 conversations (948 QA pairs) using a calibrated LLM-as-a-judge rubric grounded in physician ground truth. Even the strongest model, GPT-5, achieves only 41.2% fully-correct responses. All five models degrade significantly from turn 0 to turn 2 (p < 0.001), with wrong-answer rates roughly tripling by the third turn. We identify a fundamental tension between single-turn capability and multi-turn reliability: models with the strongest initial performance (GPT-5: 75.2; Claude Haiku: 72.3 out of 100) exhibit the steepest declines by turn 2 (dropping 16.2 and 25.0 points respectively), while weaker models plateau or marginally improve. We introduce two metrics to quantify multi-turn failure modes: Conversational Consistency Score (CCS) and Error Propagation Rate (EPR). CCS reveals that nearly one in three Claude Haiku conversations swings between a fully correct and a completely wrong response within the same thread. EPR shows that a single wrong turn raises the probability of a subsequent wrong turn by 1.9-6.1x across all models.",
+      "url": "https://arxiv.org/abs/2603.11281",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "turn",
+        "gpt",
+        "models",
+        "patient",
+        "qa",
+        "wrong",
+        "claude",
+        "claude haiku",
+        "fully",
+        "haiku"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in medical QA benchmarks by focusing on multi-turn dialogues, mirroring real-world patient interactions. The use of real patient-physician conversations from Reddit is a strong methodological choice, providing authentic data. While the evaluation using LLMs as judges is common, the low performance of even GPT-5 highlights the challenge and the need for further research, and the calibrated rubric adds rigor. The clear presentation and focus on a relevant problem suggest a high likelihood of positive reception.",
+      "paper_id": "9c2f0fb1c27723b21dbccf5be708052f"
+    },
+    {
+      "title": "Stop Listening to Me! How Multi-turn Conversations Can Degrade Diagnostic Reasoning",
+      "authors": [
+        "Kevin H. Guo, Chao Yan, Avinash Baidya, Katherine Brown, Xiang Gao, Juming Xiong, Zhijun Yin, Bradley A. Malin"
+      ],
+      "abstract": "arXiv:2603.11394v1 Announce Type: new \nAbstract: Patients and clinicians are increasingly using chatbots powered by large language models (LLMs) for healthcare inquiries. While state-of-the-art LLMs exhibit high performance on static diagnostic reasoning benchmarks, their efficacy across multi-turn conversations, which better reflect real-world usage, has been understudied. In this paper, we evaluate 17 LLMs across three clinical datasets to investigate how partitioning the decision-space into multiple simpler turns of conversation influences their diagnostic reasoning. Specifically, we develop a \"stick-or-switch\" evaluation framework to measure model conviction (i.e., defending a correct diagnosis or safe abstention against incorrect suggestions) and flexibility (i.e., recognizing a correct suggestion when it is introduced) across conversations. Our experiments reveal the conversation tax, where multi-turn interactions consistently degrade performance when compared to single-shot baselines. Notably, models frequently abandon initial correct diagnoses and safe abstentions to align with incorrect user suggestions. Additionally, several models exhibit blind switching, failing to distinguish between signal and incorrect suggestions.",
+      "url": "https://arxiv.org/abs/2603.11394",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "conversations",
+        "correct",
+        "diagnostic",
+        "diagnostic reasoning",
+        "incorrect",
+        "llms",
+        "models",
+        "multi",
+        "multi turn",
+        "reasoning"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the degradation of LLM performance in realistic, multi-turn healthcare conversations. The 'stick-or-switch' evaluation framework appears novel and well-suited to capture the nuances of conversational reasoning. The observed 'conversation tax' is a significant finding with implications for the safe and effective deployment of LLMs in clinical settings, and the evaluation of 17 LLMs provides a robust empirical basis.",
+      "paper_id": "98ba6cf3a2b14c3675d1b23f3d6f85dc"
+    },
+    {
+      "title": "Measuring Intent Comprehension in LLMs",
+      "authors": [
+        "Nadav Kunievsky, James A. Evans"
+      ],
+      "abstract": "arXiv:2506.16584v2 Announce Type: replace \nAbstract: People judge interactions with large language models (LLMs) as successful when outputs match what they want, not what they type. Yet LLMs are trained to predict the next token solely from text input, not underlying intent. Because written language is an imperfect proxy for intent, and correlations between phrasing and desired outcomes can break down in training data, models that rely too heavily on surface cues may respond inconsistently to semantically equivalent prompts. This makes it essential to evaluate whether LLMs can reliably infer user intent-especially in high-stakes settings where robustness and generalization are critical. We introduce a formal framework for assessing intent comprehension in LLMs: whether a model demonstrates robust understanding of user intent by producing consistent outputs across semantically equivalent prompts while differentiating between prompts with distinct intents. Our evaluation approach is based on a variance decomposition of model responses into three components: variability due to user intent, user articulation, and model uncertainty. Models that understand what users want, and are not overly sensitive to textual cues, should attribute most output variance to intent differences, rather than articulation style. Applying this framework across diverse domains, we find that, within the five LLaMA and Gemma models we evaluate, larger models typically assign a greater share of variance to intent, indicating stronger comprehension of intent, although gains are uneven and often modest with increasing model size. These results motivate moving beyond accuracy-only benchmarks toward semantic diagnostics that directly assess whether models understand what users intend.",
+      "url": "https://arxiv.org/abs/2506.16584",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "intent",
+        "models",
+        "llms",
+        "model",
+        "user",
+        "comprehension",
+        "prompts",
+        "user intent",
+        "variance",
+        "articulation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 moving beyond surface-level matching to assess true intent comprehension. The proposed framework for evaluating robustness to semantically equivalent prompts is well-motivated and addresses a significant weakness in current LLM assessment methods. While the abstract doesn't detail the specifics of the framework, the problem statement is compelling and suggests a rigorous approach. The focus on high-stakes settings further elevates the importance of this work.",
+      "paper_id": "83a9af846d96b778427f65b5d3677ff2"
+    },
+    {
+      "title": "LifeSim: Long-Horizon User Life Simulator for Personalized Assistant Evaluation",
+      "authors": [
+        "Feiyu Duan, Xuanjing Huang, Zhongyu Wei"
+      ],
+      "abstract": "arXiv:2603.12152v1 Announce Type: new \nAbstract: The rapid advancement of large language models (LLMs) has accelerated progress toward universal AI assistants. However, existing benchmarks for personalized assistants remain misaligned with real-world user-assistant interactions, failing to capture the complexity of external contexts and users' cognitive states. To bridge this gap, we propose LifeSim, a user simulator that models user cognition through the Belief-Desire-Intention (BDI) model within physical environments for coherent life trajectories generation, and simulates intention-driven user interactive behaviors. Based on LifeSim, we introduce LifeSim-Eval, a comprehensive benchmark for multi-scenario, long-horizon personalized assistance. LifeSim-Eval covers 8 life domains and 1,200 diverse scenarios, and adopts a multi-turn interactive method to assess models' abilities to complete explicit and implicit intentions, recover user profiles, and produce high-quality responses. Under both single-scenario and long-horizon settings, our experiments reveal that current LLMs face significant limitations in handling implicit intention and long-term user preference modeling.",
+      "url": "https://arxiv.org/abs/2603.12152",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "user",
+        "lifesim",
+        "long",
+        "horizon",
+        "intention",
+        "life",
+        "long horizon",
+        "models",
+        "personalized",
+        "assistant"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in LLM development \u2013 the lack of realistic evaluation benchmarks for personalized assistants. The use of a BDI model to simulate user cognition and the creation of a large, multi-scenario benchmark (LifeSim-Eval) are strong points. While the BDI model isn't entirely novel, its application within a simulated life context for assistant evaluation appears to be a significant advancement, and the scale of the benchmark is impressive. The focus on long-horizon interactions and implicit intentions is particularly valuable.",
+      "paper_id": "200a6888cbc1235266c3bcda33744510"
+    },
+    {
+      "title": "Human-Centred LLM Privacy Audits: Findings and Frictions",
+      "authors": [
+        "Dimitri Staufer, Kirsten Morehouse, David Hartmann, Bettina Berendt"
+      ],
+      "abstract": "arXiv:2603.12094v1 Announce Type: cross \nAbstract: Large language models (LLMs) learn statistical associations from massive training corpora and user interactions, and deployed systems can surface or infer information about individuals. Yet people lack practical ways to inspect what a model associates with their name. We report interim findings from an ongoing study and introduce LMP2, a browser-based self-audit tool. In two user studies ($N_{total}{=}458$), GPT-4o predicts 11 of 50 features for everyday people with $\\ge$60\\% accuracy, and participants report wanting control over LLM-generated associations despite not considering all outputs privacy violations. To validate our probing method, we evaluate eight LLMs on public figures and non-existent names, observing clear separation between stable name-conditioned associations and model defaults. Our findings also contribute to exposing a broader generative AI evaluation crisis: when outputs are probabilistic, context-dependent, and user-mediated through elicitation, what model--individual associations even include is under-specified and operationalisation relies on crafting probes and metrics that are hard to validate or compare. To move towards reliable, actionable human-centred LLM privacy audits, we identify nine frictions that emerged in our study and offer recommendations for future work and the design of human-centred LLM privacy audits.",
+      "url": "https://arxiv.org/abs/2603.12094",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "associations",
+        "llm",
+        "privacy",
+        "audits",
+        "centred",
+        "centred llm",
+        "findings",
+        "human",
+        "human centred",
+        "llm privacy"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem \u2013 LLM privacy \u2013 with a user-centered approach. The development of LMP2 and the user studies demonstrating the ability to predict personal attributes are strong methodological contributions. The acknowledgement of a broader 'generative AI evaluation crisis' adds depth and suggests the work is aware of the larger context, though the abstract ends abruptly.",
+      "paper_id": "bb420c25a8462f10689f3f20d1e5d27b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-13T09:51:14.686459"
 }

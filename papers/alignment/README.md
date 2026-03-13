@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### LLLMs: A Data-Driven Survey of Evolving Research on Limitations of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-13 | **Authors:** Aida Kostikova, Zhipin Wang, Deidamea Bajri, Ole P\"utz, Benjamin Paa{\ss}en, Steffen Eger
+
+arXiv:2505.19240v4 Announce Type: replace 
+Abstract: Large language model (LLM) research has grown rapidly, along with increasing concern about their limitations. In this survey, we conduct a data-dri...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.19240) | [📝 Analysis](4ac8c6f6cae4cb519f5469af3ab1a357.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-13 09:51:14 UTC*
