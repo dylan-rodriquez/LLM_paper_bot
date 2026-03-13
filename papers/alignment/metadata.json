@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "LLLMs: A Data-Driven Survey of Evolving Research on Limitations of Large Language Models",
+      "authors": [
+        "Aida Kostikova, Zhipin Wang, Deidamea Bajri, Ole P\\\"utz, Benjamin Paa{\\ss}en, Steffen Eger"
+      ],
+      "abstract": "arXiv:2505.19240v4 Announce Type: replace \nAbstract: Large language model (LLM) research has grown rapidly, along with increasing concern about their limitations. In this survey, we conduct a data-driven, semi-automated review of research on limitations of LLMs (LLLMs) from 2022 to early 2025 using a bottom-up approach. From a corpus of 250,000 ACL and arXiv papers, we identify 14,648 relevant papers using keyword filtering, LLM-based classification, validated against expert labels, and topic clustering (via two approaches, HDBSCAN+BERTopic and LlooM). We find that the share of LLM-related papers increases over fivefold in ACL and nearly eightfold in arXiv between 2022 and 2025. Since 2022, LLLMs research grows even faster, reaching over 30% of LLM papers by 2025. Reasoning remains the most studied limitation, followed by generalization, hallucination, bias, and security. The distribution of topics in the ACL dataset stays relatively stable over time, while arXiv shifts toward security risks, alignment, hallucinations, knowledge editing, and multimodality. We offer a quantitative view of trends in LLLMs research and release a dataset of annotated abstracts and a validated methodology, available at: https://github.com/a-kostikova/LLLMs-Survey.",
+      "url": "https://arxiv.org/abs/2505.19240",
+      "published_date": "2026-03-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 72,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "lllms",
+        "research",
+        "arxiv",
+        "llm",
+        "papers",
+        "2022",
+        "2025",
+        "acl",
+        "limitations",
+        "survey"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly relevant and rapidly evolving area \u2013 the limitations of LLMs. The data-driven, semi-automated approach to surveying the literature is rigorous and addresses the challenge of keeping pace with the field's growth. The combination of keyword filtering, LLM-based classification, expert validation, and topic clustering demonstrates a strong methodology, and the observed trends (reasoning as a primary limitation, shift towards security concerns) are insightful.",
+      "paper_id": "4ac8c6f6cae4cb519f5469af3ab1a357"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-13T09:51:14.687731"
 }
