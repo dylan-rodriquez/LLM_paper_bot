@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Systematic Scaling Analysis of Jailbreak Attacks in Large Language Models",
+      "authors": [
+        "Xiangwen Wang, Ananth Balashankar, Varun Chandrasekaran"
+      ],
+      "abstract": "arXiv:2603.11149v1 Announce Type: new \nAbstract: Large language models remain vulnerable to jailbreak attacks, yet we still lack a systematic understanding of how jailbreak success scales with attacker effort across methods, model families, and harm types. We initiate a scaling-law framework for jailbreaks by treating each attack as a compute-bounded optimization procedure and measuring progress on a shared FLOPs axis. Our systematic evaluation spans four representative jailbreak paradigms, covering optimization-based attacks, self-refinement prompting, sampling-based selection, and genetic optimization, across multiple model families and scales on a diverse set of harmful goals. We investigate scaling laws that relate attacker budget to attack success score by fitting a simple saturating exponential function to FLOPs--success trajectories, and we derive comparable efficiency summaries from the fitted curves. Empirically, prompting-based paradigms tend to be the most compute-efficient compared to optimization-based methods. To explain this gap, we cast prompt-based updates into an optimization view and show via a same-state comparison that prompt-based attacks more effectively optimize in prompt space. We also show that attacks occupy distinct success--stealthiness operating points with prompting-based methods occupying the high-success, high-stealth region. Finally, we find that vulnerability is strongly goal-dependent: harms involving misinformation are typically easier to elicit than other non-misinformation harms.",
+      "url": "https://arxiv.org/abs/2603.11149",
+      "published_date": "2026-03-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "based",
+        "attacks",
+        "optimization",
+        "success",
+        "jailbreak",
+        "methods",
+        "prompt",
+        "prompting",
+        "scaling",
+        "systematic"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and timely problem in LLM safety \u2013 jailbreak attacks \u2013 with a novel, systematic approach. Framing jailbreaking as a compute-bounded optimization problem and using scaling laws is a clever methodology. The broad evaluation across paradigms, models, and harm types strengthens the findings, and the focus on compute efficiency is particularly valuable. The work is likely to be well-received by the LLM security community.",
+      "paper_id": "014d3fc9e5be20cf40afe380ae3fd694"
+    },
+    {
+      "title": "abx_amr_simulator: A simulation environment for antibiotic prescribing policy optimization under antimicrobial resistance",
+      "authors": [
+        "Joyce Lee, Seth Blumberg"
+      ],
+      "abstract": "arXiv:2603.11369v1 Announce Type: new \nAbstract: Antimicrobial resistance (AMR) poses a global health threat, reducing the effectiveness of antibiotics and complicating clinical decision-making. To address this challenge, we introduce abx_amr_simulator, a Python-based simulation package designed to model antibiotic prescribing and AMR dynamics within a controlled, reinforcement learning (RL)-compatible environment. The simulator allows users to specify patient populations, antibiotic-specific AMR response curves, and reward functions that balance immedi- ate clinical benefit against long-term resistance management. Key features include a modular design for configuring patient attributes, antibiotic resistance dynamics modeled via a leaky-balloon abstraction, and tools to explore partial observability through noise, bias, and delay in observations. The package is compatible with the Gymnasium RL API, enabling users to train and test RL agents under diverse clinical scenarios. From an ML perspective, the package provides a configurable benchmark environment for sequential decision-making under uncertainty, including partial observability induced by noisy, biased, and delayed observations. By providing a customizable and extensible framework, abx_amr_simulator offers a valuable tool for studying AMR dynamics and optimizing antibiotic stewardship strategies under realistic uncertainty.",
+      "url": "https://arxiv.org/abs/2603.11369",
+      "published_date": "2026-03-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "antibiotic",
+        "amr",
+        "resistance",
+        "abx_amr_simulator",
+        "clinical",
+        "dynamics",
+        "environment",
+        "package",
+        "rl",
+        "amr dynamics"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly significant problem \u2013 antimicrobial resistance \u2013 with a practical and well-defined solution: a simulation environment for policy optimization. The use of reinforcement learning and compatibility with the Gymnasium API are strong points, suggesting a focus on usability and integration with existing ML tools. While the 'leaky-balloon' abstraction for AMR dynamics isn't entirely novel, the combination of features and the focus on RL-driven policy exploration make this a valuable contribution.",
+      "paper_id": "1f881ab18adb039b1cc291cb5439c382"
+    },
+    {
+      "title": "Language Generation with Replay: A Learning-Theoretic View of Model Collapse",
+      "authors": [
+        "Giorgio Racca, Michal Valko, Amartya Sanyal"
+      ],
+      "abstract": "arXiv:2603.11784v1 Announce Type: new \nAbstract: As scaling laws push the training of frontier large language models (LLMs) toward ever-growing data requirements, training pipelines are approaching a regime where much of the publicly available online text may be consumed. At the same time, widespread LLM usage increases the volume of machine-generated content on the web; together, these trends raise the likelihood of generated text re-entering future training corpora, increasing the associated risk of performance degradation often called model collapse. In practice, model developers address this concern through data cleaning, watermarking, synthetic-data policies, or, in some cases, blissful ignorance. However, the problem of model collapse in generative models has not been examined from a learning-theoretic perspective: we study it through the theoretical lens of the language generation in the limit framework, introducing a replay adversary that augments the example stream with the generator's own past outputs. Our main contribution is a fine-grained learning-theoretic characterization of when replay fundamentally limits generation: while replay is benign for the strongest notion of uniform generation, it provably creates separations for the weaker notions of non-uniform generation and generation in the limit. Interestingly, our positive results mirror heuristics widely used in practice, such as data cleaning, watermarking, and output filtering, while our separations show when these ideas can fail.",
+      "url": "https://arxiv.org/abs/2603.11784",
+      "published_date": "2026-03-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "generation",
+        "data",
+        "model",
+        "replay",
+        "collapse",
+        "language",
+        "learning",
+        "learning theoretic",
+        "model collapse",
+        "theoretic"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and increasingly relevant problem \u2013 model collapse due to self-contamination in LLMs. The learning-theoretic approach, framing the issue through the 'language generation in the limit' framework, is a strong methodological choice. While the abstract doesn't detail specific solutions, the problem definition and theoretical framing suggest a rigorous and potentially impactful investigation.",
+      "paper_id": "e3ce55e2b8b63ab2fd8bb6e8fd241e57"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-14T09:42:37.688894"
 }

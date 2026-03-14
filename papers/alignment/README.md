@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Jailbreak Scaling Laws for Large Language Models: Polynomial-Exponential Crossover
+
+**Score:** 92.0 | **Published:** 2026-03-14 | **Authors:** Indranil Halder, Annesya Banerjee, Cengiz Pehlevan
+
+arXiv:2603.11331v1 Announce Type: new 
+Abstract: Adversarial attacks can reliably steer safety-aligned large language models toward unsafe behavior. Empirically, we find that adversarial prompt-inject...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11331) | [📝 Analysis](5382e184caf655ceca0123775d8256ba.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-14 09:42:37 UTC*
