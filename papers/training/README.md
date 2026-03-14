@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Systematic Scaling Analysis of Jailbreak Attacks in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-14 | **Authors:** Xiangwen Wang, Ananth Balashankar, Varun Chandrasekaran
+
+arXiv:2603.11149v1 Announce Type: new 
+Abstract: Large language models remain vulnerable to jailbreak attacks, yet we still lack a systematic understanding of how jailbreak success scales with attacke...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11149) | [📝 Analysis](014d3fc9e5be20cf40afe380ae3fd694.md)
+
+---
+
+### abx_amr_simulator: A simulation environment for antibiotic prescribing policy optimization under antimicrobial resistance
+
+**Score:** 92.0 | **Published:** 2026-03-14 | **Authors:** Joyce Lee, Seth Blumberg
+
+arXiv:2603.11369v1 Announce Type: new 
+Abstract: Antimicrobial resistance (AMR) poses a global health threat, reducing the effectiveness of antibiotics and complicating clinical decision-making. To ad...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11369) | [📝 Analysis](1f881ab18adb039b1cc291cb5439c382.md)
+
+---
+
+### Language Generation with Replay: A Learning-Theoretic View of Model Collapse
+
+**Score:** 92.0 | **Published:** 2026-03-14 | **Authors:** Giorgio Racca, Michal Valko, Amartya Sanyal
+
+arXiv:2603.11784v1 Announce Type: new 
+Abstract: As scaling laws push the training of frontier large language models (LLMs) toward ever-growing data requirements, training pipelines are approaching a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.11784) | [📝 Analysis](e3ce55e2b8b63ab2fd8bb6e8fd241e57.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-14 09:42:37 UTC*

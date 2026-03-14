@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Jailbreak Scaling Laws for Large Language Models: Polynomial-Exponential Crossover",
+      "authors": [
+        "Indranil Halder, Annesya Banerjee, Cengiz Pehlevan"
+      ],
+      "abstract": "arXiv:2603.11331v1 Announce Type: new \nAbstract: Adversarial attacks can reliably steer safety-aligned large language models toward unsafe behavior. Empirically, we find that adversarial prompt-injection attacks can amplify attack success rate from the slow polynomial growth observed without injection to exponential growth with the number of inference-time samples. To explain this phenomenon, we propose a theoretical generative model of proxy language in terms of a spin-glass system operating in a replica-symmetry-breaking regime, where generations are drawn from the associated Gibbs measure and a subset of low-energy, size-biased clusters is designated unsafe. Within this framework, we analyze prompt injection-based jailbreaking. Short injected prompts correspond to a weak magnetic field aligned towards unsafe cluster centers and yield a power-law scaling of attack success rate with the number of inference-time samples, while long injected prompts, i.e., strong magnetic field, yield exponential scaling. We derive these behaviors analytically and confirm them empirically on large language models. This transition between two regimes is due to the appearance of an ordered phase in the spin chain under a strong magnetic field, which suggests that the injected jailbreak prompt enhances adversarial order in the language model.",
+      "url": "https://arxiv.org/abs/2603.11331",
+      "published_date": "2026-03-14T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "language",
+        "adversarial",
+        "exponential",
+        "field",
+        "injected",
+        "injection",
+        "language models",
+        "large",
+        "large language",
+        "magnetic"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 the scaling of jailbreaking success with prompt injection. The use of a spin-glass model to theoretically explain the observed polynomial-exponential crossover is highly innovative and suggests a deeper understanding of the underlying mechanisms. While the abstract is dense, the core idea is compelling and addresses a timely concern in the field, indicating a strong potential for positive reception.",
+      "paper_id": "5382e184caf655ceca0123775d8256ba"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-14T09:42:37.691151"
 }
