@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Semantic Invariance in Agentic AI
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** I. de Zarz\`a, J. de Curt\`o, Jordi Cabot, Pietro Manzoni, Carlos T. Calafate
+
+arXiv:2603.13173v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coord...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13173) | [📝 Analysis](ccda62387ba097a2301a4e7ec9658a76.md)
+
+---
+
+### Multilingual, Multimodal Pipeline for Creating Authentic and Structured Fact-Checked Claim Dataset
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Z. Melce H\"us\"unbeyi, Virginie Mouilleron, Leonie Uhling, Daniel Foppe, Tatjana Scheffler, Djam\'e Seddah
+
+arXiv:2601.07985v2 Announce Type: replace 
+Abstract: The rapid proliferation of misinformation across online platforms underscores the urgent need for robust, up-to-date, explainable, and multilingual...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.07985) | [📝 Analysis](4e73d0151f84d4785be99e719bb5582f.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

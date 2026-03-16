@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### daVinci-Env: Open SWE Environment Synthesis at Scale
+
+**Score:** 90.0 | **Published:** 2026-03-16 | **Authors:** Dayuan Fu, Shenyu Wu, Yunze Wu, Zerui Peng, Yaxing Huang, Jie Sun, Ji Zeng, Mohan Jiang, Lin Zhang, Yukun Li, Jiarui Hu, Liming Liu, Jinlong Hou, Pengfei Liu
+
+arXiv:2603.13023v1 Announce Type: cross 
+Abstract: Training capable software engineering (SWE) agents demands large-scale, executable, and verifiable environments that provide dynamic feedback loops f...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13023) | [📝 Analysis](c14f40a623251233aef860ee5d9b65a2.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

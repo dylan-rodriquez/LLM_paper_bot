@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
+      "authors": [
+        "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz"
+      ],
+      "abstract": "arXiv:2603.12564v1 Announce Type: new \nAbstract: Tool-augmented LLM agents increasingly serve as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking-quality metrics that measure what is recommended but not whether it is safe for the user. We introduce a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across seven LLMs (7B to frontier) and decomposes divergence into information-channel and memory-channel mechanisms. Across the seven models tested, we consistently observe the evaluation-blindness pattern: recommendation quality is largely preserved under contamination (utility preservation ratio approximately 1.0) while risk-inappropriate products appear in 65-93% of turns, a systematic safety failure poorly reflected by standard NDCG. Safety violations are predominantly information-channel-driven, emerge at the first contaminated turn, and persist without self-correction over 23-step trajectories; no agent across 1,563 contaminated turns explicitly questions tool-data reliability. Even narrative-only corruption (biased headlines, no numerical manipulation) induces significant drift while completely evading consistency monitors. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74, indicating that much of the evaluation gap becomes visible once safety is explicitly measured. These results motivate considering trajectory-level safety monitoring, beyond single-turn quality, for deployed multi-turn agents in high-stakes settings.",
+      "url": "https://arxiv.org/abs/2603.12564",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "tool",
+        "turn",
+        "agents",
+        "channel",
+        "contaminated",
+        "evaluation",
+        "quality",
+        "corruption",
+        "drift"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical vulnerability in LLM agents \u2013 the disconnect between ranking metrics and actual safety \u2013 particularly in high-stakes domains like finance. The 'AgentDrift' phenomenon and the paired-trajectory protocol are well-defined and the consistent observation across multiple LLMs is compelling. The decomposition into information and memory channels provides a nuanced understanding of the problem, and the high risk-inappropriate product appearance rate is alarming, suggesting a significant gap in current evaluation methods.",
+      "paper_id": "e7d69bf86a7265d7f5793eca6ae313e9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-16T10:12:48.153512"
 }

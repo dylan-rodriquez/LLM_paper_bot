@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz
+
+arXiv:2603.12564v1 Announce Type: new 
+Abstract: Tool-augmented LLM agents increasingly serve as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking-quality metrics that...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12564) | [📝 Analysis](e7d69bf86a7265d7f5793eca6ae313e9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

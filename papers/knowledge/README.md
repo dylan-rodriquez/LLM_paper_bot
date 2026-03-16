@@ -2,7 +2,29 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (5 total)
+
+### Shattering the Shortcut: A Topology-Regularized Benchmark for Multi-hop Medical Reasoning in LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Xing Zi, Xinying Zhou, Jinghao Xiao, Catarina Moreira, Mukesh Prasad
+
+arXiv:2603.12458v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) achieve expert-level performance on standard medical benchmarks through single-hop factual recall, they severely str...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12458) | [📝 Analysis](ca5e31e531119e24a97fd3bdffeaba74.md)
+
+---
+
+### DeCode: Decoupling Content and Delivery for Medical QA
+
+**Score:** 90.0 | **Published:** 2026-03-16 | **Authors:** Po-Jen Ko, Chen-Han Tsai, Yu-Shao Peng
+
+arXiv:2601.02123v3 Announce Type: replace 
+Abstract: Large language models (LLMs) exhibit strong medical knowledge and can generate factually accurate responses. However, existing models often fail to...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.02123) | [📝 Analysis](7ad1072a49be2e3268615dc8b5c7e626.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +60,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

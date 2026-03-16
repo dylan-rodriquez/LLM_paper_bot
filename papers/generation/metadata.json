@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
+      "authors": [
+        "Dayuan Fu, Shenyu Wu, Yunze Wu, Zerui Peng, Yaxing Huang, Jie Sun, Ji Zeng, Mohan Jiang, Lin Zhang, Yukun Li, Jiarui Hu, Liming Liu, Jinlong Hou, Pengfei Liu"
+      ],
+      "abstract": "arXiv:2603.13023v1 Announce Type: cross \nAbstract: Training capable software engineering (SWE) agents demands large-scale, executable, and verifiable environments that provide dynamic feedback loops for iterative code editing, test execution, and solution refinement. However, existing open-source datasets remain limited in scale and repository diversity, while industrial solutions are opaque with unreleased infrastructure, creating a prohibitive barrier for most academic research groups. We present OpenSWE, the largest fully transparent framework for SWE agent training in Python, comprising 45,320 executable Docker environments spanning over 12.8k repositories, with all Dockerfiles, evaluation scripts, and infrastructure fully open-sourced for reproducibility. OpenSWE is built through a multi-agent synthesis pipeline deployed across a 64-node distributed cluster, automating repository exploration, Dockerfile construction, evaluation script generation, and iterative test analysis. Beyond scale, we propose a quality-centric filtering pipeline that characterizes the inherent difficulty of each environment, filtering out instances that are either unsolvable or insufficiently challenging and retaining only those that maximize learning efficiency. With $891K spent on environment construction and an additional $576K on trajectory sampling and difficulty-aware curation, the entire project represents a total investment of approximately $1.47 million, yielding about 13,000 curated trajectories from roughly 9,000 quality guaranteed environments. Extensive experiments validate OpenSWE's effectiveness: OpenSWE-32B and OpenSWE-72B achieve 62.4% and 66.0% on SWE-bench Verified, establishing SOTA among Qwen2.5 series. Moreover, SWE-focused training yields substantial out-of-domain improvements, including up to 12 points on mathematical reasoning and 5 points on science benchmarks, without degrading factual recall.",
+      "url": "https://arxiv.org/abs/2603.13023",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "openswe",
+        "swe",
+        "scale",
+        "environment",
+        "environments",
+        "open",
+        "training",
+        "000",
+        "12",
+        "agent"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a critical bottleneck in SWE agent research \u2013 the lack of large, open, and reproducible environments. The scale of OpenSWE (45,320 environments) is impressive, and the fully open-sourced infrastructure is a significant contribution. While the multi-agent synthesis pipeline isn't entirely novel, its application to creating such a large and diverse dataset is a strong advancement, and the focus on reproducibility is excellent. The community will likely receive this work very positively given the current push for open science and the demand for better SWE agent training data.",
+      "paper_id": "c14f40a623251233aef860ee5d9b65a2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-03-16T10:12:48.154385"
 }

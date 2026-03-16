@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Longitudinal, Multinational, and Multilingual Corpus of News Coverage of the Russo-Ukrainian War
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Dikshya Mohanty, Taisiia Sabadyn, Jelwin Rodrigues, Chenlu Wang, Abhishek Kalugade, Ritwik Banerjee
+
+arXiv:2601.16309v2 Announce Type: replace 
+Abstract: We present DNIPRO, a corpus of 246K news articles from the Russo-Ukrainian war (Feb 2022 -- Aug 2024) spanning eleven outlets across five nation-st...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.16309) | [📝 Analysis](bb631933aa1f74c550a0d5ef58e0d967.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

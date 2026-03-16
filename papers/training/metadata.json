@@ -1663,7 +1663,167 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Prompt Injection as Role Confusion",
+      "authors": [
+        "Charles Ye, Jasmine Cui, Dylan Hadfield-Menell"
+      ],
+      "abstract": "arXiv:2603.12277v1 Announce Type: new \nAbstract: Language models remain vulnerable to prompt injection attacks despite extensive safety training. We trace this failure to role confusion: models infer roles from how text is written, not where it comes from. We design novel role probes to capture how models internally identify \"who is speaking.\" These reveal why prompt injection works: untrusted text that imitates a role inherits that role's authority. We test this insight by injecting spoofed reasoning into user prompts and tool outputs, achieving average success rates of 60% on StrongREJECT and 61% on agent exfiltration, across multiple open- and closed-weight models with near-zero baselines. Strikingly, the degree of internal role confusion strongly predicts attack success before generation begins. Our findings reveal a fundamental gap: security is defined at the interface but authority is assigned in latent space. More broadly, we introduce a unifying, mechanistic framework for prompt injection, demonstrating that diverse prompt-injection attacks exploit the same underlying role-confusion mechanism.",
+      "url": "https://arxiv.org/abs/2603.12277",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "role",
+        "injection",
+        "prompt",
+        "prompt injection",
+        "confusion",
+        "models",
+        "role confusion",
+        "attacks",
+        "authority",
+        "injection attacks"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical vulnerability in LLMs \u2013 prompt injection \u2013 and offers a compelling mechanistic explanation rooted in 'role confusion'. The development of 'role probes' is a novel approach to understanding model internals and predicting attack success. The high success rates achieved in their experiments, coupled with the predictive power of the role confusion metric, suggest a significant contribution to the field of LLM security.",
+      "paper_id": "1193bd4b1f2defb4655fd1ffb9876491"
+    },
+    {
+      "title": "Not Just the Destination, But the Journey: Reasoning Traces Causally Shape Generalization Behaviors",
+      "authors": [
+        "Pengcheng Wen, Yanxu Zhu, Jiapeng Sun, Han Zhu, Yujin Zhou, Chi-Min Chan, Sirui Han, Yike Guo"
+      ],
+      "abstract": "arXiv:2603.12397v1 Announce Type: new \nAbstract: Chain-of-Thought (CoT) is often viewed as a window into LLM decision-making, yet recent work suggests it may function merely as post-hoc rationalization. This raises a critical alignment question: Does the reasoning trace causally shape model generalization independent of the final answer? To isolate reasoning's causal effect, we design a controlled experiment holding final harmful answers constant while varying reasoning paths. We construct datasets with \\textit{Evil} reasoning embracing malice, \\textit{Misleading} reasoning rationalizing harm, and \\textit{Submissive} reasoning yielding to pressure. We train models (0.6B--14B parameters) under multiple paradigms, including question-thinking-answer (QTA), question-thinking (QT), and thinking-only (T-only), and evaluate them in both think and no-think modes. We find that: (1) CoT training could amplify harmful generalization more than standard fine-tuning; (2) distinct reasoning types induce distinct behavioral patterns aligned with their semantics, despite identical final answers; (3) training on reasoning without answer supervision (QT or T-only) is sufficient to alter behavior, proving reasoning carries an independent signal; and (4) these effects persist even when generating answers without reasoning, indicating deep internalization. Our findings demonstrate that reasoning content is causally potent, challenging alignment strategies that supervise only outputs.",
+      "url": "https://arxiv.org/abs/2603.12397",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "answer",
+        "answers",
+        "causally",
+        "final",
+        "generalization",
+        "question",
+        "textit",
+        "thinking",
+        "alignment"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial question in LLM alignment \u2013 whether reasoning traces *cause* harmful generalization or are merely post-hoc rationalizations. The controlled experimental design, with varying reasoning types while holding final answers constant, is a strong methodological contribution. The findings suggesting CoT can amplify harmful tendencies are significant and warrant further investigation, indicating a potential risk in relying solely on CoT for alignment.",
+      "paper_id": "d4a02210b2c9c6860e5760f4df834e33"
+    },
+    {
+      "title": "Marked Pedagogies: Examining Linguistic Biases in Personalized Automated Writing Feedback",
+      "authors": [
+        "Mei Tan, Lena Phalen, Dorottya Demszky"
+      ],
+      "abstract": "arXiv:2603.12471v1 Announce Type: new \nAbstract: Effective personalized feedback is critical to students' literacy development. Though LLM-powered tools now promise to automate such feedback at scale, LLMs are not language-neutral: they privilege standard academic English and reproduce social stereotypes, raising concerns about how \"personalization\" shapes the feedback students receive. We examine how four widely used LLMs (GPT-4o, GPT-3.5-turbo, Llama-3.3 70B, Llama-3.1 8B) adapt written feedback in response to student attributes. Using 600 eighth-grade persuasive essays from the PERSUADE dataset, we generated feedback under prompt conditions embedding gender, race/ethnicity, learning needs, achievement, and motivation. We analyze lexical shifts across model outputs by adapting the Marked Words framework. Our results reveal systematic, stereotype-aligned shifts in feedback conditioned on presumed student attributes--even when essay content was identical. Feedback for students marked by race, language, or disability often exhibited positive feedback bias and feedback withholding bias--overuse of praise, less substantive critique, and assumptions of limited ability. Across attributes, models tailored not only what content was emphasized but also how writing was judged and how students were addressed. We term these instructional orientations Marked Pedagogies and highlight the need for transparency and accountability in automated feedback tools.",
+      "url": "https://arxiv.org/abs/2603.12471",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "feedback",
+        "marked",
+        "students",
+        "attributes",
+        "automated",
+        "bias",
+        "content",
+        "feedback students",
+        "gpt",
+        "language"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critically important issue \u2013 the potential for bias in automated writing feedback systems powered by LLMs. The methodology, utilizing the Marked Words framework and a substantial dataset, appears rigorous. The findings, demonstrating stereotype-aligned feedback shifts, are concerning and highlight a significant ethical challenge in the deployment of these technologies. The paper's focus on personalization and its potential to exacerbate existing inequalities is highly relevant.",
+      "paper_id": "a7643c11ebc9507d849eb8fe03f05b57"
+    },
+    {
+      "title": "Continual Learning in Large Language Models: Methods, Challenges, and Opportunities",
+      "authors": [
+        "Hongyang Chen, Zhongwu Sun, Hongfei Ye, Kunchi Li, Xuemin Lin"
+      ],
+      "abstract": "arXiv:2603.12658v1 Announce Type: new \nAbstract: Continual learning (CL) has emerged as a pivotal paradigm to enable large language models (LLMs) to dynamically adapt to evolving knowledge and sequential tasks while mitigating catastrophic forgetting-a critical limitation of the static pre-training paradigm inherent to modern LLMs. This survey presents a comprehensive overview of CL methodologies tailored for LLMs, structured around three core training stages: continual pre-training, continual fine-tuning, and continual alignment.Beyond the canonical taxonomy of rehearsal-, regularization-, and architecture-based methods, we further subdivide each category by its distinct forgetting mitigation mechanisms and conduct a rigorous comparative analysis of the adaptability and critical improvements of traditional CL methods for LLMs. In doing so, we explicitly highlight core distinctions between LLM CL and traditional machine learning, particularly with respect to scale, parameter efficiency, and emergent capabilities. Our analysis covers essential evaluation metrics, including forgetting rates and knowledge transfer efficiency, along with emerging benchmarks for assessing CL performance. This survey reveals that while current methods demonstrate promising results in specific domains, fundamental challenges persist in achieving seamless knowledge integration across diverse tasks and temporal scales. This systematic review contributes to the growing body of knowledge on LLM adaptation, providing researchers and practitioners with a structured framework for understanding current achievements and future opportunities in lifelong learning for language models.",
+      "url": "https://arxiv.org/abs/2603.12658",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "cl",
+        "continual",
+        "knowledge",
+        "learning",
+        "llms",
+        "methods",
+        "forgetting",
+        "language",
+        "language models",
+        "models"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey paper addresses a highly relevant and critical problem in the field of LLMs \u2013 continual learning and mitigating catastrophic forgetting. The structured approach, categorizing CL methods around pre-training, fine-tuning, and alignment, and further subdividing them, demonstrates a rigorous analysis. The explicit acknowledgement of differences between LLM CL and traditional ML suggests a nuanced understanding of the challenges at scale, making it likely to be well-received by the community.",
+      "paper_id": "c51daccfcc7bb0165e7cf74efc3acea5"
+    },
+    {
+      "title": "RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline",
+      "authors": [
+        "Andr\\'e V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li"
+      ],
+      "abstract": "arXiv:2510.25941v3 Announce Type: replace \nAbstract: If we cannot inspect the training data of a large language model (LLM), how can we ever know what it has seen? We believe the most compelling evidence arises when the model itself freely reproduces the target content. As such, we propose RECAP, an agentic pipeline designed to elicit and verify memorized training data from LLM outputs. At the heart of RECAP is a feedback-driven loop, where an initial extraction attempt is evaluated by a secondary language model, which compares the output against a reference passage and identifies discrepancies. These are then translated into minimal correction hints, which are fed back into the target model to guide subsequent generations. In addition, to address alignment-induced refusals, RECAP includes a jailbreaking module that detects and overcomes such barriers. We evaluate RECAP on EchoTrace, a new benchmark spanning over 30 full books, and the results show that RECAP leads to substantial gains over single-iteration approaches. For instance, with GPT-4.1, the average ROUGE-L score for the copyrighted text extraction improved from 0.38 to 0.47 - a nearly 24% increase.",
+      "url": "https://arxiv.org/abs/2510.25941",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "recap",
+        "model",
+        "data",
+        "training",
+        "agentic",
+        "agentic pipeline",
+        "copyrighted",
+        "extraction",
+        "language",
+        "language model"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM research \u2013 understanding what data these models have memorized \u2013 in a novel way. The agentic pipeline with feedback and jailbreaking is a clever approach to elicit memorized content, and the EchoTrace benchmark provides a solid evaluation platform. While the core idea of iterative prompting isn't entirely new, the combination with an agentic loop and targeted correction hints demonstrates a significant advancement. The potential implications for copyright, privacy, and model auditing are substantial.",
+      "paper_id": "9b98d7c34e377bdc8cc605e1dc12de8d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-16T10:12:48.148800"
 }
