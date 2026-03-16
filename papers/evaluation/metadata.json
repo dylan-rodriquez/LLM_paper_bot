@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Semantic Invariance in Agentic AI",
+      "authors": [
+        "I. de Zarz\\`a, J. de Curt\\`o, Jordi Cabot, Pietro Manzoni, Carlos T. Calafate"
+      ],
+      "abstract": "arXiv:2603.13173v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coordination systems. However, deploying LLM agents in consequential applications requires assurance that their reasoning remains stable under semantically equivalent input variations, a property we term semantic invariance.Standard benchmark evaluations, which assess accuracy on fixed, canonical problem formulations, fail to capture this critical reliability dimension. To address this shortcoming, in this paper we present a metamorphic testing framework for systematically assessing the robustness of LLM reasoning agents, applying eight semantic-preserving transformations (identity, paraphrase, fact reordering, expansion, contraction, academic context, business context, and contrastive formulation) across seven foundation models spanning four distinct architectural families: Hermes (70B, 405B), Qwen3 (30B-A3B, 235B-A22B), DeepSeek-R1, and gpt-oss (20B, 120B). Our evaluation encompasses 19 multi-step reasoning problems across eight scientific domains. The results reveal that model scale does not predict robustness: the smaller Qwen3-30B-A3B achieves the highest stability (79.6% invariant responses, semantic similarity 0.91), while larger models exhibit greater fragility.",
+      "url": "https://arxiv.org/abs/2603.13173",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "reasoning",
+        "semantic",
+        "agents",
+        "models",
+        "30b",
+        "30b a3b",
+        "a3b",
+        "context",
+        "invariance",
+        "llm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 ensuring reasoning stability under semantic variations. The metamorphic testing framework is a strong methodological contribution, and the application across multiple models and architectural families adds to its rigor. While metamorphic testing isn't entirely novel, applying it specifically to semantic invariance in LLM agents is a valuable advancement, and the potential impact on building reliable AI systems is significant.",
+      "paper_id": "ccda62387ba097a2301a4e7ec9658a76"
+    },
+    {
+      "title": "Multilingual, Multimodal Pipeline for Creating Authentic and Structured Fact-Checked Claim Dataset",
+      "authors": [
+        "Z. Melce H\\\"us\\\"unbeyi, Virginie Mouilleron, Leonie Uhling, Daniel Foppe, Tatjana Scheffler, Djam\\'e Seddah"
+      ],
+      "abstract": "arXiv:2601.07985v2 Announce Type: replace \nAbstract: The rapid proliferation of misinformation across online platforms underscores the urgent need for robust, up-to-date, explainable, and multilingual fact-checking resources. However, existing datasets are limited in scope, often lacking multimodal evidence, structured annotations, and detailed links between claims, evidence, and verdicts. This paper introduces a comprehensive data collection and processing pipeline that constructs multimodal fact-checking datasets in French and German languages by aggregating ClaimReview feeds, scraping full debunking articles, normalizing heterogeneous claim verdicts, and enriching them with structured metadata and aligned visual content. We used state-of-the-art large language models (LLMs) and multimodal LLMs for (i) evidence extraction under predefined evidence categories and (ii) justification generation that links evidence to verdicts. Evaluation with G-Eval and human assessment demonstrates that our pipeline enables fine-grained comparison of fact-checking practices across different organizations or media markets, facilitates the development of more interpretable and evidence-grounded fact-checking models, and lays the groundwork for future research on multilingual, multimodal misinformation verification.",
+      "url": "https://arxiv.org/abs/2601.07985",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "evidence",
+        "fact",
+        "multimodal",
+        "checking",
+        "fact checking",
+        "multilingual",
+        "pipeline",
+        "structured",
+        "verdicts",
+        "claim"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 misinformation \u2013 with a well-defined and comprehensive approach. The use of LLMs and multimodal LLMs for evidence extraction and justification generation is a strong methodological choice, and the focus on French and German languages expands the scope beyond predominantly English datasets. The evaluation using G-Eval and human assessment suggests a rigorous approach, though the abstract only hints at the results.",
+      "paper_id": "4e73d0151f84d4785be99e719bb5582f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-16T10:12:48.155446"
 }

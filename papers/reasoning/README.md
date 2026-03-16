@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Towards AI Search Paradigm
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Yuchen Li, Hengyi Cai, Rui Kong, Xinran Chen, Jiamin Chen, Jun Yang, Haojie Zhang, Jiayi Li, Jiayi Wu, Yiqun Chen, Changle Qu, Wenwen Ye, Lixin Su, Xinyu Ma, Lingyong Yan, Long Xia, Daiting Shi, Junfeng Wang, Xiangyu Zhao, Jiashu Zhao, Haoyi Xiong, Shuaiqiang Wang, Dawei Yin
+
+arXiv:2506.17188v2 Announce Type: replace 
+Abstract: In this paper, we introduce the AI Search Paradigm, a comprehensive blueprint for next-generation search systems capable of emulating human informa...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.17188) | [📝 Analysis](73ff5c422ecfa60f37577c4a445c7934.md)
+
+---
+
+### A Decision-Theoretic Formalisation of Steganography With Applications to LLM Monitoring
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Usman Anwar, Julianna Piskorz, David D. Baek, David Africa, Jim Weatherall, Max Tegmark, Christian Schroeder de Witt, Mihaela van der Schaar, David Krueger
+
+arXiv:2602.23163v2 Announce Type: replace-cross 
+Abstract: Large language models are beginning to show steganographic capabilities. Such capabilities could allow misaligned models to evade oversight m...
+
+[📄 Full Paper](https://arxiv.org/abs/2602.23163) | [📝 Analysis](80d8e16371b2cd766d159a555ec88431.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*

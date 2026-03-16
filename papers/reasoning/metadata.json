@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Towards AI Search Paradigm",
+      "authors": [
+        "Yuchen Li, Hengyi Cai, Rui Kong, Xinran Chen, Jiamin Chen, Jun Yang, Haojie Zhang, Jiayi Li, Jiayi Wu, Yiqun Chen, Changle Qu, Wenwen Ye, Lixin Su, Xinyu Ma, Lingyong Yan, Long Xia, Daiting Shi, Junfeng Wang, Xiangyu Zhao, Jiashu Zhao, Haoyi Xiong, Shuaiqiang Wang, Dawei Yin"
+      ],
+      "abstract": "arXiv:2506.17188v2 Announce Type: replace \nAbstract: In this paper, we introduce the AI Search Paradigm, a comprehensive blueprint for next-generation search systems capable of emulating human information processing and decision-making. The paradigm employs a modular architecture of four LLM-powered agents (Master, Planner, Executor and Writer) that dynamically adapt to the full spectrum of information needs, from simple factual queries to complex multi-stage reasoning tasks. These agents collaborate dynamically through coordinated workflows to evaluate query complexity, decompose problems into executable plans, and orchestrate tool usage, task execution, and content synthesis. We systematically present key methodologies for realizing this paradigm, including task planning and tool integration, execution strategies, aligned and robust retrieval-augmented generation, and efficient LLM inference, spanning both algorithmic techniques and infrastructure-level optimizations. By providing an in-depth guide to these foundational components, this work aims to inform the development of trustworthy, adaptive, and scalable AI search systems.",
+      "url": "https://arxiv.org/abs/2506.17188",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "paradigm",
+        "search",
+        "ai",
+        "ai search",
+        "agents",
+        "dynamically",
+        "execution",
+        "generation",
+        "information",
+        "llm"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 the next generation of search systems. The proposed 'AI Search Paradigm' with its modular LLM agent architecture appears well-structured and tackles key challenges like task planning, tool integration, and RAG. While the concept of LLM agents isn't entirely new, the systematic approach to orchestrating them for a full search workflow and the focus on both algorithmic and infrastructure optimizations suggest a strong contribution.",
+      "paper_id": "73ff5c422ecfa60f37577c4a445c7934"
+    },
+    {
+      "title": "A Decision-Theoretic Formalisation of Steganography With Applications to LLM Monitoring",
+      "authors": [
+        "Usman Anwar, Julianna Piskorz, David D. Baek, David Africa, Jim Weatherall, Max Tegmark, Christian Schroeder de Witt, Mihaela van der Schaar, David Krueger"
+      ],
+      "abstract": "arXiv:2602.23163v2 Announce Type: replace-cross \nAbstract: Large language models are beginning to show steganographic capabilities. Such capabilities could allow misaligned models to evade oversight mechanisms. Yet principled methods to detect and quantify such behaviours are lacking. Classical definitions of steganography, and detection methods based on them, require a known reference distribution of non-steganographic signals. For the case of steganographic reasoning in LLMs, knowing such a reference distribution is not feasible; this renders these approaches inapplicable. We propose an alternative, \\textbf{decision-theoretic view of steganography}. Our central insight is that steganography creates an asymmetry in usable information between agents who can and cannot decode the hidden content (present within a steganographic signal), and this otherwise latent asymmetry can be inferred from the agents' observable actions. To formalise this perspective, we introduce generalised $\\mathcal{V}$-information: a utilitarian framework for measuring the amount of usable information within some input. We use this to define the \\textbf{steganographic gap} -- a measure that quantifies steganography by comparing the downstream utility of the steganographic signal to agents that can and cannot decode the hidden content. We empirically validate our formalism, and show that it can be used to detect, quantify, and mitigate steganographic reasoning in LLMs.",
+      "url": "https://arxiv.org/abs/2602.23163",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "steganographic",
+        "steganography",
+        "agents",
+        "information",
+        "agents decode",
+        "asymmetry",
+        "capabilities",
+        "content",
+        "decision",
+        "decision theoretic"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a very important and emerging problem \u2013 the potential for LLMs to communicate covertly, and the lack of tools to detect this. The decision-theoretic framing of steganography is a clever and potentially powerful approach, especially given the difficulty of establishing baseline distributions for LLM outputs. The abstract suggests a rigorous formalization, and the problem's relevance to LLM safety and alignment is high.",
+      "paper_id": "80d8e16371b2cd766d159a555ec88431"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-16T10:12:48.157142"
 }

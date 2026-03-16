@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "A Longitudinal, Multinational, and Multilingual Corpus of News Coverage of the Russo-Ukrainian War",
+      "authors": [
+        "Dikshya Mohanty, Taisiia Sabadyn, Jelwin Rodrigues, Chenlu Wang, Abhishek Kalugade, Ritwik Banerjee"
+      ],
+      "abstract": "arXiv:2601.16309v2 Announce Type: replace \nAbstract: We present DNIPRO, a corpus of 246K news articles from the Russo-Ukrainian war (Feb 2022 -- Aug 2024) spanning eleven outlets across five nation-states (Russia, Ukraine, U.S., U.K., China) and three languages. The corpus features comprehensive metadata and human-evaluated annotations for stance, sentiment, and topical framing, enabling systematic analysis of competing geopolitical narratives. It is uniquely suited for empirical studies of narrative divergence, media framing, and information warfare. Our exploratory analyses reveal how media outlets construct incompatible realities through divergent attribution and topical selection without direct refutation of opposing narratives. DNIPRO empowers empirical research on narrative evolution, cross-lingual information flow, and computational detection of implicit contradictions in fragmented information ecosystems.",
+      "url": "https://arxiv.org/abs/2601.16309",
+      "published_date": "2026-03-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "corpus",
+        "information",
+        "dnipro",
+        "empirical",
+        "framing",
+        "media",
+        "narrative",
+        "narratives",
+        "news",
+        "outlets"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper presents a valuable resource for studying a highly relevant and complex geopolitical event. The creation of a large, multilingual, and annotated corpus is a significant undertaking, and the exploratory analyses hint at interesting findings regarding narrative construction. While the methods described are largely standard corpus linguistics techniques, the scale and scope of the dataset, combined with the focus on narrative divergence, make this work highly promising.",
+      "paper_id": "bb631933aa1f74c550a0d5ef58e0d967"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-03-16T10:12:48.158572"
 }

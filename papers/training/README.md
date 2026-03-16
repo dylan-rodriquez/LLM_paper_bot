@@ -2,7 +2,62 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (57 total)
+
+### Prompt Injection as Role Confusion
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Charles Ye, Jasmine Cui, Dylan Hadfield-Menell
+
+arXiv:2603.12277v1 Announce Type: new 
+Abstract: Language models remain vulnerable to prompt injection attacks despite extensive safety training. We trace this failure to role confusion: models infer ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12277) | [📝 Analysis](1193bd4b1f2defb4655fd1ffb9876491.md)
+
+---
+
+### Not Just the Destination, But the Journey: Reasoning Traces Causally Shape Generalization Behaviors
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Pengcheng Wen, Yanxu Zhu, Jiapeng Sun, Han Zhu, Yujin Zhou, Chi-Min Chan, Sirui Han, Yike Guo
+
+arXiv:2603.12397v1 Announce Type: new 
+Abstract: Chain-of-Thought (CoT) is often viewed as a window into LLM decision-making, yet recent work suggests it may function merely as post-hoc rationalizatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12397) | [📝 Analysis](d4a02210b2c9c6860e5760f4df834e33.md)
+
+---
+
+### Marked Pedagogies: Examining Linguistic Biases in Personalized Automated Writing Feedback
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Mei Tan, Lena Phalen, Dorottya Demszky
+
+arXiv:2603.12471v1 Announce Type: new 
+Abstract: Effective personalized feedback is critical to students' literacy development. Though LLM-powered tools now promise to automate such feedback at scale,...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12471) | [📝 Analysis](a7643c11ebc9507d849eb8fe03f05b57.md)
+
+---
+
+### Continual Learning in Large Language Models: Methods, Challenges, and Opportunities
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Hongyang Chen, Zhongwu Sun, Hongfei Ye, Kunchi Li, Xuemin Lin
+
+arXiv:2603.12658v1 Announce Type: new 
+Abstract: Continual learning (CL) has emerged as a pivotal paradigm to enable large language models (LLMs) to dynamically adapt to evolving knowledge and sequent...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12658) | [📝 Analysis](c51daccfcc7bb0165e7cf74efc3acea5.md)
+
+---
+
+### RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline
+
+**Score:** 92.0 | **Published:** 2026-03-16 | **Authors:** Andr\'e V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li
+
+arXiv:2510.25941v3 Announce Type: replace 
+Abstract: If we cannot inspect the training data of a large language model (LLM), how can we ever know what it has seen? We believe the most compelling evide...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.25941) | [📝 Analysis](9b98d7c34e377bdc8cc605e1dc12de8d.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +632,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-16 10:12:48 UTC*
