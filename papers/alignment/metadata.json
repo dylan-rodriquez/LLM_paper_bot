@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "OmniCompliance-100K: A Multi-Domain, Rule-Grounded, Real-World Safety Compliance Dataset",
+      "authors": [
+        "Wenbin Hu, Huihao Jing, Haochen Shi, Changxuan Fan, Haoran Li, Yangqiu Song"
+      ],
+      "abstract": "arXiv:2603.13933v1 Announce Type: new \nAbstract: Ensuring the safety and compliance of large language models (LLMs) is of paramount importance. However, existing LLM safety datasets often rely on ad-hoc taxonomies for data generation and suffer from a significant shortage of rule-grounded, real-world cases that are essential for robustly protecting LLMs. In this work, we address this critical gap by constructing a comprehensive safety dataset from a compliance perspective. Using a powerful web-searching agent, we collect a rule-grounded, real-world case dataset OmniCompliance-100K, sourced from multi-domain authoritative references. The dataset spans 74 regulations and policies across a wide range of domains, including security and privacy regulations, content safety and user data privacy policies from leading AI companies and social media platforms, financial security requirements, medical device risk management standards, educational integrity guidelines, and protections of fundamental human rights. In total, our dataset contains 12,985 distinct rules and 106,009 associated real-world compliance cases. Our analysis confirms a strong alignment between the rules and their corresponding cases. We further conduct extensive benchmarking experiments to evaluate the safety and compliance capabilities of advanced LLMs across different model scales. Our experiments reveal several interesting findings that have great potential to offer valuable insights for future LLM safety research.",
+      "url": "https://arxiv.org/abs/2603.13933",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "compliance",
+        "dataset",
+        "real",
+        "real world",
+        "world",
+        "cases",
+        "grounded",
+        "grounded real",
+        "llms"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in LLM safety \u2013 the lack of robust, rule-grounded datasets. The use of a web-searching agent to construct a large-scale, multi-domain compliance dataset (OmniCompliance-100K) is a strong methodological contribution. While the core idea of dataset creation isn't entirely novel, the scale and grounding in real-world regulations elevate its quality and potential impact.",
+      "paper_id": "edf98dd5406bfe4d7d645bc31a92e32e"
+    },
+    {
+      "title": "MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering",
+      "authors": [
+        "Shaowei Guan, Yu Zhai, Hin Chi Kwok, Jiawei Du, Xinyu Feng, Jing Li, Harry Qin, Vivian Hui"
+      ],
+      "abstract": "arXiv:2603.14265v1 Announce Type: new \nAbstract: Recent advances in Retrieval-Augmented Generation (RAG) have enabled large language models (LLMs) to ground outputs in clinical evidence. However, connecting LLMs with external databases introduces the risk of contextual leakage: a subtle privacy threat where unique combinations of medical details enable patient re-identification even without explicit identifiers. Current benchmarks in healthcare heavily focus on accuracy, ignoring such privacy issues, despite strict regulations like Health Insurance Portability and Accountability Act (HIPAA) and General Data Protection Regulation (GDPR). To fill this gap, we present MedPriv-Bench, the first benchmark specifically designed to jointly evaluate privacy preservation and clinical utility in medical open-ended question answering. Our framework utilizes a multi-agent, human-in-the-loop pipeline to synthesize sensitive medical contexts and clinically relevant queries that create realistic privacy pressure. We establish a standardized evaluation protocol leveraging a pre-trained RoBERTa-Natural Language Inference (NLI) model as an automated judge to quantify data leakage, achieving an average of 85.9% alignment with human experts. Through an extensive evaluation of 9 representative LLMs, we demonstrate a pervasive privacy-utility trade-off. Our findings underscore the necessity of domain-specific benchmarks to validate the safety and efficacy of medical AI systems in privacy-sensitive environments.",
+      "url": "https://arxiv.org/abs/2603.14265",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "privacy",
+        "medical",
+        "language",
+        "llms",
+        "utility",
+        "answering",
+        "bench",
+        "benchmarks",
+        "clinical",
+        "data"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical gap in LLM healthcare applications \u2013 the evaluation of privacy risks alongside utility. The introduction of MedPriv-Bench is a significant contribution, offering a much-needed framework for assessing contextual leakage. The multi-agent, human-in-the-loop approach to benchmark creation appears robust, and the focus on real-world regulations (HIPAA, GDPR) strengthens the work's relevance.",
+      "paper_id": "3ab57f7c7ad36b0f39a5c629fba792a9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-17T10:12:24.919510"
 }

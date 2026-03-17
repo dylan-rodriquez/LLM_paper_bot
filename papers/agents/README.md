@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### CCTU: A Benchmark for Tool Use under Complex Constraints
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Junjie Ye, Guoqiang Zhang, Wenjie Fu, Tao Gui, Qi Zhang, Xuanjing Huang
+
+arXiv:2603.15309v1 Announce Type: new 
+Abstract: Solving problems through tool use under explicit constraints constitutes a highly challenging yet unavoidable scenario for large language models (LLMs)...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.15309) | [📝 Analysis](81854960a6e0f6549cb4073b1b319ca2.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-17 10:12:24 UTC*

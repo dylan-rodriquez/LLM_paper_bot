@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "QuarkMedBench: A Real-World Scenario Driven Benchmark for Evaluating Large Language Models",
+      "authors": [
+        "Yao Wu, Kangping Yin, Liang Dong, Zhenxin Ma, Shuting Xu, Xuehai Wang, Yuxuan Jiang, Tingting Yu, Yunqing Hong, Jiayi Liu, Rianzhe Huang, Shuxin Zhao, Haiping Hu, Wen Shang, Jian Xu, Guanjun Jiang"
+      ],
+      "abstract": "arXiv:2603.13691v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) excel on standardized medical exams, high scores often fail to translate to high-quality responses for real-world medical queries. Current evaluations rely heavily on multiple-choice questions, failing to capture the unstructured, ambiguous, and long-tail complexities inherent in genuine user inquiries. To bridge this gap, we introduce QuarkMedBench, an ecologically valid benchmark tailored for real-world medical LLM assessment. We compiled a massive dataset spanning Clinical Care, Wellness Health, and Professional Inquiry, comprising 20,821 single-turn queries and 3,853 multi-turn sessions. To objectively evaluate open-ended answers, we propose an automated scoring framework that integrates multi-model consensus with evidence-based retrieval to dynamically generate 220,617 fine-grained scoring rubrics (~9.8 per query). During evaluation, hierarchical weighting and safety constraints structurally quantify medical accuracy, key-point coverage, and risk interception, effectively mitigating the high costs and subjectivity of human grading. Experimental results demonstrate that the generated rubrics achieve a 91.8% concordance rate with clinical expert blind audits, establishing highly dependable medical reliability. Crucially, baseline evaluations on this benchmark reveal significant performance disparities among state-of-the-art models when navigating real-world clinical nuances, highlighting the limitations of conventional exam-based metrics. Ultimately, QuarkMedBench establishes a rigorous, reproducible yardstick for measuring LLM performance on complex health issues, while its framework inherently supports dynamic knowledge updates to prevent benchmark obsolescence.",
+      "url": "https://arxiv.org/abs/2603.13691",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "benchmark",
+        "real",
+        "real world",
+        "world",
+        "clinical",
+        "high",
+        "models",
+        "quarkmedbench",
+        "based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation for the medical domain \u2013 the disconnect between exam performance and real-world applicability. The creation of QuarkMedBench, a large and diverse dataset of real-world medical queries, is a significant contribution. The proposed automated scoring framework, leveraging multi-model consensus and evidence-based retrieval, appears robust and well-considered, suggesting a high-quality research effort.",
+      "paper_id": "37ef02519fadf372a2bb067fce1a0352"
+    },
+    {
+      "title": "Large Language Models Reproduce Racial Stereotypes When Used for Text Annotation",
+      "authors": [
+        "Petter T\\\"ornberg"
+      ],
+      "abstract": "arXiv:2603.13891v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for automated text annotation in tasks ranging from academic research to content moderation and hiring. Across 19 LLMs and two experiments totaling more than 4 million annotation judgments, we show that subtle identity cues embedded in text systematically bias annotation outcomes in ways that mirror racial stereotypes. In a names-based experiment spanning 39 annotation tasks, texts containing names associated with Black individuals are rated as more aggressive by 18 of 19 models and more gossipy by 18 of 19. Asian names produce a bamboo-ceiling profile: 17 of 19 models rate individuals as more intelligent, while 18 of 19 rate them as less confident and less sociable. Arab names elicit cognitive elevation alongside interpersonal devaluation, and all four minority groups are consistently rated as less self-disciplined. In a matched dialect experiment, the same sentence is judged significantly less professional (all 19 models, mean gap $-0.774$), less indicative of an educated speaker ($-0.688$), more toxic (18/19), and more angry (19/19) when written in African American Vernacular English rather than Standard American English. A notable exception occurs for name-based hireability, where fine-tuning appears to overcorrect, systematically favoring minority-named applicants. These findings suggest that using LLMs as automated annotators can embed socially patterned biases directly into the datasets and measurements that increasingly underpin research, governance, and decision-making.",
+      "url": "https://arxiv.org/abs/2603.13891",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "19",
+        "annotation",
+        "models",
+        "18",
+        "18 19",
+        "names",
+        "19 models",
+        "llms",
+        "text",
+        "american"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critically important and timely issue \u2013 the perpetuation of racial biases within LLMs used for text annotation. The large-scale experiments (4 million+ judgments) and consistent findings across 19 models demonstrate a robust and concerning pattern. While the methodology of using names and dialect isn't entirely novel, the breadth of the study and the systematic replication of stereotypes across multiple annotation tasks are significant. The findings have direct implications for fairness and responsible AI development.",
+      "paper_id": "fcece80bc8db12cee1b750675e749370"
+    },
+    {
+      "title": "Beyond Benchmark Islands: Toward Representative Trustworthiness Evaluation for Agentic AI",
+      "authors": [
+        "Jinhu Qi, Yifan Li, Minghao Zhao, Wentao Zhang, Zijian Zhang, Yaoman Li, Irwin King"
+      ],
+      "abstract": "arXiv:2603.14987v1 Announce Type: new \nAbstract: As agentic AI systems move beyond static question answering into open-ended, tool-augmented, and multi-step real-world workflows, their increased authority poses greater risks of system misuse and operational failures. However, current evaluation practices remain fragmented, measuring isolated capabilities such as coding, hallucination, jailbreak resistance, or tool use in narrowly defined settings. We argue that the central limitation is not merely insufficient coverage of evaluation dimensions, but the lack of a principled notion of representativeness: an agent's trustworthiness should be assessed over a representative socio-technical scenario distribution rather than a collection of disconnected benchmark instances. To this end, we propose the Holographic Agent Assessment Framework (HAAF), a systematic evaluation paradigm that characterizes agent trustworthiness over a scenario manifold spanning task types, tool interfaces, interaction dynamics, social contexts, and risk levels. The framework integrates four complementary components: (i) static cognitive and policy analysis, (ii) interactive sandbox simulation, (iii) social-ethical alignment assessment, and (iv) a distribution-aware representative sampling engine that jointly optimizes coverage and risk sensitivity -- particularly for rare but high-consequence tail risks that conventional benchmarks systematically overlook. These components are connected through an iterative Trustworthy Optimization Factory. Through cycles of red-team probing and blue-team hardening, this paradigm progressively narrows the vulnerabilities to meet deployment standards, shifting agent evaluation from benchmark islands toward representative, real-world trustworthiness. Code and data for the illustrative instantiation are available at https://github.com/TonyQJH/haaf-pilot.",
+      "url": "https://arxiv.org/abs/2603.14987",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "agent",
+        "representative",
+        "trustworthiness",
+        "benchmark",
+        "tool",
+        "agent trustworthiness",
+        "agentic",
+        "agentic ai",
+        "ai"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of agentic AI \u2013 the need for more representative and robust trustworthiness evaluations. The proposed 'Holographic Agent Assessment Framework' (HAAF) appears to be a well-motivated and systematic approach to address the limitations of current fragmented benchmarks. The focus on a 'scenario manifold' rather than isolated instances is a strong point, and the potential for improving the reliability of agentic systems is significant.",
+      "paper_id": "e70c2bb5fad20d44961895d3c5f2e77f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-17T10:12:24.917248"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "GhanaNLP Parallel Corpora: Comprehensive Multilingual Resources for Low-Resource Ghanaian Languages",
+      "authors": [
+        "Lawrence Adu Gyamfi, Paul Azunre, Stephen Edward Moore, Joel Budu, Akwasi Asare, Mich-Seth Owusu, Jonathan Ofori Asiamah"
+      ],
+      "abstract": "arXiv:2603.13793v1 Announce Type: new \nAbstract: Low resource languages present unique challenges for natural language processing due to the limited availability of digitized and well structured linguistic data. To address this gap, the GhanaNLP initiative has developed and curated 41,513 parallel sentence pairs for the Twi, Fante, Ewe, Ga, and Kusaal languages, which are widely spoken across Ghana yet remain underrepresented in digital spaces. Each dataset consists of carefully aligned sentence pairs between a local language and English. The data were collected, translated, and annotated by human professionals and enriched with standard structural metadata to ensure consistency and usability. These corpora are designed to support research, educational, and commercial applications, including machine translation, speech technologies, and language preservation. This paper documents the dataset creation methodology, structure, intended use cases, and evaluation, as well as their deployment in real world applications such as the Khaya AI translation engine. Overall, this work contributes to broader efforts to democratize AI by enabling inclusive and accessible language technologies for African languages.",
+      "url": "https://arxiv.org/abs/2603.13793",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "language",
+        "languages",
+        "ai",
+        "applications",
+        "corpora",
+        "data",
+        "dataset",
+        "ghananlp",
+        "low",
+        "low resource"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial gap in NLP resources for low-resource Ghanaian languages, which is highly significant. The creation of a parallel corpora of this size, curated by human professionals, demonstrates a strong methodology and potential for high-quality results. While the core approach of creating parallel corpora isn't novel, the specific focus on these languages and the scale of the dataset are valuable contributions. The community will likely receive this work positively given the increasing focus on inclusivity in NLP.",
+      "paper_id": "9890b012a02d02b14c6650ab30f14c51"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-17T10:12:24.918445"
 }

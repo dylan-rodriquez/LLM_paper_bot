@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### QuarkMedBench: A Real-World Scenario Driven Benchmark for Evaluating Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Yao Wu, Kangping Yin, Liang Dong, Zhenxin Ma, Shuting Xu, Xuehai Wang, Yuxuan Jiang, Tingting Yu, Yunqing Hong, Jiayi Liu, Rianzhe Huang, Shuxin Zhao, Haiping Hu, Wen Shang, Jian Xu, Guanjun Jiang
+
+arXiv:2603.13691v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) excel on standardized medical exams, high scores often fail to translate to high-quality responses for real-world me...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13691) | [📝 Analysis](37ef02519fadf372a2bb067fce1a0352.md)
+
+---
+
+### Large Language Models Reproduce Racial Stereotypes When Used for Text Annotation
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Petter T\"ornberg
+
+arXiv:2603.13891v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used for automated text annotation in tasks ranging from academic research to content moderation and hiri...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13891) | [📝 Analysis](fcece80bc8db12cee1b750675e749370.md)
+
+---
+
+### Beyond Benchmark Islands: Toward Representative Trustworthiness Evaluation for Agentic AI
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Jinhu Qi, Yifan Li, Minghao Zhao, Wentao Zhang, Zijian Zhang, Yaoman Li, Irwin King
+
+arXiv:2603.14987v1 Announce Type: new 
+Abstract: As agentic AI systems move beyond static question answering into open-ended, tool-augmented, and multi-step real-world workflows, their increased autho...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.14987) | [📝 Analysis](e70c2bb5fad20d44961895d3c5f2e77f.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-17 10:12:24 UTC*
