@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+      "authors": [
+        "Junjie Ye, Guoqiang Zhang, Wenjie Fu, Tao Gui, Qi Zhang, Xuanjing Huang"
+      ],
+      "abstract": "arXiv:2603.15309v1 Announce Type: new \nAbstract: Solving problems through tool use under explicit constraints constitutes a highly challenging yet unavoidable scenario for large language models (LLMs), requiring capabilities such as function calling, instruction following, and self-refinement. However, progress has been hindered by the absence of dedicated evaluations. To address this, we introduce CCTU, a benchmark for evaluating LLM tool use under complex constraints. CCTU is grounded in a taxonomy of 12 constraint categories spanning four dimensions (i.e., resource, behavior, toolset, and response). The benchmark comprises 200 carefully curated and challenging test cases across diverse tool-use scenarios, each involving an average of seven constraint types and an average prompt length exceeding 4,700 tokens. To enable reliable evaluation, we develop an executable constraint validation module that performs step-level validation and enforces compliance during multi-turn interactions between models and their environments. We evaluate nine state-of-the-art LLMs in both thinking and non-thinking modes. Results indicate that when strict adherence to all constraints is required, no model achieves a task completion rate above 20%. Further analysis reveals that models violate constraints in over 50% of cases, particularly in the resource and response dimensions. Moreover, LLMs demonstrate limited capacity for self-refinement even after receiving detailed feedback on constraint violations, highlighting a critical bottleneck in the development of robust tool-use agents. To facilitate future research, we release the data and code.",
+      "url": "https://arxiv.org/abs/2603.15309",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "constraints",
+        "tool",
+        "tool use",
+        "use",
+        "constraint",
+        "benchmark",
+        "cctu",
+        "llms",
+        "models",
+        "average"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the ability to handle complex constraints during tool use. The creation of CCTU, with its taxonomy of constraints and executable validation module, is a significant step forward. The high average prompt length and number of constraints per case suggest a challenging and realistic benchmark, likely to be well-received by the community. The focus on step-level validation is particularly strong.",
+      "paper_id": "81854960a6e0f6549cb4073b1b319ca2"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-03-17T10:12:24.922713"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### FLUX: Data Worth Training On
+
+**Score:** 90.0 | **Published:** 2026-03-17 | **Authors:** Gowtham, Sai Rupesh, Sanjay Kumar,  Saravanan, Venkata Chaithanya
+
+arXiv:2603.13972v1 Announce Type: new 
+Abstract: Modern large language model training is no longer limited by data availability, but by the inability of existing preprocessing pipelines to simultaneou...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13972) | [📝 Analysis](6d0a15b5d24c70fd01bfdbf66faf26bc.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-17 10:12:24 UTC*

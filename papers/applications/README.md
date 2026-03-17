@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### GhanaNLP Parallel Corpora: Comprehensive Multilingual Resources for Low-Resource Ghanaian Languages
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Lawrence Adu Gyamfi, Paul Azunre, Stephen Edward Moore, Joel Budu, Akwasi Asare, Mich-Seth Owusu, Jonathan Ofori Asiamah
+
+arXiv:2603.13793v1 Announce Type: new 
+Abstract: Low resource languages present unique challenges for natural language processing due to the limited availability of digitized and well structured lingu...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13793) | [📝 Analysis](9890b012a02d02b14c6650ab30f14c51.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-17 10:12:24 UTC*

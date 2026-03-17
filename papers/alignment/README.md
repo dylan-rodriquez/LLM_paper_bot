@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### OmniCompliance-100K: A Multi-Domain, Rule-Grounded, Real-World Safety Compliance Dataset
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Wenbin Hu, Huihao Jing, Haochen Shi, Changxuan Fan, Haoran Li, Yangqiu Song
+
+arXiv:2603.13933v1 Announce Type: new 
+Abstract: Ensuring the safety and compliance of large language models (LLMs) is of paramount importance. However, existing LLM safety datasets often rely on ad-h...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.13933) | [📝 Analysis](edf98dd5406bfe4d7d645bc31a92e32e.md)
+
+---
+
+### MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering
+
+**Score:** 92.0 | **Published:** 2026-03-17 | **Authors:** Shaowei Guan, Yu Zhai, Hin Chi Kwok, Jiawei Du, Xinyu Feng, Jing Li, Harry Qin, Vivian Hui
+
+arXiv:2603.14265v1 Announce Type: new 
+Abstract: Recent advances in Retrieval-Augmented Generation (RAG) have enabled large language models (LLMs) to ground outputs in clinical evidence. However, conn...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.14265) | [📝 Analysis](3ab57f7c7ad36b0f39a5c629fba792a9.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-17 10:12:24 UTC*

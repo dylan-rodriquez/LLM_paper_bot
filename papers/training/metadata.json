@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "FLUX: Data Worth Training On",
+      "authors": [
+        "Gowtham, Sai Rupesh, Sanjay Kumar,  Saravanan, Venkata Chaithanya"
+      ],
+      "abstract": "arXiv:2603.13972v1 Announce Type: new \nAbstract: Modern large language model training is no longer limited by data availability, but by the inability of existing preprocessing pipelines to simultaneously achieve massive scale and high data quality. Current approaches are forced to sacrifice one for the other: either aggressively filtering to improve quality at the cost of severe token loss, or retaining large volumes of data while introducing substantial noise. In this work, we introduce FLUX, a preprocessing pipeline specifically designed to break this long-standing trade-off by maximizing token retention while enforcing rigorous quality control. Models trained on FLUX-curated data consistently outperform prior methods. A 3B-parameter model trained on 60B tokens with FLUX achieves 32.14% MMLU accuracy, surpassing the previous state-of-the-art pipeline DCLM (31.98%) and significantly outperforming FineWeb (29.88%). FLUX achieves the same aggregate score as a model trained on DCLM data using only 39B tokens, resulting in a 34.4% reduction in training compute. At the data level, FLUX extracts 50B usable tokens from a single dump (CC-MAIN-2025-51), compared to 40B from DCLM (+25% retention). FLUX-Base yields 192B tokens, exceeding FineWeb's 170B while still maintaining superior quality. Overall, FLUX establishes a new state of the art in web-scale data preprocessing by demonstrating that high retention, strong quality control, and computational efficiency can be achieved simultaneously, redefining the limits of scalable dataset construction for modern language models.",
+      "url": "https://arxiv.org/abs/2603.13972",
+      "published_date": "2026-03-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "data",
+        "flux",
+        "quality",
+        "tokens",
+        "dclm",
+        "model",
+        "preprocessing",
+        "retention",
+        "trained",
+        "training"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM training \u2013 the trade-off between data quality and quantity. The reported performance gains (surpassing DCLM and significantly outperforming FineWeb on MMLU) suggest a robust and effective pipeline. The clear articulation of the problem and the quantifiable results contribute to a strong overall quality and high potential for positive reception within the community.",
+      "paper_id": "6d0a15b5d24c70fd01bfdbf66faf26bc"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-17T10:12:24.920573"
 }
