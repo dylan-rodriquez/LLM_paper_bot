@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### When AI Navigates the Fog of War
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** Ming Li, Xirui Li, Tianyi Zhou
+
+arXiv:2603.16642v1 Announce Type: cross 
+Abstract: Can AI reason about a war before its trajectory becomes historically obvious? Analyzing this capability is difficult because retrospective geopolitic...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16642) | [📝 Analysis](533977b3e38baa8b20488802d4822c05.md)
+
+---
+
+### Online Experiential Learning for Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-18 | **Authors:** Tianzhu Ye, Li Dong, Qingxiu Dong, Xun Wu, Shaohan Huang, Furu Wei
+
+arXiv:2603.16856v1 Announce Type: new 
+Abstract: The prevailing paradigm for improving large language models relies on offline training with human annotations or simulated environments, leaving the ri...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16856) | [📝 Analysis](ffc59aaf4192cec1dcadb3bba8e1688b.md)
+
+---
+
+### SWE-QA-Pro: A Representative Benchmark and Scalable Training Recipe for Repository-Level Code Understanding
+
+**Score:** 90.0 | **Published:** 2026-03-18 | **Authors:** Songcheng Cai, Zhiheng Lyu, Yuansheng Ni, Xiangchao Chen, Baichuan Zhou, Shenzhe Zhu, Yi Lu, Haozhe Wang, Chi Ruan, Benjamin Schneider, Weixu Zhang, Xiang Li, Andy Zheng, Yuyu Zhang, Ping Nie, Wenhu Chen
+
+arXiv:2603.16124v1 Announce Type: cross 
+Abstract: Agentic repository-level code understanding is essential for automating complex software engineering tasks, yet the field lacks reliable benchmarks. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16124) | [📝 Analysis](ad0eccf336ea11b91c9499ae03eb6cc0.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-18 10:05:04 UTC*

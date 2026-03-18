@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### NLP Occupational Emergence Analysis: How Occupations Form and Evolve in Real Time -- A Zero-Assumption Method Demonstrated on AI in the US Technology Workforce, 2022-2026
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** David Nordfors
+
+arXiv:2603.15998v1 Announce Type: new 
+Abstract: Occupations form and evolve faster than classification systems can track. We propose that a genuine occupation is a self-reinforcing structure (a bipar...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.15998) | [📝 Analysis](7f0af83c6c6110c1fc60fb258065c29a.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-18 10:05:04 UTC*
