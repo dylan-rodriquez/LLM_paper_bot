@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Answer Bubbles: Information Exposure in AI-Mediated Search
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** Michelle Huang, Agam Goyal, Koustuv Saha, Eshwar Chandrasekharan
+
+arXiv:2603.16138v1 Announce Type: cross 
+Abstract: Generative search systems are increasingly replacing link-based retrieval with AI-generated summaries, yet little is known about how these systems di...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16138) | [📝 Analysis](683e60b29d7d6b95cfda5aa44ebfbcea.md)
+
+---
+
+### Are Large Language Models Truly Smarter Than Humans?
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** Eshwar Reddy M, Sourav Karmakar
+
+arXiv:2603.16197v1 Announce Type: cross 
+Abstract: Public leaderboards increasingly suggest that large language models (LLMs) surpass human experts on benchmarks spanning academic knowledge, law, and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16197) | [📝 Analysis](57dcf827cf0a59a91694cf253a1e855d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-18 10:05:04 UTC*

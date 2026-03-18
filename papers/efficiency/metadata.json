@@ -159,7 +159,71 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era",
+      "authors": [
+        "Han Jang, Junhyeok Lee, Kyu Sung Choi"
+      ],
+      "abstract": "arXiv:2603.16131v1 Announce Type: new \nAbstract: The explosive growth of AI research has created unprecedented information overload, increasing the demand for scientific summarization at multiple levels of granularity beyond traditional abstracts. While LLMs are increasingly adopted for summarization, existing benchmarks remain limited in scale, target only a single granularity, and predate the LLM era. Moreover, since the release of ChatGPT in November 2022, researchers have rapidly adopted LLMs for drafting manuscripts themselves, fundamentally transforming scientific writing, yet no resource exists to analyze how this writing has evolved. To bridge these gaps, we introduce SciZoom, a benchmark comprising 44,946 papers from four top-tier ML venues (NeurIPS, ICLR, ICML, EMNLP) spanning 2020 to 2025, explicitly stratified into Pre-LLM and Post-LLM eras. SciZoom provides three hierarchical summarization targets (Abstract, Contributions, and TL;DR) achieving compression ratios up to 600:1, enabling both multi-granularity summarization research and temporal mining of scientific writing patterns. Our linguistic analysis reveals striking shifts in phrase patterns (up to 10x for formulaic expressions) and rhetorical style (23% decline in hedging), suggesting that LLM-assisted writing produces more confident yet homogenized prose. SciZoom serves as both a challenging benchmark and a unique resource for mining the evolution of scientific discourse in the generative AI era. Our code and dataset are publicly available on GitHub (https://github.com/janghana/SciZoom) and Hugging Face (https://huggingface.co/datasets/hanjang/SciZoom), respectively.",
+      "url": "https://arxiv.org/abs/2603.16131",
+      "published_date": "2026-03-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "scizoom",
+        "llm",
+        "scientific",
+        "summarization",
+        "writing",
+        "benchmark",
+        "era",
+        "granularity",
+        "abstract",
+        "adopted"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a very timely and important problem \u2013 the need for better scientific summarization in the age of LLMs and the changing nature of scientific writing. The creation of a large-scale, hierarchical benchmark (SciZoom) is a significant contribution, particularly the stratification into Pre-LLM and Post-LLM eras. While the core idea of a benchmark isn't groundbreaking, the specific focus and scale are strong, and the potential for driving progress in LLM-based scientific summarization is high.",
+      "paper_id": "d7db6434c1de6b97c77e3919cfc0071f"
+    },
+    {
+      "title": "VQKV: High-Fidelity and High-Ratio Cache Compression via Vector-Quantization",
+      "authors": [
+        "Yixuan Wang, Qingyu Shi, Jiayu Zhou, Dianbo Liu, Ziwei He, Zhouhan Lin"
+      ],
+      "abstract": "arXiv:2603.16435v1 Announce Type: new \nAbstract: The growing context length of Large Language Models (LLMs) enlarges the Key-Value (KV) cache, limiting deployment in resource-limited environments. Prior training-free approaches for KV cache compression typically rely on low-rank approximation or scalar quantization, which fail to simultaneously achieve high compression ratios and high reconstruction fidelity. We propose VQKV, a novel, training-free method introducing vector quantization (VQ) to obtain highly compressed KV representations while preserving high model fidelity, allowing for the representation of thousands of floating-point values with just a few integer indices. As a result, VQKV achieves an 82.8\\% compression ratio on LLaMA3.1-8B while retaining 98.6\\% of the baseline performance on LongBench and enabling 4.3x longer generation length on the same memory footprint.",
+      "url": "https://arxiv.org/abs/2603.16435",
+      "published_date": "2026-03-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "high",
+        "compression",
+        "cache",
+        "fidelity",
+        "kv",
+        "quantization",
+        "vqkv",
+        "cache compression",
+        "free",
+        "kv cache"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a critical bottleneck in LLM deployment \u2013 KV cache size \u2013 and proposes a novel solution using vector quantization. The reported results (82.8% compression with 98.6% performance retention and 4.3x longer generation length) are very strong, suggesting a well-executed and effective method. The training-free aspect is particularly appealing, and the problem is highly relevant to current LLM research and deployment challenges.",
+      "paper_id": "804fc2dd2a8c27c792e8e6d0e8b9dbe5"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2026-03-18T10:05:04.002058"
 }

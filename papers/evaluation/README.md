@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### MedArena: Comparing LLMs for Medicine-in-the-Wild Clinician Preferences
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** Eric Wu, Kevin Wu, Jason Hom, Paul H. Yi, Angela Zhang, Alejandro Lozano, Jeff Nirschl, Jeff Tangney, Kevin Byram, Braydon Dymm, Narender Annapureddy, Eric Topol, David Ouyang, James Zou
+
+arXiv:2603.15677v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly central to clinician workflows, spanning clinical decision support, medical education, and patient commun...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.15677) | [📝 Analysis](4ab497218e89288b4776955edeb737a8.md)
+
+---
+
+### Omnilingual MT: Machine Translation for 1,600 Languages
+
+**Score:** 92.0 | **Published:** 2026-03-18 | **Authors:** Omnilingual MT Team, Belen Alastruey, Niyati Bafna, Andrea Caciolai, Kevin Heffernan, Artyom Kozhevnikov, Christophe Ropers, Eduardo S\'anchez, Charles-Eric Saint-James, Ioannis Tsiamas, Chierh Cheng, Joe Chuang, Paul-Ambroise Duquenne, Mark Duppenthaler, Nate Ekberg, Cynthia Gao, Pere Llu\'is Huguet Cabot, Jo\~ao Maria Janeiro, Jean Maillard, Gabriel Mejia Gonzalez, Holger Schwenk, Edan Toledo, Arina Turkatenko, Albert Ventayol-Boada, Rashel Moritz, Alexandre Mourachko, Surya Parimi, Mary Williamson, Shireen Yates, David Dale, Marta R. Costa-juss\`a
+
+arXiv:2603.16309v1 Announce Type: new 
+Abstract: High-quality machine translation (MT) can scale to hundreds of languages, setting a high bar for multilingual systems. However, compared to the world's...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16309) | [📝 Analysis](20b593a5acf4766b89fbf73fd80d41e0.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-18 10:05:04 UTC*

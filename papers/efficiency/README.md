@@ -2,7 +2,29 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
+
+**Score:** 90.0 | **Published:** 2026-03-18 | **Authors:** Han Jang, Junhyeok Lee, Kyu Sung Choi
+
+arXiv:2603.16131v1 Announce Type: new 
+Abstract: The explosive growth of AI research has created unprecedented information overload, increasing the demand for scientific summarization at multiple leve...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16131) | [📝 Analysis](d7db6434c1de6b97c77e3919cfc0071f.md)
+
+---
+
+### VQKV: High-Fidelity and High-Ratio Cache Compression via Vector-Quantization
+
+**Score:** 90.0 | **Published:** 2026-03-18 | **Authors:** Yixuan Wang, Qingyu Shi, Jiayu Zhou, Dianbo Liu, Ziwei He, Zhouhan Lin
+
+arXiv:2603.16435v1 Announce Type: new 
+Abstract: The growing context length of Large Language Models (LLMs) enlarges the Key-Value (KV) cache, limiting deployment in resource-limited environments. Pri...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.16435) | [📝 Analysis](804fc2dd2a8c27c792e8e6d0e8b9dbe5.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +82,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-18 10:05:04 UTC*
