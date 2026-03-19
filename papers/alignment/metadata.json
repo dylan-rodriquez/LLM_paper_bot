@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Answer Bubbles: Information Exposure in AI-Mediated Search",
+      "authors": [
+        "Michelle Huang, Agam Goyal, Koustuv Saha, Eshwar Chandrasekharan"
+      ],
+      "abstract": "arXiv:2603.16138v1 Announce Type: cross \nAbstract: Generative search systems are increasingly replacing link-based retrieval with AI-generated summaries, yet little is known about how these systems differ in sources, language, and fidelity to cited material. We examine responses to 11,000 real search queries across four systems -- vanilla GPT, Search GPT, Google AI Overviews, and traditional Google Search -- at three levels: source diversity, linguistic characterization of the generated summary, and source-summary fidelity. We find that generative search systems exhibit significant \\textit{source-selection} biases in their citations, favoring certain sources over others. Incorporating search also selectively attenuates epistemic markers, reducing hedging by up to 60\\% while preserving confidence language in the AI-generated summaries. At the same time, AI summaries further compound the citation biases: Wikipedia and longer sources are disproportionately overrepresented, whereas cited social media content and negatively framed sources are substantially underrepresented. Our findings highlight the potential for \\textit{answer bubbles}, in which identical queries yield structurally different information realities across systems, with implications for user trust, source visibility, and the transparency of AI-mediated information access.",
+      "url": "https://arxiv.org/abs/2603.16138",
+      "published_date": "2026-03-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "search",
+        "ai",
+        "systems",
+        "source",
+        "sources",
+        "generated",
+        "information",
+        "summaries",
+        "ai generated",
+        "ai mediated"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the biases and characteristics of AI-mediated search. The methodology, comparing multiple systems across several dimensions (source diversity, linguistic characterization, fidelity), appears rigorous. The findings regarding source-selection biases and attenuation of epistemic markers are significant and suggest potential issues with the trustworthiness and objectivity of generative search. The work is well-positioned to be well-received by the IR community.",
+      "paper_id": "683e60b29d7d6b95cfda5aa44ebfbcea"
+    },
+    {
+      "title": "Are Large Language Models Truly Smarter Than Humans?",
+      "authors": [
+        "Eshwar Reddy M, Sourav Karmakar"
+      ],
+      "abstract": "arXiv:2603.16197v1 Announce Type: cross \nAbstract: Public leaderboards increasingly suggest that large language models (LLMs) surpass human experts on benchmarks spanning academic knowledge, law, and programming. Yet most benchmarks are fully public, their questions widely mirrored across the internet, creating systematic risk that models were trained on the very data used to evaluate them. This paper presents three complementary experiments forming a rigorous multi-method contamination audit of six frontier LLMs: GPT-4o, GPT-4o-mini, DeepSeek-R1, DeepSeek-V3, Llama-3.3-70B, and Qwen3-235B. Experiment 1 applies a lexical contamination detection pipeline to 513 MMLU questions across all 57 subjects, finding an overall contamination rate of 13.8% (18.1% in STEM, up to 66.7% in Philosophy) and estimated performance gains of +0.030 to +0.054 accuracy points by category. Experiment 2 applies a paraphrase and indirect-reference diagnostic to 100 MMLU questions, finding accuracy drops by an average of 7.0 percentage points under indirect reference, rising to 19.8 pp in both Law and Ethics. Experiment 3 applies TS-Guessing behavioral probes to all 513 questions and all six models, finding that 72.5% trigger memorization signals far above chance, with DeepSeek-R1 displaying a distributed memorization signature (76.6% partial reconstruction, 0% verbatim recall) that explains its anomalous Experiment 2 profile. All three experiments converge on the same contamination ranking: STEM > Professional > Social Sciences > Humanities.",
+      "url": "https://arxiv.org/abs/2603.16197",
+      "published_date": "2026-03-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "contamination",
+        "experiment",
+        "models",
+        "questions",
+        "applies",
+        "deepseek",
+        "experiment applies",
+        "finding",
+        "4o",
+        "513"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial issue in LLM evaluation \u2013 the potential for data contamination. The multi-method approach, combining lexical analysis and paraphrase diagnostics, demonstrates a rigorous attempt to quantify the extent of this problem. The findings, particularly the contamination rates in STEM and Philosophy, are significant and will likely prompt a re-evaluation of leaderboard results and benchmark design.",
+      "paper_id": "57dcf827cf0a59a91694cf253a1e855d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-19T09:56:19.660017"
 }
