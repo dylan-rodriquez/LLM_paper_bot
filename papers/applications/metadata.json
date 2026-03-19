@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "NLP Occupational Emergence Analysis: How Occupations Form and Evolve in Real Time -- A Zero-Assumption Method Demonstrated on AI in the US Technology Workforce, 2022-2026",
+      "authors": [
+        "David Nordfors"
+      ],
+      "abstract": "arXiv:2603.15998v1 Announce Type: new \nAbstract: Occupations form and evolve faster than classification systems can track. We propose that a genuine occupation is a self-reinforcing structure (a bipartite co-attractor) in which a shared professional vocabulary makes practitioners cohesive as a group, and the cohesive group sustains the vocabulary. This co-attractor concept enables a zero-assumption method for detecting occupational emergence from resume data, requiring no predefined taxonomy or job titles: we test vocabulary cohesion and population cohesion independently, with ablation to test whether the vocabulary is the mechanism binding the population. Applied to 8.2 million US resumes (2022-2026), the method correctly identifies established occupations and reveals a striking asymmetry for AI: a cohesive professional vocabulary formed rapidly in early 2024, but the practitioner population never cohered. The pre-existing AI community dissolved as the tools went mainstream, and the new vocabulary was absorbed into existing careers rather than binding a new occupation. AI appears to be a diffusing technology, not an emerging occupation. We discuss whether introducing an \"AI Engineer\" occupational category could catalyze population cohesion around the already-formed vocabulary, completing the co-attractor.",
+      "url": "https://arxiv.org/abs/2603.15998",
+      "published_date": "2026-03-19T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "vocabulary",
+        "ai",
+        "population",
+        "attractor",
+        "cohesion",
+        "cohesive",
+        "method",
+        "new",
+        "occupation",
+        "occupational"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a crucial problem \u2013 the rapid evolution of occupations outpacing traditional classification systems \u2013 with a novel, 'zero-assumption' methodology. The co-attractor concept and its application to resume data are promising, and the finding regarding the asymmetry in AI vocabulary vs. population cohesion is particularly insightful. The methodology appears rigorous, and the focus on real-time analysis is highly relevant to the current AI landscape.",
+      "paper_id": "7f0af83c6c6110c1fc60fb258065c29a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-19T09:56:19.654718"
 }
