@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### How Psychological Learning Paradigms Shaped and Constrained Artificial Intelligence
+
+**Score:** 90.0 | **Published:** 2026-03-20 | **Authors:** Alex Anvi Eponon, Ildar Batyrshin, Christian E. Maldonado-Sifuentes, Grigori Sidorov
+
+arXiv:2603.18203v1 Announce Type: new 
+Abstract: The dominant paradigms of artificial intelligence were shaped by learning theories from psychology: behaviorism inspired reinforcement learning, cognit...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18203) | [📝 Analysis](8fd80589801a637fd3fb305768134387.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-20 09:51:15 UTC*

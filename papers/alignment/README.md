@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### How LLMs Distort Our Written Language
+
+**Score:** 90.0 | **Published:** 2026-03-20 | **Authors:** Marwa Abdulhai, Isadora White, Yanming Wan, Ibrahim Qureshi, Joel Leibo, Max Kleiman-Weiner, Natasha Jaques
+
+arXiv:2603.18161v1 Announce Type: new 
+Abstract: Large language models (LLMs) are used by over a billion people globally, most often to assist with writing. In this work, we demonstrate that LLMs not ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18161) | [📝 Analysis](f4c8adf39c6736eed7587ffcffe696f8.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-20 09:51:15 UTC*

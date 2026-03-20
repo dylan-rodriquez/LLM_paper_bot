@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### TherapyGym: Evaluating and Aligning Clinical Fidelity and Safety in Therapy Chatbots
+
+**Score:** 92.0 | **Published:** 2026-03-20 | **Authors:** Fangrui Huang, Souhad Chbeir, Arpandeep Khatua, Sheng Wang, Sijun Tan, Kenan Ye, Lily Bailey, Merryn Daniel, Ryan Louie, Sanmi Koyejo, Ehsan Adeli
+
+arXiv:2603.18008v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used for mental-health support; yet prevailing evaluation methods--fluency metrics, preference tests, and...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18008) | [📝 Analysis](689107b7ada2630f2ba39149981c3310.md)
+
+---
+
+### BenchBrowser -- Collecting Evidence for Evaluating Benchmark Validity
+
+**Score:** 92.0 | **Published:** 2026-03-20 | **Authors:** Harshita Diddee, Gregory Yauney, Swabha Swayamdipta, Daphne Ippolito
+
+arXiv:2603.18019v1 Announce Type: new 
+Abstract: Do language model benchmarks actually measure what practitioners intend them to ? High-level metadata is too coarse to convey the granular reality of b...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18019) | [📝 Analysis](730dd95c7644b5d8ed8966e44aaacd59.md)
+
+---
+
+### When Names Change Verdicts: Intervention Consistency Reveals Systematic Bias in LLM Decision-Making
+
+**Score:** 92.0 | **Published:** 2026-03-20 | **Authors:** Abhinaba Basu, Pavan Chakraborty
+
+arXiv:2603.18530v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used for high-stakes decisions, yet their susceptibility to spurious features remains poorly characterize...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18530) | [📝 Analysis](3ad9cc8b6638ec29ee9f7494cfa3fadd.md)
+
+---
+
+### Detection Is Cheap, Routing Is Learned: Why Refusal-Based Alignment Evaluation Fails
+
+**Score:** 90.0 | **Published:** 2026-03-20 | **Authors:** Gregory N. Frank
+
+arXiv:2603.18280v1 Announce Type: cross 
+Abstract: Current alignment evaluation mostly measures whether models encode dangerous concepts and whether they refuse harmful requests. Both miss the layer w...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18280) | [📝 Analysis](7a1e6b4033c00e140583eb0cc8dc05a3.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-20 09:51:15 UTC*
