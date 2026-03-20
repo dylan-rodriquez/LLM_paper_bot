@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "How Psychological Learning Paradigms Shaped and Constrained Artificial Intelligence",
+      "authors": [
+        "Alex Anvi Eponon, Ildar Batyrshin, Christian E. Maldonado-Sifuentes, Grigori Sidorov"
+      ],
+      "abstract": "arXiv:2603.18203v1 Announce Type: new \nAbstract: The dominant paradigms of artificial intelligence were shaped by learning theories from psychology: behaviorism inspired reinforcement learning, cognitivism gave rise to deep learning and memory-augmented architectures, and constructivism influenced curriculum learning and compositional approaches. This paper argues that each AI paradigm inherited not only the strengths but the structural limitations of the psychological theory that inspired it. Reinforcement learning cannot account for the internal structure of knowledge, deep learning compresses representations into opaque parameter spaces resistant to principled update, and current integrative approaches lack a formal account of how new understanding is constructed from existing components. The paper further examines a cross-cultural divergence in the interpretation of rote learning, arguing that the Eastern conception of memorization as a structured, multi-phase precursor to understanding offers an underexploited bridge between psychological theory and AI methodology. Drawing on the systematicity debate and critique of Aizawa of both classicism and connectionism, this paper introduces ReSynth, a trimodular framework that separates reasoning (Intellect), purpose (Identity), and knowledge (Memory) as architecturally independent components. The paper traces the genealogy from psychological paradigm to AI method, diagnoses the inherited limitations at each stage, and argues that adaptability, the central challenge of artificial general intelligence requires a representational architecture in which systematic behavior is a necessary consequence rather than an accidental property.",
+      "url": "https://arxiv.org/abs/2603.18203",
+      "published_date": "2026-03-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "learning",
+        "paper",
+        "psychological",
+        "ai",
+        "artificial",
+        "intelligence",
+        "account",
+        "approaches",
+        "argues",
+        "artificial intelligence"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial, often overlooked connection between the foundations of AI and psychological learning theories. The argument that AI paradigms inherit limitations from their psychological inspirations is compelling and insightful. While the abstract doesn't detail specific novel methodologies, the framing of the problem and the cross-cultural perspective on rote learning suggest a potentially significant contribution to the field. The topic is highly relevant to current discussions about the limitations of current AI approaches and the need for more robust and human-aligned learning systems.",
+      "paper_id": "8fd80589801a637fd3fb305768134387"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-20T09:51:15.955571"
 }

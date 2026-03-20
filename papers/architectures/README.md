@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Automatic detection of Gen-AI texts: A comparative framework of neural models
+
+**Score:** 92.0 | **Published:** 2026-03-20 | **Authors:** Cristian Buttaro, Irene Amerini
+
+arXiv:2603.18750v1 Announce Type: new 
+Abstract: The rapid proliferation of Large Language Models has significantly increased the difficulty of distinguishing between human-written and AI generated te...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18750) | [📝 Analysis](80bc186d12afe14917669771c228d886.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-20 09:51:15 UTC*
