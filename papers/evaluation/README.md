@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Myeongseob Ko, Jihyun Jeong, Sumiran Singh Thakur, Gyuhak Kim, Ruoxi Jia
+
+arXiv:2603.18382v1 Announce Type: new 
+Abstract: Anonymization is widely treated as a practical safeguard because re-identifying anonymous records was historically costly, requiring domain expertise, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18382) | [📝 Analysis](561b436096ec84908c070314bcb41751.md)
+
+---
+
+### TherapyGym: Evaluating and Aligning Clinical Fidelity and Safety in Therapy Chatbots
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Fangrui Huang, Souhad Chbeir, Arpandeep Khatua, Sheng Wang, Sijun Tan, Kenan Ye, Lily Bailey, Merryn Daniel, Ryan Louie, Sanmi Koyejo, Ehsan Adeli
+
+arXiv:2603.18008v1 Announce Type: cross 
+Abstract: Large language models (LLMs) are increasingly used for mental-health support; yet prevailing evaluation methods--fluency metrics, preference tests, a...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18008) | [📝 Analysis](689107b7ada2630f2ba39149981c3310.md)
+
+---
+
+### BenchBrowser -- Collecting Evidence for Evaluating Benchmark Validity
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Harshita Diddee, Gregory Yauney, Swabha Swayamdipta, Daphne Ippolito
+
+arXiv:2603.18019v1 Announce Type: cross 
+Abstract: Do language model benchmarks actually measure what practitioners intend them to ? High-level metadata is too coarse to convey the granular reality of...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18019) | [📝 Analysis](730dd95c7644b5d8ed8966e44aaacd59.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

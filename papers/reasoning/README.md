@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Xin Wei Chia, Swee Liang Wong, Jonathan Pan
+
+arXiv:2603.18085v1 Announce Type: new 
+Abstract: Recent incidents have highlighted alarming cases where human-AI interactions led to negative psychological outcomes, including mental health crises and...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18085) | [📝 Analysis](3868a027bb0868b085cdf2b888dce538.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

@@ -383,7 +383,103 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Cognitive Mismatch in Multimodal Large Language Models for Discrete Symbol Understanding",
+      "authors": [
+        "Yinghui Li, Jiayi Kuang, Peng Xing, Daixian Liu, Junnan Dong, Shu-Yu Guo, Yangning Li, Qingyu Zhou, Wenhao Jiang, Hai-Tao Zheng, Ying Shen, Liang Lin, Philip S. Yu"
+      ],
+      "abstract": "arXiv:2603.18472v1 Announce Type: new \nAbstract: While Multimodal Large Language Models (MLLMs) have achieved remarkable success in interpreting natural scenes, their ability to process discrete symbols -- the fundamental building blocks of human cognition -- remains a critical open question. Unlike continuous visual data, symbols such as mathematical formulas, chemical structures, and linguistic characters require precise, deeper interpretation. This paper introduces a comprehensive benchmark to evaluate how top-tier MLLMs navigate these \"discrete semantic spaces\" across five domains: language, culture, mathematics, physics, and chemistry. Our investigation uncovers a counterintuitive phenomenon: models often fail at basic symbol recognition yet succeed in complex reasoning tasks, suggesting they rely on linguistic probability rather than true visual perception. By exposing this \"cognitive mismatch\", we highlight a significant gap in current AI capabilities: the struggle to truly perceive and understand the symbolic languages that underpin scientific discovery and abstract thought. This work offers a roadmap for developing more rigorous, human-aligned intelligent systems.",
+      "url": "https://arxiv.org/abs/2603.18472",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "discrete",
+        "language",
+        "models",
+        "abstract",
+        "cognitive",
+        "cognitive mismatch",
+        "human",
+        "language models",
+        "large",
+        "large language"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a crucial limitation of MLLMs \u2013 their handling of discrete symbols \u2013 and proposes a benchmark to systematically investigate this issue. The finding of a 'cognitive mismatch' where models excel at reasoning but struggle with basic symbol recognition is counterintuitive and significant. The work is well-motivated and the proposed benchmark seems valuable for future research, though the abstract doesn't detail the benchmark's specifics.",
+      "paper_id": "58bbd438e7e40edeb9bcfdccf6ae96d4"
+    },
+    {
+      "title": "MedForge: Interpretable Medical Deepfake Detection via Forgery-aware Reasoning",
+      "authors": [
+        "Zhihui Chen, Kai He, Qingyuan Lei, Bin Pu, Jian Zhang, Yuling Xu, Mengling Feng"
+      ],
+      "abstract": "arXiv:2603.18577v1 Announce Type: new \nAbstract: Text-guided image editors can now manipulate authentic medical scans with high fidelity, enabling lesion implantation/removal that threatens clinical trust and safety. Existing defenses are inadequate for healthcare. Medical detectors are largely black-box, while MLLM-based explainers are typically post-hoc, lack medical expertise, and may hallucinate evidence on ambiguous cases. We present MedForge, a data-and-method solution for pre-hoc, evidence-grounded medical forgery detection. We introduce MedForge-90K, a large-scale benchmark of realistic lesion edits across 19 pathologies with expert-guided reasoning supervision via doctor inspection guidelines and gold edit locations. Building on it, MedForge-Reasoner performs localize-then-analyze reasoning, predicting suspicious regions before producing a verdict, and is further aligned with Forgery-aware GSPO to strengthen grounding and reduce hallucinations. Experiments demonstrate state-of-the-art detection accuracy and trustworthy, expert-aligned explanations.",
+      "url": "https://arxiv.org/abs/2603.18577",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "medical",
+        "medforge",
+        "detection",
+        "forgery",
+        "reasoning",
+        "aligned",
+        "aware",
+        "evidence",
+        "expert",
+        "forgery aware"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the vulnerability of medical imaging to deepfakes. The introduction of a large-scale, expertly-annotated dataset (MedForge-90K) is a strong contribution, and the 'localize-then-analyze' reasoning approach with forgery-aware grounding appears promising. While the abstract doesn't detail the technical specifics extensively, the focus on interpretability and evidence grounding is crucial for clinical adoption.",
+      "paper_id": "1f5d3c449e7ef7d6973f3401f8fc6cbd"
+    },
+    {
+      "title": "DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models",
+      "authors": [
+        "Jiaqi Xiong, Yunjia Qi, Qi Cao, Yu Zheng, Weisheng Xu, Ziteng Wang, Ruofan Liao, Yutong Zhang, Sichen Liu"
+      ],
+      "abstract": "arXiv:2603.18048v1 Announce Type: new \nAbstract: Recent Audio Multimodal Large Language Models (Audio MLLMs) demonstrate impressive performance on speech benchmarks, yet it remains unclear whether these models genuinely process acoustic signals or rely on text-based semantic inference. To systematically study this question, we introduce DEAF (Diagnostic Evaluation of Acoustic Faithfulness), a benchmark of over 2,700 conflict stimuli spanning three acoustic dimensions: emotional prosody, background sounds, and speaker identity. Then, we design a controlled multi-level evaluation framework that progressively increases textual influence, ranging from semantic conflicts in the content to misleading prompts and their combination, allowing us to disentangle content-driven bias from prompt-induced sycophancy. We further introduce diagnostic metrics to quantify model reliance on textual cues over acoustic signals. Our evaluation of seven Audio MLLMs reveals a consistent pattern of text dominance: models are sensitive to acoustic variations, yet predictions are predominantly driven by textual inputs, revealing a gap between high performance on standard speech benchmarks and genuine acoustic understanding.",
+      "url": "https://arxiv.org/abs/2603.18048",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "acoustic",
+        "audio",
+        "evaluation",
+        "models",
+        "diagnostic",
+        "textual",
+        "acoustic faithfulness",
+        "acoustic signals",
+        "audio mllms",
+        "benchmark"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial question in the rapidly evolving field of Audio MLLMs \u2013 whether they truly understand acoustic information or simply rely on textual cues. The introduction of the DEAF benchmark and the controlled evaluation framework are well-designed to systematically investigate this issue. The focus on disentangling content-driven bias and prompt-induced sycophancy is particularly strong, and the initial findings of text dominance are significant. The clear presentation and focus on diagnostic metrics suggest a high-quality and impactful contribution.",
+      "paper_id": "1d652ba1129aea921265f13882bb626b"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-21T09:40:59.269173"
 }

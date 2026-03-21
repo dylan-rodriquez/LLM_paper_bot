@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "NANOZK: Layerwise Zero-Knowledge Proofs for Verifiable Large Language Model Inference",
+      "authors": [
+        "Zhaohui Geoffrey Wang"
+      ],
+      "abstract": "arXiv:2603.18046v1 Announce Type: cross \nAbstract: When users query proprietary LLM APIs, they receive outputs with no cryptographic assurance that the claimed model was actually used. Service providers could substitute cheaper models, apply aggressive quantization, or return cached responses - all undetectable by users paying premium prices for frontier capabilities. We present METHOD, a zero-knowledge proof system that makes LLM inference verifiable: users can cryptographically confirm that outputs correspond to the computation of a specific model.\n  Our approach exploits the fact that transformer inference naturally decomposes into independent layer computations, enabling a layerwise proof framework where each layer generates a constant-size proof regardless of model width. This decomposition sidesteps the scalability barrier facing monolithic approaches and enables parallel proving. We develop lookup table approximations for non-arithmetic operations (softmax, GELU, LayerNorm) that introduce zero measurable accuracy loss, and introduce Fisher information-guided verification for scenarios where proving all layers is impractical.\n  On transformer models up to d=128, METHOD generates constant-size layer proofs of 5.5KB (2.1KB attention + 3.5KB MLP) with 24 ms verification time. Compared to EZKL, METHOD achieves 70x smaller proofs and 5.7x faster proving time at d=128, while maintaining formal soundness guarantees (epsilon < 1e-37). Lookup approximations preserve model perplexity exactly, enabling verification without quality compromise.",
+      "url": "https://arxiv.org/abs/2603.18046",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "inference",
+        "layer",
+        "method",
+        "proof",
+        "proofs",
+        "proving",
+        "users",
+        "verification",
+        "zero"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a very important and timely problem \u2013 the lack of verifiability in LLM API outputs. The layerwise proof system is a clever approach to tackling the scalability issues inherent in ZK proofs for large models, and the use of lookup tables for non-arithmetic operations is a practical optimization. While the abstract doesn't detail the full rigor of the proofs, the proposed method appears well-motivated and potentially impactful.",
+      "paper_id": "d58f8d88a8699ab935d3ca855b647f81"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-21T09:40:59.276452"
 }

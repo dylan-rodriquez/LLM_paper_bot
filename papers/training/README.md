@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Reasonably reasoning AI agents can avoid game-theoretic failures in zero-shot, provably
+
+**Score:** 90.0 | **Published:** 2026-03-21 | **Authors:** Enoch Hyunwook Kang
+
+arXiv:2603.18563v1 Announce Type: new 
+Abstract: AI agents are increasingly deployed in interactive economic environments characterized by repeated AI-AI interactions. Despite AI agents' advanced capa...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18563) | [📝 Analysis](e4fc9e2493dd754febea857f4640d8ef.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

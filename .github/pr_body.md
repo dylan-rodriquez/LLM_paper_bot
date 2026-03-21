@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 14
+- **Average Significance Score:** 91.6/100
+- **Categories Updated:** 8
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,56 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Multimodal (3 new papers)
+- **Cognitive Mismatch in Multimodal Large Language Models for Discrete Symbol Understanding** (Score: 92.0)
+  - This paper tackles a crucial limitation of MLLMs – their handling of discrete symbols – and proposes a benchmark to systematically investigate this issue. The finding of a 'cognitive mismatch' where models excel at reasoning but struggle with basic symbol recognition is counterintuitive and significant. The work is well-motivated and the proposed benchmark seems valuable for future research, though the abstract doesn't detail the benchmark's specifics.
+- **MedForge: Interpretable Medical Deepfake Detection via Forgery-aware Reasoning** (Score: 92.0)
+  - This paper addresses a highly significant and timely problem – the vulnerability of medical imaging to deepfakes. The introduction of a large-scale, expertly-annotated dataset (MedForge-90K) is a strong contribution, and the 'localize-then-analyze' reasoning approach with forgery-aware grounding appears promising. While the abstract doesn't detail the technical specifics extensively, the focus on interpretability and evidence grounding is crucial for clinical adoption.
+- **DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models** (Score: 90.0)
+  - This paper addresses a crucial question in the rapidly evolving field of Audio MLLMs – whether they truly understand acoustic information or simply rely on textual cues. The introduction of the DEAF benchmark and the controlled evaluation framework are well-designed to systematically investigate this issue. The focus on disentangling content-driven bias and prompt-induced sycophancy is particularly strong, and the initial findings of text dominance are significant. The clear presentation and focus on diagnostic metrics suggest a high-quality and impactful contribution.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+- **Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction** (Score: 92.0)
+  - This research addresses a critically important and timely problem – the potential for LLMs to cause psychological harm. The development of 'Dark models' through 'Multi-Trait Subspace Steering' appears to be a novel approach to proactively study and understand these risks, which is difficult to do with organic interactions. The methodology seems rigorous, and the potential impact on AI safety and responsible development is substantial. The abstract suggests a well-defined framework and evaluation strategy.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Evaluation (3 new papers)
+- **From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents** (Score: 92.0)
+  - This paper addresses a highly relevant and timely privacy concern regarding the capabilities of LLMs to de-anonymize data. The formalization of 'inference-driven linkage' and systematic evaluation across multiple settings, including established datasets and a novel benchmark, demonstrate a rigorous approach. The potential for LLMs to bypass traditional anonymization techniques is significant, making this work likely to be well-received and impactful.
+- **TherapyGym: Evaluating and Aligning Clinical Fidelity and Safety in Therapy Chatbots** (Score: 92.0)
+  - This paper addresses a crucial gap in evaluating therapy chatbots, moving beyond superficial metrics to focus on clinical fidelity and safety. The introduction of THERAPYGYM and THERAPYJUDGEBENCH provides valuable resources for the community, and the use of CTRS for automated scoring is a strong methodological choice. The focus on mitigating bias in LLM-based judges further strengthens the work, making it highly relevant and likely to be well-received.
+- **BenchBrowser -- Collecting Evidence for Evaluating Benchmark Validity** (Score: 92.0)
+  - This paper addresses a crucial and often overlooked problem in the rapidly evolving field of LLMs: the validity of benchmarks. The introduction of BenchBrowser and the demonstrated ability to identify issues with content and convergent validity are strong contributions. The human study validation adds rigor, and the potential to improve benchmark design and model evaluation is significant, suggesting a positive reception within the community.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Training (1 new papers)
+- **Reasonably reasoning AI agents can avoid game-theoretic failures in zero-shot, provably** (Score: 90.0)
+  - This paper tackles a crucial problem in multi-agent systems – the lack of stable equilibria when deploying powerful AI agents. The claim of achieving Nash-like play 'zero-shot' with off-the-shelf reasoning agents is significant, and the theoretical proof adds substantial rigor. While the term 'reasonably reasoning' needs further clarification, the potential to avoid costly post-training alignment is highly valuable.
+
+## Agents (1 new papers)
+- **I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems** (Score: 92.0)
+  - This research tackles a crucial and timely problem – the reliability and integrity of LLMs in governance roles. The empirical approach, evaluating corruption in multi-agent systems across different governance structures, is strong. While the core idea of needing pre-deployment integrity checks isn't entirely novel, the scale of the simulation (28,112 transcript segments) and the finding that governance structure is a stronger driver of corruption than model identity are significant. The work appears well-suited for publication and is likely to generate considerable discussion.
+
+## Alignment (2 new papers)
+- **Unmasking Algorithmic Bias in Predictive Policing: A GAN-Based Simulation Framework with Multi-City Temporal Analysis** (Score: 92.0)
+  - This research tackles a highly significant and timely problem – algorithmic bias in predictive policing. The use of a GAN-based simulation framework coupled with a Noisy OR model is a strong methodological approach, and the multi-city temporal analysis adds robustness. While GANs are not entirely novel, applying them to this specific problem with a focus on quantifying bias propagation is a valuable contribution. The large datasets used (Baltimore and Chicago) further strengthen the work.
+- **Man and machine: artificial intelligence and judicial decision making** (Score: 92.0)
+  - This paper tackles a highly significant and timely issue – the intersection of AI and judicial decision-making. The synthetic review approach, connecting AI performance, human biases, and AI-human interaction, is a strong methodological choice. While the abstract suggests a comprehensive review, the novelty appears to lie more in the *integration* of existing research rather than presenting entirely new findings or methods, but the potential impact on fairness and accountability in the justice system is substantial.
 
 ## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+- **Behavioral Fingerprints for LLM Endpoint Stability and Identity** (Score: 92.0)
+  - This paper addresses a crucial and often overlooked problem in LLM deployment: ensuring behavioral stability beyond simple uptime metrics. The 'Stability Monitor' approach, using output distribution fingerprinting and energy distance, appears well-reasoned and provides a practical solution for detecting subtle but impactful model changes. The use of permutation tests for statistical significance adds rigor, and the problem is highly relevant given the rapid pace of LLM updates and the need for reliable AI applications.
+- **MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)** (Score: 90.0)
+  - This paper addresses a very timely and important problem – the unique security challenges posed by the Model Context Protocol (MCP). The systematic methodology for creating the taxonomy (decomposition, cross-mapping, incident synthesis, remediation) is strong, and the mapping to existing frameworks (STRIDE, OWASP) adds significant value. While the core idea of a taxonomy isn't groundbreaking, the focus on MCP-specific threats and the identified semantic attack surface demonstrate a clear advancement over existing work, suggesting a positive reception within the security and LLM communities.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Architectures (1 new papers)
+- **NANOZK: Layerwise Zero-Knowledge Proofs for Verifiable Large Language Model Inference** (Score: 92.0)
+  - This paper addresses a very important and timely problem – the lack of verifiability in LLM API outputs. The layerwise proof system is a clever approach to tackling the scalability issues inherent in ZK proofs for large models, and the use of lookup tables for non-arithmetic operations is a practical optimization. While the abstract doesn't detail the full rigor of the proofs, the proposed method appears well-motivated and potentially impactful.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Multimodal** (3), **Reasoning** (1), **Evaluation** (3), **Training** (1), **Agents** (1), **Alignment** (2), **Applications** (2), **Architectures** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

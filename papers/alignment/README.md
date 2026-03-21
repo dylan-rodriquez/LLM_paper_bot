@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Unmasking Algorithmic Bias in Predictive Policing: A GAN-Based Simulation Framework with Multi-City Temporal Analysis
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Pronob Kumar Barman, Pronoy Kumar Barman
+
+arXiv:2603.18987v1 Announce Type: new 
+Abstract: Predictive policing systems that direct patrol resources based on algorithmically generated crime forecasts have been widely deployed across US cities,...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18987) | [📝 Analysis](ed91c317fb430fccf374f81f1c2d8179.md)
+
+---
+
+### Man and machine: artificial intelligence and judicial decision making
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Arthur Dyevre, Ahmad Shahvaroughi
+
+arXiv:2603.19042v1 Announce Type: new 
+Abstract: The integration of artificial intelligence (AI) technologies into judicial decision-making - particularly in pretrial, sentencing, and parole contexts ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19042) | [📝 Analysis](eb1c0a6fd6e15310d14ae52c5bc35b2f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

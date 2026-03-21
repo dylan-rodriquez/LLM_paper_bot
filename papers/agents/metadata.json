@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems",
+      "authors": [
+        "Vedanta S P, Ponnurangam Kumaraguru"
+      ],
+      "abstract": "arXiv:2603.18894v1 Announce Type: new \nAbstract: Large language models are increasingly proposed as autonomous agents for high-stakes public workflows, yet we lack systematic evidence about whether they would follow institutional rules when granted authority. We present evidence that integrity in institutional AI should be treated as a pre-deployment requirement rather than a post-deployment assumption. We evaluate multi-agent governance simulations in which agents occupy formal governmental roles under different authority structures, and we score rule-breaking and abuse outcomes with an independent rubric-based judge across 28,112 transcript segments. While we advance this position, the core contribution is empirical: among models operating below saturation, governance structure is a stronger driver of corruption-related outcomes than model identity, with large differences across regimes and model--governance pairings. Lightweight safeguards can reduce risk in some settings but do not consistently prevent severe failures. These results imply that institutional design is a precondition for safe delegation: before real authority is assigned to LLM agents, systems should undergo stress testing under governance-like constraints with enforceable rules, auditable logs, and human oversight on high-impact actions.",
+      "url": "https://arxiv.org/abs/2603.18894",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "governance",
+        "agents",
+        "authority",
+        "institutional",
+        "agent",
+        "agent governance",
+        "corruption",
+        "deployment",
+        "evidence",
+        "high"
+      ],
+      "subject_classification": "agents",
+      "justification": "This research tackles a crucial and timely problem \u2013 the reliability and integrity of LLMs in governance roles. The empirical approach, evaluating corruption in multi-agent systems across different governance structures, is strong. While the core idea of needing pre-deployment integrity checks isn't entirely novel, the scale of the simulation (28,112 transcript segments) and the finding that governance structure is a stronger driver of corruption than model identity are significant. The work appears well-suited for publication and is likely to generate considerable discussion.",
+      "paper_id": "7e823e91151ded632273c0311286e5b0"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-03-21T09:40:59.274297"
 }
