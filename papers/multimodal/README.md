@@ -2,7 +2,40 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (15 total)
+
+### Cognitive Mismatch in Multimodal Large Language Models for Discrete Symbol Understanding
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Yinghui Li, Jiayi Kuang, Peng Xing, Daixian Liu, Junnan Dong, Shu-Yu Guo, Yangning Li, Qingyu Zhou, Wenhao Jiang, Hai-Tao Zheng, Ying Shen, Liang Lin, Philip S. Yu
+
+arXiv:2603.18472v1 Announce Type: new 
+Abstract: While Multimodal Large Language Models (MLLMs) have achieved remarkable success in interpreting natural scenes, their ability to process discrete symbo...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18472) | [📝 Analysis](58bbd438e7e40edeb9bcfdccf6ae96d4.md)
+
+---
+
+### MedForge: Interpretable Medical Deepfake Detection via Forgery-aware Reasoning
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Zhihui Chen, Kai He, Qingyuan Lei, Bin Pu, Jian Zhang, Yuling Xu, Mengling Feng
+
+arXiv:2603.18577v1 Announce Type: new 
+Abstract: Text-guided image editors can now manipulate authentic medical scans with high fidelity, enabling lesion implantation/removal that threatens clinical t...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18577) | [📝 Analysis](1f5d3c449e7ef7d6973f3401f8fc6cbd.md)
+
+---
+
+### DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-21 | **Authors:** Jiaqi Xiong, Yunjia Qi, Qi Cao, Yu Zheng, Weisheng Xu, Ziteng Wang, Ruofan Liao, Yutong Zhang, Sichen Liu
+
+arXiv:2603.18048v1 Announce Type: new 
+Abstract: Recent Audio Multimodal Large Language Models (Audio MLLMs) demonstrate impressive performance on speech benchmarks, yet it remains unclear whether the...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18048) | [📝 Analysis](1d652ba1129aea921265f13882bb626b.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +170,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

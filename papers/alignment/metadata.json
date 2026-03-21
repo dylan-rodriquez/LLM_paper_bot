@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Unmasking Algorithmic Bias in Predictive Policing: A GAN-Based Simulation Framework with Multi-City Temporal Analysis",
+      "authors": [
+        "Pronob Kumar Barman, Pronoy Kumar Barman"
+      ],
+      "abstract": "arXiv:2603.18987v1 Announce Type: new \nAbstract: Predictive policing systems that direct patrol resources based on algorithmically generated crime forecasts have been widely deployed across US cities, yet their tendency to encode and amplify racial disparities remains poorly understood in quantitative terms. We present a reproducible simulation framework that couples a Generative Adversarial Network GAN with a Noisy OR patrol detection model to measure how racial bias propagates through the full enforcement pipeline from crime occurrence to police contact. Using 145000 plus Part 1 crime records from Baltimore 2017 to 2019 and 233000 plus records from Chicago 2022, augmented with US Census ACS demographic data, we compute four monthly bias metrics across 264 city year mode observations: the Disparate Impact Ratio DIR, Demographic Parity Gap, Gini Coefficient, and a composite Bias Amplification Score.\n  Our experiments reveal extreme and year variant bias in Baltimores detected mode, with mean annual DIR up to 15714 in 2019, moderate under detection of Black residents in Chicago DIR equals 0.22, and persistent Gini coefficients of 0.43 to 0.62 across all conditions. We further demonstrate that a Conditional Tabular GAN CTGAN debiasing approach partially redistributes detection rates but cannot eliminate structural disparity without accompanying policy intervention. Socioeconomic regression analysis confirms strong correlations between neighborhood racial composition and detection likelihood Pearson r equals 0.83 for percent White and r equals negative 0.81 for percent Black. A sensitivity analysis over patrol radius, officer count, and citizen reporting probability reveals that outcomes are most sensitive to officer deployment levels. The code and data are publicly available at this repository.",
+      "url": "https://arxiv.org/abs/2603.18987",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "detection",
+        "analysis",
+        "crime",
+        "dir",
+        "equals",
+        "gan",
+        "patrol",
+        "racial",
+        "2019"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly significant and timely problem \u2013 algorithmic bias in predictive policing. The use of a GAN-based simulation framework coupled with a Noisy OR model is a strong methodological approach, and the multi-city temporal analysis adds robustness. While GANs are not entirely novel, applying them to this specific problem with a focus on quantifying bias propagation is a valuable contribution. The large datasets used (Baltimore and Chicago) further strengthen the work.",
+      "paper_id": "ed91c317fb430fccf374f81f1c2d8179"
+    },
+    {
+      "title": "Man and machine: artificial intelligence and judicial decision making",
+      "authors": [
+        "Arthur Dyevre, Ahmad Shahvaroughi"
+      ],
+      "abstract": "arXiv:2603.19042v1 Announce Type: new \nAbstract: The integration of artificial intelligence (AI) technologies into judicial decision-making - particularly in pretrial, sentencing, and parole contexts - has generated substantial concerns about transparency, reliability, and accountability. At the same time, these developments have brought the limitations of human judgment into sharper relief and underscored the importance of understanding how judges interact with AI-based decision aids. Using criminal justice risk assessment as a focal case, we conduct a synthetic review connecting three intertwined aspects of AI's role in judicial decision-making: the performance and fairness of AI tools, the strengths and biases of human judges, and the nature of AI+human interactions. Across the fields of computer science, economics, law, criminology and psychology, researchers have made significant progress in evaluating the predictive validity of automated risk assessment instruments, documenting biases in judicial decision-making, and, to a more limited extent, examining how judges use algorithmic recommendations. While the existing empirical evidence indicates that the impact of AI decision aid tools on pretrial and sentencing decisions is modest or inexistent, our review also reveals important gaps in the canvassed literatures. Further research is needed to evaluate the performance of AI risk assessment instruments, understand how judges navigate noisy decision making environments and how individual characteristics influence judges' responses to AI advice. We argue that AI vs Human comparisons have the potential to yield new insights into both algorithmic tools and human decision-makers and advocate greater interdisciplinary integration and cross-fertilization in future research.",
+      "url": "https://arxiv.org/abs/2603.19042",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "decision",
+        "decision making",
+        "human",
+        "judges",
+        "making",
+        "judicial",
+        "judicial decision",
+        "assessment",
+        "risk"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a highly significant and timely issue \u2013 the intersection of AI and judicial decision-making. The synthetic review approach, connecting AI performance, human biases, and AI-human interaction, is a strong methodological choice. While the abstract suggests a comprehensive review, the novelty appears to lie more in the *integration* of existing research rather than presenting entirely new findings or methods, but the potential impact on fairness and accountability in the justice system is substantial.",
+      "paper_id": "eb1c0a6fd6e15310d14ae52c5bc35b2f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-21T09:40:59.274942"
 }

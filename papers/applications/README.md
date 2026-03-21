@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Behavioral Fingerprints for LLM Endpoint Stability and Identity
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Jonah Leshin, Manish Shah, Ian Timmis, Daniel Kang
+
+arXiv:2603.19022v1 Announce Type: new 
+Abstract: The consistency of AI-native applications depends on the behavioral consistency of the model endpoints that power them. Traditional reliability metrics...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19022) | [📝 Analysis](a54253d0327a01c824c6801b76c1fc06.md)
+
+---
+
+### MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)
+
+**Score:** 90.0 | **Published:** 2026-03-21 | **Authors:** Yi Ting Shen, Kentaroh Toyoda, Alex Leung
+
+arXiv:2603.18063v1 Announce Type: cross 
+Abstract: The Model Context Protocol (MCP) introduces a structurally distinct attack surface that existing threat frameworks, designed for traditional software...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18063) | [📝 Analysis](5690d6de9fe3d2e27c0567d73f7f63d5.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

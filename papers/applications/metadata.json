@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Behavioral Fingerprints for LLM Endpoint Stability and Identity",
+      "authors": [
+        "Jonah Leshin, Manish Shah, Ian Timmis, Daniel Kang"
+      ],
+      "abstract": "arXiv:2603.19022v1 Announce Type: new \nAbstract: The consistency of AI-native applications depends on the behavioral consistency of the model endpoints that power them. Traditional reliability metrics such as uptime, latency and throughput do not capture behavioral change, and an endpoint can remain \"healthy\" while its effective model identity changes due to updates to weights, tokenizers, quantization, inference engines, kernels, caching, routing, or hardware. We introduce Stability Monitor, a black-box stability monitoring system that periodically fingerprints an endpoint by sampling outputs from a fixed prompt set and comparing the resulting output distributions over time. Fingerprints are compared using a summed energy distance statistic across prompts, with permutation-test p-values as evidence of distribution shift aggregated sequentially to detect change events and define stability periods. In controlled validation, Stability Monitor detects changes to model family, version, inference stack, quantization, and behavioral parameters. In real-world monitoring of the same model hosted by multiple providers, we observe substantial provider-to-provider and within-provider stability differences.",
+      "url": "https://arxiv.org/abs/2603.19022",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "stability",
+        "behavioral",
+        "model",
+        "endpoint",
+        "fingerprints",
+        "provider",
+        "change",
+        "changes",
+        "consistency",
+        "identity"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial and often overlooked problem in LLM deployment: ensuring behavioral stability beyond simple uptime metrics. The 'Stability Monitor' approach, using output distribution fingerprinting and energy distance, appears well-reasoned and provides a practical solution for detecting subtle but impactful model changes. The use of permutation tests for statistical significance adds rigor, and the problem is highly relevant given the rapid pace of LLM updates and the need for reliable AI applications.",
+      "paper_id": "a54253d0327a01c824c6801b76c1fc06"
+    },
+    {
+      "title": "MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)",
+      "authors": [
+        "Yi Ting Shen, Kentaroh Toyoda, Alex Leung"
+      ],
+      "abstract": "arXiv:2603.18063v1 Announce Type: cross \nAbstract: The Model Context Protocol (MCP) introduces a structurally distinct attack surface that existing threat frameworks, designed for traditional software systems or generic LLM deployments, do not adequately cover. This paper presents MCP-38, a protocol-specific threat taxonomy consisting of 38 threat categories (MCP-01 through MCP-38). The taxonomy was derived through a systematic four-phase methodology: protocol decomposition, multi-framework cross-mapping, real-world incident synthesis, and remediation-surface categorization. Each category is mapped to STRIDE, OWASP Top 10 for LLM Applications (2025, LLM01--LLM10), and the OWASP Top 10 for Agentic Applications (2026, ASI01--ASI10). MCP-38 addresses critical threats arising from MCP's semantic attack surface (tool description poisoning, indirect prompt injection, parasitic tool chaining, and dynamic trust violations), none of which are adequately captured by prior work. MCP-38 provides the definitional and empirical foundation for automated threat intelligence platforms.",
+      "url": "https://arxiv.org/abs/2603.18063",
+      "published_date": "2026-03-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "mcp",
+        "38",
+        "mcp 38",
+        "threat",
+        "protocol",
+        "surface",
+        "taxonomy",
+        "10",
+        "adequately",
+        "applications"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a very timely and important problem \u2013 the unique security challenges posed by the Model Context Protocol (MCP). The systematic methodology for creating the taxonomy (decomposition, cross-mapping, incident synthesis, remediation) is strong, and the mapping to existing frameworks (STRIDE, OWASP) adds significant value. While the core idea of a taxonomy isn't groundbreaking, the focus on MCP-specific threats and the identified semantic attack surface demonstrate a clear advancement over existing work, suggesting a positive reception within the security and LLM communities.",
+      "paper_id": "5690d6de9fe3d2e27c0567d73f7f63d5"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-21T09:40:59.275599"
 }

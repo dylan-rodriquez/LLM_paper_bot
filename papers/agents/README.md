@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Vedanta S P, Ponnurangam Kumaraguru
+
+arXiv:2603.18894v1 Announce Type: new 
+Abstract: Large language models are increasingly proposed as autonomous agents for high-stakes public workflows, yet we lack systematic evidence about whether th...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18894) | [📝 Analysis](7e823e91151ded632273c0311286e5b0.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### NANOZK: Layerwise Zero-Knowledge Proofs for Verifiable Large Language Model Inference
+
+**Score:** 92.0 | **Published:** 2026-03-21 | **Authors:** Zhaohui Geoffrey Wang
+
+arXiv:2603.18046v1 Announce Type: cross 
+Abstract: When users query proprietary LLM APIs, they receive outputs with no cryptographic assurance that the claimed model was actually used. Service provide...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.18046) | [📝 Analysis](d58f8d88a8699ab935d3ca855b647f81.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-21 09:40:59 UTC*
