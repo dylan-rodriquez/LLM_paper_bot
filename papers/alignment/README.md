@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Multilingual Hate Speech Detection and Counterspeech Generation: A Comprehensive Survey and Practical Guide
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Zahra Safdari Fesaghandis, Suman Kalyan Maity
+
+arXiv:2603.19279v1 Announce Type: new 
+Abstract: Combating online hate speech in multilingual settings requires approaches that go beyond English-centric models and capture the cultural and linguistic...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19279) | [📝 Analysis](6952a633b948c1586c7886ad8fc88f28.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*

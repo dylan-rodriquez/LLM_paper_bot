@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### DuCCAE: A Hybrid Engine for Immersive Conversation via Collaboration, Augmentation, and Evolution
+
+**Score:** 90.0 | **Published:** 2026-03-23 | **Authors:** Xin Shen, Zhishu Jiang, Jiaye Yang, Haibo Liu, Yichen Wan, Jiarui Zhang, Tingzhi Dai, Luodong Xu, Shuchen Wu, Guanqiang QI, Chenxi Miao, Jiahui Liang, Yang Li, Weikang Li, Deguo Xia, Jizhou Huang
+
+arXiv:2603.19248v1 Announce Type: new 
+Abstract: Immersive conversational systems in production face a persistent trade-off between responsiveness and long-horizon task capability. Real-time interacti...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19248) | [📝 Analysis](f02c4f435a33dcd10c5c2ee04ccbc8b5.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*

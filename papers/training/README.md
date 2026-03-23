@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### ReViSQL: Achieving Human-Level Text-to-SQL
+
+**Score:** 90.0 | **Published:** 2026-03-23 | **Authors:** Yuxuan Zhu, Tengjun Jin, Yoojin Choi, Daniel Kang
+
+arXiv:2603.20004v1 Announce Type: cross 
+Abstract: Translating natural language to SQL (Text-to-SQL) is a critical challenge in both database research and data analytics applications. Recent efforts h...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20004) | [📝 Analysis](b11cbc8da096bf7e328385fb21b92dd1.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*

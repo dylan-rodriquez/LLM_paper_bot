@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### When Prompt Optimization Becomes Jailbreaking: Adaptive Red-Teaming of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Zafir Shamsi, Nikhil Chekuru, Zachary Guzman, Shivank Garg
+
+arXiv:2603.19247v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly integrated into high-stakes applications, making robust safety guarantees a central practical and commerc...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19247) | [📝 Analysis](c8175f6d984a50e4e44d87c6bce554b5.md)
+
+---
+
+### From Comprehension to Reasoning: A Hierarchical Benchmark for Automated Financial Research Reporting
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Yiyun Zhu, Yidong Jiang, Ziwen Xu, Yinsheng Yao, Dawei Cheng, Jinru Ding, Yejie Zheng, Jie Xu
+
+arXiv:2603.19254v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used to generate financial research reports, shifting from auxiliary analytic tools to primary content pr...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19254) | [📝 Analysis](68f5e0a42f8309aafce93e1c1e0cb92a.md)
+
+---
+
+### TAB-AUDIT: Detecting AI-Fabricated Scientific Tables via Multi-View Likelihood Mismatch
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Shuo Huang, Yan Pen, Lizhen Qu
+
+arXiv:2603.19712v1 Announce Type: new 
+Abstract: AI-generated fabricated scientific manuscripts raise growing concerns with large-scale breaches of academic integrity. In this work, we present the fir...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19712) | [📝 Analysis](56eb0b13e4a1d5fe77061eb0a54dbbb5.md)
+
+---
+
+### LSR: Linguistic Safety Robustness Benchmark for Low-Resource West African Languages
+
+**Score:** 90.0 | **Published:** 2026-03-23 | **Authors:** Godwin Abuh Faruna
+
+arXiv:2603.19273v1 Announce Type: new 
+Abstract: Safety alignment in large language models relies predominantly on English-language training data. When harmful intent is expressed in low-resource lang...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19273) | [📝 Analysis](dfa0a5c5f8e56752c0f04d5f927ba7ee.md)
+
+---
+
+### CURE: A Multimodal Benchmark for Clinical Understanding and Retrieval Evaluation
+
+**Score:** 90.0 | **Published:** 2026-03-23 | **Authors:** Yannian Gu, Zhongzhen Huang, Linjie Mu, Xizhuo Zhang, Shaoting Zhang, Xiaofan Zhang
+
+arXiv:2603.19274v1 Announce Type: new 
+Abstract: Multimodal large language models (MLLMs) demonstrate considerable potential in clinical diagnostics, a domain that inherently requires synthesizing com...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19274) | [📝 Analysis](f599e39e79dac8081b44a9636612442a.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*

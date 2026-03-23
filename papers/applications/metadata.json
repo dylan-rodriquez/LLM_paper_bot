@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "DuCCAE: A Hybrid Engine for Immersive Conversation via Collaboration, Augmentation, and Evolution",
+      "authors": [
+        "Xin Shen, Zhishu Jiang, Jiaye Yang, Haibo Liu, Yichen Wan, Jiarui Zhang, Tingzhi Dai, Luodong Xu, Shuchen Wu, Guanqiang QI, Chenxi Miao, Jiahui Liang, Yang Li, Weikang Li, Deguo Xia, Jizhou Huang"
+      ],
+      "abstract": "arXiv:2603.19248v1 Announce Type: new \nAbstract: Immersive conversational systems in production face a persistent trade-off between responsiveness and long-horizon task capability. Real-time interaction is achievable for lightweight turns, but requests involving planning and tool invocation (e.g., search and media generation) produce heavy-tail execution latency that degrades turn-taking, persona consistency, and user trust. To address this challenge, we propose DuCCAE (Conversation while Collaboration with Augmentation and Evolution), a hybrid engine for immersive conversation deployed within Baidu Search, serving millions of users. DuCCAE decouples real-time response generation from asynchronous agentic execution and synchronizes them via a shared state that maintains session context and execution traces, enabling asynchronous results to be integrated back into the ongoing dialogue. The system orchestrates five subsystems-Info, Conversation, Collaboration, Augmentation, and Evolution-to support multi-agent collaboration and continuous improvement. We evaluate DuCCAE through a comprehensive framework that combines offline benchmarking on the Du-Interact dataset and large-scale production evaluation within Baidu Search. Experimental results demonstrate that DuCCAE outperforms strong baselines in agentic execution reliability and dialogue quality while reducing latency to fit strict real-time budgets. Crucially, deployment metrics since June 2025 confirm substantial real-world effectiveness, evidenced by a tripling of Day-7 user retention to 34.2% and a surge in the complex task completion rate to 65.2%. Our hybrid architecture successfully preserves conversational continuity while enabling reliable agentic execution, offering practical guidelines for deploying scalable agentic systems in industrial settings.",
+      "url": "https://arxiv.org/abs/2603.19248",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "duccae",
+        "execution",
+        "agentic",
+        "collaboration",
+        "conversation",
+        "real",
+        "agentic execution",
+        "augmentation",
+        "augmentation evolution",
+        "collaboration augmentation"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial bottleneck in conversational AI \u2013 balancing responsiveness with complex task completion. The 'DuCCAE' hybrid engine, decoupling real-time response from asynchronous execution, appears to be a well-engineered solution, particularly given its deployment in a production system at Baidu. While the core idea of decoupling isn't entirely novel, the specific orchestration of five subsystems and the shared state management for synchronization seem thoughtfully designed and potentially impactful. The scale of deployment (millions of users) lends significant weight to the findings.",
+      "paper_id": "f02c4f435a33dcd10c5c2ee04ccbc8b5"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-23T10:10:46.512913"
 }

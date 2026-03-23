@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Overreliance on AI in Information-seeking from Video Content",
+      "authors": [
+        "Anders Giovanni M{\\o}ller, Elisa Bassignana, Francesco Pierri, Luca Maria Aiello"
+      ],
+      "abstract": "arXiv:2603.19843v1 Announce Type: cross \nAbstract: The ubiquity of multimedia content is reshaping online information spaces, particularly in social media environments. At the same time, search is being rapidly transformed by generative AI, with large language models (LLMs) routinely deployed as intermediaries between users and multimedia content to retrieve and summarize information. Despite their growing influence, the impact of LLM inaccuracies and potential vulnerabilities on multimedia information-seeking tasks remains largely unexplored. We investigate how generative AI affects accuracy, efficiency, and confidence in information retrieval from videos. We conduct an experiment with around 900 participants on 8,000+ video-based information-seeking tasks, comparing behavior across three conditions: (1) access to videos only, (2) access to videos with LLM-based AI assistance, and (3) access to videos with a deceiving AI assistant designed to provide false answers. We find that AI assistance increases accuracy by 3-7% when participants viewed the relevant video segment, and by 27-35% when they did not. Efficiency increases by 10% for short videos and 25% for longer ones. However, participants tend to over-rely on AI outputs, resulting in accuracy drops of up to 32% when interacting with the deceiving AI. Alarmingly, self-reported confidence in answers remains stable across all three conditions. Our findings expose fundamental safety risks in AI-mediated video information retrieval.",
+      "url": "https://arxiv.org/abs/2603.19843",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "information",
+        "videos",
+        "video",
+        "access",
+        "access videos",
+        "accuracy",
+        "content",
+        "information seeking",
+        "multimedia"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a highly relevant and timely problem \u2013 the impact of LLM inaccuracies on information seeking from video content. The experimental design, with three conditions including a 'deceiving AI assistant', is particularly strong and provides valuable insights. While the core methodology isn't entirely novel, the application to video information seeking and the inclusion of a deceptive AI element represent a significant contribution. The large sample size (900 participants, 8000+ tasks) strengthens the validity of the findings.",
+      "paper_id": "2004652d55c4ca44dfbb1e227d7daafb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-23T10:10:46.517156"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Overreliance on AI in Information-seeking from Video Content
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Anders Giovanni M{\o}ller, Elisa Bassignana, Francesco Pierri, Luca Maria Aiello
+
+arXiv:2603.19843v1 Announce Type: cross 
+Abstract: The ubiquity of multimedia content is reshaping online information spaces, particularly in social media environments. At the same time, search is bei...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19843) | [📝 Analysis](2004652d55c4ca44dfbb1e227d7daafb.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*
