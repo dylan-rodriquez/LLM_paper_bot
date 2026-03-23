@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### From Tokens To Agents: A Researcher's Guide To Understanding Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-23 | **Authors:** Daniele Barolo
+
+arXiv:2603.19269v1 Announce Type: new 
+Abstract: Researchers face a critical choice: how to use -- or not use -- large language models in their work. Using them well requires understanding the mechani...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.19269) | [📝 Analysis](a39281ad965289264d7d2ff5311f9c1f.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-23 10:10:46 UTC*

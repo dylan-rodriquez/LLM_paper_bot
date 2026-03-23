@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Multilingual Hate Speech Detection and Counterspeech Generation: A Comprehensive Survey and Practical Guide",
+      "authors": [
+        "Zahra Safdari Fesaghandis, Suman Kalyan Maity"
+      ],
+      "abstract": "arXiv:2603.19279v1 Announce Type: new \nAbstract: Combating online hate speech in multilingual settings requires approaches that go beyond English-centric models and capture the cultural and linguistic diversity of global online discourse. This paper presents a comprehensive survey and practical guide to multilingual hate speech detection and counterspeech generation, integrating recent advances in natural language processing. We analyze why monolingual systems often fail in non-English and code-mixed contexts, missing implicit hate and culturally specific expressions. To address these challenges, we outline a structured three-phase framework - task design, data curation, and evaluation - drawing on state-of-the-art datasets, models, and metrics. The survey consolidates progress in multilingual resources and techniques while highlighting persistent obstacles, including data scarcity in low-resource languages, fairness and bias in system development, and the need for multimodal solutions. By bridging technical progress with ethical and cultural considerations, we provide researchers, practitioners, and policymakers with scalable guidelines for building context-aware, inclusive systems. Our roadmap contributes to advancing online safety through fairer, more effective detection and counterspeech generation across diverse linguistic environments.",
+      "url": "https://arxiv.org/abs/2603.19279",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "hate",
+        "multilingual",
+        "counterspeech",
+        "counterspeech generation",
+        "detection",
+        "detection counterspeech",
+        "generation",
+        "hate speech",
+        "online",
+        "speech"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant problem \u2013 multilingual hate speech \u2013 which is often overlooked in favor of English-centric research. The proposed three-phase framework and consolidation of resources are valuable contributions. While the abstract doesn't detail novel *methods*, the comprehensive survey and practical guide approach suggests a strong, well-structured piece of work that will be well-received by the community. The acknowledgement of challenges like data scarcity and bias further strengthens its value.",
+      "paper_id": "6952a633b948c1586c7886ad8fc88f28"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-23T10:10:46.516194"
 }

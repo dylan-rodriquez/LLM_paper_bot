@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "When Prompt Optimization Becomes Jailbreaking: Adaptive Red-Teaming of Large Language Models",
+      "authors": [
+        "Zafir Shamsi, Nikhil Chekuru, Zachary Guzman, Shivank Garg"
+      ],
+      "abstract": "arXiv:2603.19247v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly integrated into high-stakes applications, making robust safety guarantees a central practical and commercial concern. Existing safety evaluations predominantly rely on fixed collections of harmful prompts, implicitly assuming non-adaptive adversaries and thereby overlooking realistic attack scenarios in which inputs are iteratively refined to evade safeguards. In this work, we examine the vulnerability of contemporary language models to automated, adversarial prompt refinement. We repurpose black-box prompt optimization techniques, originally designed to improve performance on benign tasks, to systematically search for safety failures. Using DSPy, we apply three such optimizers to prompts drawn from HarmfulQA and JailbreakBench, explicitly optimizing toward a continuous danger score in the range 0 to 1 provided by an independent evaluator model (GPT-5.1). Our results demonstrate a substantial reduction in effective safety safeguards, with the effects being especially pronounced for open-source small language models. For example, the average danger score of Qwen 3 8B increases from 0.09 in its baseline setting to 0.79 after optimization. These findings suggest that static benchmarks may underestimate residual risk, indicating that automated, adaptive red-teaming is a necessary component of robust safety evaluation.",
+      "url": "https://arxiv.org/abs/2603.19247",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "language",
+        "language models",
+        "models",
+        "adaptive",
+        "optimization",
+        "prompt",
+        "adaptive red",
+        "automated",
+        "danger"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 their susceptibility to adaptive adversarial attacks. Repurposing prompt optimization techniques for jailbreaking is a clever and practical approach, and the use of an independent evaluator (GPT-5.1) adds rigor. The problem is highly relevant given the increasing deployment of LLMs in sensitive applications, and the findings will likely spur further research into robust safety mechanisms.",
+      "paper_id": "c8175f6d984a50e4e44d87c6bce554b5"
+    },
+    {
+      "title": "From Comprehension to Reasoning: A Hierarchical Benchmark for Automated Financial Research Reporting",
+      "authors": [
+        "Yiyun Zhu, Yidong Jiang, Ziwen Xu, Yinsheng Yao, Dawei Cheng, Jinru Ding, Yejie Zheng, Jie Xu"
+      ],
+      "abstract": "arXiv:2603.19254v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to generate financial research reports, shifting from auxiliary analytic tools to primary content producers. Yet recent real-world deployments reveal persistent failures--factual errors, numerical inconsistencies, fabricated references, and shallow analysis--that can distort assessments of corporate fundamentals and ultimately trigger severe economic losses. However, existing financial benchmarks focus on comprehension over completed reports rather than evaluating whether a model can produce reliable analysis. Moreover, current evaluation frameworks merely flag hallucinations and lack structured measures for deeper analytical skills, leaving key analytical bottlenecks undiscovered. To address these gaps, we introduce FinReasoning, a benchmark that decomposes Chinese research-report generation into three stages aligned with real analyst workflows, assessing semantic consistency, data alignment, and deep insight. We further propose a fine-grained evaluation framework that strengthens hallucination-correction assessment and incorporates a 12-indicator rubric for core analytical skills. Based on the evaluation results, FinReasoning reveals that most models exhibit a understanding-execution gap: they can identify errors but struggle to generate accurate corrections; they can retrieve data but have difficulty returning it in correct format. Furthermore, no model achieves overwhelming superiority across all three tracks; Doubao-Seed-1.8, GPT-5, and Kimi-K2 rank as the top three in overall performance, yet each exhibits a distinct capability distribution. The evaluation resource is available at https://github.com/TongjiFinLab/FinReasoning.",
+      "url": "https://arxiv.org/abs/2603.19254",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "evaluation",
+        "analytical",
+        "financial",
+        "finreasoning",
+        "research",
+        "analysis",
+        "analytical skills",
+        "benchmark",
+        "comprehension",
+        "data"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving landscape of LLMs for financial analysis \u2013 the gap between comprehension and reliable reasoning. The proposed FinReasoning benchmark, with its staged approach mirroring analyst workflows, is a significant step towards more robust evaluation. While the core idea of staged evaluation isn't entirely novel, applying it specifically to the complexities of financial report generation, and focusing on consistency and data alignment, demonstrates strong potential.",
+      "paper_id": "68f5e0a42f8309aafce93e1c1e0cb92a"
+    },
+    {
+      "title": "TAB-AUDIT: Detecting AI-Fabricated Scientific Tables via Multi-View Likelihood Mismatch",
+      "authors": [
+        "Shuo Huang, Yan Pen, Lizhen Qu"
+      ],
+      "abstract": "arXiv:2603.19712v1 Announce Type: new \nAbstract: AI-generated fabricated scientific manuscripts raise growing concerns with large-scale breaches of academic integrity. In this work, we present the first systematic study on detecting AI-generated fabricated scientific tables in empirical NLP papers, as information in tables serve as critical evidence for claims. We construct FabTab, the first benchmark dataset of fabricated manuscripts with tables, comprising 1,173 AI-generated papers and 1,215 human-authored ones in empirical NLP. Through a comprehensive analysis, we identify systematic differences between fabricated and real tables and operationalize them into a set of discriminative features within the TAB-AUDIT framework. The key feature, within-table mismatch, captures the perplexity gap between a table's skeleton and its numerical content. Experimental results show that RandomForest built on these features significantly outperform prior state-of-the-art methods, achieving 0.987 AUROC in-domain and 0.883 AUROC out-of-domain. Our findings highlight experimental tables as a critical forensic signal for detecting AI-generated scientific fraud and provide a new benchmark for future research.",
+      "url": "https://arxiv.org/abs/2603.19712",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tables",
+        "ai",
+        "fabricated",
+        "ai generated",
+        "generated",
+        "scientific",
+        "detecting",
+        "detecting ai",
+        "fabricated scientific",
+        "audit"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the detection of AI-fabricated scientific content. The creation of the FabTab dataset is a significant contribution, and the proposed TAB-AUDIT framework with its 'within-table mismatch' feature appears promising. The reported AU score of 0.987 suggests strong performance, indicating a well-executed study with potential for broad impact.",
+      "paper_id": "56eb0b13e4a1d5fe77061eb0a54dbbb5"
+    },
+    {
+      "title": "LSR: Linguistic Safety Robustness Benchmark for Low-Resource West African Languages",
+      "authors": [
+        "Godwin Abuh Faruna"
+      ],
+      "abstract": "arXiv:2603.19273v1 Announce Type: new \nAbstract: Safety alignment in large language models relies predominantly on English-language training data. When harmful intent is expressed in low-resource languages, refusal mechanisms that hold in English frequently fail to activate. We introduce LSR (Linguistic Safety Robustness), the first systematic benchmark for measuring cross-lingual refusal degradation in West African languages: Yoruba, Hausa, Igbo, and Igala. LSR uses a dual-probe evaluation protocol - submitting matched English and target-language probes to the same model - and introduces Refusal Centroid Drift (RCD), a metric that quantifies how much of a model's English refusal behavior is lost when harmful intent is encoded in a target language. We evaluate Gemini 2.5 Flash across 14 culturally grounded attack probes in four harm categories. English refusal rates hold at approximately 90 percent. Across West African languages, refusal rates fall to 35-55 percent, with Igala showing the most severe degradation (RCD = 0.55). LSR is implemented in the Inspect AI evaluation framework and is available as a PR-ready contribution to the UK AISI's inspect_evals repository. A live reference implementation and the benchmark dataset are publicly available.",
+      "url": "https://arxiv.org/abs/2603.19273",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "refusal",
+        "english",
+        "language",
+        "languages",
+        "lsr",
+        "african",
+        "african languages",
+        "benchmark",
+        "safety",
+        "west"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical gap in LLM safety evaluation \u2013 the underrepresentation of low-resource languages, specifically West African languages. The introduction of the LSR benchmark and the RCD metric provides a novel and rigorous way to quantify cross-lingual refusal degradation. The observed significant drop in refusal rates compared to English highlights a serious issue with current safety alignment techniques, suggesting a strong potential for positive reception within the NLP community.",
+      "paper_id": "dfa0a5c5f8e56752c0f04d5f927ba7ee"
+    },
+    {
+      "title": "CURE: A Multimodal Benchmark for Clinical Understanding and Retrieval Evaluation",
+      "authors": [
+        "Yannian Gu, Zhongzhen Huang, Linjie Mu, Xizhuo Zhang, Shaoting Zhang, Xiaofan Zhang"
+      ],
+      "abstract": "arXiv:2603.19274v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) demonstrate considerable potential in clinical diagnostics, a domain that inherently requires synthesizing complex visual and textual data alongside consulting authoritative medical literature. However, existing benchmarks primarily evaluate MLLMs in end-to-end answering scenarios. This limits the ability to disentangle a model's foundational multimodal reasoning from its proficiency in evidence retrieval and application. We introduce the Clinical Understanding and Retrieval Evaluation (CURE) benchmark. Comprising $500$ multimodal clinical cases mapped to physician-cited reference literature, CURE evaluates reasoning and retrieval under controlled evidence settings to disentangle their respective contributions. We evaluate state-of-the-art MLLMs across distinct evidence-gathering paradigms in both closed-ended and open-ended diagnosis tasks. Evaluations reveal a stark dichotomy: while advanced models demonstrate clinical reasoning proficiency when supplied with physician reference evidence (achieving up to $73.4\\%$ accuracy on differential diagnosis), their performance substantially declines (as low as $25.4\\%$) when reliant on independent retrieval mechanisms. This disparity highlights the dual challenges of effectively integrating multimodal clinical evidence and retrieving precise supporting literature. CURE is publicly available at https://github.com/yanniangu/CURE.",
+      "url": "https://arxiv.org/abs/2603.19274",
+      "published_date": "2026-03-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "clinical",
+        "cure",
+        "evidence",
+        "multimodal",
+        "retrieval",
+        "literature",
+        "mllms",
+        "reasoning",
+        "benchmark",
+        "clinical understanding"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in evaluating MLLMs for clinical applications by disentangling reasoning and retrieval. The creation of the CURE benchmark, with its focus on physician-cited references, is a strong methodological contribution. The initial evaluation revealing a dichotomy in MLLM performance suggests valuable insights for future model development and highlights the need for targeted improvements in both areas. The work is well-motivated and clearly presented, indicating a high likelihood of positive reception.",
+      "paper_id": "f599e39e79dac8081b44a9636612442a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-23T10:10:46.511052"
 }
