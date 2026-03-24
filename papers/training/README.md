@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models
+
+**Score:** 95.0 | **Published:** 2026-03-24 | **Authors:** Xinyue Liu, Niloofar Mireshghallah, Jane C. Ginsburg, Tuhin Chakrabarty
+
+arXiv:2603.20957v1 Announce Type: new 
+Abstract: Frontier LLM companies have repeatedly assured courts and regulators that their models do not store copies of training data. They further rely on safet...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20957) | [📝 Analysis](fae12c19e52731a8fa6777f83996fe8e.md)
+
+---
+
+### PARHAF, a human-authored corpus of clinical reports for fictitious patients in French
+
+**Score:** 92.0 | **Published:** 2026-03-24 | **Authors:** Xavier Tannier, Salam Abbara, R\'emi Flicoteaux, Youness Khalil, Aur\'elie N\'ev\'eol, Pierre Zweigenbaum, Emmanuel Bacry
+
+arXiv:2603.20494v1 Announce Type: new 
+Abstract: The development of clinical natural language processing (NLP) systems is severely hampered by the sensitive nature of medical records, which restricts ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20494) | [📝 Analysis](d2220ba44b26d6c574a81a60e83f36ae.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-24 10:03:36 UTC*
