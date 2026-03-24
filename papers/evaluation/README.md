@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### RedacBench: Can AI Erase Your Secrets?
+
+**Score:** 92.0 | **Published:** 2026-03-24 | **Authors:** Hyunjun Jeon, Kyuyoung Kim, Jinwoo Shin
+
+arXiv:2603.20208v1 Announce Type: new 
+Abstract: Modern language models can readily extract sensitive information from unstructured text, making redaction -- the selective removal of such information ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20208) | [📝 Analysis](5e3b05003009a7762dee5af87e1f1898.md)
+
+---
+
+### BenchBench: Benchmarking Automated Benchmark Generation
+
+**Score:** 92.0 | **Published:** 2026-03-24 | **Authors:** Yandan Zheng, Haoran Luo, Zhenghong Lin, Wenjin Liu, Luu Anh Tuan
+
+arXiv:2603.20807v1 Announce Type: new 
+Abstract: Benchmarks are the de facto standard for tracking progress in large language models (LLMs), yet static test sets can rapidly saturate, become vulnerabl...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20807) | [📝 Analysis](334edc5f358e1a6847500497ff7a667e.md)
+
+---
+
+### The Hidden Puppet Master: A Theoretical and Real-World Account of Emotional Manipulation in LLMs
+
+**Score:** 92.0 | **Published:** 2026-03-24 | **Authors:** Jocelyn Shen, Amina Luvsanchultem, Jessica Kim, Kynnedy Smith, Valdemar Danry, Kantwon Rogers, Sharifa Alghowinem, Hae Won Park, Maarten Sap, Cynthia Breazeal
+
+arXiv:2603.20907v1 Announce Type: new 
+Abstract: As users increasingly turn to LLMs for practical and personal advice, they become vulnerable to being subtly steered toward hidden incentives misaligne...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20907) | [📝 Analysis](8c08ac51c54c4c0b660fa3eaf1a590d9.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-24 10:03:36 UTC*
