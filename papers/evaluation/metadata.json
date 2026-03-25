@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "When AI Shows Its Work, Is It Actually Working? Step-Level Evaluation Reveals Frontier Language Models Frequently Bypass Their Own Reasoning",
+      "authors": [
+        "Abhinaba Basu, Pavan Chakraborty"
+      ],
+      "abstract": "arXiv:2603.22816v1 Announce Type: new \nAbstract: Language models increasingly \"show their work\" by writing step-by-step reasoning before answering. But are these reasoning steps genuinely used, or decorative narratives generated after the model has already decided? Consider: a medical AI writes \"The patient's eosinophilia and livedo reticularis following catheterization suggest cholesterol embolization syndrome. Answer: B.\" If we remove the eosinophilia observation, does the diagnosis change? For most frontier models, the answer is no - the step was decorative.\n  We introduce step-level evaluation: remove one reasoning sentence at a time and check whether the answer changes. This simple test requires only API access -- no model weights -- and costs approximately $1-2 per model per task.\n  Testing 10 frontier models (GPT-5.4, Claude Opus, DeepSeek-V3.2, MiniMax-M2.5, Kimi-K2.5, and others) across sentiment, mathematics, topic classification, and medical QA (N=376-500 each), the majority produce decorative reasoning: removing any step changes the answer less than 17% of the time, while any single step alone recovers the answer. This holds even on math, where smaller models (0.8-8B) show genuine step dependence (55% necessity).\n  Two models break the pattern: MiniMax-M2.5 on sentiment (37% necessity) and Kimi-K2.5 on topic classification (39%) - but both shortcut other tasks. Faithfulness is model-specific and task-specific.\n  We also discover \"output rigidity\": on the same medical questions, Claude Opus writes 11 diagnostic steps while GPT-OSS-120B outputs a single token. Mechanistic analysis (attention patterns) confirms that CoT attention drops more in late layers for decorative tasks (33%) than faithful ones (20%).\n  Implications: step-by-step explanations from frontier models are largely decorative, per-model per-domain evaluation is essential, and training objectives - not scale - determine whether reasoning is genuine.",
+      "url": "https://arxiv.org/abs/2603.22816",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "step",
+        "models",
+        "reasoning",
+        "answer",
+        "decorative",
+        "model",
+        "frontier",
+        "evaluation",
+        "frontier models",
+        "medical"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in the rapidly evolving field of LLMs: the reliability of 'reasoning' steps. The proposed 'step-level evaluation' is a simple yet powerful method for uncovering potentially superficial reasoning, and the low cost of implementation makes it widely accessible. The breadth of models and tasks tested strengthens the findings, suggesting a systemic problem with current LLM reasoning capabilities.",
+      "paper_id": "13b0a15435cb05e3ef7296f46a2c102f"
+    },
+    {
+      "title": "Why AI-Generated Text Detection Fails: Evidence from Explainable AI Beyond Benchmark Accuracy",
+      "authors": [
+        "Shushanta Pudasaini, Luis Miralles-Pechu\\'an, David Lillis, Marisa Llorens Salvador"
+      ],
+      "abstract": "arXiv:2603.23146v1 Announce Type: new \nAbstract: The widespread adoption of Large Language Models (LLMs) has made the detection of AI-Generated text a pressing and complex challenge. Although many detection systems report high benchmark accuracy, their reliability in real-world settings remains uncertain, and their interpretability is often unexplored. In this work, we investigate whether contemporary detectors genuinely identify machine authorship or merely exploit dataset-specific artefacts. We propose an interpretable detection framework that integrates linguistic feature engineering, machine learning, and explainable AI techniques. When evaluated on two prominent benchmark corpora, namely PAN CLEF 2025 and COLING 2025, our model trained on 30 linguistic features achieves leaderboard-competitive performance, attaining an F1 score of 0.9734. However, systematic cross-domain and cross-generator evaluation reveals substantial generalisation failure: classifiers that excel in-domain degrade significantly under distribution shift. Using SHAP- based explanations, we show that the most influential features differ markedly between datasets, indicating that detectors often rely on dataset-specific stylistic cues rather than stable signals of machine authorship. Further investigation with in-depth error analysis exposes a fundamental tension in linguistic-feature-based AI text detection: the features that are most discriminative on in-domain data are also the features most susceptible to domain shift, formatting variation, and text-length effects. We believe that this knowledge helps build AI detectors that are robust across different settings. To support replication and practical use, we release an open-source Python package that returns both predictions and instance-level explanations for individual texts.",
+      "url": "https://arxiv.org/abs/2603.23146",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ai",
+        "detection",
+        "domain",
+        "features",
+        "text",
+        "benchmark",
+        "detectors",
+        "linguistic",
+        "machine",
+        "2025"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a crucial problem \u2013 the unreliability of AI-generated text detectors despite high benchmark scores. The use of explainable AI to investigate *why* detectors fail, rather than just *that* they fail, is a strong methodological choice. The reported F1 score is competitive, but the key finding of generalization failure is particularly important and suggests a need for more robust detection methods. The focus on linguistic features and systematic evaluation across datasets and generators adds to the rigor.",
+      "paper_id": "0911b849738d22bc56c6440309dcad41"
+    },
+    {
+      "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+      "authors": [
+        "Ling Yue, Kushal Raj Bhandari, Ching-Yun Ko, Dhaval Patel, Shuxin Lin, Nianjun Zhou, Jianxi Gao, Pin-Yu Chen, Shaowu Pan"
+      ],
+      "abstract": "arXiv:2603.22386v1 Announce Type: cross \nAbstract: Large language model (LLM)-based systems are becoming increasingly popular for solving tasks by constructing executable workflows that interleave LLM calls, information retrieval, tool use, code execution, memory updates, and verification. This survey reviews recent methods for designing and optimizing such workflows, which we treat as agentic computation graphs (ACGs). We organize the literature based on when workflow structure is determined, where structure refers to which components or agents are present, how they depend on each other, and how information flows between them. This lens distinguishes static methods, which fix a reusable workflow scaffold before deployment, from dynamic methods, which select, generate, or revise the workflow for a particular run before or during execution. We further organize prior work along three dimensions: when structure is determined, what part of the workflow is optimized, and which evaluation signals guide optimization (e.g., task metrics, verifier signals, preferences, or trace-derived feedback). We also distinguish reusable workflow templates, run-specific realized graphs, and execution traces, separating reusable design choices from the structures actually deployed in a given run and from realized runtime behavior. Finally, we outline a structure-aware evaluation perspective that complements downstream task metrics with graph-level properties, execution cost, robustness, and structural variation across inputs. Our goal is to provide a clear vocabulary, a unified framework for positioning new methods, a more comparable view of existing body of literature, and a more reproducible evaluation standard for future work in workflow optimizations for LLM agents.",
+      "url": "https://arxiv.org/abs/2603.22386",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "workflow",
+        "execution",
+        "llm",
+        "methods",
+        "structure",
+        "agents",
+        "evaluation",
+        "graphs",
+        "reusable",
+        "run"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This survey tackles a highly relevant and rapidly evolving area \u2013 workflow optimization for LLM agents. The framing of workflows as 'agentic computation graphs' and the categorization based on workflow structure determination (static vs. dynamic) provides a valuable organizational lens. While a survey doesn't inherently present novel *methods*, the synthesis and categorization of existing work is strong, and the topic's importance ensures a positive reception within the AI community.",
+      "paper_id": "d1aef9582e7f97ac8b748d2bdd604c1f"
+    },
+    {
+      "title": "LLM Olympiad: Why Model Evaluation Needs a Sealed Exam",
+      "authors": [
+        "Jan Christian Blaise Cruz, Alham Fikri Aji"
+      ],
+      "abstract": "arXiv:2603.23292v1 Announce Type: cross \nAbstract: Benchmarks and leaderboards are how NLP most often communicates progress, but in the LLM era they are increasingly easy to misread. Scores can reflect benchmark-chasing, hidden evaluation choices, or accidental exposure to test content -- not just broad capability. Closed benchmarks delay some of these issues, but reduce transparency and make it harder for the community to learn from results. We argue for a complementary practice: an Olympiad-style evaluation event where problems are sealed until evaluation, submissions are frozen in advance, and all entries run through one standardized harness. After scoring, the full task set and evaluation code are released so results can be reproduced and audited. This design aims to make strong performance harder to ``manufacture'' and easier to trust.",
+      "url": "https://arxiv.org/abs/2603.23292",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "evaluation",
+        "benchmarks",
+        "harder",
+        "llm",
+        "make",
+        "olympiad",
+        "results",
+        "sealed",
+        "23292v1",
+        "23292v1 announce"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM evaluation \u2013 the increasing unreliability of benchmarks due to gaming and data contamination. The proposed 'Olympiad' style evaluation offers a compelling solution by emphasizing sealed exams and standardized harnesses, promoting more trustworthy results. While the core idea isn't entirely novel (closed benchmarks exist), the combination of sealing, freezing, and full release post-evaluation is a strong and practical approach. The paper is well-focused and clearly articulates the problem and proposed solution.",
+      "paper_id": "0a5c55270ab4a1a9c1338ed19448537d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-25T10:09:33.430414"
 }

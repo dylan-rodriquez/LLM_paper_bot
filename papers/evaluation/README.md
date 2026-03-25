@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### When AI Shows Its Work, Is It Actually Working? Step-Level Evaluation Reveals Frontier Language Models Frequently Bypass Their Own Reasoning
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Abhinaba Basu, Pavan Chakraborty
+
+arXiv:2603.22816v1 Announce Type: new 
+Abstract: Language models increasingly "show their work" by writing step-by-step reasoning before answering. But are these reasoning steps genuinely used, or dec...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22816) | [📝 Analysis](13b0a15435cb05e3ef7296f46a2c102f.md)
+
+---
+
+### Why AI-Generated Text Detection Fails: Evidence from Explainable AI Beyond Benchmark Accuracy
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Shushanta Pudasaini, Luis Miralles-Pechu\'an, David Lillis, Marisa Llorens Salvador
+
+arXiv:2603.23146v1 Announce Type: new 
+Abstract: The widespread adoption of Large Language Models (LLMs) has made the detection of AI-Generated text a pressing and complex challenge. Although many det...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23146) | [📝 Analysis](0911b849738d22bc56c6440309dcad41.md)
+
+---
+
+### From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Ling Yue, Kushal Raj Bhandari, Ching-Yun Ko, Dhaval Patel, Shuxin Lin, Nianjun Zhou, Jianxi Gao, Pin-Yu Chen, Shaowu Pan
+
+arXiv:2603.22386v1 Announce Type: cross 
+Abstract: Large language model (LLM)-based systems are becoming increasingly popular for solving tasks by constructing executable workflows that interleave LLM...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22386) | [📝 Analysis](d1aef9582e7f97ac8b748d2bdd604c1f.md)
+
+---
+
+### LLM Olympiad: Why Model Evaluation Needs a Sealed Exam
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Jan Christian Blaise Cruz, Alham Fikri Aji
+
+arXiv:2603.23292v1 Announce Type: cross 
+Abstract: Benchmarks and leaderboards are how NLP most often communicates progress, but in the LLM era they are increasingly easy to misread. Scores can reflec...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23292) | [📝 Analysis](0a5c55270ab4a1a9c1338ed19448537d.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

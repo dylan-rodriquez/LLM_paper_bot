@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage
+
+**Score:** 90.0 | **Published:** 2026-03-25 | **Authors:** Ufaq Khan, Umair Nawaz, L D M S S Teja, Numaan Saeed, Muhammad Bilal, Yutong Xie, Mohammad Yaqub, Muhammad Haris Khan
+
+arXiv:2603.23501v1 Announce Type: cross 
+Abstract: Vision Language Models (VLMs) are increasingly used for tasks like medical report generation and visual question answering. However, fluent diagnosti...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23501) | [📝 Analysis](0cdac05e2904de89d850d237f9699351.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Detecting Non-Membership in LLM Training Data via Rank Correlations",
+      "authors": [
+        "Pranav Shetty, Mirazul Haque, Zhiqiang Ma, Xiaomo Liu"
+      ],
+      "abstract": "arXiv:2603.22707v1 Announce Type: new \nAbstract: As large language models (LLMs) are trained on increasingly vast and opaque text corpora, determining which data contributed to training has become essential for copyright enforcement, compliance auditing, and user trust. While prior work focuses on detecting whether a dataset was used in training (membership inference), the complementary problem -- verifying that a dataset was not used -- has received little attention. We address this gap by introducing PRISM, a test that detects dataset-level non-membership using only grey-box access to model logits. Our key insight is that two models that have not seen a dataset exhibit higher rank correlation in their normalized token log probabilities than when one model has been trained on that data. Using this observation, we construct a correlation-based test that detects non-membership. Empirically, PRISM reliably rules out membership in training data across all datasets tested while avoiding false positives, thus offering a framework for verifying that specific datasets were excluded from LLM training.",
+      "url": "https://arxiv.org/abs/2603.22707",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "membership",
+        "training",
+        "data",
+        "dataset",
+        "non",
+        "non membership",
+        "correlation",
+        "dataset used",
+        "datasets",
+        "detecting"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial and currently under-explored problem in the LLM space \u2013 verifying *non*-membership in training data. The approach of using rank correlations in logits is a clever and relatively simple method that appears effective. The focus on grey-box access makes it practical for real-world scenarios where full training data access isn't available, and the initial results suggest strong performance.",
+      "paper_id": "7cea76ec0ecb3fe2e3e304d1da41de25"
+    },
+    {
+      "title": "Sparser, Faster, Lighter Transformer Language Models",
+      "authors": [
+        "Edoardo Cetin, Stefano Peluchetti, Emilio Castillo, Akira Naruse, Mana Murakami, Llion Jones"
+      ],
+      "abstract": "arXiv:2603.23198v1 Announce Type: cross \nAbstract: Scaling autoregressive large language models (LLMs) has driven unprecedented progress but comes with vast computational costs. In this work, we tackle these costs by leveraging unstructured sparsity within an LLM's feedforward layers, the components accounting for most of the model parameters and execution FLOPs. To achieve this, we introduce a new sparse packing format and a set of CUDA kernels designed to seamlessly integrate with the optimized execution pipelines of modern GPUs, enabling efficient sparse computation during LLM inference and training. To substantiate our gains, we provide a quantitative study of LLM sparsity, demonstrating that simple L1 regularization can induce over 99% sparsity with negligible impact on downstream performance. When paired with our kernels, we show that these sparsity levels translate into substantial throughput, energy efficiency, and memory usage benefits that increase with model scale. We will release all code and kernels under an open-source license to promote adoption and accelerate research toward establishing sparsity as a practical axis for improving the efficiency and scalability of modern foundation models.",
+      "url": "https://arxiv.org/abs/2603.23198",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "sparsity",
+        "kernels",
+        "llm",
+        "models",
+        "costs",
+        "efficiency",
+        "execution",
+        "language",
+        "language models",
+        "model"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical bottleneck in LLM scaling \u2013 computational cost. The combination of sparsity techniques, a new packing format, and optimized CUDA kernels suggests a rigorous approach to improving efficiency. The reported 99% sparsity with minimal performance impact is particularly promising, and the focus on practical implementation via GPU optimization strengthens the work's potential.",
+      "paper_id": "ded585b8e69b0201a3f61d972d4b58ed"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-03-25T10:09:33.428718"
 }
