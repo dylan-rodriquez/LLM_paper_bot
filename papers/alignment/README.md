@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Steering LLMs for Culturally Localized Generation
+
+**Score:** 90.0 | **Published:** 2026-03-25 | **Authors:** Simran Khanuja, Hongbin Liu, Shujian Zhang, John Lambert, Mingqing Chen, Rajiv Mathews, Lun Wang
+
+arXiv:2603.23301v1 Announce Type: new 
+Abstract: LLMs are deployed globally, yet produce responses biased towards cultures with abundant training data. Existing cultural localization approaches such a...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23301) | [📝 Analysis](9f0991ecf18720b1c1a79db102fb871d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

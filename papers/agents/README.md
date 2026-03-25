@@ -2,7 +2,29 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (8 total)
+
+### T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Hyomin Lee, Sangwoo Park, Yumin Choi, Sohyun An, Seanie Lee, Sung Ju Hwang
+
+arXiv:2603.22341v1 Announce Type: cross 
+Abstract: While prior red-teaming efforts have focused on eliciting harmful text outputs from large language models (LLMs), such approaches fail to capture age...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22341) | [📝 Analysis](a773936ce5737c58c95fbcc37eb52fee.md)
+
+---
+
+### The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Haoyuan Xu, Chang Li, Xinyan Ma, Xianhao Ou, Zihan Zhang, Tao He, Xiangyu Liu, Zixiang Wang, Jiafeng Liang, Zheng Chu, Runxuan Liu, Rongchuan Mu, Ming Liu, Bing Qin
+
+arXiv:2603.22862v1 Announce Type: cross 
+Abstract: Tool use enables large language models (LLMs) to access external information, invoke software systems, and act in digital environments beyond what ca...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22862) | [📝 Analysis](0dbe4e404bc0724a0923a0c954dadada.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +93,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

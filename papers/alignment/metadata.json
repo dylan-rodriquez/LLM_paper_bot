@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Steering LLMs for Culturally Localized Generation",
+      "authors": [
+        "Simran Khanuja, Hongbin Liu, Shujian Zhang, John Lambert, Mingqing Chen, Rajiv Mathews, Lun Wang"
+      ],
+      "abstract": "arXiv:2603.23301v1 Announce Type: new \nAbstract: LLMs are deployed globally, yet produce responses biased towards cultures with abundant training data. Existing cultural localization approaches such as prompting or post-training alignment are black-box, hard to control, and do not reveal whether failures reflect missing knowledge or poor elicitation. In this paper, we address these gaps using mechanistic interpretability to uncover and manipulate cultural representations in LLMs. Leveraging sparse autoencoders, we identify interpretable features that encode culturally salient information and aggregate them into Cultural Embeddings (CuE). We use CuE both to analyze implicit cultural biases under underspecified prompts and to construct white-box steering interventions. Across multiple models, we show that CuE-based steering increases cultural faithfulness and elicits significantly rarer, long-tail cultural concepts than prompting alone. Notably, CuE-based steering is complementary to black-box localization methods, offering gains when applied on top of prompt-augmented inputs. This also suggests that models do benefit from better elicitation strategies, and don't necessarily lack long-tail knowledge representation, though this varies across cultures. Our results provide both diagnostic insight into cultural representations in LLMs and a controllable method to steer towards desired cultures.",
+      "url": "https://arxiv.org/abs/2603.23301",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "cultural",
+        "cue",
+        "llms",
+        "steering",
+        "box",
+        "cultures",
+        "based",
+        "based steering",
+        "black",
+        "black box"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 cultural bias \u2013 with a novel and rigorous approach. The use of mechanistic interpretability and sparse autoencoders to identify and manipulate 'Cultural Embeddings' is a significant step beyond existing prompting or post-training alignment methods. The reported improvements in cultural faithfulness and elicitation of long-tail concepts suggest a promising path forward for more inclusive and globally relevant LLMs. The complementary nature of their approach to existing methods further strengthens its potential.",
+      "paper_id": "9f0991ecf18720b1c1a79db102fb871d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-25T10:09:33.431515"
 }

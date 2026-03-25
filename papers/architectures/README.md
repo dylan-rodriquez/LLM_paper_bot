@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Detecting Non-Membership in LLM Training Data via Rank Correlations
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Pranav Shetty, Mirazul Haque, Zhiqiang Ma, Xiaomo Liu
+
+arXiv:2603.22707v1 Announce Type: new 
+Abstract: As large language models (LLMs) are trained on increasingly vast and opaque text corpora, determining which data contributed to training has become ess...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22707) | [📝 Analysis](7cea76ec0ecb3fe2e3e304d1da41de25.md)
+
+---
+
+### Sparser, Faster, Lighter Transformer Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-25 | **Authors:** Edoardo Cetin, Stefano Peluchetti, Emilio Castillo, Akira Naruse, Mana Murakami, Llion Jones
+
+arXiv:2603.23198v1 Announce Type: cross 
+Abstract: Scaling autoregressive large language models (LLMs) has driven unprecedented progress but comes with vast computational costs. In this work, we tackl...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23198) | [📝 Analysis](ded585b8e69b0201a3f61d972d4b58ed.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

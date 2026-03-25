@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Multi-Method Validation of Large Language Model Medical Translation Across High- and Low-Resource Languages
+
+**Score:** 92.0 | **Published:** 2026-03-25 | **Authors:** Chukwuebuka Anyaegbuna, Eduardo Juan Perez Guerrero, Jerry Liu, Timothy Keyes, April Liang, Natasha Steele, Stephen Ma, Jonathan Chen, Kevin Schulman
+
+arXiv:2603.22642v1 Announce Type: new 
+Abstract: Language barriers affect 27.3 million U.S. residents with non-English language preference, yet professional medical translation remains costly and ofte...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.22642) | [📝 Analysis](e9e9b2caa5b545f32b2aba2cd7d89cac.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-25 10:09:33 UTC*

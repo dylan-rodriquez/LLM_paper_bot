@@ -1,0 +1,37 @@
+{
+  "papers": [
+    {
+      "title": "Between Rules and Reality: On the Context Sensitivity of LLM Moral Judgment",
+      "authors": [
+        "Adrian Sauter, Mona Schirmer"
+      ],
+      "abstract": "arXiv:2603.23114v1 Announce Type: cross \nAbstract: A human's moral decision depends heavily on the context. Yet research on LLM morality has largely studied fixed scenarios. We address this gap by introducing Contextual MoralChoice, a dataset of moral dilemmas with systematic contextual variations known from moral psychology to shift human judgment: consequentialist, emotional, and relational. Evaluating 22 LLMs, we find that nearly all models are context-sensitive, shifting their judgments toward rule-violating behavior. Comparing with a human survey, we find that models and humans are most triggered by different contextual variations, and that a model aligned with human judgments in the base case is not necessarily aligned in its contextual sensitivity. This raises the question of controlling contextual sensitivity, which we address with an activation steering approach that can reliably increase or decrease a model's contextual sensitivity.",
+      "url": "https://arxiv.org/abs/2603.23114",
+      "published_date": "2026-03-25T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "contextual",
+        "human",
+        "moral",
+        "sensitivity",
+        "context",
+        "contextual sensitivity",
+        "address",
+        "aligned",
+        "contextual variations",
+        "judgment"
+      ],
+      "subject_classification": "general",
+      "justification": "This paper addresses a crucial gap in LLM morality research by moving beyond static scenarios to explore context sensitivity, mirroring human moral reasoning. The introduction of the Contextual MoralChoice dataset is a strong methodological contribution, and the finding that models and humans react differently to contextual shifts is insightful. The proposed activation steering approach offers a potential path towards better alignment, suggesting practical implications for responsible AI development. The work is well-scoped and clearly presented.",
+      "paper_id": "9d9dc951c8390fbaeaabc4e1fc82a81e"
+    }
+  ],
+  "last_updated": "2026-03-25T10:09:33.433026"
+}
