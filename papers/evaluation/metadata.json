@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Leveraging Computerized Adaptive Testing for Cost-effective Evaluation of Large Language Models in Medical Benchmarking",
+      "authors": [
+        "Tianpeng Zheng, Zhehan Jiang, Jiayi Liu, Shicong Feng"
+      ],
+      "abstract": "arXiv:2603.23506v1 Announce Type: new \nAbstract: The rapid proliferation of large language models (LLMs) in healthcare creates an urgent need for scalable and psychometrically sound evaluation methods. Conventional static benchmarks are costly to administer repeatedly, vulnerable to data contamination, and lack calibrated measurement properties for fine-grained performance tracking. We propose and validate a computerized adaptive testing (CAT) framework grounded in item response theory (IRT) for efficient assessment of standardized medical knowledge in LLMs. The study comprises a two-phase design: a Monte Carlo simulation to identify optimal CAT configurations and an empirical evaluation of 38 LLMs using a human-calibrated medical item bank. Each model completed both the full item bank and an adaptive test that dynamically selected items based on real-time ability estimates and terminated upon reaching a predefined reliability threshold (standard error <= 0.3). Results show that CAT-derived proficiency estimates achieved a near-perfect correlation with full-bank estimates (r = 0.988) while using only 1.3 percent of the items. Evaluation time was reduced from several hours to minutes per model, with substantial reductions in token usage and computational cost, while preserving inter-model performance rankings. This work establishes a psychometric framework for rapid, low-cost benchmarking of foundational medical knowledge in LLMs. The proposed adaptive methodology is intended as a standardized pre-screening and continuous monitoring tool and is not a substitute for real-world clinical validation or safety-oriented prospective studies.",
+      "url": "https://arxiv.org/abs/2603.23506",
+      "published_date": "2026-03-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "adaptive",
+        "evaluation",
+        "llms",
+        "medical",
+        "bank",
+        "cat",
+        "cost",
+        "estimates",
+        "item",
+        "model"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in the rapidly evolving LLM landscape \u2013 scalable and reliable evaluation, particularly in the high-stakes domain of medical knowledge. The application of Computerized Adaptive Testing (CAT) and Item Response Theory (IRT) to LLM benchmarking is a strong methodological approach. The two-phase design (simulation and empirical validation) adds to the rigor, and the focus on cost-effectiveness is highly relevant. The use of a human-calibrated item bank is also a positive indicator.",
+      "paper_id": "ef09904c180c9b3a5808be0e05187869"
+    },
+    {
+      "title": "BeliefShift: Benchmarking Temporal Belief Consistency and Opinion Drift in LLM Agents",
+      "authors": [
+        "Praveen Kumar Myakala, Manan Agrawal, Rahul Manche"
+      ],
+      "abstract": "arXiv:2603.23848v1 Announce Type: new \nAbstract: LLMs are increasingly used as long-running conversational agents, yet every major benchmark evaluating their memory treats user information as static facts to be stored and retrieved. That's the wrong model. People change their minds, and over extended interactions, phenomena like opinion drift, over-alignment, and confirmation bias start to matter a lot.\n  BeliefShift introduces a longitudinal benchmark designed specifically to evaluate belief dynamics in multi-session LLM interactions. It covers three tracks: Temporal Belief Consistency, Contradiction Detection, and Evidence-Driven Revision. The dataset includes 2,400 human-annotated multi-session interaction trajectories spanning health, politics, personal values, and product preferences.\n  We evaluate seven models including GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, LLaMA-3, and Mistral-Large under zero-shot and retrieval-augmented generation (RAG) settings. Results reveal a clear trade-off: models that personalize aggressively resist drift poorly, while factually grounded models miss legitimate belief updates.\n  We further introduce four novel evaluation metrics: Belief Revision Accuracy (BRA), Drift Coherence Score (DCS), Contradiction Resolution Rate (CRR), and Evidence Sensitivity Index (ESI).",
+      "url": "https://arxiv.org/abs/2603.23848",
+      "published_date": "2026-03-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "belief",
+        "drift",
+        "models",
+        "agents",
+        "belief consistency",
+        "beliefshift",
+        "benchmark",
+        "consistency",
+        "contradiction",
+        "evaluate"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the dynamic nature of beliefs and opinions. The introduction of the BeliefShift benchmark, with its focus on temporal consistency, contradiction detection, and evidence-driven revision, is a strong contribution. The evaluation of multiple state-of-the-art models provides valuable insights, and the problem is highly relevant to the development of reliable long-running conversational agents.",
+      "paper_id": "335aed75d89bcf87b87fb1aaa6fe12e7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-26T10:10:58.230833"
 }

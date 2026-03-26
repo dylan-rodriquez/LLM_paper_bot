@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "The Price Reversal Phenomenon: When Cheaper Reasoning Models End Up Costing More",
+      "authors": [
+        "Lingjiao Chen, Chi Zhang, Yeye He, Ion Stoica, Matei Zaharia, James Zou"
+      ],
+      "abstract": "arXiv:2603.23971v1 Announce Type: new \nAbstract: Developers and consumers increasingly choose reasoning language models (RLMs) based on their listed API prices. However, how accurately do these prices reflect actual inference costs? We conduct the first systematic study of this question, evaluating 8 frontier RLMs across 9 diverse tasks covering competition math, science QA, code generation, and multi-domain reasoning. We uncover the pricing reversal phenomenon: in 21.8% of model-pair comparisons, the model with a lower listed price actually incurs a higher total cost, with reversal magnitude reaching up to 28x. For example, Gemini 3 Flash's listed price is 78% cheaper than GPT-5.2's, yet its actual cost across all tasks is 22% higher. We trace the root cause to vast heterogeneity in thinking token consumption: on the same query, one model may use 900% more thinking tokens than another. In fact, removing thinking token costs reduces ranking reversals by 70% and raises the rank correlation (Kendall's $\\tau$ ) between price and cost rankings from 0.563 to 0.873. We further show that per-query cost prediction is fundamentally difficult: repeated runs of the same query yield thinking token variation up to 9.7x, establishing an irreducible noise floor for any predictor. Our findings demonstrate that listed API pricing is an unreliable proxy for actual cost, calling for cost-aware model selection and transparent per-request cost monitoring.",
+      "url": "https://arxiv.org/abs/2603.23971",
+      "published_date": "2026-03-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "cost",
+        "listed",
+        "model",
+        "price",
+        "thinking",
+        "actual",
+        "query",
+        "reasoning",
+        "reversal",
+        "thinking token"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a very practical and important problem in the rapidly evolving landscape of LLM APIs \u2013 the disconnect between listed price and actual cost. The discovery of the 'pricing reversal phenomenon' is significant and well-supported by the initial findings. While the methodology appears sound, the abstract suggests further detail on the experimental setup and statistical significance would be beneficial for a full assessment.",
+      "paper_id": "d39e1eb80cfc93ac1fe3ee508cb897da"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-26T10:10:58.233511"
 }

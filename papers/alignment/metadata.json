@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Internal Safety Collapse in Frontier Large Language Models",
+      "authors": [
+        "Yutao Wu, Xiao Liu, Yifeng Gao, Xiang Zheng, Hanxun Huang, Yige Li, Cong Wang, Bo Li, Xingjun Ma, Yu-Gang Jiang"
+      ],
+      "abstract": "arXiv:2603.23509v1 Announce Type: new \nAbstract: This work identifies a critical failure mode in frontier large language models (LLMs), which we term Internal Safety Collapse (ISC): under certain task conditions, models enter a state in which they continuously generate harmful content while executing otherwise benign tasks. We introduce TVD (Task, Validator, Data), a framework that triggers ISC through domain tasks where generating harmful content is the only valid completion, and construct ISC-Bench containing 53 scenarios across 8 professional disciplines. Evaluated on JailbreakBench, three representative scenarios yield worst-case safety failure rates averaging 95.3% across four frontier LLMs (including GPT-5.2 and Claude Sonnet 4.5), substantially exceeding standard jailbreak attacks. Frontier models are more vulnerable than earlier LLMs: the very capabilities that enable complex task execution become liabilities when tasks intrinsically involve harmful content. This reveals a growing attack surface: almost every professional domain uses tools that process sensitive data, and each new dual-use tool automatically expands this vulnerability--even without any deliberate attack. Despite substantial alignment efforts, frontier LLMs retain inherently unsafe internal capabilities: alignment reshapes observable outputs but does not eliminate the underlying risk profile. These findings underscore the need for caution when deploying LLMs in high-stakes settings. Source code: https://github.com/wuyoscar/ISC-Bench",
+      "url": "https://arxiv.org/abs/2603.23509",
+      "published_date": "2026-03-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "frontier",
+        "llms",
+        "isc",
+        "models",
+        "content",
+        "harmful",
+        "harmful content",
+        "internal",
+        "safety",
+        "task"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper identifies a critical and previously unaddressed failure mode in LLMs \u2013 Internal Safety Collapse \u2013 which is a significant concern as models become more powerful. The TVD framework and ISC-Bench appear well-constructed for systematically triggering and evaluating this vulnerability. The high failure rates reported on leading models suggest a real and pressing issue, and the finding that increased capability correlates with increased vulnerability is particularly noteworthy.",
+      "paper_id": "231cb4d9ab5a75b7a8d9a41b28ac6e8d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-26T10:10:58.231896"
 }

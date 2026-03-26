@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### The Price Reversal Phenomenon: When Cheaper Reasoning Models End Up Costing More
+
+**Score:** 90.0 | **Published:** 2026-03-26 | **Authors:** Lingjiao Chen, Chi Zhang, Yeye He, Ion Stoica, Matei Zaharia, James Zou
+
+arXiv:2603.23971v1 Announce Type: new 
+Abstract: Developers and consumers increasingly choose reasoning language models (RLMs) based on their listed API prices. However, how accurately do these prices...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23971) | [📝 Analysis](d39e1eb80cfc93ac1fe3ee508cb897da.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-26 10:10:58 UTC*
