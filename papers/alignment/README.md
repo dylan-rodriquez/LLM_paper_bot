@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Internal Safety Collapse in Frontier Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-03-26 | **Authors:** Yutao Wu, Xiao Liu, Yifeng Gao, Xiang Zheng, Hanxun Huang, Yige Li, Cong Wang, Bo Li, Xingjun Ma, Yu-Gang Jiang
+
+arXiv:2603.23509v1 Announce Type: new 
+Abstract: This work identifies a critical failure mode in frontier large language models (LLMs), which we term Internal Safety Collapse (ISC): under certain task...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23509) | [📝 Analysis](231cb4d9ab5a75b7a8d9a41b28ac6e8d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-26 10:10:58 UTC*

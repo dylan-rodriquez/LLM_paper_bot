@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Berta: an open-source, modular tool for AI-enabled clinical documentation",
+      "authors": [
+        "Samridhi Vaid, Mike Weldon, Jesse Dunn, Sacha Davis, Kevin Lonergan, Henry Li, Jeffrey Franc, Mohamed Abdalla, Daniel C. Baumgart, Jake Hayward, J Ross Mitchell"
+      ],
+      "abstract": "arXiv:2603.23513v1 Announce Type: new \nAbstract: Commercial AI scribes cost \\$99-600 per physician per month, operate as opaque systems, and do not return data to institutional infrastructure, limiting organizational control over data governance, quality improvement, and clinical workflows. We developed Berta, an open-source modular scribe platform for AI-enabled clinical documentation, and deployed a customized implementation within Alberta Health Services (AHS) integrated with their existing Snowflake AI Data Cloud infrastructure. The system combines automatic speech recognition with large language models while retaining all clinical data within the secure AHS environment. During eight months (November 2024 to July 2025), 198 emergency physicians used the system in 105 urban and rural facilities, generating 22148 clinical sessions and more than 2800 hours of audio. The use grew from 680 to 5530 monthly sessions. Operating costs averaged less than \\$30 per physician per month, a 70-95% reduction compared to commercial alternatives. AHS has since approved expansion to 850 physicians. This is the first provincial-scale deployment of an AI scribe integrated with existing health system infrastructure. By releasing Berta as open source, we provide a reproducible, cost-effective alternative that health systems can adapt to their own secure environments, supporting data sovereignty and informed evaluation of AI documentation technology.",
+      "url": "https://arxiv.org/abs/2603.23513",
+      "published_date": "2026-03-26T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "ai",
+        "clinical",
+        "data",
+        "ahs",
+        "berta",
+        "berta open",
+        "documentation",
+        "health",
+        "infrastructure",
+        "open"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a very significant problem \u2013 the high cost and lack of transparency of commercial AI scribes. The development of an open-source alternative, Berta, and its successful deployment within a large healthcare system (AHS) is a strong indicator of quality and potential impact. While combining ASR and LLMs isn't novel, the focus on data governance and integration with existing infrastructure, coupled with the demonstrated cost savings and usage growth, makes this work highly valuable.",
+      "paper_id": "05cdcda20b388082314aa402b56d2765"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-03-26T10:10:58.232622"
 }

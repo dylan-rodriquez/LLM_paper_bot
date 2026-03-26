@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Berta: an open-source, modular tool for AI-enabled clinical documentation
+
+**Score:** 90.0 | **Published:** 2026-03-26 | **Authors:** Samridhi Vaid, Mike Weldon, Jesse Dunn, Sacha Davis, Kevin Lonergan, Henry Li, Jeffrey Franc, Mohamed Abdalla, Daniel C. Baumgart, Jake Hayward, J Ross Mitchell
+
+arXiv:2603.23513v1 Announce Type: new 
+Abstract: Commercial AI scribes cost \$99-600 per physician per month, operate as opaque systems, and do not return data to institutional infrastructure, limitin...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.23513) | [📝 Analysis](05cdcda20b388082314aa402b56d2765.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-26 10:10:58 UTC*
