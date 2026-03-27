@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Probabilistic Concept Graph Reasoning for Multimodal Misinformation Detection
+
+**Score:** 92.0 | **Published:** 2026-03-27 | **Authors:** Ruichao Yang, Wei Gao, Xiaobin Zhu, Jing Ma, Hongzhan Lin, Ziyang Luo, Bo-Wen Zhang, Xu-Cheng Yin
+
+arXiv:2603.25203v1 Announce Type: cross 
+Abstract: Multimodal misinformation poses an escalating challenge that often evades traditional detectors, which are opaque black boxes and fragile against new...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.25203) | [📝 Analysis](f9b2a015c7794d43090621f00ef3fd61.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-27 10:01:27 UTC*

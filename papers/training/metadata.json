@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Beyond Detection: Rethinking Education in the Age of AI-writing",
+      "authors": [
+        "Maria Marina, Alexander Panchenko, Vasily Konovalov"
+      ],
+      "abstract": "arXiv:2603.25329v1 Announce Type: new \nAbstract: As generative AI tools like ChatGPT enter classrooms, workplaces and everyday thinking, writing is at risk of becoming a formality -- outsourced, automated and stripped of its cognitive value. But writing is not just output; it is how we learn to think. This paper explores what is lost when we let machines write for us, drawing on cognitive psychology, educational theory and real classroom practices. We argue that the process of writing -- messy, slow, often frustrating -- is where a human deep learning happens. The paper also explores the current possibilities of AI-text detection, how educators can adapt through smarter pedagogy rather than bans, and why the ability to recognize machine-generated language may become a critical literacy of the 21st century. In a world where writing can be faked, learning can not.",
+      "url": "https://arxiv.org/abs/2603.25329",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "writing",
+        "ai",
+        "cognitive",
+        "detection",
+        "explores",
+        "learning",
+        "paper",
+        "paper explores",
+        "21st",
+        "21st century"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the impact of generative AI on education and the very nature of learning. While the abstract doesn't detail novel *methods*, it proposes a crucial shift in pedagogical thinking, moving beyond detection to focus on the cognitive value of writing. The interdisciplinary approach, drawing on cognitive psychology and educational theory, strengthens its potential impact, and the topic is currently generating significant discussion within the academic and educational communities.",
+      "paper_id": "89586b1313d87b3c5e56aee2f5482dc4"
+    },
+    {
+      "title": "Self-Improvement of Large Language Models: A Technical Overview and Future Outlook",
+      "authors": [
+        "Haoyan Yang, Mario Xerri, Solha Park, Huajian Zhang, Yiyang Feng, Sai Akhil Kogilathota, Jiawei Zhou"
+      ],
+      "abstract": "arXiv:2603.25681v1 Announce Type: new \nAbstract: As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model development process can be progressively automated. Together, these challenges and opportunities have driven increasing interest in self-improvement, where models autonomously generate data, evaluate outputs, and iteratively refine their own capabilities. In this paper, we present a system-level perspective on self-improving language models and introduce a unified framework that organizes existing techniques. We conceptualize the self-improvement system as a closed-loop lifecycle, consisting of four tightly coupled processes: data acquisition, data selection, model optimization, and inference refinement, along with an autonomous evaluation layer. Within this framework, the model itself plays a central role in driving each stage: collecting or generating data, selecting informative signals, updating its parameters, and refining outputs, while the autonomous evaluation layer continuously monitors progress and guides the improvement cycle across stages. Following this lifecycle perspective, we systematically review and analyze representative methods for each component from a technical standpoint. We further discuss current limitations and outline our vision for future research toward fully self-improving LLMs.",
+      "url": "https://arxiv.org/abs/2603.25681",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "improvement",
+        "self",
+        "data",
+        "autonomous",
+        "human",
+        "improving",
+        "language",
+        "language models",
+        "model"
+      ],
+      "subject_classification": "training",
+      "justification": "The abstract clearly identifies a critical bottleneck in LLM development \u2013 the scalability of human feedback \u2013 and proposes a promising direction: self-improvement. Framing the problem as a system-level challenge and introducing a unified framework suggests a rigorous and well-thought-out approach. The topic is highly relevant to current research trends and addresses a significant limitation of current LLM scaling strategies. The novelty appears to lie in the systematic organization of existing techniques rather than a single groundbreaking method, but this is valuable in itself.",
+      "paper_id": "97bf624fb6be9d0c458876f2f219ec5d"
+    },
+    {
+      "title": "AI Security in the Foundation Model Era: A Comprehensive Survey from a Unified Perspective",
+      "authors": [
+        "Zhenyi Wang, Siyu Luan"
+      ],
+      "abstract": "arXiv:2603.24857v1 Announce Type: cross \nAbstract: As machine learning (ML) systems expand in both scale and functionality, the security landscape has become increasingly complex, with a proliferation of attacks and defenses. However, existing studies largely treat these threats in isolation, lacking a coherent framework to expose their shared principles and interdependencies. This fragmented view hinders systematic understanding and limits the design of comprehensive defenses. Crucially, the two foundational assets of ML -- \\textbf{data} and \\textbf{models} -- are no longer independent; vulnerabilities in one directly compromise the other. The absence of a holistic framework leaves open questions about how these bidirectional risks propagate across the ML pipeline. To address this critical gap, we propose a \\emph{unified closed-loop threat taxonomy} that explicitly frames model-data interactions along four directional axes. Our framework offers a principled lens for analyzing and defending foundation models. The resulting four classes of security threats represent distinct but interrelated categories of attacks: (1) Data$\\rightarrow$Data (D$\\rightarrow$D): including \\emph{data decryption attacks and watermark removal attacks}; (2) Data$\\rightarrow$Model (D$\\rightarrow$M): including \\emph{poisoning, harmful fine-tuning attacks, and jailbreak attacks}; (3) Model$\\rightarrow$Data (M$\\rightarrow$D): including \\emph{model inversion, membership inference attacks, and training data extraction attacks}; (4) Model$\\rightarrow$Model (M$\\rightarrow$M): including \\emph{model extraction attacks}. Our unified framework elucidates the underlying connections among these security threats and establishes a foundation for developing scalable, transferable, and cross-modal security strategies, particularly within the landscape of foundation models.",
+      "url": "https://arxiv.org/abs/2603.24857",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "attacks",
+        "data",
+        "model",
+        "rightarrow",
+        "emph",
+        "security",
+        "data rightarrow",
+        "foundation",
+        "framework",
+        "including"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and timely problem in AI security, particularly concerning foundation models. The proposal of a 'unified closed-loop threat taxonomy' is a strong step towards a more holistic understanding of vulnerabilities, moving beyond isolated threat analyses. The focus on the bidirectional relationship between data and models is crucial, and the framework appears well-motivated and potentially impactful. The abstract suggests a rigorous approach and clear presentation.",
+      "paper_id": "cfb4216130c35a8d9769db4d3cabd98b"
+    },
+    {
+      "title": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+      "authors": [
+        "Yicheng Zou, Dongsheng Zhu, Lin Zhu, Tong Zhu, Yunhua Zhou, Peiheng Zhou, Xinyu Zhou, Dongzhan Zhou, Zhiwang Zhou, Yuhao Zhou, Bowen Zhou, Zhanping Zhong, Zhijie Zhong, Haiteng Zhao, Penghao Zhao, Xiaomeng Zhao, Zhiyuan Zhao, Yechen Zhang, Jin Zhang, Wenwei Zhang, Hongjie Zhang, Zhuo Zhang, Wenlong Zhang, Bo Zhang, Chao Zhang, Chen Zhang, Yuhang Zang, Fei Yuan, Jiakang Yuan, Jiashuo Yu, Jinhui Yin, Haochen Ye, Qian Yao, Bowen Yang, Danni Yang, Kaichen Yang, Ziang Yan, Jun Xu, Yicheng Xu, Wanghan Xu, Xuenan Xu, Chao Xu, Ruiliang Xu, Shuhao Xing, Long Xing, Xinchen Xie, Ling-I Wu, Zijian Wu, Zhenyu Wu, Lijun Wu, Yue Wu, Jianyu Wu, Wen Wu, Fan Wu, Xilin Wei, Qi Wei, Bingli Wang, Rui Wang, Ziyi Wang, Zun Wang, Yi Wang, Haomin Wang, Yizhou Wang, Lintao Wang, Yiheng Wang, Longjiang Wang, Bin Wang, Jian Tong, Zhongbo Tian, Huanze Tang, Chen Tang, Shixiang Tang, Yu Sun, Qiushi Sun, Xuerui Su, Qisheng Su, Chenlin Su, Demin Song, Jin Shi, Fukai Shang, Yuchen Ren, Pengli Ren, Xiaoye Qu, Yuan Qu, Jiantao Qiu, Yu Qiao, Runyu Peng, Tianshuo Peng, Jiahui Peng, Qizhi Pei, Zhuoshi Pan, Linke Ouyang, Wenchang Ning, Yichuan Ma, Zerun Ma, Ningsheng Ma, Runyuan Ma, Chengqi Lyu, Haijun Lv, Han Lv, Lindong Lu, Kuikun Liu, Jiangning Liu, Yuhong Liu, Kai Liu, Hongwei Liu, Zhoumianze Liu, Mengjie Liu, Ziyu Liu, Wenran Liu, Yang Liu, Liwei Liu, Kaiwen Liu, Junyao Lin, Junming Lin, Tianyang Lin, Dahua Lin, Jianze Liang, Linyang Li, Peiji Li, Zonglin Li, Zehao Li, Pengze Li, Guoyan Li, Lingkai Kong, Linglin Jing, Zhenjiang Jin, Feifei Jiang, Qian Jiang, Junhao Huang, Zixian Huang, Haian Huang, Zhouqi Hua, Han Hu, Linfeng Hou, Yinan He, Conghui He, Tianyao He, Xu Guo, Qipeng Guo, Aijia Guo, Yuzhe Gu, Lixin Gu, Jingyang Gong, Qiming Ge, Jiaye Ge, Songyang Gao, Jianfei Gao, Xinyu Fang, Caihua fan, Yue Fan, Yanhui Duan, Zichen Ding, Shengyuan Ding, Xuanlang Dai, Erfei Cui, Ganqu Cui, Pei Chu, Tao Chu, Guangran Cheng, Yu Cheng, Kai Chen, Yongkang Chen, Chiyu Chen, Guanzhou Chen, Qiaosheng Chen, Sitao Chen, Xin Chen, Haojiong Chen, Yicheng Chen, Weihan Cao, Yuhang Cao, Qinglong Cao, Lei Bai"
+      ],
+      "abstract": "arXiv:2603.25040v1 Announce Type: cross \nAbstract: We introduce Intern-S1-Pro, the first one-trillion-parameter scientific multimodal foundation model. Scaling to this unprecedented size, the model delivers a comprehensive enhancement across both general and scientific domains. Beyond stronger reasoning and image-text understanding capabilities, its intelligence is augmented with advanced agent capabilities. Simultaneously, its scientific expertise has been vastly expanded to master over 100 specialized tasks across critical science fields, including chemistry, materials, life sciences, and earth sciences. Achieving this massive scale is made possible by the robust infrastructure support of XTuner and LMDeploy, which facilitates highly efficient Reinforcement Learning (RL) training at the 1-trillion parameter level while ensuring strict precision consistency between training and inference. By seamlessly integrating these advancements, Intern-S1-Pro further fortifies the fusion of general and specialized intelligence, working as a Specializable Generalist, demonstrating its position in the top tier of open-source models for general capabilities, while outperforming proprietary models in the depth of specialized scientific tasks.",
+      "url": "https://arxiv.org/abs/2603.25040",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "scientific",
+        "capabilities",
+        "general",
+        "intern",
+        "intern s1",
+        "model",
+        "pro",
+        "s1",
+        "s1 pro",
+        "specialized"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper presents a significant advancement in scientific foundation models by scaling to a trillion parameters. The integration of advanced agent capabilities and expertise across multiple scientific domains is particularly noteworthy. The use of XTuner and LMDeploy for efficient RL training at this scale demonstrates a strong engineering effort, suggesting a high degree of rigor and potential for reproducibility. The model's broad applicability and potential to accelerate scientific discovery contribute to its high significance.",
+      "paper_id": "66713de85aaf391e2e551822cf2f1db0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-03-27T10:01:27.380996"
 }

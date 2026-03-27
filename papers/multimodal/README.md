@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### A cross-species neural foundation model for end-to-end speech decoding
+
+**Score:** 92.0 | **Published:** 2026-03-27 | **Authors:** Yizi Zhang, Linyang He, Chaofei Fan, Tingkai Liu, Han Yu, Trung Le, Jingyuan Li, Scott Linderman, Lea Duncker, Francis R Willett, Nima Mesgarani, Liam Paninski
+
+arXiv:2511.21740v4 Announce Type: replace 
+Abstract: Speech brain-computer interfaces (BCIs) aim to restore communication for people with paralysis by translating neural activity into text. Most syste...
+
+[📄 Full Paper](https://arxiv.org/abs/2511.21740) | [📝 Analysis](a3722daeea43f686de104123af550e05.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-27 10:01:27 UTC*

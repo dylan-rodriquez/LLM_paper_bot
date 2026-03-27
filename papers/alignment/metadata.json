@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Instruction Following by Principled Boosting Attention of Large Language Models",
+      "authors": [
+        "Vitoria Guardieiro, Avishree Khare, Adam Stein, Eric Wong"
+      ],
+      "abstract": "arXiv:2506.13734v3 Announce Type: replace \nAbstract: Large language models' behavior is often shaped by instructions such as system prompts, refusal boundaries, privacy constraints, and tool-use rules that must hold at inference time. Yet in practice these constraints can be violated under long contexts or when user-provided context conflicts with them, creating reliability and safety risks. This motivates inference-time interventions that strengthen instruction influence without retraining. One such intervention is attention steering, which biases attention toward instruction tokens. In this work, we present a unifying theory for attention steering methods by formalizing instruction following as rule-based competition between instruction rules and context-derived rules, with attention mediating which rules dominate. We prove that boosting attention to instruction tokens tilts this competition, making it harder for context to override instruction-following. However, excessive boosting can suppress task-relevant context that should be incorporated alongside the instruction. Guided by this theory, we propose Instruction Attention Boosting (InstABoost), a simple intervention that applies a constant additive bias to instruction-key attention logits across all layers and heads. We evaluate InstABoost against prompting, latent steering, and prior attention steering methods across 15 tasks. InstABoost matches or outperforms all baselines while avoiding the fluency collapse of latent methods and the instruction over-focus of prior attention methods, achieving a stronger steering-quality tradeoff.",
+      "url": "https://arxiv.org/abs/2506.13734",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "instruction",
+        "attention",
+        "steering",
+        "boosting",
+        "context",
+        "methods",
+        "rules",
+        "attention steering",
+        "following",
+        "instaboost"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 maintaining instruction following in the face of conflicting context. The theoretical framing of instruction following as rule-based competition is a strong point, and the proof regarding attention boosting is valuable. While attention steering isn't entirely new, the unifying theory and formalization elevate the work beyond a simple empirical study, suggesting a deeper understanding of the underlying mechanisms.",
+      "paper_id": "6339b255c15aaf1d021cc522bb266185"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-03-27T10:01:27.384567"
 }

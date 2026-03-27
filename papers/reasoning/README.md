@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### GeoResponder: Towards Building Geospatial LLMs for Time-Critical Disaster Response
+
+**Score:** 92.0 | **Published:** 2026-03-27 | **Authors:** Ahmed El Fekih Zguir, Ferda Ofli, Muhammad Imran
+
+arXiv:2509.19354v3 Announce Type: replace 
+Abstract: LLMs excel at linguistic tasks but lack the inner geospatial capabilities needed for time-critical disaster response, where reasoning about road ne...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.19354) | [📝 Analysis](d55a64601c668641456b56763d5f1b8e.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-27 10:01:27 UTC*
