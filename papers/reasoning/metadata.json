@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "GeoResponder: Towards Building Geospatial LLMs for Time-Critical Disaster Response",
+      "authors": [
+        "Ahmed El Fekih Zguir, Ferda Ofli, Muhammad Imran"
+      ],
+      "abstract": "arXiv:2509.19354v3 Announce Type: replace \nAbstract: LLMs excel at linguistic tasks but lack the inner geospatial capabilities needed for time-critical disaster response, where reasoning about road networks, coordinates, and access to essential infrastructure such as hospitals, shelters, and pharmacies is vital. We introduce GeoResponder, a framework that instills robust spatial reasoning through a scaffolded instruction-tuning curriculum. By stratifying geospatial learning into different cognitive layers, we anchor semantic knowledge to the continuous coordinate manifold and enforce the internalization of spatial axioms. Extensive evaluations across four topologically distinct cities and diverse tasks demonstrate that GeoResponder significantly outperforms both state-of-the-art foundation models and domain-specific baselines. These results suggest that LLMs can begin to internalize and generalize geospatial structures, pointing toward the future development of language models capable of supporting disaster response needs.",
+      "url": "https://arxiv.org/abs/2509.19354",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "geospatial",
+        "disaster",
+        "disaster response",
+        "georesponder",
+        "llms",
+        "response",
+        "critical",
+        "critical disaster",
+        "models",
+        "reasoning"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly significant problem \u2013 the lack of geospatial reasoning in LLMs for disaster response. The 'scaffolded instruction-tuning curriculum' approach appears well-reasoned and the reported performance gains across multiple cities are promising. While instruction tuning isn't entirely novel, applying it specifically to geospatial reasoning with this layered approach demonstrates a clear advancement. The potential for real-world impact in time-critical situations is substantial.",
+      "paper_id": "d55a64601c668641456b56763d5f1b8e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-03-27T10:01:27.385289"
 }

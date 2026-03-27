@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Instruction Following by Principled Boosting Attention of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-27 | **Authors:** Vitoria Guardieiro, Avishree Khare, Adam Stein, Eric Wong
+
+arXiv:2506.13734v3 Announce Type: replace 
+Abstract: Large language models' behavior is often shaped by instructions such as system prompts, refusal boundaries, privacy constraints, and tool-use rules...
+
+[📄 Full Paper](https://arxiv.org/abs/2506.13734) | [📝 Analysis](6339b255c15aaf1d021cc522bb266185.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-27 10:01:27 UTC*

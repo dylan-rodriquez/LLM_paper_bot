@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Prompt Attack Detection with LLM-as-a-Judge and Mixture-of-Models
+
+**Score:** 90.0 | **Published:** 2026-03-27 | **Authors:** Hieu Xuan Le, Benjamin Goh, Quy Anh Tang
+
+arXiv:2603.25176v1 Announce Type: new 
+Abstract: Prompt attacks, including jailbreaks and prompt injections, pose a critical security risk to Large Language Model (LLM) systems. In production, guardra...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.25176) | [📝 Analysis](f124f3b69df10496859cc81cdd78db1e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-27 10:01:27 UTC*

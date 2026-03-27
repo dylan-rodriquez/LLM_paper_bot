@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Prompt Attack Detection with LLM-as-a-Judge and Mixture-of-Models",
+      "authors": [
+        "Hieu Xuan Le, Benjamin Goh, Quy Anh Tang"
+      ],
+      "abstract": "arXiv:2603.25176v1 Announce Type: new \nAbstract: Prompt attacks, including jailbreaks and prompt injections, pose a critical security risk to Large Language Model (LLM) systems. In production, guardrails must mitigate these attacks under strict low-latency constraints, resulting in a deployment gap in which lightweight classifiers and rule-based systems struggle to generalize under distribution shift, while high-capacity LLM-based judges remain too slow or costly for live enforcement. In this work, we examine whether lightweight, general-purpose LLMs can reliably serve as security judges under real-world production constraints. Through careful prompt and output design, lightweight LLMs are guided through a structured reasoning process involving explicit intent decomposition, safety-signal verification, harm assessment, and self-reflection. We evaluate our method on a curated dataset combining benign queries from real-world chatbots with adversarial prompts generated via automated red teaming (ART), covering diverse and evolving patterns. Our results show that general-purpose LLMs, such as gemini-2.0-flash-lite-001, can serve as effective low-latency judges for live guardrails. This configuration is currently deployed in production as a centralized guardrail service for public service chatbots in Singapore. We additionally evaluate a Mixture-of-Models (MoM) setting to assess whether aggregating multiple LLM judges improves prompt-attack detection performance relative to single-model judges, with only modest gains observed.",
+      "url": "https://arxiv.org/abs/2603.25176",
+      "published_date": "2026-03-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "judges",
+        "prompt",
+        "llm",
+        "lightweight",
+        "llms",
+        "production",
+        "attack",
+        "attack detection",
+        "attacks",
+        "based"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper tackles a very important and timely problem \u2013 prompt attacks on LLMs \u2013 and proposes a practical solution focused on leveraging lightweight LLMs as judges. The structured reasoning approach (intent decomposition, safety verification, etc.) seems well-considered and addresses the latency/cost issues of using larger LLMs for security. The evaluation on a curated dataset combining real-world and adversarial prompts is a strong point, suggesting a focus on real-world applicability.",
+      "paper_id": "f124f3b69df10496859cc81cdd78db1e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-27T10:01:27.377918"
 }
