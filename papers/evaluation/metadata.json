@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI",
+      "authors": [
+        "Anna Kozlova, Stanislau Salavei, Pavel Satalkin, Hanna Plotnitskaya, Sergey Parfenyuk"
+      ],
+      "abstract": "arXiv:2603.25821v1 Announce Type: new \nAbstract: We present Doctorina MedBench, a comprehensive evaluation framework for agent-based medical AI based on the simulation of realistic physician-patient interactions. Unlike traditional medical benchmarks that rely on solving standardized test questions, the proposed approach models a multi-step clinical dialogue in which either a physician or an AI system must collect medical history, analyze attached materials (including laboratory reports, images, and medical documents), formulate differential diagnoses, and provide personalized recommendations. System performance is evaluated using the D.O.T.S. metric, which consists of four components: Diagnosis, Observations/Investigations, Treatment, and Step Count, enabling assessment of both clinical correctness and dialogue efficiency.\n  The system also incorporates a multi-level testing and quality monitoring architecture designed to detect model degradation during both development and deployment. The framework supports safety-oriented trap cases, category-based random sampling of clinical scenarios, and full regression testing. The dataset currently contains more than 1,000 clinical cases covering over 750 diagnoses. The universality of the evaluation metrics allows the framework to be used not only to assess medical AI systems, but also to evaluate physicians and support the development of clinical reasoning skills. Our results suggest that simulation of clinical dialogue may provide a more realistic assessment of clinical competence compared to traditional examination-style benchmarks.",
+      "url": "https://arxiv.org/abs/2603.25821",
+      "published_date": "2026-03-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "clinical",
+        "medical",
+        "ai",
+        "based",
+        "dialogue",
+        "evaluation",
+        "framework",
+        "medical ai",
+        "agent",
+        "agent based"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in medical AI: moving beyond simple question-answering to realistic clinical reasoning. The proposed Doctorina MedBench framework, with its focus on multi-step dialogue and the D.O.T.S. metric, offers a more comprehensive and clinically relevant evaluation approach. The inclusion of a quality monitoring architecture is also a strong point, suggesting a focus on real-world deployment concerns. The novelty lies in the simulation aspect, but builds upon existing dialogue and medical AI work.",
+      "paper_id": "9dfd346cfc5f8cb7599cb2c5097d7a0e"
+    },
+    {
+      "title": "The Hidden Puppet Master: Predicting Human Belief Change in Manipulative LLM Dialogues",
+      "authors": [
+        "Jocelyn Shen, Amina Luvsanchultem, Jessica Kim, Kynnedy Smith, Valdemar Danry, Kantwon Rogers, Hae Won Park, Maarten Sap, Cynthia Breazeal"
+      ],
+      "abstract": "arXiv:2603.20907v2 Announce Type: replace \nAbstract: As users increasingly turn to LLMs for practical and personal advice, they become vulnerable to subtle steering toward hidden incentives misaligned with their own interests. While existing NLP research has benchmarked manipulation detection, these efforts often rely on simulated debates and remain fundamentally decoupled from actual human belief shifts in real-world scenarios. We introduce PUPPET, a theoretical taxonomy and resource that bridges this gap by focusing on the moral direction of hidden incentives in everyday, advice-giving contexts. We provide an evaluation dataset of N=1,035 human-LLM interactions, where we measure users' belief shifts. Our analysis reveals a critical disconnect in current safety paradigms: while models can be trained to detect manipulative strategies, they do not correlate with the magnitude of resulting belief change. As such, we define the task of belief shift prediction and show that while state-of-the-art LLMs achieve moderate correlation (r=0.3-0.5), they systematically underestimate the intensity of human belief susceptibility. This work establishes a theoretically grounded and behaviorally validated foundation for AI social safety efforts by studying incentive-driven manipulation in LLMs during everyday, practical user queries.",
+      "url": "https://arxiv.org/abs/2603.20907",
+      "published_date": "2026-03-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "belief",
+        "human",
+        "hidden",
+        "human belief",
+        "llms",
+        "advice",
+        "belief change",
+        "belief shifts",
+        "change",
+        "efforts"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial and timely problem \u2013 the potential for LLMs to subtly manipulate users' beliefs. The focus on *belief shift* as a measurable outcome, rather than just detecting manipulative strategies, is a significant step forward. While the abstract doesn't detail the specific methods for belief shift prediction, the identification of a disconnect between detection and actual impact suggests a valuable contribution to the field of LLM safety and alignment.",
+      "paper_id": "b711827a774c3836a0c02587d708469f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-03-30T10:27:03.940693"
 }

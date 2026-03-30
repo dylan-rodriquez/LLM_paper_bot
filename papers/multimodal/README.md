@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Toward Culturally Grounded Natural Language Processing
+
+**Score:** 92.0 | **Published:** 2026-03-30 | **Authors:** Sina Bagheri Nezhad
+
+arXiv:2603.26013v1 Announce Type: new 
+Abstract: Recent progress in multilingual NLP is often taken as evidence of broader global inclusivity, but a growing literature shows that multilingual capabili...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.26013) | [📝 Analysis](bd7a8a0eff0e6d2b26dc2621f86a02fa.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-30 10:27:03 UTC*

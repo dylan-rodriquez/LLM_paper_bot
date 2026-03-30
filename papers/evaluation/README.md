@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI
+
+**Score:** 92.0 | **Published:** 2026-03-30 | **Authors:** Anna Kozlova, Stanislau Salavei, Pavel Satalkin, Hanna Plotnitskaya, Sergey Parfenyuk
+
+arXiv:2603.25821v1 Announce Type: new 
+Abstract: We present Doctorina MedBench, a comprehensive evaluation framework for agent-based medical AI based on the simulation of realistic physician-patient i...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.25821) | [📝 Analysis](9dfd346cfc5f8cb7599cb2c5097d7a0e.md)
+
+---
+
+### The Hidden Puppet Master: Predicting Human Belief Change in Manipulative LLM Dialogues
+
+**Score:** 92.0 | **Published:** 2026-03-30 | **Authors:** Jocelyn Shen, Amina Luvsanchultem, Jessica Kim, Kynnedy Smith, Valdemar Danry, Kantwon Rogers, Hae Won Park, Maarten Sap, Cynthia Breazeal
+
+arXiv:2603.20907v2 Announce Type: replace 
+Abstract: As users increasingly turn to LLMs for practical and personal advice, they become vulnerable to subtle steering toward hidden incentives misaligned...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.20907) | [📝 Analysis](b711827a774c3836a0c02587d708469f.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-30 10:27:03 UTC*
