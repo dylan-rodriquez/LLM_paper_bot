@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?",
+      "authors": [
+        "Nikil Ravi, Kexing Ying, Vasilii Nesterov, Rayan Krishnan, Elif Uskuplu, Bingyu Xia, Janitha Aswedige, Langston Nashold"
+      ],
+      "abstract": "arXiv:2603.26996v1 Announce Type: cross \nAbstract: We present FormalProofBench, a private benchmark designed to evaluate whether AI models can produce formally verified mathematical proofs at the graduate level. Each task pairs a natural-language problem with a Lean~4 formal statement, and a model must output a Lean proof accepted by the Lean 4 checker. FormalProofBench targets advanced undergraduate and graduate mathematics, with problems drawn from qualifying exams and standard textbooks across topics including analysis, algebra, probability, and logic. We evaluate a range of frontier models with an agentic harness, and find that the best-performing foundation model achieves 33.5% accuracy, with performance dropping rapidly after that. In addition to the accuracy numbers, we also provide empirical analysis of tool-use, failure modes, cost and latency, thereby providing a thorough evaluation of the formal-theorem proving abilities of frontier models.",
+      "url": "https://arxiv.org/abs/2603.26996",
+      "published_date": "2026-03-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "models",
+        "formalproofbench",
+        "graduate",
+        "lean",
+        "accuracy",
+        "analysis",
+        "evaluate",
+        "formal",
+        "formally",
+        "formally verified"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a very challenging and important problem \u2013 verifying mathematical reasoning in AI. The creation of a dedicated benchmark (FormalProofBench) focused on graduate-level math and formal verification using Lean 4 is a strong methodological contribution. While the 33.5% accuracy isn't groundbreaking, the detailed analysis of tool-use, failure modes, and cost provides valuable insights into the current capabilities and limitations of large language models in this domain, suggesting a positive reception within the AI community.",
+      "paper_id": "d2692140641b1fa0e7b0b2e9f56c9580"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-03-31T10:12:26.385739"
 }

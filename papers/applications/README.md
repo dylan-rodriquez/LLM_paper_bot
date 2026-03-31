@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language Models
+
+**Score:** 90.0 | **Published:** 2026-03-31 | **Authors:** Duanyi Yao, Changyue Li, Zhicong Huang, Cheng Hong, Songze Li
+
+arXiv:2603.27522v1 Announce Type: new 
+Abstract: Vision-Language Models (VLMs) are increasingly deployed in consumer applications where users seek recommendations about products, dining, and services....
+
+[📄 Full Paper](https://arxiv.org/abs/2603.27522) | [📝 Analysis](cb54d0d61f45a6e40fb28b9028c3193e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-03-31 10:12:26 UTC*

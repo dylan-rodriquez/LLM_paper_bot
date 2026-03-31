@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop
+
+**Score:** 92.0 | **Published:** 2026-03-31 | **Authors:** Netanel Eliav (Machine Human Intelligence Lab)
+
+arXiv:2603.26707v1 Announce Type: new 
+Abstract: This paper documents and theorises a self-reinforcing dynamic between two measurable trends: the exponential expansion of large language model (LLM) co...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.26707) | [📝 Analysis](f622fa7f715fba0524dd03707c49fde8.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-31 10:12:26 UTC*

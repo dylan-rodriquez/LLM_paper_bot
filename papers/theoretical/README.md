@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?
+
+**Score:** 92.0 | **Published:** 2026-03-31 | **Authors:** Nikil Ravi, Kexing Ying, Vasilii Nesterov, Rayan Krishnan, Elif Uskuplu, Bingyu Xia, Janitha Aswedige, Langston Nashold
+
+arXiv:2603.26996v1 Announce Type: cross 
+Abstract: We present FormalProofBench, a private benchmark designed to evaluate whether AI models can produce formally verified mathematical proofs at the grad...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.26996) | [📝 Analysis](d2692140641b1fa0e7b0b2e9f56c9580.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-03-31 10:12:26 UTC*
