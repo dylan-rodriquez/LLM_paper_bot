@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language Models",
+      "authors": [
+        "Duanyi Yao, Changyue Li, Zhicong Huang, Cheng Hong, Songze Li"
+      ],
+      "abstract": "arXiv:2603.27522v1 Announce Type: new \nAbstract: Vision-Language Models (VLMs) are increasingly deployed in consumer applications where users seek recommendations about products, dining, and services. We introduce Hidden Ads, a new class of backdoor attacks that exploit this recommendation-seeking behavior to inject unauthorized advertisements. Unlike traditional pattern-triggered backdoors that rely on artificial triggers such as pixel patches or special tokens, Hidden Ads activates on natural user behaviors: when users upload images containing semantic content of interest (e.g., food, cars, animals) and ask recommendation-seeking questions, the backdoored model provides correct, helpful answers while seamlessly appending attacker-specified promotional slogans. This design preserves model utility and produces natural-sounding injections, making the attack practical for real-world deployment in consumer-facing recommendation services.\n  We propose a multi-tier threat framework to systematically evaluate Hidden Ads across three adversary capability levels: hard prompt injection, soft prompt optimization, and supervised fine-tuning. Our poisoned data generation pipeline uses teacher VLM-generated chain-of-thought reasoning to create natural trigger--slogan associations across multiple semantic domains. Experiments on three VLM architectures demonstrate that Hidden Ads achieves high injection efficacy with near-zero false positives while maintaining task accuracy. Ablation studies confirm that the attack is data-efficient, transfers effectively to unseen datasets, and scales to multiple concurrent domain-slogan pairs. We evaluate defenses including instruction-based filtering and clean fine-tuning, finding that both fail to remove the backdoor without causing significant utility degradation.",
+      "url": "https://arxiv.org/abs/2603.27522",
+      "published_date": "2026-03-31T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "ads",
+        "hidden",
+        "hidden ads",
+        "injection",
+        "natural",
+        "recommendation",
+        "semantic",
+        "attack",
+        "backdoor",
+        "backdoors"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly relevant and timely security concern regarding VLMs \u2013 the potential for subtle, behavior-triggered advertisement injection. The novelty lies in moving beyond simple trigger-based backdoors to exploit natural user interactions, making the attack more stealthy and practical. While the abstract doesn't detail the methodology, the concept is strong and the potential impact on consumer trust in VLM-powered recommendation systems is significant. The focus on preserving model utility while injecting ads is a clever aspect.",
+      "paper_id": "cb54d0d61f45a6e40fb28b9028c3193e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-03-31T10:12:26.384748"
 }

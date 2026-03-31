@@ -1,8 +1,8 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
+- **Total Papers Added:** 8
+- **Average Significance Score:** 91.5/100
 - **Categories Updated:** 5
 - **Date Range:** Last 1 day(s)
 
@@ -12,40 +12,38 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
-## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+## Evaluation (1 new papers)
+- **AlpsBench: An LLM Personalization Benchmark for Real-Dialogue Memorization and Preference Alignment** (Score: 90.0)
+  - This paper addresses a crucial bottleneck in LLM development – the lack of robust personalization benchmarks. The use of real-world human-LLM dialogues (WildChat) and the focus on the entire memory management lifecycle (extraction, updating, retrieval, utilization) are strong points. While the tasks themselves aren't entirely novel, the benchmark's construction and focus on real-world interaction are significant advancements. The potential for driving progress in creating truly personalized AI assistants is high.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Architectures (1 new papers)
+- **The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop** (Score: 92.0)
+  - This paper tackles a crucial and timely issue – the growing disparity between AI and human cognitive capabilities regarding context processing. The quantitative framing of the 'Cognitive Divergence' using metrics like Effective Context Span and the exponential growth of LLM context windows is compelling. While the methodology relies on extrapolations and existing research (Brysbaert, Mark), the synthesis and framing are novel and potentially impactful, suggesting a need to rethink human-AI interaction and delegation strategies.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
+## Training (4 new papers)
+- **Pashto Common Voice: Building the First Open Speech Corpus for a 60-Million-Speaker Low-Resource Language** (Score: 92.0)
+  - This paper addresses a crucial gap in speech technology by creating the first large-scale, open-source Pashto speech corpus. The methodology, including targeted phoneme contributions and community outreach, appears well-defined and effective, as evidenced by the significant growth in data and contributors. The initial fine-tuning results with Whisper Base demonstrate the corpus's immediate utility, and the open-source nature will likely foster further research and development. The strong growth in speaker participation linked to a broadcast campaign is a particularly positive finding.
+- **Who Wrote the Book? Detecting and Attributing LLM Ghostwriters** (Score: 92.0)
+  - This paper tackles a very important and timely problem – detecting LLM-generated text, especially as models become more sophisticated. The introduction of GhostWriteBench, a dataset designed for generalization, and TRACE, a lightweight and interpretable fingerprinting method, are strong contributions. The reported state-of-the-art performance and robustness to OOD settings suggest a well-executed and impactful study.
+- **EpiScreen: Early Epilepsy Detection from Electronic Health Records with Large Language Models** (Score: 92.0)
+  - This research addresses a critical clinical problem – epilepsy misdiagnosis – with a promising AI-driven solution. The reported AUC scores (0.875 and 0.980) are strong, and the clinician-AI collaboration results are particularly compelling. While applying LLMs to EHR data isn't entirely novel, the specific application to epilepsy detection and the demonstrated performance improvement over unaided experts suggest a valuable contribution.
+- **daVinci-LLM:Towards the Science of Pretraining** (Score: 92.0)
+  - This paper addresses a crucial bottleneck in LLM development – the lack of systematic study of pretraining – and proposes a solution by combining industrial resources with academic freedom. The 'Data Darwinism' framework suggests a novel, principled approach to data processing, and the commitment to full openness is highly commendable. The problem is significant, and the approach has the potential to unlock substantial improvements in LLM capabilities, leading to positive community reception.
 
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
+## Applications (1 new papers)
+- **Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language Models** (Score: 90.0)
+  - This paper addresses a highly relevant and timely security concern regarding VLMs – the potential for subtle, behavior-triggered advertisement injection. The novelty lies in moving beyond simple trigger-based backdoors to exploit natural user interactions, making the attack more stealthy and practical. While the abstract doesn't detail the methodology, the concept is strong and the potential impact on consumer trust in VLM-powered recommendation systems is significant. The focus on preserving model utility while injecting ads is a clever aspect.
 
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Theoretical (1 new papers)
+- **FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?** (Score: 92.0)
+  - This paper tackles a very challenging and important problem – verifying mathematical reasoning in AI. The creation of a dedicated benchmark (FormalProofBench) focused on graduate-level math and formal verification using Lean 4 is a strong methodological contribution. While the 33.5% accuracy isn't groundbreaking, the detailed analysis of tool-use, failure modes, and cost provides valuable insights into the current capabilities and limitations of large language models in this domain, suggesting a positive reception within the AI community.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (1), **Architectures** (1), **Training** (4), **Applications** (1), **Theoretical** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*
