@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource African Languages",
+      "authors": [
+        "Hillary Mutisya, John Mugane, Gavin Nyamboga, Brian Chege, Maryruth Gathoni"
+      ],
+      "abstract": "arXiv:2603.29244v1 Announce Type: new \nAbstract: We present the Thiomi Dataset, a large-scale multimodal corpus spanning ten African languages across four language families: Swahili, Kikuyu, Kamba, Kimeru, Luo, Maasai, Kipsigis, Somali (East Africa); Wolof (West Africa); and Fulani (West/Central Africa). The dataset contains over 601,000 approved sentence-level text annotations and over 385,000 audio recordings across nine languages, collected through a dedicated community data collection platform involving over 100 contributors. The Thiomi platform collected data for nine languages; Swahili data was supplemented with existing Common Voice recordings. A multi-tier quality assurance pipeline achieves 86-100% text approval rates for the six primary languages. To validate the dataset's utility, we train and evaluate ASR, MT, and TTS models, establishing baselines across all ten languages. Our best ASR system achieves 3.24% WER on Swahili (Common Voice), reducing prior academic SOTA from 8.3% to 3.24% (5.1 percentage point absolute, 61% relative reduction), and 4.3% WER on Somali. The dataset will be published on HuggingFace. We describe the collection platform, quality assurance workflows, and baseline experiments, and discuss implications for African language technology infrastructure.",
+      "url": "https://arxiv.org/abs/2603.29244",
+      "published_date": "2026-04-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "languages",
+        "dataset",
+        "africa",
+        "african",
+        "data",
+        "platform",
+        "swahili",
+        "thiomi",
+        "000",
+        "100"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in NLP research \u2013 the lack of resources for low-resource African languages. The creation of a large-scale, multimodal dataset with a robust quality assurance pipeline is a significant achievement. While the ASR, MT, and TTS baselines are valuable, the primary contribution lies in the dataset itself, and the innovation is primarily in the scale and breadth of language coverage rather than novel algorithmic approaches.",
+      "paper_id": "d5f17b2200244a22c355efcb33ab9b11"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-01T10:16:06.921226"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Yahan Li, Xinyi Jie, Wanjia Ruan, Xubei Zhang, Huaijie Zhu, Yicheng Gao, Chaohao Du, Ruishan Liu
+
+arXiv:2603.29373v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used for medical consultation and health information support. In this high-stakes setting, safety depends...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.29373) | [📝 Analysis](4bd12f1ac318744cefc6c65f8b04fe90.md)
+
+---
+
+### Perfecting Human-AI Interaction at Clinical Scale. Turning Production Signals into Safer, More Human Conversations
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Subhabrata Mukherjee, Markel Sanz Ausin, Kriti Aggarwal, Debajyoti Datta, Shanil Puri, Woojeong Jin, Tanmay Laud, Neha Manjunath, Jiayuan Ding, Bibek Paudel, Jan Schellenberger, Zepeng Frazier Huo, Walter Shen, Nima Shirazian, Nate Potter, Sathvik Perkari, Darya Filippova, Anton Morozov, Austin Mease, Vivek Muppalla, Ghada Shakir, Alex Miller, Juliana Ghukasyan, Mariska Raglow-Defranco, Maggie Taylor, Herprit Mahal, Jonathan Agnew
+
+arXiv:2603.29893v1 Announce Type: cross 
+Abstract: Healthcare conversational AI agents shouldn't be optimized only for clean benchmark accuracy in production-first regime; they must be optimized for t...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.29893) | [📝 Analysis](1499a17e20d09e9b3c21e2b06f01d7ff.md)
+
+---
+
+### Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Yushen Chen, Junzhe Liu, Yujie Tu, Zhikang Niu, Yuzhe Liang, Chunyu Qiang, Chen Zhang, Kai Yu, Xie Chen
+
+arXiv:2601.13802v2 Announce Type: replace 
+Abstract: Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexica...
+
+[📄 Full Paper](https://arxiv.org/abs/2601.13802) | [📝 Analysis](29adc5156c77c22cf25eb49c558087c2.md)
+
+---
+
+### AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz
+
+arXiv:2603.12564v5 Announce Type: replace 
+Abstract: Tool-augmented LLM agents increasingly operate as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking metrics that m...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.12564) | [📝 Analysis](e7d69bf86a7265d7f5793eca6ae313e9.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-01 10:16:06 UTC*

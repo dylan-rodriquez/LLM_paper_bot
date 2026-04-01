@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Script Gap: Evaluating LLM Triage on Indian Languages in Native vs Romanized Scripts in a Real World Setting
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Manurag Khullar, Utkarsh Desai, Poorva Malviya, Aman Dalmia, Zheyuan Ryan Shi
+
+arXiv:2512.10780v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) are increasingly deployed in high-stakes clinical applications in India. Speakers of Indian languages frequently commu...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.10780) | [📝 Analysis](3a77d6e3352a987dea8d8af66678466c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-01 10:16:06 UTC*

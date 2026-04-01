@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource African Languages
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Hillary Mutisya, John Mugane, Gavin Nyamboga, Brian Chege, Maryruth Gathoni
+
+arXiv:2603.29244v1 Announce Type: new 
+Abstract: We present the Thiomi Dataset, a large-scale multimodal corpus spanning ten African languages across four language families: Swahili, Kikuyu, Kamba, Ki...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.29244) | [📝 Analysis](d5f17b2200244a22c355efcb33ab9b11.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-01 10:16:06 UTC*

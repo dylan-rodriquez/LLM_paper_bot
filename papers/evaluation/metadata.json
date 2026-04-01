@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Beyond Idealized Patients: Evaluating LLMs under Challenging Patient Behaviors in Medical Consultations",
+      "authors": [
+        "Yahan Li, Xinyi Jie, Wanjia Ruan, Xubei Zhang, Huaijie Zhu, Yicheng Gao, Chaohao Du, Ruishan Liu"
+      ],
+      "abstract": "arXiv:2603.29373v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for medical consultation and health information support. In this high-stakes setting, safety depends not only on medical knowledge, but also on how models respond when patient inputs are unclear, inconsistent, or misleading. However, most existing medical LLM evaluations assume idealized and well-posed patient questions, which limits their realism. In this paper, we study challenging patient behaviors that commonly arise in real medical consultations and complicate safe clinical reasoning. We define four clinically grounded categories of such behaviors: information contradiction, factual inaccuracy, self-diagnosis, and care resistance. For each behavior, we specify concrete failure criteria that capture unsafe responses. Building on four existing medical dialogue datasets, we introduce CPB-Bench (Challenging Patient Behaviors Benchmark), a bilingual (English and Chinese) benchmark of 692 multi-turn dialogues annotated with these behaviors. We evaluate a range of open- and closed-source LLMs on their responses to challenging patient utterances. While models perform well overall, we identify consistent, behavior-specific failure patterns, with particular difficulty in handling contradictory or medically implausible patient information. We also study four intervention strategies and find that they yield inconsistent improvements and can introduce unnecessary corrections. We release the dataset and code.",
+      "url": "https://arxiv.org/abs/2603.29373",
+      "published_date": "2026-04-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "patient",
+        "medical",
+        "behaviors",
+        "challenging",
+        "challenging patient",
+        "information",
+        "llms",
+        "models",
+        "patient behaviors",
+        "behavior"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in medical LLM evaluation \u2013 the lack of realism in testing scenarios. By focusing on challenging patient behaviors, it moves beyond idealized inputs and towards a more practical assessment of model safety and reliability. The creation of the CPB-Bench dataset, particularly its bilingual nature, is a strong methodological contribution, and the defined failure criteria add rigor to the evaluation process.",
+      "paper_id": "4bd12f1ac318744cefc6c65f8b04fe90"
+    },
+    {
+      "title": "Perfecting Human-AI Interaction at Clinical Scale. Turning Production Signals into Safer, More Human Conversations",
+      "authors": [
+        "Subhabrata Mukherjee, Markel Sanz Ausin, Kriti Aggarwal, Debajyoti Datta, Shanil Puri, Woojeong Jin, Tanmay Laud, Neha Manjunath, Jiayuan Ding, Bibek Paudel, Jan Schellenberger, Zepeng Frazier Huo, Walter Shen, Nima Shirazian, Nate Potter, Sathvik Perkari, Darya Filippova, Anton Morozov, Austin Mease, Vivek Muppalla, Ghada Shakir, Alex Miller, Juliana Ghukasyan, Mariska Raglow-Defranco, Maggie Taylor, Herprit Mahal, Jonathan Agnew"
+      ],
+      "abstract": "arXiv:2603.29893v1 Announce Type: cross \nAbstract: Healthcare conversational AI agents shouldn't be optimized only for clean benchmark accuracy in production-first regime; they must be optimized for the lived reality of patient conversations, where audio is imperfect, intent is indirect, language shifts mid-call, and compliance hinges on how guidance is delivered. We present a production-validated framework grounded in real-time signals from 115M+ live patient-AI interactions and clinician-led testing (7K+ licensed clinicians; 500K+ test calls). These in-the-wild cues -- paralinguistics, turn-taking dynamics, clarification triggers, escalation markers, multilingual continuity, and workflow confirmations -- reveal failure modes that curated data misses and provide actionable training and evaluation signals for safety and reliability.\n  We further show why healthcare-grade safety cannot rely on a single LLM: long-horizon dialogue and limited attention demand redundancy via governed orchestration, independent checks, and verification. Many apparent \"reasoning\" errors originate upstream, motivating vertical integration across contextual ASR, clarification/repair, ambient speech handling, and latency-aware model/hardware choices. Treating interaction intelligence (tone, pacing, empathy, clarification, turn-taking) as first-class safety variables, we drive measurable gains in safety, documentation, task completion, and equity in building the safest generative AI solution for autonomous patient-facing care. Deployed across more than 10 million real patient calls, Polaris attains a clinical safety score of 99.9%, while significantly improving patient experience with average patient rating of 8.95 and reducing ASR errors by 50% over enterprise ASR. These results establish real-world interaction intelligence as a critical -- and previously underexplored -- determinant of safety and reliability in patient-facing clinical AI systems.",
+      "url": "https://arxiv.org/abs/2603.29893",
+      "published_date": "2026-04-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 90,
+      "sentiment_score": 88,
+      "keywords": [
+        "patient",
+        "safety",
+        "ai",
+        "asr",
+        "clarification",
+        "clinical",
+        "interaction",
+        "production",
+        "real",
+        "signals"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a crucial gap in healthcare AI \u2013 moving beyond benchmark accuracy to real-world performance and safety. The scale of data (115M+ interactions, 7K+ clinicians) is impressive and suggests a robust methodology. The focus on 'in-the-wild' cues and the argument against relying on a single LLM for healthcare-grade safety are particularly strong points, indicating a well-considered and potentially impactful approach.",
+      "paper_id": "1499a17e20d09e9b3c21e2b06f01d7ff"
+    },
+    {
+      "title": "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis",
+      "authors": [
+        "Yushen Chen, Junzhe Liu, Yujie Tu, Zhikang Niu, Yuzhe Liang, Chunyu Qiang, Chen Zhang, Kai Yu, Xie Chen"
+      ],
+      "abstract": "arXiv:2601.13802v2 Announce Type: replace \nAbstract: Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexical and phonological divergence, scarce synthesis-grade data, and the absence of a standardized multi-dialect evaluation benchmark. We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three. Through a multi-step curation pipeline, we repurpose open-source ASR corpora into TTS training data covering 12+ regional dialects. A linguistically-informed curriculum learning strategy - progressing from Modern Standard Arabic to dialectal data - enables robust zero-shot synthesis without text diacritization. We further release the first standardized multi-dialect Arabic TTS benchmark, comprising over 11,000 utterances across 7 dialect subsets with manually verified transcripts. On this benchmark, our unified model matches or surpasses per-dialect specialized models. Both automatic metrics and human evaluations confirm that Habibi is highly competitive with ElevenLabs' Eleven v3 (alpha) in intelligibility, speaker similarity, and naturalness. Extensive ablations (~8,000 H100 GPU hours, 30+ configurations) validate each design choice. We open-source all checkpoints, training and inference code, and benchmark data - the first such release for multi-dialect Arabic TTS - at https://SWivid.github.io/Habibi/ .",
+      "url": "https://arxiv.org/abs/2601.13802",
+      "published_date": "2026-04-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "arabic",
+        "dialect",
+        "benchmark",
+        "data",
+        "habibi",
+        "multi",
+        "open",
+        "open source",
+        "source",
+        "tts"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a significant problem \u2013 the lack of unified Arabic TTS \u2013 with a well-defined methodology. The repurposing of ASR data and the curriculum learning strategy are clever solutions to data scarcity and dialectal divergence. The release of a standardized benchmark is a particularly valuable contribution, and the reported performance matching specialized models is encouraging. The work is clearly presented and addresses key challenges in the field.",
+      "paper_id": "29adc5156c77c22cf25eb49c558087c2"
+    },
+    {
+      "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
+      "authors": [
+        "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz"
+      ],
+      "abstract": "arXiv:2603.12564v5 Announce Type: replace \nAbstract: Tool-augmented LLM agents increasingly operate as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking metrics that measure what is recommended but not whether it is safe for the user. We present a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across eight LLMs (7B to frontier), decomposing divergence into information-channel and memory-channel mechanisms. We observe evaluation blindness: recommendation quality is preserved under contamination (UPR~1.0) while risk-inappropriate products appear in 65-93% of turns, invisible to standard NDCG. Violations are information-channel-driven, emerge at turn 1, and persist without self-correction over 23-step trajectories. Even non-extreme perturbations (within-band corruption, narrative-only attacks) evade threshold monitors while producing significant drift. Susceptibility scales with instruction-following fidelity across all eight models. Sparse autoencoder probing reveals models internally distinguish adversarial perturbations but fail to propagate this signal to output; causal interventions (activation patching, feature clamping, direct steering) confirm this representation-to-action gap is structural and resists linear repair. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74. These results motivate trajectory-level safety monitoring for deployed multi-turn agents.",
+      "url": "https://arxiv.org/abs/2603.12564",
+      "published_date": "2026-04-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agents",
+        "channel",
+        "tool",
+        "turn",
+        "corruption",
+        "drift",
+        "evaluation",
+        "information",
+        "information channel",
+        "llm"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a critical vulnerability in LLM agents \u2013 the potential for unsafe recommendations despite seemingly good ranking metrics. The paired-trajectory protocol and decomposition into information/memory channels are strong methodological contributions. The findings of 'evaluation blindness' and the persistence of unsafe recommendations are concerning and highlight a significant gap in current evaluation practices. The focus on financial dialogues adds to the practical relevance.",
+      "paper_id": "e7d69bf86a7265d7f5793eca6ae313e9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-01T10:16:06.922685"
 }
