@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Trojan-Speak: Bypassing Constitutional Classifiers with No Jailbreak Tax via Adversarial Finetuning
+
+**Score:** 92.0 | **Published:** 2026-04-01 | **Authors:** Bilgehan Sel, Xuanli He, Alwin Peng, Ming Jin, Jerry Wei
+
+arXiv:2603.29038v1 Announce Type: cross 
+Abstract: Fine-tuning APIs offered by major AI providers create new attack surfaces where adversaries can bypass safety measures through targeted fine-tuning. ...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.29038) | [📝 Analysis](a5d90ac0526b8c8e8e5dd8c599c2f415.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-01 10:16:06 UTC*
