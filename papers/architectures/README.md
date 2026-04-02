@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-02 | **Authors:** Han Zhu, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, Daniel Povey
+
+arXiv:2604.00688v1 Announce Type: new 
+Abstract: We present OmniVoice, a massive multilingual zero-shot text-to-speech (TTS) model that scales to over 600 languages. At its core is a novel diffusion l...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00688) | [📝 Analysis](21665aa29c385ad78aa262e25602d868.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-02 10:08:12 UTC*

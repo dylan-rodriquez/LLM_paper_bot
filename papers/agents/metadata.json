@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Are they human? Detecting large language models by probing human memory constraints",
+      "authors": [
+        "Simon Schug, Brenden M. Lake"
+      ],
+      "abstract": "arXiv:2604.00016v1 Announce Type: new \nAbstract: The validity of online behavioral research relies on study participants being human rather than machine. In the past, it was possible to detect machines by posing simple challenges that were easily solved by humans but not by machines. General-purpose agents based on large language models (LLMs) can now solve many of these challenges, threatening the validity of online behavioral research. Here we explore the idea of detecting humanness by using tasks that machines can solve too well to be human. Specifically, we probe for the existence of an established human cognitive constraint: limited working memory capacity. We show that cognitive modeling on a standard serial recall task can be used to distinguish online participants from LLMs even when the latter are specifically instructed to mimic human working memory constraints. Our results demonstrate that it is viable to use well-established cognitive phenomena to distinguish LLMs from humans.",
+      "url": "https://arxiv.org/abs/2604.00016",
+      "published_date": "2026-04-02T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "human",
+        "cognitive",
+        "llms",
+        "machines",
+        "memory",
+        "online",
+        "behavioral",
+        "behavioral research",
+        "challenges",
+        "constraints"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper addresses a very timely and important problem \u2013 the increasing difficulty of distinguishing human participants from LLMs in online research. The approach of leveraging known human cognitive limitations (working memory) is clever and appears effective, even against LLMs specifically instructed to mimic human behavior. While the core idea isn't entirely novel (using cognitive constraints), applying it to the LLM detection problem and demonstrating its viability is a strong contribution. The clarity of the abstract suggests a well-written paper.",
+      "paper_id": "97aea66e2c51198373a36c712ce9cb7c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-04-02T10:08:12.480497"
 }

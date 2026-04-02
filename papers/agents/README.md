@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Are they human? Detecting large language models by probing human memory constraints
+
+**Score:** 92.0 | **Published:** 2026-04-02 | **Authors:** Simon Schug, Brenden M. Lake
+
+arXiv:2604.00016v1 Announce Type: new 
+Abstract: The validity of online behavioral research relies on study participants being human rather than machine. In the past, it was possible to detect machine...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00016) | [📝 Analysis](97aea66e2c51198373a36c712ce9cb7c.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-02 10:08:12 UTC*
