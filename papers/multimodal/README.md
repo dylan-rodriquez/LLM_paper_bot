@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Dynin-Omni: Omnimodal Unified Large Diffusion Language Model
+
+**Score:** 92.0 | **Published:** 2026-04-02 | **Authors:** Jaeik Kim, Woojin Kim, Jihwan Hong, Yejoon Lee, Sieun Hyeon, Mintaek Lim, Yunseok Han, Dogeun Kim, Hoeun Lee, Hyunggeun Kim, Jaeyoung Do
+
+arXiv:2604.00007v1 Announce Type: new 
+Abstract: We present Dynin-Omni, the first masked-diffusion-based omnimodal foundation model that unifies text, image, and speech understanding and generation, t...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00007) | [📝 Analysis](a8521bc54edfa2609fbae7bb4cdff6c8.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-02 10:08:12 UTC*
