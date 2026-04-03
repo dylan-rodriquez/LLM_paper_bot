@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Large Language Models in the Abuse Detection Pipeline
+
+**Score:** 92.0 | **Published:** 2026-04-03 | **Authors:** Suraj Kath, Sanket Badhe, Preet Shah, Ashwin Sampathkumar, Shivani Gupta
+
+arXiv:2604.00323v1 Announce Type: new 
+Abstract: Online abuse has grown increasingly complex, spanning toxic language, harassment, manipulation, and fraudulent behavior. Traditional machine-learning a...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00323) | [📝 Analysis](6c7d97b84704aa55dd0cbb0ab60c8eb0.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-03 10:03:56 UTC*
