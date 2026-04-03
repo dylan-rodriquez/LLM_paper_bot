@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Do LLMs Know What Is Private Internally? Probing and Steering Contextual Privacy Norms in Large Language Model Representations
+
+**Score:** 92.0 | **Published:** 2026-04-03 | **Authors:** Haoran Wang, Li Xiong, Kai Shu
+
+arXiv:2604.00209v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly deployed in high-stakes settings, yet they frequently violate contextual privacy by disclosing private in...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00209) | [📝 Analysis](155cd67fc8c97b5d57ca2b9e1280406c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-03 10:03:56 UTC*

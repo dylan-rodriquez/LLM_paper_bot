@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Do LLMs Know What Is Private Internally? Probing and Steering Contextual Privacy Norms in Large Language Model Representations",
+      "authors": [
+        "Haoran Wang, Li Xiong, Kai Shu"
+      ],
+      "abstract": "arXiv:2604.00209v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in high-stakes settings, yet they frequently violate contextual privacy by disclosing private information in situations where humans would exercise discretion. This raises a fundamental question: do LLMs internally encode contextual privacy norms, and if so, why do violations persist? We present the first systematic study of contextual privacy as a structured latent representation in LLMs, grounded in contextual integrity (CI) theory. Probing multiple models, we find that the three norm-determining CI parameters (information type, recipient, and transmission principle) are encoded as linearly separable and functionally independent directions in activation space. Despite this internal structure, models still leak private information in practice, revealing a clear gap between concept representation and model behavior. To bridge this gap, we introduce CI-parametric steering, which independently intervenes along each CI dimension. This structured control reduces privacy violations more effectively and predictably than monolithic steering. Our results demonstrate that contextual privacy failures arise from misalignment between representation and behavior rather than missing awareness, and that leveraging the compositional structure of CI enables more reliable contextual privacy control, shedding light on potential improvement of contextual privacy understanding in LLMs.",
+      "url": "https://arxiv.org/abs/2604.00209",
+      "published_date": "2026-04-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "contextual",
+        "privacy",
+        "contextual privacy",
+        "ci",
+        "llms",
+        "information",
+        "models",
+        "private",
+        "representation",
+        "steering"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 contextual privacy \u2013 and grounds its investigation in a well-established theoretical framework (contextual integrity). The finding that privacy norms *are* encoded internally, yet not consistently applied, is significant. The introduction of 'CI-parametric steering' suggests a promising avenue for improving LLM behavior, and the probing methodology appears rigorous. The high sentiment score reflects the current focus on LLM safety and alignment.",
+      "paper_id": "155cd67fc8c97b5d57ca2b9e1280406c"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-03T10:03:56.763687"
 }

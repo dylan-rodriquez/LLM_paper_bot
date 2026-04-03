@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### WHBench: Evaluating Frontier LLMs with Expert-in-the-Loop Validation on Women's Health Topics
+
+**Score:** 92.0 | **Published:** 2026-04-03 | **Authors:** Sneha Maurya, Pragya Saboo, Girish Kumar
+
+arXiv:2604.00024v1 Announce Type: new 
+Abstract: Large language models are increasingly used for medical guidance, but women's health remains under-evaluated in benchmark design. We present the Women'...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00024) | [📝 Analysis](fe3c105b9c2c1367533ea958f4d54608.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-03 10:03:56 UTC*

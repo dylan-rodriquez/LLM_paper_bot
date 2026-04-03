@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models",
+      "authors": [
+        "Han Zhu, Lingxuan Ye, Wei Kang, Zengwei Yao, Liyong Guo, Fangjun Kuang, Zhifeng Han, Weiji Zhuang, Long Lin, Daniel Povey"
+      ],
+      "abstract": "arXiv:2604.00688v2 Announce Type: new \nAbstract: We present OmniVoice, a massive multilingual zero-shot text-to-speech (TTS) model that scales to over 600 languages. At its core is a novel diffusion language model-style discrete non-autoregressive (NAR) architecture. Unlike conventional discrete NAR models that suffer from performance bottlenecks in complex two-stage (text-to-semantic-to-acoustic) pipelines, OmniVoice directly maps text to multi-codebook acoustic tokens. This simplified approach is facilitated by two key technical innovations: (1) a full-codebook random masking strategy for efficient training, and (2) initialization from a pre-trained LLM to ensure superior intelligibility. By leveraging a 581k-hour multilingual dataset curated entirely from open-source data, OmniVoice achieves the broadest language coverage to date and delivers state-of-the-art performance across Chinese, English, and diverse multilingual benchmarks. Our code and pre-trained models are publicly available at https://github.com/k2-fsa/OmniVoice.",
+      "url": "https://arxiv.org/abs/2604.00688",
+      "published_date": "2026-04-03T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "omnivoice",
+        "text",
+        "language",
+        "models",
+        "multilingual",
+        "acoustic",
+        "codebook",
+        "diffusion",
+        "diffusion language",
+        "discrete"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a highly significant problem \u2013 multilingual, zero-shot TTS \u2013 and proposes a novel approach using diffusion language models and a direct text-to-acoustic token mapping. The reported performance across multiple languages, particularly Chinese and English, suggests a strong methodology. The use of a large, open-source dataset and publicly available code further strengthens the work and encourages reproducibility and further research.",
+      "paper_id": "21665aa29c385ad78aa262e25602d868"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-03T10:03:56.765387"
 }

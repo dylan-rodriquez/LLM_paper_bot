@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### AfrIFact: Cultural Information Retrieval, Evidence Extraction and Fact Checking for African Languages
+
+**Score:** 92.0 | **Published:** 2026-04-03 | **Authors:** Israel Abebe Azime, Jesujoba Oluwadara Alabi, Crystina Zhang, Iffat Maab, Atnafu Lambebo Tonja, Tadesse Destaw Belay, Folasade Peace Alabi, Salomey Osei, Saminu Mohammad Aliyu, Nkechinyere Faith Aguobi, Bontu Fufa Balcha, Blessing Kudzaishe Sibanda, Davis David, Mouhamadane Mboup, Daud Abolade, Neo Putini, Philipp Slusallek, David Ifeoluwa Adelani, Dietrich Klakow
+
+arXiv:2604.00706v1 Announce Type: new 
+Abstract: Assessing the veracity of a claim made online is a complex and important task with real-world implications. When these claims are directed at communiti...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.00706) | [📝 Analysis](ecce194199cdd68326497af35767173a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-03 10:03:56 UTC*
