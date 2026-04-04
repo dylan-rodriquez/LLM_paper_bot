@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs",
+      "authors": [
+        "Tianyi Zhao, Yinhan He, Wendy Zheng, Yujie Zhang, Chen Chen"
+      ],
+      "abstract": "arXiv:2604.01457v1 Announce Type: new \nAbstract: Large language models are often not just wrong, but \\emph{confidently wrong}: when they produce factually incorrect answers, they tend to verbalize overly high confidence rather than signal uncertainty. Such verbalized overconfidence can mislead users and weaken confidence scores as a reliable uncertainty signal, yet its internal mechanisms remain poorly understood. We present a circuit-level mechanistic analysis of this inflated verbalized confidence in LLMs, organized around three axes: capturing verbalized confidence as a differentiable internal signal, identifying the circuits that causally inflate it, and leveraging these insights for targeted inference-time recalibration. Across two instruction-tuned LLMs on three datasets, we find that a compact set of MLP blocks and attention heads, concentrated in middle-to-late layers, consistently writes the confidence-inflation signal at the final token position. We further show that targeted inference-time interventions on these circuits substantially improve calibration. Together, our results suggest that verbalized overconfidence in LLMs is driven by identifiable internal circuits and can be mitigated through targeted intervention.",
+      "url": "https://arxiv.org/abs/2604.01457",
+      "published_date": "2026-04-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "confidence",
+        "verbalized",
+        "llms",
+        "signal",
+        "circuits",
+        "internal",
+        "overconfidence",
+        "targeted",
+        "verbalized confidence",
+        "confidence llms"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 overconfidence \u2013 with a mechanistic approach, which is highly valuable. The focus on circuit-level analysis and targeted recalibration suggests a rigorous methodology and potential for practical solutions. The abstract indicates a solid experimental setup across multiple models and datasets, and the identified concentration of confidence-inflation signals in specific layers is a noteworthy finding. The high sentiment score reflects the current research focus on LLM reliability and trustworthiness.",
+      "paper_id": "34cbd03e261fbfb8ad3aa28f260df2c5"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-04T09:44:45.451100"
 }

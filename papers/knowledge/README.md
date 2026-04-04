@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### No Attacker Needed: Unintentional Cross-User Contamination in Shared-State LLM Agents
+
+**Score:** 90.0 | **Published:** 2026-04-04 | **Authors:** Tiankai Yang, Jiate Li, Yi Nian, Shen Dong, Ruiyao Xu, Ryan Rossi, Kaize Ding, Yue Zhao
+
+arXiv:2604.01350v1 Announce Type: new 
+Abstract: LLM-based agents increasingly operate across repeated sessions, maintaining task states to ensure continuity. In many deployments, a single agent serve...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.01350) | [📝 Analysis](07890157a2e56ab58bf5e97e111a64f0.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-04 09:44:45 UTC*

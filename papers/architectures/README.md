@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs
+
+**Score:** 90.0 | **Published:** 2026-04-04 | **Authors:** Tianyi Zhao, Yinhan He, Wendy Zheng, Yujie Zhang, Chen Chen
+
+arXiv:2604.01457v1 Announce Type: new 
+Abstract: Large language models are often not just wrong, but \emph{confidently wrong}: when they produce factually incorrect answers, they tend to verbalize ove...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.01457) | [📝 Analysis](34cbd03e261fbfb8ad3aa28f260df2c5.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-04 09:44:45 UTC*

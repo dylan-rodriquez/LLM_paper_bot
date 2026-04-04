@@ -479,7 +479,39 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "M2-Verify: A Large-Scale Multidomain Benchmark for Checking Multimodal Claim Consistency",
+      "authors": [
+        "Abolfazl Ansari, Delvin Ce Zhang, Zhuoyang Zou, Wenpeng Yin, Dongwon Lee"
+      ],
+      "abstract": "arXiv:2604.01306v1 Announce Type: new \nAbstract: Evaluating scientific arguments requires assessing the strict consistency between a claim and its underlying multimodal evidence. However, existing benchmarks lack the scale, domain diversity, and visual complexity needed to evaluate this alignment realistically. To address this gap, we introduce M2-Verify, a large-scale multimodal dataset for checking scientific claim consistency. Sourced from PubMed and arXiv, M2-Verify provides over 469K instances across 16 domains, rigorously validated through expert audits. Extensive baseline experiments show that state-of-the-art models struggle to maintain robust consistency. While top models achieve up to 85.8\\% Micro-F1 on low-complexity medical perturbations, performance drops to 61.6\\% on high-complexity challenges like anatomical shifts. Furthermore, expert evaluations expose hallucinations when models generate scientific explanations for their alignment decisions. Finally, we demonstrate our dataset's utility and provide comprehensive usage guidelines.",
+      "url": "https://arxiv.org/abs/2604.01306",
+      "published_date": "2026-04-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "consistency",
+        "claim",
+        "complexity",
+        "m2",
+        "m2 verify",
+        "models",
+        "multimodal",
+        "scale",
+        "scientific",
+        "verify"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial problem in multimodal AI \u2013 verifying the consistency of claims with scientific evidence. The creation of a large-scale, diverse benchmark (M2-Verify) is a significant contribution, particularly given the identified shortcomings of existing datasets. The findings highlighting the struggles of current models, especially with complex visual reasoning and the exposure of hallucinations, are compelling and suggest a need for further research. The focus on scientific domains adds to the importance of the work.",
+      "paper_id": "15c84753e2064f7280127e2973eea60a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-04T09:44:45.449146"
 }

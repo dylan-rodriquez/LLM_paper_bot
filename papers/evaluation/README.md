@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### M2-Verify: A Large-Scale Multidomain Benchmark for Checking Multimodal Claim Consistency
+
+**Score:** 90.0 | **Published:** 2026-04-04 | **Authors:** Abolfazl Ansari, Delvin Ce Zhang, Zhuoyang Zou, Wenpeng Yin, Dongwon Lee
+
+arXiv:2604.01306v1 Announce Type: new 
+Abstract: Evaluating scientific arguments requires assessing the strict consistency between a claim and its underlying multimodal evidence. However, existing ben...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.01306) | [📝 Analysis](15c84753e2064f7280127e2973eea60a.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-04 09:44:45 UTC*
