@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### ImplicitBBQ: Benchmarking Implicit Bias in Large Language Models through Characteristic Based Cues
+
+**Score:** 92.0 | **Published:** 2026-04-04 | **Authors:** Bhaskara Hanuma Vedula, Darshan Anghan, Ishita Goyal, Ponnurangam Kumaraguru, Abhijnan Chakraborty
+
+arXiv:2604.01925v1 Announce Type: new 
+Abstract: Large Language Models increasingly suppress biased outputs when demographic identity is stated explicitly, yet may still exhibit implicit biases when i...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.01925) | [📝 Analysis](0bcb454955dae1093e3ad66a1702a00c.md)
+
+---
+
+### De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules
+
+**Score:** 92.0 | **Published:** 2026-04-04 | **Authors:** Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar, Lovedeep Gondara
+
+arXiv:2604.02276v1 Announce Type: cross 
+Abstract: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal te...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02276) | [📝 Analysis](5d4dc3f8b00479b462a06eac0efb888c.md)
+
+---
+
+### Magic, Madness, Heaven, Sin: LLM Output Diversity is Everything, Everywhere, All at Once
+
+**Score:** 90.0 | **Published:** 2026-04-04 | **Authors:** Harnoor Dhingra
+
+arXiv:2604.01504v1 Announce Type: new 
+Abstract: Research on Large Language Models (LLMs) studies output variation across generation, reasoning, alignment, and representational analysis, often under t...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.01504) | [📝 Analysis](07a23d1e216e8997f6ca6e1b0773723f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-04 09:44:45 UTC*

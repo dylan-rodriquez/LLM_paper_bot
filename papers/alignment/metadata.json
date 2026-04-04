@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "ImplicitBBQ: Benchmarking Implicit Bias in Large Language Models through Characteristic Based Cues",
+      "authors": [
+        "Bhaskara Hanuma Vedula, Darshan Anghan, Ishita Goyal, Ponnurangam Kumaraguru, Abhijnan Chakraborty"
+      ],
+      "abstract": "arXiv:2604.01925v1 Announce Type: new \nAbstract: Large Language Models increasingly suppress biased outputs when demographic identity is stated explicitly, yet may still exhibit implicit biases when identity is conveyed indirectly. Existing benchmarks use name based proxies to detect implicit biases, which carry weak associations with many social demographics and cannot extend to dimensions like age or socioeconomic status. We introduce ImplicitBBQ, a QA benchmark that evaluates implicit bias through characteristic based cues, culturally associated attributes that signal implicitly, across age, gender, region, religion, caste, and socioeconomic status. Evaluating 11 models, we find that implicit bias in ambiguous contexts is over six times higher than explicit bias in open weight models. Safety prompting and chain-of-thought reasoning fail to substantially close this gap; even few-shot prompting, which reduces implicit bias by 84%, leaves caste bias at four times the level of any other dimension. These findings indicate that current alignment and prompting strategies address the surface of bias evaluation while leaving culturally grounded stereotypic associations largely unresolved. We publicly release our code and dataset for model providers and researchers to benchmark potential mitigation techniques.",
+      "url": "https://arxiv.org/abs/2604.01925",
+      "published_date": "2026-04-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "implicit",
+        "implicit bias",
+        "models",
+        "based",
+        "prompting",
+        "age",
+        "associations",
+        "based cues",
+        "benchmark"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem \u2013 the persistence of implicit bias in LLMs despite efforts to mitigate explicit bias. The introduction of ImplicitBBQ, a benchmark using characteristic-based cues, is a significant improvement over name-based proxies and expands the scope of bias detection. The findings regarding the limited effectiveness of common mitigation techniques (safety prompting, CoT) and the continued presence of substantial caste bias are particularly noteworthy and suggest a need for more robust approaches.",
+      "paper_id": "0bcb454955dae1093e3ad66a1702a00c"
+    },
+    {
+      "title": "De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules",
+      "authors": [
+        "Keerat Guliani, Deepkamal Gill, David Landsman, Nima Eshraghi, Krishna Kumar, Lovedeep Gondara"
+      ],
+      "abstract": "arXiv:2604.02276v1 Announce Type: cross \nAbstract: Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of source documents into structured Markdown; LLM-driven semantic decomposition into structured rule units; multi-criteria LLM-as-a-judge evaluation across 19 dimensions spanning metadata, definitions, and rule semantics; and iterative repair of low-scoring extractions within a bounded regeneration budget, where upstream components are repaired before rule units are evaluated. We evaluate De Jure across four models on three regulatory corpora spanning finance, healthcare, and AI governance. On the finance domain, De Jure yields consistent and monotonic improvement in extraction quality, reaching peak performance within three judge-guided iterations. De Jure generalizes effectively to healthcare and AI governance, maintaining high performance across both open- and closed-source models. In a downstream compliance question-answering evaluation via RAG, responses grounded in De Jure extracted rules are preferred over prior work in 73.8% of cases at single-rule retrieval depth, rising to 84.0% under broader retrieval, confirming that extraction fidelity translates directly into downstream utility. These results demonstrate that explicit, interpretable evaluation criteria can substitute for human annotation in complex regulatory domains, offering a scalable and auditable path toward regulation-grounded LLM alignment.",
+      "url": "https://arxiv.org/abs/2604.02276",
+      "published_date": "2026-04-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "jure",
+        "llm",
+        "regulatory",
+        "structured",
+        "rule",
+        "rules",
+        "documents",
+        "domain",
+        "evaluation",
+        "extraction"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a highly significant problem \u2013 automating the extraction of structured rules from regulatory text \u2013 which is currently a costly and expert-driven process. The fully automated pipeline, requiring no human annotation, is a strong point. The iterative self-refinement approach using LLMs as judges is novel and the multi-criteria evaluation across 19 dimensions suggests a rigorous methodology. The potential for real-world impact in legal tech and compliance is substantial.",
+      "paper_id": "5d4dc3f8b00479b462a06eac0efb888c"
+    },
+    {
+      "title": "Magic, Madness, Heaven, Sin: LLM Output Diversity is Everything, Everywhere, All at Once",
+      "authors": [
+        "Harnoor Dhingra"
+      ],
+      "abstract": "arXiv:2604.01504v1 Announce Type: new \nAbstract: Research on Large Language Models (LLMs) studies output variation across generation, reasoning, alignment, and representational analysis, often under the umbrella of \"diversity.\" Yet the terminology remains fragmented, largely because the normative objectives underlying tasks are rarely made explicit. We introduce the Magic, Madness, Heaven, Sin framework, which models output variation along a homogeneity-heterogeneity axis, where valuation is determined by the task and its normative objective. We organize tasks into four normative contexts: epistemic (factuality), interactional (user utility), societal (representation), and safety (robustness). For each, we examine the failure modes and vocabulary such as hallucination, mode collapse, bias, and erasure through which variation is studied. We apply the framework to analyze all pairwise cross-contextual interactions, revealing that optimizing for one objective, such as improving safety, can inadvertently harm demographic representation or creative diversity. We argue for context-aware evaluation of output variation, reframing it as a property shaped by task objectives rather than a model's intrinsic trait.",
+      "url": "https://arxiv.org/abs/2604.01504",
+      "published_date": "2026-04-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "output",
+        "variation",
+        "diversity",
+        "normative",
+        "output variation",
+        "framework",
+        "heaven",
+        "heaven sin",
+        "madness",
+        "madness heaven"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial issue in LLM research \u2013 the fragmented understanding of 'diversity' \u2013 by proposing a unifying framework. The 'Magic, Madness, Heaven, Sin' model offers a structured way to analyze output variation across different normative contexts, which is a significant step towards more targeted and effective LLM development. While the framework itself isn't a completely novel technical contribution, its conceptual clarity and comprehensive approach are highly valuable.",
+      "paper_id": "07a23d1e216e8997f6ca6e1b0773723f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-04T09:44:45.452564"
 }
