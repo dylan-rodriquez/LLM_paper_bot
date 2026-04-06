@@ -415,7 +415,71 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents",
+      "authors": [
+        "Delip Rao, Eric Wong, Chris Callison-Burch"
+      ],
+      "abstract": "arXiv:2604.03173v1 Announce Type: new \nAbstract: Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\\% (Business) to 11.4\\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-source tool for URL liveness checking and stale-vs-hallucinated classification using the Wayback Machine. In agentic self-correction experiments, models equipped with urlhealth reduce non-resolving citation URLs by $6\\textrm{--}79\\times$ to under 1\\%, though effectiveness depends on the model's tool-use competence. The tool and all data are publicly available. Our characterization findings, failure taxonomy, and open-source tooling establish that citation URL validity is both measurable at scale and correctable in practice.",
+      "url": "https://arxiv.org/abs/2604.03173",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "urls",
+        "citation",
+        "models",
+        "agents",
+        "non",
+        "non resolving",
+        "research",
+        "resolving",
+        "url",
+        "citation urls"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a critical issue with LLMs and research agents \u2013 the reliability of their citations. The systematic measurement across multiple models and datasets (DRBench and ExpertQA) using the Wayback Machine is a strong methodological approach. The findings regarding hallucination rates and domain-specific effects are significant and will likely resonate with the NLP community, particularly those working on information retrieval and trustworthy AI.",
+      "paper_id": "36e10b41d791ae9e38f8934df407553c"
+    },
+    {
+      "title": "IndustryCode: A Benchmark for Industry Code Generation",
+      "authors": [
+        "Puyu Zeng, Zhaoxi Wang, Zhixu Duan, Liang Feng, Shaobo Wang, Cunxiang Wang, Jinghang Wang, Bing Zhao, Hu Wei, Linfeng Zhang"
+      ],
+      "abstract": "arXiv:2604.02729v1 Announce Type: cross \nAbstract: Code generation and comprehension by Large Language Models (LLMs) have emerged as core drivers of industrial intelligence and decision optimization, finding widespread application in fields such as finance, automation, and aerospace. Although recent advancements have demonstrated the remarkable potential of LLMs in general code generation, existing benchmarks are mainly confined to single domains and languages. Consequently, they fail to effectively evaluate the generalization capabilities required for real-world industrial applications or to reflect the coding proficiency demanded by complex industrial scenarios. To bridge this gap, we introduce IndustryCode, the first comprehensive benchmark designed to span multiple industrial domains and programming languages. IndustryCode comprises 579 sub-problems derived from 125 primary industrial challenges, accompanied by rigorous problem descriptions and test cases. It covers a wide range of fields, including finance, automation, aerospace, and remote sensing-and incorporates diverse programming languages such as MATLAB, Python, C++, and Stata. In our evaluation, the top-performing model, Claude 4.5 Opus, achieved an overall accuracy of 68.1% on sub-problems and 42.5% main problems. The benchmark dataset and automated evaluation code will be made publicly available upon acceptance.",
+      "url": "https://arxiv.org/abs/2604.02729",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "industrial",
+        "code",
+        "benchmark",
+        "code generation",
+        "generation",
+        "industrycode",
+        "languages",
+        "problems",
+        "aerospace",
+        "automation"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the lack of benchmarks tailored to complex, multi-domain industrial code generation. The creation of IndustryCode, with its 579 sub-problems and focus on real-world challenges, is a significant contribution. While the core idea of a benchmark isn't novel, the scope and focus on industrial applications elevate its value, suggesting a positive reception within the community.",
+      "paper_id": "0c9d93695e54221c560376812c291704"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-06T10:23:17.953475"
 }

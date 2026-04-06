@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Mitigating LLM biases toward spurious social contexts using direct preference optimization
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Hyunji Nam, Dorottya Demszky
+
+arXiv:2604.02585v1 Announce Type: cross 
+Abstract: LLMs are increasingly used for high-stakes decision-making, yet their sensitivity to spurious contextual information can introduce harmful biases. Th...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02585) | [📝 Analysis](1270d74b95adb23c960c42a82b5b2dbc.md)
+
+---
+
+### Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Zhexin Zhang, Yuhao Sun, Junxiao Yang, Shiyao Cui, Yuanchao Zhang, Hongning Wang, Minlie Huang
+
+arXiv:2505.15656v2 Announce Type: replace 
+Abstract: Fine-tuning on open-source Large Language Models (LLMs) with proprietary data is now a standard practice for downstream developers to obtain task-s...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.15656) | [📝 Analysis](0c17e7dcd6fd73a4386aea3621f332b9.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*

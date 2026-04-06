@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Using LLM-as-a-Judge/Jury to Advance Scalable, Clinically-Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis",
+      "authors": [
+        "May Lynn Reese, Markela Zeneli, Mindy Ng, Jacob Haimes, Andreea Damien, Elizabeth Stade"
+      ],
+      "abstract": "arXiv:2604.02359v1 Announce Type: new \nAbstract: General-purpose Large Language Models (LLMs) are becoming widely adopted by people for mental health support. Yet emerging evidence suggests there are significant risks associated with high-frequency use, particularly for individuals suffering from psychosis, as LLMs may reinforce delusions and hallucinations. Existing evaluations of LLMs in mental health contexts are limited by a lack of clinical validation and scalability of assessment. To address these issues, this research focuses on psychosis as a critical condition for LLM safety evaluation by (1) developing and validating seven clinician-informed safety criteria, (2) constructing a human-consensus dataset, and (3) testing automated assessment using an LLM as an evaluator (LLM-as-a-Judge) or taking the majority vote of several LLM judges (LLM-as-a-Jury). Results indicate that LLM-as-a-Judge aligns closely with the human consensus (Cohen's $\\kappa_{\\text{human} \\times \\text{gemini}} = 0.75$, $\\kappa_{\\text{human} \\times \\text{qwen}} = 0.68$, $\\kappa_{\\text{human} \\times \\text{kimi}} = 0.56$) and that the best judge slightly outperforms LLM-as-a-Jury (Cohen's $\\kappa_{\\text{human} \\times \\text{jury}} = 0.74$). Overall, these findings have promising implications for clinically grounded, scalable methods in LLM safety evaluations for mental health contexts.",
+      "url": "https://arxiv.org/abs/2604.02359",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llm",
+        "text",
+        "human",
+        "human times",
+        "judge",
+        "jury",
+        "kappa_",
+        "kappa_ text",
+        "safety",
+        "text human"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research tackles a crucial and timely problem \u2013 the safety of LLMs for vulnerable populations, specifically those experiencing psychosis. The combination of clinician-informed criteria, human consensus dataset creation, and LLM-as-a-Judge/Jury methodology demonstrates a rigorous approach. While using LLMs for evaluation isn't entirely novel, applying it to this specific, high-stakes clinical context and validating against human experts is a strong contribution. The reported Cohen's Kappa suggests promising alignment.",
+      "paper_id": "d8990b8bb864f30c1358d65664dc1eb3"
+    },
+    {
+      "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "authors": [
+        "Xue Liu, Xin Ma, Yuxin Ma, Yongchang Peng, Duo Wang, Zhoufutu Wen, Ge Zhang, Kaiyuan Zhang, Xinyu Chen, Tianci He, Jiani Hou, Liang Hu, Ziyun Huang, Yongzhe Hui, Jianpeng Jiao, Chennan Ju, Yingru Kong, Yiran Li, Mengyun Liu, Luyao Ma, Fei Ni, Yiqing Ni, Yueyan Qiu, Yanle Ren, Zilin Shi, Zaiyuan Wang, Wenjie Yue, Shiyu Zhang, Xinyi Zhang, Kaiwen Zhao, Zhenwei Zhu"
+      ],
+      "abstract": "arXiv:2604.02368v1 Announce Type: cross \nAbstract: As Large Language Models (LLMs) exhibit plateauing performance on conventional benchmarks, a pivotal challenge persists: evaluating their proficiency in complex, open-ended tasks characterizing genuine expert-level cognition. Existing frameworks suffer from narrow domain coverage, reliance on generalist tasks, or self-evaluation biases. To bridge this gap, we present XpertBench, a high-fidelity benchmark engineered to assess LLMs across authentic professional domains. XpertBench consists of 1,346 meticulously curated tasks across 80 categories, spanning finance, healthcare, legal services, education, and dual-track research (STEM and Humanities). These tasks are derived from over 1,000 submissions by domain experts--including researchers from elite institutions and practitioners with extensive clinical or industrial experience--ensuring superior ecological validity. Each task uses detailed rubrics with mostly 15-40 weighted checkpoints to assess professional rigor. To facilitate scalable yet human-aligned assessment, we introduce ShotJudge, a novel evaluation paradigm that employs LLM judges calibrated with expert few-shot exemplars to mitigate self-rewarding biases. Our empirical evaluation of state-of-the-art LLMs reveals a pronounced performance ceiling: even leading models achieve a peak success rate of only ~66%, with a mean score around 55%. Models also exhibit domain-specific divergence, showing non-overlapping strengths in quantitative reasoning versus linguistic synthesis.. These findings underscore a significant \"expert-gap\" in current AI systems and establish XpertBench as a critical instrument for navigating the transition from general-purpose assistants to specialized professional collaborators.",
+      "url": "https://arxiv.org/abs/2604.02368",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "tasks",
+        "evaluation",
+        "expert",
+        "xpertbench",
+        "domain",
+        "llms",
+        "models",
+        "professional",
+        "assess",
+        "biases"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical bottleneck in LLM research \u2013 robust evaluation of complex, expert-level tasks. The use of tasks curated by domain experts and detailed rubrics significantly improves upon existing benchmarks prone to bias and limited scope. The scale of the benchmark (1,346 tasks, 80 categories) is impressive and suggests a substantial contribution to the field. The focus on ecological validity is particularly strong.",
+      "paper_id": "957620990a72e0c7db616331f2b49fd1"
+    },
+    {
+      "title": "StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs",
+      "authors": [
+        "Jialin Yang, Dongfu Jiang, Lipeng He, Sherman Siu, Yuxuan Zhang, Disen Liao, Zhuofeng Li, Huaye Zeng, Yiming Jia, Haozhe Wang, Benjamin Schneider, Chi Ruan, Wentao Ma, Zhiheng Lyu, Yifei Wang, Yi Lu, Quy Duc Do, Ziyan Jiang, Ping Nie, Wenhu Chen"
+      ],
+      "abstract": "arXiv:2505.20139v3 Announce Type: replace-cross \nAbstract: As Large Language Models (LLMs) become integral to software development workflows, their ability to generate structured outputs has become critically important. We introduce StructEval, a comprehensive benchmark for evaluating LLMs' capabilities in producing both non-renderable (JSON, YAML, CSV) and renderable (HTML, React, SVG) structured formats. Unlike prior benchmarks, StructEval systematically evaluates structural fidelity across diverse formats through two paradigms: 1) generation tasks, producing structured output from natural language prompts, and \\textbf{2)} conversion tasks, translating between structured formats. Our benchmark encompasses 18 formats and 44 types of task, with novel metrics for format adherence and structural correctness. Results reveal significant performance gaps-even state-of-the-art models like o1-mini achieve only 75.58 average score, with open-source alternatives lagging approximately 10 points behind. We find generation tasks more challenging than conversion tasks, and producing correct visual content more difficult than generating text-only structures.",
+      "url": "https://arxiv.org/abs/2505.20139",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SE"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "formats",
+        "structured",
+        "tasks",
+        "llms",
+        "producing",
+        "structeval",
+        "structural",
+        "benchmark",
+        "capabilities",
+        "conversion"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in the LLM space \u2013 the reliable generation of structured data. The introduction of StructEval, with its dual paradigm (generation and conversion) and comprehensive format coverage, represents a significant step forward in benchmarking. While the core idea of benchmarking isn't novel, the systematic approach and focus on structural fidelity are strong points, suggesting a positive reception within the community.",
+      "paper_id": "f98f14036f505828c274628f98f307bb"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-06T10:23:17.951034"
 }

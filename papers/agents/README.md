@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay
+
+**Score:** 90.0 | **Published:** 2026-04-06 | **Authors:** Pratyay Banerjee, Masud Moshtaghi, Ankit Chadha
+
+arXiv:2603.29093v2 Announce Type: replace 
+Abstract: LLM-based autonomous agents lack persistent procedural memory: they re-derive solutions from scratch even when structurally identical tasks have be...
+
+[📄 Full Paper](https://arxiv.org/abs/2603.29093) | [📝 Analysis](68110f3be0d194eb913452392c7c45c0.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*

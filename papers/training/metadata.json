@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Mitigating LLM biases toward spurious social contexts using direct preference optimization",
+      "authors": [
+        "Hyunji Nam, Dorottya Demszky"
+      ],
+      "abstract": "arXiv:2604.02585v1 Announce Type: cross \nAbstract: LLMs are increasingly used for high-stakes decision-making, yet their sensitivity to spurious contextual information can introduce harmful biases. This is a critical concern when models are deployed for tasks like evaluating teachers' instructional quality, where biased assessment can affect teachers' professional development and career trajectories. We investigate model robustness to spurious social contexts using the largest publicly available dataset of U.S. classroom transcripts (NCTE) paired with expert rubric scores. Evaluating seven frontier and open-weight models across seven categories of spurious contexts -- including teacher experience, education level, demographic identity, and sycophancy-inducing framings -- we find that irrelevant contextual information can shift model predictions by up to 1.48 points on a 7-point scale, with larger models sometimes exhibiting greater sensitivity despite higher predictive accuracy. Mitigations using prompts and standard direct preference optimization (DPO) prove largely insufficient. We propose **Debiasing-DPO**,, a self-supervised training method that pairs neutral reasoning generated from the query alone, with the model's biased reasoning generated with both the query and additional spurious context. We further combine this objective with supervised fine-tuning on ground-truth labels to prevent losses in predictive accuracy. Applied to Llama 3B \\& 8B and Qwen 3B \\& 7B Instruct models, Debiasing-DPO reduces bias by 84\\% and improves predictive accuracy by 52\\% on average. Our findings from the educational case study highlight that robustness to spurious context is not a natural byproduct of model scaling and that our proposed method can yield substantial gains in both accuracy and robustness for prompt-based prediction tasks.",
+      "url": "https://arxiv.org/abs/2604.02585",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "spurious",
+        "accuracy",
+        "model",
+        "models",
+        "contexts",
+        "dpo",
+        "predictive",
+        "predictive accuracy",
+        "robustness",
+        "using"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly significant problem \u2013 bias in LLMs, particularly in high-stakes applications like teacher evaluation. The use of a large, real-world dataset (NCTE transcripts) is a strong point, and the finding that larger models *can* be more sensitive to spurious contexts is counterintuitive and noteworthy. While the abstract doesn't detail the mitigation strategy, the problem framing and initial findings suggest solid work, though the innovation appears to be in the application and scale of analysis rather than a fundamentally new technique.",
+      "paper_id": "1270d74b95adb23c960c42a82b5b2dbc"
+    },
+    {
+      "title": "Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!",
+      "authors": [
+        "Zhexin Zhang, Yuhao Sun, Junxiao Yang, Shiyao Cui, Yuanchao Zhang, Hongning Wang, Minlie Huang"
+      ],
+      "abstract": "arXiv:2505.15656v2 Announce Type: replace \nAbstract: Fine-tuning on open-source Large Language Models (LLMs) with proprietary data is now a standard practice for downstream developers to obtain task-specific LLMs. Surprisingly, we reveal a new and concerning risk along with the practice: the creator of the open-source LLMs can later extract the private downstream fine-tuning data through simple backdoor training, only requiring black-box access to the fine-tuned downstream model. Our comprehensive experiments, across 4 popularly used open-source models with 3B to 32B parameters and 2 downstream datasets, suggest that the extraction performance can be strikingly high: in practical settings, as much as 76.3% downstream fine-tuning data (queries) out of a total 5,000 samples can be perfectly extracted, and the success rate can increase to 94.9% in more ideal settings. We also explore a detection-based defense strategy but find it can be bypassed with improved attack. Overall, we highlight the emergency of this newly identified data breaching risk in fine-tuning, and we hope that more follow-up research could push the progress of addressing this concerning risk. The code and data used in our experiments are released at https://github.com/thu-coai/Backdoor-Data-Extraction.",
+      "url": "https://arxiv.org/abs/2505.15656",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "data",
+        "fine",
+        "fine tuning",
+        "tuning",
+        "downstream",
+        "llms",
+        "open",
+        "open source",
+        "source",
+        "risk"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a critical and previously unrecognised security vulnerability in the increasingly common practice of fine-tuning open-source LLMs with private data. The experimental results demonstrating high extraction rates are concerning and well-quantified. While the detection-based defense is bypassed, the identification of the vulnerability itself is a significant contribution, and the work is clearly presented and rigorous based on the abstract.",
+      "paper_id": "0c17e7dcd6fd73a4386aea3621f332b9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-06T10:23:17.956082"
 }
