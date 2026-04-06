@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Delip Rao, Eric Wong, Chris Callison-Burch
+
+arXiv:2604.03173v1 Announce Type: new 
+Abstract: Large language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been system...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03173) | [📝 Analysis](36e10b41d791ae9e38f8934df407553c.md)
+
+---
+
+### IndustryCode: A Benchmark for Industry Code Generation
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Puyu Zeng, Zhaoxi Wang, Zhixu Duan, Liang Feng, Shaobo Wang, Cunxiang Wang, Jinghang Wang, Bing Zhao, Hu Wei, Linfeng Zhang
+
+arXiv:2604.02729v1 Announce Type: cross 
+Abstract: Code generation and comprehension by Large Language Models (LLMs) have emerged as core drivers of industrial intelligence and decision optimization, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02729) | [📝 Analysis](0c9d93695e54221c560376812c291704.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*

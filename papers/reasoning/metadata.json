@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation",
+      "authors": [
+        "Prakhar Bansal, Shivangi Agarwal"
+      ],
+      "abstract": "arXiv:2604.03174v1 Announce Type: new \nAbstract: Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context windows, and weakly structured causal reasoning. This survey provides a unified account of augmentation strategies along a single axis: the degree of structured context supplied at inference time. We cover in-context learning and prompt engineering, Retrieval-Augmented Generation (RAG), GraphRAG, and CausalRAG. Beyond conceptual comparison, we provide a transparent literature-screening protocol, a claim-audit framework, and a structured cross-paper evidence synthesis that distinguishes higher-confidence findings from emerging results. The paper concludes with a deployment-oriented decision framework and concrete research priorities for trustworthy retrieval-augmented NLP.",
+      "url": "https://arxiv.org/abs/2604.03174",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "context",
+        "augmented",
+        "retrieval",
+        "retrieval augmented",
+        "structured",
+        "augmented generation",
+        "causal",
+        "framework",
+        "generation",
+        "knowledge"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This survey tackles a highly relevant and rapidly evolving area in LLMs \u2013 contextual enrichment. The inclusion of a literature-screening protocol, claim-audit framework, and evidence synthesis suggests a rigorous approach, going beyond a simple conceptual overview. The focus on a deployment-oriented decision framework further enhances its practical value, indicating a strong potential for positive reception within the NLP community.",
+      "paper_id": "e82056b383740763cd9c680cf516e75e"
+    },
+    {
+      "title": "Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems",
+      "authors": [
+        "Yubin Qu, Yi Liu, Tongcheng Geng, Gelei Deng, Yuekang Li, Leo Yu Zhang, Ying Zhang, Lei Ma"
+      ],
+      "abstract": "arXiv:2604.03081v1 Announce Type: cross \nAbstract: LLM-based coding agents extend their capabilities via third-party agent skills distributed through open marketplaces without mandatory security review. Unlike traditional packages, these skills are executed as operational directives with system-level privileges, so a single malicious skill can compromise the host. Prior work has not examined whether supply-chain attacks can directly hijack an agent's action space, such as file writes, shell commands, and network requests, despite existing safeguards. We introduce Document-Driven Implicit Payload Execution (DDIPE), which embeds malicious logic in code examples and configuration templates within skill documentation. Because agents reuse these examples during normal tasks, the payload executes without explicit prompts. Using an LLM-driven pipeline, we generate 1,070 adversarial skills from 81 seeds across 15 MITRE ATTACK categories. Across four frameworks and five models, DDIPE achieves 11.6% to 33.5% bypass rates, while explicit instruction attacks achieve 0% under strong defenses. Static analysis detects most cases, but 2.5% evade both detection and alignment. Responsible disclosure led to four confirmed vulnerabilities and two fixes.",
+      "url": "https://arxiv.org/abs/2604.03081",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "attacks",
+        "llm",
+        "skill",
+        "skills",
+        "agents",
+        "chain",
+        "coding",
+        "ddipe",
+        "driven"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a critical and emerging security vulnerability in LLM-based coding agents \u2013 supply chain attacks via skill marketplaces. The 'Document-Driven Implicit Payload Execution' (DDIPE) attack vector is novel and concerning, given the privileged access these skills often have. The scale of the experimentation (1,070 adversarial skills) and coverage across frameworks/models suggests a rigorous approach, making this work highly relevant and likely to be well-received by the community.",
+      "paper_id": "8e47c84909907e62b359bbe6da8847ec"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-06T10:23:17.954594"
 }

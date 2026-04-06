@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Using LLM-as-a-Judge/Jury to Advance Scalable, Clinically-Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** May Lynn Reese, Markela Zeneli, Mindy Ng, Jacob Haimes, Andreea Damien, Elizabeth Stade
+
+arXiv:2604.02359v1 Announce Type: new 
+Abstract: General-purpose Large Language Models (LLMs) are becoming widely adopted by people for mental health support. Yet emerging evidence suggests there are ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02359) | [📝 Analysis](d8990b8bb864f30c1358d65664dc1eb3.md)
+
+---
+
+### Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Xue Liu, Xin Ma, Yuxin Ma, Yongchang Peng, Duo Wang, Zhoufutu Wen, Ge Zhang, Kaiyuan Zhang, Xinyu Chen, Tianci He, Jiani Hou, Liang Hu, Ziyun Huang, Yongzhe Hui, Jianpeng Jiao, Chennan Ju, Yingru Kong, Yiran Li, Mengyun Liu, Luyao Ma, Fei Ni, Yiqing Ni, Yueyan Qiu, Yanle Ren, Zilin Shi, Zaiyuan Wang, Wenjie Yue, Shiyu Zhang, Xinyi Zhang, Kaiwen Zhao, Zhenwei Zhu
+
+arXiv:2604.02368v1 Announce Type: cross 
+Abstract: As Large Language Models (LLMs) exhibit plateauing performance on conventional benchmarks, a pivotal challenge persists: evaluating their proficiency...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02368) | [📝 Analysis](957620990a72e0c7db616331f2b49fd1.md)
+
+---
+
+### StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs
+
+**Score:** 90.0 | **Published:** 2026-04-06 | **Authors:** Jialin Yang, Dongfu Jiang, Lipeng He, Sherman Siu, Yuxuan Zhang, Disen Liao, Zhuofeng Li, Huaye Zeng, Yiming Jia, Haozhe Wang, Benjamin Schneider, Chi Ruan, Wentao Ma, Zhiheng Lyu, Yifei Wang, Yi Lu, Quy Duc Do, Ziyan Jiang, Ping Nie, Wenhu Chen
+
+arXiv:2505.20139v3 Announce Type: replace-cross 
+Abstract: As Large Language Models (LLMs) become integral to software development workflows, their ability to generate structured outputs has become cr...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.20139) | [📝 Analysis](f98f14036f505828c274628f98f307bb.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*

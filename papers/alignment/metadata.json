@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "SocioEval: A Template-Based Framework for Evaluating Socioeconomic Status Bias in Foundation Models",
+      "authors": [
+        "Divyanshu Kumar, Ishita Gupta, Nitin Aravind Birur, Tanay Baswa, Sahil Agarwal, Prashanth Harshangi"
+      ],
+      "abstract": "arXiv:2604.02660v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) increasingly power decision-making systems across critical domains, understanding and mitigating their biases becomes essential for responsible AI deployment. Although bias assessment frameworks have proliferated for attributes such as race and gender, socioeconomic status bias remains significantly underexplored despite its widespread implications in the real world. We introduce SocioEval, a template-based framework for systematically evaluating socioeconomic bias in foundation models through decision-making tasks. Our hierarchical framework encompasses 8 themes and 18 topics, generating 240 prompts across 6 class-pair combinations. We evaluated 13 frontier LLMs on 3,120 responses using a rigorous three-stage annotation protocol, revealing substantial variation in bias rates (0.42\\%-33.75\\%). Our findings demonstrate that bias manifests differently across themes lifestyle judgments show 10$\\times$ higher bias than education-related decisions and that deployment safeguards effectively prevent explicit discrimination but show brittleness to domain-specific stereotypes. SocioEval provides a scalable, extensible foundation for auditing class-based bias in language models.",
+      "url": "https://arxiv.org/abs/2604.02660",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "bias",
+        "models",
+        "based",
+        "foundation",
+        "framework",
+        "socioeconomic",
+        "socioeval",
+        "based framework",
+        "bias foundation",
+        "class"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and currently under-explored area of LLM bias \u2013 socioeconomic status. The systematic framework (SocioEval) with its hierarchical themes and prompt generation is well-defined and the rigorous three-stage annotation protocol strengthens the validity of the findings. The reported variation in bias rates across models is significant and highlights the need for further investigation and mitigation strategies. While template-based evaluation isn't entirely novel, its application to socioeconomic bias is a valuable contribution.",
+      "paper_id": "7f6815089ac3cb3a0e5cbacdca2c98ef"
+    },
+    {
+      "title": "Redirected, Not Removed: Task-Dependent Stereotyping Reveals the Limits of LLM Alignments",
+      "authors": [
+        "Divyanshu Kumar, Ishita Gupta, Nitin Aravind Birur, Tanay Baswa, Sahil Agarwal, Prashanth Harshangi"
+      ],
+      "abstract": "arXiv:2604.02669v1 Announce Type: new \nAbstract: How biased is a language model? The answer depends on how you ask. A model that refuses to choose between castes for a leadership role will, in a fill-in-the-blank task, reliably associate upper castes with purity and lower castes with lack of hygiene. Single-task benchmarks miss this because they capture only one slice of a model's bias profile. We introduce a hierarchical taxonomy covering 9 bias types, including under-studied axes like caste, linguistic, and geographic bias, operationalized through 7 evaluation tasks that span explicit decision-making to implicit association. Auditing 7 commercial and open-weight LLMs with \\textasciitilde45K prompts, we find three systematic patterns. First, bias is task-dependent: models counter stereotypes on explicit probes but reproduce them on implicit ones, with Stereotype Score divergences up to 0.43 between task types for the same model and identity groups. Second, safety alignment is asymmetric: models refuse to assign negative traits to marginalized groups, but freely associate positive traits with privileged ones. Third, under-studied bias axes show the strongest stereotyping across all models, suggesting alignment effort tracks benchmark coverage rather than harm severity. These results demonstrate that single-benchmark audits systematically mischaracterize LLM bias and that current alignment practices mask representational harm rather than mitigating it.",
+      "url": "https://arxiv.org/abs/2604.02669",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "bias",
+        "task",
+        "model",
+        "alignment",
+        "castes",
+        "models",
+        "associate",
+        "axes",
+        "benchmark",
+        "dependent"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial and timely problem in LLM research \u2013 the nuanced nature of bias and the limitations of current alignment techniques. The introduction of a hierarchical taxonomy of bias types and the demonstration of task-dependent stereotyping are strong methodological contributions. The findings, showing a divergence between explicit and implicit bias responses, are significant and suggest current safety alignments are incomplete, warranting further investigation.",
+      "paper_id": "f09ca131f76c8200507294ea6e937aee"
+    },
+    {
+      "title": "An Independent Safety Evaluation of Kimi K2.5",
+      "authors": [
+        "Zheng-Xin Yong, Parv Mahajan, Andy Wang, Ida Caspary, Yernat Yestekov, Zora Che, Mosh Levy, Elle Najt, Dennis Murphy, Prashant Kulkarni, Lev McKinney, Kei Nishimura-Gasparian, Ram Potham, Aengus Lynch, Michael L. Chen"
+      ],
+      "abstract": "arXiv:2604.03121v1 Announce Type: cross \nAbstract: Kimi K2.5 is an open-weight LLM that rivals closed models across coding, multimodal, and agentic benchmarks, but was released without an accompanying safety evaluation. In this work, we conduct a preliminary safety assessment of Kimi K2.5 focusing on risks likely to be exacerbated by powerful open-weight models. Specifically, we evaluate the model for CBRNE misuse risk, cybersecurity risk, misalignment, political censorship, bias, and harmlessness, in both agentic and non-agentic settings. We find that Kimi K2.5 shows similar dual-use capabilities to GPT 5.2 and Claude Opus 4.5, but with significantly fewer refusals on CBRNE-related requests, suggesting it may uplift malicious actors in weapon creation. On cyber-related tasks, we find that Kimi K2.5 demonstrates competitive cybersecurity performance, but it does not appear to possess frontier-level autonomous cyberoffensive capabilities such as vulnerability discovery and exploitation. We further find that Kimi K2.5 shows concerning levels of sabotage ability and self-replication propensity, although it does not appear to have long-term malicious goals. In addition, Kimi K2.5 exhibits narrow censorship and political bias, especially in Chinese, and is more compliant with harmful requests related to spreading disinformation and copyright infringement. Finally, we find the model refuses to engage in user delusions and generally has low over-refusal rates. While preliminary, our findings highlight how safety risks exist in frontier open-weight models and may be amplified by the scale and accessibility of open-weight releases. Therefore, we strongly urge open-weight model developers to conduct and release more systematic safety evaluations required for responsible deployment.",
+      "url": "https://arxiv.org/abs/2604.03121",
+      "published_date": "2026-04-06T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "k2",
+        "kimi",
+        "kimi k2",
+        "open",
+        "open weight",
+        "safety",
+        "weight",
+        "agentic",
+        "model",
+        "models"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a crucial gap in the release of Kimi K2.5 \u2013 a lack of safety evaluation for a powerful, open-weight LLM. The focus on dual-use risks (CBRNE, cybersecurity) and the finding of fewer refusals on dangerous requests are particularly concerning and valuable. While the methodology appears sound for a preliminary assessment, the work doesn't present novel techniques, but rather applies existing safety evaluation frameworks to a new model.",
+      "paper_id": "f53be518b3a50bb92a85b7f960845929"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-06T10:23:17.952523"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Prakhar Bansal, Shivangi Agarwal
+
+arXiv:2604.03174v1 Announce Type: new 
+Abstract: Large language models (LLMs) encode vast world knowledge in their parameters, yet they remain fundamentally limited by static knowledge, finite context...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03174) | [📝 Analysis](e82056b383740763cd9c680cf516e75e.md)
+
+---
+
+### Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Yubin Qu, Yi Liu, Tongcheng Geng, Gelei Deng, Yuekang Li, Leo Yu Zhang, Ying Zhang, Lei Ma
+
+arXiv:2604.03081v1 Announce Type: cross 
+Abstract: LLM-based coding agents extend their capabilities via third-party agent skills distributed through open marketplaces without mandatory security revie...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03081) | [📝 Analysis](8e47c84909907e62b359bbe6da8847ec.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*

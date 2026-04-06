@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### SocioEval: A Template-Based Framework for Evaluating Socioeconomic Status Bias in Foundation Models
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Divyanshu Kumar, Ishita Gupta, Nitin Aravind Birur, Tanay Baswa, Sahil Agarwal, Prashanth Harshangi
+
+arXiv:2604.02660v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) increasingly power decision-making systems across critical domains, understanding and mitigating their biases becomes e...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02660) | [📝 Analysis](7f6815089ac3cb3a0e5cbacdca2c98ef.md)
+
+---
+
+### Redirected, Not Removed: Task-Dependent Stereotyping Reveals the Limits of LLM Alignments
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Divyanshu Kumar, Ishita Gupta, Nitin Aravind Birur, Tanay Baswa, Sahil Agarwal, Prashanth Harshangi
+
+arXiv:2604.02669v1 Announce Type: new 
+Abstract: How biased is a language model? The answer depends on how you ask. A model that refuses to choose between castes for a leadership role will, in a fill-...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.02669) | [📝 Analysis](f09ca131f76c8200507294ea6e937aee.md)
+
+---
+
+### An Independent Safety Evaluation of Kimi K2.5
+
+**Score:** 92.0 | **Published:** 2026-04-06 | **Authors:** Zheng-Xin Yong, Parv Mahajan, Andy Wang, Ida Caspary, Yernat Yestekov, Zora Che, Mosh Levy, Elle Najt, Dennis Murphy, Prashant Kulkarni, Lev McKinney, Kei Nishimura-Gasparian, Ram Potham, Aengus Lynch, Michael L. Chen
+
+arXiv:2604.03121v1 Announce Type: cross 
+Abstract: Kimi K2.5 is an open-weight LLM that rivals closed models across coding, multimodal, and agentic benchmarks, but was released without an accompanying...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03121) | [📝 Analysis](f53be518b3a50bb92a85b7f960845929.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-06 10:23:17 UTC*
