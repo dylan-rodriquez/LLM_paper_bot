@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Hallucination Basins: A Dynamic Framework for Understanding and Controlling LLM Hallucinations
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Kalyan Cherukuri, Lav R. Varshney
+
+arXiv:2604.04743v1 Announce Type: new 
+Abstract: Large language models (LLMs) hallucinate: they produce fluent outputs that are factually incorrect. We present a geometric dynamical systems framework ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04743) | [📝 Analysis](8a868643a1d15878b5dfea8e5e63c6f0.md)
+
+---
+
+### Benchmarking Multi-turn Medical Diagnosis: Hold, Lure, and Self-Correction
+
+**Score:** 90.0 | **Published:** 2026-04-07 | **Authors:** Jinrui Fang, Runhan Chen, Xu Yang, Jian Yu, Jiawei Xu, Ashwin Vinod, Wenqi Shi, Tianlong Chen, Heng Ji, ChengXiang Zhai, Ying Ding, Yuji Zhang
+
+arXiv:2604.04325v1 Announce Type: new 
+Abstract: Large language models (LLMs) achieve high accuracy in medical diagnosis when all clinical information is provided in a single turn, yet how they behave...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04325) | [📝 Analysis](c2f6774459f8063bbdb1f31640884259.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-07 10:22:05 UTC*

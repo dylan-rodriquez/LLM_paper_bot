@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models",
+      "authors": [
+        "Gregory N. Frank"
+      ],
+      "abstract": "arXiv:2604.04385v1 Announce Type: new \nAbstract: We identify a recurring sparse routing mechanism in alignment-trained language models: a gate attention head reads detected content and triggers downstream amplifier heads that boost the signal toward refusal. Using political censorship and safety refusal as natural experiments, we trace this mechanism across 9 models from 6 labs, all validated on corpora of 120 prompt pairs. The gate head passes necessity and sufficiency interchange tests (p < 0.001, permutation null), and core amplifier heads are stable under bootstrap resampling (Jaccard 0.92-1.0). Three same-generation scaling pairs show that routing distributes at scale (ablation up to 17x weaker) while remaining detectable by interchange. By modulating the detection-layer signal, we continuously control policy strength from hard refusal through steering to factual compliance, with routing thresholds that vary by topic. The circuit also reveals a structural separation between intent recognition and policy routing: under cipher encoding, the gate head's routing contribution collapses (78% in Phi-4 at n=120) while the model responds with puzzle-solving rather than refusal. The routing mechanism never fires, even though probe scores at deeper layers indicate the model begins to represent the harmful content. This asymmetry is consistent with different robustness properties of pretraining and post-training: broad semantic understanding versus narrower policy binding that generalizes less well under input transformation.",
+      "url": "https://arxiv.org/abs/2604.04385",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "routing",
+        "policy",
+        "refusal",
+        "gate",
+        "head",
+        "mechanism",
+        "models",
+        "120",
+        "alignment",
+        "amplifier"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper presents a compelling analysis of alignment mechanisms in LLMs, identifying a 'gate-amplifier' circuit. The rigorous validation across multiple models and the use of interchange tests and bootstrap resampling suggest a robust methodology. The ability to control policy strength by modulating the detection layer is particularly noteworthy, and the findings are highly relevant to ongoing concerns about LLM safety and control. The high scores reflect the potential for significant impact and positive reception within the AI community.",
+      "paper_id": "46146f4c228874469a6d6ccf2f270197"
+    },
+    {
+      "title": "Do No Harm: Exposing Hidden Vulnerabilities of LLMs via Persona-based Client Simulation Attack in Psychological Counseling",
+      "authors": [
+        "Qingyang Xu, Yaling Shen, Stephanie Fong, Zimu Wang, Yiwen Jiang, Xiangyu Zhao, Jiahe Liu, Zhongxing Xu, Vincent Lee, Zongyuan Ge"
+      ],
+      "abstract": "arXiv:2604.04842v1 Announce Type: new \nAbstract: The increasing use of large language models (LLMs) in mental healthcare raises safety concerns in high-stakes therapeutic interactions. A key challenge is distinguishing therapeutic empathy from maladaptive validation, where supportive responses may inadvertently reinforce harmful beliefs or behaviors in multi-turn conversations. This risk is largely overlooked by existing red-teaming frameworks, which focus mainly on generic harms or optimization-based attacks. To address this gap, we introduce Personality-based Client Simulation Attack (PCSA), the first red-teaming framework that simulates clients in psychological counseling through coherent, persona-driven client dialogues to expose vulnerabilities in psychological safety alignment. Experiments on seven general and mental health-specialized LLMs show that PCSA substantially outperforms four competitive baselines. Perplexity analysis and human inspection further indicate that PCSA generates more natural and realistic dialogues. Our results reveal that current LLMs remain vulnerable to domain-specific adversarial tactics, providing unauthorized medical advice, reinforcing delusions, and implicitly encouraging risky actions.",
+      "url": "https://arxiv.org/abs/2604.04842",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "llms",
+        "based",
+        "client",
+        "pcsa",
+        "psychological",
+        "attack",
+        "based client",
+        "client simulation",
+        "counseling",
+        "dialogues"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a critical and timely problem \u2013 the safety of LLMs in mental healthcare \u2013 and proposes a novel red-teaming framework (PCSA) specifically designed to uncover vulnerabilities related to maladaptive validation. The reported outperformance against existing baselines and the use of perplexity analysis and human inspection suggest a rigorous methodology. The potential for real-world impact is high, given the increasing deployment of LLMs in sensitive therapeutic contexts.",
+      "paper_id": "c9d304a95b0e51a57634af03ac45a669"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-07T10:22:05.336744"
 }

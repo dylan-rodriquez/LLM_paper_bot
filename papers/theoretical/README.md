@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Many Preferences, Few Policies: Towards Scalable Language Model Personalization
+
+**Score:** 90.0 | **Published:** 2026-04-07 | **Authors:** Cheol Woo Kum, Jai Moondra, Roozbeh Nahavandi, Andrew Perrault, Milind Tambe, Swati Gupta
+
+arXiv:2604.04144v1 Announce Type: new 
+Abstract: The holy grail of LLM personalization is a single LLM for each user, perfectly aligned with that user's preferences. However, maintaining a separate LL...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04144) | [📝 Analysis](edcac6c1137dba1b27325363b60a7bd4.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-07 10:22:05 UTC*

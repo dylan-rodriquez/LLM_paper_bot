@@ -2,7 +2,40 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (16 total)
+
+### VIGIL: An Extensible System for Real-Time Detection and Mitigation of Cognitive Bias Triggers
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Bo Kang, Sander Noels, Tijl De Bie
+
+arXiv:2604.03261v1 Announce Type: new 
+Abstract: The rise of generative AI is posing increasing risks to online information integrity and civic discourse. Most concretely, such risks can materialise i...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03261) | [📝 Analysis](6d6b7e9a8819a41f819e73f2b507326c.md)
+
+---
+
+### LiveFact: A Dynamic, Time-Aware Benchmark for LLM-Driven Fake News Detection
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Cheng Xu, Changhong Jin, Yingjie Niu, Nan Yan, Yuke Mei, Shuhao Guan, Liming Chen, M-Tahar Kechadi
+
+arXiv:2604.04815v1 Announce Type: new 
+Abstract: The rapid development of Large Language Models (LLMs) has transformed fake news detection and fact-checking tasks from simple classification to complex...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04815) | [📝 Analysis](bfc423d297485f549f80cb83aa0ede26.md)
+
+---
+
+### The Persuasion Paradox: When LLM Explanations Fail to Improve Human-AI Team Performance
+
+**Score:** 90.0 | **Published:** 2026-04-07 | **Authors:** Ruth Cohen, Lu Feng, Ayala Bloch, Sarit Kraus
+
+arXiv:2604.03237v1 Announce Type: cross 
+Abstract: While natural-language explanations from large language models (LLMs) are widely adopted to improve transparency and trust, their impact on objective...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03237) | [📝 Analysis](f8ec48ade513cb0b7461caf1b328b3db.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +181,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-07 10:22:05 UTC*
