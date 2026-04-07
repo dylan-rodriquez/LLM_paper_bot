@@ -415,7 +415,103 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "VIGIL: An Extensible System for Real-Time Detection and Mitigation of Cognitive Bias Triggers",
+      "authors": [
+        "Bo Kang, Sander Noels, Tijl De Bie"
+      ],
+      "abstract": "arXiv:2604.03261v1 Announce Type: new \nAbstract: The rise of generative AI is posing increasing risks to online information integrity and civic discourse. Most concretely, such risks can materialise in the form of mis- and disinformation. As a mitigation, media-literacy and transparency tools have been developed to address factuality of information and the reliability and ideological leaning of information sources. However, a subtler but possibly no less harmful threat to civic discourse is to use of persuasion or manipulation by exploiting human cognitive biases and related cognitive limitations. To the best of our knowledge, no tools exist to directly detect and mitigate the presence of triggers of such cognitive biases in online information. We present VIGIL (VIrtual GuardIan angeL), the first browser extension for real-time cognitive bias trigger detection and mitigation, providing in-situ scroll-synced detection, LLM-powered reformulation with full reversibility, and privacy-tiered inference from fully offline to cloud. VIGIL is built to be extensible with third-party plugins, with several plugins that are rigorously validated against NLP benchmarks are already included. It is open-sourced at https://github.com/aida-ugent/vigil.",
+      "url": "https://arxiv.org/abs/2604.03261",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "cognitive",
+        "information",
+        "vigil",
+        "detection",
+        "mitigation",
+        "bias",
+        "biases",
+        "civic",
+        "civic discourse",
+        "cognitive bias"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the manipulation of users through cognitive biases in the age of generative AI. The development of a real-time browser extension (VIGIL) for detection and mitigation is a strong practical contribution. While the abstract doesn't detail the specific methods used for bias detection and LLM-powered reformulation, the concept itself is novel and has the potential for substantial impact, suggesting a well-executed project.",
+      "paper_id": "6d6b7e9a8819a41f819e73f2b507326c"
+    },
+    {
+      "title": "LiveFact: A Dynamic, Time-Aware Benchmark for LLM-Driven Fake News Detection",
+      "authors": [
+        "Cheng Xu, Changhong Jin, Yingjie Niu, Nan Yan, Yuke Mei, Shuhao Guan, Liming Chen, M-Tahar Kechadi"
+      ],
+      "abstract": "arXiv:2604.04815v1 Announce Type: new \nAbstract: The rapid development of Large Language Models (LLMs) has transformed fake news detection and fact-checking tasks from simple classification to complex reasoning. However, evaluation frameworks have not kept pace. Current benchmarks are static, making them vulnerable to benchmark data contamination (BDC) and ineffective at assessing reasoning under temporal uncertainty. To address this, we introduce LiveFact a continuously updated benchmark that simulates the real-world \"fog of war\" in misinformation detection. LiveFact uses dynamic, temporal evidence sets to evaluate models on their ability to reason with evolving, incomplete information rather than on memorized knowledge. We propose a dual-mode evaluation: Classification Mode for final verification and Inference Mode for evidence-based reasoning, along with a component to monitor BDC explicitly. Tests with 22 LLMs show that open-source Mixture-of-Experts models, such as Qwen3-235B-A22B, now match or outperform proprietary state-of-the-art systems. More importantly, our analysis finds a significant \"reasoning gap.\" Capable models exhibit epistemic humility by recognizing unverifiable claims in early data slices-an aspect traditional static benchmarks overlook. LiveFact sets a sustainable standard for evaluating robust, temporally aware AI verification.",
+      "url": "https://arxiv.org/abs/2604.04815",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "livefact",
+        "models",
+        "reasoning",
+        "benchmark",
+        "detection",
+        "mode",
+        "aware",
+        "bdc",
+        "benchmarks",
+        "classification"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 the static nature of benchmarks and the resulting vulnerability to data contamination and inability to assess temporal reasoning. The introduction of LiveFact, a dynamic and time-aware benchmark, is a significant step forward. The dual-mode evaluation and explicit BDC monitoring are well-conceived and contribute to a more robust assessment of LLM performance in a real-world misinformation context. The initial results with 22 LLMs also suggest the approach is valuable.",
+      "paper_id": "bfc423d297485f549f80cb83aa0ede26"
+    },
+    {
+      "title": "The Persuasion Paradox: When LLM Explanations Fail to Improve Human-AI Team Performance",
+      "authors": [
+        "Ruth Cohen, Lu Feng, Ayala Bloch, Sarit Kraus"
+      ],
+      "abstract": "arXiv:2604.03237v1 Announce Type: cross \nAbstract: While natural-language explanations from large language models (LLMs) are widely adopted to improve transparency and trust, their impact on objective human-AI team performance remains poorly understood. We identify a Persuasion Paradox: fluent explanations systematically increase user confidence and reliance on AI without reliably improving, and in some cases undermining, task accuracy.\n  Across three controlled human-subject studies spanning abstract visual reasoning (RAVEN matrices) and deductive logical reasoning (LSAT problems), we disentangle the effects of AI predictions and explanations using a multi-stage reveal design and between-subjects comparisons. In visual reasoning, LLM explanations increase confidence but do not improve accuracy beyond the AI prediction alone, and substantially suppress users' ability to recover from model errors. Interfaces exposing model uncertainty via predicted probabilities, as well as a selective automation policy that defers uncertain cases to humans, achieve significantly higher accuracy and error recovery than explanation-based interfaces.\n  In contrast, for language-based logical reasoning tasks, LLM explanations yield the highest accuracy and recovery rates, outperforming both expert-written explanations and probability-based support. This divergence reveals that the effectiveness of narrative explanations is strongly task-dependent and mediated by cognitive modality.\n  Our findings demonstrate that commonly used subjective metrics such as trust, confidence, and perceived clarity are poor predictors of human-AI team performance. Rather than treating explanations as a universal solution, we argue for a shift toward interaction designs that prioritize calibrated reliance and effective error recovery over persuasive fluency.",
+      "url": "https://arxiv.org/abs/2604.03237",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.HC"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "explanations",
+        "ai",
+        "accuracy",
+        "human",
+        "reasoning",
+        "ai team",
+        "based",
+        "confidence",
+        "human ai",
+        "improve"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial issue in the burgeoning field of LLM-human collaboration: the counterintuitive effect of explanations. The 'Persuasion Paradox' is a compelling finding, and the use of a multi-stage reveal design and between-subjects comparisons strengthens the rigor of the study. The research is well-focused and addresses a timely problem with significant implications for how we design AI systems for effective teamwork.",
+      "paper_id": "f8ec48ade513cb0b7461caf1b328b3db"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-07T10:22:05.332886"
 }

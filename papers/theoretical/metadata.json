@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Many Preferences, Few Policies: Towards Scalable Language Model Personalization",
+      "authors": [
+        "Cheol Woo Kum, Jai Moondra, Roozbeh Nahavandi, Andrew Perrault, Milind Tambe, Swati Gupta"
+      ],
+      "abstract": "arXiv:2604.04144v1 Announce Type: new \nAbstract: The holy grail of LLM personalization is a single LLM for each user, perfectly aligned with that user's preferences. However, maintaining a separate LLM per user is impractical due to constraints on compute, memory, and system complexity. We address this challenge by developing a principled method for selecting a small portfolio of LLMs that captures representative behaviors across heterogeneous users. We model user preferences across multiple traits (e.g., safety, humor, brevity) through a multi-dimensional weight vector. Given reward functions across these dimensions, our algorithm PALM (Portfolio of Aligned LLMs) generates a small portfolio of LLMs such that, for any weight vector, the portfolio contains a near-optimal LLM for the corresponding scalarized objective. To the best of our knowledge, this is the first result that provides theoretical guarantees on both the size and approximation quality of LLM portfolios for personalization. It characterizes the trade-off between system cost and personalization, as well as the diversity of LLMs required to cover the landscape of user preferences. We provide empirical results that validate these guarantees and demonstrate greater output diversity over common baselines.",
+      "url": "https://arxiv.org/abs/2604.04144",
+      "published_date": "2026-04-07T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llm",
+        "user",
+        "llms",
+        "personalization",
+        "portfolio",
+        "preferences",
+        "user preferences",
+        "aligned",
+        "diversity",
+        "guarantees"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in LLM personalization \u2013 the impracticality of individual models per user. The proposed PALM algorithm, with its theoretical guarantees on portfolio size and approximation quality, is a strong contribution. The multi-dimensional preference modeling and scalarized objective approach seem well-reasoned, and the focus on scalability is highly relevant to current LLM research.",
+      "paper_id": "edcac6c1137dba1b27325363b60a7bd4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-04-07T10:22:05.334809"
 }

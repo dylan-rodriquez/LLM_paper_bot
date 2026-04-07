@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Wenhui Zhu, Xuanzhao Dong, Xiwen Chen, Rui Cai, Peijie Qiu, Zhipeng Wang, Oana Frunza, Shao Tang, Jindong Gu, Yalin Wang
+
+arXiv:2604.03870v1 Announce Type: new 
+Abstract: The rapid deployment of open-source frameworks has significantly advanced the development of modern multi-agent systems. However, expanded action space...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.03870) | [📝 Analysis](a2c8ee93fa0b87b283650b0474204fb6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-07 10:22:05 UTC*

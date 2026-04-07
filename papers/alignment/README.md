@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Gregory N. Frank
+
+arXiv:2604.04385v1 Announce Type: new 
+Abstract: We identify a recurring sparse routing mechanism in alignment-trained language models: a gate attention head reads detected content and triggers downst...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04385) | [📝 Analysis](46146f4c228874469a6d6ccf2f270197.md)
+
+---
+
+### Do No Harm: Exposing Hidden Vulnerabilities of LLMs via Persona-based Client Simulation Attack in Psychological Counseling
+
+**Score:** 92.0 | **Published:** 2026-04-07 | **Authors:** Qingyang Xu, Yaling Shen, Stephanie Fong, Zimu Wang, Yiwen Jiang, Xiangyu Zhao, Jiahe Liu, Zhongxing Xu, Vincent Lee, Zongyuan Ge
+
+arXiv:2604.04842v1 Announce Type: new 
+Abstract: The increasing use of large language models (LLMs) in mental healthcare raises safety concerns in high-stakes therapeutic interactions. A key challenge...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04842) | [📝 Analysis](c9d304a95b0e51a57634af03ac45a669.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-07 10:22:05 UTC*
