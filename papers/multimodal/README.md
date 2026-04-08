@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Han Jang, Junhyeok Lee, Heeseong Eum, Kyu Sung Choi
+
+arXiv:2604.05738v1 Announce Type: new 
+Abstract: Medical Vision-Language Models (Med-VLMs) have achieved expert-level proficiency in interpreting diagnostic imaging. However, current models are predom...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05738) | [📝 Analysis](5b2aaa3b01f3725fda3f27bf118c2212.md)
+
+---
+
+### Efficient Inference for Large Vision-Language Models: Bottlenecks, Techniques, and Prospects
+
+**Score:** 90.0 | **Published:** 2026-04-08 | **Authors:** Jun Zhang, Yicheng Ji, Feiyang Ren, Yihang Li, Bowen Zeng, Zonghao Chen, Ke Chen, Lidan Shou, Gang Chen, Huan Li
+
+arXiv:2604.05546v1 Announce Type: new 
+Abstract: Large Vision-Language Models (LVLMs) enable sophisticated reasoning over images and videos, yet their inference is hindered by a systemic efficiency ba...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05546) | [📝 Analysis](ddf136a2818042e4fa0486a518884167.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*

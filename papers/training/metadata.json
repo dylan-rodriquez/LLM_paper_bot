@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
+      "authors": [
+        "Zhengqing Yuan, Hanchi Sun, Lichao Sun, Yanfang Ye"
+      ],
+      "abstract": "arXiv:2604.05091v1 Announce Type: new \nAbstract: We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in host memory (CPU memory) and treats GPUs as transient compute engines. For each layer, we stream parameters in and compute gradients out, minimizing persistent device state. To battle the CPU-GPU bandwidth bottleneck, we adopt two key optimizations. 1) We introduce a pipelined double-buffered execution engine that overlaps parameter prefetching, computation, and gradient offloading across multiple CUDA streams, enabling continuous GPU execution. 2) We replace persistent autograd graphs with stateless layer templates, binding weights dynamically as they stream in, eliminating persistent graph metadata while providing flexibility in scheduling. On a single H200 GPU with 1.5TB host memory, MegaTrain reliably trains models up to 120B parameters. It also achieves 1.84$\\times$ the training throughput of DeepSpeed ZeRO-3 with CPU offloading when training 14B models. MegaTrain also enables 7B model training with 512k token context on a single GH200.",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "gpu",
+        "megatrain",
+        "memory",
+        "models",
+        "single",
+        "training",
+        "cpu",
+        "parameter",
+        "parameters",
+        "persistent"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial bottleneck in LLM training \u2013 memory capacity \u2013 by cleverly utilizing host memory and optimizing CPU-GPU bandwidth. The approach of treating the GPU as a compute engine and streaming parameters is a significant departure from traditional methods. The described optimizations (double-buffering, stateless layer templates) appear well-reasoned and potentially highly effective, making this a very promising contribution to the field.",
+      "paper_id": "950c81c125791d7e02284c91fa23dade"
+    },
+    {
+      "title": "RAG or Learning? Understanding the Limits of LLM Adaptation under Continuous Knowledge Drift in the Real World",
+      "authors": [
+        "Hanbing Liu, Lang Cao, Yang Li"
+      ],
+      "abstract": "arXiv:2604.05096v1 Announce Type: new \nAbstract: Large language models (LLMs) acquire most of their knowledge during pretraining, which ties them to a fixed snapshot of the world and makes adaptation to continuously evolving knowledge challenging. As facts, entities, and events change over time, models may experience continuous knowledge drift, resulting not only in outdated predictions but also in temporally inconsistent reasoning. Although existing approaches, such as continual finetuning, knowledge editing, and retrieval-augmented generation (RAG), aim to update or supplement model knowledge, they are rarely evaluated in settings that reflect chronological, evolving, and real-world knowledge evolution. In this work, we introduce a new benchmark of real-world dynamic events, constructed from time-stamped evidence that captures how knowledge evolves over time, which enables systematic evaluation of model adaptation under continuous knowledge drift. The benchmark reveals that most existing methods, including vanilla RAG and several learning-based approaches, struggle under this setting, exposing critical limitations such as catastrophic forgetting and temporal inconsistency. To mitigate these limitations, we propose a time-aware retrieval baseline, Chronos, which progressively organizes retrieved evidence into an Event Evolution Graph to enable more temporally consistent understanding in LLMs without additional training. Overall, this work provides a foundation for analyzing and advancing LLM adaptation to continuous knowledge drift in realistic settings.",
+      "url": "https://arxiv.org/abs/2604.05096",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "knowledge",
+        "adaptation",
+        "continuous",
+        "continuous knowledge",
+        "drift",
+        "knowledge drift",
+        "time",
+        "world",
+        "adaptation continuous",
+        "rag"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 knowledge drift \u2013 and does so by introducing a new benchmark for evaluating adaptation methods. The focus on real-world, time-stamped events is a strong methodological contribution. While the abstract doesn't detail the specific findings, the problem's importance and the benchmark's potential suggest high significance and impact, and the approach is novel enough to warrant a high quality score.",
+      "paper_id": "c1e33271a5782337873b129f2ac519bf"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-08T10:17:02.545766"
 }

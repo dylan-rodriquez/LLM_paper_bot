@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery",
+      "authors": [
+        "Yu Li, Chenyang Shao, Xinyang Liu, Ruotong Zhao, Peijie Liu, Hongyuan Su, Zhibin Chen, Qinglong Yang, Anjie Xu, Yi Fang, Qingbin Zeng, Tianxing Li, Jingbo Xu, Fengli Xu, Yong Li, Tie-Yan Liu"
+      ],
+      "abstract": "arXiv:2604.05550v1 Announce Type: new \nAbstract: Artificial intelligence research increasingly depends on prolonged cycles of reproduction, debugging, and iterative refinement to achieve State-Of-The-Art (SOTA) performance, creating a growing need for systems that can accelerate the full pipeline of empirical model optimization. In this work, we introduce AutoSOTA, an end-to-end automated research system that advances the latest SOTA models published in top-tier AI papers to reproducible and empirically improved new SOTA models. We formulate this problem through three tightly coupled stages: resource preparation and goal setting; experiment evaluation; and reflection and ideation. To tackle this problem, AutoSOTA adopts a multi-agent architecture with eight specialized agents that collaboratively ground papers to code and dependencies, initialize and repair execution environments, track long-horizon experiments, generate and schedule optimization ideas, and supervise validity to avoid spurious gains. We evaluate AutoSOTA on recent research papers collected from eight top-tier AI conferences under filters for code availability and execution cost. Across these papers, AutoSOTA achieves strong end-to-end performance in both automated replication and subsequent optimization. Specifically, it successfully discovers 105 new SOTA models that surpass the original reported methods, averaging approximately five hours per paper. Case studies spanning LLM, NLP, computer vision, time series, and optimization further show that the system can move beyond routine hyperparameter tuning to identify architectural innovation, algorithmic redesigns, and workflow-level improvements. These results suggest that end-to-end research automation can serve not only as a performance optimizer, but also as a new form of research infrastructure that reduces repetitive experimental burden and helps redirect human attention toward higher-level scientific creativity.",
+      "url": "https://arxiv.org/abs/2604.05550",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "end",
+        "research",
+        "autosota",
+        "end end",
+        "new",
+        "optimization",
+        "papers",
+        "sota",
+        "ai",
+        "automated"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a crucial bottleneck in AI research \u2013 the laborious process of reproducing and improving SOTA results. The proposed AutoSOTA system, with its multi-agent architecture, appears well-structured and tackles a complex problem with a comprehensive approach. While the abstract doesn't detail specific novel algorithms, the system-level integration and automation are significant, suggesting a strong potential for accelerating research.",
+      "paper_id": "f76a18100f983441692e1d2be6d501ce"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-08T10:17:02.550302"
 }

@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Zhengqing Yuan, Hanchi Sun, Lichao Sun, Yanfang Ye
+
+arXiv:2604.05091v1 Announce Type: new 
+Abstract: We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike t...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05091) | [📝 Analysis](950c81c125791d7e02284c91fa23dade.md)
+
+---
+
+### RAG or Learning? Understanding the Limits of LLM Adaptation under Continuous Knowledge Drift in the Real World
+
+**Score:** 90.0 | **Published:** 2026-04-08 | **Authors:** Hanbing Liu, Lang Cao, Yang Li
+
+arXiv:2604.05096v1 Announce Type: new 
+Abstract: Large language models (LLMs) acquire most of their knowledge during pretraining, which ties them to a fixed snapshot of the world and makes adaptation ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05096) | [📝 Analysis](c1e33271a5782337873b129f2ac519bf.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*

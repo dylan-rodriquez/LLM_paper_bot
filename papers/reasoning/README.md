@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Changgeon Ko, Jisu Shin, Hoyun Song, Huije Lee, Eui Jun Hwang, Jong C. Park
+
+arXiv:2604.06091v1 Announce Type: new 
+Abstract: Large language model (LLM) agents are increasingly acting as human delegates in multi-agent environments, where a representative agent integrates diver...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06091) | [📝 Analysis](e1157e49488f1668f7f09b8e875973ea.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*

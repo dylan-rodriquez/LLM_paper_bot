@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Yu Li, Chenyang Shao, Xinyang Liu, Ruotong Zhao, Peijie Liu, Hongyuan Su, Zhibin Chen, Qinglong Yang, Anjie Xu, Yi Fang, Qingbin Zeng, Tianxing Li, Jingbo Xu, Fengli Xu, Yong Li, Tie-Yan Liu
+
+arXiv:2604.05550v1 Announce Type: new 
+Abstract: Artificial intelligence research increasingly depends on prolonged cycles of reproduction, debugging, and iterative refinement to achieve State-Of-The-...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05550) | [📝 Analysis](f76a18100f983441692e1d2be6d501ce.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*

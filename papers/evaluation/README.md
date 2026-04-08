@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Jason Lucas, Matt Murtagh, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee
+
+arXiv:2604.05318v1 Announce Type: new 
+Abstract: Harmful content detectors-particularly disinformation classifiers-are predominantly developed and evaluated on Standard American English (SAE), leaving...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05318) | [📝 Analysis](1d4e93c14b4dde36210e1a0e9f3cc200.md)
+
+---
+
+### Measuring What Matters!! Assessing Therapeutic Principles in Mental-Health Conversation
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Abdullah Mazhar, Het Riteshkumar Shah, Aseem Srivastava, Smriti Joshi, Md Shad Akhtar
+
+arXiv:2604.05795v1 Announce Type: new 
+Abstract: The increasing use of large language models in mental health applications calls for principled evaluation frameworks that assess alignment with psychot...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05795) | [📝 Analysis](6ef254557f116207505aeaeb091250e6.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*
