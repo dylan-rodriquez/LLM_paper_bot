@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives",
+      "authors": [
+        "Changgeon Ko, Jisu Shin, Hoyun Song, Huije Lee, Eui Jun Hwang, Jong C. Park"
+      ],
+      "abstract": "arXiv:2604.06091v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly acting as human delegates in multi-agent environments, where a representative agent integrates diverse peer perspectives to make a final decision. Drawing inspiration from social psychology, we investigate how the reliability of this representative agent is undermined by the social context of its network. We define four key phenomena-social conformity, perceived expertise, dominant speaker effect, and rhetorical persuasion-and systematically manipulate the number of adversaries, relative intelligence, argument length, and argumentative styles. Our experiments demonstrate that the representative agent's accuracy consistently declines as social pressure increases: larger adversarial groups, more capable peers, and longer arguments all lead to significant performance degradation. Furthermore, rhetorical strategies emphasizing credibility or logic can further sway the agent's judgment, depending on the context. These findings reveal that multi-agent systems are sensitive not only to individual reasoning but also to the social dynamics of their configuration, highlighting critical vulnerabilities in AI delegates that mirror the psychological biases observed in human group decision-making.",
+      "url": "https://arxiv.org/abs/2604.06091",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "agent",
+        "social",
+        "decision",
+        "representative",
+        "representative agent",
+        "context",
+        "critical",
+        "critical vulnerabilities",
+        "decision making",
+        "delegates"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a crucial and timely problem \u2013 the vulnerability of LLM collectives to social dynamics. The systematic investigation of conformity, expertise bias, and persuasion is well-designed and the findings regarding performance degradation with increased social pressure are significant. While the concepts are inspired by established social psychology, applying them to LLM agents represents a valuable and novel contribution, with strong potential for real-world impact in multi-agent systems.",
+      "paper_id": "e1157e49488f1668f7f09b8e875973ea"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-08T10:17:02.552161"
 }

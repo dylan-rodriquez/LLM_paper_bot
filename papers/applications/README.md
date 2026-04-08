@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### FrontierFinance: A Long-Horizon Computer-Use Benchmark of Real-World Financial Tasks
+
+**Score:** 92.0 | **Published:** 2026-04-08 | **Authors:** Michael Krumdick, Varshini Reddy, Shivani Chaudhary, William Day, Maarij Ahmed, Hayan Haqqi, Muhammad Ahsen Fahim, Hanzallah Amjad, Ahmad Orakzai, Aqsa Gul, Chris Tanner
+
+arXiv:2604.05912v1 Announce Type: new 
+Abstract: As concerns surrounding AI-driven labor displacement intensify in knowledge-intensive sectors, existing benchmarks fail to measure performance on tasks...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05912) | [📝 Analysis](ca9265e1945aadae52108abb18f83cc1.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*

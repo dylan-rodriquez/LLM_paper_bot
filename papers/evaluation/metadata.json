@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects",
+      "authors": [
+        "Jason Lucas, Matt Murtagh, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee"
+      ],
+      "abstract": "arXiv:2604.05318v1 Announce Type: new \nAbstract: Harmful content detectors-particularly disinformation classifiers-are predominantly developed and evaluated on Standard American English (SAE), leaving their robustness to dialectal variation unexplored. We present DIA-HARM, the first benchmark for evaluating disinformation detection robustness across 50 English dialects spanning U.S., British, African, Caribbean, and Asia-Pacific varieties. Using Multi-VALUE's linguistically grounded transformations, we introduce D3 (Dialectal Disinformation Detection), a corpus of 195K samples derived from established disinformation benchmarks. Our evaluation of 16 detection models reveals systematic vulnerabilities: human-written dialectal content degrades detection by 1.4-3.6% F1, while AI-generated content remains stable. Fine-tuned transformers substantially outperform zero-shot LLMs (96.6% vs. 78.3% best-case F1), with some models exhibiting catastrophic failures exceeding 33% degradation on mixed content. Cross-dialectal transfer analysis across 2,450 dialect pairs shows that multilingual models (mDeBERTa: 97.2% average F1) generalize effectively, while monolingual models like RoBERTa and XLM-RoBERTa fail on dialectal inputs. These findings demonstrate that current disinformation detectors may systematically disadvantage hundreds of millions of non-SAE speakers worldwide. We release the DIA-HARM framework, D3 corpus, and evaluation tools: https://github.com/jsl5710/dia-harm",
+      "url": "https://arxiv.org/abs/2604.05318",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "dialectal",
+        "content",
+        "detection",
+        "disinformation",
+        "dia",
+        "dia harm",
+        "harm",
+        "models",
+        "english",
+        "f1"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in harmful content detection \u2013 the lack of robustness to dialectal variations. The creation of the D3 corpus and the DIA-HARM benchmark are significant contributions, and the observed performance disparities between human-written and AI-generated dialectal content are insightful. The systematic evaluation of multiple models and the clear performance metrics suggest a rigorous methodology, making this work highly relevant and likely to be well-received.",
+      "paper_id": "1d4e93c14b4dde36210e1a0e9f3cc200"
+    },
+    {
+      "title": "Measuring What Matters!! Assessing Therapeutic Principles in Mental-Health Conversation",
+      "authors": [
+        "Abdullah Mazhar, Het Riteshkumar Shah, Aseem Srivastava, Smriti Joshi, Md Shad Akhtar"
+      ],
+      "abstract": "arXiv:2604.05795v1 Announce Type: new \nAbstract: The increasing use of large language models in mental health applications calls for principled evaluation frameworks that assess alignment with psychotherapeutic best practices beyond surface-level fluency. While recent systems exhibit conversational competence, they lack structured mechanisms to evaluate adherence to core therapeutic principles. In this paper, we study the problem of evaluating AI-generated therapist-like responses for clinically grounded appropriateness and effectiveness. We assess each therapists utterance along six therapeutic principles: non-judgmental acceptance, warmth, respect for autonomy, active listening, reflective understanding, and situational appropriateness using a fine-grained ordinal scale. We introduce FAITH-M, a benchmark annotated with expert-assigned ordinal ratings, and propose CARE, a multi-stage evaluation framework that integrates intra-dialogue context, contrastive exemplar retrieval, and knowledge-distilled chain-of-thought reasoning. Experiments show that CARE achieves an F-1 score of 63.34 versus the strong baseline Qwen3 F-1 score of 38.56 which is a 64.26 improvement, which also serves as its backbone, indicating that gains arise from structured reasoning and contextual modeling rather than backbone capacity alone. Expert assessment and external dataset evaluations further demonstrate robustness under domain shift, while highlighting challenges in modelling implicit clinical nuance. Overall, CARE provides a clinically grounded framework for evaluating therapeutic fidelity in AI mental health systems.",
+      "url": "https://arxiv.org/abs/2604.05795",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "therapeutic",
+        "care",
+        "health",
+        "mental",
+        "mental health",
+        "principles",
+        "therapeutic principles",
+        "ai",
+        "appropriateness",
+        "assess"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the rapidly evolving field of LLMs for mental health \u2013 ensuring therapeutic alignment beyond superficial conversation. The introduction of FAITH-M and CARE represents a solid methodological contribution, and the focus on ordinal ratings for therapeutic principles is a nuanced approach. While the abstract doesn't detail the specifics of CARE beyond its multi-stage nature, the overall framing suggests a well-considered evaluation framework. The high significance stems from the ethical and practical implications of deploying AI in mental healthcare.",
+      "paper_id": "6ef254557f116207505aeaeb091250e6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-08T10:17:02.548358"
 }

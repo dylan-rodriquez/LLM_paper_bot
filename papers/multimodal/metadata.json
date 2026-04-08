@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models",
+      "authors": [
+        "Han Jang, Junhyeok Lee, Heeseong Eum, Kyu Sung Choi"
+      ],
+      "abstract": "arXiv:2604.05738v1 Announce Type: new \nAbstract: Medical Vision-Language Models (Med-VLMs) have achieved expert-level proficiency in interpreting diagnostic imaging. However, current models are predominantly trained on professional literature, limiting their ability to communicate findings in the lay register required for patient-centered care. While text-centric research has actively developed resources for simplifying medical jargon, there is a critical absence of large-scale multimodal benchmarks designed to facilitate lay-accessible medical image understanding. To bridge this resource gap, we introduce MedLayBench-V, the first large-scale multimodal benchmark dedicated to expert-lay semantic alignment. Unlike naive simplification approaches that risk hallucination, our dataset is constructed via a Structured Concept-Grounded Refinement (SCGR) pipeline. This method enforces strict semantic equivalence by integrating Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) with micro-level entity constraints. MedLayBench-V provides a verified foundation for training and evaluating next-generation Med-VLMs capable of bridging the communication divide between clinical experts and patients.",
+      "url": "https://arxiv.org/abs/2604.05738",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "lay",
+        "expert",
+        "language",
+        "large",
+        "large scale",
+        "medlaybench",
+        "models",
+        "scale",
+        "semantic"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in medical VLM research \u2013 the ability to communicate complex findings to patients in understandable language. The introduction of MedLayBench-V, a large-scale multimodal benchmark, is a significant contribution, and the SCGR pipeline for dataset construction appears robust and addresses the risk of hallucination. The problem is highly relevant to patient-centered care and the increasing use of AI in healthcare, suggesting a positive reception from the community.",
+      "paper_id": "5b2aaa3b01f3725fda3f27bf118c2212"
+    },
+    {
+      "title": "Efficient Inference for Large Vision-Language Models: Bottlenecks, Techniques, and Prospects",
+      "authors": [
+        "Jun Zhang, Yicheng Ji, Feiyang Ren, Yihang Li, Bowen Zeng, Zonghao Chen, Ke Chen, Lidan Shou, Gang Chen, Huan Li"
+      ],
+      "abstract": "arXiv:2604.05546v1 Announce Type: new \nAbstract: Large Vision-Language Models (LVLMs) enable sophisticated reasoning over images and videos, yet their inference is hindered by a systemic efficiency barrier known as visual token dominance. This overhead is driven by a multi-regime interplay between high-resolution feature extraction, quadratic attention scaling, and memory bandwidth constraints. We present a systematic taxonomy of efficiency techniques structured around the inference lifecycle, consisting of encoding, prefilling, and decoding. Unlike prior reviews focused on isolated optimizations, we analyze the end-to-end pipeline to reveal how upstream decisions dictate downstream bottlenecks, covering compute-bound visual encoding, the intensive prefilling of massive contexts, and the ''visual memory wall'' in bandwidth-bound decoding. By decoupling the efficiency landscape into the axes of shaping information density, managing long-context attention, and overcoming memory limits, this work provides a structured analysis of how isolated optimizations compose to navigate the trade-off between visual fidelity and system efficiency. The survey concludes by outlining four future frontiers supported by pilot empirical insights, including hybrid compression based on functional unit sensitivity, modality-aware decoding with relaxed verification, progressive state management for streaming continuity, and stage-disaggregated serving through hardware-algorithm co-design. The submitted software contains a snapshot of our literature repository, which is designed to be maintained as a living resource for the community.",
+      "url": "https://arxiv.org/abs/2604.05546",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "efficiency",
+        "visual",
+        "decoding",
+        "inference",
+        "memory",
+        "attention",
+        "bandwidth",
+        "bottlenecks",
+        "bound",
+        "encoding"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a crucial bottleneck in the deployment of LVLMs \u2013 inference efficiency. The systematic taxonomy of techniques, framed around the inference lifecycle, is a strong point, moving beyond isolated optimization studies. The identification of 'visual token dominance' and the 'visual memory wall' as key challenges is insightful, and the decoupling of the efficiency landscape into distinct axes provides a valuable framework for future research. The focus on end-to-end pipeline analysis is particularly commendable.",
+      "paper_id": "ddf136a2818042e4fa0486a518884167"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-08T10:17:02.549470"
 }

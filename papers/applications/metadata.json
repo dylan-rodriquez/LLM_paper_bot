@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "FrontierFinance: A Long-Horizon Computer-Use Benchmark of Real-World Financial Tasks",
+      "authors": [
+        "Michael Krumdick, Varshini Reddy, Shivani Chaudhary, William Day, Maarij Ahmed, Hayan Haqqi, Muhammad Ahsen Fahim, Hanzallah Amjad, Ahmad Orakzai, Aqsa Gul, Chris Tanner"
+      ],
+      "abstract": "arXiv:2604.05912v1 Announce Type: new \nAbstract: As concerns surrounding AI-driven labor displacement intensify in knowledge-intensive sectors, existing benchmarks fail to measure performance on tasks that define practical professional expertise. Finance, in particular, has been identified as a domain with high AI exposure risk, yet lacks robust benchmarks to track real-world developments. This gap is compounded by the absence of clear accountability mechanisms in current Large Language Model (LLM) deployments. To address this, we introduce FrontierFinance, a long-horizon benchmark of 25 complex financial modeling tasks across five core finance models, requiring an average of over 18 hours of skilled human labor per task to complete. Developed with financial professionals, the benchmark reflects industry-standard financial modeling workflows and is paired with detailed rubrics for structured evaluation. We engage human experts to define the tasks, create rubrics, grade LLMs, and perform the tasks themselves as human baselines. We demonstrate that our human experts both receive higher scores on average, and are more likely to provide client-ready outputs than current state-of-the-art systems.",
+      "url": "https://arxiv.org/abs/2604.05912",
+      "published_date": "2026-04-08T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "tasks",
+        "financial",
+        "human",
+        "benchmark",
+        "ai",
+        "average",
+        "benchmarks",
+        "current",
+        "define",
+        "experts"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial gap in AI evaluation \u2013 the lack of robust benchmarks for complex, real-world financial tasks. The development of FrontierFinance, with its long-horizon tasks and expert-defined rubrics, is a significant step towards more meaningful assessment of LLMs in a high-stakes domain. While the core idea of a benchmark isn't novel, the focus on *long-horizon* tasks requiring substantial skilled labor and the inclusion of financial professionals in the development process are strong points.",
+      "paper_id": "ca9265e1945aadae52108abb18f83cc1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-08T10:17:02.551363"
 }

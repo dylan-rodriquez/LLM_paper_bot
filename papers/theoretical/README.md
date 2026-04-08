@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### On the Geometry of Positional Encodings in Transformers
+
+**Score:** 90.0 | **Published:** 2026-04-08 | **Authors:** Giansalvo Cirrincione
+
+arXiv:2604.05217v1 Announce Type: cross 
+Abstract: Neural language models process sequences of words, but the mathematical operations inside them are insensitive to the order in which words appear. Po...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.05217) | [📝 Analysis](a240f3996753bba88b87d6a973c86a08.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-08 10:17:02 UTC*
