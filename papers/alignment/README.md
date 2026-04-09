@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Distributional Open-Ended Evaluation of LLM Cultural Value Alignment Based on Value Codebook
+
+**Score:** 92.0 | **Published:** 2026-04-09 | **Authors:** Jaehyeok Lee, Xiaoyuan Yi, Jing Yao, Hyunjin Hwang, Roy Ka-Wei Lee, Xing Xie, JinYeong Bak
+
+arXiv:2604.06210v1 Announce Type: new 
+Abstract: As LLMs are globally deployed, aligning their cultural value orientations is critical for safety and user engagement. However, existing benchmarks face...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06210) | [📝 Analysis](b08a44f6a675b0e91e4dd41b49aae302.md)
+
+---
+
+### To Lie or Not to Lie? Investigating The Biased Spread of Global Lies by LLMs
+
+**Score:** 92.0 | **Published:** 2026-04-09 | **Authors:** Zohaib Khan, Mustafa Dogan, Ifeoma Okoh, Pouya Sadeghi, Siddhartha Shrestha, Sergius Justus Nyah, Mahmoud O. Mokhiamar, Michael J. Ryan, Tarek Naous
+
+arXiv:2604.06552v1 Announce Type: new 
+Abstract: Misinformation is on the rise, and the strong writing capabilities of LLMs lower the barrier for malicious actors to produce and disseminate false info...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06552) | [📝 Analysis](40ab362792efeae2e406cbfd3f7b6da0.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-09 10:24:04 UTC*

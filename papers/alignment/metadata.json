@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Distributional Open-Ended Evaluation of LLM Cultural Value Alignment Based on Value Codebook",
+      "authors": [
+        "Jaehyeok Lee, Xiaoyuan Yi, Jing Yao, Hyunjin Hwang, Roy Ka-Wei Lee, Xing Xie, JinYeong Bak"
+      ],
+      "abstract": "arXiv:2604.06210v1 Announce Type: new \nAbstract: As LLMs are globally deployed, aligning their cultural value orientations is critical for safety and user engagement. However, existing benchmarks face the Construct-Composition-Context ($C^3$) challenge: relying on discriminative, multiple-choice formats that probe value knowledge rather than true orientations, overlook subcultural heterogeneity, and mismatch with real-world open-ended generation. We introduce DOVE, a distributional evaluation framework that directly compares human-written text distributions with LLM-generated outputs. DOVE utilizes a rate-distortion variational optimization objective to construct a compact value-codebook from 10K documents, mapping text into a structured value space to filter semantic noise. Alignment is measured using unbalanced optimal transport, capturing intra-cultural distributional structures and sub-group diversity. Experiments across 12 LLMs show that DOVE achieves superior predictive validity, attaining a 31.56% correlation with downstream tasks, while maintaining high reliability with as few as 500 samples per culture.",
+      "url": "https://arxiv.org/abs/2604.06210",
+      "published_date": "2026-04-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "value",
+        "cultural",
+        "distributional",
+        "dove",
+        "alignment",
+        "codebook",
+        "construct",
+        "cultural value",
+        "ended",
+        "evaluation"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 cultural value alignment \u2013 and proposes a novel evaluation framework (DOVE) that addresses limitations of existing benchmarks. The use of distributional evaluation with optimal transport and a value codebook is a sophisticated approach. While the technical details require further scrutiny upon full paper review, the abstract suggests a rigorous methodology and potential for significant impact.",
+      "paper_id": "b08a44f6a675b0e91e4dd41b49aae302"
+    },
+    {
+      "title": "To Lie or Not to Lie? Investigating The Biased Spread of Global Lies by LLMs",
+      "authors": [
+        "Zohaib Khan, Mustafa Dogan, Ifeoma Okoh, Pouya Sadeghi, Siddhartha Shrestha, Sergius Justus Nyah, Mahmoud O. Mokhiamar, Michael J. Ryan, Tarek Naous"
+      ],
+      "abstract": "arXiv:2604.06552v1 Announce Type: new \nAbstract: Misinformation is on the rise, and the strong writing capabilities of LLMs lower the barrier for malicious actors to produce and disseminate false information. We study how LLMs behave when prompted to spread misinformation across languages and target countries, and introduce GlobalLies, a multilingual parallel dataset of 440 misinformation generation prompt templates and 6,867 entities, spanning 8 languages and 195 countries. Using both human annotations and large-scale LLM-as-a-judge evaluations across hundreds of thousands of generations from state-of-the-art models, we show that misinformation generation varies systematically based on the country being discussed. Propagation of lies by LLMs is substantially higher in many lower-resource languages and for countries with a lower Human Development Index (HDI). We find that existing mitigation strategies provide uneven protection: input safety classifiers exhibit cross-lingual gaps, and retrieval-augmented fact-checking remains inconsistent across regions due to unequal information availability. We release GlobalLies for research purposes, aiming to support the development of mitigation strategies to reduce the spread of global misinformation: https://github.com/zohaib-khan5040/globallies",
+      "url": "https://arxiv.org/abs/2604.06552",
+      "published_date": "2026-04-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "misinformation",
+        "llms",
+        "countries",
+        "globallies",
+        "languages",
+        "lower",
+        "spread",
+        "development",
+        "generation",
+        "global"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a highly relevant and pressing issue \u2013 the potential for LLMs to spread misinformation globally. The creation of the GlobalLies dataset is a significant contribution, and the systematic investigation across languages and HDI levels provides valuable insights. The finding that mitigation strategies are unevenly effective is particularly important, suggesting a need for more robust and equitable solutions. The use of LLM-as-a-judge is a modern and efficient evaluation technique.",
+      "paper_id": "40ab362792efeae2e406cbfd3f7b6da0"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-09T10:24:04.545223"
 }

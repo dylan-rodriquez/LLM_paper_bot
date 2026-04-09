@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "The Illusion of Stochasticity in LLMs",
+      "authors": [
+        "Xiangming Gu, Soham De, Michalis Titsias, Larisa Markeeva, Petar Veli\\v{c}kovi\\'c, Razvan Pascanu"
+      ],
+      "abstract": "arXiv:2604.06543v1 Announce Type: new \nAbstract: In this work, we demonstrate that reliable stochastic sampling is a fundamental yet unfulfilled requirement for Large Language Models (LLMs) operating as agents. Agentic systems are frequently required to sample from distributions, often inferred from observed data, a process which needs to be emulated by the LLM. This leads to a distinct failure point: while standard RL agents rely on external sampling mechanisms, LLMs fail to map their internal probability estimates to their stochastic outputs. Through rigorous empirical analysis across multiple model families, model sizes, prompting styles, and distributions, we demonstrate the extent of this failure. Crucially, we show that while powerful frontier models can convert provided random seeds to target distributions, their ability to sample directly from specific distributions is fundamentally flawed.",
+      "url": "https://arxiv.org/abs/2604.06543",
+      "published_date": "2026-04-09T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "distributions",
+        "llms",
+        "agents",
+        "demonstrate",
+        "failure",
+        "model",
+        "models",
+        "sample",
+        "sampling",
+        "stochastic"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial issue for LLM agents \u2013 the ability to reliably sample from distributions. The finding that LLMs struggle with intrinsic stochasticity despite excelling at seed-based sampling is significant and well-articulated. The empirical rigor across multiple models and prompting styles strengthens the claims, suggesting a fundamental limitation in current LLM architectures when used as agents. The potential impact on agent reliability and performance is substantial.",
+      "paper_id": "629ba91ff63062ba9ae004f8df6d5cea"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-04-09T10:24:04.547388"
 }

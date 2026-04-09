@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### The Illusion of Stochasticity in LLMs
+
+**Score:** 92.0 | **Published:** 2026-04-09 | **Authors:** Xiangming Gu, Soham De, Michalis Titsias, Larisa Markeeva, Petar Veli\v{c}kovi\'c, Razvan Pascanu
+
+arXiv:2604.06543v1 Announce Type: new 
+Abstract: In this work, we demonstrate that reliable stochastic sampling is a fundamental yet unfulfilled requirement for Large Language Models (LLMs) operating ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06543) | [📝 Analysis](629ba91ff63062ba9ae004f8df6d5cea.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-09 10:24:04 UTC*
