@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Blending Human and LLM Expertise to Detect Hallucinations and Omissions in Mental Health Chatbot Responses
+
+**Score:** 92.0 | **Published:** 2026-04-09 | **Authors:** Khizar Hussain, Bradley A. Malin, Zhijun Yin, Susannah Leigh Rose, Murat Kantarcioglu
+
+arXiv:2604.06216v1 Announce Type: new 
+Abstract: As LLM-powered chatbots are increasingly deployed in mental health services, detecting hallucinations and omissions has become critical for user safety...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06216) | [📝 Analysis](fa6e80e6e3746aec0a0a976e237b69a6.md)
+
+---
+
+### The AI Skills Shift: Mapping Skill Obsolescence, Emergence, and Transition Pathways in the LLM Era
+
+**Score:** 92.0 | **Published:** 2026-04-09 | **Authors:** Rudra Jadhav, Janhavi Danve
+
+arXiv:2604.06906v1 Announce Type: new 
+Abstract: As Large Language Models reshape the global labor market, policymakers and workers need empirical data on which occupational skills may be most suscept...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06906) | [📝 Analysis](bce67368d971b0f108b303cdf5e9ac82.md)
+
+---
+
+### Self-Preference Bias in Rubric-Based Evaluation of Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-09 | **Authors:** Jos\'e Pombal, Ricardo Rei, Andr\'e F. T. Martins
+
+arXiv:2604.06996v1 Announce Type: new 
+Abstract: LLM-as-a-judge has become the de facto approach for evaluating LLM outputs. However, judges are known to exhibit self-preference bias (SPB): they tend ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.06996) | [📝 Analysis](5d4049880f0e0ff3430b108f14070e7c.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-09 10:24:04 UTC*
