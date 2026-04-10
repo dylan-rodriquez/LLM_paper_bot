@@ -2,7 +2,29 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### ClawBench: Can AI Agents Complete Everyday Online Tasks?
+
+**Score:** 92.0 | **Published:** 2026-04-10 | **Authors:** Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Wendong Xu, Yunzhuo Hao, Songcheng Cai, Xiaochen Wang, Huaisong Zhang, Xian Wu, Yi Lu, Minyi Lei, Kai Zou, Huifeng Yin, Ping Nie, Liang Chen, Dongfu Jiang, Wenhu Chen, Kelsey R. Allen
+
+arXiv:2604.08523v1 Announce Type: new 
+Abstract: AI agents may be able to automate your inbox, but can they automate other routine aspects of your life? Everyday online tasks offer a realistic yet uns...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08523) | [📝 Analysis](00703bf2efe5af51d06a71264cd0e035.md)
+
+---
+
+### Dual-Pool Token-Budget Routing for Cost-Efficient and Reliable LLM Serving
+
+**Score:** 90.0 | **Published:** 2026-04-10 | **Authors:** Xunzhuo Liu, Bowei He, Xue Liu, Andy Luo, Haichen Zhang, Huamin Chen
+
+arXiv:2604.08075v1 Announce Type: new 
+Abstract: Production vLLM fleets typically provision each instance for the worst-case context length, leading to substantial KV-cache over-allocation and under-u...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08075) | [📝 Analysis](e2e475b469333ba336ffa85c56dd4f60.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +170,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-10 10:22:45 UTC*

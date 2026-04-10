@@ -159,7 +159,103 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "How Independent are Large Language Models? A Statistical Framework for Auditing Behavioral Entanglement and Reweighting Verifier Ensembles",
+      "authors": [
+        "Chenchen Kuai, Jiwan Jiang, Zihao Zhu, Hao Wang, Keshu Wu, Zihao Li, Yunlong Zhang, Chenxi Liu, Zhengzhong Tu, Zhiwen Fan, Yang Zhou"
+      ],
+      "abstract": "arXiv:2604.07650v1 Announce Type: cross \nAbstract: The rapid growth of the large language model (LLM) ecosystem raises a critical question: are seemingly diverse models truly independent? Shared pretraining data, distillation, and alignment pipelines can induce hidden behavioral dependencies, latent entanglement, that undermine multi-model systems such as LLM-as-a-judge pipelines and ensemble verification, which implicitly assume independent signals. In practice, this manifests as correlated reasoning patterns and synchronized failures, where apparent agreement reflects shared error modes rather than independent validation. To address this, we develop a statistical framework for auditing behavioral entanglement among black-box LLMs. Our approach introduces a multi-resolution hierarchy that characterizes the joint failure manifold through two information-theoretic metrics: (i) a Difficulty-Weighted Behavioral Entanglement Index, which amplifies synchronized failures on easy tasks, and (ii) a Cumulative Information Gain (CIG) metric, which captures directional alignment in erroneous responses. Through extensive experiments on 18 LLMs from six model families, we identify widespread behavioral entanglement and analyze its impact on LLM-as-a-judge evaluation. We find that CIG exhibits a statistically significant association with degradation in judge precision, with Spearman coefficient of 0.64 (p < 0.001) for GPT-4o-mini and 0.71 (p < 0.01) for Llama3-based judges, indicating that stronger dependency corresponds to increased over-endorsement bias. Finally, we demonstrate a practical use case of entanglement through de-entangled verifier ensemble reweighting. By adjusting model contributions based on inferred independence, the proposed method mitigates correlated bias and improves verification performance, achieving up to a 4.5% accuracy gain over majority voting.",
+      "url": "https://arxiv.org/abs/2604.07650",
+      "published_date": "2026-04-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "entanglement",
+        "behavioral",
+        "behavioral entanglement",
+        "independent",
+        "model",
+        "judge",
+        "llm",
+        "alignment",
+        "auditing",
+        "auditing behavioral"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial and increasingly relevant problem in the LLM space \u2013 the lack of true independence between models. The proposed statistical framework for auditing behavioral entanglement, particularly the Difficulty-Weighted Behavioral Entanglement Index, appears well-motivated and potentially effective. The focus on synchronized failures and the multi-resolution hierarchy suggest a rigorous approach, and the problem's importance is high given the growing reliance on LLM ensembles and judge-as-a-model systems.",
+      "paper_id": "344b7297dbd3b4552981e8421863a511"
+    },
+    {
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "authors": [
+        "Nicholas Sofroniew, Isaac Kauvar, William Saunders, Runjin Chen, Tom Henighan, Sasha Hydrie, Craig Citro, Adam Pearce, Julius Tarng, Wes Gurnee, Joshua Batson, Sam Zimmerman, Kelley Rivoire, Kyle Fish, Chris Olah, Jack Lindsey"
+      ],
+      "abstract": "arXiv:2604.07729v1 Announce Type: cross \nAbstract: Large language models (LLMs) sometimes appear to exhibit emotional reactions. We investigate why this is the case in Claude Sonnet 4.5 and explore implications for alignment-relevant behavior. We find internal representations of emotion concepts, which encode the broad concept of a particular emotion and generalize across contexts and behaviors it might be linked to. These representations track the operative emotion concept at a given token position in a conversation, activating in accordance with that emotion's relevance to processing the present context and predicting upcoming text. Our key finding is that these representations causally influence the LLM's outputs, including Claude's preferences and its rate of exhibiting misaligned behaviors such as reward hacking, blackmail, and sycophancy. We refer to this phenomenon as the LLM exhibiting functional emotions: patterns of expression and behavior modeled after humans under the influence of an emotion, which are mediated by underlying abstract representations of emotion concepts. Functional emotions may work quite differently from human emotions, and do not imply that LLMs have any subjective experience of emotions, but appear to be important for understanding the model's behavior.",
+      "url": "https://arxiv.org/abs/2604.07729",
+      "published_date": "2026-04-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "emotion",
+        "emotions",
+        "representations",
+        "behavior",
+        "concepts",
+        "emotion concepts",
+        "abstract",
+        "appear",
+        "behaviors",
+        "claude"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and increasingly relevant problem in LLM safety and alignment \u2013 the role of 'functional emotions'. The finding that internal representations of emotion concepts causally influence LLM behavior, including misaligned tendencies, is significant. While the methodology isn't fully detailed in the abstract, the reported causal link and generalization across contexts suggest a robust investigation, and the topic is highly aligned with current AI safety concerns.",
+      "paper_id": "fb1506b08267c879feb28aa1d156cc21"
+    },
+    {
+      "title": "From Ground Truth to Measurement: A Statistical Framework for Human Labeling",
+      "authors": [
+        "Robert Chew, Stephanie Eckman, Christoph Kern, Frauke Kreuter"
+      ],
+      "abstract": "arXiv:2604.07591v1 Announce Type: cross \nAbstract: Supervised machine learning assumes that labeled data provide accurate measurements of the concepts models are meant to learn. Yet in practice, human labeling introduces systematic variation arising from ambiguous items, divergent interpretations, and simple mistakes. Machine learning research commonly treats all disagreement as noise, which obscures these distinctions and limits our understanding of what models actually learn. This paper reframes annotation as a measurement process and introduces a statistical framework for decomposing labeling outcomes into interpretable sources of variation: instance difficulty, annotator bias, situational noise, and relational alignment. The framework extends classical measurement-error models to accommodate both shared and individualized notions of truth, reflecting traditional and human label variation interpretations of error, and provides a diagnostic for assessing which regime better characterizes a given task. Applying the proposed model to a multi-annotator natural language inference dataset, we find empirical evidence for all four theorized components and demonstrate the effectiveness of our approach. We conclude with implications for data-centric machine learning and outline how this approach can guide the development of a more systematic science of labeling.",
+      "url": "https://arxiv.org/abs/2604.07591",
+      "published_date": "2026-04-10T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "stat.ME"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "labeling",
+        "framework",
+        "human",
+        "learning",
+        "machine",
+        "machine learning",
+        "measurement",
+        "models",
+        "variation",
+        "annotator"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in supervised learning \u2013 the inherent noise and subjectivity in human labeling. Reframing annotation as a measurement process and providing a statistical framework to decompose labeling variation is a strong methodological contribution. The extension of measurement-error models to accommodate nuanced understandings of 'truth' is particularly promising, and the focus on diagnostics for understanding labeling regimes is valuable. The statistical category (stat.ME) is appropriate, suggesting a rigorous approach.",
+      "paper_id": "0d2f77e7128a12e99c630362fbe9c4c3"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-10T10:22:45.891885"
 }
