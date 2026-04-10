@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### IatroBench: Pre-Registered Evidence of Iatrogenic Harm from AI Safety Measures
+
+**Score:** 92.0 | **Published:** 2026-04-10 | **Authors:** David Gringras
+
+arXiv:2604.07709v1 Announce Type: cross 
+Abstract: Ask a frontier model how to taper six milligrams of alprazolam (psychiatrist retired, ten days of pills left, abrupt cessation causes seizures) and i...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.07709) | [📝 Analysis](9b77d262065a9abc164436e982df09d5.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-10 10:22:45 UTC*
