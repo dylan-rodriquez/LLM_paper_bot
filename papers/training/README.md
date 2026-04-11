@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Large Language Model Post-Training: A Unified View of Off-Policy and On-Policy Learning
+
+**Score:** 92.0 | **Published:** 2026-04-11 | **Authors:** Shiwan Zhao, Zhihu Wang, Xuyang Zhao, Jiaming Zhou, Caiyue Xu, Chenfei Liu, Liting Zhang, Yuhang Jia, Yanzhe Zhang, Hualong Yu, Zichen Xu, Qicheng Li, Yong Qin
+
+arXiv:2604.07941v1 Announce Type: new 
+Abstract: Post-training has become central to turning pretrained large language models (LLMs) into aligned and deployable systems. Recent progress spans supervis...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.07941) | [📝 Analysis](610014787f353dfec3c4e8cad13ab12e.md)
+
+---
+
+### The Art of (Mis)alignment: How Fine-Tuning Methods Effectively Misalign and Realign LLMs in Post-Training
+
+**Score:** 92.0 | **Published:** 2026-04-11 | **Authors:** Rui Zhang, Hongwei Li, Yun Shen, Xinyue Shen, Wenbo Jiang, Guowen Xu, Yang Liu, Michael Backes, Yang Zhang
+
+arXiv:2604.07754v1 Announce Type: cross 
+Abstract: The deployment of large language models (LLMs) raises significant ethical and safety concerns. While LLM alignment techniques are adopted to improve ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.07754) | [📝 Analysis](6cb7e6aad845b50839426f303be3d7f4.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-11 09:52:53 UTC*

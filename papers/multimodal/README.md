@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### AfriVoices-KE: A Multilingual Speech Dataset for Kenyan Languages
+
+**Score:** 92.0 | **Published:** 2026-04-11 | **Authors:** Lilian Wanzare, Cynthia Amol, zekiel Maina, Nelson Odhiambo, Hope Kerubo, Leila Misula, Vivian Oloo, Rennish Mboya, Edwin Onkoba, Edward Ombui, Joseph Muguro, Ciira wa Maina, Andrew Kipkebut, Alfred Omondi Otom, Ian Ndung'u Kang'ethe, Angela Wambui Kanyi, Brian Gichana Omwenga
+
+arXiv:2604.08448v1 Announce Type: new 
+Abstract: AfriVoices-KE is a large-scale multilingual speech dataset comprising approximately 3,000 hours of audio across five Kenyan languages: Dholuo, Kikuyu, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08448) | [📝 Analysis](1a02626060e62f6fa13e933ccd16e80a.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-11 09:52:53 UTC*
