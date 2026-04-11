@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "AfriVoices-KE: A Multilingual Speech Dataset for Kenyan Languages",
+      "authors": [
+        "Lilian Wanzare, Cynthia Amol, zekiel Maina, Nelson Odhiambo, Hope Kerubo, Leila Misula, Vivian Oloo, Rennish Mboya, Edwin Onkoba, Edward Ombui, Joseph Muguro, Ciira wa Maina, Andrew Kipkebut, Alfred Omondi Otom, Ian Ndung'u Kang'ethe, Angela Wambui Kanyi, Brian Gichana Omwenga"
+      ],
+      "abstract": "arXiv:2604.08448v1 Announce Type: new \nAbstract: AfriVoices-KE is a large-scale multilingual speech dataset comprising approximately 3,000 hours of audio across five Kenyan languages: Dholuo, Kikuyu, Kalenjin, Maasai, and Somali. The dataset includes 750 hours of scripted speech and 2,250 hours of spontaneous speech, collected from 4,777 native speakers across diverse regions and demographics. This work addresses the critical underrepresentation of African languages in speech technology by providing a high-quality, linguistically diverse resource. Data collection followed a dual methodology: scripted recordings drew from compiled text corpora, translations, and domain-specific generated sentences spanning eleven domains relevant to the Kenyan context, while unscripted speech was elicited through textual and image prompts to capture natural linguistic variation and dialectal nuances. A customized mobile application enabled contributors to record using smartphones. Quality assurance operated at multiple layers, encompassing automated signal-to-noise ratio validation prior to recording and human review for content accuracy. Though the project encountered challenges common to low-resource settings, including unreliable infrastructure, device compatibility issues, and community trust barriers, these were mitigated through local mobilizers, stakeholder partnerships, and adaptive training protocols. AfriVoices-KE provides a foundational resource for developing inclusive automatic speech recognition and text-to-speech systems, while advancing the digital preservation of Kenya's linguistic heritage.",
+      "url": "https://arxiv.org/abs/2604.08448",
+      "published_date": "2026-04-11T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "speech",
+        "afrivoices",
+        "afrivoices ke",
+        "dataset",
+        "hours",
+        "ke",
+        "kenyan",
+        "languages",
+        "resource",
+        "diverse"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in speech technology \u2013 the severe underrepresentation of African languages. The large scale (3000 hours) and inclusion of both scripted and spontaneous speech, collected from a diverse population, demonstrate a rigorous data collection process. While the methodology itself isn't groundbreaking, the sheer size and linguistic diversity of the dataset are significant, and the use of a mobile app for data collection is practical. The community will likely receive this dataset very positively given the need for more resources in this area.",
+      "paper_id": "1a02626060e62f6fa13e933ccd16e80a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-11T09:52:53.341961"
 }
