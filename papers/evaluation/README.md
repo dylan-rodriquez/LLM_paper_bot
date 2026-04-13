@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Medical Reasoning with Large Language Models: A Survey and MR-Bench
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Xiaohan Ren, Chenxiao Fan, Wenyin Ma, Hongliang He, Chongming Gao, Xiaoyan Zhao, Fuli Feng
+
+arXiv:2604.08559v1 Announce Type: new 
+Abstract: Large language models (LLMs) have achieved strong performance on medical exam-style tasks, motivating growing interest in their deployment in real-worl...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08559) | [📝 Analysis](a8ffd9e7c9cf47d0a1c633bac2f35b94.md)
+
+---
+
+### MedConceal: A Benchmark for Clinical Hidden-Concern Reasoning Under Partial Observability
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Yikun Han, Joey Chan, Jingyuan Chen, Mengting Ai, Simo Du, Yue Guo
+
+arXiv:2604.08788v1 Announce Type: new 
+Abstract: Patient-clinician communication is an asymmetric-information problem: patients often do not disclose fears, misconceptions, or practical barriers unles...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08788) | [📝 Analysis](cff7f59e63903bb94c8658d83d8e9f57.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*

@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### Drift and selection in LLM text ecosystems
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** S{\o}ren Riis
+
+arXiv:2604.08554v1 Announce Type: new 
+Abstract: The public text record -- the material from which both people and AI systems now learn -- is increasingly shaped by its own outputs. Generated text ent...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08554) | [📝 Analysis](f77b20adf5b850ff3411dd76a6dede2a.md)
+
+---
+
+### Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Hadas Orgad, Boyi Wei, Kaden Zheng, Martin Wattenberg, Peter Henderson, Seraphina Goldfarb-Tarrant, Yonatan Belinkov
+
+arXiv:2604.09544v1 Announce Type: new 
+Abstract: Large language models (LLMs) undergo alignment training to avoid harmful behaviors, yet the resulting safeguards remain brittle: jailbreaks routinely b...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.09544) | [📝 Analysis](2443204ccb81503cadcfb203b8ad016d.md)
+
+---
+
+### Beyond Relevance: Utility-Centric Retrieval in the LLM Era
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Hengran Zhang, Minghao Tang, Keping Bi, Jiafeng Guo
+
+arXiv:2604.08920v1 Announce Type: cross 
+Abstract: Information retrieval systems have traditionally optimized for topical relevance-the degree to which retrieved documents match a query. However, rele...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08920) | [📝 Analysis](11602aeafa13ecafeef650d1c02343d7.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*

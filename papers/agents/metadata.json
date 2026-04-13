@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Multi-User Large Language Model Agents",
+      "authors": [
+        "Shu Yang, Shenzhe Zhu, Hao Zhu, Jos\\'e Ram\\'on Enr\\'iquez, Di Wang, Alex Pentland, Michiel A. Bakker, Jiaxin Pei"
+      ],
+      "abstract": "arXiv:2604.08567v1 Announce Type: new \nAbstract: Large language models (LLMs) and LLM-based agents are increasingly deployed as assistants in planning and decision making, yet most existing systems are implicitly optimized for a single-principal interaction paradigm, in which the model is designed to satisfy the objectives of one dominant user whose instructions are treated as the sole source of authority and utility. However, as they are integrated into team workflows and organizational tools, they are increasingly required to serve multiple users simultaneously, each with distinct roles, preferences, and authority levels, leading to multi-user, multi-principal settings with unavoidable conflicts, information asymmetry, and privacy constraints. In this work, we present the first systematic study of multi-user LLM agents. We begin by formalizing multi-user interaction with LLM agents as a multi-principal decision problem, where a single agent must account for multiple users with potentially conflicting interests and associated challenges. We then introduce a unified multi-user interaction protocol and design three targeted stress-testing scenarios to evaluate current LLMs' capabilities in instruction following, privacy preservation, and coordination. Our results reveal systematic gaps: frontier LLMs frequently fail to maintain stable prioritization under conflicting user objectives, exhibit increasing privacy violations over multi-turn interactions, and suffer from efficiency bottlenecks when coordination requires iterative information gathering.",
+      "url": "https://arxiv.org/abs/2604.08567",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "multi",
+        "user",
+        "multi user",
+        "agents",
+        "interaction",
+        "llm",
+        "llms",
+        "principal",
+        "privacy",
+        "authority"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a very important and increasingly relevant problem: how to manage LLM agents in multi-user scenarios. The formalization of multi-user interaction as a multi-principal decision problem is a strong methodological step. While the abstract doesn't detail *how* they address the conflicts and constraints, the problem itself is highly significant and the initial framing suggests a rigorous approach.",
+      "paper_id": "5662f98e243d305741a853038b729562"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-04-13T10:50:59.941551"
 }

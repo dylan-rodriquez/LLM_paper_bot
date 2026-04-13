@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Multi-User Large Language Model Agents
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Shu Yang, Shenzhe Zhu, Hao Zhu, Jos\'e Ram\'on Enr\'iquez, Di Wang, Alex Pentland, Michiel A. Bakker, Jiaxin Pei
+
+arXiv:2604.08567v1 Announce Type: new 
+Abstract: Large language models (LLMs) and LLM-based agents are increasingly deployed as assistants in planning and decision making, yet most existing systems ar...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08567) | [📝 Analysis](5662f98e243d305741a853038b729562.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*
