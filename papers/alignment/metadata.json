@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models",
+      "authors": [
+        "Arth Singh"
+      ],
+      "abstract": "arXiv:2604.08557v1 Announce Type: new \nAbstract: Diffusion-based language models (dLLMs) generate text by iteratively denoising masked token sequences. We show that their safety alignment rests on a single fragile assumption: that the denoising schedule is monotonic and committed tokens are never re-evaluated. Safety-aligned dLLMs commit refusal tokens within the first 8-16 of 64 denoising steps, and the schedule treats these commitments as permanent. A trivial two-step intervention - re-masking these tokens and injecting a 12-token affirmative prefix - achieves 76.1% ASR on HarmBench (n=159, Lg=128) against LLaDA-8B-Instruct and 81.8% ASR (n=159) against Dream-7B-Instruct, without any gradient computation or adversarial search. The simplicity of this exploit is itself the central finding: augmenting with gradient-optimized perturbation via a differentiable Gumbel-softmax chain consistently degrades ASR (e.g., 41.5% vs. 76.1% at Lg=128), confirming that the vulnerability is structural rather than requiring sophisticated exploitation. These findings reveal that dLLM safety is not adversarially robust but architecturally shallow - it holds only because the denoising schedule is never violated. We discuss defenses including safety-aware unmasking schedules, step-conditional prefix detection, and post-commitment re-verification.",
+      "url": "https://arxiv.org/abs/2604.08557",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "denoising",
+        "safety",
+        "asr",
+        "schedule",
+        "tokens",
+        "128",
+        "159",
+        "76",
+        "denoising schedule",
+        "diffusion"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper identifies a critical vulnerability in diffusion language models related to their safety alignment, demonstrating a surprisingly simple exploit. The finding that re-masking and a small affirmative prefix can bypass safety mechanisms is significant, and the observation that more complex gradient-based attacks *reduce* effectiveness suggests a structural flaw rather than a simple optimization issue. The clarity of the abstract and the reported results are strong, indicating a well-executed study.",
+      "paper_id": "ecf45f7cc08b4372fdc5baf21e60efc4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-13T10:50:59.939652"
 }

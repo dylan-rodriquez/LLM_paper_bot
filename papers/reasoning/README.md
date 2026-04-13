@@ -2,7 +2,51 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (17 total)
+
+### MT-OSC: Path for LLMs that Get Lost in Multi-Turn Conversation
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Jyotika Singh, Fang Tu, Miguel Ballesteros, Weiyi Sun, Sandip Ghoshal, Michelle Yuan, Yassine Benajiba, Sujith Ravi, Dan Roth
+
+arXiv:2604.08782v1 Announce Type: new 
+Abstract: Large language models (LLMs) suffer significant performance degradation when user instructions and context are distributed over multiple conversational...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08782) | [📝 Analysis](6413f4f83ef6a1db9fbd64c25faaa3d2.md)
+
+---
+
+### Scalable High-Recall Constraint-Satisfaction-Based Information Retrieval for Clinical Trials Matching
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Cyrus Zhou, Yufei Jin, Yilin Xu, Yu-Chiang Wang, Chieh-Ju Chao, Monica S. Lam
+
+arXiv:2604.08849v1 Announce Type: new 
+Abstract: Clinical trials are central to evidence-based medicine, yet many struggle to meet enrollment targets, despite the availability of over half a million t...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08849) | [📝 Analysis](abe2616a16dfd73b8639aa52330e63e6.md)
+
+---
+
+### From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Chenchen Zhang
+
+arXiv:2604.09459v1 Announce Type: new 
+Abstract: Reinforcement learning (RL) for large language models (LLMs) increasingly relies on sparse, outcome-level rewards -- yet determining which actions with...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.09459) | [📝 Analysis](63a3b4d1bf387415f4496c9e04376fc1.md)
+
+---
+
+### Many Ways to Be Fake: Benchmarking Fake News Detection Under Strategy-Driven AI Generation
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Xinyu Wang, Sai Koneru, Wenbo Zhang, Wenliang Zheng, Saksham Ranjan, Sarah Rajtmajer
+
+arXiv:2604.09514v1 Announce Type: new 
+Abstract: Recent advances in large language models (LLMs) have enabled the large-scale generation of highly fluent and deceptive news-like content. While prior w...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.09514) | [📝 Analysis](b6aee4f2463d780b491410e8856d2db1.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +192,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*

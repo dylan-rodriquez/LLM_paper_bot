@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Do LLMs Follow Their Own Rules? A Reflexive Audit of Self-Stated Safety Policies",
+      "authors": [
+        "Avni Mittal"
+      ],
+      "abstract": "arXiv:2604.09189v1 Announce Type: new \nAbstract: LLMs internalize safety policies through RLHF, yet these policies are never formally specified and remain difficult to inspect. Existing benchmarks evaluate models against external standards but do not measure whether models understand and enforce their own stated boundaries. We introduce the Symbolic-Neural Consistency Audit (SNCA), a framework that (1) extracts a model's self-stated safety rules via structured prompts, (2) formalizes them as typed predicates (Absolute, Conditional, Adaptive), and (3) measures behavioral compliance via deterministic comparison against harm benchmarks. Evaluating four frontier models across 45 harm categories and 47,496 observations reveals systematic gaps between stated policy and observed behavior: models claiming absolute refusal frequently comply with harmful prompts, reasoning models achieve the highest self-consistency but fail to articulate policies for 29% of categories, and cross-model agreement on rule types is remarkably low (11%). These results demonstrate that the gap between what LLMs say and what they do is measurable and architecture-dependent, motivating reflexive consistency audits as a complement to behavioral benchmarks.",
+      "url": "https://arxiv.org/abs/2604.09189",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "policies",
+        "stated",
+        "benchmarks",
+        "consistency",
+        "llms",
+        "safety",
+        "self",
+        "absolute",
+        "audit"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper tackles a crucial and timely problem in LLM safety \u2013 the disconnect between stated policies and actual behavior. The 'Symbolic-Neural Consistency Audit' (SNCA) framework is a clever approach to formalizing and testing these policies, and the initial results revealing systematic gaps are significant. The methodology appears rigorous, and the clarity of the abstract suggests a well-written paper, though a full review would be needed to confirm.",
+      "paper_id": "d79ae26062a8cae684ba9eba95bf1e46"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-13T10:50:59.943715"
 }

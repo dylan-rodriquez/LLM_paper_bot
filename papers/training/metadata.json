@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Drift and selection in LLM text ecosystems",
+      "authors": [
+        "S{\\o}ren Riis"
+      ],
+      "abstract": "arXiv:2604.08554v1 Announce Type: new \nAbstract: The public text record -- the material from which both people and AI systems now learn -- is increasingly shaped by its own outputs. Generated text enters the public record, later agents learn from it, and the cycle repeats. Here we develop an exactly solvable mathematical framework for this recursive process, based on variable-order $n$-gram agents, and separate two forces acting on the public corpus. The first is drift: unfiltered reuse progressively removes rare forms, and in the infinite-corpus limit we characterise the stable distributions exactly. The second is selection: publication, ranking and verification filter what enters the record, and the outcome depends on what is selected. When publication merely reflects the statistical status quo, the corpus converges to a shallow state in which further lookahead brings no benefit. When publication is normative -- rewarding quality, correctness or novelty -- deeper structure persists, and we establish an optimal upper bound on the resulting divergence from shallow equilibria. The framework therefore identifies when recursive publication compresses public text and when selective filtering sustains richer structure, with implications for the design of AI training corpora.",
+      "url": "https://arxiv.org/abs/2604.08554",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "public",
+        "publication",
+        "text",
+        "corpus",
+        "record",
+        "agents",
+        "ai",
+        "drift",
+        "enters",
+        "exactly"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and increasingly relevant problem \u2013 the self-reinforcing loop of LLM-generated content shaping future training data. The development of an 'exactly solvable mathematical framework' suggests a rigorous approach, and the separation of 'drift' and 'selection' provides a valuable analytical lens. The potential for understanding and mitigating biases and stagnation in LLM ecosystems is significant, making this work highly promising.",
+      "paper_id": "f77b20adf5b850ff3411dd76a6dede2a"
+    },
+    {
+      "title": "Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism",
+      "authors": [
+        "Hadas Orgad, Boyi Wei, Kaden Zheng, Martin Wattenberg, Peter Henderson, Seraphina Goldfarb-Tarrant, Yonatan Belinkov"
+      ],
+      "abstract": "arXiv:2604.09544v1 Announce Type: new \nAbstract: Large language models (LLMs) undergo alignment training to avoid harmful behaviors, yet the resulting safeguards remain brittle: jailbreaks routinely bypass them, and fine-tuning on narrow domains can induce ``emergent misalignment'' that generalizes broadly. Whether this brittleness reflects a fundamental lack of coherent internal organization for harmfulness remains unclear. Here we use targeted weight pruning as a causal intervention to probe the internal organization of harmfulness in LLMs. We find that harmful content generation depends on a compact set of weights that are general across harm types and distinct from benign capabilities. Aligned models exhibit a greater compression of harm generation weights than unaligned counterparts, indicating that alignment reshapes harmful representations internally--despite the brittleness of safety guardrails at the surface level. This compression explains emergent misalignment: if weights of harmful capabilities are compressed, fine-tuning that engages these weights in one domain can trigger broad misalignment. Consistent with this, pruning harm generation weights in a narrow domain substantially reduces emergent misalignment. Notably, LLMs harmful generation capability is dissociated from how they recognize and explain such content. Together, these results reveal a coherent internal structure for harmfulness in LLMs that may serve as a foundation for more principled approaches to safety.",
+      "url": "https://arxiv.org/abs/2604.09544",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "harmful",
+        "weights",
+        "generation",
+        "llms",
+        "misalignment",
+        "content",
+        "emergent",
+        "emergent misalignment",
+        "harm",
+        "harmfulness"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a crucial problem in LLM safety \u2013 the brittleness of alignment \u2013 with a novel methodology (targeted weight pruning). The finding that harmfulness resides in a compact, distinct set of weights, and that alignment *internally* reshapes these representations, is significant. The potential to understand and address emergent misalignment through this lens is highly promising, suggesting a path beyond superficial safety guardrails.",
+      "paper_id": "2443204ccb81503cadcfb203b8ad016d"
+    },
+    {
+      "title": "Beyond Relevance: Utility-Centric Retrieval in the LLM Era",
+      "authors": [
+        "Hengran Zhang, Minghao Tang, Keping Bi, Jiafeng Guo"
+      ],
+      "abstract": "arXiv:2604.08920v1 Announce Type: cross \nAbstract: Information retrieval systems have traditionally optimized for topical relevance-the degree to which retrieved documents match a query. However, relevance only approximates a deeper goal: utility, namely, whether retrieved information helps accomplish a user's underlying task. The emergence of retrieval-augmented generation (RAG) fundamentally changes this paradigm. Retrieved documents are no longer consumed directly by users but instead serve as evidence for large language models (LLMs) that produce answers. As a result, retrieval effectiveness must be evaluated by its contribution to generation quality rather than by relevance-based ranking metrics alone. This tutorial argues that retrieval objectives are evolving from relevance-centric optimization toward LLM-centric utility. We present a unified framework covering LLM-agnostic versus LLM-specific utility, context-independent versus context-dependent utility, and the connection with LLM information needs and agentic RAG. By synthesizing recent advances, the tutorial provides conceptual foundations and practical guidance for designing retrieval systems aligned with the requirements of LLM-based information access.",
+      "url": "https://arxiv.org/abs/2604.08920",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llm",
+        "retrieval",
+        "relevance",
+        "utility",
+        "information",
+        "centric",
+        "retrieved",
+        "based",
+        "context",
+        "documents"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a crucial shift in information retrieval necessitated by RAG and LLMs. The argument for moving beyond relevance to utility is compelling and timely, and the proposed framework for categorizing utility (LLM-agnostic/specific, context-independent/dependent) provides a valuable structure for future research. While the abstract doesn't detail specific novel *methods*, it clearly identifies a critical problem and sets the stage for impactful work.",
+      "paper_id": "11602aeafa13ecafeef650d1c02343d7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-13T10:50:59.937266"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Arth Singh
+
+arXiv:2604.08557v1 Announce Type: new 
+Abstract: Diffusion-based language models (dLLMs) generate text by iteratively denoising masked token sequences. We show that their safety alignment rests on a s...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.08557) | [📝 Analysis](ecf45f7cc08b4372fdc5baf21e60efc4.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*

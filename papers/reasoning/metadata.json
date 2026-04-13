@@ -415,7 +415,135 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "MT-OSC: Path for LLMs that Get Lost in Multi-Turn Conversation",
+      "authors": [
+        "Jyotika Singh, Fang Tu, Miguel Ballesteros, Weiyi Sun, Sandip Ghoshal, Michelle Yuan, Yassine Benajiba, Sujith Ravi, Dan Roth"
+      ],
+      "abstract": "arXiv:2604.08782v1 Announce Type: new \nAbstract: Large language models (LLMs) suffer significant performance degradation when user instructions and context are distributed over multiple conversational turns, yet multi-turn (MT) interactions dominate chat interfaces. The routine approach of appending full chat history to prompts rapidly exhausts context windows, leading to increased latency, higher computational costs, and diminishing returns as conversations extend. We introduce MT-OSC, a One-off Sequential Condensation framework that efficiently and automatically condenses chat history in the background without disrupting the user experience. MT-OSC employs a Condenser Agent that uses a few-shot inference-based Condenser and a lightweight Decider to selectively retain essential information, reducing token counts by up to 72% in 10-turn dialogues. Evaluated across 13 state-of-the-art LLMs and diverse multi-turn benchmarks, MT-OSC consistently narrows the multi-turn performance gap - yielding improved or preserved accuracy across datasets while remaining robust to distractors and irrelevant turns. Our results establish MT-OSC as a scalable solution for multi-turn chats, enabling richer context within constrained input spaces, reducing latency and operational cost, while balancing performance.",
+      "url": "https://arxiv.org/abs/2604.08782",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mt",
+        "turn",
+        "mt osc",
+        "multi",
+        "multi turn",
+        "osc",
+        "chat",
+        "context",
+        "llms",
+        "performance"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a critical bottleneck in LLM performance \u2013 the degradation in multi-turn conversations due to context window limitations. The proposed MT-OSC framework appears well-designed, employing a Condenser Agent for efficient history compression, and the reported 72% token reduction is significant. The evaluation across 13 LLMs and diverse benchmarks suggests a robust and generalizable approach, making it likely to be well-received by the community.",
+      "paper_id": "6413f4f83ef6a1db9fbd64c25faaa3d2"
+    },
+    {
+      "title": "Scalable High-Recall Constraint-Satisfaction-Based Information Retrieval for Clinical Trials Matching",
+      "authors": [
+        "Cyrus Zhou, Yufei Jin, Yilin Xu, Yu-Chiang Wang, Chieh-Ju Chao, Monica S. Lam"
+      ],
+      "abstract": "arXiv:2604.08849v1 Announce Type: new \nAbstract: Clinical trials are central to evidence-based medicine, yet many struggle to meet enrollment targets, despite the availability of over half a million trials listed on ClinicalTrials.gov, which attracts approximately two million users monthly. Existing retrieval techniques, largely based on keyword and embedding-similarity matching between patient profiles and eligibility criteria, often struggle with low recall, low precision, and limited interpretability due to complex constraints. We propose SatIR, a scalable clinical trial retrieval method based on constraint satisfaction, enabling high-precision and interpretable matching of patients to relevant trials. Our approach uses formal methods -- Satisfiability Modulo Theories (SMT) and relational algebra -- to efficiently represent and match key constraints from clinical trials and patient records. Beyond leveraging established medical ontologies and conceptual models, we use Large Language Models (LLMs) to convert informal reasoning regarding ambiguity, implicit clinical assumptions, and incomplete patient records into explicit, precise, controllable, and interpretable formal constraints. Evaluated on 59 patients and 3,621 trials, SatIR outperforms TrialGPT on all three evaluated retrieval objectives. It retrieves 32%-72% more relevant-and-eligible trials per patient, improves recall over the union of useful trials by 22-38 points, and serves more patients with at least one useful trial. Retrieval is fast, requiring 2.95 seconds per patient over 3,621 trials. These results show that SatIR is scalable, effective, and interpretable.",
+      "url": "https://arxiv.org/abs/2604.08849",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "trials",
+        "clinical",
+        "patient",
+        "retrieval",
+        "based",
+        "clinical trials",
+        "constraints",
+        "interpretable",
+        "matching",
+        "patients"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in healthcare \u2013 improving clinical trial matching \u2013 which currently suffers from low recall and interpretability. The use of constraint satisfaction techniques (SMT and relational algebra) combined with LLMs represents a novel approach to this challenge. The potential for high precision and interpretability is particularly valuable, and the focus on scalability is important for real-world deployment. The combination of formal methods and LLMs is a promising direction.",
+      "paper_id": "abe2616a16dfd73b8639aa52330e63e6"
+    },
+    {
+      "title": "From Reasoning to Agentic: Credit Assignment in Reinforcement Learning for Large Language Models",
+      "authors": [
+        "Chenchen Zhang"
+      ],
+      "abstract": "arXiv:2604.09459v1 Announce Type: new \nAbstract: Reinforcement learning (RL) for large language models (LLMs) increasingly relies on sparse, outcome-level rewards -- yet determining which actions within a long trajectory caused the outcome remains difficult. This credit assignment (CA) problem manifests in two regimes: reasoning RL, where credit must be distributed across tokens and steps within a single chain-of-thought generation (500--30K+ tokens); and agentic RL, where multi-turn environment interaction introduces stochastic transitions, partial observability, and horizons of 100+ turns (100K--1M tokens), making episode-level credit increasingly uninformative.\n  We survey 47 CA methods (41 core, 6 adjacent enablers) published between 2024 and early 2026, organizing them in a two-dimensional taxonomy by assignment granularity (token, segment, step, turn, multi-agent) and methodology (Monte Carlo, temporal difference, model-based, game-theoretic, information-theoretic). Beyond the survey itself, we contribute three reusable resources: (1) a structured, machine-readable paper inventory with taxonomy labels, baseline families, and evidence levels; (2) a reporting checklist for future CA papers, validated against the reviewed literature to identify systematic methodological gaps; and (3) a benchmark protocol specification with task families, metadata requirements, and controlled bifurcation tasks, accompanied by a method selection decision tree.\n  Our synthesis suggests that the shift from reasoning to agentic RL complicates and reshapes the credit assignment landscape: reasoning CA is maturing around process reward models and critic-free group comparison, while agentic CA is driving genuinely new approaches -- hindsight counterfactual analysis, privileged asymmetric critics, and turn-level MDP reformulations -- that have no direct precedent in reasoning RL.",
+      "url": "https://arxiv.org/abs/2604.09459",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "ca",
+        "credit",
+        "reasoning",
+        "rl",
+        "agentic",
+        "assignment",
+        "credit assignment",
+        "level",
+        "models",
+        "tokens"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in scaling RLHF for LLMs \u2013 credit assignment \u2013 and does so with a comprehensive survey approach. The identification of two distinct regimes (reasoning and agentic RL) is insightful, and the taxonomy of 47 methods suggests a thorough investigation. While the abstract doesn't detail novel methods *developed* by the authors, the organization and categorization itself is a valuable contribution, and the timeframe (2024-2026) indicates current relevance. The high significance stems from the increasing reliance on sparse rewards and the difficulty of applying RL to increasingly complex LLM tasks.",
+      "paper_id": "63a3b4d1bf387415f4496c9e04376fc1"
+    },
+    {
+      "title": "Many Ways to Be Fake: Benchmarking Fake News Detection Under Strategy-Driven AI Generation",
+      "authors": [
+        "Xinyu Wang, Sai Koneru, Wenbo Zhang, Wenliang Zheng, Saksham Ranjan, Sarah Rajtmajer"
+      ],
+      "abstract": "arXiv:2604.09514v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have enabled the large-scale generation of highly fluent and deceptive news-like content. While prior work has often treated fake news detection as a binary classification problem, modern fake news increasingly arises through human-AI collaboration, where strategic inaccuracies are embedded within otherwise accurate and credible narratives. These mixed-truth cases represent a realistic and consequential threat, yet they remain underrepresented in existing benchmarks. To address this gap, we introduce MANYFAKE, a synthetic benchmark containing 6,798 fake news articles generated through multiple strategy-driven prompting pipelines that capture many ways fake news can be constructed and refined. Using this benchmark, we evaluate a range of state-of-the-art fake news detectors. Our results show that even advanced reasoning-enabled models approach saturation on fully fabricated stories, but remain brittle when falsehoods are subtle, optimized, and interwoven with accurate information.",
+      "url": "https://arxiv.org/abs/2604.09514",
+      "published_date": "2026-04-13T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "fake",
+        "news",
+        "fake news",
+        "accurate",
+        "ai",
+        "benchmark",
+        "detection",
+        "driven",
+        "enabled",
+        "generation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and growing problem \u2013 the detection of strategically crafted fake news generated with AI assistance. The introduction of the MANYFAKE benchmark is a significant contribution, as it moves beyond simplistic binary classification to reflect the more nuanced reality of modern disinformation. The evaluation of state-of-the-art models suggests a clear gap in current capabilities, highlighting the need for further research in this area. The focus on strategy-driven generation is a key strength.",
+      "paper_id": "b6aee4f2463d780b491410e8856d2db1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-13T10:50:59.942596"
 }

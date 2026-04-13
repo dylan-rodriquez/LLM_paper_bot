@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Do LLMs Follow Their Own Rules? A Reflexive Audit of Self-Stated Safety Policies
+
+**Score:** 92.0 | **Published:** 2026-04-13 | **Authors:** Avni Mittal
+
+arXiv:2604.09189v1 Announce Type: new 
+Abstract: LLMs internalize safety policies through RLHF, yet these policies are never formally specified and remain difficult to inspect. Existing benchmarks eva...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.09189) | [📝 Analysis](d79ae26062a8cae684ba9eba95bf1e46.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-13 10:50:59 UTC*
