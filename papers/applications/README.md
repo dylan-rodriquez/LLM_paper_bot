@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models
+
+**Score:** 92.0 | **Published:** 2026-04-14 | **Authors:** Xiaomeng Hu, Yinger Zhang, Fei Huang, Jianhong Tu, Yang Su, Lianghao Deng, Yuxuan Liu, Yantao Liu, Dayiheng Liu, Tsung-Yi Ho
+
+arXiv:2604.10866v1 Announce Type: new 
+Abstract: AI agents are expected to perform professional work across hundreds of occupational domains (from emergency department triage to nuclear reactor safety...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.10866) | [📝 Analysis](f4eff8d4116eee46559128399d1c5d97.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-14 10:24:56 UTC*
