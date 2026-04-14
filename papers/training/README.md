@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-14 | **Authors:** Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, Flora D. Salim
+
+arXiv:2604.10079v1 Announce Type: new 
+Abstract: Supervised Fine-Tuning (SFT) is the standard approach for adapting large language models (LLMs) to downstream tasks. However, we observe a persistent f...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.10079) | [📝 Analysis](b88c3d4af97dbff9967ad6d676948443.md)
+
+---
+
+### LLMs Should Incorporate Explicit Mechanisms for Human Empathy
+
+**Score:** 92.0 | **Published:** 2026-04-14 | **Authors:** Xiaoxing You, Qiang Huang, Jun Yu
+
+arXiv:2604.10557v1 Announce Type: new 
+Abstract: This paper argues that Large Language Models (LLMs) should incorporate explicit mechanisms for human empathy. As LLMs become increasingly deployed in h...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.10557) | [📝 Analysis](07a13878f6d7243fa5ea410d12f2b594.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-14 10:24:56 UTC*

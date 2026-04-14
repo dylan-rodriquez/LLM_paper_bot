@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Transactional Attention: Semantic Sponsorship for KV-Cache Retention
+
+**Score:** 90.0 | **Published:** 2026-04-14 | **Authors:** Abhinaba Basu
+
+arXiv:2604.11288v1 Announce Type: new 
+Abstract: At K=16 tokens (0.4% of a 4K context), every existing KV-cache compression method achieves 0% on credential retrieval. The failure mode is dormant toke...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.11288) | [📝 Analysis](e1103afdde301070898c8568009088b7.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-14 10:24:56 UTC*
