@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "LASA: Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety",
+      "authors": [
+        "Junxiao Yang, Haoran Liu, Jinzhe Tu, Jiale Cheng, Zhexin Zhang, Shiyao Cui, Jiaqi Weng, Jialing Tao, Hui Xue, Hongning Wang, Han Qiu, Minlie Huang"
+      ],
+      "abstract": "arXiv:2604.12710v1 Announce Type: cross \nAbstract: Large language models (LLMs) often demonstrate strong safety performance in high-resource languages, yet exhibit severe vulnerabilities when queried in low-resource languages. We attribute this gap to a mismatch between language-agnostic semantic understanding ability and language-dominant safety alignment biased toward high-resource languages. Consistent with this hypothesis, we empirically identify the semantic bottleneck in LLMs, an intermediate layer in which the geometry of model representations is governed primarily by shared semantic content rather than language identity. Building on this observation, we propose Language-Agnostic Semantic Alignment (LASA), which anchors safety alignment directly in semantic bottlenecks. Experiments show that LASA substantially improves safety across all languages: average attack success rate (ASR) drops from 24.7% to 2.8% on LLaMA-3.1-8B-Instruct and remains around 3-4% across Qwen2.5 and Qwen3 Instruct models (7B-32B). Together, our analysis and method offer a representation-level perspective on LLM safety, suggesting that safety alignment requires anchoring safety understanding not in surface text, but in the model's language-agnostic semantic space.",
+      "url": "https://arxiv.org/abs/2604.12710",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "safety",
+        "semantic",
+        "language",
+        "alignment",
+        "agnostic",
+        "agnostic semantic",
+        "language agnostic",
+        "languages",
+        "lasa",
+        "resource"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the disparity in performance across languages. Identifying the 'semantic bottleneck' and proposing LASA, which targets alignment at this layer, is a strong methodological approach. The reported improvements in safety across multiple models and languages suggest a robust and impactful solution, and the clear presentation of results enhances the paper's quality.",
+      "paper_id": "b8e2437d61923aaa7a8f80836842b97f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-15T10:28:55.388444"
 }

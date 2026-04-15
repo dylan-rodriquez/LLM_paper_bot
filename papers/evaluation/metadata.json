@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "AlphaEval: Evaluating Agents in Production",
+      "authors": [
+        "Pengrui Lu, Bingyu Xu, Wenjun Zhang, Shengjia Hua, Xuanjian Gao, Ranxiang Ge, Lyumanshan Ye, Linxuan Wu, Yiran Li, Junfei Fish Yu, Yibo Zhang, Ruixin Li, Manxiang Li, Xiao Han, Xiaocong Zhou, Guangyao Chi, Zisheng Chen, Kaishen Chen, Kun Wang, Qihua Xu, Fengyue Meng, Yuchen Ni, Jiajun Li, Jinxiu Liu, Danfeng Zhang, Jingru Zhao, Pengfei Liu"
+      ],
+      "abstract": "arXiv:2604.12162v1 Announce Type: new \nAbstract: The rapid deployment of AI agents in commercial settings has outpaced the development of evaluation methodologies that reflect production realities. Existing benchmarks measure agent capabilities through retrospectively curated tasks with well-specified requirements and deterministic metrics -- conditions that diverge fundamentally from production environments where requirements contain implicit constraints, inputs are heterogeneous multi-modal documents with information fragmented across sources, tasks demand undeclared domain expertise, outputs are long-horizon professional deliverables, and success is judged by domain experts whose standards evolve over time. We present AlphaEval, a production-grounded benchmark of 94 tasks sourced from seven companies deploying AI agents in their core business, spanning six O*NET (Occupational Information Network) domains. Unlike model-centric benchmarks, AlphaEval evaluates complete agent products -- Claude Code, Codex, etc. -- as commercial systems, capturing performance variations invisible to model-level evaluation. Our evaluation framework covers multiple paradigms (LLM-as-a-Judge, reference-driven metrics, formal verification, rubric-based assessment, automated UI testing, etc.), with individual domains composing multiple paradigms. Beyond the benchmark itself, we contribute a requirement-to-benchmark construction framework -- a systematic methodology that transforms authentic production requirements into executable evaluation tasks in minimal time. This framework standardizes the entire pipeline from requirement to evaluation, providing a reproducible, modular process that any organization can adopt to construct production-grounded benchmarks for their own domains.",
+      "url": "https://arxiv.org/abs/2604.12162",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "production",
+        "evaluation",
+        "tasks",
+        "agents",
+        "alphaeval",
+        "benchmark",
+        "benchmarks",
+        "domains",
+        "framework",
+        "requirements"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in AI agent evaluation \u2013 the disconnect between controlled benchmarks and real-world production environments. The sourcing of tasks directly from companies deploying agents lends significant credibility and relevance. While the core idea of production-grounded evaluation isn't entirely novel, the scale (94 tasks, 7 companies) and focus on complex, long-horizon deliverables represent a substantial advancement. The paper's focus on the evolving standards of domain experts is also a key strength.",
+      "paper_id": "c5aa3652bf0ae670c3d4b94a86a614f0"
+    },
+    {
+      "title": "Round-Trip Translation Reveals What Frontier Multilingual Benchmarks Miss",
+      "authors": [
+        "Ronald Skorobogat, Ameya Prabhu, Matthias Bethge"
+      ],
+      "abstract": "arXiv:2604.12911v1 Announce Type: new \nAbstract: Multilingual benchmarks guide the development of frontier models. Yet multilingual evaluations reported by frontier models are structured similar to popular reasoning and knowledge benchmarks, but across many languages. We show such benchmarks, and consequently multilingual evaluations, measure mathematical reasoning and factual recall, not multilingual proficiency. For example, thinking variants dramatically outperform instruct variants on these benchmarks, yet often perform worse on real-world multilingual tasks, such as LMArena. We propose a simple alternative: evaluate multilingual capability via round-trip translation. Given text in a source language, translate it to a target language and back; semantic gaps between the original and result expose failures in multilingual generation capabilities. Round-trip translation correlates almost perfectly (\\r{ho} = 0.94) with user ratings on LMArena with our benchmark, requires no human reference translations, and does not require a more capable multilingual judge than tested models. Lastly, we introduce Lost in Translation (LiT), a challenging round-trip translation benchmark spanning widely spoken languages worldwide, for realistic evaluation of multilingual frontier models.",
+      "url": "https://arxiv.org/abs/2604.12911",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "multilingual",
+        "benchmarks",
+        "translation",
+        "frontier",
+        "models",
+        "round",
+        "round trip",
+        "trip",
+        "trip translation",
+        "frontier models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial issue in evaluating multilingual models \u2013 the reliance on benchmarks that inadvertently test reasoning and recall rather than true multilingual proficiency. The proposed round-trip translation method is a simple yet elegant alternative, and the strong correlation with LMArena ratings suggests its effectiveness. The clarity of the abstract and the focus on a practical problem contribute to a high-quality and impactful research direction.",
+      "paper_id": "eb4e296534718222f037024a4689462e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-15T10:28:55.383823"
 }

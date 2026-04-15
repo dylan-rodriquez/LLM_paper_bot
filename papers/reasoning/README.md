@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Narrative over Numbers: The Identifiable Victim Effect and its Amplification Under Alignment and Reasoning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Syed Rifat Raiyan
+
+arXiv:2604.12076v1 Announce Type: new 
+Abstract: The Identifiable Victim Effect (IVE) $-$ the tendency to allocate greater resources to a specific, narratively described victim than to a statistically...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12076) | [📝 Analysis](30783a63f24bfd477fb78d748822c102.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*

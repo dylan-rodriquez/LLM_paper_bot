@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Narrative over Numbers: The Identifiable Victim Effect and its Amplification Under Alignment and Reasoning in Large Language Models",
+      "authors": [
+        "Syed Rifat Raiyan"
+      ],
+      "abstract": "arXiv:2604.12076v1 Announce Type: new \nAbstract: The Identifiable Victim Effect (IVE) $-$ the tendency to allocate greater resources to a specific, narratively described victim than to a statistically characterized group facing equivalent hardship $-$ is one of the most robust findings in moral psychology and behavioural economics. As large language models (LLMs) assume consequential roles in humanitarian triage, automated grant evaluation, and content moderation, a critical question arises: do these systems inherit the affective irrationalities present in human moral reasoning? We present the first systematic, large-scale empirical investigation of the IVE in LLMs, comprising N=51,955 validated API trials across 16 frontier models spanning nine organizational lineages (Google, Anthropic, OpenAI, Meta, DeepSeek, xAI, Alibaba, IBM, and Moonshot). Using a suite of ten experiments $-$ porting and extending canonical paradigms from Small et al. (2007) and Kogut and Ritov (2005) $-$ we find that the IVE is prevalent but strongly modulated by alignment training. Instruction-tuned models exhibit extreme IVE (Cohen's d up to 1.56), while reasoning-specialized models invert the effect (down to d=-0.85). The pooled effect (d=0.223, p=2e-6) is approximately twice the single-victim human meta-analytic baseline (d$\\approx$0.10) reported by Lee and Feeley (2016) $-$ and likely exceeds the overall human pooled effect by a larger margin, given that the group-victim human effect is near zero. Standard Chain-of-Thought (CoT) prompting $-$ contrary to its role as a deliberative corrective $-$ nearly triples the IVE effect size (from d=0.15 to d=0.41), while only utilitarian CoT reliably eliminates it. We further document psychophysical numbing, perfect quantity neglect, and marginal in-group/out-group cultural bias, with implications for AI deployment in humanitarian and ethical decision-making contexts.",
+      "url": "https://arxiv.org/abs/2604.12076",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "effect",
+        "ive",
+        "models",
+        "victim",
+        "group",
+        "human",
+        "large",
+        "reasoning",
+        "alignment",
+        "cot"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a crucial and timely problem \u2013 the potential for LLMs to replicate human biases in moral reasoning, specifically the Identifiable Victim Effect. The large-scale empirical investigation across numerous models and organizations demonstrates a rigorous methodology. While building on established psychological paradigms, applying them to LLMs is novel and the scale of the study is impressive, suggesting a high likelihood of positive reception within the AI safety and ethics communities.",
+      "paper_id": "30783a63f24bfd477fb78d748822c102"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-15T10:28:55.382450"
 }

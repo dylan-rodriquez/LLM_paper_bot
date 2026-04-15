@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Beyond Factual Grounding: The Case for Opinion-Aware Retrieval-Augmented Generation
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Aditya Agrawal, Alwarappan Nakkiran, Darshan Fofadiya, Alex Karlsson, Harsha Aduri
+
+arXiv:2604.12138v1 Announce Type: cross 
+Abstract: RAG systems have transformed how LLMs access external knowledge, but we find that current implementations exhibit a bias toward factual, objective co...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12138) | [📝 Analysis](b9c5ab3413d01651d62d2a71e2cf1332.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*

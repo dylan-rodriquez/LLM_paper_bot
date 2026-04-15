@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Shangkun Che, Silin Du, Ge Gao
+
+arXiv:2604.12216v1 Announce Type: cross 
+Abstract: The widespread use of Large Language Models (LLMs) in text generation has raised increasing concerns about intellectual property disputes. Watermarki...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12216) | [📝 Analysis](826966740f047c402dfedc59843139c6.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*

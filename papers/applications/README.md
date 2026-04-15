@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Han Bao, Penghao Zhang, Yue Huang, Zhengqing Yuan, Yanchi Ru, Rui Su, Yujun Zhou, Xiangqi Wang, Kehan Guo, Nitesh V Chawla, Yanfang Ye, Xiangliang Zhang
+
+arXiv:2604.12995v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly integrated into real-world decision-making, including in the domain of public policy. Yet, their ability ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12995) | [📝 Analysis](cd228a77ca3352fe9126d1cb076119f6.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*

@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### The Enforcement and Feasibility of Hate Speech Moderation on Twitter
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Manuel Tonneau, Dylan Thurgood, Diyi Liu, Niyati Malhotra, Victor Orozco-Olvera, Ralph Schroeder, Scott A. Hale, Manoel Horta Ribeiro, Paul R\"ottger, Samuel P. Fraiberger
+
+arXiv:2604.12289v1 Announce Type: cross 
+Abstract: Online hate speech is associated with substantial social harms, yet it remains unclear how consistently platforms enforce hate speech policies or whe...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12289) | [📝 Analysis](618b0b6b984052ebf31b045d8e6d83c1.md)
+
+---
+
+### GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts
+
+**Score:** 90.0 | **Published:** 2026-04-15 | **Authors:** Amir Hossein Kargaran, Nafiseh Nikeghbal, Jana Diesner, Fran\c{c}ois Yvon, Hinrich Sch\"utze
+
+arXiv:2604.12978v1 Announce Type: new 
+Abstract: Optical character recognition (OCR) has advanced rapidly with the rise of vision-language models, yet evaluation has remained concentrated on a small c...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12978) | [📝 Analysis](6461f66473317723aa7a6e4fc9da702d.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*
