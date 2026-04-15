@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models",
+      "authors": [
+        "Han Bao, Penghao Zhang, Yue Huang, Zhengqing Yuan, Yanchi Ru, Rui Su, Yujun Zhou, Xiangqi Wang, Kehan Guo, Nitesh V Chawla, Yanfang Ye, Xiangliang Zhang"
+      ],
+      "abstract": "arXiv:2604.12995v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly integrated into real-world decision-making, including in the domain of public policy. Yet, their ability to comprehend and reason about policy-related content remains underexplored. To fill this gap, we present \\textbf{\\textit{PolicyBench}}, the first large-scale cross-system benchmark (US-China) evaluating policy comprehension, comprising 21K cases across a broad spectrum of policy areas, capturing the diversity and complexity of real-world governance. Following Bloom's taxonomy, the benchmark assesses three core capabilities: (1) \\textbf{Memorization}: factual recall of policy knowledge, (2) \\textbf{Understanding}: conceptual and contextual reasoning, and (3) \\textbf{Application}: problem-solving in real-life policy scenarios. Building on this benchmark, we further propose \\textbf{\\textit{PolicyMoE}}, a domain-specialized Mixture-of-Experts (MoE) model with expert modules aligned to each cognitive level. The proposed models demonstrate stronger performance on application-oriented policy tasks than on memorization or conceptual understanding, and yields the highest accuracy on structured reasoning tasks. Our results reveal key limitations of current LLMs in policy understanding and suggest paths toward more reliable, policy-focused models.",
+      "url": "https://arxiv.org/abs/2604.12995",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "policy",
+        "textbf",
+        "models",
+        "benchmark",
+        "large",
+        "real",
+        "understanding",
+        "application",
+        "comprehension",
+        "conceptual"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a highly significant problem \u2013 the lack of robust policy comprehension in LLMs \u2013 and proposes a well-structured solution with a new benchmark (PolicyBench) and a specialized model (PolicyMoE). The use of Bloom's taxonomy for evaluation is a strong methodological choice, and the cross-system (US-China) aspect adds valuable breadth. While MoE models aren't entirely novel, applying them specifically to policy comprehension with tailored expert modules demonstrates a clear advancement.",
+      "paper_id": "cd228a77ca3352fe9126d1cb076119f6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-15T10:28:55.386192"
 }

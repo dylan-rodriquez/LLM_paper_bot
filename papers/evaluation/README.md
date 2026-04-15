@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### AlphaEval: Evaluating Agents in Production
+
+**Score:** 92.0 | **Published:** 2026-04-15 | **Authors:** Pengrui Lu, Bingyu Xu, Wenjun Zhang, Shengjia Hua, Xuanjian Gao, Ranxiang Ge, Lyumanshan Ye, Linxuan Wu, Yiran Li, Junfei Fish Yu, Yibo Zhang, Ruixin Li, Manxiang Li, Xiao Han, Xiaocong Zhou, Guangyao Chi, Zisheng Chen, Kaishen Chen, Kun Wang, Qihua Xu, Fengyue Meng, Yuchen Ni, Jiajun Li, Jinxiu Liu, Danfeng Zhang, Jingru Zhao, Pengfei Liu
+
+arXiv:2604.12162v1 Announce Type: new 
+Abstract: The rapid deployment of AI agents in commercial settings has outpaced the development of evaluation methodologies that reflect production realities. Ex...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12162) | [📝 Analysis](c5aa3652bf0ae670c3d4b94a86a614f0.md)
+
+---
+
+### Round-Trip Translation Reveals What Frontier Multilingual Benchmarks Miss
+
+**Score:** 90.0 | **Published:** 2026-04-15 | **Authors:** Ronald Skorobogat, Ameya Prabhu, Matthias Bethge
+
+arXiv:2604.12911v1 Announce Type: new 
+Abstract: Multilingual benchmarks guide the development of frontier models. Yet multilingual evaluations reported by frontier models are structured similar to po...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12911) | [📝 Analysis](eb4e296534718222f037024a4689462e.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*

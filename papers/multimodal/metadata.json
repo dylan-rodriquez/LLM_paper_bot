@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Enforcement and Feasibility of Hate Speech Moderation on Twitter",
+      "authors": [
+        "Manuel Tonneau, Dylan Thurgood, Diyi Liu, Niyati Malhotra, Victor Orozco-Olvera, Ralph Schroeder, Scott A. Hale, Manoel Horta Ribeiro, Paul R\\\"ottger, Samuel P. Fraiberger"
+      ],
+      "abstract": "arXiv:2604.12289v1 Announce Type: cross \nAbstract: Online hate speech is associated with substantial social harms, yet it remains unclear how consistently platforms enforce hate speech policies or whether enforcement is feasible at scale. We address these questions through a global audit of hate speech moderation on Twitter (now X). Using a complete 24-hour snapshot of public tweets, we construct representative samples comprising 540,000 tweets annotated for hate speech by trained annotators across eight major languages. Five months after posting, 80% of hateful tweets remain online, including explicitly violent hate speech. Such tweets are no more likely to be removed than non-hateful tweets, with neither severity nor visibility increasing the likelihood of removal. We then examine whether these enforcement gaps reflect technical limits of large-scale moderation systems. While fully automated detection systems cannot reliably identify hate speech without generating large numbers of false positives, they effectively prioritize likely violations for human review. Simulations of a human-AI moderation pipeline indicate that substantially reducing user exposure to hate speech is economically feasible at a cost below existing regulatory penalties. These results suggest that the persistence of online hate cannot be explained by technical constraints alone but also reflects institutional choices in the allocation of moderation resources.",
+      "url": "https://arxiv.org/abs/2604.12289",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "hate",
+        "hate speech",
+        "speech",
+        "moderation",
+        "tweets",
+        "enforcement",
+        "online",
+        "feasible",
+        "hateful",
+        "hateful tweets"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research addresses a highly significant and timely problem \u2013 the prevalence of hate speech online and the effectiveness of platform moderation. The large-scale audit methodology, encompassing multiple languages, is commendable. While the approach isn't entirely novel (auditing platforms is a growing area), the scale and focus on enforcement *rates* rather than just detection accuracy are valuable. The findings, indicating low removal rates even for violent content, are concerning and likely to generate considerable discussion.",
+      "paper_id": "618b0b6b984052ebf31b045d8e6d83c1"
+    },
+    {
+      "title": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts",
+      "authors": [
+        "Amir Hossein Kargaran, Nafiseh Nikeghbal, Jana Diesner, Fran\\c{c}ois Yvon, Hinrich Sch\\\"utze"
+      ],
+      "abstract": "arXiv:2604.12978v1 Announce Type: new \nAbstract: Optical character recognition (OCR) has advanced rapidly with the rise of vision-language models, yet evaluation has remained concentrated on a small cluster of high- and mid-resource scripts. We introduce GlotOCR Bench, a comprehensive benchmark evaluating OCR generalization across 100+ Unicode scripts. Our benchmark comprises clean and degraded image variants rendered from real multilingual texts. Images are rendered using fonts from the Google Fonts repository, shaped with HarfBuzz and rasterized with FreeType, supporting both LTR and RTL scripts. Samples of rendered images were manually reviewed to verify correct rendering across all scripts. We evaluate a broad suite of open-weight and proprietary vision-language models and find that most perform well on fewer than ten scripts, and even the strongest frontier models fail to generalize beyond thirty scripts. Performance broadly tracks script-level pretraining coverage, suggesting that current OCR systems rely on language model pretraining as much as on visual recognition. Models confronted with unfamiliar scripts either produce random noise or hallucinate characters from similar scripts they already know. We release the benchmark and pipeline for reproducibility. Pipeline Code: https://github.com/cisnlp/glotocr-bench, Benchmark: https://hf.co/datasets/cis-lmu/glotocr-bench.",
+      "url": "https://arxiv.org/abs/2604.12978",
+      "published_date": "2026-04-15T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "scripts",
+        "models",
+        "bench",
+        "benchmark",
+        "glotocr",
+        "glotocr bench",
+        "ocr",
+        "language",
+        "rendered",
+        "fonts"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in OCR evaluation \u2013 the lack of comprehensive benchmarks for diverse Unicode scripts. The creation of GlotOCR Bench, with its focus on 100+ scripts and controlled rendering process, is a significant contribution. The findings highlighting the limited generalization ability of current OCR models, even strong ones, are impactful and will likely spur further research in this area. The methodology appears rigorous, utilizing established tools like Google Fonts, HarfBuzz, and FreeType.",
+      "paper_id": "6461f66473317723aa7a6e4fc9da702d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-15T10:28:55.385081"
 }

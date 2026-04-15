@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### LASA: Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety
+
+**Score:** 90.0 | **Published:** 2026-04-15 | **Authors:** Junxiao Yang, Haoran Liu, Jinzhe Tu, Jiale Cheng, Zhexin Zhang, Shiyao Cui, Jiaqi Weng, Jialing Tao, Hui Xue, Hongning Wang, Han Qiu, Minlie Huang
+
+arXiv:2604.12710v1 Announce Type: cross 
+Abstract: Large language models (LLMs) often demonstrate strong safety performance in high-resource languages, yet exhibit severe vulnerabilities when queried ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.12710) | [📝 Analysis](b8e2437d61923aaa7a8f80836842b97f.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-15 10:28:55 UTC*
