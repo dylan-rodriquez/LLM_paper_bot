@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs",
+      "authors": [
+        "Junlin Zhu, Baizhou Huang, Xiaojun Wan"
+      ],
+      "abstract": "arXiv:2604.13786v1 Announce Type: new \nAbstract: As large language models become standard backends for content generation, practical provenance increasingly requires multi-bit watermarking. In provider-internal deployments, a key requirement is message symmetry: the message itself should not systematically affect either text quality or verification outcomes. Vocabulary-partition watermarks can break message symmetry in low-entropy decoding: some messages are assigned most of the probability mass, while others are forced to use tail tokens. This makes embedding quality and message decoding accuracy message-dependent. We propose QuantileMark, a white-box multi-bit watermark that embeds messages within the continuous cumulative probability interval $[0, 1)$. At each step, QuantileMark partitions this interval into $M$ equal-mass bins and samples strictly from the bin assigned to the target symbol, ensuring a fixed $1/M$ probability budget regardless of context entropy. For detection, the verifier reconstructs the same partition under teacher forcing, computes posteriors over latent bins, and aggregates evidence for verification. We prove message-unbiasedness, a property ensuring that the base distribution is recovered when averaging over messages. This provides a theoretical foundation for generation-side symmetry, while the equal-mass design additionally promotes uniform evidence strength across messages on the detection side. Empirical results on C4 continuation and LFQA show improved multi-bit recovery and detection robustness over strong baselines, with negligible impact on generation quality. Our code is available at GitHub (https://github.com/zzzjunlin/QuantileMark).",
+      "url": "https://arxiv.org/abs/2604.13786",
+      "published_date": "2026-04-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "message",
+        "bit",
+        "messages",
+        "multi",
+        "multi bit",
+        "quantilemark",
+        "detection",
+        "generation",
+        "mass",
+        "probability"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial problem in the age of LLMs \u2013 reliable watermarking for provenance \u2013 and proposes a novel solution (QuantileMark) that directly tackles the message symmetry issues of existing methods. The approach of embedding messages within the continuous probability space and ensuring a fixed probability budget appears well-reasoned and potentially effective. The focus on white-box watermarking and the clear articulation of the problem space suggest a high-quality, impactful contribution.",
+      "paper_id": "d444b8dc7b225e46741b3cb058e8a7a4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-04-16T10:27:28.321634"
 }

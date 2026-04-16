@@ -479,7 +479,71 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs",
+      "authors": [
+        "Md Hasebul Hasan, Krity Haque Charu, Eshwara Prasad Sridhar, Shuchisnigdha Deb, Mohammad A. Islam"
+      ],
+      "abstract": "arXiv:2604.13075v1 Announce Type: new \nAbstract: Effective de-escalation is critical for law enforcement safety and community trust, yet traditional training methods lack scalability and realism. While Large Language Models (LLMs) enable dynamic, open-ended simulations, their substantial computational footprint renders them impractical for deployment on the lightweight, portable hardware required for immersive field training. Small Language Models (SLMs) offer a viable real-time alternative but suffer from a critical scarcity of high-quality, domain-specific training data. To bridge this gap, we present DeEscalWild, a novel benchmark dataset curated from a multi-stage pipeline of in-the-wild police-civilian interactions extracted from open-source video repositories. Starting with 5,000 raw inputs, we employed a rigorous hybrid filtering process - combining human-in-the-loop verification with LLM-as-a-Judge evaluation - to distill 1,500 high-fidelity scenarios. The resulting corpus comprises 285,887 dialogue turns, totaling approximately 4.7 million tokens. Extensive experiments demonstrate that SLMs fine-tuned on this data significantly outperform their base counterparts across ROUGE-L, BLEU-4, METEOR, and BERTScore metrics. Notably, our fine-tuned Qwen 2.5 (3B-Instruct) surpasses the general-purpose Gemini 2.5 Flash model, demonstrating that domain-optimized SLMs can achieve superior performance with a fraction of the computational cost. This work establishes the foundational infrastructure for accessible, low-latency, and privacy-preserving officer training systems at the edge.",
+      "url": "https://arxiv.org/abs/2604.13075",
+      "published_date": "2026-04-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "training",
+        "slms",
+        "benchmark",
+        "computational",
+        "critical",
+        "data",
+        "deescalwild",
+        "domain",
+        "escalation",
+        "fine"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant problem \u2013 improving de-escalation training for law enforcement \u2013 with a practical solution leveraging SLMs. The creation of a curated, high-fidelity dataset (DeEscalWild) is a strong contribution, and the hybrid filtering approach (human-in-the-loop + LLM-as-a-Judge) demonstrates methodological rigor. While the core idea of using SLMs for this purpose isn't entirely novel, the focus on real-world deployment and the dataset itself are substantial advancements.",
+      "paper_id": "086fc0bfddc4d01673bc475e63ce462f"
+    },
+    {
+      "title": "Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking",
+      "authors": [
+        "Alexander Nemecek, Osama Zafar, Yuqiao Xu, Wenbiao Li, Erman Ayday"
+      ],
+      "abstract": "arXiv:2604.13776v1 Announce Type: cross \nAbstract: Watermarking is becoming the default mechanism for AI content authentication, with governance policies and frameworks referencing it as infrastructure for content provenance. Yet across text, image, and audio modalities, watermark signal strength, detectability, and robustness depend on statistical properties of the content itself, properties that vary systematically across languages, cultural visual traditions, and demographic groups. We examine how this content dependence creates modality-specific pathways to bias. Reviewing the major watermarking benchmarks across modalities, we find that, with one exception, none report performance across languages, cultural content types, or population groups. To address this, we propose three concrete evaluation dimensions for pluralistic watermark benchmarking: cross-lingual detection parity, culturally diverse content coverage, and demographic disaggregation of detection metrics. We connect these to the governance frameworks currently mandating watermarking deployment and show that watermarking is held to a lower fairness standard than the generative systems it is meant to govern. Our position is that evaluation must precede deployment, and that the same bias auditing requirements applied to AI models should extend to the verification layer.",
+      "url": "https://arxiv.org/abs/2604.13776",
+      "published_date": "2026-04-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "content",
+        "watermarking",
+        "ai",
+        "evaluation",
+        "ai content",
+        "bias",
+        "cross",
+        "cultural",
+        "demographic",
+        "deployment"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper identifies a critical gap in AI watermarking research \u2013 the lack of consideration for diverse content and populations. The proposed evaluation dimensions (cross-lingual parity, cultural coverage, demographic disaggregation) are well-defined and necessary for responsible AI deployment. While the paper primarily *identifies* a problem and proposes evaluation metrics rather than presenting novel watermarking techniques, the problem itself is highly significant and the proposed solution is a strong step towards fairer and more robust watermarking systems.",
+      "paper_id": "0c7a438b8e121376f2f4769d63a3c906"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-16T10:27:28.317707"
 }

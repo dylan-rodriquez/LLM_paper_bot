@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs
+
+**Score:** 92.0 | **Published:** 2026-04-16 | **Authors:** Md Hasebul Hasan, Krity Haque Charu, Eshwara Prasad Sridhar, Shuchisnigdha Deb, Mohammad A. Islam
+
+arXiv:2604.13075v1 Announce Type: new 
+Abstract: Effective de-escalation is critical for law enforcement safety and community trust, yet traditional training methods lack scalability and realism. Whil...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.13075) | [📝 Analysis](086fc0bfddc4d01673bc475e63ce462f.md)
+
+---
+
+### Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking
+
+**Score:** 92.0 | **Published:** 2026-04-16 | **Authors:** Alexander Nemecek, Osama Zafar, Yuqiao Xu, Wenbiao Li, Erman Ayday
+
+arXiv:2604.13776v1 Announce Type: cross 
+Abstract: Watermarking is becoming the default mechanism for AI content authentication, with governance policies and frameworks referencing it as infrastructur...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.13776) | [📝 Analysis](0c7a438b8e121376f2f4769d63a3c906.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-16 10:27:28 UTC*

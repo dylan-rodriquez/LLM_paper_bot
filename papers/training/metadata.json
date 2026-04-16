@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Breaking the Generator Barrier: Disentangled Representation for Generalizable AI-Text Detection",
+      "authors": [
+        "Xiao Pu, Zepeng Cheng, Lin Yuan, Yu Wu, Xiuli Bi"
+      ],
+      "abstract": "arXiv:2604.13692v1 Announce Type: new \nAbstract: As large language models (LLMs) generate text that increasingly resembles human writing, the subtle cues that distinguish AI-generated content from human-written content become increasingly challenging to capture. Reliance on generator-specific artifacts is inherently unstable, since new models emerge rapidly and reduce the robustness of such shortcuts. This generalizes unseen generators as a central and challenging problem for AI-text detection. To tackle this challenge, we propose a progressively structured framework that disentangles AI-detection semantics from generator-aware artifacts. This is achieved through a compact latent encoding that encourages semantic minimality, followed by perturbation-based regularization to reduce residual entanglement, and finally a discriminative adaptation stage that aligns representations with task objectives. Experiments on MAGE benchmark, covering 20 representative LLMs across 7 categories, demonstrate consistent improvements over state-of-the-art methods, achieving up to 24.2% accuracy gain and 26.2% F1 improvement. Notably, performance continues to improve as the diversity of training generators increases, confirming strong scalability and generalization in open-set scenarios. Our source code will be publicly available at https://github.com/PuXiao06/DRGD.",
+      "url": "https://arxiv.org/abs/2604.13692",
+      "published_date": "2026-04-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "detection",
+        "generator",
+        "text",
+        "ai text",
+        "artifacts",
+        "challenging",
+        "content",
+        "generators",
+        "human"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 the detection of AI-generated text as LLMs become increasingly sophisticated. The proposed approach of disentangling AI-detection semantics from generator-specific artifacts is a promising direction, and the evaluation on a diverse benchmark (MAGE) suggests a rigorous methodology. While the abstract doesn't detail the specifics of the 'progressively structured framework', the described components (latent encoding, perturbation-based regularization, discriminative adaptation) indicate a thoughtful approach.",
+      "paper_id": "9b685fff979683d5c91cc9b0cbdbd50e"
+    },
+    {
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "authors": [
+        "Zerun Ma, Guoqiang Wang, Xinchen Xie, Yicheng Chen, He Du, Bowen Li, Yanan Sun, Wenran Liu, Kai Chen, Yining Li"
+      ],
+      "abstract": "arXiv:2604.14116v1 Announce Type: cross \nAbstract: While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challenge. In this paper, we introduce TREX, a multi-agent system that automates the entire LLM training life-cycle. By orchestrating collaboration between two core modules-the Researcher and the Executor-the system seamlessly performs requirement analysis, open-domain literature and data research, formulation of training strategies, preparation of data recipes, and model training and evaluation. The multi-round experimental process is modeled as a search tree, enabling the system to efficiently plan exploration paths, reuse historical results, and distill high-level insights from iterative trials. To evaluate the capability of automated LLM training, we construct FT-Bench, a benchmark comprising 10 tasks derived from real-world scenarios, ranging from optimizing fundamental model capabilities to enhancing performance on domain-specific tasks. Experimental results demonstrate that the TREX agent consistently optimizes model performance on target tasks.",
+      "url": "https://arxiv.org/abs/2604.14116",
+      "published_date": "2026-04-16T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "training",
+        "llm",
+        "tasks",
+        "agent",
+        "llm training",
+        "model",
+        "trex",
+        "automating",
+        "data",
+        "domain"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the LLM lifecycle \u2013 automating the complex and resource-intensive training process. The agent-driven, tree-based exploration approach (TREX) appears well-structured and addresses a significant bottleneck in LLM development. The creation of FT-Bench is a valuable contribution, providing a standardized evaluation platform. While the core ideas build upon existing agent-based systems and search algorithms, the application to the *entire* LLM training pipeline is novel and promising.",
+      "paper_id": "16fed824286ddc148efbe3560776ace1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-16T10:27:28.319492"
 }
