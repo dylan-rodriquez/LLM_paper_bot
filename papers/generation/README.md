@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs
+
+**Score:** 90.0 | **Published:** 2026-04-16 | **Authors:** Junlin Zhu, Baizhou Huang, Xiaojun Wan
+
+arXiv:2604.13786v1 Announce Type: new 
+Abstract: As large language models become standard backends for content generation, practical provenance increasingly requires multi-bit watermarking. In provide...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.13786) | [📝 Analysis](d444b8dc7b225e46741b3cb058e8a7a4.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-16 10:27:28 UTC*
