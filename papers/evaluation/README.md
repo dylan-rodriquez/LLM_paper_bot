@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation
+
+**Score:** 92.0 | **Published:** 2026-04-17 | **Authors:** Francesco Andrea Causio, Vittorio De Vita, Olivia Riccomi, Michele Ferramola, Federico Felizzi, Antonio Cristiano, Lorenzo De Mori, Chiara Battipaglia, Melissa Sawaya, Luigi De Angelis, Marcello Di Pumpo, Alessandra Piscitelli, Pietro Eric Risuleo, Alessia Longo, Giulia Vojvodic, Mariapia Vassalli, Bianca Destro Castaniti, Nicol\`o Scarsi, Manuel Del Medico
+
+arXiv:2604.14306v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) have demonstrated high proficiency on English-centric medical examinations, their performance often declines when fa...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14306) | [📝 Analysis](7fc9f3d6166293c825e0d6dceb32763e.md)
+
+---
+
+### CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification
+
+**Score:** 92.0 | **Published:** 2026-04-17 | **Authors:** Yian Wang, Yuen Chen, Agam Goyal, Hari Sundaram
+
+arXiv:2604.14602v1 Announce Type: new 
+Abstract: Large language models (LLMs) frequently generate toxic content, posing significant risks for safe deployment. Current mitigation strategies often degra...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14602) | [📝 Analysis](db60c691bd080c14dc412314da878e29.md)
+
+---
+
+### The Autocorrelation Blind Spot: Why 42% of Turn-Level Findings in LLM Conversation Analysis May Be Spurious
+
+**Score:** 90.0 | **Published:** 2026-04-17 | **Authors:** Ferdinand M. Schessl
+
+arXiv:2604.14414v1 Announce Type: new 
+Abstract: Turn-level metrics are widely used to evaluate properties of multi-turn human-LLM conversations, from safety and sycophancy to dialogue quality. Howeve...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14414) | [📝 Analysis](43f93150669521bfa5889a9eecc45cd0.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-17 10:24:42 UTC*
