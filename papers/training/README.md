@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Fact4ac at the Financial Misinformation Detection Challenge Task: Reference-Free Financial Misinformation Detection via Fine-Tuning and Few-Shot Prompting of Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-17 | **Authors:** Cuong Hoang, Le-Minh Nguyen
+
+arXiv:2604.14640v1 Announce Type: new 
+Abstract: The proliferation of financial misinformation poses a severe threat to market stability and investor trust, misleading market behavior and creating cri...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14640) | [📝 Analysis](93a34e31fa0b6b373cec39141d6b6e72.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-17 10:24:42 UTC*

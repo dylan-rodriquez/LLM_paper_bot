@@ -703,7 +703,71 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Segment-Level Coherence for Robust Harmful Intent Probing in LLMs",
+      "authors": [
+        "Xuanli He, Bilgehan Sel, Faizan Ali, Jenny Bao, Hoagy Cunningham, Jerry Wei"
+      ],
+      "abstract": "arXiv:2604.14865v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly exposed to adaptive jailbreaking, particularly in high-stakes Chemical, Biological, Radiological, and Nuclear (CBRN) domains. Although streaming probes enable real-time monitoring, they still make systematic errors. We identify a core issue: existing methods often rely on a few high-scoring tokens, leading to false alarms when sensitive CBRN terms appear in benign contexts. To address this, we introduce a streaming probing objective that requires multiple evidence tokens to consistently support a prediction, rather than relying on isolated spikes. This encourages more robust detection based on aggregated signals instead of single-token cues. At a fixed 1% false-positive rate, our method improves the true-positive rate by 35.55% relative to strong streaming baselines. We further observe substantial gains in AUROC, even when starting from near-saturated baseline performance (AUROC = 97.40%). We also show that probing Attention or MLP activations consistently outperforms residual-stream features. Finally, even when adversarial fine-tuning enables novel character-level ciphers, harmful intent remains detectable: probes developed for the base LLMs can be applied ``plug-and-play'' to these obfuscated attacks, achieving an AUROC of over 98.85%.",
+      "url": "https://arxiv.org/abs/2604.14865",
+      "published_date": "2026-04-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "auroc",
+        "llms",
+        "probing",
+        "streaming",
+        "cbrn",
+        "consistently",
+        "false",
+        "harmful",
+        "harmful intent",
+        "high"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper addresses a critical and timely problem \u2013 the robustness of LLM safety probes against adaptive jailbreaking, particularly in high-stakes domains like CBRN. The proposed segment-level coherence approach appears to be a significant improvement over existing streaming methods, demonstrated by substantial gains in true-positive rate and AUROC. While the core idea of requiring multiple supporting tokens isn't entirely novel, its application to this specific problem and the demonstrated performance gains are compelling.",
+      "paper_id": "1228c5de61c1b34332bdcfcfa4896368"
+    },
+    {
+      "title": "The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows",
+      "authors": [
+        "Hyunwoo Kim, Harin Yu, Hanau Yi"
+      ],
+      "abstract": "arXiv:2604.14807v1 Announce Type: cross \nAbstract: The rapid integration of large language models (LLMs) into everyday workflows has transformed how individuals perform cognitive tasks such as writing, programming, analysis, and multilingual communication. While prior research has focused on model reliability, hallucination, and user trust calibration, less attention has been given to how LLM usage reshapes users' perceptions of their own capabilities. This paper introduces the LLM fallacy, a cognitive attribution error in which individuals misinterpret LLM-assisted outputs as evidence of their own independent competence, producing a systematic divergence between perceived and actual capability. We argue that the opacity, fluency, and low-friction interaction patterns of LLMs obscure the boundary between human and machine contribution, leading users to infer competence from outputs rather than from the processes that generate them. We situate the LLM fallacy within existing literature on automation bias, cognitive offloading, and human--AI collaboration, while distinguishing it as a form of attributional distortion specific to AI-mediated workflows. We propose a conceptual framework of its underlying mechanisms and a typology of manifestations across computational, linguistic, analytical, and creative domains. Finally, we examine implications for education, hiring, and AI literacy, and outline directions for empirical validation. We also provide a transparent account of human--AI collaborative methodology. This work establishes a foundation for understanding how generative AI systems not only augment cognitive performance but also reshape self-perception and perceived expertise.",
+      "url": "https://arxiv.org/abs/2604.14807",
+      "published_date": "2026-04-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "cognitive",
+        "llm",
+        "fallacy",
+        "human",
+        "llm fallacy",
+        "workflows",
+        "assisted",
+        "competence",
+        "human ai"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This paper identifies a crucial and previously under-explored issue with LLM integration \u2013 the 'LLM fallacy' \u2013 which has significant implications for how we understand and assess human-AI collaboration. The concept is clearly articulated and grounded in cognitive science, suggesting a rigorous approach. While the abstract doesn't detail the methodology, the problem's relevance and potential impact are high, making it likely to be well-received by the AI community.",
+      "paper_id": "2868fc28aa12ab17bac7e82ed12428b6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-17T10:24:42.994339"
 }

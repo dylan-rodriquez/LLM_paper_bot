@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### Segment-Level Coherence for Robust Harmful Intent Probing in LLMs
+
+**Score:** 92.0 | **Published:** 2026-04-17 | **Authors:** Xuanli He, Bilgehan Sel, Faizan Ali, Jenny Bao, Hoagy Cunningham, Jerry Wei
+
+arXiv:2604.14865v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly exposed to adaptive jailbreaking, particularly in high-stakes Chemical, Biological, Radiological, and Nuc...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14865) | [📝 Analysis](1228c5de61c1b34332bdcfcfa4896368.md)
+
+---
+
+### The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows
+
+**Score:** 92.0 | **Published:** 2026-04-17 | **Authors:** Hyunwoo Kim, Harin Yu, Hanau Yi
+
+arXiv:2604.14807v1 Announce Type: cross 
+Abstract: The rapid integration of large language models (LLMs) into everyday workflows has transformed how individuals perform cognitive tasks such as writing...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14807) | [📝 Analysis](2868fc28aa12ab17bac7e82ed12428b6.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-17 10:24:42 UTC*

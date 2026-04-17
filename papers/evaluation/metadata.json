@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation",
+      "authors": [
+        "Francesco Andrea Causio, Vittorio De Vita, Olivia Riccomi, Michele Ferramola, Federico Felizzi, Antonio Cristiano, Lorenzo De Mori, Chiara Battipaglia, Melissa Sawaya, Luigi De Angelis, Marcello Di Pumpo, Alessandra Piscitelli, Pietro Eric Risuleo, Alessia Longo, Giulia Vojvodic, Mariapia Vassalli, Bianca Destro Castaniti, Nicol\\`o Scarsi, Manuel Del Medico"
+      ],
+      "abstract": "arXiv:2604.14306v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) have demonstrated high proficiency on English-centric medical examinations, their performance often declines when faced with non-English languages and multimodal diagnostic tasks. This study protocol describes the development of EuropeMedQA, the first comprehensive, multilingual, and multimodal medical examination dataset sourced from official regulatory exams in Italy, France, Spain, and Portugal. Following FAIR data principles and SPIRIT-AI guidelines, we describe a rigorous curation process and an automated translation pipeline for comparative analysis. We evaluate contemporary multimodal LLMs using a zero-shot, strictly constrained prompting strategy to assess cross-lingual transfer and visual reasoning. EuropeMedQA aims to provide a contamination-resistant benchmark that reflects the complexity of European clinical practices and fosters the development of more generalizable medical AI.",
+      "url": "https://arxiv.org/abs/2604.14306",
+      "published_date": "2026-04-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "multimodal",
+        "europemedqa",
+        "ai",
+        "dataset",
+        "development",
+        "english",
+        "examination",
+        "examination dataset",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This study protocol addresses a crucial gap in LLM evaluation \u2013 the lack of robust multilingual and multimodal medical datasets. The focus on regulatory exams from multiple European countries and adherence to FAIR/SPIRIT-AI guidelines demonstrate a strong methodological approach. The potential to create a contamination-resistant benchmark is particularly valuable, and the zero-shot evaluation strategy is a sensible starting point. The high sentiment score reflects the current research trend towards more generalizable and reliable medical AI.",
+      "paper_id": "7fc9f3d6166293c825e0d6dceb32763e"
+    },
+    {
+      "title": "CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification",
+      "authors": [
+        "Yian Wang, Yuen Chen, Agam Goyal, Hari Sundaram"
+      ],
+      "abstract": "arXiv:2604.14602v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently generate toxic content, posing significant risks for safe deployment. Current mitigation strategies often degrade generation quality or require costly human annotation. We propose CAUSALDETOX, a framework that identifies and intervenes on the specific attention heads causally responsible for toxic generation. Using the Probability of Necessity and Sufficiency (PNS), we isolate a minimal set of heads that are necessary and sufficient for toxicity. We utilize these components via two complementary strategies: (1) Local Inference-Time Intervention, which constructs dynamic, input-specific steering vectors for context-aware detoxification, and (2) PNS-Guided Fine-Tuning, which permanently unlearns toxic representations. We also introduce PARATOX, a novel benchmark of aligned toxic/non-toxic sentence pairs enabling controlled counterfactual evaluation. Experiments on ToxiGen, ImplicitHate, and ParaDetox show that CAUSALDETOX achieves up to 5.34% greater toxicity reduction compared to baselines while preserving linguistic fluency, and offers a 7x speedup in head selection.",
+      "url": "https://arxiv.org/abs/2604.14602",
+      "published_date": "2026-04-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "toxic",
+        "causaldetox",
+        "detoxification",
+        "generation",
+        "head",
+        "head selection",
+        "heads",
+        "intervention",
+        "language",
+        "pns"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 toxicity \u2013 with a novel causal approach. The use of PNS for head selection and the two-pronged intervention strategy (inference-time and fine-tuning) are well-conceived. The introduction of PARATOX as a benchmark is also a strong point, enabling more rigorous evaluation of detoxification methods. While the approach builds on existing concepts like attention head analysis, the causal framing and combined intervention strategies represent a significant step forward.",
+      "paper_id": "db60c691bd080c14dc412314da878e29"
+    },
+    {
+      "title": "The Autocorrelation Blind Spot: Why 42% of Turn-Level Findings in LLM Conversation Analysis May Be Spurious",
+      "authors": [
+        "Ferdinand M. Schessl"
+      ],
+      "abstract": "arXiv:2604.14414v1 Announce Type: new \nAbstract: Turn-level metrics are widely used to evaluate properties of multi-turn human-LLM conversations, from safety and sycophancy to dialogue quality. However, consecutive turns within a conversation are not statistically independent -- a fact that virtually all current evaluation pipelines fail to correct for in their statistical inference. We systematically characterize the autocorrelation structure of 66 turn-level metrics across 202 multi-turn conversations (11,639 turn pairs, 5 German-speaking users, 4 LLM platforms) and demonstrate that naive pooled analysis produces severely inflated significance estimates: 42% of associations that appear significant under standard pooled testing fail to survive cluster-robust correction. The inflation varies substantially across categories rather than scaling linearly with autocorrelation: three memoryless families (embedding velocity, directional, differential) aggregate to 14%, while the seven non-memoryless families (thermo-cycle, frame distance, lexical/structural, rolling windows, cumulative, interaction, timestamp) aggregate to 33%, with individual category rates ranging from 0% to 100% depending on per-family effect size. We present a two-stage correction framework combining Chelton (1983) effective degrees of freedom with conversation-level block bootstrap, and validate it on a pre-registered hold-out split where cluster-robust metrics replicate at 57% versus 30% for pooled-only metrics. We provide concrete design principles, a publication checklist, and open-source code for the correction pipeline. A survey of ~30 recent papers at major NLP and AI venues that compute turn-level statistics in LLM evaluations finds that only 4 address temporal dependence at all, and 26 do not correct for it.",
+      "url": "https://arxiv.org/abs/2604.14414",
+      "published_date": "2026-04-17T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "turn",
+        "level",
+        "llm",
+        "metrics",
+        "turn level",
+        "autocorrelation",
+        "conversation",
+        "correction",
+        "pooled",
+        "30"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical, often overlooked issue in LLM evaluation \u2013 the violation of statistical independence in conversational data. The systematic characterization of autocorrelation across numerous metrics and the demonstration of inflated significance estimates are compelling. The finding that a substantial portion of reported results may be spurious has significant implications for the field, and the cluster-robust correction offers a practical solution. The high sentiment score reflects the relevance to current concerns about LLM evaluation reliability.",
+      "paper_id": "43f93150669521bfa5889a9eecc45cd0"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-17T10:24:42.990453"
 }
