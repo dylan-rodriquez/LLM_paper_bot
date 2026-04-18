@@ -2,7 +2,29 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (24 total)
+
+### BitFlipScope: Scalable Fault Localization and Recovery for Bit-Flip Corruptions in LLMs
+
+**Score:** 92.0 | **Published:** 2026-04-18 | **Authors:** Muhammad Zeeshan Karamat, Sadman Saif, Christiana Chamon Garcia
+
+arXiv:2512.22174v2 Announce Type: cross 
+Abstract: Large Language Models (LLMs) deployed in practical and safety-critical settings are increasingly susceptible to bit-flip faults caused by hardware de...
+
+[📄 Full Paper](https://arxiv.org/abs/2512.22174) | [📝 Analysis](f9f866f2ed58a9f45ba4690327ef4515.md)
+
+---
+
+### Explainable Graph Neural Networks for Interbank Contagion Surveillance: A Regulatory-Aligned Framework for the U.S. Banking Sector
+
+**Score:** 90.0 | **Published:** 2026-04-18 | **Authors:** Mohammad Nasir Uddin
+
+arXiv:2604.14232v1 Announce Type: new 
+Abstract: The Spatial-Temporal Graph Attention Network (ST-GAT) framework was created to serve as an explainable GNN-based solution for detecting bank distress e...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14232) | [📝 Analysis](82d8094b06c00955b2a5fb2bb13ebf52.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +269,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-18 09:56:36 UTC*

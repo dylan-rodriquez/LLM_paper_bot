@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "TOPCELL: Topology Optimization of Standard Cell via LLMs",
+      "authors": [
+        "Zhan Song, Yu-Tung Liu, Chen Chen, Guoheng Sun, Jiaqi Yin, Chia-tung Ho, Ang Li, Haoxing Ren, Cunxi Yu"
+      ],
+      "abstract": "arXiv:2604.14237v1 Announce Type: new \nAbstract: Transistor topology optimization is a critical step in standard cell design, directly dictating diffusion sharing efficiency and downstream routability. However, identifying optimal topologies remains a persistent bottleneck, as conventional exhaustive search methods become computationally intractable with increasing circuit complexity in advanced nodes. This paper introduces TOPCELL, a novel and scalable framework that reformulates high-dimensional topology exploration as a generative task using Large Language Models (LLMs). We employ Group Relative Policy Optimization (GRPO) to fine-tune the model, aligning its topology optimization strategy with logical (circuit) and spatial (layout) constraints. Experimental results within an industrial flow targeting an advanced 2nm technology node demonstrate that TOPCELL significantly outperforms foundation models in discovering routable, physically-aware topologies. When integrated into a state-of-the-art (SOTA) automation flow for a 7nm library generation task, TOPCELL exhibits robust zero-shot generalization and matches the layout quality of exhaustive solvers while achieving an 85.91x speedup.",
+      "url": "https://arxiv.org/abs/2604.14237",
+      "published_date": "2026-04-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "optimization",
+        "topcell",
+        "topology",
+        "topology optimization",
+        "advanced",
+        "cell",
+        "circuit",
+        "exhaustive",
+        "flow",
+        "layout"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial bottleneck in standard cell design \u2013 topology optimization \u2013 with a novel approach using LLMs. The application of LLMs to a traditionally optimization-focused problem is innovative, and the use of GRPO to align the model with both logical and spatial constraints is a strong methodological choice. The reported performance gains at the 2nm node suggest significant practical potential, and the focus on routability is particularly valuable.",
+      "paper_id": "3d442ab800dc09ad2d831154218a4823"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-18T09:56:36.041116"
 }

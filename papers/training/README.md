@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### TOPCELL: Topology Optimization of Standard Cell via LLMs
+
+**Score:** 90.0 | **Published:** 2026-04-18 | **Authors:** Zhan Song, Yu-Tung Liu, Chen Chen, Guoheng Sun, Jiaqi Yin, Chia-tung Ho, Ang Li, Haoxing Ren, Cunxi Yu
+
+arXiv:2604.14237v1 Announce Type: new 
+Abstract: Transistor topology optimization is a critical step in standard cell design, directly dictating diffusion sharing efficiency and downstream routability...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14237) | [📝 Analysis](3d442ab800dc09ad2d831154218a4823.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-18 09:56:36 UTC*

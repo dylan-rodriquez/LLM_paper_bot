@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Thermodynamic Diffusion Inference with Minimal Digital Conditioning",
+      "authors": [
+        "Aditi De"
+      ],
+      "abstract": "arXiv:2604.14332v1 Announce Type: new \nAbstract: Diffusion-model inference and overdamped Langevin dynamics are formally identical. A physical substrate that encodes the score function therefore equilibrates to the correct output by thermodynamics alone, requiring no digital arithmetic during inference and potentially achieving a $10{,}000\\times$ reduction in energy relative to a GPU. Two fundamental barriers have until now prevented this equivalence from being realized at production scale: non-local skip connections, which locally coupled analog substrates cannot represent, and input conditioning, in which the coupling constants carry roughly $2{,}600\\times$ too little signal to anchor the system to a specific input.\n  We resolve both obstacles. \\emph{Hierarchical bilinear coupling} encodes U-Net skip connections as rank-$k$ inter-module interactions derived directly from the singular structure of the encoder and decoder Gram matrices, requiring only $O(Dk)$ physical connections instead of $O(D^2)$. A \\emph{minimal digital interface} -- a 4-dimensional bottleneck encoder together with a 16-unit transfer network, totalling \\textbf{2,560 parameters} -- overcomes the conditioning barrier. When evaluated on activations drawn from a trained denoising U-Net, the complete system attains a decoder cosine similarity of \\textbf{0.9906} against an oracle upper bound of 1.0000, while preserving theoretical net energy savings of approximately $10^7\\times$ over GPU inference. These results constitute the first demonstration of trained-weight, production-scale thermodynamic diffusion inference.",
+      "url": "https://arxiv.org/abs/2604.14332",
+      "published_date": "2026-04-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 88,
+      "impact_score": 89,
+      "sentiment_score": 80,
+      "keywords": [
+        "inference",
+        "conditioning",
+        "connections",
+        "diffusion",
+        "digital",
+        "net",
+        "times",
+        "10",
+        "coupling",
+        "decoder"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a significant bottleneck in diffusion model inference \u2013 computational cost \u2013 by leveraging a thermodynamic interpretation. The proposed solutions for skip connections and input conditioning appear novel and potentially impactful, offering a path towards drastically more efficient inference. While the abstract is concise, the claims are bold and suggest a strong methodological foundation, warranting further investigation.",
+      "paper_id": "8efd54913a5d131df998226278bf798c"
+    },
+    {
+      "title": "Polyformer: a generative framework for thermodynamic modeling of polymeric molecules",
+      "authors": [
+        "Alessio Valentini, David Pekker, Chungwen Liang, Todd Martinez, Swagatam Mukhopadhyay"
+      ],
+      "abstract": "arXiv:2604.14241v1 Announce Type: cross \nAbstract: The classic paradigm of structural biology is that the sequence of a biomolecule (protein, nucleic acid, lipid, etc) determines its conformation (shape) which determines its biological function. Protein folding programs like AlphaFold address this paradigm by predicting the single best conformation given a sequence that defines the molecule. However, biomolecules are not static structures, and their conformational ensemble determines their function. We present the Polyformer -- a generative framework for thermodynamic modeling of polymeric molecules. Given the sequence and temperature (or another thermodynamic variable), the Polyformer generates conformations faithful to the molecule's thermodynamic conformational ensemble. It is the first generative model that solves three problems simultaneously: how does a molecule fold, what is its conformational ensemble, and how does the conformational ensemble change as we change physical temperature. As a concrete test case, we apply Polyformer to protein domains with 50-111 residues and report good agreement of model predictions to Molecular Dynamics (MD) trajectories.",
+      "url": "https://arxiv.org/abs/2604.14241",
+      "published_date": "2026-04-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "q-bio.BM"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "conformational",
+        "conformational ensemble",
+        "ensemble",
+        "polyformer",
+        "thermodynamic",
+        "determines",
+        "generative",
+        "molecule",
+        "protein",
+        "sequence"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a fundamental challenge in biomolecular modeling \u2013 moving beyond static structures to dynamic ensembles. The development of 'Polyformer' as a generative model tackling folding, ensemble generation, and temperature-dependent conformational changes simultaneously is a significant advancement. The abstract clearly articulates the problem and the proposed solution, suggesting a rigorous and well-defined approach. The potential for impact in drug discovery and understanding biomolecular function is substantial.",
+      "paper_id": "253e167b7a300f3d3e2a8045be1de97f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-18T09:56:36.043468"
 }

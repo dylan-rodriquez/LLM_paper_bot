@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "Towards Verified and Targeted Explanations through Formal Methods",
+      "authors": [
+        "Hanchen David Wang, Diego Manzanas Lopez, Preston K. Robinette, Ipek Oguz, Taylor T. Johnson, Meiyi Ma"
+      ],
+      "abstract": "arXiv:2604.14209v1 Announce Type: new \nAbstract: As deep neural networks are deployed in safety-critical domains such as autonomous driving and medical diagnosis, stakeholders need explanations that are interpretable but also trustworthy with formal guarantees. Existing XAI methods fall short: heuristic attribution techniques (e.g., LIME, Integrated Gradients) highlight influential features but offer no mathematical guarantees about decision boundaries, while formal methods verify robustness yet remain untargeted, analyzing the nearest boundary regardless of whether it represents a critical risk. In safety-critical systems, not all misclassifications carry equal consequences; confusing a \"Stop\" sign for a \"60 kph\" sign is far more dangerous than confusing it with a \"No Passing\" sign. We introduce ViTaX (Verified and Targeted Explanations), a formal XAI framework that generates targeted semifactual explanations with mathematical guarantees. For a given input (class y) and a user-specified critical alternative (class t), ViTaX: (1) identifies the minimal feature subset most sensitive to the y->t transition, and (2) applies formal reachability analysis to guarantee that perturbing these features by epsilon cannot flip the classification to t. We formalize this through Targeted epsilon-Robustness, certifying whether a feature subset remains robust under perturbation toward a specific target class. ViTaX is the first method to provide formally guaranteed explanations of a model's resilience against user-identified alternatives. Evaluations on MNIST, GTSRB, EMNIST, and TaxiNet demonstrate over 30% fidelity improvement with minimal explanation cardinality.",
+      "url": "https://arxiv.org/abs/2604.14209",
+      "published_date": "2026-04-18T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "explanations",
+        "formal",
+        "critical",
+        "targeted",
+        "class",
+        "guarantees",
+        "methods",
+        "sign",
+        "vitax",
+        "class vitax"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper addresses a crucial gap in XAI \u2013 the lack of formal guarantees and targeted explanations in safety-critical applications. The introduction of ViTaX, aiming for mathematically verifiable and context-aware explanations, is a strong step forward. While the abstract doesn't detail the technical implementation, the problem framing and proposed solution are compelling and well-motivated, suggesting a high-quality research effort.",
+      "paper_id": "1ab2a853db3c6d6c2803174a09f30ea6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-04-18T09:56:36.038258"
 }
