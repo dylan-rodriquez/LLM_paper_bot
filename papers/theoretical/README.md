@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Towards Verified and Targeted Explanations through Formal Methods
+
+**Score:** 92.0 | **Published:** 2026-04-18 | **Authors:** Hanchen David Wang, Diego Manzanas Lopez, Preston K. Robinette, Ipek Oguz, Taylor T. Johnson, Meiyi Ma
+
+arXiv:2604.14209v1 Announce Type: new 
+Abstract: As deep neural networks are deployed in safety-critical domains such as autonomous driving and medical diagnosis, stakeholders need explanations that a...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14209) | [📝 Analysis](1ab2a853db3c6d6c2803174a09f30ea6.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-18 09:56:36 UTC*

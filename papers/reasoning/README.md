@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Thermodynamic Diffusion Inference with Minimal Digital Conditioning
+
+**Score:** 92.0 | **Published:** 2026-04-18 | **Authors:** Aditi De
+
+arXiv:2604.14332v1 Announce Type: new 
+Abstract: Diffusion-model inference and overdamped Langevin dynamics are formally identical. A physical substrate that encodes the score function therefore equil...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14332) | [📝 Analysis](8efd54913a5d131df998226278bf798c.md)
+
+---
+
+### Polyformer: a generative framework for thermodynamic modeling of polymeric molecules
+
+**Score:** 92.0 | **Published:** 2026-04-18 | **Authors:** Alessio Valentini, David Pekker, Chungwen Liang, Todd Martinez, Swagatam Mukhopadhyay
+
+arXiv:2604.14241v1 Announce Type: cross 
+Abstract: The classic paradigm of structural biology is that the sequence of a biomolecule (protein, nucleic acid, lipid, etc) determines its conformation (sha...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14241) | [📝 Analysis](253e167b7a300f3d3e2a8045be1de97f.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-18 09:56:36 UTC*
