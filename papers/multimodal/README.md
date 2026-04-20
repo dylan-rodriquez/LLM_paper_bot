@@ -2,7 +2,40 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (15 total)
+
+### Is this chart lying to me? Automating the detection of misleading visualizations
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Jonathan Tonglet, Jan Zimny, Tinne Tuytelaars, Iryna Gurevych
+
+arXiv:2508.21675v3 Announce Type: replace 
+Abstract: Misleading visualizations are a potent driver of misinformation on social media and the web. By violating chart design principles, they distort dat...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.21675) | [📝 Analysis](95de06776a3b3cca1c21174af0992e4f.md)
+
+---
+
+### Qwen3.5-Omni Technical Report
+
+**Score:** 90.0 | **Published:** 2026-04-20 | **Authors:** Qwen Team
+
+arXiv:2604.15804v1 Announce Type: new 
+Abstract: In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model family. Representing a significant evolution over its predecessor,...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.15804) | [📝 Analysis](c602daf0df3629d0870915a4c4a32e3e.md)
+
+---
+
+### Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap
+
+**Score:** 90.0 | **Published:** 2026-04-20 | **Authors:** Yige Xu, Yongjie Wang, Zizhuo Wu, Kaisong Song, Jun Lin, Zhiqi Shen
+
+arXiv:2604.16256v1 Announce Type: cross 
+Abstract: Reasoning in vision-language models (VLMs) has recently attracted significant attention due to its broad applicability across diverse downstream task...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16256) | [📝 Analysis](16287b0e8c928f6a1ffec0f28a1ebbae.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +170,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*

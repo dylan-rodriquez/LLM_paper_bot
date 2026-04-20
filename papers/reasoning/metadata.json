@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "OjaKV: Context-Aware Online Low-Rank KV Cache Compression",
+      "authors": [
+        "Yuxuan Zhu, David H. Yang, Mohammad Mohammadi Amiri, Keerthiram Murugesan, Tejaswini Pedapati, Pin-Yu Chen"
+      ],
+      "abstract": "arXiv:2509.21623v2 Announce Type: replace \nAbstract: The expanding long-context capabilities of large language models are constrained by a significant memory bottleneck: the key-value (KV) cache required for autoregressive generation. This bottleneck is substantial; for instance, a Llama-3.1-8B model processing a 32K-token prompt at a batch size of 4 requires approximately 16GB for its KV cache, a size exceeding the model's weights. While KV-cache compression via low-rank projection is a promising direction, existing methods rely on a static, offline-learned subspace that performs poorly under data distribution shifts. To overcome these limitations, we introduce OjaKV, a novel framework that integrates a strategic hybrid storage policy with online subspace adaptation. First, OjaKV recognizes that not all tokens are equally important for compression; it preserves the crucial first and most recent tokens in full-rank, maintaining high-fidelity anchors for attention. Second, for the vast majority of intermediate tokens, it applies low-rank compression by incrementally adapting the projection basis using Oja's algorithm for online principal component analysis. This adaptation involves a comprehensive update during prompt prefilling and lightweight periodic updates during decoding, ensuring the subspace remains aligned with the evolving context. Crucially, our framework is fully compatible with modern attention modules like FlashAttention. Experiments demonstrate that OjaKV maintains or even improves zero-shot accuracy at high compression ratios. In particular, OjaKV achieves its strongest gains on very long-context benchmarks that require complex reasoning, highlighting the importance of online subspace adaptation in dynamically tracking context shifts. These results establish our hybrid framework as a practical, plug-and-play solution for memory-efficient long-context inference without requiring model fine-tuning.",
+      "url": "https://arxiv.org/abs/2509.21623",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "context",
+        "compression",
+        "ojakv",
+        "cache",
+        "kv",
+        "kv cache",
+        "online",
+        "rank",
+        "subspace",
+        "adaptation"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a critical bottleneck in LLM scaling \u2013 KV cache size \u2013 with a novel approach combining strategic storage and online adaptation. The recognition that not all tokens require full precision for compression is a strong point, and the hybrid storage policy seems well-motivated. While low-rank compression isn't entirely new, the online adaptation aspect and focus on preserving key tokens represent a significant improvement over static methods, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "a1a46d63b9887677a2341781fbd40527"
+    },
+    {
+      "title": "Curing Miracle Steps in LLM Mathematical Reasoning with Rubric Rewards",
+      "authors": [
+        "Youliang Yuan, Qiuyang Mang, Jingbang Chen, Hong Wan, Xiaoyuan Liu, Junjielong Xu, Jen-tse Huang, Wenxuan Wang, Wenxiang Jiao, Pinjia He"
+      ],
+      "abstract": "arXiv:2510.07774v3 Announce Type: replace \nAbstract: In this paper, we observe that current models are susceptible to reward hacking, leading to a substantial overestimation of a model's reasoning ability. This is evidenced by a high incidence of false positives-solutions that reach the correct answer through an unsound process. Through a systematic analysis with human verification, we establish a taxonomy of these failure modes, identifying patterns like Miracle Steps-abrupt jumps to a correct output without a valid preceding derivation. Probing experiments suggest that these Miracle Steps are linked to answer-recall shortcuts, including memorization from pretraining, where the model accesses the correct answer independently of its reasoning chain. To mitigate this systemic issue, we introduce the Rubric Reward Model (RRM), a process-oriented reward function that evaluates the entire reasoning trajectory against problem-specific rubrics. The RRM explicitly penalizes logical flaws and encourages rigorous deduction. When integrated into an RL pipeline, RRM-based training consistently outperforms outcome-only supervision across four math benchmarks. Notably, it boosts Verified Pass@1024 on AIME2024 from 26.7% to 62.6% and reduces the incidence of Miracle Steps by 71%. Our work demonstrates that rewarding the solution process is crucial for building accurate and reliable models.",
+      "url": "https://arxiv.org/abs/2510.07774",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "miracle",
+        "miracle steps",
+        "reasoning",
+        "steps",
+        "answer",
+        "correct",
+        "model",
+        "process",
+        "reward",
+        "rrm"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in LLM evaluation \u2013 the prevalence of 'miracle steps' and reward hacking that inflate performance metrics. The systematic analysis and taxonomy of failure modes are strong contributions, and the proposed Rubric Reward Model (RRM) offers a promising approach to more robust evaluation. While the RRM itself may not be entirely novel in the concept of rubric-based rewards, its specific application to address miracle steps is a valuable advancement.",
+      "paper_id": "f303cb6818f935726548b9fe66b7ca1d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-20T10:44:09.420388"
 }

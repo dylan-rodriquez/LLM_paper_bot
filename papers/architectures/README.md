@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Towards Intrinsic Interpretability of Large Language Models:A Survey of Design Principles and Architectures
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Yutong Gao, Qinglin Meng, Yuan Zhou, Liangming Pan
+
+arXiv:2604.16042v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) have achieved strong performance across many NLP tasks, their opaque internal mechanisms hinder trustworthiness and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16042) | [📝 Analysis](1025720f181efa38694e48272471cf3f.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*

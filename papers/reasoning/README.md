@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### OjaKV: Context-Aware Online Low-Rank KV Cache Compression
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Yuxuan Zhu, David H. Yang, Mohammad Mohammadi Amiri, Keerthiram Murugesan, Tejaswini Pedapati, Pin-Yu Chen
+
+arXiv:2509.21623v2 Announce Type: replace 
+Abstract: The expanding long-context capabilities of large language models are constrained by a significant memory bottleneck: the key-value (KV) cache requi...
+
+[📄 Full Paper](https://arxiv.org/abs/2509.21623) | [📝 Analysis](a1a46d63b9887677a2341781fbd40527.md)
+
+---
+
+### Curing Miracle Steps in LLM Mathematical Reasoning with Rubric Rewards
+
+**Score:** 90.0 | **Published:** 2026-04-20 | **Authors:** Youliang Yuan, Qiuyang Mang, Jingbang Chen, Hong Wan, Xiaoyuan Liu, Junjielong Xu, Jen-tse Huang, Wenxuan Wang, Wenxiang Jiao, Pinjia He
+
+arXiv:2510.07774v3 Announce Type: replace 
+Abstract: In this paper, we observe that current models are susceptible to reward hacking, leading to a substantial overestimation of a model's reasoning abi...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.07774) | [📝 Analysis](f303cb6818f935726548b9fe66b7ca1d.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*

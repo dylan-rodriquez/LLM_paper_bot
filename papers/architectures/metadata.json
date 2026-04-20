@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Towards Intrinsic Interpretability of Large Language Models:A Survey of Design Principles and Architectures",
+      "authors": [
+        "Yutong Gao, Qinglin Meng, Yuan Zhou, Liangming Pan"
+      ],
+      "abstract": "arXiv:2604.16042v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) have achieved strong performance across many NLP tasks, their opaque internal mechanisms hinder trustworthiness and safe deployment. Existing surveys in explainable AI largely focus on post-hoc explanation methods that interpret trained models through external approximations. In contrast, intrinsic interpretability, which builds transparency directly into model architectures and computations, has recently emerged as a promising alternative. This paper presents a systematic review of the recent advances in intrinsic interpretability for LLMs, categorizing existing approaches into five design paradigms: functional transparency, concept alignment, representational decomposability, explicit modularization, and latent sparsity induction. We further discuss open challenges and outline future research directions in this emerging field. The paper list is available at: https://github.com/PKU-PILLAR-Group/Survey-Intrinsic-Interpretability-of-LLMs.",
+      "url": "https://arxiv.org/abs/2604.16042",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "interpretability",
+        "intrinsic",
+        "intrinsic interpretability",
+        "llms",
+        "models",
+        "architectures",
+        "design",
+        "existing",
+        "interpretability llms",
+        "language"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This survey addresses a crucial and timely problem in the LLM field \u2013 the lack of interpretability. The categorization into five design paradigms provides a valuable framework for understanding current approaches to intrinsic interpretability. While surveys are inherently less 'innovative' than novel methods, this one appears well-structured and comprehensive, promising a positive reception within the community.",
+      "paper_id": "1025720f181efa38694e48272471cf3f"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-20T10:44:09.418543"
 }

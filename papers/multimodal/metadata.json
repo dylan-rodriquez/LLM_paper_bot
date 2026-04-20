@@ -383,7 +383,103 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Is this chart lying to me? Automating the detection of misleading visualizations",
+      "authors": [
+        "Jonathan Tonglet, Jan Zimny, Tinne Tuytelaars, Iryna Gurevych"
+      ],
+      "abstract": "arXiv:2508.21675v3 Announce Type: replace \nAbstract: Misleading visualizations are a potent driver of misinformation on social media and the web. By violating chart design principles, they distort data and lead readers to draw inaccurate conclusions. Prior work has shown that both humans and multimodal large language models (MLLMs) are frequently deceived by such visualizations. Automatically detecting misleading visualizations and identifying the specific design rules they violate could help protect readers and reduce the spread of misinformation. However, the training and evaluation of AI models has been limited by the absence of large, diverse, and openly available datasets. In this work, we introduce Misviz, a benchmark of 2,604 real-world visualizations annotated with 12 types of misleaders. To support model training, we also create Misviz-synth, a synthetic dataset of 57,665 visualizations generated using Matplotlib and based on real-world data tables. We perform a comprehensive evaluation on both datasets using state-of-the-art MLLMs, rule-based systems, and image-axis classifiers. Our results reveal that the task remains highly challenging. We release Misviz, Misviz-synth, and the accompanying code.",
+      "url": "https://arxiv.org/abs/2508.21675",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "visualizations",
+        "misviz",
+        "misleading",
+        "misleading visualizations",
+        "based",
+        "chart",
+        "data",
+        "datasets",
+        "design",
+        "evaluation"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a highly significant problem \u2013 the detection of misleading visualizations, which is crucial in combating misinformation. The creation of both a real-world (Misviz) and synthetic (Misviz-synth) dataset is a substantial contribution, overcoming a key limitation in the field. While the approach of using datasets for training AI models isn't entirely novel, the specific focus on misleading visualizations and the scale of the datasets are strong points, suggesting a high likelihood of positive reception within the community.",
+      "paper_id": "95de06776a3b3cca1c21174af0992e4f"
+    },
+    {
+      "title": "Qwen3.5-Omni Technical Report",
+      "authors": [
+        "Qwen Team"
+      ],
+      "abstract": "arXiv:2604.15804v1 Announce Type: new \nAbstract: In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model family. Representing a significant evolution over its predecessor, Qwen3.5-Omni scales to hundreds of billions of parameters and supports a 256k context length. By leveraging a massive dataset comprising heterogeneous text-vision pairs and over 100 million hours of audio-visual content, the model demonstrates robust omni-modality capabilities. Qwen3.5-Omni-plus achieves SOTA results across 215 audio and audio-visual understanding, reasoning, and interaction subtasks and benchmarks, surpassing Gemini-3.1 Pro in key audio tasks and matching it in comprehensive audio-visual understanding. Architecturally, Qwen3.5-Omni employs a Hybrid Attention Mixture-of-Experts (MoE) framework for both Thinker and Talker, enabling efficient long-sequence inference. The model facilitates sophisticated interaction, supporting over 10 hours of audio understanding and 400 seconds of 720P video (at 1 FPS). To address the inherent instability and unnaturalness in streaming speech synthesis, often caused by encoding efficiency discrepancies between text and speech tokenizers, we introduce ARIA. ARIA dynamically aligns text and speech units, significantly enhancing the stability and prosody of conversational speech with minimal latency impact. Furthermore, Qwen3.5-Omni expands linguistic boundaries, supporting multilingual understanding and speech generation across 10 languages with human-like emotional nuance. Finally, Qwen3.5-Omni exhibits superior audio-visual grounding capabilities, generating script-level structured captions with precise temporal synchronization and automated scene segmentation. Remarkably, we observed the emergence of a new capability in omnimodal models: directly performing coding based on audio-visual instructions, which we call Audio-Visual Vibe Coding.",
+      "url": "https://arxiv.org/abs/2604.15804",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 92,
+      "keywords": [
+        "audio",
+        "omni",
+        "qwen3",
+        "qwen3 omni",
+        "audio visual",
+        "visual",
+        "speech",
+        "understanding",
+        "model",
+        "text"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper presents a significant advancement in multimodal AI with Qwen3.5-Omni, achieving state-of-the-art results in audio-visual tasks and surpassing Gemini-3.1 Pro in key areas. The use of a Hybrid Attention Mixture-of-Experts (MoE) framework and a massive, diverse dataset are strong methodological choices. The reported performance and scale suggest a high potential for impact and positive reception within the research community.",
+      "paper_id": "c602daf0df3629d0870915a4c4a32e3e"
+    },
+    {
+      "title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "authors": [
+        "Yige Xu, Yongjie Wang, Zizhuo Wu, Kaisong Song, Jun Lin, Zhiqi Shen"
+      ],
+      "abstract": "arXiv:2604.16256v1 Announce Type: cross \nAbstract: Reasoning in vision-language models (VLMs) has recently attracted significant attention due to its broad applicability across diverse downstream tasks. However, it remains unclear whether the superior performance of VLMs stems from genuine vision-grounded reasoning or relies predominantly on the reasoning capabilities of their textual backbones. To systematically measure this, we introduce CrossMath, a novel multimodal reasoning benchmark designed for controlled cross-modal comparisons. Specifically, we construct each problem in text-only, image-only, and image+text formats guaranteeing identical task-relevant information, verified by human annotators. This rigorous alignment effectively isolates modality-specific reasoning differences while eliminating confounding factors such as information mismatch. Extensive evaluation of state-of-the-art VLMs reveals a consistent phenomenon: a substantial performance gap between textual and visual reasoning. Notably, VLMs excel with text-only inputs, whereas incorporating visual data (image+text) frequently degrades performance compared to the text-only baseline. These findings indicate that current VLMs conduct reasoning primarily in the textual space, with limited genuine reliance on visual evidence. To mitigate this limitation, we curate a CrossMath training set for VLM fine-tuning. Empirical evaluations demonstrate that fine-tuning on this training set significantly boosts reasoning performance across all individual and joint modalities, while yielding robust gains on two general visual reasoning tasks. Source code is available at https://github.com/xuyige/CrossMath.",
+      "url": "https://arxiv.org/abs/2604.16256",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CV"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "reasoning",
+        "text",
+        "vlms",
+        "performance",
+        "vision",
+        "visual",
+        "crossmath",
+        "image",
+        "textual",
+        "cross"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper tackles a crucial question regarding the true reasoning capabilities of VLMs, moving beyond simply observing performance. The introduction of CrossMath, a rigorously designed benchmark with controlled modality variations, is a strong methodological contribution. The potential to disentangle textual and visual reasoning is highly valuable, and the findings regarding performance gaps are likely to be impactful within the VLM community. The clear focus and controlled experimental setup suggest a high-quality study.",
+      "paper_id": "16287b0e8c928f6a1ffec0f28a1ebbae"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-20T10:44:09.417502"
 }

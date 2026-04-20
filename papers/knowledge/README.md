@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents
+
+**Score:** 90.0 | **Published:** 2026-04-20 | **Authors:** Xing Zhang, Guanghui Wang, Yanwei Cui, Wei Qiu, Ziyuan Li, Bing Zhu, Peiyang He
+
+arXiv:2604.15877v1 Announce Type: cross 
+Abstract: As LLM agents scale to long-horizon, multi-session deployments, efficiently managing accumulated experience becomes a critical bottleneck. Agent memo...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.15877) | [📝 Analysis](c78842ff32443680d0deacd626e5072b.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*
