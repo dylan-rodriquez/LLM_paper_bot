@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### MemEvoBench: Benchmarking Memory MisEvolution in LLM Agents
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Weiwei Xie, Shaoxiong Guo, Fan Zhang, Tian Xia, Xue Yang, Lizhuang Ma, Junchi Yan, Qibing Ren
+
+arXiv:2604.15774v1 Announce Type: new 
+Abstract: Equipping Large Language Models (LLMs) with persistent memory enhances interaction continuity and personalization but introduces new safety risks. Spec...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.15774) | [📝 Analysis](36699858f8ec8fca859e967b00851843.md)
+
+---
+
+### Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Nicol\`o Pagan, Christopher Barrie, Chris Andrew Bail, Petter T\"ornberg
+
+arXiv:2604.15937v1 Announce Type: cross 
+Abstract: Large Language Models (LLMs) are increasingly deployed to curate and rank human-created content, yet the nature and structure of their biases in thes...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.15937) | [📝 Analysis](7b93d4d95f4fdb1e578d43fe7a0bc10d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*

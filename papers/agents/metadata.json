@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "LLMs Corrupt Your Documents When You Delegate",
+      "authors": [
+        "Philippe Laban, Tobias Schnabel, Jennifer Neville"
+      ],
+      "abstract": "arXiv:2604.15597v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task without introducing errors into documents. We introduce DELEGATE-52 to study the readiness of AI systems in delegated workflows. DELEGATE-52 simulates long delegated workflows that require in-depth document editing across 52 professional domains, such as coding, crystallography, and music notation. Our large-scale experiment with 19 LLMs reveals that current models degrade documents during delegation: even frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) corrupt an average of 25% of document content by the end of long workflows, with other models failing more severely. Additional experiments reveal that agentic tool use does not improve performance on DELEGATE-52, and that degradation severity is exacerbated by document size, length of interaction, or presence of distractor files. Our analysis shows that current LLMs are unreliable delegates: they introduce sparse but severe errors that silently corrupt documents, compounding over long interaction.",
+      "url": "https://arxiv.org/abs/2604.15597",
+      "published_date": "2026-04-20T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "52",
+        "delegate",
+        "documents",
+        "llms",
+        "models",
+        "corrupt",
+        "delegate 52",
+        "delegated",
+        "document",
+        "interaction"
+      ],
+      "subject_classification": "agents",
+      "justification": "This research addresses a critical issue with the increasing delegation of tasks to LLMs \u2013 the potential for document corruption. The creation of the DELEGATE-52 benchmark is a strong methodological contribution, and the finding that even state-of-the-art models degrade content significantly is concerning. While the agentic tool use experiment yielded negative results, this is still a valuable finding, and the overall work is well-scoped and clearly presented.",
+      "paper_id": "e53cdef4608e528053b1252d9eedbdb8"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-04-20T10:44:09.414469"
 }

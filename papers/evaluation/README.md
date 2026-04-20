@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### PIIBench: A Unified Multi-Source Benchmark Corpus for Personally Identifiable Information Detection
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Pritesh Jha
+
+arXiv:2604.15776v1 Announce Type: new 
+Abstract: We present PIIBench, a unified benchmark corpus for Personally Identifiable Information (PII) detection in natural language text. Existing resources fo...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.15776) | [📝 Analysis](ff29c9a17bf6fbc24980cd84a40ca8de.md)
+
+---
+
+### VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects
+
+**Score:** 92.0 | **Published:** 2026-04-20 | **Authors:** Xiangbo Gao, Sicong Jiang, Bangya Liu, Xinghao Chen, Minglai Yang, Siyuan Yang, Mingyang Wu, Jiongze Yu, Qi Zheng, Haozhi Wang, Jiayi Zhang, Jared Yang, Jie Yang, Zihan Wang, Qing Yin, Zhengzhong Tu
+
+arXiv:2604.16272v1 Announce Type: cross 
+Abstract: As AI-assisted video creation becomes increasingly practical, instruction-guided video editing has become essential for refining generated or capture...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16272) | [📝 Analysis](99eefc9733e9a59d3889167837cec4cd.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-20 10:44:09 UTC*
