@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Shiyao Xie, Jian Du
+
+arXiv:2604.17340v1 Announce Type: new 
+Abstract: Clinical guidelines, typically developed by independent specialty societies, inherently exhibit substantial fragmentation, redundancy, and logical cont...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.17340) | [📝 Analysis](7edb768d961a7320a09cf09b69cd920e.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-21 10:28:24 UTC*

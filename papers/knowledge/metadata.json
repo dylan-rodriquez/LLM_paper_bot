@@ -95,7 +95,71 @@
       "subject_classification": "knowledge",
       "justification": "High innovation indicators (score: 30); Contains key LLM terms (bonus: 10)",
       "paper_id": "24ab540388b6d3a902007a535e6de39c"
+    },
+    {
+      "title": "PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations",
+      "authors": [
+        "Yuhe Wu, Guangyu Wang, Yuran Chen, Jiatong Zhang, Yutong Zhang, Yujie Chen, Jiaming Shang, Guang Zhang, Zhuang Liu"
+      ],
+      "abstract": "arXiv:2604.16909v1 Announce Type: new \nAbstract: As large language models (LLMs) evolve from conversational assistants into agents capable of handling complex tasks, they are increasingly deployed in high-risk domains. However, existing benchmarks largely rely on mixed queries and posterior evaluation, output-level scoring, which quantifies hallucination severity but offers limited insight into where and why hallucinations arise in the generation pipeline. We therefore reformulate hallucination evaluation as a diagnostic problem and propose PRISM, a controlled benchmark that disentangles hallucinations into four dimensions: knowledge missing, knowledge errors, reasoning errors, and instruction-following errors, grounded in three stages of generation (memory, instruction, and reasoning). PRISM contains 9,448 instances across 65 tasks and supports fine-grained, stage-aware diagnostic evaluation. Evaluating 24 mainstream open-source and proprietary LLMs, we uncover consistent trade-offs across instruction following, memory retrieval, and logical reasoning, showing that mitigation strategies often improve specific dimensions at the expense of others. We hope PRISM provides a framework for understanding the specific mechanisms behind LLMs hallucinations, ultimately accelerating the development of trustworthy large language models.",
+      "url": "https://arxiv.org/abs/2604.16909",
+      "published_date": "2026-04-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "hallucinations",
+        "instruction",
+        "prism",
+        "reasoning",
+        "errors",
+        "evaluation",
+        "llms",
+        "memory",
+        "diagnostic",
+        "dimensions"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper addresses a crucial problem in LLM development \u2013 understanding *why* hallucinations occur, not just *that* they occur. The PRISM benchmark's diagnostic approach, breaking down hallucinations into specific error types and generation stages, is a significant step forward. The evaluation of 24 LLMs suggests a robust methodology and potential for widespread use, and the focus on high-risk domains elevates the importance of this work. The clear framing of hallucination evaluation as a diagnostic problem is particularly strong.",
+      "paper_id": "8a2f622c36bdb161e18703059e788682"
+    },
+    {
+      "title": "The Provenance Gap in Clinical AI: Evidence-Traceable Temporal Knowledge Graphs for Rare Disease Reasoning",
+      "authors": [
+        "Md Shamim Ahmed, Maja Dusanic, Moritz Nikolai Kirschner, Elisabeth Nyoungui, Jana Zsch\\\"untzsch, Lukas Galke Poech, Richard R\\\"ottger"
+      ],
+      "abstract": "arXiv:2604.17114v1 Announce Type: new \nAbstract: Frontier large language models generate clinically accurate outputs, but their citations are often fabricated. We term this the Provenance Gap. We tested five frontier LLMs across 36 clinician-validated scenarios for three rare neuromuscular disease pairs. No model produced a clinically relevant PubMed identifier without prompting. When explicitly asked to cite, the best model achieved 15.3% relevant PMIDs; the majority resolved to real publications in unrelated fields. We present HEG-TKG (Hierarchical Evidence-Grounded Temporal Knowledge Graphs), a system that grounds clinical claims in temporal knowledge graphs built from 4,512 PubMed records and curated sources with quality-tier stratification and 1,280 disease-trajectory milestones. In a controlled three-arm comparison using the same synthesis model, HEG-TKG matches baseline clinical feature coverage while achieving 100% evidence verifiability with 203 inline citations. Guideline-RAG, given overlapping source documents as raw text, produces zero verifiable citations. LLM judges cannot distinguish fabricated from verified citations without PubMed audit data. Independent clinician evaluation confirms the verifiability advantage (Cohen's d = 1.81, p < 0.001) with no degradation on safety or completeness. A counterfactual experiment shows 80% resistance to injected clinical errors with 100% detectability via citation trace. The system deploys on-premise via open-source models so patient data never leaves institutional infrastructure.",
+      "url": "https://arxiv.org/abs/2604.17114",
+      "published_date": "2026-04-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "citations",
+        "clinical",
+        "disease",
+        "evidence",
+        "graphs",
+        "knowledge",
+        "knowledge graphs",
+        "model",
+        "pubmed",
+        "temporal"
+      ],
+      "subject_classification": "knowledge",
+      "justification": "This paper addresses a critical issue \u2013 the 'Provenance Gap' in clinical LLMs \u2013 with a well-defined problem and a novel solution. The HEG-TKG system appears rigorously constructed and the controlled comparison demonstrates significant improvement in evidence verifiability. The focus on rare diseases further elevates the significance, as these areas often lack sufficient data for reliable LLM performance. The strong results and timely topic suggest a positive reception from the research community.",
+      "paper_id": "b502473c34082522d34ef0c5c7e0ae94"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.495483"
+  "last_updated": "2026-04-21T10:28:24.872674"
 }

@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### When Choices Become Risks: Safety Failures of Large Language Models under Multiple-Choice Constraints
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Yuheng Chen, Zhiyu Wu, Bowen Cheng, Tetsuro Takahashi
+
+arXiv:2604.16916v1 Announce Type: new 
+Abstract: Safety alignment in large language models (LLMs) is primarily evaluated under open-ended generation, where models can mitigate risk by refusing to resp...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16916) | [📝 Analysis](e901f9446864a12c05b9c0f351396b52.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-21 10:28:24 UTC*
