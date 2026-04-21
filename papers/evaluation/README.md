@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (17 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,28 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Spotlights and Blindspots: Evaluation Machine-Generated Text Detection
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Kevin Stowe, Kailash Patil
+
+arXiv:2604.16607v1 Announce Type: new 
+Abstract: With the rise of generative language models, machine-generated text detection has become a critical challenge. A wide variety of models is available, b...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16607) | [📝 Analysis](9c94f00eea8dc9511d4f28ef58defe14.md)
+
+---
+
+### MedPRMBench: A Fine-grained Benchmark for Process Reward Models in Medical Reasoning
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Lingyan Wu, Xiang Zheng, Weiqi Zhai, Wei Wang, Xuan Ren, Zifan Zhang, Hu Wei, Bing Zhao
+
+arXiv:2604.17282v1 Announce Type: new 
+Abstract: Process-Level Reward Models (PRMs) are essential for guiding complex reasoning in large language models, yet existing PRM benchmarks cover only general...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.17282) | [📝 Analysis](a3529eb046d3de298a796b38c6c848fd.md)
 
 ---
 
@@ -170,4 +192,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-21 10:28:24 UTC*

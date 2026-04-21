@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Calibrated? Not for Everyone: How Sexual Orientation and Religious Markers Distort LLM Accuracy and Confidence in Medical QA
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Alberto Testoni, Iacer Calixto
+
+arXiv:2604.17316v1 Announce Type: new 
+Abstract: Safe clinical deployment of Large Language Models (LLMs) requires not only high accuracy but also robust uncertainty calibration to ensure models defer...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.17316) | [📝 Analysis](daa4ecfa591e953b7a100f5a8ec34567.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-21 10:28:24 UTC*

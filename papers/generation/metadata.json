@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines",
+      "authors": [
+        "Shiyao Xie, Jian Du"
+      ],
+      "abstract": "arXiv:2604.17340v1 Announce Type: new \nAbstract: Clinical guidelines, typically developed by independent specialty societies, inherently exhibit substantial fragmentation, redundancy, and logical contradiction. These inconsistencies, particularly when applied to patients with multimorbidity, not only cause cognitive dissonance for clinicians but also introduce catastrophic noise into AI systems, rendering the standard Retrieval-Augmented Generation (RAG) system fragile and prone to hallucination. To address this fundamental reliability crisis, we introduce a Neuro-Symbolic framework that automates the detection of recommendation redundancies and conflicts. Our pipeline employs a multi-agent system to translate unstructured clinical natural language into rigorous symbolic logic language, which is then verified by a Satisfiability (SAT) solver. By formulating a hierarchical taxonomy of logical rule interactions, we identify a critical category termed Local Conflict - a decision conflict arising from the intersection of comorbidities. Evaluating our system on a curated benchmark of 12 authoritative SGLT2 inhibitor guidelines, we reveal that 90.6% of conflicts are Local, a structural complexity that single-disease guidelines fail to address. While state-of-the-art LLMs fail in detecting these conflicts, our neuro-symbolic approach achieves an F1 score of 0.861. This work demonstrates that logical verification must precede retrieval, establishing a new technical standard for automated knowledge coordination in medical AI.",
+      "url": "https://arxiv.org/abs/2604.17340",
+      "published_date": "2026-04-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "conflicts",
+        "guidelines",
+        "symbolic",
+        "clinical",
+        "logical",
+        "neuro",
+        "neuro symbolic",
+        "address",
+        "ai",
+        "clinical guidelines"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper tackles a crucial problem in healthcare AI \u2013 the reliability of recommendations derived from fragmented clinical guidelines, especially for patients with multimorbidity. The neuro-symbolic approach, combining natural language processing with formal logic and SAT solvers, is a promising direction for addressing the hallucination issues in RAG systems. The identification of 'Local Conflicts' as a specific type of logical interaction is a valuable contribution, and the multi-agent system adds a layer of sophistication. The abstract is well-written and clearly articulates the problem and proposed solution.",
+      "paper_id": "7edb768d961a7320a09cf09b69cd920e"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-04-21T10:28:24.875014"
 }

@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Calibrated? Not for Everyone: How Sexual Orientation and Religious Markers Distort LLM Accuracy and Confidence in Medical QA",
+      "authors": [
+        "Alberto Testoni, Iacer Calixto"
+      ],
+      "abstract": "arXiv:2604.17316v1 Announce Type: new \nAbstract: Safe clinical deployment of Large Language Models (LLMs) requires not only high accuracy but also robust uncertainty calibration to ensure models defer to clinicians when appropriate. Our paper investigates how social descriptors of a patient (specifically sexual orientation and religious affiliation) distort these uncertainty signals and model accuracy. Evaluating nine general-purpose and biomedical LLMs on 2,364 medical questions and their counterfactual variants, we demonstrate that identity markers cause a \"calibration crisis\". \"Homosexual\" markers consistently trigger performance drops, and intersectional identities produce idiosyncratic, non-additive harms to calibration. Moreover, a clinician-validated case study in an open-ended generation setting confirms that these failures are not an artifact of the multiple-choice format. Our results demonstrate that the presence of social identity cues does not merely shift predictions; it affects the reliability of confidence signals, posing a significant risk to equitable care and safe deployment in confidence-based clinical workflows.",
+      "url": "https://arxiv.org/abs/2604.17316",
+      "published_date": "2026-04-21T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "accuracy",
+        "calibration",
+        "confidence",
+        "markers",
+        "clinical",
+        "demonstrate",
+        "deployment",
+        "distort",
+        "identity",
+        "llms"
+      ],
+      "subject_classification": "applications",
+      "justification": "This research addresses a critical and timely issue \u2013 bias in LLMs within a high-stakes domain (medical QA). The methodology, involving counterfactual analysis and a clinician-validated case study, appears robust. The finding of a 'calibration crisis' triggered by social identity markers is concerning and suggests a significant problem for safe LLM deployment, particularly regarding equitable healthcare.",
+      "paper_id": "daa4ecfa591e953b7a100f5a8ec34567"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-21T10:28:24.874090"
 }

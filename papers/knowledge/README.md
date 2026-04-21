@@ -2,7 +2,29 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (5 total)
+
+### PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Yuhe Wu, Guangyu Wang, Yuran Chen, Jiatong Zhang, Yutong Zhang, Yujie Chen, Jiaming Shang, Guang Zhang, Zhuang Liu
+
+arXiv:2604.16909v1 Announce Type: new 
+Abstract: As large language models (LLMs) evolve from conversational assistants into agents capable of handling complex tasks, they are increasingly deployed in ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.16909) | [📝 Analysis](8a2f622c36bdb161e18703059e788682.md)
+
+---
+
+### The Provenance Gap in Clinical AI: Evidence-Traceable Temporal Knowledge Graphs for Rare Disease Reasoning
+
+**Score:** 92.0 | **Published:** 2026-04-21 | **Authors:** Md Shamim Ahmed, Maja Dusanic, Moritz Nikolai Kirschner, Elisabeth Nyoungui, Jana Zsch\"untzsch, Lukas Galke Poech, Richard R\"ottger
+
+arXiv:2604.17114v1 Announce Type: new 
+Abstract: Frontier large language models generate clinically accurate outputs, but their citations are often fabricated. We term this the Provenance Gap. We test...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.17114) | [📝 Analysis](b502473c34082522d34ef0c5c7e0ae94.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +60,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-21 10:28:24 UTC*
