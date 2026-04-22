@@ -2,7 +2,29 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (54 total)
+
+### HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human-LLM Collaborative Writing
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Euntae Kim, Soomin Han, Buru Chang
+
+arXiv:2604.19274v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used as co-authors in collaborative writing, where users begin with rough drafts and rely on LLMs to comp...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19274) | [📝 Analysis](9397d170cf2977eb1a998d5dd582e837.md)
+
+---
+
+### Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Ruixuan Liu, David Evans, Li Xiong
+
+arXiv:2604.18697v1 Announce Type: cross 
+Abstract: Indistinguishability properties such as differential privacy bounds or low empirically measured membership inference are widely treated as proxies to...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.18697) | [📝 Analysis](08901d556ef008d51be0d3df84c1623a.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +599,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-22 10:28:45 UTC*

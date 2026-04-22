@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+      "authors": [
+        "Kaushal Bhogale, Manas Dhir, Amritansh Walecha, Manmeet Kaur, Vanshika Chhabra, Aaditya Pareek, Hanuman Sidh, Sagar Jain, Bhaskar Singh, Utkarsh Singh, Tahir Javed, Shobhit Banga, Mitesh M. Khapra"
+      ],
+      "abstract": "arXiv:2604.19151v1 Announce Type: new \nAbstract: Existing Indic ASR benchmarks often use scripted, clean speech and leaderboard driven evaluation that encourages dataset specific overfitting. In addition, strict single reference WER penalizes natural spelling variation in Indian languages, including non standardized spellings of code-mixed English origin words. To address these limitations, we introduce Voice of India, a closed source benchmark built from unscripted telephonic conversations covering 15 major Indian languages across 139 regional clusters. The dataset contains 306230 utterances, totaling 536 hours of speech from 36691 speakers with transcripts accounting for spelling variations. We also analyze performance geographically at the district level, revealing disparities. Finally, we provide detailed analysis across factors such as audio quality, speaking rate, gender, and device type, highlighting where current ASR systems struggle and offering insights for improving real world Indic ASR systems.",
+      "url": "https://arxiv.org/abs/2604.19151",
+      "published_date": "2026-04-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "asr",
+        "india",
+        "speech",
+        "asr systems",
+        "benchmark",
+        "dataset",
+        "indian",
+        "indian languages",
+        "indic",
+        "indic asr"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in ASR research for Indian languages, moving beyond scripted data and acknowledging the complexities of real-world speech, including code-mixing and spelling variations. The large scale of the dataset (536 hours, 30k+ utterances) and the granular geographic analysis are particularly strong points. While the approach of building a large dataset isn't entirely novel, the focus on real-world telephonic data and the detailed analysis of performance factors demonstrate a solid methodology and potential for significant impact.",
+      "paper_id": "c16880404d7e6caaf49e43760b0c510f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-22T10:28:45.661376"
 }
