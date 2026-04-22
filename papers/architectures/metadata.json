@@ -703,7 +703,39 @@
       "subject_classification": "architectures",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 32); Contains key LLM terms (bonus: 5)",
       "paper_id": "ef01f9d6019e4233207f399a604f9237"
+    },
+    {
+      "title": "Enhancing Construction Worker Safety in Extreme Heat: A Machine Learning Approach Utilizing Wearable Technology for Predictive Health Analytics",
+      "authors": [
+        "Syed Sajid Ullah, Amir Khan"
+      ],
+      "abstract": "arXiv:2604.19559v1 Announce Type: cross \nAbstract: Construction workers are highly vulnerable to heat stress, yet tools that translate real-time physiological data into actionable safety intelligence remain scarce. This study addresses this gap by developing and evaluating deep learning models, specifically a baseline Long Short-Term Memory (LSTM) network and an attention-based LSTM, to predict heat stress among 19 workers in Saudi Arabia. Using Garmin Vivosmart 5 smartwatches to monitor metrics such as heart rate, HRV, and oxygen saturation, the attention-based model outperformed the baseline, achieving 95.40% testing accuracy and significantly reducing false positives and negatives. With precision, recall, and F1 scores of 0.982, this approach not only improves predictive performance but also offers interpretable results suitable for integration into IoT-enabled safety systems and BIM dashboards, advancing proactive, informatics-driven safety management in the construction industry.",
+      "url": "https://arxiv.org/abs/2604.19559",
+      "published_date": "2026-04-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "construction",
+        "heat",
+        "approach",
+        "attention",
+        "attention based",
+        "based",
+        "baseline",
+        "heat stress",
+        "learning"
+      ],
+      "subject_classification": "architectures",
+      "justification": "This research addresses a critical safety concern in a high-risk industry, leveraging wearable technology and deep learning for proactive health monitoring. The reported 95.40% accuracy with the attention-based LSTM model is impressive, and the focus on reducing false positives is particularly valuable. The potential for integration with existing construction management systems (BIM) further strengthens its practical appeal, suggesting a positive reception within the field.",
+      "paper_id": "523778d85da02b59a3ba28894f1fe49d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.487175"
+  "last_updated": "2026-04-22T10:28:45.666050"
 }

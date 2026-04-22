@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Enhancing Construction Worker Safety in Extreme Heat: A Machine Learning Approach Utilizing Wearable Technology for Predictive Health Analytics
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Syed Sajid Ullah, Amir Khan
+
+arXiv:2604.19559v1 Announce Type: cross 
+Abstract: Construction workers are highly vulnerable to heat stress, yet tools that translate real-time physiological data into actionable safety intelligence ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19559) | [📝 Analysis](523778d85da02b59a3ba28894f1fe49d.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-22 10:28:45 UTC*

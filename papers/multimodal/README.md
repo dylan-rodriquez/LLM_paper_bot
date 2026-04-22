@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Kaushal Bhogale, Manas Dhir, Amritansh Walecha, Manmeet Kaur, Vanshika Chhabra, Aaditya Pareek, Hanuman Sidh, Sagar Jain, Bhaskar Singh, Utkarsh Singh, Tahir Javed, Shobhit Banga, Mitesh M. Khapra
+
+arXiv:2604.19151v1 Announce Type: new 
+Abstract: Existing Indic ASR benchmarks often use scripted, clean speech and leaderboard driven evaluation that encourages dataset specific overfitting. In addit...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19151) | [📝 Analysis](c16880404d7e6caaf49e43760b0c510f.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-22 10:28:45 UTC*

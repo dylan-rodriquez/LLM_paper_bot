@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Owner-Harm: A Missing Threat Model for AI Agent Safety
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Dongcheng Zhang, Yiqing Jiang
+
+arXiv:2604.18658v1 Announce Type: cross 
+Abstract: Existing AI agent safety benchmarks focus on generic criminal harm (cybercrime, harassment, weapon synthesis), leaving a systematic blind spot for a ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.18658) | [📝 Analysis](a9ace81f25427adba1276a30ecae4d92.md)
+
+---
+
+### Harmful Intent as a Geometrically Recoverable Feature of LLM Residual Streams
+
+**Score:** 92.0 | **Published:** 2026-04-22 | **Authors:** Isaac Llorente-Saguer
+
+arXiv:2604.18901v1 Announce Type: cross 
+Abstract: Harmful intent is geometrically recoverable from large language model residual streams: as a linear direction in most layers, and as angular deviatio...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.18901) | [📝 Analysis](5798e81af9e718a278f65e589f184cbc.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-22 10:28:45 UTC*

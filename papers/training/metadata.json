@@ -1663,7 +1663,71 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human-LLM Collaborative Writing",
+      "authors": [
+        "Euntae Kim, Soomin Han, Buru Chang"
+      ],
+      "abstract": "arXiv:2604.19274v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as co-authors in collaborative writing, where users begin with rough drafts and rely on LLMs to complete, revise, and refine their content. However, this capability poses a serious safety risk: malicious users could jailbreak the models-filling incomplete drafts with dangerous content-to force them into generating harmful outputs. In this paper, we identify the vulnerability of current LLMs to such draft-based co-authoring jailbreak attacks and introduce HarDBench, a systematic benchmark designed to evaluate the robustness of LLMs against this emerging threat. HarDBench spans a range of high-risk domains-including Explosives, Drugs, Weapons, and Cyberattacks-and features prompts with realistic structure and domain-specific cues to assess the model susceptibility to harmful completions. To mitigate this risk, we introduce a safety-utility balanced alignment approach based on preference optimization, training models to refuse harmful completions while remaining helpful on benign drafts. Experimental results show that existing LLMs are highly vulnerable in co-authoring contexts and our alignment method significantly reduces harmful outputs without degrading performance on co-authoring capabilities. This presents a new paradigm for evaluating and aligning LLMs in human-LLM collaborative writing settings. Our new benchmark and dataset are available on our project page at https://github.com/untae0122/HarDBench",
+      "url": "https://arxiv.org/abs/2604.19274",
+      "published_date": "2026-04-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "llms",
+        "authoring",
+        "hardbench",
+        "harmful",
+        "based",
+        "benchmark",
+        "collaborative",
+        "collaborative writing",
+        "drafts",
+        "jailbreak"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a very important and timely safety concern with the increasing use of LLMs in collaborative writing. The identification of 'draft-based co-authoring jailbreak attacks' is novel and the creation of HarDBench provides a valuable resource for the community. The mention of a 'safety-utility balanced alignment approach' suggests further contributions beyond the benchmark itself, though details are limited in the abstract.",
+      "paper_id": "9397d170cf2977eb1a998d5dd582e837"
+    },
+    {
+      "title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+      "authors": [
+        "Ruixuan Liu, David Evans, Li Xiong"
+      ],
+      "abstract": "arXiv:2604.18697v1 Announce Type: cross \nAbstract: Indistinguishability properties such as differential privacy bounds or low empirically measured membership inference are widely treated as proxies to show a model is sufficiently protected against broader memorization risks. However, we show that indistinguishability properties are neither sufficient nor necessary for preventing data extraction in LLM APIs. We formalize a privacy-game separation between extraction and indistinguishability-based privacy, showing that indistinguishability and inextractability are incomparable: upper-bounding distinguishability does not upper-bound extractability. To address this gap, we introduce $(l, b)$-inextractability as a definition that requires at least $2^b$ expected queries for any black-box adversary to induce the LLM API to emit a protected $l$-gram substring. We instantiate this via a worst-case extraction game and derive a rank-based extraction risk upper bound for targeted exact extraction, as well as extensions to cover untargeted and approximate extraction. The resulting estimator captures the extraction risk over multiple attack trials and prefix adaptations. We show that it can provide a tight and efficient estimation for standard greedy extraction and an upper bound on the probabilistic extraction risk given any decoding configuration. We empirically evaluate extractability across different models, clarifying its connection to distinguishability, demonstrating its advantage over existing extraction risk estimators, and providing actionable mitigation guidelines across model training, API access, and decoding configurations in LLM API deployment. Our code is publicly available at: https://github.com/Emory-AIMS/Inextractability.",
+      "url": "https://arxiv.org/abs/2604.18697",
+      "published_date": "2026-04-22T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "extraction",
+        "extraction risk",
+        "indistinguishability",
+        "risk",
+        "llm",
+        "upper",
+        "api",
+        "bound",
+        "inextractability",
+        "privacy"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and timely problem in LLM security \u2013 the limitations of relying on indistinguishability as a proxy for preventing data extraction. The formalization of (l, b)-inextractability and the separation result between indistinguishability and extractability are strong contributions. The proposed worst-case extraction game provides a concrete framework for evaluating extraction risk, and the rank-based upper bound is a valuable analytical tool. The clarity of the abstract suggests a well-written paper.",
+      "paper_id": "08901d556ef008d51be0d3df84c1623a"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-22T10:28:45.662854"
 }
