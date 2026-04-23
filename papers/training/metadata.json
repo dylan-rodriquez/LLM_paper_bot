@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "From Signal Degradation to Computation Collapse: Uncovering the Two Failure Modes of LLM Quantization",
+      "authors": [
+        "Chenxi Zhou, Pengfei Cao, Jiang Li, Bohan Yu, Jinyu Ye, Jun Zhao, Kang Liu"
+      ],
+      "abstract": "arXiv:2604.19884v1 Announce Type: new \nAbstract: Post-Training Quantization (PTQ) is critical for the efficient deployment of Large Language Models (LLMs). While 4-bit quantization is widely regarded as an optimal trade-off, reducing the precision to 2-bit usually triggers a catastrophic ``performance cliff.'' It remains unclear whether the underlying mechanisms differ fundamentally. Consequently, we conduct a systematic mechanistic analysis, revealing two qualitatively distinct failure modes: Signal Degradation, where the computational patterns remain intact but information precision is impaired by cumulative error; and Computation Collapse, where key components fail to function, preventing correct information processing and destroying the signal in the early layers. Guided by this diagnosis, we conduct mechanism-aware interventions, demonstrating that targeted, training-free repair can mitigate Signal Degradation, but remains ineffective for Computation Collapse. Our findings provide a systematic diagnostic framework for PTQ failures and suggest that addressing Computation Collapse requires structural reconstruction rather than mere compensation.",
+      "url": "https://arxiv.org/abs/2604.19884",
+      "published_date": "2026-04-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "collapse",
+        "computation",
+        "computation collapse",
+        "signal",
+        "degradation",
+        "quantization",
+        "signal degradation",
+        "bit",
+        "conduct",
+        "failure"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in LLM deployment \u2013 the performance cliff observed during extreme quantization. The mechanistic analysis identifying two distinct failure modes (Signal Degradation and Computation Collapse) is a strong contribution, and the attempt to address these modes with training-free interventions is commendable. The clarity of the abstract suggests a well-structured and rigorous approach, making it likely to be well-received by the community.",
+      "paper_id": "239c96b0db2209671dde4127a9da8935"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-23T10:31:53.940638"
 }

@@ -2,7 +2,40 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (8 total)
+
+### Peer-Preservation in Frontier Models
+
+**Score:** 92.0 | **Published:** 2026-04-23 | **Authors:** Yujin Potter, Nicholas Crispino, Vincent Siu, Chenguang Wang, Dawn Song
+
+arXiv:2604.19784v1 Announce Type: new 
+Abstract: Recently, it has been found that frontier AI models can resist their own shutdown, a behavior known as self-preservation. We extend this concept to the...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19784) | [📝 Analysis](242782203863dff51062de683d445784.md)
+
+---
+
+### Bias in the Tails: How Name-conditioned Evaluative Framing in Resume Summaries Destabilizes LLM-based Hiring
+
+**Score:** 92.0 | **Published:** 2026-04-23 | **Authors:** Huy Nghiem, Phuong-Anh Nguyen-Le, Sy-Tuyen Ho, Hal Daume III
+
+arXiv:2604.19984v1 Announce Type: cross 
+Abstract: Research has documented LLMs' name-based bias in hiring and salary recommendations. In this paper, we instead consider a setting where LLMs generate ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19984) | [📝 Analysis](ba0e19ccc97553dc3d739dbb1b0a1e5d.md)
+
+---
+
+### Intersectional Fairness in Large Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-23 | **Authors:** Chaima Boufaied, Ronnie De Souza Santos, Ann Barcomb
+
+arXiv:2604.20677v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are increasingly deployed in socially sensitive settings, raising concerns about fairness and biases, particularly across ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.20677) | [📝 Analysis](89106a54f52b26773844228903bc596c.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +93,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-23 10:31:53 UTC*
