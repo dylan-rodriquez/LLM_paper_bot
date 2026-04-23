@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Cognis: Context-Aware Memory for Conversational AI Agents
+
+**Score:** 90.0 | **Published:** 2026-04-23 | **Authors:** Parshva Daftari, Khush Patel, Shreyas Kapale, Jithin George, Siva Surendira
+
+arXiv:2604.19771v1 Announce Type: new 
+Abstract: LLM agents lack persistent memory, causing conversations to reset each session and preventing personalization over time. We present Lyzr Cognis, a unif...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19771) | [📝 Analysis](b408a30c2cfe6914e1b42dd57314042d.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-23 10:31:53 UTC*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### From Signal Degradation to Computation Collapse: Uncovering the Two Failure Modes of LLM Quantization
+
+**Score:** 90.0 | **Published:** 2026-04-23 | **Authors:** Chenxi Zhou, Pengfei Cao, Jiang Li, Bohan Yu, Jinyu Ye, Jun Zhao, Kang Liu
+
+arXiv:2604.19884v1 Announce Type: new 
+Abstract: Post-Training Quantization (PTQ) is critical for the efficient deployment of Large Language Models (LLMs). While 4-bit quantization is widely regarded ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.19884) | [📝 Analysis](239c96b0db2209671dde4127a9da8935.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-23 10:31:53 UTC*

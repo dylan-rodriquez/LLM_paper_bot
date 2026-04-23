@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Cognis: Context-Aware Memory for Conversational AI Agents",
+      "authors": [
+        "Parshva Daftari, Khush Patel, Shreyas Kapale, Jithin George, Siva Surendira"
+      ],
+      "abstract": "arXiv:2604.19771v1 Announce Type: new \nAbstract: LLM agents lack persistent memory, causing conversations to reset each session and preventing personalization over time. We present Lyzr Cognis, a unified memory architecture for conversational AI agents that addresses this limitation through a multi-stage retrieval pipeline. Cognis combines a dual-store backend pairing OpenSearch BM25 keyword matching with Matryoshka vector similarity search, fused via Reciprocal Rank Fusion. Its context-aware ingestion pipeline retrieves existing memories before extraction, enabling intelligent version tracking that preserves full memory history while keeping the store consistent. Temporal boosting enhances time-sensitive queries, and a BGE-2 cross-encoder reranker refines final result quality. We evaluate Cognis on two independent benchmarks -- LoCoMo and LongMemEval -- across eight answer generation models, demonstrating state-of-the-art performance on both. The system is open-source and deployed in production serving conversational AI applications.",
+      "url": "https://arxiv.org/abs/2604.19771",
+      "published_date": "2026-04-23T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "cognis",
+        "memory",
+        "agents",
+        "ai",
+        "conversational",
+        "conversational ai",
+        "ai agents",
+        "aware",
+        "context",
+        "context aware"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a crucial limitation of current LLM agents \u2013 the lack of persistent memory \u2013 with a well-defined and seemingly robust architecture. The combination of BM25, vector search, RRF, temporal boosting, and a cross-encoder reranker suggests a thoughtful and comprehensive approach. The strong performance on established benchmarks (LoCoMo and LongMemEval) and open-source availability further strengthen its potential impact and positive reception within the community.",
+      "paper_id": "b408a30c2cfe6914e1b42dd57314042d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-23T10:31:53.938107"
 }
