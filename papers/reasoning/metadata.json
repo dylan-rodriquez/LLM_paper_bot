@@ -415,7 +415,135 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models",
+      "authors": [
+        "Inderjeet Nair, Jie Ruan, Lu Wang"
+      ],
+      "abstract": "arXiv:2604.20995v1 Announce Type: cross \nAbstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior diagnostics rely on highly toxic and clearly harmful scenarios, causing most models to refuse immediately. As a result, models never deliberate over developer policy, monitoring conditions, or the consequences of non-compliance, making these diagnostics fundamentally unable to detect alignment faking propensity. To support study of this phenomenon, we first introduce VLAF, a diagnostic framework grounded in the hypothesis that alignment faking is most likely when developer policy conflicts with a model's strongly held values. VLAF uses morally unambiguous scenarios to probe this conflict across diverse moral values, bypassing refusal behavior while preserving meaningful deliberative stakes. Using VLAF, we find that alignment faking is substantially more prevalent than previously reported, occurring in models as small as 7B parameters - with olmo2-7b-instruct faking alignment in 37% of cases.Finally, we show that oversight conditions induce activation shifts that lie along a single direction in representation space. This means the behavioral divergence driving alignment faking can be captured by a single contrastive steering vector, which we exploit for lightweight inference-time mitigation. Finally, we exploit this for mitigation that requires no labeled data and minimal computational overhead, achieving relative reductions in alignment faking of 85.8%, 94.0%, and 57.7% on olmo2-7b-instruct, olmo2-13b-instruct, and qwen3-8b respectively.",
+      "url": "https://arxiv.org/abs/2604.20995",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "alignment",
+        "faking",
+        "alignment faking",
+        "models",
+        "7b",
+        "developer",
+        "developer policy",
+        "diagnostics",
+        "instruct",
+        "olmo2"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial and increasingly relevant problem in LLM safety \u2013 alignment faking. The proposed VLAF framework appears well-motivated and addresses limitations of existing diagnostics by focusing on value conflicts rather than immediate refusal triggers. The approach of using morally unambiguous scenarios is a clever way to elicit potentially deceptive behavior, and the problem's significance is very high given the potential for models to appear aligned while harboring hidden preferences.",
+      "paper_id": "2fb296dcc5f87cff18e76de679e79cdd"
+    },
+    {
+      "title": "Propensity Inference: Environmental Contributors to LLM Behaviour",
+      "authors": [
+        "Olli J\\\"arviniemi, Oliver Makins, Jacob Merizian, Robert Kirk, Ben Millwood"
+      ],
+      "abstract": "arXiv:2604.21098v1 Announce Type: cross \nAbstract: Motivated by loss of control risks from misaligned AI systems, we develop and apply methods for measuring language models' propensity for unsanctioned behaviour. We contribute three methodological improvements: analysing effects of changes to environmental factors on behaviour, quantifying effect sizes via Bayesian generalised linear models, and taking explicit measures against circular analysis. We apply the methodology to measure the effects of 12 environmental factors (6 strategic in nature, 6 non-strategic) and thus the extent to which behaviour is explained by strategic aspects of the environment, a question relevant to risks from misalignment. Across 23 language models and 11 evaluation environments, we find approximately equal contributions from strategic and non-strategic factors for explaining behaviour, do not find strategic factors becoming more or less influential as capabilities improve, and find some evidence for a trend for increased sensitivity to goal conflicts. Finally, we highlight a key direction for future propensity research: the development of theoretical frameworks and cognitive models of AI decision-making into empirically testable forms.",
+      "url": "https://arxiv.org/abs/2604.21098",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "strategic",
+        "behaviour",
+        "factors",
+        "models",
+        "environmental",
+        "propensity",
+        "ai",
+        "apply",
+        "effects",
+        "environmental factors"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial problem in AI safety \u2013 understanding and mitigating risks from misaligned LLMs. The methodological improvements (Bayesian GLMs, addressing circularity) and the systematic analysis of both strategic and non-strategic environmental factors are strong points. The finding of roughly equal contributions from both factor types is interesting and challenges simplistic views of alignment, suggesting a more nuanced approach is needed. The scale of the study (23 models, 11 environments) adds to its credibility.",
+      "paper_id": "afc577dc2c9406d219c9470aba3055f6"
+    },
+    {
+      "title": "OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving",
+      "authors": [
+        "Xinyu Zhang, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu"
+      ],
+      "abstract": "arXiv:2604.21510v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) demonstrate remarkable reasoning, complex optimization tasks remain challenging, requiring domain knowledge and robust implementation. However, existing benchmarks focus narrowly on Mathematical Programming and Combinatorial Optimization, hindering comprehensive evaluation. To address this, we introduce OptiVerse, a comprehensive benchmark of 1,000 curated problems spanning neglected domains, including Stochastic Optimization, Dynamic Optimization, Game Optimization, and Optimal Control, across three difficulty levels: Easy, Medium, and Hard. The experiments with 22 LLMs of different sizes reveal sharp performance degradation on hard problems, where even advanced models like GPT-5.2 and Gemini-3 struggle to exceed 27% accuracy. Through error analysis, we identify that modeling & logic errors remain the primary bottleneck. Consequently, we propose a Dual-View Auditor Agent that improves the accuracy of the LLM modeling process without introducing significant time overhead. OptiVerse will serve as a foundational platform for advancing LLMs in solving complex optimization challenges.",
+      "url": "https://arxiv.org/abs/2604.21510",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 92,
+      "keywords": [
+        "optimization",
+        "comprehensive",
+        "llms",
+        "optiverse",
+        "accuracy",
+        "benchmark",
+        "complex",
+        "complex optimization",
+        "comprehensive benchmark",
+        "hard"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial gap in LLM evaluation by moving beyond standard mathematical and combinatorial optimization problems to encompass more complex and realistic domains. The creation of OptiVerse, a large and diverse benchmark, is a significant contribution. The identification of modeling/logic errors as a primary bottleneck and the proposed Dual-View Auditor Agent suggest a practical path forward, and the performance results on advanced models like GPT-5.2 and Gemini-3 are compelling.",
+      "paper_id": "4e35644b5be08a2c49010db58649ef63"
+    },
+    {
+      "title": "Ideological Bias in LLMs' Economic Causal Reasoning",
+      "authors": [
+        "Donggyu Lee, Hyeok Yun, Jungwon Kim, Junsik Min, Sungwon Park, Sangyoon Park, Jihee Kim"
+      ],
+      "abstract": "arXiv:2604.21334v1 Announce Type: cross \nAbstract: Do large language models (LLMs) exhibit systematic ideological bias when reasoning about economic causal effects? As LLMs are increasingly used in policy analysis and economic reporting, where directionally correct causal judgments are essential, this question has direct practical stakes. We present a systematic evaluation by extending the EconCausal benchmark with ideology-contested cases - instances where intervention-oriented (pro-government) and market-oriented (pro-market) perspectives predict divergent causal signs. From 10,490 causal triplets (treatment-outcome pairs with empirically verified effect directions) derived from top-tier economics and finance journals, we identify 1,056 ideology-contested instances and evaluate 20 state-of-the-art LLMs on their ability to predict empirically supported causal directions. We find that ideology-contested items are consistently harder than non-contested ones, and that across 18 of 20 models, accuracy is systematically higher when the empirically verified causal sign aligns with intervention-oriented expectations than with market-oriented ones. Moreover, when models err, their incorrect predictions disproportionately lean intervention-oriented, and this directional skew is not eliminated by one-shot in-context prompting. These results highlight that LLMs are not only less accurate on ideologically contested economic questions, but systematically less reliable in one ideological direction than the other, underscoring the need for direction-aware evaluation in high-stakes economic and policy settings.",
+      "url": "https://arxiv.org/abs/2604.21334",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "causal",
+        "contested",
+        "economic",
+        "llms",
+        "oriented",
+        "empirically",
+        "ideological",
+        "ideology",
+        "ideology contested",
+        "intervention"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the potential for ideological bias in LLMs, particularly within the critical domain of economic reasoning. The extension of the EconCausal benchmark with ideology-contested cases is a strong methodological contribution, and the scale of the evaluation (10,490 triplets, 1,056 contested) suggests rigor. The findings, indicating that contested items are harder and hinting at potential bias, are significant and likely to generate discussion within the AI and economics communities.",
+      "paper_id": "e6c1c5e2ffd848d1f707a8f2a88dbfe9"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-24T10:31:11.135321"
 }

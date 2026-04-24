@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Measuring Opinion Bias and Sycophancy via LLM-based Coercion
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Rodrigo Nogueira, Giovana Kerche Bon\'as, Thales Sales Almeida, Andrea Roque, Ramon Pires, Hugo Abonizio, Thiago Laitz, Celio Larcher, Roseval Malaquias Junior, Marcos Piau
+
+arXiv:2604.21564v1 Announce Type: new 
+Abstract: Large language models increasingly shape the information people consume: they are embedded in search, consulted for professional advice, deployed as ag...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21564) | [📝 Analysis](077890e815c87a52e459083dcdce69a8.md)
+
+---
+
+### Dialect vs Demographics: Quantifying LLM Bias from Implicit Linguistic Signals vs. Explicit User Profiles
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Irti Haq, Bel\'en Sald\'ias
+
+arXiv:2604.21152v1 Announce Type: cross 
+Abstract: As state-of-the-art Large Language Models (LLMs) have become ubiquitous, ensuring equitable performance across diverse demographics is critical. Howe...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21152) | [📝 Analysis](096e37c063722100d5bbfe9adf0c04a6.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-24 10:31:11 UTC*

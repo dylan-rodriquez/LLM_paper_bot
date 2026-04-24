@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Subject-level Inference for Realistic Text Anonymization Evaluation",
+      "authors": [
+        "Myeong Seok Oh, Dong-Yun Kim, Hanseok Oh, Chaean Kang, Joeun Kang, Xiaonan Wang, Hyunjung Park, Young Cheol Jung, Hansaem Kim"
+      ],
+      "abstract": "arXiv:2604.21211v1 Announce Type: new \nAbstract: Current text anonymization evaluation relies on span-based metrics that fail to capture what an adversary could actually infer, and assumes a single data subject, ignoring multi-subject scenarios. To address these limitations, we present SPIA (Subject-level PII Inference Assessment), the first benchmark that shifts the unit of evaluation from text spans to individuals, comprising 675 documents across legal and online domains with novel subject-level protection metrics. Extensive experiments show that even when over 90% of PII spans are masked, subject-level inference protection drops as low as 33%, leaving the majority of personal information recoverable through contextual inference. Furthermore, target-subject-focused anonymization leaves non-target subjects substantially more exposed than the target subject. We show that subject-level inference-based evaluation is essential for ensuring safe text anonymization in real-world settings.",
+      "url": "https://arxiv.org/abs/2604.21211",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "subject",
+        "inference",
+        "level",
+        "subject level",
+        "anonymization",
+        "evaluation",
+        "text",
+        "level inference",
+        "target",
+        "text anonymization"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical gap in text anonymization evaluation by moving beyond span-based metrics to a subject-level approach. The finding that even high levels of span masking don't guarantee subject-level privacy is significant, and the benchmark (SPIA) appears well-constructed. The observation about differential exposure of target vs. non-target subjects is also a valuable insight, suggesting current anonymization techniques can inadvertently harm individuals.",
+      "paper_id": "b083e333b8c196b5be71a85104190bb1"
+    },
+    {
+      "title": "M-CARE: Standardized Clinical Case Reporting for AI Model Behavioral Disorders, with a 20-Case Atlas and Experimental Validation",
+      "authors": [
+        "Jihoon Jeong"
+      ],
+      "abstract": "arXiv:2604.20871v1 Announce Type: cross \nAbstract: We introduce M-CARE (Model Clinical Assessment and Reporting for Evaluation), a clinical case report framework for AI model behavioral disorders adapted from human medicine. M-CARE provides a 13-section report format, a 4-axis diagnostic assessment system, and a nosological classification of AI behavioral conditions.\n  We present 20 cases from three source categories: field observations of deployed agents (8), controlled experiments across three platforms (8), and published sources (4). Cases are organized into five categories: RLHF Performance Artifacts, Shell-Core Override Pathology, Context & Memory Conditions, Core Identity & Plasticity, and Stress, Methodology, & Boundary Conditions.\n  As a featured case, we present Shell-Induced Behavioral Override (SIBO) -- a controlled experiment showing that Shell instructions categorically override a model's default cooperative behavior. SIBO was validated across five game domains (Trust Game, Poker, Avalon, Codenames, Chess), revealing a domain-dependent spectrum (SIBO Index: 0.75 to 0.10) that varies with action space complexity, Core domain expertise, and temporal directness.\n  M-CARE is extensible: new cases and categories integrate without framework modification. We release the framework, all 20 case reports, and experimental data as open resources.",
+      "url": "https://arxiv.org/abs/2604.20871",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "case",
+        "behavioral",
+        "care",
+        "model",
+        "20",
+        "ai",
+        "cases",
+        "categories",
+        "clinical",
+        "conditions"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and emerging problem in AI safety \u2013 the systematic characterization and diagnosis of 'behavioral disorders' in large language models. The adaptation of clinical case reporting from human medicine is a novel and potentially highly effective approach. The 20-case atlas and experimental validation, particularly the SIBO example, provide concrete evidence of the framework's utility and suggest a strong foundation for future research.",
+      "paper_id": "00ff72fc38203dd9000479a910819f00"
+    },
+    {
+      "title": "Cross-Session Threats in AI Agents: Benchmark, Evaluation, and Algorithms",
+      "authors": [
+        "Ari Azarafrooz"
+      ],
+      "abstract": "arXiv:2604.21131v1 Announce Type: cross \nAbstract: AI-agent guardrails are memoryless: each message is judged in isolation, so an adversary who spreads a single attack across dozens of sessions slips past every session-bound detector because only the aggregate carries the payload. We make three contributions to cross-session threat detection.\n  (1) Dataset. CSTM-Bench is 26 executable attack taxonomies classified by kill-chain stage and cross-session operation (accumulate, compose, launder, inject_on_reader), each bound to one of seven identity anchors that ground-truth \"violation\" as a policy predicate, plus matched Benign-pristine and Benign-hard confounders. Released on Hugging Face as intrinsec-ai/cstm-bench with two 54-scenario splits: dilution (compositional) and cross_session (12 isolation-invisible scenarios produced by a closed-loop rewriter that softens surface phrasing while preserving cross-session artefacts).\n  (2) Measurement. Framing cross-session detection as an information bottleneck to a downstream correlator LLM, we find that a session-bound judge and a Full-Log Correlator concatenating every prompt into one long-context call both lose roughly half their attack recall moving from dilution to cross_session, well inside any frontier context window. Scope: 54 scenarios per shard, one correlator family (Anthropic Claude), no prompt optimisation; we release it to motivate larger, multi-provider datasets.\n  (3) Algorithm and metric. A bounded-memory Coreset Memory Reader retaining highest-signal fragments at $K=50$ is the only reader whose recall survives both shards. Because ranker reshuffles break KV-cache prefix reuse, we promote $\\mathrm{CSR\\_prefix}$ (ordered prefix stability, LLM-free) to a first-class metric and fuse it with detection into $\\mathrm{CSTM} = 0.7 F_1(\\mathrm{CSDA@action}, \\mathrm{precision}) + 0.3 \\mathrm{CSR\\_prefix}$, benchmarking rankers on a single Pareto of recall versus serving stability.",
+      "url": "https://arxiv.org/abs/2604.21131",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "session",
+        "cross",
+        "cross session",
+        "mathrm",
+        "ai",
+        "attack",
+        "bound",
+        "correlator",
+        "cstm",
+        "detection"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical vulnerability in current AI agent security \u2013 the lack of memory across sessions. The creation of CSTM-Bench, a comprehensive dataset with diverse attack taxonomies and benign confounders, is a strong methodological contribution. While the framing of detection as an information problem is promising, the abstract doesn't detail the specific measurement techniques, leaving some uncertainty about the rigor of the evaluation.",
+      "paper_id": "b08fa1d9705251ee86ec606445389c16"
+    },
+    {
+      "title": "From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation",
+      "authors": [
+        "Minh Duc Bui, Xenia Heilmann, Mattia Cerrato, Manuel Mager, Katharina von der Wense"
+      ],
+      "abstract": "arXiv:2604.21716v1 Announce Type: new \nAbstract: Prior work evaluates code generation bias primarily through simple conditional statements, which represent only a narrow slice of real-world programming and reveal solely overt, explicitly encoded bias. We demonstrate that this approach dramatically underestimates bias in practice by examining a more realistic task: generating machine learning (ML) pipelines. Testing both code-specialized and general-instruction large language models, we find that generated pipelines exhibit significant bias during feature selection. Sensitive attributes appear in 87.7% of cases on average, despite models demonstrably excluding irrelevant features (e.g., including \"race\" while dropping \"favorite color\" for credit scoring). This bias is substantially more prevalent than that captured by conditional statements, where sensitive attributes appear in only 59.2% of cases. These findings are robust across prompt mitigation strategies, varying numbers of attributes, and different pipeline difficulty levels. Our results challenge simple conditionals as valid proxies for bias evaluation and suggest current benchmarks underestimate bias risk in practical deployments.",
+      "url": "https://arxiv.org/abs/2604.21716",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "bias",
+        "attributes",
+        "code",
+        "pipelines",
+        "statements",
+        "appear",
+        "attributes appear",
+        "cases",
+        "code generation",
+        "conditional"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem \u2013 bias in code-generation models \u2013 by moving beyond simplistic conditional statements to a more realistic and complex task (ML pipeline generation). The finding that bias is *more* prevalent in this context than previously thought is significant. The methodology appears sound, and the results are clearly presented, suggesting a high-quality study with strong potential for impact.",
+      "paper_id": "b85443808793d383df1bc1211e2c5d4c"
+    },
+    {
+      "title": "CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents",
+      "authors": [
+        "Wenjie Fu, Xiaoting Qin, Jue Zhang, Qingwei Lin, Lukas Wutschitz, Robert Sim, Saravan Rajmohan, Dongmei Zhang"
+      ],
+      "abstract": "arXiv:2604.21308v1 Announce Type: cross \nAbstract: Enterprise LLM agents can dramatically improve workplace productivity, but their core capability, retrieving and using internal context to act on a user's behalf, also creates new risks for sensitive information leakage. We introduce CI-Work, a Contextual Integrity (CI)-grounded benchmark that simulates enterprise workflows across five information-flow directions and evaluates whether agents can convey essential content while withholding sensitive context in dense retrieval settings. Our evaluation of frontier models reveals that privacy failures are prevalent (violation rates range from 15.8%-50.9%, with leakage reaching up to 26.7%) and uncovers a counterintuitive trade-off critical for industrial deployment: higher task utility often correlates with increased privacy violations. Moreover, the massive scale of enterprise data and potential user behavior further amplify this vulnerability. Simply increasing model size or reasoning depth fails to address the problem. We conclude that safeguarding enterprise workflows requires a paradigm shift, moving beyond model-centric scaling toward context-centric architectures.",
+      "url": "https://arxiv.org/abs/2604.21308",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "enterprise",
+        "agents",
+        "ci",
+        "context",
+        "centric",
+        "ci work",
+        "contextual",
+        "contextual integrity",
+        "enterprise llm",
+        "enterprise workflows"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the privacy risks associated with enterprise LLM agents. The introduction of CI-Work as a benchmark grounded in Contextual Integrity is a strong methodological contribution. The finding of a trade-off between task utility and privacy is particularly important for real-world deployment, suggesting a complex challenge that needs careful consideration.",
+      "paper_id": "2c2f46b69311144599887f9fdfaf32df"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-24T10:31:11.133655"
 }

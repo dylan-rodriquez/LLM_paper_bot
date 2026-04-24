@@ -2,7 +2,51 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (17 total)
+
+### Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Inderjeet Nair, Jie Ruan, Lu Wang
+
+arXiv:2604.20995v1 Announce Type: cross 
+Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concern...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.20995) | [📝 Analysis](2fb296dcc5f87cff18e76de679e79cdd.md)
+
+---
+
+### Propensity Inference: Environmental Contributors to LLM Behaviour
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Olli J\"arviniemi, Oliver Makins, Jacob Merizian, Robert Kirk, Ben Millwood
+
+arXiv:2604.21098v1 Announce Type: cross 
+Abstract: Motivated by loss of control risks from misaligned AI systems, we develop and apply methods for measuring language models' propensity for unsanctione...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21098) | [📝 Analysis](afc577dc2c9406d219c9470aba3055f6.md)
+
+---
+
+### OptiVerse: A Comprehensive Benchmark towards Optimization Problem Solving
+
+**Score:** 90.0 | **Published:** 2026-04-24 | **Authors:** Xinyu Zhang, Boxuan Zhang, Yuchen Wan, Lingling Zhang, YiXing Yao, Bifan Wei, Yaqiang Wu, Jun Liu
+
+arXiv:2604.21510v1 Announce Type: new 
+Abstract: While Large Language Models (LLMs) demonstrate remarkable reasoning, complex optimization tasks remain challenging, requiring domain knowledge and robu...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21510) | [📝 Analysis](4e35644b5be08a2c49010db58649ef63.md)
+
+---
+
+### Ideological Bias in LLMs' Economic Causal Reasoning
+
+**Score:** 90.0 | **Published:** 2026-04-24 | **Authors:** Donggyu Lee, Hyeok Yun, Jungwon Kim, Junsik Min, Sungwon Park, Sangyoon Park, Jihee Kim
+
+arXiv:2604.21334v1 Announce Type: cross 
+Abstract: Do large language models (LLMs) exhibit systematic ideological bias when reasoning about economic causal effects? As LLMs are increasingly used in po...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21334) | [📝 Analysis](e6c1c5e2ffd848d1f707a8f2a88dbfe9.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +192,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-24 10:31:11 UTC*

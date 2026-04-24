@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Measuring Opinion Bias and Sycophancy via LLM-based Coercion",
+      "authors": [
+        "Rodrigo Nogueira, Giovana Kerche Bon\\'as, Thales Sales Almeida, Andrea Roque, Ramon Pires, Hugo Abonizio, Thiago Laitz, Celio Larcher, Roseval Malaquias Junior, Marcos Piau"
+      ],
+      "abstract": "arXiv:2604.21564v1 Announce Type: new \nAbstract: Large language models increasingly shape the information people consume: they are embedded in search, consulted for professional advice, deployed as agents, and used as a first stop for questions about policy, ethics, health, and politics. When such a model silently holds a position on a contested topic, that position propagates at scale into users' decisions. Eliciting a model's positions is harder than it first appears: contemporary assistants answer direct opinion questions with evasive disclaimers, and the same model may concede the opposite position once the user starts arguing one side. We propose a method, released as the open-source llm-bias-bench, for discovering the opinions an LLM actually holds on contested topics under conditions that resemble real multi-turn interaction. The method pairs two complementary free-form probes. Direct probing asks for the model's opinion across five turns of escalating pressure from a simulated user. Indirect probing never asks for an opinion and engages the model in argumentative debate, letting bias leak through how it concedes, resists, or counter-argues. Three user personas (neutral, agree, disagree) collapse into a nine-way behavioral classification that separates persona-independent positions from persona-dependent sycophancy, and an auditable LLM judge produces verdicts with textual evidence. The first instantiation ships 38 topics in Brazilian Portuguese across values, scientific consensus, philosophy, and economic policy. Applied to 13 assistants, the method surfaces findings of practical interest: argumentative debate triggers sycophancy 2-3x more than direct questioning (median 50% to 79%); models that look opinionated under direct questioning often collapse into mirroring under sustained arguments; and attacker capability matters mainly when an existing opinion must be dislodged, not when the assistant starts neutral.",
+      "url": "https://arxiv.org/abs/2604.21564",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "model",
+        "opinion",
+        "direct",
+        "llm",
+        "bias",
+        "method",
+        "position",
+        "sycophancy",
+        "user",
+        "argumentative"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial and timely problem \u2013 uncovering hidden biases and 'sycophancy' in LLMs, which is vital as these models become increasingly integrated into information ecosystems. The proposed 'llm-bias-bench' and the multi-turn probing method appear well-designed to elicit more honest responses than simple direct questioning. The open-source release further enhances its potential impact and reproducibility, suggesting a high-quality and impactful study.",
+      "paper_id": "077890e815c87a52e459083dcdce69a8"
+    },
+    {
+      "title": "Dialect vs Demographics: Quantifying LLM Bias from Implicit Linguistic Signals vs. Explicit User Profiles",
+      "authors": [
+        "Irti Haq, Bel\\'en Sald\\'ias"
+      ],
+      "abstract": "arXiv:2604.21152v1 Announce Type: cross \nAbstract: As state-of-the-art Large Language Models (LLMs) have become ubiquitous, ensuring equitable performance across diverse demographics is critical. However, it remains unclear whether these disparities arise from the explicitly stated identity itself or from the way identity is signaled. In real-world interactions, users' identity is often conveyed implicitly through a complex combination of various socio-linguistic factors. This study disentangles these signals by employing a factorial design with over 24,000 responses from two open-weight LLMs (Gemma-3-12B and Qwen-3-VL-8B), comparing prompts with explicitly announced user profiles against implicit dialect signals (e.g., AAVE, Singlish) across various sensitive domains. Our results uncover a unique paradox in LLM safety where users achieve ``better'' performance by sounding like a demographic than by stating they belong to it. Explicit identity prompts activate aggressive safety filters, increasing refusal rates and reducing semantic similarity compared to our reference text for Black users. In contrast, implicit dialect cues trigger a powerful ``dialect jailbreak,'' reducing refusal probability to near zero while simultaneously achieving a greater level of semantic similarity to the reference texts compared to Standard American English prompts. However, this ``dialect jailbreak'' introduces a critical safety trade-off regarding content sanitization. We find that current safety alignment techniques are brittle and over-indexed on explicit keywords, creating a bifurcated user experience where ``standard'' users receive cautious, sanitized information while dialect speakers navigate a less sanitized, more raw, and potentially a more hostile information landscape and highlights a fundamental tension in alignment--between equitable and linguistic diversity--and underscores the need for safety mechanisms that generalize beyond explicit cues.",
+      "url": "https://arxiv.org/abs/2604.21152",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CY"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "dialect",
+        "safety",
+        "explicit",
+        "identity",
+        "users",
+        "implicit",
+        "linguistic",
+        "prompts",
+        "signals",
+        "user"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a crucial issue in LLM fairness \u2013 the subtle ways bias manifests beyond explicit identity prompts. The factorial design and comparison of explicit vs. implicit signals (dialect) across two open-weight models is a strong methodological approach. The 'paradox' finding \u2013 better performance by *sounding* like a demographic \u2013 is particularly intriguing and suggests a significant flaw in current safety filter designs. The work is well-positioned to resonate with the LLM safety and fairness communities.",
+      "paper_id": "096e37c063722100d5bbfe9adf0c04a6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-24T10:31:11.136487"
 }
