@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### The Root Theorem of Context Engineering
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Borja Odriozola Schick
+
+arXiv:2604.20874v1 Announce Type: cross 
+Abstract: Every system that maintains a large language model conversation beyond a single session faces two inescapable constraints: the context window is fini...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.20874) | [📝 Analysis](1d26b50e13d269e8d881d7faa95d457b.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-24 10:31:11 UTC*

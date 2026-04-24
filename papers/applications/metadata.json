@@ -415,7 +415,39 @@
       "subject_classification": "applications",
       "justification": "The paper addresses a realistic limitation of current OpenRE methods \u2013 the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.",
       "paper_id": "b702bce377bd40a6577bf64dd1b7e482"
+    },
+    {
+      "title": "Multilinguality at the Edge: Developing Language Models for the Global South",
+      "authors": [
+        "Lester James V. Miranda, Songbo Hu, Roi Reichart, Anna Korhonen"
+      ],
+      "abstract": "arXiv:2604.21637v1 Announce Type: new \nAbstract: Where and how language models (LMs) are deployed determines who can benefit from them. However, there are several challenges that prevent effective deployment of LMs in non-English-speaking and hardware constrained communities in the Global South. We call this challenge the last mile: the intersection of multilinguality and edge deployment, where the goals are aligned but the technical requirements often compete. Studying these two fields together is both a need, as linguistically diverse communities often face the most severe infrastructure constraints, and an opportunity, as edge and multilingual NLP research remain largely siloed. To understand the state of the art and the challenges of combining the two areas, we survey 232 papers that tackle this problem across the language modelling pipeline, from data collection to development and deployment. We also discuss open questions and provide actionable recommendations for different stakeholders in the NLP ecosystem. Finally, we hope that this work contributes to the development of inclusive and equitable language technologies.",
+      "url": "https://arxiv.org/abs/2604.21637",
+      "published_date": "2026-04-24T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "language",
+        "deployment",
+        "edge",
+        "challenges",
+        "communities",
+        "development",
+        "global",
+        "global south",
+        "language models",
+        "lms"
+      ],
+      "subject_classification": "applications",
+      "justification": "This paper addresses a critically important and under-explored area \u2013 the intersection of multilingual NLP and edge deployment for the Global South. The survey approach is valuable for consolidating the current state of research and identifying key challenges. While the abstract doesn't detail novel methods, the scope and focus on a crucial real-world problem suggest high potential for impact and positive community reception.",
+      "paper_id": "2a49557d65ae8cfe95ef4f47ec02104d"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.549334"
+  "last_updated": "2026-04-24T10:31:11.137225"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Subject-level Inference for Realistic Text Anonymization Evaluation
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Myeong Seok Oh, Dong-Yun Kim, Hanseok Oh, Chaean Kang, Joeun Kang, Xiaonan Wang, Hyunjung Park, Young Cheol Jung, Hansaem Kim
+
+arXiv:2604.21211v1 Announce Type: new 
+Abstract: Current text anonymization evaluation relies on span-based metrics that fail to capture what an adversary could actually infer, and assumes a single da...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21211) | [📝 Analysis](b083e333b8c196b5be71a85104190bb1.md)
+
+---
+
+### M-CARE: Standardized Clinical Case Reporting for AI Model Behavioral Disorders, with a 20-Case Atlas and Experimental Validation
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Jihoon Jeong
+
+arXiv:2604.20871v1 Announce Type: cross 
+Abstract: We introduce M-CARE (Model Clinical Assessment and Reporting for Evaluation), a clinical case report framework for AI model behavioral disorders adap...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.20871) | [📝 Analysis](00ff72fc38203dd9000479a910819f00.md)
+
+---
+
+### Cross-Session Threats in AI Agents: Benchmark, Evaluation, and Algorithms
+
+**Score:** 92.0 | **Published:** 2026-04-24 | **Authors:** Ari Azarafrooz
+
+arXiv:2604.21131v1 Announce Type: cross 
+Abstract: AI-agent guardrails are memoryless: each message is judged in isolation, so an adversary who spreads a single attack across dozens of sessions slips ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21131) | [📝 Analysis](b08fa1d9705251ee86ec606445389c16.md)
+
+---
+
+### From If-Statements to ML Pipelines: Revisiting Bias in Code-Generation
+
+**Score:** 90.0 | **Published:** 2026-04-24 | **Authors:** Minh Duc Bui, Xenia Heilmann, Mattia Cerrato, Manuel Mager, Katharina von der Wense
+
+arXiv:2604.21716v1 Announce Type: new 
+Abstract: Prior work evaluates code generation bias primarily through simple conditional statements, which represent only a narrow slice of real-world programmin...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21716) | [📝 Analysis](b85443808793d383df1bc1211e2c5d4c.md)
+
+---
+
+### CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents
+
+**Score:** 90.0 | **Published:** 2026-04-24 | **Authors:** Wenjie Fu, Xiaoting Qin, Jue Zhang, Qingwei Lin, Lukas Wutschitz, Robert Sim, Saravan Rajmohan, Dongmei Zhang
+
+arXiv:2604.21308v1 Announce Type: cross 
+Abstract: Enterprise LLM agents can dramatically improve workplace productivity, but their core capability, retrieving and using internal context to act on a u...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.21308) | [📝 Analysis](2c2f46b69311144599887f9fdfaf32df.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-24 10:31:11 UTC*
