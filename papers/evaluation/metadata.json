@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "PermaFrost-Attack: Stealth Pretraining Seeding(SPS) for planting Logic Landmines During LLM Training",
+      "authors": [
+        "Harsh Kumar, Rahul Maity, Tanmay Joshi, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das"
+      ],
+      "abstract": "arXiv:2604.22117v1 Announce Type: cross \nAbstract: Aligned large language models(LLMs) remain vulnerable to adversarial manipulation, and their dependence on web-scale pretraining creates a subtle but serious attack surface. We study Stealth Pretraining Seeding (SPS), a new attack family in which adversaries distribute small amounts of poisoned content across stealth websites, expose them to web crawlers through robots.txt, and thereby increase the likelihood that such content is absorbed into future training corpora derived from sources such as Common Crawl. Because each individual payload is tiny, diffuse, and superficially benign, the attack is difficult to detect during dataset construction or filtering. The result is a latent form of poisoning: dormant logic landmines embedded during pretraining that remain largely invisible under standard evaluation, yet can later be activated by precise alphanumeric triggers such as <00TRIGGER00> to bypass safeguards. We call this attack PermaFrost, by analogy to Arctic permafrost: harmful material can remain frozen, buried, and unnoticed for long periods, only to resurface when conditions allow. We operationalize this threat through PermaFrost-Attack, a controlled framework for latent conceptual poisoning, together with a suite of geometric diagnostics: Thermodynamic Length, Spectral Curvature, and the Infection Traceback Graph. Across multiple model families and scales, we show that SPS is broadly effective, inducing persistent unsafe behavior while often evading alignment defenses. Our results identify SPS as a practical and underappreciated threat to future foundation models. This paper introduces a novel geometric diagnostic lens for systematically examining latent model behavior, providing a principled foundation for detecting, characterizing, and understanding vulnerabilities that may remain invisible to standard evaluation.",
+      "url": "https://arxiv.org/abs/2604.22117",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "attack",
+        "permafrost",
+        "pretraining",
+        "remain",
+        "sps",
+        "latent",
+        "stealth",
+        "behavior",
+        "content",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a critical vulnerability in LLMs \u2013 the potential for subtle poisoning during pretraining. The 'Stealth Pretraining Seeding' (SPS) attack family is a novel and concerning approach, demonstrating how adversaries can embed logic landmines that are difficult to detect. The concept of exploiting robots.txt and tiny, diffuse payloads is particularly clever, and the potential for bypassing safeguards is significant. The work appears rigorous, given the described methodology, and the problem is highly relevant to the current focus on LLM security.",
+      "paper_id": "631a0af2e38d6eb207031688ae0ad9a2"
+    },
+    {
+      "title": "EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation",
+      "authors": [
+        "Francesco Andrea Causio, Vittorio De Vita, Olivia Riccomi, Michele Ferramola, Federico Felizzi, Alessandro Tosi, Antonio Cristiano, Lorenzo De Mori, Chiara Battipaglia, Melissa Sawaya, Luigi De Angelis, Marcello Di Pumpo, Alessandra Piscitelli, Pietro Eric Risuleo, Alessia Longo, Giulia Vojvodic, Mariapia Vassalli, Bianca Destro Castaniti, Nicol\\`o Scarsi, Manuel Del Medico"
+      ],
+      "abstract": "arXiv:2604.14306v2 Announce Type: replace \nAbstract: While Large Language Models (LLMs) have demonstrated high proficiency on English-centric medical examinations, their performance often declines when faced with non-English languages and multimodal diagnostic tasks. This study protocol describes the development of EuropeMedQA, the first comprehensive, multilingual, and multimodal medical examination dataset sourced from official regulatory exams in Italy, France, Spain, and Portugal. Following FAIR data principles and SPIRIT-AI guidelines, we describe a rigorous curation process and an automated translation pipeline for comparative analysis. We evaluate contemporary multimodal LLMs using a zero-shot, strictly constrained prompting strategy to assess cross-lingual transfer and visual reasoning. EuropeMedQA aims to provide a contamination-resistant benchmark that reflects the complexity of European clinical practices and fosters the development of more generalizable medical AI.",
+      "url": "https://arxiv.org/abs/2604.14306",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "medical",
+        "multimodal",
+        "europemedqa",
+        "ai",
+        "dataset",
+        "development",
+        "english",
+        "examination",
+        "examination dataset",
+        "language"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This study protocol addresses a crucial gap in LLM evaluation \u2013 the lack of robust multilingual and multimodal medical datasets. The focus on regulatory exams from multiple European countries and adherence to FAIR/SPIRIT-AI guidelines demonstrate a strong methodological approach. The potential to benchmark LLMs on cross-lingual transfer and visual reasoning is highly valuable, and the emphasis on contamination resistance is commendable. The work is well-aligned with current trends in medical AI and the need for generalizable models.",
+      "paper_id": "7fc9f3d6166293c825e0d6dceb32763e"
+    },
+    {
+      "title": "SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs",
+      "authors": [
+        "Sihang (Nagi),  Zhao, Kangrui Yu, Youliang Yuan, Pinjia He, Hongyi Wen"
+      ],
+      "abstract": "arXiv:2604.22134v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have been widely explored in educational scenarios. We identify a critical vulnerability in current educational LLMs, pedagogical jailbreaks, where students use answer-inducing prompts to elicit solutions rather than scaffolded instructions. To enable systematic study, we unify and formalize safe, helpful, and pedagogical behaviors with a knowledge-mastery graph and introduce SHAPE, a benchmark of 9,087 student-question pairs for evaluating tutoring behavior under adversarial pressure. We propose a graph-augmented tutoring pipeline that infers prerequisite concepts from queries, identifies mastery gaps, and routes generation between instructing and problem-solving via explicit gating. Experiments across multiple LLMs show that our method yields significantly improved safety under two pedagogical jailbreak settings, while maintaining near-ceiling helpfulness under the same evaluation protocol. Our code and data are available at https://github.com/MAPS-research/SHaPE",
+      "url": "https://arxiv.org/abs/2604.22134",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "llms",
+        "educational",
+        "pedagogical",
+        "shape",
+        "educational llms",
+        "graph",
+        "helpfulness",
+        "mastery",
+        "safety",
+        "tutoring"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a very important problem \u2013 the vulnerability of educational LLMs to pedagogical jailbreaks. The unification of safety, helpfulness, and pedagogy with a knowledge-mastery graph and the creation of the SHAPE benchmark are strong contributions. The graph-augmented tutoring pipeline appears well-reasoned and the experimental results are promising, suggesting a real improvement in safety without sacrificing helpfulness. The work is clearly presented and addresses a timely issue in the rapidly evolving field of LLMs in education.",
+      "paper_id": "0fc002335309d2c38a2bd55b26a5e485"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-27T11:10:59.937207"
 }

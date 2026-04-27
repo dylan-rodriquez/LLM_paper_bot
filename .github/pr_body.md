@@ -1,9 +1,9 @@
 # 📚 Daily LLM Paper Curation Summary
 
 ## Overview
-- **Total Papers Added:** 9
-- **Average Significance Score:** 81.1/100
-- **Categories Updated:** 5
+- **Total Papers Added:** 12
+- **Average Significance Score:** 91.7/100
+- **Categories Updated:** 6
 - **Date Range:** Last 1 day(s)
 
 ## Selection Criteria
@@ -12,40 +12,48 @@ Papers are automatically selected based on:
 - **Impact Score:** Practical applications, real-world significance  
 - **Technical Quality:** Mathematical rigor, comprehensive analysis
 - **Sentiment Analysis:** Positive reception indicators
-- **Minimum Threshold:** 75.0/100 significance score
+- **Minimum Threshold:** 90.0/100 significance score
 
 ## Papers Added
 
+## Evaluation (3 new papers)
+- **PermaFrost-Attack: Stealth Pretraining Seeding(SPS) for planting Logic Landmines During LLM Training** (Score: 92.0)
+  - This research addresses a critical vulnerability in LLMs – the potential for subtle poisoning during pretraining. The 'Stealth Pretraining Seeding' (SPS) attack family is a novel and concerning approach, demonstrating how adversaries can embed logic landmines that are difficult to detect. The concept of exploiting robots.txt and tiny, diffuse payloads is particularly clever, and the potential for bypassing safeguards is significant. The work appears rigorous, given the described methodology, and the problem is highly relevant to the current focus on LLM security.
+- **EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation** (Score: 92.0)
+  - This study protocol addresses a crucial gap in LLM evaluation – the lack of robust multilingual and multimodal medical datasets. The focus on regulatory exams from multiple European countries and adherence to FAIR/SPIRIT-AI guidelines demonstrate a strong methodological approach. The potential to benchmark LLMs on cross-lingual transfer and visual reasoning is highly valuable, and the emphasis on contamination resistance is commendable. The work is well-aligned with current trends in medical AI and the need for generalizable models.
+- **SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs** (Score: 90.0)
+  - This paper tackles a very important problem – the vulnerability of educational LLMs to pedagogical jailbreaks. The unification of safety, helpfulness, and pedagogy with a knowledge-mastery graph and the creation of the SHAPE benchmark are strong contributions. The graph-augmented tutoring pipeline appears well-reasoned and the experimental results are promising, suggesting a real improvement in safety without sacrificing helpfulness. The work is clearly presented and addresses a timely issue in the rapidly evolving field of LLMs in education.
+
+## Alignment (2 new papers)
+- **When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models** (Score: 92.0)
+  - This research addresses a crucial and timely issue – the cultural biases embedded within large language models. The systematic cross-cultural audit using real-life dilemmas and comparison to World Values Survey data provides strong evidence of a Western, individualist bias. The statistically significant results (p<0.001) and clear presentation of the gap between AI advice and local values suggest a high-quality study with substantial implications for responsible AI development.
+- **Logic Jailbreak: Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression** (Score: 92.0)
+  - This paper addresses a critical issue in LLM safety – the vulnerability to jailbreak attacks – and proposes a novel approach, LogiBreak, that leverages formal logic. The hypothesis regarding distributional discrepancies is well-articulated, and the multilingual evaluation strengthens the work. While the core idea isn't entirely unprecedented (using formal methods for verification), the application to *circumventing* safety mechanisms in a black-box manner is a significant contribution. The potential for improving LLM robustness is high.
+
+## Training (4 new papers)
+- **Measuring and Mitigating Persona Distortions from AI Writing Assistance** (Score: 92.0)
+  - This research addresses a highly relevant and timely issue – the subtle but potentially significant distortions introduced by AI writing assistance. The large-scale experiments (N=2,939 writers, N=11,091 readers) demonstrate a rigorous methodology, and the finding that AI shifts perceived personas across multiple dimensions is concerning. The fact that writers *prefer* AI-assisted text even when aware of these distortions adds a crucial layer to the problem, highlighting the need for mitigation strategies.
+- **PrivUn: Unveiling Latent Ripple Effects and Shallow Forgetting in Privacy Unlearning** (Score: 92.0)
+  - This paper tackles a crucial problem in the age of LLMs – privacy unlearning – and proposes a novel evaluation framework (PrivUn) to rigorously assess existing methods. The identification of 'ripple effects' and 'shallow forgetting' as key weaknesses is insightful and suggests a need for fundamentally different unlearning approaches. The three-tier attack scenario and quantitative analysis demonstrate a strong methodological approach, though the full extent of the experimental validation isn't clear from the abstract.
+- **Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning** (Score: 92.0)
+  - This paper tackles a very important and timely problem – auditing LLMs fine-tuned with RL, specifically regarding the use of private data. The 'Behavioral Canaries' approach is a clever workaround to the limitations of traditional auditing methods in the RL context, focusing on stylistic changes induced by training. The abstract suggests a rigorous methodology and promising empirical results, indicating a high-quality contribution.
+- **Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models** (Score: 92.0)
+  - This paper tackles a crucial and surprisingly persistent problem in LLM fine-tuning – the failure to learn even the training data. The systematic study and formalization of the 'Incomplete Learning Phenomenon' (ILP) are strong points, and identifying five potential sources is a valuable contribution. The high scores reflect the importance of the problem and the potential for improving SFT, though the novelty is somewhat tempered by being a primarily diagnostic study rather than a solution-oriented one.
+
 ## Reasoning (1 new papers)
-- **Climate Finance Bench** (Score: 85.0)
-  - This paper addresses a highly relevant and timely problem – leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.
+- **How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks** (Score: 90.0)
+  - This paper tackles a very important and timely problem – the escalating cost of LLM token usage with the rise of AI agents. The systematic study of token consumption patterns, particularly highlighting the dominance of input tokens and the high variability, is valuable. While the methodology appears sound based on the abstract, the novelty lies in being the *first* such systematic study, rather than introducing radically new techniques, but the findings are significant for practical deployment and model selection.
 
-## Training (2 new papers)
-- **FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian** (Score: 80.0)
-  - This paper addresses a crucial issue in speech processing – the lack of open-source, reproducible foundation models. The creation of FAMA, trained on a substantial open-source dataset and released with all artifacts, is a significant step towards democratizing access to this technology. The reported speed improvements further enhance its practical value, and the inclusion of Italian alongside English broadens its applicability.
-- **Pre-Training Curriculum for Multi-Token Prediction in Language Models** (Score: 75.0)
-  - The paper addresses a relevant problem – the difficulty SLMs have with MTP – and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.
+## Agents (1 new papers)
+- **Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents** (Score: 92.0)
+  - This paper tackles a crucial question in the rapidly evolving field of LLM agents: whether scaling to large populations leads to emergent collective intelligence. The 'Superminds Test' framework appears well-designed for empirically evaluating this, and the negative results – the lack of observed collective intelligence – are significant and counterintuitive. While the probing agent methodology isn't entirely novel, its application to a society of over two million agents is a substantial undertaking, and the findings will likely spur further research into the conditions necessary for collective intelligence to emerge.
 
-## Multimodal (2 new papers)
-- **StressTest: Can YOUR Speech LM Handle the Stress?** (Score: 85.0)
-  - This paper addresses a crucial, yet often overlooked, aspect of speech understanding – sentence stress. The creation of a dedicated benchmark (StressTest) is a strong methodological contribution, and the initial findings suggesting current SLMs struggle with this nuance are significant. While the core idea isn't entirely novel (understanding prosody is known to be important), focusing specifically on stress and creating a benchmark is a valuable step forward. The work appears well-motivated and clearly presented, suggesting a positive reception within the speech and NLP communities.
-- **Counting trees: A treebank-driven exploration of syntactic variation in speech and writing across languages** (Score: 75.0)
-  - The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.
-
-## Applications (2 new papers)
-- **Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems** (Score: 75.0)
-  - The paper addresses a relevant problem in educational technology – improving AES. Integrating feedback annotations is a logical and potentially effective approach. While the methodology appears sound (using LLMs for annotation and fine-tuning classifiers), the abstract doesn't detail the *magnitude* of improvement, which impacts the perceived novelty. The use of the PERSUADE corpus is a good choice, and the focus on argumentative components is valuable.
-- **Towards a More Generalized Approach in Open Relation Extraction** (Score: 75.0)
-  - The paper addresses a realistic limitation of current OpenRE methods – the assumption of purely novel relations. Proposing a generalized setting and a two-phase framework (MixORE) to handle mixed data is a solid contribution. The reported performance improvements on benchmark datasets suggest a well-executed methodology, though the abstract lacks detail on the specifics of the clustering and classification techniques used. The problem is relevant and the approach appears sound, indicating a positive reception within the OpenRE community.
-
-## Evaluation (2 new papers)
-- **Can Large Language Models Match the Conclusions of Systematic Reviews?** (Score: 92.0)
-  - This research addresses a highly relevant and important problem – automating systematic review generation with LLMs. The creation of the MedEvidence benchmark is a strong methodological contribution, providing a standardized way to evaluate LLM performance in this critical domain. The benchmarking of 24 LLMs suggests a rigorous approach, and the focus on matching expert conclusions is a valuable metric. The high sentiment score reflects the current excitement around LLMs and their potential to revolutionize research processes.
-- **MEDAL: A Framework for Benchmarking LLMs as Multilingual Open-Domain Chatbots and Dialogue Evaluators** (Score: 88.0)
-  - This paper addresses a critical bottleneck in LLM development – robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.
+## Architectures (1 new papers)
+- **Intrinsic Fingerprint of LLMs: Continue Training is NOT All You Need to Steal A Model!** (Score: 92.0)
+  - This paper addresses a very timely and important problem – protecting LLM intellectual property in the face of continued training. The approach of using intrinsic fingerprinting based on attention parameter distributions is novel and appears robust, offering a potential solution beyond traditional watermarking. The abstract is clear and concise, suggesting a well-structured research effort, and the problem's relevance to the current LLM landscape is high.
 
 ## Categories
-**Reasoning** (1), **Training** (2), **Multimodal** (2), **Applications** (2), **Evaluation** (2)
+**Evaluation** (3), **Alignment** (2), **Training** (4), **Reasoning** (1), **Agents** (1), **Architectures** (1)
 
 ---
 *This PR was automatically generated by the LLM Paper Curation workflow*

@@ -2,7 +2,18 @@
 
 This directory contains papers related to architectures in large language models and AI.
 
-## Papers (22 total)
+## Papers (23 total)
+
+### Intrinsic Fingerprint of LLMs: Continue Training is NOT All You Need to Steal A Model!
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Do-hyeon Yoon, Minsoo Chun, Thomas Allen, Hans M\"uller, Min Wang, Rajesh Sharma
+
+arXiv:2507.03014v2 Announce Type: replace-cross 
+Abstract: Large language models (LLMs) face significant copyright and intellectual property challenges as the cost of training increases and model reus...
+
+[📄 Full Paper](https://arxiv.org/abs/2507.03014) | [📝 Analysis](53814c90534b85e34dd06b6c24f0880e.md)
+
+---
 
 ### The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text
 
@@ -247,4 +258,4 @@ Abstract: Temporal Knowledge Graphs (TKGs), as an extension of static Knowledge 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-27 11:10:59 UTC*

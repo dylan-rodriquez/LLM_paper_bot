@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Pruthvinath Jeripity Venkata
+
+arXiv:2604.22153v1 Announce Type: new 
+Abstract: When you ask an AI assistant for advice about your career, your marriage, or a conflict with your family, does it give you the same answer regardless o...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22153) | [📝 Analysis](50d3440b0d88235b401ab4daef2a7fa3.md)
+
+---
+
+### Logic Jailbreak: Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Jingyu Peng, Maolin Wang, Nan Wang, Jiatong Li, Yuchen Li, Yuyang Ye, Wanyu Wang, Pengyue Jia, Kai Zhang, Xiangyu Zhao
+
+arXiv:2505.13527v4 Announce Type: replace 
+Abstract: Despite substantial advancements in aligning large language models (LLMs) with human values, current safety mechanisms remain susceptible to jailbr...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.13527) | [📝 Analysis](ce3b36e89142233f54b5d3d0c7583c98.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-27 11:10:59 UTC*

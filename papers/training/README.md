@@ -2,7 +2,51 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (56 total)
+
+### Measuring and Mitigating Persona Distortions from AI Writing Assistance
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Paul R\"ottger, Kobi Hackenburg, Hannah Rose Kirk, Christopher Summerfield
+
+arXiv:2604.22503v1 Announce Type: new 
+Abstract: Hundreds of millions of people use artificial intelligence (AI) for writing assistance. Here, we evaluated how AI writing assistance distorts writer pe...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22503) | [📝 Analysis](9329e7f7f0ac53331fcc3dc2ed1d4922.md)
+
+---
+
+### PrivUn: Unveiling Latent Ripple Effects and Shallow Forgetting in Privacy Unlearning
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Xiaoyi Chen, Haoyuan Wang, Siyuan Tang, Sijia Liu, Liya Su, XiaoFeng Wang, Haixu Tang
+
+arXiv:2604.22076v1 Announce Type: cross 
+Abstract: Large language models (LLMs) often memorize private information during training, raising serious privacy concerns. While machine unlearning has emerg...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22076) | [📝 Analysis](bf9ba5b98e80118347cb7b2966cac7e8.md)
+
+---
+
+### Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Chaoran Chen, Dayu Yuan, Peter Kairouz
+
+arXiv:2604.22191v1 Announce Type: cross 
+Abstract: In agentic workflows, LLMs frequently process retrieved contexts that are legally protected from further training. However, auditors currently lack a...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22191) | [📝 Analysis](cc1191f34893594671925afbc3694a9a.md)
+
+---
+
+### Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, Flora D. Salim
+
+arXiv:2604.10079v4 Announce Type: replace 
+Abstract: Supervised Fine-Tuning (SFT) is the standard approach for adapting large language models (LLMs) to downstream tasks. However, we observe a persiste...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.10079) | [📝 Analysis](b88c3d4af97dbff9967ad6d676948443.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +621,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-27 11:10:59 UTC*
