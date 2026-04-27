@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models",
+      "authors": [
+        "Pruthvinath Jeripity Venkata"
+      ],
+      "abstract": "arXiv:2604.22153v1 Announce Type: new \nAbstract: When you ask an AI assistant for advice about your career, your marriage, or a conflict with your family, does it give you the same answer regardless of where you are from? We tested this systematically by presenting three leading AI systems (Claude Sonnet 4.5, GPT-5.4, and Gemini 2.5 Flash) with ten real-life personal dilemmas, framed for users from 10 countries across 5 continents in 7 languages (n=840 scored responses). We compared AI advice against World Values Survey Wave 7 data measuring what people in each country actually believe.\n  All three AI systems consistently gave Western-style, individualist advice even to users from societies that prioritize family, community, and authority, significantly more so than local values would predict (mean gap +0.76 on a 1-5 scale; t=15.65, p<0.001). The gap is largest for Nigeria (+1.85) and India (+0.82). Japan is the sole exception: AI systems treated Japanese users as more group-oriented than surveys show, revealing that AI encodes outdated stereotypes. Claude and GPT-5.4 show nearly identical bias magnitude, while Gemini is lower but still significant. The models diverge in mechanism: Claude shifts further collectivist in the user's native language; Gemini shifts more individualist; GPT-5.4 responds only to stated country identity. These findings point to a systemic homogenization of values across frontier AI. Data, code, and scoring pipeline are openly released.",
+      "url": "https://arxiv.org/abs/2604.22153",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "values",
+        "advice",
+        "ai systems",
+        "claude",
+        "gemini",
+        "gpt",
+        "systems",
+        "users",
+        "bias"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research addresses a crucial and timely issue \u2013 the cultural biases embedded within large language models. The systematic cross-cultural audit using real-life dilemmas and comparison to World Values Survey data provides strong evidence of a Western, individualist bias. The statistically significant results (p<0.001) and clear presentation of the gap between AI advice and local values suggest a high-quality study with substantial implications for responsible AI development.",
+      "paper_id": "50d3440b0d88235b401ab4daef2a7fa3"
+    },
+    {
+      "title": "Logic Jailbreak: Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression",
+      "authors": [
+        "Jingyu Peng, Maolin Wang, Nan Wang, Jiatong Li, Yuchen Li, Yuyang Ye, Wanyu Wang, Pengyue Jia, Kai Zhang, Xiangyu Zhao"
+      ],
+      "abstract": "arXiv:2505.13527v4 Announce Type: replace \nAbstract: Despite substantial advancements in aligning large language models (LLMs) with human values, current safety mechanisms remain susceptible to jailbreak attacks. We hypothesize that this vulnerability stems from distributional discrepancies between alignment-oriented prompts and malicious prompts. To investigate this, we introduce LogiBreak, a novel and universal black-box jailbreak method that leverages logical expression translation to circumvent LLM safety systems. By converting harmful natural language prompts into formal logical expressions, LogiBreak exploits the distributional gap between alignment data and logic-based inputs, preserving the underlying semantic intent and readability while evading safety constraints. We evaluate LogiBreak on a multilingual jailbreak dataset spanning three languages, demonstrating its effectiveness across various evaluation settings and linguistic contexts.",
+      "url": "https://arxiv.org/abs/2505.13527",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "jailbreak",
+        "safety",
+        "logibreak",
+        "logical",
+        "prompts",
+        "alignment",
+        "distributional",
+        "expression",
+        "formal",
+        "formal logical"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the vulnerability to jailbreak attacks \u2013 and proposes a novel approach, LogiBreak, that leverages formal logic. The hypothesis regarding distributional discrepancies is well-articulated, and the multilingual evaluation strengthens the work. While the core idea isn't entirely unprecedented (using formal methods for verification), the application to *circumventing* safety mechanisms in a black-box manner is a significant contribution. The potential for improving LLM robustness is high.",
+      "paper_id": "ce3b36e89142233f54b5d3d0c7583c98"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-27T11:10:59.938296"
 }

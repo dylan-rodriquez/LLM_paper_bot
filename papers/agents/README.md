@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Xirui Li, Ming Li, Yunze Xiao, Ryan Wong, Dianqi Li, Timothy Baldwin, Tianyi Zhou
+
+arXiv:2604.22452v1 Announce Type: cross 
+Abstract: Collective intelligence refers to the ability of a group to achieve outcomes beyond what any individual member can accomplish alone. As large languag...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22452) | [📝 Analysis](28c184fa03c67b6cf4b8af0953c1475a.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-27 11:10:59 UTC*

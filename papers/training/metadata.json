@@ -1663,7 +1663,135 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Measuring and Mitigating Persona Distortions from AI Writing Assistance",
+      "authors": [
+        "Paul R\\\"ottger, Kobi Hackenburg, Hannah Rose Kirk, Christopher Summerfield"
+      ],
+      "abstract": "arXiv:2604.22503v1 Announce Type: new \nAbstract: Hundreds of millions of people use artificial intelligence (AI) for writing assistance. Here, we evaluated how AI writing assistance distorts writer personas - their perceived beliefs, personality, and identity. In three large-scale experiments, writers (N=2,939) wrote political opinion paragraphs with and without AI assistance. Separate groups of readers (N=11,091) blindly evaluated these paragraphs across 29 socially salient dimensions of reader perception, spanning political opinion, writing quality, writer personality, emotions, and demographics. AI writing assistance produced persona distortions across all dimensions: with AI, writers seemed more opinionated, competent, and positive, and their perceived demographic profile shifted towards more privileged groups. Writers objected to many of the observed distortions, yet continued to prefer AI-assisted text even when made aware of them. We successfully mitigated objectionable persona distortions at the model level by training reward models on our experimental data (10,008 paragraphs, 2,903,596 ratings) to steer AI outputs towards faithful representation of writer stance. However, this came at a cost to user acceptance, suggesting an entanglement between desirable and undesirable properties of AI writing assistance that may be difficult to resolve. Together, our findings demonstrate that persona distortions from AI writing assistance are pervasive and persistent even under realistic conditions of human oversight, which carries implications for public discourse, trust, and democratic deliberation that scale with AI adoption.",
+      "url": "https://arxiv.org/abs/2604.22503",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "assistance",
+        "writing",
+        "ai writing",
+        "writing assistance",
+        "distortions",
+        "persona",
+        "persona distortions",
+        "paragraphs",
+        "writer"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a highly relevant and timely issue \u2013 the subtle but potentially significant distortions introduced by AI writing assistance. The large-scale experiments (N=2,939 writers, N=11,091 readers) demonstrate a rigorous methodology, and the finding that AI shifts perceived personas across multiple dimensions is concerning. The fact that writers *prefer* AI-assisted text even when aware of these distortions adds a crucial layer to the problem, highlighting the need for mitigation strategies.",
+      "paper_id": "9329e7f7f0ac53331fcc3dc2ed1d4922"
+    },
+    {
+      "title": "PrivUn: Unveiling Latent Ripple Effects and Shallow Forgetting in Privacy Unlearning",
+      "authors": [
+        "Xiaoyi Chen, Haoyuan Wang, Siyuan Tang, Sijia Liu, Liya Su, XiaoFeng Wang, Haixu Tang"
+      ],
+      "abstract": "arXiv:2604.22076v1 Announce Type: cross \nAbstract: Large language models (LLMs) often memorize private information during training, raising serious privacy concerns. While machine unlearning has emerged as a promising solution, its true effectiveness against privacy attacks remains unclear. To address this, we propose PrivUn, a new evaluation framework that systematically assesses unlearning robustness through three-tier attack scenarios: direct retrieval, in-context learning recovery, and fine-tuning restoration; combined with quantitative analysis using forgetting scores, association metrics, and forgetting depth assessment. Our study exposes significant weaknesses in current unlearning methods, revealing two key findings: 1) unlearning exhibits gradient-driven ripple effects: unlike traditional forgetting which follows semantic relations (e.g., knowledge graphs), privacy unlearning propagates across latent gradient-based associations; and 2) most methods suffer from shallow forgetting, failing to remove private information distributed across multiple deep model layers. To validate these insights, we explore two strategies: association-aware core-set selection that leverages gradient similarity, and multi-layer deep intervention through representational constraints. These strategies represent a paradigm shift from shallow forgetting to deep forgetting.",
+      "url": "https://arxiv.org/abs/2604.22076",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "forgetting",
+        "unlearning",
+        "privacy",
+        "deep",
+        "gradient",
+        "shallow",
+        "shallow forgetting",
+        "association",
+        "effects",
+        "information"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the age of LLMs \u2013 privacy unlearning \u2013 and proposes a novel evaluation framework (PrivUn) to rigorously assess existing methods. The identification of 'ripple effects' and 'shallow forgetting' as key weaknesses is insightful and suggests a need for fundamentally different unlearning approaches. The three-tier attack scenario and quantitative analysis demonstrate a strong methodological approach, though the full extent of the experimental validation isn't clear from the abstract.",
+      "paper_id": "bf9ba5b98e80118347cb7b2966cac7e8"
+    },
+    {
+      "title": "Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning",
+      "authors": [
+        "Chaoran Chen, Dayu Yuan, Peter Kairouz"
+      ],
+      "abstract": "arXiv:2604.22191v1 Announce Type: cross \nAbstract: In agentic workflows, LLMs frequently process retrieved contexts that are legally protected from further training. However, auditors currently lack a reliable way to verify if a provider has violated the terms of service by incorporating these data into post-training, especially through Reinforcement Learning (RL). While standard auditing relies on verbatim memorization and membership inference, these methods are ineffective for RL-trained models, as RL primarily influences a model's behavioral style rather than the retention of specific facts. To bridge this gap, we introduce Behavioral Canaries, a new auditing mechanism for RLFT pipelines. The framework instruments preference data by pairing document triggers with feedback that rewards a distinctive stylistic response, inducing a latent trigger-conditioned preference if such data are used in training. Empirical results show that these behavioral signals enable detection of unauthorized document-conditioned training, achieving a 67% detection rate at a 10% false-positive rate (AUROC = 0.756) at a 1% canary injection rate. More broadly, our results establish behavioral canaries as a new auditing mechanism for RLFT pipelines, enabling auditors to test for training-time influence even when such influence manifests as distributional behavioral change rather than memorization.",
+      "url": "https://arxiv.org/abs/2604.22191",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "behavioral",
+        "training",
+        "auditing",
+        "rl",
+        "behavioral canaries",
+        "canaries",
+        "data",
+        "rate",
+        "auditing mechanism",
+        "auditors"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a very important and timely problem \u2013 auditing LLMs fine-tuned with RL, specifically regarding the use of private data. The 'Behavioral Canaries' approach is a clever workaround to the limitations of traditional auditing methods in the RL context, focusing on stylistic changes induced by training. The abstract suggests a rigorous methodology and promising empirical results, indicating a high-quality contribution.",
+      "paper_id": "cc1191f34893594671925afbc3694a9a"
+    },
+    {
+      "title": "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models",
+      "authors": [
+        "Chao Xue, Yao Wang, Mengqiao Liu, Di Liang, Xingsheng Han, Peiyang Liu, Xianjie Wu, Chenyao Lu, Lei Jiang, Yu Lu, Haibo Shi, Shuang Liang, Minlong Peng, Flora D. Salim"
+      ],
+      "abstract": "arXiv:2604.10079v4 Announce Type: replace \nAbstract: Supervised Fine-Tuning (SFT) is the standard approach for adapting large language models (LLMs) to downstream tasks. However, we observe a persistent failure mode: even after convergence, models often fail to correctly reproduce a subset of their own supervised training data. We refer to this behavior as the Incomplete Learning Phenomenon(ILP). This paper presents the first systematic study of ILP in LLM fine-tuning. We formalize ILP as post-training failure to internalize supervised instances and demonstrate its prevalence across multiple model families, domains, and datasets. Through controlled analyses, we identify five recurrent sources of incomplete learning: (1) missing prerequisite knowledge in the pre-trained model, (2) conflicts between SFT supervision and pre-training knowledge, (3) internal inconsistencies within SFT data, (4) left-side forgetting during sequential fine-tuning, and (5) insufficient optimization for rare or complex patterns. We introduce a diagnostic-first framework that maps unlearned samples to these causes using observable training and inference signals, and study several targeted mitigation strategies as causal interventions. Experiments on Qwen, LLaMA, and OLMo2 show that incomplete learning is widespread and heterogeneous, and that improvements in aggregate metrics can mask persistent unlearned subsets. The findings highlight the need for fine-grained diagnosis of what supervised fine-tuning fails to learn, and why.",
+      "url": "https://arxiv.org/abs/2604.10079",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "fine",
+        "fine tuning",
+        "supervised",
+        "tuning",
+        "incomplete",
+        "incomplete learning",
+        "learning",
+        "training",
+        "ilp",
+        "models"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and surprisingly persistent problem in LLM fine-tuning \u2013 the failure to learn even the training data. The systematic study and formalization of the 'Incomplete Learning Phenomenon' (ILP) are strong points, and identifying five potential sources is a valuable contribution. The high scores reflect the importance of the problem and the potential for improving SFT, though the novelty is somewhat tempered by being a primarily diagnostic study rather than a solution-oriented one.",
+      "paper_id": "b88c3d4af97dbff9967ad6d676948443"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-27T11:10:59.939466"
 }

@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents",
+      "authors": [
+        "Xirui Li, Ming Li, Yunze Xiao, Ryan Wong, Dianqi Li, Timothy Baldwin, Tianyi Zhou"
+      ],
+      "abstract": "arXiv:2604.22452v1 Announce Type: cross \nAbstract: Collective intelligence refers to the ability of a group to achieve outcomes beyond what any individual member can accomplish alone. As large language model agents scale to populations of millions, a key question arises: Does collective intelligence emerge spontaneously from scale? We present the first empirical evaluation of this question in a large-scale autonomous agent society. Studying MoltBook, a platform hosting over two million agents, we introduce Superminds Test, a hierarchical framework that probes society-level intelligence using controlled Probing Agents across three tiers: joint reasoning, information synthesis, and basic interaction. Our experiments reveal a stark absence of collective intelligence. The society fails to outperform individual frontier models on complex reasoning tasks, rarely synthesizes distributed information, and often fails even trivial coordination tasks. Platform-wide analysis further shows that interactions remain shallow, with threads rarely extending beyond a single reply and most responses being generic or off-topic. These results suggest that collective intelligence does not emerge from scale alone. Instead, the dominant limitation of current agent societies is extremely sparse and shallow interaction, which prevents agents from exchanging information and building on each other's outputs.",
+      "url": "https://arxiv.org/abs/2604.22452",
+      "published_date": "2026-04-27T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.AI"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "intelligence",
+        "agents",
+        "collective",
+        "collective intelligence",
+        "scale",
+        "society",
+        "agent",
+        "information",
+        "agent society",
+        "does"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a crucial question in the rapidly evolving field of LLM agents: whether scaling to large populations leads to emergent collective intelligence. The 'Superminds Test' framework appears well-designed for empirically evaluating this, and the negative results \u2013 the lack of observed collective intelligence \u2013 are significant and counterintuitive. While the probing agent methodology isn't entirely novel, its application to a society of over two million agents is a substantial undertaking, and the findings will likely spur further research into the conditions necessary for collective intelligence to emerge.",
+      "paper_id": "28c184fa03c67b6cf4b8af0953c1475a"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-04-27T11:10:59.942053"
 }

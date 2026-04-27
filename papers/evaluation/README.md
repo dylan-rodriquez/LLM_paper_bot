@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### PermaFrost-Attack: Stealth Pretraining Seeding(SPS) for planting Logic Landmines During LLM Training
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Harsh Kumar, Rahul Maity, Tanmay Joshi, Aman Chadha, Vinija Jain, Suranjana Trivedy, Amitava Das
+
+arXiv:2604.22117v1 Announce Type: cross 
+Abstract: Aligned large language models(LLMs) remain vulnerable to adversarial manipulation, and their dependence on web-scale pretraining creates a subtle but...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22117) | [📝 Analysis](631a0af2e38d6eb207031688ae0ad9a2.md)
+
+---
+
+### EuropeMedQA Study Protocol: A Multilingual, Multimodal Medical Examination Dataset for Language Model Evaluation
+
+**Score:** 92.0 | **Published:** 2026-04-27 | **Authors:** Francesco Andrea Causio, Vittorio De Vita, Olivia Riccomi, Michele Ferramola, Federico Felizzi, Alessandro Tosi, Antonio Cristiano, Lorenzo De Mori, Chiara Battipaglia, Melissa Sawaya, Luigi De Angelis, Marcello Di Pumpo, Alessandra Piscitelli, Pietro Eric Risuleo, Alessia Longo, Giulia Vojvodic, Mariapia Vassalli, Bianca Destro Castaniti, Nicol\`o Scarsi, Manuel Del Medico
+
+arXiv:2604.14306v2 Announce Type: replace 
+Abstract: While Large Language Models (LLMs) have demonstrated high proficiency on English-centric medical examinations, their performance often declines whe...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.14306) | [📝 Analysis](7fc9f3d6166293c825e0d6dceb32763e.md)
+
+---
+
+### SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs
+
+**Score:** 90.0 | **Published:** 2026-04-27 | **Authors:** Sihang (Nagi),  Zhao, Kangrui Yu, Youliang Yuan, Pinjia He, Hongyi Wen
+
+arXiv:2604.22134v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have been widely explored in educational scenarios. We identify a critical vulnerability in current educational LLMs, peda...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.22134) | [📝 Analysis](0fc002335309d2c38a2bd55b26a5e485.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-27 11:10:59 UTC*
