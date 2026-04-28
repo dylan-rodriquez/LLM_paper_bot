@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk",
+      "authors": [
+        "Shuai Wu, Xue Li, Yanna Feng, Yufang Li, Zhijun Wang, Ran Wang"
+      ],
+      "abstract": "arXiv:2604.24197v1 Announce Type: new \nAbstract: Frontier image generation has moved from artistic synthesis toward synthetic visual evidence. Systems such as GPT Image 2, Nano Banana Pro, Nano Banana 2, Grok Imagine, Qwen Image 2.0 Pro, and Seedream 5.0 Lite combine photorealistic rendering, readable typography, reference consistency, editing control, and in several cases reasoning or search-grounded image construction. These capabilities create large benefits for design, education, accessibility, and communication, yet they also weaken one of society's most common trust shortcuts: the belief that a plausible picture is a reliable record. This paper provides a source-grounded technical and policy analysis of synthetic visual risk. We first summarize the public capabilities of recent image models, then analyze public incidents involving fake crisis images, celebrity and public-figure imagery, medical scans, forged-looking documents, synthetic screenshots, phishing assets, and market-moving rumors. We introduce a capability-weighted risk framework that links model affordances to real-world harm in finance, medicine, news, law, emergency response, identity verification, and civic discourse. Our findings show that risk is driven less by photorealism alone than by the convergence of realism, legible text, identity persistence, fast iteration, and distribution context. We argue for layered control: model-side restrictions, cryptographic provenance, visible labeling, platform friction, sector-grade verification, and incident response. The paper closes with practical recommendations for model providers, platforms, newsrooms, financial institutions, healthcare systems, legal organizations, regulators, and ordinary users.",
+      "url": "https://arxiv.org/abs/2604.24197",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 95,
+      "innovation_score": 65,
+      "impact_score": 90,
+      "sentiment_score": 90,
+      "keywords": [
+        "image",
+        "risk",
+        "synthetic",
+        "model",
+        "public",
+        "synthetic visual",
+        "visual",
+        "banana",
+        "capabilities",
+        "control"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a highly relevant and timely issue \u2013 the increasing risk of synthetic visual evidence. The source-grounded analysis of recent image generation models and their potential for misuse is strong, and the identified examples (fake crisis images, medical scans, etc.) demonstrate the real-world implications. While the core methodology appears to be a comprehensive review and analysis rather than novel algorithm development, the breadth of models covered and the focus on policy implications are valuable. The topic aligns strongly with current concerns about misinformation and AI safety.",
+      "paper_id": "ab31fe16886023cce6560bb8696be943"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-04-28T11:14:14.886071"
 }

@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (20 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,61 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### A Benchmark Suite of Reddit-Derived Datasets for Mental Health Detection
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Khalid Hasan, Jamil Saquer
+
+arXiv:2604.23458v1 Announce Type: new 
+Abstract: The growing availability of online support groups has opened up new windows to study mental health through natural language processing (NLP). However, ...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.23458) | [📝 Analysis](c2dbba792143f993fefca44c1641bb82.md)
+
+---
+
+### RouteNLP: Closed-Loop LLM Routing with Conformal Cascading and Distillation Co-Optimization
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Dongxin Guo, Jikun Wu, Siu Ming Yiu
+
+arXiv:2604.23577v1 Announce Type: new 
+Abstract: Serving diverse NLP workloads with large language models is costly: at one enterprise partner, inference costs exceeded $200K/month despite over 70% of...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.23577) | [📝 Analysis](d96d370f3a42b0e42cf05492a1d23408.md)
+
+---
+
+### How Sensitive Are Safety Benchmarks to Judge Configuration Choices?
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Xinran Zhang
+
+arXiv:2604.24074v1 Announce Type: new 
+Abstract: Safety benchmarks such as HarmBench rely on LLM judges to classify model responses as harmful or safe, yet the judge configuration, namely the combinat...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24074) | [📝 Analysis](1509c972338a030b53b121df3ff000b5.md)
+
+---
+
+### Evaluating Temporal Consistency in Multi-Turn Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-28 | **Authors:** Yash Kumar Atri, Steven L. Johnson, Tom Hartvigsen
+
+arXiv:2604.23051v1 Announce Type: new 
+Abstract: Language models are increasingly deployed in interactive settings where users reason about facts over time rather than in isolation. In such scenarios,...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.23051) | [📝 Analysis](869715a94da6af65cfd4da205dabdbfb.md)
+
+---
+
+### Skill Retrieval Augmentation for Agentic AI
+
+**Score:** 90.0 | **Published:** 2026-04-28 | **Authors:** Weihang Su, Jianming Long, Qingyao Ai, Yichen Tang, Changyue Wang, Yiteng Tu, Yiqun Liu
+
+arXiv:2604.24594v1 Announce Type: new 
+Abstract: As large language models (LLMs) evolve into agentic problem solvers, they increasingly rely on external, reusable skills to handle tasks beyond their n...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24594) | [📝 Analysis](06b73cb8f113deb57810b238f64044a7.md)
 
 ---
 
@@ -170,4 +225,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-28 11:14:14 UTC*
