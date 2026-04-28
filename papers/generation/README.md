@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Seeing Is No Longer Believing: Frontier Image Generation Models, Synthetic Visual Evidence, and Real-World Risk
+
+**Score:** 95.0 | **Published:** 2026-04-28 | **Authors:** Shuai Wu, Xue Li, Yanna Feng, Yufang Li, Zhijun Wang, Ran Wang
+
+arXiv:2604.24197v1 Announce Type: new 
+Abstract: Frontier image generation has moved from artistic synthesis toward synthetic visual evidence. Systems such as GPT Image 2, Nano Banana Pro, Nano Banana...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24197) | [📝 Analysis](ab31fe16886023cce6560bb8696be943.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-28 11:14:14 UTC*

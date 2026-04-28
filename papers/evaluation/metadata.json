@@ -479,7 +479,167 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "A Benchmark Suite of Reddit-Derived Datasets for Mental Health Detection",
+      "authors": [
+        "Khalid Hasan, Jamil Saquer"
+      ],
+      "abstract": "arXiv:2604.23458v1 Announce Type: new \nAbstract: The growing availability of online support groups has opened up new windows to study mental health through natural language processing (NLP). However, it is hindered by a lack of high-quality, well-validated datasets. Existing studies have a tendency to build task-specific corpora without collecting them into widely available resources, and this makes reproducibility as well as cross-task comparison challenging. In this paper, we present a uniform benchmark set of four Reddit-based datasets for disjoint but complementary tasks: (i) detection of suicidal ideation, (ii) binary general mental disorder detection, (iii) bipolar disorder detection, and (iv) multi-class mental disorder classification. All datasets were established upon diligent linguistic inspection, well-defined annotation guidelines, and human-judgmental verification. Inter-annotator agreement metrics always exceeded the baseline agreement score of 0.8, ensuring the labels' trustworthiness. Previous work's evidence of performance on both transformer and contextualized recurrent models demonstrates that these models receive excellent performances on tasks (F1 ~ 93-99%), further validating the usefulness of the datasets. By combining these resources, we establish a unifying foundation for reproducible mental health NLP studies with the ability to carry out cross-task benchmarking, multi-task learning, and fair model comparison. The presented benchmark suite provides the research community with an easy-to-access and varied resource for advancing computational approaches toward mental health research.",
+      "url": "https://arxiv.org/abs/2604.23458",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "mental",
+        "datasets",
+        "detection",
+        "health",
+        "mental health",
+        "task",
+        "benchmark",
+        "disorder",
+        "agreement",
+        "benchmark suite"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial need in the NLP and mental health research communities: standardized, high-quality datasets. The emphasis on diligent annotation, clear guidelines, and high inter-annotator agreement demonstrates a strong methodological approach. While the tasks themselves aren't entirely novel, the creation of a unified benchmark suite significantly improves reproducibility and comparability of results, making it a valuable contribution. The potential for real-world applications in mental health support and early detection is substantial.",
+      "paper_id": "c2dbba792143f993fefca44c1641bb82"
+    },
+    {
+      "title": "RouteNLP: Closed-Loop LLM Routing with Conformal Cascading and Distillation Co-Optimization",
+      "authors": [
+        "Dongxin Guo, Jikun Wu, Siu Ming Yiu"
+      ],
+      "abstract": "arXiv:2604.23577v1 Announce Type: new \nAbstract: Serving diverse NLP workloads with large language models is costly: at one enterprise partner, inference costs exceeded $200K/month despite over 70% of queries being routine tasks well within the capability of smaller models. We present RouteNLP, a closed-loop framework that routes queries across a tiered model portfolio to minimize cost while satisfying per-task quality constraints. The framework integrates three components: a difficulty-aware router with shared task-conditioned representations trained on preference data and quality signals; confidence-calibrated cascading that uses conformal prediction for distribution-free threshold initialization; and a distillation-routing co-optimization loop that clusters escalation failures, applies targeted knowledge distillation to cheaper models, and automatically retrains the router, yielding over twice the cost improvement of untargeted distillation. In an 8-week pilot deployment processing ~5K queries/day at an enterprise customer-service division, RouteNLP reduced inference costs by 58% while maintaining 91% response acceptance and reducing p99 latency from 1,847 ms to 387 ms. On a six-task benchmark spanning finance, customer service, and legal domains, the framework achieves 40-85% cost reduction while retaining 96-100% quality on structured tasks and 96-98% on generation tasks, with human evaluation confirming that 74.5% of routed generation outputs match or exceed frontier-model quality.",
+      "url": "https://arxiv.org/abs/2604.23577",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "distillation",
+        "quality",
+        "cost",
+        "framework",
+        "loop",
+        "models",
+        "queries",
+        "routenlp",
+        "task",
+        "tasks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a very significant and practical problem \u2013 the high cost of LLM inference. The proposed RouteNLP framework, integrating difficulty-aware routing, conformal cascading, and distillation-routing co-optimization, appears well-designed and addresses the problem holistically. The reported cost improvements and 8-week pilot deployment suggest strong potential for real-world impact, and the use of preference data and quality signals is a positive sign of a rigorous approach.",
+      "paper_id": "d96d370f3a42b0e42cf05492a1d23408"
+    },
+    {
+      "title": "How Sensitive Are Safety Benchmarks to Judge Configuration Choices?",
+      "authors": [
+        "Xinran Zhang"
+      ],
+      "abstract": "arXiv:2604.24074v1 Announce Type: new \nAbstract: Safety benchmarks such as HarmBench rely on LLM judges to classify model responses as harmful or safe, yet the judge configuration, namely the combination of judge model and judge prompt, is typically treated as a fixed implementation detail. We show this assumption is problematic. Using a 2 x 2 x 3 factorial design, we construct 12 judge prompt variants along two axes, evaluation structure and instruction framing, and apply them using a single judge model, Claude Sonnet 4-6, producing 28,812 judgments over six target models and 400 HarmBench behaviors. We find that prompt wording alone, holding the judge model fixed, shifts measured harmful-response rates by up to 24.2 percentage points, with even within-condition surface rewording causing swings of up to 20.1 percentage points. Model safety rankings are moderately unstable, with mean Kendall tau = 0.89, and category-level sensitivity ranges from 39.6 percentage points for copyright to 0 percentage points for harassment. A supplementary multi-judge experiment using three judge models shows that judge-model choice adds further variance. Our results demonstrate that judge prompt wording is a substantial, previously under-examined source of measurement variance in safety benchmarking.",
+      "url": "https://arxiv.org/abs/2604.24074",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "judge",
+        "model",
+        "judge model",
+        "percentage",
+        "percentage points",
+        "points",
+        "prompt",
+        "safety",
+        "judge prompt",
+        "using"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and often overlooked issue in LLM safety evaluation: the sensitivity of benchmarks to judge configuration. The rigorous factorial design and substantial scale of the experiment (28,812 judgments) provide strong evidence for the instability of safety assessments. The findings have significant implications for the reliability and comparability of safety benchmarks, and the clear presentation of results strengthens the paper's overall quality.",
+      "paper_id": "1509c972338a030b53b121df3ff000b5"
+    },
+    {
+      "title": "Evaluating Temporal Consistency in Multi-Turn Language Models",
+      "authors": [
+        "Yash Kumar Atri, Steven L. Johnson, Tom Hartvigsen"
+      ],
+      "abstract": "arXiv:2604.23051v1 Announce Type: new \nAbstract: Language models are increasingly deployed in interactive settings where users reason about facts over time rather than in isolation. In such scenarios, correct behavior requires models to maintain and update implicit temporal assumptions established earlier in a conversation. We study this challenge through the lens of temporal scope stability: the ability to preserve, override, or transfer time-scoped factual context across dialogue turns. We introduce ChronoScope, a large-scale diagnostic benchmark designed to isolate temporal scope behavior in controlled multi-turn interactions, comprising over one million deterministically generated question chains grounded in Wikidata. ChronoScope evaluates whether models can correctly retain inferred temporal scope when follow-up questions omit explicit time references, spanning implicit carryover, explicit scope switching, cross-entity transfer, and longer temporal trajectories. Through extensive evaluation of state-of-the-art language models, we find that temporal scope stability is frequently violated in controlled multi-turn settings, with models often drifting toward present-day assumptions despite correct underlying knowledge. These failures intensify with interaction length and persist even under oracle context conditions, revealing a gap between single-turn factual accuracy and coherent temporal reasoning under sequential interaction. We make our dataset and evaluation suite publicly available at https://github.com/yashkumaratri/ChronoScope",
+      "url": "https://arxiv.org/abs/2604.23051",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "temporal",
+        "models",
+        "scope",
+        "temporal scope",
+        "turn",
+        "chronoscope",
+        "language",
+        "language models",
+        "multi",
+        "multi turn"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in the deployment of LLMs \u2013 maintaining temporal consistency in multi-turn dialogues. The introduction of ChronoScope, a large-scale diagnostic benchmark, is a strong methodological contribution. The focus on temporal scope stability and the controlled generation of question chains using Wikidata suggest a rigorous approach, and the problem is highly relevant to the current trajectory of conversational AI research. The potential for improving LLM reliability in real-world applications is significant.",
+      "paper_id": "869715a94da6af65cfd4da205dabdbfb"
+    },
+    {
+      "title": "Skill Retrieval Augmentation for Agentic AI",
+      "authors": [
+        "Weihang Su, Jianming Long, Qingyao Ai, Yichen Tang, Changyue Wang, Yiteng Tu, Yiqun Liu"
+      ],
+      "abstract": "arXiv:2604.24594v1 Announce Type: new \nAbstract: As large language models (LLMs) evolve into agentic problem solvers, they increasingly rely on external, reusable skills to handle tasks beyond their native parametric capabilities. In existing agent systems, the dominant strategy for incorporating skills is to explicitly enumerate available skills within the context window. However, this strategy fails to scale: as skill corpora expand, context budgets are consumed rapidly, and the agent becomes markedly less accurate in identifying the right skill. To this end, this paper formulates Skill Retrieval Augmentation (SRA), a new paradigm in which agents dynamically retrieve, incorporate, and apply relevant skills from large external skill corpora on demand. To make this problem measurable, we construct a large-scale skill corpus and introduce SRA-Bench, the first benchmark for decomposed evaluation of the full SRA pipeline, covering skill retrieval, skill incorporation, and end-task execution. SRA-Bench contains 5,400 capability-intensive test instances and 636 manually constructed gold skills, which are mixed with web-collected distractor skills to form a large-scale corpus of 26,262 skills. Extensive experiments show that retrieval-based skill augmentation can substantially improve agent performance, validating the promise of the paradigm. At the same time, we uncover a fundamental gap in skill incorporation: current LLM agents tend to load skills at similar rates, regardless of whether a gold skill is retrieved or whether the task actually requires external capabilities. This shows that the bottleneck in skill augmentation lies not only in retrieval but also in the base model's ability to determine which skill to load and when external loading is actually needed. These findings position SRA as a distinct research problem and establish a foundation for the scalable augmentation of capabilities in future agent systems.",
+      "url": "https://arxiv.org/abs/2604.24594",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "skill",
+        "skills",
+        "augmentation",
+        "retrieval",
+        "sra",
+        "agent",
+        "external",
+        "large",
+        "capabilities",
+        "problem"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial bottleneck in scaling agentic AI \u2013 the context window limitation when dealing with a growing number of skills. The formulation of Skill Retrieval Augmentation (SRA) and the creation of SRA-Bench are strong contributions. The problem is well-defined, and the proposed solution appears promising, though the actual implementation details and results are not yet available in this abstract.",
+      "paper_id": "06b73cb8f113deb57810b238f64044a7"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-28T11:14:14.881410"
 }

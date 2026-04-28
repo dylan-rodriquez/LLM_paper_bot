@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Multi-Dimensional Audit of Politically Aligned Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Lisa Korver, Mohamed Mostagir, Sherief Reda
+
+arXiv:2604.24429v1 Announce Type: new 
+Abstract: As the application of Large Language Models (LLMs) spreads across various industries, there are increasing concerns about the potential for their misus...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24429) | [📝 Analysis](de0f30ac781a391fada231f9f8ca3830.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-28 11:14:14 UTC*

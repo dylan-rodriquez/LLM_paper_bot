@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### AI Safety Training Can be Clinically Harmful
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Suhas BN, Andrew M. Sherrill, Rosa I. Arriaga, Chris W. Wiese, Saeed Abdullah
+
+arXiv:2604.23445v1 Announce Type: new 
+Abstract: Large language models are being deployed as mental health support agents at scale, yet only 16% of LLM-based chatbot interventions have undergone rigor...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.23445) | [📝 Analysis](688400951487222f107ea3337b44b5ef.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-28 11:14:14 UTC*

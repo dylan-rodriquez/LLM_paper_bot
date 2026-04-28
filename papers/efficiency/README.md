@@ -2,7 +2,18 @@
 
 This directory contains papers related to efficiency in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### ComplianceNLP: Knowledge-Graph-Augmented RAG for Multi-Framework Regulatory Gap Detection
+
+**Score:** 92.0 | **Published:** 2026-04-28 | **Authors:** Dongxin Guo, Jikun Wu, Siu Ming Yiu
+
+arXiv:2604.23585v1 Announce Type: new 
+Abstract: Financial institutions must track over 60,000 regulatory events annually, overwhelming manual compliance teams; the industry has paid over USD 300 bill...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.23585) | [📝 Analysis](af1e8f54758de68b885311bee6bc45e9.md)
+
+---
 
 ### DenoiseRotator: Enhance Pruning Robustness for LLMs via Importance Concentration
 
@@ -60,4 +71,4 @@ Abstract: The communication topology in large language model-based multi-agent s
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-28 11:14:14 UTC*

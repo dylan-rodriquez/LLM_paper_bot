@@ -159,7 +159,39 @@
       "subject_classification": "efficiency",
       "justification": "Strong impact potential (score: 24); Contains key LLM terms (bonus: 10)",
       "paper_id": "ccad0f4d91e78674aa8e765d63bded10"
+    },
+    {
+      "title": "ComplianceNLP: Knowledge-Graph-Augmented RAG for Multi-Framework Regulatory Gap Detection",
+      "authors": [
+        "Dongxin Guo, Jikun Wu, Siu Ming Yiu"
+      ],
+      "abstract": "arXiv:2604.23585v1 Announce Type: new \nAbstract: Financial institutions must track over 60,000 regulatory events annually, overwhelming manual compliance teams; the industry has paid over USD 300 billion in fines and settlements since the 2008 financial crisis. We present ComplianceNLP, an end-to-end system that automatically monitors regulatory changes, extracts structured obligations, and identifies compliance gaps against institutional policies. The system integrates three components: (1) a knowledge-graph-augmented RAG pipeline grounding generations in a regulatory knowledge graph of 12,847 provisions across SEC, MiFID II, and Basel III; (2) multi-task obligation extraction combining NER, deontic classification, and cross-reference resolution over a shared LEGAL-BERT encoder; and (3) compliance gap analysis that maps obligations to internal policies with severity-aware scoring. On our benchmark, ComplianceNLP achieves 87.7 F1 on gap detection, outperforming GPT-4o+RAG by +3.5 F1, with 94.2% grounding accuracy ($r=0.83$ vs. human judgments) and 83.4 F1 under realistic end-to-end error propagation. Ablations show that knowledge-graph re-ranking contributes the largest marginal gain (+4.6 F1), confirming that structural regulatory knowledge is critical for cross-reference-heavy tasks. Domain-specific knowledge distillation (70B $\\to$ 8B) combined with Medusa speculative decoding yields $2.8\\times$ inference speedup; regulatory text's low entropy ($H=2.31$ bits vs. $3.87$ general text) produces 91.3% draft-token acceptance rates. In four months of parallel-run deployment processing 9,847 updates at a financial institution, the system achieved 96.0% estimated recall and 90.7% precision, with a $3.1\\times$ sustained analyst efficiency gain. We report deployment lessons on trust calibration, GRC integration, and distributional shift monitoring for regulated-domain NLP.",
+      "url": "https://arxiv.org/abs/2604.23585",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "knowledge",
+        "regulatory",
+        "end",
+        "f1",
+        "graph",
+        "knowledge graph",
+        "compliance",
+        "compliancenlp",
+        "financial",
+        "gap"
+      ],
+      "subject_classification": "efficiency",
+      "justification": "This paper addresses a highly significant and costly problem in the financial industry \u2013 regulatory compliance. The integration of a knowledge graph with RAG, combined with a multi-task obligation extraction pipeline, demonstrates a thoughtful and potentially effective approach. The reported F1 score exceeding GPT-4o+RAG is a strong indicator of performance, suggesting a well-executed methodology and clear presentation of results.",
+      "paper_id": "af1e8f54758de68b885311bee6bc45e9"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.499673"
+  "last_updated": "2026-04-28T11:14:14.885357"
 }

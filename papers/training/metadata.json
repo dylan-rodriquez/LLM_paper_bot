@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "AI Safety Training Can be Clinically Harmful",
+      "authors": [
+        "Suhas BN, Andrew M. Sherrill, Rosa I. Arriaga, Chris W. Wiese, Saeed Abdullah"
+      ],
+      "abstract": "arXiv:2604.23445v1 Announce Type: new \nAbstract: Large language models are being deployed as mental health support agents at scale, yet only 16% of LLM-based chatbot interventions have undergone rigorous clinical efficacy testing, and simulations reveal psychological deterioration in over one-third of cases. We evaluate four generative models on 250 Prolonged Exposure (PE) therapy scenarios and 146 CBT cognitive restructuring exercises (plus 29 severity-escalated variants), scored by a three-judge LLM panel. All models scored near-perfectly on surface acknowledgment (~0.91-1.00) while therapeutic appropriateness collapsed to 0.22-0.33 at the highest severity for three of four models, with protocol fidelity reaching zero for two. Under CBT severity escalation, one model's task completeness dropped from 92% to 71% while the frontier model's safety-interference score fell from 0.99 to 0.61. We identify a systematic, modality-spanning failure: RLHF safety alignment disrupts the therapeutic mechanism of action by grounding patients during imaginal exposure, offering false reassurance, inserting crisis resources into controlled exercises, and refusing to challenge distorted cognitions mentioning self-harm in PE; and through task abandonment or safety-preamble insertion during CBT cognitive restructuring. These findings motivate a five-axis evaluation framework (protocol fidelity, hallucination risk, behavioral consistency, crisis safety, demographic robustness), mapped onto FDA SaMD and EU AI Act requirements. We argue that no AI mental health system should proceed to deployment without passing multi-axis evaluation across all five dimensions.",
+      "url": "https://arxiv.org/abs/2604.23445",
+      "published_date": "2026-04-28T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "safety",
+        "models",
+        "ai",
+        "cbt",
+        "severity",
+        "axis",
+        "axis evaluation",
+        "cbt cognitive",
+        "cognitive",
+        "cognitive restructuring"
+      ],
+      "subject_classification": "training",
+      "justification": "This research addresses a critically important and timely issue \u2013 the safety of deploying LLMs for mental health support. The methodology, involving evaluation on established therapy scenarios and scoring by an LLM panel, is reasonably rigorous. The findings, demonstrating a collapse in therapeutic appropriateness with increasing severity, are concerning and suggest a fundamental flaw in current safety alignment techniques. While the use of an LLM panel for scoring is a potential limitation, the clear trend observed across multiple models strengthens the validity of the results.",
+      "paper_id": "688400951487222f107ea3337b44b5ef"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-04-28T11:14:14.883115"
 }
