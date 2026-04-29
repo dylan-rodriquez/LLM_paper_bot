@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation
+
+**Score:** 92.0 | **Published:** 2026-04-29 | **Authors:** David Hartmann, Manuel Tonneau, Angelie Kraft, LK Seiling, Dimitri Staufer, Pieter Delobelle, Jan Fillies, Anna Ricarda Luther, Jan Batzner, Mareike Lisker
+
+arXiv:2604.25580v1 Announce Type: new 
+Abstract: The closure of Perspective API at the end of 2026 discards what has functioned as the de facto standard for automated toxicity measurement in NLP, CSS,...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.25580) | [📝 Analysis](2220f3159b82e6d6dccc52cdf2b9276d.md)
+
+---
+
+### BenchGuard: Who Guards the Benchmarks? Automated Auditing of LLM Agent Benchmarks
+
+**Score:** 90.0 | **Published:** 2026-04-29 | **Authors:** Xinming Tu (Minta), Tianze Wang (Minta),  Yingzhou (Minta),  Lu, Kexin Huang, Yuanhao Qu, Sara Mostafavi
+
+arXiv:2604.24955v1 Announce Type: new 
+Abstract: As benchmarks grow in complexity, many apparent agent failures are not failures of the agent at all - they are failures of the benchmark itself: broken...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24955) | [📝 Analysis](b13d384e541790b076566bf5e237c687.md)
+
+---
+
+### Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks
+
+**Score:** 90.0 | **Published:** 2026-04-29 | **Authors:** Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov
+
+arXiv:2604.24964v1 Announce Type: cross 
+Abstract: Existing web agent benchmarks have largely converged on short, single-site tasks that frontier models are approaching saturation on. However, real wo...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.24964) | [📝 Analysis](ef9a03ddef497ecb708dd0fd9a4106c1.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-29 11:04:39 UTC*

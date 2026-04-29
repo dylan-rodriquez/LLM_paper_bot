@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation",
+      "authors": [
+        "David Hartmann, Manuel Tonneau, Angelie Kraft, LK Seiling, Dimitri Staufer, Pieter Delobelle, Jan Fillies, Anna Ricarda Luther, Jan Batzner, Mareike Lisker"
+      ],
+      "abstract": "arXiv:2604.25580v1 Announce Type: new \nAbstract: The closure of Perspective API at the end of 2026 discards what has functioned as the de facto standard for automated toxicity measurement in NLP, CSS, and LLM evaluation research. We document the structural dependence that the communities built on this single proprietary tool and discuss how this dependence caused epistemic problems that have affected - and will likely continue to affect - collective research efforts. Perspective's model was periodically updated without versioning or disclosure, its annotation structure reflected a single corporate operationalisation of a contested concept, and its scores were used simultaneously as an evaluation target and an evaluation standard. Its closure leaves behind non-updatable benchmarks, irreproducible results, and ultimately a field at risk of perpetuating these issues by turning to closed-source LLMs. We use Perspective's announced termination as an opportunity to call for an independent, valid, adaptable, and reproducible toxicity and hate speech measurement infrastructure, with the technical and governance requirements outlined in this paper.",
+      "url": "https://arxiv.org/abs/2604.25580",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "evaluation",
+        "perspective",
+        "measurement",
+        "api",
+        "bye",
+        "closure",
+        "css",
+        "css llm",
+        "dependence",
+        "infrastructure"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in NLP, CSS, and LLM evaluation \u2013 the over-reliance on a single, proprietary tool (Perspective API) and the risks associated with its closure. The analysis of the epistemic problems caused by this dependence is insightful and timely. While the core argument isn't a novel *method*, it's a crucial meta-analysis with significant implications for the field's future, particularly regarding reproducibility and bias.",
+      "paper_id": "2220f3159b82e6d6dccc52cdf2b9276d"
+    },
+    {
+      "title": "BenchGuard: Who Guards the Benchmarks? Automated Auditing of LLM Agent Benchmarks",
+      "authors": [
+        "Xinming Tu (Minta), Tianze Wang (Minta),  Yingzhou (Minta),  Lu, Kexin Huang, Yuanhao Qu, Sara Mostafavi"
+      ],
+      "abstract": "arXiv:2604.24955v1 Announce Type: new \nAbstract: As benchmarks grow in complexity, many apparent agent failures are not failures of the agent at all - they are failures of the benchmark itself: broken specifications, implicit assumptions, and rigid evaluation scripts that penalize valid alternative approaches. We propose employing frontier LLMs as systematic auditors of evaluation infrastructure, and realize this vision through BenchGuard, the first automated auditing framework for task-oriented, execution-based agent benchmarks. BenchGuard cross-verifies all benchmark artifacts via structured LLM protocols, optionally incorporating agent solutions or execution traces as additional diagnostic evidence. Deployed on two prominent scientific benchmarks, BenchGuard identified 12 author-confirmed issues in ScienceAgentBench - including fatal errors rendering tasks unsolvable - and exactly matched 83.3% of expert-identified issues on the BIXBench Verified-50 subset, catching defects that prior human review missed entirely. A full audit of 50 complex bioinformatics tasks costs under USD 15, making automated benchmark auditing a practical and valuable complement to human review. These findings point toward AI-assisted benchmark development, where frontier models serve not only as subjects of evaluation but as active participants in validating the evaluation infrastructure itself.",
+      "url": "https://arxiv.org/abs/2604.24955",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "agent",
+        "benchmarks",
+        "benchguard",
+        "benchmark",
+        "evaluation",
+        "auditing",
+        "automated",
+        "failures",
+        "50",
+        "agent benchmarks"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and growing problem in LLM agent evaluation \u2013 the reliability of benchmarks themselves. The use of LLMs to audit benchmarks is a novel and promising approach, and the initial results demonstrating the identification of significant issues in existing benchmarks are compelling. The methodology appears sound, and the clear presentation of the problem and solution suggests a high likelihood of positive reception within the community.",
+      "paper_id": "b13d384e541790b076566bf5e237c687"
+    },
+    {
+      "title": "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks",
+      "authors": [
+        "Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov"
+      ],
+      "abstract": "arXiv:2604.24964v1 Announce Type: cross \nAbstract: Existing web agent benchmarks have largely converged on short, single-site tasks that frontier models are approaching saturation on. However, real world web use consists of long-horizon, multi-site workflows. Common web navigation tasks, such as comparing products across different domains, planning trips across multiple services, or summarizing information from multiple search queries, require sustained context and cross-site reasoning over potentially hours of browsing. To capture and evaluate such behaviors, we introduce Odysseys: a benchmark of 200 long-horizon web tasks derived from real world browsing sessions evaluated on the live Internet. We find that binary pass/fail evaluation is inadequate for long-horizon settings and introduce a rubric-based evaluation, annotating each Odysseys task with an average of 6.1 graded rubrics. We demonstrate that this yields higher agreement with humans and provides a more fine-grained signal than commonly used trajectory-level LLM-as-a-judge evaluation metrics. We tested several leading frontier models and find that the strongest models achieve a success rate of 44.5%, which leaves substantial room for future improvements. Beyond task success, we argue that efficiency is a first-class concern for long-horizon agents. We introduce a Trajectory Efficiency metric (rubric score per step) and find that even frontier agents achieve only 1.15%, marking an evident need for agents that can succeed efficiently and not simply eventually. Odysseys isolates the critical evaluation of long-horizon proficiency in open-web environments, providing a realistic benchmark to measure progress towards computer-use agents that can potentially productively operate for hours. We release our tasks, evaluation scripts, and other results at https://odysseys-website.pages.dev",
+      "url": "https://arxiv.org/abs/2604.24964",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "horizon",
+        "long",
+        "long horizon",
+        "web",
+        "agents",
+        "evaluation",
+        "odysseys",
+        "tasks",
+        "frontier",
+        "introduce"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial gap in web agent benchmarking by moving beyond simplistic, single-site tasks to more realistic, long-horizon workflows. The introduction of the Odysseys benchmark and the rubric-based evaluation method are significant improvements over existing binary pass/fail systems, offering a more nuanced and human-aligned assessment. The focus on real-world browsing sessions and live internet evaluation adds to the rigor and relevance of the work. The problem is highly relevant given the rapid advancements in LLMs and their potential for web automation.",
+      "paper_id": "ef9a03ddef497ecb708dd0fd9a4106c1"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-29T11:04:39.945091"
 }
