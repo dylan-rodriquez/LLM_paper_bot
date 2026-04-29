@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Frictive Policy Optimization for LLMs: Epistemic Intervention, Risk-Sensitive Control, and Reflective Alignment
+
+**Score:** 92.0 | **Published:** 2026-04-29 | **Authors:** James Pustejovsky, Nikhil Krishnaswamy
+
+arXiv:2604.25136v1 Announce Type: new 
+Abstract: We propose Frictive Policy Optimization (FPO), a framework for learning language model policies that regulate not only what to say, but when and how to...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.25136) | [📝 Analysis](d7208674355e7b9204d0b6df6dffa732.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-29 11:04:39 UTC*

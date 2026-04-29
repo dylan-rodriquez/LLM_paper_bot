@@ -1,0 +1,69 @@
+{
+  "papers": [
+    {
+      "title": "The Dynamics of Delusion: Modeling Bidirectional False Belief Amplification in Human-Chatbot Dialogue",
+      "authors": [
+        "Ashish Mehta, Jared Moore, Jacy Reese Anthis, William Agnew, Eric Lin, Peggy Yin, Desmond C. Ong, Nick Haber, Carol Dweck"
+      ],
+      "abstract": "arXiv:2604.25096v1 Announce Type: new \nAbstract: There is growing concern that AI chatbots might fuel delusional beliefs in users. Some have suggested that humans and chatbots mutually reinforce false beliefs over time, but quantitative evidence is lacking. Using a unique dataset of chat logs from individuals who exhibited delusional thinking, we developed a latent state model that captures accumulating and decaying influences between humans and chatbots. We find that a bidirectional influence model substantially outperforms a unidirectional alternative where humans are the primary driver of delusion. We find that humans exert strong but short-lived influence on chatbots, whereas chatbots exert longer-lasting influence on humans. Moreover, chatbots exert strong, stable self-influence over their own future outputs that tends to perpetuate delusions over long stretches of conversation. In fact, this chatbot self-influence constituted the dominant pathway when considering accumulated influence over time. Overall, these results indicate that humans tend to drive sharp, immediate increases in delusion, whereas chatbots sustain and propagate these effects over longer timescales. Together, these findings provide the first quantitative evidence that human-chatbot interactions can form feedback loops of delusion, decomposable into distinct pathways with dissociable temporal dynamics. By doing so, they can inform the development of safer AI systems.",
+      "url": "https://arxiv.org/abs/2604.25096",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "chatbots",
+        "humans",
+        "influence",
+        "delusion",
+        "chatbot",
+        "exert",
+        "humans chatbots",
+        "ai",
+        "beliefs",
+        "bidirectional"
+      ],
+      "subject_classification": "general",
+      "justification": "This research tackles a highly relevant and concerning issue \u2013 the potential for chatbots to exacerbate delusional thinking. The use of a latent state model to quantify bidirectional influence is a strong methodological choice, and the finding of chatbot self-influence being a dominant factor is particularly noteworthy. While the model itself isn't entirely novel, its application to this specific problem and the insights gained are significant. The clear focus on a real-world problem and the potential for informing chatbot design and safety protocols contribute to a positive outlook.",
+      "paper_id": "2b30b0309999c0eecb54a440f5bc2c62"
+    },
+    {
+      "title": "A paradox of AI fluency",
+      "authors": [
+        "Christopher Potts, Moritz Sudhof"
+      ],
+      "abstract": "arXiv:2604.25905v1 Announce Type: new \nAbstract: How much does a user's skill with AI shape what AI actually delivers for them? This question is critical for users, AI product builders, and society at large, but it remains underexplored. Using a richly annotated sample of 27K transcripts from WildChat-4.8M, we show that fluent users take on more complex tasks than novices and adopt a fundamentally different interactional mode: they iterate collaboratively with the AI, refining goals and critically assessing outputs, whereas novices take a passive stance. These differences lead to a paradox of AI fluency: fluent users experience more failures than novices -- but their failures tend to be visible (a direct consequence of their engagement), they are more likely to lead to partial recovery, and they occur alongside greater success on complex tasks. Novices, by contrast, more often experience invisible failures: conversations that appear to end successfully but in fact miss the mark. Taken together, these results reframe what success with AI depends on. Individuals should adopt a stance of active engagement rather than passive acceptance. AI product builders should recognize that they are designing not just model behavior but user behavior; encouraging deep engagement, rather than friction-free experiences, will lead to more success overall. Our code and data are available at https://github.com/bigspinai/bigspin-fluency-outcomes",
+      "url": "https://arxiv.org/abs/2604.25905",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "novices",
+        "engagement",
+        "failures",
+        "fluency",
+        "lead",
+        "success",
+        "users",
+        "adopt",
+        "ai fluency"
+      ],
+      "subject_classification": "general",
+      "justification": "This paper tackles a crucial and timely issue in the age of increasingly accessible AI: the impact of user skill on AI outcomes. The finding of a 'paradox of fluency' \u2013 that more skilled users experience more visible failures but ultimately achieve greater success \u2013 is counterintuitive and insightful. The use of a large dataset (27K transcripts) lends credibility to the findings, and the distinction between 'visible' and 'invisible' failures is a particularly strong contribution.",
+      "paper_id": "5f0e10082e0cefe4e644505135acfa7d"
+    }
+  ],
+  "last_updated": "2026-04-29T11:04:39.946395"
+}

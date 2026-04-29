@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### The Structured Output Benchmark: A Multi-Source Benchmark for Evaluating Structured Output Quality in Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-29 | **Authors:** Abhinav Kumar Singh, Harsha Vardhan Khurdula, Yoeven D Khemlani, Vineet Agarwal
+
+arXiv:2604.25359v1 Announce Type: new 
+Abstract: Large Language Models are increasingly being deployed to extract structured data from unstructured and semi-structured sources: parsing invoices, medic...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.25359) | [📝 Analysis](2db8f32919581ea65410f7fb0f3c2833.md)
+
+---
+
+### Images Amplify Misinformation Sharing in Vision-Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-29 | **Authors:** Alice Plebe, Timothy Douglas, Diana Riazi, R. Maria del Rio-Chanona
+
+arXiv:2505.13302v2 Announce Type: replace 
+Abstract: As language and vision-language models (VLMs) become central to information access and online interaction, concerns grow about their potential to a...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.13302) | [📝 Analysis](903acb2df3467cfc12bd3a01433788f8.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-29 11:04:39 UTC*

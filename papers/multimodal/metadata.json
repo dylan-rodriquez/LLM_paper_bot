@@ -383,7 +383,71 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "The Structured Output Benchmark: A Multi-Source Benchmark for Evaluating Structured Output Quality in Large Language Models",
+      "authors": [
+        "Abhinav Kumar Singh, Harsha Vardhan Khurdula, Yoeven D Khemlani, Vineet Agarwal"
+      ],
+      "abstract": "arXiv:2604.25359v1 Announce Type: new \nAbstract: Large Language Models are increasingly being deployed to extract structured data from unstructured and semi-structured sources: parsing invoices, medical records, and converting PDF documents to database entries. Yet existing benchmarks for structured output generation either focus on schema compliance alone, or evaluate value correctness within a single source domain. We introduce SOB (The Structured Output Benchmark), a multi-source benchmark spanning three source modalities: native text, images, and audio conversations. All models receive a text-normalized representation of their context regardless of source modality; this deliberate design isolates structured-output capability from raw vision or speech-processing quality, ensuring a fair, source-agnostic comparison. Our benchmark comprises 5,000 text evaluation records derived from multi-hop QA drawn from a 25,091-record full corpus, 209 image records from OCR-processed PDFs across seven document types including multi-column layouts, dense tables, scanned historical documents, small-print text, and mathematical typesetting, and 115 audio records from the AMI corpus. Each record pairs a natural-language question with a JSON schema that the model must follow and a ground-truth answer verified against the source context. We evaluate 21 frontier and open-weight models across three source domains and seven metrics. Our results reveal a consistent pattern: models achieve near-perfect schema compliance, yet the best Value Accuracy, measured by exact leaf-value match, reaches only 83.0% on text, 67.2% on images, and 23.7% on audio, where longer context makes extraction substantially harder. We release the dataset, evaluation pipeline, and all related code.",
+      "url": "https://arxiv.org/abs/2604.25359",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "source",
+        "structured",
+        "benchmark",
+        "models",
+        "output",
+        "structured output",
+        "text",
+        "multi",
+        "records",
+        "audio"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a crucial gap in LLM evaluation \u2013 structured output quality across diverse input modalities. The design of SOB, normalizing inputs to text, is a clever approach to isolate the core structured output capability. The multi-source nature and focus on real-world tasks like invoice parsing and medical record extraction suggest strong relevance and potential impact. The scale of the benchmark (5,000 records) also indicates a substantial effort.",
+      "paper_id": "2db8f32919581ea65410f7fb0f3c2833"
+    },
+    {
+      "title": "Images Amplify Misinformation Sharing in Vision-Language Models",
+      "authors": [
+        "Alice Plebe, Timothy Douglas, Diana Riazi, R. Maria del Rio-Chanona"
+      ],
+      "abstract": "arXiv:2505.13302v2 Announce Type: replace \nAbstract: As language and vision-language models (VLMs) become central to information access and online interaction, concerns grow about their potential to amplify misinformation. Human studies show that images boost the perceived credibility and shareability of information, raising the question of whether VLMs exhibit the same vulnerability. We present the first study examining how images influence VLMs' propensity to reshare news content, how this effect varies across model families, and how persona conditioning and content attributes modulate such behavior. We develop a jailbreaking-inspired prompting strategy that bypasses VLMs' default refusals to engage with controversial news, allowing them to generate resharing decisions across diverse topics and elicited traits, including antisocial ones. We evaluate four state-of-the-art VLMs on a novel multimodal dataset of fact-checked political news from PolitiFact, paired with images and ground-truth veracity labels. Our experiments show that image presence increases resharing rates by 14.5% for false news and 5.3% for true news. Persona conditioning further modulates this effect: Dark Triad traits amplify resharing of false news, whereas Republican-aligned profiles reduce sensitivity to veracity. Among the tested models, Claude-3-Haiku demonstrates the greatest robustness to visual misinformation. These findings reveal that VLMs replicate human-like biases in response to images, underscoring emerging risks for multimodal AI systems. They point to the need for evaluation frameworks and mitigation strategies that account for visual influence and persona-driven variability, particularly in sociotechnical settings where AI systems shape public discourse and information sharing.",
+      "url": "https://arxiv.org/abs/2505.13302",
+      "published_date": "2026-04-29T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "news",
+        "vlms",
+        "images",
+        "amplify",
+        "information",
+        "language",
+        "misinformation",
+        "models",
+        "persona",
+        "resharing"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This research tackles a highly relevant and timely problem \u2013 the amplification of misinformation by VLMs. The use of a 'jailbreaking' prompting strategy to elicit resharing decisions is clever, and the evaluation on a fact-checked dataset adds rigor. While the prompting strategy isn't entirely novel, its application to this specific problem and the systematic comparison across models are valuable contributions. The potential for real-world impact is significant, given the increasing reliance on VLMs for information access.",
+      "paper_id": "903acb2df3467cfc12bd3a01433788f8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-04-29T11:04:39.949716"
 }
