@@ -2,7 +2,29 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (14 total)
+
+### A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-30 | **Authors:** Congmin Zheng, Jiachen Zhu, Zhuoying Ou, Yuxiang Chen, Kangning Zhang, Rong Shan, Zeyu Zheng, Mengyue Yang, Jianghao Lin, Yong Yu, Weinan Zhang
+
+arXiv:2510.08049v3 Announce Type: replace 
+Abstract: Although Large Language Models (LLMs) exhibit advanced reasoning ability, conventional alignment remains largely dominated by outcome reward models...
+
+[📄 Full Paper](https://arxiv.org/abs/2510.08049) | [📝 Analysis](11004879341023745e406578e3503e4e.md)
+
+---
+
+### VIGNETTE: Socially Grounded Bias Evaluation for Vision-Language Models
+
+**Score:** 90.0 | **Published:** 2026-04-30 | **Authors:** Chahat Raj, Bowen Wei, Aylin Caliskan, Antonios Anastasopoulos, Ziwei Zhu
+
+arXiv:2505.22897v2 Announce Type: replace 
+Abstract: While bias in large language models (LLMs) is well-studied, similar concerns in vision-language models (VLMs) have received comparatively less atte...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.22897) | [📝 Analysis](448a991e6091f968f475e70b40f2d6bf.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +159,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-30 11:03:19 UTC*

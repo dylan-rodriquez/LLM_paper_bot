@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### One Word at a Time: Incremental Completion Decomposition Breaks LLM Safety
+
+**Score:** 90.0 | **Published:** 2026-04-30 | **Authors:** Samee Arif, Naihao Deng, Zhijing Jin, Rada Mihalcea
+
+arXiv:2604.25921v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) are trained to refuse harmful requests, yet they remain vulnerable to jailbreak attacks that exploit weaknesses in convers...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.25921) | [📝 Analysis](5eee8c49fd1cf138df713c000e62756d.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-04-30 11:03:19 UTC*
