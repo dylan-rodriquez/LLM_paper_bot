@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Evaluation Revisited: A Taxonomy of Evaluation Concerns in Natural Language Processing
+
+**Score:** 90.0 | **Published:** 2026-04-30 | **Authors:** Ruchira Dhar, Anders S{\o}gaard
+
+arXiv:2604.25923v1 Announce Type: new 
+Abstract: Recent advances in large language models (LLMs) have prompted a growing body of work that questions the methodology of prevailing evaluation practices....
+
+[📄 Full Paper](https://arxiv.org/abs/2604.25923) | [📝 Analysis](754611c53af12de084de11c5d938a517.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-30 11:03:19 UTC*

@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "From Black-Box Confidence to Measurable Trust in Clinical AI: A Framework for Evidence, Supervision, and Staged Autonomy",
+      "authors": [
+        "Serhii Zabolotnii, Viktoriia Holinko, Olha Antonenko"
+      ],
+      "abstract": "arXiv:2604.26671v1 Announce Type: new \nAbstract: Trust in clinical artificial intelligence (AI) cannot be reduced to model accuracy, fluency of generation, or overall positive user impression. In medicine, trust must be engineered as a measurable system property grounded in evidence, supervision, and operational boundaries of AI autonomy. This article proposes a practical framework for trustworthy clinical AI built around three principles: evidence, supervision, and staged autonomy. Rather than replacing deterministic clinical logic wholesale with end-to-end black-box models, the proposed approach combines a deterministic core, a patient-specific AI assistant for contextual validation, a multi-tier model escalation mechanism, and a human supervision layer for verification, escalation, and risk control. We demonstrate that trust also depends on selective verification of clinically critical findings, bounded clinical context, disciplined prompt architecture, and careful evaluation on realistic cases. Classifier-driven modular prompting is examined as an incremental path to scaling clinical depth without sacrificing prompt performance and without waiting for complete rule-based coverage. To operationalize trust, a set of trust metrics is proposed, built on metrological principles -- measurement uncertainty, calibration, traceability -- enabling quantitative rather than subjective assessment of each architectural layer. In this perspective, trustworthy clinical AI emerges not as a property of an individual model, but as an architectural outcome of a system into which evidence trails, human oversight, tiered escalation, and graduated action rights are embedded from the outset.",
+      "url": "https://arxiv.org/abs/2604.26671",
+      "published_date": "2026-04-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "clinical",
+        "ai",
+        "trust",
+        "evidence",
+        "supervision",
+        "autonomy",
+        "clinical ai",
+        "escalation",
+        "evidence supervision",
+        "model"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial issue in clinical AI \u2013 moving beyond simple accuracy to build *trust*. The proposed framework, focusing on evidence, supervision, and staged autonomy, appears well-reasoned and practical. While the core ideas aren't entirely novel, the specific combination and emphasis on deterministic cores alongside AI assistance feels like a strong step forward, and the focus on clinically critical verification is particularly valuable. The high significance stems from the critical need for trustworthy AI in healthcare.",
+      "paper_id": "8216bc410d2282786853ba248bb6c461"
+    },
+    {
+      "title": "A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?",
+      "authors": [
+        "Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang"
+      ],
+      "abstract": "arXiv:2505.10924v4 Announce Type: replace \nAbstract: Recently, AI-driven interactions with computing devices have advanced from basic prototype tools to sophisticated, LLM-based systems that emulate human-like operations in graphical user interfaces. We are now witnessing the emergence of \\emph{Computer-Using Agents} (CUAs), capable of autonomously performing tasks such as navigating desktop applications, web pages, and mobile apps. However, as these agents grow in capability, they also introduce novel safety and security risks. Vulnerabilities in LLM-driven reasoning, with the added complexity of integrating multiple software components and multimodal inputs, further complicate the security landscape. In this paper, we present a systematization of knowledge on the safety and security threats of CUAs. We conduct a comprehensive literature review and distill our findings along four research objectives: \\textit{\\textbf{(i)}} define the CUA that suits safety analysis; \\textit{\\textbf{(ii)} } categorize current safety threats among CUAs; \\textit{\\textbf{(iii)}} propose a comprehensive taxonomy of existing defensive strategies; \\textit{\\textbf{(iv)}} summarize prevailing benchmarks, datasets, and evaluation metrics used to assess the safety and performance of CUAs. Building on these insights, our work provides future researchers with a structured foundation for exploring unexplored vulnerabilities and offers practitioners actionable guidance in designing and deploying secure Computer-Using Agents.",
+      "url": "https://arxiv.org/abs/2505.10924",
+      "published_date": "2026-04-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "safety",
+        "agents",
+        "cuas",
+        "security",
+        "textbf",
+        "textit",
+        "textit textbf",
+        "computer",
+        "computer using",
+        "safety security"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a highly relevant and timely problem \u2013 the safety and security of Computer-Using Agents. The systematic literature review approach is sound and necessary given the rapid development in this field. While the abstract doesn't detail novel *methods*, the systematization of knowledge itself is valuable, and the defined research objectives suggest a rigorous analysis will follow. The potential for negative consequences (the 'Ultron' reference) underscores the importance of this work.",
+      "paper_id": "f45cfd198e5b405e85dd1a2353b65a6f"
+    },
+    {
+      "title": "Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models",
+      "authors": [
+        "Wenting Chen, Guo Yu, Yiu-Fai Cheung, Meidan Ding, Jie Liu, Zizhan Ma, Wenxuan Wang, Linlin Shen"
+      ],
+      "abstract": "arXiv:2508.04325v2 Announce Type: replace \nAbstract: Large language models (LLMs) show significant potential in healthcare, prompting numerous benchmarks to evaluate their capabilities. However, concerns persist regarding the reliability of these benchmarks, which often lack clinical fidelity, robust data management, and safety-oriented evaluation metrics. To address these shortcomings, we introduce MedCheck, the first lifecycle-oriented assessment framework specifically designed for medical benchmarks. Our framework deconstructs a benchmark's development into five continuous stages, from design to governance, and provides a comprehensive checklist of 46 medically-tailored criteria. Using MedCheck, we conducted an in-depth empirical evaluation of 53 medical LLM benchmarks. Our analysis uncovers widespread, systemic issues, including a profound disconnect from clinical practice, a crisis of data integrity due to unmitigated contamination risks, and a systematic neglect of safety-critical evaluation dimensions like model robustness and uncertainty awareness. Based on these findings, MedCheck serves as both a diagnostic tool for existing benchmarks and an actionable guideline to foster a more standardized, reliable, and transparent approach to evaluating AI in healthcare.",
+      "url": "https://arxiv.org/abs/2508.04325",
+      "published_date": "2026-04-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "benchmarks",
+        "evaluation",
+        "medcheck",
+        "medical",
+        "clinical",
+        "data",
+        "framework",
+        "healthcare",
+        "language",
+        "language models"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in the rapidly evolving field of medical LLMs \u2013 the lack of rigorous and clinically-relevant benchmarks. The introduction of MedCheck, a lifecycle-oriented assessment framework, is a strong methodological contribution. The empirical evaluation of 53 benchmarks and the identification of systemic issues suggest a high potential for influencing future benchmark development and LLM evaluation practices in healthcare.",
+      "paper_id": "8d85eb6eab2f152af0396a0cd66baec8"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-04-30T11:03:19.604015"
 }

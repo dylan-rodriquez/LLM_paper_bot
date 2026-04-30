@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### From Black-Box Confidence to Measurable Trust in Clinical AI: A Framework for Evidence, Supervision, and Staged Autonomy
+
+**Score:** 92.0 | **Published:** 2026-04-30 | **Authors:** Serhii Zabolotnii, Viktoriia Holinko, Olha Antonenko
+
+arXiv:2604.26671v1 Announce Type: new 
+Abstract: Trust in clinical artificial intelligence (AI) cannot be reduced to model accuracy, fluency of generation, or overall positive user impression. In medi...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.26671) | [📝 Analysis](8216bc410d2282786853ba248bb6c461.md)
+
+---
+
+### A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?
+
+**Score:** 92.0 | **Published:** 2026-04-30 | **Authors:** Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
+
+arXiv:2505.10924v4 Announce Type: replace 
+Abstract: Recently, AI-driven interactions with computing devices have advanced from basic prototype tools to sophisticated, LLM-based systems that emulate h...
+
+[📄 Full Paper](https://arxiv.org/abs/2505.10924) | [📝 Analysis](f45cfd198e5b405e85dd1a2353b65a6f.md)
+
+---
+
+### Beyond the Leaderboard: Rethinking Medical Benchmarks for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-04-30 | **Authors:** Wenting Chen, Guo Yu, Yiu-Fai Cheung, Meidan Ding, Jie Liu, Zizhan Ma, Wenxuan Wang, Linlin Shen
+
+arXiv:2508.04325v2 Announce Type: replace 
+Abstract: Large language models (LLMs) show significant potential in healthcare, prompting numerous benchmarks to evaluate their capabilities. However, conce...
+
+[📄 Full Paper](https://arxiv.org/abs/2508.04325) | [📝 Analysis](8d85eb6eab2f152af0396a0cd66baec8.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-04-30 11:03:19 UTC*

@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Evaluation Revisited: A Taxonomy of Evaluation Concerns in Natural Language Processing",
+      "authors": [
+        "Ruchira Dhar, Anders S{\\o}gaard"
+      ],
+      "abstract": "arXiv:2604.25923v1 Announce Type: new \nAbstract: Recent advances in large language models (LLMs) have prompted a growing body of work that questions the methodology of prevailing evaluation practices. However, many such critiques have already been extensively debated in natural language processing (NLP): a field with a long history of methodological reflection on evaluation. We conduct a scoping review of research on evaluation concerns in NLP and develop a taxonomy, synthesizing recurring positions and trade-offs within each area. We also discuss practical implications of the taxonomy, including a structured checklist to support more deliberate evaluation design and interpretation. By situating contemporary debates within their historical context, this work provides a consolidated reference for reasoning about evaluation practices.",
+      "url": "https://arxiv.org/abs/2604.25923",
+      "published_date": "2026-04-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 65,
+      "impact_score": 80,
+      "sentiment_score": 95,
+      "keywords": [
+        "evaluation",
+        "language",
+        "taxonomy",
+        "concerns",
+        "evaluation concerns",
+        "evaluation practices",
+        "language processing",
+        "natural",
+        "natural language",
+        "nlp"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a highly relevant and timely issue in NLP \u2013 the re-emergence of fundamental evaluation questions in light of LLMs. The scoping review and taxonomy approach is sound and provides a valuable consolidation of existing knowledge. While the core idea isn't entirely novel (methodological reflection in NLP is established), the synthesis and practical checklist are strong contributions, positioning it for positive reception within the community.",
+      "paper_id": "754611c53af12de084de11c5d938a517"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-04-30T11:03:19.602776"
 }

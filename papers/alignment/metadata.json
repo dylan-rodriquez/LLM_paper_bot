@@ -159,7 +159,39 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "One Word at a Time: Incremental Completion Decomposition Breaks LLM Safety",
+      "authors": [
+        "Samee Arif, Naihao Deng, Zhijing Jin, Rada Mihalcea"
+      ],
+      "abstract": "arXiv:2604.25921v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are trained to refuse harmful requests, yet they remain vulnerable to jailbreak attacks that exploit weaknesses in conversational safety mechanisms. We introduce Incremental Completion Decomposition (ICD), a trajectory-based jailbreak strategy that elicits a sequence of single-word continuations related to a malicious request before eliciting the full response. In addition, we propose variants of ICD by manually picking or model-generating the one-word continuation, as well as prefilling when eliciting the full model response in the final step. We systematically evaluate these variants across a broad set of model families, demonstrating superior Attack Success Rate (ASR) on AdvBench, JailbreakBench, and StrongREJECT compared to existing methods. In addition, we provide a theoretical account of why ICD is effective and present mechanistic evidence that successful attack trajectories systematically suppress refusal-related representations and shift activations away from safety-aligned states.",
+      "url": "https://arxiv.org/abs/2604.25921",
+      "published_date": "2026-04-30T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "icd",
+        "model",
+        "safety",
+        "word",
+        "addition",
+        "attack",
+        "completion",
+        "completion decomposition",
+        "decomposition",
+        "eliciting"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the ongoing vulnerability to jailbreak attacks. The proposed Incremental Completion Decomposition (ICD) method appears to be a novel and effective strategy, achieving superior results on established benchmarks. The inclusion of theoretical grounding and mechanistic evidence strengthens the research, suggesting a deeper understanding of *why* the method works, and the systematic evaluation across multiple models is commendable.",
+      "paper_id": "5eee8c49fd1cf138df713c000e62756d"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-04-30T11:03:19.601893"
 }
