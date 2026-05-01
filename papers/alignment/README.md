@@ -2,7 +2,18 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Samuel L Pugh, Eric Yang, Alexander Muir Sutherland, Alessandra Breschi
+
+arXiv:2604.27045v1 Announce Type: cross 
+Abstract: As Large Language Model (LLM) agents transition from single-session tools to persistent systems managing longitudinal healthcare journeys, their memo...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27045) | [📝 Analysis](ca85b00b3cb293899262f51e42a5eb4a.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +71,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*

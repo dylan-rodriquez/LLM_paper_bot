@@ -2,7 +2,40 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (55 total)
+
+### APPSI-139: A Parallel Corpus of English Application Privacy Policy Summarization and Interpretation
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Pengyun Zhu, Qiheng Sun, Long Wen, Yanbo Wang, Yang Cao, Junxu Liu, Deyi Xiong, Jinfei Liu, Zhibo Wang, Kui Ren
+
+arXiv:2604.27550v1 Announce Type: new 
+Abstract: Privacy policies are essential for users to understand how service providers handle their personal data. However, these documents are often long and co...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27550) | [📝 Analysis](462b6dd0b5f3ba1da59b93a1ca422ba0.md)
+
+---
+
+### How Generative AI Disrupts Search: An Empirical Study of Google Search, Gemini, and AI Overviews
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Riley Grossman, Songjiang Liu, Michael K. Chen, Mike Smith, Cristian Borcea, Yi Chen
+
+arXiv:2604.27790v1 Announce Type: cross 
+Abstract: Generative AI is being increasingly integrated into web search for the convenience it provides users. In this work, we aim to understand how generati...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27790) | [📝 Analysis](6151fbb9bcca6000fe9a365bb54616b7.md)
+
+---
+
+### Exploration Hacking: Can LLMs Learn to Resist RL Training?
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Eyon Jang, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmons, Roland S. Zimmermann, David Lindner
+
+arXiv:2604.28182v1 Announce Type: cross 
+Abstract: Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignme...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.28182) | [📝 Analysis](05e567c69f14cf6465987cc2e59abecf.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +610,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*
