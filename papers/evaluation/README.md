@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (16 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,17 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### HealthBench Professional: Evaluating Large Language Models on Real Clinician Chats
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Rebecca Soskin Hicks, Mikhail Trofimov, Dominick Lim, Rahul K. Arora, Foivos Tsimpourlas, Preston Bowman, Michael Sharman, Chi Tong, Kavin Karthik, Arnav Dugar, Akshay Jagadeesh, Khaled Saab, Johannes Heidecke, Ashley Alexander, Nate Gross, Karan Singhal
+
+arXiv:2604.27470v1 Announce Type: new 
+Abstract: Millions of clinicians use ChatGPT to support clinical care, but evaluations of the most common use cases in model-clinician conversations are limited....
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27470) | [📝 Analysis](0a2a1a0d8c08da59ae4b13db49c95265.md)
 
 ---
 
@@ -170,4 +181,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*

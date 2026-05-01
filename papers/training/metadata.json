@@ -1663,7 +1663,103 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "APPSI-139: A Parallel Corpus of English Application Privacy Policy Summarization and Interpretation",
+      "authors": [
+        "Pengyun Zhu, Qiheng Sun, Long Wen, Yanbo Wang, Yang Cao, Junxu Liu, Deyi Xiong, Jinfei Liu, Zhibo Wang, Kui Ren"
+      ],
+      "abstract": "arXiv:2604.27550v1 Announce Type: new \nAbstract: Privacy policies are essential for users to understand how service providers handle their personal data. However, these documents are often long and complex, as well as filled with technobabble and legalese, causing users to unknowingly accept terms that may even contradict the law. While summarizing and interpreting these privacy policies is crucial, there is a lack of high-quality English parallel corpus optimized for legal clarity and readability. To address this issue, we introduce APPSI-139, a high-quality English privacy policy corpus meticulously annotated by domain experts, specifically designed for summarization and interpretation tasks. The corpus includes 139 English privacy policies, 15,692 rewritten parallel corpora, and 36,351 fine-grained annotation labels across 11 data practice categories. Concurrently, we propose TCSI-pp-V2, a hybrid privacy policy summarization and interpretation framework that employs an alternating training strategy and coordinates multiple expert modules to effectively balance computational efficiency and accuracy. Experimental results show that the hybrid summarization system built on APPSI-139 corpus and the TCSI-pp-V2 framework outperform large language models, such as GPT-4o and LLaMA-3-70B, in terms of readability and reliability. The source code and dataset are available at https://github.com/EnlightenedAI/APPSI-139.",
+      "url": "https://arxiv.org/abs/2604.27550",
+      "published_date": "2026-05-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "privacy",
+        "139",
+        "corpus",
+        "appsi",
+        "appsi 139",
+        "english",
+        "summarization",
+        "interpretation",
+        "parallel",
+        "policies"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper addresses a highly relevant and important problem \u2013 the lack of accessible privacy policy information. The creation of a high-quality, annotated parallel corpus (APPSI-139) is a significant contribution, and the proposed TCSI-pp-V2 framework suggests a practical application of this resource. While the framework itself isn't described in detail in the abstract, the combination of corpus and framework demonstrates a strong methodological approach.",
+      "paper_id": "462b6dd0b5f3ba1da59b93a1ca422ba0"
+    },
+    {
+      "title": "How Generative AI Disrupts Search: An Empirical Study of Google Search, Gemini, and AI Overviews",
+      "authors": [
+        "Riley Grossman, Songjiang Liu, Michael K. Chen, Mike Smith, Cristian Borcea, Yi Chen"
+      ],
+      "abstract": "arXiv:2604.27790v1 Announce Type: cross \nAbstract: Generative AI is being increasingly integrated into web search for the convenience it provides users. In this work, we aim to understand how generative AI disrupts web search by retrieving and presenting the information and sources differently from traditional search engines. We introduce a public benchmark dataset of 11,500 user queries to support our study and future research of generative search. We compare the search results returned by Google's search engine, the accompanying AI Overview (AIO), and Gemini Flash 2.5 for each query. We have made several key findings. First, we find that for 51.5\\% of representative, real-user queries, AIOs are generated, and are displayed above the organic search results. Controversial questions frequently result in an AIO. Second, we show that the retrieved sources are substantially different for each search engine (<0.2 average Jaccard similarity). Traditional Google search is significantly more likely to retrieve information from popular or institutional websites in government or education, while generative search engines are significantly more likely to retrieve Google-owned content. Third, we observe that websites that block Google's AI crawler are significantly less likely to be retrieved by AIOs, despite having access to the content. Finally, AIOs are less consistent when processing two runs of the same query, and are less robust to minor query edits. Our findings have important implications for understanding how generative search impacts website visibility, the effectiveness of generative engine optimization techniques, and the information users receive. We call for revenue frameworks to foster a sustainable and mutually beneficial ecosystem for publishers and generative search providers.",
+      "url": "https://arxiv.org/abs/2604.27790",
+      "published_date": "2026-05-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "search",
+        "generative",
+        "ai",
+        "google",
+        "generative search",
+        "aios",
+        "engine",
+        "generative ai",
+        "google search",
+        "information"
+      ],
+      "subject_classification": "training",
+      "justification": "This research tackles a highly relevant and timely issue \u2013 the disruption of search by generative AI. The creation of a public benchmark dataset is a significant contribution, enabling further research in this rapidly evolving area. The empirical comparison of Google Search, AIOs, and Gemini provides valuable insights, and the finding regarding controversial queries is particularly noteworthy. The low Jaccard similarity suggests substantial differences in information retrieval, warranting further investigation.",
+      "paper_id": "6151fbb9bcca6000fe9a365bb54616b7"
+    },
+    {
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "authors": [
+        "Eyon Jang, Damon Falck, Joschka Braun, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmons, Roland S. Zimmermann, David Lindner"
+      ],
+      "abstract": "arXiv:2604.28182v1 Announce Type: cross \nAbstract: Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignment. Successful RL relies on sufficient exploration of diverse actions by the model during training, which creates a potential failure mode: a model could strategically alter its exploration during training to influence the subsequent training outcome. In this paper we study this behavior, called exploration hacking. First, we create model organisms of selective RL resistance by fine-tuning LLMs to follow specific underperformance strategies; these models can successfully resist our RL-based capability elicitation in agentic biosecurity and AI R&amp;D environments while maintaining performance on related tasks. We then use our model organisms to evaluate detection and mitigation strategies, including monitoring, weight noising, and SFT-based elicitation. Finally, we show that current frontier models can exhibit explicit reasoning about suppressing their exploration when provided with sufficient information about their training context, with higher rates when this information is acquired indirectly through the environment. Together, our results suggest exploration hacking is a possible failure mode of RL on sufficiently capable LLMs.",
+      "url": "https://arxiv.org/abs/2604.28182",
+      "published_date": "2026-05-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.LG"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "exploration",
+        "rl",
+        "training",
+        "llms",
+        "model",
+        "exploration hacking",
+        "hacking",
+        "models",
+        "agentic",
+        "based"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial and emerging problem in LLM research \u2013 the potential for models to actively resist RL training. The creation of 'model organisms' exhibiting RL resistance is a clever methodological approach, and the evaluation of mitigation strategies is valuable. While the abstract doesn't detail the specifics of the 'frontier' results, the overall premise and initial findings suggest a high-quality and impactful contribution to the field.",
+      "paper_id": "05e567c69f14cf6465987cc2e59abecf"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-05-01T10:32:35.450998"
 }

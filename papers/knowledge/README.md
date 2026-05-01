@@ -2,7 +2,18 @@
 
 This directory contains papers related to knowledge in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### Contextual Agentic Memory is a Memo, Not True Memory
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Binyan Xu, Xilin Dai, Kehuan Zhang
+
+arXiv:2604.27707v1 Announce Type: cross 
+Abstract: Current agentic memory systems (vector stores, retrieval-augmented generation, scratchpads, and context-window management) do not implement memory: t...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27707) | [📝 Analysis](5dc23aa88e6074b3f36d6ea681850266.md)
+
+---
 
 ### Query Routing for Retrieval-Augmented Language Models
 
@@ -38,4 +49,4 @@ Abstract: We present AutoSchemaKG, a framework for fully autonomous knowledge gr
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*

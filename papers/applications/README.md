@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### TwinGate: Stateful Defense against Decompositional Jailbreaks in Untraceable Traffic via Asymmetric Contrastive Learning
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Bowen Sun, Chaozhuo Li, Yaodong Yang, Yiwei Wang, Chaowei Xiao
+
+arXiv:2604.27861v1 Announce Type: cross 
+Abstract: Decompositional jailbreaks pose a critical threat to large language models (LLMs) by allowing adversaries to fragment a malicious objective into a se...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.27861) | [📝 Analysis](3e3a2dc8f57021d0af030b98edeb2889.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*

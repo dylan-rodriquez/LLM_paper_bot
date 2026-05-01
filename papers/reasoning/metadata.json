@@ -415,7 +415,39 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "BatteryPass-12K: The First Dataset for the Novel Digital Battery Passport Conformance Task",
+      "authors": [
+        "Tosin Adewumi, Martin Karlsson, Lama Alkhaled, Marcus Liwicki"
+      ],
+      "abstract": "arXiv:2604.26986v1 Announce Type: new \nAbstract: We introduce a novel task of digital battery passport (DBP) conformance classification and introduce the first public benchmark for the task: BatteryPass-12K, created synthetically from real pilot samples. This is as the EU's battery regulation on DBPs comes into effect soon and there exists no public dataset. We evaluated 22 language models (LMs) in zero-shot inference, spanning small LMs (SLMs), mixture of experts (MoEs), and dense LLMs. We also conducted analysis, additional evaluations of few-shot inference and prompt-injection attacks to find that (1) Thinking models have the best performance (with GPT-5.4 scoring 0.98 (0.03) and 0.71 (0.22) on average as F1 (and confidence interval at 95%) on the validation and test sets, respectively), (2) few-shot examples improve performance significantly, (3) generally capable frontier models find the task challenging, (4) merely scaling model parameters does not necessarily lead to improved performance, as SLMs outperformed some LLMs, and (5) prompt-injection attacks degrade performance. We note that BatteryPass-12K, though limited to real pilot samples, may be useful for other known or emerging tasks in the battery domain, e.g. lifecycle reasoning. We publicly release the dataset under a permissive licence (CC-BY-4.0).",
+      "url": "https://arxiv.org/abs/2604.26986",
+      "published_date": "2026-05-01T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 85,
+      "keywords": [
+        "battery",
+        "performance",
+        "task",
+        "12k",
+        "batterypass",
+        "batterypass 12k",
+        "dataset",
+        "models",
+        "shot",
+        "22"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a very timely and important problem \u2013 the need for datasets to evaluate conformance to the upcoming EU battery regulation regarding Digital Battery Passports. The creation of the BatteryPass-12K dataset is a significant contribution, and the initial evaluation of various language models provides valuable insights. While the synthetic nature of the dataset is a limitation, it's a necessary step given the lack of existing public data, and the analysis of model performance, few-shot learning, and prompt injection is well-executed.",
+      "paper_id": "18471d40f403c3429f8cc016b7c93641"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-05-01T10:32:35.448175"
 }

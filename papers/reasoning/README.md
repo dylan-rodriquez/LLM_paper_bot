@@ -2,7 +2,18 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### BatteryPass-12K: The First Dataset for the Novel Digital Battery Passport Conformance Task
+
+**Score:** 92.0 | **Published:** 2026-05-01 | **Authors:** Tosin Adewumi, Martin Karlsson, Lama Alkhaled, Marcus Liwicki
+
+arXiv:2604.26986v1 Announce Type: new 
+Abstract: We introduce a novel task of digital battery passport (DBP) conformance classification and introduce the first public benchmark for the task: BatteryPa...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.26986) | [📝 Analysis](18471d40f403c3429f8cc016b7c93641.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +159,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-01 10:32:35 UTC*
