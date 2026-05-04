@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Reinforcement Learning for LLM Post-Training: A Survey",
+      "authors": [
+        "Zhichao Wang (James), Kiran Ramnath (James), Bin Bi (James), Shiva Kumar Pentyala (James), Sougata Chaudhuri (James), Shubham Mehrotra (James),  Zixu (James),  Zhu (Claire), Xiang-Bo Mao (Claire), Sitaram Asur (Claire),  Na (Claire),  Cheng"
+      ],
+      "abstract": "arXiv:2407.16216v3 Announce Type: replace \nAbstract: Large language models (LLMs) trained via pretraining and supervised fine-tuning (SFT) can still produce harmful and misaligned outputs, or struggle in domains like math and coding. Reinforcement learning (RL)-based post-training methods, including Reinforcement Learning from Human Feedback (RLHF) methods like Direct Preference Optimization (DPO) and Reinforcement Learning with Verifiable Rewards (RLVR) approaches like PPO and GRPO, have made remarkable gains to alleviate these issues. Yet, no existing work offers a technically detailed comparison of the various methods driving this progress. In order to fill this gap, we present a timely survey that connects foundational components with latest advancements. We derive a single policy gradient framework that unifies pretraining, SFT, RLHF, and RLVR as special cases while also organizing the more recent techniques therein. The main contributions of our survey are as follows: (1) a self-contained introduction to MLE, RLHF, and RLVR foundations and the unified policy gradient framework; (2) detailed technical analysis of PPO- and GRPO-based methods alongside offline and iterative DPO approaches, decomposed along prompt sampling, response sampling, and gradient coefficient axes; (3) standardized notation enabling direct cross-method comparison; and (4) comprehensive comparison of implementation details and empirical results of each method in the appendix. We aim to serve as a technically grounded reference for researchers and practitioners working on LLM post-training.",
+      "url": "https://arxiv.org/abs/2407.16216",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "learning",
+        "methods",
+        "reinforcement",
+        "reinforcement learning",
+        "comparison",
+        "gradient",
+        "like",
+        "post",
+        "post training",
+        "rlhf"
+      ],
+      "subject_classification": "training",
+      "justification": "This survey addresses a highly relevant and rapidly evolving area \u2013 RL for LLM post-training. The attempt to unify different methods under a single policy gradient framework is a strong methodological contribution, suggesting a rigorous approach. The high significance and impact scores reflect the importance of aligning LLMs and improving their performance, while the innovation score is slightly lower as surveys, by nature, synthesize existing work, though the unifying framework adds novelty.",
+      "paper_id": "8545475a916eede6dc551e72ebb15db6"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-05-04T11:13:33.285113"
 }

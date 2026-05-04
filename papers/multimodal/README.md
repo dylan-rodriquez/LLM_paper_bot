@@ -2,7 +2,18 @@
 
 This directory contains papers related to multimodal in large language models and AI.
 
-## Papers (12 total)
+## Papers (13 total)
+
+### Alethia: A Foundational Encoder for Voice Deepfakes
+
+**Score:** 90.0 | **Published:** 2026-05-04 | **Authors:** Yi Zhu, Brahmi Dwivedi, Jayaram Raghuram, Surya Koppisetti
+
+arXiv:2605.00251v1 Announce Type: cross 
+Abstract: Existing voice deepfake detection and localization models rely heavily on representations extracted from speech foundation models (SFMs). However, do...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00251) | [📝 Analysis](d5aad5700e3014ceef3be057942a3c5e.md)
+
+---
 
 ### StressTest: Can YOUR Speech LM Handle the Stress?
 
@@ -137,4 +148,4 @@ Abstract: With the increasing integration of visual and textual content in Socia
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*

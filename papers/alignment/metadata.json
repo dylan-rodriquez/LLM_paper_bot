@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models",
+      "authors": [
+        "Gregory N. Frank"
+      ],
+      "abstract": "arXiv:2604.04385v4 Announce Type: replace \nAbstract: We localize the policy routing mechanism in alignment-trained language models. An intermediate-layer attention gate reads detected content and triggers deeper amplifier heads that boost the signal toward refusal. In smaller models the gate and amplifier are single heads; at larger scale they become bands of heads across adjacent layers. The gate contributes under 1% of output DLA, yet interchange testing (p < 0.001) and knockout cascade confirm it is causally necessary. Interchange screening at n >= 120 detects the same motif in twelve models from six labs (2B to 72B), though specific heads differ by lab. Per-head ablation weakens up to 58x at 72B and misses gates that interchange identifies; at scale, interchange is the only reliable audit. Modulating the detection-layer signal continuously controls policy from hard refusal through evasion to factual answering. On safety prompts the same intervention turns refusal into harmful guidance, showing that the safety-trained capability is gated by routing, not removed. Thresholds vary by topic and by input language, and the circuit relocates across generations within a family even while behavioral benchmarks register no change. Routing is early-commitment: the gate fires at its own layer before deeper layers finish processing the input. An in-context substitution cipher collapses gate interchange necessity by 70 to 99% across three models, and the model switches to puzzle-solving rather than refusal. Injecting the plaintext gate activation into the cipher forward pass restores 48% of refusals in Phi-4-mini, localizing the bypass to the routing interface. A second method, cipher contrast analysis, uses plain/cipher DLA differences to map the full cipher-sensitive routing circuit in O(3n) forward passes. Any encoding that defeats detection-layer pattern matching bypasses the policy regardless of whether deeper layers reconstruct the content.",
+      "url": "https://arxiv.org/abs/2604.04385",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "gate",
+        "cipher",
+        "interchange",
+        "models",
+        "routing",
+        "heads",
+        "layer",
+        "policy",
+        "refusal",
+        "deeper"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 understanding and controlling alignment mechanisms. The identification of 'policy routing' via attention gates and amplifier heads, and the demonstration of consistent motifs across models from different labs, is a strong methodological contribution. The ability to modulate policy through signal intervention is particularly compelling, suggesting a pathway for more fine-grained control and auditing of LLM behavior. The interchange testing and knockout cascade provide strong causal evidence.",
+      "paper_id": "46146f4c228874469a6d6ccf2f270197"
+    },
+    {
+      "title": "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios",
+      "authors": [
+        "Yutao Hou, Yihan Jiang, Yuhan Xie, Jian Yang, Liwen Zhang, Hailiang Huang, Guanhua Chen, Yun Chen"
+      ],
+      "abstract": "arXiv:2605.00706v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly applied in financial scenarios. However, they may produce harmful outputs, including facilitating illegal activities or unethical behavior, posing serious compliance risks. To systematically evaluate LLM safety in finance, we propose FinSafetyBench, a bilingual (English-Chinese) red-teaming benchmark designed to test an LLM's refusal of requests that violate financial compliance. Grounded in real-world financial crime cases and ethics standards, the benchmark comprises 14 subcategories spanning financial crimes and ethical violations. Through extensive experiments on general-purpose and finance-specialized LLMs under three representative attack settings, we identify critical vulnerabilities that allow adversarial prompts to bypass compliance safeguards. Further analysis reveals stronger susceptibility in Chinese contexts and highlights the limitations of prompt-level defenses against sophisticated or implicit manipulation strategies.",
+      "url": "https://arxiv.org/abs/2605.00706",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "financial",
+        "compliance",
+        "llm",
+        "benchmark",
+        "chinese",
+        "finance",
+        "financial scenarios",
+        "finsafetybench",
+        "llm safety",
+        "llms"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the safety of LLMs in high-stakes financial applications. The creation of FinSafetyBench, a bilingual benchmark grounded in real-world cases, is a strong methodological contribution. While red-teaming benchmarks aren't entirely novel, the focus on financial compliance and the inclusion of both English and Chinese contexts adds considerable value, suggesting a positive reception within the community.",
+      "paper_id": "3b8b7f3636145448c9b605cac43bb441"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-05-04T11:13:33.282457"
 }

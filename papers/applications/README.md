@@ -2,7 +2,18 @@
 
 This directory contains papers related to applications in large language models and AI.
 
-## Papers (13 total)
+## Papers (14 total)
+
+### Bias in Large Language Models: Origin, Evaluation, and Mitigation
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Yufei Guo, Muzhe Guo, Juntao Su, Zhou Yang, Mengqiu Zhu, Hongfei Li, Mengyang Qiu, Shuo Shuo Liu
+
+arXiv:2411.10915v2 Announce Type: replace 
+Abstract: Large Language Models (LLMs) have revolutionized natural language processing, but their susceptibility to biases poses significant challenges. This...
+
+[📄 Full Paper](https://arxiv.org/abs/2411.10915) | [📝 Analysis](4daf75c1eae168e2a9b816d2ea8ba60e.md)
+
+---
 
 ### Automated Essay Scoring Incorporating Annotations from Automated Feedback Systems
 
@@ -148,4 +159,4 @@ Abstract: Chest X-rays (CXRs) play an integral role in driving critical decision
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*

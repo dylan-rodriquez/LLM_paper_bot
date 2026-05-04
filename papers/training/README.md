@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Reinforcement Learning for LLM Post-Training: A Survey
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Zhichao Wang (James), Kiran Ramnath (James), Bin Bi (James), Shiva Kumar Pentyala (James), Sougata Chaudhuri (James), Shubham Mehrotra (James),  Zixu (James),  Zhu (Claire), Xiang-Bo Mao (Claire), Sitaram Asur (Claire),  Na (Claire),  Cheng
+
+arXiv:2407.16216v3 Announce Type: replace 
+Abstract: Large language models (LLMs) trained via pretraining and supervised fine-tuning (SFT) can still produce harmful and misaligned outputs, or struggle...
+
+[📄 Full Paper](https://arxiv.org/abs/2407.16216) | [📝 Analysis](8545475a916eede6dc551e72ebb15db6.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*

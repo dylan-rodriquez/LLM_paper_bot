@@ -95,7 +95,39 @@
       "subject_classification": "generation",
       "justification": "High innovation indicators (score: 40); Contains key LLM terms (bonus: 10)",
       "paper_id": "fdd54ed79a8ac1f08c737f3d12158741"
+    },
+    {
+      "title": "LLM-Oriented Information Retrieval: A Denoising-First Perspective",
+      "authors": [
+        "Lu Dai, Liang Sun, Fanpu Cao, Ziyang Rao, Cehao Yang, Hao Liu, Hui Xiong"
+      ],
+      "abstract": "arXiv:2605.00505v1 Announce Type: cross \nAbstract: Modern information retrieval (IR) is no longer consumed primarily by humans but increasingly by large language models (LLMs) via retrieval-augmented generation (RAG) and agentic search. Unlike human users, LLMs are constrained by limited attention budgets and are uniquely vulnerable to noise; misleading or irrelevant information is no longer just a nuisance, but a direct cause of hallucinations and reasoning failures. In this perspective paper, we argue that denoising-maximizing usable evidence density and verifiability within a context window-is becoming the primary bottleneck across the full information access pipeline. We conceptualize this paradigm shift through a four-stage framework of IR challenges: from inaccessible to undiscoverable, to misaligned, and finally to unverifiable. Furthermore, we provide a pipeline-organized taxonomy of signal-to-noise optimization techniques, spanning indexing, retrieval, context engineering, verification, and agentic workflow. We also present research works on information denoising in domains that rely heavily on retrieval such as lifelong assistant, coding agent, deep research, and multimodal understanding.",
+      "url": "https://arxiv.org/abs/2605.00505",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.IR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "information",
+        "retrieval",
+        "denoising",
+        "agentic",
+        "context",
+        "information retrieval",
+        "ir",
+        "llms",
+        "longer",
+        "noise"
+      ],
+      "subject_classification": "generation",
+      "justification": "This paper addresses a crucial and timely problem in the age of LLMs \u2013 the impact of noisy information on their performance. The framing of IR challenges as a progression from inaccessible to unverifiable is insightful, and the focus on 'denoising' as a primary bottleneck is a strong argument. While the abstract doesn't detail novel *methods*, it proposes a valuable perspective shift and taxonomy, suggesting a strong potential for guiding future research.",
+      "paper_id": "5e5cfdc3be67c70924240570c9e21b69"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.498808"
+  "last_updated": "2026-05-04T11:13:33.284072"
 }
