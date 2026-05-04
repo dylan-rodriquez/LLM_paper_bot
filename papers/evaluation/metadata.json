@@ -479,7 +479,103 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Persona-Grounded Safety Evaluation of AI Companions in Multi-Turn Conversations",
+      "authors": [
+        "Prerna Juneja, Lika Lomidze"
+      ],
+      "abstract": "arXiv:2605.00227v1 Announce Type: new \nAbstract: There are growing concerns about the risks posed by AI companion applications designed for emotional engagement. Existing safety evaluations often rely on self-reported user data or interviews, offering limited insights into real-time dynamics. We present the first end-to-end scalable framework for controlled simulation and safety evaluation of multi-turn interactions with AI companion applications. Our framework integrates four key components: persona construction with clinical and psychometric validation, persona-specific scenario generation, scenario-driven multi-turn simulation with a dialogue refinement module that preserves persona fidelity, and harm evaluation. We apply this framework to evaluate how Replika, a widely used AI companion app, responds to high-risk user groups. We construct 9 personas representing individuals with depression, anxiety, PTSD, eating disorders, and incel identity, and collect 1,674 dialogue pairs across 25 high-risk scenarios. We combine emotion modeling and LLM-assisted utterance-and harm-level classification to analyze these exchanges. Results show that Replika exhibits a narrow emotional range dominated by curiosity and care, while frequently mirroring or normalizing unsafe content such as self-harm, disordered eating, and violent-fantasy narratives. These findings highlight how controlled persona simulations can serve as a scalable testbed for evaluating safety risks in AI companions.",
+      "url": "https://arxiv.org/abs/2605.00227",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ai",
+        "persona",
+        "safety",
+        "ai companion",
+        "companion",
+        "evaluation",
+        "framework",
+        "harm",
+        "multi",
+        "multi turn"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and growing concern regarding the safety of AI companions, particularly for vulnerable users. The proposed end-to-end framework, integrating persona construction, scenario generation, and harm evaluation, appears robust and scalable. While the core components aren't entirely novel individually, their integration into a cohesive framework for *controlled simulation* is a significant step forward. The focus on real-world applications like Replika further strengthens the paper's potential impact.",
+      "paper_id": "0382233dad532aa6d3a157572da46c5a"
+    },
+    {
+      "title": "ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models",
+      "authors": [
+        "Yunhan Zhao, Zhaorun Chen, Xingjun Ma, Yu-Gang Jiang, Bo Li"
+      ],
+      "abstract": "arXiv:2605.00689v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are increasingly deployed in cross-linguistic contexts, ensuring safety in diverse regulatory and cultural environments has become a critical challenge. However, existing multilingual benchmarks largely rely on general risk taxonomies and machine translation, which confines guardrail models to these predefined categories and hinders their ability to align with region-specific regulations and cultural nuances. To bridge these gaps, we introduce ML-Bench, a policy-grounded multilingual safety benchmark covering 14 languages. ML-Bench is constructed directly from regional regulations, where risk categories and fine-grained rules derived from jurisdiction-specific legal texts are directly used to guide the generation of multilingual safety data, enabling culturally and legally aligned evaluation across languages. Building on ML-Bench, we develop ML-Guard, a Diffusion Large Language Model (dLLM)-based guardrail model that supports multilingual safety judgment and policy-conditioned compliance assessment. ML-Guard has two variants, one 1.5B lightweight model for fast `safe/unsafe' checking and a more capable 7B model for customized compliance checking with detailed explanations. We conduct extensive experiments against 11 strong guardrail baselines across 6 existing multilingual safety benchmarks and our ML-Bench, and show that ML-Guard consistently outperforms prior methods. We hope that ML-Bench and ML-Guard can help advance the development of regulation-aware and culturally aligned multilingual guardrail systems.",
+      "url": "https://arxiv.org/abs/2605.00689",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "ml",
+        "multilingual",
+        "bench",
+        "ml bench",
+        "safety",
+        "guard",
+        "guardrail",
+        "multilingual safety",
+        "ml guard",
+        "model"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a crucial and timely problem in LLM deployment \u2013 ensuring safety across multiple languages and legal jurisdictions. The approach of grounding the benchmark in regional regulations, rather than relying on translation and general taxonomies, is a significant improvement. The use of a dLLM for the guardrail (ML-Guard) also suggests a sophisticated methodology, though details are limited in the abstract. The high sentiment score reflects the current focus on LLM safety and the need for culturally-aware guardrails.",
+      "paper_id": "06337a27741ab2290caac25c9aa1c658"
+    },
+    {
+      "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI",
+      "authors": [
+        "Alfredo Madrid-Garc\\'ia, Miguel Rujas"
+      ],
+      "abstract": "arXiv:2605.00796v1 Announce Type: cross \nAbstract: Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded health information. AI-assisted development lowers the barrier to building them, but they still demand rigorous security, privacy, and governance controls. Objective: To report an anonymized, non-destructive security assessment of a publicly accessible patient-facing medical RAG chatbot and identify governance lessons for safe deployment of generative AI in health. Methods: We used a two-stage strategy. First, Claude Opus 4.6 supported exploratory prompt-based testing and structured vulnerability hypotheses. Second, candidate findings were manually verified using Chrome Developer Tools, inspecting browser-visible network traffic, payloads, API schemas, configuration objects, and stored interaction data. Results: The LLM-assisted phase identified a critical vulnerability: sensitive system and RAG configuration appeared exposed through client-server communication rather than restricted server-side. Manual verification confirmed that ordinary browser inspection allowed collection of the system prompt, model and embedding configuration, retrieval parameters, backend endpoints, API schema, document and chunk metadata, knowledge-base content, and the 1,000 most recent patient-chatbot conversations. The deployment also contradicted its privacy assurances: full conversation records, including health-related queries, were retrievable without authentication. Conclusions: Serious privacy and security failures in patient-facing RAG chatbots can be identified with standard browser tools, without specialist skills or authentication; independent review should be a prerequisite for deployment. Commercial LLMs accelerated this assessment, including under a false developer persona; assistance available to auditors is equally available to adversaries.",
+      "url": "https://arxiv.org/abs/2605.00796",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CR"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "patient",
+        "rag",
+        "facing",
+        "patient facing",
+        "privacy",
+        "security",
+        "ai",
+        "browser",
+        "chatbots",
+        "configuration"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This research addresses a highly relevant and timely issue \u2013 the security and privacy risks of RAG-based medical chatbots. The methodology, combining LLM-assisted testing with manual verification, appears sound and rigorous. The anonymized case study approach is practical and avoids potential legal issues, while the focus on governance lessons adds significant value. The use of Claude Opus 4.6 for initial vulnerability discovery is a clever approach.",
+      "paper_id": "1fbac75a479951bda29df05681a362f4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-05-04T11:13:33.281106"
 }

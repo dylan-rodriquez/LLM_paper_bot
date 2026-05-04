@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Gregory N. Frank
+
+arXiv:2604.04385v4 Announce Type: replace 
+Abstract: We localize the policy routing mechanism in alignment-trained language models. An intermediate-layer attention gate reads detected content and trig...
+
+[📄 Full Paper](https://arxiv.org/abs/2604.04385) | [📝 Analysis](46146f4c228874469a6d6ccf2f270197.md)
+
+---
+
+### FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios
+
+**Score:** 90.0 | **Published:** 2026-05-04 | **Authors:** Yutao Hou, Yihan Jiang, Yuhan Xie, Jian Yang, Liwen Zhang, Hailiang Huang, Guanhua Chen, Yun Chen
+
+arXiv:2605.00706v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly applied in financial scenarios. However, they may produce harmful outputs, including facilitating illegal...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00706) | [📝 Analysis](3b8b7f3636145448c9b605cac43bb441.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*

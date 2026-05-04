@@ -2,7 +2,18 @@
 
 This directory contains papers related to generation in large language models and AI.
 
-## Papers (3 total)
+## Papers (4 total)
+
+### LLM-Oriented Information Retrieval: A Denoising-First Perspective
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Lu Dai, Liang Sun, Fanpu Cao, Ziyang Rao, Cehao Yang, Hao Liu, Hui Xiong
+
+arXiv:2605.00505v1 Announce Type: cross 
+Abstract: Modern information retrieval (IR) is no longer consumed primarily by humans but increasingly by large language models (LLMs) via retrieval-augmented ...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00505) | [📝 Analysis](5e5cfdc3be67c70924240570c9e21b69.md)
+
+---
 
 ### Uncertainty Quantification for LLMs through Minimum Bayes Risk: Bridging Confidence and Consistency
 
@@ -38,4 +49,4 @@ Abstract: Recent decoding methods improve the factuality of large language model
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*

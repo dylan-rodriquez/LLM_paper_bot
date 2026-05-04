@@ -383,7 +383,39 @@
       "subject_classification": "multimodal",
       "justification": "The paper presents a solid, well-defined methodology for comparing syntactic variation between speech and writing. The use of treebanks and a bottom-up, inductive approach is commendable. While the core idea isn't entirely novel, the cross-linguistic comparison (English and Slovenian) and the focus on delexicalized dependency subtrees add value. The limited overlap between spoken and written syntax is a potentially interesting finding, though further exploration is needed.",
       "paper_id": "c835662b34dfbf99859be3bb249390e7"
+    },
+    {
+      "title": "Alethia: A Foundational Encoder for Voice Deepfakes",
+      "authors": [
+        "Yi Zhu, Brahmi Dwivedi, Jayaram Raghuram, Surya Koppisetti"
+      ],
+      "abstract": "arXiv:2605.00251v1 Announce Type: cross \nAbstract: Existing voice deepfake detection and localization models rely heavily on representations extracted from speech foundation models (SFMs). However, downstream finetuning has now reached a state of diminishing returns. In this paper, we shift the focus to pretraining and propose a novel recipe that combines bottleneck masked embedding prediction with flow-matching based spectrogram reconstruction. The outcome, Alethia, is the first foundational audio encoder for various voice deepfake detection and localization tasks. We evaluate on $5$ different tasks with $56$ benchmark datasets, and note Alethia significantly outperforms state-of-the-art SFMs with superior robustness to real-world perturbations and zero-shot generalization to unseen domains (e.g., singing deepfakes). We also demonstrate the limitation of discrete targets in masked token prediction, and show the importance of continuous embedding prediction and generative pretraining for capturing deepfake artifacts.",
+      "url": "https://arxiv.org/abs/2605.00251",
+      "published_date": "2026-05-04T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.SD"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 92,
+      "keywords": [
+        "alethia",
+        "deepfake",
+        "prediction",
+        "voice",
+        "alethia foundational",
+        "deepfake detection",
+        "deepfakes",
+        "detection",
+        "detection localization",
+        "embedding"
+      ],
+      "subject_classification": "multimodal",
+      "justification": "This paper addresses a critical and growing problem \u2013 voice deepfakes \u2013 and proposes a novel approach to detection by focusing on foundational encoder pretraining. The combination of bottleneck masked embedding prediction and flow-matching spectrogram reconstruction appears promising, especially given the reported performance on a large number of datasets and superior generalization. The acknowledgement of limitations with discrete targets and the emphasis on continuous embedding prediction demonstrate a thoughtful research process.",
+      "paper_id": "d5aad5700e3014ceef3be057942a3c5e"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.548323"
+  "last_updated": "2026-05-04T11:13:33.283204"
 }

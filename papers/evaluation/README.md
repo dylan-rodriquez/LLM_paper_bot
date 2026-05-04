@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (18 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,39 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Persona-Grounded Safety Evaluation of AI Companions in Multi-Turn Conversations
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Prerna Juneja, Lika Lomidze
+
+arXiv:2605.00227v1 Announce Type: new 
+Abstract: There are growing concerns about the risks posed by AI companion applications designed for emotional engagement. Existing safety evaluations often rely...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00227) | [📝 Analysis](0382233dad532aa6d3a157572da46c5a.md)
+
+---
+
+### ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Yunhan Zhao, Zhaorun Chen, Xingjun Ma, Yu-Gang Jiang, Bo Li
+
+arXiv:2605.00689v1 Announce Type: new 
+Abstract: As Large Language Models (LLMs) are increasingly deployed in cross-linguistic contexts, ensuring safety in diverse regulatory and cultural environments...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00689) | [📝 Analysis](06337a27741ab2290caac25c9aa1c658.md)
+
+---
+
+### When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI
+
+**Score:** 92.0 | **Published:** 2026-05-04 | **Authors:** Alfredo Madrid-Garc\'ia, Miguel Rujas
+
+arXiv:2605.00796v1 Announce Type: cross 
+Abstract: Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded h...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.00796) | [📝 Analysis](1fbac75a479951bda29df05681a362f4.md)
 
 ---
 
@@ -170,4 +203,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-04 11:13:33 UTC*
