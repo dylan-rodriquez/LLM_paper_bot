@@ -2,7 +2,29 @@
 
 This directory contains papers related to reasoning in large language models and AI.
 
-## Papers (13 total)
+## Papers (15 total)
+
+### Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Stanis{\l}aw S\'ojka, Witold Kowalczyk
+
+arXiv:2605.02472v1 Announce Type: new 
+Abstract: Legal texts often contain computational legal clauses--provisions whose understanding requires complex logic. While frontier Large Reasoning Models (LR...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.02472) | [📝 Analysis](1853dc2334025a8d4f4009ee23909d7e.md)
+
+---
+
+### What Single-Prompt Accuracy Misses: A Multi-Variant Reliability Audit of Language Models
+
+**Score:** 90.0 | **Published:** 2026-05-05 | **Authors:** Ranit Karmakar, Jayita Chatterjee
+
+arXiv:2605.02038v1 Announce Type: new 
+Abstract: Single-prompt accuracy is the dominant way to benchmark language models, but it can miss reliability failures that matter. We evaluate a 15-model open-...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.02038) | [📝 Analysis](79eda8319cc13097d15b6f92bd2c4db4.md)
+
+---
 
 ### Climate Finance Bench
 
@@ -148,4 +170,4 @@ Abstract: Reasoning Large Language Models (RLLMs) have demonstrated impressive p
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*

@@ -191,7 +191,39 @@
       "subject_classification": "agents",
       "justification": "High innovation indicators (score: 50); Positive sentiment analysis (score: 60.1)",
       "paper_id": "98c148ca79c5cd483b89f0c5a8532e01"
+    },
+    {
+      "title": "Beating the Style Detector: Three Hours of Agentic Research on the AI-Text Arms Race",
+      "authors": [
+        "Andreas Maier, Moritz Zaiss, Siming Bayer"
+      ],
+      "abstract": "arXiv:2605.02620v1 Announce Type: new \nAbstract: Reproducing an empirical NLP study used to take weeks. Given the released data and a modern agentic-research harness, we redo every experiment of a recent ACL\\,2026 study on personal-style post-editing of LLM drafts -- and add three new ones -- with the human investigator acting only as a reviewer-in-the-loop. We reproduce all seven preregistered hypotheses and recover the paper's headline correlation between perceived self-similarity and embedding-measured self-similarity to three decimal places ($r{=}{+}0.244$, $p{<}10^{-8}$, $n{=}648$). Under a leakage-free held-out protocol, GPT-5.5 and Claude\\,Opus\\,4.7 close $71$--$75\\,\\%$ of the style gap to the same-author ceiling on $324$ paired tasks, against $24\\,\\%$ for the human post-edit, and beat the human post-edit on $\\sim$$80\\,\\%$ of tasks. We then frame the same data as an AI-text detection arms race. A leave-authors-out linear SVM on LUAR-MUD embeddings reaches AUC $0.93$--$1.00$ across approaches; six diagnostics show that GPT-5.5 detection is mostly a length confound while Opus detection is a genuine stylistic signature. Given $T{=}20$ feedback iterations against the frozen detector, an Opus agent flips two of five held-out test mimics to the human half-space and shrinks every margin by an order of magnitude. With moderate effort against a known detector, a frontier LLM can already efficiently lower its own AI-detection probability. All code, $648$ mimic drafts, trained detectors, diagnostics, and adversarial trajectories are released.",
+      "url": "https://arxiv.org/abs/2605.02620",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "detection",
+        "human",
+        "ai",
+        "detector",
+        "opus",
+        "post",
+        "style",
+        "648",
+        "agentic",
+        "agentic research"
+      ],
+      "subject_classification": "agents",
+      "justification": "This paper tackles a highly relevant and timely issue \u2013 the AI text arms race and the ability of LLMs to evade detection. The use of 'agentic research' to rapidly reproduce and extend existing work is a significant methodological contribution, demonstrating a new paradigm for NLP research. The strong results, particularly the performance of GPT-5.5 and Claude Opus 4.7, suggest a substantial shift in the landscape of AI-generated text and its detectability, and the framing as an 'arms race' is compelling.",
+      "paper_id": "24f77883304c2a0cc384b24785cfa4d6"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.489617"
+  "last_updated": "2026-05-05T10:43:12.562676"
 }

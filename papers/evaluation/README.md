@@ -2,7 +2,7 @@
 
 This directory contains papers related to evaluation in large language models and AI.
 
-## Papers (15 total)
+## Papers (19 total)
 
 ### Can Large Language Models Match the Conclusions of Systematic Reviews?
 
@@ -12,6 +12,50 @@ arXiv:2505.22787v1 Announce Type: new
 Abstract: Systematic reviews (SR), in which experts summarize and analyze evidence across individual studies to provide insights on a specialized topic, are a co...
 
 [📄 Full Paper](https://arxiv.org/abs/2505.22787) | [📝 Analysis](71d4f123cc5164cd589c7f8354936f1d.md)
+
+---
+
+### Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Benjamin Warner, Ratna Sagari Grandhi, Max Kieffer, Aymane Ouraq, Saurav Panigrahi, Geetu Ambwani, Kunal Bagga, Nikhil Khandekar, Arya Hariharan, Nishant Mishra, Manish Ram, Shamus Sim Zi Yang, Ahmed Essouaied, Adepoju Jeremiah Moyondafoluwa, Robert Scholz, Bofeng Huang, Molly Beavers, Srishti Gureja, Anish Mahishi, Sameed Khan, Maxime Griot, Hunar Batra, Jean-Benoit Delbrouck, Siddhant Bharadwaj, Ronald Clark, Ashish Vashist, Anas Zafar, Leema Krishna Murali, Harsh Deshpande, Ameen Patel, William Brown, Johannes Hagemann, Connor Lane, Paul Steven Scotti, Tanishq Mathew Abraham
+
+arXiv:2605.01417v1 Announce Type: new 
+Abstract: Evaluating large language models (LLMs) for medical applications remains challenging due to benchmark saturation, limited data accessibility, and insuf...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01417) | [📝 Analysis](29d1bea5d856c71487bb4e4f1cff7c6b.md)
+
+---
+
+### MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Jialin Song, Xiaodong Liu, Weiwei Yang, Wuyang Chen, Mingqian Feng, Xuekai Zhu, Jianfeng Gao
+
+arXiv:2605.01687v1 Announce Type: new 
+Abstract: We present MultiBreak, a scalable and diverse multi-turn jailbreak benchmark to evaluate large language model (LLM) safety. Multi-turn jailbreaks mimic...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01687) | [📝 Analysis](3d00a75ac9b0846aa0e73bb21c2a5019.md)
+
+---
+
+### The Compliance Gap: Why AI Systems Promise to Follow Process Instructions but Don't
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Kwan Soo Shin
+
+arXiv:2605.01771v1 Announce Type: new 
+Abstract: An auditor instructs an AI assistant: "open each file individually using the Read tool -- no scripts, no agents." The AI replies "Yes" -- then issues a...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01771) | [📝 Analysis](e27e0c096bec7e2e12a9852d156c423e.md)
+
+---
+
+### HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Ahmed Cherif
+
+arXiv:2605.02443v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse natural language processing tasks, yet they remain susceptible to...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.02443) | [📝 Analysis](891e57c49f84fe9735d9604e0b8c618f.md)
 
 ---
 
@@ -170,4 +214,4 @@ Abstract: Processing structured tabular data, particularly large and lengthy tab
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*

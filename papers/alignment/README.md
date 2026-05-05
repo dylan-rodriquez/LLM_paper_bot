@@ -2,7 +2,29 @@
 
 This directory contains papers related to alignment in large language models and AI.
 
-## Papers (5 total)
+## Papers (7 total)
+
+### Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Vicent Briva-Iglesias
+
+arXiv:2605.01441v1 Announce Type: new 
+Abstract: AI language technologies (AILTs), increasingly enabled by large language models (LLMs), are becoming embedded in multilingual healthcare workflows for ...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01441) | [📝 Analysis](95324aa0eff1ee03048d4b4118f30445.md)
+
+---
+
+### Auditing demographic bias in AI-based emergency police dispatch: a cross-lingual evaluation of eleven large language models
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** William Guey, Wei Zhang, Pierrick Bougault, Yi Wang, Bertan Ucar, Vitor D. de Moura, Jos\'e O. Gomes
+
+arXiv:2605.01451v1 Announce Type: new 
+Abstract: Large language models (LLMs) are rapidly being integrated into high-stakes public safety systems, including emergency call triage and dispatch decision...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01451) | [📝 Analysis](f574500e411991a52f3a684f67c61908.md)
+
+---
 
 ### SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents
 
@@ -60,4 +82,4 @@ Abstract: Human preference data plays a critical role in aligning large language
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*

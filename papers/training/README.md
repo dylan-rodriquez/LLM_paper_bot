@@ -2,7 +2,18 @@
 
 This directory contains papers related to training in large language models and AI.
 
-## Papers (52 total)
+## Papers (53 total)
+
+### Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection
+
+**Score:** 90.0 | **Published:** 2026-05-05 | **Authors:** Priyadarshan Narayanasamy, Swastik Agrawal, Klint Faber, Fardina Fathmiul Alam
+
+arXiv:2605.01647v1 Announce Type: new 
+Abstract: Training-free AI text detection methods primarily rely on model log-probabilities, achieving strong performance through approaches like Binoculars and ...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01647) | [📝 Analysis](21fa70c9cb8b1d4f595b123465851ee5.md)
+
+---
 
 ### FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian
 
@@ -577,4 +588,4 @@ Abstract: Machine Learning (ML) techniques for Optimal Power Flow (OPF) problems
 ---
 
 
-*Last updated: 2025-05-30 13:44:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*
