@@ -415,7 +415,71 @@
       "subject_classification": "reasoning",
       "justification": "This paper addresses a highly relevant and timely problem \u2013 leveraging LLMs for climate finance analysis. The creation of a curated, expert-validated dataset is a strong methodological contribution. While the RAG comparison isn't groundbreaking in itself, identifying the retriever as a bottleneck is a valuable insight, and the mention of carbon-aware AI techniques adds further value. The work appears well-structured and clearly presented, suggesting a positive reception within the AI and climate communities.",
       "paper_id": "0d8848f8c2dc0ea72124b2968bef073b"
+    },
+    {
+      "title": "Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust Legal Adjudication",
+      "authors": [
+        "Stanis{\\l}aw S\\'ojka, Witold Kowalczyk"
+      ],
+      "abstract": "arXiv:2605.02472v1 Announce Type: new \nAbstract: Legal texts often contain computational legal clauses--provisions whose understanding requires complex logic. While frontier Large Reasoning Models (LRMs) can describe such clauses, building production-ready systems is limited by reasoning errors and the high cost of inference. We propose Amortized Intelligence, a neuro-symbolic approach where we use an LLM once to translate a legal text into Deterministic Autonomous Contract Language (DACL): a typed graph intermediate representation. Adjudication then relies on deterministic graph executions with a visually auditable trace. In comparison against runtime LRM baselines (including GPT-5.2 and Gemini 3 Pro), our DACL-based Agent achieves near-perfect consistency and mitigates the \"reasoning cliff\" observed in probabilistic models. The system reduces compute costs by over 90% in high-volume workflows while satisfying the strict auditability requirements of legal adjudication.",
+      "url": "https://arxiv.org/abs/2605.02472",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "legal",
+        "reasoning",
+        "adjudication",
+        "auditability",
+        "clauses",
+        "dacl",
+        "deterministic",
+        "graph",
+        "high",
+        "legal adjudication"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper addresses a crucial problem in applying LLMs to legal reasoning \u2013 reliability and cost. The neuro-symbolic approach of translating legal text into a deterministic graph representation (DACL) and then executing it is a strong methodology. The reported improvements in consistency, reduction of the 'reasoning cliff', and significant cost savings suggest a well-executed and impactful study.",
+      "paper_id": "1853dc2334025a8d4f4009ee23909d7e"
+    },
+    {
+      "title": "What Single-Prompt Accuracy Misses: A Multi-Variant Reliability Audit of Language Models",
+      "authors": [
+        "Ranit Karmakar, Jayita Chatterjee"
+      ],
+      "abstract": "arXiv:2605.02038v1 Announce Type: new \nAbstract: Single-prompt accuracy is the dominant way to benchmark language models, but it can miss reliability failures that matter. We evaluate a 15-model open-weight corpus, with the main reliability analyses focused on 10 instruct models across five classification and reasoning benchmarks under five prompt variants each, measuring accuracy, token-probability calibration, verbal-confidence calibration, verbal parse rate, and prompt-perturbation spread for every (model x dataset x variant) cell. We find three broad results. First, evaluation design can materially change the conclusion. Switching Expected Calibration Error (ECE) token from a raw to a label-set-normalised definition changes per-cell calibration by a mean absolute 0.149. More strikingly, pairing a chain-of-thought prompt with a first-character evaluator on ARC-Challenge reduces apparent accuracy by 72-88% across all five primary models; two independent repair procedures recover 93.8% and 102.7% of the lost performance, indicating an evaluator-side rather than model-side failure. Second, confidence signals are fragile. On MMLU-Pro, every primary model verbally reports confidence substantially above both its accuracy and its token-probability confidence on the same rows, and verbal parse rate can collapse for a single model on a single prompt variant. Third, prompt robustness does not track parameter count reliably. Across 10 instruct models, the correlation between model size and prompt-perturbation spread ranges from -0.244 to 0.474 across benchmarks. Taken together, these results show that reliability conclusions for small language models depend not only on the model being evaluated, but also on the evaluation pipeline used to measure it. We argue that calibration definitions, evaluator logic, verbal parseability, and prompt robustness should be reported explicitly when making reliability claims.",
+      "url": "https://arxiv.org/abs/2605.02038",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 75,
+      "impact_score": 80,
+      "sentiment_score": 88,
+      "keywords": [
+        "prompt",
+        "model",
+        "models",
+        "accuracy",
+        "calibration",
+        "reliability",
+        "confidence",
+        "single",
+        "verbal",
+        "evaluator"
+      ],
+      "subject_classification": "reasoning",
+      "justification": "This paper tackles a crucial issue in LLM evaluation \u2013 the unreliability of single-prompt accuracy. The multi-faceted approach, examining calibration and sensitivity to prompt variations, is rigorous and well-defined. The findings regarding the impact of evaluation design and prompt engineering are significant, suggesting current benchmarks may be misleading and require more nuanced assessment. The reported 72-88% accuracy drop with a specific prompt/evaluator pairing is a particularly striking result.",
+      "paper_id": "79eda8319cc13097d15b6f92bd2c4db4"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.544520"
+  "last_updated": "2026-05-05T10:43:12.561726"
 }

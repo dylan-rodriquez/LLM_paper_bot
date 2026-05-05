@@ -1663,7 +1663,39 @@
       "subject_classification": "training",
       "justification": "The paper addresses a relevant problem \u2013 the difficulty SLMs have with MTP \u2013 and proposes a reasonable solution using curriculum learning. The exploration of both forward and reverse curricula is a good approach. While MTP is a relatively new area, the work appears solid and well-motivated, though the level of novelty isn't groundbreaking. The potential to improve SLM performance with MTP is valuable, especially given the resource constraints often associated with smaller models.",
       "paper_id": "12ab24bf09f2216240eb4013cc457122"
+    },
+    {
+      "title": "Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection",
+      "authors": [
+        "Priyadarshan Narayanasamy, Swastik Agrawal, Klint Faber, Fardina Fathmiul Alam"
+      ],
+      "abstract": "arXiv:2605.01647v1 Announce Type: new \nAbstract: Training-free AI text detection methods primarily rely on model log-probabilities, achieving strong performance through approaches like Binoculars and DNA-DetectLLM. However, these methods face a fundamental ceiling as models are optimized through RLHF to produce human-like probability distributions. We introduce an alternative detection signal based on character distribution signatures. We provide theoretical foundations showing that AI models, trained on massive domain-balanced corpora, approximate global character patterns while humans exhibit domain-specialized distributions, creating a \"Wall of Separation\" where human-AI divergence significantly exceeds AI-AI divergence. To enable systematic evaluation, we construct the Models-Domains-Temperatures-Adversarials (MDTA) benchmark comprising 642,274 prompt-aligned samples across 4 models, 5 domains, 3 temperature settings, and 3 adversarial strategies, substantially expanding the HC3 dataset with modern model responses, temperature variation, and adversarial augmentation. We introduce the Letter Distribution Score (LD-Score), demonstrating low correlation (r = 0.08-0.13) with perplexity methods. When integrated with DNA-DetectLLM, Binoculars and FastDetectGPT via a non-linear classifier, LD-Score yields consistent improvements in AUROC and F1, with particularly pronounced gains in specialized domains where vocabulary constraints amplify the detection signal. The MDTA dataset can be accessed at: https://huggingface.co/datasets/nsp909/MDTA.",
+      "url": "https://arxiv.org/abs/2605.01647",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 90,
+      "innovation_score": 80,
+      "impact_score": 85,
+      "sentiment_score": 88,
+      "keywords": [
+        "ai",
+        "detection",
+        "mdta",
+        "models",
+        "character",
+        "distribution",
+        "domains",
+        "methods",
+        "score",
+        "adversarial"
+      ],
+      "subject_classification": "training",
+      "justification": "This paper tackles a crucial problem in the age of increasingly sophisticated AI text generation \u2013 reliable detection. The proposed approach, focusing on character distribution signatures, offers a compelling alternative to log-probability based methods which are becoming less effective due to RLHF. The creation of the MDTA benchmark is a significant contribution, providing a robust platform for evaluating AI text detection methods. The theoretical grounding of the 'Wall of Separation' concept is particularly strong.",
+      "paper_id": "21fa70c9cb8b1d4f595b123465851ee5"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.546088"
+  "last_updated": "2026-05-05T10:43:12.559473"
 }

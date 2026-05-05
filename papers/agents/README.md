@@ -2,7 +2,18 @@
 
 This directory contains papers related to agents in large language models and AI.
 
-## Papers (6 total)
+## Papers (7 total)
+
+### Beating the Style Detector: Three Hours of Agentic Research on the AI-Text Arms Race
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Andreas Maier, Moritz Zaiss, Siming Bayer
+
+arXiv:2605.02620v1 Announce Type: new 
+Abstract: Reproducing an empirical NLP study used to take weeks. Given the released data and a modern agentic-research harness, we redo every experiment of a rec...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.02620) | [📝 Analysis](24f77883304c2a0cc384b24785cfa4d6.md)
+
+---
 
 ### Disrupting Vision-Language Model-Driven Navigation Services via Adversarial Object Fusion
 
@@ -71,4 +82,4 @@ Abstract: Today's AI systems have human-designed, fixed architectures and cannot
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*

@@ -159,7 +159,39 @@
       "subject_classification": "theoretical",
       "justification": "High innovation indicators (score: 30); Strong impact potential (score: 24); Technical sophistication (score: 40)",
       "paper_id": "fe9862435743e7b42c4ea6b60fab74ca"
+    },
+    {
+      "title": "A Theoretical Game of Attacks via Compositional Skills",
+      "authors": [
+        "Xinbo Wu, Huan Zhang, Abhishek Umrawal, Lav R. Varshney"
+      ],
+      "abstract": "arXiv:2605.01034v1 Announce Type: new \nAbstract: As large language models grow increasingly capable, concerns about their safe deployment have intensified. While numerous alignment strategies aim to restrict harmful behavior, these defenses can still be circumvented through carefully designed adversarial prompts. In this work, we introduce a theoretical framework that formalizes a game between an attacker and a defender. Within this framework, we design a theoretical best-response attack strategy and show that it is closely related to many existing adversarial prompting methods. We further analyze the resulting game, characterize its equilibria, and reveal inherent advantages for the attacker. Drawing on our theoretical analysis, we also derive a provably optimal defense strategy. Empirically, we evaluate a practical instantiation of the theoretically optimal attack and observe stronger performance relative to existing adversarial prompting approaches in diverse settings encompassing different LLMs and benchmarks.",
+      "url": "https://arxiv.org/abs/2605.01034",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "theoretical",
+        "adversarial",
+        "game",
+        "adversarial prompting",
+        "attack",
+        "attacker",
+        "existing",
+        "existing adversarial",
+        "framework",
+        "optimal"
+      ],
+      "subject_classification": "theoretical",
+      "justification": "This paper tackles a crucial problem in LLM safety \u2013 adversarial prompting \u2013 with a rigorous, theoretical approach. Formalizing the attacker-defender interaction as a game is a strong methodological choice, and deriving both an optimal attack and defense strategy is promising. The empirical validation adds credibility, suggesting the theoretical framework translates to practical improvements, though the abstract only hints at the extent of these improvements.",
+      "paper_id": "f330988c3a5d14d5e20c96a743a3f2d4"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.488627"
+  "last_updated": "2026-05-05T10:43:12.555710"
 }

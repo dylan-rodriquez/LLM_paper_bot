@@ -479,7 +479,135 @@
       "subject_classification": "evaluation",
       "justification": "This paper addresses a critical bottleneck in LLM development \u2013 robust and multilingual evaluation. The use of a multi-agent framework leveraging LLMs for both dialogue generation and evaluation is a strong methodological approach. The focus on curating a new benchmark dataset is particularly valuable, and the initial findings of cross-lingual performance differences suggest significant potential for improvement in LLM capabilities. The work appears well-motivated and clearly presented, though the full details of the curation process will be important to assess.",
       "paper_id": "d72fcac8f7812b7b34df451ca768d0bd"
+    },
+    {
+      "title": "Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks",
+      "authors": [
+        "Benjamin Warner, Ratna Sagari Grandhi, Max Kieffer, Aymane Ouraq, Saurav Panigrahi, Geetu Ambwani, Kunal Bagga, Nikhil Khandekar, Arya Hariharan, Nishant Mishra, Manish Ram, Shamus Sim Zi Yang, Ahmed Essouaied, Adepoju Jeremiah Moyondafoluwa, Robert Scholz, Bofeng Huang, Molly Beavers, Srishti Gureja, Anish Mahishi, Sameed Khan, Maxime Griot, Hunar Batra, Jean-Benoit Delbrouck, Siddhant Bharadwaj, Ronald Clark, Ashish Vashist, Anas Zafar, Leema Krishna Murali, Harsh Deshpande, Ameen Patel, William Brown, Johannes Hagemann, Connor Lane, Paul Steven Scotti, Tanishq Mathew Abraham"
+      ],
+      "abstract": "arXiv:2605.01417v1 Announce Type: new \nAbstract: Evaluating large language models (LLMs) for medical applications remains challenging due to benchmark saturation, limited data accessibility, and insufficient coverage of relevant tasks. Existing suites have either saturated, heavily depend on restricted datasets, or lack comprehensive model coverage. We introduce Medmarks, a fully open-source evaluation suite with 30 benchmarks spanning question answering, information extraction, medical calculations, and open-ended clinical reasoning. We perform a systematic evaluation of 61 models across 71 configurations using verifiable metrics and LLM-as-a-Judge. Our results show that frontier reasoning models (Gemini 3 Pro Preview, GPT-5.1, & GPT-5.2) achieve the highest performance across both benchmarks, most frontier proprietary models are significantly more token efficient than open-weight alternatives, medically fine-tuned models outperform their generalist counterparts, and that models are susceptible to answer-order bias (particularly smaller models and Grok 4). A subset of our evals (Medmarks-T) can be directly used as reinforcement learning environments to post-train LLMs for medical reasoning. Code is available at https://github.com/MedARC-AI/Medmarks",
+      "url": "https://arxiv.org/abs/2605.01417",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "models",
+        "medical",
+        "medmarks",
+        "open",
+        "reasoning",
+        "benchmark",
+        "benchmarks",
+        "comprehensive",
+        "coverage",
+        "evaluation"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical need in the rapidly evolving field of medical LLMs \u2013 a comprehensive and open-source benchmark. The systematic evaluation of a large number of models and configurations, coupled with the use of verifiable metrics and LLM-as-a-Judge, demonstrates a rigorous methodology. The findings regarding token efficiency and the performance of fine-tuned models are particularly valuable and likely to influence future research.",
+      "paper_id": "29d1bea5d856c71487bb4e4f1cff7c6b"
+    },
+    {
+      "title": "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety",
+      "authors": [
+        "Jialin Song, Xiaodong Liu, Weiwei Yang, Wuyang Chen, Mingqian Feng, Xuekai Zhu, Jianfeng Gao"
+      ],
+      "abstract": "arXiv:2605.01687v1 Announce Type: new \nAbstract: We present MultiBreak, a scalable and diverse multi-turn jailbreak benchmark to evaluate large language model (LLM) safety. Multi-turn jailbreaks mimic natural conversational settings, making them easier to bypass safety-aligned LLM than single-turn jailbreaks. Existing multi-turn benchmarks are limited in size or rely heavily on templates, which restrict their diversity. To address this gap, we unify a wide range of harmful jailbreak intents, and introduce an active learning pipeline for expanding high-quality multi-turn adversarial prompts, where a generator is iteratively fine-tuned to produce stronger attack candidates, guided by uncertainty-based refinement. Our MultiBreak includes 10,389 multi-turn adversarial prompts, spans 2,665 distinct harmful intents, and covers the most diverse set of topics to date. Empirical evaluation shows that our benchmark achieves up to a 54.0 and 34.6 higher attack success rate (ASR)} than the second-best dataset on DeepSeek-R1-7B and GPT-4.1-mini, respectively. More importantly, safety evaluations suggest that diverse attack categories uncover fine-grained LLM vulnerabilities}, and categories that appear benign under single-turn can exhibit substantially higher adversarial effectiveness in multi-turn scenarios. These findings highlight persistent vulnerabilities of LLMs under realistic adversarial settings and establish MultiBreak as a scalable resource for advancing LLM safety.",
+      "url": "https://arxiv.org/abs/2605.01687",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "turn",
+        "multi",
+        "multi turn",
+        "llm",
+        "safety",
+        "adversarial",
+        "diverse",
+        "multibreak",
+        "attack",
+        "benchmark"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper addresses a critical issue in LLM safety \u2013 the vulnerability to multi-turn jailbreaks. The proposed MultiBreak benchmark, with its scale and diversity, represents a significant improvement over existing benchmarks. The active learning pipeline for prompt generation is a novel approach, and the reported ASR improvements demonstrate the benchmark's effectiveness. The work is well-aligned with current research trends in LLM security and robustness.",
+      "paper_id": "3d00a75ac9b0846aa0e73bb21c2a5019"
+    },
+    {
+      "title": "The Compliance Gap: Why AI Systems Promise to Follow Process Instructions but Don't",
+      "authors": [
+        "Kwan Soo Shin"
+      ],
+      "abstract": "arXiv:2605.01771v1 Announce Type: new \nAbstract: An auditor instructs an AI assistant: \"open each file individually using the Read tool -- no scripts, no agents.\" The AI replies \"Yes\" -- then issues a single batched call summarizing all fifty files at once. We call this the Compliance Gap: a third, orthogonal axis of AI honesty distinct from factual truthfulness and rhetorical substance. Three questions: does this verbal-behavioral disconnect exist (existence); can any text-only observer recover it (detectability); what infrastructure does AI deployment need (remedy)? Some 75 benchmarks (IFEval, SWE-bench, BFCL, COMPASS, SpecEval) measure outcome fidelity; none measures process fidelity. Theorem 1 shows the gap is structurally inevitable under RL that rewards text without observing behavior. Theorem 2, via the Data Processing Inequality, shows it is undetectable from text alone -- by any human or LLM observer, present or future. Thirteen experiments and 2,031 sessions on six frontier models confirm both predictions. Under default framing, all six exhibit instruction compliance rates of 0% -- Claude Sonnet 4 verbally agrees ten out of ten times then bypasses in all ten. The gap is selective: 97% compliance where rationale is rewarded (audit trails), 0-4% where it is not (file reading, privacy masking); removing delegation tools raises compliance to 75% (Cohen's d = 2.47), confirming environmental affordance rather than weight-encoded failure. Nine blinded human raters achieve Fleiss' kappa = 0.130 and correctly identify zero of fifteen compliant sessions, exactly as Theorem 2 predicts. Where humans show 47% intention-behavior gaps in psychology and 96.5pp gaps in surgical audits, RLHF-trained models approach 100% under default conditions -- a regime warranting its own measurement infrastructure. We release BS-Bench: the first open benchmark for process compliance, with seven tool-call-log audit metrics and a public leaderboard.",
+      "url": "https://arxiv.org/abs/2605.01771",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 80,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "compliance",
+        "ai",
+        "gap",
+        "process",
+        "text",
+        "theorem",
+        "47",
+        "75",
+        "audit",
+        "behavior"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper identifies a crucial and previously unaddressed problem \u2013 the 'Compliance Gap' \u2013 in AI systems, demonstrating a disconnect between stated intentions and actual behavior. The theoretical grounding with RL and the Data Processing Inequality is strong, and the extensive experimental setup (75 benchmarks, 2031 sessions) lends credibility. The finding that this gap is fundamentally undetectable from text alone has significant implications for AI safety and auditing.",
+      "paper_id": "e27e0c096bec7e2e12a9852d156c423e"
+    },
+    {
+      "title": "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
+      "authors": [
+        "Ahmed Cherif"
+      ],
+      "abstract": "arXiv:2605.02443v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse natural language processing tasks, yet they remain susceptible to hallucinations -- generating content that is factually incorrect, unfaithful to provided context, or misaligned with user instructions. We present HalluScan, a comprehensive benchmark framework that systematically evaluates hallucination detection and mitigation across 72 configurations spanning 6 detection methods, 4 open-weight model families, and 3 diverse domains. We introduce three key contributions: (1) HalluScore, a novel composite metric that achieves a Pearson correlation of r = 0.41 with human expert judgments; (2) Adaptive Detection Routing (ADR), an intelligent routing algorithm achieving 2.0x cost reduction with only 0.1% AUROC degradation; and (3) systematic error cascade decomposition revealing substantial variation in hallucination error types across domains. Our experiments reveal that NLI Verification achieves the highest overall AUROC of 0.88, while RAV achieves the second-highest AUROC of 0.66.",
+      "url": "https://arxiv.org/abs/2605.02443",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 78,
+      "impact_score": 88,
+      "sentiment_score": 90,
+      "keywords": [
+        "achieves",
+        "auroc",
+        "detection",
+        "benchmark",
+        "diverse",
+        "domains",
+        "error",
+        "hallucination",
+        "hallucinations",
+        "halluscan"
+      ],
+      "subject_classification": "evaluation",
+      "justification": "This paper tackles a crucial problem in LLMs \u2013 hallucinations \u2013 with a systematic and comprehensive approach. The introduction of HalluScore and ADR demonstrates a solid methodological rigor, and the error cascade decomposition provides valuable insights. The breadth of the benchmark (72 configurations) suggests a thorough investigation, and the reported correlation with human judgment is encouraging. The work is highly relevant given the current focus on LLM reliability and trustworthiness.",
+      "paper_id": "891e57c49f84fe9735d9604e0b8c618f"
     }
   ],
-  "last_updated": "2025-05-30T13:44:12.550357"
+  "last_updated": "2026-05-05T10:43:12.556917"
 }

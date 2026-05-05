@@ -159,7 +159,71 @@
       "subject_classification": "alignment",
       "justification": "Contains key LLM terms (bonus: 15)",
       "paper_id": "27dad59e7ac7e53184138273941c05bf"
+    },
+    {
+      "title": "Artificial intelligence language technologies in multilingual healthcare: Grand challenges ahead",
+      "authors": [
+        "Vicent Briva-Iglesias"
+      ],
+      "abstract": "arXiv:2605.01441v1 Announce Type: new \nAbstract: AI language technologies (AILTs), increasingly enabled by large language models (LLMs), are becoming embedded in multilingual healthcare workflows for translation, rewriting, documentation, interpreting, and messaging in language-discordant settings. Yet fluent output is not the same as clinically safe or equitable communication: performance varies across languages, accents, tasks, and workflows, and efficiency gains can hide errors, reduce traceability, and shift responsibility across clinicians, translators, interpreters, and health systems. This narrative review synthesises recent peer-reviewed evidence across written communication, spoken communication, and emerging agentic workflows. Using the Human-Centered AI Language Technology (HCAILT) lens, it examines capabilities, evaluation practices, implementation patterns, and recurrent errors through reliability, safety culture, and trustworthiness. We identify key convergences and contradictions in the literature and propose seven grand challenges for the next phase of research and deployment. Progress, we argue, requires not only better models but also accountable sociotechnical design, calibrated human oversight, and stronger collaboration across MT/NLP, translation studies, HCI, clinical practice, implementation science, and policy.",
+      "url": "https://arxiv.org/abs/2605.01441",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 65,
+      "impact_score": 85,
+      "sentiment_score": 80,
+      "keywords": [
+        "language",
+        "communication",
+        "workflows",
+        "ai",
+        "ai language",
+        "challenges",
+        "errors",
+        "grand",
+        "grand challenges",
+        "healthcare"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This paper addresses a highly significant and timely problem \u2013 the safe and equitable implementation of AI language technologies in multilingual healthcare. The use of a 'Human-Centered AI Language Technology' (HCAILT) lens is a strong methodological approach. While the abstract suggests a review rather than novel research, the focus on reliability, safety, and trustworthiness is crucial, and the identification of convergences and contradictions will be valuable. The potential for real-world impact is high, given the increasing reliance on AILTs in healthcare.",
+      "paper_id": "95324aa0eff1ee03048d4b4118f30445"
+    },
+    {
+      "title": "Auditing demographic bias in AI-based emergency police dispatch: a cross-lingual evaluation of eleven large language models",
+      "authors": [
+        "William Guey, Wei Zhang, Pierrick Bougault, Yi Wang, Bertan Ucar, Vitor D. de Moura, Jos\\'e O. Gomes"
+      ],
+      "abstract": "arXiv:2605.01451v1 Announce Type: new \nAbstract: Large language models (LLMs) are rapidly being integrated into high-stakes public safety systems, including emergency call triage and dispatch decision support, yet their demographic fairness in this context remains largely untested. Here we introduce a cross-lingual audit framework that operationalizes the Police Priority Dispatch System as a five-level ordinal classification task and applies a controlled minimal-pair design to isolate the effect of demographic cues. Across 19,800 model outputs spanning 11 frontier models, 15 scenario pairs, three demographic categories (religious appearance, gender, and race), and two languages (English and Mandarin Chinese), we find that demographic bias emerges systematically when incident severity is ambiguous but largely disappears when the operational priority is clearly determined by call content. Bias magnitude varies by demographic axis, with the largest effects observed for religious appearance, followed by gender and race. Critically, bias does not transfer consistently across languages: gender bias is substantially amplified in Mandarin Chinese, whereas race bias is more pronounced in English, revealing cross-lingual asymmetries that aggregate analyses obscure. In several scenarios, demographic cues produce counter-directional effects, challenging simple stereotype-amplification accounts of model behavior. These findings suggest that bias in LLM-based dispatch is not a fixed property of models alone, but arises from the interaction between demographic signals, contextual ambiguity, and language. Beyond these empirical results, the proposed framework provides a scalable audit infrastructure that enables deploying agencies to evaluate candidate models on jurisdiction-relevant scenarios prior to real-world adoption.",
+      "url": "https://arxiv.org/abs/2605.01451",
+      "published_date": "2026-05-05T00:00:00",
+      "source": "arXiv RSS",
+      "categories": [
+        "cs.CL"
+      ],
+      "significance_score": 92,
+      "innovation_score": 75,
+      "impact_score": 88,
+      "sentiment_score": 80,
+      "keywords": [
+        "demographic",
+        "bias",
+        "models",
+        "dispatch",
+        "cross",
+        "cross lingual",
+        "gender",
+        "language",
+        "lingual",
+        "race"
+      ],
+      "subject_classification": "alignment",
+      "justification": "This research tackles a critically important and timely problem \u2013 bias in AI systems used for emergency dispatch. The cross-lingual audit framework and minimal-pair design are robust methodologies, and the scale of the evaluation (11 LLMs, 19,800 outputs) is impressive. While the core idea of auditing for bias isn't entirely novel, the specific application to emergency dispatch and the cross-lingual aspect add significant value, suggesting a high likelihood of positive reception within the AI safety and fairness communities.",
+      "paper_id": "f574500e411991a52f3a684f67c61908"
     }
   ],
-  "last_updated": "2025-05-30T11:01:12.496309"
+  "last_updated": "2026-05-05T10:43:12.558173"
 }

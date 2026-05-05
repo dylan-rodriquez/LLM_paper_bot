@@ -2,7 +2,18 @@
 
 This directory contains papers related to theoretical in large language models and AI.
 
-## Papers (5 total)
+## Papers (6 total)
+
+### A Theoretical Game of Attacks via Compositional Skills
+
+**Score:** 92.0 | **Published:** 2026-05-05 | **Authors:** Xinbo Wu, Huan Zhang, Abhishek Umrawal, Lav R. Varshney
+
+arXiv:2605.01034v1 Announce Type: new 
+Abstract: As large language models grow increasingly capable, concerns about their safe deployment have intensified. While numerous alignment strategies aim to r...
+
+[📄 Full Paper](https://arxiv.org/abs/2605.01034) | [📝 Analysis](f330988c3a5d14d5e20c96a743a3f2d4.md)
+
+---
 
 ### ExpeTrans: LLMs Are Experiential Transfer Learners
 
@@ -60,4 +71,4 @@ Abstract: Multilook coherent imaging is a widely used technique in applications 
 ---
 
 
-*Last updated: 2025-05-30 11:01:12 UTC*
+*Last updated: 2026-05-05 10:43:12 UTC*
